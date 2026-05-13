@@ -8,6 +8,7 @@ use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Gadget;
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\RichEditor;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\Select;
@@ -58,7 +59,10 @@ class GadgetResource extends Resource
                 TextInput::make('old_price')->numeric()->prefix('NPR')->nullable()->label('Old Price'),
             ])->columns(2),
 
+            // ── Media ────────────────────────────────────────────────────────────
             Section::make('Media')->schema([
+
+                // Cover thumbnail (stored on gadgets table)
                 FileUpload::make('image')
                     ->label('Cover / Thumbnail Image')
                     ->image()
@@ -66,7 +70,40 @@ class GadgetResource extends Resource
                     ->directory('gadgets')
                     ->imagePreviewHeight('150')
                     ->nullable()
-                    ->helperText('This is the primary thumbnail shown in listings. Use the Images tab below to add a full gallery.'),
+                    ->helperText('Primary thumbnail shown in product listings.'),
+
+                // ── Product Gallery (stored in gadget_images table) ──────────────
+                Repeater::make('images')
+                    ->label('Product Gallery Images')
+                    ->relationship('images')
+                    ->schema([
+                        FileUpload::make('image')
+                            ->label('Image')
+                            ->image()
+                            ->disk('public')
+                            ->directory('gadgets/gallery')
+                            ->imagePreviewHeight('120')
+                            ->required()
+                            ->columnSpan(2),
+                        TextInput::make('alt_text')
+                            ->label('Alt Text')
+                            ->placeholder('e.g. Front view of Notebook Pro')
+                            ->maxLength(255)
+                            ->nullable(),
+                        TextInput::make('order')
+                            ->label('Sort Order')
+                            ->numeric()
+                            ->default(0),
+                    ])
+                    ->columns(4)
+                    ->addActionLabel('+ Add Image')
+                    ->reorderable('order')
+                    ->collapsible()
+                    ->defaultItems(0)
+                    ->helperText('Add multiple product images. Drag to reorder. Each image appears in the product gallery.')
+                    ->columnSpanFull(),
+
+                // 3D / embed
                 FileUpload::make('model_3d')->disk('public')->directory('gadgets/3d')->nullable()->label('3D Model (.glb)'),
                 TextInput::make('sketchfab_embed')->nullable()->label('Sketchfab Embed Code'),
             ]),
@@ -104,11 +141,11 @@ class GadgetResource extends Resource
     public static function getRelationManagers(): array
     {
         return [
-            RelationManagers\ProductVariantsRelationManager::class, // SKU-based variant system
-            RelationManagers\VariantsRelationManager::class,         // Legacy attribute options
-            RelationManagers\ImagesRelationManager::class,
+            RelationManagers\ProductVariantsRelationManager::class,
+            RelationManagers\VariantsRelationManager::class,
             RelationManagers\SpecsRelationManager::class,
             RelationManagers\PriceHistoryRelationManager::class,
+            // ImagesRelationManager removed — gallery is now inline in the form above
         ];
     }
 
