@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* ===== KEYFRAMES ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ===== ANIMATION UTILITIES ===== */
+@layer utilities {
+  .animate-fade-in-up    { animation: fadeInUp    0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .animate-fade-in       { animation: fadeIn      0.35s ease-out both; }
+  .animate-slide-left    { animation: slideInLeft 0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .animate-slide-right   { animation: slideInRight 0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .animate-scale-in      { animation: scaleIn     0.35s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+  /* animation-delay stagger utilities (Tailwind's delay-* only sets transition-delay) */
+  .anim-delay-75  { animation-delay:  75ms; }
+  .anim-delay-100 { animation-delay: 100ms; }
+  .anim-delay-150 { animation-delay: 150ms; }
+  .anim-delay-200 { animation-delay: 200ms; }
+  .anim-delay-250 { animation-delay: 250ms; }
+  .anim-delay-300 { animation-delay: 300ms; }
+  .anim-delay-400 { animation-delay: 400ms; }
+  .anim-delay-500 { animation-delay: 500ms; }
+  .anim-delay-600 { animation-delay: 600ms; }
+}
+
+/* ===== INERTIA PAGE TRANSITION ===== */
+.page-enter-active {
+  transition: opacity 0.28s ease-out, transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.page-leave-active {
+  transition: opacity 0.16s ease-in, transform 0.16s ease-in;
+}
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(16px);
+}
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
