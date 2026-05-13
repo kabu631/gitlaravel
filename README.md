@@ -1,4 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# GitInfosys Laravel Project
+
+## Overview
+This repository contains a Laravel-based web application for managing travel packages, user authentication, and administrative functionalities. The project demonstrates clean architecture, modern Laravel conventions, and includes a sample SQL schema for quick setup.
+
+## Features
+- User registration, login, and email verification.
+- Admin dashboard with CRUD operations for travel packages.
+- Responsive UI powered by Tailwind CSS and Vite.
+- Database migrations and seeders for sample data.
+- Comprehensive test suite using PHPUnit.
+
+## Prerequisites
+- PHP >= 8.1
+- Composer
+- Node.js and npm (for frontend assets)
+- Git
+
+## Installation
+```bash
+# Clone the repository
+git clone https://github.com/kabu631/gitlaravel.git
+cd gitlaravel
+
+# Install PHP dependencies
+composer install
+
+# Install frontend dependencies
+npm install
+
+# Copy environment file and generate app key
+cp .env.example .env
+php artisan key:generate
+
+# Set up SQLite database (optional) or configure MySQL in .env
+php artisan migrate --seed
+
+# Build assets
+npm run dev
+
+# Serve the application
+php artisan serve
+```
+
+## Database
+A sample SQLite database schema is provided in `database/project.sql`. To import it:
+```bash
+sqlite3 database/database.sqlite < database/project.sql
+```
+Alternatively, run Laravel migrations to create the tables.
+
+## Testing
+Run the test suite with:
+```bash
+php artisan test
+```
+
+## License
+This project is open‑sourced under the MIT License.
+
+---
+*This README was generated and customized by Antigravity, an AI coding assistant.*
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
