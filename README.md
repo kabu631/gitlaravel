@@ -1,119 +1,247 @@
-# GitInfosys Laravel Project
+# GitInfosys Laravel — Gadget E-Commerce Portal
 
-## Overview
-This repository contains a Laravel-based web application for managing travel packages, user authentication, and administrative functionalities. The project demonstrates clean architecture, modern Laravel conventions, and includes a sample SQL schema for quick setup.
+A full-featured **gadget and electronics e-commerce platform** built with **Laravel 13**, **Inertia.js**, **Vue 3**, and **Tailwind CSS**. The application includes a public storefront for browsing, comparing, and purchasing gadgets, along with a powerful **Filament v5** admin panel for managing all content and orders.
 
-## Features
-- User registration, login, and email verification.
-- Admin dashboard with CRUD operations for travel packages.
-- Responsive UI powered by Tailwind CSS and Vite.
-- Database migrations and seeders for sample data.
-- Comprehensive test suite using PHPUnit.
+---
 
-## Prerequisites
-- PHP >= 8.1
-- Composer
-- Node.js and npm (for frontend assets)
-- Git
+## 🚀 Features
 
-## Installation
+### Public Storefront
+- **Homepage** — Hero slider, featured gadgets, latest news, and brand showcase
+- **Product Catalog** — Browse gadgets with filtering by brand and category
+- **Product Detail** — Specifications, price history, variants, images, and user comments
+- **Shopping Cart** — Add/remove items, update quantities, variant selection
+- **Checkout & Orders** — Place orders with shipping details, order success confirmation
+- **Brand Pages** — View all products from a specific brand
+- **News & Articles** — Tech news with full article pages
+- **Reviews** — Detailed gadget reviews with reactions
+- **Tech Guides** — How-to guides and tutorials
+- **Product Comparison** — Compare gadgets side-by-side with AI-powered suggestions
+- **PC Builder** — AI-assisted custom PC build recommendations
+- **AI Chatbot** — Integrated chatbot powered by NVIDIA NIM API
+- **Search** — Global search across all products
+- **Wishlist** — Save favorite products (requires login)
+- **User Profile** — Edit profile, view order history
+- **Sitemap** — Auto-generated XML sitemap for SEO
+- **Static Pages** — About, Contact (with form), Services, Terms & Conditions, Privacy Policy
+
+### Admin Panel (Filament v5)
+- **Dashboard** — Overview widgets and statistics
+- **Gadget Management** — Create/edit products with images, specs, variants, and pricing
+- **Brand Management** — Manage brands with logos
+- **Category Management** — Organize products into categories
+- **Order Management** — View and manage customer orders
+- **Product Variants** — Manage color/storage/RAM variants with individual pricing
+- **Slider Management** — Control homepage hero slider content
+- **News Articles** — Publish and manage news content
+- **Reviews** — Create and manage product reviews
+- **Tech Guides** — Publish tutorial content
+- **Page Content** — Manage static page content dynamically
+
+---
+
+## 🛠 Tech Stack
+
+| Layer        | Technology                          |
+|--------------|-------------------------------------|
+| Backend      | PHP 8.3+, Laravel 13                |
+| Frontend     | Vue 3, Inertia.js v2                |
+| Styling      | Tailwind CSS 3, @tailwindcss/forms  |
+| Admin Panel  | Filament v5                         |
+| Auth         | Laravel Breeze                      |
+| Build Tool   | Vite 8                              |
+| Database     | SQLite (default) / MySQL            |
+| AI Features  | NVIDIA NIM API                      |
+| Charts       | Chart.js                            |
+| Routing      | Ziggy (Laravel routes in JS)        |
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+- **PHP** >= 8.3
+- **Composer** >= 2.x
+- **Node.js** >= 18.x and **npm**
+- **Git**
+
+### Step-by-Step Setup
+
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/kabu631/gitlaravel.git
 cd gitlaravel
 
-# Install PHP dependencies
+# 2. Install PHP dependencies
 composer install
 
-# Install frontend dependencies
+# 3. Install Node.js dependencies
 npm install
 
-# Copy environment file and generate app key
+# 4. Create environment file
 cp .env.example .env
+
+# 5. Generate application key
 php artisan key:generate
 
-# Set up SQLite database (optional) or configure MySQL in .env
-php artisan migrate --seed
+# 6. Create SQLite database file
+# On Windows:
+New-Item database/database.sqlite -ItemType File
+# On Linux/Mac:
+# touch database/database.sqlite
 
-# Build assets
-npm run dev
+# 7. Run database migrations
+php artisan migrate
 
-# Serve the application
+# 8. Seed the database with demo data
+php artisan db:seed
+
+# 9. Create storage symlink (for uploaded images)
+php artisan storage:link
+
+# 10. Build frontend assets
+npm run build
+
+# 11. Start the development server
 php artisan serve
 ```
 
-## Database
-A sample SQLite database schema is provided in `database/project.sql`. To import it:
-```bash
-sqlite3 database/database.sqlite < database/project.sql
-```
-Alternatively, run Laravel migrations to create the tables.
+The application will be available at **http://localhost:8000**
 
-## Testing
-Run the test suite with:
+### Running in Development Mode (with hot-reload)
+
 ```bash
-php artisan test
+# Start all services concurrently (server + vite + queue + logs)
+composer dev
 ```
 
-## License
-This project is open‑sourced under the MIT License.
+Or run them separately in different terminals:
+
+```bash
+# Terminal 1: Laravel server
+php artisan serve
+
+# Terminal 2: Vite dev server (hot-reload for frontend)
+npm run dev
+```
 
 ---
-*This README was generated and customized by Antigravity, an AI coding assistant.*
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 🔐 Demo Login Credentials
 
-## About Laravel
+### Regular User
+| Field    | Value                |
+|----------|----------------------|
+| Email    | `test@example.com`   |
+| Password | `password`           |
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Admin Panel Access
+1. Navigate to **http://localhost:8000/admin**
+2. Log in with the demo user credentials above
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+| Field    | Value                |
+|----------|----------------------|
+| Email    | `test@example.com`   |
+| Password | `password`           |
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+> **Note:** The demo user is created via database seeder. Run `php artisan db:seed` if the user doesn't exist.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🗄 Database
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Using SQLite (Default)
+The project uses SQLite by default. The database file is created at `database/database.sqlite`.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+### Using MySQL
+To switch to MySQL, update the `.env` file:
 
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
-
-```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=gitlaravel
+DB_USERNAME=root
+DB_PASSWORD=your_password
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+Then run migrations:
+```bash
+php artisan migrate --seed
+```
 
-## Contributing
+### SQL Schema
+A standalone SQL schema file is available at `database/project.sql` for reference.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🧪 Testing
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+# Run all tests
+php artisan test
 
-## Security Vulnerabilities
+# Run with coverage
+php artisan test --coverage
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 📁 Project Structure
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+gitlaravel/
+├── app/
+│   ├── Console/              # Artisan commands
+│   ├── Filament/             # Admin panel resources & widgets
+│   │   ├── Resources/        # CRUD resources (Gadgets, Brands, Orders, etc.)
+│   │   └── Widgets/          # Dashboard widgets
+│   ├── Http/
+│   │   ├── Controllers/      # 17 controllers for all features
+│   │   ├── Middleware/        # Custom middleware
+│   │   └── Requests/         # Form request validation
+│   ├── Models/               # 19 Eloquent models
+│   └── Providers/            # Service providers
+├── database/
+│   ├── factories/            # Model factories
+│   ├── migrations/           # 21 migration files
+│   ├── seeders/              # Database seeders
+│   └── project.sql           # Standalone SQL schema
+├── resources/
+│   ├── css/                  # Stylesheets
+│   ├── js/
+│   │   ├── Components/       # Reusable Vue components
+│   │   ├── Composables/      # Vue composables
+│   │   ├── Layouts/          # Page layouts
+│   │   └── Pages/            # 14 page modules (Home, Gadgets, Cart, etc.)
+│   └── views/                # Blade templates
+├── routes/
+│   ├── web.php               # Public & authenticated routes
+│   └── auth.php              # Authentication routes
+├── public/                   # Public assets
+├── config/                   # Configuration files
+├── tests/                    # PHPUnit test suite
+└── storage/                  # Uploads, logs, cache
+```
+
+---
+
+## ⚙️ Environment Variables
+
+Key environment variables in `.env`:
+
+| Variable         | Description                        | Default              |
+|------------------|------------------------------------|----------------------|
+| `APP_NAME`       | Application name                   | `Laravel`            |
+| `APP_URL`        | Base URL                           | `http://localhost`   |
+| `DB_CONNECTION`  | Database driver                    | `sqlite`             |
+| `DB_DATABASE`    | Database name/path                 | `database.sqlite`    |
+| `NVIDIA_API_KEY` | API key for AI features (chatbot, compare, PC builder) | _(empty)_ |
+
+> **AI Features:** To enable the AI chatbot, product comparison suggestions, and PC builder recommendations, get a free API key from [NVIDIA NIM](https://build.nvidia.com/) and set `NVIDIA_API_KEY` in your `.env` file.
+
+---
+
+## 📄 License
+
+This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
