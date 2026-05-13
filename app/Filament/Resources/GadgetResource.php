@@ -59,7 +59,14 @@ class GadgetResource extends Resource
             ])->columns(2),
 
             Section::make('Media')->schema([
-                FileUpload::make('image')->image()->disk('public')->directory('gadgets')->nullable(),
+                FileUpload::make('image')
+                    ->label('Cover / Thumbnail Image')
+                    ->image()
+                    ->disk('public')
+                    ->directory('gadgets')
+                    ->imagePreviewHeight('150')
+                    ->nullable()
+                    ->helperText('This is the primary thumbnail shown in listings. Use the Images tab below to add a full gallery.'),
                 FileUpload::make('model_3d')->disk('public')->directory('gadgets/3d')->nullable()->label('3D Model (.glb)'),
                 TextInput::make('sketchfab_embed')->nullable()->label('Sketchfab Embed Code'),
             ]),
