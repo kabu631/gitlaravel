@@ -6,6 +6,7 @@ use App\Filament\Resources\GadgetResource\Pages;
 use App\Filament\Resources\GadgetResource\RelationManagers;
 use App\Models\Brand;
 use App\Models\Category;
+use App\Models\AccessoryType;
 use App\Models\Gadget;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Repeater;
@@ -48,10 +49,22 @@ class GadgetResource extends Resource
                     ])->required(),
                 Select::make('category_id')->label('Category')->relationship('category', 'name')
                     ->searchable()->preload()->nullable(),
-                Select::make('accessory_type')->options([
-                    'monitor' => 'Monitor', 'mouse' => 'Mouse', 'keyboard' => 'Keyboard',
-                    'headphone' => 'Headphone', 'printer' => 'Printer', 'pc_build' => 'PC Build',
-                ])->nullable()->label('Accessory Type'),
+                Select::make('accessory_type')
+                    ->label('Accessory Type')
+                    ->options(fn() => AccessoryType::orderBy('name')->pluck('name', 'slug')->toArray())
+                    ->searchable()
+                    ->nullable()
+                    ->createOptionForm([
+                        TextInput::make('name')->required()->maxLength(100)
+                            ->live(onBlur: true)
+                            ->afterStateUpdated(fn($state, $set) => $set('slug', \Illuminate\Support\Str::slug($state))),
+                        TextInput::make('slug')->required()->maxLength(100),
+                    ])
+                    ->createOptionUsing(function (array $data) {
+                        $type = AccessoryType::create($data);
+                        return $type->slug;
+                    })
+                    ->helperText('Select an existing type or click "+" to add a new one.'),
             ])->columns(2),
 
             Section::make('Pricing')->schema([

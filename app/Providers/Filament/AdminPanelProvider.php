@@ -28,7 +28,7 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->default()
             ->id('admin')
-            ->path('admin')
+            ->path(env('FILAMENT_PATH', 'secure-admin'))
             ->login()
             ->brandName('Git Infosys Admin')
             ->colors(['primary' => Color::Violet])
