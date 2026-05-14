@@ -35,12 +35,13 @@ class AccessoryTypeResource extends Resource
                 TextInput::make('name')
                     ->required()
                     ->maxLength(100)
+                    ->unique(ignoreRecord: true)
                     ->live(onBlur: true)
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state))),
                 TextInput::make('slug')
-                    ->required()
                     ->maxLength(100)
-                    ->helperText('Auto-generated from name. You can customise it.'),
+                    ->nullable()
+                    ->helperText('Auto-generated from name. Leave blank to auto-fill.'),
             ]);
     }
 
