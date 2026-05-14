@@ -8,9 +8,6 @@ use Inertia\Inertia;
 
 class PCBuilderController extends Controller
 {
-    private const ENDPOINT = 'https://integrate.api.nvidia.com/v1/chat/completions';
-    private const MODEL     = 'meta/llama-3.1-70b-instruct';
-
     public function index()
     {
         return Inertia::render('PCBuilder/Index');
@@ -31,11 +28,6 @@ class PCBuilderController extends Controller
             'case'        => 'nullable|string|max:100',
         ]);
 
-        $apiKey = config('services.nvidia.key');
-        if (!$apiKey) {
-            return response()->json(['error' => 'AI service not configured. Add NVIDIA_API_KEY to .env'], 503);
-        }
-
         $budget = number_format((int) $request->budget);
         $parts  = collect([
             'CPU'         => $request->cpu,
@@ -48,43 +40,64 @@ class PCBuilderController extends Controller
             'Case'        => $request->case,
         ])->filter()->map(fn($v, $k) => "- $k: $v")->implode("\n");
 
-        $userMessage = "Build a PC recommendation for Nepal's market.
+        $prompt = "Build a PC recommendation for Nepal's market.\n\n"
+            . "Budget: NPR {$budget}\n"
+            . "Purpose: {$request->purpose}\n"
+            . ($parts ? "Preferred components:\n{$parts}" : "No components pre-selected.")
+            . "\n\nProvide a complete PC build with these sections:\n"
+            . "1. **Recommended Build** - Every component (CPU, GPU, RAM, Storage, Motherboard, PSU, Cooling, Case) with specific model names and estimated NPR prices\n"
+            . "2. **Total Estimated Cost** - Sum of all components\n"
+            . "3. **Performance Summary** - What this build handles for the stated purpose\n"
+            . "4. **Compatibility Notes** - Important compatibility checks\n"
+            . "5. **Upgrade Path** - What to upgrade first if budget increases\n\n"
+            . "IMPORTANT: Do NOT recommend any rival stores (like Hukut, Daraz, Nagmani, etc). Tell the user they can buy all these components directly from Git Infosys.\n"
+            . "Use realistic Nepal market prices in NPR.";
 
-Budget: NPR {$budget}
-Purpose: {$request->purpose}
-" . ($parts ? "Preferred components:\n{$parts}" : "No components pre-selected.") . "
+        $openRouterKey = config('services.openrouter.key');
+        if (!$openRouterKey) {
+            return response()->json([
+                'error' => 'AI service is not configured. Please add OPENROUTER_API_KEY to your .env file.',
+            ], 503);
+        }
 
-Provide a complete PC build with these sections:
-1. **Recommended Build** - Every component (CPU, GPU, RAM, Storage, Motherboard, PSU, Cooling, Case) with specific model names and estimated NPR prices
-2. **Total Estimated Cost** - Sum of all components
-3. **Performance Summary** - What this build handles for the stated purpose
-4. **Compatibility Notes** - Important compatibility checks
-5. **Where to Buy in Nepal** - Daraz, Hukut, Nagmani IT, CG Digital, etc.
-6. **Upgrade Path** - What to upgrade first if budget increases
+        $text = $this->callOpenRouter($openRouterKey, $prompt);
+        if (!$text) {
+            return response()->json([
+                'error' => 'The AI service is currently overwhelmed (Rate Limit). Please try again in a moment.',
+            ], 500);
+        }
 
-Use realistic Nepal market prices in NPR.";
+        return response()->json(['recommendation' => $text]);
+    }
 
-        $response = Http::timeout(45)
+    // ── OpenRouter API (Free Tier) ───────────────────────────────────────────
+    private function callOpenRouter(string $key, string $prompt): ?string
+    {
+        $response = Http::timeout(60)
             ->withoutVerifying()
-            ->withToken($apiKey)
-            ->post(self::ENDPOINT, [
-                'model'       => self::MODEL,
-                'messages'    => [
+            ->withToken($key)
+            ->post('https://openrouter.ai/api/v1/chat/completions', [
+                'model' => 'openrouter/free',
+                'messages' => [
                     [
-                        'role'    => 'system',
-                        'content' => 'You are an expert PC builder specializing in Nepal\'s computer hardware market. You know current component prices in NPR and local availability. Always recommend specific models with realistic NPR prices.',
+                        'role' => 'system',
+                        'content' => 'You are an expert PC builder acting on behalf of Git Infosys in Nepal. You know current component prices in NPR. Always recommend specific models with realistic NPR prices. NEVER mention or recommend competitors like Hukut, Daraz, Nagmani IT, or CG Digital. Always tell users they can purchase their build from Git Infosys.'
                     ],
-                    ['role' => 'user', 'content' => $userMessage],
+                    [
+                        'role' => 'user',
+                        'content' => $prompt
+                    ]
                 ],
-                'max_tokens'  => 2048,
+                'max_tokens' => 4096,
                 'temperature' => 0.6,
             ]);
 
         if ($response->failed()) {
-            return response()->json(['error' => 'AI request failed: ' . $response->body()], 500);
+            \Log::error('OpenRouter API failed', ['status' => $response->status(), 'body' => $response->body()]);
+            return null;
         }
 
-        $text = $response->json('choices.0.message.content') ?? 'No recommendation received.';
-        return response()->json(['recommendation' => $text]);
+        return $response->json('choices.0.message.content');
     }
+
 }

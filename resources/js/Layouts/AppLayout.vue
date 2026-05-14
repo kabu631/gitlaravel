@@ -137,7 +137,12 @@
         </div>
 
         <div class="flex items-center gap-1.5">
-          <!-- Search trigger button -->
+          <!-- Search trigger: icon-only on mobile, full bar on desktop -->
+          <button @click="openSearch"
+                  class="flex sm:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+                  title="Search">
+            <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/></svg>
+          </button>
           <button @click="openSearch"
                   class="hidden sm:flex items-center gap-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700 hover:border-violet-400 dark:hover:border-violet-600 rounded-lg px-3 py-1.5 transition-all duration-200 group">
             <svg class="w-4 h-4 text-gray-400 group-hover:text-violet-500 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/></svg>

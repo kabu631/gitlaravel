@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ContactMessage;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
 use App\Models\PageContent;
@@ -89,12 +90,15 @@ class PageController extends Controller
 
     public function contactStore(Request $request)
     {
-        $request->validate([
+        $validated = $request->validate([
             'name'    => 'required|string|max:100',
             'email'   => 'required|email|max:150',
+            'phone'   => 'required|string|max:20',
             'subject' => 'required|string|max:200',
             'message' => 'required|string|max:5000',
         ]);
+
+        ContactMessage::create($validated);
 
         return back()->with('success', 'Your message has been sent. We\'ll get back to you soon!');
     }
