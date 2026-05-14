@@ -207,7 +207,7 @@
 
                   <a
                     v-if="$page.props.auth.user.is_admin"
-                    href="/admin"
+                    href="/secure-admin"
                     target="_blank"
                     class="user-menu-item"
                     @click="userMenuOpen = false"
