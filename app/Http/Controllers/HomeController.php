@@ -28,7 +28,9 @@ class HomeController extends Controller
             $history = $priceHistoryMap->get($g->id, collect())->sortByDesc('date');
             $cutoff  = now()->subDays(7);
             $latest  = $history->first();
-            $old     = $history->first(fn($h) => $h->date->lte($cutoff));
+            // Fallback to the oldest available history if no 7-day data exists
+            $old     = $history->first(fn($h) => $h->date->lte($cutoff)) ?? $history->last();
+
             return [
                 'id'           => $g->id,
                 'name'         => $g->name,
@@ -36,7 +38,7 @@ class HomeController extends Controller
                 'price'        => (float) $g->price,
                 'brand'        => $g->brand?->name,
                 'category'     => $g->category?->slug,
-                'price_change' => ($latest && $old) ? round((float) $latest->price - (float) $old->price) : null,
+                'price_change' => ($latest && $old) ? round((float) $latest->price - (float) $old->price) : 0,
             ];
         })->values()->toArray();
 
