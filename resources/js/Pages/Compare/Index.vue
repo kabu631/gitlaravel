@@ -93,7 +93,7 @@
               <div class="w-9 h-9 rounded-xl bg-white/20 flex items-center justify-center text-xl shrink-0">🤖</div>
               <div>
                 <p class="font-bold text-white">AI Buying Recommendation</p>
-                <p class="text-xs text-violet-200">Powered by Meta LLaMA · NVIDIA</p>
+                <p class="text-xs text-violet-200">Powered by OpenRouter Auto</p>
               </div>
             </div>
 

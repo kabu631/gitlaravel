@@ -60,7 +60,7 @@ class CompareController extends Controller
             return response()->json(['error' => 'Need at least 2 products.'], 422);
         }
 
-        $apiKey = config('services.nvidia.key');
+        $apiKey = config('services.openrouter.key');
         if (!$apiKey) {
             return response()->json(['error' => 'AI service not configured.'], 503);
         }
@@ -76,8 +76,12 @@ class CompareController extends Controller
         $response = Http::timeout(25)
             ->withoutVerifying()
             ->withToken($apiKey)
-            ->post('https://integrate.api.nvidia.com/v1/chat/completions', [
-                'model'       => 'meta/llama-3.1-8b-instruct',
+            ->withHeaders([
+                'HTTP-Referer' => config('app.url'),
+                'X-Title' => config('app.name'),
+            ])
+            ->post('https://openrouter.ai/api/v1/chat/completions', [
+                'model'       => 'openrouter/free',
                 'messages'    => [
                     ['role' => 'system', 'content' => 'You are a tech expert at Git Infosys, Nepal\'s trusted gadget platform. Give clear, practical buying advice for Nepali customers. Use NPR for prices. Be concise and structured.'],
                     ['role' => 'user',   'content' => "Compare these products and give a buying recommendation:\n\n{$lines}\n\nFor each product, say who should buy it and for what purpose. End with a clear overall verdict."],
@@ -87,7 +91,8 @@ class CompareController extends Controller
             ]);
 
         if ($response->failed()) {
-            return response()->json(['error' => 'AI service unavailable. Try again.'], 500);
+            $errorDetail = $response->json('error.message') ?? $response->body();
+            return response()->json(['error' => 'AI Error: ' . $errorDetail], 500);
         }
 
         $text = $response->json('choices.0.message.content') ?? 'No suggestion available.';
