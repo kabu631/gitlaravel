@@ -70,13 +70,15 @@
 
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
-import { useForm } from '@inertiajs/vue3'
+import { useForm, usePage } from '@inertiajs/vue3'
 
 const props = defineProps({ items: Array, total: Number })
 const formatPrice = (p) => Math.round(p).toLocaleString('en-NP')
 
+const page = usePage()
+
 const form = useForm({
-  first_name: '', last_name: '', email: props.$page?.props?.auth?.user?.email ?? '',
+  first_name: '', last_name: '', email: page.props.auth?.user?.email ?? '',
   phone: '', address: '', payment_method: 'cod',
 })
 

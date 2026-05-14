@@ -20,6 +20,10 @@ class CheckoutController extends Controller
 
     public function index()
     {
+        if (auth()->check() && auth()->user()->is_admin) {
+            return redirect()->route('home')->with('error', 'Administrators cannot order products.');
+        }
+
         $items = $this->cartItems();
         if ($items->isEmpty()) return redirect()->route('cart.index')->with('warning', 'Your cart is empty.');
         $total = $items->sum(fn($i) => $i->subtotal);
@@ -28,6 +32,10 @@ class CheckoutController extends Controller
 
     public function store(Request $request)
     {
+        if (auth()->check() && auth()->user()->is_admin) {
+            return redirect()->route('home')->with('error', 'Administrators cannot order products.');
+        }
+
         $request->validate([
             'first_name'      => 'required|string|max:50',
             'last_name'       => 'required|string|max:50',

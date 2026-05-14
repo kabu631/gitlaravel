@@ -10,7 +10,7 @@ class Gadget extends Model
     protected $fillable = [
         'brand_id', 'category_id', 'name', 'slug', 'accessory_type',
         'image', 'model_3d', 'sketchfab_embed', 'price', 'old_price',
-        'release_date', 'is_featured', 'is_trending', 'description', 'views_count',
+        'release_date', 'is_featured', 'is_trending', 'description', 'price_tracker_description', 'views_count',
     ];
 
     protected $casts = [

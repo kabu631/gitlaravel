@@ -58,7 +58,7 @@
         </div>
 
         <!-- Pagination -->
-        <div v-if="gadgets.last_page > 1" class="flex justify-center gap-2 mt-8">
+        <div v-if="gadgets.links" class="flex justify-center gap-2 mt-8">
           <Link v-for="link in gadgets.links" :key="link.label"
                 :href="link.url ?? '#'"
                 class="px-3 py-1.5 rounded-lg text-sm transition"

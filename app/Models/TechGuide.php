@@ -13,7 +13,10 @@ class TechGuide extends Model
 
     protected static function booted(): void
     {
-        static::creating(fn($m) => $m->slug ??= Str::slug($m->title));
+        static::creating(function($m) {
+            $m->slug ??= Str::slug($m->title);
+            if (!$m->user_id && auth()->check()) $m->user_id = auth()->id();
+        });
     }
 
     public function author() { return $this->belongsTo(User::class, 'user_id'); }

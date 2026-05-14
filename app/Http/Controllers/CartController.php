@@ -43,6 +43,10 @@ class CartController extends Controller
 
     public function add(Request $request, string $slug)
     {
+        if (auth()->check() && auth()->user()->is_admin) {
+            return back()->with('error', 'Administrators cannot order products.');
+        }
+
         $gadget    = Gadget::where('slug', $slug)->firstOrFail();
         $variantId = $request->input('product_variant_id');
 

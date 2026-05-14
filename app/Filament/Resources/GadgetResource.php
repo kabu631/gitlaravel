@@ -114,6 +114,13 @@ class GadgetResource extends Resource
                 Toggle::make('is_featured')->label('Featured'),
                 Toggle::make('is_trending')->label('Trending'),
             ])->columns(2),
+
+            Section::make('Price Tracking Insights')->schema([
+                RichEditor::make('price_tracker_description')
+                    ->nullable()
+                    ->columnSpanFull()
+                    ->helperText('Write analysis, price drop explanations, or insights here for the public Price Tracker page.'),
+            ]),
         ]);
     }
 

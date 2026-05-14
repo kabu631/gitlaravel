@@ -16,9 +16,12 @@ class GuideController extends Controller
             ->when($request->search, fn($q) => $q->where('title', 'like', "%{$request->search}%"))
             ->latest()->paginate(12)->withQueryString();
 
+        $trendingGadgets = \App\Models\Gadget::with('brand')->where('is_trending', true)->latest()->take(5)->get();
+
         return Inertia::render('Guides/Index', [
             'guides'  => $guides,
             'filters' => $request->only(['search']),
+            'trendingGadgets' => $trendingGadgets,
 
             'seo' => [
                 'title'       => 'Tech Buying Guides — Expert Advice for Smart Purchases',

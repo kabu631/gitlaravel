@@ -3,7 +3,9 @@
     <div class="max-w-lg mx-auto text-center py-20">
       <div class="text-7xl mb-6">🎉</div>
       <h1 class="text-3xl font-extrabold mb-2 text-emerald-600 dark:text-emerald-400">Order Placed!</h1>
-      <p class="text-gray-500 dark:text-gray-400 mb-2">Order #{{ order.id }} has been received.</p>
+      <p class="text-gray-500 dark:text-gray-400 mb-2 text-lg">
+        Your order for <span class="font-semibold text-gray-800 dark:text-gray-200">{{ productNames }}</span> has been received.
+      </p>
       <p class="text-gray-500 text-sm mb-8">We'll process your order shortly. Thank you for shopping with Git Infosys!</p>
 
       <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-6 text-left mb-8">
@@ -35,7 +37,17 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import { Link } from '@inertiajs/vue3'
-defineProps({ order: Object })
+
+const props = defineProps({ order: Object })
+
+const productNames = computed(() => {
+  if (!props.order?.items?.length) return 'your items'
+  const names = props.order.items.map(i => i.gadget?.name ?? 'Product')
+  if (names.length === 1) return names[0]
+  if (names.length === 2) return `${names[0]} and ${names[1]}`
+  return `${names[0]} and ${names.length - 1} other item${names.length - 1 > 1 ? 's' : ''}`
+})
 </script>
