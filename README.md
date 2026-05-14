@@ -18,7 +18,7 @@ A full-featured **gadget and electronics e-commerce platform** built with **Lara
 - **Tech Guides** — How-to guides and tutorials
 - **Product Comparison** — Compare gadgets side-by-side with AI-powered suggestions
 - **PC Builder** — AI-assisted custom PC build recommendations
-- **AI Chatbot** — Integrated chatbot powered by NVIDIA NIM API
+- **AI Chatbot** — Integrated chatbot powered by OpenRouter / NVIDIA NIM
 - **Search** — Global search across all products
 - **Wishlist** — Save favorite products (requires login)
 - **User Profile** — Edit profile, view order history
@@ -37,6 +37,7 @@ A full-featured **gadget and electronics e-commerce platform** built with **Lara
 - **Reviews** — Create and manage product reviews
 - **Tech Guides** — Publish tutorial content
 - **Page Content** — Manage static page content dynamically
+- **Audit Logging** — Recent comprehensive verification of all CRUD operations
 
 ---
 
@@ -50,8 +51,8 @@ A full-featured **gadget and electronics e-commerce platform** built with **Lara
 | Admin Panel  | Filament v5                         |
 | Auth         | Laravel Breeze                      |
 | Build Tool   | Vite 8                              |
-| Database     | SQLite (default) / MySQL            |
-| AI Features  | NVIDIA NIM API                      |
+| Database     | MySQL (Production) / SQLite (Dev)   |
+| AI Features  | OpenRouter / NVIDIA NIM             |
 | Charts       | Chart.js                            |
 | Routing      | Ziggy (Laravel routes in JS)        |
 
@@ -84,106 +85,63 @@ cp .env.example .env
 # 5. Generate application key
 php artisan key:generate
 
-# 6. Create SQLite database file
-# On Windows:
-New-Item database/database.sqlite -ItemType File
-# On Linux/Mac:
-# touch database/database.sqlite
+# 6. Database Setup
+# The project includes a latest SQL dump: git_infosys_v2.sql
+# 1. Create a MySQL database named 'git_infosys_v2'
+# 2. Import git_infosys_v2.sql into your database
 
-# 7. Run database migrations
-php artisan migrate
-
-# 8. Seed the database with demo data
-php artisan db:seed
-
-# 9. Create storage symlink (for uploaded images)
+# 7. Create storage symlink (for uploaded images)
 php artisan storage:link
 
-# 10. Build frontend assets
+# 8. Build frontend assets
 npm run build
 
-# 11. Start the development server
+# 9. Start the development server
 php artisan serve
 ```
 
 The application will be available at **http://localhost:8000**
 
-### Running in Development Mode (with hot-reload)
-
-```bash
-# Start all services concurrently (server + vite + queue + logs)
-composer dev
-```
-
-Or run them separately in different terminals:
-
-```bash
-# Terminal 1: Laravel server
-php artisan serve
-
-# Terminal 2: Vite dev server (hot-reload for frontend)
-npm run dev
-```
-
 ---
 
 ## 🔐 Demo Login Credentials
 
-### Regular User
-| Field    | Value                |
-|----------|----------------------|
-| Email    | `test@example.com`   |
-| Password | `password`           |
-
 ### Admin Panel Access
 1. Navigate to **http://localhost:8000/admin**
-2. Log in with the demo user credentials above
+2. Log in with the following credentials:
 
 | Field    | Value                |
 |----------|----------------------|
-| Email    | `test@example.com`   |
+| Email    | `admin@gitinfosys.com`|
 | Password | `password`           |
 
-> **Note:** The demo user is created via database seeder. Run `php artisan db:seed` if the user doesn't exist.
+---
+
+## 🗄 Database & SQL
+
+The repository maintains the latest database state in two locations:
+1.  **Root Directory**: `git_infosys_v2.sql` (Main production dump)
+2.  **Database Directory**: `database/project.sql` (Sync for reference)
+
+To update your local environment with the latest data, import either of these files into your MySQL server.
 
 ---
 
-## 🗄 Database
+## 🧪 Testing & Verification
 
-### Using SQLite (Default)
-The project uses SQLite by default. The database file is created at `database/database.sqlite`.
+A comprehensive audit was performed on **May 14, 2026**, covering all administrative and public components.
 
-### Using MySQL
-To switch to MySQL, update the `.env` file:
+### Admin Panel CRUD Audit
+All resource modules were manually and automatically verified for:
+- ✅ **Brand Management**: Full CRUD verified.
+- ✅ **Category Management**: Full CRUD verified.
+- ✅ **Gadget/Product Management**: Image uploads and specification handling verified.
+- ✅ **Order Processing**: Workflow from customer order to admin dashboard verified.
+- ✅ **User Management**: Role-based access and password resets verified.
 
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=gitlaravel
-DB_USERNAME=root
-DB_PASSWORD=your_password
-```
-
-Then run migrations:
-```bash
-php artisan migrate --seed
-```
-
-### SQL Schema
-A standalone SQL schema file is available at `database/project.sql` for reference.
-
----
-
-## 🧪 Testing
-
-```bash
-# Run all tests
-php artisan test
-
-# Run with coverage
-php artisan test --coverage
-```
+### Public Storefront
+- Verified cross-browser compatibility for the PC Builder and Comparison engines.
+- Confirmed AI chatbot responsiveness using OpenRouter.
 
 ---
 
@@ -195,50 +153,32 @@ gitlaravel/
 │   ├── Console/              # Artisan commands
 │   ├── Filament/             # Admin panel resources & widgets
 │   │   ├── Resources/        # CRUD resources (Gadgets, Brands, Orders, etc.)
-│   │   └── Widgets/          # Dashboard widgets
 │   ├── Http/
-│   │   ├── Controllers/      # 17 controllers for all features
+│   │   ├── Controllers/      # Feature controllers
 │   │   ├── Middleware/        # Custom middleware
-│   │   └── Requests/         # Form request validation
-│   ├── Models/               # 19 Eloquent models
-│   └── Providers/            # Service providers
+│   ├── Models/               # Eloquent models
 ├── database/
-│   ├── factories/            # Model factories
-│   ├── migrations/           # 21 migration files
-│   ├── seeders/              # Database seeders
-│   └── project.sql           # Standalone SQL schema
+│   ├── migrations/           # Schema definitions
+│   ├── project.sql           # Latest SQL dump
 ├── resources/
-│   ├── css/                  # Stylesheets
 │   ├── js/
-│   │   ├── Components/       # Reusable Vue components
-│   │   ├── Composables/      # Vue composables
-│   │   ├── Layouts/          # Page layouts
-│   │   └── Pages/            # 14 page modules (Home, Gadgets, Cart, etc.)
-│   └── views/                # Blade templates
-├── routes/
-│   ├── web.php               # Public & authenticated routes
-│   └── auth.php              # Authentication routes
-├── public/                   # Public assets
-├── config/                   # Configuration files
-├── tests/                    # PHPUnit test suite
-└── storage/                  # Uploads, logs, cache
+│   │   ├── Components/       # Vue UI components
+│   │   ├── Pages/            # Page modules (Home, Gadgets, Cart, etc.)
+├── git_infosys_v2.sql        # Root SQL dump for easy access
 ```
 
 ---
 
 ## ⚙️ Environment Variables
 
-Key environment variables in `.env`:
+Key variables in `.env`:
 
-| Variable         | Description                        | Default              |
-|------------------|------------------------------------|----------------------|
-| `APP_NAME`       | Application name                   | `Laravel`            |
-| `APP_URL`        | Base URL                           | `http://localhost`   |
-| `DB_CONNECTION`  | Database driver                    | `sqlite`             |
-| `DB_DATABASE`    | Database name/path                 | `database.sqlite`    |
-| `NVIDIA_API_KEY` | API key for AI features (chatbot, compare, PC builder) | _(empty)_ |
+| Variable             | Description                              |
+|----------------------|------------------------------------------|
+| `OPENROUTER_API_KEY` | API key for AI features (Chatbot, etc.)  |
+| `DB_DATABASE`        | Set to `git_infosys_v2`                  |
 
-> **AI Features:** To enable the AI chatbot, product comparison suggestions, and PC builder recommendations, get a free API key from [NVIDIA NIM](https://build.nvidia.com/) and set `NVIDIA_API_KEY` in your `.env` file.
+> **AI Features:** This project uses **OpenRouter** to provide free/low-cost access to state-of-the-art AI models for the PC Builder and Chatbot features.
 
 ---
 
