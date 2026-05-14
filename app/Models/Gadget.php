@@ -24,6 +24,24 @@ class Gadget extends Model
     protected static function booted(): void
     {
         static::creating(fn($m) => $m->slug ??= Str::slug($m->name));
+
+        // Create initial price history on creation
+        static::created(function ($gadget) {
+            $gadget->priceHistory()->create([
+                'price' => $gadget->price,
+                'date'  => now(),
+            ]);
+        });
+
+        // Track price changes
+        static::updated(function ($gadget) {
+            if ($gadget->isDirty('price')) {
+                $gadget->priceHistory()->create([
+                    'price' => $gadget->price,
+                    'date'  => now(),
+                ]);
+            }
+        });
     }
 
     public function brand()          { return $this->belongsTo(Brand::class); }
