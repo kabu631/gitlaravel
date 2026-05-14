@@ -75,11 +75,19 @@
                   <p v-if="errors.email" class="text-red-500 text-xs mt-1">{{ errors.email }}</p>
                 </div>
               </div>
-              <div>
-                <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Subject</label>
-                <input v-model="form.subject" type="text" placeholder="What's this about?" required
-                       class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400"/>
-                <p v-if="errors.subject" class="text-red-500 text-xs mt-1">{{ errors.subject }}</p>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Contact Number</label>
+                  <input v-model="form.phone" type="tel" placeholder="Your phone number" required
+                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400"/>
+                  <p v-if="errors.phone" class="text-red-500 text-xs mt-1">{{ errors.phone }}</p>
+                </div>
+                <div>
+                  <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Subject</label>
+                  <input v-model="form.subject" type="text" placeholder="What's this about?" required
+                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400"/>
+                  <p v-if="errors.subject" class="text-red-500 text-xs mt-1">{{ errors.subject }}</p>
+                </div>
               </div>
               <div>
                 <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Message</label>
@@ -118,6 +126,7 @@
 <script setup>
 import StaticPageLayout from '@/Layouts/StaticPageLayout.vue'
 import { useForm } from '@inertiajs/vue3'
+import { onMounted } from 'vue'
 
 const props = defineProps({
   heading:         { type: String, default: 'Get In Touch' },
@@ -131,9 +140,17 @@ const props = defineProps({
   sidebarNews:     { type: Array,  default: () => [] },
 })
 
-const form       = useForm({ name: '', email: '', subject: '', message: '' })
+const form       = useForm({ name: '', email: '', phone: '', subject: '', message: '' })
 const errors     = form.errors
 const processing = form.processing
+
+onMounted(() => {
+  if (typeof window !== 'undefined') {
+    const params = new URLSearchParams(window.location.search)
+    if (params.has('subject')) form.subject = params.get('subject')
+    if (params.has('message')) form.message = params.get('message')
+  }
+})
 
 function submit() {
   form.post(route('pages.contact.store'), {

@@ -7,8 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 class ChatbotController extends Controller
 {
-    private const ENDPOINT = 'https://integrate.api.nvidia.com/v1/chat/completions';
-    private const MODEL     = 'meta/llama-3.1-8b-instruct';
+    private const ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
 
     public function chat(Request $request)
     {
@@ -19,15 +18,15 @@ class ChatbotController extends Controller
             'history.*.content' => 'required|string|max:2000',
         ]);
 
-        $apiKey = config('services.nvidia.key');
+        $apiKey = config('services.openrouter.key');
         if (!$apiKey) {
-            return response()->json(['error' => 'AI service not configured. Add NVIDIA_API_KEY to .env'], 503);
+            return response()->json(['error' => 'AI service not configured. Add OPENROUTER_API_KEY to .env'], 503);
         }
 
         $messages = array_merge(
             [[
                 'role'    => 'system',
-                'content' => 'You are TechBot, a friendly AI assistant for Git Infosys — Nepal\'s trusted tech price tracking and review platform. Help users with: product recommendations, price comparisons, tech specs, buying advice, PC building, and gadget questions. Keep answers concise and friendly. Use NPR for prices when relevant. For current live prices or availability, direct users to browse the website.',
+                'content' => 'You are TechBot, a friendly AI assistant for Git Infosys — Nepal\'s trusted tech price tracking and review platform. Help users with: product recommendations, price comparisons, tech specs, buying advice, PC building, and gadget questions. Keep answers concise and friendly. Use NPR for prices when relevant. IMPORTANT: You work exclusively for Git Infosys. NEVER mention or recommend competitors (like Daraz, Hukut, Nagmani IT, CG Digital, etc). Always direct users to buy from Git Infosys or browse the current website.',
             ]],
             array_map(
                 fn($m) => ['role' => $m['role'], 'content' => $m['content']],
@@ -40,13 +39,14 @@ class ChatbotController extends Controller
             ->withoutVerifying()
             ->withToken($apiKey)
             ->post(self::ENDPOINT, [
-                'model'       => self::MODEL,
+                'model'       => 'openrouter/free',
                 'messages'    => $messages,
-                'max_tokens'  => 600,
+                'max_tokens'  => 4096,
                 'temperature' => 0.7,
             ]);
 
         if ($response->failed()) {
+            \Log::error('Chatbot API failed', ['status' => $response->status(), 'body' => $response->body()]);
             return response()->json(['error' => 'Could not get a response. Please try again.'], 500);
         }
 

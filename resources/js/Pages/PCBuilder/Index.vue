@@ -147,12 +147,16 @@
           </div>
           <!-- Footer CTA -->
           <div class="border-t border-gray-200 dark:border-gray-800 px-6 py-4 flex gap-3 flex-wrap">
-            <Link :href="route('gadgets.index')" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-semibold transition">
+            <Link :href="route('gadgets.index')" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-sm font-semibold transition">
               Browse Products →
             </Link>
             <Link :href="route('compare.index')" class="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm font-semibold transition">
               Compare Gadgets
             </Link>
+            <button @click="sendToOwner" class="px-4 py-2 bg-violet-100 text-violet-700 hover:bg-violet-200 dark:bg-violet-900/40 dark:text-violet-300 dark:hover:bg-violet-800/60 rounded-lg text-sm font-semibold transition flex items-center gap-1.5">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+              Send to Owner
+            </button>
             <button @click="getRecommendation" class="px-4 py-2 border border-gray-300 dark:border-gray-700 hover:border-gray-400 dark:hover:border-gray-500 rounded-lg text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition">
               Regenerate
             </button>
@@ -241,6 +245,13 @@ async function copyRecommendation() {
   await navigator.clipboard.writeText(recommendation.value)
   copied.value = true
   setTimeout(() => { copied.value = false }, 2000)
+}
+
+function sendToOwner() {
+  const subject = encodeURIComponent("Custom PC Build Request (AI Recommended)");
+  const msg = encodeURIComponent(`Hi Git Infosys Team,\n\nI would like to order the following custom PC build recommended by your AI Builder. Please contact me to confirm the order and parts availability:\n\n---\n\n${recommendation.value}`);
+  // In Laravel/Inertia, using route() with query params generates the correct URL
+  window.location.href = route('pages.contact') + `?subject=${subject}&message=${msg}`;
 }
 
 function reset() {
