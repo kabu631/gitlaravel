@@ -14,7 +14,7 @@ You have received a new message from the Git Infosys Contact form.
 
 ---
 
-<x-mail::button :url="config('app.url') . '/admin/contact-messages/' . $contactMessage->id">
+<x-mail::button :url="config('app.url') . '/secure-admin/contact-messages/' . $contactMessage->id">
 View in Admin Panel
 </x-mail::button>
 
