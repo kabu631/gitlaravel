@@ -6,7 +6,9 @@ use App\Models\ContactMessage;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
 use App\Models\PageContent;
+use App\Mail\ContactMessageMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Inertia\Inertia;
 
 class PageController extends Controller
@@ -60,6 +62,43 @@ class PageController extends Controller
         ]));
     }
 
+    public function priceTracker()
+    {
+        // Get gadgets that have a price_tracker_description OR have price history
+        $gadgets = Gadget::with(['brand', 'priceHistory'])
+            ->whereNotNull('price_tracker_description')
+            ->orWhereHas('priceHistory')
+            ->latest()
+            ->paginate(15);
+
+        // Process trend for each gadget
+        $gadgets->getCollection()->transform(function ($gadget) {
+            $history = $gadget->priceHistory;
+            $gadget->trend = 'Stable';
+            if ($history->count() >= 2) {
+                $latest = $history->last()->price;
+                $previous = $history->first()->price;
+                if ($latest < $previous) $gadget->trend = 'Dropped';
+                if ($latest > $previous) $gadget->trend = 'Increased';
+            }
+            return $gadget;
+        });
+
+        $trendingGadgets = Gadget::with('brand')->where('is_trending', true)->take(5)->get();
+
+        return Inertia::render('Pages/PriceTracker', array_merge($this->sidebarData(), [
+            'heading'    => 'Price Tracker',
+            'subheading' => 'Track latest price drops, hikes, and our editorial market insights.',
+            'gadgets'    => $gadgets,
+            'trending'   => $trendingGadgets,
+            'seo'        => [
+                'title'       => 'Price Tracker — Monitor Gadget Prices in Nepal',
+                'description' => 'Track the latest price drops and hikes for smartphones and laptops in Nepal with expert insights.',
+                'canonical'   => route('pages.price-tracker'),
+            ],
+        ]));
+    }
+
     public function contact()
     {
         $content = PageContent::forPage('contact');
@@ -98,7 +137,13 @@ class PageController extends Controller
             'message' => 'required|string|max:5000',
         ]);
 
-        ContactMessage::create($validated);
+        $message = ContactMessage::create($validated);
+
+        try {
+            Mail::to(config('mail.from.address', 'owner@gitinfosys.com'))->send(new ContactMessageMail($message));
+        } catch (\Exception $e) {
+            \Log::error('Failed to send contact email: ' . $e->getMessage());
+        }
 
         return back()->with('success', 'Your message has been sent. We\'ll get back to you soon!');
     }

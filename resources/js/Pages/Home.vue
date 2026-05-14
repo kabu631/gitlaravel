@@ -150,7 +150,7 @@
         <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5">
           <div class="flex items-center justify-between mb-3">
             <h3 class="sidebar-title">Price Tracker</h3>
-            <Link :href="route('gadgets.index')" class="text-xs text-violet-600 dark:text-violet-400 hover:text-violet-500 dark:hover:text-violet-300">All Prices →</Link>
+            <Link :href="route('pages.price-tracker')" class="text-xs text-violet-600 dark:text-violet-400 hover:text-violet-500 dark:hover:text-violet-300">All Prices →</Link>
           </div>
           <p class="text-xs text-gray-400 dark:text-gray-600 mb-3">Trending Gadgets — NPR Price</p>
           <div class="space-y-0 divide-y divide-gray-100 dark:divide-gray-800">

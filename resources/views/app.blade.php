@@ -5,16 +5,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#7c3aed">
 
-        <!-- Default SEO fallbacks (overridden per-page by @inertiaHead) -->
-        <meta name="description" content="Nepal's trusted tech review &amp; gadget price comparison platform. Discover smartphones, laptops, and accessories with honest reviews and the best prices.">
-        <meta name="robots" content="index, follow">
-        <meta property="og:site_name" content="{{ config('app.name') }}">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="{{ asset('images/og-default.jpg') }}">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@gitinfosys">
+        <!-- SEO Meta Tags (Server Rendered for Bots) -->
+        @php
+            $seo = $page['props']['seo'] ?? [];
+            $title = !empty($seo['title']) ? $seo['title'] . ' | Git Infosys' : config('app.name', 'Git Infosys');
+            $desc = $seo['description'] ?? "Nepal's trusted tech review & gadget price comparison platform. Discover smartphones, laptops, and accessories with honest reviews and the best prices.";
+            $image = $seo['image'] ?? asset('images/og-default.jpg');
+            $url = $seo['canonical'] ?? request()->url();
+            $type = $seo['type'] ?? 'website';
+            $noindex = $seo['noindex'] ?? false;
+        @endphp
 
-        <title inertia>{{ config('app.name', 'Git Infosys') }}</title>
+        <title inertia>{{ $title }}</title>
+        <meta inertia head-key="description" name="description" content="{{ $desc }}">
+        <meta inertia head-key="robots" name="robots" content="{{ $noindex ? 'noindex,nofollow' : 'index, follow' }}">
+        <link inertia head-key="canonical" rel="canonical" href="{{ $url }}">
+
+        <meta inertia head-key="og:site_name" property="og:site_name" content="{{ config('app.name') }}">
+        <meta inertia head-key="og:type" property="og:type" content="{{ $type }}">
+        <meta inertia head-key="og:title" property="og:title" content="{{ $title }}">
+        <meta inertia head-key="og:description" property="og:description" content="{{ $desc }}">
+        <meta inertia head-key="og:image" property="og:image" content="{{ $image }}">
+        <meta inertia head-key="og:url" property="og:url" content="{{ $url }}">
+
+        <meta inertia head-key="twitter:card" name="twitter:card" content="summary_large_image">
+        <meta inertia head-key="twitter:site" name="twitter:site" content="@gitinfosys">
+        <meta inertia head-key="twitter:title" name="twitter:title" content="{{ $title }}">
+        <meta inertia head-key="twitter:description" name="twitter:description" content="{{ $desc }}">
+        <meta inertia head-key="twitter:image" name="twitter:image" content="{{ $image }}">
+
+        @if(!empty($seo['published_at']))
+            <meta inertia head-key="article:published_time" property="article:published_time" content="{{ $seo['published_at'] }}">
+        @endif
+        @if(!empty($seo['modified_at']))
+            <meta inertia head-key="article:modified_time" property="article:modified_time" content="{{ $seo['modified_at'] }}">
+        @endif
+        
+        @if(!empty($seo['json_ld']))
+            <script inertia head-key="json-ld" type="application/ld+json">
+                {!! json_encode($seo['json_ld'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+            </script>
+        @endif
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net">

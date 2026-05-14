@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Gadget;
 use App\Models\Review;
+use App\Models\NewsArticle;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -13,14 +14,37 @@ class ReviewController extends Controller
 {
     public function index(Request $request)
     {
-        $reviews = Review::with(['gadget.brand', 'author'])
+        $featuredReviews = Review::with(['gadget.brand', 'author'])
             ->where('is_published', true)
             ->latest()
-            ->paginate(12)
+            ->take(3)
+            ->get();
+
+        $featuredIds = $featuredReviews->pluck('id');
+
+        $reviews = Review::with(['gadget.brand', 'author'])
+            ->where('is_published', true)
+            ->whereNotIn('id', $featuredIds)
+            ->latest()
+            ->paginate(10)
             ->withQueryString();
 
+        $trendingGadgets = Gadget::with('brand')
+            ->where('is_trending', true)
+            ->latest()
+            ->take(5)
+            ->get(['id', 'name', 'slug', 'image', 'price', 'brand_id']);
+
+        $sidebarNews = NewsArticle::where('is_published', true)
+            ->latest()
+            ->take(4)
+            ->get(['id', 'title', 'slug', 'thumbnail', 'category', 'created_at']);
+
         return Inertia::render('Reviews/Index', [
-            'reviews' => $reviews,
+            'featuredReviews' => $featuredReviews,
+            'reviews'         => $reviews,
+            'trendingGadgets' => $trendingGadgets,
+            'sidebarNews'     => $sidebarNews,
 
             'seo' => [
                 'title'       => 'Expert Tech Reviews — Honest Gadget Reviews in Nepal',

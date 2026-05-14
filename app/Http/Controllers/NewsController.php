@@ -19,9 +19,12 @@ class NewsController extends Controller
 
         $catLabel = $request->category ? ucwords(str_replace('-', ' ', $request->category)) . ' ' : '';
 
+        $trendingGadgets = \App\Models\Gadget::with('brand')->where('is_trending', true)->latest()->take(5)->get();
+
         return Inertia::render('News/Index', [
             'articles' => $articles,
             'filters'  => $request->only(['category', 'search']),
+            'trendingGadgets' => $trendingGadgets,
 
             'seo' => [
                 'title'       => "{$catLabel}Tech News — Latest Updates from Nepal & World",
