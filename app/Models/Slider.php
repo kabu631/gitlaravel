@@ -2,10 +2,15 @@
 
 namespace App\Models;
 
+use App\Traits\BacksUpImages;
 use Illuminate\Database\Eloquent\Model;
 
 class Slider extends Model
 {
+    use BacksUpImages;
+
+    protected array $imageBackupFields = ['image'];
+
     protected $fillable = [
         'title', 'subtitle', 'description', 'image', 'badge',
         'btn1_text', 'btn1_url', 'btn1_style',

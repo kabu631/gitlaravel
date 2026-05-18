@@ -2,12 +2,17 @@
 
 namespace App\Models;
 
+use App\Traits\BacksUpImages;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class Brand extends Model
 {
+    use BacksUpImages;
+
     protected $fillable = ['name', 'slug', 'logo'];
+
+    protected array $imageBackupFields = ['logo'];
 
     protected static function booted(): void
     {
