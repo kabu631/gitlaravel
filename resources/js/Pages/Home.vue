@@ -121,7 +121,7 @@
       </div>
 
       <!-- ── Right Sidebar (1 col) ── -->
-      <aside class="space-y-5">
+      <aside class="space-y-5 lg:sticky lg:top-6 lg:self-start">
 
         <!-- Trending Now list -->
         <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5">

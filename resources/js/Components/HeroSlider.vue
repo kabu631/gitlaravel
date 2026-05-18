@@ -1,5 +1,5 @@
 <template>
-  <section class="relative rounded-2xl overflow-hidden mb-8" style="height: 280px; min-height: 220px">
+  <section class="relative rounded-2xl overflow-hidden mb-8" style="height: 400px; min-height: 320px">
     <!-- Slides -->
     <div class="relative w-full h-full">
       <TransitionGroup name="slide-fade" tag="div" class="relative w-full h-full">
