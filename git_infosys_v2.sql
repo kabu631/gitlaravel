@@ -1,4 +1,4 @@
-﻿-- MariaDB dump 10.19  Distrib 10.4.32-MariaDB, for Win64 (AMD64)
+-- MariaDB dump 10.19  Distrib 10.4.32-MariaDB, for Win64 (AMD64)
 --
 -- Host: localhost    Database: git_infosys_v2
 -- ------------------------------------------------------
@@ -31,7 +31,7 @@ CREATE TABLE `accessory_types` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `accessory_types_name_unique` (`name`),
   UNIQUE KEY `accessory_types_slug_unique` (`slug`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,6 @@ CREATE TABLE `accessory_types` (
 
 LOCK TABLES `accessory_types` WRITE;
 /*!40000 ALTER TABLE `accessory_types` DISABLE KEYS */;
-INSERT INTO `accessory_types` VALUES (2,'RAM Module','ram-module','2026-05-14 00:34:34','2026-05-14 00:38:40'),(9,'Motherboard','motherboard','2026-05-14 06:35:22','2026-05-14 06:35:22'),(10,'Printer','printer','2026-05-14 06:35:22','2026-05-14 06:35:22'),(11,'SSD','ssd','2026-05-14 06:35:22','2026-05-14 06:35:22'),(12,'Monitor','monitor','2026-05-14 06:35:22','2026-05-14 06:35:22'),(13,'RAM','ram','2026-05-14 00:54:34','2026-05-14 00:54:34');
 /*!40000 ALTER TABLE `accessory_types` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -87,7 +86,7 @@ CREATE TABLE `brands` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `brands_name_unique` (`name`),
   UNIQUE KEY `brands_slug_unique` (`slug`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -96,7 +95,6 @@ CREATE TABLE `brands` (
 
 LOCK TABLES `brands` WRITE;
 /*!40000 ALTER TABLE `brands` DISABLE KEYS */;
-INSERT INTO `brands` VALUES (1,'Samsung','samsung',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(2,'Apple','apple',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(3,'Xiaomi','xiaomi',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(4,'OnePlus','oneplus',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(5,'Google','google',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(6,'ASUS','asus',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(7,'Lenovo','lenovo',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(8,'HP','hp',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(9,'Dell','dell',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(10,'Acer','acer',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(11,'Sony','sony',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(12,'Realme','realme',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(14,'GeForce','geforce',NULL,'2026-05-14 00:54:19','2026-05-14 00:54:19');
 /*!40000 ALTER TABLE `brands` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -176,7 +174,7 @@ CREATE TABLE `cart_items` (
   CONSTRAINT `cart_items_gadget_id_foreign` FOREIGN KEY (`gadget_id`) REFERENCES `gadgets` (`id`) ON DELETE CASCADE,
   CONSTRAINT `cart_items_product_variant_id_foreign` FOREIGN KEY (`product_variant_id`) REFERENCES `product_variants` (`id`) ON DELETE SET NULL,
   CONSTRAINT `cart_items_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -185,7 +183,6 @@ CREATE TABLE `cart_items` (
 
 LOCK TABLES `cart_items` WRITE;
 /*!40000 ALTER TABLE `cart_items` DISABLE KEYS */;
-INSERT INTO `cart_items` VALUES (1,NULL,'odFRwfRCayeoUCwWarJcEuISB3okwbIHFicBFKtn',16,NULL,1,126000.00,'{\"ram\":\"16 GB\"}','2026-05-12 06:42:43','2026-05-12 06:42:43'),(2,NULL,NULL,12,NULL,1,75999.00,NULL,'2026-05-12 07:27:26','2026-05-12 07:27:26'),(5,NULL,'qWF1COmfZfDQfJlGajttmjLWXHQ0ZAspj5DZCIBk',15,NULL,1,121000.00,NULL,'2026-05-12 11:57:12','2026-05-12 11:57:12');
 /*!40000 ALTER TABLE `cart_items` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -205,7 +202,7 @@ CREATE TABLE `categories` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `categories_name_unique` (`name`),
   UNIQUE KEY `categories_slug_unique` (`slug`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -214,7 +211,6 @@ CREATE TABLE `categories` (
 
 LOCK TABLES `categories` WRITE;
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
-INSERT INTO `categories` VALUES (1,'Mobile','mobile','2026-05-12 03:35:49','2026-05-12 03:35:49'),(2,'Laptop','laptop','2026-05-12 03:35:49','2026-05-12 03:35:49'),(3,'Tablet','tablet','2026-05-12 03:35:49','2026-05-12 03:35:49'),(4,'Earbuds','earbuds','2026-05-12 03:35:49','2026-05-12 03:35:49'),(5,'Smartwatch','smartwatch','2026-05-12 03:35:49','2026-05-12 03:35:49'),(6,'Accessories','accessories','2026-05-12 03:35:49','2026-05-14 00:10:45');
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -236,7 +232,7 @@ CREATE TABLE `contact_messages` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -245,7 +241,6 @@ CREATE TABLE `contact_messages` (
 
 LOCK TABLES `contact_messages` WRITE;
 /*!40000 ALTER TABLE `contact_messages` DISABLE KEYS */;
-INSERT INTO `contact_messages` VALUES (1,'QA Tester','qa@tester.com','9812345678','Testing Production Readiness','This is a test message to ensure the contact flow works properly.',1,'2026-05-13 21:14:06','2026-05-13 22:39:15'),(2,'QA Tester','qa@tester.com','9812345678','Testing Production Readiness','This is a test message to ensure the contact flow works properly.',1,'2026-05-13 21:15:25','2026-05-13 22:39:14'),(3,'QA Tester','qa@tester.com','9812345678','Testing Production Readiness','This is a test message to ensure the contact flow works properly.',1,'2026-05-13 21:16:04','2026-05-13 22:39:13'),(4,'QA Tester','qa@tester.com','9812345678','Testing Production Readiness','This is a test message to ensure the contact flow works properly.',1,'2026-05-13 21:16:39','2026-05-13 22:39:12'),(5,'QA Tester','qa@tester.com','9812345678','Testing Production Readiness Contact Form','This is a test message to ensure the contact flow works properly. Form test 2.',1,'2026-05-13 21:17:03','2026-05-13 22:39:11'),(6,'QA Tester Final','qa@tester.com','9812345678','Success Message Test','This is a test message to catch the success notification.',1,'2026-05-13 21:18:11','2026-05-13 22:39:10'),(7,'QA Tester','qa@tester.com','9812345678','Testing Production Readiness','This is a test message to ensure the contact flow works properly.',1,'2026-05-13 21:22:03','2026-05-13 22:39:09'),(8,'ram lal','ramu@gmail.com','9874563210','Custom PC Build Request (AI Recommended)','Hi Git Infosys Team,\n\nI would like to order the following custom PC build recommended by your AI Builder. Please contact me to confirm the order and parts availability:\n\n---\n\n### 1. **Recommended Build**  \n**Purpose:** Budget Build for Gaming/Light Productivity  \n\n| **Component**       | **Model**                                | **Price (NPR)** |  \n|----------------------|------------------------------------------|-----------------|  \n| **CPU**              | Intel Core i5-13400F (6C/12T)            | 35,000          |  \n| **GPU**              | NVIDIA GTX 1650 Super 4GB                | 25,000          |  \n| **RAM**              | Corsair Vengeance LPX 16GB DDR4 3200MHz  | 12,000          |  \n| **Storage**          | Western Digital Red Plus 1TB HDD         | 10,000          |  \n| **Motherboard**      | MSI B660M MORTAR WIFI DDR4               | 28,000          |  \n| **PSU**              | Corsair CX650 650W Bronze                 | 22,000          |  \n| **Cooling**          | Cooler Master Hyper 212 (Air)            | 8,000           |  \n| **Case**             | Cooler Master MasterBox Q300L            | 15,000          |  \n\n---\n\n### 2. **Total Estimated Cost**  \n**NPR 147,000**  \n*(Note: Prices are based on current market rates in Nepal as of 2024. Prices may vary slightly depending on availability.)*  \n\n---\n\n### 3. **Performance Summary**  \nThis build is optimized for **budget gaming** (1080p at medium-high settings in titles like *Valorant*, *CS2*, and *Apex Legends*) and **light productivity** (multitasking, office work, and media consumption). The i5-13400F paired with the GTX 1650 Super ensures smooth performance for entry-level gaming, while the 16GB RAM and 1TB HDD provide ample storage and multitasking capability.  \n\n---\n\n### 4. **Compatibility Notes**  \n- **CPU & Motherboard:** The Intel Core i5-13400F is compatible with the **MSI B660M MORTAR WIFI** (DDR4).  \n- **RAM:** 16GB DDR4 3200MHz is supported by the motherboard.  \n- **GPU:** The GTX 1650 Super fits in standard ATX cases and requires a 6-pin PCIe power connector (provided by the Corsair CX650).  \n- **Storage:** The 1TB HDD is compatible with the motherboard’s SATA ports.  \n\n---\n\n### 5. **Upgrade Path**  \nIf your budget increases, prioritize upgrading the **GPU** first for better gaming performance (e.g., RTX 3060 or RX 6600 XT). Alternatively, upgrading to a **16GB DDR4 3600MHz** kit or adding a **second 1TB HDD** for storage expansion would also enhance the system’s capabilities.  \n\n---\n\n**Purchase All Components from Git Infosys**  \nGit Infosys offers competitive pricing and reliable service for all components in Nepal. Avoid third-party retailers like Hukut, Daraz, or Nagmani IT for this build.  \n\n**Total Cost:** NPR 147,000  \n**Build Ready for Immediate Purchase at Git Infosys.**',1,'2026-05-13 22:07:57','2026-05-13 22:39:09'),(9,'Babu Mousa','babumousa@gmail.com','9865321456','Custom PC Build Request (AI Recommended)','Hi Git Infosys Team,\n\nI would like to order the following custom PC build recommended by your AI Builder. Please contact me to confirm the order and parts availability:\n\n---\n\nAbsolutely — for a **NPR 200,000 gaming PC build in Nepal**, I’d recommend a balanced setup that targets **excellent 1440p gaming** and very strong **1080p high-refresh-rate performance**.\n\nYou can buy all these components directly from **Git Infosys**.\n\n---\n\n## 1. Recommended Build\n\n### CPU\n**AMD Ryzen 5 7600** — **NPR 28,500**  \nGreat gaming CPU with strong single-core performance and an efficient 65W design.\n\n### GPU\n**NVIDIA GeForce RTX 4070 12GB** (brand: MSI / Gigabyte / ASUS dual-fan model) — **NPR 92,000**  \nExcellent for 1440p gaming, DLSS support, and very good efficiency.\n\n### Motherboard\n**MSI PRO B650M-P** — **NPR 20,500**  \nReliable AM5 board with good upgrade support for future Ryzen CPUs.\n\n### RAM\n**16GB x 2 (32GB total) DDR5 6000MHz CL30/32**  \nExample: **Kingston Fury Beast / G.Skill Ripjaws S5** — **NPR 16,500**  \nIdeal sweet spot for Ryzen 7000 gaming builds.\n\n### Storage\n**1TB NVMe SSD Gen4**  \nExample: **WD Black SN770 1TB / Kingston KC3000 1TB** — **NPR 10,500**  \nFast boot and load times, good enough for several large games.\n\n### PSU\n**Corsair RM750e 750W 80+ Gold** — **NPR 14,500**  \nHigh-quality power supply with enough headroom for this build.\n\n### Cooling\n**DeepCool AG400 ARGB** — **NPR 4,500**  \nMore than enough for the Ryzen 5 7600 and keeps temps quiet.\n\n### Case\n**Montech Air 100 ARGB / DeepCool CC560 ARGB** — **NPR 8,500**  \nGood airflow, comes with fans, and suitable for clean cable management.\n\n---\n\n## 2. Total Estimated Cost\n\n**Total: NPR 195,500**\n\nThis keeps you within the **NPR 200,000** budget while leaving a little room for price variation.\n\n---\n\n## 3. Performance Summary\n\nThis build is ideal for:\n\n- **1440p gaming on high to ultra settings**\n- **1080p esports gaming at very high FPS**\n- Smooth performance in games like:\n  - Valorant\n  - CS2\n  - Fortnite\n  - Apex Legends\n  - GTA V\n  - Cyberpunk 2077\n  - Red Dead Redemption 2\n- Also good for **light editing, streaming, and multitasking**\n\nFor gaming, this is a very strong and future-ready build for the Nepal market.\n\n---\n\n## 4. Compatibility Notes\n\n- **CPU + Motherboard:** Ryzen 5 7600 uses the **AM5 socket**, so the **B650 motherboard** is fully compatible.\n- **RAM:** Must be **DDR5 only**; DDR4 will not work on this platform.\n- **GPU + PSU:** RTX 4070 is well supported by a **750W Gold PSU**, which is more than sufficient.\n- **Case clearance:** Make sure the case supports the GPU length and has enough airflow.\n- **Cooling:** The AG400 is enough for the Ryzen 5 7600, since it is a power-efficient chip.\n- **BIOS:** B650 boards usually support Ryzen 7000 out of the box, but it’s always good to confirm BIOS version before installation.\n\n---\n\n## 5. Upgrade Path\n\nIf you increase budget later, upgrade in this order:\n\n1. **GPU upgrade first**  \n   Move to an **RTX 4070 Super / RTX 4070 Ti Super** for better 1440p and entry-level 4K gaming.\n\n2. **CPU upgrade next**  \n   Upgrade to **Ryzen 7 7800X3D** if your main goal is top-tier gaming FPS.\n\n3. **Storage expansion**  \n   Add another **1TB or 2TB NVMe SSD** for more game storage.\n\n4. **Cooler upgrade**  \n   If you move to a higher-end Ryzen chip, upgrade to a stronger air cooler or 240mm AIO.\n\n---\n\nIf you want, I can also make:\n- a **slightly cheaper RTX 4060 Ti build**\n- a **pure FPS esports build**\n- or a **full Git Infosys purchase list with exact part-by-part pricing**',1,'2026-05-18 04:59:58','2026-05-18 05:05:34'),(10,'sunil karki','sunilbhai@gmail.com','9976541236','Custom PC Build Request (AI Recommended)','Hi Git Infosys Team,\n\nI would like to order the following custom PC build recommended by your AI Builder. Please contact me to confirm the order and parts availability:\n\n---\n\nRecommended Build\n\nComponent   |   Model   |   Est. Price (NPR)\n---   |   ---   |   ---:\nCPU   |   AMD Ryzen 9 5900X   |   42,000\nGPU   |   NVIDIA GeForce RTX 4060 8GB   |   54,000\nRAM   |   32GB (2x16GB) DDR4 3200MHz CL16   |   12,500\nStorage   |   1TB NVMe Gen4 SSD (e.g., WD SN770 / Kingston NV2 class)   |   9,500\nMotherboard   |   MSI B550-A PRO / Gigabyte B550 AORUS Elite V2   |   18,500\nPSU   |   650W 80+ Bronze, reputable model (e.g., Corsair CX650 / Cooler Master MWE 650)   |   8,500\nCooling   |   DeepCool AK400 / similar tower air cooler   |   4,500\nCase   |   Airflow-focused mid-tower case with 3–4 fans   |   6,500\n\nTotal Estimated Cost\n\nNPR 156,000\n\nThis is a little above your NPR 150,000 budget, but it’s the most balanced workstation-oriented option for Nepal’s market. If you want to stay strictly within budget, I can trim it down right away.\n\nPerformance Summary\n\nThis build is excellent for:\n\n• Software development\n• Multitasking and heavy productivity\n• Adobe Premiere Pro / Photoshop / After Effects\n• 3D modeling and light-to-medium rendering\n• Virtual machines, databases, and coding workloads\n• Occasional gaming at 1080p and 1440p\n\nThe Ryzen 9 5900X gives you strong multi-core performance, while the RTX 4060 helps with GPU-accelerated tasks and also keeps power consumption low.\n\nCompatibility Notes\n\n• B550 motherboard + Ryzen 9 5900X is fully compatible, but some boards may need a BIOS update depending on stock version.\n• 32GB DDR4 RAM is the sweet spot for workstation use and works well on B550 boards.\n• 650W PSU is sufficient for this CPU + GPU combination.\n• Make sure the case supports ATX motherboards and has enough clearance for the GPU and tower cooler.\n• The DeepCool AK400 class cooler is fine for a 5900X in normal workstation use, but better airflow always helps.\n• Use a good-quality PSU only; this is not the place to cut corners for a workstation.\n\nUpgrade Path\n\nIf you increase budget later, upgrade in this order:\n\n• Upgrade storage first to 2TB NVMe SSD if your projects and files are large.\n• Upgrade RAM to 64GB if you do heavy rendering, VMs, or large datasets.\n• Upgrade GPU to an RTX 4060 Ti / RTX 4070 if your workflow is GPU-heavy.\n• Upgrade cooling to a stronger dual-tower cooler or 240mm AIO if you want lower temperatures and quieter operation.\n• Move to AM5 platform later for a longer-term CPU upgrade path.\n\nYou can buy all these components directly from Git Infosys. If you want, I can also make a strictly under NPR 150,000 version optimized for workstation use.',1,'2026-05-18 05:22:58','2026-05-18 05:26:24');
 /*!40000 ALTER TABLE `contact_messages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -296,7 +291,7 @@ CREATE TABLE `gadget_images` (
   PRIMARY KEY (`id`),
   KEY `gadget_images_gadget_id_foreign` (`gadget_id`),
   CONSTRAINT `gadget_images_gadget_id_foreign` FOREIGN KEY (`gadget_id`) REFERENCES `gadgets` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -305,7 +300,6 @@ CREATE TABLE `gadget_images` (
 
 LOCK TABLES `gadget_images` WRITE;
 /*!40000 ALTER TABLE `gadget_images` DISABLE KEYS */;
-INSERT INTO `gadget_images` VALUES (1,13,'gadgets/gallery/dell-xps-15-laptop-2024-3d-model-1bc64b0a87.webp','',0,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(2,13,'gadgets/gallery/dell-xps-15-laptop-2024-3d-model-6ca2e01d4e.jpg','',0,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(3,17,'gadgets/gallery/01KRGTY33X01J76X6ASD300SJE.png',NULL,0,'2026-05-13 08:28:00','2026-05-13 08:28:00'),(4,17,'gadgets/gallery/01KRGTY344SPN9T7J13Y22182E.png',NULL,0,'2026-05-13 08:28:00','2026-05-13 08:28:00');
 /*!40000 ALTER TABLE `gadget_images` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -329,7 +323,7 @@ CREATE TABLE `gadget_variants` (
   PRIMARY KEY (`id`),
   KEY `gadget_variants_gadget_id_foreign` (`gadget_id`),
   CONSTRAINT `gadget_variants_gadget_id_foreign` FOREIGN KEY (`gadget_id`) REFERENCES `gadgets` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -338,7 +332,6 @@ CREATE TABLE `gadget_variants` (
 
 LOCK TABLES `gadget_variants` WRITE;
 /*!40000 ALTER TABLE `gadget_variants` DISABLE KEYS */;
-INSERT INTO `gadget_variants` VALUES (1,15,'','',NULL,8,1,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(2,15,'','',NULL,5,1,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(3,15,'','',NULL,2,1,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(4,15,'','',NULL,3,1,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(5,15,'','',NULL,6,1,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(6,16,'ram','12 GB',122000.00,5,1,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(7,16,'ram','16 GB',126000.00,5,1,'2026-05-12 03:35:49','2026-05-12 03:35:49');
 /*!40000 ALTER TABLE `gadget_variants` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -375,7 +368,7 @@ CREATE TABLE `gadgets` (
   KEY `gadgets_category_id_foreign` (`category_id`),
   CONSTRAINT `gadgets_brand_id_foreign` FOREIGN KEY (`brand_id`) REFERENCES `brands` (`id`) ON DELETE CASCADE,
   CONSTRAINT `gadgets_category_id_foreign` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -384,7 +377,6 @@ CREATE TABLE `gadgets` (
 
 LOCK TABLES `gadgets` WRITE;
 /*!40000 ALTER TABLE `gadgets` DISABLE KEYS */;
-INSERT INTO `gadgets` VALUES (1,1,1,'Samsung Galaxy S24 Ultra','samsung-galaxy-s24-ultra',NULL,NULL,NULL,'',189999.00,NULL,'2025-12-12',1,1,'Samsung Galaxy S24 Ultra is a flagship device featuring Snapdragon 8 Gen 3 processor, 6.8\" Dynamic AMOLED 2X, 120Hz display, and 200MP + 50MP + 10MP + 12MP camera setup. Powered by a 5000 mAh, 45W battery.',NULL,7,'2026-03-24 10:05:32','2026-05-13 21:11:49'),(2,2,1,'iPhone 15 Pro Max','iphone-15-pro-max',NULL,NULL,NULL,'',209999.00,NULL,'2025-06-28',1,1,'iPhone 15 Pro Max is a flagship device featuring A17 Pro processor, 6.7\" Super Retina XDR OLED, 120Hz display, and 48MP + 12MP + 12MP camera setup. Powered by a 4441 mAh, 27W battery.',NULL,7,'2026-03-24 10:05:32','2026-03-26 01:32:27'),(3,3,1,'Xiaomi 14 Ultra','xiaomi-14-ultra',NULL,NULL,NULL,'',129999.00,NULL,'2025-10-25',1,1,'Xiaomi 14 Ultra is a flagship device featuring Snapdragon 8 Gen 3 processor, 6.73\" LTPO AMOLED, 120Hz display, and 50MP + 50MP + 50MP camera setup. Powered by a 5000 mAh, 90W battery.',NULL,13,'2026-03-24 10:05:32','2026-05-18 08:36:31'),(4,4,1,'OnePlus 12','oneplus-12',NULL,NULL,NULL,'',84999.00,NULL,'2025-08-15',1,1,'OnePlus 12 is a flagship device featuring Snapdragon 8 Gen 3 processor, 6.82\" LTPO AMOLED, 120Hz display, and 50MP + 48MP + 64MP camera setup. Powered by a 5400 mAh, 100W battery.',NULL,13,'2026-03-24 10:05:32','2026-05-12 11:38:39'),(5,5,1,'Google Pixel 8 Pro','google-pixel-8-pro',NULL,NULL,NULL,'',119999.00,125000.00,'2026-01-24',1,0,'Google Pixel 8 Pro is a flagship device featuring Google Tensor G3 processor, 6.7\" LTPO OLED, 120Hz display, and 50MP + 48MP + 48MP camera setup. Powered by a 5050 mAh, 30W battery.',NULL,28,'2026-03-24 10:05:32','2026-03-27 00:28:33'),(6,1,1,'Samsung Galaxy A55','samsung-galaxy-a55',NULL,NULL,NULL,'',45999.00,NULL,'2025-12-18',0,0,'Samsung Galaxy A55 is a flagship device featuring Exynos 1480 processor, 6.6\" Super AMOLED, 120Hz display, and 50MP + 12MP + 5MP camera setup. Powered by a 5000 mAh, 25W battery.',NULL,4,'2026-03-24 10:05:32','2026-03-26 01:32:27'),(7,12,1,'Realme GT 5 Pro','realme-gt-5-pro',NULL,NULL,NULL,'',62999.00,NULL,'2025-09-22',0,0,'Realme GT 5 Pro is a flagship device featuring Snapdragon 8 Gen 3 processor, 6.78\" AMOLED, 144Hz display, and 50MP + 8MP + 50MP camera setup. Powered by a 5400 mAh, 100W battery.',NULL,1,'2026-03-24 10:05:32','2026-03-26 01:32:27'),(8,2,1,'iPhone 15','iphone-15',NULL,NULL,NULL,'',134999.00,NULL,'2025-10-31',0,0,'iPhone 15 is a flagship device featuring A16 Bionic processor, 6.1\" Super Retina XDR OLED, 60Hz display, and 48MP + 12MP camera setup. Powered by a 3877 mAh, 20W battery.',NULL,12,'2026-03-24 10:05:32','2026-03-26 01:32:27'),(9,2,2,'MacBook Pro 14 M3 Pro','macbook-pro-14-m3-pro',NULL,NULL,NULL,'',299999.00,NULL,'2026-01-20',1,1,'MacBook Pro 14 M3 Pro features Apple M3 Pro processor, 14.2\" Liquid Retina XDR, 120Hz display, 18 GB RAM, and 512 GB SSD storage.',NULL,45,'2026-03-24 10:05:32','2026-05-13 19:47:30'),(10,6,2,'ASUS ROG Strix G16','asus-rog-strix-g16',NULL,NULL,NULL,'',179999.00,150000.00,'2025-08-13',1,1,'ASUS ROG Strix G16 features Intel Core i9-13980HX processor, 16\" FHD+ 165Hz IPS display, 16 GB DDR5 RAM, and 1 TB SSD storage.',NULL,5,'2026-03-24 10:05:32','2026-05-13 05:41:24'),(11,7,2,'Lenovo ThinkPad X1 Carbon Gen 11','lenovo-thinkpad-x1-carbon-gen-11',NULL,NULL,NULL,'',215999.00,NULL,'2025-09-01',1,1,'Lenovo ThinkPad X1 Carbon Gen 11 features Intel Core i7-1365P processor, 14\" 2.8K OLED, 90Hz display, 16 GB LPDDR5 RAM, and 512 GB SSD storage.',NULL,3,'2026-03-24 10:05:32','2026-03-26 01:32:27'),(12,8,2,'HP Pavilion 15','hp-pavilion-15',NULL,NULL,NULL,'',75999.00,72000.00,'2025-07-14',1,0,'HP Pavilion 15 features AMD Ryzen 5 7530U processor, 15.6\" FHD IPS display, 8 GB DDR4 RAM, and 512 GB SSD storage.',NULL,7,'2026-03-24 10:05:32','2026-05-12 07:27:23'),(13,9,2,'Dell XPS 15','dell-xps-15',NULL,'gadgets/01KRFMY6Y21J92ZWWY271ZQMBD.png',NULL,NULL,249999.00,255000.00,'2025-11-09',0,0,'<p>Dell XPS 15 features Intel Core i7-13700H processor, 15.6&quot; 3.5K OLED, 60Hz display, 16 GB DDR5 RAM, and 512 GB SSD storage.</p>',NULL,63,'2026-03-24 10:05:32','2026-05-12 21:45:06'),(14,10,2,'Acer Aspire 5','acer-aspire-5',NULL,NULL,NULL,'',62999.00,19000.00,'2025-10-05',0,0,'Acer Aspire 5 features AMD Ryzen 5 7520U processor, 15.6\" FHD IPS display, 8 GB DDR5 RAM, and 512 GB SSD storage.',NULL,8,'2026-03-24 10:05:32','2026-03-27 00:31:01'),(15,6,2,'Notebook Pro','asus-notebook-pro',NULL,NULL,NULL,'',121000.00,NULL,NULL,1,0,'',NULL,25,'2026-05-11 06:05:24','2026-05-18 05:38:24'),(16,1,1,'Samsung Galaxy S25 Ultra','samsung-galaxy-s25-ultra-demo',NULL,NULL,NULL,'',120000.00,125000.00,NULL,1,0,'Demo product to show variant pricing. Base price NPR 1,20,000 is for 12GB RAM + 256GB storage. Select higher RAM or storage to see the price update live.',NULL,41,'2026-05-11 06:24:22','2026-05-13 08:36:07'),(17,1,1,'samsung s26 ultra','samsung-s26-ultra',NULL,'gadgets/01KRGTY32X0MHF7EGY04BYAJ68.png',NULL,NULL,180000.00,195000.00,'2026-05-04',1,0,'<p></p>',NULL,15,'2026-05-12 12:03:51','2026-05-14 19:25:26'),(18,1,6,'GeForce RAM','geforce-ram','mouse',NULL,NULL,NULL,12300.00,15000.00,NULL,1,1,'<p></p>','<p></p>',1,'2026-05-14 00:13:06','2026-05-18 01:02:07'),(19,14,6,'GeForce RAM 32 GB','geforce-ram-32-gb','ram',NULL,NULL,NULL,20000.00,29000.00,NULL,1,1,'<p></p>','<table><tbody><tr><th rowspan=\"1\" colspan=\"1\"><p>Month</p></th><th rowspan=\"1\" colspan=\"1\"><p>Price</p></th></tr><tr><td rowspan=\"1\" colspan=\"1\"><p>Jan 2026</p></td><td rowspan=\"1\" colspan=\"1\"><p>27000</p></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><p>Feb 2026</p></td><td rowspan=\"1\" colspan=\"1\"><p>26899</p></td></tr></tbody></table>',4,'2026-05-14 00:54:39','2026-05-18 08:36:09'),(20,3,1,'Xiaomi 17 Ultra','xiaomi-17-ultra',NULL,NULL,NULL,NULL,254000.00,256000.00,NULL,1,1,'<p></p>','<table><tbody><tr><th rowspan=\"1\" colspan=\"1\"><p style=\"text-align: center;\">Month</p></th><th rowspan=\"1\" colspan=\"1\"><p style=\"text-align: center;\">Price</p></th></tr><tr><td rowspan=\"1\" colspan=\"1\"><p>Jan 2026</p></td><td rowspan=\"1\" colspan=\"1\"><p>256000</p></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><p>Feb 2026</p></td><td rowspan=\"1\" colspan=\"1\"><p>254000</p></td></tr></tbody></table>',8,'2026-05-14 01:47:56','2026-05-18 08:41:37');
 /*!40000 ALTER TABLE `gadgets` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -469,7 +461,7 @@ CREATE TABLE `migrations` (
 
 LOCK TABLES `migrations` WRITE;
 /*!40000 ALTER TABLE `migrations` DISABLE KEYS */;
-INSERT INTO `migrations` VALUES (1,'0001_01_01_000000_create_users_table',1),(2,'0001_01_01_000001_create_cache_table',1),(3,'0001_01_01_000002_create_jobs_table',1),(4,'2026_05_12_000001_create_brands_table',1),(5,'2026_05_12_000002_create_categories_table',1),(6,'2026_05_12_000003_create_gadgets_table',1),(7,'2026_05_12_000004_create_spec_sheets_table',1),(8,'2026_05_12_000005_create_gadget_variants_table',1),(9,'2026_05_12_000006_create_gadget_images_table',1),(10,'2026_05_12_000007_create_price_histories_table',1),(11,'2026_05_12_000008_create_orders_table',1),(12,'2026_05_12_000009_create_cart_items_table',1),(13,'2026_05_12_000010_create_reviews_table',1),(14,'2026_05_12_000011_create_news_and_guides_table',1),(15,'2026_05_12_000012_create_user_profiles_table',1),(16,'2026_05_12_000013_add_is_admin_to_users_table',2),(17,'2026_05_12_000014_create_sliders_table',3),(18,'2026_05_12_000015_create_brand_category_table',4),(19,'2026_05_12_000016_create_page_contents_table',5),(20,'2026_05_12_000017_create_product_variants_table',6),(21,'2026_05_12_000018_add_product_variant_id_to_cart_and_orders',6),(22,'2026_05_14_010456_create_contact_messages_table',7),(23,'2026_05_14_014305_add_price_tracker_description_to_gadgets_table',8),(24,'2026_05_14_060816_create_accessory_types_table',9);
+INSERT INTO `migrations` VALUES (1,'0001_01_01_000000_create_users_table',1),(2,'0001_01_01_000001_create_cache_table',1),(3,'0001_01_01_000002_create_jobs_table',1),(4,'2026_05_12_000001_create_brands_table',1),(5,'2026_05_12_000002_create_categories_table',1),(6,'2026_05_12_000003_create_gadgets_table',1),(7,'2026_05_12_000004_create_spec_sheets_table',1),(8,'2026_05_12_000005_create_gadget_variants_table',1),(9,'2026_05_12_000006_create_gadget_images_table',1),(10,'2026_05_12_000007_create_price_histories_table',1),(11,'2026_05_12_000008_create_orders_table',1),(12,'2026_05_12_000009_create_cart_items_table',1),(13,'2026_05_12_000010_create_reviews_table',1),(14,'2026_05_12_000011_create_news_and_guides_table',1),(15,'2026_05_12_000012_create_user_profiles_table',1),(16,'2026_05_12_000013_add_is_admin_to_users_table',1),(17,'2026_05_12_000014_create_sliders_table',1),(18,'2026_05_12_000015_create_brand_category_table',1),(19,'2026_05_12_000016_create_page_contents_table',1),(20,'2026_05_12_000017_create_product_variants_table',1),(21,'2026_05_12_000018_add_product_variant_id_to_cart_and_orders',1),(22,'2026_05_14_010456_create_contact_messages_table',1),(23,'2026_05_14_014305_add_price_tracker_description_to_gadgets_table',1),(24,'2026_05_14_060816_create_accessory_types_table',1);
 /*!40000 ALTER TABLE `migrations` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -503,7 +495,7 @@ CREATE TABLE `news_articles` (
   UNIQUE KEY `news_articles_slug_unique` (`slug`),
   KEY `news_articles_user_id_foreign` (`user_id`),
   CONSTRAINT `news_articles_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -512,7 +504,6 @@ CREATE TABLE `news_articles` (
 
 LOCK TABLES `news_articles` WRITE;
 /*!40000 ALTER TABLE `news_articles` DISABLE KEYS */;
-INSERT INTO `news_articles` VALUES (1,3,'Samsung Galaxy S25 Ultra Leaked: Everything We Know So Far','samsung-galaxy-s25-ultra-leaked-everything-we-know-so-far','<p>Samsung\'s next flagship smartphone, the Galaxy S25 Ultra, has been leaked extensively online. According to reliable sources, the device will feature the Snapdragon 8 Gen 4 processor, a titanium frame, and a significantly improved camera system with a 200MP main sensor.</p><p>The phone is expected to launch in January 2025 with a starting price of NPR 199,999. Samsung is reportedly working on new AI features powered by Galaxy AI 2.0.</p>','mobile',NULL,1,4284,'Samsung Galaxy S25 Ultra Leaked: Everything We Know So Far',0,0,0,0,0,0,'2026-03-24 10:05:32','2026-03-24 10:05:32'),(2,3,'Apple Announces M4 MacBook Pro with Revolutionary Performance','apple-announces-m4-macbook-pro-with-revolutionary-performance','<p>Apple has officially announced the M4 MacBook Pro lineup, featuring the all-new M4, M4 Pro, and M4 Max chips. The new processors deliver up to 2x faster CPU performance and 3x faster GPU performance compared to M3.</p><p>The starting price in Nepal is expected to be NPR 329,999 for the base M4 model. nice</p>','laptop',NULL,1,3329,'Apple Announces M4 MacBook Pro with Revolutionary Performance',0,0,0,0,0,0,'2026-03-24 10:05:32','2026-03-24 10:05:32'),(3,3,'ChatGPT-5 Rumored to Launch by End of 2025','chatgpt-5-rumored-to-launch-by-end-of-2025','<p>OpenAI is reportedly preparing to launch GPT-5, its next-generation AI model, by the end of 2025. The new model is expected to demonstrate significant improvements in reasoning, coding, and creative tasks.</p><p>Industry experts believe GPT-5 could revolutionize how we interact with AI assistants and could bring near-AGI capabilities.</p>','ai',NULL,1,1459,'ChatGPT-5 Rumored to Launch by End of 2025',0,0,0,0,0,0,'2026-03-24 10:05:32','2026-05-18 05:37:05'),(4,3,'Nepal Telecom Launches 5G Services in Kathmandu Valley','nepal-telecom-launches-5g-services-in-kathmandu-valley','<p>Nepal Telecom has officially launched 5G services in Kathmandu Valley, marking a significant milestone in Nepal\'s telecommunications history. The service is currently available in select areas of Kathmandu, Lalitpur, and Bhaktapur.</p><p>Users with 5G-capable devices can expect download speeds of up to 1 Gbps.</p>','telecom',NULL,1,3013,'Nepal Telecom Launches 5G Services in Kathmandu Valley',0,0,0,0,0,0,'2026-03-24 10:05:32','2026-03-24 10:05:32'),(5,3,'Best Budget Gaming Laptops Under NPR 100,000 in 2025','best-budget-gaming-laptops-under-npr-100000-in-2025','<p>Looking for a gaming laptop that won\'t break the bank? We\'ve compiled a list of the best gaming laptops available in Nepal under NPR 100,000. These laptops offer excellent performance for popular games like Valorant, CS2, and GTA V.</p><p>Our top picks include the Acer Nitro 5, Lenovo IdeaPad Gaming 3, and ASUS TUF Gaming F15.</p>','laptop',NULL,1,4460,'Best Budget Gaming Laptops Under NPR 100,000 in 2025',0,0,0,0,0,0,'2026-03-24 10:05:32','2026-03-24 10:05:32'),(6,3,'OnePlus 13 Gets OxygenOS 15 Update with New Features','oneplus-13-gets-oxygenos-15-update-with-new-features','<p>OnePlus has started rolling out the OxygenOS 15 update for the OnePlus 13, bringing several new features including enhanced AI photo editing, improved battery optimization, and a refreshed user interface. good</p>','mobile',NULL,1,4894,'OnePlus 13 Gets OxygenOS 15 Update with New Features',0,0,0,0,0,0,'2026-03-24 10:05:32','2026-03-24 10:05:32'),(7,3,'Sony PlayStation 6 Development Confirmed by Insiders','sony-playstation-6-development-confirmed-by-insiders','<p>Industry insiders have confirmed that Sony is actively developing the PlayStation 6. While the console is not expected to launch before 2028, development kits are reportedly being shared with select game studios.</p><p>The PS6 is rumored to feature AMD\'s next-gen RDNA 5 architecture and custom AI processing capabilities.</p>','gaming',NULL,1,4398,'Sony PlayStation 6 Development Confirmed by Insiders',0,0,0,0,0,0,'2026-03-24 10:05:32','2026-03-24 10:05:32'),(8,3,'Google Gemini Ultra 2.0 Sets New AI Benchmark Records','google-gemini-ultra-20-sets-new-ai-benchmark-records','<p><i>Google\'s latest AI model, Gemini Ultra 2.0, has set new records across multiple AI benchmarks. The model demonstrates superior performance in mathematical reasoning, code generation, and multimodal understanding.</i></p>','ai',NULL,1,3310,'Google Gemini Ultra 2.0 Sets New AI Benchmark Records',0,0,0,0,0,0,'2026-03-24 10:05:32','2026-05-12 03:39:38'),(9,5,'Samsung Galaxy A37 5g Price in Nepal','samsung-galaxy-a37-5g-price-in-nepal','this is a new news.','tech','news/website.jpg',1,9,'',0,0,0,0,0,0,'2026-03-26 22:38:31','2026-05-12 21:43:08'),(10,2,'Test Production Readiness','test-production-readiness','<p>This is a test article</p>','tech',NULL,1,0,NULL,0,0,0,0,0,0,'2026-05-13 21:00:29','2026-05-13 21:00:29');
 /*!40000 ALTER TABLE `news_articles` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -567,7 +558,7 @@ CREATE TABLE `order_items` (
   CONSTRAINT `order_items_gadget_id_foreign` FOREIGN KEY (`gadget_id`) REFERENCES `gadgets` (`id`) ON DELETE SET NULL,
   CONSTRAINT `order_items_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE,
   CONSTRAINT `order_items_product_variant_id_foreign` FOREIGN KEY (`product_variant_id`) REFERENCES `product_variants` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -576,7 +567,6 @@ CREATE TABLE `order_items` (
 
 LOCK TABLES `order_items` WRITE;
 /*!40000 ALTER TABLE `order_items` DISABLE KEYS */;
-INSERT INTO `order_items` VALUES (1,1,5,NULL,119999.00,1,'{}','2026-05-12 03:35:50','2026-05-12 03:35:50'),(2,2,14,NULL,62999.00,1,'{}','2026-05-12 03:35:50','2026-05-12 03:35:50'),(3,3,1,NULL,189999.00,1,NULL,'2026-05-13 21:11:19','2026-05-13 21:11:19'),(4,4,17,NULL,180000.00,1,NULL,'2026-05-13 21:19:11','2026-05-13 21:19:11'),(5,5,16,NULL,126000.00,1,'{\"ram\":\"16 GB\"}','2026-05-13 21:46:19','2026-05-13 21:46:19'),(6,5,17,NULL,180000.00,1,NULL,'2026-05-13 21:46:19','2026-05-13 21:46:19'),(7,6,20,NULL,254000.00,1,NULL,'2026-05-14 01:50:38','2026-05-14 01:50:38');
 /*!40000 ALTER TABLE `order_items` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -604,7 +594,7 @@ CREATE TABLE `orders` (
   PRIMARY KEY (`id`),
   KEY `orders_user_id_foreign` (`user_id`),
   CONSTRAINT `orders_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -613,7 +603,6 @@ CREATE TABLE `orders` (
 
 LOCK TABLES `orders` WRITE;
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
-INSERT INTO `orders` VALUES (1,NULL,'Kabindra','Koirala','kabindrakoirala86@gmail.com','9864100282','Balaju, kathmandu','esewa',0,119999.00,'shipped','2026-03-24 11:58:21','2026-05-11 05:04:45'),(2,NULL,'Ram Lal','Hari','kabinnn@gmail.com','9865321456','df afasdf asdfasd fasd fasdfasd f','esewa',0,62999.00,'delivered','2026-05-11 04:59:47','2026-05-11 05:12:32'),(3,NULL,'Test','User','qa@gitinfosys.com','9876543210','Test Address, Kathmandu','cod',0,189999.00,'pending','2026-05-13 21:11:19','2026-05-13 21:11:19'),(4,NULL,'efasd f','d fasd fss','qa@gitinfosys.com','9865231456','dfa sdfas fdasd f','cod',0,180000.00,'pending','2026-05-13 21:19:11','2026-05-13 21:19:11'),(5,2,'sdfsa d','df asd sad','admin@gitinfosys.com','9865231456','saadf asdf sad f','cod',0,306000.00,'pending','2026-05-13 21:46:19','2026-05-13 21:46:19'),(6,NULL,'fd','df','dfs@gmail.com','9865412365','df dfas df ssdf a','cod',0,254000.00,'pending','2026-05-14 01:50:38','2026-05-14 01:50:38');
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -636,7 +625,7 @@ CREATE TABLE `page_contents` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `page_contents_page_unique` (`page`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -645,7 +634,6 @@ CREATE TABLE `page_contents` (
 
 LOCK TABLES `page_contents` WRITE;
 /*!40000 ALTER TABLE `page_contents` DISABLE KEYS */;
-INSERT INTO `page_contents` VALUES (1,'about','Nepal\'s Trusted Tech Platform','We help Nepali consumers make smarter, more confident tech purchasing decisions through honest reviews, real-time price tracking, and expert guides.',NULL,'Learn about Git Infosys — the team, mission, and values behind Nepal\'s leading tech review, gadget comparison, and price tracking platform.','{\"mission\":\"To be Nepal\'s most trusted source for gadget reviews, price comparisons, and tech news \\u2014 empowering every buyer with unbiased, data-driven insights.\",\"vision\":\"A Nepal where every consumer has access to transparent, up-to-date technology information and can shop with complete confidence.\",\"story\":\"Git Infosys started as a passion project by a group of tech enthusiasts who were frustrated by the lack of reliable, localized tech information in Nepal. What began as a simple price tracker has grown into Nepal\'s comprehensive tech ecosystem \\u2014 covering reviews, comparisons, buying guides, and an e-commerce hub. Today, we serve thousands of Nepali consumers every month, helping them find the right gadgets at the right prices.\"}','2026-05-12 10:38:30','2026-05-12 10:38:30'),(2,'contact','Get In Touch','Have a question, feedback, or partnership inquiry? We\'d love to hear from you.',NULL,'Have a question, review request, or partnership proposal? Contact the Git Infosys team and we\'ll get back to you shortly.','{\"address\":\"Kathmandu, Nepal\",\"email\":\"info@gitinfosys.com\",\"phone\":\"+977 000 000 000\",\"hours\":\"Sun \\u2013 Fri: 9 AM \\u2013 6 PM\",\"map_lat\":\"27.7172\",\"map_lng\":\"85.3240\"}','2026-05-12 10:38:30','2026-05-12 10:38:30'),(3,'services','Our Platform Services','Git Infosys is Nepal\'s ultimate tech ecosystem. We offer an integrated suite of tools, reviews, and shopping experiences to make your tech life smarter.',NULL,'Explore what Git Infosys offers — gadget reviews, price comparison, buying guides, sponsored content, and more for Nepal\'s tech community.',NULL,'2026-05-12 10:38:30','2026-05-12 10:38:30'),(4,'terms','Terms & Conditions','Please read these terms carefully before using our platform.','<h2>1. Acceptance of Terms</h2><p>By accessing and using the Git Infosys website, you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to these terms, please do not use our platform.</p><h2>2. Use of the Platform</h2><p>Git Infosys provides technology product reviews, comparisons, news, and an e-commerce hub. Our platform is intended for informational purposes to help consumers make informed purchasing decisions.</p><ul><li>You must be at least 16 years old to use this platform.</li><li>You agree not to misuse the platform or help anyone else do so.</li><li>You may not use the platform for any illegal or unauthorized purpose.</li></ul><h2>3. Product Information &amp; Pricing</h2><p>We make every effort to display accurate product information and pricing. However, prices and availability are subject to change without notice. Git Infosys is not responsible for pricing errors or discrepancies between our listed prices and those at retail locations.</p><h2>4. User Accounts</h2><p>When you create an account with us, you must provide accurate and complete information. You are responsible for maintaining the security of your account and password. You agree to notify us immediately of any unauthorized use of your account.</p><h2>5. Intellectual Property</h2><p>All content on Git Infosys, including text, graphics, logos, images, and software, is the property of Git Infosys and is protected by copyright and intellectual property laws. You may not reproduce, distribute, or create derivative works without our express written permission.</p><h2>6. Purchases &amp; Payments</h2><p>All purchases made through our platform are subject to product availability. We reserve the right to refuse or cancel any order at any time. Refunds and returns are handled according to our return policy communicated at the time of purchase.</p><h2>7. Limitation of Liability</h2><p>Git Infosys shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the platform. Our total liability shall not exceed the amount you paid for the specific product or service.</p><h2>8. Changes to Terms</h2><p>We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting on the website. Your continued use of the platform constitutes acceptance of the modified terms.</p><h2>9. Contact</h2><p>If you have any questions about these Terms and Conditions, please contact us via our <a href=\"/contact\">contact page</a>.</p>','Read the terms and conditions governing your use of the Git Infosys website, products, and services.',NULL,'2026-05-12 10:38:30','2026-05-12 10:38:30'),(5,'privacy','Privacy Policy','Your privacy is important to us. This policy explains how we collect and use your data.','<h3>1. Information We Collect</h3><p>We collect information you provide directly to us, such as when you create an account, make a purchase, or contact us. This may include:</p><ul><li><p>Name, email address, and password</p></li><li><p>Billing and shipping address</p></li><li><p>Phone number (for order communications)</p></li><li><p>Purchase history and preferences</p></li><li><p>Comments and reviews you submit</p></li></ul><h3>2. How We Use Your Information</h3><p>We use the information we collect to:</p><ul><li><p>Process transactions and send related information</p></li><li><p>Send promotional communications (with your consent)</p></li><li><p>Respond to comments and questions</p></li><li><p>Improve our products and services</p></li><li><p>Monitor and analyze usage patterns</p></li></ul><h3>3. Information Sharing</h3><p>We do not sell, trade, or otherwise transfer your personal information to outside parties except to trusted third parties who assist us in operating our website (such as payment processors and shipping partners), as long as those parties agree to keep this information confidential.</p><h3>4. Cookies</h3><p>Our site uses cookies to enhance your browsing experience. Cookies are small files that a site transfers to your computer&#039;s hard drive through your Web browser that enables the site to recognize your browser and remember certain information. You can choose to disable cookies through your browser settings.</p><h3>5. Data Security</h3><p>We implement a variety of security measures to maintain the safety of your personal information. Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems.</p><h3>6. Your Rights</h3><p>You have the right to:</p><ul><li><p>Access the personal information we hold about you</p></li><li><p>Request correction of inaccurate data</p></li><li><p>Request deletion of your account and associated data</p></li><li><p>Opt-out of marketing communications at any time</p></li></ul><h3>7. Third-Party Links</h3><p>Our website may contain links to other sites. We are not responsible for the privacy practices or the content of such websites. We encourage you to review the privacy policies of any third-party sites you visit.</p><h3>8. Changes to This Policy</h3><p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p><h3>9. Contact Us</h3><p>If you have any questions about this Privacy Policy, please <a href=\"/contact\">contact us</a>.</p>','Understand how Git Infosys collects, uses, and protects your personal information when you use our platform.',NULL,'2026-05-12 10:38:30','2026-05-12 10:48:36');
 /*!40000 ALTER TABLE `page_contents` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -690,7 +678,7 @@ CREATE TABLE `price_histories` (
   PRIMARY KEY (`id`),
   KEY `price_histories_gadget_id_foreign` (`gadget_id`),
   CONSTRAINT `price_histories_gadget_id_foreign` FOREIGN KEY (`gadget_id`) REFERENCES `gadgets` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=86 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -699,7 +687,6 @@ CREATE TABLE `price_histories` (
 
 LOCK TABLES `price_histories` WRITE;
 /*!40000 ALTER TABLE `price_histories` DISABLE KEYS */;
-INSERT INTO `price_histories` VALUES (1,1,191707.00,'2025-09-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(2,1,190741.00,'2025-10-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(3,1,194282.00,'2025-11-24','2026-05-12 03:35:49','2026-05-12 03:35:49'),(4,1,197354.00,'2025-12-24','2026-05-12 03:35:49','2026-05-12 03:35:49'),(5,1,187698.00,'2026-01-23','2026-05-12 03:35:49','2026-05-12 03:35:49'),(6,1,186332.00,'2026-02-22','2026-05-12 03:35:49','2026-05-12 03:35:49'),(7,2,215311.00,'2025-09-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(8,2,212711.00,'2025-10-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(9,2,208379.00,'2025-11-24','2026-05-12 03:35:49','2026-05-12 03:35:49'),(10,2,208121.00,'2025-12-24','2026-05-12 03:35:49','2026-05-12 03:35:49'),(11,2,219438.00,'2026-01-23','2026-05-12 03:35:49','2026-05-12 03:35:49'),(12,2,210283.00,'2026-02-22','2026-05-12 03:35:49','2026-05-12 03:35:49'),(13,3,125197.00,'2025-09-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(14,3,135771.00,'2025-10-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(15,3,139845.00,'2025-11-24','2026-05-12 03:35:49','2026-05-12 03:35:49'),(16,3,127155.00,'2025-12-24','2026-05-12 03:35:49','2026-05-12 03:35:49'),(17,3,137817.00,'2026-01-23','2026-05-12 03:35:49','2026-05-12 03:35:49'),(18,3,139612.00,'2026-02-22','2026-05-12 03:35:49','2026-05-12 03:35:49'),(19,4,90811.00,'2025-09-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(20,4,81275.00,'2025-10-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(21,4,90955.00,'2025-11-24','2026-05-12 03:35:49','2026-05-12 03:35:49'),(22,4,87259.00,'2025-12-24','2026-05-12 03:35:49','2026-05-12 03:35:49'),(23,4,85103.00,'2026-01-23','2026-05-12 03:35:49','2026-05-12 03:35:49'),(24,4,91675.00,'2026-02-22','2026-05-12 03:35:49','2026-05-12 03:35:49'),(25,5,129326.00,'2025-09-25','2026-05-12 03:35:49','2026-05-12 03:35:49'),(26,5,124800.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(27,5,129780.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(28,5,115536.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(29,5,129635.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(30,5,119507.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(31,6,44898.00,'2025-09-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(32,6,49141.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(33,6,53499.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(34,6,41776.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(35,6,46458.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(36,6,52366.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(37,7,58164.00,'2025-09-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(38,7,70348.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(39,7,62828.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(40,7,65245.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(41,7,70777.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(42,7,62456.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(43,8,136079.00,'2025-09-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(44,8,131608.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(45,8,141814.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(46,8,130366.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(47,8,130188.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(48,8,139377.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(49,9,309124.00,'2025-09-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(50,9,300677.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(51,9,311493.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(52,9,293381.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(53,9,300796.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(54,9,308734.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(55,10,186334.00,'2025-09-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(56,10,175579.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(57,10,179330.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(58,10,172991.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(59,10,191910.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(60,10,189577.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(61,11,216713.00,'2025-09-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(62,11,208417.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(63,11,217082.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(64,11,222910.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(65,11,218376.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(66,11,220493.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(67,12,79664.00,'2025-09-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(68,12,79118.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(69,12,85032.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(70,12,72071.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(71,12,66452.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(72,12,81898.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(73,13,253758.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(74,14,70149.00,'2025-09-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(75,14,74020.00,'2025-10-25','2026-05-12 03:35:50','2026-05-12 03:35:50'),(76,14,68687.00,'2025-11-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(77,14,58901.00,'2025-12-24','2026-05-12 03:35:50','2026-05-12 03:35:50'),(78,14,76708.00,'2026-01-23','2026-05-12 03:35:50','2026-05-12 03:35:50'),(79,14,55293.00,'2026-02-22','2026-05-12 03:35:50','2026-05-12 03:35:50'),(80,15,121000.00,'2026-05-14','2026-05-14 01:45:09','2026-05-14 01:45:09'),(81,16,120000.00,'2026-05-14','2026-05-14 01:45:09','2026-05-14 01:45:09'),(82,17,180000.00,'2026-05-14','2026-05-14 01:45:09','2026-05-14 01:45:09'),(83,18,12300.00,'2026-05-14','2026-05-14 01:45:09','2026-05-14 01:45:09'),(84,19,20000.00,'2026-05-14','2026-05-14 01:45:09','2026-05-14 01:45:09'),(85,20,254000.00,'2026-05-14','2026-05-14 01:47:56','2026-05-14 01:47:56');
 /*!40000 ALTER TABLE `price_histories` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -729,7 +716,7 @@ CREATE TABLE `product_variants` (
   UNIQUE KEY `product_variants_sku_unique` (`sku`),
   KEY `product_variants_gadget_id_foreign` (`gadget_id`),
   CONSTRAINT `product_variants_gadget_id_foreign` FOREIGN KEY (`gadget_id`) REFERENCES `gadgets` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -738,7 +725,6 @@ CREATE TABLE `product_variants` (
 
 LOCK TABLES `product_variants` WRITE;
 /*!40000 ALTER TABLE `product_variants` DISABLE KEYS */;
-INSERT INTO `product_variants` VALUES (1,3,NULL,'Black','12 GB','512 GB',NULL,172000.00,170000.00,0,NULL,1,'2026-05-12 21:37:30','2026-05-12 21:37:30'),(2,3,NULL,'Brown','16 GB','1 TB',NULL,249999.00,220999.00,4,NULL,1,'2026-05-12 21:39:09','2026-05-12 21:39:09');
 /*!40000 ALTER TABLE `product_variants` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -775,7 +761,7 @@ CREATE TABLE `reviews` (
   KEY `reviews_user_id_foreign` (`user_id`),
   CONSTRAINT `reviews_gadget_id_foreign` FOREIGN KEY (`gadget_id`) REFERENCES `gadgets` (`id`) ON DELETE CASCADE,
   CONSTRAINT `reviews_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -784,7 +770,6 @@ CREATE TABLE `reviews` (
 
 LOCK TABLES `reviews` WRITE;
 /*!40000 ALTER TABLE `reviews` DISABLE KEYS */;
-INSERT INTO `reviews` VALUES (7,6,2,'User Review','user-review-7','best',1.0,NULL,NULL,NULL,1,0,0,0,2,0,0,'2026-03-26 02:14:26','2026-05-13 06:49:38');
 /*!40000 ALTER TABLE `reviews` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -814,7 +799,6 @@ CREATE TABLE `sessions` (
 
 LOCK TABLES `sessions` WRITE;
 /*!40000 ALTER TABLE `sessions` DISABLE KEYS */;
-INSERT INTO `sessions` VALUES ('5EhrewoBu2uIHAdiIpFqIzcFbTcQxnAkScogX5rU',NULL,'127.0.0.1','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36','eyJfdG9rZW4iOiJtV3Zad2Vkbm1yNHZPSE55ZnZjdXVzaGpZMjNzdzR4dVlCZmRrMDBQIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHA6XC9cLzEyNy4wLjAuMTo4MDAwXC9wYy1idWlsZGVyIiwicm91dGUiOiJwY2J1aWxkZXIuaW5kZXgifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==',1779114406),('FEyiObYtmdtim1F5XpJwW2AExQfSGgGT3Ez4S83t',NULL,'127.0.0.1','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36','eyJfdG9rZW4iOiJ0WHhhTjZYVkRNa21QY0NWZG1jMjJodWw1Q05aNnRDUXhKRUNBcDlvIiwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==',1779104361);
 /*!40000 ALTER TABLE `sessions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -843,7 +827,7 @@ CREATE TABLE `sliders` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -852,7 +836,6 @@ CREATE TABLE `sliders` (
 
 LOCK TABLES `sliders` WRITE;
 /*!40000 ALTER TABLE `sliders` DISABLE KEYS */;
-INSERT INTO `sliders` VALUES (1,'Git Infosys - Nepal\'s Best Tech Guide Platform',NULL,NULL,'sliders/01KRFK627GGMMPTCZSHN6TYZH6.png','Hot Deal','Browse Products','/products','violet',NULL,NULL,'dark',1,1,'2026-05-12 10:44:14','2026-05-12 21:42:04'),(2,'New Test Slider',NULL,NULL,NULL,'Review','See Review','reviews/user-review-1','violet',NULL,NULL,'dark',1,2,'2026-05-12 21:50:42','2026-05-12 21:50:42'),(3,'jghgghcc','yhgbjv',NULL,'sliders/01KRJF4FYYZNNYKSHHJHSXT05J.png','hot ','Browse Products','/products','violet',NULL,NULL,'dark',1,3,'2026-05-13 23:40:16','2026-05-13 23:40:16');
 /*!40000 ALTER TABLE `sliders` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -882,7 +865,7 @@ CREATE TABLE `spec_sheets` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `spec_sheets_gadget_id_unique` (`gadget_id`),
   CONSTRAINT `spec_sheets_gadget_id_foreign` FOREIGN KEY (`gadget_id`) REFERENCES `gadgets` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -891,7 +874,6 @@ CREATE TABLE `spec_sheets` (
 
 LOCK TABLES `spec_sheets` WRITE;
 /*!40000 ALTER TABLE `spec_sheets` DISABLE KEYS */;
-INSERT INTO `spec_sheets` VALUES (1,1,'6.8\" Dynamic AMOLED 2X, 120Hz','Snapdragon 8 Gen 3','12 GB','256/512 GB/1 TB','5000 mAh, 45W','200MP + 50MP + 10MP + 12MP','Android 14, One UI 6.1','5G, Wi-Fi 7, Bluetooth 5.3, NFC','232g','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(2,2,'6.7\" Super Retina XDR OLED, 120Hz','A17 Pro','8 GB','256/512 GB/1 TB','4441 mAh, 27W','48MP + 12MP + 12MP','iOS 17','5G, Wi-Fi 6E, Bluetooth 5.3, NFC','221g','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(3,3,'6.73\" LTPO AMOLED, 120Hz','Snapdragon 8 Gen 3','16 GB','512 GB','5000 mAh, 90W','50MP + 50MP + 50MP','Android 14, HyperOS','5G, Wi-Fi 7, Bluetooth 5.4','227g','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(4,4,'6.82\" LTPO AMOLED, 120Hz','Snapdragon 8 Gen 3','12/16 GB','256/512 GB','5400 mAh, 100W','50MP + 48MP + 64MP','Android 14, OxygenOS 14','5G, Wi-Fi 7, Bluetooth 5.4','220g','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(5,5,'6.7\" LTPO OLED, 120Hz','Google Tensor G3','12 GB','128/256/512 GB/1 TB','5050 mAh, 30W','50MP + 48MP + 48MP','Android 14','5G, Wi-Fi 7, Bluetooth 5.3','213g','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(6,6,'6.6\" Super AMOLED, 120Hz','Exynos 1480','8 GB','128/256 GB','5000 mAh, 25W','50MP + 12MP + 5MP','Android 14, One UI 6.1','5G, Wi-Fi 6, Bluetooth 5.3','213g','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(7,7,'6.78\" AMOLED, 144Hz','Snapdragon 8 Gen 3','12/16 GB','256/512 GB','5400 mAh, 100W','50MP + 8MP + 50MP','Android 14, Realme UI 5.0','5G, Wi-Fi 7, Bluetooth 5.4','199g','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(8,8,'6.1\" Super Retina XDR OLED, 60Hz','A16 Bionic','6 GB','128/256/512 GB','3877 mAh, 20W','48MP + 12MP','iOS 17','5G, Wi-Fi 6, Bluetooth 5.3','171g','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(9,9,'14.2\" Liquid Retina XDR, 120Hz','Apple M3 Pro','18 GB','512 GB SSD','17 hrs','','macOS Sonoma','Wi-Fi 6E, Bluetooth 5.3, Thunderbolt 4','1.55 kg','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(10,10,'16\" FHD+ 165Hz IPS','Intel Core i9-13980HX','16 GB DDR5','1 TB SSD','90 Wh','','Windows 11','Wi-Fi 6E, Bluetooth 5.2','2.5 kg','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(11,11,'14\" 2.8K OLED, 90Hz','Intel Core i7-1365P','16 GB LPDDR5','512 GB SSD','57 Wh','','Windows 11 Pro','Wi-Fi 6E, Bluetooth 5.2, 4G LTE','1.12 kg','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(12,12,'15.6\" FHD IPS','AMD Ryzen 5 7530U','8 GB DDR4','512 GB SSD','41 Wh','','Windows 11 Home','Wi-Fi 6, Bluetooth 5.2','1.75 kg','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(13,13,'15.6\" 3.5K OLED, 60Hz','Intel Core i7-13700H','16 GB DDR5','512 GB SSD','86 Wh','','Windows 11','Wi-Fi 6E, Bluetooth 5.3, Thunderbolt 4','1.86 kg','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49'),(14,14,'15.6\" FHD IPS','AMD Ryzen 5 7520U','8 GB DDR5','512 GB SSD','50 Wh','','Windows 11 Home','Wi-Fi 6, Bluetooth 5.1','1.76 kg','',NULL,'2026-05-12 03:35:49','2026-05-12 03:35:49');
 /*!40000 ALTER TABLE `spec_sheets` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1008,7 +990,7 @@ CREATE TABLE `users` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `users_email_unique` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1017,7 +999,6 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Admin','kabindrawordpress@gmail.com',NULL,'$2y$12$YODaDFtdJe/dVPnCfQFnUOEFwDN7ck.3yP9hG2dV5Mm0GGlA7/gfu',1,NULL,'2026-05-12 01:14:55','2026-05-12 03:28:48'),(2,'Admin User','admin@gitinfosys.com',NULL,'$2y$12$1j1z2vMvqSyvp7ZQhMNeduQnGVRXZ.ZWFPZmUjtrf/l1boCmL4OVq',1,NULL,'2026-03-24 10:05:31','2026-05-12 06:50:30'),(3,'Tech Editor','editor@gitinfosys.com',NULL,'$2y$12$UswUif8t/xUvOYXjFfNn8.XNjf9FX5Zq8W85ZWDzSShcAWSx3IU/O',1,NULL,'2026-03-24 10:05:32','2026-05-13 23:05:18'),(5,'Kabindra1','kabindrakoirala86@gmail.com',NULL,'$2y$12$UswUif8t/xUvOYXjFfNn8.XNjf9FX5Zq8W85ZWDzSShcAWSx3IU/O',1,NULL,'2026-03-24 11:59:47','2026-05-13 23:05:18');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1056,4 +1037,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-05-18 20:16:22
+-- Dump completed on 2026-05-18 22:46:47
