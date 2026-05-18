@@ -38,7 +38,8 @@ class SpecsRelationManager extends RelationManager
             TextColumn::make('ram')->label('RAM'),
             TextColumn::make('storage'),
             TextColumn::make('battery'),
-        ])->headerActions([CreateAction::make()])
-          ->actions([EditAction::make()]);
+        ])->headerActions([
+            CreateAction::make()->hidden(fn () => $this->getOwnerRecord()->specs()->exists()),
+        ])->actions([EditAction::make()]);
     }
 }
