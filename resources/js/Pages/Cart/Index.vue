@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <AppLayout>
     <h1 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white">🛒 Your Cart</h1>
 
@@ -16,7 +16,7 @@
                class="w-20 h-20 object-contain rounded-xl bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 p-2 shrink-0"/>
           <div class="flex-1 min-w-0">
             <Link :href="route('gadgets.show', item.gadget.slug)"
-                  class="font-semibold text-gray-800 dark:text-gray-200 hover:text-violet-600 dark:hover:text-violet-400 transition block">
+                  class="font-semibold text-gray-800 dark:text-gray-200 hover:text-brand-500 dark:hover:text-brand-400 transition block">
               {{ item.gadget.name }}
             </Link>
             <p class="text-sm text-gray-500 dark:text-gray-400 mt-0.5">{{ item.gadget.brand?.name }}</p>
@@ -24,7 +24,7 @@
             <!-- Variant badges -->
             <div v-if="item.variant_info && Object.keys(item.variant_info).length" class="flex gap-1.5 mt-2 flex-wrap">
               <span v-for="(v, k) in item.variant_info" :key="k"
-                    class="text-xs bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 px-2 py-0.5 rounded-lg font-medium capitalize">
+                    class="text-xs bg-brand-100 dark:bg-navy-900/30 text-brand-600 dark:text-brand-300 px-2 py-0.5 rounded-lg font-medium capitalize">
                 {{ k }}: {{ v }}
               </span>
             </div>
@@ -33,17 +33,17 @@
             <div class="flex items-center justify-between mt-3">
               <div class="flex items-center gap-2">
                 <button @click="updateQty(item, -1)"
-                        class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-violet-100 dark:hover:bg-violet-900/30 hover:text-violet-700 dark:hover:text-violet-300 flex items-center justify-center text-lg font-bold text-gray-600 dark:text-gray-300 transition border border-gray-200 dark:border-gray-700">
+                        class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-brand-100 dark:hover:bg-navy-900/30 hover:text-brand-600 dark:hover:text-brand-300 flex items-center justify-center text-lg font-bold text-gray-600 dark:text-gray-300 transition border border-gray-200 dark:border-gray-700">
                   −
                 </button>
                 <span class="w-8 text-center font-bold text-gray-800 dark:text-gray-200">{{ item.quantity }}</span>
                 <button @click="updateQty(item, 1)"
-                        class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-violet-100 dark:hover:bg-violet-900/30 hover:text-violet-700 dark:hover:text-violet-300 flex items-center justify-center text-lg font-bold text-gray-600 dark:text-gray-300 transition border border-gray-200 dark:border-gray-700">
+                        class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-brand-100 dark:hover:bg-navy-900/30 hover:text-brand-600 dark:hover:text-brand-300 flex items-center justify-center text-lg font-bold text-gray-600 dark:text-gray-300 transition border border-gray-200 dark:border-gray-700">
                   +
                 </button>
               </div>
               <div class="text-right">
-                <p class="font-bold text-violet-600 dark:text-violet-400 text-lg">NPR {{ formatPrice(subtotal(item)) }}</p>
+                <p class="font-bold text-brand-500 dark:text-brand-400 text-lg">NPR {{ formatPrice(subtotal(item)) }}</p>
                 <p class="text-xs text-gray-500 dark:text-gray-400">NPR {{ formatPrice(item.unit_price ?? item.gadget.price) }} each</p>
               </div>
             </div>
@@ -71,15 +71,15 @@
 
           <div class="flex justify-between font-bold text-xl mb-6 text-gray-900 dark:text-white">
             <span>Total</span>
-            <span class="text-violet-600 dark:text-violet-400">NPR {{ formatPrice(total) }}</span>
+            <span class="text-brand-500 dark:text-brand-400">NPR {{ formatPrice(total) }}</span>
           </div>
 
           <Link :href="route('checkout')"
-                class="block text-center w-full py-3.5 bg-violet-600 hover:bg-violet-500 text-white rounded-xl font-bold text-lg transition shadow-lg shadow-violet-500/25">
+                class="block text-center w-full py-3.5 bg-brand-500 hover:bg-brand-500 text-white rounded-xl font-bold text-lg transition shadow-lg shadow-brand-500/25">
             Proceed to Checkout →
           </Link>
           <Link :href="route('home')"
-                class="block text-center text-sm text-gray-500 dark:text-gray-400 hover:text-violet-600 dark:hover:text-violet-400 mt-4 transition">
+                class="block text-center text-sm text-gray-500 dark:text-gray-400 hover:text-brand-500 dark:hover:text-brand-400 mt-4 transition">
             ← Continue Shopping
           </Link>
         </div>
@@ -92,7 +92,7 @@
       <h2 class="text-2xl font-bold mb-2 text-gray-900 dark:text-white">Your cart is empty</h2>
       <p class="text-gray-500 dark:text-gray-400 mb-8">Add some amazing gadgets to get started.</p>
       <Link :href="route('gadgets.index')"
-            class="px-8 py-3 bg-violet-600 hover:bg-violet-500 text-white rounded-xl font-semibold transition">
+            class="px-8 py-3 bg-brand-500 hover:bg-brand-500 text-white rounded-xl font-semibold transition">
         Start Shopping
       </Link>
     </div>

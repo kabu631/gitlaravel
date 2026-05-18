@@ -38,11 +38,11 @@
         </div>
         <!-- Utility links -->
         <div class="flex items-center gap-4 text-gray-500 dark:text-gray-400">
-          <Link :href="route('pages.services')" class="hover:text-violet-600 dark:hover:text-violet-400 transition">Our Services</Link>
+          <Link :href="route('pages.services')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Our Services</Link>
           <span class="text-gray-300 dark:text-gray-700">|</span>
-          <Link :href="route('pages.about')"    class="hover:text-violet-600 dark:hover:text-violet-400 transition">About Us</Link>
+          <Link :href="route('pages.about')"    class="hover:text-brand-500 dark:hover:text-brand-400 transition">About Us</Link>
           <span class="text-gray-300 dark:text-gray-700">|</span>
-          <Link :href="route('pages.contact')"  class="hover:text-violet-600 dark:hover:text-violet-400 transition">Contact</Link>
+          <Link :href="route('pages.contact')"  class="hover:text-brand-500 dark:hover:text-brand-400 transition">Contact</Link>
         </div>
       </div>
     </div>
@@ -50,9 +50,8 @@
     <!-- Navbar -->
     <nav class="sticky top-0 z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur border-b border-gray-200 dark:border-gray-800">
       <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
-        <Link :href="route('home')" class="flex items-center gap-2 font-bold text-xl text-violet-600 dark:text-violet-400 shrink-0">
-          <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-          Git Infosys
+        <Link :href="route('home')" class="flex items-center shrink-0">
+          <img :src="isDark ? '/images/logo-white.png' : '/images/logo_dark.png'" alt="Git Infosys" class="h-10 w-auto" />
         </Link>
 
         <!-- Desktop menu -->
@@ -144,8 +143,8 @@
             <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/></svg>
           </button>
           <button @click="openSearch"
-                  class="hidden sm:flex items-center gap-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700 hover:border-violet-400 dark:hover:border-violet-600 rounded-lg px-3 py-1.5 transition-all duration-200 group">
-            <svg class="w-4 h-4 text-gray-400 group-hover:text-violet-500 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/></svg>
+                  class="hidden sm:flex items-center gap-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700 hover:border-brand-400 dark:hover:border-brand-500 rounded-lg px-3 py-1.5 transition-all duration-200 group">
+            <svg class="w-4 h-4 text-gray-400 group-hover:text-brand-500 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/></svg>
             <span class="text-sm text-gray-400 dark:text-gray-500 w-24">Search...</span>
             <kbd class="hidden lg:inline-flex text-[10px] text-gray-400 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded px-1.5 py-0.5 font-mono">Ctrl K</kbd>
           </button>
@@ -180,7 +179,7 @@
             <div class="relative" ref="userMenuRef">
               <button
                 @click="userMenuOpen = !userMenuOpen"
-                class="hidden sm:flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-lg bg-violet-600 hover:bg-violet-500 text-white font-medium transition select-none"
+                class="hidden sm:flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-lg bg-brand-500 hover:bg-brand-400 text-white font-medium transition select-none"
               >
                 {{ $page.props.auth.user.name.split(' ')[0] }}
                 <svg class="w-3.5 h-3.5 transition-transform duration-200" :class="userMenuOpen ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
@@ -197,7 +196,7 @@
               >
                 <div
                   v-if="userMenuOpen"
-                  class="absolute right-0 top-full mt-2 w-44 bg-white dark:bg-gray-900 border-2 border-violet-500 dark:border-violet-500 rounded-xl shadow-xl shadow-violet-500/10 dark:shadow-violet-900/30 py-1.5 z-50 origin-top-right"
+                  class="absolute right-0 top-full mt-2 w-44 bg-white dark:bg-gray-900 border-2 border-brand-500 dark:border-brand-500 rounded-xl shadow-xl shadow-brand-500/10 dark:shadow-navy-900/30 py-1.5 z-50 origin-top-right"
                 >
                   <Link
                     :href="route('profile.edit')"
@@ -232,7 +231,7 @@
           </template>
           <template v-else>
             <Link :href="route('login')" class="text-sm px-3 py-1.5 rounded-lg text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition">Login</Link>
-            <Link :href="route('register')" class="text-sm px-3 py-1.5 rounded-lg bg-violet-600 hover:bg-violet-500 text-white transition">Sign Up</Link>
+            <Link :href="route('register')" class="text-sm px-3 py-1.5 rounded-lg bg-brand-500 hover:bg-brand-400 text-white transition">Sign Up</Link>
           </template>
 
           <!-- Mobile menu toggle -->
@@ -310,7 +309,7 @@
     >
       <button v-if="showTopBtn"
               @click="scrollToTop"
-              class="fixed bottom-24 right-6 z-40 w-11 h-11 bg-white dark:bg-gray-800 hover:bg-violet-600 dark:hover:bg-violet-600 border border-gray-200 dark:border-gray-700 hover:border-violet-500 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 group"
+              class="fixed bottom-24 right-6 z-40 w-11 h-11 bg-white dark:bg-gray-800 hover:bg-brand-500 dark:hover:bg-brand-500 border border-gray-200 dark:border-gray-700 hover:border-brand-500 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 group"
               title="Back to top">
         <svg class="w-4 h-4 text-gray-500 dark:text-gray-400 group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"/>
@@ -348,7 +347,7 @@
 
               <!-- Input row -->
               <div class="flex items-center gap-3 px-5 py-4 border-b border-gray-100 dark:border-gray-800">
-                <svg class="w-5 h-5 text-violet-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-5 h-5 text-brand-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/>
                 </svg>
                 <input ref="searchModalInput"
@@ -380,7 +379,7 @@
               <!-- Typed state: show search action -->
               <div v-else class="p-4">
                 <button @click="search"
-                        class="w-full flex items-center gap-3 px-4 py-3 rounded-xl bg-violet-50 dark:bg-violet-900/20 hover:bg-violet-100 dark:hover:bg-violet-900/40 border border-violet-200 dark:border-violet-800/50 text-violet-700 dark:text-violet-300 transition-all duration-150 group">
+                        class="w-full flex items-center gap-3 px-4 py-3 rounded-xl bg-brand-50 dark:bg-navy-900/20 hover:bg-brand-100 dark:hover:bg-navy-900/40 border border-brand-200 dark:border-navy-700/50 text-navy-800 dark:text-brand-300 transition-all duration-150 group">
                   <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/>
                   </svg>
@@ -419,43 +418,43 @@
       <div class="max-w-7xl mx-auto px-4">
         <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <p class="text-violet-600 dark:text-violet-400 font-bold text-lg mb-2">Git Infosys</p>
+            <img :src="isDark ? '/images/logo-white.png' : '/images/logo_dark.png'" alt="Git Infosys" class="h-8 w-auto mb-2" />
             <p class="text-sm leading-relaxed">Nepal's trusted tech review &amp; price tracking platform. Making smart buying decisions easier.</p>
           </div>
           <div>
             <p class="text-gray-700 dark:text-gray-300 font-semibold mb-3">Products</p>
             <div class="space-y-2">
-              <Link :href="route('gadgets.index')"   class="block hover:text-violet-600 dark:hover:text-violet-400 transition">All Products</Link>
-              <Link :href="route('compare.index')"   class="block hover:text-violet-600 dark:hover:text-violet-400 transition">Compare</Link>
-              <Link :href="route('reviews.index')"   class="block hover:text-violet-600 dark:hover:text-violet-400 transition">Reviews</Link>
+              <Link :href="route('gadgets.index')"   class="block hover:text-brand-500 dark:hover:text-brand-400 transition">All Products</Link>
+              <Link :href="route('compare.index')"   class="block hover:text-brand-500 dark:hover:text-brand-400 transition">Compare</Link>
+              <Link :href="route('reviews.index')"   class="block hover:text-brand-500 dark:hover:text-brand-400 transition">Reviews</Link>
               <Link :href="route('pcbuilder.index')" class="block hover:text-blue-500 dark:hover:text-blue-400 transition">PC Builder</Link>
             </div>
           </div>
           <div>
             <p class="text-gray-700 dark:text-gray-300 font-semibold mb-3">Content</p>
             <div class="space-y-2">
-              <Link :href="route('news.index')"   class="block hover:text-violet-600 dark:hover:text-violet-400 transition">News</Link>
-              <Link :href="route('guides.index')" class="block hover:text-violet-600 dark:hover:text-violet-400 transition">Guides</Link>
-              <Link :href="route('search.index')" class="block hover:text-violet-600 dark:hover:text-violet-400 transition">Search</Link>
+              <Link :href="route('news.index')"   class="block hover:text-brand-500 dark:hover:text-brand-400 transition">News</Link>
+              <Link :href="route('guides.index')" class="block hover:text-brand-500 dark:hover:text-brand-400 transition">Guides</Link>
+              <Link :href="route('search.index')" class="block hover:text-brand-500 dark:hover:text-brand-400 transition">Search</Link>
             </div>
           </div>
           <div>
             <p class="text-gray-700 dark:text-gray-300 font-semibold mb-3">Company</p>
             <div class="space-y-2">
-              <Link :href="route('pages.about')"    class="block hover:text-violet-600 dark:hover:text-violet-400 transition">About Us</Link>
-              <Link :href="route('pages.contact')"  class="block hover:text-violet-600 dark:hover:text-violet-400 transition">Contact</Link>
-              <Link :href="route('pages.services')" class="block hover:text-violet-600 dark:hover:text-violet-400 transition">Services</Link>
-              <Link :href="route('pages.terms')"    class="block hover:text-violet-600 dark:hover:text-violet-400 transition">Terms &amp; Conditions</Link>
-              <Link :href="route('pages.privacy')"  class="block hover:text-violet-600 dark:hover:text-violet-400 transition">Privacy Policy</Link>
+              <Link :href="route('pages.about')"    class="block hover:text-brand-500 dark:hover:text-brand-400 transition">About Us</Link>
+              <Link :href="route('pages.contact')"  class="block hover:text-brand-500 dark:hover:text-brand-400 transition">Contact</Link>
+              <Link :href="route('pages.services')" class="block hover:text-brand-500 dark:hover:text-brand-400 transition">Services</Link>
+              <Link :href="route('pages.terms')"    class="block hover:text-brand-500 dark:hover:text-brand-400 transition">Terms &amp; Conditions</Link>
+              <Link :href="route('pages.privacy')"  class="block hover:text-brand-500 dark:hover:text-brand-400 transition">Privacy Policy</Link>
             </div>
           </div>
         </div>
         <div class="border-t border-gray-200 dark:border-gray-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p>© {{ new Date().getFullYear() }} Git Infosys. All rights reserved.</p>
           <div class="flex gap-4">
-            <Link :href="route('pages.terms')"   class="hover:text-violet-600 dark:hover:text-violet-400 transition">Terms</Link>
-            <Link :href="route('pages.privacy')" class="hover:text-violet-600 dark:hover:text-violet-400 transition">Privacy</Link>
-            <Link :href="route('pages.contact')" class="hover:text-violet-600 dark:hover:text-violet-400 transition">Contact</Link>
+            <Link :href="route('pages.terms')"   class="hover:text-brand-500 dark:hover:text-brand-400 transition">Terms</Link>
+            <Link :href="route('pages.privacy')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Privacy</Link>
+            <Link :href="route('pages.contact')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Contact</Link>
           </div>
         </div>
       </div>
@@ -562,20 +561,20 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-.nav-link        { @apply text-gray-600 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 transition px-3 py-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 whitespace-nowrap; }
-.mobile-nav-link { @apply block text-gray-600 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition; }
-.user-menu-item  { @apply flex items-center px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:text-violet-600 dark:hover:text-violet-300 hover:bg-violet-50 dark:hover:bg-violet-900/20 transition w-full; }
+.nav-link        { @apply text-gray-600 dark:text-gray-300 hover:text-brand-500 dark:hover:text-brand-400 transition px-3 py-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 whitespace-nowrap; }
+.mobile-nav-link { @apply block text-gray-600 dark:text-gray-300 hover:text-brand-500 dark:hover:text-brand-400 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition; }
+.user-menu-item  { @apply flex items-center px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:text-brand-500 dark:hover:text-brand-300 hover:bg-brand-50 dark:hover:bg-navy-900/20 transition w-full; }
 
 .dd-panel {
   @apply absolute top-full left-0 mt-1.5 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl shadow-2xl shadow-black/10 dark:shadow-black/50 py-1.5 z-50 origin-top-left;
 }
 .dd-item {
-  @apply flex items-center gap-2 px-4 py-2 text-sm text-gray-600 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition w-full whitespace-nowrap;
+  @apply flex items-center gap-2 px-4 py-2 text-sm text-gray-600 dark:text-gray-300 hover:text-brand-500 dark:hover:text-brand-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition w-full whitespace-nowrap;
 }
 .dd-divider {
   @apply border-t border-gray-200 dark:border-gray-800 my-1;
 }
 .search-chip {
-  @apply flex items-center gap-2 px-3 py-2.5 text-sm text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-800 hover:bg-violet-50 dark:hover:bg-violet-900/20 hover:text-violet-700 dark:hover:text-violet-300 border border-gray-200 dark:border-gray-700 hover:border-violet-300 dark:hover:border-violet-700 rounded-xl transition-all duration-150 w-full;
+  @apply flex items-center gap-2 px-3 py-2.5 text-sm text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-800 hover:bg-brand-50 dark:hover:bg-navy-900/20 hover:text-brand-600 dark:hover:text-brand-300 border border-gray-200 dark:border-gray-700 hover:border-brand-300 dark:hover:border-brand-700 rounded-xl transition-all duration-150 w-full;
 }
 </style>

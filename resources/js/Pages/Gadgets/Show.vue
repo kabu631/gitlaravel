@@ -1,10 +1,10 @@
-<template>
+﻿<template>
   <AppLayout>
     <!-- Breadcrumb -->
     <nav class="text-sm text-gray-500 dark:text-gray-400 mb-6 flex items-center gap-2">
-      <Link :href="route('home')" class="hover:text-violet-600 dark:hover:text-violet-400 transition">Home</Link>
+      <Link :href="route('home')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Home</Link>
       <span>/</span>
-      <Link :href="route('gadgets.index')" class="hover:text-violet-600 dark:hover:text-violet-400 transition">Products</Link>
+      <Link :href="route('gadgets.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Products</Link>
       <span>/</span>
       <span class="text-gray-700 dark:text-gray-300">{{ gadget.name }}</span>
     </nav>
@@ -23,20 +23,20 @@
                @click="activeImage = img.src"
                class="w-16 h-16 rounded-xl border-2 cursor-pointer object-contain p-1 bg-white dark:bg-gray-900 transition"
                :class="activeImage === img.src
-                 ? 'border-violet-500'
+                 ? 'border-brand-500'
                  : 'border-gray-200 dark:border-gray-700 hover:border-gray-400 dark:hover:border-gray-500'"/>
         </div>
       </div>
 
       <!-- Info -->
       <div>
-        <p class="text-violet-600 dark:text-violet-400 font-semibold text-sm mb-1">{{ gadget.brand?.name }}</p>
+        <p class="text-brand-500 dark:text-brand-400 font-semibold text-sm mb-1">{{ gadget.brand?.name }}</p>
         <h1 class="text-3xl font-extrabold mb-4 text-gray-900 dark:text-white">{{ gadget.name }}</h1>
 
         <!-- ── Price display ─────────────────────────────────────── -->
         <div class="mb-6">
           <div class="flex items-baseline gap-3 flex-wrap">
-            <p class="text-4xl font-bold text-violet-600 dark:text-violet-400">
+            <p class="text-4xl font-bold text-brand-500 dark:text-brand-400">
               NPR {{ formatPrice(displayPrice) }}
             </p>
             <p v-if="originalPrice" class="text-xl text-gray-400 line-through">
@@ -55,7 +55,7 @@
           <!-- Color selector -->
           <div v-if="uniqueColors.length">
             <p class="text-sm font-semibold mb-2 text-gray-700 dark:text-gray-300">
-              Color: <span class="text-violet-600 dark:text-violet-400 font-bold">{{ selectedColor }}</span>
+              Color: <span class="text-brand-500 dark:text-brand-400 font-bold">{{ selectedColor }}</span>
             </p>
             <div class="flex flex-wrap gap-2">
               <button v-for="color in uniqueColors" :key="color" type="button"
@@ -75,7 +75,7 @@
           <!-- RAM selector -->
           <div v-if="uniqueRams.length">
             <p class="text-sm font-semibold mb-2 text-gray-700 dark:text-gray-300">
-              RAM: <span class="text-violet-600 dark:text-violet-400 font-bold">{{ selectedRam }}</span>
+              RAM: <span class="text-brand-500 dark:text-brand-400 font-bold">{{ selectedRam }}</span>
             </p>
             <div class="flex flex-wrap gap-2">
               <button v-for="ram in uniqueRams" :key="ram" type="button"
@@ -91,7 +91,7 @@
           <!-- Storage selector -->
           <div v-if="uniqueStorages.length">
             <p class="text-sm font-semibold mb-2 text-gray-700 dark:text-gray-300">
-              Storage: <span class="text-violet-600 dark:text-violet-400 font-bold">{{ selectedStorage }}</span>
+              Storage: <span class="text-brand-500 dark:text-brand-400 font-bold">{{ selectedStorage }}</span>
             </p>
             <div class="flex flex-wrap gap-2">
               <button v-for="storage in uniqueStorages" :key="storage" type="button"
@@ -107,7 +107,7 @@
           <!-- Size selector -->
           <div v-if="uniqueSizes.length">
             <p class="text-sm font-semibold mb-2 text-gray-700 dark:text-gray-300">
-              Size: <span class="text-violet-600 dark:text-violet-400 font-bold">{{ selectedSize }}</span>
+              Size: <span class="text-brand-500 dark:text-brand-400 font-bold">{{ selectedSize }}</span>
             </p>
             <div class="flex flex-wrap gap-2">
               <button v-for="size in uniqueSizes" :key="size" type="button"
@@ -146,7 +146,7 @@
                     class="px-6 py-3 rounded-xl font-semibold transition-all flex items-center gap-2"
                     :class="(!selectedVariant || stockStatus?.disabled)
                       ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-500 cursor-not-allowed'
-                      : 'bg-violet-600 hover:bg-violet-500 text-white shadow-lg shadow-violet-500/25'">
+                      : 'bg-brand-500 hover:bg-brand-500 text-white shadow-lg shadow-brand-500/25'">
               🛒 {{ stockStatus?.type === 'outofstock' ? 'Out of Stock' : stockStatus?.type === 'unavailable' ? 'Not Available' : 'Add to Cart' }}
             </button>
             <button v-if="$page.props.auth.user" type="button" @click="toggleWishlist"
@@ -167,7 +167,7 @@
         <form v-else-if="Object.keys(variantsByType).length" @submit.prevent="addToCartLegacy" class="space-y-5 mb-6">
           <div v-for="(vdata, vtype) in variantsByType" :key="vtype">
             <p class="text-sm font-semibold mb-2 text-gray-700 dark:text-gray-300">
-              {{ vdata.label }}: <span class="text-violet-600 dark:text-violet-400">{{ legacySelected[vtype] }}</span>
+              {{ vdata.label }}: <span class="text-brand-500 dark:text-brand-400">{{ legacySelected[vtype] }}</span>
             </p>
             <div class="flex flex-wrap gap-2">
               <button v-for="opt in vdata.options" :key="opt.value" type="button"
@@ -175,9 +175,9 @@
                       :disabled="!opt.is_available"
                       class="px-4 py-2 rounded-xl text-sm border-2 font-medium transition-all"
                       :class="legacySelected[vtype] === opt.value
-                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300'
+                        ? 'border-brand-500 bg-brand-50 dark:bg-navy-900/30 text-brand-600 dark:text-brand-300'
                         : opt.is_available
-                          ? 'border-gray-300 dark:border-gray-700 hover:border-violet-400 dark:hover:border-violet-500 text-gray-700 dark:text-gray-300'
+                          ? 'border-gray-300 dark:border-gray-700 hover:border-brand-400 dark:hover:border-brand-500 text-gray-700 dark:text-gray-300'
                           : 'border-gray-200 dark:border-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed opacity-50'">
                 {{ opt.value }}
                 <span v-if="!opt.is_available" class="text-xs ml-1">(Out)</span>
@@ -185,7 +185,7 @@
             </div>
           </div>
           <div class="flex gap-3 flex-wrap">
-            <button type="submit" class="px-6 py-3 bg-violet-600 hover:bg-violet-500 text-white rounded-xl font-semibold transition">
+            <button type="submit" class="px-6 py-3 bg-brand-500 hover:bg-brand-500 text-white rounded-xl font-semibold transition">
               🛒 Add to Cart
             </button>
             <button v-if="$page.props.auth.user" type="button" @click="toggleWishlist"
@@ -203,7 +203,7 @@
         <!-- ── No variants — simple add to cart ─────────────────── -->
         <div v-else class="flex gap-3 mb-6 flex-wrap">
           <Link :href="route('cart.add', gadget.slug)" method="post" as="button"
-                class="px-6 py-3 bg-violet-600 hover:bg-violet-500 text-white rounded-xl font-semibold transition">
+                class="px-6 py-3 bg-brand-500 hover:bg-brand-500 text-white rounded-xl font-semibold transition">
             🛒 Add to Cart
           </Link>
           <button v-if="$page.props.auth.user" @click="toggleWishlist"
@@ -234,7 +234,7 @@
         <button v-for="tab in tabs" :key="tab" @click="activeTab = tab"
                 class="px-5 py-2.5 text-sm font-semibold rounded-t-lg transition whitespace-nowrap"
                 :class="activeTab === tab
-                  ? 'bg-white dark:bg-gray-900 text-violet-600 dark:text-violet-400 border-b-2 border-violet-500'
+                  ? 'bg-white dark:bg-gray-900 text-brand-500 dark:text-brand-400 border-b-2 border-brand-500'
                   : 'text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'">
           {{ tab }}
         </button>
@@ -265,7 +265,7 @@
       <div v-if="activeTab === 'Reviews'">
         <div v-if="review" class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6 mb-6">
           <div class="flex items-center gap-3 mb-3">
-            <span class="text-3xl font-extrabold text-violet-600 dark:text-violet-400">{{ review.rating }}</span>
+            <span class="text-3xl font-extrabold text-brand-500 dark:text-brand-400">{{ review.rating }}</span>
             <div>
               <p class="font-bold text-lg text-gray-900 dark:text-gray-100">{{ review.title }}</p>
               <p class="text-gray-500 text-sm">Editorial Review</p>
@@ -279,7 +279,7 @@
              class="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 mb-3">
           <div class="flex justify-between items-center mb-2">
             <span class="font-semibold text-sm text-gray-800 dark:text-gray-200">{{ c.user?.name }}</span>
-            <span class="text-violet-600 dark:text-violet-400 font-bold text-sm">{{ c.rating }}/10</span>
+            <span class="text-brand-500 dark:text-brand-400 font-bold text-sm">{{ c.rating }}/10</span>
           </div>
           <p class="text-gray-600 dark:text-gray-400 text-sm">{{ c.comment }}</p>
         </div>
@@ -289,15 +289,15 @@
               class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-5 mt-4">
           <h4 class="font-semibold mb-3 text-gray-800 dark:text-gray-200">Write a Review</h4>
           <input v-model="commentForm.rating" type="number" min="1" max="10" placeholder="Rating (1-10)"
-                 class="w-full mb-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm outline-none focus:border-violet-500 text-gray-800 dark:text-gray-200"/>
+                 class="w-full mb-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm outline-none focus:border-brand-500 text-gray-800 dark:text-gray-200"/>
           <textarea v-model="commentForm.comment" placeholder="Your review..." rows="3"
-                    class="w-full mb-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm outline-none focus:border-violet-500 text-gray-800 dark:text-gray-200 resize-none"/>
-          <button type="submit" class="px-5 py-2 bg-violet-600 hover:bg-violet-500 text-white rounded-xl text-sm font-semibold transition">
+                    class="w-full mb-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm outline-none focus:border-brand-500 text-gray-800 dark:text-gray-200 resize-none"/>
+          <button type="submit" class="px-5 py-2 bg-brand-500 hover:bg-brand-500 text-white rounded-xl text-sm font-semibold transition">
             Submit Review
           </button>
         </form>
         <p v-else-if="!$page.props.auth.user" class="mt-4 text-gray-500 dark:text-gray-400 text-sm">
-          <Link :href="route('login')" class="text-violet-600 dark:text-violet-400 hover:underline">Login</Link> to write a review.
+          <Link :href="route('login')" class="text-brand-500 dark:text-brand-400 hover:underline">Login</Link> to write a review.
         </p>
       </div>
     </div>
@@ -425,8 +425,8 @@ function variantOptionClass(attribute, value, selectedValue) {
   if (!available)
     return 'border-gray-200 dark:border-gray-800 text-gray-400 dark:text-gray-600 bg-gray-50 dark:bg-gray-900 cursor-not-allowed opacity-50'
   if (value === selectedValue)
-    return 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 shadow-sm shadow-violet-200 dark:shadow-violet-900'
-  return 'border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:border-violet-400 dark:hover:border-violet-500 hover:bg-violet-50 dark:hover:bg-violet-900/10'
+    return 'border-brand-500 bg-brand-50 dark:bg-navy-900/30 text-brand-600 dark:text-brand-300 shadow-sm shadow-brand-200 dark:shadow-brand-900'
+  return 'border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:border-brand-400 dark:hover:border-brand-500 hover:bg-brand-50 dark:hover:bg-navy-900/10'
 }
 
 /** Map common color names to CSS colors for the dot indicator */
@@ -596,7 +596,7 @@ onMounted(() => {
             datasets: [{
               label: 'Price (NPR)',
               data: props.priceHistory.map(p => p.price),
-              borderColor: '#7c3aed',
+              borderColor: '#263248',
               backgroundColor: 'rgba(124,58,237,0.1)',
               fill: true,
               tension: 0.4,

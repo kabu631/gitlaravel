@@ -1,16 +1,16 @@
-<template>
+﻿<template>
   <AppLayout>
     <div class="grid lg:grid-cols-3 gap-8">
       <!-- Main content -->
       <div class="lg:col-span-2">
         <!-- Breadcrumb -->
         <nav class="text-sm text-gray-500 mb-4 flex items-center gap-2">
-          <Link :href="route('home')" class="hover:text-violet-400">Home</Link> /
-          <Link :href="route('reviews.index')" class="hover:text-violet-400">Reviews</Link> /
+          <Link :href="route('home')" class="hover:text-brand-400">Home</Link> /
+          <Link :href="route('reviews.index')" class="hover:text-brand-400">Reviews</Link> /
           <span class="text-gray-700 dark:text-gray-300">{{ review.title }}</span>
         </nav>
 
-        <p class="text-violet-600 dark:text-violet-400 text-xs font-semibold uppercase tracking-wide mb-1">
+        <p class="text-brand-500 dark:text-brand-400 text-xs font-semibold uppercase tracking-wide mb-1">
           {{ review.gadget?.brand?.name }} &mdash; {{ review.gadget?.name }}
         </p>
         <h1 class="text-3xl font-extrabold mb-3">{{ review.title }}</h1>
@@ -31,7 +31,7 @@
         </div>
 
         <!-- Content -->
-        <div class="prose prose-invert prose-violet max-w-none mb-8 text-gray-700 dark:text-gray-300 leading-relaxed"
+        <div class="prose prose-invert prose-orange max-w-none mb-8 text-gray-700 dark:text-gray-300 leading-relaxed"
              v-html="review.content"/>
 
         <!-- Pros & Cons -->
@@ -61,8 +61,8 @@
         </div>
 
         <!-- Verdict -->
-        <div v-if="review.verdict" class="bg-white dark:bg-gray-900 rounded-2xl border-l-4 border-violet-500 p-5 mb-8">
-          <h3 class="font-bold text-violet-700 dark:text-violet-300 mb-2">💬 Verdict</h3>
+        <div v-if="review.verdict" class="bg-white dark:bg-gray-900 rounded-2xl border-l-4 border-brand-500 p-5 mb-8">
+          <h3 class="font-bold text-brand-600 dark:text-brand-300 mb-2">💬 Verdict</h3>
           <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed" v-html="review.verdict"/>
         </div>
 
@@ -72,8 +72,8 @@
           <div class="flex flex-wrap gap-3">
             <button v-for="(emoji, key) in reactions" :key="key"
                     @click="react(key)"
-                    class="flex flex-col items-center justify-center w-14 h-14 rounded-2xl border-2 transition hover:border-violet-500 hover:scale-110"
-                    :class="reacted === key ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30' : 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800'">
+                    class="flex flex-col items-center justify-center w-14 h-14 rounded-2xl border-2 transition hover:border-brand-500 hover:scale-110"
+                    :class="reacted === key ? 'border-brand-500 bg-brand-50 dark:bg-navy-900/30' : 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800'">
               <span class="text-2xl leading-none">{{ emoji }}</span>
               <span class="text-xs text-gray-500 dark:text-gray-400 mt-1 font-bold">{{ counts[key] }}</span>
             </button>
@@ -107,13 +107,13 @@
                  class="w-full h-full object-contain"/>
           </div>
           <div class="p-5">
-            <p class="text-violet-600 dark:text-violet-400 text-xs font-semibold mb-1">{{ review.gadget?.brand?.name }}</p>
+            <p class="text-brand-500 dark:text-brand-400 text-xs font-semibold mb-1">{{ review.gadget?.brand?.name }}</p>
             <h3 class="font-bold text-lg mb-2">{{ review.gadget?.name }}</h3>
-            <p v-if="review.gadget?.price" class="text-2xl font-extrabold text-violet-600 dark:text-violet-400 mb-3">
+            <p v-if="review.gadget?.price" class="text-2xl font-extrabold text-brand-500 dark:text-brand-400 mb-3">
               NPR {{ formatPrice(review.gadget.price) }}
             </p>
             <Link :href="route('gadgets.show', review.gadget?.slug)"
-                  class="block text-center py-2 rounded-xl border border-violet-500 text-violet-600 dark:text-violet-400 hover:bg-violet-500 hover:text-white transition text-sm font-semibold">
+                  class="block text-center py-2 rounded-xl border border-brand-500 text-brand-500 dark:text-brand-400 hover:bg-brand-500 hover:text-white transition text-sm font-semibold">
               View Full Specs
             </Link>
           </div>
@@ -134,15 +134,15 @@
                 <span v-else class="text-gray-400 dark:text-gray-600 text-lg">📱</span>
               </div>
               <div class="min-w-0">
-                <p class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition truncate">
+                <p class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-500 dark:group-hover:text-brand-400 transition truncate">
                   {{ g.brand?.name }} {{ g.name }}
                 </p>
-                <p v-if="g.price" class="text-xs font-bold text-violet-600 dark:text-violet-400">NPR {{ formatPrice(g.price) }}</p>
+                <p v-if="g.price" class="text-xs font-bold text-brand-500 dark:text-brand-400">NPR {{ formatPrice(g.price) }}</p>
               </div>
             </Link>
           </div>
           <Link :href="route('compare.index')"
-                class="mt-4 block text-center py-2 rounded-xl bg-violet-600 hover:bg-violet-500 text-white text-sm font-semibold transition">
+                class="mt-4 block text-center py-2 rounded-xl bg-brand-500 hover:bg-brand-500 text-white text-sm font-semibold transition">
             Compare Products
           </Link>
         </div>

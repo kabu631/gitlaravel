@@ -11,22 +11,22 @@
           <div class="absolute inset-0">
             <img v-if="slide.image" :src="`/storage/${slide.image}`"
                  class="w-full h-full object-cover" :alt="slide.title"/>
-            <div class="absolute inset-0 bg-gradient-to-br from-violet-900/90 via-gray-900/85 to-gray-950/90"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-navy-900/90 via-gray-900/85 to-gray-950/90"></div>
           </div>
-          <div v-if="!slide.image" class="absolute inset-0 bg-gradient-to-br from-violet-900 via-gray-900 to-gray-950">
-            <div class="absolute inset-0 opacity-20" style="background:radial-gradient(circle at 50% 50%,#7c3aed 0%,transparent 70%)"></div>
+          <div v-if="!slide.image" class="absolute inset-0 bg-gradient-to-br from-navy-900 via-gray-900 to-gray-950">
+            <div class="absolute inset-0 opacity-20" style="background:radial-gradient(circle at 50% 50%,#263248 0%,transparent 70%)"></div>
           </div>
 
           <!-- Content -->
           <div class="relative z-10 max-w-2xl mx-auto">
             <span v-if="slide.badge"
-                  class="inline-block mb-3 text-xs font-semibold tracking-widest text-violet-300 uppercase bg-violet-900/60 border border-violet-700/50 rounded-full px-3 py-1">
+                  class="inline-block mb-3 text-xs font-semibold tracking-widest text-brand-300 uppercase bg-navy-900/60 border border-navy-700/50 rounded-full px-3 py-1">
               {{ slide.badge }}
             </span>
-            <p v-if="slide.subtitle" class="text-xs md:text-sm text-purple-300 font-semibold uppercase tracking-widest mb-2">
+            <p v-if="slide.subtitle" class="text-xs md:text-sm text-brand-300 font-semibold uppercase tracking-widest mb-2">
               {{ slide.subtitle }}
             </p>
-            <h1 class="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-3 bg-gradient-to-r from-violet-400 to-purple-300 bg-clip-text text-transparent leading-tight">
+            <h1 class="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-3 bg-gradient-to-r from-brand-400 to-brand-200 bg-clip-text text-transparent leading-tight">
               {{ slide.title }}
             </h1>
             <p v-if="slide.description" class="text-gray-400 mb-6 max-w-lg mx-auto text-sm md:text-base">
@@ -68,12 +68,12 @@
       <button v-for="(_, i) in slides" :key="i"
               @click="goTo(i)"
               class="rounded-full transition-all duration-300"
-              :class="current === i ? 'w-6 h-2 bg-violet-400' : 'w-2 h-2 bg-white/30 hover:bg-white/60'">
+              :class="current === i ? 'w-6 h-2 bg-brand-400' : 'w-2 h-2 bg-white/30 hover:bg-white/60'">
       </button>
     </div>
 
     <!-- Progress bar -->
-    <div v-if="slides.length > 1" class="absolute bottom-0 left-0 h-0.5 bg-violet-500/60 transition-all duration-100 z-20"
+    <div v-if="slides.length > 1" class="absolute bottom-0 left-0 h-0.5 bg-brand-500/60 transition-all duration-100 z-20"
          :style="`width: ${progress}%`"></div>
   </section>
 </template>
@@ -90,11 +90,11 @@ let timer = null
 let progTimer = null
 
 const btnClass = (style) => ({
-  violet:  'bg-violet-600 hover:bg-violet-500 text-white',
+  violet:  'bg-brand-500 hover:bg-brand-400 text-white',
   dark:    'bg-gray-800 hover:bg-gray-700 text-white',
   blue:    'bg-blue-700 hover:bg-blue-600 text-white',
   outline: 'border border-white/40 hover:bg-white/10 text-white',
-}[style] ?? 'bg-violet-600 hover:bg-violet-500 text-white')
+}[style] ?? 'bg-brand-500 hover:bg-brand-400 text-white')
 
 function goTo(i) {
   current.value = i

@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <AppLayout>
     <h1 class="text-3xl font-bold mb-8">❤️ My Wishlist</h1>
     <div v-if="gadgets.length" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -11,7 +11,7 @@
       <p class="text-7xl mb-6">🤍</p>
       <h2 class="text-2xl font-bold mb-2">Wishlist is empty</h2>
       <p class="text-gray-500 mb-8">Save products you love to your wishlist.</p>
-      <Link :href="route('gadgets.index')" class="px-6 py-3 bg-violet-600 hover:bg-violet-500 rounded-xl font-semibold transition">Browse Products</Link>
+      <Link :href="route('gadgets.index')" class="px-6 py-3 bg-brand-500 hover:bg-brand-500 rounded-xl font-semibold transition">Browse Products</Link>
     </div>
   </AppLayout>
 </template>

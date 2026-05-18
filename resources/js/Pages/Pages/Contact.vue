@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <StaticPageLayout current-page="contact"
     :sidebar-products="sidebarProducts"
     :sidebar-news="sidebarNews"
@@ -7,7 +7,7 @@
     <div class="max-w-4xl">
       <!-- Hero -->
       <div class="text-center mb-10">
-        <span class="inline-block bg-violet-600 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Contact Us</span>
+        <span class="inline-block bg-brand-500 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Contact Us</span>
         <h1 class="text-4xl font-extrabold mb-3">{{ heading }}</h1>
         <p class="text-gray-500 dark:text-gray-400 max-w-md mx-auto">{{ subheading }}</p>
       </div>
@@ -25,7 +25,7 @@
             <h4 class="font-bold mb-5 text-lg">Contact Information</h4>
             <div class="space-y-4">
               <div class="flex items-start gap-3">
-                <div class="w-10 h-10 rounded-xl bg-violet-100 dark:bg-violet-900/40 flex items-center justify-center text-violet-600 dark:text-violet-400 shrink-0">📍</div>
+                <div class="w-10 h-10 rounded-xl bg-brand-100 dark:bg-navy-900/40 flex items-center justify-center text-brand-500 dark:text-brand-400 shrink-0">📍</div>
                 <div>
                   <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Address</p>
                   <p class="text-gray-700 dark:text-gray-300 text-sm mt-0.5">{{ address }}</p>
@@ -35,14 +35,14 @@
                 <div class="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">📧</div>
                 <div>
                   <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Email</p>
-                  <a :href="`mailto:${email}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-violet-600 dark:hover:text-violet-400 transition">{{ email }}</a>
+                  <a :href="`mailto:${email}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-brand-500 dark:hover:text-brand-400 transition">{{ email }}</a>
                 </div>
               </div>
               <div class="flex items-start gap-3">
                 <div class="w-10 h-10 rounded-xl bg-yellow-100 dark:bg-yellow-900/40 flex items-center justify-center text-yellow-600 dark:text-yellow-400 shrink-0">📞</div>
                 <div>
                   <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Phone</p>
-                  <a :href="`tel:${phone}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-violet-600 dark:hover:text-violet-400 transition">{{ phone }}</a>
+                  <a :href="`tel:${phone}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-brand-500 dark:hover:text-brand-400 transition">{{ phone }}</a>
                 </div>
               </div>
               <div class="flex items-start gap-3">
@@ -65,13 +65,13 @@
                 <div>
                   <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Full Name</label>
                   <input v-model="form.name" type="text" placeholder="Your name" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400"/>
+                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400"/>
                   <p v-if="errors.name" class="text-red-500 text-xs mt-1">{{ errors.name }}</p>
                 </div>
                 <div>
                   <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Email Address</label>
                   <input v-model="form.email" type="email" placeholder="your@email.com" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400"/>
+                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400"/>
                   <p v-if="errors.email" class="text-red-500 text-xs mt-1">{{ errors.email }}</p>
                 </div>
               </div>
@@ -79,24 +79,24 @@
                 <div>
                   <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Contact Number</label>
                   <input v-model="form.phone" type="tel" placeholder="Your phone number" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400"/>
+                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400"/>
                   <p v-if="errors.phone" class="text-red-500 text-xs mt-1">{{ errors.phone }}</p>
                 </div>
                 <div>
                   <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Subject</label>
                   <input v-model="form.subject" type="text" placeholder="What's this about?" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400"/>
+                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400"/>
                   <p v-if="errors.subject" class="text-red-500 text-xs mt-1">{{ errors.subject }}</p>
                 </div>
               </div>
               <div>
                 <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Message</label>
                 <textarea v-model="form.message" rows="6" placeholder="Write your message here..." required
-                          class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400 resize-none"/>
+                          class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400 resize-none"/>
                 <p v-if="errors.message" class="text-red-500 text-xs mt-1">{{ errors.message }}</p>
               </div>
               <button type="submit" :disabled="processing"
-                      class="w-full py-3 rounded-xl bg-violet-600 hover:bg-violet-500 disabled:opacity-60 text-white font-semibold transition">
+                      class="w-full py-3 rounded-xl bg-brand-500 hover:bg-brand-500 disabled:opacity-60 text-white font-semibold transition">
                 {{ processing ? 'Sending...' : 'Send Message' }}
               </button>
             </form>

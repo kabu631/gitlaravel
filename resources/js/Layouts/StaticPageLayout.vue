@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <AppLayout>
     <div class="grid grid-cols-1 lg:grid-cols-[220px_1fr_240px] gap-6 items-start">
 
@@ -7,7 +7,7 @@
 
         <!-- Page Navigation -->
         <div class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm overflow-hidden animate-slide-left">
-          <div class="bg-violet-600 px-4 py-3">
+          <div class="bg-brand-500 px-4 py-3">
             <p class="text-white text-xs font-bold uppercase tracking-widest">Quick Navigation</p>
           </div>
           <nav class="p-2 space-y-0.5">
@@ -15,11 +15,11 @@
                   :href="route(item.route)"
                   class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all"
                   :class="currentPage === item.key
-                    ? 'bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-400 font-semibold'
-                    : 'text-gray-700 dark:text-gray-300 hover:bg-violet-50 dark:hover:bg-gray-800 hover:text-violet-600 dark:hover:text-violet-400'">
+                    ? 'bg-brand-100 dark:bg-navy-900/30 text-brand-600 dark:text-brand-400 font-semibold'
+                    : 'text-gray-700 dark:text-gray-300 hover:bg-brand-50 dark:hover:bg-gray-800 hover:text-brand-500 dark:hover:text-brand-400'">
               <span class="text-base">{{ item.icon }}</span>
               {{ item.label }}
-              <svg v-if="currentPage === item.key" class="ml-auto w-4 h-4 text-violet-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg v-if="currentPage === item.key" class="ml-auto w-4 h-4 text-brand-500" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
               </svg>
             </Link>
@@ -29,12 +29,12 @@
         <!-- Contact Quick Card -->
         <div class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm p-4 space-y-3 animate-slide-left anim-delay-100">
           <p class="text-xs font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Contact Us</p>
-          <a :href="`mailto:${email}`" class="flex items-center gap-2.5 text-xs text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 transition group">
-            <span class="w-7 h-7 rounded-lg bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-emerald-600 shrink-0 group-hover:bg-violet-100 group-hover:text-violet-600 transition">📧</span>
+          <a :href="`mailto:${email}`" class="flex items-center gap-2.5 text-xs text-gray-700 dark:text-gray-300 hover:text-brand-500 dark:hover:text-brand-400 transition group">
+            <span class="w-7 h-7 rounded-lg bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-emerald-600 shrink-0 group-hover:bg-brand-100 group-hover:text-brand-500 transition">📧</span>
             <span class="truncate">{{ email }}</span>
           </a>
-          <a :href="`tel:${phone}`" class="flex items-center gap-2.5 text-xs text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 transition group">
-            <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-yellow-900/40 flex items-center justify-center text-amber-600 shrink-0 group-hover:bg-violet-100 group-hover:text-violet-600 transition">📞</span>
+          <a :href="`tel:${phone}`" class="flex items-center gap-2.5 text-xs text-gray-700 dark:text-gray-300 hover:text-brand-500 dark:hover:text-brand-400 transition group">
+            <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-yellow-900/40 flex items-center justify-center text-amber-600 shrink-0 group-hover:bg-brand-100 group-hover:text-brand-500 transition">📞</span>
             {{ phone }}
           </a>
           <div class="flex items-center gap-2.5 text-xs text-gray-700 dark:text-gray-300">
@@ -48,14 +48,14 @@
           <p class="text-xs font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400 mb-3">Why Git Infosys?</p>
           <ul class="space-y-2.5">
             <li v-for="item in whyUs" :key="item.text" class="flex items-start gap-2 text-xs text-gray-700 dark:text-gray-300">
-              <span class="shrink-0 mt-0.5 w-4 h-4 rounded-full bg-violet-100 dark:bg-violet-900/40 text-violet-700 dark:text-violet-400 flex items-center justify-center text-[10px] font-bold">✓</span>
+              <span class="shrink-0 mt-0.5 w-4 h-4 rounded-full bg-brand-100 dark:bg-navy-900/40 text-brand-600 dark:text-brand-400 flex items-center justify-center text-[10px] font-bold">✓</span>
               {{ item.text }}
             </li>
           </ul>
         </div>
 
         <!-- Social Links -->
-        <div class="bg-gradient-to-br from-violet-600 to-indigo-700 rounded-2xl shadow-md p-4 animate-slide-left anim-delay-300">
+        <div class="bg-gradient-to-br from-brand-500 to-navy-700 rounded-2xl shadow-md p-4 animate-slide-left anim-delay-300">
           <p class="text-white text-xs font-bold uppercase tracking-widest mb-3">Follow Us</p>
           <div class="flex flex-wrap gap-2">
             <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -87,7 +87,7 @@
               </svg>
             </a>
           </div>
-          <p class="text-violet-200 text-[10px] mt-3 leading-relaxed">Stay updated with Nepal's latest tech news, deals, and reviews.</p>
+          <p class="text-brand-200 text-[10px] mt-3 leading-relaxed">Stay updated with Nepal's latest tech news, deals, and reviews.</p>
         </div>
 
       </aside>
@@ -102,28 +102,28 @@
 
         <!-- Featured Products -->
         <div class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm overflow-hidden animate-slide-right anim-delay-100">
-          <div class="flex items-center justify-between bg-gradient-to-r from-violet-600 to-indigo-600 px-4 py-3">
+          <div class="flex items-center justify-between bg-gradient-to-r from-brand-500 to-indigo-600 px-4 py-3">
             <p class="text-white text-xs font-bold uppercase tracking-widest">Hot Picks</p>
             <span class="text-lg">🔥</span>
           </div>
           <div v-if="sidebarProducts?.length" class="p-3 space-y-1">
             <Link v-for="p in sidebarProducts" :key="p.id" :href="route('gadgets.show', p.slug)"
-                  class="flex items-center gap-3 p-2 rounded-xl hover:bg-violet-50 dark:hover:bg-gray-800 transition group">
+                  class="flex items-center gap-3 p-2 rounded-xl hover:bg-brand-50 dark:hover:bg-gray-800 transition group">
               <div class="w-12 h-12 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center overflow-hidden shrink-0 border border-gray-100 dark:border-gray-700">
                 <img v-if="p.image" :src="`/storage/${p.image}`" :alt="p.name"
                      class="w-full h-full object-contain group-hover:scale-105 transition"/>
                 <span v-else class="text-xl">📱</span>
               </div>
               <div class="min-w-0">
-                <p class="text-xs font-semibold text-gray-800 dark:text-gray-200 line-clamp-2 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition leading-snug">{{ p.name }}</p>
-                <p class="text-xs font-bold text-violet-600 dark:text-violet-400 mt-1">NPR {{ Number(p.price).toLocaleString('en-NP') }}</p>
+                <p class="text-xs font-semibold text-gray-800 dark:text-gray-200 line-clamp-2 group-hover:text-brand-500 dark:group-hover:text-brand-400 transition leading-snug">{{ p.name }}</p>
+                <p class="text-xs font-bold text-brand-500 dark:text-brand-400 mt-1">NPR {{ Number(p.price).toLocaleString('en-NP') }}</p>
               </div>
             </Link>
           </div>
           <div v-else class="p-4 text-center text-xs text-gray-500">No featured products yet</div>
           <div class="px-3 pb-3">
             <Link :href="route('gadgets.index')"
-                  class="block w-full text-center text-xs py-2 rounded-xl bg-violet-600 hover:bg-violet-500 text-white font-semibold transition">
+                  class="block w-full text-center text-xs py-2 rounded-xl bg-brand-500 hover:bg-brand-500 text-white font-semibold transition">
               View All Products →
             </Link>
           </div>
@@ -137,9 +137,9 @@
           <div class="p-3 grid grid-cols-2 gap-2">
             <Link v-for="cat in categories" :key="cat.slug"
                   :href="route('gadgets.index', { category: cat.slug })"
-                  class="flex flex-col items-center gap-1.5 p-2.5 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-violet-400 dark:hover:border-violet-500 hover:bg-violet-50 dark:hover:bg-violet-900/20 transition group text-center">
+                  class="flex flex-col items-center gap-1.5 p-2.5 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-brand-400 dark:hover:border-brand-500 hover:bg-brand-50 dark:hover:bg-navy-900/20 transition group text-center">
               <span class="text-2xl group-hover:scale-110 transition-transform">{{ cat.icon }}</span>
-              <span class="text-[10px] font-semibold text-gray-700 dark:text-gray-400 group-hover:text-violet-700 dark:group-hover:text-violet-400 transition">{{ cat.label }}</span>
+              <span class="text-[10px] font-semibold text-gray-700 dark:text-gray-400 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition">{{ cat.label }}</span>
             </Link>
           </div>
         </div>
@@ -184,12 +184,12 @@
         </div>
 
         <!-- Compare CTA -->
-        <div class="bg-gradient-to-br from-violet-700 to-indigo-800 rounded-2xl shadow-md p-4 text-center animate-slide-right anim-delay-500">
+        <div class="bg-gradient-to-br from-navy-800 to-indigo-800 rounded-2xl shadow-md p-4 text-center animate-slide-right anim-delay-500">
           <div class="text-3xl mb-2">⚖️</div>
           <h4 class="text-white font-bold text-sm mb-1">Compare Devices</h4>
-          <p class="text-violet-200 text-[11px] mb-3 leading-relaxed">Side-by-side spec comparison for up to 4 devices at once.</p>
+          <p class="text-brand-200 text-[11px] mb-3 leading-relaxed">Side-by-side spec comparison for up to 4 devices at once.</p>
           <Link :href="route('compare.index')"
-                class="block w-full text-center text-xs py-2 rounded-xl bg-white text-violet-700 font-bold hover:bg-violet-50 transition">
+                class="block w-full text-center text-xs py-2 rounded-xl bg-white text-brand-600 font-bold hover:bg-brand-50 transition">
             Compare Now →
           </Link>
         </div>
