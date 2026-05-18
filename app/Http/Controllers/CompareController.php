@@ -86,7 +86,7 @@ class CompareController extends Controller
                     ['role' => 'system', 'content' => 'You are a tech expert at Git Infosys, Nepal\'s trusted gadget platform. Give clear, practical buying advice for Nepali customers. Use NPR for prices. Format your response with proper markdown: use ## for section headings, **bold** for key terms and product names, and bullet lists for features. Use a markdown comparison table when summarizing differences.'],
                     ['role' => 'user',   'content' => "Compare these products and give a buying recommendation:\n\n{$lines}\n\nStructure your response as:\n## Comparison Summary\n(markdown table comparing key specs)\n\n## Who Should Buy Each?\n(one paragraph per product)\n\n## Overall Verdict\n(clear winner or use-case recommendation)"],
                 ],
-                'max_tokens'  => 700,
+                'max_tokens'  => 2048,
                 'temperature' => 0.6,
             ]);
 
