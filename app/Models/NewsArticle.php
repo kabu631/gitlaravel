@@ -2,11 +2,16 @@
 
 namespace App\Models;
 
+use App\Traits\BacksUpImages;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class NewsArticle extends Model
 {
+    use BacksUpImages;
+
+    protected array $imageBackupFields = ['thumbnail'];
+
     protected $fillable = [
         'user_id', 'title', 'slug', 'content', 'category', 'thumbnail',
         'is_published', 'views_count', 'meta_description',

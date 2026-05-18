@@ -2,11 +2,15 @@
 
 namespace App\Models;
 
+use App\Traits\BacksUpImages;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class Gadget extends Model
 {
+    use BacksUpImages;
+
+    protected array $imageBackupFields = ['image'];
     protected $fillable = [
         'brand_id', 'category_id', 'name', 'slug', 'accessory_type',
         'image', 'model_3d', 'sketchfab_embed', 'price', 'old_price',
