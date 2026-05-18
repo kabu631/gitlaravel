@@ -128,7 +128,8 @@
 
               <!-- Result -->
               <div v-else>
-                <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-wrap">{{ aiSuggestion }}</div>
+                <div class="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-th:bg-violet-50 dark:prose-th:bg-violet-900/30 prose-td:py-2 prose-tr:border-gray-200 dark:prose-tr:border-gray-700"
+                     v-html="renderMarkdown(aiSuggestion)"></div>
                 <button @click="aiSuggestion = null; aiError = null"
                         class="mt-4 text-xs text-violet-500 hover:text-violet-600 dark:hover:text-violet-300 transition font-medium">
                   ↩ Regenerate suggestion
@@ -147,6 +148,12 @@ import AppLayout from '@/Layouts/AppLayout.vue'
 import { Link, router } from '@inertiajs/vue3'
 import { ref } from 'vue'
 import axios from 'axios'
+import { marked } from 'marked'
+
+marked.setOptions({ breaks: true, gfm: true })
+function renderMarkdown(text) {
+  return marked.parse(text ?? '')
+}
 
 const props = defineProps({
   categories:      Array,

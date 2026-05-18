@@ -56,11 +56,12 @@
                  :class="msg.role === 'user' ? 'bg-violet-600 text-white' : 'bg-gray-200 dark:bg-gray-700 text-lg'">
               {{ msg.role === 'user' ? userInitial : '🤖' }}
             </div>
-            <div class="px-3.5 py-2.5 rounded-2xl text-sm max-w-[85%] whitespace-pre-wrap leading-relaxed"
+            <div class="px-3.5 py-2.5 rounded-2xl text-sm max-w-[85%] leading-relaxed"
                  :class="msg.role === 'user'
-                   ? 'bg-violet-600 text-white rounded-tr-sm'
-                   : 'bg-white dark:bg-gray-800 border border-gray-200 dark:border-transparent text-gray-800 dark:text-gray-200 rounded-tl-sm shadow-sm'">
-              {{ msg.content }}
+                   ? 'bg-violet-600 text-white rounded-tr-sm whitespace-pre-wrap'
+                   : 'bg-white dark:bg-gray-800 border border-gray-200 dark:border-transparent text-gray-800 dark:text-gray-200 rounded-tl-sm shadow-sm chat-markdown'">
+              <template v-if="msg.role === 'user'">{{ msg.content }}</template>
+              <div v-else v-html="renderMarkdown(msg.content)"></div>
             </div>
           </div>
 
@@ -131,6 +132,12 @@
 import { ref, nextTick, computed, watch } from 'vue'
 import { usePage } from '@inertiajs/vue3'
 import axios from 'axios'
+import { marked } from 'marked'
+
+marked.setOptions({ breaks: true, gfm: true })
+function renderMarkdown(text) {
+  return marked.parse(text ?? '')
+}
 
 const page       = usePage()
 const open       = ref(false)
@@ -201,3 +208,24 @@ async function scrollBottom() {
 
 watch(open, (val) => { if (val) unread.value = 0 })
 </script>
+
+<style scoped>
+.chat-markdown :deep(p)          { margin: 0 0 0.4em; }
+.chat-markdown :deep(p:last-child){ margin-bottom: 0; }
+.chat-markdown :deep(strong)     { font-weight: 700; }
+.chat-markdown :deep(em)         { font-style: italic; }
+.chat-markdown :deep(ul)         { list-style: disc; padding-left: 1.2em; margin: 0.3em 0; }
+.chat-markdown :deep(ol)         { list-style: decimal; padding-left: 1.2em; margin: 0.3em 0; }
+.chat-markdown :deep(li)         { margin: 0.15em 0; }
+.chat-markdown :deep(h1),
+.chat-markdown :deep(h2),
+.chat-markdown :deep(h3)         { font-weight: 700; margin: 0.5em 0 0.25em; }
+.chat-markdown :deep(h1)         { font-size: 1.05em; }
+.chat-markdown :deep(h2)         { font-size: 1em; }
+.chat-markdown :deep(h3)         { font-size: 0.95em; }
+.chat-markdown :deep(table)      { width: 100%; border-collapse: collapse; font-size: 0.8em; margin: 0.5em 0; }
+.chat-markdown :deep(th)         { background: #ede9fe; padding: 4px 8px; font-weight: 600; text-align: left; }
+.chat-markdown :deep(td)         { padding: 3px 8px; border-bottom: 1px solid #e5e7eb; }
+.chat-markdown :deep(code)       { background: #f3f4f6; border-radius: 3px; padding: 0 3px; font-size: 0.85em; }
+.chat-markdown :deep(hr)         { border: none; border-top: 1px solid #e5e7eb; margin: 0.5em 0; }
+</style>

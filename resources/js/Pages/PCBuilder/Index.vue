@@ -142,8 +142,9 @@
             </button>
           </div>
           <!-- Content -->
-          <div class="p-6 prose-custom overflow-auto max-h-[70vh]">
-            <div class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed whitespace-pre-wrap font-mono" v-text="recommendation"></div>
+          <div class="p-6 overflow-auto max-h-[70vh]">
+            <div class="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-th:bg-blue-50 dark:prose-th:bg-blue-900/30 prose-td:py-2 prose-tr:border-gray-200 dark:prose-tr:border-gray-700 prose-headings:text-blue-700 dark:prose-headings:text-blue-300"
+                 v-html="renderMarkdown(recommendation)"></div>
           </div>
           <!-- Footer CTA -->
           <div class="border-t border-gray-200 dark:border-gray-800 px-6 py-4 flex gap-3 flex-wrap">
@@ -181,6 +182,12 @@ import AppLayout from '@/Layouts/AppLayout.vue'
 import { Link } from '@inertiajs/vue3'
 import { ref, computed } from 'vue'
 import axios from 'axios'
+import { marked } from 'marked'
+
+marked.setOptions({ breaks: true, gfm: true })
+function renderMarkdown(text) {
+  return marked.parse(text ?? '')
+}
 
 const form = ref({
   purpose: '', budget: null,
@@ -215,7 +222,7 @@ const components = [
 
 const tips = [
   { icon: '💡', title: 'Be specific about your purpose', body: 'A gaming build for 1080p vs 4K requires very different budgets. Tell the AI exactly what you plan to do.' },
-  { icon: '🛒', title: 'Check local availability', body: 'Prices change frequently. Always verify at Daraz, Hukut, or local IT shops before purchasing.' },
+  { icon: '🛒', title: 'Check local availability', body: 'Prices change frequently. Visit Git Infosys or contact our team to verify component availability and current pricing.' },
   { icon: '🔄', title: 'Ask for alternatives', body: 'Generated a build? Try changing the budget slider or pre-selecting a specific GPU to see different configurations.' },
 ]
 
@@ -250,7 +257,6 @@ async function copyRecommendation() {
 function sendToOwner() {
   const subject = encodeURIComponent("Custom PC Build Request (AI Recommended)");
   const msg = encodeURIComponent(`Hi Git Infosys Team,\n\nI would like to order the following custom PC build recommended by your AI Builder. Please contact me to confirm the order and parts availability:\n\n---\n\n${recommendation.value}`);
-  // In Laravel/Inertia, using route() with query params generates the correct URL
   window.location.href = route('pages.contact') + `?subject=${subject}&message=${msg}`;
 }
 
