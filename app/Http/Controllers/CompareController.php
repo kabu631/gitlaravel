@@ -78,13 +78,13 @@ class CompareController extends Controller
             ->withToken($apiKey)
             ->withHeaders([
                 'HTTP-Referer' => config('app.url'),
-                'X-Title' => config('app.name'),
+                'X-Title'      => config('app.name'),
             ])
             ->post('https://openrouter.ai/api/v1/chat/completions', [
-                'model'       => 'openrouter/free',
+                'model'       => 'openrouter/auto',
                 'messages'    => [
-                    ['role' => 'system', 'content' => 'You are a tech expert at Git Infosys, Nepal\'s trusted gadget platform. Give clear, practical buying advice for Nepali customers. Use NPR for prices. Be concise and structured.'],
-                    ['role' => 'user',   'content' => "Compare these products and give a buying recommendation:\n\n{$lines}\n\nFor each product, say who should buy it and for what purpose. End with a clear overall verdict."],
+                    ['role' => 'system', 'content' => 'You are a tech expert at Git Infosys, Nepal\'s trusted gadget platform. Give clear, practical buying advice for Nepali customers. Use NPR for prices. Format your response with proper markdown: use ## for section headings, **bold** for key terms and product names, and bullet lists for features. Use a markdown comparison table when summarizing differences.'],
+                    ['role' => 'user',   'content' => "Compare these products and give a buying recommendation:\n\n{$lines}\n\nStructure your response as:\n## Comparison Summary\n(markdown table comparing key specs)\n\n## Who Should Buy Each?\n(one paragraph per product)\n\n## Overall Verdict\n(clear winner or use-case recommendation)"],
                 ],
                 'max_tokens'  => 700,
                 'temperature' => 0.6,
@@ -95,7 +95,9 @@ class CompareController extends Controller
             return response()->json(['error' => 'AI Error: ' . $errorDetail], 500);
         }
 
-        $text = $response->json('choices.0.message.content') ?? 'No suggestion available.';
+        $text = $response->json('choices.0.message.content')
+            ?? $response->json('choices.0.message.reasoning')
+            ?? 'No suggestion available.';
         return response()->json(['suggestion' => $text]);
     }
 }

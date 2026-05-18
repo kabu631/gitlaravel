@@ -18,6 +18,7 @@ class ContactMessageInfolist
                 TextEntry::make('phone'),
                 TextEntry::make('subject'),
                 TextEntry::make('message')
+                    ->markdown()
                     ->columnSpanFull(),
                 IconEntry::make('is_read')
                     ->boolean(),

@@ -44,13 +44,20 @@ class PCBuilderController extends Controller
             . "Budget: NPR {$budget}\n"
             . "Purpose: {$request->purpose}\n"
             . ($parts ? "Preferred components:\n{$parts}" : "No components pre-selected.")
-            . "\n\nProvide a complete PC build with these sections:\n"
-            . "1. **Recommended Build** - Every component (CPU, GPU, RAM, Storage, Motherboard, PSU, Cooling, Case) with specific model names and estimated NPR prices\n"
-            . "2. **Total Estimated Cost** - Sum of all components\n"
-            . "3. **Performance Summary** - What this build handles for the stated purpose\n"
-            . "4. **Compatibility Notes** - Important compatibility checks\n"
-            . "5. **Upgrade Path** - What to upgrade first if budget increases\n\n"
-            . "IMPORTANT: Do NOT recommend any rival stores (like Hukut, Daraz, Nagmani, etc). Tell the user they can buy all these components directly from Git Infosys.\n"
+            . "\n\nProvide a complete PC build using the following structure and markdown formatting:\n\n"
+            . "## Recommended Build\n"
+            . "Present every component as a markdown table with columns: Component | Model | Est. Price (NPR)\n"
+            . "Include: CPU, GPU, RAM, Storage, Motherboard, PSU, Cooling, Case.\n\n"
+            . "## Total Estimated Cost\n"
+            . "Sum of all components in NPR.\n\n"
+            . "## Performance Summary\n"
+            . "What this build handles for the stated purpose.\n\n"
+            . "## Compatibility Notes\n"
+            . "Important compatibility checks (use a bullet list).\n\n"
+            . "## Upgrade Path\n"
+            . "What to upgrade first if budget increases (use a bullet list).\n\n"
+            . "IMPORTANT: Use proper markdown (** for bold, ## for headings, markdown tables). "
+            . "Do NOT recommend any rival stores (like Hukut, Daraz, Nagmani, etc). Tell the user they can buy all these components directly from Git Infosys.\n"
             . "Use realistic Nepal market prices in NPR.";
 
         $openRouterKey = config('services.openrouter.key');
@@ -76,8 +83,12 @@ class PCBuilderController extends Controller
         $response = Http::timeout(60)
             ->withoutVerifying()
             ->withToken($key)
+            ->withHeaders([
+                'HTTP-Referer' => config('app.url'),
+                'X-Title'      => config('app.name'),
+            ])
             ->post('https://openrouter.ai/api/v1/chat/completions', [
-                'model' => 'openrouter/free',
+                'model' => 'openrouter/auto',
                 'messages' => [
                     [
                         'role' => 'system',
@@ -97,7 +108,8 @@ class PCBuilderController extends Controller
             return null;
         }
 
-        return $response->json('choices.0.message.content');
+        return $response->json('choices.0.message.content')
+            ?? $response->json('choices.0.message.reasoning');
     }
 
 }
