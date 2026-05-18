@@ -1,10 +1,10 @@
-<template>
+﻿<template>
   <AppLayout>
     <div class="max-w-5xl mx-auto">
       <!-- Header -->
       <div class="mb-8">
         <nav class="text-sm text-gray-500 mb-3 flex items-center gap-2">
-          <Link :href="route('home')" class="hover:text-violet-400">Home</Link> /
+          <Link :href="route('home')" class="hover:text-brand-400">Home</Link> /
           <span class="text-gray-700 dark:text-gray-300">Compare Gadgets</span>
         </nav>
         <h1 class="text-3xl font-extrabold">Compare Gadgets</h1>
@@ -17,9 +17,9 @@
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           <a v-for="cat in categories" :key="cat.id"
              :href="route('compare.index') + '?category=' + cat.slug"
-             class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6 text-center hover:border-violet-500/50 transition group">
+             class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6 text-center hover:border-brand-500/50 transition group">
             <div class="text-4xl mb-3">{{ catIcon(cat.slug) }}</div>
-            <p class="font-semibold text-gray-800 dark:text-gray-200 group-hover:text-violet-700 dark:group-hover:text-violet-300 transition">{{ cat.name }}</p>
+            <p class="font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-600 dark:group-hover:text-brand-300 transition">{{ cat.name }}</p>
           </a>
         </div>
       </div>
@@ -33,7 +33,7 @@
                 Device {{ i + 1 }} {{ i < 2 ? '*' : '(Optional)' }}
               </label>
               <select v-model="selections[i]"
-                      class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-3 py-2 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500"
+                      class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-3 py-2 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500"
                       :required="i < 2">
                 <option value="">Select device...</option>
                 <option v-for="g in gadgets" :key="g.id" :value="g.slug"
@@ -45,7 +45,7 @@
           </div>
           <div class="flex gap-3 justify-center">
             <button type="submit"
-                    class="px-8 py-2.5 rounded-xl bg-violet-600 hover:bg-violet-500 text-white font-semibold transition">
+                    class="px-8 py-2.5 rounded-xl bg-brand-500 hover:bg-brand-500 text-white font-semibold transition">
               Compare Now
             </button>
             <a :href="route('compare.index')"
@@ -67,7 +67,7 @@
                       <img :src="'/storage/' + g.image" :alt="g.name" class="w-full h-full object-contain"/>
                     </div>
                     <p class="font-bold text-gray-900 dark:text-gray-100">{{ g.name }}</p>
-                    <p class="text-violet-600 dark:text-violet-400 font-bold mt-1">NPR {{ formatPrice(g.price) }}</p>
+                    <p class="text-brand-500 dark:text-brand-400 font-bold mt-1">NPR {{ formatPrice(g.price) }}</p>
                   </div>
                 </th>
               </tr>
@@ -87,13 +87,13 @@
 
         <!-- AI Suggestion -->
         <div v-if="selectedGadgets.length >= 2" class="mt-10">
-          <div class="rounded-2xl border border-violet-200 dark:border-violet-800/60 overflow-hidden">
+          <div class="rounded-2xl border border-brand-200 dark:border-navy-700/60 overflow-hidden">
             <!-- Header -->
-            <div class="bg-gradient-to-r from-violet-600 to-indigo-600 px-6 py-4 flex items-center gap-3">
+            <div class="bg-gradient-to-r from-brand-500 to-indigo-600 px-6 py-4 flex items-center gap-3">
               <div class="w-9 h-9 rounded-xl bg-white/20 flex items-center justify-center text-xl shrink-0">🤖</div>
               <div>
                 <p class="font-bold text-white">AI Buying Recommendation</p>
-                <p class="text-xs text-violet-200">Powered by OpenRouter Auto</p>
+                <p class="text-xs text-brand-200">Powered by OpenRouter Auto</p>
               </div>
             </div>
 
@@ -105,14 +105,14 @@
                   Let our AI analyze these {{ selectedGadgets.length }} devices and tell you exactly which one suits your needs.
                 </p>
                 <button @click="getAiSuggestion"
-                        class="shrink-0 flex items-center gap-2 px-5 py-2.5 bg-violet-600 hover:bg-violet-500 text-white rounded-xl font-semibold text-sm transition shadow-lg shadow-violet-500/25">
+                        class="shrink-0 flex items-center gap-2 px-5 py-2.5 bg-brand-500 hover:bg-brand-500 text-white rounded-xl font-semibold text-sm transition shadow-lg shadow-brand-500/25">
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                   Get AI Suggestion
                 </button>
               </div>
 
               <!-- Loading -->
-              <div v-else-if="aiLoading" class="flex items-center gap-3 py-2 text-violet-600 dark:text-violet-400">
+              <div v-else-if="aiLoading" class="flex items-center gap-3 py-2 text-brand-500 dark:text-brand-400">
                 <svg class="w-5 h-5 animate-spin shrink-0" fill="none" viewBox="0 0 24 24">
                   <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
                   <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>
@@ -123,15 +123,15 @@
               <!-- Error -->
               <div v-else-if="aiError" class="flex items-center justify-between gap-4">
                 <p class="text-sm text-red-500">{{ aiError }}</p>
-                <button @click="getAiSuggestion" class="text-sm text-violet-600 dark:text-violet-400 hover:underline font-medium">Try again</button>
+                <button @click="getAiSuggestion" class="text-sm text-brand-500 dark:text-brand-400 hover:underline font-medium">Try again</button>
               </div>
 
               <!-- Result -->
               <div v-else>
-                <div class="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-th:bg-violet-50 dark:prose-th:bg-violet-900/30 prose-td:py-2 prose-tr:border-gray-200 dark:prose-tr:border-gray-700"
+                <div class="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-th:bg-brand-50 dark:prose-th:bg-navy-900/30 prose-td:py-2 prose-tr:border-gray-200 dark:prose-tr:border-gray-700"
                      v-html="renderMarkdown(aiSuggestion)"></div>
                 <button @click="aiSuggestion = null; aiError = null"
-                        class="mt-4 text-xs text-violet-500 hover:text-violet-600 dark:hover:text-violet-300 transition font-medium">
+                        class="mt-4 text-xs text-brand-500 hover:text-brand-500 dark:hover:text-brand-300 transition font-medium">
                   ↩ Regenerate suggestion
                 </button>
               </div>

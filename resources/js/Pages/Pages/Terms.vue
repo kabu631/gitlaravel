@@ -1,11 +1,11 @@
-<template>
+﻿<template>
   <StaticPageLayout current-page="terms"
     :sidebar-products="sidebarProducts"
     :sidebar-news="sidebarNews">
 
     <div class="max-w-3xl">
       <div class="text-center mb-8">
-        <span class="inline-block bg-violet-600 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Legal</span>
+        <span class="inline-block bg-brand-500 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Legal</span>
         <h1 class="text-3xl font-extrabold mb-2">{{ heading }}</h1>
         <p class="text-gray-500 dark:text-gray-400 text-sm">{{ subheading }}</p>
       </div>
@@ -14,8 +14,8 @@
       <div v-if="body"
            class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-8 prose dark:prose-invert prose-sm max-w-none
                   prose-headings:text-gray-900 dark:prose-headings:text-gray-100 prose-p:text-gray-600 dark:prose-p:text-gray-300
-                  prose-li:text-gray-500 dark:prose-li:text-gray-400 prose-a:text-violet-600 dark:prose-a:text-violet-400
-                  hover:prose-a:text-violet-500 prose-strong:text-gray-800 dark:prose-strong:text-gray-100"
+                  prose-li:text-gray-500 dark:prose-li:text-gray-400 prose-a:text-brand-500 dark:prose-a:text-brand-400
+                  hover:prose-a:text-brand-500 prose-strong:text-gray-800 dark:prose-strong:text-gray-100"
            v-html="body" />
 
       <!-- Fallback static content -->
@@ -52,7 +52,7 @@
         <section>
           <h2 class="text-lg font-bold text-gray-900 dark:text-gray-100 mb-2">7. Contact</h2>
           <p>If you have any questions about these Terms and Conditions, please
-            <Link :href="route('pages.contact')" class="text-violet-600 dark:text-violet-400 hover:text-violet-500 transition">contact us</Link>.
+            <Link :href="route('pages.contact')" class="text-brand-500 dark:text-brand-400 hover:text-brand-500 transition">contact us</Link>.
           </p>
         </section>
         <div class="pt-4 border-t border-gray-200 dark:border-gray-800 text-xs text-gray-400 text-center">

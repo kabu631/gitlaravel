@@ -1,10 +1,10 @@
-<template>
+﻿<template>
   <AppLayout>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <!-- Breadcrumbs & Header -->
       <div class="mb-8 border-b border-gray-200 dark:border-gray-800 pb-6">
         <nav class="text-sm text-gray-500 mb-3 flex items-center gap-2">
-          <Link :href="route('home')" class="hover:text-violet-600 dark:hover:text-violet-400">Home</Link> /
+          <Link :href="route('home')" class="hover:text-brand-500 dark:hover:text-brand-400">Home</Link> /
           <span class="text-gray-700 dark:text-gray-300 font-medium">Reviews</span>
         </nav>
         <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">Expert Gadget Reviews</h1>
@@ -29,8 +29,8 @@
               </div>
 
               <div class="absolute bottom-0 left-0 p-6 w-full">
-                <span class="bg-violet-600 text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3 inline-block">Review</span>
-                <h2 class="text-2xl md:text-3xl font-bold text-white group-hover:text-violet-300 transition leading-tight mb-2">{{ featuredReviews[0].title }}</h2>
+                <span class="bg-brand-500 text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3 inline-block">Review</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-white group-hover:text-brand-300 transition leading-tight mb-2">{{ featuredReviews[0].title }}</h2>
                 <p class="text-gray-300 text-sm">by {{ featuredReviews[0].author?.name }}</p>
               </div>
             </Link>
@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="absolute bottom-0 left-0 p-5 w-full">
-                  <h3 class="text-lg font-bold text-white group-hover:text-violet-300 transition leading-snug mb-1 line-clamp-2">{{ review.title }}</h3>
+                  <h3 class="text-lg font-bold text-white group-hover:text-brand-300 transition leading-snug mb-1 line-clamp-2">{{ review.title }}</h3>
                   <p class="text-gray-300 text-xs">{{ review.author?.name }}</p>
                 </div>
               </Link>
@@ -75,11 +75,11 @@
 
               <!-- Card Content -->
               <div class="p-5 flex-1 flex flex-col justify-center" :class="idx % 5 === 0 ? 'sm:p-8' : ''">
-                <div class="text-xs text-violet-600 dark:text-violet-400 font-bold uppercase tracking-wider mb-2"
+                <div class="text-xs text-brand-500 dark:text-brand-400 font-bold uppercase tracking-wider mb-2"
                      :class="idx % 5 === 0 ? 'sm:mb-3' : ''">
                   {{ review.gadget?.brand?.name }} {{ review.gadget?.name }}
                 </div>
-                <h3 class="font-bold text-gray-900 dark:text-gray-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition leading-snug line-clamp-2"
+                <h3 class="font-bold text-gray-900 dark:text-gray-100 group-hover:text-brand-500 dark:group-hover:text-brand-400 transition leading-snug line-clamp-2"
                     :class="idx % 5 === 0 ? 'text-xl sm:text-2xl mb-3 sm:mb-4' : 'text-lg mb-2'">
                   {{ review.title }}
                 </h3>
@@ -105,7 +105,7 @@
             <Link v-for="link in reviews.links" :key="link.label"
                   :href="link.url ?? '#'"
                   class="px-4 py-2 rounded-xl text-sm font-medium transition"
-                  :class="link.active ? 'bg-violet-600 text-white shadow-md' : 'bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-600 dark:text-gray-300 hover:border-violet-500'"
+                  :class="link.active ? 'bg-brand-500 text-white shadow-md' : 'bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-600 dark:text-gray-300 hover:border-brand-500'"
                   v-html="link.label"/>
           </div>
         </div>
@@ -122,8 +122,8 @@
                   <img :src="gadget.image ? `/storage/${gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-110 transition" />
                 </div>
                 <div>
-                  <h4 class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-violet-600 dark:group-hover:text-violet-400 line-clamp-2 leading-snug">{{ gadget.name }}</h4>
-                  <p class="text-xs font-bold text-violet-600 dark:text-violet-400 mt-1">NPR {{ gadget.price?.toLocaleString() }}</p>
+                  <h4 class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-500 dark:group-hover:text-brand-400 line-clamp-2 leading-snug">{{ gadget.name }}</h4>
+                  <p class="text-xs font-bold text-brand-500 dark:text-brand-400 mt-1">NPR {{ gadget.price?.toLocaleString() }}</p>
                 </div>
               </Link>
             </div>
@@ -134,19 +134,19 @@
             <h3 class="text-sm font-bold uppercase tracking-wider mb-4 border-b border-gray-100 dark:border-gray-800 pb-2 text-gray-900 dark:text-white">📰 Latest Tech News</h3>
             <div class="space-y-4">
               <Link v-for="news in sidebarNews" :key="news.id" :href="route('news.show', news.slug)" class="group block">
-                <p class="text-xs font-bold text-violet-600 dark:text-violet-400 uppercase tracking-widest mb-1">{{ news.category }}</p>
-                <h4 class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-violet-600 transition leading-snug">{{ news.title }}</h4>
+                <p class="text-xs font-bold text-brand-500 dark:text-brand-400 uppercase tracking-widest mb-1">{{ news.category }}</p>
+                <h4 class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-500 transition leading-snug">{{ news.title }}</h4>
               </Link>
             </div>
           </div>
 
           <!-- Newsletter Banner -->
-          <div class="bg-gradient-to-br from-violet-600 to-indigo-700 rounded-2xl p-6 text-white text-center shadow-lg">
+          <div class="bg-gradient-to-br from-brand-500 to-navy-700 rounded-2xl p-6 text-white text-center shadow-lg">
             <div class="text-3xl mb-2">📬</div>
             <h3 class="font-bold text-lg mb-1">Never Miss a Review</h3>
-            <p class="text-xs text-violet-200 mb-4">Get the latest tech verdicts delivered straight to your inbox.</p>
-            <input type="email" placeholder="Your email address" class="w-full px-3 py-2 rounded-lg text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400 mb-2" />
-            <button class="w-full bg-white text-violet-700 font-bold text-sm py-2 rounded-lg hover:bg-gray-50 transition">Subscribe</button>
+            <p class="text-xs text-brand-200 mb-4">Get the latest tech verdicts delivered straight to your inbox.</p>
+            <input type="email" placeholder="Your email address" class="w-full px-3 py-2 rounded-lg text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 mb-2" />
+            <button class="w-full bg-white text-brand-600 font-bold text-sm py-2 rounded-lg hover:bg-gray-50 transition">Subscribe</button>
           </div>
 
         </div>

@@ -1,10 +1,10 @@
-<template>
+﻿<template>
   <AppLayout>
     <div class="max-w-4xl mx-auto space-y-6">
 
       <!-- Header -->
       <div class="flex items-center gap-4">
-        <div class="w-16 h-16 bg-violet-600 rounded-full flex items-center justify-center text-white text-2xl font-bold shrink-0">
+        <div class="w-16 h-16 bg-brand-500 rounded-full flex items-center justify-center text-white text-2xl font-bold shrink-0">
           {{ userInitial }}
         </div>
         <div>
@@ -12,7 +12,7 @@
           <p class="text-gray-500 dark:text-gray-400 text-sm">{{ $page.props.auth.user.email }}</p>
         </div>
         <a v-if="$page.props.auth.user.is_admin" href="/secure-admin" target="_blank"
-           class="ml-auto flex items-center gap-2 px-4 py-2 bg-violet-600 hover:bg-violet-500 text-white rounded-xl text-sm font-semibold transition">
+           class="ml-auto flex items-center gap-2 px-4 py-2 bg-brand-500 hover:bg-brand-500 text-white rounded-xl text-sm font-semibold transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
           </svg>
@@ -25,12 +25,12 @@
         <button v-for="tab in tabs" :key="tab.key" @click="activeTab = tab.key"
                 class="px-4 py-2.5 text-sm font-medium transition border-b-2 -mb-px"
                 :class="activeTab === tab.key
-                  ? 'border-violet-600 text-violet-600 dark:text-violet-400 dark:border-violet-400'
+                  ? 'border-brand-500 text-brand-500 dark:text-brand-400 dark:border-brand-400'
                   : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'">
           {{ tab.label }}
           <span v-if="tab.count !== undefined"
                 class="ml-1.5 text-xs px-1.5 py-0.5 rounded-full"
-                :class="activeTab === tab.key ? 'bg-violet-100 dark:bg-violet-900 text-violet-600 dark:text-violet-400' : 'bg-gray-100 dark:bg-gray-800 text-gray-500'">
+                :class="activeTab === tab.key ? 'bg-brand-100 dark:bg-navy-900 text-brand-500 dark:text-brand-400' : 'bg-gray-100 dark:bg-gray-800 text-gray-500'">
             {{ tab.count }}
           </span>
         </button>
@@ -41,7 +41,7 @@
         <div v-if="orders.length === 0" class="text-center py-16 text-gray-400 dark:text-gray-600">
           <div class="text-5xl mb-3">📦</div>
           <p class="font-medium">No orders yet</p>
-          <Link :href="route('gadgets.index')" class="mt-3 inline-block text-violet-600 dark:text-violet-400 text-sm hover:underline">Browse Products →</Link>
+          <Link :href="route('gadgets.index')" class="mt-3 inline-block text-brand-500 dark:text-brand-400 text-sm hover:underline">Browse Products →</Link>
         </div>
         <div v-else class="space-y-4">
           <div v-for="order in orders" :key="order.id"
@@ -66,7 +66,7 @@
                 </div>
                 <div class="flex-1 min-w-0">
                   <Link :href="route('gadgets.show', item.slug)"
-                        class="text-sm font-semibold text-gray-800 dark:text-gray-200 hover:text-violet-600 dark:hover:text-violet-400 truncate block transition">
+                        class="text-sm font-semibold text-gray-800 dark:text-gray-200 hover:text-brand-500 dark:hover:text-brand-400 truncate block transition">
                     {{ item.name }}
                   </Link>
                   <p class="text-xs text-gray-400 dark:text-gray-500">{{ item.brand }}</p>
@@ -90,14 +90,14 @@
         <div v-else class="space-y-4">
           <Link v-for="review in reviews" :key="review.id"
                 :href="route('reviews.show', review.slug)"
-                class="flex gap-4 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-violet-500 dark:hover:border-violet-600 rounded-2xl p-4 transition group">
+                class="flex gap-4 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-brand-500 dark:hover:border-brand-500 rounded-2xl p-4 transition group">
             <div class="w-14 h-14 bg-gray-100 dark:bg-gray-800 rounded-xl shrink-0 flex items-center justify-center overflow-hidden">
               <img v-if="review.gadget_image" :src="`/storage/${review.gadget_image}`" class="w-full h-full object-contain"/>
               <span v-else class="text-2xl">📱</span>
             </div>
             <div class="flex-1 min-w-0">
-              <p class="text-xs text-violet-600 dark:text-violet-400 font-semibold mb-0.5">{{ review.gadget_name }}</p>
-              <h3 class="font-semibold text-gray-900 dark:text-gray-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition line-clamp-1">{{ review.title }}</h3>
+              <p class="text-xs text-brand-500 dark:text-brand-400 font-semibold mb-0.5">{{ review.gadget_name }}</p>
+              <h3 class="font-semibold text-gray-900 dark:text-gray-100 group-hover:text-brand-500 dark:group-hover:text-brand-400 transition line-clamp-1">{{ review.title }}</h3>
               <p class="text-xs text-gray-400 mt-1 line-clamp-1">{{ review.verdict }}</p>
             </div>
             <div class="shrink-0 text-right">
@@ -119,15 +119,15 @@
         </div>
         <div v-else class="grid sm:grid-cols-2 gap-4">
           <Link v-for="g in wishlist" :key="g.id" :href="route('gadgets.show', g.slug)"
-                class="flex gap-3 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-violet-500 dark:hover:border-violet-600 rounded-2xl p-3 transition group">
+                class="flex gap-3 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-brand-500 dark:hover:border-brand-500 rounded-2xl p-3 transition group">
             <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-xl overflow-hidden shrink-0 flex items-center justify-center">
               <img v-if="g.image" :src="`/storage/${g.image}`" :alt="g.name" class="w-full h-full object-contain group-hover:scale-105 transition"/>
               <span v-else class="text-2xl">📱</span>
             </div>
             <div class="min-w-0">
-              <p class="text-xs text-violet-600 dark:text-violet-400 font-semibold">{{ g.brand }}</p>
-              <h3 class="text-sm font-semibold text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition">{{ g.name }}</h3>
-              <p class="text-sm font-bold text-violet-600 dark:text-violet-400 mt-1">NPR {{ formatPrice(g.price) }}</p>
+              <p class="text-xs text-brand-500 dark:text-brand-400 font-semibold">{{ g.brand }}</p>
+              <h3 class="text-sm font-semibold text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-brand-500 dark:group-hover:text-brand-400 transition">{{ g.name }}</h3>
+              <p class="text-sm font-bold text-brand-500 dark:text-brand-400 mt-1">NPR {{ formatPrice(g.price) }}</p>
             </div>
           </Link>
         </div>
@@ -146,17 +146,17 @@
             <div>
               <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Full Name</label>
               <input v-model="profileForm.name" type="text" required
-                     class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-violet-500 transition"/>
+                     class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-brand-500 transition"/>
               <p v-if="profileForm.errors?.name" class="text-xs text-red-500 mt-1">{{ profileForm.errors.name }}</p>
             </div>
             <div>
               <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
               <input v-model="profileForm.email" type="email" required
-                     class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-violet-500 transition"/>
+                     class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-brand-500 transition"/>
               <p v-if="profileForm.errors?.email" class="text-xs text-red-500 mt-1">{{ profileForm.errors.email }}</p>
             </div>
             <button type="submit" :disabled="profileForm.processing"
-                    class="px-6 py-2.5 bg-violet-600 hover:bg-violet-500 disabled:opacity-50 text-white rounded-xl font-semibold text-sm transition">
+                    class="px-6 py-2.5 bg-brand-500 hover:bg-brand-500 disabled:opacity-50 text-white rounded-xl font-semibold text-sm transition">
               {{ profileForm.processing ? 'Saving…' : 'Save Changes' }}
             </button>
           </form>
@@ -168,19 +168,19 @@
               <div>
                 <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Current Password</label>
                 <input v-model="passwordForm.current_password" type="password" required
-                       class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-violet-500 transition"/>
+                       class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-brand-500 transition"/>
                 <p v-if="passwordForm.errors?.current_password" class="text-xs text-red-500 mt-1">{{ passwordForm.errors.current_password }}</p>
               </div>
               <div class="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">New Password</label>
                   <input v-model="passwordForm.password" type="password" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-violet-500 transition"/>
+                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-brand-500 transition"/>
                 </div>
                 <div>
                   <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Confirm Password</label>
                   <input v-model="passwordForm.password_confirmation" type="password" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-violet-500 transition"/>
+                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-brand-500 transition"/>
                 </div>
               </div>
               <p v-if="passwordForm.errors?.password" class="text-xs text-red-500">{{ passwordForm.errors.password }}</p>
@@ -258,7 +258,7 @@ const formatPrice = (p) => Number(p).toLocaleString('en-NP')
 const statusClass = (s) => ({
   pending:    'bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-400',
   processing: 'bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-400',
-  shipped:    'bg-violet-100 dark:bg-violet-900/40 text-violet-700 dark:text-violet-400',
+  shipped:    'bg-brand-100 dark:bg-navy-900/40 text-brand-600 dark:text-brand-400',
   delivered:  'bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400',
   cancelled:  'bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-400',
 }[s] ?? 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400')

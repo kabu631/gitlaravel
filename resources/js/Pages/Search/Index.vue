@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <AppLayout>
     <div class="max-w-7xl mx-auto">
       <!-- Header -->
@@ -12,9 +12,9 @@
       <!-- Search bar -->
       <form @submit.prevent="doSearch" class="mb-10 flex gap-2">
         <input v-model="q" type="text" placeholder="Search gadgets, news, reviews..."
-               class="flex-1 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-2xl px-5 py-3 text-gray-800 dark:text-gray-200 outline-none focus:border-violet-500 placeholder-gray-400 dark:placeholder-gray-500 shadow-sm"/>
+               class="flex-1 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-2xl px-5 py-3 text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400 dark:placeholder-gray-500 shadow-sm"/>
         <button type="submit"
-                class="px-6 py-3 rounded-2xl bg-violet-600 hover:bg-violet-500 text-white font-semibold transition">
+                class="px-6 py-3 rounded-2xl bg-brand-500 hover:bg-brand-500 text-white font-semibold transition">
           Search
         </button>
       </form>
@@ -28,15 +28,15 @@
         </h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           <Link v-for="g in gadgets" :key="g.id" :href="route('gadgets.show', g.slug)"
-                class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 hover:border-violet-500/50 transition group shadow-sm">
+                class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 hover:border-brand-500/50 transition group shadow-sm">
             <div class="aspect-square bg-gray-50 dark:bg-gray-800 rounded-xl mb-3 flex items-center justify-center">
               <img v-if="g.image" :src="'/storage/' + g.image" :alt="g.name"
                    class="w-full h-full object-contain p-2 rounded-xl"/>
               <span v-else class="text-4xl">📱</span>
             </div>
-            <p class="text-violet-600 dark:text-violet-400 text-xs font-semibold mb-0.5">{{ g.brand?.name }}</p>
-            <p class="text-gray-800 dark:text-gray-200 font-semibold text-sm group-hover:text-violet-600 dark:group-hover:text-violet-300 transition line-clamp-2">{{ g.name }}</p>
-            <p v-if="g.price" class="text-violet-600 dark:text-violet-400 font-bold text-sm mt-1">NPR {{ formatPrice(g.price) }}</p>
+            <p class="text-brand-500 dark:text-brand-400 text-xs font-semibold mb-0.5">{{ g.brand?.name }}</p>
+            <p class="text-gray-800 dark:text-gray-200 font-semibold text-sm group-hover:text-brand-500 dark:group-hover:text-brand-300 transition line-clamp-2">{{ g.name }}</p>
+            <p v-if="g.price" class="text-brand-500 dark:text-brand-400 font-bold text-sm mt-1">NPR {{ formatPrice(g.price) }}</p>
           </Link>
         </div>
       </section>
@@ -48,14 +48,14 @@
         </h2>
         <div class="grid sm:grid-cols-3 gap-4">
           <Link v-for="a in articles" :key="a.id" :href="route('news.show', a.slug)"
-                class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-violet-500/50 transition group shadow-sm">
+                class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-brand-500/50 transition group shadow-sm">
             <div v-if="a.thumbnail" class="aspect-video overflow-hidden">
               <img :src="'/storage/' + a.thumbnail" :alt="a.title"
                    class="w-full h-full object-cover group-hover:scale-105 transition duration-300"/>
             </div>
             <div class="p-4">
-              <p class="text-violet-600 dark:text-violet-400 text-xs uppercase font-semibold mb-1">{{ a.category }}</p>
-              <h3 class="text-gray-800 dark:text-gray-200 font-bold text-sm group-hover:text-violet-600 dark:group-hover:text-violet-300 transition line-clamp-2">{{ a.title }}</h3>
+              <p class="text-brand-500 dark:text-brand-400 text-xs uppercase font-semibold mb-1">{{ a.category }}</p>
+              <h3 class="text-gray-800 dark:text-gray-200 font-bold text-sm group-hover:text-brand-500 dark:group-hover:text-brand-300 transition line-clamp-2">{{ a.title }}</h3>
             </div>
           </Link>
         </div>
@@ -68,14 +68,14 @@
         </h2>
         <div class="grid sm:grid-cols-2 gap-4">
           <Link v-for="r in reviews" :key="r.id" :href="route('reviews.show', r.slug)"
-                class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 flex gap-4 hover:border-violet-500/50 transition group shadow-sm">
+                class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 flex gap-4 hover:border-brand-500/50 transition group shadow-sm">
             <div class="shrink-0 w-14 h-14 rounded-full flex items-center justify-center text-xl font-extrabold border-4"
                  :class="ratingClass(r.rating)">
               {{ r.rating }}
             </div>
             <div>
-              <p class="text-violet-600 dark:text-violet-400 text-xs font-semibold mb-0.5">{{ r.gadget?.brand?.name }}</p>
-              <h3 class="text-gray-800 dark:text-gray-200 font-bold text-sm group-hover:text-violet-600 dark:group-hover:text-violet-300 transition line-clamp-2">{{ r.title }}</h3>
+              <p class="text-brand-500 dark:text-brand-400 text-xs font-semibold mb-0.5">{{ r.gadget?.brand?.name }}</p>
+              <h3 class="text-gray-800 dark:text-gray-200 font-bold text-sm group-hover:text-brand-500 dark:group-hover:text-brand-300 transition line-clamp-2">{{ r.title }}</h3>
             </div>
           </Link>
         </div>
@@ -86,7 +86,7 @@
             <p class="text-5xl mb-4">🔍</p>
             <h3 class="text-xl font-semibold mb-2">No results found</h3>
             <p class="text-sm">Try different keywords or browse our categories.</p>
-            <Link :href="route('gadgets.index')" class="mt-4 inline-block px-6 py-2 rounded-xl bg-violet-600 hover:bg-violet-500 text-white text-sm font-semibold transition">Browse Products</Link>
+            <Link :href="route('gadgets.index')" class="mt-4 inline-block px-6 py-2 rounded-xl bg-brand-500 hover:bg-brand-500 text-white text-sm font-semibold transition">Browse Products</Link>
           </div>
         </div>
 
@@ -106,7 +106,7 @@
           <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5">
             <div class="flex items-center justify-between mb-3">
               <h3 class="font-bold text-gray-800 dark:text-gray-200">Price Tracker</h3>
-              <Link :href="route('pages.price-tracker')" class="text-xs text-violet-600 dark:text-violet-400 hover:text-violet-500 dark:hover:text-violet-300">All Prices →</Link>
+              <Link :href="route('pages.price-tracker')" class="text-xs text-brand-500 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300">All Prices →</Link>
             </div>
             <p class="text-xs text-gray-400 dark:text-gray-600 mb-3">Trending Gadgets — NPR Price</p>
             <div class="space-y-0 divide-y divide-gray-100 dark:divide-gray-800">

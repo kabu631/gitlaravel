@@ -13,22 +13,22 @@
            class="w-80 sm:w-96 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-2xl shadow-black/20 dark:shadow-black/50 overflow-hidden flex flex-col"
            style="height: 480px">
         <!-- Header (always gradient) -->
-        <div class="bg-gradient-to-r from-violet-600 to-purple-600 px-4 py-3 flex items-center justify-between shrink-0">
+        <div class="bg-gradient-to-r from-navy-800 to-navy-700 px-4 py-3 flex items-center justify-between shrink-0">
           <div class="flex items-center gap-2.5">
             <div class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-sm font-bold">🤖</div>
             <div>
               <p class="font-semibold text-sm text-white">TechBot</p>
               <div class="flex items-center gap-1">
                 <span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
-                <span class="text-xs text-purple-200">AI Assistant</span>
+                <span class="text-xs text-brand-200">AI Assistant</span>
               </div>
             </div>
           </div>
           <div class="flex items-center gap-1">
-            <button @click="clearChat" title="Clear chat" class="p-1.5 hover:bg-white/10 rounded-lg transition text-purple-200 hover:text-white">
+            <button @click="clearChat" title="Clear chat" class="p-1.5 hover:bg-white/10 rounded-lg transition text-brand-200 hover:text-white">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
             </button>
-            <button @click="open = false" class="p-1.5 hover:bg-white/10 rounded-lg transition text-purple-200 hover:text-white">
+            <button @click="open = false" class="p-1.5 hover:bg-white/10 rounded-lg transition text-brand-200 hover:text-white">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
             </button>
           </div>
@@ -38,13 +38,13 @@
         <div ref="messagesEl" class="flex-1 overflow-y-auto p-4 space-y-3 scrollbar-thin bg-gray-50 dark:bg-gray-900">
           <!-- Welcome message -->
           <div v-if="messages.length === 0" class="flex gap-2.5">
-            <div class="w-7 h-7 bg-violet-600 rounded-full flex items-center justify-center text-xs shrink-0 mt-0.5">🤖</div>
+            <div class="w-7 h-7 bg-navy-800 rounded-full flex items-center justify-center text-xs shrink-0 mt-0.5">🤖</div>
             <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-transparent rounded-2xl rounded-tl-sm px-3.5 py-2.5 text-sm text-gray-800 dark:text-gray-200 max-w-[85%] shadow-sm">
               <p>👋 Hi! I'm TechBot, your tech assistant at Git Infosys.</p>
               <p class="mt-1.5">Ask me about gadgets, PC builds, price comparisons, or any tech advice for Nepal's market!</p>
               <div class="mt-3 flex flex-wrap gap-1.5">
                 <button v-for="q in quickQuestions" :key="q" @click="sendQuick(q)"
-                        class="text-xs bg-gray-100 dark:bg-gray-700 hover:bg-violet-600 hover:text-white dark:hover:bg-violet-700 rounded-full px-2.5 py-1 transition text-gray-600 dark:text-gray-300">
+                        class="text-xs bg-gray-100 dark:bg-gray-700 hover:bg-brand-500 hover:text-white dark:hover:bg-brand-600 rounded-full px-2.5 py-1 transition text-gray-600 dark:text-gray-300">
                   {{ q }}
                 </button>
               </div>
@@ -53,12 +53,12 @@
 
           <div v-for="(msg, i) in messages" :key="i" class="flex gap-2.5" :class="msg.role === 'user' ? 'flex-row-reverse' : ''">
             <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs shrink-0 mt-0.5"
-                 :class="msg.role === 'user' ? 'bg-violet-600 text-white' : 'bg-gray-200 dark:bg-gray-700 text-lg'">
+                 :class="msg.role === 'user' ? 'bg-navy-800 text-white' : 'bg-gray-200 dark:bg-gray-700 text-lg'">
               {{ msg.role === 'user' ? userInitial : '🤖' }}
             </div>
             <div class="px-3.5 py-2.5 rounded-2xl text-sm max-w-[85%] leading-relaxed"
                  :class="msg.role === 'user'
-                   ? 'bg-violet-600 text-white rounded-tr-sm whitespace-pre-wrap'
+                   ? 'bg-navy-800 text-white rounded-tr-sm whitespace-pre-wrap'
                    : 'bg-white dark:bg-gray-800 border border-gray-200 dark:border-transparent text-gray-800 dark:text-gray-200 rounded-tl-sm shadow-sm chat-markdown'">
               <template v-if="msg.role === 'user'">{{ msg.content }}</template>
               <div v-else v-html="renderMarkdown(msg.content)"></div>
@@ -88,9 +88,9 @@
             <input v-model="input" type="text"
                    :disabled="loading"
                    placeholder="Ask about tech, prices, builds..."
-                   class="flex-1 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-3.5 py-2 text-sm text-gray-800 dark:text-gray-200 focus:outline-none focus:border-violet-500 transition placeholder-gray-400 dark:placeholder-gray-500 disabled:opacity-50"/>
+                   class="flex-1 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-3.5 py-2 text-sm text-gray-800 dark:text-gray-200 focus:outline-none focus:border-brand-500 transition placeholder-gray-400 dark:placeholder-gray-500 disabled:opacity-50"/>
             <button type="submit" :disabled="loading || !input.trim()"
-                    class="p-2 bg-violet-600 hover:bg-violet-500 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed shrink-0">
+                    class="p-2 bg-brand-500 hover:bg-brand-400 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed shrink-0">
               <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
               </svg>
@@ -103,7 +103,7 @@
     <!-- Toggle Button -->
     <button @click="open = !open"
             class="w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 relative"
-            :class="open ? 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 shadow-gray-300/50 dark:shadow-black/50' : 'bg-violet-600 hover:bg-violet-500 shadow-violet-900/50'"
+            :class="open ? 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 shadow-gray-300/50 dark:shadow-black/50' : 'bg-brand-500 hover:bg-brand-400 shadow-brand-900/50'"
             :title="open ? 'Close chat' : 'Open TechBot'">
       <Transition
         enter-active-class="transition-all duration-200"
@@ -224,7 +224,7 @@ watch(open, (val) => { if (val) unread.value = 0 })
 .chat-markdown :deep(h2)         { font-size: 1em; }
 .chat-markdown :deep(h3)         { font-size: 0.95em; }
 .chat-markdown :deep(table)      { width: 100%; border-collapse: collapse; font-size: 0.8em; margin: 0.5em 0; }
-.chat-markdown :deep(th)         { background: #ede9fe; padding: 4px 8px; font-weight: 600; text-align: left; }
+.chat-markdown :deep(th)         { background: #ffefd4; padding: 4px 8px; font-weight: 600; text-align: left; }
 .chat-markdown :deep(td)         { padding: 3px 8px; border-bottom: 1px solid #e5e7eb; }
 .chat-markdown :deep(code)       { background: #f3f4f6; border-radius: 3px; padding: 0 3px; font-size: 0.85em; }
 .chat-markdown :deep(hr)         { border: none; border-top: 1px solid #e5e7eb; margin: 0.5em 0; }

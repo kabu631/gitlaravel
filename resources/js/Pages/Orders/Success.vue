@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <AppLayout>
     <div class="max-w-lg mx-auto text-center py-20">
       <div class="text-7xl mb-6">🎉</div>
@@ -20,17 +20,17 @@
         <div class="border-t border-gray-200 dark:border-gray-800 pt-4">
           <div v-for="item in order.items" :key="item.id" class="flex justify-between text-sm py-1">
             <span>{{ item.gadget?.name ?? 'Product' }} × {{ item.quantity }}</span>
-            <span class="text-violet-600 dark:text-violet-400">NPR {{ Math.round(item.price * item.quantity).toLocaleString('en-NP') }}</span>
+            <span class="text-brand-500 dark:text-brand-400">NPR {{ Math.round(item.price * item.quantity).toLocaleString('en-NP') }}</span>
           </div>
           <div class="flex justify-between font-bold text-base mt-3 pt-3 border-t border-gray-200 dark:border-gray-800">
             <span>Total</span>
-            <span class="text-violet-600 dark:text-violet-400">NPR {{ Math.round(order.total_amount).toLocaleString('en-NP') }}</span>
+            <span class="text-brand-500 dark:text-brand-400">NPR {{ Math.round(order.total_amount).toLocaleString('en-NP') }}</span>
           </div>
         </div>
       </div>
 
       <div class="flex gap-3 justify-center">
-        <Link :href="route('home')" class="px-6 py-3 bg-violet-600 hover:bg-violet-500 rounded-xl font-semibold transition">Continue Shopping</Link>
+        <Link :href="route('home')" class="px-6 py-3 bg-brand-500 hover:bg-brand-500 rounded-xl font-semibold transition">Continue Shopping</Link>
       </div>
     </div>
   </AppLayout>
