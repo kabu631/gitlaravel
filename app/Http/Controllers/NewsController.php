@@ -43,6 +43,20 @@ class NewsController extends Controller
             ->where('id', '!=', $article->id)
             ->where('category', $article->category)
             ->latest()->take(3)->get();
+
+        $recentArticles = NewsArticle::where('is_published', true)
+            ->where('id', '!=', $article->id)
+            ->latest()->take(5)->get(['id', 'title', 'slug', 'thumbnail', 'category', 'created_at']);
+
+        $categories = NewsArticle::where('is_published', true)
+            ->selectRaw('category, COUNT(*) as count')
+            ->groupBy('category')
+            ->orderByDesc('count')
+            ->get();
+
+        $trendingGadgets = \App\Models\Gadget::with('brand')
+            ->where('is_trending', true)
+            ->latest()->take(5)->get(['id', 'name', 'slug', 'image', 'price', 'brand_id']);
         $appUrl   = config('app.url');
         $desc     = Str::limit(strip_tags($article->content), 155);
         $imgUrl   = $article->thumbnail ? Storage::url($article->thumbnail) : null;
@@ -50,8 +64,11 @@ class NewsController extends Controller
         $canonical = route('news.show', $article->slug);
 
         return Inertia::render('News/Show', [
-            'article' => $article,
-            'related' => $related,
+            'article'         => $article,
+            'related'         => $related,
+            'recentArticles'  => $recentArticles,
+            'categories'      => $categories,
+            'trendingGadgets' => $trendingGadgets,
 
             'seo' => [
                 'title'        => $article->title,
