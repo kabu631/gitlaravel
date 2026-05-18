@@ -316,7 +316,7 @@
 import AppLayout from '@/Layouts/AppLayout.vue'
 import GadgetCard from '@/Components/GadgetCard.vue'
 import { Link, router, useForm } from '@inertiajs/vue3'
-import { ref, computed, watch, onMounted } from 'vue'
+import { ref, computed, watch, onMounted, nextTick } from 'vue'
 
 const props = defineProps({
   gadget:          { type: Object, required: true },
@@ -585,8 +585,10 @@ function submitComment() {
 const priceChartRef = ref(null)
 let chartInstance   = null
 onMounted(() => {
-  watch(() => activeTab.value, (tab) => {
-    if (tab === 'Price History' && props.priceHistory.length && priceChartRef.value) {
+  watch(() => activeTab.value, async (tab) => {
+    if (tab === 'Price History' && props.priceHistory.length) {
+      await nextTick()
+      if (!priceChartRef.value) return
       if (chartInstance) { chartInstance.destroy(); chartInstance = null }
       import('chart.js/auto').then(({ default: Chart }) => {
         chartInstance = new Chart(priceChartRef.value, {
