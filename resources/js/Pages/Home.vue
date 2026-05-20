@@ -18,10 +18,10 @@
     </section>
 
     <!-- Main 2-column layout -->
-    <div class="grid lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
       <!-- ── Left / Main Content (2 cols) ── -->
-      <div class="lg:col-span-2 space-y-8">
+      <div class="lg:col-span-2 space-y-8 min-w-0">
 
         <!-- Latest News -->
         <section v-if="news.length">
@@ -29,7 +29,7 @@
             <h2 class="section-title">Latest News</h2>
             <Link :href="route('news.index')" class="view-all">View All →</Link>
           </div>
-          <div class="grid sm:grid-cols-3 gap-4">
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <Link v-for="(article, i) in news.slice(0, 3)" :key="article.id"
                   :href="route('news.show', article.slug)"
                   class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-brand-500 dark:hover:border-brand-500 rounded-2xl overflow-hidden group transition relative">
@@ -75,7 +75,7 @@
             <h2 class="section-title">Top Picks — Editor's Choice</h2>
             <Link :href="route('reviews.index')" class="view-all">All Reviews →</Link>
           </div>
-          <div class="grid sm:grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link v-for="review in reviews" :key="review.id"
                   :href="route('reviews.show', review.slug)"
                   class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-brand-500 dark:hover:border-brand-500 rounded-2xl p-4 flex gap-3 group transition relative">
@@ -121,7 +121,7 @@
       </div>
 
       <!-- ── Right Sidebar (1 col) ── -->
-      <aside class="space-y-5 lg:sticky lg:top-6 lg:self-start">
+      <aside class="space-y-5 lg:sticky lg:top-6 lg:self-start min-w-0">
 
         <!-- Trending Now list -->
         <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5">
