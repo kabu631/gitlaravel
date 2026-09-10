@@ -1,6 +1,7 @@
 import { ref } from 'vue'
 
-const isDark = ref(true)
+const THEME_KEY = 'git_infosys_theme'
+const isDark = ref(false)
 
 export function useTheme() {
   function apply(dark) {
@@ -10,18 +11,28 @@ export function useTheme() {
     } else {
       document.documentElement.classList.remove('dark')
     }
-    try { localStorage.setItem('theme', dark ? 'dark' : 'light') } catch {}
+    try {
+      localStorage.setItem(THEME_KEY, dark ? 'dark' : 'light')
+      localStorage.removeItem('theme')
+    } catch {}
   }
 
   function init() {
     try {
-      const saved = localStorage.getItem('theme')
-      if (saved === 'light') { apply(false); return }
+      localStorage.removeItem('theme')
+      const saved = localStorage.getItem(THEME_KEY)
+      if (saved === 'dark') {
+        apply(true)
+        return
+      }
     } catch {}
-    apply(true)
+    apply(false)
   }
 
-  function toggle() { apply(!isDark.value) }
+  function toggle() {
+    apply(!isDark.value)
+  }
 
   return { isDark, init, toggle }
 }
+

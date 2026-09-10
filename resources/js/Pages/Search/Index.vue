@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <AppLayout>
     <div class="max-w-7xl mx-auto">
       <!-- Header -->
@@ -20,7 +20,7 @@
       </form>
 
       <!-- Gadgets -->
-      <div class="grid lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
         <div class="lg:col-span-2 space-y-8">
           <section v-if="gadgets.length" class="mb-10">
         <h2 class="text-xl font-bold mb-4 text-gray-900 dark:text-white flex items-center gap-2">
@@ -91,7 +91,7 @@
         </div>
 
         <!-- Right Sidebar -->
-        <aside v-if="query && total > 0" class="space-y-5">
+        <aside v-if="query && total > 0" class="space-y-5 lg:sticky lg:top-20 lg:self-start min-w-0 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto lg:scrollbar-thin">
           <!-- Search Tips -->
           <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5">
             <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-3">Search Tips</h3>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\ContactMessage;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
@@ -62,38 +63,155 @@ class PageController extends Controller
         ]));
     }
 
-    public function priceTracker()
+    public function priceTracker(Request $request)
     {
-        // Get gadgets that have a price_tracker_description OR have price history
-        $gadgets = Gadget::with(['brand', 'priceHistory'])
-            ->whereNotNull('price_tracker_description')
-            ->orWhereHas('priceHistory')
-            ->latest()
-            ->paginate(15);
+        $selectedCategory = $request->query('category', 'all');
+        $selectedFilter   = $request->query('filter', 'all'); // all, hot, dropped, increased, stable
+        $selectedSort     = $request->query('sort', 'hot_drops'); // hot_drops, biggest_amount, latest, price_low, price_high
+        $search           = trim($request->query('search', ''));
 
-        // Process trend for each gadget
-        $gadgets->getCollection()->transform(function ($gadget) {
-            $history = $gadget->priceHistory;
-            $gadget->trend = 'Stable';
-            if ($history->count() >= 2) {
-                $latest = $history->last()->price;
-                $previous = $history->first()->price;
-                if ($latest < $previous) $gadget->trend = 'Dropped';
-                if ($latest > $previous) $gadget->trend = 'Increased';
+        // 1. Fetch categories with counts of tracked gadgets
+        $categories = Category::withCount(['gadgets' => function ($q) {
+            $q->whereNotNull('price_tracker_description')->orWhereHas('priceHistory');
+        }])->having('gadgets_count', '>', 0)->get(['id', 'name', 'slug', 'gadgets_count']);
+
+        // 2. Query all tracked gadgets
+        $query = Gadget::with(['brand', 'category', 'priceHistory'])
+            ->where(function ($q) {
+                $q->whereNotNull('price_tracker_description')
+                  ->orWhereHas('priceHistory');
+            });
+
+        if (!empty($search)) {
+            $query->where(function ($q) use ($search) {
+                $q->where('name', 'like', "%{$search}%")
+                  ->orWhereHas('brand', fn($b) => $b->where('name', 'like', "%{$search}%"));
+            });
+        }
+
+        if ($selectedCategory && $selectedCategory !== 'all') {
+            $query->whereHas('category', fn($c) => $c->where('slug', $selectedCategory));
+        }
+
+        $allTrackedGadgets = $query->latest()->get();
+
+        // 3. Compute price tracking metrics for each gadget
+        $processed = $allTrackedGadgets->map(function ($gadget) {
+            $history = $gadget->priceHistory->sortBy('date')->values();
+            $currentPrice = (float) $gadget->price;
+
+            if ($gadget->old_price && (float)$gadget->old_price > 0 && (float)$gadget->old_price != $currentPrice) {
+                $previousPrice = (float) $gadget->old_price;
+            } elseif ($history->count() >= 2) {
+                $previousPrice = (float) $history[$history->count() - 2]->price;
+            } elseif ($history->count() == 1) {
+                $previousPrice = (float) $history[0]->price;
+            } else {
+                $previousPrice = $currentPrice;
             }
+
+            $diff = $currentPrice - $previousPrice;
+            $diffAmount = abs($diff);
+            $percent = $previousPrice > 0 ? round(($diffAmount / $previousPrice) * 100, 1) : 0;
+
+            $trend = 'Stable';
+            if ($diff < -0.01) {
+                $trend = 'Dropped';
+            } elseif ($diff > 0.01) {
+                $trend = 'Increased';
+            }
+
+            // Hot change: heavy price drop (>= 20% drop OR >= NPR 10,000 drop OR marked trending with a drop)
+            $isHotChange = ($trend === 'Dropped') && ($percent >= 20 || $diffAmount >= 10000 || ($gadget->is_trending && $percent >= 5));
+
+            $lastChangedDate = null;
+            if ($history->count()) {
+                $lastChangedDate = $history->last()->date ? $history->last()->date->format('M d, Y') : null;
+            }
+
+            $gadget->current_price      = $currentPrice;
+            $gadget->previous_price     = $previousPrice;
+            $gadget->price_diff         = $diff;
+            $gadget->price_diff_amount  = $diffAmount;
+            $gadget->price_diff_percent = $percent;
+            $gadget->trend              = $trend;
+            $gadget->is_hot_change      = $isHotChange;
+            $gadget->last_changed_date  = $lastChangedDate ?? $gadget->updated_at?->format('M d, Y');
+            $gadget->buy_url            = $gadget->referral_buy_url;
+            $gadget->history_points     = $history->map(fn($h) => [
+                'date'  => $h->date ? $h->date->format('M Y') : '',
+                'price' => (float)$h->price,
+            ])->toArray();
+
             return $gadget;
         });
+
+        // 4. Calculate Aggregate Stats
+        $totalTracked       = $processed->count();
+        $hotDropsCount      = $processed->where('is_hot_change', true)->count();
+        $totalDropsCount    = $processed->where('trend', 'Dropped')->count();
+        $maxDiscountPercent = $processed->max('price_diff_percent') ?? 0;
+        $totalSavings       = $processed->where('trend', 'Dropped')->sum('price_diff_amount');
+
+        // Top 4 hot drops for featured spotlight banner
+        $topHotDrops = $processed->filter(fn($g) => $g->is_hot_change)
+            ->sortByDesc('price_diff_percent')
+            ->take(4)
+            ->values();
+
+        // 5. Apply Status/Change Filter
+        $filtered = $processed;
+        if ($selectedFilter === 'hot') {
+            $filtered = $filtered->filter(fn($g) => $g->is_hot_change);
+        } elseif ($selectedFilter === 'dropped') {
+            $filtered = $filtered->filter(fn($g) => $g->trend === 'Dropped');
+        } elseif ($selectedFilter === 'increased') {
+            $filtered = $filtered->filter(fn($g) => $g->trend === 'Increased');
+        } elseif ($selectedFilter === 'stable') {
+            $filtered = $filtered->filter(fn($g) => $g->trend === 'Stable');
+        }
+
+        // 6. Apply Sorting
+        if ($selectedSort === 'hot_drops') {
+            $filtered = $filtered->sort(function ($a, $b) {
+                if ($a->is_hot_change !== $b->is_hot_change) {
+                    return $b->is_hot_change <=> $a->is_hot_change;
+                }
+                return $b->price_diff_percent <=> $a->price_diff_percent;
+            });
+        } elseif ($selectedSort === 'biggest_amount') {
+            $filtered = $filtered->sortByDesc('price_diff_amount');
+        } elseif ($selectedSort === 'price_low') {
+            $filtered = $filtered->sortBy('current_price');
+        } elseif ($selectedSort === 'price_high') {
+            $filtered = $filtered->sortByDesc('current_price');
+        } elseif ($selectedSort === 'latest') {
+            $filtered = $filtered->sortByDesc('updated_at');
+        }
 
         $trendingGadgets = Gadget::with('brand')->where('is_trending', true)->take(5)->get();
 
         return Inertia::render('Pages/PriceTracker', array_merge($this->sidebarData(), [
-            'heading'    => 'Price Tracker',
-            'subheading' => 'Track latest price drops, hikes, and our editorial market insights.',
-            'gadgets'    => $gadgets,
-            'trending'   => $trendingGadgets,
-            'seo'        => [
-                'title'       => 'Price Tracker — Monitor Gadget Prices in Nepal',
-                'description' => 'Track the latest price drops and hikes for smartphones and laptops in Nepal with expert insights.',
+            'heading'           => 'Nepal Gadget Price Tracker',
+            'subheading'        => 'Track real-time market price revisions, heavy drop alerts, and official price cuts in Nepal.',
+            'gadgets'           => $filtered->values(),
+            'categories'        => $categories,
+            'selectedCategory'  => $selectedCategory,
+            'selectedFilter'    => $selectedFilter,
+            'selectedSort'      => $selectedSort,
+            'search'            => $search,
+            'stats'             => [
+                'total_tracked'        => $totalTracked,
+                'hot_drops_count'      => $hotDropsCount,
+                'total_drops_count'    => $totalDropsCount,
+                'max_discount_percent' => $maxDiscountPercent,
+                'total_savings'        => $totalSavings,
+            ],
+            'topHotDrops'       => $topHotDrops,
+            'trending'          => $trendingGadgets,
+            'seo'               => [
+                'title'       => 'Price Tracker — Monitor Gadget Prices & Heavy Drops in Nepal',
+                'description' => 'Track the latest smartphone, laptop, and gadget price drops in Nepal with live market analytics and official buying links.',
                 'canonical'   => route('pages.price-tracker'),
             ],
         ]));

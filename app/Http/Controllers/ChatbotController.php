@@ -2,13 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\AiService;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
 
 class ChatbotController extends Controller
 {
-    private const ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
-
     public function chat(Request $request)
     {
         $request->validate([
@@ -18,9 +16,8 @@ class ChatbotController extends Controller
             'history.*.content' => 'required|string|max:2000',
         ]);
 
-        $apiKey = config('services.openrouter.key');
-        if (!$apiKey) {
-            return response()->json(['error' => 'AI service not configured. Add OPENROUTER_API_KEY to .env'], 503);
+        if (!AiService::isConfigured()) {
+            return response()->json(['error' => 'AI service not configured. Add DEEPSEEK_API_KEY to .env'], 503);
         }
 
         $messages = array_merge(
@@ -35,28 +32,17 @@ class ChatbotController extends Controller
             [['role' => 'user', 'content' => $request->message]]
         );
 
-        $response = Http::timeout(20)
-            ->withoutVerifying()
-            ->withToken($apiKey)
-            ->withHeaders([
-                'HTTP-Referer' => config('app.url'),
-                'X-Title'      => config('app.name'),
-            ])
-            ->post(self::ENDPOINT, [
-                'model'       => 'openrouter/auto',
-                'messages'    => $messages,
-                'max_tokens'  => 4096,
-                'temperature' => 0.7,
-            ]);
+        $reply = AiService::chat($messages, [
+            'temperature' => 0.7,
+            'max_tokens'  => 4096,
+            'timeout'     => 25,
+        ]);
 
-        if ($response->failed()) {
-            \Log::error('Chatbot API failed', ['status' => $response->status(), 'body' => $response->body()]);
-            return response()->json(['error' => 'Could not get a response. Please try again.'], 500);
+        if (!$reply) {
+            return response()->json(['error' => 'Could not get a response from AI service. Please try again.'], 500);
         }
 
-        $text = $response->json('choices.0.message.content')
-            ?? $response->json('choices.0.message.reasoning')
-            ?? 'Sorry, I could not process that.';
-        return response()->json(['reply' => $text]);
+        return response()->json(['reply' => $reply]);
     }
 }
+

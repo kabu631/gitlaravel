@@ -11,35 +11,40 @@
           <div class="absolute inset-0">
             <img v-if="slide.image" :src="`/storage/${slide.image}`"
                  class="w-full h-full object-cover" :alt="slide.title"/>
-            <div class="absolute inset-0 bg-gradient-to-br from-navy-900/90 via-gray-900/85 to-gray-950/90"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-slate-950/75 via-slate-900/60 to-slate-950/80"></div>
           </div>
-          <div v-if="!slide.image" class="absolute inset-0 bg-gradient-to-br from-navy-900 via-gray-900 to-gray-950">
-            <div class="absolute inset-0 opacity-20" style="background:radial-gradient(circle at 50% 50%,#263248 0%,transparent 70%)"></div>
+          <div v-if="!slide.image" class="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-slate-100 to-white dark:from-slate-900 dark:via-[#0b101d] dark:to-slate-950">
+            <div class="absolute inset-0 opacity-20 dark:opacity-30" style="background:radial-gradient(circle at 50% 50%,#f5a623 0%,transparent 70%)"></div>
           </div>
 
           <!-- Content -->
           <div class="relative z-10 max-w-2xl mx-auto">
             <span v-if="slide.badge"
-                  class="inline-block mb-3 text-xs font-semibold tracking-widest text-brand-300 uppercase bg-navy-900/60 border border-navy-700/50 rounded-full px-3 py-1">
+                  class="inline-block mb-3 text-xs font-semibold tracking-widest text-brand-700 dark:text-brand-300 uppercase bg-brand-50/90 dark:bg-navy-900/60 border border-brand-200/80 dark:border-navy-700/50 rounded-full px-3 py-1 shadow-xs">
               {{ slide.badge }}
             </span>
-            <p v-if="slide.subtitle" class="text-xs md:text-sm text-brand-300 font-semibold uppercase tracking-widest mb-2">
+            <p v-if="slide.subtitle" class="text-xs md:text-sm text-brand-600 dark:text-brand-300 font-semibold uppercase tracking-widest mb-2">
               {{ slide.subtitle }}
             </p>
-            <h1 class="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-3 bg-gradient-to-r from-brand-400 to-brand-200 bg-clip-text text-transparent leading-tight">
-              {{ slide.title }}
+            <h1 class="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-3"
+                :class="slide.image ? 'text-white' : 'text-slate-900 dark:text-white'">
+              <span class="bg-gradient-to-r from-brand-600 via-amber-500 to-amber-600 dark:from-brand-400 dark:to-brand-200 bg-clip-text text-transparent leading-tight">
+                {{ slide.title }}
+              </span>
             </h1>
-            <p v-if="slide.description" class="text-gray-400 mb-6 max-w-lg mx-auto text-sm md:text-base">
+            <p v-if="slide.description"
+               class="mb-6 max-w-lg mx-auto text-sm md:text-base"
+               :class="slide.image ? 'text-gray-200' : 'text-slate-600 dark:text-gray-400'">
               {{ slide.description }}
             </p>
             <div class="flex gap-3 justify-center flex-wrap text-sm">
-              <a :href="slide.btn1_url" :class="btnClass(slide.btn1_style)"
-                 class="px-5 py-2.5 rounded-xl font-semibold transition">
-                {{ slide.btn1_text }}
+              <a :href="slide.btn1_url === '/gadgets' ? '/products' : (slide.btn1_url || '/products')" :class="btnClass(slide.btn1_style)"
+                 class="px-5 py-2.5 rounded-xl font-semibold transition flex items-center gap-1.5 shadow-md">
+                <span>{{ slide.btn1_text === 'Shop Now' ? 'Explore Specs & Price' : (slide.btn1_text || 'View Details') }}</span>
               </a>
-              <a v-if="slide.btn2_text" :href="slide.btn2_url" :class="btnClass(slide.btn2_style)"
-                 class="px-5 py-2.5 rounded-xl font-semibold transition">
-                {{ slide.btn2_text }}
+              <a v-if="slide.btn2_text" :href="slide.btn2_url === '/gadgets' ? '/products' : (slide.btn2_url || '/compare')" :class="btnClass(slide.btn2_style)"
+                 class="px-5 py-2.5 rounded-xl font-semibold transition backdrop-blur-xs">
+                {{ slide.btn2_text === 'Learn More' ? 'Compare Devices' : slide.btn2_text }}
               </a>
             </div>
           </div>

@@ -12,19 +12,29 @@ class GuideController extends Controller
 {
     public function index(Request $request)
     {
+        $type   = $request->type;   // 'buying-guide' | 'how-to' | null
+        $search = $request->search;
+
         $guides = TechGuide::where('is_published', true)
-            ->when($request->search, fn($q) => $q->where('title', 'like', "%{$request->search}%"))
+            ->when($search, fn($q) => $q->where('title', 'like', "%{$search}%"))
+            ->when($type, fn($q) => $q->where('type', $type))
             ->latest()->paginate(12)->withQueryString();
 
         $trendingGadgets = \App\Models\Gadget::with('brand')->where('is_trending', true)->latest()->take(5)->get();
 
+        $seoTitle = match($type) {
+            'buying-guide' => 'Buying Guides — Expert Purchase Advice & Recommendations',
+            'how-to'       => 'How-To Guides — Step-by-Step Tech Tutorials',
+            default        => 'Tech Guides — Expert Advice for Smart Purchases',
+        };
+
         return Inertia::render('Guides/Index', [
             'guides'  => $guides,
-            'filters' => $request->only(['search']),
+            'filters' => $request->only(['search', 'type']),
             'trendingGadgets' => $trendingGadgets,
 
             'seo' => [
-                'title'       => 'Tech Buying Guides — Expert Advice for Smart Purchases',
+                'title'       => $seoTitle,
                 'description' => 'Find the best buying guides for smartphones, laptops, earbuds, and more. Our experts break down what to look for so you get the right product.',
                 'canonical'   => route('guides.index'),
                 'type'        => 'website',

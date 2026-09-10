@@ -19,6 +19,7 @@ use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
+use Filament\Tables\Actions\Action;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\TextColumn;
@@ -124,6 +125,12 @@ class GadgetResource extends Resource
             Section::make('Details')->schema([
                 RichEditor::make('description')->nullable()->columnSpanFull(),
                 TextInput::make('release_date')->type('date')->nullable(),
+                TextInput::make('buy_url')
+                    ->label('Buy URL')
+                    ->url()
+                    ->nullable()
+                    ->placeholder('https://onin.com.np/product/...')
+                    ->helperText('Direct purchase link — used for "Buy Now" button on product page'),
                 Toggle::make('is_featured')->label('Featured'),
                 Toggle::make('is_trending')->label('Trending'),
             ])->columns(2),
@@ -153,7 +160,14 @@ class GadgetResource extends Resource
             SelectFilter::make('category')->relationship('category', 'name'),
             TernaryFilter::make('is_featured'),
             TernaryFilter::make('is_trending'),
-        ])->actions([EditAction::make()])
+        ])->actions([
+            EditAction::make(),
+            Action::make('view')
+                ->label('View')
+                ->icon('heroicon-o-arrow-top-right-on-square')
+                ->url(fn($record) => route('gadgets.show', $record->slug))
+                ->openUrlInNewTab(),
+        ])
           ->bulkActions([DeleteBulkAction::make()])
           ->defaultSort('created_at', 'desc');
     }

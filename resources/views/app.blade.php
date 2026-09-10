@@ -50,15 +50,26 @@
         @endif
 
         <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
         <link rel="dns-prefetch" href="//fonts.bunny.net">
         <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-        <!-- Theme: apply before render to avoid flash -->
+        <!-- Theme: Light mode by default; apply dark mode only if explicitly selected -->
         <script>
             (function() {
-                var t = localStorage.getItem('theme');
-                if (t !== 'light') { document.documentElement.classList.add('dark'); }
+                try {
+                    var t = localStorage.getItem('git_infosys_theme');
+                    if (t === 'dark') {
+                        document.documentElement.classList.add('dark');
+                    } else {
+                        document.documentElement.classList.remove('dark');
+                    }
+                } catch (e) {
+                    document.documentElement.classList.remove('dark');
+                }
             })();
         </script>
 
@@ -67,7 +78,7 @@
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
     </head>
-    <body class="font-sans antialiased overflow-x-hidden">
+    <body class="font-sans antialiased overflow-x-clip">
         @inertia
     </body>
 </html>

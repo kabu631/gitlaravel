@@ -1,116 +1,124 @@
-﻿<template>
+<template>
   <AppLayout>
-    <h1 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white">🛒 Your Cart</h1>
+    <div class="max-w-4xl mx-auto py-8">
+      <!-- Breadcrumb -->
+      <nav class="text-xs text-slate-500 dark:text-slate-400 mb-6 flex items-center gap-2">
+        <Link :href="route('home')" class="hover:text-brand-500">Home</Link> /
+        <span class="text-slate-700 dark:text-slate-300 font-medium">Independent Purchasing Policy</span>
+      </nav>
 
-    <div v-if="items.length" class="grid lg:grid-cols-3 gap-8">
+      <!-- Main Showcase Card -->
+      <div class="glass-card bg-white dark:bg-[#111827] rounded-3xl border border-slate-200/80 dark:border-slate-800/80 p-8 sm:p-12 shadow-sm text-center relative overflow-hidden">
+        <!-- Subtle background glow -->
+        <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none" />
 
-      <!-- Cart items -->
-      <div class="lg:col-span-2 space-y-4">
-        <div v-for="item in items" :key="item.id"
-             class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5 flex gap-4 shadow-sm">
-          <img :src="item.product_variant?.variant_image
-                    ? `/storage/${item.product_variant.variant_image}`
-                    : item.gadget?.image
-                      ? `/storage/${item.gadget.image}`
-                      : '/placeholder.png'"
-               class="w-20 h-20 object-contain rounded-xl bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 p-2 shrink-0"/>
-          <div class="flex-1 min-w-0">
-            <Link :href="route('gadgets.show', item.gadget.slug)"
-                  class="font-semibold text-gray-800 dark:text-gray-200 hover:text-brand-500 dark:hover:text-brand-400 transition block">
-              {{ item.gadget.name }}
-            </Link>
-            <p class="text-sm text-gray-500 dark:text-gray-400 mt-0.5">{{ item.gadget.brand?.name }}</p>
+        <!-- Icon Badge -->
+        <div class="w-20 h-20 rounded-3xl bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 border border-brand-200 dark:border-brand-800 flex items-center justify-center mx-auto mb-6 shadow-xs">
+          <ShieldCheck class="w-10 h-10 text-brand-500" />
+        </div>
 
-            <!-- Variant badges -->
-            <div v-if="item.variant_info && Object.keys(item.variant_info).length" class="flex gap-1.5 mt-2 flex-wrap">
-              <span v-for="(v, k) in item.variant_info" :key="k"
-                    class="text-xs bg-brand-100 dark:bg-navy-900/30 text-brand-600 dark:text-brand-300 px-2 py-0.5 rounded-lg font-medium capitalize">
-                {{ k }}: {{ v }}
-              </span>
-            </div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800 text-xs font-bold uppercase tracking-wider mb-4">
+          <Sparkles class="w-3.5 h-3.5 text-amber-500" />
+          <span>100% Unbiased Tech Portal</span>
+        </div>
 
-            <!-- Qty controls + price -->
-            <div class="flex items-center justify-between mt-3">
-              <div class="flex items-center gap-2">
-                <button @click="updateQty(item, -1)"
-                        class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-brand-100 dark:hover:bg-navy-900/30 hover:text-brand-600 dark:hover:text-brand-300 flex items-center justify-center text-lg font-bold text-gray-600 dark:text-gray-300 transition border border-gray-200 dark:border-gray-700">
-                  −
-                </button>
-                <span class="w-8 text-center font-bold text-gray-800 dark:text-gray-200">{{ item.quantity }}</span>
-                <button @click="updateQty(item, 1)"
-                        class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-brand-100 dark:hover:bg-navy-900/30 hover:text-brand-600 dark:hover:text-brand-300 flex items-center justify-center text-lg font-bold text-gray-600 dark:text-gray-300 transition border border-gray-200 dark:border-gray-700">
-                  +
-                </button>
+        <h1 class="font-heading text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-4">
+          We Review. You Decide. We Don't Sell.
+        </h1>
+
+        <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed mb-8">
+          To maintain strict editorial independence and deliver 100% honest reviews, <strong>Git Infosys does not operate an e-commerce store or sell tech products directly</strong>. Selling the products we review would create a conflict of interest.
+        </p>
+
+        <!-- Partner Banner -->
+        <div class="bg-gradient-to-br from-slate-50 to-amber-50/40 dark:from-slate-900 dark:to-amber-950/30 rounded-2xl border border-amber-200/60 dark:border-amber-900/40 p-6 max-w-2xl mx-auto mb-10 text-left">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div class="flex items-center gap-3.5">
+              <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 dark:text-amber-400 font-black text-xl shrink-0 border border-amber-500/20">
+                OI
               </div>
-              <div class="text-right">
-                <p class="font-bold text-brand-500 dark:text-brand-400 text-lg">NPR {{ formatPrice(subtotal(item)) }}</p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">NPR {{ formatPrice(item.unit_price ?? item.gadget.price) }} each</p>
+              <div>
+                <p class="text-xs font-bold text-amber-700 dark:text-amber-400 uppercase tracking-wider">Official Retail Partner</p>
+                <h2 class="font-heading font-bold text-base text-slate-900 dark:text-white">Onin Nepal (onin.com.np)</h2>
+                <p class="text-xs text-slate-500 dark:text-slate-400">Authorized tech distributor with official Nepal manufacturer warranty.</p>
               </div>
             </div>
+
+            <a
+              href="https://onin.com.np/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs sm:text-sm shadow-xs transition shrink-0"
+            >
+              <ShoppingBag class="w-4 h-4" />
+              <span>Shop on Onin (onin.com.np)</span>
+              <ExternalLink class="w-3.5 h-3.5 opacity-75" />
+            </a>
+          </div>
+        </div>
+
+        <!-- 3 Pillars Grid -->
+        <div class="grid sm:grid-cols-3 gap-5 max-w-3xl mx-auto text-left mb-10">
+          <div class="bg-slate-50 dark:bg-slate-900/70 border border-slate-200/80 dark:border-slate-800/80 rounded-2xl p-5">
+            <div class="w-9 h-9 rounded-xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center mb-3">
+              <CheckCircle2 class="w-5 h-5 text-blue-500" />
+            </div>
+            <h3 class="font-heading font-bold text-sm text-slate-900 dark:text-white mb-1">Zero Seller Bias</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+              We never promote higher-margin products over superior budget gadgets. Our ratings reflect raw lab performance.
+            </p>
           </div>
 
-          <button @click="remove(item.id)"
-                  class="text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition self-start ml-2 p-1 rounded-lg hover:bg-red-50 dark:hover:bg-red-900/20"
-                  title="Remove item">✕</button>
+          <div class="bg-slate-50 dark:bg-slate-900/70 border border-slate-200/80 dark:border-slate-800/80 rounded-2xl p-5">
+            <div class="w-9 h-9 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3">
+              <Award class="w-5 h-5 text-emerald-500" />
+            </div>
+            <h3 class="font-heading font-bold text-sm text-slate-900 dark:text-white mb-1">Nepal Market Pricing</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+              Real-time MRP tracking and price history tracking across smartphone and laptop distributors in Nepal.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 dark:bg-slate-900/70 border border-slate-200/80 dark:border-slate-800/80 rounded-2xl p-5">
+            <div class="w-9 h-9 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center mb-3">
+              <ExternalLink class="w-5 h-5 text-amber-500" />
+            </div>
+            <h3 class="font-heading font-bold text-sm text-slate-900 dark:text-white mb-1">Direct Referrals</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+              One-click links to Onin (onin.com.np) where you can buy genuine gadgets with VAT bill and official Nepal warranty.
+            </p>
+          </div>
+        </div>
+
+        <!-- Navigation CTAs -->
+        <div class="flex flex-wrap items-center justify-center gap-3">
+          <Link
+            :href="route('gadgets.index')"
+            class="px-6 py-3 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-bold text-xs sm:text-sm shadow-xs transition"
+          >
+            Browse All Tech Specs & Reviews
+          </Link>
+          <Link
+            :href="route('compare.index')"
+            class="px-6 py-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-brand-500 text-slate-700 dark:text-slate-300 hover:text-brand-500 font-semibold text-xs sm:text-sm transition"
+          >
+            Compare Gadgets Side-by-Side
+          </Link>
         </div>
       </div>
-
-      <!-- Order Summary -->
-      <div class="lg:col-span-1">
-        <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-6 sticky top-24 shadow-sm">
-          <h2 class="text-xl font-bold mb-5 text-gray-900 dark:text-white">Order Summary</h2>
-
-          <div class="flex justify-between text-gray-600 dark:text-gray-400 mb-2">
-            <span>Subtotal</span>
-            <span class="font-medium text-gray-800 dark:text-gray-200">NPR {{ formatPrice(total) }}</span>
-          </div>
-          <div class="flex justify-between text-gray-600 dark:text-gray-400 mb-4 pb-4 border-b border-gray-200 dark:border-gray-800">
-            <span>Delivery</span>
-            <span class="text-emerald-600 dark:text-emerald-400 font-semibold">Free</span>
-          </div>
-
-          <div class="flex justify-between font-bold text-xl mb-6 text-gray-900 dark:text-white">
-            <span>Total</span>
-            <span class="text-brand-500 dark:text-brand-400">NPR {{ formatPrice(total) }}</span>
-          </div>
-
-          <Link :href="route('checkout')"
-                class="block text-center w-full py-3.5 bg-brand-500 hover:bg-brand-500 text-white rounded-xl font-bold text-lg transition shadow-lg shadow-brand-500/25">
-            Proceed to Checkout →
-          </Link>
-          <Link :href="route('home')"
-                class="block text-center text-sm text-gray-500 dark:text-gray-400 hover:text-brand-500 dark:hover:text-brand-400 mt-4 transition">
-            ← Continue Shopping
-          </Link>
-        </div>
-      </div>
-    </div>
-
-    <!-- Empty cart -->
-    <div v-else class="text-center py-24">
-      <p class="text-7xl mb-6">🛒</p>
-      <h2 class="text-2xl font-bold mb-2 text-gray-900 dark:text-white">Your cart is empty</h2>
-      <p class="text-gray-500 dark:text-gray-400 mb-8">Add some amazing gadgets to get started.</p>
-      <Link :href="route('gadgets.index')"
-            class="px-8 py-3 bg-brand-500 hover:bg-brand-500 text-white rounded-xl font-semibold transition">
-        Start Shopping
-      </Link>
     </div>
   </AppLayout>
 </template>
 
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
-import { Link, router } from '@inertiajs/vue3'
-
-const props = defineProps({ items: Array, total: Number })
-const formatPrice = (p) => Math.round(p).toLocaleString('en-NP')
-const subtotal    = (item) => item.quantity * (item.unit_price ?? item.gadget.price)
-
-function remove(id) { router.delete(route('cart.remove', id)) }
-function updateQty(item, delta) {
-  const qty = item.quantity + delta
-  if (qty < 1) { remove(item.id); return }
-  router.patch(route('cart.update', item.id), { quantity: qty }, { preserveState: false })
-}
+import { Link } from '@inertiajs/vue3'
+import {
+  ShieldCheck,
+  Sparkles,
+  ShoppingBag,
+  ExternalLink,
+  CheckCircle2,
+  Award,
+} from 'lucide-vue-next'
 </script>

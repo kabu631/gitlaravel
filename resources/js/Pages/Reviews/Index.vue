@@ -1,14 +1,23 @@
-﻿<template>
+<template>
   <AppLayout>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <!-- Breadcrumbs & Header -->
       <div class="mb-8 border-b border-gray-200 dark:border-gray-800 pb-6">
         <nav class="text-sm text-gray-500 mb-3 flex items-center gap-2">
           <Link :href="route('home')" class="hover:text-brand-500 dark:hover:text-brand-400">Home</Link> /
-          <span class="text-gray-700 dark:text-gray-300 font-medium">Reviews</span>
+          <Link :href="route('reviews.index')" class="hover:text-brand-500 dark:hover:text-brand-400">Reviews</Link>
+          <template v-if="isEditorsChoice"> / <span class="text-gray-700 dark:text-gray-300 font-medium">Editor's Choice</span></template>
+          <template v-else> / <span class="text-gray-700 dark:text-gray-300 font-medium">All Reviews</span></template>
         </nav>
-        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">Expert Gadget Reviews</h1>
-        <p class="text-gray-500 dark:text-gray-400 mt-2 text-lg">In-depth tests, honest opinions, and the final verdict.</p>
+        <div class="flex items-center gap-3 flex-wrap">
+          <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
+            {{ isEditorsChoice ? "Editor's Choice" : 'Expert Gadget Reviews' }}
+          </h1>
+          <span v-if="isEditorsChoice" class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-950/50 text-purple-700 dark:text-purple-300 text-sm font-bold border border-purple-200 dark:border-purple-800">⭐ Rating ≥ 8.0</span>
+        </div>
+        <p class="text-gray-500 dark:text-gray-400 mt-2 text-lg">
+          {{ isEditorsChoice ? 'Only the best — gadgets our editors rated 8.0 or above.' : 'In-depth tests, honest opinions, and the final verdict.' }}
+        </p>
       </div>
 
       <div class="grid lg:grid-cols-4 gap-8">
@@ -158,13 +167,17 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
 import { Link } from '@inertiajs/vue3'
+import { computed } from 'vue'
 
-defineProps({ 
+const props = defineProps({ 
   featuredReviews: { type: Array, default: () => [] },
   reviews: { type: Object, default: () => ({ data: [], links: [] }) },
   trendingGadgets: { type: Array, default: () => [] },
-  sidebarNews: { type: Array, default: () => [] }
+  sidebarNews: { type: Array, default: () => [] },
+  filters: { type: Object, default: () => ({}) }
 })
+
+const isEditorsChoice = computed(() => props.filters?.filter === 'editors-choice')
 
 function formatDate(d) {
   if (!d) return ''

@@ -12,35 +12,69 @@ class CompareController extends Controller
 {
     public function index(Request $request)
     {
-        $category   = $request->category;
         $categories = Category::all();
+        $category   = $request->category;
+        $slugs      = array_values(array_filter([$request->g1, $request->g2, $request->g3, $request->g4]));
 
-        $gadgets         = $category
-            ? Gadget::with(['brand', 'specs'])->whereHas('category', fn($q) => $q->where('slug', $category))->get()
-            : collect();
-
-        $slugs  = array_filter([$request->g1, $request->g2, $request->g3, $request->g4]);
-        $selected = [];
-        $minPrice = null;
-
-        if (count($slugs) >= 2) {
-            $selected = Gadget::with(['brand', 'specs'])
+        // If specific slugs are passed
+        if (count($slugs) >= 1) {
+            $selectedModels = Gadget::with(['brand', 'specs', 'category'])
                 ->whereIn('slug', $slugs)
                 ->get()
                 ->sortBy(fn($g) => array_search($g->slug, $slugs))
-                ->values()
-                ->toArray();
+                ->values();
 
-            $prices   = array_filter(array_column($selected, 'price'));
-            $minPrice = $prices ? min($prices) : null;
+            // Auto-detect category from first device if not passed
+            if (!$category && $selectedModels->isNotEmpty()) {
+                $category = $selectedModels->first()->category?->slug;
+            }
+        } else {
+            $selectedModels = collect();
         }
+
+        // Strict Same-Category Guarantee:
+        // We ALWAYS compare the latest hot products of the SAME category (mobile-mobile, laptop-laptop, earbuds-earbuds, smartwatch-smartwatch)
+        $targetCategory = $category ?: ($selectedModels->isNotEmpty() ? $selectedModels->first()->category?->slug : 'mobile') ?: 'mobile';
+        $category = $targetCategory;
+
+        // Filter out any devices that don't match the target same category
+        $selectedModels = $selectedModels->filter(fn($g) => $g->category?->slug === $targetCategory)->values();
+
+        // If fewer than 2 remain in this same category, backfill with top trending/latest products of that exact category
+        if ($selectedModels->count() < 2) {
+            $existingIds = $selectedModels->pluck('id')->toArray();
+            $needed = 2 - $selectedModels->count();
+            $fill = Gadget::with(['brand', 'specs', 'category'])
+                ->whereNotNull('image')
+                ->whereHas('category', fn($q) => $q->where('slug', $targetCategory))
+                ->whereNotIn('id', $existingIds)
+                ->orderBy('is_trending', 'desc')
+                ->latest()
+                ->take($needed)
+                ->get();
+            $selectedModels = $selectedModels->concat($fill)->values();
+        }
+
+        $selected = $selectedModels->toArray();
+        $slugs    = $selectedModels->pluck('slug')->toArray();
+        $prices   = array_filter(array_column($selected, 'price'));
+        $minPrice = $prices ? min($prices) : null;
+
+        // Load all gadgets belonging to this exact category so user can swap within same category
+        $gadgets = $category
+            ? Gadget::with(['brand', 'specs', 'category'])
+                ->whereHas('category', fn($q) => $q->where('slug', $category))
+                ->orderBy('is_trending', 'desc')
+                ->latest()
+                ->get()
+            : collect();
 
         return Inertia::render('Compare/Index', [
             'categories'      => $categories,
             'category'        => $category,
             'gadgets'         => $gadgets,
             'selectedGadgets' => $selected,
-            'slugs'           => array_values($slugs),
+            'slugs'           => $slugs,
             'minPrice'        => $minPrice,
         ]);
     }
@@ -60,9 +94,8 @@ class CompareController extends Controller
             return response()->json(['error' => 'Need at least 2 products.'], 422);
         }
 
-        $apiKey = config('services.openrouter.key');
-        if (!$apiKey) {
-            return response()->json(['error' => 'AI service not configured.'], 503);
+        if (!\App\Services\AiService::isConfigured()) {
+            return response()->json(['error' => 'AI service not configured. Add DEEPSEEK_API_KEY to .env'], 503);
         }
 
         $lines = $gadgets->map(function ($g) {
@@ -73,31 +106,19 @@ class CompareController extends Controller
             return "- {$g->brand?->name} {$g->name} (NPR " . number_format($g->price) . "): {$specs}";
         })->implode("\n");
 
-        $response = Http::timeout(25)
-            ->withoutVerifying()
-            ->withToken($apiKey)
-            ->withHeaders([
-                'HTTP-Referer' => config('app.url'),
-                'X-Title'      => config('app.name'),
-            ])
-            ->post('https://openrouter.ai/api/v1/chat/completions', [
-                'model'       => 'openrouter/auto',
-                'messages'    => [
-                    ['role' => 'system', 'content' => 'You are a tech expert at Git Infosys, Nepal\'s trusted gadget platform. Give clear, practical buying advice for Nepali customers. Use NPR for prices. Format your response with proper markdown: use ## for section headings, **bold** for key terms and product names, and bullet lists for features. Use a markdown comparison table when summarizing differences.'],
-                    ['role' => 'user',   'content' => "Compare these products and give a buying recommendation:\n\n{$lines}\n\nStructure your response as:\n## Comparison Summary\n(markdown table comparing key specs)\n\n## Who Should Buy Each?\n(one paragraph per product)\n\n## Overall Verdict\n(clear winner or use-case recommendation)"],
-                ],
-                'max_tokens'  => 2048,
-                'temperature' => 0.6,
-            ]);
+        $text = \App\Services\AiService::chat([
+            ['role' => 'system', 'content' => 'You are a tech expert at Git Infosys, Nepal\'s trusted gadget platform. Give clear, practical buying advice for Nepali customers. Use NPR for prices. Format your response with proper markdown: use ## for section headings, **bold** for key terms and product names, and bullet lists for features. Use a markdown comparison table when summarizing differences.'],
+            ['role' => 'user',   'content' => "Compare these products and give a buying recommendation:\n\n{$lines}\n\nStructure your response as:\n## Comparison Summary\n(markdown table comparing key specs)\n\n## Who Should Buy Each?\n(one paragraph per product)\n\n## Overall Verdict\n(clear winner or use-case recommendation)"],
+        ], [
+            'max_tokens'  => 2048,
+            'temperature' => 0.6,
+            'timeout'     => 30,
+        ]);
 
-        if ($response->failed()) {
-            $errorDetail = $response->json('error.message') ?? $response->body();
-            return response()->json(['error' => 'AI Error: ' . $errorDetail], 500);
+        if (!$text) {
+            return response()->json(['error' => 'AI comparison service currently unavailable. Please try again.'], 500);
         }
 
-        $text = $response->json('choices.0.message.content')
-            ?? $response->json('choices.0.message.reasoning')
-            ?? 'No suggestion available.';
         return response()->json(['suggestion' => $text]);
     }
 }
