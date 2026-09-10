@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <StaticPageLayout current-page="services"
     :sidebar-products="sidebarProducts"
     :sidebar-news="sidebarNews">
@@ -40,12 +40,15 @@
           <div class="flex justify-center gap-3 flex-wrap">
             <Link :href="route('gadgets.index')"
                   class="px-8 py-3 rounded-xl bg-white text-brand-600 font-bold hover:bg-gray-100 transition">
-              Shop Now →
+              Explore Tech Reviews & Specs →
             </Link>
-            <Link :href="route('pages.contact')"
-                  class="px-8 py-3 rounded-xl border-2 border-white/50 text-white font-bold hover:border-white transition">
-              Contact Support
-            </Link>
+            <a href="https://onin.com.np/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="px-8 py-3 rounded-xl border-2 border-white/50 text-white font-bold hover:border-white transition flex items-center gap-2">
+              <span>Buy on Onin (onin.com.np)</span>
+              <span>↗</span>
+            </a>
           </div>
         </div>
       </div>
@@ -76,13 +79,13 @@ const services = [
   {
     icon: '↔️',
     title: 'Gadget Comparisons',
-    desc: 'Use our powerful comparison engine to put up to four devices head-to-head. Analyze specs and performance differences instantly.',
+    desc: 'Use our powerful comparison engine to put devices head-to-head. Analyze specs, benchmarks, and camera differences instantly.',
     gradient: 'linear-gradient(135deg, #1877F2, #0A66C2)',
   },
   {
     icon: '📈',
-    title: 'Price Tracking',
-    desc: 'Never overpay again. We track market prices daily, giving you historical data trends to know exactly when to buy.',
+    title: 'Price & Specs Tracking',
+    desc: 'Official Nepal MRP and market rates tracked regularly with historical data to know if you are getting a genuine deal.',
     gradient: 'linear-gradient(135deg, #F56040, #C13584)',
   },
   {
@@ -92,15 +95,15 @@ const services = [
     gradient: 'linear-gradient(135deg, #00b894, #00cec9)',
   },
   {
-    icon: '🛒',
-    title: 'E-Commerce Hub',
-    desc: 'Read a review and buy immediately! Secure nationwide shipping in Nepal with multiple payment options.',
+    icon: '🤝',
+    title: 'Verified Retail Referrals',
+    desc: 'To preserve 100% editorial impartiality, we refer buyers to verified partners like Onin (onin.com.np) for authentic hardware and official warranties.',
     gradient: 'linear-gradient(135deg, #ff9f43, #ff6b6b)',
   },
   {
     icon: '📚',
     title: 'Expert Buying Guides',
-    desc: 'Confused about specs? Our easy-to-read tech guides break down complex jargon so you can shop like a pro.',
+    desc: 'Confused about specs? Our easy-to-read tech guides break down complex jargon so you can pick the right hardware.',
     gradient: 'linear-gradient(135deg, #a29bfe, #6c5ce7)',
   },
 ]

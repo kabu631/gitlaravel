@@ -14,8 +14,15 @@ class Gadget extends Model
     protected $fillable = [
         'brand_id', 'category_id', 'name', 'slug', 'accessory_type',
         'image', 'model_3d', 'sketchfab_embed', 'price', 'old_price',
-        'release_date', 'is_featured', 'is_trending', 'description', 'price_tracker_description', 'views_count',
+        'release_date', 'is_featured', 'is_trending', 'description', 'price_tracker_description', 'buy_url', 'views_count',
     ];
+
+    protected $appends = ['referral_buy_url'];
+
+    public function getReferralBuyUrlAttribute(): string
+    {
+        return !empty($this->buy_url) ? $this->buy_url : 'https://onin.com.np/';
+    }
 
     protected $casts = [
         'is_featured'  => 'boolean',

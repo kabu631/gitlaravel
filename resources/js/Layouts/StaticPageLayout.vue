@@ -1,9 +1,9 @@
-﻿<template>
+<template>
   <AppLayout>
     <div class="grid grid-cols-1 lg:grid-cols-[220px_1fr_240px] gap-6 items-start">
 
       <!-- ===== LEFT SIDEBAR ===== -->
-      <aside class="hidden lg:flex flex-col gap-4 animate-slide-left">
+      <aside class="hidden lg:flex flex-col gap-4 lg:sticky lg:top-20 lg:self-start min-w-0 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto lg:scrollbar-thin">
 
         <!-- Page Navigation -->
         <div class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm overflow-hidden animate-slide-left">
@@ -98,7 +98,7 @@
       </div>
 
       <!-- ===== RIGHT SIDEBAR ===== -->
-      <aside class="hidden lg:flex flex-col gap-4 animate-slide-right anim-delay-100">
+      <aside class="hidden lg:flex flex-col gap-4 lg:sticky lg:top-20 lg:self-start min-w-0 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto lg:scrollbar-thin">
 
         <!-- Featured Products -->
         <div class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm overflow-hidden animate-slide-right anim-delay-100">

@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <AppLayout>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       
@@ -7,10 +7,21 @@
         <div>
           <nav class="text-sm text-gray-500 mb-3 flex items-center gap-2">
             <Link :href="route('home')" class="hover:text-brand-500 dark:hover:text-brand-400">Home</Link> /
-            <span class="text-gray-700 dark:text-gray-300 font-medium">Guides</span>
+            <Link :href="route('guides.index')" class="hover:text-brand-500 dark:hover:text-brand-400">Guides</Link>
+            <template v-if="activeType"> / <span class="text-gray-700 dark:text-gray-300 font-medium">{{ activeTypeLabel }}</span></template>
+            <template v-else> / <span class="text-gray-700 dark:text-gray-300 font-medium">All Guides</span></template>
           </nav>
-          <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">📖 Tech Buying Guides</h1>
-          <p class="text-gray-500 dark:text-gray-400 mt-2 text-lg">Expert advice to help you make smart purchasing decisions.</p>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
+              {{ activeType === 'buying-guide' ? '🛍️ Buying Guides' : activeType === 'how-to' ? '🔧 How-To Guides' : '📖 Tech Guides' }}
+            </h1>
+            <span v-if="activeType" class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 text-sm font-bold border border-emerald-200 dark:border-emerald-800">
+              {{ activeTypeLabel }}
+            </span>
+          </div>
+          <p class="text-gray-500 dark:text-gray-400 mt-2 text-lg">
+            {{ activeType === 'buying-guide' ? 'Expert purchase recommendations to help you buy the right product.' : activeType === 'how-to' ? 'Step-by-step tutorials and tech tips.' : 'Expert advice to help you make smart purchasing decisions.' }}
+          </p>
         </div>
         <input v-model="search" @keyup.enter="doSearch" type="text" placeholder="Search guides..."
                class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2 text-sm outline-none focus:border-brand-500 w-full md:w-64 text-gray-800 dark:text-gray-200 shadow-sm"/>
@@ -102,8 +113,14 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
 import { Link, router } from '@inertiajs/vue3'
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 const props = defineProps({ guides: Object, filters: Object, trendingGadgets: Array })
 const search = ref(props.filters.search ?? '')
+const activeType = computed(() => props.filters?.type ?? '')
+const activeTypeLabel = computed(() => {
+  if (activeType.value === 'buying-guide') return 'Buying Guides'
+  if (activeType.value === 'how-to') return 'How-To Guides'
+  return ''
+})
 function doSearch() { router.get(route('guides.index'), { search: search.value }, { preserveState: true }) }
 </script>

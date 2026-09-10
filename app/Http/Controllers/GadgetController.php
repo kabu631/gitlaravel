@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Gadget;
+use App\Models\NewsArticle;
 use App\Models\UserComment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -61,6 +62,14 @@ class GadgetController extends Controller
             ->where('id', '!=', $gadget->id)
             ->take(6)->get();
 
+        $trending = Gadget::with('brand')
+            ->where('is_trending', true)
+            ->where('id', '!=', $gadget->id)
+            ->latest()->take(4)->get(['id', 'name', 'slug', 'image', 'price', 'brand_id']);
+
+        $latestNews = NewsArticle::where('is_published', true)
+            ->latest()->take(3)->get(['id', 'title', 'slug', 'thumbnail', 'category', 'created_at']);
+
         $inWishlist = auth()->check()
             ? auth()->user()->wishlist()->where('gadget_id', $gadget->id)->exists()
             : false;
@@ -102,6 +111,8 @@ class GadgetController extends Controller
             'review'          => $review,
             'comments'        => $comments,
             'related'         => $related,
+            'trending'        => $trending,
+            'latestNews'      => $latestNews,
             'inWishlist'      => $inWishlist,
             'hasCommented'    => $hasCommented,
 

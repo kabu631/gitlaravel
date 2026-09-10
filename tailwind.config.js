@@ -16,7 +16,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['"Plus Jakarta Sans"', 'Figtree', ...defaultTheme.fontFamily.sans],
+                heading: ['Outfit', '"Plus Jakarta Sans"', 'sans-serif'],
             },
             colors: {
                 // Logo orange/amber accent (#F5A623)
@@ -47,6 +48,16 @@ export default {
                     900: '#1a2234',
                     950: '#111520',
                 },
+            },
+            boxShadow: {
+                'xs': '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+                'glow-brand': '0 0 25px -5px rgba(245, 166, 35, 0.35)',
+                'glow-blue': '0 0 25px -5px rgba(59, 130, 246, 0.3)',
+                'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.08)',
+                'glass-dark': '0 8px 32px 0 rgba(0, 0, 0, 0.37)',
+            },
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
             },
             typography: {
                 invert: {

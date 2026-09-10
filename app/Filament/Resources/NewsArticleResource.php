@@ -13,8 +13,11 @@ use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
+use Filament\Tables\Actions\Action;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\SelectFilter;
+use Filament\Tables\Filters\TernaryFilter;
 use Filament\Tables\Table;
 use Illuminate\Support\Str;
 use BackedEnum;
@@ -33,10 +36,22 @@ class NewsArticleResource extends Resource
                 ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))->columnSpanFull(),
             TextInput::make('slug')->required()->maxLength(255),
             Select::make('category')->options([
-                'tech' => 'Technology', 'mobile' => 'Mobile', 'laptop' => 'Laptop',
-                'gaming' => 'Gaming', 'ai' => 'AI & ML', 'software' => 'Software',
-                'gadgets' => 'Gadgets', 'telecom' => 'Telecom',
+                // Keys must match the URL ?category= values used in AppLayout nav + NewsController
+                'technology' => 'Technology',
+                'mobile'     => 'Mobile Launches',
+                'laptop'     => 'Laptops',
+                'gaming'     => 'Gaming',
+                'ai-ml'      => 'AI & Innovations',
+                'software'   => 'Software',
+                'gadgets'    => 'Gadgets',
+                'telecom'    => 'Telecom',
             ])->required(),
+            Select::make('user_id')
+                ->label('Author')
+                ->relationship('author', 'name')
+                ->searchable()
+                ->preload()
+                ->nullable(),
             FileUpload::make('thumbnail')->image()->disk('public')->directory('news')->nullable(),
             TextInput::make('meta_description')->maxLength(160)->nullable()->columnSpanFull(),
             RichEditor::make('content')->required()->columnSpanFull(),
@@ -48,11 +63,30 @@ class NewsArticleResource extends Resource
     {
         return $table->columns([
             TextColumn::make('title')->searchable()->limit(40),
-            TextColumn::make('category')->badge(),
-            TextColumn::make('views_count')->label('Views'),
-            IconColumn::make('is_published')->boolean(),
+            TextColumn::make('author.name')->label('Author')->sortable(),
+            TextColumn::make('category')->badge()->color(fn($state) => match($state) {
+                'technology' => 'info', 'mobile' => 'primary', 'gaming' => 'success',
+                'ai-ml' => 'warning', 'laptop' => 'gray', default => 'secondary',
+            }),
+            TextColumn::make('views_count')->label('Views')->sortable(),
+            IconColumn::make('is_published')->boolean()->label('Published'),
             TextColumn::make('created_at')->dateTime()->sortable(),
-        ])->actions([EditAction::make()])
+        ])->filters([
+            SelectFilter::make('category')->options([
+                'technology' => 'Technology', 'mobile' => 'Mobile Launches',
+                'laptop' => 'Laptops', 'gaming' => 'Gaming',
+                'ai-ml' => 'AI & Innovations', 'software' => 'Software',
+                'gadgets' => 'Gadgets', 'telecom' => 'Telecom',
+            ]),
+            TernaryFilter::make('is_published')->label('Published'),
+        ])->actions([
+            EditAction::make(),
+            Action::make('view')
+                ->label('View')
+                ->icon('heroicon-o-arrow-top-right-on-square')
+                ->url(fn($record) => route('news.show', $record->slug))
+                ->openUrlInNewTab(),
+        ])
           ->bulkActions([DeleteBulkAction::make()])
           ->defaultSort('created_at', 'desc');
     }

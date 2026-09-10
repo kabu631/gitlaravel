@@ -35,6 +35,11 @@ return [
         ],
     ],
 
+    'deepseek' => [
+        'key'   => env('DEEPSEEK_API_KEY'),
+        'model' => env('DEEPSEEK_MODEL', 'deepseek-chat'),
+    ],
+
     'openrouter' => [
         'key' => env('OPENROUTER_API_KEY'),
     ],

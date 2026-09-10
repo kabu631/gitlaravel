@@ -10,7 +10,7 @@ class TechGuide extends Model
 {
     use BacksUpImages;
 
-    protected $fillable = ['user_id', 'title', 'slug', 'content', 'thumbnail', 'is_published'];
+    protected $fillable = ['user_id', 'title', 'slug', 'type', 'content', 'thumbnail', 'is_published'];
 
     protected array $imageBackupFields = ['thumbnail'];
 

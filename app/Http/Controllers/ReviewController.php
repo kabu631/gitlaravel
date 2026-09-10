@@ -14,16 +14,26 @@ class ReviewController extends Controller
 {
     public function index(Request $request)
     {
-        $featuredReviews = Review::with(['gadget.brand', 'author'])
-            ->where('is_published', true)
-            ->latest()
-            ->take(3)
-            ->get();
+        $filter   = $request->filter;   // 'editors-choice'
+        $category = $request->category; // e.g. 'mobile', 'laptop'
 
-        $featuredIds = $featuredReviews->pluck('id');
+        $isEditorsChoice = $filter === 'editors-choice';
 
-        $reviews = Review::with(['gadget.brand', 'author'])
+        $baseQuery = Review::with(['gadget.brand', 'author'])
             ->where('is_published', true)
+            ->when($isEditorsChoice, fn($q) => $q->where('rating', '>=', 8))
+            ->when($category, fn($q) => $q->whereHas('gadget', fn($gq) => $gq->whereHas('category', fn($cq) => $cq->where('slug', $category))));
+
+        // Only show "featured" section when no special filter is active
+        if (!$isEditorsChoice && !$category) {
+            $featuredReviews = (clone $baseQuery)->orderByDesc('rating')->take(3)->get();
+            $featuredIds     = $featuredReviews->pluck('id');
+        } else {
+            $featuredReviews = collect();
+            $featuredIds     = collect();
+        }
+
+        $reviews = (clone $baseQuery)
             ->whereNotIn('id', $featuredIds)
             ->latest()
             ->paginate(10)
@@ -40,14 +50,19 @@ class ReviewController extends Controller
             ->take(4)
             ->get(['id', 'title', 'slug', 'thumbnail', 'category', 'created_at']);
 
+        $seoTitle = $isEditorsChoice
+            ? "Editor's Choice Reviews — Top-Rated Gadgets in Nepal"
+            : 'Expert Tech Reviews — Honest Gadget Reviews in Nepal';
+
         return Inertia::render('Reviews/Index', [
             'featuredReviews' => $featuredReviews,
             'reviews'         => $reviews,
             'trendingGadgets' => $trendingGadgets,
             'sidebarNews'     => $sidebarNews,
+            'filters'         => $request->only(['filter', 'category']),
 
             'seo' => [
-                'title'       => 'Expert Tech Reviews — Honest Gadget Reviews in Nepal',
+                'title'       => $seoTitle,
                 'description' => 'Read in-depth expert reviews of smartphones, laptops, earbuds, and more. Pros, cons, ratings, and verdicts to help you buy smart.',
                 'canonical'   => route('reviews.index'),
                 'type'        => 'website',

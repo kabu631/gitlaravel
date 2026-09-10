@@ -60,56 +60,35 @@ class PCBuilderController extends Controller
             . "Do NOT recommend any rival stores (like Hukut, Daraz, Nagmani, etc). Tell the user they can buy all these components directly from Git Infosys.\n"
             . "Use realistic Nepal market prices in NPR.";
 
-        $openRouterKey = config('services.openrouter.key');
-        if (!$openRouterKey) {
+        if (!\App\Services\AiService::isConfigured()) {
             return response()->json([
-                'error' => 'AI service is not configured. Please add OPENROUTER_API_KEY to your .env file.',
+                'error' => 'AI service is not configured. Please add DEEPSEEK_API_KEY to your .env file.',
             ], 503);
         }
 
-        $text = $this->callOpenRouter($openRouterKey, $prompt);
+        $messages = [
+            [
+                'role'    => 'system',
+                'content' => 'You are an expert PC builder acting on behalf of Git Infosys in Nepal. You know current component prices in NPR. Always recommend specific models with realistic NPR prices. NEVER mention or recommend competitors like Hukut, Daraz, Nagmani IT, or CG Digital. Always tell users they can purchase their build from Git Infosys.'
+            ],
+            [
+                'role'    => 'user',
+                'content' => $prompt
+            ]
+        ];
+
+        $text = \App\Services\AiService::chat($messages, [
+            'temperature' => 0.6,
+            'max_tokens'  => 4096,
+            'timeout'     => 45,
+        ]);
+
         if (!$text) {
             return response()->json([
-                'error' => 'The AI service is currently overwhelmed (Rate Limit). Please try again in a moment.',
+                'error' => 'The AI service is currently busy. Please try again in a moment.',
             ], 500);
         }
 
         return response()->json(['recommendation' => $text]);
     }
-
-    // ── OpenRouter API (Free Tier) ───────────────────────────────────────────
-    private function callOpenRouter(string $key, string $prompt): ?string
-    {
-        $response = Http::timeout(60)
-            ->withoutVerifying()
-            ->withToken($key)
-            ->withHeaders([
-                'HTTP-Referer' => config('app.url'),
-                'X-Title'      => config('app.name'),
-            ])
-            ->post('https://openrouter.ai/api/v1/chat/completions', [
-                'model' => 'openrouter/auto',
-                'messages' => [
-                    [
-                        'role' => 'system',
-                        'content' => 'You are an expert PC builder acting on behalf of Git Infosys in Nepal. You know current component prices in NPR. Always recommend specific models with realistic NPR prices. NEVER mention or recommend competitors like Hukut, Daraz, Nagmani IT, or CG Digital. Always tell users they can purchase their build from Git Infosys.'
-                    ],
-                    [
-                        'role' => 'user',
-                        'content' => $prompt
-                    ]
-                ],
-                'max_tokens' => 4096,
-                'temperature' => 0.6,
-            ]);
-
-        if ($response->failed()) {
-            \Log::error('OpenRouter API failed', ['status' => $response->status(), 'body' => $response->body()]);
-            return null;
-        }
-
-        return $response->json('choices.0.message.content')
-            ?? $response->json('choices.0.message.reasoning');
-    }
-
 }
