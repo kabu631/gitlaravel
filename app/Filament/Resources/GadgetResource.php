@@ -19,7 +19,7 @@ use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
-use Filament\Tables\Actions\Action;
+use Filament\Actions\Action;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\TextColumn;
@@ -122,6 +122,59 @@ class GadgetResource extends Resource
                 TextInput::make('sketchfab_embed')->nullable()->label('Sketchfab Embed Code'),
             ]),
 
+            // ── Hardware Specifications (Powers Automated Algorithms) ─────────────
+            Section::make('Hardware Specifications (Powers Automated Algorithms)')
+                ->description('Enter hardware specifications below. Our automated algorithms use these specs to highlight Marathon Battery, Pro Camera, High-FPS Gaming, and VFM rankings.')
+                ->relationship('specs')
+                ->schema([
+                    TextInput::make('battery')
+                        ->label('Battery Capacity & Charging')
+                        ->placeholder('e.g. 5400mAh, 100W SUPERVOOC')
+                        ->helperText('Values >= 5000mAh trigger "Marathon Battery" (>= 6000mAh triggers "Monster Battery").')
+                        ->nullable(),
+                    TextInput::make('camera')
+                        ->label('Camera System')
+                        ->placeholder('e.g. 50MP Sony IMX890 OIS + 64MP Periscope')
+                        ->helperText('Values >= 50MP, OIS, Leica, Hasselblad trigger "Pro Camera".')
+                        ->nullable(),
+                    TextInput::make('processor')
+                        ->label('Processor / SoC')
+                        ->placeholder('e.g. Snapdragon 8 Gen 3 / RTX 4070')
+                        ->helperText('Snapdragon 8-series, Dimensity 9-series, Apple Pro, RTX trigger "High-FPS Gaming".')
+                        ->nullable(),
+                    TextInput::make('display')
+                        ->label('Display & Refresh Rate')
+                        ->placeholder('e.g. 6.78" 120Hz LTPO AMOLED')
+                        ->helperText('Displays with 120Hz, 144Hz, 165Hz+ trigger "High-FPS Gaming".')
+                        ->nullable(),
+                    TextInput::make('ram')
+                        ->label('RAM')
+                        ->placeholder('e.g. 16GB LPDDR5X')
+                        ->nullable(),
+                    TextInput::make('storage')
+                        ->label('Internal Storage')
+                        ->placeholder('e.g. 512GB UFS 4.0')
+                        ->nullable(),
+                    TextInput::make('os')
+                        ->label('Operating System')
+                        ->placeholder('e.g. Android 14, OxygenOS 14')
+                        ->nullable(),
+                    TextInput::make('connectivity')
+                        ->label('Connectivity')
+                        ->placeholder('e.g. 5G, Wi-Fi 7, Bluetooth 5.4')
+                        ->nullable(),
+                    TextInput::make('weight')
+                        ->label('Weight')
+                        ->placeholder('e.g. 220g')
+                        ->nullable(),
+                    TextInput::make('dimensions')
+                        ->label('Dimensions')
+                        ->placeholder('e.g. 164.3 x 75.8 x 9.15 mm')
+                        ->nullable(),
+                ])
+                ->columns(2)
+                ->collapsible(),
+
             Section::make('Details')->schema([
                 RichEditor::make('description')->nullable()->columnSpanFull(),
                 TextInput::make('release_date')->type('date')->nullable(),
@@ -152,12 +205,49 @@ class GadgetResource extends Resource
             TextColumn::make('brand.name')->sortable(),
             TextColumn::make('category.name')->sortable(),
             TextColumn::make('price')->money('NPR')->sortable(),
+            TextColumn::make('algorithmic_badges')
+                ->label('Algo Highlights')
+                ->badge()
+                ->color(fn($state) => match(true) {
+                    str_contains($state, 'Battery') => 'success',
+                    str_contains($state, 'Camera')  => 'info',
+                    str_contains($state, 'Performance') || str_contains($state, 'Gaming') => 'warning',
+                    str_contains($state, 'VFM') => 'primary',
+                    default => 'gray',
+                })
+                ->separator(' '),
             IconColumn::make('is_featured')->boolean()->label('Featured'),
             IconColumn::make('is_trending')->boolean()->label('Trending'),
             TextColumn::make('views_count')->sortable()->label('Views'),
         ])->filters([
             SelectFilter::make('brand')->relationship('brand', 'name'),
             SelectFilter::make('category')->relationship('category', 'name'),
+            \Filament\Tables\Filters\Filter::make('marathon_battery')
+                ->label('🔋 Marathon Battery (≥5000mAh)')
+                ->query(fn($q) => $q->whereHas('specs', fn($s) => $s->where('battery', 'like', '%5000%')
+                    ->orWhere('battery', 'like', '%5400%')
+                    ->orWhere('battery', 'like', '%5500%')
+                    ->orWhere('battery', 'like', '%6000%')
+                    ->orWhere('battery', 'like', '%7000%')
+                )),
+            \Filament\Tables\Filters\Filter::make('pro_camera')
+                ->label('📸 Pro Camera (≥50MP / OIS)')
+                ->query(fn($q) => $q->whereHas('specs', fn($s) => $s->where('camera', 'like', '%50MP%')
+                    ->orWhere('camera', 'like', '%64MP%')
+                    ->orWhere('camera', 'like', '%108MP%')
+                    ->orWhere('camera', 'like', '%200MP%')
+                    ->orWhere('camera', 'like', '%Leica%')
+                    ->orWhere('camera', 'like', '%Hasselblad%')
+                )),
+            \Filament\Tables\Filters\Filter::make('high_fps_gaming')
+                ->label('⚡ High-FPS Gaming (120Hz+ / Flagship)')
+                ->query(fn($q) => $q->whereHas('specs', fn($s) => $s->where('display', 'like', '%120Hz%')
+                    ->orWhere('display', 'like', '%144Hz%')
+                    ->orWhere('display', 'like', '%165Hz%')
+                    ->orWhere('processor', 'like', '%Snapdragon 8%')
+                    ->orWhere('processor', 'like', '%Dimensity 9%')
+                    ->orWhere('processor', 'like', '%RTX%')
+                )),
             TernaryFilter::make('is_featured'),
             TernaryFilter::make('is_trending'),
         ])->actions([

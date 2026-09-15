@@ -48,21 +48,21 @@
             </div>
           </div>
 
-          <!-- Quick Buy Referral on Onin -->
+          <!-- Quick Price Check & Buy -->
           <div v-if="review.gadget" class="w-full sm:w-auto shrink-0 flex flex-col sm:items-end">
             <p class="text-[11px] text-slate-400 mb-1">Official Nepal Price</p>
             <p class="text-lg font-extrabold text-brand-600 dark:text-brand-400 mb-2">
               NPR {{ formatPrice(review.gadget.price) }}
             </p>
             <a
-              :href="review.gadget.buy_url || 'https://onin.com.np/'"
-              target="_blank"
+              :href="review.gadget.buy_url || route('gadgets.show', review.gadget.slug)"
+              :target="review.gadget.buy_url ? '_blank' : '_self'"
               rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs shadow-xs transition"
+              class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs shadow-xs transition cursor-pointer"
             >
               <ShoppingBag class="w-3.5 h-3.5" />
-              <span>Buy on Onin (onin.com.np)</span>
-              <ExternalLink class="w-3 h-3 opacity-75" />
+              <span>Check Live Price &amp; Deals</span>
+              <ExternalLink v-if="review.gadget.buy_url" class="w-3 h-3 opacity-75" />
             </a>
           </div>
         </div>
@@ -147,7 +147,7 @@
 
       <!-- Sidebar -->
       <aside class="space-y-6 lg:sticky lg:top-20 lg:self-start min-w-0 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto lg:scrollbar-thin lg:pr-1">
-        <!-- Product card with Onin referral -->
+        <!-- Product card with retailer referral -->
         <div class="bg-white dark:bg-[#111827] rounded-2xl border border-slate-200/80 dark:border-slate-800/80 overflow-hidden shadow-xs">
           <div v-if="review.gadget?.image" class="aspect-square bg-slate-50 dark:bg-slate-800/60 p-6 flex items-center justify-center border-b border-slate-100 dark:border-slate-800">
             <img :src="'/storage/' + review.gadget.image" :alt="review.gadget.name"
@@ -162,14 +162,14 @@
 
             <div class="space-y-2">
               <a
-                :href="review.gadget?.buy_url || 'https://onin.com.np/'"
-                target="_blank"
+                :href="review.gadget?.buy_url || route('gadgets.show', review.gadget?.slug)"
+                :target="review.gadget?.buy_url ? '_blank' : '_self'"
                 rel="noopener noreferrer"
-                class="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs shadow-xs transition"
+                class="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs shadow-xs transition cursor-pointer"
               >
                 <ShoppingBag class="w-4 h-4" />
-                <span>Buy on Onin (onin.com.np)</span>
-                <ExternalLink class="w-3.5 h-3.5 opacity-75" />
+                <span>{{ review.gadget?.buy_url ? 'Check Retailer & Buy Now' : 'Check Nepal Market Price' }}</span>
+                <ExternalLink v-if="review.gadget?.buy_url" class="w-3.5 h-3.5 opacity-75" />
               </a>
 
               <Link :href="route('gadgets.show', review.gadget?.slug)"
@@ -184,7 +184,7 @@
                 <CheckCircle2 class="w-3.5 h-3.5" />
                 <span>Official Warranty in Nepal</span>
               </div>
-              <p class="text-[10px] text-slate-400">Order fulfillment handled securely by Onin (onin.com.np).</p>
+              <p class="text-[10px] text-slate-400">100% authentic sealed-pack units with 13% official VAT bill.</p>
             </div>
           </div>
         </div>
@@ -193,10 +193,10 @@
         <div class="bg-gradient-to-br from-slate-50 to-amber-50/30 dark:from-slate-900/60 dark:to-amber-950/20 rounded-2xl border border-amber-200/50 dark:border-amber-900/30 p-4 shadow-xs">
           <div class="flex items-center gap-2 text-amber-700 dark:text-amber-400 font-bold text-xs uppercase tracking-wider mb-1.5">
             <Sparkles class="w-3.5 h-3.5 text-amber-500" />
-            <span>Editorial Non-Retailer Policy</span>
+            <span>Editorial Independence Policy</span>
           </div>
           <p class="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed">
-            Git Infosys operates strictly as an independent evaluation lab. We do not sell hardware directly, preventing commercial bias. Device orders are fulfilled through our verified partner <strong class="text-slate-800 dark:text-slate-200">Onin (onin.com.np)</strong>.
+            Git Infosys operates strictly as an independent tech evaluation lab. We do not sell hardware directly, preventing commercial bias. We connect users to authorized distributors and certified outlets across Nepal.
           </p>
         </div>
 

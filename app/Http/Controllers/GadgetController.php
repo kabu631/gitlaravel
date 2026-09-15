@@ -15,7 +15,7 @@ class GadgetController extends Controller
 {
     public function index(Request $request)
     {
-        $query = Gadget::with(['brand', 'category'])
+        $query = Gadget::with(['brand', 'category', 'specs'])
             ->when($request->category, fn($q) => $q->whereHas('category', fn($q2) => $q2->where('slug', $request->category)))
             ->when($request->brand,    fn($q) => $q->whereHas('brand',    fn($q2) => $q2->where('slug', $request->brand)))
             ->when($request->search,   fn($q) => $q->where('name', 'like', "%{$request->search}%"))
@@ -35,6 +35,7 @@ class GadgetController extends Controller
         return Inertia::render('Gadgets/Index', [
             'gadgets'    => $query->paginate(20)->withQueryString(),
             'categories' => Category::withCount('gadgets')->get(),
+            'brands'     => \App\Models\Brand::withCount('gadgets')->orderByDesc('gadgets_count')->get(),
             'filters'    => $request->only(['category', 'brand', 'search', 'min_price', 'max_price', 'sort']),
 
             'seo' => [
@@ -57,12 +58,12 @@ class GadgetController extends Controller
 
         $review   = $gadget->reviews()->where('is_published', true)->first();
         $comments = $gadget->comments()->with('user')->latest()->get();
-        $related  = Gadget::with('brand')
+        $related  = Gadget::with(['brand', 'specs'])
             ->where('category_id', $gadget->category_id)
             ->where('id', '!=', $gadget->id)
             ->take(6)->get();
 
-        $trending = Gadget::with('brand')
+        $trending = Gadget::with(['brand', 'specs'])
             ->where('is_trending', true)
             ->where('id', '!=', $gadget->id)
             ->latest()->take(4)->get(['id', 'name', 'slug', 'image', 'price', 'brand_id']);

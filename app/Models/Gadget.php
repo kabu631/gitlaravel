@@ -77,6 +77,52 @@ class Gadget extends Model
         return $this->reviews()->where('is_published', true)->first();
     }
 
+    public function getAlgorithmicBadgesAttribute(): array
+    {
+        $badges = [];
+        $specs = $this->specs;
+        $battery = $specs?->battery ?? '';
+        $camera = $specs?->camera ?? '';
+        $proc = $specs?->processor ?? '';
+        $disp = $specs?->display ?? '';
+
+        if (preg_match('/(\d{4,5})\s*mAh/i', $battery, $m)) {
+            $mah = (int)$m[1];
+            if ($mah >= 6000) {
+                $badges[] = "🔋 {$mah}mAh Monster";
+            } elseif ($mah >= 5000) {
+                $badges[] = "🔋 {$mah}mAh Marathon";
+            }
+        } elseif (preg_match('/(\d{2,3})\s*Wh/i', $battery, $m) && (int)$m[1] >= 70) {
+            $badges[] = "🔋 {$m[1]}Wh Heavy Duty";
+        }
+
+        if (preg_match('/(\d{2,3})\s*MP/i', $camera, $m)) {
+            $mp = (int)$m[1];
+            if ($mp >= 50) {
+                $lens = '';
+                if (stripos($camera, 'Leica') !== false) $lens = ' Leica';
+                elseif (stripos($camera, 'Hasselblad') !== false) $lens = ' Hasselblad';
+                elseif (stripos($camera, 'Zeiss') !== false) $lens = ' Zeiss';
+                elseif (stripos($camera, 'OIS') !== false) $lens = ' OIS';
+                $badges[] = "📸 {$mp}MP{$lens}";
+            }
+        }
+
+        if (preg_match('/(120Hz|144Hz|165Hz|240Hz|RTX\s*\d{4}|Snapdragon 8|Dimensity 9|Apple A1[78]|M[1234]\s*Pro|M[1234]\s*Max)/i', $proc . ' ' . $disp, $m)) {
+            $badges[] = "⚡ " . trim($m[1]) . " Performance";
+        }
+
+        if ($this->old_price && $this->price && $this->old_price > $this->price) {
+            $pct = round((($this->old_price - $this->price) / $this->old_price) * 100);
+            if ($pct >= 10) {
+                $badges[] = "💎 Save {$pct}% VFM";
+            }
+        }
+
+        return $badges;
+    }
+
     public function variantsByType(): array
     {
         $groups = [];

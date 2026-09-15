@@ -21,9 +21,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
 
-// Products
+// Products & Gadgets
 Route::get('/products', [GadgetController::class, 'index'])->name('gadgets.index');
 Route::get('/products/{slug}', [GadgetController::class, 'show'])->name('gadgets.show');
+Route::get('/gadgets', [GadgetController::class, 'index']);
+Route::get('/gadgets/{slug}', [GadgetController::class, 'show']);
 Route::post('/products/{slug}/comment', [GadgetController::class, 'addComment'])->middleware('auth')->name('gadgets.comment');
 
 // Brands
@@ -40,9 +42,11 @@ Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
 Route::get('/order/success/{orderId}', [CheckoutController::class, 'success'])->name('order.success');
 
-// News
+// News & Rumors
 Route::get('/news', [NewsController::class, 'index'])->name('news.index');
 Route::get('/news/{slug}', [NewsController::class, 'show'])->name('news.show');
+Route::get('/upcoming-launches', fn() => redirect()->route('news.index', ['category' => 'rumors']))->name('upcoming-launches');
+Route::get('/rumors', fn() => redirect()->route('news.index', ['category' => 'rumors']))->name('rumors');
 
 // Reviews
 Route::get('/reviews', [ReviewController::class, 'index'])->name('reviews.index');
@@ -70,6 +74,7 @@ Route::post('/chatbot/chat', [ChatbotController::class, 'chat'])->name('chatbot.
 // Static Pages
 Route::get('/about', [PageController::class, 'about'])->name('pages.about');
 Route::get('/price-tracker', [PageController::class, 'priceTracker'])->name('pages.price-tracker');
+Route::get('/tech-lab', [PageController::class, 'techLab'])->name('pages.tech-lab');
 Route::get('/contact', [PageController::class, 'contact'])->name('pages.contact');
 Route::post('/contact', [PageController::class, 'contactStore'])->name('pages.contact.store');
 Route::get('/services', [PageController::class, 'services'])->name('pages.services');

@@ -86,6 +86,18 @@
         <p v-if="gadget.description" class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1.5 leading-relaxed">
           {{ gadget.description }}
         </p>
+
+        <!-- Algorithmic Smart Badges (Auto-Generated from Real Hardware Specs) -->
+        <div v-if="algorithmicBadges.length" class="flex gap-1.5 flex-wrap mt-2 mb-1">
+          <span
+            v-for="b in algorithmicBadges"
+            :key="b.label"
+            class="text-[9px] font-extrabold px-1.5 py-0.5 rounded border leading-none"
+            :class="b.class"
+          >
+            {{ b.label }}
+          </span>
+        </div>
       </div>
 
       <!-- Price & Savings Section -->
@@ -121,16 +133,16 @@
             <ArrowRight class="w-3.5 h-3.5 text-slate-400" />
           </Link>
 
-          <!-- Outbound Buy link to Onin -->
+          <!-- Outbound Buy / Check Price link -->
           <a
-            :href="gadget.buy_url || gadget.referral_buy_url || 'https://onin.com.np/'"
+            :href="gadget.buy_url || gadget.referral_buy_url || route('gadgets.show', gadget.slug)"
             target="_blank"
             rel="noopener noreferrer"
-            class="py-2 px-3.5 rounded-xl text-xs font-heading font-extrabold bg-amber-500 hover:bg-amber-600 text-slate-950 transition flex items-center gap-1.5 shadow-xs cursor-pointer shrink-0"
-            title="Check Price & Buy on Official Partner Onin (onin.com.np)"
+            class="py-2 px-3.5 rounded-xl text-xs font-heading font-extrabold bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 transition flex items-center gap-1.5 shadow-xs cursor-pointer shrink-0"
+            title="Check Price &amp; Availability in Nepal"
           >
             <ShoppingBag class="w-3.5 h-3.5" />
-            <span>Buy</span>
+            <span>Price</span>
             <ExternalLink class="w-3 h-3 opacity-80" />
           </a>
 
@@ -148,17 +160,10 @@
           </button>
         </div>
 
-        <!-- Authorized Partner Trustline Footer -->
+        <!-- Verified Specs Trustline Footer -->
         <div class="mt-2.5 pt-2 border-t border-slate-100 dark:border-slate-800/60 flex items-center justify-between text-[10px] text-slate-400">
           <span>Official Nepal Warranty</span>
-          <a
-            href="https://onin.com.np/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-bold text-amber-600 dark:text-amber-400 hover:underline"
-          >
-            Onin Partner
-          </a>
+          <span class="font-semibold text-slate-600 dark:text-slate-300">Verified Specs</span>
         </div>
       </div>
     </div>
@@ -169,6 +174,7 @@
 import { computed } from 'vue'
 import { Link } from '@inertiajs/vue3'
 import { useCompareTray } from '@/Composables/useCompareTray.js'
+import { getAlgorithmicBadges } from '@/Composables/useGadgetAlgorithm.js'
 import {
   Cpu, ArrowRight, Flame, Sparkles, Scale, ExternalLink,
   ShieldCheck, ShoppingBag
@@ -202,4 +208,6 @@ const discountPercent = computed(() => {
   if (!props.gadget.old_price || props.gadget.old_price <= props.gadget.price) return null
   return Math.round(((props.gadget.old_price - props.gadget.price) / props.gadget.old_price) * 100)
 })
+
+const algorithmicBadges = computed(() => getAlgorithmicBadges(props.gadget, 2))
 </script>

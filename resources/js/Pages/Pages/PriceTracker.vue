@@ -181,14 +181,14 @@
             <!-- Actions -->
             <div class="space-y-1.5 pt-2 border-t border-rose-100 dark:border-slate-800">
               <a
-                :href="hot.buy_url || 'https://onin.com.np/'"
-                target="_blank"
+                :href="hot.buy_url || route('gadgets.show', hot.slug)"
+                :target="hot.buy_url ? '_blank' : '_self'"
                 rel="noopener noreferrer"
                 class="w-full py-2 px-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs shadow-xs transition flex items-center justify-center gap-1.5 cursor-pointer"
               >
                 <ShoppingBag class="w-3.5 h-3.5" />
-                <span>Buy on Onin Store</span>
-                <ExternalLink class="w-3 h-3 opacity-80" />
+                <span>Check Live Price</span>
+                <ExternalLink v-if="hot.buy_url" class="w-3 h-3 opacity-80" />
               </a>
 
               <Link
@@ -534,14 +534,14 @@
                   </Link>
 
                   <a
-                    :href="gadget.buy_url || 'https://onin.com.np/'"
-                    target="_blank"
+                    :href="gadget.buy_url || route('gadgets.show', gadget.slug)"
+                    :target="gadget.buy_url ? '_blank' : '_self'"
                     rel="noopener noreferrer"
                     class="px-4 py-2 rounded-xl text-xs font-black bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 shadow-xs transition flex items-center gap-1.5 cursor-pointer"
                   >
                     <ShoppingBag class="w-3.5 h-3.5" />
-                    <span>Buy on Onin Store</span>
-                    <ExternalLink class="w-3 h-3 opacity-80" />
+                    <span>{{ gadget.buy_url ? 'Check Retailer & Buy' : 'Check Price' }}</span>
+                    <ExternalLink v-if="gadget.buy_url" class="w-3 h-3 opacity-80" />
                   </a>
                 </div>
               </div>
@@ -569,34 +569,32 @@
           </div>
         </div>
 
-        <!-- ── 4 COLS: STICKY SIDEBAR (TOP CRASHERS, ONIN BUYING PARTNER, NEWS) ── -->
+        <!-- ── 4 COLS: STICKY SIDEBAR (TOP CRASHERS, BUYING ADVICE, NEWS) ── -->
         <aside class="lg:col-span-4 space-y-6 lg:sticky lg:top-20 lg:self-start min-w-0">
-          <!-- Sidebar Widget 1: Official Buying Partner Referral Box -->
-          <div class="rounded-3xl border-2 border-amber-400/80 dark:border-amber-600/70 bg-gradient-to-br from-amber-500/15 via-white to-amber-500/10 dark:from-amber-950/40 dark:via-[#111827] dark:to-amber-950/20 p-5 shadow-sm">
+          <!-- Sidebar Widget 1: Price & Warranty Advisory Box -->
+          <div class="rounded-3xl border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-[#111827] p-5 shadow-xs">
             <div class="flex items-center gap-2 mb-2">
               <span class="text-[10px] font-black uppercase tracking-wider bg-amber-500 text-slate-950 px-2 py-0.5 rounded">
-                Official Partner
+                Nepal Market
               </span>
-              <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Onin Nepal (onin.com.np)</span>
+              <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Price &amp; Warranty Standards</span>
             </div>
 
             <h3 class="font-heading font-extrabold text-base text-slate-900 dark:text-white mb-1.5">
-              Nepal's Authorized Electronics Buying Partner
+              Verified Nepal Market Transparency
             </h3>
             <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-              Git Infosys is an independent benchmark &amp; review authority. We refer all direct gadget purchases to Onin Nepal with official warranty &amp; VAT billing.
+              Git Infosys is an independent benchmark &amp; price tracking authority. We monitor official distributor prices, authorized store deals, and verified Nepal warranties.
             </p>
 
-            <a
-              href="https://onin.com.np/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-heading font-extrabold text-xs shadow-xs transition flex items-center justify-center gap-2 group cursor-pointer"
+            <Link
+              :href="route('gadgets.index')"
+              class="w-full py-3 px-4 rounded-xl bg-slate-900 dark:bg-white hover:bg-slate-800 text-white dark:text-slate-950 font-heading font-extrabold text-xs shadow-xs transition flex items-center justify-center gap-2 group cursor-pointer"
             >
               <ShoppingBag class="w-4 h-4" />
-              <span>Explore Onin Store</span>
-              <ExternalLink class="w-3.5 h-3.5 opacity-80 group-hover:translate-x-0.5 transition-transform" />
-            </a>
+              <span>Explore All Tech Deals</span>
+              <ArrowRight class="w-3.5 h-3.5 opacity-80 group-hover:translate-x-0.5 transition-transform" />
+            </Link>
           </div>
 
           <!-- Sidebar Widget 2: Top 5 Price Crashers Leaderboard -->
@@ -642,11 +640,11 @@
                 </div>
 
                 <a
-                  :href="item.buy_url || 'https://onin.com.np/'"
-                  target="_blank"
+                  :href="item.buy_url || route('gadgets.show', item.slug)"
+                  :target="item.buy_url ? '_blank' : '_self'"
                   rel="noopener noreferrer"
-                  class="p-2 rounded-xl bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 hover:bg-amber-500 hover:text-slate-950 transition shrink-0"
-                  title="Buy on Onin"
+                  class="p-2 rounded-xl bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 hover:bg-amber-500 hover:text-slate-950 transition shrink-0 cursor-pointer"
+                  title="Check Price &amp; Deals"
                 >
                   <ShoppingBag class="w-3.5 h-3.5" />
                 </a>

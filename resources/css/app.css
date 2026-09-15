@@ -82,25 +82,25 @@
 .glass-nav {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  background: rgba(255, 255, 255, 0.92);
-  border-bottom: 1px solid rgba(226, 232, 240, 0.85);
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.03);
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom: 1px solid rgba(227, 232, 239, 0.85);
+  box-shadow: 0 4px 20px -2px rgba(35, 47, 63, 0.05), 0 2px 6px -1px rgba(35, 47, 63, 0.03);
 }
 .dark .glass-nav {
-  background: rgba(11, 15, 25, 0.92);
-  border-bottom: 1px solid rgba(30, 41, 59, 0.85);
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4), 0 2px 6px -1px rgba(0, 0, 0, 0.3);
+  background: rgba(25, 34, 46, 0.94);
+  border-bottom: 1px solid rgba(49, 68, 91, 0.65);
+  box-shadow: 0 4px 24px -2px rgba(14, 20, 28, 0.6), 0 2px 6px -1px rgba(14, 20, 28, 0.4);
 }
 
 .glass-card {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(227, 232, 239, 0.85);
 }
 .dark .glass-card {
-  background: rgba(17, 24, 39, 0.75);
-  border: 1px solid rgba(30, 41, 59, 0.7);
+  background: rgba(25, 34, 46, 0.82);
+  border: 1px solid rgba(49, 68, 91, 0.55);
 }
 
 .aurora-hero {
@@ -115,12 +115,12 @@
   transform: translateX(-50%);
   width: 120%;
   height: 120%;
-  background: radial-gradient(circle at 50% 30%, rgba(245, 166, 35, 0.18), rgba(59, 130, 246, 0.12) 45%, transparent 70%);
+  background: radial-gradient(circle at 50% 30%, rgba(255, 153, 27, 0.18), rgba(35, 47, 63, 0.15) 45%, transparent 70%);
   pointer-events: none;
   z-index: 0;
 }
 .dark .aurora-hero::before {
-  background: radial-gradient(circle at 50% 30%, rgba(245, 166, 35, 0.22), rgba(99, 102, 241, 0.15) 50%, transparent 75%);
+  background: radial-gradient(circle at 50% 30%, rgba(255, 153, 27, 0.22), rgba(49, 68, 91, 0.30) 50%, transparent 75%);
 }
 
 .card-hover {
@@ -128,10 +128,10 @@
 }
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(245, 166, 35, 0.3);
+  box-shadow: 0 16px 32px -8px rgba(35, 47, 63, 0.12), 0 0 0 1px rgba(255, 153, 27, 0.35);
 }
 .dark .card-hover:hover {
-  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.6), 0 0 20px -4px rgba(245, 166, 35, 0.25), 0 0 0 1px rgba(245, 166, 35, 0.4);
+  box-shadow: 0 20px 40px -12px rgba(14, 20, 28, 0.7), 0 0 20px -4px rgba(255, 153, 27, 0.25), 0 0 0 1px rgba(255, 153, 27, 0.45);
 }
 
 /* Custom sleek scrollbar */
@@ -143,12 +143,50 @@
   background: transparent;
 }
 .scrollbar-thin::-webkit-scrollbar-thumb {
-  background: rgba(156, 163, 175, 0.4);
+  background: rgba(159, 179, 199, 0.35);
   border-radius: 9999px;
 }
 .dark .scrollbar-thin::-webkit-scrollbar-thumb {
-  background: rgba(75, 85, 99, 0.5);
+  background: rgba(49, 68, 91, 0.6);
 }
 .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-  background: rgba(245, 166, 35, 0.6);
+  background: rgba(255, 153, 27, 0.7);
 }
+
+/* ===== GIT INFOSYS BRAND COLOR HARMONY (Logo Slate-Navy #232F3F & #19222E) ===== */
+.dark .dark\:bg-\[\#111827\] {
+  background-color: #19222e !important;
+}
+.dark .dark\:bg-\[\#111827\]\/90 {
+  background-color: rgba(25, 34, 46, 0.9) !important;
+}
+.dark .dark\:bg-\[\#111827\]\/95 {
+  background-color: rgba(25, 34, 46, 0.95) !important;
+}
+.dark .dark\:via-\[\#111827\] {
+  --tw-gradient-via-position: 50%;
+  --tw-gradient-to: rgb(25 34 46 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #19222e var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+.dark .dark\:to-\[\#111827\] {
+  --tw-gradient-to: #19222e var(--tw-gradient-to-position);
+}
+.dark .dark\:bg-\[\#0b0f19\] {
+  background-color: #0e141c !important;
+}
+.dark .dark\:bg-\[\#0f172a\] {
+  background-color: #19222e !important;
+}
+.dark .dark\:bg-\[\#0f172a\]\/70 {
+  background-color: rgba(25, 34, 46, 0.7) !important;
+}
+.dark .dark\:bg-\[\#0f172a\]\/95 {
+  background-color: rgba(25, 34, 46, 0.95) !important;
+}
+.dark .dark\:border-slate-800 {
+  border-color: #232f3f !important;
+}
+.dark .dark\:border-slate-800\/80 {
+  border-color: rgba(35, 47, 63, 0.8) !important;
+}
+

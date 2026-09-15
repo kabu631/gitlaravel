@@ -119,32 +119,30 @@
         <!-- ── 4 COLS: GADGETBYTE NEPAL STYLE STICKY SIDEBAR ── -->
         <aside class="lg:col-span-4 space-y-6 lg:sticky lg:top-20 lg:self-start min-w-0 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto lg:scrollbar-thin lg:pr-1">
 
-          <!-- Sidebar Widget 1: Official Buying Partner Card -->
-          <div class="rounded-3xl border-2 border-amber-400/80 dark:border-amber-600/70 bg-gradient-to-br from-amber-500/15 via-white to-amber-500/10 dark:from-amber-950/40 dark:via-[#111827] dark:to-amber-950/20 p-5 shadow-xs">
+          <!-- Sidebar Widget 1: Nepal Market Advisory Card -->
+          <div class="rounded-3xl border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-[#111827] p-5 shadow-xs">
             <div class="flex items-center gap-2 mb-2">
-              <span class="text-[10px] font-black uppercase tracking-wider bg-amber-500 text-slate-950 px-2 py-0.5 rounded">
-                Buying Partner
+              <span class="text-[10px] font-black uppercase tracking-wider bg-brand-500 text-slate-950 px-2 py-0.5 rounded">
+                Buyer Guide
               </span>
-              <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Onin Nepal (onin.com.np)</span>
+              <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Nepal Market Advisory</span>
             </div>
 
             <h3 class="font-heading font-bold text-sm text-slate-900 dark:text-white mb-1">
-              Looking for Genuine Tech in Nepal?
+              Check Nepal Prices &amp; Genuine Specs
             </h3>
             <p class="text-xs text-slate-600 dark:text-slate-400 mb-3 leading-relaxed">
-              We review independently. For authentic hardware purchases with official VAT invoices and brand warranties, visit our verified retail partner.
+              Compare live market rates, official distributor warranty details, and MDMS registration before making your tech purchases.
             </p>
 
-            <a
-              href="https://onin.com.np/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-heading font-extrabold text-xs shadow-xs transition flex items-center justify-center gap-2 group cursor-pointer"
+            <Link
+              :href="route('gadgets.index')"
+              class="w-full py-2.5 px-4 rounded-xl bg-slate-900 dark:bg-white hover:bg-slate-800 text-white dark:text-slate-950 font-heading font-extrabold text-xs shadow-xs transition flex items-center justify-center gap-2 group cursor-pointer"
             >
               <ShoppingBag class="w-4 h-4" />
-              <span>Visit Onin Store (onin.com.np)</span>
-              <ExternalLink class="w-3.5 h-3.5 opacity-80 group-hover:translate-x-0.5 transition-transform" />
-            </a>
+              <span>Browse Catalog &amp; Prices</span>
+              <ArrowRight class="w-3.5 h-3.5 opacity-80 group-hover:translate-x-0.5 transition-transform" />
+            </Link>
           </div>
 
           <!-- Sidebar Widget 2: Browse Tech Categories -->

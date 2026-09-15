@@ -276,15 +276,15 @@
               <!-- Action Buttons & Quick In-Card Swapper -->
               <div class="mt-6 pt-5 border-t border-slate-200/80 dark:border-slate-800 space-y-2.5">
                 <a
-                  :href="selectedGadgets[0].buy_url || selectedGadgets[0].referral_buy_url || 'https://onin.com.np/'"
+                  :href="selectedGadgets[0].buy_url || selectedGadgets[0].referral_buy_url || '#'"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="w-full py-3 px-4 rounded-xl text-xs font-heading font-extrabold bg-gradient-to-r from-amber-500 to-brand-500 hover:from-amber-600 hover:to-brand-600 text-slate-950 transition flex items-center justify-center gap-2 shadow-md shadow-amber-500/20 cursor-pointer group"
-                  title="Verified Nepal Authorized Retailer: Onin (onin.com.np)"
+                  title="Check Real-time Retail Availability & Genuine Warranty"
+                  class="w-full py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs shadow-md transition flex items-center justify-center gap-1.5 cursor-pointer"
                 >
-                  <ShoppingBag class="w-4 h-4 transition-transform group-hover:scale-110" />
-                  <span>Buy Genuine on Onin</span>
-                  <ExternalLink class="w-3.5 h-3.5 opacity-80" />
+                  <ShoppingBag class="w-3.5 h-3.5" />
+                  <span>Check Price &amp; Warranty</span>
+                  <ExternalLink class="w-3 h-3" />
                 </a>
 
                 <div class="flex gap-2">
@@ -414,15 +414,15 @@
               <!-- Action Buttons & Quick In-Card Swapper -->
               <div class="mt-6 pt-5 border-t border-slate-200/80 dark:border-slate-800 space-y-2.5">
                 <a
-                  :href="selectedGadgets[1].buy_url || selectedGadgets[1].referral_buy_url || 'https://onin.com.np/'"
+                  :href="selectedGadgets[1].buy_url || selectedGadgets[1].referral_buy_url || '#'"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="w-full py-3 px-4 rounded-xl text-xs font-heading font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white transition flex items-center justify-center gap-2 shadow-md shadow-blue-500/20 cursor-pointer group"
-                  title="Verified Nepal Authorized Retailer: Onin (onin.com.np)"
+                  title="Check Real-time Retail Availability & Genuine Warranty"
+                  class="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow-md transition flex items-center justify-center gap-1.5 cursor-pointer"
                 >
-                  <ShoppingBag class="w-4 h-4 transition-transform group-hover:scale-110" />
-                  <span>Buy Genuine on Onin</span>
-                  <ExternalLink class="w-3.5 h-3.5 opacity-80" />
+                  <ShoppingBag class="w-3.5 h-3.5" />
+                  <span>Check Price &amp; Warranty</span>
+                  <ExternalLink class="w-3 h-3" />
                 </a>
 
                 <div class="flex gap-2">
@@ -484,13 +484,13 @@
 
               <div class="mt-5 pt-4 border-t border-slate-200 dark:border-slate-800 space-y-2">
                 <a
-                  :href="g.buy_url || 'https://onin.com.np/'"
+                  :href="g.buy_url || g.referral_buy_url || '#'"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="w-full py-2.5 px-3 rounded-xl text-xs font-heading font-extrabold bg-gradient-to-r from-brand-500 to-amber-500 text-slate-950 flex items-center justify-center gap-1.5 shadow-xs"
+                  class="w-full py-2.5 px-3 rounded-xl text-xs font-heading font-extrabold bg-slate-900 hover:bg-slate-800 text-white flex items-center justify-center gap-1.5 shadow-xs"
                 >
                   <ShoppingBag class="w-3.5 h-3.5" />
-                  <span>Buy on Onin</span>
+                  <span>Check Retail Price</span>
                 </a>
 
                 <button
@@ -1140,7 +1140,7 @@
             <div class="flex items-center justify-between text-xs text-slate-400 pt-2 flex-wrap gap-2">
               <span class="flex items-center gap-1.5">
                 <ShieldCheck class="w-4 h-4 text-emerald-500" />
-                <span>Unbiased buying advice. Purchase verified genuine stock via Onin.</span>
+                <span>Independent buying advice. Verified Nepal pricing and official distributor warranty.</span>
               </span>
               <button
                 @click="copyVerdict"
@@ -1239,6 +1239,22 @@
               </thead>
 
               <tbody class="divide-y divide-slate-100 dark:divide-slate-800/80">
+                <!-- Where to Buy Action Row -->
+                <tr class="bg-brand-500/5 dark:bg-brand-500/10 border-t-2 border-brand-500/20">
+                  <td class="p-3 font-bold text-slate-800 dark:text-slate-200 text-xs">Where to Buy in Nepal</td>
+                  <td v-for="g in selectedGadgets" :key="'buy-' + g.id" class="p-3 text-center">
+                    <a
+                      :href="g.buy_url || g.referral_buy_url || '#'"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs shadow-md shadow-brand-500/20 transition"
+                    >
+                      <ShoppingBag class="w-3.5 h-3.5" />
+                      <span>Check Retail Price</span>
+                      <ExternalLink class="w-3 h-3" />
+                    </a>
+                  </td>
+                </tr>
                 <template v-for="section in filteredSpecSections" :key="section.name">
                   <!-- Section Group Header Bar -->
                   <tr class="bg-slate-100/70 dark:bg-slate-900/60 font-heading font-extrabold text-xs">
@@ -1286,20 +1302,6 @@
                         </span>
                       </div>
 
-                      <!-- Buy on Onin Action Row -->
-                      <div v-else-if="row.isAction" class="py-1">
-                        <a
-                          :href="g.buy_url || g.referral_buy_url || 'https://onin.com.np/'"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-heading font-extrabold bg-gradient-to-r from-brand-500 to-amber-500 hover:from-brand-600 hover:to-amber-600 text-slate-950 shadow-xs transition cursor-pointer"
-                        >
-                          <ShoppingBag class="w-3.5 h-3.5" />
-                          <span>Buy on Onin</span>
-                          <ExternalLink class="w-3 h-3 opacity-75" />
-                        </a>
-                      </div>
-
                       <!-- Standard Spec Text -->
                       <div v-else class="flex items-center justify-center gap-1.5">
                         <span>{{ getCellValue(g, row.key) }}</span>
@@ -1313,31 +1315,29 @@
           </div>
         </div>
 
-        <!-- ── NEPAL OFFICIAL RETAIL ASSURANCE BANNER (ONIN PARTNERSHIP) ── -->
-        <div class="rounded-3xl p-6 sm:p-8 bg-gradient-to-br from-amber-500/10 via-brand-500/5 to-white dark:from-slate-900 dark:via-[#0c1222] dark:to-slate-900 border border-brand-300/60 dark:border-brand-800/60 shadow-md flex flex-col md:flex-row items-center justify-between gap-6">
+        <!-- ── NEPAL OFFICIAL RETAIL & WARRANTY ASSURANCE BANNER ── -->
+        <div class="rounded-3xl p-6 sm:p-8 bg-gradient-to-br from-brand-500/10 via-slate-500/5 to-white dark:from-slate-900 dark:via-[#0c1222] dark:to-slate-900 border border-brand-300/60 dark:border-brand-800/60 shadow-md flex flex-col md:flex-row items-center justify-between gap-6">
           <div class="flex items-center gap-4">
-            <div class="w-14 h-14 rounded-2xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold shrink-0 shadow-lg shadow-amber-500/20">
+            <div class="w-14 h-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center font-bold shrink-0 shadow-lg shadow-brand-500/20">
               <ShieldCheck class="w-8 h-8" />
             </div>
             <div>
               <h4 class="font-heading font-extrabold text-base sm:text-lg text-slate-900 dark:text-white">
-                100% Genuine Authorized Nepal Warranty
+                Genuine Nepal Authorized Warranty Assurance
               </h4>
               <p class="text-xs text-slate-600 dark:text-slate-400 mt-1 max-w-xl leading-relaxed">
-                Git Infosys does not sell hardware directly. All purchase links redirect to our verified retail partner <strong>Onin (onin.com.np)</strong>, guaranteeing authorized Nepal importer stock, VAT bills, and official warranty.
+                Git Infosys operates as an independent tech evaluator. We recommend purchasing through authorized importers and verified retailers to ensure genuine VAT invoices and official manufacturer warranties.
               </p>
             </div>
           </div>
 
-          <a
-            href="https://onin.com.np/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            :href="route('gadgets.index')"
             class="px-6 py-3 rounded-2xl bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 font-heading font-extrabold text-xs shadow-md transition flex items-center gap-2 shrink-0 cursor-pointer"
           >
-            <span>Visit Onin Partner Store</span>
-            <ExternalLink class="w-3.5 h-3.5" />
-          </a>
+            <span>Explore All Verified Devices</span>
+            <ChevronRight class="w-3.5 h-3.5" />
+          </Link>
         </div>
 
       </div>
@@ -1501,14 +1501,14 @@
           <!-- Direct Buy Link for First Device -->
           <div class="flex items-center gap-2 shrink-0">
             <a
-              :href="selectedGadgets[0]?.buy_url || 'https://onin.com.np/'"
+              :href="selectedGadgets[0]?.buy_url || (selectedGadgets[0] ? route('gadgets.show', selectedGadgets[0].slug) : '#')"
               target="_blank"
               rel="noopener noreferrer"
               class="px-4 py-1.5 rounded-xl text-xs font-heading font-extrabold bg-gradient-to-r from-brand-500 to-amber-500 hover:from-brand-600 hover:to-amber-600 text-slate-950 transition flex items-center gap-1.5 cursor-pointer shadow-xs"
             >
               <ShoppingBag class="w-3.5 h-3.5" />
-              <span class="hidden sm:inline">Buy on Onin</span>
-              <span class="sm:hidden">Buy</span>
+              <span class="hidden sm:inline">Check Price &amp; Deals</span>
+              <span class="sm:hidden">Price</span>
             </a>
             <button
               @click="scrollToTop"
@@ -2090,7 +2090,7 @@ function getDeviceAdvantages(target, rival) {
   }
 
   if (adv.length < 3) {
-    adv.push(`Verified official 1-Year Nepal warranty via Onin partner`)
+    adv.push(`Verified official 1-Year Nepal warranty via authorized distributors`)
   }
 
   return adv.slice(0, 4)

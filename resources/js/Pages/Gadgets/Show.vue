@@ -111,6 +111,23 @@
             </span>
           </div>
 
+          <!-- Algorithmic Spec Highlights -->
+          <div v-if="algorithmicBadges.length" class="flex items-center gap-2 flex-wrap pt-3">
+            <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1 mr-1">
+              <Sparkles class="w-3.5 h-3.5 text-amber-500" />
+              <span>Key Strengths:</span>
+            </span>
+            <span
+              v-for="b in algorithmicBadges"
+              :key="b.label"
+              class="text-xs font-bold px-2.5 py-1 rounded-xl border flex items-center gap-1.5 shadow-2xs transition-all hover:scale-105"
+              :class="b.color"
+            >
+              <span>{{ b.icon }}</span>
+              <span>{{ b.label }}</span>
+            </span>
+          </div>
+
           <!-- Price Display Section -->
           <div class="mt-4 p-4 sm:p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-800/80">
             <div class="flex items-center justify-between gap-2 mb-1">
@@ -181,7 +198,7 @@
             <!-- Storage selector -->
             <div v-if="uniqueStorages.length">
               <p class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1.5">
-                Internal Storage: <span class="text-brand-600 dark:text-brand-400 font-semibold">{{ selectedStorage }}</span>
+                Storage: <span class="text-brand-600 dark:text-brand-400 font-semibold">{{ selectedStorage }}</span>
               </p>
               <div class="flex flex-wrap gap-2">
                 <button
@@ -197,9 +214,44 @@
                 </button>
               </div>
             </div>
+
+            <!-- Selected variant stock / SKU badge -->
+            <div v-if="currentVariant" class="flex items-center gap-2 text-xs pt-1">
+              <span class="text-slate-400 font-mono">SKU: {{ currentVariant.sku }}</span>
+              <span>•</span>
+              <span
+                class="font-bold"
+                :class="currentVariant.stock_quantity > 0 ? 'text-emerald-500' : 'text-rose-500'"
+              >
+                {{ currentVariant.stock_quantity > 0 ? `In Stock (${currentVariant.stock_quantity} units)` : 'Out of Stock' }}
+              </span>
+            </div>
           </div>
 
-          <!-- ── PROMINENT OFFICIAL BUYING PARTNER CALLOUT (ON-SCREEN REQUIREMENT) ── -->
+          <!-- Legacy variant dropdown (fallback if no SKU variants exist) -->
+          <div v-else-if="hasLegacyVariants" class="space-y-3 my-4">
+            <div v-for="(group, type) in variantsByType" :key="type">
+              <label class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider block mb-1">
+                Select {{ group.label }}:
+              </label>
+              <div class="flex flex-wrap gap-2">
+                <button
+                  v-for="opt in group.options"
+                  :key="opt.value"
+                  type="button"
+                  @click="selectedLegacyVariants[type] = opt"
+                  class="px-3 py-1.5 rounded-xl text-xs border transition cursor-pointer font-medium"
+                  :class="selectedLegacyVariants[type]?.value === opt.value
+                    ? 'border-brand-500 bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 font-bold'
+                    : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300'"
+                >
+                  {{ opt.value }}
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── OFFICIAL RETAIL & PRICE CHECK HUB ── -->
           <div class="mt-5 p-5 rounded-3xl bg-gradient-to-br from-amber-500/15 via-amber-500/5 to-brand-500/15 dark:from-amber-950/40 dark:via-[#111827] dark:to-brand-950/30 border-2 border-amber-400/80 dark:border-amber-600/70 shadow-md">
             <div class="flex items-start justify-between gap-3 mb-3">
               <div class="flex items-center gap-2.5">
@@ -208,32 +260,32 @@
                 </div>
                 <div>
                   <span class="text-[10px] font-black tracking-wider uppercase text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-950/80 px-2 py-0.5 rounded-md border border-amber-300 dark:border-amber-700">
-                    Official Buying Partner
+                    Nepal Retail &amp; Availability
                   </span>
                   <h3 class="font-heading font-extrabold text-base text-slate-900 dark:text-white mt-0.5">
-                    Buy {{ gadget.name }} on Onin Infosys
+                    Where to Buy {{ gadget.name }} in Nepal
                   </h3>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-2.5 py-1 rounded-full border border-emerald-200 dark:border-emerald-800 shrink-0">
-                Verified Seller
+                Authorized Stock
               </span>
             </div>
 
             <p class="text-xs text-slate-600 dark:text-slate-300 mb-3 leading-relaxed">
-              Purchase authentic sealed-pack units directly through our authorized retail partner with official VAT invoices, Nepal warranty, and doorstep shipping.
+              Compare verified pricing from authorized distributors and certified electronics retailers across Nepal with genuine VAT invoice and manufacturer warranty.
             </p>
 
-            <!-- Full Link Display & Copy Button -->
-            <div class="flex items-center gap-2 bg-white/90 dark:bg-slate-900/90 border border-slate-200 dark:border-slate-700 rounded-xl px-3 py-2 mb-4 text-xs">
+            <!-- Full Link Display & Copy Button (if buy_url is set) -->
+            <div v-if="gadget.buy_url" class="flex items-center gap-2 bg-white/90 dark:bg-slate-900/90 border border-slate-200 dark:border-slate-700 rounded-xl px-3 py-2 mb-4 text-xs">
               <span class="text-slate-400 font-semibold shrink-0">Store Link:</span>
               <a
-                :href="gadget.buy_url || 'https://onin.com.np/'"
+                :href="gadget.buy_url"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-brand-600 dark:text-brand-400 hover:underline font-mono truncate flex-1"
               >
-                {{ gadget.buy_url || 'https://onin.com.np/' }}
+                {{ gadget.buy_url }}
               </a>
               <button
                 @click="copyBuyLink"
@@ -249,14 +301,14 @@
             <!-- Primary Direct Action Buttons -->
             <div class="flex flex-col sm:flex-row gap-2.5">
               <a
-                :href="gadget.buy_url || 'https://onin.com.np/'"
-                target="_blank"
+                :href="gadget.buy_url || route('gadgets.index', { brand: gadget.brand?.slug })"
+                :target="gadget.buy_url ? '_blank' : '_self'"
                 rel="noopener noreferrer"
                 class="flex-1 py-3.5 px-6 rounded-2xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-600 hover:to-amber-500 text-slate-950 font-heading font-extrabold text-sm shadow-md transition duration-200 flex items-center justify-center gap-2 group cursor-pointer"
               >
                 <ShoppingBag class="w-4 h-4" />
-                <span>Buy this Product on Onin (onin.com.np)</span>
-                <ExternalLink class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                <span>{{ gadget.buy_url ? 'Check Retailer & Buy Now' : 'Browse Authorized Retailers' }}</span>
+                <ExternalLink v-if="gadget.buy_url" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </a>
 
               <button
@@ -289,7 +341,7 @@
             <div class="mt-3 pt-3 border-t border-amber-200/60 dark:border-amber-800/40 text-[11px] text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
               <ShieldCheck class="w-3.5 h-3.5 text-emerald-500 shrink-0" />
               <span>
-                <strong>100% Unbiased Editorial Policy:</strong> Git Infosys evaluates hardware objectively and does not sell stock directly. Orders are fulfilled securely by Onin Infosys.
+                <strong>100% Independent Tech Reviews:</strong> Git Infosys evaluates hardware objectively and does not retail devices directly. We connect you to verified authorized outlets with official Nepal warranty.
               </span>
             </div>
           </div>
@@ -421,14 +473,14 @@
           <p class="font-heading font-bold text-xs text-slate-800 dark:text-slate-200 truncate">{{ gadget.name }}</p>
           <p class="text-xs font-extrabold text-brand-600 dark:text-brand-400 mt-0.5">Rs. {{ formatPrice(displayPrice) }}</p>
           <a
-            :href="gadget.buy_url || 'https://onin.com.np/'"
-            target="_blank"
+            :href="gadget.buy_url || '#pricing'"
+            :target="gadget.buy_url ? '_blank' : '_self'"
             rel="noopener noreferrer"
-            class="mt-2.5 w-full py-2 px-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-[11px] shadow-xs transition inline-flex items-center justify-center gap-1.5 cursor-pointer"
+            class="mt-2.5 w-full py-2 px-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-[11px] shadow-xs transition inline-flex items-center justify-center gap-1.5 cursor-pointer"
           >
             <ShoppingBag class="w-3.5 h-3.5" />
-            <span>Buy on Onin</span>
-            <ExternalLink class="w-2.5 h-2.5 opacity-80" />
+            <span>{{ gadget.buy_url ? 'Check Retailer Offer' : 'View Price & Specs' }}</span>
+            <ExternalLink v-if="gadget.buy_url" class="w-2.5 h-2.5 opacity-80" />
           </a>
         </div>
       </aside>
@@ -559,12 +611,13 @@
               <p class="text-xs text-slate-400">Standard market rates and authorized retailer pricing</p>
             </div>
             <a
-              :href="gadget.buy_url || 'https://onin.com.np/'"
+              v-if="gadget.buy_url"
+              :href="gadget.buy_url"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-xs font-bold text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-1"
+              class="text-xs font-bold text-brand-600 dark:text-brand-400 hover:underline flex items-center gap-1"
             >
-              <span>Buy on Onin (onin.com.np)</span>
+              <span>View Retailer Offer</span>
               <ExternalLink class="w-3 h-3" />
             </a>
           </div>
@@ -590,18 +643,18 @@
                   </td>
                   <td class="py-3 px-4">
                     <span class="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
-                      <CheckCircle class="w-3 h-3" /> In Stock (Onin)
+                      <CheckCircle class="w-3 h-3" /> Official Stock
                     </span>
                   </td>
                   <td class="py-3 px-4 text-right">
                     <a
-                      :href="gadget.buy_url || 'https://onin.com.np/'"
-                      target="_blank"
+                      :href="gadget.buy_url || '#pricing'"
+                      :target="gadget.buy_url ? '_blank' : '_self'"
                       rel="noopener noreferrer"
-                      class="px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-[11px] transition inline-flex items-center gap-1"
+                      class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 font-bold text-[11px] transition inline-flex items-center gap-1"
                     >
-                      <span>Buy</span>
-                      <ExternalLink class="w-2.5 h-2.5" />
+                      <span>{{ gadget.buy_url ? 'Check Offer' : 'Check Price' }}</span>
+                      <ExternalLink v-if="gadget.buy_url" class="w-2.5 h-2.5" />
                     </a>
                   </td>
                 </tr>
@@ -615,13 +668,13 @@
                   </td>
                   <td class="py-3 px-4 text-right">
                     <a
-                      :href="gadget.buy_url || 'https://onin.com.np/'"
-                      target="_blank"
+                      :href="gadget.buy_url || '#pricing'"
+                      :target="gadget.buy_url ? '_blank' : '_self'"
                       rel="noopener noreferrer"
-                      class="px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-[11px] transition inline-flex items-center gap-1"
+                      class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 font-bold text-[11px] transition inline-flex items-center gap-1"
                     >
-                      <span>Buy</span>
-                      <ExternalLink class="w-2.5 h-2.5" />
+                      <span>{{ gadget.buy_url ? 'Check Offer' : 'Check Price' }}</span>
+                      <ExternalLink v-if="gadget.buy_url" class="w-2.5 h-2.5" />
                     </a>
                   </td>
                 </tr>
@@ -661,6 +714,98 @@
 
           <!-- Verdict summary text -->
           <div v-if="review.verdict" class="mt-5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed" v-html="review.verdict" />
+        </section>
+
+        <!-- 3B. INTERACTIVE TECH LABORATORY & NEPAL OWNERSHIP HUB -->
+        <section id="interactive-tech-lab" class="scroll-mt-24 rounded-3xl border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-[#111827] p-5 sm:p-7 glass-card shadow-xs">
+          <!-- Section Header -->
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-5 border-b border-slate-100 dark:border-slate-800/80">
+            <div>
+              <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 border border-brand-200/60 dark:border-brand-800/60 mb-2">
+                <Sparkles class="w-3 h-3 text-brand-500 animate-pulse" />
+                <span>Interactive Tech Lab &amp; Nepal Ownership Hub</span>
+              </div>
+              <h2 class="font-heading font-extrabold text-lg sm:text-xl text-slate-900 dark:text-white">
+                Real-World Benchmarks &amp; Financial Tools
+              </h2>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+                Crowdsourced thermals, 120Hz motion simulator, Nepal commercial bank 0% EMI financing, and 3-year resale depreciation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature Navigation Tabs -->
+          <div class="flex gap-2 overflow-x-auto py-3 my-2 scrollbar-thin">
+            <button
+              v-for="tab in labTabs"
+              :key="tab.id"
+              @click="activeLabTab = tab.id"
+              type="button"
+              class="flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold shrink-0 transition-all cursor-pointer border"
+              :class="activeLabTab === tab.id
+                ? 'bg-brand-500 text-white border-brand-500 shadow-xs'
+                : 'bg-slate-50 dark:bg-slate-900/60 text-slate-600 dark:text-slate-300 border-slate-200/80 dark:border-slate-800/80 hover:bg-slate-100 dark:hover:bg-slate-800'"
+            >
+              <component :is="tab.icon" class="w-3.5 h-3.5" />
+              <span>{{ tab.label }}</span>
+              <span
+                class="text-[9px] px-1.5 py-0.5 rounded-md font-bold uppercase tracking-wider"
+                :class="activeLabTab === tab.id
+                  ? 'bg-white/20 text-white'
+                  : 'bg-slate-200/60 dark:bg-slate-800 text-slate-500 dark:text-slate-400'"
+              >
+                {{ tab.badge }}
+              </span>
+            </button>
+          </div>
+
+          <!-- Tab Content Views -->
+          <div class="mt-4">
+            <!-- 1. Community Benchmark Matrix & Live Voting -->
+            <div v-show="activeLabTab === 'community'">
+              <CommunityBenchmarkMatrix
+                :gadget-id="gadget.id"
+                :gadget-name="gadget.name"
+                :category="gadget.category?.name || 'Smartphones'"
+              />
+            </div>
+
+            <!-- 2. Display Refresh Rate Simulator -->
+            <div v-show="activeLabTab === 'refresh-rate'">
+              <DisplayRefreshSimulator
+                :gadget-name="gadget.name"
+                :display-spec="gadget.specs?.display || ''"
+              />
+            </div>
+
+            <!-- 3. Gaming FPS & Hardware Thermal Lab -->
+            <div v-show="activeLabTab === 'gaming'">
+              <GamingFpsLab
+                :gadget-name="gadget.name"
+                :processor="gadget.specs?.processor || 'Flagship Multi-Core SoC'"
+                :ram="gadget.specs?.ram || (uniqueRams.join(' / ') || '8GB RAM')"
+              />
+            </div>
+
+            <!-- 4. Nepal 0% EMI Bank Installment Calculator -->
+            <div v-show="activeLabTab === 'emi-calc'">
+              <NepalEmiCalculator
+                :product-price="displayPrice"
+                :gadget-name="gadget.name"
+                :buy-url="gadget.buy_url"
+              />
+            </div>
+
+            <!-- 4. Resale Value & Depreciation Predictor -->
+            <div v-show="activeLabTab === 'resale-val'">
+              <ResaleValuePredictor
+                :product-price="displayPrice"
+                :gadget-name="gadget.name"
+                :release-date="gadget.release_date || ''"
+                :brand-name="gadget.brand?.name || ''"
+              />
+            </div>
+          </div>
         </section>
 
         <!-- 4. OVERVIEW & DESCRIPTION -->
@@ -786,18 +931,18 @@
       <!-- ── RIGHT SIDEBAR: OFFICIAL PARTNER, TRENDING & TECH NEWS (3 COLS) ── -->
       <aside class="lg:col-span-3 space-y-6 lg:sticky lg:top-20 lg:self-start min-w-0 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto lg:scrollbar-thin lg:pr-1">
 
-        <!-- Sidebar Widget 1: Official Partner Quick Purchase Box -->
-        <div class="rounded-3xl border-2 border-amber-400/80 dark:border-amber-600/70 bg-gradient-to-br from-amber-500/15 via-white to-amber-500/10 dark:from-amber-950/40 dark:via-[#111827] dark:to-amber-950/20 p-5 shadow-sm">
-          <div class="flex items-center gap-2 mb-2">
-            <span class="text-[10px] font-black uppercase tracking-wider bg-amber-500 text-slate-950 px-2 py-0.5 rounded">
-              Official Partner
+        <!-- Sidebar Widget 1: Nepal Market Pricing & Retail Box -->
+        <div class="rounded-3xl border border-slate-200/80 dark:border-slate-800 bg-white dark:bg-[#111827] p-5 shadow-sm">
+          <div class="flex items-center justify-between gap-2 mb-2">
+            <span class="text-[10px] font-black uppercase tracking-wider bg-brand-500/10 text-brand-600 dark:text-brand-400 border border-brand-500/20 px-2 py-0.5 rounded-full">
+              Nepal Availability
             </span>
-            <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Onin Nepal (onin.com.np)</span>
+            <span class="text-[11px] text-slate-400 font-medium">Verified Pricing</span>
           </div>
 
           <div class="mb-3">
             <div class="text-[11px] text-slate-500 dark:text-slate-400">Current Nepal Price</div>
-            <div class="font-heading text-2xl font-black text-slate-900 dark:text-white">
+            <div class="font-heading text-2xl font-black text-brand-600 dark:text-brand-400">
               Rs. {{ formatPrice(displayPrice) }}
             </div>
           </div>
@@ -806,19 +951,19 @@
             :href="gadget.buy_url || 'https://onin.com.np/'"
             target="_blank"
             rel="noopener noreferrer"
-            class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-heading font-extrabold text-xs shadow-xs transition flex items-center justify-center gap-2 group cursor-pointer mb-3"
+            class="w-full py-3 px-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-heading font-extrabold text-xs shadow-xs transition flex items-center justify-center gap-2 group cursor-pointer mb-3"
           >
             <ShoppingBag class="w-4 h-4" />
-            <span>Buy on Onin Store</span>
+            <span>{{ gadget.buy_url ? 'Check Retailer & Buy' : 'Check Retail Availability' }}</span>
             <ExternalLink class="w-3.5 h-3.5 opacity-80 group-hover:translate-x-0.5 transition-transform" />
           </a>
 
-          <div class="text-[11px] text-slate-500 dark:text-slate-400 space-y-1 pt-2 border-t border-amber-200/60 dark:border-amber-900/40">
+          <div class="text-[11px] text-slate-500 dark:text-slate-400 space-y-1 pt-2 border-t border-slate-100 dark:border-slate-800">
             <div class="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 font-semibold">
               <CheckCircle class="w-3.5 h-3.5" />
-              <span>Official Warranty &amp; VAT Bill</span>
+              <span>Official Distributor Warranty</span>
             </div>
-            <p class="text-[10px] text-slate-400">Direct fulfillment with door-to-door Nepal shipping.</p>
+            <p class="text-[10px] text-slate-400">Authorized genuine stock with VAT invoice in Nepal.</p>
           </div>
         </div>
 
@@ -901,8 +1046,25 @@ import { useCompareTray } from '@/Composables/useCompareTray.js'
 import {
   ShoppingBag, ExternalLink, Scale, Heart, Sparkles, ShieldCheck,
   Cpu, Battery, Camera, Monitor, HardDrive, Layers, Flame, Star,
-  ArrowRight, CheckCircle, Copy, Check, Newspaper, ListTree
+  ArrowRight, CheckCircle, Copy, Check, Newspaper, ListTree,
+  BarChart3, CreditCard, TrendingDown, Gamepad2
 } from 'lucide-vue-next'
+import CommunityBenchmarkMatrix from '@/Components/CommunityBenchmarkMatrix.vue'
+import DisplayRefreshSimulator from '@/Components/DisplayRefreshSimulator.vue'
+import GamingFpsLab from '@/Components/GamingFpsLab.vue'
+import NepalEmiCalculator from '@/Components/NepalEmiCalculator.vue'
+import ResaleValuePredictor from '@/Components/ResaleValuePredictor.vue'
+
+const activeLabTab = ref('community')
+const labTabs = [
+  { id: 'community', label: 'Community Benchmarks', icon: BarChart3, badge: 'Live Voting' },
+  { id: 'refresh-rate', label: 'Refresh Rate Lab', icon: Monitor, badge: 'Interactive' },
+  { id: 'gaming', label: 'Gaming FPS & Heat', icon: Gamepad2, badge: 'Thermals' },
+  { id: 'emi-calc', label: '0% EMI Calculator', icon: CreditCard, badge: 'Nepal Banks' },
+  { id: 'resale-val', label: 'Resale Forecaster', icon: TrendingDown, badge: '3-Year' },
+]
+
+import { getAlgorithmicBadges } from '@/Composables/useGadgetAlgorithm'
 
 const props = defineProps({
   gadget:          { type: Object, required: true },
@@ -917,6 +1079,8 @@ const props = defineProps({
   inWishlist:      { type: Boolean, default: false },
   hasCommented:    { type: Boolean, default: false },
 })
+
+const algorithmicBadges = computed(() => getAlgorithmicBadges(props.gadget, 5))
 
 const { add: addToCompareTray, remove: removeFromCompareTray, has: isInCompareTrayFn } = useCompareTray()
 const isInCompareTray = computed(() => isInCompareTrayFn(props.gadget?.id))
@@ -954,7 +1118,7 @@ const allThumbs = computed(() => {
 // ═══════════════════════════════════════════════════════════
 const buyLinkCopied = ref(false)
 function copyBuyLink() {
-  const url = props.gadget.buy_url || 'https://onin.com.np/'
+  const url = props.gadget.buy_url || (typeof window !== 'undefined' ? window.location.href : '')
   navigator.clipboard.writeText(url)
   buyLinkCopied.value = true
   setTimeout(() => { buyLinkCopied.value = false }, 2000)
@@ -1121,6 +1285,7 @@ const tocItems = computed(() => {
   if (props.review) {
     items.push({ id: 'editorial-verdict', label: 'Editorial Lab Verdict' })
   }
+  items.push({ id: 'interactive-tech-lab', label: 'Tech Lab & Ownership Hub' })
   if (props.gadget.description) {
     items.push({ id: 'overview', label: 'Overview & Features' })
   }

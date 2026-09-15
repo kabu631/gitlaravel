@@ -10,13 +10,13 @@
         <div>
           <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-brand-500/20 text-brand-300 border border-brand-400/30 mb-2">
             <Sparkles class="w-3.5 h-3.5 text-brand-400 animate-pulse" />
-            <span>AI Tech Matchmaker 2.0</span>
+            <span>Smart Device Matchmaker</span>
           </div>
           <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
             Find Your Dream Device in <span class="bg-gradient-to-r from-brand-400 to-amber-300 bg-clip-text text-transparent">30 Seconds</span>
           </h2>
           <p class="text-xs sm:text-sm text-slate-300 mt-1 max-w-xl leading-relaxed">
-            Select your category, target budget, and core priority. Our algorithm analyzes benchmark scores, official Nepal pricing, and real lab testing to pinpoint your perfect match.
+            Select your device type, target budget, and core priority. We evaluate battery endurance, camera optics, gaming performance, and Nepal pricing to pinpoint your ideal device.
           </p>
         </div>
 
@@ -29,11 +29,11 @@
         </button>
       </div>
 
-      <!-- ── CRITERIA SELECTION TABS ── -->
+      <!-- ── CRITERIA SELECTION TABS (EXACT SPEC MATCH FROM DESIGN) ── -->
       <div class="space-y-4 p-4 sm:p-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md mb-8">
         <!-- 1. Category Row -->
         <div>
-          <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">1. Device Type</label>
+          <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">1. DEVICE TYPE</label>
           <div class="flex gap-2 flex-wrap">
             <button
               v-for="cat in categories"
@@ -41,7 +41,7 @@
               @click="selectedCategory = cat.id"
               class="px-3 py-1.5 rounded-xl text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer border"
               :class="selectedCategory === cat.id
-                ? 'bg-brand-500 text-slate-950 border-brand-400 shadow-sm font-bold'
+                ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-sm font-bold'
                 : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/10'"
             >
               <component :is="cat.icon" class="w-3.5 h-3.5" />
@@ -52,7 +52,7 @@
 
         <!-- 2. Budget Row -->
         <div>
-          <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">2. Budget Range (NPR)</label>
+          <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">2. BUDGET RANGE (NPR)</label>
           <div class="flex gap-2 flex-wrap">
             <button
               v-for="b in budgetRanges"
@@ -70,7 +70,7 @@
 
         <!-- 3. Core Priority Row -->
         <div>
-          <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">3. Primary Priority</label>
+          <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">3. PRIMARY PRIORITY</label>
           <div class="flex gap-2 flex-wrap">
             <button
               v-for="p in priorities"
@@ -78,7 +78,7 @@
               @click="selectedPriority = p.id"
               class="px-3 py-1.5 rounded-xl text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer border"
               :class="selectedPriority === p.id
-                ? 'bg-blue-500 text-white border-blue-400 shadow-sm font-bold'
+                ? 'bg-blue-600 text-white border-blue-500 shadow-sm font-bold'
                 : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/10'"
             >
               <span>{{ p.emoji }}</span>
@@ -92,12 +92,12 @@
       <div>
         <div class="flex items-center justify-between mb-4">
           <div class="flex items-center gap-2">
-            <span class="font-heading font-bold text-sm text-white">AI Matched Recommendations</span>
+            <span class="font-heading font-bold text-sm text-white">Top Recommended Matches</span>
             <span class="text-[11px] px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-300 font-bold border border-emerald-500/30">
-              {{ topMatches.length }} Verified Matches
+              {{ topMatches.length }} Top Matches
             </span>
           </div>
-          <span class="text-xs text-slate-400 hidden sm:inline">Ranked by algorithm compatibility</span>
+          <span class="text-xs text-slate-400 hidden sm:inline">Ranked by verified specs &amp; Nepal market value</span>
         </div>
 
         <!-- Match Cards Grid -->
@@ -141,8 +141,20 @@
               </div>
             </div>
 
-            <!-- Match Reasoning Pill -->
-            <div class="my-3 p-2.5 rounded-xl bg-black/30 border border-white/5 text-[11px] text-slate-300 leading-relaxed">
+            <!-- Smart Spec Badges -->
+            <div v-if="match.badges && match.badges.length" class="flex gap-1.5 flex-wrap my-2.5">
+              <span
+                v-for="b in match.badges"
+                :key="b.label"
+                class="text-[10px] font-extrabold px-2 py-0.5 rounded-md border"
+                :class="b.class"
+              >
+                {{ b.label }}
+              </span>
+            </div>
+
+            <!-- Dynamic Spec-Truthful Reason Box -->
+            <div class="my-2 p-3 rounded-xl bg-black/40 border border-white/10 text-[11px] text-slate-300 leading-relaxed">
               <span class="font-bold text-brand-300">Why this fits: </span>
               <span>{{ match.fitReason }}</span>
             </div>
@@ -157,15 +169,13 @@
                 <ArrowRight class="w-3 h-3" />
               </Link>
               <a
-                href="https://onin.com.np/"
-                target="_blank"
+                :href="match.buy_url || route('gadgets.show', match.slug)"
+                :target="match.buy_url ? '_blank' : '_self'"
                 rel="noopener noreferrer"
                 class="px-3 py-1.5 rounded-xl text-xs font-extrabold bg-amber-500 hover:bg-amber-400 text-slate-950 transition flex items-center gap-1 shadow-xs cursor-pointer"
-                title="Verified Buying Partner: Onin"
               >
-                <ShoppingBag class="w-3 h-3" />
-                <span>Buy on Onin</span>
-                <ExternalLink class="w-2.5 h-2.5" />
+                <span>Check Price</span>
+                <ExternalLink v-if="match.buy_url" class="w-3 h-3" />
               </a>
             </div>
           </div>
@@ -187,6 +197,7 @@ import {
   Sparkles, RotateCcw, Smartphone, Laptop, Tablet, Headphones,
   Cpu, Award, ArrowRight, ShoppingBag, ExternalLink
 } from 'lucide-vue-next'
+import { calculateMatchmakerFit } from '@/Composables/useGadgetAlgorithm.js'
 
 const props = defineProps({
   pool: {
@@ -215,11 +226,11 @@ const budgetRanges = [
 
 // Priorities
 const priorities = [
-  { id: 'camera',       label: 'Pro Camera & 4K', emoji: '📸', keywords: ['pro', 'ultra', 'cam', 'iphone', 'galaxy', 'xiaomi'] },
-  { id: 'gaming',       label: 'Gaming & High FPS',emoji: '⚡', keywords: ['rog', 'gen', 'titanium', 'rtx', 'snapdragon', '14'] },
-  { id: 'battery',      label: 'Marathon Battery',emoji: '🔋', keywords: ['plus', 'max', '5000', 'endurance', 'galaxy', 'oneplus'] },
-  { id: 'productivity', label: 'Work & Coding',    emoji: '💼', keywords: ['macbook', 'air', 'vivobook', 'zenbook', 'pad'] },
-  { id: 'vfm',          label: 'Maximum Nepal VFM',emoji: '💎', keywords: ['redmi', 'poco', 's24', '12', 'oneplus'] },
+  { id: 'camera',       label: 'Pro Camera & 4K', emoji: '📸' },
+  { id: 'gaming',       label: 'Gaming & High FPS', emoji: '⚡' },
+  { id: 'battery',      label: 'Marathon Battery', emoji: '🔋' },
+  { id: 'productivity', label: 'Work & Coding',    emoji: '💼' },
+  { id: 'vfm',          label: 'Maximum Nepal VFM', emoji: '💎' },
 ]
 
 const selectedCategory = ref('all')
@@ -232,76 +243,29 @@ function resetFilters() {
   selectedPriority.value = 'camera'
 }
 
-// Compute top 3 matching devices with dynamic scoring algorithm
+// Compute top 3 matching devices via unified hardware trait algorithm
 const topMatches = computed(() => {
   if (!props.pool || !props.pool.length) return []
 
-  const currentBudget = budgetRanges.find(b => b.id === selectedBudget.value)
-  const currentPrio   = priorities.find(p => p.id === selectedPriority.value)
-
   const scored = props.pool.map(item => {
-    let score = 75 // base compatibility score
-    const nameLower = (item.name || '').toLowerCase()
-    const brandLower = (item.brand?.name || '').toLowerCase()
-    const catSlug = (item.category?.slug || '').toLowerCase()
-    const price = Number(item.price || 0)
-
-    // Category filter
-    if (selectedCategory.value !== 'all') {
-      if (catSlug.includes(selectedCategory.value)) {
-        score += 15
-      } else {
-        score -= 40
-      }
-    }
-
-    // Budget evaluation
-    if (currentBudget && currentBudget.id !== 'any') {
-      if (price >= currentBudget.min && price <= currentBudget.max) {
-        score += 12
-      } else {
-        const diff = Math.min(Math.abs(price - currentBudget.min), Math.abs(price - currentBudget.max))
-        if (diff < 15000) score -= 8
-        else score -= 25
-      }
-    }
-
-    // Priority traits match
-    if (currentPrio) {
-      const matchKey = currentPrio.keywords.some(k => nameLower.includes(k) || brandLower.includes(k))
-      if (matchKey) score += 10
-    }
-
-    if (item.is_featured) score += 4
-    if (item.is_trending) score += 3
-
-    // Reason generation
-    let fitReason = 'Balanced performance, verified Nepal pricing, and proven durability.'
-    if (selectedPriority.value === 'camera') {
-      fitReason = 'High-resolution sensor with dedicated optical stabilization for sharp 4K recording.'
-    } else if (selectedPriority.value === 'gaming') {
-      fitReason = 'High sustained frame rates, superior thermal management, and rapid touch sampling.'
-    } else if (selectedPriority.value === 'battery') {
-      fitReason = 'Optimized power efficiency delivering reliable all-day heavy screen-on time.'
-    } else if (selectedPriority.value === 'productivity') {
-      fitReason = 'Ergonomic display, fast multitasking throughput, and fluid app switching.'
-    } else if (selectedPriority.value === 'vfm') {
-      fitReason = 'Outstanding benchmark performance per Rupee relative to official Nepal duties.'
-    }
-
-    // Normalizing between 85% and 99%
-    const finalScore = Math.min(99, Math.max(82, score))
+    const { finalScore, fitReason, badges } = calculateMatchmakerFit(item, {
+      category: selectedCategory.value,
+      budget: selectedBudget.value,
+      priority: selectedPriority.value,
+      budgetRanges
+    })
 
     return {
       ...item,
       score: finalScore,
-      fitReason
+      fitReason,
+      badges
     }
   })
 
   // Filter positive scores and sort descending
   return scored
-    .filter(i => i.score >= 70)
+    .filter(i => i.score >= 68)
     .sort((a, b) => b.score - a.score)
     .slice(0, 3)
 })

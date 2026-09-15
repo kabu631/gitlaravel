@@ -28,16 +28,21 @@
               Independent Editorial Reviews
             </span>
 
-            <a href="https://onin.com.np/" target="_blank" rel="noopener noreferrer" class="hidden md:inline-flex items-center gap-1 text-amber-600 dark:text-amber-400 hover:underline text-[11px] font-semibold">
-              <ShoppingBag class="w-3.5 h-3.5 text-amber-500" />
-              <span>Retail Partner: Onin (onin.com.np)</span>
-              <ExternalLink class="w-2.5 h-2.5" />
-            </a>
+            <Link :href="route('pages.price-tracker')" class="hidden md:inline-flex items-center gap-1 text-slate-500 dark:text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 text-[11px] font-semibold transition">
+              <ShoppingBag class="w-3.5 h-3.5 text-brand-500" />
+              <span>Nepal Gadget Price &amp; MRP Index</span>
+            </Link>
 
             <Link :href="route('pages.price-tracker')" class="hidden lg:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[11px] font-semibold text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 transition">
               <Flame class="w-3 h-3 text-rose-500 animate-pulse" />
               <span>Price Tracker</span>
               <span class="px-1 rounded text-[9px] font-bold bg-rose-500 text-white uppercase leading-tight">HOT</span>
+            </Link>
+
+            <Link :href="route('pages.tech-lab')" class="hidden sm:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 transition">
+              <ShieldCheck class="w-3 h-3 text-emerald-500" />
+              <span>Tech Lab</span>
+              <span class="px-1 rounded text-[9px] font-bold bg-emerald-500 text-white uppercase leading-tight">NEW</span>
             </Link>
           </div>
 
@@ -71,8 +76,8 @@
 
       <!-- Glassmorphic Navbar (Sticky top-0) -->
       <nav class="sticky top-0 z-50 glass-nav transition-all duration-200">
-        <!-- Top accent gradient line inside sticky nav so it stays pinned at very top -->
-        <div class="h-[3px] w-full bg-gradient-to-r from-brand-500 via-amber-400 to-blue-500"></div>
+        <!-- Top accent gradient line inside sticky nav matching Git Infosys logo (#FF991B & #232F3F) -->
+        <div class="h-[3px] w-full bg-gradient-to-r from-brand-600 via-brand-500 to-[#232F3F] dark:to-brand-400"></div>
         <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16 gap-4">
           <!-- Brand Logo -->
           <Link :href="route('home')" class="flex items-center shrink-0 group">
@@ -217,6 +222,10 @@
                     </div>
                   </Link>
                   <div class="dd-divider" />
+                  <Link :href="route('news.index', { category: 'rumors' })" class="dd-item-sm">
+                    <Activity class="w-4 h-4 text-purple-500" />
+                    <span>Rumors & Upcoming</span>
+                  </Link>
                   <Link :href="route('news.index', { category: 'technology' })" class="dd-item-sm">
                     <Lightbulb class="w-4 h-4 text-slate-400" />
                     <span>Technology</span>
@@ -244,16 +253,30 @@
                 <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'guides' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
               </button>
               <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'guides'" class="dd-panel w-56 p-2">
+                <div v-if="activeDD === 'guides'" class="dd-panel w-60 p-2">
                   <Link :href="route('guides.index')" class="dd-item">
                     <div class="w-7 h-7 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-500 flex items-center justify-center shrink-0">
                       <BookOpen class="w-4 h-4" />
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800 dark:text-slate-200">All Tech Guides</div>
-                      <div class="text-[11px] text-slate-400">Tips & tutorials</div>
+                      <div class="text-[11px] text-slate-400">Tips &amp; tutorials</div>
                     </div>
                   </Link>
+
+                  <Link :href="route('pages.tech-lab')" class="dd-item">
+                    <div class="w-7 h-7 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 border border-emerald-500/20">
+                      <ShieldCheck class="w-4 h-4" />
+                    </div>
+                    <div>
+                      <div class="font-semibold text-emerald-600 dark:text-emerald-400 flex items-center gap-1.5">
+                        Tech Lab
+                        <span class="text-[9px] px-1 py-0.2 rounded bg-emerald-500 text-white font-extrabold uppercase leading-tight">NEW</span>
+                      </div>
+                      <div class="text-[11px] text-slate-400">Interactive hardware tests</div>
+                    </div>
+                  </Link>
+
                   <div class="dd-divider" />
                   <Link :href="route('guides.index', { type: 'buying-guide' })" class="dd-item-sm">
                     <ShoppingBag class="w-4 h-4 text-slate-400" />
@@ -453,6 +476,10 @@
                   <Bot class="w-3.5 h-3.5 text-blue-500" />
                   <span>PC Builder</span>
                 </Link>
+                <Link :href="route('pages.tech-lab')" class="mobile-nav-chip !text-emerald-600 dark:!text-emerald-400 font-semibold" @click="mobileOpen = false">
+                  <ShieldCheck class="w-3.5 h-3.5 text-emerald-500" />
+                  <span>Tech Lab</span>
+                </Link>
                 <Link :href="route('reviews.index')" class="mobile-nav-chip" @click="mobileOpen = false">
                   <Star class="w-3.5 h-3.5 text-amber-400" />
                   <span>Reviews</span>
@@ -490,19 +517,17 @@
             </div>
 
             <div class="border-t border-slate-100 dark:border-slate-800 pt-3">
-              <a
-                href="https://onin.com.np/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-bold text-amber-800 dark:text-amber-200 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-300/60 dark:border-amber-700/60 mb-2 transition"
+              <Link
+                :href="route('gadgets.index')"
+                class="w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-bold text-brand-800 dark:text-brand-200 bg-brand-500/10 hover:bg-brand-500/20 border border-brand-300/60 dark:border-brand-700/60 mb-2 transition"
                 @click="mobileOpen = false"
               >
                 <span class="flex items-center gap-2">
-                  <ShoppingBag class="w-4 h-4 text-amber-500" />
-                  <span>Buy on Onin (onin.com.np)</span>
+                  <Smartphone class="w-4 h-4 text-brand-500" />
+                  <span>Browse Device Specs &amp; Prices</span>
                 </span>
-                <ExternalLink class="w-3.5 h-3.5 opacity-75" />
-              </a>
+                <ChevronRight class="w-3.5 h-3.5 opacity-75" />
+              </Link>
 
               <div v-if="$page.props.auth.user" class="space-y-1">
                 <Link :href="route('profile.edit')" class="mobile-nav-link" @click="mobileOpen = false">Profile</Link>
@@ -778,22 +803,20 @@
 
           <!-- Col 4: Retail Partner -->
           <div>
-            <h4 class="font-heading font-semibold text-amber-600 dark:text-amber-400 mb-3 text-xs uppercase tracking-wider flex items-center gap-1">
-              <ShoppingBag class="w-3.5 h-3.5" />
-              <span>Where to Buy</span>
+            <h4 class="font-heading font-semibold text-slate-900 dark:text-slate-200 mb-3 text-xs uppercase tracking-wider flex items-center gap-1">
+              <ShoppingBag class="w-3.5 h-3.5 text-brand-500" />
+              <span>Nepal Retail &amp; Availability</span>
             </h4>
             <p class="text-xs text-slate-500 dark:text-slate-400 mb-2 leading-relaxed">
-              We do not sell products directly. Purchases are fulfilled by our authorized partner:
+              We provide independent specifications and price tracking. Purchases and official warranty fulfillment are provided through authorized retail outlets across Nepal.
             </p>
-            <a
-              href="https://onin.com.np/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-700 dark:text-amber-300 border border-amber-300/60 dark:border-amber-700/60 text-xs font-bold transition group"
+            <Link
+              :href="route('gadgets.index')"
+              class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 text-xs font-semibold transition group"
             >
-              <span>Onin Nepal (onin.com.np)</span>
-              <ExternalLink class="w-3 h-3 opacity-75 group-hover:opacity-100" />
-            </a>
+              <span>Explore Nepal Catalog</span>
+              <ChevronRight class="w-3 h-3 opacity-75 group-hover:opacity-100" />
+            </Link>
           </div>
 
           <!-- Col 5: Company -->
@@ -815,7 +838,7 @@
             <ShieldCheck class="w-4 h-4" />
           </div>
           <p class="leading-relaxed">
-            <strong class="text-slate-700 dark:text-slate-300">Editorial &amp; Review Policy:</strong> Git Infosys operates as an unbiased tech review, specifications benchmark, and consumer guidance authority. We do not sell devices or hardware directly to avoid conflicts of interest. When readers click "Check Deal" or purchase links, transactions and official warranty fulfillment are handled by verified partner <a href="https://onin.com.np/" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 font-bold hover:underline">Onin (onin.com.np)</a>.
+            <strong class="text-slate-700 dark:text-slate-300">Editorial &amp; Review Policy:</strong> Git Infosys operates as an independent tech review, specifications benchmark, and consumer guidance authority in Nepal. We do not sell devices or hardware directly to maintain unbiased coverage. Device purchase links direct users to authorized retailers and official distributors.
           </p>
         </div>
 
@@ -823,6 +846,13 @@
         <div class="border-t border-slate-200 dark:border-slate-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs">
           <p>© {{ new Date().getFullYear() }} Git Infosys. Built with cutting-edge tech in Nepal.</p>
           <div class="flex items-center gap-4">
+            <button
+              type="button"
+              @click="openCookieSettings"
+              class="hover:text-brand-500 transition cursor-pointer"
+            >
+              Cookie &amp; Session Settings
+            </button>
             <Link :href="route('pages.terms')" class="hover:text-brand-500 transition">Terms</Link>
             <Link :href="route('pages.privacy')" class="hover:text-brand-500 transition">Privacy</Link>
             <Link :href="route('pages.contact')" class="hover:text-brand-500 transition">Support</Link>
@@ -830,6 +860,7 @@
         </div>
       </div>
     </footer>
+    <CookieConsent />
   </div>
 </template>
 
@@ -838,6 +869,7 @@ import { Link, router, usePage } from '@inertiajs/vue3'
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import ChatbotWidget from '@/Components/ChatbotWidget.vue'
 import CompareTray from '@/Components/CompareTray.vue'
+import CookieConsent from '@/Components/CookieConsent.vue'
 import SeoHead from '@/Components/SeoHead.vue'
 import { useTheme } from '@/Composables/useTheme.js'
 import {
@@ -845,7 +877,7 @@ import {
   Cpu, Star, Award, Newspaper, Lightbulb, Bot, Gamepad2,
   BookOpen, ShoppingBag, Wrench, Search, ShoppingCart, Heart,
   Sun, Moon, ChevronDown, ChevronRight, ArrowRight, X, Menu, ArrowUp, CheckCircle,
-  AlertCircle, Sparkles, User, ExternalLink, ShieldCheck, Flame
+  AlertCircle, Sparkles, User, ExternalLink, ShieldCheck, Flame, Activity
 } from 'lucide-vue-next'
 
 const page = usePage()
@@ -860,6 +892,12 @@ const mobileOpen       = ref(false)
 const showTopBtn       = ref(false)
 const activeDD         = ref('')
 const userMenuOpen     = ref(false)
+
+function openCookieSettings() {
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('open-cookie-consent'))
+  }
+}
 const userMenuRef      = ref(null)
 const priceTrackerDismissed = ref(false)
 let closeTimer         = null

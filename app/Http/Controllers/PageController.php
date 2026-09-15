@@ -315,4 +315,16 @@ class PageController extends Controller
             ],
         ]));
     }
+
+    public function techLab()
+    {
+        return Inertia::render('Pages/TechLab', array_merge($this->sidebarData(), [
+            'seo' => [
+                'title'       => 'Interactive Tech Lab & Nepal Ownership Radar — Git Infosys',
+                'description' => 'Airport MDMS customs duty tax calculator, NTC/Ncell 5G band compatibility, blind camera shootouts, and gaming thermal simulator for Nepal tech buyers.',
+                'canonical'   => route('pages.tech-lab'),
+            ],
+        ]));
+    }
 }
+

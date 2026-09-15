@@ -20,38 +20,39 @@ export default {
                 heading: ['Outfit', '"Plus Jakarta Sans"', 'sans-serif'],
             },
             colors: {
-                // Logo orange/amber accent (#F5A623)
+                // Official Git Infosys Logo Vibrant Orange Accent (#FF991B)
                 brand: {
-                    50:  '#fff8ed',
-                    100: '#ffefd4',
-                    200: '#fddaa8',
-                    300: '#fcc16e',
-                    400: '#f9a12b',
-                    500: '#f5a623',
-                    600: '#e0861a',
-                    700: '#b96610',
-                    800: '#934f12',
-                    900: '#784213',
-                    950: '#451f05',
+                    50:  '#fff8ec',
+                    100: '#ffeed3',
+                    200: '#ffdca4',
+                    300: '#ffc36b',
+                    400: '#ffa631',
+                    500: '#ff991b', // Exact Git Infosys logo arrow accent
+                    600: '#e57c09',
+                    700: '#be5c06',
+                    800: '#97460c',
+                    900: '#7a390e',
+                    950: '#421a03',
                 },
-                // Logo dark navy (#263248)
+                // Official Git Infosys Logo Deep Slate Navy (#232F3F)
                 navy: {
-                    50:  '#eef1f6',
-                    100: '#d9dfea',
-                    200: '#b7c1d8',
-                    300: '#8a9bbf',
-                    400: '#6678a6',
-                    500: '#4d5f8d',
-                    600: '#3d4e74',
-                    700: '#32405f',
-                    800: '#263248',
-                    900: '#1a2234',
-                    950: '#111520',
+                    50:  '#f3f6f9',
+                    100: '#e3e8ef',
+                    200: '#c8d3df',
+                    300: '#9fb3c7',
+                    400: '#6f8dab',
+                    500: '#4f7091',
+                    600: '#3c5673',
+                    700: '#31445b',
+                    800: '#232f3f', // Exact Git Infosys logo primary dark
+                    900: '#19222e', // Logo deep charcoal navy
+                    950: '#0e141c', // Logo deep dark surface
                 },
             },
             boxShadow: {
                 'xs': '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
-                'glow-brand': '0 0 25px -5px rgba(245, 166, 35, 0.35)',
+                'glow-brand': '0 0 25px -5px rgba(255, 153, 27, 0.40)',
+                'glow-navy': '0 0 25px -5px rgba(35, 47, 63, 0.50)',
                 'glow-blue': '0 0 25px -5px rgba(59, 130, 246, 0.3)',
                 'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.08)',
                 'glass-dark': '0 8px 32px 0 rgba(0, 0, 0, 0.37)',

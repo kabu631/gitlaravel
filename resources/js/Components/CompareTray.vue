@@ -178,15 +178,15 @@
                     Rs. {{ Number(item.price || 0).toLocaleString('en-NP') }}
                   </div>
 
-                  <!-- Outbound Buy link to Onin -->
+                  <!-- Outbound Buy link -->
                   <a
-                    href="https://onin.com.np/"
+                    :href="item.buy_url || route('gadgets.show', item.slug)"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="mt-3 w-full py-1.5 px-2 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-600 text-slate-950 transition flex items-center justify-center gap-1 shadow-xs"
+                    class="mt-3 w-full py-1.5 px-2 rounded-xl text-xs font-bold bg-brand-600 hover:bg-brand-500 text-white transition flex items-center justify-center gap-1 shadow-xs"
                   >
                     <ShoppingBag class="w-3 h-3" />
-                    <span>Buy on Onin</span>
+                    <span>Check Price</span>
                     <ExternalLink class="w-2.5 h-2.5" />
                   </a>
                 </div>
@@ -220,7 +220,7 @@
                   </div>
                 </div>
 
-                <!-- Buying Partner Warranty -->
+                <!-- Warranty -->
                 <div class="p-3 bg-slate-50/50 dark:bg-slate-900/50 grid grid-cols-12 text-xs">
                   <div class="col-span-3 font-bold text-slate-500 uppercase tracking-wider">Nepal Warranty</div>
                   <div
@@ -230,7 +230,7 @@
                     :style="`grid-column: span ${Math.floor(9 / compareItems.length)}`"
                   >
                     <CheckCircle class="w-3.5 h-3.5" />
-                    <span>1-Yr Official (Onin)</span>
+                    <span>1-Yr Official Warranty</span>
                   </div>
                 </div>
 
@@ -253,7 +253,7 @@
             <!-- Footer -->
             <div class="p-4 border-t border-slate-100 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-900/60 flex items-center justify-between">
               <span class="text-xs text-slate-500">
-                Purchases securely fulfilled by official partner <strong>Onin (onin.com.np)</strong>
+                Independent hardware comparison · Prices verified for Nepal market
               </span>
               <div class="flex items-center gap-2">
                 <button

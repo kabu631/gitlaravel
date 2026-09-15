@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\NewsArticle;
+use App\Models\UpcomingLaunch;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -12,24 +13,52 @@ class NewsController extends Controller
 {
     public function index(Request $request)
     {
-        $articles = NewsArticle::where('is_published', true)
-            ->when($request->category, fn($q) => $q->where('category', $request->category))
-            ->when($request->search, fn($q) => $q->where('title', 'like', "%{$request->search}%"))
-            ->latest()->paginate(12)->withQueryString();
+        $category = $request->category;
 
-        $catLabel = $request->category ? ucwords(str_replace('-', ' ', $request->category)) . ' ' : '';
+        $articles = NewsArticle::where('is_published', true)
+            ->when($category && $category !== 'all', function ($q) use ($category) {
+                if ($category === 'rumors') {
+                    $q->whereIn('category', ['rumors', 'technology']);
+                } elseif ($category === 'technology' || $category === 'tech') {
+                    $q->whereIn('category', ['technology', 'tech']);
+                } elseif ($category === 'ai' || $category === 'ai-ml') {
+                    $q->whereIn('category', ['ai', 'ai-ml']);
+                } else {
+                    $q->where('category', $category);
+                }
+            })
+            ->when($request->search, fn($q) => $q->where(function ($sub) use ($request) {
+                $sub->where('title', 'like', "%{$request->search}%")
+                    ->orWhere('meta_description', 'like', "%{$request->search}%");
+            }))
+            ->latest()
+            ->paginate(12)
+            ->withQueryString();
+
+        $catLabel = $category ? ucwords(str_replace('-', ' ', $category)) . ' ' : '';
 
         $trendingGadgets = \App\Models\Gadget::with('brand')->where('is_trending', true)->latest()->take(5)->get();
 
+        $upcomingLaunches = UpcomingLaunch::active()->orderBy('sort_order')->get();
+
+        $seoTitle = $category === 'rumors'
+            ? 'Nepal Tech Rumors & Upcoming Flagship Releases — Git Infosys'
+            : "{$catLabel}Tech News — Latest Updates from Nepal & World";
+
+        $seoDesc = $category === 'rumors'
+            ? 'Track leaked specifications, supply-chain rumors, expected launch dates, and estimated NPR prices for upcoming smartphones and laptops in Nepal.'
+            : "Stay updated with the latest {$catLabel}technology news, product launches, and industry updates. Curated by the Git Infosys editorial team.";
+
         return Inertia::render('News/Index', [
-            'articles' => $articles,
-            'filters'  => $request->only(['category', 'search']),
-            'trendingGadgets' => $trendingGadgets,
+            'articles'         => $articles,
+            'filters'          => $request->only(['category', 'search']),
+            'trendingGadgets'  => $trendingGadgets,
+            'upcomingLaunches' => $upcomingLaunches,
 
             'seo' => [
-                'title'       => "{$catLabel}Tech News — Latest Updates from Nepal & World",
-                'description' => "Stay updated with the latest {$catLabel}technology news, product launches, and industry updates. Curated by the Git Infosys editorial team.",
-                'canonical'   => route('news.index'),
+                'title'       => $seoTitle,
+                'description' => $seoDesc,
+                'canonical'   => route('news.index', $category ? ['category' => $category] : []),
                 'type'        => 'website',
             ],
         ]);

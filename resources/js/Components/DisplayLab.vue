@@ -95,22 +95,21 @@
         </p>
       </div>
 
-      <a
-        href="https://onin.com.np/"
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        :href="route('gadgets.index', { search: activeHz + 'Hz' })"
         class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow-xs transition flex items-center gap-1.5 shrink-0"
       >
-        <span>Find {{ activeHz }}Hz Phones on Onin</span>
-        <ExternalLink class="w-3.5 h-3.5" />
-      </a>
+        <span>Find {{ activeHz }}Hz Phones</span>
+        <ArrowRight class="w-3.5 h-3.5" />
+      </Link>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
-import { Activity, Cpu, ExternalLink } from 'lucide-vue-next'
+import { Link } from '@inertiajs/vue3'
+import { Activity, Cpu, ArrowRight } from 'lucide-vue-next'
 
 const activeHz = ref(120)
 const gliderPosition = ref(5)
@@ -139,7 +138,7 @@ const refreshRates = [
     eyeComfort: 'Good (7.5/10)',
     batteryImpact: '+12% Drain',
     batteryColor: 'text-amber-400',
-    gliderClass: 'bg-indigo-600 text-white',
+    gliderClass: 'bg-sky-600 text-white',
     verdict: '90Hz is the sweet spot for budget mid-rangers (Rs. 25,000 to Rs. 35,000). Provides noticeably smoother UI animations without killing battery.'
   },
   {
@@ -151,7 +150,7 @@ const refreshRates = [
     eyeComfort: 'Superior (9.5/10)',
     batteryImpact: 'LTPO Smart Save',
     batteryColor: 'text-emerald-400',
-    gliderClass: 'bg-gradient-to-r from-blue-600 to-cyan-500 text-white',
+    gliderClass: 'bg-gradient-to-r from-brand-500 to-amber-400 text-slate-950 font-bold',
     verdict: '120Hz LTPO is the flagship gold standard. LTPO technology dynamically dials down to 1Hz when reading static text, saving up to 28% battery while delivering liquid smoothness.'
   },
   {
@@ -163,7 +162,7 @@ const refreshRates = [
     eyeComfort: 'Flawless (10/10)',
     batteryImpact: '+30% Drain',
     batteryColor: 'text-rose-400',
-    gliderClass: 'bg-gradient-to-r from-purple-600 to-pink-500 text-white',
+    gliderClass: 'bg-gradient-to-r from-brand-600 via-orange-500 to-amber-400 text-slate-950 font-bold',
     verdict: '144Hz is tailored for competitive gaming (PUBG Mobile / CODM / Valorant laptops). Millisecond touch responsiveness gives real tactical advantage in esport duels.'
   }
 ]

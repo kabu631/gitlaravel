@@ -30,30 +30,28 @@
           To maintain strict editorial independence and deliver 100% honest reviews, <strong>Git Infosys does not operate an e-commerce store or sell tech products directly</strong>. Selling the products we review would create a conflict of interest.
         </p>
 
-        <!-- Partner Banner -->
-        <div class="bg-gradient-to-br from-slate-50 to-amber-50/40 dark:from-slate-900 dark:to-amber-950/30 rounded-2xl border border-amber-200/60 dark:border-amber-900/40 p-6 max-w-2xl mx-auto mb-10 text-left">
+        <!-- Retail Guidance Banner -->
+        <div class="bg-gradient-to-br from-slate-50 to-brand-50/40 dark:from-slate-900 dark:to-brand-950/30 rounded-2xl border border-brand-200/60 dark:border-brand-900/40 p-6 max-w-2xl mx-auto mb-10 text-left">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div class="flex items-center gap-3.5">
-              <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 dark:text-amber-400 font-black text-xl shrink-0 border border-amber-500/20">
-                OI
+              <div class="w-12 h-12 rounded-xl bg-brand-500/10 flex items-center justify-center text-brand-600 dark:text-brand-400 font-black text-xl shrink-0 border border-brand-500/20">
+                <ShoppingBag class="w-6 h-6 text-brand-500" />
               </div>
               <div>
-                <p class="text-xs font-bold text-amber-700 dark:text-amber-400 uppercase tracking-wider">Official Retail Partner</p>
-                <h2 class="font-heading font-bold text-base text-slate-900 dark:text-white">Onin Nepal (onin.com.np)</h2>
-                <p class="text-xs text-slate-500 dark:text-slate-400">Authorized tech distributor with official Nepal manufacturer warranty.</p>
+                <p class="text-xs font-bold text-brand-700 dark:text-brand-400 uppercase tracking-wider">Nepal Market Buying Guidance</p>
+                <h2 class="font-heading font-bold text-base text-slate-900 dark:text-white">Authorized Dealers &amp; Genuine Importers</h2>
+                <p class="text-xs text-slate-500 dark:text-slate-400">Always demand official VAT bills and manufacturer warranty coverage when purchasing in Nepal.</p>
               </div>
             </div>
 
-            <a
-              href="https://onin.com.np/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs sm:text-sm shadow-xs transition shrink-0"
+            <Link
+              :href="route('gadgets.index')"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs sm:text-sm shadow-xs transition shrink-0"
             >
-              <ShoppingBag class="w-4 h-4" />
-              <span>Shop on Onin (onin.com.np)</span>
-              <ExternalLink class="w-3.5 h-3.5 opacity-75" />
-            </a>
+              <Smartphone class="w-4 h-4" />
+              <span>Explore Gadgets</span>
+              <ChevronRight class="w-3.5 h-3.5 opacity-75" />
+            </Link>
           </div>
         </div>
 
@@ -83,9 +81,9 @@
             <div class="w-9 h-9 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center mb-3">
               <ExternalLink class="w-5 h-5 text-amber-500" />
             </div>
-            <h3 class="font-heading font-bold text-sm text-slate-900 dark:text-white mb-1">Direct Referrals</h3>
+            <h3 class="font-heading font-bold text-sm text-slate-900 dark:text-white mb-1">Verified Retail Links</h3>
             <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
-              One-click links to Onin (onin.com.np) where you can buy genuine gadgets with VAT bill and official Nepal warranty.
+              When available, product pages provide direct links to authorized retailers with genuine VAT invoices and Nepal warranty.
             </p>
           </div>
         </div>
@@ -120,5 +118,7 @@ import {
   ExternalLink,
   CheckCircle2,
   Award,
+  Smartphone,
+  ChevronRight,
 } from 'lucide-vue-next'
 </script>

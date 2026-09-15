@@ -20,7 +20,9 @@ class TechGuide extends Model
     {
         static::creating(function($m) {
             $m->slug ??= Str::slug($m->title);
-            if (!$m->user_id && auth()->check()) $m->user_id = auth()->id();
+            if (!$m->user_id) {
+                $m->user_id = auth()->id() ?? User::where('is_admin', true)->value('id') ?? User::value('id') ?? 1;
+            }
         });
     }
 

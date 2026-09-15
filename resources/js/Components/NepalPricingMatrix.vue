@@ -95,13 +95,13 @@
         <div>
           <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white mb-3 flex items-center gap-2">
             <Scale class="w-4 h-4 text-amber-500" />
-            <span>Authorized Partner vs Grey Market Trap</span>
+            <span>Authorized Channels vs Grey Market</span>
           </h4>
 
           <div class="space-y-3 text-xs">
             <div class="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/50">
               <span class="font-bold text-emerald-700 dark:text-emerald-300 block mb-1">
-                ✓ Onin Authorized Partner (Recommended)
+                ✓ Official Nepal Importer &amp; Authorized Retailer (Recommended)
               </span>
               <ul class="text-[11px] text-emerald-800 dark:text-emerald-200/90 space-y-1 list-disc pl-4">
                 <li>Pre-registered on NTA MDMS (Never blacklisted)</li>
@@ -125,13 +125,13 @@
 
         <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
           <a
-            href="https://onin.com.np/"
+            :href="buyUrl || route('gadgets.index')"
             target="_blank"
             rel="noopener noreferrer"
-            class="w-full py-2.5 px-4 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-heading font-extrabold text-xs shadow-md transition flex items-center justify-center gap-2 cursor-pointer"
+            class="w-full py-2.5 px-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-heading font-extrabold text-xs shadow-md transition flex items-center justify-center gap-2 cursor-pointer"
           >
             <ShoppingBag class="w-4 h-4" />
-            <span>Buy 100% Genuine on Onin (onin.com.np)</span>
+            <span>Check Official Nepal Stock &amp; Pricing</span>
             <ExternalLink class="w-3 h-3 opacity-75" />
           </a>
         </div>
@@ -143,6 +143,13 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { ShieldCheck, Scale, ShoppingBag, ExternalLink } from 'lucide-vue-next'
+
+const props = defineProps({
+  buyUrl: {
+    type: String,
+    default: null,
+  },
+})
 
 const sampleDevices = [
   { shortName: 'iPhone 16 Pro Max', name: 'iPhone 16 Pro Max (256GB)', usdPrice: 1199 },

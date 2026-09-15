@@ -26,30 +26,27 @@
           Git Infosys evaluates, benchmarks, and ranks consumer tech devices in Nepal. In order to guarantee completely objective test results and prevent commercial sales bias, <strong>we do not operate checkout forms or process retail transactions</strong>.
         </p>
 
-        <!-- Partner Banner -->
+        <!-- Authorized Retail Advisory -->
         <div class="bg-gradient-to-br from-slate-50 to-amber-50/40 dark:from-slate-900 dark:to-amber-950/30 rounded-2xl border border-amber-200/60 dark:border-amber-900/40 p-6 max-w-2xl mx-auto mb-10 text-left">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div class="flex items-center gap-3.5">
               <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 dark:text-amber-400 font-black text-xl shrink-0 border border-amber-500/20">
-                OI
+                <ShoppingBag class="w-6 h-6" />
               </div>
               <div>
-                <p class="text-xs font-bold text-amber-700 dark:text-amber-400 uppercase tracking-wider">Purchase Fulfillment Partner</p>
-                <h2 class="font-heading font-bold text-base text-slate-900 dark:text-white">Onin Nepal (onin.com.np)</h2>
-                <p class="text-xs text-slate-500 dark:text-slate-400">Genuine tech hardware with VAT invoice and official Nepal warranty.</p>
+                <p class="text-xs font-bold text-amber-700 dark:text-amber-400 uppercase tracking-wider">Nepal Authorized Retail</p>
+                <h2 class="font-heading font-bold text-base text-slate-900 dark:text-white">Buy with Official Nepal Warranty</h2>
+                <p class="text-xs text-slate-500 dark:text-slate-400">Always request an official 13% VAT bill and verify distributor seal before purchasing.</p>
               </div>
             </div>
 
-            <a
-              href="https://onin.com.np/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              :href="route('gadgets.index')"
               class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs sm:text-sm shadow-xs transition shrink-0"
             >
               <ShoppingBag class="w-4 h-4" />
-              <span>Order on Onin (onin.com.np)</span>
-              <ExternalLink class="w-3.5 h-3.5 opacity-75" />
-            </a>
+              <span>Browse Catalog &amp; Deals</span>
+            </Link>
           </div>
         </div>
 
