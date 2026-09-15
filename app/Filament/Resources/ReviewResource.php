@@ -15,7 +15,7 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
-use Filament\Tables\Actions\Action;
+use Filament\Actions\Action;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
@@ -36,7 +36,7 @@ class ReviewResource extends Resource
         return $schema->schema([
             Select::make('gadget_id')
                 ->label('Gadget')
-                ->options(Gadget::with('brand')->get()->mapWithKeys(fn($g) => [$g->id => "{$g->brand->name} {$g->name}"]))
+                ->options(Gadget::with('brand')->get()->mapWithKeys(fn($g) => [$g->id => ($g->brand ? "{$g->brand->name} " : '') . $g->name]))
                 ->required()
                 ->searchable(),
             Select::make('user_id')

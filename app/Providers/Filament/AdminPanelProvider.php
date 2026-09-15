@@ -31,7 +31,13 @@ class AdminPanelProvider extends PanelProvider
             ->path(env('FILAMENT_PATH', 'secure-admin'))
             ->login()
             ->brandName('Git Infosys Admin')
-            ->colors(['primary' => Color::Violet])
+            ->brandLogo(asset('images/logo_dark.png'))
+            ->darkModeBrandLogo(asset('images/logo-white.png'))
+            ->brandLogoHeight('2.25rem')
+            ->colors([
+                'primary' => Color::hex('#FF991B'),
+                'gray' => Color::Slate,
+            ])
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\Filament\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\Filament\Pages')
             ->pages([Dashboard::class])

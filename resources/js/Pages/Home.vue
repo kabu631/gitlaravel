@@ -216,15 +216,14 @@
                 View Specs →
               </Link>
               <a
-                href="https://onin.com.np/"
-                target="_blank"
+                :href="hottestDrop.buy_url || route('gadgets.show', hottestDrop.slug)"
+                :target="hottestDrop.buy_url ? '_blank' : '_self'"
                 rel="noopener noreferrer"
-                class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-extrabold bg-amber-500 hover:bg-amber-600 text-slate-950 shadow-xs transition cursor-pointer"
-                title="Verified Buying Partner: Onin"
+                class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-extrabold bg-amber-500 hover:bg-amber-400 text-slate-950 shadow-xs transition cursor-pointer"
               >
                 <ShoppingBag class="w-3.5 h-3.5" />
-                <span>Buy on Onin</span>
-                <ExternalLink class="w-2.5 h-2.5" />
+                <span>Check Price</span>
+                <ExternalLink v-if="hottestDrop.buy_url" class="w-2.5 h-2.5" />
               </a>
             </div>
           </div>
@@ -268,6 +267,11 @@
       <GadgetMatchmaker :pool="matchmakerPool" />
     </section>
 
+    <!-- ── 4B. REAL-TIME ALGORITHMIC SPEC LEADERBOARDS (HALL OF FAME) ── -->
+    <section class="mb-10">
+      <AlgorithmicSpecLeaderboards :gadgets="matchmakerPool" />
+    </section>
+
     <!-- ── 5. HT TECH-STYLE INSTANT GADGET FINDER BY BUDGET ── -->
     <section class="mb-10 p-5 sm:p-6 rounded-3xl bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 glass-card shadow-xs">
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
@@ -308,6 +312,34 @@
           <span>Earbuds &amp; Audio</span>
         </Link>
       </div>
+    </section>
+
+    <!-- ── 5B. NEPAL IT ECOSYSTEM & MDMS RADAR BAR ── -->
+    <section class="mb-10 p-4 sm:p-5 rounded-3xl bg-gradient-to-r from-emerald-500/15 via-teal-500/10 to-brand-500/15 border border-emerald-300/80 dark:border-emerald-700/60 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3.5">
+        <div class="w-11 h-11 rounded-2xl bg-emerald-600 text-white flex items-center justify-center shrink-0 shadow-md">
+          <ShieldCheck class="w-5 h-5" />
+        </div>
+        <div>
+          <div class="flex items-center gap-2 flex-wrap">
+            <span class="text-[10px] font-black uppercase tracking-wider text-emerald-700 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-950 px-2 py-0.5 rounded">
+              Nepal IT &amp; Regulatory Radar
+            </span>
+            <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Official MDMS Duty Calculator &amp; 5G Radar</span>
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-400 mt-0.5">
+            Bringing phones from abroad? Calculate exact airport customs tax, check NTC/Ncell 5G frequency bands, and find authorized service centers.
+          </p>
+        </div>
+      </div>
+
+      <Link
+        :href="route('pages.tech-lab')"
+        class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-heading font-extrabold text-xs shadow-md transition flex items-center gap-2 shrink-0 cursor-pointer"
+      >
+        <span>Launch Nepal Tech Hub</span>
+        <ArrowRight class="w-3.5 h-3.5" />
+      </Link>
     </section>
 
     <!-- ── 6. MAIN 2-COLUMN LAYOUT (CONTENT + STICKY SIDEBAR) ── -->
@@ -473,6 +505,11 @@
           <WorkflowSimulator />
         </section>
 
+        <!-- ── 5B. BLIND CAMERA SHOOTOUT ARENA (MKBHD / DXOMARK STYLE) ── -->
+        <section>
+          <BlindCameraArena />
+        </section>
+
         <!-- ── NEPAL TECH RUMOR & UPCOMING LAUNCH ROADMAP ── -->
         <section v-if="upcomingLaunches && upcomingLaunches.length">
           <div class="section-header">
@@ -486,7 +523,7 @@
               </div>
               <h2 class="section-title mt-1">Upcoming Flagship Releases in Nepal</h2>
             </div>
-            <Link :href="route('news.index', { category: 'technology' })" class="view-all">
+            <Link :href="route('news.index', { category: 'rumors' })" class="view-all">
               <span>All Rumor News</span>
               <ArrowRight class="w-3.5 h-3.5" />
             </Link>
@@ -720,33 +757,31 @@
           <NepalPricingMatrix />
         </section>
 
-        <!-- ── ONIN INFOSYS VERIFIED BUYING PARTNER SEAL ── -->
+        <!-- ── INDEPENDENT EDITORIAL INTEGRITY & AUTHORIZED RETAIL ── -->
         <section>
           <div class="p-6 sm:p-7 rounded-3xl bg-gradient-to-br from-amber-500/10 via-white to-amber-500/5 dark:from-amber-950/30 dark:via-[#111827] dark:to-slate-900 border border-amber-300/80 dark:border-amber-700/60 shadow-md relative overflow-hidden glass-card">
             <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
               <div class="space-y-2 max-w-lg">
                 <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md text-[11px] font-bold uppercase tracking-wider bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800">
-                  <ShoppingBag class="w-3.5 h-3.5 text-amber-500" />
-                  <span>Official Buying Partner</span>
+                  <ShieldCheck class="w-3.5 h-3.5 text-amber-500" />
+                  <span>Independent Tech Authority</span>
                 </div>
                 <h3 class="font-heading text-xl font-bold text-slate-900 dark:text-white">
-                  Why Git Infosys Doesn't Sell Directly
+                  100% Objective Benchmarks &amp; Buying Guides
                 </h3>
                 <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                  To keep our reviews 100% unbiased, we never retail hardware. When you're ready to buy, we connect you to our verified partner <strong>Onin (onin.com.np)</strong> for genuine Nepal warranty, official VAT invoices, and doorstep delivery.
+                  To ensure editorial independence, Git Infosys does not stock or sell products directly. We evaluate hardware through rigorous lab tests and guide you to verified authorized retailers and distributor warranty in Nepal.
                 </p>
               </div>
 
-              <a
-                href="https://onin.com.np/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                :href="route('gadgets.index')"
                 class="px-5 py-3 rounded-2xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-heading font-extrabold text-xs shadow-md transition flex items-center gap-2 shrink-0 group cursor-pointer"
               >
                 <ShoppingBag class="w-4 h-4" />
-                <span>Visit Onin Store (onin.com.np)</span>
-                <ExternalLink class="w-3.5 h-3.5 opacity-80 group-hover:translate-x-0.5 transition-transform" />
-              </a>
+                <span>Explore Gadget Catalog</span>
+                <ArrowRight class="w-3.5 h-3.5 opacity-80 group-hover:translate-x-0.5 transition-transform" />
+              </Link>
             </div>
           </div>
         </section>
@@ -910,7 +945,9 @@ import AppLayout from '@/Layouts/AppLayout.vue'
 import GadgetCard from '@/Components/GadgetCard.vue'
 import HeroSlider from '@/Components/HeroSlider.vue'
 import GadgetMatchmaker from '@/Components/GadgetMatchmaker.vue'
+import AlgorithmicSpecLeaderboards from '@/Components/AlgorithmicSpecLeaderboards.vue'
 import WorkflowSimulator from '@/Components/WorkflowSimulator.vue'
+import BlindCameraArena from '@/Components/BlindCameraArena.vue'
 import DisplayLab from '@/Components/DisplayLab.vue'
 import NepalPricingMatrix from '@/Components/NepalPricingMatrix.vue'
 import {

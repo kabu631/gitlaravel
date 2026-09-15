@@ -178,23 +178,21 @@
             </div>
           </div>
 
-          <!-- Bottom Buying Recommendation & Onin Partner Link -->
+          <!-- Bottom Buying Recommendation & Tested Devices Link -->
           <div class="pt-4 border-t border-white/10 space-y-3">
             <div class="flex items-center justify-between text-xs">
               <span class="text-slate-400">Verified Nepal Pricing &amp; Stock:</span>
               <span class="font-heading font-extrabold text-brand-300">{{ currentDeviceClass.priceRange }}</span>
             </div>
 
-            <a
-              href="https://onin.com.np/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full py-2.5 px-4 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-heading font-extrabold text-xs shadow-lg transition flex items-center justify-center gap-2 cursor-pointer"
+            <Link
+              :href="route('gadgets.index')"
+              class="w-full py-2.5 px-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-heading font-extrabold text-xs shadow-lg transition flex items-center justify-center gap-2 cursor-pointer"
             >
               <ShoppingBag class="w-4 h-4" />
-              <span>Check Authorized Availability on Onin</span>
-              <ExternalLink class="w-3 h-3 opacity-80" />
-            </a>
+              <span>Browse Tested Devices in this Range</span>
+              <ArrowRight class="w-3.5 h-3.5" />
+            </Link>
           </div>
         </div>
       </div>
@@ -204,9 +202,10 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { Link } from '@inertiajs/vue3'
 import {
   Cpu, Flame, Activity, Thermometer, BatteryCharging, Sun, Video, Zap,
-  Smartphone, Laptop, CheckCircle2, ShoppingBag, ExternalLink
+  Smartphone, Laptop, CheckCircle2, ShoppingBag, ArrowRight
 } from 'lucide-vue-next'
 
 const activeScenario = ref('gaming_thermals')
@@ -244,7 +243,7 @@ const scenarios = [
     name: '4K CapCut & Video Scrubbing',
     desc: 'Multi-layer 4K 60fps ProRes / H.265 timeline scrubbing and export latency.',
     badge: 'Pro',
-    badgeClass: 'bg-purple-500 text-white',
+    badgeClass: 'bg-brand-500 text-slate-950 font-bold',
     icon: Video,
   },
 ]
@@ -393,12 +392,12 @@ const simulationResult = computed(() => {
     title: score >= 90 ? 'Instant 4K Scrubbing' : 'Capable 1080p / 4K Timeline',
     summary: `Exports a 5-minute 4K 60fps H.265 video in approximately ${renderTime} seconds with zero timeline dropframes.`,
     status: score >= 85 ? 'Creator Recommended' : 'Suitable for Social Vlogs',
-    statusBg: score >= 85 ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30' : 'bg-blue-500/20 text-blue-300 border border-blue-500/30',
-    scoreBorder: score >= 85 ? 'border-purple-400 text-purple-400' : 'border-blue-400 text-blue-400',
+    statusBg: score >= 85 ? 'bg-brand-500/20 text-brand-400 border border-brand-500/30' : 'bg-slate-700/40 text-slate-300 border border-slate-600',
+    scoreBorder: score >= 85 ? 'border-brand-400 text-brand-400' : 'border-slate-400 text-slate-300',
     metrics: [
-      { label: 'NPU / GPU Render Speed', value: `${renderTime}s export`, pct: Math.min(100, Math.round(((120 - renderTime) / 100) * 100)), barColor: 'bg-purple-500', valueClass: 'text-purple-400' },
+      { label: 'NPU / GPU Render Speed', value: `${renderTime}s export`, pct: Math.min(100, Math.round(((120 - renderTime) / 100) * 100)), barColor: 'bg-brand-500', valueClass: 'text-brand-400' },
       { label: 'Timeline Scrubbing Smoothness', value: `${dev.renderPower}%`, pct: dev.renderPower, barColor: 'bg-emerald-500', valueClass: 'text-emerald-400' },
-      { label: 'Thermal Export Headroom', value: `${dev.cooling}%`, pct: dev.cooling, barColor: 'bg-blue-500', valueClass: 'text-blue-400' }
+      { label: 'Thermal Export Headroom', value: `${dev.cooling}%`, pct: dev.cooling, barColor: 'bg-sky-500', valueClass: 'text-sky-400' }
     ]
   }
 })

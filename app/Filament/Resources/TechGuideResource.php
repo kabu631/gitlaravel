@@ -13,7 +13,7 @@ use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
-use Filament\Tables\Actions\Action;
+use Filament\Actions\Action;
 use Filament\Tables\Columns\BadgeColumn;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
@@ -53,6 +53,7 @@ class TechGuideResource extends Resource
             Select::make('user_id')
                 ->label('Author')
                 ->relationship('author', 'name')
+                ->default(fn() => auth()->id())
                 ->searchable()
                 ->preload()
                 ->nullable(),

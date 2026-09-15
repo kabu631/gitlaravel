@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <StaticPageLayout current-page="privacy"
     :sidebar-products="sidebarProducts"
     :sidebar-news="sidebarNews">
@@ -39,8 +39,11 @@
           <p>We do not sell, trade, or otherwise transfer your personal information to outside parties except to trusted third parties who assist us in operating our website.</p>
         </section>
         <section>
-          <h2 class="text-lg font-bold text-gray-900 dark:text-gray-100 mb-2">4. Cookies</h2>
-          <p>Our site uses cookies to enhance your browsing experience. You can choose to disable cookies through your browser settings.</p>
+          <h2 class="text-lg font-bold text-gray-900 dark:text-gray-100 mb-2">4. Cookies &amp; Active Session Security</h2>
+          <p>Our platform uses essential session cookies, functional preference tokens, and security cookies to maintain active logins, save your device comparisons, and secure shopping cart operations.</p>
+          <p class="mt-2 text-xs text-slate-500 dark:text-slate-400">
+            <strong>Session Termination Policy:</strong> For enhanced user security, all active authentication sessions are configured to automatically terminate when you shut down your system or close your web browser. You will be prompted to securely re-authenticate upon restarting your system and reopening the platform.
+          </p>
         </section>
         <section>
           <h2 class="text-lg font-bold text-gray-900 dark:text-gray-100 mb-2">5. Data Security</h2>

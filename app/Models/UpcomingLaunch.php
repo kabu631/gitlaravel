@@ -17,6 +17,16 @@ class UpcomingLaunch extends Model
         'sort_order' => 'integer',
     ];
 
+    protected static function booted(): void
+    {
+        static::creating(function ($m) {
+            $m->category ??= 'Smartphones';
+            $m->est_price ??= 'TBA';
+            $m->confidence ??= 85;
+            $m->tag_color ??= 'emerald';
+        });
+    }
+
     public function scopeActive($query)
     {
         return $query->where('is_active', true);

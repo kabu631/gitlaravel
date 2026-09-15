@@ -16,7 +16,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $trending = Gadget::with(['brand', 'category'])->where('is_trending', true)->latest()->take(8)->get();
+        $trending = Gadget::with(['brand', 'category', 'specs'])->where('is_trending', true)->latest()->take(8)->get();
 
         // Calculate 7-day price change for price tracker
         $trendingIds     = $trending->pluck('id');
@@ -184,14 +184,14 @@ class HomeController extends Controller
             ->toArray();
 
 
-        // Lightweight device pool for client-side AI matchmaker
-        $matchmakerPool = Gadget::with(['brand:id,name', 'category:id,slug,name'])
-            ->select('id', 'name', 'slug', 'price', 'old_price', 'brand_id', 'category_id', 'image', 'is_featured', 'is_trending')
+        // Device pool with hardware specs for client-side AI matchmaker and algorithmic leaderboards
+        $matchmakerPool = Gadget::with(['brand:id,name', 'category:id,slug,name', 'specs'])
+            ->select('id', 'name', 'slug', 'price', 'old_price', 'brand_id', 'category_id', 'image', 'is_featured', 'is_trending', 'release_date', 'created_at')
             ->get();
 
-        $featured = Gadget::with(['brand', 'category'])->where('is_featured', true)->latest()->take(12)->get();
+        $featured = Gadget::with(['brand', 'category', 'specs'])->where('is_featured', true)->latest()->take(12)->get();
         if ($featured->isEmpty()) {
-            $featured = Gadget::with(['brand', 'category'])->latest()->take(12)->get();
+            $featured = Gadget::with(['brand', 'category', 'specs'])->latest()->take(12)->get();
         }
 
         $appName = config('app.name');

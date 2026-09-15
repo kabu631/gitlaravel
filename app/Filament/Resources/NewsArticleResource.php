@@ -13,7 +13,7 @@ use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
-use Filament\Tables\Actions\Action;
+use Filament\Actions\Action;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
@@ -37,18 +37,23 @@ class NewsArticleResource extends Resource
             TextInput::make('slug')->required()->maxLength(255),
             Select::make('category')->options([
                 // Keys must match the URL ?category= values used in AppLayout nav + NewsController
-                'technology' => 'Technology',
-                'mobile'     => 'Mobile Launches',
-                'laptop'     => 'Laptops',
-                'gaming'     => 'Gaming',
-                'ai-ml'      => 'AI & Innovations',
-                'software'   => 'Software',
-                'gadgets'    => 'Gadgets',
-                'telecom'    => 'Telecom',
+                'technology'   => 'Technology',
+                'rumors'       => 'Rumors & Upcoming Launches',
+                'mobile'       => 'Mobile Launches',
+                'laptop'       => 'Laptops',
+                'gaming'       => 'Gaming',
+                'ai-ml'        => 'AI & Innovations',
+                'software'     => 'Software',
+                'gadgets'      => 'Gadgets',
+                'telecom'      => 'Telecom & 5G',
+                'gpu'          => 'GPUs & Hardware',
+                'price-trends' => 'Price Trends & Hikes',
+                'sci-fi'       => 'Sci-Fi Cinema Tech',
             ])->required(),
             Select::make('user_id')
                 ->label('Author')
                 ->relationship('author', 'name')
+                ->default(fn() => auth()->id())
                 ->searchable()
                 ->preload()
                 ->nullable(),

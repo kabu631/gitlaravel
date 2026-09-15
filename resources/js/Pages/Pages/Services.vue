@@ -42,13 +42,11 @@
                   class="px-8 py-3 rounded-xl bg-white text-brand-600 font-bold hover:bg-gray-100 transition">
               Explore Tech Reviews & Specs →
             </Link>
-            <a href="https://onin.com.np/"
-               target="_blank"
-               rel="noopener noreferrer"
+            <Link :href="route('compare.index')"
                class="px-8 py-3 rounded-xl border-2 border-white/50 text-white font-bold hover:border-white transition flex items-center gap-2">
-              <span>Buy on Onin (onin.com.np)</span>
-              <span>↗</span>
-            </a>
+              <span>Compare Tech Specs</span>
+              <span>→</span>
+            </Link>
           </div>
         </div>
       </div>
@@ -96,8 +94,8 @@ const services = [
   },
   {
     icon: '🤝',
-    title: 'Verified Retail Referrals',
-    desc: 'To preserve 100% editorial impartiality, we refer buyers to verified partners like Onin (onin.com.np) for authentic hardware and official warranties.',
+    title: 'Authorized Retail Guidance',
+    desc: 'To preserve 100% editorial impartiality, we guide buyers to authorized distributors and certified retailers across Nepal for authentic hardware and official warranties.',
     gradient: 'linear-gradient(135deg, #ff9f43, #ff6b6b)',
   },
   {
