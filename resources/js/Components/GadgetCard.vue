@@ -48,7 +48,7 @@
       <div class="w-full h-full rounded-2xl bg-white dark:bg-[#0c1220] p-3 border border-slate-100 dark:border-slate-800/60 shadow-2xs flex items-center justify-center relative overflow-hidden transition-all duration-300 group-hover:border-brand-300 dark:group-hover:border-brand-800/60 group-hover:shadow-md">
         <img
           v-if="gadget.image"
-          :src="`/storage/${gadget.image}`"
+          :src="getImageUrl(gadget.image)"
           :alt="gadget.name"
           loading="lazy"
           class="w-full h-full object-contain group-hover:scale-106 transition-transform duration-500 ease-out"
@@ -175,6 +175,7 @@ import { computed } from 'vue'
 import { Link } from '@inertiajs/vue3'
 import { useCompareTray } from '@/Composables/useCompareTray.js'
 import { getAlgorithmicBadges } from '@/Composables/useGadgetAlgorithm.js'
+import { getImageUrl } from '@/Composables/useImageUrl.js'
 import {
   Cpu, ArrowRight, Flame, Sparkles, Scale, ExternalLink,
   ShieldCheck, ShoppingBag

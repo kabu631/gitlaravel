@@ -7,6 +7,10 @@ use App\Models\ContactMessage;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
 use App\Models\PageContent;
+use App\Models\CameraShootout;
+use App\Models\BankPartner;
+use App\Models\CarrierFrequencyBand;
+use App\Models\AuthorizedServiceCenter;
 use App\Mail\ContactMessageMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -319,12 +323,41 @@ class PageController extends Controller
     public function techLab()
     {
         return Inertia::render('Pages/TechLab', array_merge($this->sidebarData(), [
+            'shootouts'       => CameraShootout::active()->get(),
+            'bankPartners'    => BankPartner::active()->get(),
+            'frequencyBands'  => CarrierFrequencyBand::active()->get(),
+            'serviceCenters'  => AuthorizedServiceCenter::active()->get(),
             'seo' => [
                 'title'       => 'Interactive Tech Lab & Nepal Ownership Radar — Git Infosys',
                 'description' => 'Airport MDMS customs duty tax calculator, NTC/Ncell 5G band compatibility, blind camera shootouts, and gaming thermal simulator for Nepal tech buyers.',
                 'canonical'   => route('pages.tech-lab'),
             ],
         ]));
+    }
+
+    public function voteShootout(Request $request, $id)
+    {
+        $validated = $request->validate([
+            'choice' => 'required|in:A,B',
+        ]);
+
+        $shootout = CameraShootout::findOrFail($id);
+        if ($validated['choice'] === 'A') {
+            $shootout->increment('phone_a_votes');
+        } else {
+            $shootout->increment('phone_b_votes');
+        }
+
+        $shootout->refresh();
+
+        return response()->json([
+            'success'         => true,
+            'phone_a_votes'   => $shootout->phone_a_votes,
+            'phone_b_votes'   => $shootout->phone_b_votes,
+            'phone_a_percent' => $shootout->phone_a_percent,
+            'phone_b_percent' => $shootout->phone_b_percent,
+            'total_votes'     => $shootout->total_votes,
+        ]);
     }
 }
 

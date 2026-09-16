@@ -102,7 +102,7 @@
               <div class="text-xs font-extrabold text-slate-900 dark:text-white flex items-center gap-1.5">
                 <span>{{ isRevealed ? activeChallenge.phoneA.realName : 'Device Alpha' }}</span>
                 <span v-if="isRevealed" class="text-[10px] font-bold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/60 px-1.5 py-0.2 rounded">
-                  Apple
+                  {{ activeChallenge.phoneA.brand }}
                 </span>
               </div>
               <div class="text-[10px] text-slate-400">
@@ -124,7 +124,7 @@
           <!-- Sample Shootout Photo View -->
           <template v-if="displayView === 'sample'">
             <img
-              :src="activeChallenge.phoneA.image"
+              :src="getImageUrl(activeChallenge.phoneA.image)"
               :alt="isRevealed ? activeChallenge.phoneA.realName : 'Sample Alpha'"
               class="w-full h-full object-cover transition-transform duration-500"
               :class="{ 'scale-180': isZoomed }"
@@ -142,7 +142,7 @@
           <template v-else>
             <div class="w-full h-full p-6 flex flex-col items-center justify-center bg-gradient-to-b from-slate-900 to-slate-950 relative">
               <img
-                :src="activeChallenge.phoneA.deviceImage"
+                :src="getImageUrl(activeChallenge.phoneA.deviceImage)"
                 :alt="activeChallenge.phoneA.realName"
                 class="max-h-48 max-w-[80%] object-contain drop-shadow-xl"
                 loading="lazy"
@@ -208,7 +208,7 @@
               <div class="text-xs font-extrabold text-slate-900 dark:text-white flex items-center gap-1.5">
                 <span>{{ isRevealed ? activeChallenge.phoneB.realName : 'Device Beta' }}</span>
                 <span v-if="isRevealed" class="text-[10px] font-bold text-navy-600 dark:text-navy-300 bg-navy-50 dark:bg-navy-950/60 px-1.5 py-0.2 rounded">
-                  Samsung
+                  {{ activeChallenge.phoneB.brand }}
                 </span>
               </div>
               <div class="text-[10px] text-slate-400">
@@ -230,7 +230,7 @@
           <!-- Sample Shootout Photo View -->
           <template v-if="displayView === 'sample'">
             <img
-              :src="activeChallenge.phoneB.image"
+              :src="getImageUrl(activeChallenge.phoneB.image)"
               :alt="isRevealed ? activeChallenge.phoneB.realName : 'Sample Beta'"
               class="w-full h-full object-cover transition-transform duration-500"
               :class="{ 'scale-180': isZoomed }"
@@ -248,7 +248,7 @@
           <template v-else>
             <div class="w-full h-full p-6 flex flex-col items-center justify-center bg-gradient-to-b from-slate-900 to-slate-950 relative">
               <img
-                :src="activeChallenge.phoneB.deviceImage"
+                :src="getImageUrl(activeChallenge.phoneB.deviceImage)"
                 :alt="activeChallenge.phoneB.realName"
                 class="max-h-48 max-w-[80%] object-contain drop-shadow-xl"
                 loading="lazy"
@@ -336,16 +336,35 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { Link } from '@inertiajs/vue3'
+import axios from 'axios'
+import { getImageUrl } from '@/Composables/useImageUrl'
 import {
   Camera, Sparkles, Search, CheckCircle, Check,
   ShoppingBag, Moon, Sun, Eye, Smartphone
 } from 'lucide-vue-next'
 
-const displayView = ref('sample') // 'sample' | 'device'
+const props = defineProps({
+  shootouts: {
+    type: Array,
+    default: () => []
+  }
+})
 
-const challenges = [
+const iconMap = {
+  Moon,
+  Sun,
+  Eye,
+  Camera,
+  Sparkles,
+  Smartphone,
+}
+
+const displayView = ref('sample') // 'sample' | 'device'
+const liveVotes = ref({})
+
+const defaultChallenges = [
   {
     id: 1,
     title: 'Kathmandu Night Street Test',
@@ -354,6 +373,7 @@ const challenges = [
     winnerSummary: 'Device A (iPhone 15 Pro Max) won with 59% of votes!',
     editorialDeepDive: 'Device A exhibited cleaner lens glare suppression with its nanocoating, while Device B produced sharper brick texture at the expense of slight sharpening halos around temple carvings.',
     phoneA: {
+      brand: 'Apple',
       realName: 'Apple iPhone 15 Pro Max',
       specs: '48MP (1/1.28", 24mm, f/1.78, Sensor-shift OIS, 1.22µm)',
       exif: 'f/1.78 · 1/25s · ISO 1250',
@@ -364,6 +384,7 @@ const challenges = [
       isWinner: true
     },
     phoneB: {
+      brand: 'Samsung',
       realName: 'Samsung Galaxy S24 Ultra',
       specs: '200MP (1/1.3", 24mm, f/1.7, Multi-directional PDAF, OIS)',
       exif: 'f/1.70 · 1/20s · ISO 800',
@@ -382,6 +403,7 @@ const challenges = [
     winnerSummary: 'Device B (Galaxy S24 Ultra) won with 53% of votes!',
     editorialDeepDive: 'Device B provided slightly warmer color temperature favored by Nepali readers, with hair edge separation rendered seamlessly through neural depth maps.',
     phoneA: {
+      brand: 'Apple',
       realName: 'Apple iPhone 15 Pro Max',
       specs: '48MP Photonic Engine with Smart HDR 5',
       exif: 'f/1.78 · 1/640s · ISO 64',
@@ -392,6 +414,7 @@ const challenges = [
       isWinner: false
     },
     phoneB: {
+      brand: 'Samsung',
       realName: 'Samsung Galaxy S24 Ultra',
       specs: '200MP ProVisual Engine with AI ISP',
       exif: 'f/1.70 · 1/750s · ISO 50',
@@ -410,6 +433,7 @@ const challenges = [
     winnerSummary: 'Device B (Galaxy S24 Ultra 5x/10x Periscope) dominated with 71% of votes!',
     editorialDeepDive: 'The 50MP 5x optical periscope lens on Device B utilizes pixel binning to create superior 10x hybrid lossless imagery compared to 12MP 5x quad-prism sensor.',
     phoneA: {
+      brand: 'Apple',
       realName: 'Apple iPhone 15 Pro Max',
       specs: '12MP 5x Telephoto (120mm, f/2.8, 3D Sensor-shift OIS)',
       exif: 'f/2.80 · 1/120s · ISO 200',
@@ -420,6 +444,7 @@ const challenges = [
       isWinner: false
     },
     phoneB: {
+      brand: 'Samsung',
       realName: 'Samsung Galaxy S24 Ultra',
       specs: '50MP 5x Periscope (111mm, f/3.4, Dual Pixel PDAF, OIS)',
       exif: 'f/3.40 · 1/160s · ISO 125',
@@ -432,11 +457,68 @@ const challenges = [
   }
 ]
 
+const challenges = computed(() => {
+  if (!props.shootouts || props.shootouts.length === 0) {
+    return defaultChallenges
+  }
+
+  return props.shootouts.map(s => {
+    const live = liveVotes.value[s.id]
+    const votesA = live ? live.phone_a_votes : (s.phone_a_votes || 0)
+    const votesB = live ? live.phone_b_votes : (s.phone_b_votes || 0)
+    const total = votesA + votesB
+    const pctA = live ? live.phone_a_percent : (total > 0 ? Math.round((votesA / total) * 100) : 50)
+    const pctB = live ? live.phone_b_percent : (100 - pctA)
+
+    const brandA = s.device_a_name?.split(' ')[0] || 'Alpha'
+    const brandB = s.device_b_name?.split(' ')[0] || 'Beta'
+
+    return {
+      id: s.id,
+      title: s.title,
+      icon: iconMap[s.icon] || Camera,
+      description: s.description || 'Blind test comparison between two flagship sensors.',
+      winnerSummary: s.winner_summary || (pctA >= pctB ? `Device A (${s.device_a_name}) leading with ${pctA}%` : `Device B (${s.device_b_name}) leading with ${pctB}%`),
+      editorialDeepDive: s.editorial_deep_dive || 'Full laboratory analysis will update as community votes arrive.',
+      phoneA: {
+        brand: brandA,
+        realName: s.device_a_name,
+        specs: s.device_a_specs || 'High performance flagship primary sensor',
+        exif: s.device_a_exif || 'Exif Data',
+        image: s.device_a_image,
+        deviceImage: s.device_a_device_image || s.device_a_image,
+        votePercent: pctA,
+        totalVotes: votesA,
+        isWinner: pctA >= pctB
+      },
+      phoneB: {
+        brand: brandB,
+        realName: s.device_b_name,
+        specs: s.device_b_specs || 'High performance flagship primary sensor',
+        exif: s.device_b_exif || 'Exif Data',
+        image: s.device_b_image,
+        deviceImage: s.device_b_device_image || s.device_b_image,
+        votePercent: pctB,
+        totalVotes: votesB,
+        isWinner: pctB > pctA
+      }
+    }
+  })
+})
+
 const activeChallengeId = ref(1)
+
+watch(challenges, (newVal) => {
+  if (newVal.length && (!activeChallengeId.value || !newVal.some(c => c.id === activeChallengeId.value))) {
+    activeChallengeId.value = newVal[0].id
+    loadVoteForActive()
+  }
+}, { immediate: true })
+
 const isZoomed = ref(false)
 const userVote = ref(null)
 
-const activeChallenge = computed(() => challenges.find(c => c.id === activeChallengeId.value) || challenges[0])
+const activeChallenge = computed(() => challenges.value.find(c => c.id === activeChallengeId.value) || challenges.value[0] || defaultChallenges[0])
 const isRevealed = computed(() => userVote.value !== null)
 
 function selectChallenge(id) {
@@ -449,30 +531,46 @@ function storageKey(id) {
 }
 
 function loadVoteForActive() {
-  if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined' && activeChallengeId.value) {
     userVote.value = localStorage.getItem(storageKey(activeChallengeId.value))
   }
 }
 
-function castVote(choice) {
+async function castVote(choice) {
   userVote.value = choice
-  if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined' && activeChallengeId.value) {
     localStorage.setItem(storageKey(activeChallengeId.value), choice)
+  }
+
+  try {
+    const res = await axios.post(route('pages.shootout.vote', activeChallengeId.value), { choice })
+    if (res.data && res.data.success) {
+      liveVotes.value[activeChallengeId.value] = {
+        phone_a_votes: res.data.phone_a_votes,
+        phone_b_votes: res.data.phone_b_votes,
+        phone_a_percent: res.data.phone_a_percent,
+        phone_b_percent: res.data.phone_b_percent,
+      }
+    }
+  } catch (e) {
+    // Local vote persisted in localStorage even if network fails
   }
 }
 
 function resetVote() {
   userVote.value = null
-  if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined' && activeChallengeId.value) {
     localStorage.removeItem(storageKey(activeChallengeId.value))
   }
 }
 
 function handleImgError(event, side) {
-  // If sample image fails, fallback to real device image
   const target = side === 'A' ? activeChallenge.value.phoneA : activeChallenge.value.phoneB
-  if (target && target.deviceImage && event.target.src !== target.deviceImage) {
-    event.target.src = target.deviceImage
+  if (target && target.deviceImage) {
+    const fallbackUrl = getImageUrl(target.deviceImage)
+    if (event.target.src !== fallbackUrl) {
+      event.target.src = fallbackUrl
+    }
   }
 }
 

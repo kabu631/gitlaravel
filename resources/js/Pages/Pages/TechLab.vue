@@ -79,12 +79,12 @@
     <div class="space-y-10 mb-16 min-h-[500px]">
       <!-- Tool View 1: Nepal Tech Hub (MDMS & 5G) -->
       <div v-show="activeTool === 'mdms'">
-        <NepalTechHub />
+        <NepalTechHub :frequency-bands="frequencyBands" :service-centers="serviceCenters" />
       </div>
 
       <!-- Tool View 2: Blind Camera Arena -->
       <div v-show="activeTool === 'blind-camera'">
-        <BlindCameraArena />
+        <BlindCameraArena :shootouts="shootouts" />
       </div>
 
       <!-- Tool View 3: Gaming FPS & Thermals -->
@@ -109,9 +109,10 @@
       <!-- Tool View 6: Nepal 0% EMI Calculator -->
       <div v-show="activeTool === 'emi'">
         <NepalEmiCalculator
-          :product-price="145000"
+          :price="145000"
           gadget-name="Flagship Reference Smartphone"
           :buy-url="route('gadgets.index')"
+          :bank-partners="bankPartners"
         />
       </div>
 
@@ -173,6 +174,13 @@ import DisplayLab from '@/Components/DisplayLab.vue'
 import WorkflowSimulator from '@/Components/WorkflowSimulator.vue'
 import NepalEmiCalculator from '@/Components/NepalEmiCalculator.vue'
 import ResaleValuePredictor from '@/Components/ResaleValuePredictor.vue'
+
+defineProps({
+  shootouts:      { type: Array, default: () => [] },
+  bankPartners:   { type: Array, default: () => [] },
+  frequencyBands: { type: Array, default: () => [] },
+  serviceCenters: { type: Array, default: () => [] },
+})
 
 const activeTool = ref('mdms')
 
