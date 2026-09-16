@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
 use App\Models\UserComment;
+use App\Models\BankPartner;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -114,6 +115,7 @@ class GadgetController extends Controller
             'related'         => $related,
             'trending'        => $trending,
             'latestNews'      => $latestNews,
+            'bankPartners'    => BankPartner::active()->get(),
             'inWishlist'      => $inWishlist,
             'hasCommented'    => $hasCommented,
 

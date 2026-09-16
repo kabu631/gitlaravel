@@ -62,7 +62,7 @@
           </label>
           <div class="grid grid-cols-3 sm:grid-cols-5 gap-2">
             <button
-              v-for="m in [3, 6, 9, 12, 18]"
+              v-for="m in availableTenures"
               :key="m"
               @click="tenureMonths = m"
               class="py-2 px-3 rounded-xl border text-center transition cursor-pointer font-heading font-bold text-xs"
@@ -130,7 +130,9 @@
           </div>
           <div class="flex justify-between">
             <span class="text-slate-500 dark:text-slate-400">Processing Fee / Interest:</span>
-            <span class="font-bold text-emerald-600 dark:text-emerald-400">Rs. 0 (Waived)</span>
+            <span class="font-bold text-emerald-600 dark:text-emerald-400">
+              {{ processingFeeAmount > 0 ? `Rs. ${Number(processingFeeAmount).toLocaleString('en-NP')} (${activeBank?.processingFeePercent}%)` : 'Rs. 0 (Waived)' }}
+            </span>
           </div>
         </div>
 
@@ -147,7 +149,7 @@
             <ExternalLink class="w-3.5 h-3.5 opacity-80 group-hover:translate-x-0.5 transition-transform" />
           </a>
           <p class="text-[10px] text-slate-400 text-center mt-2">
-            Requires an active credit card from {{ currentBankName }}. Approval terms depend on bank guidelines.
+            {{ activeBank?.termsNote || `Requires an active credit card from ${currentBankName}. Approval terms depend on bank guidelines.` }}
           </p>
         </div>
       </div>
@@ -156,12 +158,13 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { CreditCard, CheckCircle, ShieldCheck, ExternalLink } from 'lucide-vue-next'
 
 const props = defineProps({
   price: { type: [Number, String], default: 89999 },
-  buyUrl: { type: String, default: null }
+  buyUrl: { type: String, default: null },
+  bankPartners: { type: Array, default: () => [] }
 })
 
 const basePrice = computed(() => {
@@ -169,21 +172,58 @@ const basePrice = computed(() => {
   return p > 0 ? p : 89999
 })
 
-const banks = [
-  { id: 'nabil', name: 'Nabil Bank' },
-  { id: 'nic',   name: 'NIC Asia Bank' },
-  { id: 'global', name: 'Global IME Bank' },
-  { id: 'hbl',   name: 'Himalayan Bank' },
-  { id: 'nmb',   name: 'NMB Bank' },
-  { id: 'scb',   name: 'Standard Chartered' }
+const defaultBanks = [
+  { id: 'nabil', name: 'Nabil Bank', tenures: [3, 6, 9, 12, 18], processingFeePercent: 0, termsNote: null },
+  { id: 'nic',   name: 'NIC Asia Bank', tenures: [3, 6, 9, 12, 18], processingFeePercent: 0, termsNote: null },
+  { id: 'global', name: 'Global IME Bank', tenures: [3, 6, 9, 12, 18], processingFeePercent: 0, termsNote: null },
+  { id: 'hbl',   name: 'Himalayan Bank', tenures: [3, 6, 9, 12, 18], processingFeePercent: 0, termsNote: null },
+  { id: 'nmb',   name: 'NMB Bank', tenures: [3, 6, 9, 12, 18], processingFeePercent: 0, termsNote: null },
+  { id: 'scb',   name: 'Standard Chartered', tenures: [3, 6, 9, 12, 18], processingFeePercent: 0, termsNote: null }
 ]
 
+const banks = computed(() => {
+  if (props.bankPartners && props.bankPartners.length > 0) {
+    return props.bankPartners.map(b => ({
+      id: b.slug || String(b.id),
+      name: b.name,
+      tenures: Array.isArray(b.supported_tenures) && b.supported_tenures.length > 0 ? b.supported_tenures : [3, 6, 9, 12, 18],
+      processingFeePercent: parseFloat(b.processing_fee_percent || 0),
+      minDownPaymentPercent: parseFloat(b.min_downpayment_percent || 0),
+      termsNote: b.terms_note || null,
+      logo: b.logo || null,
+    }))
+  }
+  return defaultBanks
+})
+
 const selectedBank = ref('nabil')
+
+watch(banks, (newBanks) => {
+  if (newBanks.length && !newBanks.some(b => b.id === selectedBank.value)) {
+    selectedBank.value = newBanks[0].id
+  }
+}, { immediate: true })
+
+const activeBank = computed(() => {
+  return banks.value.find(b => b.id === selectedBank.value) || banks.value[0]
+})
+
+const availableTenures = computed(() => {
+  return activeBank.value?.tenures || [3, 6, 9, 12, 18]
+})
+
 const tenureMonths = ref(12)
+
+watch(availableTenures, (newTenures) => {
+  if (newTenures.length && !newTenures.includes(tenureMonths.value)) {
+    tenureMonths.value = newTenures[0]
+  }
+}, { immediate: true })
+
 const downPaymentPercent = ref(10)
 
 const currentBankName = computed(() => {
-  return banks.find(b => b.id === selectedBank.value)?.name || 'selected bank'
+  return activeBank.value?.name || 'selected bank'
 })
 
 const downPaymentAmount = computed(() => {
@@ -194,8 +234,13 @@ const financedPrincipal = computed(() => {
   return Math.max(0, basePrice.value - downPaymentAmount.value)
 })
 
+const processingFeeAmount = computed(() => {
+  const pct = activeBank.value?.processingFeePercent || 0
+  return Math.round((financedPrincipal.value * pct) / 100)
+})
+
 const monthlyInstallment = computed(() => {
   if (tenureMonths.value <= 0) return 0
-  return Math.round(financedPrincipal.value / tenureMonths.value)
+  return Math.round((financedPrincipal.value + processingFeeAmount.value) / tenureMonths.value)
 })
 </script>

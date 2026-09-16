@@ -340,6 +340,17 @@ import {
   CreditCard, CheckCircle, Radio, Wrench, Info, MapPin, Phone
 } from 'lucide-vue-next'
 
+const props = defineProps({
+  frequencyBands: {
+    type: Array,
+    default: () => []
+  },
+  serviceCenters: {
+    type: Array,
+    default: () => []
+  }
+})
+
 const hubTabs = [
   { id: 'mdms', label: 'MDMS & Airport Duty Calculator', icon: ShieldCheck, badge: 'Official Rates' },
   { id: '5g', label: 'Nepal 5G & 4G Band Radar', icon: Radio, badge: 'NTC / Ncell' },
@@ -400,27 +411,50 @@ const calculatedMdms = computed(() => {
 // 5G & 4G Radar State
 const activeCarrier = ref('ntc')
 
-const ntcBands = [
+function getBandClass(tech) {
+  const t = (tech || '').toLowerCase()
+  if (t.includes('5g')) return 'bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300'
+  if (t.includes('rural') || t.includes('penetration') || t.includes('expansion')) return 'bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300'
+  if (t.includes('capacity') || t.includes('aggregation') || t.includes('data')) return 'bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300'
+  return 'bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300'
+}
+
+const defaultNtcBands = [
   { code: 'Band 3 (1800 MHz)', tech: '4G LTE Primary', frequency: 'FDD 1800 MHz', role: 'Main coverage layer in Kathmandu Valley & nationwide highways.', statusClass: 'bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300' },
   { code: 'Band 20 (800 MHz)', tech: '4G Rural Deep Penetration', frequency: 'FDD 800 MHz', role: 'Deep indoor penetration in high-rises and rural mountainous areas.', statusClass: 'bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300' },
   { code: 'Band 1 (2100 MHz)', tech: '3G / 4G Data Capacity', frequency: 'FDD 2100 MHz', role: 'Carrier aggregation high-density data tier.', statusClass: 'bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300' },
   { code: 'Band n78 (3500 MHz)', tech: 'Official 5G Trial', frequency: 'TDD 3500 MHz Sub-6', role: 'Ultra-fast gigabit speeds active at NTC Sundhara, Babarmaal & Pokhara.', statusClass: 'bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300' },
 ]
 
-const ncellBands = [
+const defaultNcellBands = [
   { code: 'Band 3 (1800 MHz)', tech: '4G LTE Primary', frequency: 'FDD 1800 MHz', role: 'Core backbone 4G LTE with 4G+ carrier aggregation.', statusClass: 'bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300' },
   { code: 'Band 8 (900 MHz)', tech: '4G Coverage Expansion', frequency: 'FDD 900 MHz', role: 'Long-range rural LTE signal across Terai & Hilly districts.', statusClass: 'bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300' },
   { code: 'Band 1 (2100 MHz)', tech: '3G & LTE Layer', frequency: 'FDD 2100 MHz', role: 'Metro data capacity in Kathmandu, Biratnagar, and Nepalgunj.', statusClass: 'bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300' },
   { code: 'Band n78 (3500 MHz)', tech: '5G Architecture Ready', frequency: 'TDD 3500 MHz Sub-6', role: 'Fiber-backed towers ready for commercial 5G spectrum auction.', statusClass: 'bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300' },
 ]
 
-const currentCarrierBands = computed(() => activeCarrier.value === 'ntc' ? ntcBands : ncellBands)
+const currentCarrierBands = computed(() => {
+  if (props.frequencyBands && props.frequencyBands.length > 0) {
+    const matched = props.frequencyBands
+      .filter(b => (b.carrier || '').toLowerCase() === activeCarrier.value.toLowerCase())
+      .map(b => ({
+        code: b.code,
+        tech: b.technology || b.status_badge || 'Cellular Band',
+        frequency: b.frequency,
+        role: b.role,
+        statusClass: getBandClass(b.technology || b.status_badge)
+      }))
+
+    if (matched.length > 0) return matched
+  }
+
+  return activeCarrier.value === 'ntc' ? defaultNtcBands : defaultNcellBands
+})
 
 // Repair Directory State
 const selectedRepairBrand = ref('All')
-const repairBrands = ['All', 'Apple', 'Samsung', 'Xiaomi', 'OnePlus']
 
-const serviceCenters = [
+const defaultServiceCenters = [
   { brand: 'Apple', name: 'EvoStore Authorized Service Provider', address: 'Fortune Square, Durbarmarg, Kathmandu', phone: '+977-1-4225444', avgScreenCost: 'Rs. 28,000 – 55,000' },
   { brand: 'Apple', name: 'Oliz Store Customer Care Center', address: 'Babarmaal Revisited, Kathmandu', phone: '+977-1-4261160', avgScreenCost: 'Rs. 25,000 – 52,000' },
   { brand: 'Samsung', name: 'Samsung Plaza Customer Service', address: '4th Floor, CTC Mall, Sundhara, Kathmandu', phone: '+977-1-4228990', avgScreenCost: 'Rs. 12,000 – 38,000' },
@@ -429,8 +463,26 @@ const serviceCenters = [
   { brand: 'OnePlus', name: 'Smart Care (Official OnePlus Center)', address: 'Pashupati Plaza, New Road, Kathmandu', phone: '+977-1-4233333', avgScreenCost: 'Rs. 14,000 – 28,000' },
 ]
 
+const serviceCentersList = computed(() => {
+  if (props.serviceCenters && props.serviceCenters.length > 0) {
+    return props.serviceCenters.map(c => ({
+      brand: c.brand,
+      name: c.name,
+      address: c.address + (c.city && !c.address.includes(c.city) ? `, ${c.city}` : ''),
+      phone: c.phone || 'Contact Center',
+      avgScreenCost: c.avg_screen_cost || 'Official Warranty'
+    }))
+  }
+  return defaultServiceCenters
+})
+
+const repairBrands = computed(() => {
+  const brands = new Set(serviceCentersList.value.map(c => c.brand))
+  return ['All', ...Array.from(brands)]
+})
+
 const filteredServiceCenters = computed(() => {
-  if (selectedRepairBrand.value === 'All') return serviceCenters
-  return serviceCenters.filter(c => c.brand === selectedRepairBrand.value)
+  if (selectedRepairBrand.value === 'All') return serviceCentersList.value
+  return serviceCentersList.value.filter(c => c.brand === selectedRepairBrand.value)
 })
 </script>

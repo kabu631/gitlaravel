@@ -47,7 +47,7 @@ class AdminPanelProvider extends PanelProvider
                 StatsOverview::class,
                 RecentOrdersTable::class,
             ])
-            ->navigationGroups(['Catalog', 'Content', 'Sales', 'Users'])
+            ->navigationGroups(['Catalog', 'Content', 'Tech Lab & Tools', 'Settings', 'Sales', 'Users'])
             ->userMenuItems([
                 MenuItem::make()
                     ->label('Back to Website')

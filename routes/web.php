@@ -75,6 +75,7 @@ Route::post('/chatbot/chat', [ChatbotController::class, 'chat'])->name('chatbot.
 Route::get('/about', [PageController::class, 'about'])->name('pages.about');
 Route::get('/price-tracker', [PageController::class, 'priceTracker'])->name('pages.price-tracker');
 Route::get('/tech-lab', [PageController::class, 'techLab'])->name('pages.tech-lab');
+Route::post('/tech-lab/shootout/{id}/vote', [PageController::class, 'voteShootout'])->name('pages.shootout.vote');
 Route::get('/contact', [PageController::class, 'contact'])->name('pages.contact');
 Route::post('/contact', [PageController::class, 'contactStore'])->name('pages.contact.store');
 Route::get('/services', [PageController::class, 'services'])->name('pages.services');

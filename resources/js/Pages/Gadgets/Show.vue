@@ -790,9 +790,10 @@
             <!-- 4. Nepal 0% EMI Bank Installment Calculator -->
             <div v-show="activeLabTab === 'emi-calc'">
               <NepalEmiCalculator
-                :product-price="displayPrice"
+                :price="displayPrice"
                 :gadget-name="gadget.name"
                 :buy-url="gadget.buy_url"
+                :bank-partners="bankPartners"
               />
             </div>
 
@@ -987,7 +988,7 @@
               class="flex items-center gap-3 group"
             >
               <div class="w-12 h-12 rounded-xl bg-slate-50 dark:bg-slate-800 flex items-center justify-center p-1.5 shrink-0 border border-slate-100 dark:border-slate-700/60">
-                <img v-if="t.image" :src="`/storage/${t.image}`" :alt="t.name" class="w-full h-full object-contain" />
+                <img v-if="t.image" :src="getImageUrl(t.image)" :alt="t.name" class="w-full h-full object-contain" />
                 <Cpu v-else class="w-5 h-5 text-slate-400" />
               </div>
               <div class="min-w-0 flex-1">
@@ -1054,6 +1055,7 @@ import DisplayRefreshSimulator from '@/Components/DisplayRefreshSimulator.vue'
 import GamingFpsLab from '@/Components/GamingFpsLab.vue'
 import NepalEmiCalculator from '@/Components/NepalEmiCalculator.vue'
 import ResaleValuePredictor from '@/Components/ResaleValuePredictor.vue'
+import { getImageUrl } from '@/Composables/useImageUrl'
 
 const activeLabTab = ref('community')
 const labTabs = [
@@ -1076,6 +1078,7 @@ const props = defineProps({
   related:         { type: Array,  default: () => [] },
   trending:        { type: Array,  default: () => [] },
   latestNews:      { type: Array,  default: () => [] },
+  bankPartners:    { type: Array,  default: () => [] },
   inWishlist:      { type: Boolean, default: false },
   hasCommented:    { type: Boolean, default: false },
 })
@@ -1098,8 +1101,8 @@ function toggleCompareTray() {
 // ═══════════════════════════════════════════════════════════
 const gallery = computed(() => {
   const imgs = []
-  if (props.gadget.image) imgs.push({ src: `/storage/${props.gadget.image}`, alt: props.gadget.name })
-  props.gadget.images?.forEach(i => imgs.push({ src: `/storage/${i.image}`, alt: i.alt_text || props.gadget.name }))
+  if (props.gadget.image) imgs.push({ src: getImageUrl(props.gadget.image), alt: props.gadget.name })
+  props.gadget.images?.forEach(i => imgs.push({ src: getImageUrl(i.image), alt: i.alt_text || props.gadget.name }))
   return imgs.length ? imgs : [{ src: '/placeholder.png', alt: props.gadget.name }]
 })
 const activeImage = ref(gallery.value[0]?.src)
@@ -1107,7 +1110,7 @@ const activeImage = ref(gallery.value[0]?.src)
 const allThumbs = computed(() => {
   const list = [...gallery.value]
   if (selectedVariant.value?.variant_image) {
-    const src = `/storage/${selectedVariant.value.variant_image}`
+    const src = getImageUrl(selectedVariant.value.variant_image)
     if (!list.some(i => i.src === src)) list.unshift({ src, alt: props.gadget.name })
   }
   return list
