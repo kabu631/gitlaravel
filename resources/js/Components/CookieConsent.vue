@@ -22,7 +22,7 @@
             </div>
             <div>
               <h3 id="cookie-banner-title" class="font-heading font-extrabold text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
-                <span>Cookies &amp; Session Protection</span>
+                <span>{{ consentTitle }}</span>
                 <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
                   Active
                 </span>
@@ -41,7 +41,7 @@
         </div>
 
         <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
-          We use cookies and active sessions to authenticate accounts, store device comparisons, manage your cart, and secure your session.
+          {{ consentMessage }}
           <strong class="text-brand-600 dark:text-brand-400 font-semibold block mt-1">
             🔒 Security Rule: Active sessions automatically end when your system shuts down or browser closes. You will need to re-login upon system restart.
           </strong>
@@ -79,8 +79,14 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { Link } from '@inertiajs/vue3'
+import { ref, computed, onMounted } from 'vue'
+import { Link, usePage } from '@inertiajs/vue3'
+
+// Consent copy is editable in the admin panel (Settings -> group "cookie").
+const cookieSettings = computed(() => usePage().props.settings?.cookie || {})
+const consentEnabled = computed(() => cookieSettings.value.cookie_consent_enabled !== false)
+const consentTitle   = computed(() => cookieSettings.value.cookie_consent_title || 'Cookies & Session Protection')
+const consentMessage = computed(() => cookieSettings.value.cookie_consent_message || 'We use cookies and active sessions to authenticate accounts, store device comparisons, manage your cart, and secure your session.')
 import { ShieldCheck, CheckCircle, X } from 'lucide-vue-next'
 
 const CONSENT_KEY = 'git_infosys_cookie_consent'
@@ -106,7 +112,7 @@ onMounted(() => {
   const storedConsent = localStorage.getItem(CONSENT_KEY)
   const cookieConsent = getCookie('cookie_consent')
 
-  if (!storedConsent && !cookieConsent) {
+  if (consentEnabled.value && !storedConsent && !cookieConsent) {
     // Show banner after brief delay for smooth entrance
     setTimeout(() => {
       isVisible.value = true

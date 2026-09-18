@@ -13,6 +13,20 @@
 
   <div class="min-h-screen bg-slate-50 dark:bg-[#0b0f19] text-slate-900 dark:text-slate-100 font-sans selection:bg-brand-500 selection:text-white overflow-x-clip flex flex-col justify-between">
     <div>
+      <!-- Site-wide announcement, configured in the admin panel -->
+      <component
+        :is="announcement.url ? Link : 'div'"
+        v-if="announcement.show"
+        :href="announcement.url || undefined"
+        class="block bg-brand-600 text-white text-center text-xs font-semibold px-4 py-2"
+        :class="announcement.url ? 'hover:bg-brand-500 transition' : ''"
+      >
+        <span v-if="announcement.badge" class="inline-block mr-2 px-1.5 py-0.5 rounded bg-white/20 text-[9px] font-black uppercase tracking-wider align-middle">
+          {{ announcement.badge }}
+        </span>
+        <span class="align-middle">{{ announcement.text }}</span>
+      </component>
+
       <!-- Top utility bar -->
       <header class="bg-white/70 dark:bg-[#0f172a]/70 border-b border-slate-200/80 dark:border-slate-800/80 text-xs backdrop-blur-sm">
         <div class="max-w-7xl mx-auto px-4 h-9 flex items-center justify-between">
@@ -49,16 +63,16 @@
           <!-- Right: Social & Quick links -->
           <div class="flex items-center gap-4">
             <div class="flex items-center gap-2.5">
-              <a href="https://facebook.com" target="_blank" rel="noopener" class="text-slate-400 hover:text-[#1877F2] transition p-0.5" title="Facebook">
+              <a v-if="hasSocial('facebook')" :href="socialUrl('facebook')" target="_blank" rel="noopener" class="text-slate-400 hover:text-[#1877F2] transition p-0.5" title="Facebook">
                 <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
               </a>
-              <a href="https://x.com" target="_blank" rel="noopener" class="text-slate-400 hover:text-slate-900 dark:hover:text-white transition p-0.5" title="X">
+              <a v-if="hasSocial('twitter')" :href="socialUrl('twitter')" target="_blank" rel="noopener" class="text-slate-400 hover:text-slate-900 dark:hover:text-white transition p-0.5" title="X">
                 <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener" class="text-slate-400 hover:text-[#E1306C] transition p-0.5" title="Instagram">
+              <a v-if="hasSocial('instagram')" :href="socialUrl('instagram')" target="_blank" rel="noopener" class="text-slate-400 hover:text-[#E1306C] transition p-0.5" title="Instagram">
                 <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener" class="text-slate-400 hover:text-[#FF0000] transition p-0.5" title="YouTube">
+              <a v-if="hasSocial('youtube')" :href="socialUrl('youtube')" target="_blank" rel="noopener" class="text-slate-400 hover:text-[#FF0000] transition p-0.5" title="YouTube">
                 <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
               </a>
             </div>
@@ -93,42 +107,43 @@
                 <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'products' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
               </button>
               <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'products'" class="dd-panel w-60 p-2">
+                <div v-if="activeDD === 'products'" class="dd-panel w-64 p-2.5">
                   <Link :href="route('gadgets.index')" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 flex items-center justify-center shrink-0">
-                      <Cpu class="w-4 h-4" />
+                    <div class="w-9 h-9 rounded-lg bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 flex items-center justify-center shrink-0">
+                      <Cpu class="w-[18px] h-[18px]" />
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800 dark:text-slate-200">All Products</div>
-                      <div class="text-[11px] text-slate-400">Full catalog & filters</div>
+                      <div class="text-xs text-slate-400">Full catalog & filters</div>
                     </div>
                   </Link>
 
                   <div class="dd-divider" />
+                  <div class="dd-label">Shop by Category</div>
 
                   <div class="grid grid-cols-2 gap-1">
                     <Link :href="route('gadgets.index', { category: 'mobile' })" class="dd-item-sm">
-                      <Smartphone class="w-4 h-4 text-slate-400 group-hover:text-brand-500" />
+                      <Smartphone class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
                       <span>Smartphones</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'laptop' })" class="dd-item-sm">
-                      <Laptop class="w-4 h-4 text-slate-400 group-hover:text-brand-500" />
+                      <Laptop class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
                       <span>Laptops</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'tablet' })" class="dd-item-sm">
-                      <Tablet class="w-4 h-4 text-slate-400 group-hover:text-brand-500" />
+                      <Tablet class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
                       <span>Tablets</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'earbuds' })" class="dd-item-sm">
-                      <Headphones class="w-4 h-4 text-slate-400 group-hover:text-brand-500" />
+                      <Headphones class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
                       <span>Audio</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'smartwatch' })" class="dd-item-sm">
-                      <Watch class="w-4 h-4 text-slate-400 group-hover:text-brand-500" />
+                      <Watch class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
                       <span>Wearables</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'accessory' })" class="dd-item-sm">
-                      <Mouse class="w-4 h-4 text-slate-400 group-hover:text-brand-500" />
+                      <Mouse class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
                       <span>Accessories</span>
                     </Link>
                   </div>
@@ -136,38 +151,38 @@
                   <div class="dd-divider" />
 
                   <Link :href="route('compare.index')" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
-                      <Scale class="w-4 h-4" />
+                    <div class="w-9 h-9 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
+                      <Scale class="w-[18px] h-[18px]" />
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800 dark:text-slate-200">Side-by-Side Compare</div>
-                      <div class="text-[11px] text-slate-400">Spec & price showdown</div>
+                      <div class="text-xs text-slate-400">Spec & price showdown</div>
                     </div>
                   </Link>
 
                   <Link :href="route('pcbuilder.index')" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
-                      <Bot class="w-4 h-4" />
+                    <div class="w-9 h-9 rounded-lg bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
+                      <Bot class="w-[18px] h-[18px]" />
                     </div>
                     <div>
                       <div class="font-semibold text-blue-600 dark:text-blue-400 flex items-center gap-1.5">
                         PC Builder
                         <span class="text-[9px] px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/60 text-blue-600 dark:text-blue-300 font-bold uppercase">AI</span>
                       </div>
-                      <div class="text-[11px] text-slate-400">Custom build estimator</div>
+                      <div class="text-xs text-slate-400">Custom build estimator</div>
                     </div>
                   </Link>
 
                   <Link :href="route('pages.price-tracker')" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-rose-50 dark:bg-rose-950/60 text-rose-500 flex items-center justify-center shrink-0">
-                      <Flame class="w-4 h-4 text-rose-500" />
+                    <div class="w-9 h-9 rounded-lg bg-rose-50 dark:bg-rose-950/60 text-rose-500 flex items-center justify-center shrink-0">
+                      <Flame class="w-[18px] h-[18px] text-rose-500" />
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
                         Price Tracker
                         <span class="text-[9px] px-1.5 py-0.5 rounded bg-rose-500 text-white font-bold uppercase">HOT</span>
                       </div>
-                      <div class="text-[11px] text-slate-400">Track Nepal price drops &amp; cuts</div>
+                      <div class="text-xs text-slate-400">Nepal price drops &amp; cuts</div>
                     </div>
                   </Link>
                 </div>
@@ -181,23 +196,23 @@
                 <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'reviews' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
               </button>
               <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'reviews'" class="dd-panel w-52 p-2">
+                <div v-if="activeDD === 'reviews'" class="dd-panel w-60 p-2.5">
                   <Link :href="route('reviews.index')" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-500 flex items-center justify-center shrink-0">
-                      <Star class="w-4 h-4" />
+                    <div class="w-9 h-9 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-500 flex items-center justify-center shrink-0">
+                      <Star class="w-[18px] h-[18px]" />
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800 dark:text-slate-200">All Reviews</div>
-                      <div class="text-[11px] text-slate-400">Expert verdicts</div>
+                      <div class="text-xs text-slate-400">Expert verdicts</div>
                     </div>
                   </Link>
                   <Link :href="route('reviews.index', { filter: 'editors-choice' })" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-purple-50 dark:bg-purple-950/60 text-purple-500 flex items-center justify-center shrink-0">
-                      <Award class="w-4 h-4" />
+                    <div class="w-9 h-9 rounded-lg bg-purple-50 dark:bg-purple-950/60 text-purple-500 flex items-center justify-center shrink-0">
+                      <Award class="w-[18px] h-[18px]" />
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800 dark:text-slate-200">Editor's Choice</div>
-                      <div class="text-[11px] text-slate-400">Top ranked gadgets</div>
+                      <div class="text-xs text-slate-400">Top ranked gadgets</div>
                     </div>
                   </Link>
                 </div>
@@ -211,37 +226,50 @@
                 <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'news' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
               </button>
               <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'news'" class="dd-panel w-56 p-2">
+                <div v-if="activeDD === 'news'" class="dd-panel w-64 p-2.5">
                   <Link :href="route('news.index')" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-blue-50 dark:bg-blue-950/60 text-blue-500 flex items-center justify-center shrink-0">
-                      <Newspaper class="w-4 h-4" />
+                    <div class="w-9 h-9 rounded-lg bg-blue-50 dark:bg-blue-950/60 text-blue-500 flex items-center justify-center shrink-0">
+                      <Newspaper class="w-[18px] h-[18px]" />
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800 dark:text-slate-200">All Tech News</div>
-                      <div class="text-[11px] text-slate-400">Latest updates</div>
+                      <div class="text-xs text-slate-400">Latest updates</div>
                     </div>
                   </Link>
                   <div class="dd-divider" />
-                  <Link :href="route('news.index', { category: 'rumors' })" class="dd-item-sm">
-                    <Activity class="w-4 h-4 text-purple-500" />
-                    <span>Rumors & Upcoming</span>
-                  </Link>
-                  <Link :href="route('news.index', { category: 'technology' })" class="dd-item-sm">
-                    <Lightbulb class="w-4 h-4 text-slate-400" />
-                    <span>Technology</span>
-                  </Link>
-                  <Link :href="route('news.index', { category: 'ai-ml' })" class="dd-item-sm">
-                    <Bot class="w-4 h-4 text-purple-400" />
-                    <span>AI & Innovations</span>
-                  </Link>
-                  <Link :href="route('news.index', { category: 'gaming' })" class="dd-item-sm">
-                    <Gamepad2 class="w-4 h-4 text-emerald-400" />
-                    <span>Gaming</span>
-                  </Link>
-                  <Link :href="route('news.index', { category: 'mobile' })" class="dd-item-sm">
-                    <Smartphone class="w-4 h-4 text-brand-400" />
-                    <span>Mobile Launches</span>
-                  </Link>
+                  <div class="dd-label">Browse by Category</div>
+                  <div class="space-y-0.5">
+                    <Link :href="route('news.index', { category: 'rumors' })" class="dd-item-sm">
+                      <div class="dd-icon-chip bg-purple-50 dark:bg-purple-950/50">
+                        <Activity class="w-4 h-4 text-purple-500" />
+                      </div>
+                      <span>Rumors & Upcoming</span>
+                    </Link>
+                    <Link :href="route('news.index', { category: 'technology' })" class="dd-item-sm">
+                      <div class="dd-icon-chip bg-slate-100 dark:bg-slate-800">
+                        <Lightbulb class="w-4 h-4 text-slate-500 dark:text-slate-400" />
+                      </div>
+                      <span>Technology</span>
+                    </Link>
+                    <Link :href="route('news.index', { category: 'ai-ml' })" class="dd-item-sm">
+                      <div class="dd-icon-chip bg-violet-50 dark:bg-violet-950/50">
+                        <Bot class="w-4 h-4 text-violet-500" />
+                      </div>
+                      <span>AI & Innovations</span>
+                    </Link>
+                    <Link :href="route('news.index', { category: 'gaming' })" class="dd-item-sm">
+                      <div class="dd-icon-chip bg-emerald-50 dark:bg-emerald-950/50">
+                        <Gamepad2 class="w-4 h-4 text-emerald-500" />
+                      </div>
+                      <span>Gaming</span>
+                    </Link>
+                    <Link :href="route('news.index', { category: 'mobile' })" class="dd-item-sm">
+                      <div class="dd-icon-chip bg-brand-50 dark:bg-brand-950/50">
+                        <Smartphone class="w-4 h-4 text-brand-500" />
+                      </div>
+                      <span>Mobile Launches</span>
+                    </Link>
+                  </div>
                 </div>
               </Transition>
             </div>
@@ -253,39 +281,46 @@
                 <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'guides' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
               </button>
               <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'guides'" class="dd-panel w-60 p-2">
+                <div v-if="activeDD === 'guides'" class="dd-panel w-64 p-2.5">
                   <Link :href="route('guides.index')" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-500 flex items-center justify-center shrink-0">
-                      <BookOpen class="w-4 h-4" />
+                    <div class="w-9 h-9 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-500 flex items-center justify-center shrink-0">
+                      <BookOpen class="w-[18px] h-[18px]" />
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800 dark:text-slate-200">All Tech Guides</div>
-                      <div class="text-[11px] text-slate-400">Tips &amp; tutorials</div>
+                      <div class="text-xs text-slate-400">Tips &amp; tutorials</div>
                     </div>
                   </Link>
 
                   <Link :href="route('pages.tech-lab')" class="dd-item">
-                    <div class="w-7 h-7 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 border border-emerald-500/20">
-                      <ShieldCheck class="w-4 h-4" />
+                    <div class="w-9 h-9 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 border border-emerald-500/20">
+                      <ShieldCheck class="w-[18px] h-[18px]" />
                     </div>
                     <div>
                       <div class="font-semibold text-emerald-600 dark:text-emerald-400 flex items-center gap-1.5">
                         Tech Lab
                         <span class="text-[9px] px-1 py-0.2 rounded bg-emerald-500 text-white font-extrabold uppercase leading-tight">NEW</span>
                       </div>
-                      <div class="text-[11px] text-slate-400">Interactive hardware tests</div>
+                      <div class="text-xs text-slate-400">Interactive hardware tests</div>
                     </div>
                   </Link>
 
                   <div class="dd-divider" />
-                  <Link :href="route('guides.index', { type: 'buying-guide' })" class="dd-item-sm">
-                    <ShoppingBag class="w-4 h-4 text-slate-400" />
-                    <span>Buying Guides</span>
-                  </Link>
-                  <Link :href="route('guides.index', { type: 'how-to' })" class="dd-item-sm">
-                    <Wrench class="w-4 h-4 text-slate-400" />
-                    <span>How-to Guides</span>
-                  </Link>
+                  <div class="dd-label">More Guides</div>
+                  <div class="space-y-0.5">
+                    <Link :href="route('guides.index', { type: 'buying-guide' })" class="dd-item-sm">
+                      <div class="dd-icon-chip bg-slate-100 dark:bg-slate-800">
+                        <ShoppingBag class="w-4 h-4 text-slate-500 dark:text-slate-400" />
+                      </div>
+                      <span>Buying Guides</span>
+                    </Link>
+                    <Link :href="route('guides.index', { type: 'how-to' })" class="dd-item-sm">
+                      <div class="dd-icon-chip bg-slate-100 dark:bg-slate-800">
+                        <Wrench class="w-4 h-4 text-slate-500 dark:text-slate-400" />
+                      </div>
+                      <span>How-to Guides</span>
+                    </Link>
+                  </div>
                 </div>
               </Transition>
             </div>
@@ -385,7 +420,7 @@
                       <span>My Profile</span>
                     </Link>
 
-                    <a v-if="$page.props.auth.user.is_admin" href="/secure-admin" target="_blank" class="user-menu-link text-brand-600 dark:text-brand-400" @click="userMenuOpen = false">
+                    <a v-if="$page.props.auth.user.is_admin" :href="adminUrl" target="_blank" class="user-menu-link text-brand-600 dark:text-brand-400" @click="userMenuOpen = false">
                       <ExternalLink class="w-3.5 h-3.5" />
                       <span>Admin Panel</span>
                     </a>
@@ -491,10 +526,6 @@
                 <Link :href="route('guides.index')" class="mobile-nav-chip" @click="mobileOpen = false">
                   <BookOpen class="w-3.5 h-3.5 text-emerald-400" />
                   <span>Guides</span>
-                </Link>
-                <Link :href="route('search.index')" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Search class="w-3.5 h-3.5 text-slate-400" />
-                  <span>Search</span>
                 </Link>
               </div>
             </div>
@@ -775,6 +806,18 @@
                 Live Nepal Tech Rates
               </span>
             </div>
+
+            <!-- Contact details, managed in the admin panel -->
+            <ul class="mt-4 space-y-1.5 text-xs text-slate-500 dark:text-slate-400">
+              <li v-if="contact.footer_phone">
+                <a :href="`tel:${contact.footer_phone.replace(/\s/g, '')}`" class="hover:text-brand-500 transition">{{ contact.footer_phone }}</a>
+              </li>
+              <li v-if="contact.footer_email">
+                <a :href="`mailto:${contact.footer_email}`" class="hover:text-brand-500 transition">{{ contact.footer_email }}</a>
+              </li>
+              <li v-if="contact.footer_address">{{ contact.footer_address }}</li>
+              <li v-if="contact.footer_hours">{{ contact.footer_hours }}</li>
+            </ul>
           </div>
 
           <!-- Col 2: Products -->
@@ -844,7 +887,7 @@
 
         <!-- Bottom Bar -->
         <div class="border-t border-slate-200 dark:border-slate-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs">
-          <p>© {{ new Date().getFullYear() }} Git Infosys. Built with cutting-edge tech in Nepal.</p>
+          <p>{{ contact.footer_copyright || `© ${new Date().getFullYear()} Git Infosys. Built with cutting-edge tech in Nepal.` }}</p>
           <div class="flex items-center gap-4">
             <button
               type="button"
@@ -882,6 +925,32 @@ import {
 
 const page = usePage()
 const seo  = computed(() => page.props.seo || {})
+
+// Site-wide values managed from the admin panel (Settings → Site Settings).
+const settings  = computed(() => page.props.settings || {})
+const contact   = computed(() => settings.value.contact || {})
+const adminUrl  = computed(() => page.props.adminUrl || '/secure-admin')
+const socials   = computed(() => {
+  const s = settings.value.social || {}
+  return [
+    { key: 'facebook',  url: s.social_facebook },
+    { key: 'twitter',   url: s.social_twitter },
+    { key: 'instagram', url: s.social_instagram },
+    { key: 'youtube',   url: s.social_youtube },
+    { key: 'tiktok',    url: s.social_tiktok },
+  ].filter(item => !!item.url)
+})
+const announcement = computed(() => {
+  const a = settings.value.announcement || {}
+  return {
+    show:  a.announcement_enabled !== false && !!a.announcement_text,
+    text:  a.announcement_text,
+    url:   a.announcement_url,
+    badge: a.announcement_badge,
+  }
+})
+const hasSocial = key => socials.value.some(s => s.key === key)
+const socialUrl = key => socials.value.find(s => s.key === key)?.url
 
 const { isDark, init: initTheme, toggle: toggleTheme } = useTheme()
 
@@ -1097,11 +1166,21 @@ onUnmounted(() => {
 }
 
 .dd-item {
-  @apply flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs text-slate-700 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-50 dark:hover:bg-slate-800/60 transition w-full;
+  @apply flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-slate-700 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-50 dark:hover:bg-slate-800/60 transition w-full;
 }
 
 .dd-item-sm {
-  @apply flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-xs text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-50 dark:hover:bg-slate-800/60 transition;
+  @apply flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-50 dark:hover:bg-slate-800/60 transition;
+}
+
+/* Small colored icon badge used inside single-column dd-item-sm rows
+   (News, Guides) so each option reads as its own row, not a plain text list. */
+.dd-icon-chip {
+  @apply w-7 h-7 rounded-lg flex items-center justify-center shrink-0;
+}
+
+.dd-label {
+  @apply px-3 pt-2.5 pb-1 text-[10px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500;
 }
 
 .dd-divider {

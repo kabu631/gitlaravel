@@ -75,6 +75,9 @@ class CartController extends Controller
                 ->first();
 
             if ($existing) {
+                if ($existing->quantity + 1 > $variant->stock_quantity) {
+                    return back()->with('error', "Only {$variant->stock_quantity} left in stock.");
+                }
                 $existing->increment('quantity');
             } else {
                 CartItem::create([
@@ -122,18 +125,42 @@ class CartController extends Controller
 
     public function remove(int $id)
     {
-        $item = CartItem::findOrFail($id);
-        if (auth()->check() && $item->user_id !== auth()->id()) abort(403);
-        if (!auth()->check() && $item->session_key !== session()->getId()) abort(403);
-        $item->delete();
+        $this->ownedItemOrFail($id)->delete();
         return back()->with('success', 'Item removed.');
     }
 
     public function update(Request $request, int $id)
     {
-        $item = CartItem::findOrFail($id);
+        $item = $this->ownedItemOrFail($id);
         $qty  = max(1, (int) $request->quantity);
+
+        // Never let the cart hold more than what is actually in stock.
+        if ($item->product_variant_id) {
+            $stock = (int) optional($item->productVariant)->stock_quantity;
+            if ($stock < 1) {
+                return back()->with('error', 'That variant is out of stock.');
+            }
+            if ($qty > $stock) {
+                $item->update(['quantity' => $stock]);
+                return back()->with('warning', "Only {$stock} left in stock.");
+            }
+        }
+
         $item->update(['quantity' => $qty]);
         return back();
+    }
+
+    /** Resolve a cart item belonging to the current user/guest session, or 403. */
+    private function ownedItemOrFail(int $id): CartItem
+    {
+        $item = CartItem::findOrFail($id);
+
+        if (auth()->check()) {
+            abort_if($item->user_id !== auth()->id(), 403);
+        } else {
+            abort_if($item->user_id !== null || $item->session_key !== session()->getId(), 403);
+        }
+
+        return $item;
     }
 }

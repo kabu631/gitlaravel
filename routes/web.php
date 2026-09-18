@@ -51,7 +51,9 @@ Route::get('/rumors', fn() => redirect()->route('news.index', ['category' => 'ru
 // Reviews
 Route::get('/reviews', [ReviewController::class, 'index'])->name('reviews.index');
 Route::get('/reviews/{slug}', [ReviewController::class, 'show'])->name('reviews.show');
-Route::post('/reviews/{id}/react', [ReviewController::class, 'react'])->name('reviews.react');
+Route::post('/reviews/{id}/react', [ReviewController::class, 'react'])
+    ->middleware('throttle:interactions')
+    ->name('reviews.react');
 
 // Guides
 Route::get('/guides', [GuideController::class, 'index'])->name('guides.index');
@@ -59,25 +61,35 @@ Route::get('/guides/{slug}', [GuideController::class, 'show'])->name('guides.sho
 
 // Compare
 Route::get('/compare', [CompareController::class, 'index'])->name('compare.index');
-Route::post('/compare/ai-suggest', [CompareController::class, 'suggest'])->name('compare.suggest');
+Route::post('/compare/ai-suggest', [CompareController::class, 'suggest'])
+    ->middleware('throttle:ai')
+    ->name('compare.suggest');
 
 // Search
 Route::get('/search', [SearchController::class, 'index'])->name('search.index');
 
 // PC Builder
 Route::get('/pc-builder', [PCBuilderController::class, 'index'])->name('pcbuilder.index');
-Route::post('/pc-builder/recommend', [PCBuilderController::class, 'recommend'])->name('pcbuilder.recommend');
+Route::post('/pc-builder/recommend', [PCBuilderController::class, 'recommend'])
+    ->middleware('throttle:ai')
+    ->name('pcbuilder.recommend');
 
 // AI Chatbot
-Route::post('/chatbot/chat', [ChatbotController::class, 'chat'])->name('chatbot.chat');
+Route::post('/chatbot/chat', [ChatbotController::class, 'chat'])
+    ->middleware('throttle:ai')
+    ->name('chatbot.chat');
 
 // Static Pages
 Route::get('/about', [PageController::class, 'about'])->name('pages.about');
 Route::get('/price-tracker', [PageController::class, 'priceTracker'])->name('pages.price-tracker');
 Route::get('/tech-lab', [PageController::class, 'techLab'])->name('pages.tech-lab');
-Route::post('/tech-lab/shootout/{id}/vote', [PageController::class, 'voteShootout'])->name('pages.shootout.vote');
+Route::post('/tech-lab/shootout/{id}/vote', [PageController::class, 'voteShootout'])
+    ->middleware('throttle:interactions')
+    ->name('pages.shootout.vote');
 Route::get('/contact', [PageController::class, 'contact'])->name('pages.contact');
-Route::post('/contact', [PageController::class, 'contactStore'])->name('pages.contact.store');
+Route::post('/contact', [PageController::class, 'contactStore'])
+    ->middleware('throttle:contact')
+    ->name('pages.contact.store');
 Route::get('/services', [PageController::class, 'services'])->name('pages.services');
 Route::get('/terms-and-conditions', [PageController::class, 'terms'])->name('pages.terms');
 Route::get('/privacy-policy', [PageController::class, 'privacy'])->name('pages.privacy');

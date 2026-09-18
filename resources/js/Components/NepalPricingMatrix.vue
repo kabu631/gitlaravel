@@ -47,7 +47,7 @@
           <!-- Step 2: Customs Duty -->
           <div class="flex items-center justify-between text-xs pb-2.5 border-b border-slate-100 dark:border-slate-800">
             <div>
-              <span class="font-bold text-slate-800 dark:text-slate-200 block">2. Nepal Customs Tariff (5%)</span>
+              <span class="font-bold text-slate-800 dark:text-slate-200 block">2. Nepal Customs Tariff ({{ dutyPercentLabel }}%)</span>
               <span class="text-[11px] text-slate-400">Government import duty for telecommunications</span>
             </div>
             <span class="font-mono font-bold text-amber-600 dark:text-amber-400 text-sm">
@@ -55,10 +55,10 @@
             </span>
           </div>
 
-          <!-- Step 3: VAT 13% -->
+          <!-- Step 3: VAT -->
           <div class="flex items-center justify-between text-xs pb-2.5 border-b border-slate-100 dark:border-slate-800">
             <div>
-              <span class="font-bold text-slate-800 dark:text-slate-200 block">3. Nepal VAT (13%)</span>
+              <span class="font-bold text-slate-800 dark:text-slate-200 block">3. Nepal VAT ({{ vatPercentLabel }}%)</span>
               <span class="text-[11px] text-slate-400">Inland Revenue Department tax with official bill claimable for businesses</span>
             </div>
             <span class="font-mono font-bold text-amber-600 dark:text-amber-400 text-sm">
@@ -142,7 +142,15 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { usePage } from '@inertiajs/vue3'
 import { ShieldCheck, Scale, ShoppingBag, ExternalLink } from 'lucide-vue-next'
+
+// Duty and VAT rates are maintained in the admin panel (Settings -> group "mdms").
+const mdms = computed(() => usePage().props.settings?.mdms || {})
+const dutyRate = computed(() => Number(mdms.value.mdms_customs_duty_percent ?? 5) / 100)
+const vatRate  = computed(() => Number(mdms.value.mdms_vat_percent ?? 13) / 100)
+const dutyPercentLabel = computed(() => Number(mdms.value.mdms_customs_duty_percent ?? 5))
+const vatPercentLabel  = computed(() => Number(mdms.value.mdms_vat_percent ?? 13))
 
 const props = defineProps({
   buyUrl: {
@@ -167,11 +175,11 @@ const baseNpr = computed(() => {
 })
 
 const customsDuty = computed(() => {
-  return Math.round(baseNpr.value * 0.05)
+  return Math.round(baseNpr.value * dutyRate.value)
 })
 
 const vatNpr = computed(() => {
-  return Math.round((baseNpr.value + customsDuty.value) * 0.13)
+  return Math.round((baseNpr.value + customsDuty.value) * vatRate.value)
 })
 
 const warrantyAndMdms = computed(() => {
