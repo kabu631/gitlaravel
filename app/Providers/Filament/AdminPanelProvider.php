@@ -28,7 +28,7 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->default()
             ->id('admin')
-            ->path(env('FILAMENT_PATH', 'secure-admin'))
+            ->path(config('filament.path', 'secure-admin'))
             ->login()
             ->brandName('Git Infosys Admin')
             ->brandLogo(asset('images/logo_dark.png'))

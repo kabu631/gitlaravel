@@ -7,6 +7,7 @@ use App\Models\ContactMessage;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
 use App\Models\PageContent;
+use App\Models\SiteSetting;
 use App\Models\CameraShootout;
 use App\Models\BankPartner;
 use App\Models\CarrierFrequencyBand;
@@ -235,10 +236,12 @@ class PageController extends Controller
         return Inertia::render('Pages/Contact', array_merge($this->sidebarData(), [
             'heading'    => $content?->heading    ?? 'Get In Touch',
             'subheading' => $content?->subheading ?? "Have a question, feedback, or partnership inquiry? We'd love to hear from you.",
-            'address'    => $extra['address'] ?? 'Kathmandu, Nepal',
-            'email'      => $extra['email']   ?? 'info@gitinfosys.com',
-            'phone'      => $extra['phone']   ?? '+977 000 000 000',
-            'hours'      => $extra['hours']   ?? 'Sun – Fri: 9 AM – 6 PM',
+            // Contact details live in Site Settings so the footer and this page can
+            // never disagree. A page-specific value in `extra` still wins if set.
+            'address'    => $extra['address'] ?? SiteSetting::get('footer_address', 'Kathmandu, Nepal'),
+            'email'      => $extra['email']   ?? SiteSetting::get('footer_email', 'info@gitinfosys.com'),
+            'phone'      => $extra['phone']   ?? SiteSetting::get('footer_phone', '+977 000 000 000'),
+            'hours'      => $extra['hours']   ?? SiteSetting::get('footer_hours', 'Sun – Fri: 9 AM – 6 PM'),
             'mapEmbed'   => $mapEmbed,
             'seo'        => [
                 'title'       => 'Contact Git Infosys — Get in Touch',
@@ -342,11 +345,32 @@ class PageController extends Controller
         ]);
 
         $shootout = CameraShootout::findOrFail($id);
+
+        // One vote per visitor per shootout, so the poll can't be stuffed by
+        // simply re-submitting the form.
+        $voted = (array) $request->session()->get('shootout_votes', []);
+        if (array_key_exists($shootout->id, $voted)) {
+            return response()->json([
+                'success'         => false,
+                'message'         => 'You have already voted in this shootout.',
+                'already_voted'   => true,
+                'choice'          => $voted[$shootout->id],
+                'phone_a_votes'   => $shootout->phone_a_votes,
+                'phone_b_votes'   => $shootout->phone_b_votes,
+                'phone_a_percent' => $shootout->phone_a_percent,
+                'phone_b_percent' => $shootout->phone_b_percent,
+                'total_votes'     => $shootout->total_votes,
+            ], 409);
+        }
+
         if ($validated['choice'] === 'A') {
             $shootout->increment('phone_a_votes');
         } else {
             $shootout->increment('phone_b_votes');
         }
+
+        $voted[$shootout->id] = $validated['choice'];
+        $request->session()->put('shootout_votes', $voted);
 
         $shootout->refresh();
 

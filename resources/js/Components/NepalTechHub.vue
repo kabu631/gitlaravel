@@ -180,11 +180,11 @@
 
           <div class="space-y-2 pt-3 border-t border-slate-800 text-xs">
             <div class="flex justify-between py-1 border-b border-slate-800/60">
-              <span class="text-slate-400">Official Customs Duty (5%)</span>
+              <span class="text-slate-400">Official Customs Duty ({{ dutyPercentLabel }}%)</span>
               <span class="font-mono font-semibold">Rs. {{ calculatedMdms.customsFee.toLocaleString('en-NP') }}</span>
             </div>
             <div class="flex justify-between py-1 border-b border-slate-800/60">
-              <span class="text-slate-400">VAT (13% on Imported Luxury)</span>
+              <span class="text-slate-400">VAT ({{ vatPercentLabel }}% on Imported Luxury)</span>
               <span class="font-mono font-semibold">Rs. {{ calculatedMdms.vatFee.toLocaleString('en-NP') }}</span>
             </div>
             <div class="flex justify-between py-1 border-b border-slate-800/60">
@@ -335,6 +335,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { usePage } from '@inertiajs/vue3'
 import {
   ShieldCheck, ExternalLink, UserCheck, Smartphone,
   CreditCard, CheckCircle, Radio, Wrench, Info, MapPin, Phone
@@ -364,14 +365,23 @@ const travelerType    = ref('labor') // 'labor' or 'general'
 const activePhoneTier = ref('flagship') // 'budget', 'mid', 'flagship'
 const phoneOrder      = ref('first') // 'first' or 'second'
 
-const phoneTiers = [
+// Duty, VAT and NTA fees are maintained in the admin panel (Settings -> group "mdms").
+const mdmsSettings = computed(() => usePage().props.settings?.mdms || {})
+const dutyRate     = computed(() => Number(mdmsSettings.value.mdms_customs_duty_percent ?? 5) / 100)
+const vatRate      = computed(() => Number(mdmsSettings.value.mdms_vat_percent ?? 13) / 100)
+const ntaStandard  = computed(() => Number(mdmsSettings.value.mdms_nta_fee_standard ?? 3000))
+const ntaLuxury    = computed(() => Number(mdmsSettings.value.mdms_nta_fee_luxury ?? 10000))
+const dutyPercentLabel = computed(() => Number(mdmsSettings.value.mdms_customs_duty_percent ?? 5))
+const vatPercentLabel  = computed(() => Number(mdmsSettings.value.mdms_vat_percent ?? 13))
+
+const phoneTiers = computed(() => [
   { id: 'budget', name: 'Budget / Feature', range: 'Under Rs. 15K', baseValue: 12000, ntaRate: 0 },
-  { id: 'mid', name: 'Mid-Range Smartphone', range: 'Rs. 15K – 50K', baseValue: 35000, ntaRate: 3000 },
-  { id: 'flagship', name: 'Premium Flagship (iPhone/Galaxy)', range: 'Rs. 50K+', baseValue: 110000, ntaRate: 10000 },
-]
+  { id: 'mid', name: 'Mid-Range Smartphone', range: 'Rs. 15K – 50K', baseValue: 35000, ntaRate: ntaStandard.value },
+  { id: 'flagship', name: 'Premium Flagship (iPhone/Galaxy)', range: 'Rs. 50K+', baseValue: 110000, ntaRate: ntaLuxury.value },
+])
 
 const calculatedMdms = computed(() => {
-  const tier = phoneTiers.find(t => t.id === activePhoneTier.value) || phoneTiers[2]
+  const tier = phoneTiers.value.find(t => t.id === activePhoneTier.value) || phoneTiers.value[2]
 
   // If Shramik and 1st phone -> 100% free
   if (travelerType.value === 'labor' && phoneOrder.value === 'first') {
@@ -393,10 +403,10 @@ const calculatedMdms = computed(() => {
     }
   }
 
-  // 2nd phone is subject to 5% customs + 13% VAT + NTA fee
-  const customsFee = Math.round(tier.baseValue * 0.05)
+  // 2nd phone is subject to customs duty + VAT + NTA fee, at the configured rates
+  const customsFee = Math.round(tier.baseValue * dutyRate.value)
   const assessable = tier.baseValue + customsFee
-  const vatFee = Math.round(assessable * 0.13)
+  const vatFee = Math.round(assessable * vatRate.value)
   const ntaFee = tier.ntaRate
   const totalPayable = customsFee + vatFee + ntaFee
 

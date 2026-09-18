@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\Models\SiteSetting;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -34,6 +35,8 @@ class HandleInertiaRequests extends Middleware
             'auth'     => ['user' => $request->user()],
             'siteName' => config('app.name'),
             'baseUrl'  => config('app.url'),
+            'settings' => fn () => SiteSetting::publicSettings(),
+            'adminUrl' => '/' . ltrim(config('filament.path', 'secure-admin'), '/'),
             'flash'    => [
                 'success' => fn () => $request->session()->get('success'),
                 'error'   => fn () => $request->session()->get('error'),
