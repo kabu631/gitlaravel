@@ -107,7 +107,7 @@
                 <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'products' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
               </button>
               <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'products'" class="dd-panel w-64 p-2.5">
+                <div v-if="activeDD === 'products'" class="dd-panel w-80 p-2.5">
                   <Link :href="route('gadgets.index')" class="dd-item">
                     <div class="w-9 h-9 rounded-lg bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 flex items-center justify-center shrink-0">
                       <Cpu class="w-[18px] h-[18px]" />
@@ -121,29 +121,29 @@
                   <div class="dd-divider" />
                   <div class="dd-label">Shop by Category</div>
 
-                  <div class="grid grid-cols-2 gap-1">
+                  <div class="grid grid-cols-2 gap-1.5">
                     <Link :href="route('gadgets.index', { category: 'mobile' })" class="dd-item-sm">
-                      <Smartphone class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
+                      <Smartphone class="w-4 h-4 text-rose-500 shrink-0" />
                       <span>Smartphones</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'laptop' })" class="dd-item-sm">
-                      <Laptop class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
+                      <Laptop class="w-4 h-4 text-blue-500 shrink-0" />
                       <span>Laptops</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'tablet' })" class="dd-item-sm">
-                      <Tablet class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
+                      <Tablet class="w-4 h-4 text-purple-500 shrink-0" />
                       <span>Tablets</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'earbuds' })" class="dd-item-sm">
-                      <Headphones class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
+                      <Headphones class="w-4 h-4 text-emerald-500 shrink-0" />
                       <span>Audio</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'smartwatch' })" class="dd-item-sm">
-                      <Watch class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
+                      <Watch class="w-4 h-4 text-amber-500 shrink-0" />
                       <span>Wearables</span>
                     </Link>
                     <Link :href="route('gadgets.index', { category: 'accessory' })" class="dd-item-sm">
-                      <Mouse class="w-4 h-4 text-slate-400 group-hover:text-brand-500 shrink-0" />
+                      <Mouse class="w-4 h-4 text-indigo-500 shrink-0" />
                       <span>Accessories</span>
                     </Link>
                   </div>
@@ -787,28 +787,28 @@
     </Teleport>
 
     <!-- Sleek Tech Footer -->
-    <footer class="border-t border-slate-200 dark:border-slate-800/80 bg-white/50 dark:bg-[#0b0f19]/70 backdrop-blur-sm mt-16 py-12 text-slate-500 dark:text-slate-400 text-sm">
+    <footer class="border-t border-slate-200 dark:border-slate-800/80 bg-white/50 dark:bg-[#0b0f19]/70 backdrop-blur-sm mt-16 py-14 text-slate-500 dark:text-slate-400 text-sm">
       <div class="max-w-7xl mx-auto px-4">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-10 mb-12">
           <!-- Col 1: Brand & Bio (2 cols on sm) -->
           <div class="md:col-span-1 pr-2">
-            <img :src="isDark ? '/images/logo-white.png' : '/images/logo_dark.png'" alt="Git Infosys" class="h-9 w-auto mb-3" />
-            <p class="text-xs leading-relaxed text-slate-500 dark:text-slate-400 mb-4">
+            <img :src="isDark ? '/images/logo-white.png' : '/images/logo_dark.png'" alt="Git Infosys" class="h-10 w-auto mb-3.5" />
+            <p class="text-sm leading-relaxed text-slate-500 dark:text-slate-400 mb-4">
               Nepal's leading independent technology review portal, benchmark scoring authority, and live market price tracker.
             </p>
-            <div class="flex flex-col gap-1.5">
-              <span class="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/50 px-2 py-0.5 rounded-lg w-fit">
-                <CheckCircle class="w-3 h-3" />
+            <div class="flex flex-col gap-2">
+              <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/50 px-2.5 py-1 rounded-lg w-fit">
+                <CheckCircle class="w-3.5 h-3.5" />
                 100% Independent Reviews
               </span>
-              <span class="inline-flex items-center gap-1 text-[11px] font-semibold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800/50 px-2 py-0.5 rounded-lg w-fit">
-                <Flame class="w-3 h-3" />
+              <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800/50 px-2.5 py-1 rounded-lg w-fit">
+                <Flame class="w-3.5 h-3.5" />
                 Live Nepal Tech Rates
               </span>
             </div>
 
             <!-- Contact details, managed in the admin panel -->
-            <ul class="mt-4 space-y-1.5 text-xs text-slate-500 dark:text-slate-400">
+            <ul class="mt-5 space-y-2 text-sm text-slate-500 dark:text-slate-400">
               <li v-if="contact.footer_phone">
                 <a :href="`tel:${contact.footer_phone.replace(/\s/g, '')}`" class="hover:text-brand-500 transition">{{ contact.footer_phone }}</a>
               </li>
@@ -822,8 +822,8 @@
 
           <!-- Col 2: Products -->
           <div>
-            <h4 class="font-heading font-semibold text-slate-900 dark:text-slate-200 mb-3 text-xs uppercase tracking-wider">Explore</h4>
-            <ul class="space-y-2 text-xs">
+            <h4 class="font-heading font-bold text-slate-900 dark:text-slate-200 mb-3.5 text-sm uppercase tracking-wider">Explore</h4>
+            <ul class="space-y-2.5 text-sm">
               <li><Link :href="route('gadgets.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">All Gadgets</Link></li>
               <li><Link :href="route('gadgets.index', { category: 'mobile' })" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Smartphones</Link></li>
               <li><Link :href="route('gadgets.index', { category: 'laptop' })" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Laptops</Link></li>
@@ -834,8 +834,8 @@
 
           <!-- Col 3: Editorial -->
           <div>
-            <h4 class="font-heading font-semibold text-slate-900 dark:text-slate-200 mb-3 text-xs uppercase tracking-wider">Editorial</h4>
-            <ul class="space-y-2 text-xs">
+            <h4 class="font-heading font-bold text-slate-900 dark:text-slate-200 mb-3.5 text-sm uppercase tracking-wider">Editorial</h4>
+            <ul class="space-y-2.5 text-sm">
               <li><Link :href="route('reviews.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">In-depth Reviews</Link></li>
               <li><Link :href="route('reviews.index', { filter: 'editors-choice' })" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Editor's Choice</Link></li>
               <li><Link :href="route('news.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Tech News</Link></li>
@@ -846,26 +846,26 @@
 
           <!-- Col 4: Retail Partner -->
           <div>
-            <h4 class="font-heading font-semibold text-slate-900 dark:text-slate-200 mb-3 text-xs uppercase tracking-wider flex items-center gap-1">
-              <ShoppingBag class="w-3.5 h-3.5 text-brand-500" />
+            <h4 class="font-heading font-bold text-slate-900 dark:text-slate-200 mb-3.5 text-sm uppercase tracking-wider flex items-center gap-1.5">
+              <ShoppingBag class="w-4 h-4 text-brand-500" />
               <span>Nepal Retail &amp; Availability</span>
             </h4>
-            <p class="text-xs text-slate-500 dark:text-slate-400 mb-2 leading-relaxed">
+            <p class="text-sm text-slate-500 dark:text-slate-400 mb-3 leading-relaxed">
               We provide independent specifications and price tracking. Purchases and official warranty fulfillment are provided through authorized retail outlets across Nepal.
             </p>
             <Link
               :href="route('gadgets.index')"
-              class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 text-xs font-semibold transition group"
+              class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 text-sm font-semibold transition group"
             >
               <span>Explore Nepal Catalog</span>
-              <ChevronRight class="w-3 h-3 opacity-75 group-hover:opacity-100" />
+              <ChevronRight class="w-3.5 h-3.5 opacity-75 group-hover:opacity-100" />
             </Link>
           </div>
 
           <!-- Col 5: Company -->
           <div>
-            <h4 class="font-heading font-semibold text-slate-900 dark:text-slate-200 mb-3 text-xs uppercase tracking-wider">Company</h4>
-            <ul class="space-y-2 text-xs">
+            <h4 class="font-heading font-bold text-slate-900 dark:text-slate-200 mb-3.5 text-sm uppercase tracking-wider">Company</h4>
+            <ul class="space-y-2.5 text-sm">
               <li><Link :href="route('pages.about')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">About Us</Link></li>
               <li><Link :href="route('pages.contact')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Contact Us</Link></li>
               <li><Link :href="route('pages.services')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Services</Link></li>
@@ -876,9 +876,9 @@
         </div>
 
         <!-- Editorial Disclosure Notice (HT Tech Style) -->
-        <div class="mb-8 p-4 rounded-2xl bg-slate-100/70 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800 text-[11px] text-slate-500 dark:text-slate-400 flex flex-col sm:flex-row items-start sm:items-center gap-3">
-          <div class="w-7 h-7 rounded-xl bg-brand-500/10 text-brand-600 dark:text-brand-400 flex items-center justify-center shrink-0 border border-brand-500/20">
-            <ShieldCheck class="w-4 h-4" />
+        <div class="mb-8 p-4 rounded-2xl bg-slate-100/70 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400 flex flex-col sm:flex-row items-start sm:items-center gap-3">
+          <div class="w-8 h-8 rounded-xl bg-brand-500/10 text-brand-600 dark:text-brand-400 flex items-center justify-center shrink-0 border border-brand-500/20">
+            <ShieldCheck class="w-[18px] h-[18px]" />
           </div>
           <p class="leading-relaxed">
             <strong class="text-slate-700 dark:text-slate-300">Editorial &amp; Review Policy:</strong> Git Infosys operates as an independent tech review, specifications benchmark, and consumer guidance authority in Nepal. We do not sell devices or hardware directly to maintain unbiased coverage. Device purchase links direct users to authorized retailers and official distributors.
@@ -886,7 +886,7 @@
         </div>
 
         <!-- Bottom Bar -->
-        <div class="border-t border-slate-200 dark:border-slate-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs">
+        <div class="border-t border-slate-200 dark:border-slate-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm">
           <p>{{ contact.footer_copyright || `© ${new Date().getFullYear()} Git Infosys. Built with cutting-edge tech in Nepal.` }}</p>
           <div class="flex items-center gap-4">
             <button
@@ -1170,7 +1170,9 @@ onUnmounted(() => {
 }
 
 .dd-item-sm {
-  @apply flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-50 dark:hover:bg-slate-800/60 transition;
+  /* min-w-0 lets this shrink inside a grid column instead of forcing the
+     column (and the text inside it) to overflow past the panel's edge. */
+  @apply flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-50 dark:hover:bg-slate-800/60 transition min-w-0;
 }
 
 /* Small colored icon badge used inside single-column dd-item-sm rows
