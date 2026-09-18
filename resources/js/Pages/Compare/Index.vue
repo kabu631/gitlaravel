@@ -116,7 +116,7 @@
                   : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:border-brand-500'"
               >
                 <SlidersHorizontal class="w-3.5 h-3.5" />
-                <span>{{ showSelector ? 'Hide Selector' : 'Change Devices' }}</span>
+                <span>{{ showSelector ? 'Hide Selector' : 'Select Device' }}</span>
               </button>
 
               <button
@@ -203,9 +203,9 @@
             <div class="lg:col-span-5 rounded-3xl p-6 sm:p-7 flex flex-col justify-between relative transition-all duration-300 border border-amber-300/80 dark:border-amber-700/60 bg-gradient-to-b from-amber-50/40 via-white to-slate-50/60 dark:from-amber-950/20 dark:via-slate-900/60 dark:to-slate-900/40 shadow-lg group hover:shadow-xl hover:border-amber-400">
               <div>
                 <!-- Badge Bar -->
-                <div class="flex items-center justify-between gap-2 mb-4">
-                  <div class="flex items-center gap-2">
-                    <span class="text-[10px] font-heading font-black uppercase tracking-wider px-2.5 py-1 rounded-lg bg-amber-500 text-slate-950 shadow-2xs">
+                <div class="flex flex-wrap items-center justify-center sm:justify-between gap-2 mb-4">
+                  <div class="flex items-center justify-center gap-2">
+                    <span class="text-[10px] font-heading font-black uppercase tracking-wider px-2.5 py-1 rounded-lg bg-amber-500 text-slate-950 shadow-2xs text-center">
                       Contender A
                     </span>
                     <span class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
@@ -341,9 +341,9 @@
             <div class="lg:col-span-5 rounded-3xl p-6 sm:p-7 flex flex-col justify-between relative transition-all duration-300 border border-blue-300/80 dark:border-blue-700/60 bg-gradient-to-b from-blue-50/40 via-white to-slate-50/60 dark:from-blue-950/20 dark:via-slate-900/60 dark:to-slate-900/40 shadow-lg group hover:shadow-xl hover:border-blue-400">
               <div>
                 <!-- Badge Bar -->
-                <div class="flex items-center justify-between gap-2 mb-4">
-                  <div class="flex items-center gap-2">
-                    <span class="text-[10px] font-heading font-black uppercase tracking-wider px-2.5 py-1 rounded-lg bg-blue-500 text-white shadow-2xs">
+                <div class="flex flex-wrap items-center justify-center sm:justify-between gap-2 mb-4">
+                  <div class="flex items-center justify-center gap-2">
+                    <span class="text-[10px] font-heading font-black uppercase tracking-wider px-2.5 py-1 rounded-lg bg-blue-500 text-white shadow-2xs text-center">
                       Contender B
                     </span>
                     <span class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
@@ -462,8 +462,8 @@
               :class="idx === 0 ? 'border-amber-400/80 dark:border-amber-700/80' : 'border-blue-400/80 dark:border-blue-700/80'"
             >
               <div>
-                <div class="flex items-center justify-between gap-2 mb-3">
-                  <span class="text-[10px] font-heading font-black uppercase px-2.5 py-0.5 rounded-lg bg-brand-500 text-slate-950">
+                <div class="flex flex-wrap items-center justify-center sm:justify-between gap-2 mb-3">
+                  <span class="text-[10px] font-heading font-black uppercase px-2.5 py-0.5 rounded-lg bg-brand-500 text-slate-950 text-center">
                     Contender #{{ idx + 1 }}
                   </span>
                   <span class="text-xs font-bold text-slate-400 uppercase">{{ g.brand?.name }}</span>

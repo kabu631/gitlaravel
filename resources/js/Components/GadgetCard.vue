@@ -82,13 +82,16 @@
           {{ gadget.name }}
         </Link>
 
-        <!-- Micro Feature Summary / Description -->
-        <p v-if="gadget.description" class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1.5 leading-relaxed">
-          {{ gadget.description }}
+        <!-- Micro Feature Summary / Description (plain-text teaser: the field is
+             rich text, so tags are stripped rather than shown raw or rendered) -->
+        <p v-if="plainDescription" class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1.5 leading-relaxed">
+          {{ plainDescription }}
         </p>
 
-        <!-- Algorithmic Smart Badges (Auto-Generated from Real Hardware Specs) -->
-        <div v-if="algorithmicBadges.length" class="flex gap-1.5 flex-wrap mt-2 mb-1">
+        <!-- Algorithmic Smart Badges (Auto-Generated from Real Hardware Specs).
+             Desktop/tablet only -- on a 2-up mobile card there isn't room for
+             these without crowding the price and action buttons. -->
+        <div v-if="algorithmicBadges.length" class="hidden sm:flex gap-1.5 flex-wrap mt-2 mb-1">
           <span
             v-for="b in algorithmicBadges"
             :key="b.label"
@@ -122,12 +125,16 @@
           </div>
         </div>
 
-        <!-- Action Row -->
-        <div class="mt-3.5 flex items-center gap-2">
+        <!-- Action Row: on a narrow 2-up mobile card, 3 side-by-side controls
+             have no room to breathe (labels wrap/clip); stack Full Specs on
+             its own row there, then Price + Compare share the row below.
+             From `sm` up (single/triple column desktop grid) it's one row,
+             unchanged from before. -->
+        <div class="mt-3.5 grid grid-cols-[1fr_auto] gap-2 sm:flex sm:items-center">
           <!-- Full Specs Link -->
           <Link
             :href="route('gadgets.show', gadget.slug)"
-            class="flex-1 py-2 px-3 rounded-xl text-center text-xs font-bold bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 transition duration-150 flex items-center justify-center gap-1 cursor-pointer"
+            class="col-span-2 sm:col-auto sm:flex-1 py-2 px-3 rounded-xl text-center text-xs font-bold bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 transition duration-150 flex items-center justify-center gap-1 cursor-pointer"
           >
             <span>Full Specs</span>
             <ArrowRight class="w-3.5 h-3.5 text-slate-400" />
@@ -138,12 +145,12 @@
             :href="gadget.buy_url || gadget.referral_buy_url || route('gadgets.show', gadget.slug)"
             target="_blank"
             rel="noopener noreferrer"
-            class="py-2 px-3.5 rounded-xl text-xs font-heading font-extrabold bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 transition flex items-center gap-1.5 shadow-xs cursor-pointer shrink-0"
+            class="py-2 px-3.5 rounded-xl text-xs font-heading font-extrabold bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 transition flex items-center justify-center gap-1.5 shadow-xs cursor-pointer sm:shrink-0"
             title="Check Price &amp; Availability in Nepal"
           >
-            <ShoppingBag class="w-3.5 h-3.5" />
+            <ShoppingBag class="w-3.5 h-3.5 shrink-0" />
             <span>Price</span>
-            <ExternalLink class="w-3 h-3 opacity-80" />
+            <ExternalLink class="w-3 h-3 opacity-80 shrink-0" />
           </a>
 
           <!-- Compare Button shortcut with Universal Compare Tray connection -->
@@ -211,4 +218,12 @@ const discountPercent = computed(() => {
 })
 
 const algorithmicBadges = computed(() => getAlgorithmicBadges(props.gadget, 2))
+
+// `description` comes from a rich-text editor in the admin, so it contains
+// HTML (e.g. "<p>...</p>"). This card shows a short plain-text teaser, so
+// strip the markup rather than rendering it raw or as HTML in a tight space.
+const plainDescription = computed(() => {
+  if (!props.gadget?.description) return ''
+  return props.gadget.description.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
+})
 </script>
