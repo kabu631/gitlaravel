@@ -88,7 +88,7 @@ class OrderResource extends Resource
                                 $variantHtml = '';
                                 if (!empty($item->variant_info) && is_array($item->variant_info)) {
                                     $badges = collect($item->variant_info)
-                                        ->map(fn($v, $k) => '<span style="display:inline-block;margin:0 4px 4px 0;padding:2px 8px;background:#ede9fe;color:#5b21b6;border-radius:9999px;font-size:11px;font-weight:600;">'
+                                        ->map(fn($v, $k) => '<span style="display:inline-block;margin:0 4px 4px 0;padding:2px 8px;background:#fff8ec;color:#be5c06;border:1px solid #ffdca4;border-radius:9999px;font-size:11px;font-weight:600;">'
                                             . e(ucfirst($k)) . ': ' . e($v) . '</span>')
                                         ->implode('');
                                     $variantHtml = '<div style="margin-top:4px;">' . $badges . '</div>';
@@ -107,7 +107,7 @@ class OrderResource extends Resource
                                     <div style="text-align:right;flex-shrink:0;">
                                         <div style="font-size:12px;color:#6b7280;">Qty: <strong>' . $item->quantity . '</strong></div>
                                         <div style="font-size:12px;color:#6b7280;">@ NPR ' . number_format($item->price) . '</div>
-                                        <div style="font-size:14px;font-weight:700;color:#7c3aed;margin-top:4px;">NPR ' . $subtotal . '</div>
+                                        <div style="font-size:14px;font-weight:700;color:#ff991b;margin-top:4px;">NPR ' . $subtotal . '</div>
                                     </div>
                                 </div>';
                             }
@@ -162,7 +162,7 @@ class OrderResource extends Resource
 
                 TextColumn::make('payment_method')
                     ->badge()
-                    ->color('info'),
+                    ->color('primary'),
 
                 TextColumn::make('is_paid')
                     ->label('Paid')

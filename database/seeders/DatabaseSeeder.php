@@ -170,7 +170,7 @@ class DatabaseSeeder extends Seeder
         // Ensure admin exists
         $admin = User::firstOrCreate(['email' => 'admin@gitinfosys.com'], [
             'name'              => 'Admin',
-            'password'          => Hash::make('Admin@1234'),
+            'password'          => Hash::make('password'),
             'is_admin'          => true,
             'email_verified_at' => now(),
         ]);

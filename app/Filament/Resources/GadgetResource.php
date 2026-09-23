@@ -40,7 +40,7 @@ class GadgetResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Basic Info')->schema([
+            Section::make('Basic Info & Pricing')->schema([
                 TextInput::make('name')->required()->maxLength(255)->live(onBlur: true)
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state))),
                 TextInput::make('slug')->required()->maxLength(255),
@@ -50,6 +50,8 @@ class GadgetResource extends Resource
                     ])->required(),
                 Select::make('category_id')->label('Category')->relationship('category', 'name')
                     ->searchable()->preload()->nullable(),
+                TextInput::make('price')->numeric()->prefix('NPR')->required(),
+                TextInput::make('old_price')->numeric()->prefix('NPR')->nullable()->label('Old Price'),
                 Select::make('accessory_type')
                     ->label('Accessory Type')
                     ->options(fn() => AccessoryType::orderBy('name')->pluck('name', 'slug')->toArray())
@@ -65,12 +67,8 @@ class GadgetResource extends Resource
                         $type = AccessoryType::create($data);
                         return $type->slug;
                     })
-                    ->helperText('Select an existing type or click "+" to add a new one.'),
-            ])->columns(2),
-
-            Section::make('Pricing')->schema([
-                TextInput::make('price')->numeric()->prefix('NPR')->required(),
-                TextInput::make('old_price')->numeric()->prefix('NPR')->nullable()->label('Old Price'),
+                    ->helperText('Select an existing type or click "+" to add a new one.')
+                    ->columnSpanFull(),
             ])->columns(2),
 
             // ── Media ────────────────────────────────────────────────────────────
@@ -82,7 +80,7 @@ class GadgetResource extends Resource
                     ->image()
                     ->disk('public')
                     ->directory('gadgets')
-                    ->imagePreviewHeight('150')
+                    ->imagePreviewHeight('90')
                     ->nullable()
                     ->helperText('Primary thumbnail shown in product listings.'),
 
@@ -200,7 +198,7 @@ class GadgetResource extends Resource
     public static function table(Table $table): Table
     {
         return $table->columns([
-            ImageColumn::make('image')->square()->disk('public'),
+            ImageColumn::make('image')->size(36)->disk('public')->extraImgAttributes(['class' => 'rounded-md object-cover']),
             TextColumn::make('name')->searchable()->sortable()->limit(30),
             TextColumn::make('brand.name')->sortable(),
             TextColumn::make('category.name')->sortable(),
@@ -208,6 +206,7 @@ class GadgetResource extends Resource
             TextColumn::make('algorithmic_badges')
                 ->label('Algo Highlights')
                 ->badge()
+                ->wrap()
                 ->color(fn($state) => match(true) {
                     str_contains($state, 'Battery') => 'success',
                     str_contains($state, 'Camera')  => 'info',

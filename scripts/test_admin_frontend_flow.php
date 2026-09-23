@@ -131,7 +131,7 @@ runTest("Test 1: Admin Livewire Authentication & Filament Resource Access via HT
                 'snapshot' => $snapshot,
                 'updates' => [
                     'data.email' => 'admin@gitinfosys.com',
-                    'data.password' => 'Admin@1234'
+                    'data.password' => 'password'
                 ],
                 'calls' => [
                     [

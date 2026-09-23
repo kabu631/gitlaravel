@@ -100,7 +100,7 @@ class PageContentResource extends Resource
                     default    => $state,
                 })
                 ->badge()
-                ->color('violet'),
+                ->color('primary'),
             TextColumn::make('heading')->limit(60)->placeholder('—'),
             TextColumn::make('subheading')->limit(60)->color('gray')->placeholder('—'),
             TextColumn::make('updated_at')->label('Last Updated')->dateTime('d M Y, H:i')->sortable(),

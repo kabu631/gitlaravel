@@ -104,3 +104,15 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+
+$adminPath = '/' . ltrim(config('filament.path', 'secure-admin'), '/');
+if (config('filament.path', 'secure-admin') !== 'admin') {
+    Route::redirect('/admin', $adminPath);
+}
+Route::redirect($adminPath . '/brands/create', $adminPath . '/brands');
+Route::redirect($adminPath . '/categories/create', $adminPath . '/categories');
+Route::redirect($adminPath . '/sliders/create', $adminPath . '/sliders');
+Route::redirect($adminPath . '/bank-partners/create', $adminPath . '/bank-partners');
+Route::redirect($adminPath . '/authorized-service-centers/create', $adminPath . '/authorized-service-centers');
+Route::redirect($adminPath . '/carrier-frequency-bands/create', $adminPath . '/carrier-frequency-bands');
+Route::redirect($adminPath . '/upcoming-launches/create', $adminPath . '/upcoming-launches');

@@ -13,12 +13,15 @@ use Filament\Pages\Dashboard;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
+use Filament\Support\Enums\Width;
+use Filament\View\PanelsRenderHook;
 use Filament\Widgets\AccountWidget;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
+use Illuminate\Support\HtmlString;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
 class AdminPanelProvider extends PanelProvider
@@ -34,6 +37,14 @@ class AdminPanelProvider extends PanelProvider
             ->brandLogo(asset('images/logo_dark.png'))
             ->darkModeBrandLogo(asset('images/logo-white.png'))
             ->brandLogoHeight('2.25rem')
+            ->maxContentWidth(Width::SevenExtraLarge)
+            ->sidebarCollapsibleOnDesktop()
+            ->renderHook(
+                PanelsRenderHook::HEAD_END,
+                fn (): HtmlString => new HtmlString(
+                    '<link rel="stylesheet" href="' . asset('css/filament-compact.css') . '?v=' . (@filemtime(public_path('css/filament-compact.css')) ?: '1') . '">'
+                )
+            )
             ->colors([
                 'primary' => Color::hex('#FF991B'),
                 'gray' => Color::Slate,
@@ -47,6 +58,7 @@ class AdminPanelProvider extends PanelProvider
                 StatsOverview::class,
                 RecentOrdersTable::class,
             ])
+            ->navigation(fn (\Filament\Navigation\NavigationBuilder $builder) => \App\Services\DynamicNavigationService::build($builder))
             ->navigationGroups(['Catalog', 'Content', 'Tech Lab & Tools', 'Settings', 'Sales', 'Users'])
             ->userMenuItems([
                 MenuItem::make()
@@ -66,6 +78,9 @@ class AdminPanelProvider extends PanelProvider
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
             ])
-            ->authMiddleware([Authenticate::class]);
+            ->authMiddleware([
+                Authenticate::class,
+                \App\Http\Middleware\AuthorizeSystemModuleAccess::class,
+            ]);
     }
 }

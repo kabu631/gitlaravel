@@ -117,16 +117,21 @@ class BankPartnerResource extends Resource
         ])
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
-        ->actions([EditAction::make()])
+        ->actions([
+            EditAction::make()
+                ->modalHeading('EDIT BANK PARTNER')
+                ->modalDescription('UPDATE 0% EMI BANK PARTNER DETAILS')
+                ->modalSubmitActionLabel('SAVE CHANGES')
+                ->modalWidth('lg'),
+            \Filament\Actions\DeleteAction::make(),
+        ])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 
     public static function getPages(): array
     {
         return [
-            'index'  => Pages\ListBankPartners::route('/'),
-            'create' => Pages\CreateBankPartner::route('/create'),
-            'edit'   => Pages\EditBankPartner::route('/{record}/edit'),
+            'index' => Pages\ManageBankPartners::route('/'),
         ];
     }
 }

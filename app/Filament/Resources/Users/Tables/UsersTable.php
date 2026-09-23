@@ -8,6 +8,7 @@ use Filament\Actions\EditAction;
 use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Facades\Hash;
+use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
@@ -19,26 +20,41 @@ class UsersTable
         return $table
             ->columns([
                 TextColumn::make('name')
-                    ->searchable(),
+                    ->searchable()
+                    ->weight('bold'),
                 TextColumn::make('email')
                     ->label('Email address')
-                    ->searchable(),
-                TextColumn::make('email_verified_at')
-                    ->dateTime()
-                    ->sortable(),
+                    ->searchable()
+                    ->copyable(),
+                TextColumn::make('roles.name')
+                    ->label('Assigned Roles')
+                    ->badge()
+                    ->color('primary')
+                    ->placeholder('No role assigned')
+                    ->separator(', '),
                 IconColumn::make('is_admin')
-                    ->boolean(),
+                    ->label('Super Admin')
+                    ->boolean()
+                    ->alignCenter(),
+                TextColumn::make('email_verified_at')
+                    ->label('Verified')
+                    ->dateTime('M d, Y')
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
                 TextColumn::make('created_at')
-                    ->dateTime()
+                    ->dateTime('M d, Y')
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
                 TextColumn::make('updated_at')
-                    ->dateTime()
+                    ->dateTime('M d, Y')
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
-                //
+                SelectFilter::make('role')
+                    ->label('Filter by Role')
+                    ->relationship('roles', 'name')
+                    ->preload(),
             ])
             ->recordActions([
                 EditAction::make(),
