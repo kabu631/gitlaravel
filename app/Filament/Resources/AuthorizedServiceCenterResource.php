@@ -123,16 +123,21 @@ class AuthorizedServiceCenterResource extends Resource
         ])
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
-        ->actions([EditAction::make()])
+        ->actions([
+            EditAction::make()
+                ->modalHeading('EDIT SERVICE CENTER')
+                ->modalDescription('UPDATE AUTHORIZED REPAIR & SERVICE CENTER DETAILS')
+                ->modalSubmitActionLabel('SAVE CHANGES')
+                ->modalWidth('lg'),
+            \Filament\Actions\DeleteAction::make(),
+        ])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 
     public static function getPages(): array
     {
         return [
-            'index'  => Pages\ListAuthorizedServiceCenters::route('/'),
-            'create' => Pages\CreateAuthorizedServiceCenter::route('/create'),
-            'edit'   => Pages\EditAuthorizedServiceCenter::route('/{record}/edit'),
+            'index' => Pages\ManageAuthorizedServiceCenters::route('/'),
         ];
     }
 }

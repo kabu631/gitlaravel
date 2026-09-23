@@ -96,7 +96,7 @@ class CarrierFrequencyBandResource extends Resource
                 ->label('Carrier')
                 ->badge()
                 ->formatStateUsing(fn($state) => strtoupper($state))
-                ->color(fn($state) => $state === 'ntc' ? 'info' : 'primary'),
+                ->color(fn($state) => $state === 'ntc' ? 'gray' : 'primary'),
             TextColumn::make('code')->label('Band Code')->weight('bold')->searchable(),
             TextColumn::make('technology')->label('Tech'),
             TextColumn::make('frequency')->label('Frequency'),
@@ -112,16 +112,21 @@ class CarrierFrequencyBandResource extends Resource
         ])
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
-        ->actions([EditAction::make()])
+        ->actions([
+            EditAction::make()
+                ->modalHeading('EDIT FREQUENCY BAND')
+                ->modalDescription('UPDATE 5G OR 4G CARRIER FREQUENCY BAND DETAILS')
+                ->modalSubmitActionLabel('SAVE CHANGES')
+                ->modalWidth('lg'),
+            \Filament\Actions\DeleteAction::make(),
+        ])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 
     public static function getPages(): array
     {
         return [
-            'index'  => Pages\ListCarrierFrequencyBands::route('/'),
-            'create' => Pages\CreateCarrierFrequencyBand::route('/create'),
-            'edit'   => Pages\EditCarrierFrequencyBand::route('/{record}/edit'),
+            'index' => Pages\ManageCarrierFrequencyBands::route('/'),
         ];
     }
 }

@@ -170,7 +170,7 @@ class CameraShootoutResource extends Resource
                 ->label('Votes (A / B)')
                 ->state(fn($record) => "{$record->phone_a_votes} ({$record->phone_a_percent}%) / {$record->phone_b_votes} ({$record->phone_b_percent}%)")
                 ->badge()
-                ->color('info'),
+                ->color('primary'),
             IconColumn::make('is_active')->boolean()->label('Active'),
         ])
         ->reorderable('sort_order')

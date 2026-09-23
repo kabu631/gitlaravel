@@ -108,7 +108,7 @@ class UpcomingLaunchResource extends Resource
             TextColumn::make('sort_order')->label('#')->sortable()->width('50px'),
             TextColumn::make('name')->searchable()->limit(35)->weight('bold'),
             TextColumn::make('brand')->badge()->color('gray'),
-            TextColumn::make('category')->badge()->color('info'),
+            TextColumn::make('category')->badge()->color('primary'),
             TextColumn::make('expected_date')->label('Expected')->limit(25),
             TextColumn::make('est_price')->label('Est. Price'),
             TextColumn::make('confidence')->label('Confidence')->suffix('%')
@@ -120,16 +120,21 @@ class UpcomingLaunchResource extends Resource
           ->filters([
               TernaryFilter::make('is_active')->label('Active'),
           ])
-          ->actions([EditAction::make()])
+          ->actions([
+              EditAction::make()
+                  ->modalHeading('EDIT UPCOMING LAUNCH')
+                  ->modalDescription('UPDATE UPCOMING GADGET LAUNCH DETAILS')
+                  ->modalSubmitActionLabel('SAVE CHANGES')
+                  ->modalWidth('lg'),
+              \Filament\Actions\DeleteAction::make(),
+          ])
           ->bulkActions([DeleteBulkAction::make()]);
     }
 
     public static function getPages(): array
     {
         return [
-            'index'  => ListUpcomingLaunches::route('/'),
-            'create' => CreateUpcomingLaunch::route('/create'),
-            'edit'   => EditUpcomingLaunch::route('/{record}/edit'),
+            'index' => Pages\ManageUpcomingLaunches::route('/'),
         ];
     }
 }

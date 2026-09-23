@@ -7,6 +7,7 @@ use App\Models\Category;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
+use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
 use Filament\Tables\Columns\TextColumn;
@@ -24,9 +25,20 @@ class CategoryResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            TextInput::make('name')->required()->maxLength(50)->live(onBlur: true)
-                ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state))),
-            TextInput::make('slug')->required()->maxLength(50),
+            TextInput::make('name')
+                ->label('Name')
+                ->required()
+                ->maxLength(50)
+                ->live(onBlur: true)
+                ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
+                ->placeholder('e.g. Smartphone'),
+
+            TextInput::make('slug')
+                ->label('Slug')
+                ->required()
+                ->maxLength(50)
+                ->placeholder('e.g. smartphone')
+                ->helperText('URL-friendly identifier auto-generated from name.'),
         ]);
     }
 
@@ -36,16 +48,21 @@ class CategoryResource extends Resource
             TextColumn::make('name')->searchable()->sortable(),
             TextColumn::make('slug'),
             TextColumn::make('gadgets_count')->counts('gadgets')->label('Products'),
-        ])->actions([EditAction::make()])
+        ])->actions([
+            EditAction::make()
+                ->modalHeading('EDIT CATEGORY')
+                ->modalDescription('UPDATE CATEGORY DETAILS')
+                ->modalSubmitActionLabel('SAVE CHANGES')
+                ->modalWidth('md'),
+            DeleteAction::make(),
+        ])
           ->bulkActions([DeleteBulkAction::make()]);
     }
 
     public static function getPages(): array
     {
         return [
-            'index'  => Pages\ListCategories::route('/'),
-            'create' => Pages\CreateCategory::route('/create'),
-            'edit'   => Pages\EditCategory::route('/{record}/edit'),
+            'index' => Pages\ManageCategories::route('/'),
         ];
     }
 }

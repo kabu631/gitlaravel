@@ -27,7 +27,67 @@ class User extends Authenticatable implements FilamentUser
 
     public function canAccessPanel(Panel $panel): bool
     {
-        return $this->is_admin === true;
+        return $this->is_admin === true || $this->roles()->exists();
+    }
+
+    public function roles(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
+    {
+        return $this->belongsToMany(Role::class, 'role_user')->withTimestamps();
+    }
+
+    public function isSuperAdmin(): bool
+    {
+        return $this->is_admin === true || $this->hasRole('super_admin');
+    }
+
+    public function hasRole(string|array $roles): bool
+    {
+        $roleList = is_array($roles) ? $roles : func_get_args();
+
+        return $this->roles->contains(function ($role) use ($roleList) {
+            return in_array($role->slug, $roleList, true) || in_array($role->name, $roleList, true);
+        });
+    }
+
+    public function getAllowedSystemModuleIds(): \Illuminate\Support\Collection
+    {
+        if ($this->isSuperAdmin()) {
+            return SystemModule::pluck('id');
+        }
+
+        return $this->roles()
+            ->with('systemModules:id')
+            ->get()
+            ->pluck('systemModules')
+            ->flatten()
+            ->pluck('id')
+            ->unique()
+            ->values();
+    }
+
+    public function hasPermissionToModule(int|string|SystemModule $module): bool
+    {
+        if ($this->isSuperAdmin()) {
+            return true;
+        }
+
+        $allowedIds = $this->getAllowedSystemModuleIds();
+
+        if ($module instanceof SystemModule) {
+            return $allowedIds->contains($module->id);
+        }
+
+        if (is_numeric($module)) {
+            return $allowedIds->contains((int) $module);
+        }
+
+        // Match by code or route
+        $targetModule = SystemModule::where('code', $module)->first();
+        if ($targetModule) {
+            return $allowedIds->contains($targetModule->id);
+        }
+
+        return false;
     }
 
     public function profile()

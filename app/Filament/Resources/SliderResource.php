@@ -95,16 +95,21 @@ class SliderResource extends Resource
         ])
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
-        ->actions([EditAction::make()])
+        ->actions([
+            EditAction::make()
+                ->modalHeading('EDIT SLIDER')
+                ->modalDescription('UPDATE HOMEPAGE HERO BANNER SLIDE DETAILS')
+                ->modalSubmitActionLabel('SAVE CHANGES')
+                ->modalWidth('lg'),
+            \Filament\Actions\DeleteAction::make(),
+        ])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 
     public static function getPages(): array
     {
         return [
-            'index'  => Pages\ListSliders::route('/'),
-            'create' => Pages\CreateSlider::route('/create'),
-            'edit'   => Pages\EditSlider::route('/{record}/edit'),
+            'index' => Pages\ManageSliders::route('/'),
         ];
     }
 }

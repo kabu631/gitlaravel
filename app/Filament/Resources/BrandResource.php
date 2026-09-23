@@ -10,6 +10,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
+use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
 use Filament\Tables\Columns\ImageColumn;
@@ -28,18 +29,36 @@ class BrandResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            TextInput::make('name')->required()->maxLength(100)->live(onBlur: true)
-                ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state))),
-            TextInput::make('slug')->required()->maxLength(100),
-            FileUpload::make('logo')->image()->disk('public')->directory('brands')->nullable(),
+            TextInput::make('name')
+                ->label('Name')
+                ->required()
+                ->maxLength(100)
+                ->live(onBlur: true)
+                ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
+                ->placeholder('e.g. Samsung'),
+
+            TextInput::make('slug')
+                ->label('Slug')
+                ->required()
+                ->maxLength(100)
+                ->placeholder('e.g. samsung')
+                ->helperText('Auto-generated from name. Leave blank or edit if needed.'),
+
+            FileUpload::make('logo')
+                ->label('Brand Logo')
+                ->image()
+                ->disk('public')
+                ->directory('brands')
+                ->imagePreviewHeight('80')
+                ->nullable(),
+
             Select::make('categories')
+                ->label('Categories')
                 ->relationship('categories', 'name')
                 ->multiple()
                 ->preload()
                 ->searchable()
-                ->label('Categories')
-                ->placeholder('Select categories this brand belongs to')
-                ->columnSpanFull(),
+                ->placeholder('Select categories this brand belongs to'),
         ]);
     }
 
@@ -52,19 +71,24 @@ class BrandResource extends Resource
             TextColumn::make('categories.name')
                 ->label('Categories')
                 ->badge()
-                ->color('info')
+                ->color('primary')
                 ->separator(', '),
             TextColumn::make('gadgets_count')->counts('gadgets')->label('Products'),
-        ])->actions([EditAction::make()])
+        ])->actions([
+            EditAction::make()
+                ->modalHeading('Edit Brand')
+                ->modalDescription('Update brand details')
+                ->modalSubmitActionLabel('Save changes')
+                ->modalWidth('md'),
+            DeleteAction::make(),
+        ])
           ->bulkActions([DeleteBulkAction::make()]);
     }
 
     public static function getPages(): array
     {
         return [
-            'index'  => Pages\ListBrands::route('/'),
-            'create' => Pages\CreateBrand::route('/create'),
-            'edit'   => Pages\EditBrand::route('/{record}/edit'),
+            'index' => Pages\ManageBrands::route('/'),
         ];
     }
 }

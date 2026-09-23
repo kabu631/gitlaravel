@@ -13,7 +13,13 @@ class ManageAccessoryTypes extends ManageRecords
     protected function getHeaderActions(): array
     {
         return [
-            CreateAction::make(),
+            CreateAction::make()
+                ->label('New Accessory Type')
+                ->modalHeading('New Accessory Type')
+                ->modalDescription('Define a new product accessory type')
+                ->modalSubmitActionLabel('Create accessory type')
+                ->modalWidth('md')
+                ->createAnother(false),
         ];
     }
 }
