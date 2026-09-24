@@ -34,6 +34,7 @@ class PageContentResource extends Resource
                         'about'    => 'About Us',
                         'contact'  => 'Contact',
                         'services' => 'Services',
+                        'careers'  => 'Careers',
                         'terms'    => 'Terms & Conditions',
                         'privacy'  => 'Privacy Policy',
                     ])

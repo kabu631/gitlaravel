@@ -197,6 +197,11 @@ class SystemModule extends Model
                     ['name' => 'Sliders', 'code' => 'sliders', 'route' => "/{$filamentPath}/sliders", 'order' => 3, 'icon' => 'heroicon-o-photo'],
                     ['name' => 'Reviews', 'code' => 'reviews', 'route' => "/{$filamentPath}/reviews", 'order' => 4, 'icon' => 'heroicon-o-star'],
                     ['name' => 'User Comments', 'code' => 'user_comments', 'route' => "/{$filamentPath}/user-comments", 'order' => 5, 'icon' => 'heroicon-o-chat-bubble-left-right'],
+                    ['name' => 'Blog Posts', 'code' => 'blog_posts', 'route' => "/{$filamentPath}/blog-posts", 'order' => 6, 'icon' => 'heroicon-o-pencil-square'],
+                    ['name' => 'Site Popups', 'code' => 'popups', 'route' => "/{$filamentPath}/popups", 'order' => 7, 'icon' => 'heroicon-o-megaphone'],
+                    ['name' => 'Services', 'code' => 'services', 'route' => "/{$filamentPath}/services", 'order' => 8, 'icon' => 'heroicon-o-briefcase'],
+                    ['name' => 'Team Members', 'code' => 'team_members', 'route' => "/{$filamentPath}/team-members", 'order' => 9, 'icon' => 'heroicon-o-user-group'],
+                    ['name' => 'Header Menu', 'code' => 'menu_items', 'route' => "/{$filamentPath}/menu-items", 'order' => 10, 'icon' => 'heroicon-o-bars-3'],
                 ],
             ],
             [
@@ -252,6 +257,7 @@ class SystemModule extends Model
                 'status' => 'active',
                 'show_in_menu' => true,
                 'children' => [
+                    ['name' => 'Contact & Social Links', 'code' => 'contact_social', 'route' => "/{$filamentPath}/contact-and-social-settings", 'order' => 0, 'icon' => 'heroicon-o-phone'],
                     ['name' => 'Site Settings', 'code' => 'site_settings', 'route' => "/{$filamentPath}/site-settings", 'order' => 1, 'icon' => 'heroicon-o-cog-6-tooth'],
                     ['name' => 'System Modules', 'code' => 'system_modules', 'route' => "/{$filamentPath}/system-modules", 'order' => 2, 'icon' => 'heroicon-o-squares-plus'],
                 ],

@@ -24,28 +24,28 @@
           <div class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6">
             <h4 class="font-bold mb-5 text-lg">Contact Information</h4>
             <div class="space-y-4">
-              <div class="flex items-start gap-3">
+              <div v-if="address" class="flex items-start gap-3">
                 <div class="w-10 h-10 rounded-xl bg-brand-100 dark:bg-navy-900/40 flex items-center justify-center text-brand-500 dark:text-brand-400 shrink-0">📍</div>
                 <div>
                   <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Address</p>
                   <p class="text-gray-700 dark:text-gray-300 text-sm mt-0.5">{{ address }}</p>
                 </div>
               </div>
-              <div class="flex items-start gap-3">
+              <div v-if="email" class="flex items-start gap-3">
                 <div class="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">📧</div>
                 <div>
                   <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Email</p>
                   <a :href="`mailto:${email}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-brand-500 dark:hover:text-brand-400 transition">{{ email }}</a>
                 </div>
               </div>
-              <div class="flex items-start gap-3">
+              <div v-if="phone" class="flex items-start gap-3">
                 <div class="w-10 h-10 rounded-xl bg-yellow-100 dark:bg-yellow-900/40 flex items-center justify-center text-yellow-600 dark:text-yellow-400 shrink-0">📞</div>
                 <div>
                   <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Phone</p>
-                  <a :href="`tel:${phone}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-brand-500 dark:hover:text-brand-400 transition">{{ phone }}</a>
+                  <a :href="`tel:${phone.replace(/\s/g, '')}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-brand-500 dark:hover:text-brand-400 transition">{{ phone }}</a>
                 </div>
               </div>
-              <div class="flex items-start gap-3">
+              <div v-if="hours" class="flex items-start gap-3">
                 <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 shrink-0">🕐</div>
                 <div>
                   <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Working Hours</p>
@@ -131,10 +131,10 @@ import { onMounted } from 'vue'
 const props = defineProps({
   heading:         { type: String, default: 'Get In Touch' },
   subheading:      { type: String, default: "Have a question or feedback? We'd love to hear from you." },
-  address:         { type: String, default: 'Kathmandu, Nepal' },
-  email:           { type: String, default: 'info@gitinfosys.com' },
-  phone:           { type: String, default: '+977 000 000 000' },
-  hours:           { type: String, default: 'Sun – Fri: 9 AM – 6 PM' },
+  address:         { type: String, default: '' },
+  email:           { type: String, default: '' },
+  phone:           { type: String, default: '' },
+  hours:           { type: String, default: '' },
   mapEmbed:        { type: String, default: null },
   sidebarProducts: { type: Array,  default: () => [] },
   sidebarNews:     { type: Array,  default: () => [] },

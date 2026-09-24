@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\SitemapController;
@@ -10,6 +11,7 @@ use App\Http\Controllers\GadgetController;
 use App\Http\Controllers\GuideController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PCBuilderController;
 use App\Http\Controllers\ProfileController;
@@ -29,6 +31,7 @@ Route::get('/gadgets/{slug}', [GadgetController::class, 'show']);
 Route::post('/products/{slug}/comment', [GadgetController::class, 'addComment'])->middleware('auth')->name('gadgets.comment');
 
 // Brands
+Route::get('/brands', [BrandController::class, 'index'])->name('brands.index');
 Route::get('/brands/{slug}', [BrandController::class, 'show'])->name('brands.show');
 
 // Cart
@@ -47,6 +50,10 @@ Route::get('/news', [NewsController::class, 'index'])->name('news.index');
 Route::get('/news/{slug}', [NewsController::class, 'show'])->name('news.show');
 Route::get('/upcoming-launches', fn() => redirect()->route('news.index', ['category' => 'rumors']))->name('upcoming-launches');
 Route::get('/rumors', fn() => redirect()->route('news.index', ['category' => 'rumors']))->name('rumors');
+
+// Blog
+Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
 
 // Reviews
 Route::get('/reviews', [ReviewController::class, 'index'])->name('reviews.index');
@@ -86,6 +93,10 @@ Route::get('/tech-lab', [PageController::class, 'techLab'])->name('pages.tech-la
 Route::post('/tech-lab/shootout/{id}/vote', [PageController::class, 'voteShootout'])
     ->middleware('throttle:interactions')
     ->name('pages.shootout.vote');
+Route::get('/careers', [PageController::class, 'careers'])->name('pages.careers');
+Route::post('/newsletter', [NewsletterController::class, 'store'])
+    ->middleware('throttle:contact')
+    ->name('newsletter.store');
 Route::get('/contact', [PageController::class, 'contact'])->name('pages.contact');
 Route::post('/contact', [PageController::class, 'contactStore'])
     ->middleware('throttle:contact')

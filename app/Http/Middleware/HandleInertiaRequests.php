@@ -2,6 +2,9 @@
 
 namespace App\Http\Middleware;
 
+use App\Models\Category;
+use App\Models\MenuItem;
+use App\Models\Popup;
 use App\Models\SiteSetting;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
@@ -36,6 +39,9 @@ class HandleInertiaRequests extends Middleware
             'siteName' => config('app.name'),
             'baseUrl'  => config('app.url'),
             'settings' => fn () => SiteSetting::publicSettings(),
+            'navCategories' => fn () => Category::orderBy('id')->get(['id', 'name', 'slug']),
+            'headerMenu'   => fn () => MenuItem::tree(),
+            'activePopup'  => fn () => Popup::live()->first(['id', 'title', 'body', 'image', 'badge', 'btn_text', 'btn_url', 'delay_seconds', 'frequency', 'updated_at']),
             'adminUrl' => '/' . ltrim(config('filament.path', 'secure-admin'), '/'),
             'flash'    => [
                 'success' => fn () => $request->session()->get('success'),

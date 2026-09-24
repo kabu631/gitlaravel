@@ -13,14 +13,14 @@
 
       <!-- Services grid -->
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
-        <div v-for="svc in services" :key="svc.title"
+        <div v-for="svc in services" :key="svc.id"
              class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6 hover:border-brand-400 dark:hover:border-brand-500 hover:-translate-y-1 transition-all duration-300">
           <div class="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl mb-5"
                :style="{ background: svc.gradient }">
             {{ svc.icon }}
           </div>
           <h3 class="font-bold text-lg mb-2">{{ svc.title }}</h3>
-          <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">{{ svc.desc }}</p>
+          <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">{{ svc.description }}</p>
         </div>
       </div>
 
@@ -60,49 +60,11 @@ import StaticPageLayout from '@/Layouts/StaticPageLayout.vue'
 import { Link } from '@inertiajs/vue3'
 
 defineProps({
+  services:        { type: Array,  default: () => [] },
   heading:         { type: String, default: 'Our Platform Services' },
   subheading:      { type: String, default: '' },
   body:            { type: String, default: null },
   sidebarProducts: { type: Array,  default: () => [] },
   sidebarNews:     { type: Array,  default: () => [] },
 })
-
-const services = [
-  {
-    icon: '⭐',
-    title: 'In-Depth Tech Reviews',
-    desc: 'Honest, hands-on tests of the latest smartphones, laptops, and wearables. Our expert verdicts help you make confident buying decisions.',
-    gradient: 'linear-gradient(135deg, #6c5ce7, #4834d4)',
-  },
-  {
-    icon: '↔️',
-    title: 'Gadget Comparisons',
-    desc: 'Use our powerful comparison engine to put devices head-to-head. Analyze specs, benchmarks, and camera differences instantly.',
-    gradient: 'linear-gradient(135deg, #1877F2, #0A66C2)',
-  },
-  {
-    icon: '📈',
-    title: 'Price & Specs Tracking',
-    desc: 'Official Nepal MRP and market rates tracked regularly with historical data to know if you are getting a genuine deal.',
-    gradient: 'linear-gradient(135deg, #F56040, #C13584)',
-  },
-  {
-    icon: '📰',
-    title: 'Daily Tech News',
-    desc: 'Stay updated with blazing-fast coverage on the latest tech launches, leaks, and industry insights.',
-    gradient: 'linear-gradient(135deg, #00b894, #00cec9)',
-  },
-  {
-    icon: '🤝',
-    title: 'Authorized Retail Guidance',
-    desc: 'To preserve 100% editorial impartiality, we guide buyers to authorized distributors and certified retailers across Nepal for authentic hardware and official warranties.',
-    gradient: 'linear-gradient(135deg, #ff9f43, #ff6b6b)',
-  },
-  {
-    icon: '📚',
-    title: 'Expert Buying Guides',
-    desc: 'Confused about specs? Our easy-to-read tech guides break down complex jargon so you can pick the right hardware.',
-    gradient: 'linear-gradient(135deg, #a29bfe, #6c5ce7)',
-  },
-]
 </script>

@@ -24,11 +24,11 @@
               </span>
               <span class="text-xs text-slate-400 flex items-center gap-1">
                 <Clock class="w-3.5 h-3.5" />
-                <span>4 Min Read</span>
+                <span>{{ readMinutes }} Min Read</span>
               </span>
               <span class="text-xs text-slate-400">•</span>
               <span class="text-xs text-slate-400">
-                {{ article.views_count || 1200 }} Views
+                {{ Number(article.views_count || 0).toLocaleString() }} Views
               </span>
             </div>
 
@@ -38,11 +38,11 @@
 
             <div class="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400 pt-1 pb-3 border-b border-slate-100 dark:border-slate-800">
               <div class="w-8 h-8 rounded-full bg-brand-500/10 text-brand-600 dark:text-brand-400 font-bold flex items-center justify-center shrink-0">
-                GI
+                {{ authorName.charAt(0).toUpperCase() }}
               </div>
               <div>
-                <p class="font-semibold text-slate-800 dark:text-slate-200">Git Infosys Tech Desk</p>
-                <p class="text-[11px] text-slate-400">Published {{ formatDate(article.created_at) }} &middot; Hardware &amp; AI Analysis</p>
+                <p class="font-semibold text-slate-800 dark:text-slate-200">{{ authorName }}</p>
+                <p class="text-[11px] text-slate-400">Published {{ formatDate(article.created_at) }} </p>
               </div>
             </div>
           </div>
@@ -236,6 +236,7 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
 import { Link } from '@inertiajs/vue3'
+import { computed } from 'vue'
 import {
   Clock, Share2, Sparkles, ShoppingBag, ExternalLink,
   Layers, Newspaper, Flame, Cpu
@@ -248,6 +249,11 @@ const props = defineProps({
   categories:      { type: Array, default: () => [] },
   trendingGadgets: { type: Array, default: () => [] },
 })
+
+const readMinutes = computed(() =>
+  Math.max(1, Math.ceil((props.article.content || '').replace(/<[^>]*>/g, ' ').trim().split(/\s+/).length / 200))
+)
+const authorName = computed(() => props.article.author?.name || 'Git Infosys Tech Desk')
 
 const currentUrl = typeof window !== 'undefined' ? window.location.href : ''
 

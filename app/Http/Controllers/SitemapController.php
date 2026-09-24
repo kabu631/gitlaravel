@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\BlogPost;
 use App\Models\Brand;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
@@ -20,6 +21,9 @@ class SitemapController extends Controller
             ['loc' => url('/'),                    'priority' => '1.0', 'freq' => 'daily'],
             ['loc' => route('gadgets.index'),       'priority' => '0.9', 'freq' => 'daily'],
             ['loc' => route('news.index'),          'priority' => '0.8', 'freq' => 'daily'],
+            ['loc' => route('brands.index'),        'priority' => '0.6', 'freq' => 'weekly'],
+            ['loc' => route('pages.careers'),       'priority' => '0.3', 'freq' => 'monthly'],
+            ['loc' => route('blog.index'),          'priority' => '0.7', 'freq' => 'daily'],
             ['loc' => route('reviews.index'),       'priority' => '0.8', 'freq' => 'weekly'],
             ['loc' => route('guides.index'),        'priority' => '0.8', 'freq' => 'weekly'],
             ['loc' => route('compare.index'),       'priority' => '0.6', 'freq' => 'monthly'],
@@ -49,6 +53,16 @@ class SitemapController extends Controller
             $urls->push([
                 'loc'      => route('news.show', $a->slug),
                 'lastmod'  => $a->updated_at->toDateString(),
+                'priority' => '0.7',
+                'freq'     => 'weekly',
+            ]);
+        });
+
+        // Blog posts
+        BlogPost::published()->select('slug', 'updated_at')->orderByDesc('updated_at')->each(function ($b) use ($urls) {
+            $urls->push([
+                'loc'      => route('blog.show', $b->slug),
+                'lastmod'  => $b->updated_at->toDateString(),
                 'priority' => '0.7',
                 'freq'     => 'weekly',
             ]);

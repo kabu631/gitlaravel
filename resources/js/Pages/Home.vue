@@ -539,7 +539,7 @@
               All Releases
             </button>
             <button
-              v-for="b in ['Apple', 'Samsung', 'Asus', 'Sony']"
+              v-for="b in launchBrands"
               :key="b"
               @click="launchBrandFilter = b"
               class="px-3 py-1 rounded-xl text-xs font-semibold transition cursor-pointer"
@@ -720,11 +720,49 @@
                 <div class="mt-3 pt-2.5 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
                   <span class="flex items-center gap-1">
                     <BookOpen class="w-3 h-3" />
-                    3 min read
+                    {{ readMinutes(article.content) }} min read
                   </span>
                   <span class="text-brand-600 dark:text-brand-400 font-semibold group-hover:translate-x-0.5 transition-transform">
                     Read Story →
                   </span>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </section>
+
+        <!-- ── FROM THE BLOG ── -->
+        <section v-if="blogPosts && blogPosts.length">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">From the Blog</h2>
+              <p class="text-xs text-slate-400 dark:text-slate-400 mt-0.5">Tips, how-tos and stories from our tech desk</p>
+            </div>
+            <Link :href="route('blog.index')" class="view-all">
+              <span>View All Posts</span>
+              <ArrowRight class="w-3.5 h-3.5" />
+            </Link>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link
+              v-for="post in blogPosts"
+              :key="post.id"
+              :href="route('blog.show', post.slug)"
+              class="glass-card bg-white dark:bg-[#111827] rounded-2xl overflow-hidden group card-hover flex flex-col border border-slate-200/80 dark:border-slate-800/80"
+            >
+              <div class="relative h-40 overflow-hidden bg-slate-100 dark:bg-slate-800">
+                <img :src="getImageUrl(post.cover_image)" :alt="post.title" loading="lazy" class="w-full h-full object-cover group-hover:scale-106 transition-transform duration-500 ease-out" />
+              </div>
+              <div class="p-4 flex-1 flex flex-col justify-between">
+                <div>
+                  <span class="text-[10px] font-bold text-brand-600 dark:text-brand-400 uppercase tracking-wider">{{ post.category_name }}</span>
+                  <h3 class="font-heading font-semibold text-sm mt-1 line-clamp-2 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors leading-snug">{{ post.title }}</h3>
+                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-1.5 line-clamp-2">{{ post.excerpt }}</p>
+                </div>
+                <div class="mt-3 pt-2.5 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
+                  <span class="flex items-center gap-1"><BookOpen class="w-3 h-3" />{{ post.reading_time }} min read</span>
+                  <span class="text-brand-600 dark:text-brand-400 font-semibold group-hover:translate-x-0.5 transition-transform">Read Post →</span>
                 </div>
               </div>
             </Link>
@@ -939,6 +977,7 @@
 </template>
 
 <script setup>
+import { getImageUrl } from '@/Composables/useImageUrl.js'
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { Link } from '@inertiajs/vue3'
 import AppLayout from '@/Layouts/AppLayout.vue'
@@ -964,6 +1003,7 @@ const props = defineProps({
   trending:         { type: Array, default: () => [] },
   categories:       { type: Array, default: () => [] },
   news:             { type: Array, default: () => [] },
+  blogPosts:        { type: Array, default: () => [] },
   reviews:          { type: Array, default: () => [] },
   brands:           { type: Array, default: () => [] },
   priceTracker:     { type: Array, default: () => [] },
@@ -985,6 +1025,10 @@ function toggleNotifyLaunch(name) {
     notifiedLaunches.value.add(name)
   }
 }
+
+const launchBrands = computed(() => [...new Set((props.upcomingLaunches || []).map(l => l.brand).filter(Boolean))])
+
+const readMinutes = (html) => Math.max(1, Math.ceil(((html || '').replace(/<[^>]*>/g, ' ').trim().split(/\s+/).length) / 200))
 
 const filteredLaunches = computed(() => {
   if (launchBrandFilter.value === 'all') return props.upcomingLaunches || []
@@ -1068,7 +1112,7 @@ const iconMap = {
 const getCategoryIcon = (slug) => iconMap[slug] || Cpu
 
 // 6 Visual Category Horizon items
-const categoryHorizon = [
+const categoryPresets = [
   {
     slug: 'mobile',
     name: 'Smartphones',
@@ -1130,6 +1174,20 @@ const categoryHorizon = [
     iconClass: 'text-indigo-600 dark:text-indigo-400',
   },
 ]
+
+// Tiles follow the categories managed in the admin panel; known slugs keep their custom styling.
+const categoryHorizon = computed(() => (props.categories || []).slice(0, 12).map((cat, i) => {
+  const known  = categoryPresets.find(p => p.slug === cat.slug)
+  const preset = known || categoryPresets[i % categoryPresets.length]
+  return {
+    ...preset,
+    slug:  cat.slug,
+    name:  cat.name,
+    badge: `${cat.gadgets_count ?? 0} Devices`,
+    desc:  known ? preset.desc : `Browse all ${cat.name}`,
+    icon:  known ? preset.icon : Cpu,
+  }
+}))
 
 const featuredCategories = computed(() => {
   const seen = new Set()
