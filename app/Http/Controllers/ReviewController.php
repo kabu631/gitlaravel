@@ -36,7 +36,7 @@ class ReviewController extends Controller
         $reviews = (clone $baseQuery)
             ->whereNotIn('id', $featuredIds)
             ->latest()
-            ->paginate(10)
+            ->paginate(\App\Support\PerPage::resolve($request, 10))
             ->withQueryString();
 
         $trendingGadgets = Gadget::with('brand')

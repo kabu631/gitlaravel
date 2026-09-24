@@ -12,6 +12,7 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Resources\Resource;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
@@ -34,27 +35,29 @@ class ReviewResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Select::make('gadget_id')
-                ->label('Gadget')
-                ->options(Gadget::with('brand')->get()->mapWithKeys(fn($g) => [$g->id => ($g->brand ? "{$g->brand->name} " : '') . $g->name]))
-                ->required()
-                ->searchable(),
-            Select::make('user_id')
-                ->label('Author')
-                ->relationship('author', 'name')
-                ->required(),
-            TextInput::make('title')->required()->maxLength(255)->live(onBlur: true)
-                ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))->columnSpanFull(),
-            TextInput::make('slug')->required()->maxLength(255),
-            TextInput::make('rating')
-                ->numeric()->minValue(0)->maxValue(10)->step(0.1)->required()
-                ->helperText('0.0 – 10.0 · Reviews rated ≥ 8.0 qualify as "Editor\'s Choice" in the filter'),
-            Toggle::make('is_published')->default(false),
-            RichEditor::make('content')->required()->columnSpanFull(),
-            Textarea::make('pros')->rows(4)->placeholder("One pro per line")->nullable(),
-            Textarea::make('cons')->rows(4)->placeholder("One con per line")->nullable(),
-            Textarea::make('verdict')->rows(3)->nullable()->columnSpanFull(),
-        ])->columns(2);
+            Section::make('Review Information')->columnSpanFull()->schema([
+                Select::make('gadget_id')
+                    ->label('Gadget')
+                    ->options(Gadget::with('brand')->get()->mapWithKeys(fn($g) => [$g->id => ($g->brand ? "{$g->brand->name} " : '') . $g->name]))
+                    ->required()
+                    ->searchable(),
+                Select::make('user_id')
+                    ->label('Author')
+                    ->relationship('author', 'name')
+                    ->required(),
+                TextInput::make('title')->required()->maxLength(255)->live(onBlur: true)
+                    ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))->columnSpanFull(),
+                TextInput::make('slug')->required()->maxLength(255),
+                TextInput::make('rating')
+                    ->numeric()->minValue(0)->maxValue(10)->step(0.1)->required()
+                    ->helperText('0.0 – 10.0 · Reviews rated ≥ 8.0 qualify as "Editor\'s Choice" in the filter'),
+                Toggle::make('is_published')->default(false),
+                RichEditor::make('content')->required()->columnSpanFull(),
+                Textarea::make('pros')->rows(4)->placeholder("One pro per line")->nullable(),
+                Textarea::make('cons')->rows(4)->placeholder("One con per line")->nullable(),
+                Textarea::make('verdict')->rows(3)->nullable()->columnSpanFull(),
+            ])->columns(2),
+        ]);
     }
 
     public static function table(Table $table): Table
@@ -87,13 +90,16 @@ class ReviewResource extends Resource
                 }),
             SelectFilter::make('gadget')->relationship('gadget', 'name')->searchable(),
         ])->actions([
+\Filament\Actions\ActionGroup::make([
             EditAction::make(),
             Action::make('view')
                 ->label('View')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->url(fn($record) => route('reviews.show', $record->slug))
                 ->openUrlInNewTab(),
-        ])
+\Filament\Actions\DeleteAction::make(),
+]),
+])
           ->bulkActions([DeleteBulkAction::make()])
           ->defaultSort('created_at', 'desc');
     }

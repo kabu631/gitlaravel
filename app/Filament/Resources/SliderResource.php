@@ -9,6 +9,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Toggle;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Actions\DeleteBulkAction;
@@ -31,56 +32,58 @@ class SliderResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            TextInput::make('title')
-                ->required()
-                ->maxLength(255)
-                ->columnSpanFull()
-                ->placeholder("Nepal's #1 Tech Price Tracker"),
+            Section::make('Slider Information')->columnSpanFull()->schema([
+                TextInput::make('title')
+                    ->required()
+                    ->maxLength(255)
+                    ->columnSpanFull()
+                    ->placeholder("Nepal's #1 Tech Price Tracker"),
 
-            TextInput::make('subtitle')
-                ->maxLength(255)
-                ->placeholder('e.g. NEW ARRIVAL · LATEST TECH'),
+                TextInput::make('subtitle')
+                    ->maxLength(255)
+                    ->placeholder('e.g. NEW ARRIVAL · LATEST TECH'),
 
-            TextInput::make('badge')
-                ->maxLength(100)
-                ->placeholder('e.g. 🔥 Hot Deal'),
+                TextInput::make('badge')
+                    ->maxLength(100)
+                    ->placeholder('e.g. 🔥 Hot Deal'),
 
-            Textarea::make('description')
-                ->rows(2)
-                ->maxLength(300)
-                ->columnSpanFull()
-                ->placeholder('Short description shown below the title…'),
+                Textarea::make('description')
+                    ->rows(2)
+                    ->maxLength(300)
+                    ->columnSpanFull()
+                    ->placeholder('Short description shown below the title…'),
 
-            FileUpload::make('image')
-                ->image()
-                ->disk('public')
-                ->directory('sliders')
-                ->nullable()
-                ->columnSpanFull()
-                ->helperText('Optional background/feature image. Recommended: 1200×400px'),
+                FileUpload::make('image')
+                    ->image()
+                    ->disk('public')
+                    ->directory('sliders')
+                    ->nullable()
+                    ->columnSpanFull()
+                    ->helperText('Optional background/feature image. Recommended: 1200×400px'),
 
-            // Button 1
-            TextInput::make('btn1_text')->label('Button 1 Text')->default('Browse Products'),
-            TextInput::make('btn1_url')->label('Button 1 URL')->default('/gadgets'),
-            Select::make('btn1_style')->label('Button 1 Style')
-                ->options(['violet' => 'Violet', 'dark' => 'Dark', 'blue' => 'Blue', 'outline' => 'Outline'])
-                ->default('violet'),
+                // Button 1
+                TextInput::make('btn1_text')->label('Button 1 Text')->default('Browse Products'),
+                TextInput::make('btn1_url')->label('Button 1 URL')->default('/gadgets'),
+                Select::make('btn1_style')->label('Button 1 Style')
+                    ->options(['violet' => 'Violet', 'dark' => 'Dark', 'blue' => 'Blue', 'outline' => 'Outline'])
+                    ->default('violet'),
 
-            // Button 2
-            TextInput::make('btn2_text')->label('Button 2 Text')->nullable(),
-            TextInput::make('btn2_url')->label('Button 2 URL')->nullable(),
-            Select::make('btn2_style')->label('Button 2 Style')
-                ->options(['violet' => 'Violet', 'dark' => 'Dark', 'blue' => 'Blue', 'outline' => 'Outline'])
-                ->default('dark'),
+                // Button 2
+                TextInput::make('btn2_text')->label('Button 2 Text')->nullable(),
+                TextInput::make('btn2_url')->label('Button 2 URL')->nullable(),
+                Select::make('btn2_style')->label('Button 2 Style')
+                    ->options(['violet' => 'Violet', 'dark' => 'Dark', 'blue' => 'Blue', 'outline' => 'Outline'])
+                    ->default('dark'),
 
-            TextInput::make('sort_order')
-                ->label('Sort Order')
-                ->numeric()
-                ->default(0)
-                ->helperText('Lower number = shown first'),
+                TextInput::make('sort_order')
+                    ->label('Sort Order')
+                    ->numeric()
+                    ->default(0)
+                    ->helperText('Lower number = shown first'),
 
-            Toggle::make('is_active')->label('Active')->default(true),
-        ])->columns(3);
+                Toggle::make('is_active')->label('Active')->default(true),
+            ])->columns(3),
+        ]);
     }
 
     public static function table(Table $table): Table
@@ -96,13 +99,15 @@ class SliderResource extends Resource
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
         ->actions([
+\Filament\Actions\ActionGroup::make([
             EditAction::make()
                 ->modalHeading('EDIT SLIDER')
                 ->modalDescription('UPDATE HOMEPAGE HERO BANNER SLIDE DETAILS')
                 ->modalSubmitActionLabel('SAVE CHANGES')
                 ->modalWidth('lg'),
             \Filament\Actions\DeleteAction::make(),
-        ])
+        ]),
+])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 

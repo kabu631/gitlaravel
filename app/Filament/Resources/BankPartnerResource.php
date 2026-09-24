@@ -33,7 +33,7 @@ class BankPartnerResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Bank Partner Information')->schema([
+            Section::make('Bank Partner Information')->columnSpanFull()->schema([
                 TextInput::make('name')
                     ->label('Commercial Bank Name')
                     ->required()
@@ -118,13 +118,15 @@ class BankPartnerResource extends Resource
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
         ->actions([
+\Filament\Actions\ActionGroup::make([
             EditAction::make()
                 ->modalHeading('EDIT BANK PARTNER')
                 ->modalDescription('UPDATE 0% EMI BANK PARTNER DETAILS')
                 ->modalSubmitActionLabel('SAVE CHANGES')
                 ->modalWidth('lg'),
             \Filament\Actions\DeleteAction::make(),
-        ])
+        ]),
+])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 

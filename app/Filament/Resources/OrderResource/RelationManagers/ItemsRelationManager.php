@@ -60,7 +60,7 @@ class ItemsRelationManager extends RelationManager
                     ->label('Qty')
                     ->alignCenter(),
 
-                TextColumn::make('subtotal')
+                TextColumn::make('subtotal')->sortable(false)
                     ->label('Subtotal')
                     ->state(fn($record) => 'NPR ' . number_format($record->quantity * $record->price))
                     ->weight('bold')

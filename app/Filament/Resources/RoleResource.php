@@ -10,7 +10,14 @@ use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
-use Filament\Forms\Components\CheckboxList;
+use Filament\Actions\Action;
+use Filament\Forms\Components\Hidden;
+use Filament\Forms\Components\Placeholder;
+use Filament\Forms\Components\Repeater;
+use Filament\Forms\Components\Repeater\TableColumn;
+use Filament\Forms\Components\Toggle;
+use Filament\Notifications\Notification;
+use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -36,7 +43,7 @@ class RoleResource extends Resource
         return $schema
             ->columns(1)
             ->components([
-                Section::make('Role Details')
+                Section::make('Role Details')->columnSpanFull()
                     ->description('Set the display name, unique identifier, and description for this role.')
                     ->schema([
                         TextInput::make('name')
@@ -73,44 +80,96 @@ class RoleResource extends Resource
                     ])
                     ->columns(2),
 
-                Section::make('Menu & Module Permissions')
-                    ->description('Select which navigation menus, dashboard pages, and modules users with this role can see and access.')
+                Section::make('Menu & Module Permissions')->columnSpanFull()
+                    ->description('Select which menus and modules users with this role can access, and which actions (view, create, update, delete) they may perform.')
                     ->schema([
-                        CheckboxList::make('systemModules')
-                            ->label('Granted System Modules')
-                            ->relationship('systemModules', 'name')
-                            ->options(function () {
-                                $modules = SystemModule::with('parent')
-                                    ->where('status', 'active')
-                                    ->orderBy('parent_id')
-                                    ->orderBy('order')
-                                    ->get();
-
-                                $options = [];
-                                foreach ($modules as $mod) {
-                                    $groupName = $mod->parent ? $mod->parent->name : 'Main Menu';
-                                    $options[$mod->id] = "{$groupName} → {$mod->name}";
-                                }
-
-                                return $options;
-                            })
-                            ->descriptions(function () {
-                                $modules = SystemModule::where('status', 'active')->get();
-                                $descriptions = [];
-                                foreach ($modules as $mod) {
-                                    $route = $mod->route ?: 'Menu Group (Header)';
-                                    $descriptions[$mod->id] = "Code: {$mod->code} · {$route}";
-                                }
-
-                                return $descriptions;
-                            })
-                            ->bulkToggleable()
-                            ->searchable()
-                            ->columns(['default' => 1, 'sm' => 2])
-                            ->gridDirection('row')
-                            ->helperText('Use Select All / Deselect All or search to quickly manage permissions.'),
+                        static::modulePermissionsField(),
                     ]),
             ]);
+    }
+
+    public static function modulePermissionsField(bool $viaRelationship = true): Repeater
+    {
+        $field = Repeater::make('module_permissions')
+            ->label('Granted System Modules')
+            ->table([
+                TableColumn::make('Menu / Module'),
+                TableColumn::make('URL'),
+                TableColumn::make('View')->alignCenter(),
+                TableColumn::make('Create')->alignCenter(),
+                TableColumn::make('Update')->alignCenter(),
+                TableColumn::make('Delete')->alignCenter(),
+            ])
+            ->schema([
+                Hidden::make('module_id'),
+                Placeholder::make('module_name')
+                    ->hiddenLabel()
+                    ->content(fn (Get $get) => static::moduleLabel($get('module_id'))),
+                Placeholder::make('module_url')
+                    ->hiddenLabel()
+                    ->content(fn (Get $get) => static::moduleUrl($get('module_id'))),
+                Toggle::make('can_view')->hiddenLabel(),
+                Toggle::make('can_create')->hiddenLabel(),
+                Toggle::make('can_update')->hiddenLabel(),
+                Toggle::make('can_delete')->hiddenLabel(),
+            ])
+            ->addable(false)
+            ->deletable(false)
+            ->reorderable(false)
+            ->default(fn () => static::permissionRows())
+            ->columnSpanFull();
+
+        if (! $viaRelationship) {
+            return $field;
+        }
+
+        return $field
+            ->loadStateFromRelationshipsUsing(function (Repeater $component, ?Role $record) {
+                $component->state(static::permissionRows($record));
+            })
+            ->saveRelationshipsUsing(function (Role $record, ?array $state) {
+                $record->syncModulePermissions($state ?? []);
+            })
+            ->dehydrated(false);
+    }
+
+    protected static function activeModules()
+    {
+        return once(fn () => SystemModule::with('parent')
+            ->where('status', 'active')
+            ->orderBy('parent_id')
+            ->orderBy('order')
+            ->get()
+            ->keyBy('id'));
+    }
+
+    protected static function moduleLabel(mixed $id): string
+    {
+        $mod = static::activeModules()->get($id);
+
+        return $mod ? (($mod->parent?->name ?? 'Main Menu') . ' → ' . $mod->name) : '';
+    }
+
+    protected static function moduleUrl(mixed $id): string
+    {
+        return static::activeModules()->get($id)?->route ?: 'Menu group (no URL)';
+    }
+
+    public static function permissionRows(?Role $role = null): array
+    {
+        $granted = $role ? $role->systemModules()->get()->keyBy('id') : collect();
+
+        return static::activeModules()->map(function (SystemModule $mod) use ($granted) {
+            $pivot = $granted->get($mod->id)?->pivot;
+
+            return [
+                'module_id' => $mod->id,
+                'can_view' => (bool) $pivot?->can_view,
+                'can_create' => (bool) $pivot?->can_create,
+                'can_update' => (bool) $pivot?->can_update,
+                'can_delete' => (bool) $pivot?->can_delete,
+            ];
+        })->values()->all();
     }
 
     public static function table(Table $table): Table
@@ -156,6 +215,24 @@ class RoleResource extends Resource
                     ->alignCenter(),
             ])
             ->recordActions([
+\Filament\Actions\ActionGroup::make([
+                Action::make('menuPermissions')
+                    ->label('Menu Permission')
+                    ->icon('heroicon-o-key')
+                    ->color('primary')
+                    ->modalHeading(fn (Role $record) => "Menu Permissions — {$record->name}")
+                    ->modalDescription('View and assign menu/module access with view, create, update, and delete actions.')
+                    ->modalSubmitActionLabel('Save Permissions')
+                    ->stickyModalHeader()
+                    ->stickyModalFooter()
+                    ->modalWidth('5xl')
+                    ->fillForm(fn (Role $record) => ['module_permissions' => static::permissionRows($record)])
+                    ->schema([static::modulePermissionsField(viaRelationship: false)])
+                    ->action(function (Role $record, array $data) {
+                        $record->syncModulePermissions($data['module_permissions'] ?? []);
+                        Notification::make()->title('Menu permissions updated.')->success()->send();
+                    }),
+
                 EditAction::make()
                     ->modalHeading('Edit Role & Permissions')
                     ->modalDescription('Update role details and granted menu module permissions.')
@@ -168,7 +245,8 @@ class RoleResource extends Resource
                     ->modalHeading('Delete Role')
                     ->modalDescription('Are you sure you want to delete this role? Assigned users will lose this role.')
                     ->visible(fn (Role $record) => ! $record->is_system),
-            ])
+            ]),
+])
             ->toolbarActions([
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),

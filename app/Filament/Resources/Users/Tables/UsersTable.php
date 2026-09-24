@@ -26,7 +26,7 @@ class UsersTable
                     ->label('Email address')
                     ->searchable()
                     ->copyable(),
-                TextColumn::make('roles.name')
+                TextColumn::make('roles.name')->sortable(false)
                     ->label('Assigned Roles')
                     ->badge()
                     ->color('primary')
@@ -57,6 +57,7 @@ class UsersTable
                     ->preload(),
             ])
             ->recordActions([
+\Filament\Actions\ActionGroup::make([
                 EditAction::make(),
                 Action::make('resetPassword')
                     ->label('Reset Password')
@@ -78,7 +79,9 @@ class UsersTable
                         ]);
                     })
                     ->successNotificationTitle('Password reset successfully'),
-            ])
+\Filament\Actions\DeleteAction::make(),
+]),
+])
             ->toolbarActions([
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),

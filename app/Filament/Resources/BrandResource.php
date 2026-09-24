@@ -8,6 +8,7 @@ use App\Models\Category;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Actions\DeleteAction;
@@ -29,36 +30,38 @@ class BrandResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            TextInput::make('name')
-                ->label('Name')
-                ->required()
-                ->maxLength(100)
-                ->live(onBlur: true)
-                ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
-                ->placeholder('e.g. Samsung'),
+            Section::make('Brand Information')->columnSpanFull()->schema([
+                TextInput::make('name')
+                    ->label('Name')
+                    ->required()
+                    ->maxLength(100)
+                    ->live(onBlur: true)
+                    ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
+                    ->placeholder('e.g. Samsung'),
 
-            TextInput::make('slug')
-                ->label('Slug')
-                ->required()
-                ->maxLength(100)
-                ->placeholder('e.g. samsung')
-                ->helperText('Auto-generated from name. Leave blank or edit if needed.'),
+                TextInput::make('slug')
+                    ->label('Slug')
+                    ->required()
+                    ->maxLength(100)
+                    ->placeholder('e.g. samsung')
+                    ->helperText('Auto-generated from name. Leave blank or edit if needed.'),
 
-            FileUpload::make('logo')
-                ->label('Brand Logo')
-                ->image()
-                ->disk('public')
-                ->directory('brands')
-                ->imagePreviewHeight('80')
-                ->nullable(),
+                FileUpload::make('logo')
+                    ->label('Brand Logo')
+                    ->image()
+                    ->disk('public')
+                    ->directory('brands')
+                    ->imagePreviewHeight('80')
+                    ->nullable(),
 
-            Select::make('categories')
-                ->label('Categories')
-                ->relationship('categories', 'name')
-                ->multiple()
-                ->preload()
-                ->searchable()
-                ->placeholder('Select categories this brand belongs to'),
+                Select::make('categories')
+                    ->label('Categories')
+                    ->relationship('categories', 'name')
+                    ->multiple()
+                    ->preload()
+                    ->searchable()
+                    ->placeholder('Select categories this brand belongs to'),
+            ])->columns(1),
         ]);
     }
 
@@ -68,20 +71,22 @@ class BrandResource extends Resource
             ImageColumn::make('logo')->circular()->disk('public'),
             TextColumn::make('name')->searchable()->sortable(),
             TextColumn::make('slug'),
-            TextColumn::make('categories.name')
+            TextColumn::make('categories.name')->sortable(false)
                 ->label('Categories')
                 ->badge()
                 ->color('primary')
                 ->separator(', '),
             TextColumn::make('gadgets_count')->counts('gadgets')->label('Products'),
         ])->actions([
+\Filament\Actions\ActionGroup::make([
             EditAction::make()
                 ->modalHeading('Edit Brand')
                 ->modalDescription('Update brand details')
                 ->modalSubmitActionLabel('Save changes')
                 ->modalWidth('md'),
             DeleteAction::make(),
-        ])
+        ]),
+])
           ->bulkActions([DeleteBulkAction::make()]);
     }
 

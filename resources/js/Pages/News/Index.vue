@@ -246,18 +246,7 @@
           </div>
 
           <!-- Pagination -->
-          <div v-if="articles.links && articles.links.length > 3" class="flex justify-center items-center gap-1.5 mt-8">
-            <Link
-              v-for="link in articles.links"
-              :key="link.label"
-              :href="link.url ?? '#'"
-              class="px-3 py-1.5 rounded-xl text-xs font-semibold transition"
-              :class="link.active
-                ? 'bg-brand-500 text-slate-950 font-bold shadow-xs'
-                : 'bg-white dark:bg-[#111827] text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-800 hover:border-brand-500'"
-              v-html="link.label"
-            />
-          </div>
+          <Pagination :paginator="articles" />
         </div>
 
         <!-- ── 4 COLS: GADGETBYTE NEPAL STYLE SIDEBAR ── -->
@@ -341,6 +330,7 @@
 
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
+import Pagination from '@/Components/Pagination.vue'
 import { Link, router } from '@inertiajs/vue3'
 import { ref, computed } from 'vue'
 import {

@@ -41,7 +41,9 @@ class VariantsRelationManager extends RelationManager
             TextColumn::make('stock'),
             IconColumn::make('is_available')->boolean()->label('Available'),
         ])->headerActions([CreateAction::make()])
-          ->actions([EditAction::make()])
+          ->actions([
+\Filament\Actions\ActionGroup::make([EditAction::make()]),
+])
           ->bulkActions([DeleteBulkAction::make()]);
     }
 }

@@ -135,9 +135,11 @@ class ProductVariantsRelationManager extends RelationManager
                 CreateAction::make()->label('Add Variant'),
             ])
             ->actions([
+\Filament\Actions\ActionGroup::make([
                 EditAction::make(),
                 DeleteAction::make(),
-            ])
+            ]),
+])
             ->bulkActions([
                 DeleteBulkAction::make(),
             ])

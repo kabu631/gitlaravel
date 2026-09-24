@@ -40,6 +40,7 @@ class ContactMessagesTable
                 //
             ])
             ->recordActions([
+\Filament\Actions\ActionGroup::make([
                 Action::make('toggleRead')
                     ->label(fn ($record) => $record->is_read ? 'Mark Unread' : 'Mark Read')
                     ->icon(fn ($record) => $record->is_read ? 'heroicon-o-eye-slash' : 'heroicon-o-eye')
@@ -48,7 +49,8 @@ class ContactMessagesTable
                         $record->update(['is_read' => !$record->is_read]);
                     }),
                 ViewAction::make(),
-            ])
+            ]),
+])
             ->toolbarActions([
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),

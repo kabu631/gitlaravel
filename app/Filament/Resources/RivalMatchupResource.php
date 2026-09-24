@@ -32,7 +32,7 @@ class RivalMatchupResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Matchup Overview')->schema([
+            Section::make('Matchup Overview')->columnSpanFull()->schema([
                 TextInput::make('title')
                     ->label('Matchup Title')
                     ->required()
@@ -65,7 +65,7 @@ class RivalMatchupResource extends Resource
                     ->default(true),
             ])->columns(2),
 
-            Section::make('Rival Flagship Devices')->schema([
+            Section::make('Rival Flagship Devices')->columnSpanFull()->schema([
                 Select::make('device_a_id')
                     ->label('Device Alpha (Left)')
                     ->options(fn() => Gadget::orderBy('name')->pluck('name', 'id'))
@@ -81,7 +81,7 @@ class RivalMatchupResource extends Resource
                     ->required(),
             ])->columns(2),
 
-            Section::make('Head-to-Head Comparison Metrics')->schema([
+            Section::make('Head-to-Head Comparison Metrics')->columnSpanFull()->schema([
                 Repeater::make('metrics')
                     ->label('Duel Breakdown Metrics')
                     ->schema([
@@ -136,7 +136,11 @@ class RivalMatchupResource extends Resource
         ])
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
-        ->actions([EditAction::make()])
+        ->actions([
+\Filament\Actions\ActionGroup::make([EditAction::make(),
+\Filament\Actions\DeleteAction::make(),
+]),
+])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 
