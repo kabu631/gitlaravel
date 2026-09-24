@@ -2,7 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\BlogPost;
+use App\Models\Brand;
 use App\Models\Category;
+use App\Models\Review;
+use App\Models\Service;
+use App\Models\TeamMember;
 use App\Models\ContactMessage;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
@@ -39,17 +44,17 @@ class PageController extends Controller
         $content = PageContent::forPage('about');
         $extra   = $content?->extra ?? [];
 
-        $stats = [
-            ['num' => '500+', 'label' => 'Products Reviewed'],
-            ['num' => '50K+', 'label' => 'Monthly Visitors'],
-            ['num' => '100+', 'label' => 'Expert Articles'],
-            ['num' => '10K+', 'label' => 'Happy Shoppers'],
+        // Admin-managed override (Static Pages → About → extra.stats), otherwise real catalogue counts.
+        $stats = $extra['stats'] ?? [
+            ['num' => number_format(Gadget::count()) . '+', 'label' => 'Products Listed'],
+            ['num' => number_format(Review::where('is_published', true)->count()) . '+', 'label' => 'Expert Reviews'],
+            ['num' => number_format(NewsArticle::where('is_published', true)->count() + BlogPost::published()->count()) . '+', 'label' => 'Articles Published'],
+            ['num' => number_format(Brand::count()) . '+', 'label' => 'Brands Covered'],
         ];
 
-        $team = [
-            ['name' => 'Kabindra Koirala', 'role' => 'Founder & Editor-in-Chief', 'bio' => 'Tech enthusiast passionate about making gadget buying decisions easier for Nepali consumers.'],
-            ['name' => 'Tech Team', 'role' => 'Review Specialists', 'bio' => 'Our team of specialists rigorously test every product before publishing honest, unbiased reviews.'],
-        ];
+        $team = TeamMember::active()->get()->map(fn ($m) => [
+            'name' => $m->name, 'role' => $m->role, 'bio' => $m->bio, 'photo' => $m->photo,
+        ])->all();
 
         return Inertia::render('Pages/About', array_merge($this->sidebarData(), [
             'heading'    => $content?->heading    ?? "Nepal's Trusted Tech Platform",
@@ -238,10 +243,10 @@ class PageController extends Controller
             'subheading' => $content?->subheading ?? "Have a question, feedback, or partnership inquiry? We'd love to hear from you.",
             // Contact details live in Site Settings so the footer and this page can
             // never disagree. A page-specific value in `extra` still wins if set.
-            'address'    => $extra['address'] ?? SiteSetting::get('footer_address', 'Kathmandu, Nepal'),
-            'email'      => $extra['email']   ?? SiteSetting::get('footer_email', 'info@gitinfosys.com'),
-            'phone'      => $extra['phone']   ?? SiteSetting::get('footer_phone', '+977 000 000 000'),
-            'hours'      => $extra['hours']   ?? SiteSetting::get('footer_hours', 'Sun – Fri: 9 AM – 6 PM'),
+            'address'    => $extra['address'] ?? SiteSetting::get('footer_address', ''),
+            'email'      => $extra['email']   ?? SiteSetting::get('footer_email', ''),
+            'phone'      => $extra['phone']   ?? SiteSetting::get('footer_phone', ''),
+            'hours'      => $extra['hours']   ?? SiteSetting::get('footer_hours', ''),
             'mapEmbed'   => $mapEmbed,
             'seo'        => [
                 'title'       => 'Contact Git Infosys — Get in Touch',
@@ -281,10 +286,29 @@ class PageController extends Controller
             'heading'    => $content?->heading    ?? 'Our Platform Services',
             'subheading' => $content?->subheading ?? "Git Infosys is Nepal's ultimate tech ecosystem. We offer an integrated suite of tools, reviews, and shopping experiences to make your tech life smarter.",
             'body'       => $content?->body,
+            'services'   => Service::active()->get(['id', 'icon', 'title', 'description', 'gradient']),
             'seo'        => [
                 'title'       => 'Our Services — Git Infosys',
                 'description' => $content?->meta_description ?? "Explore what Git Infosys offers — gadget reviews, price comparison, buying guides, sponsored content, and more for Nepal's tech community.",
                 'canonical'   => route('pages.services'),
+            ],
+        ]));
+    }
+
+    public function careers()
+    {
+        $content = PageContent::forPage('careers');
+
+        return Inertia::render('Pages/Careers', array_merge($this->sidebarData(), [
+            'heading'      => $content?->heading    ?? 'Careers at ' . config('app.name'),
+            'subheading'   => $content?->subheading ?? 'Help us make tech buying simpler for everyone in Nepal.',
+            'body'         => $content?->body,
+            'jobs'         => \App\Models\JobOpening::open()->get(),
+            'contactEmail' => \App\Models\SiteSetting::get('footer_email'),
+            'seo'          => [
+                'title'       => 'Careers — ' . config('app.name'),
+                'description' => $content?->meta_description ?? 'Open positions at ' . config('app.name') . '. Join our team of tech reviewers, writers and developers in Nepal.',
+                'canonical'   => route('pages.careers'),
             ],
         ]));
     }

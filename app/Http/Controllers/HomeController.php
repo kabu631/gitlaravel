@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\BlogPost;
 use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Gadget;
@@ -203,6 +204,13 @@ class HomeController extends Controller
             'trending'         => $trending,
             'categories'       => Category::withCount('gadgets')->get(),
             'news'             => NewsArticle::where('is_published', true)->latest()->take(8)->get(),
+            'blogPosts'        => BlogPost::published()->with('author:id,name')->orderByDesc('is_featured')->orderByDesc('published_at')->take(3)
+                ->get()->map(fn ($p) => [
+                    'id' => $p->id, 'title' => $p->title, 'slug' => $p->slug,
+                    'excerpt' => $p->excerpt ?: \Illuminate\Support\Str::limit(strip_tags((string) $p->content), 110),
+                    'cover_image' => $p->cover_image, 'reading_time' => $p->reading_time,
+                    'category_name' => \App\Filament\Resources\BlogPostResource::CATEGORIES[$p->category] ?? \Illuminate\Support\Str::headline($p->category),
+                ]),
             'reviews'          => Review::with(['gadget.brand'])->where('is_published', true)->latest()->take(6)->get(),
             'brands'           => Brand::withCount('gadgets')->orderByDesc('gadgets_count')->take(15)->get(['id', 'name', 'slug', 'gadgets_count']),
             'priceTracker'     => $priceTracker,

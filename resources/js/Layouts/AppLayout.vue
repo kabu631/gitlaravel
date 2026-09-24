@@ -75,6 +75,12 @@
               <a v-if="hasSocial('youtube')" :href="socialUrl('youtube')" target="_blank" rel="noopener" class="text-slate-400 hover:text-[#FF0000] transition p-0.5" title="YouTube">
                 <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
               </a>
+              <a v-if="hasSocial('tiktok')" :href="socialUrl('tiktok')" target="_blank" rel="noopener" class="text-slate-400 hover:text-slate-900 dark:hover:text-white transition p-0.5" title="TikTok">
+                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+              </a>
+              <a v-if="hasSocial('linkedin')" :href="socialUrl('linkedin')" target="_blank" rel="noopener" class="text-slate-400 hover:text-[#0A66C2] transition p-0.5" title="LinkedIn">
+                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
             </div>
 
             <span class="w-px h-3.5 bg-slate-300 dark:bg-slate-700"></span>
@@ -100,236 +106,60 @@
 
           <!-- Desktop Navigation Menu -->
           <div class="hidden lg:flex items-center gap-1 text-sm font-medium" @mouseleave="startClose()">
-            <!-- Products Dropdown -->
-            <div class="relative" @mouseenter="openDD('products'); cancelClose()">
-              <button class="nav-btn flex items-center gap-1.5" :class="{ 'active': activeDD === 'products' }">
-                <span>Products</span>
-                <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'products' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
-              </button>
-              <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'products'" class="dd-panel w-80 p-2.5">
-                  <Link :href="route('gadgets.index')" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 flex items-center justify-center shrink-0">
-                      <Cpu class="w-[18px] h-[18px]" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-slate-800 dark:text-slate-200">All Products</div>
-                      <div class="text-xs text-slate-400">Full catalog & filters</div>
-                    </div>
-                  </Link>
-
-                  <div class="dd-divider" />
-                  <div class="dd-label">Shop by Category</div>
-
-                  <div class="grid grid-cols-2 gap-1.5">
-                    <Link :href="route('gadgets.index', { category: 'mobile' })" class="dd-item-sm">
-                      <Smartphone class="w-4 h-4 text-rose-500 shrink-0" />
-                      <span>Smartphones</span>
-                    </Link>
-                    <Link :href="route('gadgets.index', { category: 'laptop' })" class="dd-item-sm">
-                      <Laptop class="w-4 h-4 text-blue-500 shrink-0" />
-                      <span>Laptops</span>
-                    </Link>
-                    <Link :href="route('gadgets.index', { category: 'tablet' })" class="dd-item-sm">
-                      <Tablet class="w-4 h-4 text-purple-500 shrink-0" />
-                      <span>Tablets</span>
-                    </Link>
-                    <Link :href="route('gadgets.index', { category: 'earbuds' })" class="dd-item-sm">
-                      <Headphones class="w-4 h-4 text-emerald-500 shrink-0" />
-                      <span>Audio</span>
-                    </Link>
-                    <Link :href="route('gadgets.index', { category: 'smartwatch' })" class="dd-item-sm">
-                      <Watch class="w-4 h-4 text-amber-500 shrink-0" />
-                      <span>Wearables</span>
-                    </Link>
-                    <Link :href="route('gadgets.index', { category: 'accessory' })" class="dd-item-sm">
-                      <Mouse class="w-4 h-4 text-indigo-500 shrink-0" />
-                      <span>Accessories</span>
-                    </Link>
+            <template v-for="item in headerMenu" :key="item.id">
+              <!-- Dropdown parent -->
+              <div v-if="item.children.length" class="relative" @mouseenter="openDD('m' + item.id); cancelClose()">
+                <button class="nav-btn flex items-center gap-1.5" :class="{ 'active': activeDD === 'm' + item.id }">
+                  <span>{{ item.label }}</span>
+                  <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'm' + item.id ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
+                </button>
+                <Transition v-bind="ddTransition">
+                  <div v-if="activeDD === 'm' + item.id" class="dd-panel p-2.5" :class="item.children.some(c => c.type === 'categories') ? 'w-80' : 'w-64'">
+                    <template v-for="child in item.children" :key="child.id">
+                      <div v-if="child.type === 'divider'" class="dd-divider" />
+                      <div v-else-if="child.type === 'heading'" class="dd-label">{{ child.label }}</div>
+                      <div v-else-if="child.type === 'categories'" class="grid grid-cols-2 gap-1.5">
+                        <Link v-for="cat in navCategories" :key="cat.slug" :href="route('gadgets.index', { category: cat.slug })" class="dd-item-sm">
+                          <component :is="catIcon(cat.slug)" class="w-4 h-4 shrink-0" :class="catColor(cat.slug)" />
+                          <span>{{ cat.name }}</span>
+                        </Link>
+                      </div>
+                      <component
+                        v-else
+                        :is="isExternal(child) ? 'a' : Link"
+                        :href="child.url || '#'"
+                        v-bind="isExternal(child) ? { target: child.open_in_new_tab ? '_blank' : undefined, rel: 'noopener' } : {}"
+                        class="dd-item"
+                      >
+                        <div class="w-9 h-9 rounded-lg flex items-center justify-center shrink-0" :class="STYLE_CHIP[child.style] || STYLE_CHIP.default">
+                          <component :is="menuIcon(child.icon)" class="w-[18px] h-[18px]" />
+                        </div>
+                        <div>
+                          <div class="font-semibold flex items-center gap-1.5" :class="STYLE_TITLE[child.style] || STYLE_TITLE.default">
+                            {{ child.label }}
+                            <span v-if="child.badge_text" class="text-[9px] px-1.5 py-0.5 rounded font-bold uppercase" :class="STYLE_BADGE[child.style] || STYLE_BADGE.default">{{ child.badge_text }}</span>
+                          </div>
+                          <div v-if="child.subtitle" class="text-xs text-slate-400">{{ child.subtitle }}</div>
+                        </div>
+                      </component>
+                    </template>
                   </div>
+                </Transition>
+              </div>
 
-                  <div class="dd-divider" />
-
-                  <Link :href="route('compare.index')" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
-                      <Scale class="w-[18px] h-[18px]" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-slate-800 dark:text-slate-200">Side-by-Side Compare</div>
-                      <div class="text-xs text-slate-400">Spec & price showdown</div>
-                    </div>
-                  </Link>
-
-                  <Link :href="route('pcbuilder.index')" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
-                      <Bot class="w-[18px] h-[18px]" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-blue-600 dark:text-blue-400 flex items-center gap-1.5">
-                        PC Builder
-                        <span class="text-[9px] px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/60 text-blue-600 dark:text-blue-300 font-bold uppercase">AI</span>
-                      </div>
-                      <div class="text-xs text-slate-400">Custom build estimator</div>
-                    </div>
-                  </Link>
-
-                  <Link :href="route('pages.price-tracker')" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-rose-50 dark:bg-rose-950/60 text-rose-500 flex items-center justify-center shrink-0">
-                      <Flame class="w-[18px] h-[18px] text-rose-500" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
-                        Price Tracker
-                        <span class="text-[9px] px-1.5 py-0.5 rounded bg-rose-500 text-white font-bold uppercase">HOT</span>
-                      </div>
-                      <div class="text-xs text-slate-400">Nepal price drops &amp; cuts</div>
-                    </div>
-                  </Link>
-                </div>
-              </Transition>
-            </div>
-
-            <!-- Reviews Dropdown -->
-            <div class="relative" @mouseenter="openDD('reviews'); cancelClose()">
-              <button class="nav-btn flex items-center gap-1.5" :class="{ 'active': activeDD === 'reviews' }">
-                <span>Reviews</span>
-                <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'reviews' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
-              </button>
-              <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'reviews'" class="dd-panel w-60 p-2.5">
-                  <Link :href="route('reviews.index')" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-500 flex items-center justify-center shrink-0">
-                      <Star class="w-[18px] h-[18px]" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-slate-800 dark:text-slate-200">All Reviews</div>
-                      <div class="text-xs text-slate-400">Expert verdicts</div>
-                    </div>
-                  </Link>
-                  <Link :href="route('reviews.index', { filter: 'editors-choice' })" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-purple-50 dark:bg-purple-950/60 text-purple-500 flex items-center justify-center shrink-0">
-                      <Award class="w-[18px] h-[18px]" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-slate-800 dark:text-slate-200">Editor's Choice</div>
-                      <div class="text-xs text-slate-400">Top ranked gadgets</div>
-                    </div>
-                  </Link>
-                </div>
-              </Transition>
-            </div>
-
-            <!-- News Dropdown -->
-            <div class="relative" @mouseenter="openDD('news'); cancelClose()">
-              <button class="nav-btn flex items-center gap-1.5" :class="{ 'active': activeDD === 'news' }">
-                <span>News</span>
-                <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'news' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
-              </button>
-              <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'news'" class="dd-panel w-64 p-2.5">
-                  <Link :href="route('news.index')" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-blue-50 dark:bg-blue-950/60 text-blue-500 flex items-center justify-center shrink-0">
-                      <Newspaper class="w-[18px] h-[18px]" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-slate-800 dark:text-slate-200">All Tech News</div>
-                      <div class="text-xs text-slate-400">Latest updates</div>
-                    </div>
-                  </Link>
-                  <div class="dd-divider" />
-                  <div class="dd-label">Browse by Category</div>
-                  <div class="space-y-0.5">
-                    <Link :href="route('news.index', { category: 'rumors' })" class="dd-item-sm">
-                      <div class="dd-icon-chip bg-purple-50 dark:bg-purple-950/50">
-                        <Activity class="w-4 h-4 text-purple-500" />
-                      </div>
-                      <span>Rumors & Upcoming</span>
-                    </Link>
-                    <Link :href="route('news.index', { category: 'technology' })" class="dd-item-sm">
-                      <div class="dd-icon-chip bg-slate-100 dark:bg-slate-800">
-                        <Lightbulb class="w-4 h-4 text-slate-500 dark:text-slate-400" />
-                      </div>
-                      <span>Technology</span>
-                    </Link>
-                    <Link :href="route('news.index', { category: 'ai-ml' })" class="dd-item-sm">
-                      <div class="dd-icon-chip bg-violet-50 dark:bg-violet-950/50">
-                        <Bot class="w-4 h-4 text-violet-500" />
-                      </div>
-                      <span>AI & Innovations</span>
-                    </Link>
-                    <Link :href="route('news.index', { category: 'gaming' })" class="dd-item-sm">
-                      <div class="dd-icon-chip bg-emerald-50 dark:bg-emerald-950/50">
-                        <Gamepad2 class="w-4 h-4 text-emerald-500" />
-                      </div>
-                      <span>Gaming</span>
-                    </Link>
-                    <Link :href="route('news.index', { category: 'mobile' })" class="dd-item-sm">
-                      <div class="dd-icon-chip bg-brand-50 dark:bg-brand-950/50">
-                        <Smartphone class="w-4 h-4 text-brand-500" />
-                      </div>
-                      <span>Mobile Launches</span>
-                    </Link>
-                  </div>
-                </div>
-              </Transition>
-            </div>
-
-            <!-- Guides Dropdown -->
-            <div class="relative" @mouseenter="openDD('guides'); cancelClose()">
-              <button class="nav-btn flex items-center gap-1.5" :class="{ 'active': activeDD === 'guides' }">
-                <span>Guides</span>
-                <ChevronDown class="w-3.5 h-3.5 transition-transform duration-200" :class="activeDD === 'guides' ? 'rotate-180 text-brand-500' : 'text-slate-400'" />
-              </button>
-              <Transition v-bind="ddTransition">
-                <div v-if="activeDD === 'guides'" class="dd-panel w-64 p-2.5">
-                  <Link :href="route('guides.index')" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-500 flex items-center justify-center shrink-0">
-                      <BookOpen class="w-[18px] h-[18px]" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-slate-800 dark:text-slate-200">All Tech Guides</div>
-                      <div class="text-xs text-slate-400">Tips &amp; tutorials</div>
-                    </div>
-                  </Link>
-
-                  <Link :href="route('pages.tech-lab')" class="dd-item">
-                    <div class="w-9 h-9 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 border border-emerald-500/20">
-                      <ShieldCheck class="w-[18px] h-[18px]" />
-                    </div>
-                    <div>
-                      <div class="font-semibold text-emerald-600 dark:text-emerald-400 flex items-center gap-1.5">
-                        Tech Lab
-                        <span class="text-[9px] px-1 py-0.2 rounded bg-emerald-500 text-white font-extrabold uppercase leading-tight">NEW</span>
-                      </div>
-                      <div class="text-xs text-slate-400">Interactive hardware tests</div>
-                    </div>
-                  </Link>
-
-                  <div class="dd-divider" />
-                  <div class="dd-label">More Guides</div>
-                  <div class="space-y-0.5">
-                    <Link :href="route('guides.index', { type: 'buying-guide' })" class="dd-item-sm">
-                      <div class="dd-icon-chip bg-slate-100 dark:bg-slate-800">
-                        <ShoppingBag class="w-4 h-4 text-slate-500 dark:text-slate-400" />
-                      </div>
-                      <span>Buying Guides</span>
-                    </Link>
-                    <Link :href="route('guides.index', { type: 'how-to' })" class="dd-item-sm">
-                      <div class="dd-icon-chip bg-slate-100 dark:bg-slate-800">
-                        <Wrench class="w-4 h-4 text-slate-500 dark:text-slate-400" />
-                      </div>
-                      <span>How-to Guides</span>
-                    </Link>
-                  </div>
-                </div>
-              </Transition>
-            </div>
-
-            <Link :href="route('compare.index')" class="nav-btn">Compare</Link>
-            <Link :href="route('pcbuilder.index')" class="nav-btn !text-blue-600 dark:!text-blue-400 font-semibold flex items-center gap-1">
-              <Bot class="w-3.5 h-3.5" />
-              PC Builder
-            </Link>
+              <!-- Plain link -->
+              <component
+                v-else
+                :is="isExternal(item) ? 'a' : Link"
+                :href="item.url || '#'"
+                v-bind="isExternal(item) ? { target: item.open_in_new_tab ? '_blank' : undefined, rel: 'noopener' } : {}"
+                class="nav-btn flex items-center gap-1"
+                :class="item.style !== 'default' ? STYLE_TOP[item.style] + ' font-semibold' : ''"
+              >
+                <component v-if="item.style !== 'default' && item.icon" :is="menuIcon(item.icon)" class="w-3.5 h-3.5" />
+                {{ item.label }}
+              </component>
+            </template>
           </div>
 
           <!-- Right Action Bar: Search, Theme, Cart, Auth -->
@@ -466,67 +296,43 @@
           leave-to-class="opacity-0 -translate-y-4 max-h-0 overflow-hidden"
         >
           <div v-show="mobileOpen" class="lg:hidden border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-[#0f172a]/95 backdrop-blur-xl px-4 py-4 space-y-3">
-            <div>
-              <p class="px-2 text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-1">Products</p>
+            <div v-for="item in mobileMenu" :key="item.id">
+              <p v-if="item.children.length" class="px-2 text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-1">{{ item.label }}</p>
               <div class="grid grid-cols-2 gap-1.5">
-                <Link :href="route('gadgets.index')" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Cpu class="w-3.5 h-3.5 text-brand-500" />
-                  <span>All Gadgets</span>
-                </Link>
-                <Link :href="route('gadgets.index', { category: 'mobile' })" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Smartphone class="w-3.5 h-3.5 text-blue-500" />
-                  <span>Smartphones</span>
-                </Link>
-                <Link :href="route('gadgets.index', { category: 'laptop' })" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Laptop class="w-3.5 h-3.5 text-indigo-500" />
-                  <span>Laptops</span>
-                </Link>
-                <Link :href="route('gadgets.index', { category: 'tablet' })" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Tablet class="w-3.5 h-3.5 text-emerald-500" />
-                  <span>Tablets</span>
-                </Link>
-                <Link :href="route('gadgets.index', { category: 'earbuds' })" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Headphones class="w-3.5 h-3.5 text-rose-500" />
-                  <span>Audio</span>
-                </Link>
-                <Link :href="route('gadgets.index', { category: 'smartwatch' })" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Watch class="w-3.5 h-3.5 text-amber-500" />
-                  <span>Watches</span>
-                </Link>
-              </div>
-            </div>
-
-            <div>
-              <p class="px-2 text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-1">Tools & Content</p>
-              <div class="grid grid-cols-2 gap-1.5">
-                <Link :href="route('compare.index')" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Scale class="w-3.5 h-3.5 text-amber-500" />
-                  <span>Compare</span>
-                </Link>
-                <Link :href="route('pages.price-tracker')" class="mobile-nav-chip !text-rose-600 dark:!text-rose-400 font-semibold" @click="mobileOpen = false">
-                  <Flame class="w-3.5 h-3.5 text-rose-500" />
-                  <span>Price Tracker</span>
-                </Link>
-                <Link :href="route('pcbuilder.index')" class="mobile-nav-chip !text-blue-500 font-semibold" @click="mobileOpen = false">
-                  <Bot class="w-3.5 h-3.5 text-blue-500" />
-                  <span>PC Builder</span>
-                </Link>
-                <Link :href="route('pages.tech-lab')" class="mobile-nav-chip !text-emerald-600 dark:!text-emerald-400 font-semibold" @click="mobileOpen = false">
-                  <ShieldCheck class="w-3.5 h-3.5 text-emerald-500" />
-                  <span>Tech Lab</span>
-                </Link>
-                <Link :href="route('reviews.index')" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Star class="w-3.5 h-3.5 text-amber-400" />
-                  <span>Reviews</span>
-                </Link>
-                <Link :href="route('news.index')" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <Newspaper class="w-3.5 h-3.5 text-purple-400" />
-                  <span>News</span>
-                </Link>
-                <Link :href="route('guides.index')" class="mobile-nav-chip" @click="mobileOpen = false">
-                  <BookOpen class="w-3.5 h-3.5 text-emerald-400" />
-                  <span>Guides</span>
-                </Link>
+                <template v-if="item.children.length">
+                  <template v-for="child in item.children" :key="child.id">
+                    <template v-if="child.type === 'categories'">
+                      <Link v-for="cat in navCategories" :key="cat.slug" :href="route('gadgets.index', { category: cat.slug })" class="mobile-nav-chip" @click="mobileOpen = false">
+                        <component :is="catIcon(cat.slug)" class="w-3.5 h-3.5" :class="catColor(cat.slug)" />
+                        <span>{{ cat.name }}</span>
+                      </Link>
+                    </template>
+                    <component
+                      v-else-if="child.type === 'link' && child.show_on_mobile"
+                      :is="isExternal(child) ? 'a' : Link"
+                      :href="child.url || '#'"
+                      v-bind="isExternal(child) ? { target: child.open_in_new_tab ? '_blank' : undefined, rel: 'noopener' } : {}"
+                      class="mobile-nav-chip"
+                      :class="STYLE_MOBILE[child.style] || ''"
+                      @click="mobileOpen = false"
+                    >
+                      <component :is="menuIcon(child.icon)" class="w-3.5 h-3.5" />
+                      <span>{{ child.label }}</span>
+                    </component>
+                  </template>
+                </template>
+                <component
+                  v-else
+                  :is="isExternal(item) ? 'a' : Link"
+                  :href="item.url || '#'"
+                  v-bind="isExternal(item) ? { target: item.open_in_new_tab ? '_blank' : undefined, rel: 'noopener' } : {}"
+                  class="mobile-nav-chip"
+                  :class="STYLE_MOBILE[item.style] || ''"
+                  @click="mobileOpen = false"
+                >
+                  <component :is="menuIcon(item.icon)" class="w-3.5 h-3.5" />
+                  <span>{{ item.label }}</span>
+                </component>
               </div>
             </div>
 
@@ -789,6 +595,32 @@
     <!-- Sleek Tech Footer -->
     <footer class="border-t border-slate-200 dark:border-slate-800/80 bg-white/50 dark:bg-[#0b0f19]/70 backdrop-blur-sm mt-16 py-14 text-slate-500 dark:text-slate-400 text-sm">
       <div class="max-w-7xl mx-auto px-4">
+        <!-- Newsletter signup -->
+        <div class="mb-12 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-brand-500/10 via-brand-500/5 to-transparent border border-brand-200/70 dark:border-brand-800/50 flex flex-col md:flex-row md:items-center justify-between gap-5">
+          <div>
+            <h3 class="font-heading text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white">Get Nepal's tech news &amp; price drops in your inbox</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1">New reviews, launches and deals. No spam — unsubscribe anytime.</p>
+          </div>
+          <form class="w-full md:w-auto md:min-w-[380px]" @submit.prevent="subscribe">
+            <div class="flex gap-2">
+              <input
+                v-model="newsletterForm.email"
+                type="email"
+                required
+                placeholder="you@example.com"
+                aria-label="Email address"
+                class="flex-1 min-w-0 bg-white dark:bg-[#111827] border border-slate-200 dark:border-slate-700 rounded-xl px-4 py-2.5 text-sm outline-none focus:border-brand-500 text-slate-800 dark:text-slate-100 placeholder-slate-400"
+              />
+              <button type="submit" :disabled="newsletterForm.processing"
+                      class="px-5 py-2.5 rounded-xl bg-brand-500 hover:bg-brand-600 disabled:opacity-60 text-white text-sm font-bold transition cursor-pointer">
+                {{ newsletterForm.processing ? '...' : 'Subscribe' }}
+              </button>
+            </div>
+            <p v-if="newsletterForm.errors.email" class="text-xs text-rose-500 mt-1.5">{{ newsletterForm.errors.email }}</p>
+            <p v-else-if="newsletterDone" class="text-xs text-emerald-600 dark:text-emerald-400 mt-1.5">{{ newsletterDone }}</p>
+          </form>
+        </div>
+
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-10 mb-12">
           <!-- Col 1: Brand & Bio (2 cols on sm) -->
           <div class="md:col-span-1 pr-2">
@@ -827,6 +659,7 @@
               <li><Link :href="route('gadgets.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">All Gadgets</Link></li>
               <li><Link :href="route('gadgets.index', { category: 'mobile' })" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Smartphones</Link></li>
               <li><Link :href="route('gadgets.index', { category: 'laptop' })" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Laptops</Link></li>
+              <li><Link :href="route('brands.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">All Brands</Link></li>
               <li><Link :href="route('compare.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Compare Rivals</Link></li>
               <li><Link :href="route('pcbuilder.index')" class="text-blue-500 hover:text-blue-600 transition font-medium">AI PC Builder</Link></li>
             </ul>
@@ -839,6 +672,7 @@
               <li><Link :href="route('reviews.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">In-depth Reviews</Link></li>
               <li><Link :href="route('reviews.index', { filter: 'editors-choice' })" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Editor's Choice</Link></li>
               <li><Link :href="route('news.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Tech News</Link></li>
+              <li><Link :href="route('blog.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Blog</Link></li>
               <li><Link :href="route('guides.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Buying Guides</Link></li>
               <li><Link :href="route('pages.price-tracker')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Price Tracker</Link></li>
             </ul>
@@ -869,6 +703,7 @@
               <li><Link :href="route('pages.about')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">About Us</Link></li>
               <li><Link :href="route('pages.contact')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Contact Us</Link></li>
               <li><Link :href="route('pages.services')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Services</Link></li>
+              <li><Link :href="route('pages.careers')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Careers</Link></li>
               <li><Link :href="route('pages.terms')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Terms of Service</Link></li>
               <li><Link :href="route('pages.privacy')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Privacy Policy</Link></li>
             </ul>
@@ -904,15 +739,17 @@
       </div>
     </footer>
     <CookieConsent />
+    <SitePopup />
   </div>
 </template>
 
 <script setup>
-import { Link, router, usePage } from '@inertiajs/vue3'
+import { Link, router, useForm, usePage } from '@inertiajs/vue3'
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import ChatbotWidget from '@/Components/ChatbotWidget.vue'
 import CompareTray from '@/Components/CompareTray.vue'
 import CookieConsent from '@/Components/CookieConsent.vue'
+import SitePopup from '@/Components/SitePopup.vue'
 import SeoHead from '@/Components/SeoHead.vue'
 import { useTheme } from '@/Composables/useTheme.js'
 import {
@@ -920,11 +757,67 @@ import {
   Cpu, Star, Award, Newspaper, Lightbulb, Bot, Gamepad2,
   BookOpen, ShoppingBag, Wrench, Search, ShoppingCart, Heart,
   Sun, Moon, ChevronDown, ChevronRight, ArrowRight, X, Menu, ArrowUp, CheckCircle,
-  AlertCircle, Sparkles, User, ExternalLink, ShieldCheck, Flame, Activity
+  PenLine, AlertCircle, Sparkles, User, ExternalLink, ShieldCheck, Flame, Activity
 } from 'lucide-vue-next'
 
 const page = usePage()
+
+const newsletterForm = useForm({ email: '' })
+const newsletterDone = ref('')
+const subscribe = () => {
+  newsletterDone.value = ''
+  newsletterForm.post(route('newsletter.store'), {
+    preserveScroll: true,
+    onSuccess: () => {
+      newsletterDone.value = page.props.flash?.success || 'Thanks for subscribing!'
+      newsletterForm.reset()
+    },
+  })
+}
+
+// Shop-by-category links come from the database so new categories appear automatically.
+const navCategories = computed(() => page.props.navCategories || [])
+const CAT_ICONS  = { mobile: Smartphone, laptop: Laptop, tablet: Tablet, earbuds: Headphones, smartwatch: Watch, accessory: Mouse }
+const CAT_COLORS = { mobile: 'text-rose-500', laptop: 'text-blue-500', tablet: 'text-purple-500', earbuds: 'text-emerald-500', smartwatch: 'text-amber-500', accessory: 'text-indigo-500' }
+const catIcon  = slug => CAT_ICONS[slug] || Cpu
+const catColor = slug => CAT_COLORS[slug] || 'text-brand-500'
 const seo  = computed(() => page.props.seo || {})
+
+// Header menu is managed from the admin panel (Content → Header Menu).
+const ICON_MAP = { Smartphone, Laptop, Tablet, Headphones, Watch, Scale, Cpu, Star, Award, Newspaper, Lightbulb, Bot, Gamepad2, BookOpen, ShoppingBag, Wrench, PenLine, Sparkles, ShieldCheck, Flame, Activity }
+const menuIcon   = name => ICON_MAP[name] || ChevronRight
+const isExternal = item => /^https?:\/\//i.test(item.url || '') || item.open_in_new_tab
+const headerMenu = computed(() => page.props.headerMenu || [])
+const mobileMenu = computed(() => headerMenu.value.filter(i => i.show_on_mobile))
+const STYLE_CHIP = {
+  default: 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400',
+  blue:    'bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400',
+  emerald: 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400',
+  rose:    'bg-rose-50 dark:bg-rose-950/60 text-rose-500',
+}
+const STYLE_TITLE = {
+  default: 'text-slate-800 dark:text-slate-200',
+  blue:    'text-blue-600 dark:text-blue-400',
+  emerald: 'text-emerald-600 dark:text-emerald-400',
+  rose:    'text-slate-800 dark:text-slate-200',
+}
+const STYLE_BADGE = {
+  default: 'bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300',
+  blue:    'bg-blue-100 dark:bg-blue-900/60 text-blue-600 dark:text-blue-300',
+  emerald: 'bg-emerald-500 text-white',
+  rose:    'bg-rose-500 text-white',
+}
+const STYLE_TOP = {
+  blue:    '!text-blue-600 dark:!text-blue-400',
+  emerald: '!text-emerald-600 dark:!text-emerald-400',
+  rose:    '!text-rose-600 dark:!text-rose-400',
+}
+const STYLE_MOBILE = {
+  blue:    '!text-blue-500 font-semibold',
+  emerald: '!text-emerald-600 dark:!text-emerald-400 font-semibold',
+  rose:    '!text-rose-600 dark:!text-rose-400 font-semibold',
+}
+
 
 // Site-wide values managed from the admin panel (Settings → Site Settings).
 const settings  = computed(() => page.props.settings || {})
@@ -937,6 +830,7 @@ const socials   = computed(() => {
     { key: 'twitter',   url: s.social_twitter },
     { key: 'instagram', url: s.social_instagram },
     { key: 'youtube',   url: s.social_youtube },
+    { key: 'linkedin',  url: s.social_linkedin },
     { key: 'tiktok',    url: s.social_tiktok },
   ].filter(item => !!item.url)
 })

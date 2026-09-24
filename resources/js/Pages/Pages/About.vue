@@ -46,12 +46,13 @@
       </div>
 
       <!-- Team -->
-      <div class="mb-12">
+      <div v-if="team.length" class="mb-12">
         <h2 class="text-2xl font-bold mb-6 text-center">Meet the Team</h2>
         <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div v-for="member in team" :key="member.name"
                class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6 text-center hover:border-brand-400 dark:hover:border-brand-500 transition">
-            <div class="w-20 h-20 rounded-full bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center text-3xl mx-auto mb-4">
+            <img v-if="member.photo" :src="getImageUrl(member.photo)" :alt="member.name" class="w-20 h-20 rounded-full object-cover mx-auto mb-4" />
+            <div v-else class="w-20 h-20 rounded-full bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center text-3xl mx-auto mb-4">
               👤
             </div>
             <h4 class="font-bold text-lg">{{ member.name }}</h4>
@@ -76,6 +77,7 @@
 </template>
 
 <script setup>
+import { getImageUrl } from '@/Composables/useImageUrl.js'
 import StaticPageLayout from '@/Layouts/StaticPageLayout.vue'
 import { Link } from '@inertiajs/vue3'
 

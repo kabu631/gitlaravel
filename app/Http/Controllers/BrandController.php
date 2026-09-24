@@ -9,6 +9,21 @@ use Inertia\Inertia;
 
 class BrandController extends Controller
 {
+    public function index()
+    {
+        $brands = Brand::withCount('gadgets')->orderBy('name')->get(['id', 'name', 'slug', 'logo']);
+
+        return Inertia::render('Brands/Index', [
+            'brands' => $brands,
+            'seo'    => [
+                'title'       => 'All Brands — Gadget Prices & Reviews in Nepal',
+                'description' => 'Browse every smartphone, laptop and gadget brand available in Nepal with specs, prices and reviews.',
+                'canonical'   => route('brands.index'),
+                'type'        => 'website',
+            ],
+        ]);
+    }
+
     public function show(Request $request, string $slug)
     {
         $brand = Brand::where('slug', $slug)->firstOrFail();

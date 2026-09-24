@@ -62,7 +62,7 @@
               <span class="text-[9px] font-black px-1.5 py-0.5 rounded bg-purple-600 text-white uppercase tracking-wider">Live Leaks</span>
             </div>
             <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 truncate">
-              iPhone 17 Pro Max, Galaxy S25 Ultra, Asus Zephyrus G16, Sony WH-1000XM6 leaked specs &amp; Nepal prices.
+              {{ upcomingLaunches.slice(0, 4).map(l => l.name).join(', ') }} — leaked specs &amp; Nepal prices.
             </p>
           </div>
         </div>
