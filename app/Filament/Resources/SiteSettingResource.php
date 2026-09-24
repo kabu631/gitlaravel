@@ -29,7 +29,7 @@ class SiteSettingResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Configuration Key & Group')->schema([
+            Section::make('Configuration Key & Group')->columnSpanFull()->schema([
                 TextInput::make('key')
                     ->label('Setting Key Identifier')
                     ->required()
@@ -103,7 +103,11 @@ class SiteSettingResource extends Resource
                 ]),
         ])
         ->defaultSort('group')
-        ->actions([EditAction::make()])
+        ->actions([
+\Filament\Actions\ActionGroup::make([EditAction::make(),
+\Filament\Actions\DeleteAction::make(),
+]),
+])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 

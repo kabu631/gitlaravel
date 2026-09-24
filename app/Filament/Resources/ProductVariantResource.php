@@ -10,6 +10,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Resources\Resource;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
@@ -33,70 +34,72 @@ class ProductVariantResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Select::make('gadget_id')
-                ->label('Gadget / Product')
-                ->relationship('gadget', 'name')
-                ->searchable()
-                ->preload()
-                ->required(),
+            Section::make('Product Variant Information')->columnSpanFull()->schema([
+                Select::make('gadget_id')
+                    ->label('Gadget / Product')
+                    ->relationship('gadget', 'name')
+                    ->searchable()
+                    ->preload()
+                    ->required(),
 
-            TextInput::make('sku')
-                ->label('SKU Code')
-                ->maxLength(100)
-                ->unique(table: 'product_variants', column: 'sku', ignoreRecord: true)
-                ->nullable()
-                ->placeholder('e.g. IPH17PM-SLV-12-256'),
+                TextInput::make('sku')
+                    ->label('SKU Code')
+                    ->maxLength(100)
+                    ->unique(table: 'product_variants', column: 'sku', ignoreRecord: true)
+                    ->nullable()
+                    ->placeholder('e.g. IPH17PM-SLV-12-256'),
 
-            TextInput::make('color')
-                ->maxLength(100)
-                ->nullable()
-                ->placeholder('e.g. Titanium Black'),
+                TextInput::make('color')
+                    ->maxLength(100)
+                    ->nullable()
+                    ->placeholder('e.g. Titanium Black'),
 
-            TextInput::make('ram')
-                ->label('RAM')
-                ->maxLength(50)
-                ->nullable()
-                ->placeholder('e.g. 12GB'),
+                TextInput::make('ram')
+                    ->label('RAM')
+                    ->maxLength(50)
+                    ->nullable()
+                    ->placeholder('e.g. 12GB'),
 
-            TextInput::make('storage')
-                ->maxLength(50)
-                ->nullable()
-                ->placeholder('e.g. 256GB'),
+                TextInput::make('storage')
+                    ->maxLength(50)
+                    ->nullable()
+                    ->placeholder('e.g. 256GB'),
 
-            TextInput::make('size')
-                ->maxLength(50)
-                ->nullable()
-                ->placeholder('e.g. 6.7 inch'),
+                TextInput::make('size')
+                    ->maxLength(50)
+                    ->nullable()
+                    ->placeholder('e.g. 6.7 inch'),
 
-            TextInput::make('price')
-                ->numeric()
-                ->prefix('NPR')
-                ->required()
-                ->placeholder('e.g. 248999'),
+                TextInput::make('price')
+                    ->numeric()
+                    ->prefix('NPR')
+                    ->required()
+                    ->placeholder('e.g. 248999'),
 
-            TextInput::make('discounted_price')
-                ->numeric()
-                ->prefix('NPR')
-                ->nullable()
-                ->label('Sale Price (optional)')
-                ->placeholder('Leave empty if no sale'),
+                TextInput::make('discounted_price')
+                    ->numeric()
+                    ->prefix('NPR')
+                    ->nullable()
+                    ->label('Sale Price (optional)')
+                    ->placeholder('Leave empty if no sale'),
 
-            TextInput::make('stock_quantity')
-                ->numeric()
-                ->default(0)
-                ->required()
-                ->label('Stock Quantity'),
+                TextInput::make('stock_quantity')
+                    ->numeric()
+                    ->default(0)
+                    ->required()
+                    ->label('Stock Quantity'),
 
-            FileUpload::make('variant_image')
-                ->image()
-                ->disk('public')
-                ->directory('gadgets/variants')
-                ->nullable()
-                ->label('Variant Image (optional)'),
+                FileUpload::make('variant_image')
+                    ->image()
+                    ->disk('public')
+                    ->directory('gadgets/variants')
+                    ->nullable()
+                    ->label('Variant Image (optional)'),
 
-            Toggle::make('is_active')
-                ->label('Active')
-                ->default(true),
+                Toggle::make('is_active')
+                    ->label('Active')
+                    ->default(true),
+            ])->columns(2),
         ]);
     }
 
@@ -162,9 +165,11 @@ class ProductVariantResource extends Resource
                 TernaryFilter::make('is_active')->label('Active'),
             ])
             ->actions([
+\Filament\Actions\ActionGroup::make([
                 EditAction::make(),
                 DeleteAction::make(),
-            ])
+            ]),
+])
             ->bulkActions([
                 DeleteBulkAction::make(),
             ])

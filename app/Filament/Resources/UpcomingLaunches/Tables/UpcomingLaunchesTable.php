@@ -50,8 +50,11 @@ class UpcomingLaunchesTable
                 //
             ])
             ->recordActions([
+\Filament\Actions\ActionGroup::make([
                 EditAction::make(),
-            ])
+\Filament\Actions\DeleteAction::make(),
+]),
+])
             ->toolbarActions([
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),

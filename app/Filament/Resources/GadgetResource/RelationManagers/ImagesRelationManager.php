@@ -102,9 +102,11 @@ class ImagesRelationManager extends RelationManager
                     ->label('Add Single Image'),
             ])
             ->actions([
+\Filament\Actions\ActionGroup::make([
                 EditAction::make(),
                 DeleteAction::make(),
-            ])
+            ]),
+])
             ->bulkActions([DeleteBulkAction::make()])
             ->defaultSort('order');
     }

@@ -13,6 +13,7 @@ use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Resource;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Columns\TextColumn;
@@ -33,20 +34,22 @@ class AccessoryTypeResource extends Resource
         return $schema
             ->columns(2)
             ->components([
-                TextInput::make('name')
-                    ->label('Name')
-                    ->required()
-                    ->maxLength(100)
-                    ->unique(ignoreRecord: true)
-                    ->live(onBlur: true)
-                    ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
-                    ->placeholder('e.g. Wireless Charger'),
-                TextInput::make('slug')
-                    ->label('Slug')
-                    ->maxLength(100)
-                    ->nullable()
-                    ->placeholder('e.g. wireless-charger')
-                    ->helperText('Auto-generated from name. Leave blank to auto-fill.'),
+                Section::make('Accessory Type Information')->columnSpanFull()->schema([
+                    TextInput::make('name')
+                        ->label('Name')
+                        ->required()
+                        ->maxLength(100)
+                        ->unique(ignoreRecord: true)
+                        ->live(onBlur: true)
+                        ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
+                        ->placeholder('e.g. Wireless Charger'),
+                    TextInput::make('slug')
+                        ->label('Slug')
+                        ->maxLength(100)
+                        ->nullable()
+                        ->placeholder('e.g. wireless-charger')
+                        ->helperText('Auto-generated from name. Leave blank to auto-fill.'),
+                ])->columns(2)->columnSpanFull(),
             ]);
     }
 
@@ -72,13 +75,15 @@ class AccessoryTypeResource extends Resource
                 //
             ])
             ->recordActions([
+\Filament\Actions\ActionGroup::make([
                 EditAction::make()
                     ->modalHeading('Edit Accessory Type')
                     ->modalDescription('Update accessory type details')
                     ->modalSubmitActionLabel('Save changes')
                     ->modalWidth('md'),
                 DeleteAction::make(),
-            ])
+            ]),
+])
             ->toolbarActions([
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),

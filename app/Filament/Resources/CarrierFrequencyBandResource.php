@@ -31,7 +31,7 @@ class CarrierFrequencyBandResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Mobile Carrier Frequency Band')->schema([
+            Section::make('Mobile Carrier Frequency Band')->columnSpanFull()->schema([
                 Select::make('carrier')
                     ->label('Mobile Carrier Operator')
                     ->options([
@@ -113,13 +113,15 @@ class CarrierFrequencyBandResource extends Resource
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
         ->actions([
+\Filament\Actions\ActionGroup::make([
             EditAction::make()
                 ->modalHeading('EDIT FREQUENCY BAND')
                 ->modalDescription('UPDATE 5G OR 4G CARRIER FREQUENCY BAND DETAILS')
                 ->modalSubmitActionLabel('SAVE CHANGES')
                 ->modalWidth('lg'),
             \Filament\Actions\DeleteAction::make(),
-        ])
+        ]),
+])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 

@@ -33,7 +33,7 @@ class CameraShootoutResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Challenge Round Information')->schema([
+            Section::make('Challenge Round Information')->columnSpanFull()->schema([
                 TextInput::make('title')
                     ->label('Round Title')
                     ->required()
@@ -70,7 +70,7 @@ class CameraShootoutResource extends Resource
                     ->default(true),
             ])->columns(2),
 
-            Section::make('Mystery Phone Alpha (Device A)')->schema([
+            Section::make('Mystery Phone Alpha (Device A)')->columnSpanFull()->schema([
                 TextInput::make('device_a_name')
                     ->label('Actual Phone Name (Revealed After Voting)')
                     ->required()
@@ -106,7 +106,7 @@ class CameraShootoutResource extends Resource
                     ->helperText('Shown when device is revealed.'),
             ])->columns(2)->collapsible(),
 
-            Section::make('Mystery Phone Beta (Device B)')->schema([
+            Section::make('Mystery Phone Beta (Device B)')->columnSpanFull()->schema([
                 TextInput::make('device_b_name')
                     ->label('Actual Phone Name (Revealed After Voting)')
                     ->required()
@@ -142,7 +142,7 @@ class CameraShootoutResource extends Resource
                     ->helperText('Shown when device is revealed.'),
             ])->columns(2)->collapsible(),
 
-            Section::make('Editorial & Lab Analysis (Shown After User Votes)')->schema([
+            Section::make('Editorial & Lab Analysis (Shown After User Votes)')->columnSpanFull()->schema([
                 TextInput::make('winner_summary')
                     ->label('Winner Verdict Headline')
                     ->columnSpanFull()
@@ -166,7 +166,7 @@ class CameraShootoutResource extends Resource
             TextColumn::make('title')->label('Challenge')->searchable()->weight('bold'),
             TextColumn::make('device_a_name')->label('Device A')->limit(20),
             TextColumn::make('device_b_name')->label('Device B')->limit(20),
-            TextColumn::make('votes_summary')
+            TextColumn::make('votes_summary')->sortable(false)
                 ->label('Votes (A / B)')
                 ->state(fn($record) => "{$record->phone_a_votes} ({$record->phone_a_percent}%) / {$record->phone_b_votes} ({$record->phone_b_percent}%)")
                 ->badge()
@@ -176,6 +176,7 @@ class CameraShootoutResource extends Resource
         ->reorderable('sort_order')
         ->defaultSort('sort_order')
         ->actions([
+\Filament\Actions\ActionGroup::make([
             EditAction::make(),
             Action::make('reset_votes')
                 ->label('Reset Votes')
@@ -185,7 +186,9 @@ class CameraShootoutResource extends Resource
                 ->action(function (CameraShootout $record) {
                     $record->update(['phone_a_votes' => 0, 'phone_b_votes' => 0]);
                 }),
-        ])
+\Filament\Actions\DeleteAction::make(),
+]),
+])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 

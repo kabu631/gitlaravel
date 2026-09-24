@@ -34,7 +34,7 @@ class GadgetController extends Controller
         $categoryLabel = $request->category ? ucfirst($request->category) . ' ' : '';
 
         return Inertia::render('Gadgets/Index', [
-            'gadgets'    => $query->paginate(20)->withQueryString(),
+            'gadgets'    => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
             'categories' => Category::withCount('gadgets')->get(),
             'brands'     => \App\Models\Brand::withCount('gadgets')->orderByDesc('gadgets_count')->get(),
             'filters'    => $request->only(['category', 'brand', 'search', 'min_price', 'max_price', 'sort']),

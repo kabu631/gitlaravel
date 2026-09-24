@@ -12,6 +12,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Toggle;
 use Filament\Resources\Resource;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
@@ -33,73 +34,75 @@ class UpcomingLaunchResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            TextInput::make('name')
-                ->required()
-                ->maxLength(255)
-                ->placeholder('e.g. iPhone 17 Pro Max')
-                ->columnSpanFull(),
+            Section::make('Upcoming Launch Information')->columnSpanFull()->schema([
+                TextInput::make('name')
+                    ->required()
+                    ->maxLength(255)
+                    ->placeholder('e.g. iPhone 17 Pro Max')
+                    ->columnSpanFull(),
 
-            TextInput::make('brand')
-                ->required()
-                ->maxLength(100)
-                ->placeholder('e.g. Apple'),
+                TextInput::make('brand')
+                    ->required()
+                    ->maxLength(100)
+                    ->placeholder('e.g. Apple'),
 
-            TextInput::make('category')
-                ->required()
-                ->maxLength(100)
-                ->placeholder('e.g. Smartphones, Laptops, Audio'),
+                TextInput::make('category')
+                    ->required()
+                    ->maxLength(100)
+                    ->placeholder('e.g. Smartphones, Laptops, Audio'),
 
-            TextInput::make('expected_date')
-                ->required()
-                ->maxLength(100)
-                ->placeholder('e.g. Expected Oct 2025')
-                ->helperText('Free-form text shown on the homepage tile'),
+                TextInput::make('expected_date')
+                    ->required()
+                    ->maxLength(100)
+                    ->placeholder('e.g. Expected Oct 2025')
+                    ->helperText('Free-form text shown on the homepage tile'),
 
-            TextInput::make('est_price')
-                ->required()
-                ->maxLength(100)
-                ->label('Estimated Price')
-                ->placeholder('e.g. Rs. 2,19,999'),
+                TextInput::make('est_price')
+                    ->required()
+                    ->maxLength(100)
+                    ->label('Estimated Price')
+                    ->placeholder('e.g. Rs. 2,19,999'),
 
-            TextInput::make('confidence')
-                ->numeric()
-                ->minValue(0)
-                ->maxValue(100)
-                ->default(90)
-                ->suffix('%')
-                ->helperText('How confident are we (0–100)?'),
+                TextInput::make('confidence')
+                    ->numeric()
+                    ->minValue(0)
+                    ->maxValue(100)
+                    ->default(90)
+                    ->suffix('%')
+                    ->helperText('How confident are we (0–100)?'),
 
-            TextInput::make('badge')
-                ->maxLength(100)
-                ->nullable()
-                ->placeholder('e.g. High Anticipation, Confirmed Specs'),
+                TextInput::make('badge')
+                    ->maxLength(100)
+                    ->nullable()
+                    ->placeholder('e.g. High Anticipation, Confirmed Specs'),
 
-            Select::make('tag_color')
-                ->options([
-                    'emerald' => 'Emerald (Green)',
-                    'blue'    => 'Blue',
-                    'purple'  => 'Purple',
-                    'amber'   => 'Amber (Gold)',
-                    'rose'    => 'Rose (Pink)',
-                ])
-                ->default('emerald')
-                ->required(),
+                Select::make('tag_color')
+                    ->options([
+                        'emerald' => 'Emerald (Green)',
+                        'blue'    => 'Blue',
+                        'purple'  => 'Purple',
+                        'amber'   => 'Amber (Gold)',
+                        'rose'    => 'Rose (Pink)',
+                    ])
+                    ->default('emerald')
+                    ->required(),
 
-            Textarea::make('highlight')
-                ->rows(2)
-                ->nullable()
-                ->columnSpanFull()
-                ->placeholder('Key feature highlights, e.g. A19 Pro TSMC 2nm, 24MP CenterStage Front Cam'),
+                Textarea::make('highlight')
+                    ->rows(2)
+                    ->nullable()
+                    ->columnSpanFull()
+                    ->placeholder('Key feature highlights, e.g. A19 Pro TSMC 2nm, 24MP CenterStage Front Cam'),
 
-            TextInput::make('sort_order')
-                ->numeric()
-                ->default(0)
-                ->helperText('Lower = shown first on homepage'),
+                TextInput::make('sort_order')
+                    ->numeric()
+                    ->default(0)
+                    ->helperText('Lower = shown first on homepage'),
 
-            Toggle::make('is_active')
-                ->label('Show on Homepage')
-                ->default(true),
-        ])->columns(2);
+                Toggle::make('is_active')
+                    ->label('Show on Homepage')
+                    ->default(true),
+            ])->columns(2),
+        ]);
     }
 
     public static function table(Table $table): Table
@@ -121,13 +124,15 @@ class UpcomingLaunchResource extends Resource
               TernaryFilter::make('is_active')->label('Active'),
           ])
           ->actions([
+\Filament\Actions\ActionGroup::make([
               EditAction::make()
                   ->modalHeading('EDIT UPCOMING LAUNCH')
                   ->modalDescription('UPDATE UPCOMING GADGET LAUNCH DETAILS')
                   ->modalSubmitActionLabel('SAVE CHANGES')
                   ->modalWidth('lg'),
               \Filament\Actions\DeleteAction::make(),
-          ])
+          ]),
+])
           ->bulkActions([DeleteBulkAction::make()]);
     }
 

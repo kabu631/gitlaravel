@@ -48,13 +48,7 @@
           </div>
 
           <!-- Pagination -->
-          <div v-if="gadgets.last_page > 1" class="flex justify-center gap-2 mt-8">
-            <Link v-for="link in gadgets.links" :key="link.label"
-                  :href="link.url ?? '#'"
-                  class="px-3 py-1.5 rounded-lg text-sm transition"
-                  :class="link.active ? 'bg-brand-500 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700'"
-                  v-html="link.label"/>
-          </div>
+          <Pagination :paginator="gadgets" />
         </div>
       </div>
     </div>
@@ -65,6 +59,7 @@
 import AppLayout from '@/Layouts/AppLayout.vue'
 import GadgetCard from '@/Components/GadgetCard.vue'
 import { Link } from '@inertiajs/vue3'
+import Pagination from '@/Components/Pagination.vue'
 
 defineProps({ brand: Object, gadgets: Object, filters: Object })
 

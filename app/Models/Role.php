@@ -38,7 +38,51 @@ class Role extends Model
 
     public function systemModules(): BelongsToMany
     {
-        return $this->belongsToMany(SystemModule::class, 'role_system_module')->withTimestamps();
+        return $this->belongsToMany(SystemModule::class, 'role_system_module')
+            ->withPivot(['can_view', 'can_create', 'can_update', 'can_delete'])
+            ->withTimestamps();
+    }
+
+    /**
+     * Grant view/create/update/delete on the given module ids.
+     */
+    public function grantFullAccess(iterable $moduleIds): void
+    {
+        $flags = ['can_view' => true, 'can_create' => true, 'can_update' => true, 'can_delete' => true];
+        $payload = [];
+        foreach ($moduleIds as $id) {
+            $payload[$id] = $flags;
+        }
+
+        $this->systemModules()->sync($payload);
+    }
+
+    /**
+     * Sync per-module CRUD permissions. Modules with no action enabled are
+     * detached, and any enabled action implies view access.
+     */
+    public function syncModulePermissions(array $rows): void
+    {
+        $payload = [];
+        foreach ($rows as $row) {
+            $create = (bool) ($row['can_create'] ?? false);
+            $update = (bool) ($row['can_update'] ?? false);
+            $delete = (bool) ($row['can_delete'] ?? false);
+            $view = (bool) ($row['can_view'] ?? false) || $create || $update || $delete;
+
+            if (! $view || blank($row['module_id'] ?? null)) {
+                continue;
+            }
+
+            $payload[(int) $row['module_id']] = [
+                'can_view' => true,
+                'can_create' => $create,
+                'can_update' => $update,
+                'can_delete' => $delete,
+            ];
+        }
+
+        $this->systemModules()->sync($payload);
     }
 
     public function hasModule(int|string|SystemModule $module): bool
@@ -67,7 +111,7 @@ class Role extends Model
         );
 
         $allModules = SystemModule::all();
-        $superAdmin->systemModules()->sync($allModules->pluck('id'));
+        $superAdmin->grantFullAccess($allModules->pluck('id'));
 
         // Assign super_admin role to admin user if exists
         $adminUser = User::where('email', 'admin@gitinfosys.com')->first();
@@ -87,7 +131,7 @@ class Role extends Model
         $catalogModules = SystemModule::whereIn('code', [
             'dashboard', 'catalog', 'gadgets', 'product_variants', 'brands', 'categories', 'accessory_types'
         ])->pluck('id');
-        $catalogManager->systemModules()->sync($catalogModules);
+        $catalogManager->grantFullAccess($catalogModules);
 
         // 3. Content Editor
         $contentEditor = self::updateOrCreate(
@@ -101,7 +145,7 @@ class Role extends Model
         $contentModules = SystemModule::whereIn('code', [
             'dashboard', 'content', 'news_articles', 'page_contents', 'sliders', 'reviews', 'user_comments'
         ])->pluck('id');
-        $contentEditor->systemModules()->sync($contentModules);
+        $contentEditor->grantFullAccess($contentModules);
 
         // 4. Tech Lab Specialist
         $techLab = self::updateOrCreate(
@@ -116,7 +160,7 @@ class Role extends Model
             'dashboard', 'tech_lab_and_tools', 'tech_guides', 'camera_shootouts', 'rival_matchups',
             'carrier_frequency_bands', 'service_centers', 'bank_partners', 'upcoming_launches'
         ])->pluck('id');
-        $techLab->systemModules()->sync($techModules);
+        $techLab->grantFullAccess($techModules);
 
         // 5. Sales & Orders Manager
         $salesManager = self::updateOrCreate(
@@ -130,6 +174,6 @@ class Role extends Model
         $salesModules = SystemModule::whereIn('code', [
             'dashboard', 'sales', 'orders'
         ])->pluck('id');
-        $salesManager->systemModules()->sync($salesModules);
+        $salesManager->grantFullAccess($salesModules);
     }
 }

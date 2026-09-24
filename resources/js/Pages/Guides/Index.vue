@@ -68,12 +68,7 @@
           </div>
 
           <!-- Pagination -->
-          <div v-if="guides.links" class="flex justify-center gap-2 mt-8">
-            <Link v-for="link in guides.links" :key="link.label" :href="link.url ?? '#'"
-                  class="px-4 py-2 rounded-xl text-sm font-medium transition"
-                  :class="link.active ? 'bg-brand-500 text-white shadow-md' : 'bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-600 dark:text-gray-300 hover:border-brand-500'"
-                  v-html="link.label"/>
-          </div>
+          <Pagination :paginator="guides" />
         </div>
 
         <!-- Right Sidebar (Col 4) -->
@@ -112,6 +107,7 @@
 </template>
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
+import Pagination from '@/Components/Pagination.vue'
 import { Link, router } from '@inertiajs/vue3'
 import { ref, computed } from 'vue'
 const props = defineProps({ guides: Object, filters: Object, trendingGadgets: Array })

@@ -40,7 +40,7 @@ class GadgetResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Basic Info & Pricing')->schema([
+            Section::make('Basic Info & Pricing')->columnSpanFull()->schema([
                 TextInput::make('name')->required()->maxLength(255)->live(onBlur: true)
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state))),
                 TextInput::make('slug')->required()->maxLength(255),
@@ -72,7 +72,7 @@ class GadgetResource extends Resource
             ])->columns(2),
 
             // ── Media ────────────────────────────────────────────────────────────
-            Section::make('Media')->schema([
+            Section::make('Media')->columnSpanFull()->schema([
 
                 // Cover thumbnail (stored on gadgets table)
                 FileUpload::make('image')
@@ -121,7 +121,7 @@ class GadgetResource extends Resource
             ]),
 
             // ── Hardware Specifications (Powers Automated Algorithms) ─────────────
-            Section::make('Hardware Specifications (Powers Automated Algorithms)')
+            Section::make('Hardware Specifications (Powers Automated Algorithms)')->columnSpanFull()
                 ->description('Enter hardware specifications below. Our automated algorithms use these specs to highlight Marathon Battery, Pro Camera, High-FPS Gaming, and VFM rankings.')
                 ->relationship('specs')
                 ->schema([
@@ -173,7 +173,7 @@ class GadgetResource extends Resource
                 ->columns(2)
                 ->collapsible(),
 
-            Section::make('Details')->schema([
+            Section::make('Details')->columnSpanFull()->schema([
                 RichEditor::make('description')->nullable()->columnSpanFull(),
                 TextInput::make('release_date')->type('date')->nullable(),
                 TextInput::make('buy_url')
@@ -186,7 +186,7 @@ class GadgetResource extends Resource
                 Toggle::make('is_trending')->label('Trending'),
             ])->columns(2),
 
-            Section::make('Price Tracking Insights')->schema([
+            Section::make('Price Tracking Insights')->columnSpanFull()->schema([
                 RichEditor::make('price_tracker_description')
                     ->nullable()
                     ->columnSpanFull()
@@ -203,7 +203,7 @@ class GadgetResource extends Resource
             TextColumn::make('brand.name')->sortable(),
             TextColumn::make('category.name')->sortable(),
             TextColumn::make('price')->money('NPR')->sortable(),
-            TextColumn::make('algorithmic_badges')
+            TextColumn::make('algorithmic_badges')->sortable(false)
                 ->label('Algo Highlights')
                 ->badge()
                 ->wrap()
@@ -250,13 +250,16 @@ class GadgetResource extends Resource
             TernaryFilter::make('is_featured'),
             TernaryFilter::make('is_trending'),
         ])->actions([
+\Filament\Actions\ActionGroup::make([
             EditAction::make(),
             Action::make('view')
                 ->label('View')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->url(fn($record) => route('gadgets.show', $record->slug))
                 ->openUrlInNewTab(),
-        ])
+\Filament\Actions\DeleteAction::make(),
+]),
+])
           ->bulkActions([DeleteBulkAction::make()])
           ->defaultSort('created_at', 'desc');
     }

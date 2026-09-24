@@ -32,7 +32,7 @@ class NewsController extends Controller
                     ->orWhere('meta_description', 'like', "%{$request->search}%");
             }))
             ->latest()
-            ->paginate(12)
+            ->paginate(\App\Support\PerPage::resolve($request, 12))
             ->withQueryString();
 
         $catLabel = $category ? ucwords(str_replace('-', ' ', $category)) . ' ' : '';

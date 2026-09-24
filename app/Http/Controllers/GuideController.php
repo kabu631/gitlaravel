@@ -18,7 +18,7 @@ class GuideController extends Controller
         $guides = TechGuide::where('is_published', true)
             ->when($search, fn($q) => $q->where('title', 'like', "%{$search}%"))
             ->when($type, fn($q) => $q->where('type', $type))
-            ->latest()->paginate(12)->withQueryString();
+            ->latest()->paginate(\App\Support\PerPage::resolve($request, 12))->withQueryString();
 
         $trendingGadgets = \App\Models\Gadget::with('brand')->where('is_trending', true)->latest()->take(5)->get();
 

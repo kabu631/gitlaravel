@@ -22,7 +22,7 @@ class BrandController extends Controller
 
         return Inertia::render('Brands/Show', [
             'brand'   => $brand,
-            'gadgets' => $query->paginate(20)->withQueryString(),
+            'gadgets' => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
             'filters' => $request->only(['sort']),
 
             'seo' => [

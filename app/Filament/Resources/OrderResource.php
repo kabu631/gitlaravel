@@ -30,7 +30,7 @@ class OrderResource extends Resource
     {
         return $schema->schema([
 
-            Section::make('Customer Information')
+            Section::make('Customer Information')->columnSpanFull()
                 ->icon('heroicon-o-user')
                 ->schema([
                     TextInput::make('first_name')->disabled(),
@@ -40,7 +40,7 @@ class OrderResource extends Resource
                     TextInput::make('shipping_address')->disabled()->columnSpanFull(),
                 ])->columns(2),
 
-            Section::make('Order Details')
+            Section::make('Order Details')->columnSpanFull()
                 ->icon('heroicon-o-receipt-percent')
                 ->schema([
                     TextInput::make('payment_method')->disabled()->label('Payment Method'),
@@ -62,7 +62,7 @@ class OrderResource extends Resource
                         ->required(),
                 ])->columns(2),
 
-            Section::make('Ordered Items')
+            Section::make('Ordered Items')->columnSpanFull()
                 ->icon('heroicon-o-shopping-cart')
                 ->schema([
                     Placeholder::make('items_display')
@@ -147,7 +147,7 @@ class OrderResource extends Resource
                     ->color('gray')
                     ->alignCenter(),
 
-                TextColumn::make('items.gadget.name')
+                TextColumn::make('items.gadget.name')->sortable(false)
                     ->label('Products')
                     ->listWithLineBreaks()
                     ->limitList(2)
@@ -198,7 +198,9 @@ class OrderResource extends Resource
                     ->label('Payment')
                     ->options([1 => 'Paid', 0 => 'Unpaid']),
             ])
-            ->actions([EditAction::make()->label('Manage')])
+            ->actions([
+\Filament\Actions\ActionGroup::make([EditAction::make()->label('Manage')]),
+])
             ->defaultSort('created_at', 'desc');
     }
 

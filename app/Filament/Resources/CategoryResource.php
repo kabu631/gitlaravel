@@ -5,6 +5,7 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\CategoryResource\Pages;
 use App\Models\Category;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Actions\DeleteAction;
@@ -25,20 +26,22 @@ class CategoryResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            TextInput::make('name')
-                ->label('Name')
-                ->required()
-                ->maxLength(50)
-                ->live(onBlur: true)
-                ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
-                ->placeholder('e.g. Smartphone'),
+            Section::make('Category Information')->columnSpanFull()->schema([
+                TextInput::make('name')
+                    ->label('Name')
+                    ->required()
+                    ->maxLength(50)
+                    ->live(onBlur: true)
+                    ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
+                    ->placeholder('e.g. Smartphone'),
 
-            TextInput::make('slug')
-                ->label('Slug')
-                ->required()
-                ->maxLength(50)
-                ->placeholder('e.g. smartphone')
-                ->helperText('URL-friendly identifier auto-generated from name.'),
+                TextInput::make('slug')
+                    ->label('Slug')
+                    ->required()
+                    ->maxLength(50)
+                    ->placeholder('e.g. smartphone')
+                    ->helperText('URL-friendly identifier auto-generated from name.'),
+            ])->columns(1),
         ]);
     }
 
@@ -49,13 +52,15 @@ class CategoryResource extends Resource
             TextColumn::make('slug'),
             TextColumn::make('gadgets_count')->counts('gadgets')->label('Products'),
         ])->actions([
+\Filament\Actions\ActionGroup::make([
             EditAction::make()
                 ->modalHeading('EDIT CATEGORY')
                 ->modalDescription('UPDATE CATEGORY DETAILS')
                 ->modalSubmitActionLabel('SAVE CHANGES')
                 ->modalWidth('md'),
             DeleteAction::make(),
-        ])
+        ]),
+])
           ->bulkActions([DeleteBulkAction::make()]);
     }
 

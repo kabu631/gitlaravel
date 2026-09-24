@@ -40,7 +40,7 @@ class UserCommentResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Customer Comment')->schema([
+            Section::make('Customer Comment')->columnSpanFull()->schema([
                 Select::make('gadget_id')
                     ->label('Product')
                     ->relationship('gadget', 'name')
@@ -120,7 +120,9 @@ class UserCommentResource extends Resource
                 ->query(fn(Builder $query) => $query->where('rating', '<', 5)),
         ])
         ->defaultSort('created_at', 'desc')
-        ->actions([EditAction::make(), DeleteAction::make()])
+        ->actions([
+\Filament\Actions\ActionGroup::make([EditAction::make(), DeleteAction::make()]),
+])
         ->bulkActions([DeleteBulkAction::make()]);
     }
 
