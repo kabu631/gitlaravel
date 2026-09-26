@@ -2,11 +2,14 @@
 
 namespace App\Models;
 
+use App\Models\Concerns\HasSeo;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class Review extends Model
 {
+    use HasSeo;
+
     protected $fillable = [
         'gadget_id', 'user_id', 'title', 'slug', 'content', 'rating',
         'pros', 'cons', 'verdict', 'is_published',

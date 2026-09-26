@@ -49,7 +49,7 @@
             <Link v-for="guide in guides.data" :key="guide.id" :href="route('guides.show', guide.slug)"
                   class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden group transition shadow-sm hover:shadow-xl flex flex-col sm:flex-row">
               <div class="sm:w-2/5 aspect-video sm:aspect-auto sm:h-full bg-gray-100 dark:bg-gray-800 shrink-0 overflow-hidden relative">
-                <img v-if="guide.thumbnail" :src="`/storage/${guide.thumbnail}`" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"/>
+                <img :alt="guide.title" v-if="guide.thumbnail" :src="`/storage/${guide.thumbnail}`" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"/>
                 <div v-else class="absolute inset-0 flex items-center justify-center text-5xl">📖</div>
               </div>
               <div class="p-5 sm:p-6 flex-1 flex flex-col justify-center">
@@ -89,7 +89,7 @@
             <div class="space-y-4">
               <Link v-for="gadget in trendingGadgets" :key="gadget.id" :href="route('gadgets.show', gadget.slug)" class="flex gap-3 group">
                 <div class="w-14 h-14 rounded-xl bg-gray-100 dark:bg-gray-800 shrink-0 overflow-hidden">
-                  <img :src="gadget.image ? `/storage/${gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-110 transition" />
+                  <img :alt="gadget.name" :src="gadget.image ? `/storage/${gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-110 transition" />
                 </div>
                 <div>
                   <h4 class="text-xs font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-500 line-clamp-2 leading-snug">{{ gadget.name }}</h4>

@@ -18,7 +18,7 @@ class ManageCategories extends ManageRecords
                 ->modalHeading('NEW CATEGORY')
                 ->modalDescription('DEFINE A NEW PRODUCT CATEGORY')
                 ->modalSubmitActionLabel('CREATE CATEGORY')
-                ->modalWidth('md')
+                ->modalWidth('3xl')
                 ->createAnother(false),
         ];
     }

@@ -3,12 +3,13 @@
 namespace App\Models;
 
 use App\Traits\BacksUpImages;
+use App\Models\Concerns\HasSeo;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class TechGuide extends Model
 {
-    use BacksUpImages;
+    use BacksUpImages, HasSeo;
 
     protected $fillable = ['user_id', 'title', 'slug', 'type', 'content', 'thumbnail', 'is_published'];
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Filament\Resources\BlogPostResource;
 use App\Models\BlogPost;
 use Illuminate\Http\Request;
@@ -52,12 +53,12 @@ class BlogController extends Controller
             'featured'   => $featured ? $this->card($featured) : null,
             'categories' => $categories,
             'filters'    => $request->only(['category', 'search', 'tag']),
-            'seo'        => [
+            'seo'        => Seo::make([
                 'title'       => 'Blog — Tips, How-Tos & Stories from the Tech Desk',
                 'description' => 'Practical tech tips, how-tos, deals and behind-the-scenes stories from the Git Infosys team.',
                 'canonical'   => route('blog.index'),
                 'type'        => 'website',
-            ],
+            ]),
         ]);
     }
 
@@ -86,10 +87,11 @@ class BlogController extends Controller
             ],
             'related' => $related,
             'recent'  => $recent,
-            'seo'     => [
+            'seo'     => Seo::for($post, [
                 'title'       => $post->title,
                 'description' => $desc,
                 'image'       => $img,
+                'image_alt'   => $post->title,
                 'canonical'   => route('blog.show', $post->slug),
                 'type'        => 'article',
                 'json_ld'     => [
@@ -102,7 +104,7 @@ class BlogController extends Controller
                     'dateModified'  => $post->updated_at->toIso8601String(),
                     'author'        => ['@type' => 'Person', 'name' => $post->author?->name ?? config('app.name')],
                 ],
-            ],
+            ]),
         ]);
     }
 

@@ -29,9 +29,14 @@ trait HasActionsInsideFormCard
             $section->columnSpanFull();
         }
 
-        if ($section = end($sections)) {
+        $section = end($sections);
+
+        // A collapsed last section (e.g. SEO) would hide the buttons, so render them below the whole form instead.
+        if ($section && ! $section->isCollapsed()) {
             $section->footerActions($this->getFormActions());
             $this->actionsInsideCard = true;
+        } else {
+            $this->actionsInsideCard = false;
         }
 
         return $schema;

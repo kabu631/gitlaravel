@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Models\BlogPost;
 use App\Models\Brand;
 use App\Models\Category;
@@ -220,7 +221,7 @@ class HomeController extends Controller
             'upcomingLaunches' => $upcomingLaunches,
             'matchmakerPool'   => $matchmakerPool,
 
-            'seo' => [
+            'seo' => Seo::make([
                 'title'       => "Nepal's #1 Tech Review, Gadget Prices & Comparison",
                 'description' => 'Discover the latest smartphones, laptops, and accessories with honest reviews, live price tracking, and spec comparisons. Make smarter buying decisions with Git Infosys.',
                 'canonical'   => $appUrl . '/',
@@ -257,7 +258,7 @@ class HomeController extends Controller
                         ],
                     ],
                 ],
-            ],
+            ]),
         ]);
     }
 }

@@ -1041,7 +1041,7 @@
 
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
-import { Link, router, useForm } from '@inertiajs/vue3'
+import { Link, router, useForm, usePage } from '@inertiajs/vue3'
 import { ref, computed, watch, onMounted, onBeforeUnmount, nextTick } from 'vue'
 import { useCompareTray } from '@/Composables/useCompareTray.js'
 import {
@@ -1101,7 +1101,7 @@ function toggleCompareTray() {
 // ═══════════════════════════════════════════════════════════
 const gallery = computed(() => {
   const imgs = []
-  if (props.gadget.image) imgs.push({ src: getImageUrl(props.gadget.image), alt: props.gadget.name })
+  if (props.gadget.image) imgs.push({ src: getImageUrl(props.gadget.image), alt: usePage().props.seo?.image_alt || props.gadget.name })
   props.gadget.images?.forEach(i => imgs.push({ src: getImageUrl(i.image), alt: i.alt_text || props.gadget.name }))
   return imgs.length ? imgs : [{ src: '/placeholder.png', alt: props.gadget.name }]
 })

@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Schemas\SeoForm;
 use App\Filament\Resources\BlogPostResource\Pages;
 use App\Models\BlogPost;
 use BackedEnum;
@@ -57,16 +58,16 @@ class BlogPostResource extends Resource
                             $set('slug', Str::slug($state));
                         }
                     })->columnSpanFull(),
-                TextInput::make('slug')->maxLength(255)->unique(ignoreRecord: true)
-                    ->helperText('Auto-generated from the title if left empty'),
+                SeoForm::slug('blog.show'),
                 Select::make('category')->options(self::CATEGORIES)->default('general')->required(),
                 Textarea::make('excerpt')->rows(2)->maxLength(300)->columnSpanFull()
                     ->helperText('Short summary shown on listing cards'),
                 RichEditor::make('content')->required()->columnSpanFull(),
                 FileUpload::make('cover_image')->image()->disk('public')->directory('blog')->nullable(),
                 TagsInput::make('tags')->placeholder('Add a tag'),
-                TextInput::make('meta_description')->maxLength(300)->columnSpanFull(),
             ])->columns(2),
+
+            SeoForm::section(),
 
             Section::make('Publishing')->columnSpanFull()->schema([
                 Select::make('user_id')->label('Author')->relationship('author', 'name')

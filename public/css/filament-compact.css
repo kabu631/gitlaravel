@@ -321,7 +321,8 @@
     box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04) !important;
     margin-bottom: 0.875rem !important;
     background-color: #ffffff !important;
-    overflow: hidden !important;
+    /* Must stay visible: hidden clips select / date-picker dropdowns opened inside the card. */
+    overflow: visible !important;
 }
 
 :is(.dark, .dark *) .fi-section {
@@ -334,6 +335,13 @@
     padding-block: 0.625rem !important;
     border-bottom: 1px solid rgba(241, 245, 249, 0.95) !important;
     background-color: rgba(248, 250, 252, 0.6) !important;
+    border-top-left-radius: var(--fi-compact-radius) !important;
+    border-top-right-radius: var(--fi-compact-radius) !important;
+}
+
+.fi-section.fi-collapsed .fi-section-header {
+    border-bottom-left-radius: var(--fi-compact-radius) !important;
+    border-bottom-right-radius: var(--fi-compact-radius) !important;
 }
 
 :is(.dark, .dark *) .fi-section-header {

@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\MenuItem;
 use App\Models\Popup;
 use App\Models\SiteSetting;
+use App\Support\Seo;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -42,6 +43,7 @@ class HandleInertiaRequests extends Middleware
             'navCategories' => fn () => Category::orderBy('id')->get(['id', 'name', 'slug']),
             'headerMenu'   => fn () => MenuItem::tree(),
             'activePopup'  => fn () => Popup::live()->first(['id', 'title', 'body', 'image', 'badge', 'btn_text', 'btn_url', 'delay_seconds', 'frequency', 'updated_at']),
+            'seo'          => fn () => Seo::make(),
             'adminUrl' => '/' . ltrim(config('filament.path', 'secure-admin'), '/'),
             'flash'    => [
                 'success' => fn () => $request->session()->get('success'),

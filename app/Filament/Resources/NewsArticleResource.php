@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Schemas\SeoForm;
 use App\Filament\Resources\NewsArticleResource\Pages;
 use App\Models\NewsArticle;
 use Filament\Forms\Components\FileUpload;
@@ -36,7 +37,7 @@ class NewsArticleResource extends Resource
             Section::make('News Article Information')->columnSpanFull()->schema([
                 TextInput::make('title')->required()->maxLength(255)->live(onBlur: true)
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))->columnSpanFull(),
-                TextInput::make('slug')->required()->maxLength(255),
+                SeoForm::slug('news.show', required: true),
                 Select::make('category')->options([
                     // Keys must match the URL ?category= values used in AppLayout nav + NewsController
                     'technology'   => 'Technology',
@@ -60,10 +61,11 @@ class NewsArticleResource extends Resource
                     ->preload()
                     ->nullable(),
                 FileUpload::make('thumbnail')->image()->disk('public')->directory('news')->nullable(),
-                TextInput::make('meta_description')->maxLength(160)->nullable()->columnSpanFull(),
                 RichEditor::make('content')->required()->columnSpanFull(),
                 Toggle::make('is_published')->default(true),
             ])->columns(2),
+
+            SeoForm::section(),
         ]);
     }
 

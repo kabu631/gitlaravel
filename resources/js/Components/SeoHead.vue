@@ -2,58 +2,53 @@
 import { Head, usePage } from '@inertiajs/vue3'
 import { computed } from 'vue'
 
+// `seo` is resolved server-side by App\Support\Seo, so this only renders it.
 const props = defineProps({
-  title:       { type: String,          default: null },
-  description: { type: String,          default: null },
-  image:       { type: String,          default: null },
-  canonical:   { type: String,          default: null },
-  type:        { type: String,          default: 'website' },
-  noindex:     { type: Boolean,         default: false },
-  publishedAt: { type: String,          default: null },
-  modifiedAt:  { type: String,          default: null },
-  jsonLd:      { type: [Object, Array], default: null },
+  seo: { type: Object, default: () => ({}) },
 })
 
 const page     = usePage()
 const siteName = computed(() => page.props.siteName || 'Git Infosys')
-const baseUrl  = computed(() => page.props.baseUrl  || '')
+const baseUrl  = computed(() => page.props.baseUrl || '')
 
-const pageTitle = computed(() =>
-  props.title ? `${props.title} | ${siteName.value}` : siteName.value
-)
-const ogImage = computed(() =>
-  props.image || `${baseUrl.value}/images/og-default.jpg`
-)
+const s = computed(() => props.seo || {})
+const title = computed(() => s.value.full_title || (s.value.title ? `${s.value.title} | ${siteName.value}` : siteName.value))
+const image = computed(() => s.value.og_image || s.value.image || `${baseUrl.value}/images/og-default.jpg`)
+const robots = computed(() => s.value.robots || (s.value.noindex ? 'noindex, nofollow' : 'index, follow'))
 const jsonLdStr = computed(() =>
-  props.jsonLd ? JSON.stringify(props.jsonLd) : null
+  s.value.json_ld ? JSON.stringify(s.value.json_ld).replace(/</g, '\\u003c') : null
 )
 </script>
 
 <template>
   <Head>
-    <title>{{ pageTitle }}</title>
+    <title>{{ title }}</title>
 
-    <meta v-if="description"   head-key="description"   name="description"   :content="description" />
-    <meta                      head-key="robots"         name="robots"        :content="noindex ? 'noindex,nofollow' : 'index,follow'" />
-    <link v-if="canonical"     head-key="canonical"      rel="canonical"      :href="canonical" />
+    <meta v-if="s.description" head-key="description" name="description" :content="s.description" />
+    <meta v-if="s.keywords"    head-key="keywords"    name="keywords"    :content="s.keywords" />
+    <meta                      head-key="robots"      name="robots"      :content="robots" />
+    <link v-if="s.canonical"   head-key="canonical"   rel="canonical"    :href="s.canonical" />
 
     <!-- Open Graph -->
-    <meta head-key="og:title"       property="og:title"       :content="pageTitle" />
-    <meta head-key="og:type"        property="og:type"        :content="type" />
-    <meta head-key="og:url"         property="og:url"         :content="canonical || ''" />
-    <meta head-key="og:image"       property="og:image"       :content="ogImage" />
-    <meta head-key="og:site_name"   property="og:site_name"   :content="siteName" />
-    <meta v-if="description" head-key="og:description" property="og:description" :content="description" />
+    <meta head-key="og:title"     property="og:title"     :content="s.og_title || title" />
+    <meta head-key="og:type"      property="og:type"      :content="s.type || 'website'" />
+    <meta head-key="og:url"       property="og:url"       :content="s.canonical || ''" />
+    <meta head-key="og:image"     property="og:image"     :content="image" />
+    <meta v-if="s.image_alt" head-key="og:image:alt" property="og:image:alt" :content="s.image_alt" />
+    <meta head-key="og:site_name" property="og:site_name" :content="siteName" />
+    <meta v-if="s.og_description || s.description" head-key="og:description" property="og:description" :content="s.og_description || s.description" />
 
     <!-- Twitter Card -->
-    <meta head-key="twitter:card"        name="twitter:card"        content="summary_large_image" />
-    <meta head-key="twitter:title"       name="twitter:title"       :content="pageTitle" />
-    <meta head-key="twitter:image"       name="twitter:image"       :content="ogImage" />
-    <meta v-if="description" head-key="twitter:description" name="twitter:description" :content="description" />
+    <meta head-key="twitter:card"  name="twitter:card"  :content="s.twitter_card || 'summary_large_image'" />
+    <meta v-if="s.twitter_site" head-key="twitter:site" name="twitter:site" :content="s.twitter_site" />
+    <meta head-key="twitter:title" name="twitter:title" :content="s.twitter_title || s.og_title || title" />
+    <meta head-key="twitter:image" name="twitter:image" :content="s.twitter_image || image" />
+    <meta v-if="s.image_alt" head-key="twitter:image:alt" name="twitter:image:alt" :content="s.image_alt" />
+    <meta v-if="s.twitter_description || s.description" head-key="twitter:description" name="twitter:description" :content="s.twitter_description || s.description" />
 
     <!-- Article-specific -->
-    <meta v-if="publishedAt" head-key="article:published_time" property="article:published_time" :content="publishedAt" />
-    <meta v-if="modifiedAt"  head-key="article:modified_time"  property="article:modified_time"  :content="modifiedAt" />
+    <meta v-if="s.published_at" head-key="article:published_time" property="article:published_time" :content="s.published_at" />
+    <meta v-if="s.modified_at"  head-key="article:modified_time"  property="article:modified_time"  :content="s.modified_at" />
 
     <!-- Structured Data (JSON-LD) -->
     <component :is="'script'" v-if="jsonLdStr" head-key="json-ld" type="application/ld+json" v-text="jsonLdStr" />

@@ -18,7 +18,7 @@ class ManageBrands extends ManageRecords
                 ->modalHeading('New Brand')
                 ->modalDescription('Define a new product brand')
                 ->modalSubmitActionLabel('Create brand')
-                ->modalWidth('md')
+                ->modalWidth('3xl')
                 ->createAnother(false),
         ];
     }

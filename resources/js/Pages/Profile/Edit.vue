@@ -92,7 +92,7 @@
                 :href="route('reviews.show', review.slug)"
                 class="flex gap-4 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-brand-500 dark:hover:border-brand-500 rounded-2xl p-4 transition group">
             <div class="w-14 h-14 bg-gray-100 dark:bg-gray-800 rounded-xl shrink-0 flex items-center justify-center overflow-hidden">
-              <img v-if="review.gadget_image" :src="`/storage/${review.gadget_image}`" class="w-full h-full object-contain"/>
+              <img :alt="review.gadget_name || 'Reviewed product'" v-if="review.gadget_image" :src="`/storage/${review.gadget_image}`" class="w-full h-full object-contain"/>
               <span v-else class="text-2xl">📱</span>
             </div>
             <div class="flex-1 min-w-0">

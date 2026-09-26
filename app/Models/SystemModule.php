@@ -262,6 +262,20 @@ class SystemModule extends Model
                     ['name' => 'System Modules', 'code' => 'system_modules', 'route' => "/{$filamentPath}/system-modules", 'order' => 2, 'icon' => 'heroicon-o-squares-plus'],
                 ],
             ],
+            [
+                'name' => 'SEO',
+                'code' => 'seo',
+                'route' => null,
+                'order' => 8,
+                'icon' => 'heroicon-o-magnifying-glass-circle',
+                'status' => 'active',
+                'show_in_menu' => true,
+                'children' => [
+                    ['name' => 'Global SEO Settings', 'code' => 'seo_settings', 'route' => "/{$filamentPath}/seo-settings", 'order' => 1, 'icon' => 'heroicon-o-adjustments-horizontal'],
+                    ['name' => 'Page SEO', 'code' => 'seo_pages', 'route' => "/{$filamentPath}/seo-pages", 'order' => 2, 'icon' => 'heroicon-o-document-magnifying-glass'],
+                    ['name' => 'URL Redirects', 'code' => 'seo_redirects', 'route' => "/{$filamentPath}/seo-redirects", 'order' => 3, 'icon' => 'heroicon-o-arrow-uturn-right'],
+                ],
+            ],
         ];
 
         foreach ($structure as $groupData) {

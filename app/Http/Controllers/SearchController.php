@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
 use App\Models\PriceHistory;
@@ -48,12 +49,12 @@ class SearchController extends Controller
                 'reviews'      => [],
                 'total'        => 0,
                 'priceTracker' => $priceTracker,
-                'seo'          => [
+                'seo'          => Seo::make([
                     'title'       => 'Search Products, Reviews & News',
                     'description' => 'Search Git Infosys for gadgets, reviews, news, and buying guides across all categories.',
                     'canonical'   => route('search.index'),
                     'noindex'     => true,
-                ],
+                ]),
             ]);
         }
 
@@ -85,10 +86,10 @@ class SearchController extends Controller
             'reviews'      => $reviews,
             'total'        => $total,
             'priceTracker' => $priceTracker,
-            'seo'          => [
+            'seo'          => Seo::make([
                 'title'   => "Search results for \"{$q}\" — {$total} found",
                 'noindex' => true,
-            ],
+            ]),
         ]);
     }
 }

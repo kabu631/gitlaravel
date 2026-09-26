@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Models\BlogPost;
 use App\Models\Brand;
 use App\Models\Category;
@@ -64,12 +65,12 @@ class PageController extends Controller
             'story'      => $extra['story']   ?? 'Git Infosys started as a passion project by a group of tech enthusiasts who were frustrated by the lack of reliable, localized tech information in Nepal.',
             'stats'      => $stats,
             'team'       => $team,
-            'seo'        => [
+            'seo'        => Seo::for($content, [
                 'title'       => 'About Git Infosys — Nepal\'s Trusted Tech Review Platform',
                 'description' => $content?->meta_description ?? 'Learn about Git Infosys — the team, mission, and values behind Nepal\'s leading tech review, gadget comparison, and price tracking platform.',
                 'canonical'   => route('pages.about'),
                 'type'        => 'website',
-            ],
+            ]),
         ]));
     }
 
@@ -219,11 +220,11 @@ class PageController extends Controller
             ],
             'topHotDrops'       => $topHotDrops,
             'trending'          => $trendingGadgets,
-            'seo'               => [
+            'seo'               => Seo::make([
                 'title'       => 'Price Tracker — Monitor Gadget Prices & Heavy Drops in Nepal',
                 'description' => 'Track the latest smartphone, laptop, and gadget price drops in Nepal with live market analytics and official buying links.',
                 'canonical'   => route('pages.price-tracker'),
-            ],
+            ]),
         ]));
     }
 
@@ -248,12 +249,12 @@ class PageController extends Controller
             'phone'      => $extra['phone']   ?? SiteSetting::get('footer_phone', ''),
             'hours'      => $extra['hours']   ?? SiteSetting::get('footer_hours', ''),
             'mapEmbed'   => $mapEmbed,
-            'seo'        => [
+            'seo'        => Seo::for($content, [
                 'title'       => 'Contact Git Infosys — Get in Touch',
                 'description' => $content?->meta_description ?? "Have a question, review request, or partnership proposal? Contact the Git Infosys team and we'll get back to you shortly.",
                 'canonical'   => route('pages.contact'),
                 'noindex'     => false,
-            ],
+            ]),
         ]));
     }
 
@@ -287,11 +288,11 @@ class PageController extends Controller
             'subheading' => $content?->subheading ?? "Git Infosys is Nepal's ultimate tech ecosystem. We offer an integrated suite of tools, reviews, and shopping experiences to make your tech life smarter.",
             'body'       => $content?->body,
             'services'   => Service::active()->get(['id', 'icon', 'title', 'description', 'gradient']),
-            'seo'        => [
+            'seo'        => Seo::for($content, [
                 'title'       => 'Our Services — Git Infosys',
                 'description' => $content?->meta_description ?? "Explore what Git Infosys offers — gadget reviews, price comparison, buying guides, sponsored content, and more for Nepal's tech community.",
                 'canonical'   => route('pages.services'),
-            ],
+            ]),
         ]));
     }
 
@@ -305,11 +306,11 @@ class PageController extends Controller
             'body'         => $content?->body,
             'jobs'         => \App\Models\JobOpening::open()->get(),
             'contactEmail' => \App\Models\SiteSetting::get('footer_email'),
-            'seo'          => [
+            'seo'          => Seo::for($content, [
                 'title'       => 'Careers — ' . config('app.name'),
                 'description' => $content?->meta_description ?? 'Open positions at ' . config('app.name') . '. Join our team of tech reviewers, writers and developers in Nepal.',
                 'canonical'   => route('pages.careers'),
-            ],
+            ]),
         ]));
     }
 
@@ -321,12 +322,12 @@ class PageController extends Controller
             'heading'    => $content?->heading    ?? 'Terms & Conditions',
             'subheading' => $content?->subheading ?? 'Please read these terms carefully before using our platform.',
             'body'       => $content?->body,
-            'seo'        => [
+            'seo'        => Seo::for($content, [
                 'title'       => 'Terms & Conditions — Git Infosys',
                 'description' => $content?->meta_description ?? 'Read the terms and conditions governing your use of the Git Infosys website, products, and services.',
                 'canonical'   => route('pages.terms'),
                 'noindex'     => true,
-            ],
+            ]),
         ]));
     }
 
@@ -338,12 +339,12 @@ class PageController extends Controller
             'heading'    => $content?->heading    ?? 'Privacy Policy',
             'subheading' => $content?->subheading ?? 'Your privacy is important to us. This policy explains how we collect and use your data.',
             'body'       => $content?->body,
-            'seo'        => [
+            'seo'        => Seo::for($content, [
                 'title'       => 'Privacy Policy — Git Infosys',
                 'description' => $content?->meta_description ?? 'Understand how Git Infosys collects, uses, and protects your personal information when you use our platform.',
                 'canonical'   => route('pages.privacy'),
                 'noindex'     => true,
-            ],
+            ]),
         ]));
     }
 
@@ -354,11 +355,11 @@ class PageController extends Controller
             'bankPartners'    => BankPartner::active()->get(),
             'frequencyBands'  => CarrierFrequencyBand::active()->get(),
             'serviceCenters'  => AuthorizedServiceCenter::active()->get(),
-            'seo' => [
+            'seo' => Seo::make([
                 'title'       => 'Interactive Tech Lab & Nepal Ownership Radar — Git Infosys',
                 'description' => 'Airport MDMS customs duty tax calculator, NTC/Ncell 5G band compatibility, blind camera shootouts, and gaming thermal simulator for Nepal tech buyers.',
                 'canonical'   => route('pages.tech-lab'),
-            ],
+            ]),
         ]));
     }
 
