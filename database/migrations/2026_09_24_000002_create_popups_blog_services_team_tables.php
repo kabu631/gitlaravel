@@ -83,8 +83,8 @@ return new class extends Migration {
         }
 
         DB::table('team_members')->insert([
-            ['name' => 'Kabindra Koirala', 'role' => 'Founder & Editor-in-Chief', 'bio' => 'Tech enthusiast passionate about making gadget buying decisions easier for Nepali consumers.', 'sort_order' => 0, 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
-            ['name' => 'Tech Team', 'role' => 'Review Specialists', 'bio' => 'Our team of specialists rigorously test every product before publishing honest, unbiased reviews.', 'sort_order' => 1, 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
+            ['name' => 'Anjan Bhandari', 'role' => 'Founder, Leader and Tech Expert', 'bio' => 'Tech enthusiast and visionary leader passionate about empowering Nepali consumers with honest, data-driven gadget insights.', 'sort_order' => 0, 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
+            ['name' => 'Kabindra Koirala', 'role' => 'CTO & Platform Supervisor', 'bio' => 'Tech enthusiast passionate about building high-performance tech platforms, benchmark systems, and supervising digital architecture.', 'sort_order' => 1, 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
         ]);
     }
 
