@@ -298,10 +298,10 @@ class TechLabAndSettingsSeeder extends Seeder
             'announcement_text'          => 'Nepal IT & Regulatory Radar: Airport MDMS customs calculator and 5G band radar are now live in Tech Lab!',
             'announcement_url'           => '/tech-lab',
             'announcement_badge'         => 'TECH LAB',
-            'footer_phone'               => '+977 1-4220000',
-            'footer_email'               => 'info@gitinfosys.com',
-            'footer_address'             => 'Putalisadak, Kathmandu, Nepal',
-            'footer_hours'               => 'Sun – Fri: 9 AM – 6 PM',
+            'footer_phone'               => '+977-985-7039307',
+            'footer_email'               => 'info@gitinfosys.com.np',
+            'footer_address'             => 'Pako, New Road, Kathmandu - Nepal',
+            'footer_hours'               => 'Sun – Fri: 10 AM – 8 PM',
             'footer_copyright'           => '© ' . date('Y') . ' Git Infosys. All rights reserved. Nepal\'s Premier Independent Tech Platform.',
             'social_facebook'            => 'https://facebook.com/gitinfosys',
             'social_instagram'           => 'https://instagram.com/gitinfosys',
@@ -388,8 +388,8 @@ class TechLabAndSettingsSeeder extends Seeder
                 ['num' => '10K+', 'label' => 'Happy Shoppers'],
             ],
             'team'    => [
-                ['name' => 'Kabindra Koirala', 'role' => 'Founder & Editor-in-Chief', 'bio' => 'Tech enthusiast passionate about making gadget buying decisions easier for Nepali consumers.'],
-                ['name' => 'Tech Team', 'role' => 'Review Specialists', 'bio' => 'Our team of specialists rigorously test every product before publishing honest, unbiased reviews.'],
+                ['name' => 'Anjan Bhandari', 'role' => 'Founder, Leader and Tech Expert', 'bio' => 'Tech enthusiast and visionary leader passionate about empowering Nepali consumers with honest, data-driven gadget insights.'],
+                ['name' => 'Kabindra Koirala', 'role' => 'CTO & Platform Supervisor', 'bio' => 'Tech enthusiast passionate about building high-performance tech platforms, benchmark systems, and supervising digital architecture.'],
             ],
         ]);
         $aboutContent->save();
