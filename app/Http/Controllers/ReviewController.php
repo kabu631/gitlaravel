@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Models\Gadget;
 use App\Models\Review;
 use App\Models\NewsArticle;
@@ -61,12 +62,12 @@ class ReviewController extends Controller
             'sidebarNews'     => $sidebarNews,
             'filters'         => $request->only(['filter', 'category']),
 
-            'seo' => [
+            'seo' => Seo::make([
                 'title'       => $seoTitle,
                 'description' => 'Read in-depth expert reviews of smartphones, laptops, earbuds, and more. Pros, cons, ratings, and verdicts to help you buy smart.',
                 'canonical'   => route('reviews.index'),
                 'type'        => 'website',
-            ],
+            ]),
         ]);
     }
 
@@ -94,10 +95,11 @@ class ReviewController extends Controller
             'cons'     => $review->getConsList(),
             'trending' => $trending,
 
-            'seo' => [
+            'seo' => Seo::for($review, [
                 'title'        => $review->title,
                 'description'  => $desc,
                 'image'        => $absImg,
+                'image_alt'   => $review->gadget->name,
                 'canonical'    => $canonical,
                 'type'         => 'article',
                 'published_at' => $review->created_at->toISOString(),
@@ -125,7 +127,7 @@ class ReviewController extends Controller
                         'worstRating' => '1',
                     ],
                 ],
-            ],
+            ]),
         ]);
     }
 

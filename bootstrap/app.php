@@ -19,5 +19,20 @@ return Application::configure(basePath: dirname(__DIR__))
         //
     })
     ->withExceptions(function (Exceptions $exceptions): void {
-        //
+        // Admin-managed and slug-change redirects (SEO → URL Redirects) are resolved only when a URL would 404.
+        $exceptions->render(function (\Symfony\Component\HttpKernel\Exception\NotFoundHttpException $e, \Illuminate\Http\Request $request) {
+            if (! $request->isMethod('GET') || ! \Illuminate\Support\Facades\Schema::hasTable('seo_redirects')) {
+                return null;
+            }
+
+            $redirect = \App\Models\SeoRedirect::findFor($request->getPathInfo());
+            if (! $redirect) {
+                return null;
+            }
+
+            $redirect->increment('hits', 1, ['last_hit_at' => now()]);
+            $query = $request->getQueryString();
+
+            return redirect()->to($redirect->to_path . ($query ? "?{$query}" : ''), $redirect->status_code);
+        });
     })->create();

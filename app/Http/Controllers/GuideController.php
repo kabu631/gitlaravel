@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Models\TechGuide;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -33,12 +34,12 @@ class GuideController extends Controller
             'filters' => $request->only(['search', 'type']),
             'trendingGadgets' => $trendingGadgets,
 
-            'seo' => [
+            'seo' => Seo::make([
                 'title'       => $seoTitle,
                 'description' => 'Find the best buying guides for smartphones, laptops, earbuds, and more. Our experts break down what to look for so you get the right product.',
                 'canonical'   => route('guides.index'),
                 'type'        => 'website',
-            ],
+            ]),
         ]);
     }
 
@@ -56,10 +57,11 @@ class GuideController extends Controller
             'guide'   => $guide,
             'related' => $related,
 
-            'seo' => [
+            'seo' => Seo::for($guide, [
                 'title'        => $guide->title,
                 'description'  => $desc,
                 'image'        => $absImg,
+                'image_alt'   => $guide->title,
                 'canonical'    => $canonical,
                 'type'         => 'article',
                 'published_at' => $guide->created_at->toISOString(),
@@ -81,7 +83,7 @@ class GuideController extends Controller
                     ],
                     'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $canonical],
                 ],
-            ],
+            ]),
         ]);
     }
 }

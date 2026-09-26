@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Schemas\SeoForm;
 use App\Filament\Resources\GadgetResource\Pages;
 use App\Filament\Resources\GadgetResource\RelationManagers;
 use App\Models\Brand;
@@ -43,7 +44,7 @@ class GadgetResource extends Resource
             Section::make('Basic Info & Pricing')->columnSpanFull()->schema([
                 TextInput::make('name')->required()->maxLength(255)->live(onBlur: true)
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state))),
-                TextInput::make('slug')->required()->maxLength(255),
+                SeoForm::slug('gadgets.show', required: true),
                 Select::make('brand_id')->label('Brand')->relationship('brand', 'name')
                     ->searchable()->preload()->createOptionForm([
                         TextInput::make('name')->required(),
@@ -192,6 +193,8 @@ class GadgetResource extends Resource
                     ->columnSpanFull()
                     ->helperText('Write analysis, price drop explanations, or insights here for the public Price Tracker page.'),
             ]),
+
+            SeoForm::section(),
         ]);
     }
 

@@ -28,7 +28,7 @@
           <div v-if="featuredReviews?.length" class="grid md:grid-cols-2 gap-4">
             <!-- Large Main Featured -->
             <Link v-if="featuredReviews[0]" :href="route('reviews.show', featuredReviews[0].slug)" class="group relative block h-[400px] md:h-[480px] rounded-2xl overflow-hidden">
-              <img :src="featuredReviews[0].gadget?.image ? `/storage/${featuredReviews[0].gadget.image}` : '/img/placeholder.jpg'" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" />
+              <img :alt="featuredReviews[0].gadget?.name || featuredReviews[0].title" :src="featuredReviews[0].gadget?.image ? `/storage/${featuredReviews[0].gadget.image}` : '/img/placeholder.jpg'" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" />
               <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent"></div>
               
               <!-- Editor's Rating Badge -->
@@ -47,7 +47,7 @@
             <!-- 2 Smaller Featured on Right -->
             <div class="grid grid-rows-2 gap-4 h-[400px] md:h-[480px]">
               <Link v-for="review in featuredReviews.slice(1, 3)" :key="review.id" :href="route('reviews.show', review.slug)" class="group relative block rounded-2xl overflow-hidden h-full">
-                <img :src="review.gadget?.image ? `/storage/${review.gadget.image}` : '/img/placeholder.jpg'" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" />
+                <img :alt="review.gadget?.name || review.title" :src="review.gadget?.image ? `/storage/${review.gadget.image}` : '/img/placeholder.jpg'" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent"></div>
                 
                 <div class="absolute top-3 right-3 bg-yellow-500 text-yellow-950 font-extrabold px-2 py-0.5 rounded-lg flex items-center gap-1 shadow-lg text-sm">
@@ -76,7 +76,7 @@
               <!-- Card Image with Rating Overlay -->
               <div class="relative bg-gray-100 dark:bg-gray-800 overflow-hidden shrink-0"
                    :class="idx % 5 === 0 ? 'h-64 sm:h-auto sm:w-1/2 md:w-3/5' : 'h-56'">
-                <img :src="review.gadget?.image ? `/storage/${review.gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                <img :alt="review.gadget?.name || review.title" :src="review.gadget?.image ? `/storage/${review.gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
                 <div class="absolute top-3 right-3 bg-yellow-500 text-yellow-950 font-extrabold px-2 py-1 rounded-lg flex items-center gap-1 shadow-md text-sm">
                   <span>⭐ {{ review.rating }}</span>
                 </div>
@@ -122,7 +122,7 @@
             <div class="space-y-4">
               <Link v-for="gadget in trendingGadgets" :key="gadget.id" :href="route('gadgets.show', gadget.slug)" class="flex gap-3 group">
                 <div class="w-16 h-16 rounded-xl bg-gray-100 dark:bg-gray-800 shrink-0 overflow-hidden">
-                  <img :src="gadget.image ? `/storage/${gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-110 transition" />
+                  <img :alt="gadget.name" :src="gadget.image ? `/storage/${gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-110 transition" />
                 </div>
                 <div>
                   <h4 class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-500 dark:group-hover:text-brand-400 line-clamp-2 leading-snug">{{ gadget.name }}</h4>

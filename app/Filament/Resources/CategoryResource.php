@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Schemas\SeoForm;
 use App\Filament\Resources\CategoryResource\Pages;
 use App\Models\Category;
 use Filament\Forms\Components\TextInput;
@@ -35,13 +36,12 @@ class CategoryResource extends Resource
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
                     ->placeholder('e.g. Smartphone'),
 
-                TextInput::make('slug')
-                    ->label('Slug')
-                    ->required()
+                SeoForm::slug(required: true)
                     ->maxLength(50)
-                    ->placeholder('e.g. smartphone')
-                    ->helperText('URL-friendly identifier auto-generated from name.'),
+                    ->placeholder('e.g. smartphone'),
             ])->columns(1),
+
+            SeoForm::section(),
         ]);
     }
 
@@ -57,7 +57,7 @@ class CategoryResource extends Resource
                 ->modalHeading('EDIT CATEGORY')
                 ->modalDescription('UPDATE CATEGORY DETAILS')
                 ->modalSubmitActionLabel('SAVE CHANGES')
-                ->modalWidth('md'),
+                ->modalWidth('3xl'),
             DeleteAction::make(),
         ]),
 ])

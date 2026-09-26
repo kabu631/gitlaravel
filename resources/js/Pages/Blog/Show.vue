@@ -28,7 +28,7 @@
           </header>
 
           <div v-if="post.cover_image" class="rounded-3xl overflow-hidden border border-slate-200/80 dark:border-slate-800/80 bg-slate-100 dark:bg-slate-800 max-h-[440px]">
-            <img :src="getImageUrl(post.cover_image)" :alt="post.title" class="w-full h-full object-cover" />
+            <img :src="getImageUrl(post.cover_image)" :alt="$page.props.seo?.image_alt || post.title" class="w-full h-full object-cover" />
           </div>
 
           <article

@@ -3,12 +3,13 @@
 namespace App\Models;
 
 use App\Traits\BacksUpImages;
+use App\Models\Concerns\HasSeo;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class Gadget extends Model
 {
-    use BacksUpImages;
+    use BacksUpImages, HasSeo;
 
     protected array $imageBackupFields = ['image'];
     protected $fillable = [

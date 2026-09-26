@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Schemas\SeoForm;
 use App\Filament\Resources\BrandResource\Pages;
 use App\Models\Brand;
 use App\Models\Category;
@@ -39,12 +40,9 @@ class BrandResource extends Resource
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))
                     ->placeholder('e.g. Samsung'),
 
-                TextInput::make('slug')
-                    ->label('Slug')
-                    ->required()
+                SeoForm::slug('brands.show', required: true)
                     ->maxLength(100)
-                    ->placeholder('e.g. samsung')
-                    ->helperText('Auto-generated from name. Leave blank or edit if needed.'),
+                    ->placeholder('e.g. samsung'),
 
                 FileUpload::make('logo')
                     ->label('Brand Logo')
@@ -62,6 +60,8 @@ class BrandResource extends Resource
                     ->searchable()
                     ->placeholder('Select categories this brand belongs to'),
             ])->columns(1),
+
+            SeoForm::section(),
         ]);
     }
 
@@ -83,7 +83,7 @@ class BrandResource extends Resource
                 ->modalHeading('Edit Brand')
                 ->modalDescription('Update brand details')
                 ->modalSubmitActionLabel('Save changes')
-                ->modalWidth('md'),
+                ->modalWidth('3xl'),
             DeleteAction::make(),
         ]),
 ])

@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Schemas\SeoForm;
 use App\Filament\Resources\PageContentResource\Pages;
 use App\Models\PageContent;
 use BackedEnum;
@@ -52,10 +53,6 @@ class PageContentResource extends Resource
                     ->columnSpanFull()
                     ->placeholder('Subtitle shown below the heading'),
 
-                TextInput::make('meta_description')
-                    ->maxLength(500)
-                    ->columnSpanFull()
-                    ->placeholder('SEO meta description (max 160 chars recommended)'),
 
                 RichEditor::make('body')
                     ->columnSpanFull()
@@ -88,6 +85,8 @@ class PageContentResource extends Resource
                         return is_array($decoded) ? $decoded : null;
                     }),
             ])->columns(1),
+
+            SeoForm::section(),
         ]);
     }
 

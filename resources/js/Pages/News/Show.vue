@@ -49,7 +49,7 @@
 
           <!-- Featured Image -->
           <div v-if="article.thumbnail" class="rounded-3xl overflow-hidden border border-slate-200/80 dark:border-slate-800/80 bg-slate-100 dark:bg-slate-800 shadow-sm max-h-[420px]">
-            <img :src="`/storage/${article.thumbnail}`" :alt="article.title" class="w-full h-full object-cover"/>
+            <img :src="`/storage/${article.thumbnail}`" :alt="$page.props.seo?.image_alt || article.title" class="w-full h-full object-cover"/>
           </div>
 
           <!-- Key Takeaways Callout Box -->
@@ -100,7 +100,7 @@
                 class="bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 hover:border-brand-500 dark:hover:border-brand-500 rounded-2xl overflow-hidden group transition shadow-xs flex flex-col justify-between"
               >
                 <div v-if="r.thumbnail" class="aspect-video bg-slate-100 dark:bg-slate-800 overflow-hidden">
-                  <img :src="`/storage/${r.thumbnail}`" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
+                  <img :alt="r.title" :src="`/storage/${r.thumbnail}`" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
                 </div>
                 <div class="p-4 flex-1 flex flex-col justify-between">
                   <div>

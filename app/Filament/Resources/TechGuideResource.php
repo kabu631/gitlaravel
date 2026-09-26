@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Schemas\SeoForm;
 use App\Filament\Resources\TechGuideResource\Pages;
 use App\Models\TechGuide;
 use Filament\Forms\Components\FileUpload;
@@ -39,7 +40,7 @@ class TechGuideResource extends Resource
             Section::make('Tech Guide Information')->columnSpanFull()->schema([
                 TextInput::make('title')->required()->maxLength(255)->live(onBlur: true)
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))->columnSpanFull(),
-                TextInput::make('slug')->required()->maxLength(255),
+                SeoForm::slug('guides.show', required: true),
 
                 // Type — drives the ?type= filter on the frontend
                 Select::make('type')
@@ -64,6 +65,8 @@ class TechGuideResource extends Resource
                 Toggle::make('is_published')->default(true),
                 RichEditor::make('content')->required()->columnSpanFull(),
             ])->columns(2),
+
+            SeoForm::section(),
         ]);
     }
 

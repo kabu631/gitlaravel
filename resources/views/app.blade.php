@@ -9,32 +9,44 @@
 
         <!-- SEO Meta Tags (Server Rendered for Bots) -->
         @php
-            $seo = $page['props']['seo'] ?? [];
-            $title = !empty($seo['title']) ? $seo['title'] . ' | Git Infosys' : config('app.name', 'Git Infosys');
-            $desc = $seo['description'] ?? "Nepal's trusted tech review & gadget price comparison platform. Discover smartphones, laptops, and accessories with honest reviews and the best prices.";
-            $image = $seo['image'] ?? asset('images/og-default.jpg');
-            $url = $seo['canonical'] ?? request()->url();
-            $type = $seo['type'] ?? 'website';
-            $noindex = $seo['noindex'] ?? false;
+            $seo = $page['props']['seo'] ?? \App\Support\Seo::make();
+            $settings = \App\Models\SiteSetting::getAllSettings();
         @endphp
 
-        <title inertia>{{ $title }}</title>
-        <meta inertia head-key="description" name="description" content="{{ $desc }}">
-        <meta inertia head-key="robots" name="robots" content="{{ $noindex ? 'noindex,nofollow' : 'index, follow' }}">
-        <link inertia head-key="canonical" rel="canonical" href="{{ $url }}">
+        <title inertia>{{ $seo['full_title'] }}</title>
+        <meta inertia head-key="description" name="description" content="{{ $seo['description'] ?? '' }}">
+        @if(!empty($seo['keywords']))
+            <meta inertia head-key="keywords" name="keywords" content="{{ $seo['keywords'] }}">
+        @endif
+        <meta inertia head-key="robots" name="robots" content="{{ $seo['robots'] }}">
+        <link inertia head-key="canonical" rel="canonical" href="{{ $seo['canonical'] }}">
+
+        @if(!empty($settings['seo_google_verification']))
+            <meta name="google-site-verification" content="{{ $settings['seo_google_verification'] }}">
+        @endif
+        @if(!empty($settings['seo_bing_verification']))
+            <meta name="msvalidate.01" content="{{ $settings['seo_bing_verification'] }}">
+        @endif
+        @if(!empty($settings['seo_facebook_app_id']))
+            <meta property="fb:app_id" content="{{ $settings['seo_facebook_app_id'] }}">
+        @endif
 
         <meta inertia head-key="og:site_name" property="og:site_name" content="{{ config('app.name') }}">
-        <meta inertia head-key="og:type" property="og:type" content="{{ $type }}">
-        <meta inertia head-key="og:title" property="og:title" content="{{ $title }}">
-        <meta inertia head-key="og:description" property="og:description" content="{{ $desc }}">
-        <meta inertia head-key="og:image" property="og:image" content="{{ $image }}">
-        <meta inertia head-key="og:url" property="og:url" content="{{ $url }}">
+        <meta inertia head-key="og:type" property="og:type" content="{{ $seo['type'] }}">
+        <meta inertia head-key="og:title" property="og:title" content="{{ $seo['og_title'] }}">
+        <meta inertia head-key="og:description" property="og:description" content="{{ $seo['og_description'] ?? '' }}">
+        <meta inertia head-key="og:image" property="og:image" content="{{ $seo['og_image'] }}">
+        <meta inertia head-key="og:image:alt" property="og:image:alt" content="{{ $seo['image_alt'] ?? '' }}">
+        <meta inertia head-key="og:url" property="og:url" content="{{ $seo['canonical'] }}">
 
-        <meta inertia head-key="twitter:card" name="twitter:card" content="summary_large_image">
-        <meta inertia head-key="twitter:site" name="twitter:site" content="@gitinfosys">
-        <meta inertia head-key="twitter:title" name="twitter:title" content="{{ $title }}">
-        <meta inertia head-key="twitter:description" name="twitter:description" content="{{ $desc }}">
-        <meta inertia head-key="twitter:image" name="twitter:image" content="{{ $image }}">
+        <meta inertia head-key="twitter:card" name="twitter:card" content="{{ $seo['twitter_card'] }}">
+        @if(!empty($seo['twitter_site']))
+            <meta inertia head-key="twitter:site" name="twitter:site" content="{{ $seo['twitter_site'] }}">
+        @endif
+        <meta inertia head-key="twitter:title" name="twitter:title" content="{{ $seo['twitter_title'] }}">
+        <meta inertia head-key="twitter:description" name="twitter:description" content="{{ $seo['twitter_description'] ?? '' }}">
+        <meta inertia head-key="twitter:image" name="twitter:image" content="{{ $seo['twitter_image'] }}">
+        <meta inertia head-key="twitter:image:alt" name="twitter:image:alt" content="{{ $seo['image_alt'] ?? '' }}">
 
         @if(!empty($seo['published_at']))
             <meta inertia head-key="article:published_time" property="article:published_time" content="{{ $seo['published_at'] }}">
@@ -45,7 +57,7 @@
         
         @if(!empty($seo['json_ld']))
             <script inertia head-key="json-ld" type="application/ld+json">
-                {!! json_encode($seo['json_ld'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+                {!! json_encode($seo['json_ld'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) !!}
             </script>
         @endif
 

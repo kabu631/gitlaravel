@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Schemas\SeoForm;
 use App\Filament\Resources\ReviewResource\Pages;
 use App\Models\Gadget;
 use App\Models\Review;
@@ -47,7 +48,7 @@ class ReviewResource extends Resource
                     ->required(),
                 TextInput::make('title')->required()->maxLength(255)->live(onBlur: true)
                     ->afterStateUpdated(fn($state, $set) => $set('slug', Str::slug($state)))->columnSpanFull(),
-                TextInput::make('slug')->required()->maxLength(255),
+                SeoForm::slug('reviews.show', required: true),
                 TextInput::make('rating')
                     ->numeric()->minValue(0)->maxValue(10)->step(0.1)->required()
                     ->helperText('0.0 – 10.0 · Reviews rated ≥ 8.0 qualify as "Editor\'s Choice" in the filter'),
@@ -57,6 +58,8 @@ class ReviewResource extends Resource
                 Textarea::make('cons')->rows(4)->placeholder("One con per line")->nullable(),
                 Textarea::make('verdict')->rows(3)->nullable()->columnSpanFull(),
             ])->columns(2),
+
+            SeoForm::section(),
         ]);
     }
 

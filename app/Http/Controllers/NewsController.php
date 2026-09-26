@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Models\NewsArticle;
 use App\Models\UpcomingLaunch;
 use Illuminate\Http\Request;
@@ -55,12 +56,12 @@ class NewsController extends Controller
             'trendingGadgets'  => $trendingGadgets,
             'upcomingLaunches' => $upcomingLaunches,
 
-            'seo' => [
+            'seo' => Seo::make([
                 'title'       => $seoTitle,
                 'description' => $seoDesc,
                 'canonical'   => route('news.index', $category ? ['category' => $category] : []),
                 'type'        => 'website',
-            ],
+            ]),
         ]);
     }
 
@@ -99,10 +100,11 @@ class NewsController extends Controller
             'categories'      => $categories,
             'trendingGadgets' => $trendingGadgets,
 
-            'seo' => [
+            'seo' => Seo::for($article, [
                 'title'        => $article->title,
                 'description'  => $desc,
                 'image'        => $absImg,
+                'image_alt'   => $article->title,
                 'canonical'    => $canonical,
                 'type'         => 'article',
                 'published_at' => $article->created_at->toISOString(),
@@ -124,7 +126,7 @@ class NewsController extends Controller
                     ],
                     'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $canonical],
                 ],
-            ],
+            ]),
         ]);
     }
 }

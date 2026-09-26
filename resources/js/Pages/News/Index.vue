@@ -202,7 +202,7 @@
               class="bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 rounded-2xl overflow-hidden group transition shadow-xs hover:border-brand-500 flex flex-col sm:flex-row glass-card"
             >
               <div class="sm:w-2/5 aspect-video sm:aspect-auto sm:h-full bg-slate-100 dark:bg-slate-800 shrink-0 overflow-hidden relative min-h-[160px]">
-                <img
+                <img :alt="article.title"
                   v-if="article.thumbnail"
                   :src="`/storage/${article.thumbnail}`"
                   class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
@@ -298,7 +298,7 @@
                 class="flex gap-3 group items-center"
               >
                 <div class="w-12 h-12 rounded-xl bg-slate-50 dark:bg-slate-800 shrink-0 overflow-hidden p-1 border border-slate-100 dark:border-slate-700/60 flex items-center justify-center">
-                  <img v-if="gadget.image" :src="`/storage/${gadget.image}`" class="w-full h-full object-contain group-hover:scale-110 transition" />
+                  <img :alt="gadget.name" v-if="gadget.image" :src="`/storage/${gadget.image}`" class="w-full h-full object-contain group-hover:scale-110 transition" />
                   <Cpu v-else class="w-5 h-5 text-slate-400" />
                 </div>
                 <div class="min-w-0 flex-1">

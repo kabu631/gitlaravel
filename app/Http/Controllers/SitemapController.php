@@ -2,13 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Filament\Pages\SeoSettings;
 use App\Models\BlogPost;
 use App\Models\Brand;
+use App\Models\Category;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
+use App\Models\PageContent;
 use App\Models\Review;
+use App\Models\SeoMeta;
+use App\Models\SiteSetting;
 use App\Models\TechGuide;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
 
 class SitemapController extends Controller
 {
@@ -16,90 +23,83 @@ class SitemapController extends Controller
     {
         $urls = collect();
 
-        // Static pages
+        // Listing & static pages (search results and legal pages are noindex, so they're left out).
         $static = [
-            ['loc' => url('/'),                    'priority' => '1.0', 'freq' => 'daily'],
-            ['loc' => route('gadgets.index'),       'priority' => '0.9', 'freq' => 'daily'],
-            ['loc' => route('news.index'),          'priority' => '0.8', 'freq' => 'daily'],
-            ['loc' => route('brands.index'),        'priority' => '0.6', 'freq' => 'weekly'],
-            ['loc' => route('pages.careers'),       'priority' => '0.3', 'freq' => 'monthly'],
-            ['loc' => route('blog.index'),          'priority' => '0.7', 'freq' => 'daily'],
-            ['loc' => route('reviews.index'),       'priority' => '0.8', 'freq' => 'weekly'],
-            ['loc' => route('guides.index'),        'priority' => '0.8', 'freq' => 'weekly'],
-            ['loc' => route('compare.index'),       'priority' => '0.6', 'freq' => 'monthly'],
-            ['loc' => route('pcbuilder.index'),     'priority' => '0.6', 'freq' => 'monthly'],
-            ['loc' => route('search.index'),        'priority' => '0.5', 'freq' => 'monthly'],
-            ['loc' => route('pages.about'),         'priority' => '0.5', 'freq' => 'monthly'],
-            ['loc' => route('pages.contact'),       'priority' => '0.4', 'freq' => 'monthly'],
-            ['loc' => route('pages.services'),      'priority' => '0.5', 'freq' => 'monthly'],
+            'home'                => ['1.0', 'daily'],
+            'gadgets.index'       => ['0.9', 'daily'],
+            'news.index'          => ['0.8', 'daily'],
+            'blog.index'          => ['0.7', 'daily'],
+            'reviews.index'       => ['0.8', 'weekly'],
+            'guides.index'        => ['0.8', 'weekly'],
+            'brands.index'        => ['0.6', 'weekly'],
+            'pages.price-tracker' => ['0.7', 'daily'],
+            'compare.index'       => ['0.6', 'monthly'],
+            'pcbuilder.index'     => ['0.6', 'monthly'],
+            'pages.tech-lab'      => ['0.5', 'monthly'],
+            'pages.about'         => ['0.5', 'monthly'],
+            'pages.services'      => ['0.5', 'monthly'],
+            'pages.contact'       => ['0.4', 'monthly'],
+            'pages.careers'       => ['0.3', 'monthly'],
         ];
 
-        foreach ($static as $s) {
-            $urls->push($s + ['lastmod' => now()->toDateString()]);
+        $noindexRoutes = SeoMeta::whereNotNull('route_name')->where('robots', 'like', 'noindex%')->pluck('route_name')
+            ->merge(PageContent::whereHas('seo', fn ($q) => $q->where('robots', 'like', 'noindex%'))->pluck('page')->map(fn ($p) => "pages.{$p}"))
+            ->all();
+
+        foreach ($static as $name => [$priority, $freq]) {
+            if (Route::has($name) && ! in_array($name, $noindexRoutes, true)) {
+                $urls->push(['loc' => route($name), 'lastmod' => now()->toDateString(), 'priority' => $priority, 'freq' => $freq]);
+            }
         }
 
-        // Gadgets
-        Gadget::select('slug', 'updated_at')->orderByDesc('updated_at')->each(function ($g) use ($urls) {
-            $urls->push([
-                'loc'      => route('gadgets.show', $g->slug),
-                'lastmod'  => $g->updated_at->toDateString(),
-                'priority' => '0.8',
-                'freq'     => 'weekly',
-            ]);
-        });
+        Category::indexable()->select('id', 'slug', 'updated_at')->each(fn ($c) => $urls->push([
+            'loc' => route('gadgets.index', ['category' => $c->slug]), 'lastmod' => $c->updated_at?->toDateString(),
+            'priority' => '0.8', 'freq' => 'daily',
+        ]));
 
-        // News articles
-        NewsArticle::select('slug', 'updated_at')->where('is_published', true)->orderByDesc('updated_at')->each(function ($a) use ($urls) {
-            $urls->push([
-                'loc'      => route('news.show', $a->slug),
-                'lastmod'  => $a->updated_at->toDateString(),
-                'priority' => '0.7',
-                'freq'     => 'weekly',
-            ]);
-        });
+        Gadget::indexable()->select('id', 'name', 'slug', 'image', 'updated_at')->orderByDesc('updated_at')
+            ->each(fn ($g) => $urls->push($this->entry(route('gadgets.show', $g->slug), $g, '0.8', 'weekly', $g->image, $g->name)));
 
-        // Blog posts
-        BlogPost::published()->select('slug', 'updated_at')->orderByDesc('updated_at')->each(function ($b) use ($urls) {
-            $urls->push([
-                'loc'      => route('blog.show', $b->slug),
-                'lastmod'  => $b->updated_at->toDateString(),
-                'priority' => '0.7',
-                'freq'     => 'weekly',
-            ]);
-        });
+        NewsArticle::indexable()->where('is_published', true)->select('id', 'title', 'slug', 'thumbnail', 'updated_at')->orderByDesc('updated_at')
+            ->each(fn ($a) => $urls->push($this->entry(route('news.show', $a->slug), $a, '0.7', 'weekly', $a->thumbnail, $a->title)));
 
-        // Reviews
-        Review::select('slug', 'updated_at')->where('is_published', true)->orderByDesc('updated_at')->each(function ($r) use ($urls) {
-            $urls->push([
-                'loc'      => route('reviews.show', $r->slug),
-                'lastmod'  => $r->updated_at->toDateString(),
-                'priority' => '0.7',
-                'freq'     => 'monthly',
-            ]);
-        });
+        BlogPost::published()->indexable()->select('id', 'title', 'slug', 'cover_image', 'updated_at')->orderByDesc('updated_at')
+            ->each(fn ($b) => $urls->push($this->entry(route('blog.show', $b->slug), $b, '0.7', 'weekly', $b->cover_image, $b->title)));
 
-        // Tech guides
-        TechGuide::select('slug', 'updated_at')->where('is_published', true)->orderByDesc('updated_at')->each(function ($g) use ($urls) {
-            $urls->push([
-                'loc'      => route('guides.show', $g->slug),
-                'lastmod'  => $g->updated_at->toDateString(),
-                'priority' => '0.7',
-                'freq'     => 'monthly',
-            ]);
-        });
+        Review::indexable()->where('is_published', true)->select('id', 'title', 'slug', 'updated_at')->orderByDesc('updated_at')
+            ->each(fn ($r) => $urls->push($this->entry(route('reviews.show', $r->slug), $r, '0.7', 'monthly')));
 
-        // Brands
-        Brand::select('slug', 'updated_at')->each(function ($b) use ($urls) {
-            $urls->push([
-                'loc'      => route('brands.show', $b->slug),
-                'lastmod'  => $b->updated_at->toDateString(),
-                'priority' => '0.6',
-                'freq'     => 'weekly',
-            ]);
-        });
+        TechGuide::indexable()->where('is_published', true)->select('id', 'title', 'slug', 'thumbnail', 'updated_at')->orderByDesc('updated_at')
+            ->each(fn ($g) => $urls->push($this->entry(route('guides.show', $g->slug), $g, '0.7', 'monthly', $g->thumbnail, $g->title)));
 
-        $xml = view('sitemap', ['urls' => $urls])->render();
+        Brand::indexable()->select('id', 'name', 'slug', 'logo', 'updated_at')
+            ->each(fn ($b) => $urls->push($this->entry(route('brands.show', $b->slug), $b, '0.6', 'weekly', $b->logo, "{$b->name} logo")));
+
+        $xml = view('sitemap', ['urls' => $urls->unique('loc')->values()])->render();
 
         return response($xml, 200, ['Content-Type' => 'application/xml']);
+    }
+
+    public function robots(): Response
+    {
+        $body = SiteSetting::get('seo_discourage_indexing')
+            ? "User-agent: *\nDisallow: /"
+            : trim((string) (SiteSetting::get('seo_robots_txt') ?: SeoSettings::DEFAULT_ROBOTS_TXT));
+
+        $body .= "\n\nSitemap: " . route('sitemap') . "\n";
+
+        return response($body, 200, ['Content-Type' => 'text/plain; charset=UTF-8']);
+    }
+
+    private function entry(string $loc, $model, string $priority, string $freq, ?string $image = null, ?string $caption = null): array
+    {
+        return [
+            'loc'      => $loc,
+            'lastmod'  => $model->updated_at?->toDateString(),
+            'priority' => $priority,
+            'freq'     => $freq,
+            'image'    => $image ? (str_starts_with($image, 'http') ? $image : url(Storage::disk('public')->url($image))) : null,
+            'caption'  => $caption,
+        ];
     }
 }

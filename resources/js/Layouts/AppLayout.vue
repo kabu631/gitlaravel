@@ -1,15 +1,5 @@
 <template>
-  <SeoHead
-    :title="seo.title"
-    :description="seo.description"
-    :image="seo.image"
-    :canonical="seo.canonical"
-    :type="seo.type"
-    :noindex="seo.noindex"
-    :published-at="seo.published_at"
-    :modified-at="seo.modified_at"
-    :json-ld="seo.json_ld"
-  />
+  <SeoHead :seo="seo" />
 
   <div class="min-h-screen bg-slate-50 dark:bg-[#0b0f19] text-slate-900 dark:text-slate-100 font-sans selection:bg-brand-500 selection:text-white overflow-x-clip flex flex-col justify-between">
     <div>

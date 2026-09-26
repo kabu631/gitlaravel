@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Models\Brand;
 use App\Models\Gadget;
 use Illuminate\Http\Request;
@@ -15,12 +16,12 @@ class BrandController extends Controller
 
         return Inertia::render('Brands/Index', [
             'brands' => $brands,
-            'seo'    => [
+            'seo'    => Seo::make([
                 'title'       => 'All Brands — Gadget Prices & Reviews in Nepal',
                 'description' => 'Browse every smartphone, laptop and gadget brand available in Nepal with specs, prices and reviews.',
                 'canonical'   => route('brands.index'),
                 'type'        => 'website',
-            ],
+            ]),
         ]);
     }
 
@@ -40,10 +41,12 @@ class BrandController extends Controller
             'gadgets' => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
             'filters' => $request->only(['sort']),
 
-            'seo' => [
+            'seo' => Seo::for($brand, [
                 'title'       => "{$brand->name} Products — Prices & Reviews in Nepal",
                 'description' => "Browse all {$brand->name} smartphones, laptops, and accessories available in Nepal. Compare specs, prices, and read reviews.",
                 'canonical'   => route('brands.show', $brand->slug),
+                'image'       => $brand->logo ? url(\Illuminate\Support\Facades\Storage::url($brand->logo)) : null,
+                'image_alt'   => "{$brand->name} logo",
                 'type'        => 'website',
                 'json_ld'     => [
                     '@context'        => 'https://schema.org',
@@ -60,7 +63,7 @@ class BrandController extends Controller
                         ],
                     ],
                 ],
-            ],
+            ]),
         ]);
     }
 }

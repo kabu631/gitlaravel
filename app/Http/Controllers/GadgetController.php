@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\Seo;
 use App\Models\Category;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
@@ -31,7 +32,8 @@ class GadgetController extends Controller
             default      => $query->latest(),
         };
 
-        $categoryLabel = $request->category ? ucfirst($request->category) . ' ' : '';
+        $categoryModel = $request->category ? Category::where('slug', $request->category)->first() : null;
+        $categoryLabel = $request->category ? ($categoryModel?->name ?? ucfirst($request->category)) . ' ' : '';
 
         return Inertia::render('Gadgets/Index', [
             'gadgets'    => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
@@ -39,12 +41,12 @@ class GadgetController extends Controller
             'brands'     => \App\Models\Brand::withCount('gadgets')->orderByDesc('gadgets_count')->get(),
             'filters'    => $request->only(['category', 'brand', 'search', 'min_price', 'max_price', 'sort']),
 
-            'seo' => [
+            'seo' => Seo::for($categoryModel, [
                 'title'       => "{$categoryLabel}Gadgets & Tech Products in Nepal",
                 'description' => "Browse {$categoryLabel}smartphones, laptops, and accessories with prices, specs, and reviews. Filter by brand, category, and price range.",
                 'canonical'   => route('gadgets.index', $request->only(['category', 'brand'])),
                 'type'        => 'website',
-            ],
+            ]),
         ]);
     }
 
@@ -119,10 +121,11 @@ class GadgetController extends Controller
             'inWishlist'      => $inWishlist,
             'hasCommented'    => $hasCommented,
 
-            'seo' => [
+            'seo' => Seo::for($gadget, [
                 'title'       => "{$gadget->name} — Price in Nepal, Full Specs & Review",
                 'description' => $desc,
                 'image'       => $absImage,
+                'image_alt'   => $gadget->name,
                 'canonical'   => $canonical,
                 'type'        => 'product',
                 'json_ld'     => [
@@ -132,18 +135,32 @@ class GadgetController extends Controller
                             '@type'       => 'Product',
                             'name'        => $gadget->name,
                             'description' => $desc,
-                            'image'       => $absImage ? [$absImage] : [],
+                            'image'       => collect([$absImage])
+                                ->merge($gadget->images->map(fn ($i) => url(Storage::url($i->image))))
+                                ->filter()->unique()->values()->all(),
                             'url'         => $canonical,
+                            'sku'         => $gadget->slug,
+                            'category'    => $gadget->category?->name,
                             'brand'       => ['@type' => 'Brand', 'name' => $gadget->brand?->name ?? ''],
                             'offers'      => [
                                 '@type'         => 'Offer',
                                 'price'         => (string) $gadget->price,
                                 'priceCurrency' => 'NPR',
-                                'availability'  => 'https://schema.org/InStock',
+                                'availability'  => $productVariants->isNotEmpty() && ! $productVariants->contains('is_in_stock', true)
+                                    ? 'https://schema.org/OutOfStock'
+                                    : 'https://schema.org/InStock',
                                 'url'           => $canonical,
                                 'seller'        => ['@type' => 'Organization', 'name' => config('app.name')],
                             ],
-                        ],
+                        ] + ($comments->isNotEmpty() ? [
+                            'aggregateRating' => [
+                                '@type'       => 'AggregateRating',
+                                'ratingValue' => (string) round($comments->avg('rating'), 1),
+                                'reviewCount' => $comments->count(),
+                                'bestRating'  => '10',
+                                'worstRating' => '1',
+                            ],
+                        ] : []),
                         [
                             '@type'           => 'BreadcrumbList',
                             'itemListElement' => [
@@ -154,7 +171,7 @@ class GadgetController extends Controller
                         ],
                     ],
                 ],
-            ],
+            ]),
         ]);
     }
 
