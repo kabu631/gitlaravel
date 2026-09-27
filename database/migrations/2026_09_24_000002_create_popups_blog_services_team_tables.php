@@ -67,7 +67,7 @@ return new class extends Migration {
 
         // Seed with the content that used to be hardcoded in the frontend.
         $now = now();
-        $services = [
+        $sevices = [
             ['⭐', 'In-Depth Tech Reviews', 'Honest, hands-on tests of the latest smartphones, laptops, and wearables. Our expert verdicts help you make confident buying decisions.', 'linear-gradient(135deg, #6c5ce7, #4834d4)'],
             ['↔️', 'Gadget Comparisons', 'Use our powerful comparison engine to put devices head-to-head. Analyze specs, benchmarks, and camera differences instantly.', 'linear-gradient(135deg, #1877F2, #0A66C2)'],
             ['📈', 'Price & Specs Tracking', 'Official Nepal MRP and market rates tracked regularly with historical data to know if you are getting a genuine deal.', 'linear-gradient(135deg, #F56040, #C13584)'],
