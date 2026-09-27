@@ -143,7 +143,8 @@ class Role extends Model
             ]
         );
         $contentModules = SystemModule::whereIn('code', [
-            'dashboard', 'content', 'news_articles', 'page_contents', 'sliders', 'reviews', 'user_comments'
+            'dashboard', 'content', 'news_articles', 'page_contents', 'sliders', 'reviews', 'user_comments',
+            'blog_posts', 'popups', 'services', 'team_members', 'menu_items', 'newsletter_subscribers', 'job_openings',
         ])->pluck('id');
         $contentEditor->grantFullAccess($contentModules);
 

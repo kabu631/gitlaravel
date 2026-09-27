@@ -21,7 +21,10 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        $this->call(PageContentSeeder::class);
+        $this->call([
+            SystemModuleSeeder::class,
+            PageContentSeeder::class,
+        ]);
 
         // ── Categories ────────────────────────────────────────────────────
         $categoryDefs = [
@@ -174,6 +177,10 @@ class DatabaseSeeder extends Seeder
             'is_admin'          => true,
             'email_verified_at' => now(),
         ]);
+
+        if (class_exists(\App\Models\Role::class) && \Illuminate\Support\Facades\Schema::hasTable('roles')) {
+            \App\Models\Role::seedDefaultRoles();
+        }
 
         // ── Gadgets ───────────────────────────────────────────────────────
         if (Gadget::count() === 0) {
