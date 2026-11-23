@@ -83,7 +83,7 @@ function handleImageError() {
                 </header>
 
                 <main class="mt-6">
-                    <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
+                    <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8">
                         <a
                             href="https://laravel.com/docs"
                             id="docs-card"
@@ -105,7 +105,7 @@ function handleImageError() {
                                     class="hidden aspect-video h-full w-full flex-1 rounded-[10px] object-cover object-top drop-shadow-[0px_4px_34px_rgba(0,0,0,0.25)] dark:block"
                                 />
                                 <div
-                                    class="absolute -bottom-16 -left-16 h-40 w-[calc(100%+8rem)] bg-gradient-to-b from-transparent via-white to-white dark:via-zinc-900 dark:to-zinc-900"
+                                    class="absolute -bottom-16 -left-16 h-40 w-[calc(100%+8rem)] bg-surface-2 "
                                 ></div>
                             </div>
 
@@ -138,7 +138,7 @@ function handleImageError() {
 
                                     <div class="pt-3 sm:pt-5 lg:pt-0">
                                         <h2
-                                            class="text-xl font-semibold text-black dark:text-white"
+                                            class="text-xl font-semibold text-fg"
                                         >
                                             Documentation
                                         </h2>
@@ -194,7 +194,7 @@ function handleImageError() {
 
                             <div class="pt-3 sm:pt-5">
                                 <h2
-                                    class="text-xl font-semibold text-black dark:text-white"
+                                    class="text-xl font-semibold text-fg"
                                 >
                                     Laracasts
                                 </h2>
@@ -252,7 +252,7 @@ function handleImageError() {
 
                             <div class="pt-3 sm:pt-5">
                                 <h2
-                                    class="text-xl font-semibold text-black dark:text-white"
+                                    class="text-xl font-semibold text-fg"
                                 >
                                     Laravel News
                                 </h2>
@@ -303,7 +303,7 @@ function handleImageError() {
 
                             <div class="pt-3 sm:pt-5">
                                 <h2
-                                    class="text-xl font-semibold text-black dark:text-white"
+                                    class="text-xl font-semibold text-fg"
                                 >
                                     Vibrant Ecosystem
                                 </h2>
@@ -376,7 +376,7 @@ function handleImageError() {
                 </main>
 
                 <footer
-                    class="py-16 text-center text-sm text-black dark:text-white/70"
+                    class="py-16 text-center text-sm text-fg/70"
                 >
                     Laravel v{{ laravelVersion }} (PHP v{{ phpVersion }})
                 </footer>

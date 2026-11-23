@@ -47,6 +47,13 @@ class ProductVariantsRelationManager extends RelationManager
                 ->nullable()
                 ->placeholder('e.g. 256GB'),
 
+            TextInput::make('edition')
+                ->label('Edition / configuration')
+                ->maxLength(100)
+                ->nullable()
+                ->placeholder('e.g. Disc Edition, RTX 5060, Ultimate Edition')
+                ->helperText('Shown as a selectable option on the product page; picking it switches the price.'),
+
             TextInput::make('size')
                 ->maxLength(50)
                 ->nullable()
@@ -108,6 +115,10 @@ class ProductVariantsRelationManager extends RelationManager
                     ->placeholder('—'),
 
                 TextColumn::make('storage')
+                    ->placeholder('—'),
+
+                TextColumn::make('edition')
+                    ->label('Edition')
                     ->placeholder('—'),
 
                 TextColumn::make('size')

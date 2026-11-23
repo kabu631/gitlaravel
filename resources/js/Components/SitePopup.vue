@@ -1,56 +1,49 @@
 <template>
   <Teleport to="body">
     <Transition
-      enter-active-class="transition duration-300 ease-out"
+      enter-active-class="transition duration-200 ease-out"
       enter-from-class="opacity-0"
-      leave-active-class="transition duration-200 ease-in"
+      leave-active-class="transition duration-150 ease-in"
       leave-to-class="opacity-0"
     >
       <div
         v-if="visible && popup"
-        class="fixed inset-0 z-[120] flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm"
+        class="fixed inset-0 z-[120] flex items-center justify-center bg-navy-950/50 p-4 backdrop-blur-[2px]"
         role="dialog"
         aria-modal="true"
         :aria-label="popup.title"
         @click.self="close"
       >
-        <div class="relative w-full max-w-md overflow-hidden rounded-3xl bg-white dark:bg-[#111827] border border-slate-200 dark:border-slate-800 shadow-2xl">
+        <div class="relative w-full max-w-md overflow-hidden rounded-xl border border-line bg-surface shadow-xl">
           <button
             type="button"
-            class="absolute top-3 right-3 z-10 w-8 h-8 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition cursor-pointer"
-            aria-label="Close popup"
+            class="absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-surface/90 text-fg-muted shadow-sm transition hover:text-fg"
+            aria-label="Close"
             @click="close"
           >
-            <X class="w-4 h-4" />
+            <X class="h-4 w-4" />
           </button>
 
-          <div v-if="popup.image" class="aspect-video bg-slate-100 dark:bg-slate-800">
-            <img :src="getImageUrl(popup.image)" :alt="popup.title" class="w-full h-full object-cover" />
+          <div v-if="popup.image" class="aspect-video bg-surface-2">
+            <img :src="getImageUrl(popup.image)" :alt="popup.title" class="h-full w-full object-cover" />
           </div>
 
-          <div class="p-6 text-center">
-            <span
-              v-if="popup.badge"
-              class="inline-block mb-3 text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 border border-brand-200 dark:border-brand-800"
-            >{{ popup.badge }}</span>
-            <h2 class="font-heading text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-tight">{{ popup.title }}</h2>
-            <p v-if="popup.body" class="mt-2 text-sm text-slate-500 dark:text-slate-400 leading-relaxed whitespace-pre-line">{{ popup.body }}</p>
+          <div class="p-6">
+            <p v-if="popup.badge" class="text-xs font-medium text-accent-text">{{ popup.badge }}</p>
+            <h2 class="mt-1 text-xl font-semibold tracking-tight text-fg">{{ popup.title }}</h2>
+            <p v-if="popup.body" class="mt-2 whitespace-pre-line text-sm leading-6 text-fg-muted">{{ popup.body }}</p>
 
-            <div class="mt-5 flex flex-col sm:flex-row gap-2 justify-center">
+            <div class="mt-6 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+              <button type="button" class="btn btn-ghost" @click="close">Not now</button>
               <component
                 :is="isExternal ? 'a' : Link"
                 v-if="popup.btn_text && popup.btn_url"
                 :href="popup.btn_url"
                 :target="isExternal ? '_blank' : undefined"
                 :rel="isExternal ? 'noopener' : undefined"
-                class="px-6 py-2.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-white text-sm font-bold shadow-sm transition"
+                class="btn btn-primary"
                 @click="close"
               >{{ popup.btn_text }}</component>
-              <button
-                type="button"
-                class="px-6 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm font-semibold hover:bg-slate-200 dark:hover:bg-slate-700 transition cursor-pointer"
-                @click="close"
-              >Maybe later</button>
             </div>
           </div>
         </div>

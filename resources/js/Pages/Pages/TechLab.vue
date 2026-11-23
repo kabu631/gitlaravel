@@ -1,172 +1,66 @@
 <template>
   <AppLayout>
-    <!-- Breadcrumbs -->
-    <nav class="text-xs text-slate-500 dark:text-slate-400 mb-6 flex items-center gap-1.5 flex-wrap">
-      <Link :href="route('home')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Home</Link>
-      <span>/</span>
-      <Link :href="route('guides.index')" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Guides</Link>
-      <span>/</span>
-      <span class="text-slate-800 dark:text-slate-200 font-semibold">Tech Lab &amp; Nepal Ownership Radar</span>
-    </nav>
+    <Breadcrumbs :items="[{ label: 'Tech Lab' }]" />
 
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <!--  HERO BANNER                                                -->
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <div class="rounded-3xl bg-gradient-to-br from-brand-600 via-brand-500 to-amber-500 text-slate-950 p-6 sm:p-10 mb-8 shadow-xl relative overflow-hidden">
-      <!-- Background Abstract Glow -->
-      <div class="absolute -right-10 -bottom-10 w-72 h-72 bg-white/20 rounded-full blur-3xl pointer-events-none" />
+    <header class="mt-4 max-w-2xl">
+      <h1 class="text-3xl font-semibold tracking-tight text-fg sm:text-4xl">Tech Lab</h1>
+      <p class="mt-2 text-fg-muted">
+        Calculators and interactive tests for buying and owning tech in Nepal — from customs duty at the airport to EMI plans and resale value.
+      </p>
+    </header>
 
-      <div class="relative z-10 max-w-3xl">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-slate-950 text-brand-400 mb-4 shadow-sm">
-          <Sparkles class="w-3.5 h-3.5 text-amber-400 animate-pulse" />
-          <span>Interactive Consumer Tech Engine · 7 Testing Labs</span>
-        </div>
+    <div class="mt-10 lg:grid lg:grid-cols-[16rem_minmax(0,1fr)] lg:gap-10">
+      <!-- Tool navigation -->
+      <nav aria-label="Tools" class="-mx-4 mb-8 border-b border-line px-4 lg:mx-0 lg:mb-0 lg:border-0 lg:px-0">
+        <ScrollRow wrapper-class="lg:sticky lg:top-24" as="ul" class="-mb-px flex gap-6 overflow-x-auto scrollbar-none lg:mb-0 lg:flex-col lg:gap-0.5 lg:overflow-visible">
+          <li v-for="tool in tools" :key="tool.id" class="shrink-0">
+            <button
+              type="button"
+              class="group flex w-full items-start gap-3 border-b-2 pb-3 text-left transition-colors lg:rounded-lg lg:border-0 lg:px-3 lg:py-2.5"
+              :class="activeTool === tool.id ? 'border-fg text-fg lg:bg-surface-2' : 'border-transparent text-fg-subtle hover:text-fg lg:hover:bg-surface-2'"
+              :aria-current="activeTool === tool.id ? 'true' : undefined"
+              @click="selectTool(tool.id)"
+            >
+              <component :is="tool.icon" class="mt-0.5 hidden h-[18px] w-[18px] shrink-0 lg:block" :stroke-width="1.75" />
+              <span>
+                <span class="block whitespace-nowrap text-sm font-medium">{{ tool.name }}</span>
+                <span class="mt-0.5 hidden text-xs leading-5 text-fg-subtle lg:block">{{ tool.description }}</span>
+              </span>
+            </button>
+          </li>
+        </ScrollRow>
+      </nav>
 
-        <h1 class="font-heading text-3xl sm:text-5xl font-black tracking-tight text-slate-950 leading-tight mb-4">
-          Git Infosys Tech Lab &amp; Hardware Radar
-        </h1>
+      <section class="min-w-0" aria-live="polite">
+        <NepalTechHub v-if="activeTool === 'mdms'" :frequency-bands="frequencyBands" :service-centers="serviceCenters" />
+        <NepalEmiCalculator v-else-if="activeTool === 'emi'" :price="145000" gadget-name="a Rs 1,45,000 phone" :buy-url="route('gadgets.index')" :bank-partners="bankPartners" />
+        <ResaleValuePredictor v-else-if="activeTool === 'resale'" :product-price="145000" gadget-name="a Rs 1,45,000 phone" brand-name="Flagship" release-date="2024-01-15" />
+        <BlindCameraArena v-else-if="activeTool === 'blind-camera'" :shootouts="shootouts" />
+        <GamingFpsLab v-else-if="activeTool === 'gaming'" gadget-name="Snapdragon 8 Gen 3 / A17 Pro class phone" processor="Snapdragon 8 Gen 3 / Apple A17 Pro" ram="12GB" />
+        <DisplayLab v-else-if="activeTool === 'display'" />
+        <WorkflowSimulator v-else-if="activeTool === 'workflow'" />
+      </section>
+    </div>
 
-        <p class="text-slate-900/90 text-sm sm:text-base leading-relaxed font-medium mb-6">
-          Everything Nepali tech enthusiasts and buyers need in one interactive portal: official Airport MDMS customs calculator, 5G carrier band compatibility radar, crowd blind camera shootouts, mobile gaming thermal stability benchmarks, refresh rate smoothness labs, and commercial bank 0% EMI financing.
+    <aside class="mt-16 flex flex-col gap-4 rounded-xl bg-surface-2 p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+      <div>
+        <h2 class="font-semibold text-fg">Buying in Nepal?</h2>
+        <p class="mt-1 max-w-2xl text-sm leading-6 text-fg-muted">
+          Ask for a sealed unit, a VAT bill and an official brand warranty, and check that the phone is MDMS-registered before you pay.
         </p>
-
-        <!-- Quick Jump Hero Links -->
-        <div class="flex items-center gap-2 flex-wrap text-xs font-extrabold">
-          <button
-            v-for="tool in tools"
-            :key="'hero-' + tool.id"
-            @click="activeTool = tool.id"
-            class="px-3.5 py-1.5 rounded-xl transition cursor-pointer flex items-center gap-1.5"
-            :class="activeTool === tool.id ? 'bg-slate-950 text-white shadow-md' : 'bg-white/40 hover:bg-white/60 text-slate-950'"
-          >
-            <component :is="tool.icon" class="w-3.5 h-3.5" />
-            <span>{{ tool.name }}</span>
-          </button>
-        </div>
       </div>
-    </div>
-
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <!--  STICKY LAB NAVIGATOR                                       -->
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <div class="sticky top-16 z-30 bg-white/90 dark:bg-[#0f172a]/90 backdrop-blur-md py-3 -mx-4 px-4 sm:mx-0 sm:px-0 mb-8 border-b border-slate-200/80 dark:border-slate-800">
-      <div class="flex items-center gap-2 overflow-x-auto scrollbar-none py-1">
-        <button
-          v-for="tool in tools"
-          :key="'nav-' + tool.id"
-          @click="activeTool = tool.id"
-          class="px-3.5 py-2 rounded-xl text-xs font-heading font-extrabold whitespace-nowrap transition-all flex items-center gap-2 cursor-pointer shrink-0"
-          :class="activeTool === tool.id
-            ? 'bg-brand-500 text-slate-950 shadow-md shadow-brand-500/20'
-            : 'bg-slate-100 hover:bg-slate-200/80 dark:bg-slate-800/80 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700/60'"
-        >
-          <component :is="tool.icon" class="w-3.5 h-3.5" />
-          <span>{{ tool.name }}</span>
-          <span
-            v-if="tool.badge"
-            class="px-1.5 py-0.2 rounded text-[9px] uppercase font-black"
-            :class="activeTool === tool.id ? 'bg-slate-950 text-white' : 'bg-brand-500/20 text-brand-600 dark:text-brand-400'"
-          >
-            {{ tool.badge }}
-          </span>
-        </button>
-      </div>
-    </div>
-
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <!--  MAIN TOOL CONTAINERS (7 LABS)                              -->
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <div class="space-y-10 mb-16 min-h-[500px]">
-      <!-- Tool View 1: Nepal Tech Hub (MDMS & 5G) -->
-      <div v-show="activeTool === 'mdms'">
-        <NepalTechHub :frequency-bands="frequencyBands" :service-centers="serviceCenters" />
-      </div>
-
-      <!-- Tool View 2: Blind Camera Arena -->
-      <div v-show="activeTool === 'blind-camera'">
-        <BlindCameraArena :shootouts="shootouts" />
-      </div>
-
-      <!-- Tool View 3: Gaming FPS & Thermals -->
-      <div v-show="activeTool === 'gaming'">
-        <GamingFpsLab
-          gadget-name="Flagship Reference Device (Snapdragon 8 Gen 3 / A17 Pro)"
-          processor="Snapdragon 8 Gen 3 (4nm) / Apple A17 Pro"
-          ram="12GB LPDDR5X RAM"
-        />
-      </div>
-
-      <!-- Tool View 4: Display Refresh Rate & Motion Smoothness -->
-      <div v-show="activeTool === 'display'">
-        <DisplayLab />
-      </div>
-
-      <!-- Tool View 5: Real-World Stress & Thermal Simulator -->
-      <div v-show="activeTool === 'workflow'">
-        <WorkflowSimulator />
-      </div>
-
-      <!-- Tool View 6: Nepal 0% EMI Calculator -->
-      <div v-show="activeTool === 'emi'">
-        <NepalEmiCalculator
-          :price="145000"
-          gadget-name="Flagship Reference Smartphone"
-          :buy-url="route('gadgets.index')"
-          :bank-partners="bankPartners"
-        />
-      </div>
-
-      <!-- Tool View 7: Resale Forecaster -->
-      <div v-show="activeTool === 'resale'">
-        <ResaleValuePredictor
-          :product-price="145000"
-          gadget-name="Flagship Reference Smartphone"
-          brand-name="Flagship"
-          release-date="2024-01-15"
-        />
-      </div>
-    </div>
-
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <!--  BOTTOM CONSUMER ADVISORY                                   -->
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <div class="rounded-3xl border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-[#111827] p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 mb-12 shadow-xs">
-      <div class="flex items-center gap-4">
-        <div class="w-14 h-14 rounded-2xl bg-brand-500 text-slate-950 flex items-center justify-center font-bold text-2xl shrink-0 shadow-md">
-          <ShoppingBag class="w-7 h-7" />
-        </div>
-        <div>
-          <div class="text-[10px] font-black uppercase tracking-wider text-brand-700 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/60 px-2.5 py-0.5 rounded-md inline-block mb-1 border border-brand-200/60 dark:border-brand-800/60">
-            Nepal Consumer Advisory
-          </div>
-          <h3 class="font-heading font-extrabold text-lg text-slate-900 dark:text-white">
-            Looking to Buy Genuine Hardware in Nepal?
-          </h3>
-          <p class="text-xs text-slate-600 dark:text-slate-300 mt-0.5">
-            Git Infosys provides unbiased editorial testing. Always look for sealed-pack units with 13% official VAT bill, MDMS registration, and authorized brand warranty.
-          </p>
-        </div>
-      </div>
-
-      <Link
-        :href="route('gadgets.index')"
-        class="px-6 py-3.5 rounded-2xl bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 font-heading font-extrabold text-xs shadow-md transition flex items-center gap-2 shrink-0 cursor-pointer"
-      >
-        <span>Explore Product Catalog</span>
-        <ArrowRight class="w-4 h-4" />
-      </Link>
-    </div>
+      <Link :href="route('gadgets.index')" class="btn btn-primary shrink-0">Browse devices <ArrowRight class="h-4 w-4" /></Link>
+    </aside>
   </AppLayout>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import AppLayout from '@/Layouts/AppLayout.vue'
+import ScrollRow from '@/Components/ScrollRow.vue'
+import { ref, onMounted } from 'vue'
 import { Link } from '@inertiajs/vue3'
-import {
-  Sparkles, ShoppingBag, ArrowRight, ShieldCheck, Camera,
-  Flame, Activity, Cpu, CreditCard, RotateCcw
-} from 'lucide-vue-next'
+import { ArrowRight, Landmark, Camera, Gamepad2, MonitorSmartphone, Cpu, CreditCard, TrendingDown } from 'lucide-vue-next'
+import AppLayout from '@/Layouts/AppLayout.vue'
+import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import NepalTechHub from '@/Components/NepalTechHub.vue'
 import BlindCameraArena from '@/Components/BlindCameraArena.vue'
 import GamingFpsLab from '@/Components/GamingFpsLab.vue'
@@ -176,21 +70,29 @@ import NepalEmiCalculator from '@/Components/NepalEmiCalculator.vue'
 import ResaleValuePredictor from '@/Components/ResaleValuePredictor.vue'
 
 defineProps({
-  shootouts:      { type: Array, default: () => [] },
-  bankPartners:   { type: Array, default: () => [] },
+  shootouts: { type: Array, default: () => [] },
+  bankPartners: { type: Array, default: () => [] },
   frequencyBands: { type: Array, default: () => [] },
   serviceCenters: { type: Array, default: () => [] },
 })
 
-const activeTool = ref('mdms')
-
 const tools = [
-  { id: 'mdms', name: 'MDMS & 5G Radar', icon: ShieldCheck, badge: 'NTA' },
-  { id: 'blind-camera', name: 'Blind Camera Arena', icon: Camera, badge: 'Shootout' },
-  { id: 'gaming', name: 'Gaming FPS & Thermals', icon: Flame, badge: 'FPS' },
-  { id: 'display', name: 'Display Refresh Lab', icon: Activity, badge: 'Smoothness' },
-  { id: 'workflow', name: 'Real-World Workloads', icon: Cpu, badge: 'Stress' },
-  { id: 'emi', name: '0% EMI Engine', icon: CreditCard, badge: 'Banks' },
-  { id: 'resale', name: 'Resale Forecaster', icon: RotateCcw, badge: 'Used' },
+  { id: 'mdms', name: 'Customs & 5G bands', icon: Landmark, description: 'Airport duty on phones, network bands and service centers.' },
+  { id: 'emi', name: 'EMI calculator', icon: CreditCard, description: 'Monthly installments with Nepali banks.' },
+  { id: 'resale', name: 'Resale value', icon: TrendingDown, description: 'What a device is likely to be worth later.' },
+  { id: 'blind-camera', name: 'Blind camera test', icon: Camera, description: 'Vote on photos without knowing the phone.' },
+  { id: 'gaming', name: 'Gaming performance', icon: Gamepad2, description: 'Frame rates and heat in popular games.' },
+  { id: 'display', name: 'Refresh rate demo', icon: MonitorSmartphone, description: 'See 60, 90 and 120 Hz side by side.' },
+  { id: 'workflow', name: 'Everyday workloads', icon: Cpu, description: 'How a class of device copes with your routine.' },
 ]
+
+const activeTool = ref('mdms')
+function selectTool(id) {
+  activeTool.value = id
+  history.replaceState(history.state, '', `#${id}`)
+}
+onMounted(() => {
+  const hash = window.location.hash.slice(1)
+  if (tools.some(t => t.id === hash)) activeTool.value = hash
+})
 </script>

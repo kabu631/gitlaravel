@@ -1,27 +1,21 @@
 <template>
-  <div class="rounded-3xl p-6 sm:p-8 bg-gradient-to-br from-slate-900 via-[#0b1329] to-slate-950 text-white border border-brand-500/30 shadow-2xl relative overflow-hidden">
+  <div class="dark rounded-xl p-6 sm:p-8 bg-navy-900 text-white border border-accent/30 shadow-2xl relative overflow-hidden">
     <!-- Ambient Glow Effects -->
-    <div class="absolute -top-16 -right-16 w-64 h-64 bg-brand-500/15 rounded-full blur-3xl pointer-events-none" />
-    <div class="absolute -bottom-16 -left-16 w-64 h-64 bg-blue-500/15 rounded-full blur-3xl pointer-events-none" />
 
     <div class="relative z-10">
       <!-- Section Header -->
       <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-brand-500/20 text-brand-300 border border-brand-400/30 mb-2">
-            <Cpu class="w-3.5 h-3.5 text-brand-400 animate-spin" style="animation-duration: 6s" />
-            <span>Nepal First · Real-World Lab Simulator</span>
-          </div>
-          <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
-            "Can It Handle My Routine?" Stress Simulator
+          <h2 class="text-lg font-semibold tracking-tight text-white">
+            Everyday workloads
           </h2>
           <p class="text-xs sm:text-sm text-slate-300 mt-1">
             Don't just read raw spec sheets. Simulate real Nepali weather, loadshedding endurance, and heavy gaming loads.
           </p>
         </div>
 
-        <div class="flex items-center gap-2 self-start md:self-auto bg-white/10 px-3 py-1.5 rounded-2xl border border-white/15 text-xs text-slate-300">
-          <Activity class="w-4 h-4 text-emerald-400 animate-pulse" />
+        <div class="flex items-center gap-2 self-start md:self-auto bg-white/10 px-3 py-1.5 rounded-xl border border-white/15 text-xs text-slate-300">
+          <Activity class="w-4 h-4 text-emerald-400" />
           <span>Real-time Predictive Physics</span>
         </div>
       </div>
@@ -32,7 +26,7 @@
         <div class="lg:col-span-7 space-y-6">
           <!-- 1. Scenario Chips -->
           <div>
-            <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2.5">
+            <label class="block text-xs font-semibold uppercase tracking-wider text-fg-subtle mb-2.5">
               Step 1: Choose Real-World Stress Scenario
             </label>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
@@ -40,25 +34,25 @@
                 v-for="s in scenarios"
                 :key="s.id"
                 @click="activeScenario = s.id"
-                class="p-3 rounded-2xl text-left border transition-all duration-200 cursor-pointer flex items-start gap-3"
+                class="p-3 rounded-xl text-left border transition-all duration-200 cursor-pointer flex items-start gap-3"
                 :class="activeScenario === s.id
-                  ? 'bg-brand-500/20 border-brand-400 text-white shadow-md shadow-brand-500/10'
+                  ? 'bg-accent-soft border-brand-400 text-white shadow-md'
                   : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10 hover:border-white/20'"
               >
                 <div
                   class="w-9 h-9 rounded-xl flex items-center justify-center shrink-0"
-                  :class="activeScenario === s.id ? 'bg-brand-500 text-slate-950 font-bold' : 'bg-white/10 text-slate-300'"
+                  :class="activeScenario === s.id ? 'bg-fg text-canvas font-semibold' : 'bg-white/10 text-slate-300'"
                 >
                   <component :is="s.icon" class="w-4 h-4" />
                 </div>
                 <div class="min-w-0">
-                  <div class="font-heading font-bold text-xs flex items-center gap-1.5">
+                  <div class="font-semibold text-xs flex items-center gap-1.5">
                     <span>{{ s.name }}</span>
-                    <span v-if="s.badge" class="px-1.5 py-0.2 rounded text-[9px] font-extrabold uppercase" :class="s.badgeClass">
+                    <span v-if="s.badge" class="px-1.5 py-0.2 rounded text-2xs font-semibold uppercase" :class="s.badgeClass">
                       {{ s.badge }}
                     </span>
                   </div>
-                  <p class="text-[11px] text-slate-400 mt-0.5 leading-snug line-clamp-2">
+                  <p class="text-2xs text-fg-subtle mt-0.5 leading-snug line-clamp-2">
                     {{ s.desc }}
                   </p>
                 </div>
@@ -68,7 +62,7 @@
 
           <!-- 2. Device Class Selection -->
           <div>
-            <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2.5">
+            <label class="block text-xs font-semibold uppercase tracking-wider text-fg-subtle mb-2.5">
               Step 2: Select Device Hardware Class
             </label>
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
@@ -78,25 +72,25 @@
                 @click="activeDevice = d.id"
                 class="p-2.5 rounded-xl text-center border text-xs font-semibold transition cursor-pointer flex flex-col items-center gap-1"
                 :class="activeDevice === d.id
-                  ? 'bg-brand-500 text-slate-950 font-bold border-brand-400 shadow-md'
+                  ? 'bg-fg text-canvas font-semibold border-fg shadow-md'
                   : 'bg-white/5 text-slate-300 border-white/10 hover:bg-white/10'"
               >
                 <component :is="d.icon" class="w-4 h-4" />
                 <span class="truncate w-full">{{ d.name }}</span>
-                <span class="text-[9px] opacity-75 font-normal">{{ d.example }}</span>
+                <span class="text-2xs opacity-75 font-normal">{{ d.example }}</span>
               </button>
             </div>
           </div>
 
           <!-- 3. Interactive Environment Sliders -->
-          <div class="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-4">
+          <div class="p-4 rounded-xl bg-white/5 border border-white/10 space-y-4">
             <div>
               <div class="flex items-center justify-between text-xs mb-1.5">
                 <span class="font-semibold text-slate-300 flex items-center gap-1.5">
                   <Thermometer class="w-3.5 h-3.5 text-amber-400" />
                   <span>Kathmandu Ambient Temperature:</span>
                 </span>
-                <span class="font-mono font-bold text-amber-400">{{ ambientTemp }}°C ({{ tempLabel }})</span>
+                <span class="font-mono font-semibold text-amber-400">{{ ambientTemp }}°C ({{ tempLabel }})</span>
               </div>
               <input
                 type="range"
@@ -113,7 +107,7 @@
                   <Zap class="w-3.5 h-3.5 text-blue-400" />
                   <span>Daily Usage Strain:</span>
                 </span>
-                <span class="font-mono font-bold text-blue-400">{{ strainLabel }}</span>
+                <span class="font-mono font-semibold text-blue-400">{{ strainLabel }}</span>
               </div>
               <input
                 type="range"
@@ -127,11 +121,11 @@
         </div>
 
         <!-- Right: Real-Time Simulation Result Card (5 cols) -->
-        <div class="lg:col-span-5 flex flex-col justify-between p-6 rounded-2xl bg-white/10 border border-white/15 backdrop-blur-md relative overflow-hidden">
+        <div class="lg:col-span-5 flex flex-col justify-between p-6 rounded-xl bg-white/10 border border-white/15 backdrop-blur-md relative overflow-hidden">
           <div>
             <div class="flex items-center justify-between gap-2 pb-4 border-b border-white/10">
-              <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Simulation Output</span>
-              <span class="inline-flex items-center gap-1 text-[11px] font-extrabold px-2.5 py-0.5 rounded-full" :class="simulationResult.statusBg">
+              <span class="text-xs font-semibold text-fg-subtle uppercase tracking-wider">Simulation Output</span>
+              <span class="inline-flex items-center gap-1 text-2xs font-semibold px-2.5 py-0.5 rounded-full" :class="simulationResult.statusBg">
                 <CheckCircle2 class="w-3.5 h-3.5" />
                 <span>{{ simulationResult.status }}</span>
               </span>
@@ -140,14 +134,14 @@
             <!-- Big Score Dial -->
             <div class="my-6 flex items-center gap-5">
               <div
-                class="w-20 h-20 rounded-2xl flex flex-col items-center justify-center border-2 shrink-0 shadow-lg"
+                class="w-20 h-20 rounded-xl flex flex-col items-center justify-center border-2 shrink-0 shadow-lg"
                 :class="simulationResult.scoreBorder"
               >
-                <span class="text-3xl font-heading font-black leading-none">{{ simulationResult.score }}</span>
-                <span class="text-[10px] uppercase font-bold text-slate-400">/ 100</span>
+                <span class="text-3xl font-semibold leading-none">{{ simulationResult.score }}</span>
+                <span class="text-2xs uppercase font-semibold text-fg-subtle">/ 100</span>
               </div>
               <div>
-                <h4 class="font-heading font-bold text-lg text-white leading-snug">
+                <h4 class="font-semibold text-lg text-white leading-snug">
                   {{ simulationResult.title }}
                 </h4>
                 <p class="text-xs text-slate-300 mt-1 leading-relaxed">
@@ -165,7 +159,7 @@
               >
                 <div class="flex justify-between text-xs font-medium">
                   <span class="text-slate-300">{{ metric.label }}</span>
-                  <span class="font-mono font-bold" :class="metric.valueClass">{{ metric.value }}</span>
+                  <span class="font-mono font-semibold" :class="metric.valueClass">{{ metric.value }}</span>
                 </div>
                 <div class="h-2 w-full bg-white/10 rounded-full overflow-hidden">
                   <div
@@ -181,13 +175,13 @@
           <!-- Bottom Buying Recommendation & Tested Devices Link -->
           <div class="pt-4 border-t border-white/10 space-y-3">
             <div class="flex items-center justify-between text-xs">
-              <span class="text-slate-400">Verified Nepal Pricing &amp; Stock:</span>
-              <span class="font-heading font-extrabold text-brand-300">{{ currentDeviceClass.priceRange }}</span>
+              <span class="text-fg-subtle">Typical price in Nepal:</span>
+              <span class="font-semibold text-brand-300">{{ currentDeviceClass.priceRange }}</span>
             </div>
 
             <Link
               :href="route('gadgets.index')"
-              class="w-full py-2.5 px-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-heading font-extrabold text-xs shadow-lg transition flex items-center justify-center gap-2 cursor-pointer"
+              class="w-full py-2.5 px-4 rounded-xl bg-fg hover:bg-fg/85 text-canvas font-semibold text-xs shadow-lg transition flex items-center justify-center gap-2 cursor-pointer"
             >
               <ShoppingBag class="w-4 h-4" />
               <span>Browse Tested Devices in this Range</span>
@@ -219,7 +213,7 @@ const scenarios = [
     name: 'Summer Gaming & Throttling',
     desc: 'Continuous 60/90fps PUBG Mobile & Genshin in warm Nepali room without AC.',
     badge: 'Popular',
-    badgeClass: 'bg-rose-500 text-white',
+    badgeClass: 'bg-fg text-canvas',
     icon: Flame,
   },
   {
@@ -227,7 +221,7 @@ const scenarios = [
     name: 'Field Loadshedding & Hotspot',
     desc: 'Dual 5G SIM + 4-hour active WiFi hotspot tethering + GPS navigation.',
     badge: 'Nepal Essential',
-    badgeClass: 'bg-amber-500 text-slate-950 font-bold',
+    badgeClass: 'bg-fg text-canvas font-semibold',
     icon: BatteryCharging,
   },
   {
@@ -235,7 +229,7 @@ const scenarios = [
     name: 'Ring Road Midday Sunlight',
     desc: 'Direct outdoor sunlight legibility, HDR burst photography, anti-reflection.',
     badge: 'Outdoor',
-    badgeClass: 'bg-blue-500 text-white',
+    badgeClass: 'bg-fg text-canvas',
     icon: Sun,
   },
   {
@@ -243,7 +237,7 @@ const scenarios = [
     name: '4K CapCut & Video Scrubbing',
     desc: 'Multi-layer 4K 60fps ProRes / H.265 timeline scrubbing and export latency.',
     badge: 'Pro',
-    badgeClass: 'bg-brand-500 text-slate-950 font-bold',
+    badgeClass: 'bg-fg text-canvas font-semibold',
     icon: Video,
   },
 ]
@@ -334,7 +328,7 @@ const simulationResult = computed(() => {
       title: score >= 88 ? 'Flawless Thermal Headroom' : score >= 75 ? 'Minor Throttling Under Heat' : 'Noticeable Thermal Drop',
       summary: `At ${temp}°C ambience, vapor chamber keeps peak internal chassis at ${peakTemp.toFixed(1)}°C with ${fpsStability}% frame rate stability over 45 minutes.`,
       status: score >= 85 ? 'Approved for Nepal Summer' : 'Cooling Pad Advised',
-      statusBg: score >= 85 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-amber-500/20 text-amber-300 border border-amber-500/30',
+      statusBg: score >= 85 ? 'bg-positive-soft text-emerald-400 border border-positive/25' : 'bg-accent-soft text-amber-300 border border-accent/30',
       scoreBorder: score >= 85 ? 'border-emerald-400 text-emerald-400' : 'border-amber-400 text-amber-400',
       metrics: [
         { label: 'Sustained 60FPS Stability', value: `${fpsStability}%`, pct: fpsStability, barColor: 'bg-emerald-500', valueClass: 'text-emerald-400' },
@@ -354,7 +348,7 @@ const simulationResult = computed(() => {
       title: score >= 85 ? 'All-Day Outage Survivor' : 'Standard Hotspot Endurance',
       summary: `Powers continuous 5G tethering + dual SIM active calls for ${activeHours} consecutive hours before requiring a recharge.`,
       status: score >= 80 ? 'Heavy Loadshedding Ready' : 'Powerbank Recommended',
-      statusBg: score >= 80 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-amber-500/20 text-amber-300 border border-amber-500/30',
+      statusBg: score >= 80 ? 'bg-positive-soft text-emerald-400 border border-positive/25' : 'bg-accent-soft text-amber-300 border border-accent/30',
       scoreBorder: score >= 80 ? 'border-emerald-400 text-emerald-400' : 'border-amber-400 text-amber-400',
       metrics: [
         { label: 'Continuous Hotspot Hours', value: `${activeHours} hrs`, pct: Math.min(100, Math.round((activeHours / 14) * 100)), barColor: 'bg-emerald-500', valueClass: 'text-emerald-400' },
@@ -373,7 +367,7 @@ const simulationResult = computed(() => {
       title: score >= 85 ? 'Direct Sunlight Legible' : 'Adequate Outdoor Display',
       summary: `With up to ${dev.nits} peak nits, outdoor readability on Kathmandu streets and direct noon glare remains sharp without squinting.`,
       status: score >= 85 ? 'Noon-Day Glare Resistant' : 'Find Shaded Spot',
-      statusBg: score >= 85 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-amber-500/20 text-amber-300 border border-amber-500/30',
+      statusBg: score >= 85 ? 'bg-positive-soft text-emerald-400 border border-positive/25' : 'bg-accent-soft text-amber-300 border border-accent/30',
       scoreBorder: score >= 85 ? 'border-emerald-400 text-emerald-400' : 'border-amber-400 text-amber-400',
       metrics: [
         { label: 'Peak Outdoor Brightness', value: `${dev.nits} Nits`, pct: Math.min(100, Math.round((dev.nits / 4500) * 100)), barColor: 'bg-amber-500', valueClass: 'text-amber-400' },
@@ -392,7 +386,7 @@ const simulationResult = computed(() => {
     title: score >= 90 ? 'Instant 4K Scrubbing' : 'Capable 1080p / 4K Timeline',
     summary: `Exports a 5-minute 4K 60fps H.265 video in approximately ${renderTime} seconds with zero timeline dropframes.`,
     status: score >= 85 ? 'Creator Recommended' : 'Suitable for Social Vlogs',
-    statusBg: score >= 85 ? 'bg-brand-500/20 text-brand-400 border border-brand-500/30' : 'bg-slate-700/40 text-slate-300 border border-slate-600',
+    statusBg: score >= 85 ? 'bg-accent-soft text-brand-400 border border-accent/30' : 'bg-slate-700/40 text-slate-300 border border-slate-600',
     scoreBorder: score >= 85 ? 'border-brand-400 text-brand-400' : 'border-slate-400 text-slate-300',
     metrics: [
       { label: 'NPU / GPU Render Speed', value: `${renderTime}s export`, pct: Math.min(100, Math.round(((120 - renderTime) / 100) * 100)), barColor: 'bg-brand-500', valueClass: 'text-brand-400' },

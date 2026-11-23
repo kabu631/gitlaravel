@@ -2,52 +2,235 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ==========================================================================
+   Design tokens
+   Channels are stored as "R G B" so Tailwind can apply alpha (`bg-fg/10`).
+   Contrast targets (WCAG AA): fg-subtle and accent-text >= 4.5:1 on surface.
+   ========================================================================== */
 @layer base {
+  :root {
+    --canvas: 255 255 255;
+    --surface: 255 255 255;
+    --surface-2: 245 246 248;
+    --surface-3: 236 238 241;
+    --line: 228 231 235;
+    --line-strong: 207 212 219;
+
+    --fg: 18 25 35;
+    --fg-muted: 71 82 96;
+    --fg-subtle: 100 110 123;
+    --fg-faint: 142 151 163;
+
+    --accent: 255 153 27;          /* logo orange — fills, indicators, focus */
+    --accent-text: 173 85 0;       /* orange that passes AA as text on white */
+    --accent-soft: 255 244 230;
+
+    --positive: 18 122 74;
+    --positive-soft: 232 245 238;
+    --negative: 194 54 43;
+    --negative-soft: 252 235 234;
+
+    --header-h: 4rem;
+    color-scheme: light;
+  }
+
+  .dark {
+    --canvas: 15 21 29;
+    --surface: 21 28 38;
+    --surface-2: 27 36 48;
+    --surface-3: 35 45 59;
+    --line: 37 47 61;
+    --line-strong: 50 62 79;
+
+    --fg: 231 235 240;
+    --fg-muted: 168 178 190;
+    --fg-subtle: 138 149 163;
+    --fg-faint: 95 107 122;
+
+    --accent: 255 159 46;
+    --accent-text: 255 169 64;
+    --accent-soft: 49 43 37;
+
+    --positive: 63 191 127;
+    --positive-soft: 26 48 49;
+    --negative: 240 103 92;
+    --negative-soft: 47 37 44;
+    color-scheme: dark;
+  }
+
   html {
-    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: calc(var(--header-h) + 1rem);
     overflow-x: clip;
   }
+
   body {
+    @apply bg-canvas text-fg antialiased;
     overflow-x: clip;
+    font-optical-sizing: auto;
   }
-  * {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: rgb(var(--accent) / 0.28);
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--accent));
+    outline-offset: 2px;
+  }
+
+  [type='text'], [type='email'], [type='url'], [type='password'], [type='number'],
+  [type='date'], [type='search'], [type='tel'], textarea, select {
+    @apply rounded-lg border-line-strong bg-surface text-sm text-fg placeholder:text-fg-faint;
+  }
+
+  [type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus,
+  [type='number']:focus, [type='date']:focus, [type='search']:focus, [type='tel']:focus,
+  textarea:focus, select:focus {
+    @apply border-fg/40 ring-2 ring-accent/30;
+  }
+
+  [type='checkbox'], [type='radio'] {
+    @apply border-line-strong bg-surface text-fg focus:ring-accent/40 focus:ring-offset-canvas;
+  }
+
+  kbd {
+    @apply inline-flex h-5 min-w-5 items-center justify-center rounded border border-line bg-surface-2 px-1 font-mono text-2xs text-fg-subtle;
   }
 }
 
-/* ===== KEYFRAMES ===== */
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: none; }
-}
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@keyframes slideInLeft {
-  from { opacity: 0; transform: translateX(-24px); }
-  to   { opacity: 1; transform: none; }
-}
-@keyframes slideInRight {
-  from { opacity: 0; transform: translateX(24px); }
-  to   { opacity: 1; transform: none; }
-}
-@keyframes scaleIn {
-  from { opacity: 0; transform: scale(0.96); }
-  to   { opacity: 1; transform: none; }
+/* ==========================================================================
+   Component primitives
+   ========================================================================== */
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Buttons — use on <button>, <a> and Inertia <Link> alike. */
+  .btn {
+    @apply inline-flex h-10 select-none items-center justify-center gap-2 whitespace-nowrap rounded-lg px-4 text-sm font-medium
+           transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent
+           focus-visible:ring-offset-2 focus-visible:ring-offset-canvas disabled:pointer-events-none disabled:opacity-50;
+  }
+  .btn-sm   { @apply h-8 gap-1.5 rounded-md px-3 text-xs; }
+  .btn-lg   { @apply h-12 px-6 text-base; }
+  .btn-icon { @apply w-10 px-0; }
+  .btn-sm.btn-icon { @apply w-8; }
+
+  .btn-primary   { @apply bg-fg text-canvas hover:bg-fg/85; }
+  .btn-accent    { @apply bg-accent text-navy-950 hover:bg-accent/90; }
+  .btn-secondary { @apply border border-line-strong bg-surface text-fg hover:border-fg/30 hover:bg-surface-2; }
+  .btn-ghost     { @apply text-fg-muted hover:bg-surface-2 hover:text-fg; }
+  .btn-danger    { @apply bg-negative text-white hover:bg-negative/90; }
+
+  /* Surfaces */
+  .card {
+    @apply rounded-xl border border-line bg-surface;
+  }
+  .card-link {
+    @apply transition-[border-color,box-shadow] duration-150 hover:border-line-strong hover:shadow-md;
+  }
+
+  /* Forms */
+  .input {
+    @apply block h-10 w-full rounded-lg border border-line-strong bg-surface px-3 text-sm text-fg shadow-xs
+           transition placeholder:text-fg-faint focus:border-fg/40 focus:outline-none focus:ring-2 focus:ring-accent/30;
+  }
+  textarea.input { @apply h-auto py-2.5; }
+  .label { @apply mb-1.5 block text-sm font-medium text-fg; }
+  .field-error { @apply mt-1.5 text-xs text-negative; }
+  .field-hint { @apply mt-1.5 text-xs text-fg-subtle; }
+
+  /* Small text roles */
+  .eyebrow { @apply text-2xs font-semibold uppercase tracking-[0.08em] text-fg-subtle; }
+  .meta    { @apply text-xs text-fg-subtle; }
+  .link    { @apply font-medium text-accent-text underline-offset-4 hover:underline; }
+
+  /* Scroll arrows for horizontal rows (ScrollRow.vue). The fade hides the cut-off item behind the button. */
+  .scroll-row-btn {
+    @apply absolute inset-y-0 z-10 flex w-12 items-center from-canvas via-canvas/90 to-transparent px-1;
+  }
+  .scroll-row-icon {
+    @apply flex h-7 w-7 items-center justify-center rounded-full border border-line bg-surface text-fg shadow-sm
+           transition-colors hover:border-line-strong;
+  }
+
+  /* Chips (filters, tabs) */
+  .chip {
+    @apply inline-flex h-8 shrink-0 cursor-pointer select-none items-center gap-1.5 rounded-full border border-line bg-surface px-3
+           text-xs font-medium text-fg-muted transition-colors hover:border-line-strong hover:text-fg;
+  }
+  .chip-active,
+  .chip[aria-pressed='true'],
+  .chip[aria-current='page'] {
+    @apply border-fg bg-fg text-canvas hover:border-fg hover:text-canvas;
+  }
+
+  /* Badges */
+  .badge          { @apply inline-flex items-center gap-1 whitespace-nowrap rounded-md px-1.5 py-0.5 text-2xs font-medium leading-4; }
+  .badge-neutral  { @apply bg-surface-2 text-fg-muted; }
+  .badge-accent   { @apply bg-accent-soft text-accent-text; }
+  .badge-positive { @apply bg-positive-soft text-positive; }
+  .badge-negative { @apply bg-negative-soft text-negative; }
+  .badge-solid    { @apply bg-fg text-canvas; }
+
+  /* Section heading row used across listing pages */
+  .section-head { @apply mb-6 flex items-end justify-between gap-4; }
+  .section-title { @apply text-xl font-semibold tracking-tight text-fg sm:text-2xl; }
+  .section-desc { @apply mt-1 text-sm text-fg-subtle; }
+
+  /* Media plate behind product photography */
+  .media-plate { @apply overflow-hidden bg-surface-2; }
+
+  /* Legacy class names still referenced by some interactive widgets. */
+  .glass-card { @apply border border-line bg-surface; }
+  .glass-nav  { @apply border-b border-line bg-canvas/95 backdrop-blur; }
+  .card-hover { @apply transition-[border-color,box-shadow] duration-150 hover:border-line-strong hover:shadow-md; }
 }
 
-/* ===== ANIMATION UTILITIES ===== */
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
 @layer utilities {
-  .animate-fade-in-up    { animation: fadeInUp    0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
-  .animate-fade-in       { animation: fadeIn      0.35s ease-out both; }
-  .animate-slide-left    { animation: slideInLeft 0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
-  .animate-slide-right   { animation: slideInRight 0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
-  .animate-scale-in      { animation: scaleIn     0.35s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .tabular { font-variant-numeric: tabular-nums; }
 
-  /* animation-delay stagger utilities (Tailwind's delay-* only sets transition-delay) */
-  .anim-delay-75  { animation-delay:  75ms; }
+  .scrollbar-none { scrollbar-width: none; }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+
+  .scrollbar-thin { scrollbar-width: thin; scrollbar-color: rgb(var(--line-strong)) transparent; }
+  .scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: rgb(var(--line-strong)); border-radius: 9999px; }
+  .scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
+
+  /* Entrance animations — short and small; disabled under reduced motion below. */
+  .animate-fade-in-up  { animation: fadeInUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .animate-fade-in     { animation: fadeIn 0.25s ease-out both; }
+  .animate-slide-left  { animation: fadeIn 0.3s ease-out both; }
+  .animate-slide-right { animation: fadeIn 0.3s ease-out both; }
+  .animate-scale-in    { animation: scaleIn 0.2s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+  /* Scroll reveal (see Composables/useReveal.js): quick fade + 12px rise as content enters view. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.4s ease-out, transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.reveal-in { opacity: 1; transform: none; }
+
+  /* Blinking caret for the search hint once a word has finished typing. */
+  .animate-caret { animation: caretBlink 1s steps(2, start) infinite; }
+
+  .anim-delay-75  { animation-delay: 75ms; }
   .anim-delay-100 { animation-delay: 100ms; }
   .anim-delay-150 { animation-delay: 150ms; }
   .anim-delay-200 { animation-delay: 200ms; }
@@ -58,135 +241,40 @@
   .anim-delay-600 { animation-delay: 600ms; }
 }
 
-/* ===== INERTIA PAGE TRANSITION ===== */
-.page-enter-active {
-  transition: opacity 0.28s ease-out, transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
 }
-.page-leave-active {
-  transition: opacity 0.16s ease-in, transform 0.16s ease-in;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
-.page-enter-from {
-  opacity: 0;
-  transform: translateY(16px);
+@keyframes caretBlink {
+  to { visibility: hidden; }
 }
-.page-leave-to {
-  opacity: 0;
-  transform: translateY(-8px);
-}
-
-/* ===== DESIGN SYSTEM: LIQUID GLASS & TECH AESTHETICS ===== */
-.font-heading {
-  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to   { opacity: 1; transform: none; }
 }
 
-.glass-nav {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  background: rgba(255, 255, 255, 0.94);
-  border-bottom: 1px solid rgba(227, 232, 239, 0.85);
-  box-shadow: 0 4px 20px -2px rgba(35, 47, 63, 0.05), 0 2px 6px -1px rgba(35, 47, 63, 0.03);
-}
-.dark .glass-nav {
-  background: rgba(25, 34, 46, 0.94);
-  border-bottom: 1px solid rgba(49, 68, 91, 0.65);
-  box-shadow: 0 4px 24px -2px rgba(14, 20, 28, 0.6), 0 2px 6px -1px rgba(14, 20, 28, 0.4);
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal { opacity: 1 !important; transform: none !important;
+  }
 }
 
-.glass-card {
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(227, 232, 239, 0.85);
+/* Article tables (price lists in guides, specs in reviews): keep prices on one line and let a wide table
+   scroll inside the article on phones instead of squeezing or overflowing the page. */
+@layer components {
+  .prose table { @apply block w-full overflow-x-auto; }
+  .prose td:last-child, .prose th:last-child { @apply whitespace-nowrap; }
+  @media (max-width: 640px) {
+    .prose table { font-size: 0.875rem; }
+    .prose td, .prose th { padding-left: 0.5rem; padding-right: 0.5rem; }
+  }
 }
-.dark .glass-card {
-  background: rgba(25, 34, 46, 0.82);
-  border: 1px solid rgba(49, 68, 91, 0.55);
-}
-
-.aurora-hero {
-  position: relative;
-  overflow: hidden;
-}
-.aurora-hero::before {
-  content: '';
-  position: absolute;
-  top: -30%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 120%;
-  height: 120%;
-  background: radial-gradient(circle at 50% 30%, rgba(255, 153, 27, 0.18), rgba(35, 47, 63, 0.15) 45%, transparent 70%);
-  pointer-events: none;
-  z-index: 0;
-}
-.dark .aurora-hero::before {
-  background: radial-gradient(circle at 50% 30%, rgba(255, 153, 27, 0.22), rgba(49, 68, 91, 0.30) 50%, transparent 75%);
-}
-
-.card-hover {
-  transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 32px -8px rgba(35, 47, 63, 0.12), 0 0 0 1px rgba(255, 153, 27, 0.35);
-}
-.dark .card-hover:hover {
-  box-shadow: 0 20px 40px -12px rgba(14, 20, 28, 0.7), 0 0 20px -4px rgba(255, 153, 27, 0.25), 0 0 0 1px rgba(255, 153, 27, 0.45);
-}
-
-/* Custom sleek scrollbar */
-.scrollbar-thin::-webkit-scrollbar {
-  height: 6px;
-  width: 6px;
-}
-.scrollbar-thin::-webkit-scrollbar-track {
-  background: transparent;
-}
-.scrollbar-thin::-webkit-scrollbar-thumb {
-  background: rgba(159, 179, 199, 0.35);
-  border-radius: 9999px;
-}
-.dark .scrollbar-thin::-webkit-scrollbar-thumb {
-  background: rgba(49, 68, 91, 0.6);
-}
-.scrollbar-thin::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 153, 27, 0.7);
-}
-
-/* ===== GIT INFOSYS BRAND COLOR HARMONY (Logo Slate-Navy #232F3F & #19222E) ===== */
-.dark .dark\:bg-\[\#111827\] {
-  background-color: #19222e !important;
-}
-.dark .dark\:bg-\[\#111827\]\/90 {
-  background-color: rgba(25, 34, 46, 0.9) !important;
-}
-.dark .dark\:bg-\[\#111827\]\/95 {
-  background-color: rgba(25, 34, 46, 0.95) !important;
-}
-.dark .dark\:via-\[\#111827\] {
-  --tw-gradient-via-position: 50%;
-  --tw-gradient-to: rgb(25 34 46 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #19222e var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-.dark .dark\:to-\[\#111827\] {
-  --tw-gradient-to: #19222e var(--tw-gradient-to-position);
-}
-.dark .dark\:bg-\[\#0b0f19\] {
-  background-color: #0e141c !important;
-}
-.dark .dark\:bg-\[\#0f172a\] {
-  background-color: #19222e !important;
-}
-.dark .dark\:bg-\[\#0f172a\]\/70 {
-  background-color: rgba(25, 34, 46, 0.7) !important;
-}
-.dark .dark\:bg-\[\#0f172a\]\/95 {
-  background-color: rgba(25, 34, 46, 0.95) !important;
-}
-.dark .dark\:border-slate-800 {
-  border-color: #232f3f !important;
-}
-.dark .dark\:border-slate-800\/80 {
-  border-color: rgba(35, 47, 63, 0.8) !important;
-}
-

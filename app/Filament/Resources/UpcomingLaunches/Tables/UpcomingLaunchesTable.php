@@ -17,6 +17,9 @@ class UpcomingLaunchesTable
             ->columns([
                 TextColumn::make('name')
                     ->searchable(),
+                TextColumn::make('gadget.name')
+                    ->label('Product page')
+                    ->placeholder('—'),
                 TextColumn::make('brand')
                     ->searchable(),
                 TextColumn::make('category')

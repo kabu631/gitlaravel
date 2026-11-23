@@ -1,43 +1,46 @@
-﻿<template>
-  <div class="min-h-screen bg-gray-950 flex items-center justify-center px-4">
-    <div class="w-full max-w-md">
-      <div class="text-center mb-8">
-        <Link href="/" class="text-2xl font-extrabold text-brand-400">Git Infosys</Link>
-        <p class="text-gray-500 mt-1 text-sm">Sign in to your account</p>
+<template>
+  <GuestLayout title="Log in" description="Welcome back. Log in to save devices and write reviews.">
+    <Head title="Log in" />
+
+    <p v-if="status" class="mb-5 rounded-lg bg-positive-soft px-3.5 py-2.5 text-sm text-positive">{{ status }}</p>
+
+    <form class="space-y-5" @submit.prevent="submit">
+      <div>
+        <label for="email" class="label">Email</label>
+        <input id="email" v-model="form.email" type="email" autocomplete="username" required autofocus class="input" />
+        <p v-if="form.errors.email" class="field-error">{{ form.errors.email }}</p>
       </div>
-      <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8">
-        <div v-if="status" class="mb-4 text-sm text-emerald-400 bg-emerald-900/30 border border-emerald-700 rounded-lg px-4 py-2">{{ status }}</div>
-        <form @submit.prevent="submit" class="space-y-4">
-          <div>
-            <label class="block text-sm text-gray-400 mb-1">Email</label>
-            <input v-model="form.email" type="email" required autofocus class="inp"/>
-            <p v-if="form.errors.email" class="text-red-400 text-xs mt-1">{{ form.errors.email }}</p>
-          </div>
-          <div>
-            <label class="block text-sm text-gray-400 mb-1">Password</label>
-            <input v-model="form.password" type="password" required class="inp"/>
-            <p v-if="form.errors.password" class="text-red-400 text-xs mt-1">{{ form.errors.password }}</p>
-          </div>
-          <div class="flex items-center justify-between">
-            <label class="flex items-center gap-2 text-sm text-gray-400 cursor-pointer">
-              <input v-model="form.remember" type="checkbox" class="rounded border-gray-600 bg-gray-800 text-brand-500"/>
-              Remember me
-            </label>
-            <Link v-if="canResetPassword" :href="route('password.request')" class="text-sm text-brand-400 hover:underline">Forgot password?</Link>
-          </div>
-          <button type="submit" :disabled="form.processing" class="w-full py-3 bg-brand-500 hover:bg-brand-500 rounded-xl font-semibold transition disabled:opacity-60">
-            {{ form.processing ? 'Signing in...' : 'Sign In' }}
-          </button>
-        </form>
-        <p class="text-center text-sm text-gray-500 mt-6">No account? <Link :href="route('register')" class="text-brand-400 hover:underline">Sign up</Link></p>
+      <div>
+        <div class="mb-1.5 flex items-center justify-between">
+          <label for="password" class="text-sm font-medium text-fg">Password</label>
+          <Link v-if="canResetPassword" :href="route('password.request')" class="text-sm text-fg-subtle hover:text-fg">Forgot password?</Link>
+        </div>
+        <input id="password" v-model="form.password" type="password" autocomplete="current-password" required class="input" />
+        <p v-if="form.errors.password" class="field-error">{{ form.errors.password }}</p>
       </div>
-    </div>
-  </div>
+      <label class="flex items-center gap-2.5 text-sm text-fg-muted">
+        <input v-model="form.remember" type="checkbox" class="h-4 w-4 rounded" />
+        Keep me logged in
+      </label>
+      <button type="submit" class="btn btn-primary w-full" :disabled="form.processing">
+        {{ form.processing ? 'Logging in…' : 'Log in' }}
+      </button>
+    </form>
+
+    <template #after>
+      <p class="mt-6 text-center text-sm text-fg-muted">
+        New to Git Infosys? <Link :href="route('register')" class="font-medium text-fg underline underline-offset-4">Create an account</Link>
+      </p>
+    </template>
+  </GuestLayout>
 </template>
+
 <script setup>
-import { Link, useForm } from '@inertiajs/vue3'
+import { Head, Link, useForm } from '@inertiajs/vue3'
+import GuestLayout from '@/Layouts/GuestLayout.vue'
+
 defineProps({ canResetPassword: Boolean, status: String })
+
 const form = useForm({ email: '', password: '', remember: false })
 const submit = () => form.post(route('login'), { onFinish: () => form.reset('password') })
 </script>
-<style scoped>.inp { @apply w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-200 outline-none focus:border-brand-500 transition; }</style>

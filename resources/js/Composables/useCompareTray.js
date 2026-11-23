@@ -39,11 +39,11 @@ export function useCompareTray() {
     if (!gadget || !gadget.id) return false
     const exists = compareItems.value.some(item => item.id === gadget.id)
     if (exists) {
-      showToast(`"${gadget.name}" is already in Compare Tray`)
+      showToast(`${gadget.name} is already in your comparison`)
       return false
     }
     if (compareItems.value.length >= 4) {
-      showToast('Compare Tray limit reached (Max 4 gadgets)')
+      showToast('You can compare up to 4 devices')
       return false
     }
 
@@ -59,7 +59,7 @@ export function useCompareTray() {
       specs: gadget.specs || {}
     })
     save()
-    showToast(`Added "${gadget.name}" to Compare Tray`)
+    showToast(`Added ${gadget.name} to compare`)
     return true
   }
 
@@ -82,7 +82,7 @@ export function useCompareTray() {
     if (compareItems.value.length >= 1) {
       isGlanceOpen.value = true
     } else {
-      showToast('Add at least 1 gadget to compare')
+      showToast('Add a device to compare first')
     }
   }
 

@@ -1,81 +1,28 @@
 <template>
-  <div>
-    <!-- Floating Bottom Cookie & Session Consent Banner -->
-    <Transition
-      enter-active-class="transition duration-300 ease-out"
-      enter-from-class="opacity-0 translate-y-8"
-      enter-to-class="opacity-100 translate-y-0"
-      leave-active-class="transition duration-200 ease-in"
-      leave-from-class="opacity-100 translate-y-0"
-      leave-to-class="opacity-0 translate-y-8"
+  <Transition
+    enter-active-class="transition duration-200 ease-out"
+    enter-from-class="opacity-0 translate-y-4"
+    leave-active-class="transition duration-150 ease-in"
+    leave-to-class="opacity-0 translate-y-4"
+  >
+    <div
+      v-if="isVisible"
+      class="fixed inset-x-4 bottom-4 z-[60] rounded-xl border border-line bg-surface p-5 shadow-xl sm:left-6 sm:right-auto sm:max-w-sm"
+      role="dialog"
+      aria-labelledby="cookie-banner-title"
+      aria-describedby="cookie-banner-body"
     >
-      <div
-        v-if="isVisible"
-        class="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-md z-50 p-5 rounded-2xl bg-white/95 dark:bg-[#19222e]/95 backdrop-blur-xl border border-slate-200/90 dark:border-[#232f3f]/90 shadow-2xl shadow-slate-900/10 dark:shadow-black/40 text-slate-800 dark:text-slate-100"
-        role="dialog"
-        aria-labelledby="cookie-banner-title"
-      >
-        <div class="flex items-start justify-between gap-3 mb-3">
-          <div class="flex items-center gap-2.5">
-            <div class="w-9 h-9 rounded-xl bg-brand-500/10 dark:bg-brand-500/20 text-brand-600 dark:text-brand-400 flex items-center justify-center shrink-0 border border-brand-500/20">
-              <ShieldCheck class="w-5 h-5 text-brand-500" />
-            </div>
-            <div>
-              <h3 id="cookie-banner-title" class="font-heading font-extrabold text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
-                <span>{{ consentTitle }}</span>
-                <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
-                  Active
-                </span>
-              </h3>
-              <p class="text-[11px] text-slate-400">Privacy &amp; Security Compliance</p>
-            </div>
-          </div>
-          <button
-            type="button"
-            @click="acceptNecessary"
-            class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 rounded-lg transition"
-            title="Dismiss with Necessary Only"
-          >
-            <X class="w-4 h-4" />
-          </button>
-        </div>
-
-        <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
-          {{ consentMessage }}
-          <strong class="text-brand-600 dark:text-brand-400 font-semibold block mt-1">
-            🔒 Security Rule: Active sessions automatically end when your system shuts down or browser closes. You will need to re-login upon system restart.
-          </strong>
-        </p>
-
-        <!-- Action Buttons -->
-        <div class="flex flex-col sm:flex-row items-center gap-2 pt-1">
-          <button
-            type="button"
-            @click="acceptAll"
-            class="w-full sm:flex-1 py-2 px-3.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-slate-950 font-heading font-extrabold text-xs shadow-xs transition flex items-center justify-center gap-1.5 cursor-pointer group hover:shadow-glow-brand"
-          >
-            <CheckCircle class="w-4 h-4 text-slate-950 group-hover:scale-110 transition-transform" />
-            <span>Accept All Cookies</span>
-          </button>
-
-          <button
-            type="button"
-            @click="acceptNecessary"
-            class="w-full sm:w-auto py-2 px-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-xs transition cursor-pointer"
-          >
-            Necessary Only
-          </button>
-
-          <Link
-            :href="route('pages.privacy')"
-            class="text-[11px] font-semibold text-slate-400 hover:text-brand-500 dark:hover:text-brand-400 transition hover:underline px-1 whitespace-nowrap"
-          >
-            Privacy Policy
-          </Link>
-        </div>
+      <h2 id="cookie-banner-title" class="text-sm font-semibold text-fg">{{ consentTitle }}</h2>
+      <p id="cookie-banner-body" class="mt-1.5 text-sm leading-6 text-fg-muted">
+        {{ consentMessage }} Signed-in sessions end when you close your browser.
+        <Link :href="route('pages.privacy')" class="link">Privacy policy</Link>
+      </p>
+      <div class="mt-4 flex gap-2">
+        <button type="button" class="btn btn-primary btn-sm flex-1" @click="acceptAll">Accept all</button>
+        <button type="button" class="btn btn-secondary btn-sm flex-1" @click="acceptNecessary">Necessary only</button>
       </div>
-    </Transition>
-  </div>
+    </div>
+  </Transition>
 </template>
 
 <script setup>
@@ -85,9 +32,9 @@ import { Link, usePage } from '@inertiajs/vue3'
 // Consent copy is editable in the admin panel (Settings -> group "cookie").
 const cookieSettings = computed(() => usePage().props.settings?.cookie || {})
 const consentEnabled = computed(() => cookieSettings.value.cookie_consent_enabled !== false)
-const consentTitle   = computed(() => cookieSettings.value.cookie_consent_title || 'Cookies & Session Protection')
+const consentTitle   = computed(() => cookieSettings.value.cookie_consent_title || 'We use cookies')
 const consentMessage = computed(() => cookieSettings.value.cookie_consent_message || 'We use cookies and active sessions to authenticate accounts, store device comparisons, manage your cart, and secure your session.')
-import { ShieldCheck, CheckCircle, X } from 'lucide-vue-next'
+
 
 const CONSENT_KEY = 'git_infosys_cookie_consent'
 const isVisible = ref(false)

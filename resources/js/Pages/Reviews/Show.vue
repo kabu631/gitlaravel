@@ -1,231 +1,111 @@
 <template>
   <AppLayout>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-      <!-- Main content -->
-      <div class="lg:col-span-2">
-        <!-- Breadcrumb -->
-        <nav class="text-xs text-slate-500 dark:text-slate-400 mb-4 flex items-center gap-2">
-          <Link :href="route('home')" class="hover:text-brand-500">Home</Link> /
-          <Link :href="route('reviews.index')" class="hover:text-brand-500">Reviews</Link> /
-          <span class="text-slate-700 dark:text-slate-300 font-medium truncate max-w-xs">{{ review.title }}</span>
-        </nav>
+    <Breadcrumbs :items="[{ label: 'Reviews', href: route('reviews.index') }, { label: review.gadget?.name || review.title }]" />
 
-        <div class="flex items-center gap-2 mb-2">
-          <span class="text-[11px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 border border-brand-200 dark:border-brand-800">
-            {{ review.gadget?.brand?.name }} &mdash; {{ review.gadget?.name }}
-          </span>
-          <span class="text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded-md border border-emerald-200 dark:border-emerald-800/60 flex items-center gap-1">
-            <Sparkles class="w-3 h-3" /> Lab Tested Review
-          </span>
-        </div>
-
-        <h1 class="font-heading text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-3 tracking-tight">{{ review.title }}</h1>
-        <p class="text-slate-500 dark:text-slate-400 text-xs mb-6 flex items-center gap-2">
-          <span>By <strong class="text-slate-800 dark:text-slate-200">{{ review.author?.name }}</strong></span>
-          <span>&middot;</span>
-          <span>{{ formatDate(review.created_at) }}</span>
-          <span>&middot;</span>
-          <span class="text-slate-400">Independent Lab Benchmark</span>
-        </p>
-
-        <!-- HT Tech Scorecard Banner -->
-        <div class="glass-card bg-white dark:bg-[#111827] rounded-2xl border border-slate-200/80 dark:border-slate-800/80 p-6 flex flex-col sm:flex-row items-center justify-between gap-6 mb-8 shadow-xs">
-          <div class="flex items-center gap-5">
-            <div class="w-20 h-20 rounded-2xl flex flex-col items-center justify-center text-3xl font-black border-4 shrink-0 shadow-xs"
-                 :class="ratingClass(review.rating)">
-              <span>{{ review.rating }}</span>
-              <span class="text-[9px] font-bold tracking-widest uppercase opacity-70 -mt-1">/ 10</span>
-            </div>
-            <div>
-              <div class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400 mb-0.5">
-                <Award class="w-4 h-4 text-brand-500" />
-                <span>Editorial Verdict</span>
+    <div class="mt-8 grid grid-cols-1 gap-12 lg:grid-cols-12">
+      <article class="min-w-0 lg:col-span-8">
+        <header class="max-w-3xl">
+          <p class="text-sm font-medium text-accent-text">Review<template v-if="review.gadget"> · {{ review.gadget.name }}</template></p>
+          <h1 class="mt-3 text-3xl font-semibold leading-tight tracking-tight text-fg sm:text-[2.5rem] sm:leading-[1.15]">{{ review.title }}</h1>
+          <div class="mt-6 flex flex-wrap items-center justify-between gap-4 border-y border-line py-4">
+            <div class="flex items-center gap-3 text-sm">
+              <span class="flex h-9 w-9 items-center justify-center rounded-full bg-surface-3 font-semibold text-fg">{{ (review.author?.name || 'G')[0].toUpperCase() }}</span>
+              <div>
+                <p class="font-medium text-fg">{{ review.author?.name || 'Git Infosys' }}</p>
+                <p class="text-fg-subtle"><time :datetime="review.created_at">{{ formatDate(review.created_at) }}</time></p>
               </div>
-              <p class="font-heading font-bold text-lg text-slate-900 dark:text-white">
-                {{ review.rating >= 8.5 ? 'Editor\'s Choice • Highly Recommended' : review.rating >= 7 ? 'Recommended with Solid Value' : 'Mixed Performer' }}
-              </p>
-              <p class="text-xs text-slate-500 dark:text-slate-400">Tested thoroughly across gaming, battery, camera and day-to-day Nepal conditions.</p>
+            </div>
+            <ShareLinks :title="review.title" />
+          </div>
+        </header>
+
+        <!-- Verdict box -->
+        <section class="card mt-8 max-w-3xl overflow-hidden" aria-label="Verdict">
+          <div class="flex items-start gap-5 p-6 sm:p-7">
+            <ScoreBadge :score="review.rating" size="lg" />
+            <div class="min-w-0">
+              <p class="text-sm font-semibold text-fg">{{ ratingLabel }}</p>
+              <div v-if="review.verdict" class="mt-1 leading-7 text-fg-muted" v-html="review.verdict" />
             </div>
           </div>
-
-          <!-- Quick Price Check & Buy -->
-          <div v-if="review.gadget" class="w-full sm:w-auto shrink-0 flex flex-col sm:items-end">
-            <p class="text-[11px] text-slate-400 mb-1">Official Nepal Price</p>
-            <p class="text-lg font-extrabold text-brand-600 dark:text-brand-400 mb-2">
-              NPR {{ formatPrice(review.gadget.price) }}
-            </p>
-            <a
-              :href="review.gadget.buy_url || route('gadgets.show', review.gadget.slug)"
-              :target="review.gadget.buy_url ? '_blank' : '_self'"
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs shadow-xs transition cursor-pointer"
-            >
-              <ShoppingBag class="w-3.5 h-3.5" />
-              <span>Check Live Price &amp; Deals</span>
-              <ExternalLink v-if="review.gadget.buy_url" class="w-3 h-3 opacity-75" />
-            </a>
+          <div v-if="pros.length || cons.length" class="grid grid-cols-1 border-t border-line sm:grid-cols-2 sm:divide-x sm:divide-line">
+            <div class="p-6 sm:p-7">
+              <p class="text-sm font-semibold text-fg">Good</p>
+              <ul class="mt-3 space-y-2 text-sm text-fg-muted">
+                <li v-for="pro in pros" :key="pro" class="flex gap-2.5"><Plus class="mt-0.5 h-4 w-4 shrink-0 text-positive" />{{ pro }}</li>
+              </ul>
+            </div>
+            <div class="border-t border-line p-6 sm:border-t-0 sm:p-7">
+              <p class="text-sm font-semibold text-fg">Not so good</p>
+              <ul class="mt-3 space-y-2 text-sm text-fg-muted">
+                <li v-for="con in cons" :key="con" class="flex gap-2.5"><Minus class="mt-0.5 h-4 w-4 shrink-0 text-negative" />{{ con }}</li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </section>
 
-        <!-- Content -->
-        <div class="prose prose-slate dark:prose-invert max-w-none mb-8 text-slate-700 dark:text-slate-300 leading-relaxed text-sm sm:text-base"
-             v-html="review.content"/>
-
-        <!-- Pros & Cons -->
-        <div class="grid sm:grid-cols-2 gap-4 mb-8">
-          <div class="bg-white dark:bg-[#111827] rounded-2xl border border-emerald-200 dark:border-emerald-900/50 p-5 shadow-xs">
-            <h3 class="font-heading font-bold text-emerald-600 dark:text-emerald-400 mb-3 flex items-center gap-2 text-sm uppercase tracking-wide">
-              <ThumbsUp class="w-4 h-4 text-emerald-500" />
-              <span>Reasons to Buy</span>
-            </h3>
-            <ul v-if="pros.length" class="space-y-2.5">
-              <li v-for="pro in pros" :key="pro" class="text-slate-700 dark:text-slate-300 text-xs sm:text-sm flex items-start gap-2.5">
-                <CheckCircle2 class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
-                <span>{{ pro }}</span>
-              </li>
-            </ul>
-            <p v-else class="text-slate-400 text-xs">No pros specified.</p>
-          </div>
-          <div class="bg-white dark:bg-[#111827] rounded-2xl border border-rose-200 dark:border-rose-900/50 p-5 shadow-xs">
-            <h3 class="font-heading font-bold text-rose-500 dark:text-rose-400 mb-3 flex items-center gap-2 text-sm uppercase tracking-wide">
-              <ThumbsDown class="w-4 h-4 text-rose-500" />
-              <span>Reasons to Skip</span>
-            </h3>
-            <ul v-if="cons.length" class="space-y-2.5">
-              <li v-for="con in cons" :key="con" class="text-slate-700 dark:text-slate-300 text-xs sm:text-sm flex items-start gap-2.5">
-                <XCircle class="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
-                <span>{{ con }}</span>
-              </li>
-            </ul>
-            <p v-else class="text-slate-400 text-xs">No cons specified.</p>
-          </div>
-        </div>
-
-        <!-- Verdict -->
-        <div v-if="review.verdict" class="bg-white dark:bg-[#111827] rounded-2xl border-l-4 border-brand-500 border-t border-r border-b border-slate-200/80 dark:border-slate-800/80 p-6 mb-8 shadow-xs">
-          <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400 mb-2">
-            <Award class="w-4 h-4 text-brand-500" />
-            <span>Final Verdict</span>
-          </div>
-          <div class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed" v-html="review.verdict"/>
-        </div>
+        <div class="prose prose-lg mt-10 max-w-3xl" v-html="review.content" />
 
         <!-- Reactions -->
-        <div class="bg-white dark:bg-[#111827] rounded-2xl border border-slate-200 dark:border-slate-800 p-5 mb-8 shadow-xs">
-          <p class="font-heading font-bold mb-3 text-slate-800 dark:text-slate-200 text-sm">Did you find this review helpful?</p>
-          <div class="flex flex-wrap gap-3">
-            <button v-for="(emoji, key) in reactions" :key="key"
-                    @click="react(key)"
-                    class="flex flex-col items-center justify-center w-14 h-14 rounded-2xl border-2 transition hover:border-brand-500 hover:scale-105 cursor-pointer"
-                    :class="reacted === key ? 'border-brand-500 bg-brand-50 dark:bg-brand-950/40 text-brand-600' : 'border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60'">
-              <span class="text-2xl leading-none">{{ emoji }}</span>
-              <span class="text-[11px] text-slate-500 dark:text-slate-400 mt-1 font-bold">{{ counts[key] }}</span>
+        <section class="mt-12 max-w-3xl border-t border-line pt-8" aria-labelledby="reactions-heading">
+          <h2 id="reactions-heading" class="text-sm font-semibold text-fg">Was this review helpful?</h2>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <button
+              v-for="(emoji, key) in reactions"
+              :key="key"
+              type="button"
+              class="inline-flex h-9 items-center gap-2 rounded-full border px-3 text-sm transition-colors disabled:cursor-default"
+              :class="reacted === key ? 'border-fg bg-surface-2 text-fg' : 'border-line text-fg-muted hover:border-line-strong'"
+              :disabled="!!reacted"
+              :aria-label="`${key} (${counts[key] || 0})`"
+              @click="react(key)"
+            >
+              <span aria-hidden="true">{{ emoji }}</span>
+              <span class="tabular">{{ counts[key] || 0 }}</span>
             </button>
           </div>
-        </div>
+        </section>
 
-        <!-- Social share -->
-        <div class="border-t border-slate-200 dark:border-slate-800 pt-5">
-          <p class="text-xs font-semibold text-slate-500 dark:text-slate-400 mb-3 flex items-center gap-1.5">
-            <Share2 class="w-3.5 h-3.5 text-slate-400" />
-            <span>Share this review:</span>
-          </p>
-          <div class="flex gap-2 flex-wrap">
-            <a :href="`https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`" target="_blank"
-               class="px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-blue-600 hover:bg-blue-700 text-white transition">Facebook</a>
-            <a :href="`https://twitter.com/intent/tweet?text=${currentUrl}`" target="_blank"
-               class="px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-black text-white transition">X (Twitter)</a>
-            <a :href="`https://wa.me/?text=${currentUrl}`" target="_blank"
-               class="px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-700 text-white transition">WhatsApp</a>
-            <button @click="copyLink"
-                    class="px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 transition cursor-pointer">
-              {{ copied ? 'Copied!' : 'Copy Link' }}
-            </button>
-          </div>
+        <div class="mt-8 flex max-w-3xl flex-wrap items-center justify-between gap-4 border-t border-line pt-6">
+          <Link :href="route('reviews.index')" class="btn btn-ghost -ml-3"><ArrowLeft class="h-4 w-4" /> All reviews</Link>
+          <ShareLinks :title="review.title" />
         </div>
-      </div>
+      </article>
 
-      <!-- Sidebar -->
-      <aside class="space-y-6 lg:sticky lg:top-20 lg:self-start min-w-0 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto lg:scrollbar-thin lg:pr-1">
-        <!-- Product card with retailer referral -->
-        <div class="bg-white dark:bg-[#111827] rounded-2xl border border-slate-200/80 dark:border-slate-800/80 overflow-hidden shadow-xs">
-          <div v-if="review.gadget?.image" class="aspect-square bg-slate-50 dark:bg-slate-800/60 p-6 flex items-center justify-center border-b border-slate-100 dark:border-slate-800">
-            <img :src="'/storage/' + review.gadget.image" :alt="review.gadget.name"
-                 class="w-full h-full object-contain max-h-48"/>
+      <aside class="space-y-10 lg:col-span-4">
+        <div v-if="review.gadget" class="card overflow-hidden lg:sticky lg:top-24">
+          <div class="media-plate aspect-[4/3]">
+            <img v-if="review.gadget.image" :src="getImageUrl(review.gadget.image)" :alt="review.gadget.name" class="h-full w-full object-cover" />
           </div>
           <div class="p-5">
-            <p class="text-brand-600 dark:text-brand-400 text-[11px] font-bold uppercase tracking-wider mb-1">{{ review.gadget?.brand?.name }}</p>
-            <h3 class="font-heading font-bold text-base text-slate-900 dark:text-white mb-2">{{ review.gadget?.name }}</h3>
-            <p v-if="review.gadget?.price" class="text-xl font-black text-brand-600 dark:text-brand-400 mb-4">
-              NPR {{ formatPrice(review.gadget.price) }}
-            </p>
-
-            <div class="space-y-2">
-              <a
-                :href="review.gadget?.buy_url || route('gadgets.show', review.gadget?.slug)"
-                :target="review.gadget?.buy_url ? '_blank' : '_self'"
-                rel="noopener noreferrer"
-                class="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold text-xs shadow-xs transition cursor-pointer"
-              >
-                <ShoppingBag class="w-4 h-4" />
-                <span>{{ review.gadget?.buy_url ? 'Check Retailer & Buy Now' : 'Check Nepal Market Price' }}</span>
-                <ExternalLink v-if="review.gadget?.buy_url" class="w-3.5 h-3.5 opacity-75" />
+            <p class="text-xs text-fg-subtle">{{ review.gadget.brand?.name }}</p>
+            <h2 class="font-semibold text-fg">{{ review.gadget.name }}</h2>
+            <p v-if="review.gadget.price" class="tabular mt-3 text-2xl font-semibold tracking-tight text-fg">{{ formatPrice(review.gadget.price) }}</p>
+            <p class="text-xs text-fg-subtle">Current price in Nepal</p>
+            <div class="mt-5 space-y-2">
+              <a v-if="buyUrl" :href="buyUrl" target="_blank" rel="noopener sponsored" class="btn btn-primary w-full">
+                Check price at retailer <ArrowUpRight class="h-4 w-4" />
               </a>
+              <Link :href="route('gadgets.show', review.gadget.slug)" class="btn btn-secondary w-full">Full specifications</Link>
+            </div>
+          </div>
+        </div>
 
-              <Link :href="route('gadgets.show', review.gadget?.slug)"
-                    class="block text-center py-2 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-brand-500 text-slate-700 dark:text-slate-300 hover:text-brand-500 dark:hover:text-brand-400 transition text-xs font-semibold">
-                View Full Technical Specs
+        <div v-if="trending.length">
+          <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Popular devices</h2>
+          <ul class="divide-y divide-line">
+            <li v-for="g in trending" :key="g.id">
+              <Link :href="route('gadgets.show', g.slug)" class="group flex items-center gap-3 py-3">
+                <div class="media-plate h-12 w-12 shrink-0 rounded-md">
+                  <img v-if="g.image" :src="getImageUrl(g.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                </div>
+                <div class="min-w-0">
+                  <p class="truncate text-sm font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ g.name }}</p>
+                  <p v-if="g.price" class="tabular text-xs text-fg-subtle">{{ formatPrice(g.price) }}</p>
+                </div>
               </Link>
-            </div>
-
-            <!-- Retail partner badge -->
-            <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 text-[11px] text-slate-500 dark:text-slate-400 space-y-1">
-              <div class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 font-semibold">
-                <CheckCircle2 class="w-3.5 h-3.5" />
-                <span>Official Warranty in Nepal</span>
-              </div>
-              <p class="text-[10px] text-slate-400">100% authentic sealed-pack units with 13% official VAT bill.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- HT Tech Editorial Disclosure Notice -->
-        <div class="bg-gradient-to-br from-slate-50 to-amber-50/30 dark:from-slate-900/60 dark:to-amber-950/20 rounded-2xl border border-amber-200/50 dark:border-amber-900/30 p-4 shadow-xs">
-          <div class="flex items-center gap-2 text-amber-700 dark:text-amber-400 font-bold text-xs uppercase tracking-wider mb-1.5">
-            <Sparkles class="w-3.5 h-3.5 text-amber-500" />
-            <span>Editorial Independence Policy</span>
-          </div>
-          <p class="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed">
-            Git Infosys operates strictly as an independent tech evaluation lab. We do not sell hardware directly, preventing commercial bias. We connect users to authorized distributors and certified outlets across Nepal.
-          </p>
-        </div>
-
-        <!-- Trending products -->
-        <div v-if="trending.length" class="bg-white dark:bg-[#111827] rounded-2xl border border-slate-200/80 dark:border-slate-800/80 p-5 shadow-xs">
-          <h3 class="font-heading font-bold text-xs uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-4 border-b border-slate-100 dark:border-slate-800 pb-2">
-            Trending Tech Gadgets
-          </h3>
-          <div class="space-y-3">
-            <Link v-for="g in trending" :key="g.id"
-                  :href="route('gadgets.show', g.slug)"
-                  class="flex items-center gap-3 group">
-              <div class="w-12 h-12 rounded-xl bg-slate-50 dark:bg-slate-800 flex items-center justify-center shrink-0 border border-slate-100 dark:border-slate-700/60">
-                <img v-if="g.image" :src="'/storage/' + g.image" :alt="g.name"
-                     class="w-10 h-10 object-contain"/>
-                <Smartphone v-else class="w-5 h-5 text-slate-400" />
-              </div>
-              <div class="min-w-0">
-                <p class="text-xs font-semibold text-slate-800 dark:text-slate-200 group-hover:text-brand-500 transition truncate">
-                  {{ g.brand?.name }} {{ g.name }}
-                </p>
-                <p v-if="g.price" class="text-[11px] font-bold text-brand-600 dark:text-brand-400">NPR {{ formatPrice(g.price) }}</p>
-              </div>
-            </Link>
-          </div>
-          <Link :href="route('compare.index')"
-                class="mt-4 block text-center py-2 rounded-xl bg-slate-100 hover:bg-brand-500 hover:text-white dark:bg-slate-800 dark:hover:bg-brand-500 text-slate-700 dark:text-slate-200 text-xs font-semibold transition">
-            Compare Devices Head-to-Head
-          </Link>
+            </li>
+          </ul>
         </div>
       </aside>
     </div>
@@ -233,39 +113,43 @@
 </template>
 
 <script setup>
-import AppLayout from '@/Layouts/AppLayout.vue'
+import { ref, reactive, computed } from 'vue'
 import { Link } from '@inertiajs/vue3'
-import { ref, reactive } from 'vue'
 import axios from 'axios'
-import {
-  ThumbsUp,
-  ThumbsDown,
-  CheckCircle2,
-  XCircle,
-  Award,
-  Sparkles,
-  ShoppingBag,
-  ExternalLink,
-  Smartphone,
-  Share2,
-} from 'lucide-vue-next'
+import { ArrowLeft, ArrowUpRight, Plus, Minus } from 'lucide-vue-next'
+import AppLayout from '@/Layouts/AppLayout.vue'
+import Breadcrumbs from '@/Components/Breadcrumbs.vue'
+import ScoreBadge from '@/Components/ScoreBadge.vue'
+import ShareLinks from '@/Components/ShareLinks.vue'
+import { getImageUrl } from '@/Composables/useImageUrl.js'
+import { formatDate, formatPrice } from '@/Composables/useFormat.js'
 
-const props = defineProps({ review: Object, pros: Array, cons: Array, trending: Array })
+const props = defineProps({
+  review: { type: Object, required: true },
+  pros: { type: Array, default: () => [] },
+  cons: { type: Array, default: () => [] },
+  trending: { type: Array, default: () => [] },
+})
 
-const reactions = { happy: '😄', sad: '😢', love: '❤️', like: '👍', funny: '😂', angry: '😡' }
+const buyUrl = computed(() => props.review.gadget?.buy_url || props.review.gadget?.referral_buy_url || null)
+const ratingLabel = computed(() => {
+  const r = Number(props.review.rating)
+  if (r >= 8) return 'Editor’s Choice'
+  if (r >= 7) return 'Recommended'
+  if (r >= 5) return 'Worth considering'
+  return 'Not recommended'
+})
+
+const reactions = { like: '👍', love: '❤️', happy: '😄', funny: '😂', sad: '😢', angry: '😡' }
 const reacted = ref(null)
-const copied  = ref(false)
-
 const counts = reactive({
   happy: props.review.react_happy,
-  sad:   props.review.react_sad,
-  love:  props.review.react_love,
-  like:  props.review.react_like,
+  sad: props.review.react_sad,
+  love: props.review.react_love,
+  like: props.review.react_like,
   funny: props.review.react_funny,
   angry: props.review.react_angry,
 })
-
-const currentUrl = typeof window !== 'undefined' ? window.location.href : ''
 
 async function react(key) {
   if (reacted.value) return
@@ -275,26 +159,6 @@ async function react(key) {
       counts[key] = data.new_count
       reacted.value = key
     }
-  } catch {}
-}
-
-function copyLink() {
-  navigator.clipboard.writeText(currentUrl)
-  copied.value = true
-  setTimeout(() => (copied.value = false), 2000)
-}
-
-function ratingClass(r) {
-  if (r >= 8) return 'border-emerald-500 text-emerald-600 dark:text-emerald-400 bg-emerald-50/50 dark:bg-emerald-950/20'
-  if (r >= 5) return 'border-amber-500 text-amber-600 dark:text-amber-400 bg-amber-50/50 dark:bg-amber-950/20'
-  return 'border-rose-500 text-rose-500 dark:text-rose-400 bg-rose-50/50 dark:bg-rose-950/20'
-}
-
-function formatDate(d) {
-  return new Date(d).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-}
-
-function formatPrice(n) {
-  return Number(n).toLocaleString('en-IN')
+  } catch { /* ignore — reaction is non-essential */ }
 }
 </script>

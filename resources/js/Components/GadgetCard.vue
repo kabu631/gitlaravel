@@ -1,229 +1,99 @@
 <template>
-  <div class="group relative flex flex-col bg-white dark:bg-[#111827] rounded-2xl overflow-hidden border border-slate-200/80 dark:border-slate-800/80 card-hover glass-card transition-all duration-300">
-    <!-- Top Badges Overlay -->
-    <div class="absolute top-3 left-3 right-3 z-10 flex items-center justify-between pointer-events-none">
-      <div class="flex items-center gap-1.5 flex-wrap">
-        <!-- Discount Badge -->
-        <span
-          v-if="discountPercent"
-          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-black bg-rose-600 text-white shadow-xs"
-        >
-          <span>-{{ discountPercent }}%</span>
-        </span>
-
-        <!-- Trending Badge -->
-        <span
-          v-else-if="gadget.is_trending"
-          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-black bg-amber-500 text-slate-950 shadow-xs"
-        >
-          <Flame class="w-3 h-3" />
-          <span>HOT</span>
-        </span>
-
-        <!-- Featured Badge -->
-        <span
-          v-else-if="gadget.is_featured"
-          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-black bg-brand-500 text-white shadow-xs"
-        >
-          <Sparkles class="w-3 h-3" />
-          <span>FEATURED</span>
-        </span>
+  <article class="group relative flex flex-col">
+    <div class="media-plate relative aspect-[4/3] rounded-xl">
+      <img
+        v-if="gadget.image"
+        :src="getImageUrl(gadget.image)"
+        :alt="gadget.name"
+        loading="lazy"
+        decoding="async"
+        class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+      />
+      <div v-else class="flex h-full w-full items-center justify-center text-fg-faint">
+        <component :is="categoryIcon(gadget.category?.slug)" class="h-10 w-10" :stroke-width="1.25" />
       </div>
 
-      <!-- Quick Category Pill -->
-      <span
-        v-if="gadget.category?.name"
-        class="text-[10px] font-bold text-slate-600 dark:text-slate-300 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md px-2.5 py-0.5 rounded-lg border border-slate-200/80 dark:border-slate-700/80 shadow-2xs"
+      <span v-if="statusBadge" class="badge absolute left-3 top-3 z-10" :class="gadget.release_status === 'discontinued' ? 'bg-surface text-fg-muted' : 'bg-accent text-navy-950'">{{ statusBadge }}</span>
+      <span v-else-if="discount" class="badge badge-solid absolute left-3 top-3 z-10">−{{ discount }}%</span>
+
+      <button
+        type="button"
+        class="absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full border shadow-xs transition-colors"
+        :class="inTray
+          ? 'border-fg bg-fg text-canvas'
+          : 'border-line bg-surface/90 text-fg-muted opacity-100 backdrop-blur hover:text-fg sm:opacity-0 sm:group-hover:opacity-100 sm:focus-visible:opacity-100'"
+        :aria-pressed="inTray"
+        :aria-label="inTray ? `Remove ${gadget.name} from comparison` : `Add ${gadget.name} to comparison`"
+        :title="inTray ? 'Remove from compare' : 'Add to compare'"
+        @click.prevent.stop="toggleCompare"
       >
-        {{ gadget.category.name }}
-      </span>
+        <Check v-if="inTray" class="h-4 w-4" />
+        <Scale v-else class="h-4 w-4" :stroke-width="1.75" />
+      </button>
     </div>
 
-    <!-- Product Image Showcase Plate -->
-    <Link
-      :href="route('gadgets.show', gadget.slug)"
-      class="relative aspect-[4/3] sm:aspect-square bg-gradient-to-b from-slate-50/90 via-slate-50/50 to-white dark:from-slate-800/30 dark:via-[#111827]/40 dark:to-[#111827] overflow-hidden flex items-center justify-center p-3 sm:p-4 cursor-pointer"
-    >
-      <!-- Museum Framed Plate: Keeps all photo formats looking clean & crisp -->
-      <div class="w-full h-full rounded-2xl bg-white dark:bg-[#0c1220] p-3 border border-slate-100 dark:border-slate-800/60 shadow-2xs flex items-center justify-center relative overflow-hidden transition-all duration-300 group-hover:border-brand-300 dark:group-hover:border-brand-800/60 group-hover:shadow-md">
-        <img
-          v-if="gadget.image"
-          :src="getImageUrl(gadget.image)"
-          :alt="gadget.name"
-          loading="lazy"
-          class="w-full h-full object-contain group-hover:scale-106 transition-transform duration-500 ease-out"
-        />
-        <div v-else class="w-16 h-16 rounded-2xl bg-slate-100 dark:bg-slate-800/80 text-slate-300 dark:text-slate-600 flex items-center justify-center">
-          <Cpu class="w-8 h-8" />
-        </div>
-      </div>
-    </Link>
-
-    <!-- Product Info Details -->
-    <div class="p-4 sm:p-5 flex flex-col flex-1 justify-between bg-white dark:bg-[#111827]">
-      <div>
-        <!-- Brand & Verified Tag -->
-        <div class="flex items-center justify-between gap-2 mb-1">
-          <p class="text-[11px] font-extrabold text-slate-400 dark:text-slate-500 tracking-wider uppercase">
-            {{ gadget.brand?.name || 'Tech' }}
-          </p>
-          <span class="text-[10px] font-bold text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
-            <ShieldCheck class="w-3 h-3" />
-            <span>Verified Spec</span>
-          </span>
-        </div>
-
-        <!-- Product Name -->
-        <Link
-          :href="route('gadgets.show', gadget.slug)"
-          class="block font-heading font-bold text-slate-900 dark:text-white text-sm sm:text-base line-clamp-1 leading-snug hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
-          :title="gadget.name"
-        >
+    <div class="flex flex-1 flex-col pt-3">
+      <p class="text-xs text-fg-subtle">
+        {{ gadget.brand?.name || 'Unbranded' }}<template v-if="showCategory && gadget.category?.name"> · {{ gadget.category.name }}</template>
+      </p>
+      <h3 class="mt-0.5 line-clamp-2 text-[0.9375rem] font-medium leading-snug text-fg">
+        <Link :href="route('gadgets.show', gadget.slug)" class="after:absolute after:inset-0 after:content-['']">
           {{ gadget.name }}
         </Link>
+      </h3>
+      <p v-if="highlight" class="mt-1 line-clamp-1 text-xs text-fg-subtle">{{ highlight }}</p>
 
-        <!-- Micro Feature Summary / Description (plain-text teaser: the field is
-             rich text, so tags are stripped rather than shown raw or rendered) -->
-        <p v-if="plainDescription" class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1.5 leading-relaxed">
-          {{ plainDescription }}
-        </p>
-
-        <!-- Algorithmic Smart Badges (Auto-Generated from Real Hardware Specs).
-             Desktop/tablet only -- on a 2-up mobile card there isn't room for
-             these without crowding the price and action buttons. -->
-        <div v-if="algorithmicBadges.length" class="hidden sm:flex gap-1.5 flex-wrap mt-2 mb-1">
-          <span
-            v-for="b in algorithmicBadges"
-            :key="b.label"
-            class="text-[9px] font-extrabold px-1.5 py-0.5 rounded border leading-none"
-            :class="b.class"
-          >
-            {{ b.label }}
-          </span>
-        </div>
-      </div>
-
-      <!-- Price & Savings Section -->
-      <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80">
-        <div class="flex items-baseline justify-between gap-1 flex-wrap mb-1">
-          <div>
-            <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Nepal Price</div>
-            <div class="font-heading font-extrabold text-slate-900 dark:text-white text-base sm:text-lg flex items-baseline gap-1">
-              <span class="text-xs font-bold text-brand-600 dark:text-brand-400">Rs.</span>
-              <span>{{ formatPrice(gadget.price) }}</span>
-            </div>
-          </div>
-
-          <!-- Strikethrough Old Price & Exact Rupee Savings -->
-          <div v-if="gadget.old_price && gadget.old_price > gadget.price" class="text-right">
-            <span class="text-xs text-slate-400 dark:text-slate-500 line-through block leading-tight">
-              Rs. {{ formatPrice(gadget.old_price) }}
-            </span>
-            <span class="inline-block text-[10px] font-extrabold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.5 rounded-md mt-0.5">
-              Save Rs. {{ formatPrice(gadget.old_price - gadget.price) }}
-            </span>
-          </div>
-        </div>
-
-        <!-- Action Row: on a narrow 2-up mobile card, 3 side-by-side controls
-             have no room to breathe (labels wrap/clip); stack Full Specs on
-             its own row there, then Price + Compare share the row below.
-             From `sm` up (single/triple column desktop grid) it's one row,
-             unchanged from before. -->
-        <div class="mt-3.5 grid grid-cols-[1fr_auto] gap-2 sm:flex sm:items-center">
-          <!-- Full Specs Link -->
-          <Link
-            :href="route('gadgets.show', gadget.slug)"
-            class="col-span-2 sm:col-auto sm:flex-1 py-2 px-3 rounded-xl text-center text-xs font-bold bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 transition duration-150 flex items-center justify-center gap-1 cursor-pointer"
-          >
-            <span>Full Specs</span>
-            <ArrowRight class="w-3.5 h-3.5 text-slate-400" />
-          </Link>
-
-          <!-- Outbound Buy / Check Price link -->
-          <a
-            :href="gadget.buy_url || gadget.referral_buy_url || route('gadgets.show', gadget.slug)"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="py-2 px-3.5 rounded-xl text-xs font-heading font-extrabold bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 transition flex items-center justify-center gap-1.5 shadow-xs cursor-pointer sm:shrink-0"
-            title="Check Price &amp; Availability in Nepal"
-          >
-            <ShoppingBag class="w-3.5 h-3.5 shrink-0" />
-            <span>Price</span>
-            <ExternalLink class="w-3 h-3 opacity-80 shrink-0" />
-          </a>
-
-          <!-- Compare Button shortcut with Universal Compare Tray connection -->
-          <button
-            type="button"
-            @click.stop="toggleCompare"
-            class="p-2 rounded-xl border transition cursor-pointer shrink-0"
-            :class="isInTray
-              ? 'bg-brand-500 text-slate-950 border-brand-400 shadow-xs'
-              : 'border-slate-200 dark:border-slate-700 text-slate-400 hover:text-brand-500 dark:hover:text-brand-400 hover:border-brand-300 dark:hover:border-brand-700'"
-            :title="isInTray ? 'In Compare Tray (Click to remove)' : 'Add to Compare Tray'"
-          >
-            <Scale class="w-3.5 h-3.5" />
-          </button>
-        </div>
-
-        <!-- Verified Specs Trustline Footer -->
-        <div class="mt-2.5 pt-2 border-t border-slate-100 dark:border-slate-800/60 flex items-center justify-between text-[10px] text-slate-400">
-          <span>Official Nepal Warranty</span>
-          <span class="font-semibold text-slate-600 dark:text-slate-300">Verified Specs</span>
-        </div>
+      <div class="mt-auto flex items-baseline gap-2 pt-2.5">
+        <template v-if="Number(gadget.price) > 0">
+          <span v-if="gadget.price_is_estimate" class="text-xs text-fg-subtle">Expected</span>
+          <span class="tabular text-[0.9375rem] font-semibold text-fg">{{ formatPrice(gadget.price) }}</span>
+        </template>
+        <!-- No Nepal price: show the labelled launch price rather than a dash. -->
+        <span v-else class="text-xs text-fg-subtle">{{ launchNote }}</span>
+        <span v-if="discount && !statusBadge" class="tabular text-xs text-fg-faint line-through">{{ formatPrice(gadget.old_price) }}</span>
       </div>
     </div>
-  </div>
+  </article>
 </template>
 
 <script setup>
 import { computed } from 'vue'
 import { Link } from '@inertiajs/vue3'
+import { Scale, Check } from 'lucide-vue-next'
 import { useCompareTray } from '@/Composables/useCompareTray.js'
-import { getAlgorithmicBadges } from '@/Composables/useGadgetAlgorithm.js'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
-import {
-  Cpu, ArrowRight, Flame, Sparkles, Scale, ExternalLink,
-  ShieldCheck, ShoppingBag
-} from 'lucide-vue-next'
+import { categoryIcon } from '@/Composables/useCategories.js'
+import { formatPrice, discountPercent } from '@/Composables/useFormat.js'
 
 const props = defineProps({
-  gadget: {
-    type: Object,
-    required: true,
-  }
+  gadget: { type: Object, required: true },
+  showCategory: { type: Boolean, default: false },
 })
 
 const { add, remove, has } = useCompareTray()
-
-const isInTray = computed(() => has(props.gadget?.id))
-
+const inTray = computed(() => has(props.gadget?.id))
 function toggleCompare() {
-  if (isInTray.value) {
-    remove(props.gadget.id)
-  } else {
-    add(props.gadget)
-  }
+  inTray.value ? remove(props.gadget.id) : add(props.gadget)
 }
 
-const formatPrice = (p) => {
-  if (!p) return '0'
-  return Number(p).toLocaleString('en-NP')
-}
-
-const discountPercent = computed(() => {
-  if (!props.gadget.old_price || props.gadget.old_price <= props.gadget.price) return null
-  return Math.round(((props.gadget.old_price - props.gadget.price) / props.gadget.old_price) * 100)
+const discount = computed(() => discountPercent(props.gadget.price, props.gadget.old_price))
+const statusBadge = computed(() => ({ upcoming: 'Coming soon', announced: 'Announced', discontinued: 'Discontinued' }[props.gadget.release_status] || null))
+const launchNote = computed(() => {
+  const note = (props.gadget.launch_price_note || '').split('·').pop().trim()
+  if (!note) return 'No Nepal price yet'
+  return props.gadget.release_status === 'discontinued' ? `Launched at ${note.replace(/ launch price.*/, '')}` : 'No official Nepal price'
 })
 
-const algorithmicBadges = computed(() => getAlgorithmicBadges(props.gadget, 2))
-
-// `description` comes from a rich-text editor in the admin, so it contains
-// HTML (e.g. "<p>...</p>"). This card shows a short plain-text teaser, so
-// strip the markup rather than rendering it raw or as HTML in a tight space.
-const plainDescription = computed(() => {
-  if (!props.gadget?.description) return ''
-  return props.gadget.description.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
+// A short factual line built from structured specs when they exist.
+const highlight = computed(() => {
+  const s = props.gadget.specs
+  if (!s || typeof s !== 'object') return ''
+  const real = v => typeof v === 'string' && v.trim() && !/^n\/?a$/i.test(v.trim())
+  const first = v => (real(v) ? v.split(',')[0].trim() : '')
+  const memory = [s.ram, s.storage].filter(real).join(' / ')
+  return [first(s.processor), memory, !memory ? first(s.battery) : '']
+    .filter(Boolean)
+    .slice(0, 2)
+    .join(' · ')
 })
 </script>

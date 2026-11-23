@@ -22,11 +22,18 @@ class GadgetController extends Controller
             ->when($request->brand,    fn($q) => $q->whereHas('brand',    fn($q2) => $q2->where('slug', $request->brand)))
             ->when($request->search,   fn($q) => $q->where('name', 'like', "%{$request->search}%"))
             ->when($request->min_price, fn($q) => $q->where('price', '>=', $request->min_price))
-            ->when($request->max_price, fn($q) => $q->where('price', '<=', $request->max_price));
+            // Devices without a Nepal price are stored as 0; they don't belong in a price range.
+            ->when($request->max_price, fn($q) => $q->where('price', '<=', $request->max_price)->where('price', '>', 0))
+            ->when(
+                in_array($request->status, array_keys(Gadget::STATUSES), true),
+                fn($q) => $q->where('release_status', $request->status),
+                // The default view is what you can buy or expect to buy; old models live under "Discontinued".
+                fn($q) => $q->where('release_status', '!=', Gadget::STATUS_DISCONTINUED),
+            );
 
         $sort = $request->sort ?? 'latest';
         match ($sort) {
-            'price_asc'  => $query->orderBy('price'),
+            'price_asc'  => $query->orderByRaw('price = 0')->orderBy('price'), // "no Nepal price" goes last
             'price_desc' => $query->orderByDesc('price'),
             'popular'    => $query->orderByDesc('views_count'),
             default      => $query->latest(),
@@ -35,11 +42,21 @@ class GadgetController extends Controller
         $categoryModel = $request->category ? Category::where('slug', $request->category)->first() : null;
         $categoryLabel = $request->category ? ($categoryModel?->name ?? ucfirst($request->category)) . ' ' : '';
 
+        // Facet counts follow the other active filters, so "Lenovo 199" never shows under Smartwatch.
+        $status = in_array($request->status, array_keys(Gadget::STATUSES), true) ? $request->status : null;
+        $inStatus = fn ($q) => $status
+            ? $q->where('release_status', $status)
+            : $q->where('release_status', '!=', Gadget::STATUS_DISCONTINUED);
+        $inCategory = fn ($q) => $q->when($request->category, fn ($q) => $q->whereHas('category', fn ($q2) => $q2->where('slug', $request->category)));
+        $inBrand = fn ($q) => $q->when($request->brand, fn ($q) => $q->whereHas('brand', fn ($q2) => $q2->where('slug', $request->brand)));
+
         return Inertia::render('Gadgets/Index', [
             'gadgets'    => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
-            'categories' => Category::withCount('gadgets')->get(),
-            'brands'     => \App\Models\Brand::withCount('gadgets')->orderByDesc('gadgets_count')->get(),
-            'filters'    => $request->only(['category', 'brand', 'search', 'min_price', 'max_price', 'sort']),
+            'categories' => Category::withCount(['gadgets' => fn ($q) => $inBrand($inStatus($q))])->get(),
+            'brands'     => \App\Models\Brand::withCount(['gadgets' => fn ($q) => $inCategory($inStatus($q))])
+                ->having('gadgets_count', '>', 0)->orderByDesc('gadgets_count')->get(),
+            'filters'    => $request->only(['category', 'brand', 'search', 'min_price', 'max_price', 'sort', 'status']),
+            'statusCounts' => $inBrand($inCategory(Gadget::query()))->selectRaw('release_status, count(*) as total')->groupBy('release_status')->pluck('total', 'release_status'),
 
             'seo' => Seo::for($categoryModel, [
                 'title'       => "{$categoryLabel}Gadgets & Tech Products in Nepal",
@@ -83,9 +100,12 @@ class GadgetController extends Controller
             : false;
 
         $appUrl     = config('app.url');
+        $isUpcoming = $gadget->release_status === Gadget::STATUS_UPCOMING;
         $desc       = $gadget->description
-            ? Str::limit(strip_tags($gadget->description), 155)
-            : "Buy {$gadget->name} in Nepal. Check full specs, user reviews, and the best price at " . config('app.name') . '.';
+            ? Str::limit(trim(preg_replace('/\s+/', ' ', strip_tags($gadget->description))), 155)
+            : ($isUpcoming
+                ? "{$gadget->name}: expected launch date, expected price in Nepal and rumoured specifications."
+                : "{$gadget->name} price in Nepal, full specifications, variants and our verdict.");
         $imageUrl   = $gadget->image ? Storage::url($gadget->image) : null;
         $absImage   = $imageUrl ? (Str::startsWith($imageUrl, 'http') ? $imageUrl : $appUrl . $imageUrl) : null;
         $canonical  = route('gadgets.show', $gadget->slug);
@@ -97,6 +117,7 @@ class GadgetController extends Controller
             'color'            => $v->color,
             'ram'              => $v->ram,
             'storage'          => $v->storage,
+            'edition'          => $v->edition,
             'size'             => $v->size,
             'price'            => (float) $v->price,
             'discounted_price' => $v->discounted_price ? (float) $v->discounted_price : null,
@@ -106,6 +127,12 @@ class GadgetController extends Controller
             'variant_image'    => $v->variant_image,
             'is_active'        => $v->is_active,
         ]);
+
+        $titleSuffix = match ($gadget->release_status) {
+            Gadget::STATUS_UPCOMING  => 'Expected Price in Nepal, Launch Date & Specs',
+            Gadget::STATUS_ANNOUNCED => 'Expected Price in Nepal & Full Specs',
+            default                  => 'Price in Nepal, Specs & Review',
+        };
 
         return Inertia::render('Gadgets/Show', [
             'gadget'          => $gadget,
@@ -122,57 +149,123 @@ class GadgetController extends Controller
             'hasCommented'    => $hasCommented,
 
             'seo' => Seo::for($gadget, [
-                'title'       => "{$gadget->name} — Price in Nepal, Full Specs & Review",
+                'title'       => "{$gadget->name} {$titleSuffix}",
                 'description' => $desc,
                 'image'       => $absImage,
-                'image_alt'   => $gadget->name,
+                'image_alt'   => $gadget->images->first()?->alt_text ?: $gadget->name,
                 'canonical'   => $canonical,
                 'type'        => 'product',
-                'json_ld'     => [
-                    '@context' => 'https://schema.org',
-                    '@graph'   => [
-                        [
-                            '@type'       => 'Product',
-                            'name'        => $gadget->name,
-                            'description' => $desc,
-                            'image'       => collect([$absImage])
-                                ->merge($gadget->images->map(fn ($i) => url(Storage::url($i->image))))
-                                ->filter()->unique()->values()->all(),
-                            'url'         => $canonical,
-                            'sku'         => $gadget->slug,
-                            'category'    => $gadget->category?->name,
-                            'brand'       => ['@type' => 'Brand', 'name' => $gadget->brand?->name ?? ''],
-                            'offers'      => [
-                                '@type'         => 'Offer',
-                                'price'         => (string) $gadget->price,
-                                'priceCurrency' => 'NPR',
-                                'availability'  => $productVariants->isNotEmpty() && ! $productVariants->contains('is_in_stock', true)
-                                    ? 'https://schema.org/OutOfStock'
-                                    : 'https://schema.org/InStock',
-                                'url'           => $canonical,
-                                'seller'        => ['@type' => 'Organization', 'name' => config('app.name')],
-                            ],
-                        ] + ($comments->isNotEmpty() ? [
-                            'aggregateRating' => [
-                                '@type'       => 'AggregateRating',
-                                'ratingValue' => (string) round($comments->avg('rating'), 1),
-                                'reviewCount' => $comments->count(),
-                                'bestRating'  => '10',
-                                'worstRating' => '1',
-                            ],
-                        ] : []),
-                        [
-                            '@type'           => 'BreadcrumbList',
-                            'itemListElement' => [
-                                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',     'item' => $appUrl],
-                                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Products', 'item' => route('gadgets.index')],
-                                ['@type' => 'ListItem', 'position' => 3, 'name' => $gadget->name, 'item' => $canonical],
-                            ],
-                        ],
-                    ],
-                ],
+                'json_ld'     => $this->buildProductJsonLd($gadget, $productVariants, $review, $comments, $desc, $absImage, $canonical),
             ]),
         ]);
+    }
+
+    /**
+     * Product page structured data: Product (+ AggregateOffer, editorial Review, AggregateRating),
+     * BreadcrumbList and, when the product has FAQs, FAQPage.
+     *
+     * Git Infosys does not sell devices, so offers carry no seller. Upcoming devices and estimated
+     * prices get no offer at all, because an Offer asserts the item can be bought at that price.
+     */
+    private function buildProductJsonLd(Gadget $gadget, $productVariants, $review, $comments, string $desc, ?string $absImage, string $canonical): array
+    {
+        $appUrl = config('app.url');
+
+        $product = [
+            '@type'       => 'Product',
+            '@id'         => $canonical . '#product',
+            'name'        => $gadget->name,
+            'description' => $desc,
+            'image'       => collect([$absImage])
+                ->merge($gadget->images->map(fn ($i) => url(Storage::url($i->image))))
+                ->filter()->unique()->values()->all(),
+            'url'         => $canonical,
+            'sku'         => $gadget->slug,
+            'category'    => $gadget->category?->name,
+            'brand'       => ['@type' => 'Brand', 'name' => $gadget->brand?->name ?? ''],
+        ];
+
+        $prices = $productVariants->pluck('effective_price')->filter()->values();
+        if ($prices->isEmpty() && (float) $gadget->price > 0) {
+            $prices = collect([(float) $gadget->price]);
+        }
+
+        $sellable = $gadget->release_status === Gadget::STATUS_AVAILABLE && ! $gadget->price_is_estimate && $prices->isNotEmpty();
+        if ($sellable) {
+            $availability = $productVariants->isNotEmpty() && ! $productVariants->contains('is_in_stock', true)
+                && $productVariants->sum('stock_quantity') > 0
+                ? 'https://schema.org/OutOfStock'
+                : 'https://schema.org/InStock';
+
+            $product['offers'] = $prices->count() > 1
+                ? [
+                    '@type'         => 'AggregateOffer',
+                    'priceCurrency' => 'NPR',
+                    'lowPrice'      => (string) $prices->min(),
+                    'highPrice'     => (string) $prices->max(),
+                    'offerCount'    => $prices->count(),
+                    'availability'  => $availability,
+                    'url'           => $canonical,
+                ]
+                : [
+                    '@type'         => 'Offer',
+                    'priceCurrency' => 'NPR',
+                    'price'         => (string) $prices->first(),
+                    'availability'  => $availability,
+                    'url'           => $canonical,
+                ];
+        }
+
+        if ($review) {
+            $product['review'] = [
+                '@type'         => 'Review',
+                'name'          => $review->title,
+                'url'           => route('reviews.show', $review->slug),
+                'datePublished' => $review->created_at?->toAtomString(),
+                'author'        => ['@type' => 'Organization', 'name' => config('app.name'), 'url' => $appUrl],
+                'reviewRating'  => [
+                    '@type'       => 'Rating',
+                    'ratingValue' => (string) $review->rating,
+                    'bestRating'  => '10',
+                    'worstRating' => '1',
+                ],
+                'reviewBody'    => Str::limit(strip_tags((string) ($review->verdict ?: $review->content)), 300),
+            ];
+        }
+
+        if ($comments->isNotEmpty()) {
+            $product['aggregateRating'] = [
+                '@type'       => 'AggregateRating',
+                'ratingValue' => (string) round($comments->avg('rating'), 1),
+                'reviewCount' => $comments->count(),
+                'bestRating'  => '10',
+                'worstRating' => '1',
+            ];
+        }
+
+        $crumbs = [['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $appUrl]];
+        $crumbs[] = ['@type' => 'ListItem', 'position' => 2, 'name' => 'Devices', 'item' => route('gadgets.index')];
+        if ($gadget->category) {
+            $crumbs[] = ['@type' => 'ListItem', 'position' => 3, 'name' => $gadget->category->name, 'item' => route('gadgets.index', ['category' => $gadget->category->slug])];
+        }
+        $crumbs[] = ['@type' => 'ListItem', 'position' => count($crumbs) + 1, 'name' => $gadget->name, 'item' => $canonical];
+
+        $graph = [$product, ['@type' => 'BreadcrumbList', 'itemListElement' => $crumbs]];
+
+        $faqs = collect($gadget->faqs ?? [])->filter(fn ($f) => filled($f['question'] ?? null) && filled($f['answer'] ?? null));
+        if ($faqs->isNotEmpty()) {
+            $graph[] = [
+                '@type'      => 'FAQPage',
+                '@id'        => $canonical . '#faq',
+                'mainEntity' => $faqs->map(fn ($f) => [
+                    '@type'          => 'Question',
+                    'name'           => $f['question'],
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => $f['answer']],
+                ])->values()->all(),
+            ];
+        }
+
+        return ['@context' => 'https://schema.org', '@graph' => $graph];
     }
 
     public function addComment(Request $request, string $slug)

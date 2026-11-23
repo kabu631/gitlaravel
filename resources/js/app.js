@@ -1,3 +1,4 @@
+import '@fontsource-variable/mona-sans';
 import '../css/app.css';
 import './bootstrap';
 
@@ -22,8 +23,8 @@ createInertiaApp({
             .mount(el);
     },
     progress: {
-        color: '#7c3aed',
-        delay: 250,
+        color: '#FF991B',
+        delay: 200,
         showSpinner: false,
         includeCSS: true,
     },

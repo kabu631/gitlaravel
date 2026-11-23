@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class UpcomingLaunch extends Model
 {
     protected $fillable = [
-        'name', 'brand', 'category', 'expected_date', 'est_price',
+        'gadget_id', 'name', 'brand', 'category', 'expected_date', 'est_price',
         'confidence', 'badge', 'highlight', 'tag_color', 'is_active', 'sort_order',
     ];
 
@@ -25,6 +25,11 @@ class UpcomingLaunch extends Model
             $m->confidence ??= 85;
             $m->tag_color ??= 'emerald';
         });
+    }
+
+    public function gadget(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(Gadget::class);
     }
 
     public function scopeActive($query)

@@ -1,155 +1,107 @@
 ﻿<template>
-  <StaticPageLayout current-page="contact"
-    :sidebar-products="sidebarProducts"
-    :sidebar-news="sidebarNews"
-    :email="email" :phone="phone" :hours="hours">
+  <StaticPageLayout current-page="contact" :sidebar-products="sidebarProducts" :sidebar-news="sidebarNews" :email="email" :phone="phone" :hours="hours">
+    <header class="max-w-2xl">
+      <p class="text-sm font-medium text-accent-text">Contact</p>
+      <h1 class="mt-2 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">{{ heading }}</h1>
+      <p v-if="subheading" class="mt-3 text-lg leading-8 text-fg-muted">{{ subheading }}</p>
+    </header>
 
-    <div class="max-w-4xl">
-      <!-- Hero -->
-      <div class="text-center mb-10">
-        <span class="inline-block bg-brand-500 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Contact Us</span>
-        <h1 class="text-4xl font-extrabold mb-3">{{ heading }}</h1>
-        <p class="text-gray-500 dark:text-gray-400 max-w-md mx-auto">{{ subheading }}</p>
-      </div>
-
-      <!-- Flash success -->
-      <div v-if="$page.props.flash?.success"
-           class="bg-emerald-50 dark:bg-emerald-900/50 border border-emerald-300 dark:border-emerald-700 text-emerald-700 dark:text-emerald-300 px-5 py-4 rounded-2xl mb-6 text-sm">
-        {{ $page.props.flash.success }}
-      </div>
-
-      <div class="grid lg:grid-cols-5 gap-6">
-        <!-- Contact info -->
-        <div class="lg:col-span-2 space-y-4">
-          <div class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6">
-            <h4 class="font-bold mb-5 text-lg">Contact Information</h4>
-            <div class="space-y-4">
-              <div v-if="address" class="flex items-start gap-3">
-                <div class="w-10 h-10 rounded-xl bg-brand-100 dark:bg-navy-900/40 flex items-center justify-center text-brand-500 dark:text-brand-400 shrink-0">📍</div>
-                <div>
-                  <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Address</p>
-                  <p class="text-gray-700 dark:text-gray-300 text-sm mt-0.5">{{ address }}</p>
-                </div>
-              </div>
-              <div v-if="email" class="flex items-start gap-3">
-                <div class="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">📧</div>
-                <div>
-                  <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Email</p>
-                  <a :href="`mailto:${email}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-brand-500 dark:hover:text-brand-400 transition">{{ email }}</a>
-                </div>
-              </div>
-              <div v-if="phone" class="flex items-start gap-3">
-                <div class="w-10 h-10 rounded-xl bg-yellow-100 dark:bg-yellow-900/40 flex items-center justify-center text-yellow-600 dark:text-yellow-400 shrink-0">📞</div>
-                <div>
-                  <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Phone</p>
-                  <a :href="`tel:${phone.replace(/\s/g, '')}`" class="text-gray-700 dark:text-gray-300 text-sm mt-0.5 hover:text-brand-500 dark:hover:text-brand-400 transition">{{ phone }}</a>
-                </div>
-              </div>
-              <div v-if="hours" class="flex items-start gap-3">
-                <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 shrink-0">🕐</div>
-                <div>
-                  <p class="text-xs text-gray-400 uppercase font-semibold tracking-wide">Working Hours</p>
-                  <p class="text-gray-700 dark:text-gray-300 text-sm mt-0.5">{{ hours }}</p>
-                </div>
-              </div>
-            </div>
+    <div class="mt-10 grid grid-cols-1 gap-10 xl:grid-cols-5">
+      <form class="card space-y-5 p-6 sm:p-8 xl:col-span-3" novalidate @submit.prevent="submit">
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+          <div>
+            <label for="c-name" class="label">Name</label>
+            <input id="c-name" v-model="form.name" type="text" autocomplete="name" required class="input" />
+            <p v-if="form.errors.name" class="field-error">{{ form.errors.name }}</p>
+          </div>
+          <div>
+            <label for="c-email" class="label">Email</label>
+            <input id="c-email" v-model="form.email" type="email" autocomplete="email" required class="input" />
+            <p v-if="form.errors.email" class="field-error">{{ form.errors.email }}</p>
+          </div>
+          <div>
+            <label for="c-phone" class="label">Phone</label>
+            <input id="c-phone" v-model="form.phone" type="tel" autocomplete="tel" required class="input" />
+            <p v-if="form.errors.phone" class="field-error">{{ form.errors.phone }}</p>
+          </div>
+          <div>
+            <label for="c-subject" class="label">Subject</label>
+            <input id="c-subject" v-model="form.subject" type="text" required class="input" />
+            <p v-if="form.errors.subject" class="field-error">{{ form.errors.subject }}</p>
           </div>
         </div>
-
-        <!-- Contact form -->
-        <div class="lg:col-span-3">
-          <div class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6">
-            <h4 class="font-bold mb-5 text-lg">Send Us a Message</h4>
-            <form @submit.prevent="submit" class="space-y-4">
-              <div class="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Full Name</label>
-                  <input v-model="form.name" type="text" placeholder="Your name" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400"/>
-                  <p v-if="errors.name" class="text-red-500 text-xs mt-1">{{ errors.name }}</p>
-                </div>
-                <div>
-                  <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Email Address</label>
-                  <input v-model="form.email" type="email" placeholder="your@email.com" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400"/>
-                  <p v-if="errors.email" class="text-red-500 text-xs mt-1">{{ errors.email }}</p>
-                </div>
-              </div>
-              <div class="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Contact Number</label>
-                  <input v-model="form.phone" type="tel" placeholder="Your phone number" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400"/>
-                  <p v-if="errors.phone" class="text-red-500 text-xs mt-1">{{ errors.phone }}</p>
-                </div>
-                <div>
-                  <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Subject</label>
-                  <input v-model="form.subject" type="text" placeholder="What's this about?" required
-                         class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400"/>
-                  <p v-if="errors.subject" class="text-red-500 text-xs mt-1">{{ errors.subject }}</p>
-                </div>
-              </div>
-              <div>
-                <label class="text-xs text-gray-400 uppercase font-semibold mb-1.5 block">Message</label>
-                <textarea v-model="form.message" rows="6" placeholder="Write your message here..." required
-                          class="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2.5 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-brand-500 placeholder-gray-400 resize-none"/>
-                <p v-if="errors.message" class="text-red-500 text-xs mt-1">{{ errors.message }}</p>
-              </div>
-              <button type="submit" :disabled="processing"
-                      class="w-full py-3 rounded-xl bg-brand-500 hover:bg-brand-500 disabled:opacity-60 text-white font-semibold transition">
-                {{ processing ? 'Sending...' : 'Send Message' }}
-              </button>
-            </form>
-          </div>
+        <div>
+          <label for="c-message" class="label">Message</label>
+          <textarea id="c-message" v-model="form.message" rows="6" required class="input resize-y" />
+          <p v-if="form.errors.message" class="field-error">{{ form.errors.message }}</p>
         </div>
-      </div>
+        <div class="flex flex-col-reverse gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <p class="text-xs text-fg-subtle">We only use your details to reply to this message.</p>
+          <button type="submit" class="btn btn-primary" :disabled="form.processing">
+            {{ form.processing ? 'Sending…' : 'Send message' }}
+          </button>
+        </div>
+      </form>
 
-      <!-- Map -->
-      <div class="mt-6 rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-        <h4 class="font-bold text-sm px-5 pt-4 pb-3 text-gray-700 dark:text-gray-300">📍 Find Us on the Map</h4>
-        <iframe
-          :src="mapEmbed"
-          width="100%"
-          height="320"
-          style="border:0; display:block;"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          title="Our Location"
-        />
+      <div class="space-y-8 xl:col-span-2">
+        <dl class="divide-y divide-line border-y border-line text-sm">
+          <div v-if="address" class="flex gap-4 py-4">
+            <dt class="w-20 shrink-0 text-fg-subtle">Address</dt>
+            <dd class="text-fg">{{ address }}</dd>
+          </div>
+          <div v-if="email" class="flex gap-4 py-4">
+            <dt class="w-20 shrink-0 text-fg-subtle">Email</dt>
+            <dd><a :href="`mailto:${email}`" class="break-all text-fg hover:underline hover:underline-offset-4">{{ email }}</a></dd>
+          </div>
+          <div v-if="phone" class="flex gap-4 py-4">
+            <dt class="w-20 shrink-0 text-fg-subtle">Phone</dt>
+            <dd><a :href="`tel:${phone.replace(/\s/g, '')}`" class="text-fg hover:underline hover:underline-offset-4">{{ phone }}</a></dd>
+          </div>
+          <div v-if="hours" class="flex gap-4 py-4">
+            <dt class="w-20 shrink-0 text-fg-subtle">Hours</dt>
+            <dd class="text-fg">{{ hours }}</dd>
+          </div>
+        </dl>
+
+        <div v-if="mapEmbed" class="overflow-hidden rounded-xl border border-line">
+          <iframe
+            :src="mapEmbed"
+            class="block h-72 w-full"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Map showing our office"
+          />
+        </div>
       </div>
     </div>
-
   </StaticPageLayout>
 </template>
 
 <script setup>
-import StaticPageLayout from '@/Layouts/StaticPageLayout.vue'
-import { useForm } from '@inertiajs/vue3'
 import { onMounted } from 'vue'
+import { useForm } from '@inertiajs/vue3'
+import StaticPageLayout from '@/Layouts/StaticPageLayout.vue'
 
-const props = defineProps({
-  heading:         { type: String, default: 'Get In Touch' },
-  subheading:      { type: String, default: "Have a question or feedback? We'd love to hear from you." },
-  address:         { type: String, default: '' },
-  email:           { type: String, default: '' },
-  phone:           { type: String, default: '' },
-  hours:           { type: String, default: '' },
-  mapEmbed:        { type: String, default: null },
-  sidebarProducts: { type: Array,  default: () => [] },
-  sidebarNews:     { type: Array,  default: () => [] },
+defineProps({
+  heading: { type: String, default: 'Get in touch' },
+  subheading: { type: String, default: 'Questions, corrections or partnership ideas — we’d like to hear from you.' },
+  address: { type: String, default: '' },
+  email: { type: String, default: '' },
+  phone: { type: String, default: '' },
+  hours: { type: String, default: '' },
+  mapEmbed: { type: String, default: null },
+  sidebarProducts: { type: Array, default: () => [] },
+  sidebarNews: { type: Array, default: () => [] },
 })
 
-const form       = useForm({ name: '', email: '', phone: '', subject: '', message: '' })
-const errors     = form.errors
-const processing = form.processing
+const form = useForm({ name: '', email: '', phone: '', subject: '', message: '' })
 
 onMounted(() => {
-  if (typeof window !== 'undefined') {
-    const params = new URLSearchParams(window.location.search)
-    if (params.has('subject')) form.subject = params.get('subject')
-    if (params.has('message')) form.message = params.get('message')
-  }
+  const params = new URLSearchParams(window.location.search)
+  if (params.has('subject')) form.subject = params.get('subject')
+  if (params.has('message')) form.message = params.get('message')
 })
 
 function submit() {

@@ -1,70 +1,44 @@
 <template>
-  <StaticPageLayout current-page="services"
-    :sidebar-products="sidebarProducts"
-    :sidebar-news="sidebarNews">
+  <StaticPageLayout current-page="services" :sidebar-products="sidebarProducts" :sidebar-news="sidebarNews">
+    <header class="max-w-2xl">
+      <p class="text-sm font-medium text-accent-text">Services</p>
+      <h1 class="mt-2 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">{{ heading }}</h1>
+      <p v-if="subheading" class="mt-3 text-lg leading-8 text-fg-muted">{{ subheading }}</p>
+    </header>
 
-    <div class="max-w-4xl">
-      <!-- Hero -->
-      <div class="text-center mb-12">
-        <span class="inline-block bg-brand-500 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">What We Do</span>
-        <h1 class="text-4xl font-extrabold mb-3">{{ heading }}</h1>
-        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">{{ subheading }}</p>
+    <ol v-if="services.length" class="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-xl border border-line bg-line sm:grid-cols-2">
+      <li v-for="(svc, i) in services" :key="svc.id" class="bg-surface p-6 sm:p-7">
+        <p class="tabular text-sm font-medium text-fg-faint">{{ String(i + 1).padStart(2, '0') }}</p>
+        <h2 class="mt-3 text-lg font-semibold text-fg">{{ svc.title }}</h2>
+        <p class="mt-2 text-sm leading-6 text-fg-muted">{{ svc.description }}</p>
+      </li>
+    </ol>
+
+    <div v-if="body" class="prose mt-12 max-w-3xl" v-html="body" />
+
+    <aside class="mt-16 flex flex-col gap-4 rounded-xl bg-surface-2 p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+      <div>
+        <h2 class="font-semibold text-fg">Working with us</h2>
+        <p class="mt-1 text-sm text-fg-muted">For reviews, partnerships or advertising, tell us what you have in mind.</p>
       </div>
-
-      <!-- Services grid -->
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
-        <div v-for="svc in services" :key="svc.id"
-             class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-6 hover:border-brand-400 dark:hover:border-brand-500 hover:-translate-y-1 transition-all duration-300">
-          <div class="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl mb-5"
-               :style="{ background: svc.gradient }">
-            {{ svc.icon }}
-          </div>
-          <h3 class="font-bold text-lg mb-2">{{ svc.title }}</h3>
-          <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">{{ svc.description }}</p>
-        </div>
+      <div class="flex shrink-0 gap-2">
+        <Link :href="route('pages.contact', { subject: 'Partnership enquiry' })" class="btn btn-primary">Get in touch</Link>
+        <Link :href="route('gadgets.index')" class="btn btn-secondary">Browse devices</Link>
       </div>
-
-      <!-- Optional extra body content from admin -->
-      <div v-if="body"
-           class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-8 mb-12 prose dark:prose-invert prose-sm max-w-none
-                  prose-headings:text-gray-900 dark:prose-headings:text-gray-100 prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-li:text-gray-500 dark:prose-li:text-gray-400
-                  prose-a:text-brand-500 dark:prose-a:text-brand-400 hover:prose-a:text-brand-500"
-           v-html="body" />
-
-      <!-- CTA -->
-      <div class="rounded-2xl overflow-hidden mb-4"
-           style="background: linear-gradient(135deg, #6c5ce7 0%, #4834d4 100%);">
-        <div class="p-10 text-center">
-          <h2 class="text-3xl font-extrabold text-white mb-3">Ready to upgrade your tech?</h2>
-          <p class="text-brand-200 mb-6 max-w-lg mx-auto">Join thousands of smart shoppers who trust Git Infosys for real-time reviews, competitive prices, and premium gadgets.</p>
-          <div class="flex justify-center gap-3 flex-wrap">
-            <Link :href="route('gadgets.index')"
-                  class="px-8 py-3 rounded-xl bg-white text-brand-600 font-bold hover:bg-gray-100 transition">
-              Explore Tech Reviews & Specs →
-            </Link>
-            <Link :href="route('compare.index')"
-               class="px-8 py-3 rounded-xl border-2 border-white/50 text-white font-bold hover:border-white transition flex items-center gap-2">
-              <span>Compare Tech Specs</span>
-              <span>→</span>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    </aside>
   </StaticPageLayout>
 </template>
 
 <script setup>
-import StaticPageLayout from '@/Layouts/StaticPageLayout.vue'
 import { Link } from '@inertiajs/vue3'
+import StaticPageLayout from '@/Layouts/StaticPageLayout.vue'
 
 defineProps({
-  services:        { type: Array,  default: () => [] },
-  heading:         { type: String, default: 'Our Platform Services' },
-  subheading:      { type: String, default: '' },
-  body:            { type: String, default: null },
-  sidebarProducts: { type: Array,  default: () => [] },
-  sidebarNews:     { type: Array,  default: () => [] },
+  services: { type: Array, default: () => [] },
+  heading: { type: String, default: 'What we do' },
+  subheading: { type: String, default: '' },
+  body: { type: String, default: null },
+  sidebarProducts: { type: Array, default: () => [] },
+  sidebarNews: { type: Array, default: () => [] },
 })
 </script>

@@ -1,32 +1,50 @@
 ﻿<template>
   <AppLayout>
-    <div class="max-w-3xl mx-auto">
-      <nav class="text-sm text-gray-500 mb-6 flex items-center gap-2">
-        <Link :href="route('home')" class="hover:text-brand-500 dark:hover:text-brand-400">Home</Link> /
-        <Link :href="route('guides.index')" class="hover:text-brand-500 dark:hover:text-brand-400">Guides</Link> /
-        <span class="text-gray-500 dark:text-gray-300">{{ guide.title }}</span>
-      </nav>
-      <h1 class="text-3xl font-extrabold mb-3 text-gray-900 dark:text-white">{{ guide.title }}</h1>
-      <p class="text-gray-500 text-sm mb-6">{{ new Date(guide.created_at).toLocaleDateString('en-NP') }}</p>
-      <img :alt="$page.props.seo?.image_alt || guide.title" v-if="guide.thumbnail" :src="`/storage/${guide.thumbnail}`" class="w-full rounded-2xl mb-8 max-h-80 object-cover"/>
-      <div class="prose prose-gray prose-orange dark:prose-invert max-w-none" v-html="guide.content"/>
-      <div v-if="related.length" class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
-        <h2 class="text-xl font-bold mb-4 text-gray-900 dark:text-white">More Guides</h2>
-        <div class="grid sm:grid-cols-3 gap-4">
-          <Link v-for="r in related" :key="r.id" :href="route('guides.show', r.slug)"
-                class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-brand-500 dark:hover:border-brand-500 rounded-xl overflow-hidden group transition shadow-sm">
-            <img :alt="r.title" v-if="r.thumbnail" :src="`/storage/${r.thumbnail}`" class="w-full h-28 object-cover"/>
-            <div class="p-3">
-              <p class="text-sm font-semibold text-gray-800 dark:text-gray-200 line-clamp-2 group-hover:text-brand-500 dark:group-hover:text-brand-300 transition">{{ r.title }}</p>
-            </div>
-          </Link>
-        </div>
+    <Breadcrumbs :items="[{ label: 'Guides', href: route('guides.index') }, { label: guide.title }]" />
+
+    <article class="mx-auto mt-8 max-w-3xl">
+      <p class="text-sm font-medium text-accent-text">{{ guide.type === 'how-to' ? 'How-to' : guide.type === 'buying-guide' ? 'Buying guide' : 'Guide' }}</p>
+      <h1 class="mt-3 text-3xl font-semibold leading-tight tracking-tight text-fg sm:text-[2.5rem] sm:leading-[1.15]">{{ guide.title }}</h1>
+      <div class="mt-6 flex flex-wrap items-center justify-between gap-4 border-y border-line py-4">
+        <p class="text-sm text-fg-subtle">
+          Updated <time :datetime="guide.updated_at || guide.created_at">{{ formatDate(guide.updated_at || guide.created_at) }}</time>
+          · {{ readMinutes(guide.content) }} min read
+        </p>
+        <ShareLinks :title="guide.title" />
       </div>
-    </div>
+
+      <figure v-if="guide.thumbnail" class="media-plate mt-8 aspect-[16/9] rounded-xl">
+        <img :src="getImageUrl(guide.thumbnail)" :alt="$page.props.seo?.image_alt || guide.title" class="h-full w-full" :class="guide.thumbnail.startsWith('gadgets/') ? 'object-contain' : 'object-cover'" />
+      </figure>
+
+      <div class="prose prose-lg mt-8" v-html="guide.content" />
+    </article>
+
+    <section v-if="related?.length" class="mx-auto mt-16 max-w-3xl border-t border-line pt-10" aria-labelledby="more-guides">
+      <h2 id="more-guides" class="section-title">More guides</h2>
+      <ul class="mt-4 divide-y divide-line">
+        <li v-for="r in related" :key="r.id">
+          <Link :href="route('guides.show', r.slug)" class="group flex items-center justify-between gap-4 py-4">
+            <span class="font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ r.title }}</span>
+            <ArrowRight class="h-4 w-4 shrink-0 text-fg-subtle" />
+          </Link>
+        </li>
+      </ul>
+    </section>
   </AppLayout>
 </template>
+
 <script setup>
-import AppLayout from '@/Layouts/AppLayout.vue'
 import { Link } from '@inertiajs/vue3'
-defineProps({ guide: Object, related: Array })
+import { ArrowRight } from 'lucide-vue-next'
+import AppLayout from '@/Layouts/AppLayout.vue'
+import Breadcrumbs from '@/Components/Breadcrumbs.vue'
+import ShareLinks from '@/Components/ShareLinks.vue'
+import { getImageUrl } from '@/Composables/useImageUrl.js'
+import { formatDate, readMinutes } from '@/Composables/useFormat.js'
+
+defineProps({
+  guide: { type: Object, required: true },
+  related: { type: Array, default: () => [] },
+})
 </script>

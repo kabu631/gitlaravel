@@ -32,7 +32,7 @@ const submit = () => {
 </script>
 
 <template>
-    <GuestLayout>
+    <GuestLayout title="Choose a new password">
         <Head title="Reset Password" />
 
         <form @submit.prevent="submit">
@@ -88,12 +88,11 @@ const submit = () => {
                 />
             </div>
 
-            <div class="mt-4 flex items-center justify-end">
-                <PrimaryButton
-                    :class="{ 'opacity-25': form.processing }"
+            <div class="mt-6">
+                <PrimaryButton class="w-full"
                     :disabled="form.processing"
                 >
-                    Reset Password
+                    Reset password
                 </PrimaryButton>
             </div>
         </form>

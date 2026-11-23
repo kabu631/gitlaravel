@@ -9,7 +9,7 @@ class GadgetImage extends Model
 {
     use BacksUpImages;
 
-    protected $fillable = ['gadget_id', 'image', 'alt_text', 'order'];
+    protected $fillable = ['gadget_id', 'image', 'alt_text', 'source_url', 'credit', 'order'];
 
     protected array $imageBackupFields = ['image'];
 

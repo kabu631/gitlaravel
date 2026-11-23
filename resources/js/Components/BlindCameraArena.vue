@@ -1,31 +1,27 @@
 <template>
-  <div class="rounded-3xl border border-slate-200/80 dark:border-slate-800/80 bg-white/95 dark:bg-[#19222e]/95 backdrop-blur-md p-5 sm:p-8 glass-card shadow-xs">
+  <div class="rounded-xl border border-line bg-surface/95 backdrop-blur-md p-5 sm:p-8 glass-card shadow-xs">
     <!-- Header -->
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-slate-100 dark:border-slate-800/80">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-line">
       <div>
-        <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-brand-50 dark:bg-brand-950/60 text-brand-700 dark:text-brand-300 border border-brand-200/60 dark:border-brand-800/60 mb-1.5">
-          <Camera class="w-3 h-3 text-brand-500 animate-pulse" />
-          <span>MKBHD &amp; DXOMARK Style Blind Shootout</span>
-        </div>
-        <h3 class="font-heading font-extrabold text-base sm:text-xl text-slate-900 dark:text-white">
-          Blind Smartphone Camera Shootout Arena
+        <h3 class="text-lg font-semibold tracking-tight text-fg">
+          Blind camera test
         </h3>
-        <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-          Evaluate authentic uncompressed sample shots without brand bias. Cast your vote to unmask the winning flagship!
+        <p class="text-xs text-fg-subtle mt-0.5">
+          Compare two photos without knowing which phone took them, vote, then see the results.
         </p>
       </div>
 
       <!-- Challenge Round Selector Pills (Brand Matched) -->
-      <div class="flex gap-1.5 self-start sm:self-auto bg-slate-100 dark:bg-slate-900/80 p-1 rounded-2xl border border-slate-200 dark:border-slate-800">
+      <div class="flex gap-1.5 self-start sm:self-auto bg-surface-2 p-1 rounded-xl border border-line">
         <button
           v-for="c in challenges"
           :key="c.id"
           @click="selectChallenge(c.id)"
           type="button"
-          class="px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer flex items-center gap-1.5"
+          class="px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer flex items-center gap-1.5"
           :class="activeChallengeId === c.id
-            ? 'bg-brand-500 text-slate-950 shadow-sm font-extrabold'
-            : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'"
+            ? 'bg-fg text-canvas shadow-sm font-semibold'
+            : 'text-fg-muted hover:text-fg'"
         >
           <component :is="c.icon" class="w-3.5 h-3.5" />
           <span class="hidden md:inline">{{ c.title }}</span>
@@ -35,21 +31,21 @@
     </div>
 
     <!-- Active Challenge Description & View Controls -->
-    <div class="my-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-slate-500 dark:text-slate-400">
+    <div class="my-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-fg-subtle">
       <div class="flex items-center gap-2">
-        <span class="font-bold text-slate-900 dark:text-white">{{ activeChallenge.title }}:</span>
+        <span class="font-semibold text-fg">{{ activeChallenge.title }}:</span>
         <span>{{ activeChallenge.description }}</span>
       </div>
 
       <!-- Controls: Sample Shot vs Device View & Zoom Crop Toggle -->
       <div class="flex items-center gap-2 self-start sm:self-auto shrink-0 flex-wrap">
         <!-- View Toggle (Sample Shot vs Device Hardware) -->
-        <div class="flex items-center p-0.5 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-[11px] font-semibold">
+        <div class="flex items-center p-0.5 rounded-xl bg-surface-2 border border-line text-2xs font-semibold">
           <button
             @click="displayView = 'sample'"
             type="button"
             class="px-2.5 py-1 rounded-lg transition cursor-pointer flex items-center gap-1"
-            :class="displayView === 'sample' ? 'bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-400 shadow-xs font-bold' : 'text-slate-500 hover:text-slate-700 dark:hover:text-slate-300'"
+            :class="displayView === 'sample' ? 'bg-surface text-accent-text shadow-xs font-semibold' : 'text-fg-subtle hover:text-slate-700 dark:hover:text-slate-300'"
           >
             <Camera class="w-3 h-3" />
             <span>Shootout Sample</span>
@@ -58,7 +54,7 @@
             @click="displayView = 'device'"
             type="button"
             class="px-2.5 py-1 rounded-lg transition cursor-pointer flex items-center gap-1"
-            :class="displayView === 'device' ? 'bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-400 shadow-xs font-bold' : 'text-slate-500 hover:text-slate-700 dark:hover:text-slate-300'"
+            :class="displayView === 'device' ? 'bg-surface text-accent-text shadow-xs font-semibold' : 'text-fg-subtle hover:text-slate-700 dark:hover:text-slate-300'"
           >
             <Smartphone class="w-3 h-3" />
             <span>{{ isRevealed ? 'Device Hardware' : 'Device Preview' }}</span>
@@ -70,10 +66,10 @@
           v-if="displayView === 'sample'"
           @click="isZoomed = !isZoomed"
           type="button"
-          class="px-2.5 py-1 rounded-xl text-xs font-bold border transition cursor-pointer flex items-center gap-1"
+          class="px-2.5 py-1 rounded-xl text-xs font-semibold border transition cursor-pointer flex items-center gap-1"
           :class="isZoomed
-            ? 'bg-brand-500 text-slate-950 border-brand-500 font-extrabold shadow-xs'
-            : 'bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:border-slate-400'"
+            ? 'bg-fg text-canvas border-fg font-semibold shadow-xs'
+            : 'bg-surface text-fg-muted border-line hover:border-slate-400'"
         >
           <Search class="w-3 h-3" />
           <span>{{ isZoomed ? '200% Pixel Crop' : '100% Full Frame' }}</span>
@@ -87,34 +83,34 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-6">
       <!-- ── SIDE A: PHONE ALPHA (Git Infosys Brand Orange Accent) ── -->
       <div
-        class="rounded-3xl border-2 overflow-hidden flex flex-col justify-between transition-all duration-300 relative group bg-white dark:bg-[#19222e]"
+        class="rounded-xl border-2 overflow-hidden flex flex-col justify-between transition-all duration-300 relative group bg-surface"
         :class="userVote === 'A'
           ? 'border-brand-500 shadow-md ring-2 ring-brand-500/20'
-          : 'border-slate-200 dark:border-[#232f3f]'"
+          : 'border-line'"
       >
         <!-- Top Label & Masked Badge -->
-        <div class="p-3 bg-slate-50/90 dark:bg-[#151c27] border-b border-slate-200/80 dark:border-[#232f3f] flex items-center justify-between">
+        <div class="p-3 bg-slate-50/90 dark:bg-surface border-b border-line flex items-center justify-between">
           <div class="flex items-center gap-2">
-            <span class="w-6 h-6 rounded-full bg-brand-500 text-slate-950 font-black text-xs flex items-center justify-center shadow-xs">
+            <span class="w-6 h-6 rounded-full bg-fg text-canvas font-semibold text-xs flex items-center justify-center shadow-xs">
               A
             </span>
             <div>
-              <div class="text-xs font-extrabold text-slate-900 dark:text-white flex items-center gap-1.5">
+              <div class="text-xs font-semibold text-fg flex items-center gap-1.5">
                 <span>{{ isRevealed ? activeChallenge.phoneA.realName : 'Device Alpha' }}</span>
-                <span v-if="isRevealed" class="text-[10px] font-bold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/60 px-1.5 py-0.2 rounded">
+                <span v-if="isRevealed" class="text-2xs font-semibold text-accent-text bg-accent-soft px-1.5 py-0.2 rounded">
                   {{ activeChallenge.phoneA.brand }}
                 </span>
               </div>
-              <div class="text-[10px] text-slate-400">
+              <div class="text-2xs text-fg-subtle">
                 {{ isRevealed ? activeChallenge.phoneA.specs : 'Mystery Flagship Sensor A' }}
               </div>
             </div>
           </div>
 
-          <span v-if="!isRevealed" class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-lg bg-brand-50 dark:bg-brand-950/60 text-brand-700 dark:text-brand-300 border border-brand-200/60 dark:border-brand-800/60">
+          <span v-if="!isRevealed" class="text-2xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-lg bg-accent-soft text-accent-text border border-accent/30">
             Masked
           </span>
-          <span v-else-if="activeChallenge.phoneA.isWinner" class="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-lg bg-emerald-500 text-white shadow-xs flex items-center gap-1">
+          <span v-else-if="activeChallenge.phoneA.isWinner" class="text-2xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-lg bg-fg text-canvas shadow-xs flex items-center gap-1">
             <Sparkles class="w-3 h-3" /> Crowd Pick
           </span>
         </div>
@@ -133,14 +129,14 @@
             />
 
             <!-- Live Watermark Overlay -->
-            <div class="absolute bottom-3 left-3 bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg text-[10px] font-mono text-white/95 border border-white/10 shadow-xs">
+            <div class="absolute bottom-3 left-3 bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg text-2xs font-mono text-white/95 border border-white/10 shadow-xs">
               {{ activeChallenge.phoneA.exif }}
             </div>
           </template>
 
           <!-- Flagship Device View -->
           <template v-else>
-            <div class="w-full h-full p-6 flex flex-col items-center justify-center bg-gradient-to-b from-slate-900 to-slate-950 relative">
+            <div class="w-full h-full p-6 flex flex-col items-center justify-center bg-navy-900 relative">
               <img
                 :src="getImageUrl(activeChallenge.phoneA.deviceImage)"
                 :alt="activeChallenge.phoneA.realName"
@@ -154,19 +150,19 @@
           </template>
 
           <!-- User Vote Badge -->
-          <div v-if="userVote === 'A'" class="absolute top-3 right-3 bg-brand-500 text-slate-950 font-heading font-extrabold text-xs px-2.5 py-1 rounded-full shadow-md flex items-center gap-1 border border-brand-400">
+          <div v-if="userVote === 'A'" class="absolute top-3 right-3 bg-fg text-canvas font-semibold text-xs px-2.5 py-1 rounded-full shadow-md flex items-center gap-1 border border-fg">
             <CheckCircle class="w-3.5 h-3.5" />
             <span>Your Vote</span>
           </div>
         </div>
 
         <!-- Action / Voting Area -->
-        <div class="p-4 bg-white dark:bg-[#19222e] border-t border-slate-200/80 dark:border-[#232f3f]">
+        <div class="p-4 bg-surface border-t border-line">
           <div v-if="!isRevealed">
             <button
               @click="castVote('A')"
               type="button"
-              class="w-full py-2.5 px-4 rounded-xl bg-brand-500 hover:bg-brand-600 text-slate-950 font-heading font-extrabold text-xs shadow-xs transition cursor-pointer flex items-center justify-center gap-2 hover:shadow-glow-brand"
+              class="w-full py-2.5 px-4 rounded-xl bg-fg hover:bg-fg/85 text-canvas font-semibold text-xs shadow-xs transition cursor-pointer flex items-center justify-center gap-2"
             >
               <Check class="w-4 h-4" />
               <span>Vote for Device Alpha</span>
@@ -175,13 +171,13 @@
 
           <!-- Revealed Results Bar -->
           <div v-else class="space-y-2">
-            <div class="flex justify-between items-baseline text-xs font-bold">
-              <span class="text-slate-700 dark:text-slate-300">Community Approval:</span>
-              <span class="text-brand-600 dark:text-brand-400 font-extrabold text-sm">
+            <div class="flex justify-between items-baseline text-xs font-semibold">
+              <span class="text-fg-muted">Community Approval:</span>
+              <span class="text-accent-text font-semibold text-sm">
                 {{ activeChallenge.phoneA.votePercent }}% ({{ activeChallenge.phoneA.totalVotes }} votes)
               </span>
             </div>
-            <div class="h-2.5 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+            <div class="h-2.5 w-full bg-surface-2 rounded-full overflow-hidden">
               <div
                 class="h-full bg-brand-500 rounded-full transition-all duration-700"
                 :style="`width: ${activeChallenge.phoneA.votePercent}%`"
@@ -193,34 +189,34 @@
 
       <!-- ── SIDE B: PHONE BETA (Git Infosys Deep Slate-Navy) ── -->
       <div
-        class="rounded-3xl border-2 overflow-hidden flex flex-col justify-between transition-all duration-300 relative group bg-white dark:bg-[#19222e]"
+        class="rounded-xl border-2 overflow-hidden flex flex-col justify-between transition-all duration-300 relative group bg-surface"
         :class="userVote === 'B'
           ? 'border-navy-700 dark:border-navy-400 shadow-md ring-2 ring-navy-800/20'
-          : 'border-slate-200 dark:border-[#232f3f]'"
+          : 'border-line'"
       >
         <!-- Top Label & Masked Badge -->
-        <div class="p-3 bg-slate-50/90 dark:bg-[#151c27] border-b border-slate-200/80 dark:border-[#232f3f] flex items-center justify-between">
+        <div class="p-3 bg-slate-50/90 dark:bg-surface border-b border-line flex items-center justify-between">
           <div class="flex items-center gap-2">
-            <span class="w-6 h-6 rounded-full bg-[#232F3F] text-white font-black text-xs flex items-center justify-center border border-navy-700 shadow-xs">
+            <span class="w-6 h-6 rounded-full bg-[#232F3F] text-white font-semibold text-xs flex items-center justify-center border border-navy-700 shadow-xs">
               B
             </span>
             <div>
-              <div class="text-xs font-extrabold text-slate-900 dark:text-white flex items-center gap-1.5">
+              <div class="text-xs font-semibold text-fg flex items-center gap-1.5">
                 <span>{{ isRevealed ? activeChallenge.phoneB.realName : 'Device Beta' }}</span>
-                <span v-if="isRevealed" class="text-[10px] font-bold text-navy-600 dark:text-navy-300 bg-navy-50 dark:bg-navy-950/60 px-1.5 py-0.2 rounded">
+                <span v-if="isRevealed" class="text-2xs font-semibold text-navy-600 dark:text-navy-300 bg-navy-50 dark:bg-navy-950/60 px-1.5 py-0.2 rounded">
                   {{ activeChallenge.phoneB.brand }}
                 </span>
               </div>
-              <div class="text-[10px] text-slate-400">
+              <div class="text-2xs text-fg-subtle">
                 {{ isRevealed ? activeChallenge.phoneB.specs : 'Mystery Flagship Sensor B' }}
               </div>
             </div>
           </div>
 
-          <span v-if="!isRevealed" class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">
+          <span v-if="!isRevealed" class="text-2xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-lg bg-surface-2 text-fg-muted border border-line">
             Masked
           </span>
-          <span v-else-if="activeChallenge.phoneB.isWinner" class="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-lg bg-emerald-500 text-white shadow-xs flex items-center gap-1">
+          <span v-else-if="activeChallenge.phoneB.isWinner" class="text-2xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-lg bg-fg text-canvas shadow-xs flex items-center gap-1">
             <Sparkles class="w-3 h-3" /> Crowd Pick
           </span>
         </div>
@@ -239,14 +235,14 @@
             />
 
             <!-- Live Watermark Overlay -->
-            <div class="absolute bottom-3 left-3 bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg text-[10px] font-mono text-white/95 border border-white/10 shadow-xs">
+            <div class="absolute bottom-3 left-3 bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg text-2xs font-mono text-white/95 border border-white/10 shadow-xs">
               {{ activeChallenge.phoneB.exif }}
             </div>
           </template>
 
           <!-- Flagship Device View -->
           <template v-else>
-            <div class="w-full h-full p-6 flex flex-col items-center justify-center bg-gradient-to-b from-slate-900 to-slate-950 relative">
+            <div class="w-full h-full p-6 flex flex-col items-center justify-center bg-navy-900 relative">
               <img
                 :src="getImageUrl(activeChallenge.phoneB.deviceImage)"
                 :alt="activeChallenge.phoneB.realName"
@@ -260,19 +256,19 @@
           </template>
 
           <!-- User Vote Badge -->
-          <div v-if="userVote === 'B'" class="absolute top-3 right-3 bg-[#232F3F] text-white font-heading font-extrabold text-xs px-2.5 py-1 rounded-full shadow-md flex items-center gap-1 border border-navy-600">
+          <div v-if="userVote === 'B'" class="absolute top-3 right-3 bg-[#232F3F] text-white font-semibold text-xs px-2.5 py-1 rounded-full shadow-md flex items-center gap-1 border border-navy-600">
             <CheckCircle class="w-3.5 h-3.5" />
             <span>Your Vote</span>
           </div>
         </div>
 
         <!-- Action / Voting Area -->
-        <div class="p-4 bg-white dark:bg-[#19222e] border-t border-slate-200/80 dark:border-[#232f3f]">
+        <div class="p-4 bg-surface border-t border-line">
           <div v-if="!isRevealed">
             <button
               @click="castVote('B')"
               type="button"
-              class="w-full py-2.5 px-4 rounded-xl bg-[#232F3F] hover:bg-navy-700 text-white font-heading font-bold text-xs shadow-xs transition cursor-pointer flex items-center justify-center gap-2 border border-navy-700/80"
+              class="w-full py-2.5 px-4 rounded-xl bg-[#232F3F] hover:bg-navy-700 text-white font-semibold text-xs shadow-xs transition cursor-pointer flex items-center justify-center gap-2 border border-navy-700/80"
             >
               <Check class="w-4 h-4" />
               <span>Vote for Device Beta</span>
@@ -281,13 +277,13 @@
 
           <!-- Revealed Results Bar -->
           <div v-else class="space-y-2">
-            <div class="flex justify-between items-baseline text-xs font-bold">
-              <span class="text-slate-700 dark:text-slate-300">Community Approval:</span>
-              <span class="text-navy-800 dark:text-navy-300 font-extrabold text-sm">
+            <div class="flex justify-between items-baseline text-xs font-semibold">
+              <span class="text-fg-muted">Community Approval:</span>
+              <span class="text-navy-800 dark:text-navy-300 font-semibold text-sm">
                 {{ activeChallenge.phoneB.votePercent }}% ({{ activeChallenge.phoneB.totalVotes }} votes)
               </span>
             </div>
-            <div class="h-2.5 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+            <div class="h-2.5 w-full bg-surface-2 rounded-full overflow-hidden">
               <div
                 class="h-full bg-navy-700 dark:bg-navy-500 rounded-full transition-all duration-700"
                 :style="`width: ${activeChallenge.phoneB.votePercent}%`"
@@ -303,14 +299,14 @@
     <!-- ═══════════════════════════════════════════════════════════ -->
     <div
       v-if="isRevealed"
-      class="p-5 rounded-2xl bg-gradient-to-r from-brand-500/10 via-amber-500/10 to-navy-800/15 border border-brand-500/30 text-xs text-slate-700 dark:text-slate-300 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xs"
+      class="p-5 rounded-xl bg-surface-2 border border-accent/30 text-xs text-fg-muted flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xs"
     >
       <div>
         <div class="flex items-center gap-2 mb-1 flex-wrap">
-          <span class="font-extrabold text-slate-900 dark:text-white text-sm">Lab Analysis:</span>
-          <span class="font-extrabold text-brand-600 dark:text-brand-400">{{ activeChallenge.winnerSummary }}</span>
+          <span class="font-semibold text-fg text-sm">Notes:</span>
+          <span class="font-semibold text-accent-text">{{ activeChallenge.winnerSummary }}</span>
         </div>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl">
+        <p class="text-fg-muted leading-relaxed max-w-2xl">
           {{ activeChallenge.editorialDeepDive }}
         </p>
       </div>
@@ -319,13 +315,13 @@
         <button
           @click="resetVote"
           type="button"
-          class="px-3 py-1.5 rounded-xl border border-slate-300 dark:border-slate-700 hover:border-slate-400 text-slate-600 dark:text-slate-300 text-xs font-semibold transition cursor-pointer bg-white dark:bg-slate-900"
+          class="px-3 py-1.5 rounded-xl border border-line-strong hover:border-slate-400 text-fg-muted text-xs font-semibold transition cursor-pointer bg-surface"
         >
           Reset Vote
         </button>
         <Link
           :href="route('gadgets.index')"
-          class="px-4 py-1.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-slate-950 text-xs font-heading font-extrabold transition flex items-center gap-1.5 shadow-xs cursor-pointer"
+          class="px-4 py-1.5 rounded-xl bg-fg hover:bg-fg/85 text-canvas text-xs font-semibold transition flex items-center gap-1.5 shadow-xs cursor-pointer"
         >
           <ShoppingBag class="w-3.5 h-3.5" />
           <span>Check Prices</span>

@@ -1,48 +1,38 @@
 <template>
   <AppLayout>
-    <div class="max-w-6xl mx-auto px-3 sm:px-6 pb-24">
+    <div class="pb-24">
 
-      <!-- ── TOP NAVIGATION & VERIFICATION STATUS ── -->
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 text-xs">
-        <nav class="text-slate-500 dark:text-slate-400 flex items-center gap-1.5 flex-wrap">
-          <Link :href="route('home')" class="hover:text-brand-600 dark:hover:text-brand-400 transition font-medium">Home</Link>
-          <span class="text-slate-300 dark:text-slate-700">/</span>
-          <Link :href="route('compare.index')" class="hover:text-brand-600 dark:hover:text-brand-400 transition font-medium">Compare</Link>
-          <span class="text-slate-300 dark:text-slate-700">/</span>
-          <span class="text-brand-600 dark:text-brand-400 font-bold uppercase tracking-wider">{{ currentCategoryName }}</span>
-        </nav>
-
-        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-400 border border-emerald-200/80 dark:border-emerald-800/80 self-start sm:self-auto">
-          <ShieldCheck class="w-3.5 h-3.5" />
-          <span>Verified Nepal Pricing</span>
-        </span>
-      </div>
+      <Breadcrumbs :items="[{ label: 'Compare', href: route('compare.index') }, { label: currentCategoryName }]" />
+      <header class="mb-8 mt-4 max-w-2xl">
+        <h1 class="text-3xl font-semibold tracking-tight text-fg sm:text-4xl">Compare devices</h1>
+        <p class="mt-2 text-fg-muted">Put up to four devices side by side — prices in Nepal and full specifications, with differences highlighted.</p>
+      </header>
 
       <!-- ── CATEGORY SWITCHER ── -->
-      <div class="mb-6 flex flex-col items-center justify-center text-center">
-        <div class="inline-flex items-center p-1.5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/80 shadow-sm overflow-x-auto max-w-full scrollbar-none gap-1">
+      <div class="mb-8 flex flex-col items-start gap-3">
+        <ScrollRow wrapper-class="max-w-full" class="inline-flex items-center p-1.5 rounded-xl bg-surface border border-line shadow-sm overflow-x-auto max-w-full scrollbar-none gap-1">
           <Link
             v-for="cat in activeCategories"
             :key="cat.slug"
             :href="route('compare.index', { category: cat.slug })"
-            class="px-4 py-2 rounded-xl text-xs font-heading font-bold shrink-0 transition-all duration-200 flex items-center gap-2 border cursor-pointer"
+            class="px-4 py-2 rounded-xl text-xs font-semibold shrink-0 transition-all duration-200 flex items-center gap-2 border cursor-pointer"
             :class="(category || 'mobile') === cat.slug
-              ? 'bg-brand-500 text-white border-brand-500 shadow-sm'
-              : 'border-transparent text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100/70 dark:hover:bg-slate-800/70'"
+              ? 'bg-fg text-canvas border-fg shadow-sm'
+              : 'border-transparent text-fg-muted hover:text-fg hover:bg-surface-2'"
           >
             <component :is="getCategoryIcon(cat.slug)" class="w-4 h-4" />
             <span>{{ cat.name }}</span>
           </Link>
-        </div>
+        </ScrollRow>
 
         <!-- Quick-pick popular comparisons -->
         <div v-if="popularCategoryShowdowns.length" class="mt-3 flex items-center justify-center gap-2 flex-wrap text-xs">
-          <span class="text-slate-400 dark:text-slate-500 font-semibold">Popular:</span>
+          <span class="text-fg-subtle font-semibold">Popular:</span>
           <button
             v-for="showdown in popularCategoryShowdowns"
             :key="showdown.label"
             @click="loadQuickShowdown(showdown.slugs)"
-            class="px-3 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-brand-50 dark:hover:bg-brand-950/40 hover:text-brand-600 dark:hover:text-brand-400 border border-slate-200/80 dark:border-slate-700/80 text-slate-600 dark:text-slate-300 transition cursor-pointer font-medium"
+            class="px-3 py-1 rounded-lg bg-surface-2 hover:bg-surface-2 hover:text-fg border border-line text-fg-muted transition cursor-pointer font-medium"
           >
             {{ showdown.label }}
           </button>
@@ -59,33 +49,33 @@
           <div
             v-for="(g, idx) in selectedGadgets"
             :key="g.id"
-            class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 sm:p-5 flex flex-col shadow-sm relative"
+            class="rounded-xl border border-line bg-surface p-4 sm:p-5 flex flex-col shadow-sm relative"
           >
             <button
               v-if="selectedGadgets.length > 2"
               @click="removeDevice(idx)"
-              class="absolute top-3 right-3 p-1 rounded-lg text-slate-300 hover:text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-950/40 transition cursor-pointer"
+              class="absolute top-3 right-3 p-1 rounded-lg text-slate-300 hover:text-rose-500 hover:bg-surface-2 transition cursor-pointer"
               title="Remove from comparison"
             >
               <X class="w-4 h-4" />
             </button>
 
-            <span v-if="g.is_trending" class="inline-flex items-center gap-1 text-[10px] font-bold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/50 px-2 py-0.5 rounded-full w-fit mb-2">
+            <span v-if="g.is_trending" class="inline-flex items-center gap-1 text-2xs font-semibold text-accent-text bg-accent-soft px-2 py-0.5 rounded-full w-fit mb-2">
               <Flame class="w-3 h-3" />
               <span>Trending</span>
             </span>
 
-            <div class="h-32 sm:h-40 w-full rounded-xl bg-slate-50 dark:bg-slate-800/50 p-3 flex items-center justify-center border border-slate-100 dark:border-slate-800 mb-3">
+            <div class="h-32 sm:h-40 w-full rounded-xl bg-surface-2 p-3 flex items-center justify-center border border-line mb-3">
               <img v-if="g.image" :src="`/storage/${g.image}`" :alt="g.name" class="w-full h-full object-contain" />
               <component :is="getCategoryIcon(g.category?.slug || category)" v-else class="w-10 h-10 text-slate-300" />
             </div>
 
-            <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">{{ g.brand?.name }}</p>
-            <h2 class="font-heading font-bold text-sm sm:text-base text-slate-900 dark:text-white line-clamp-2 leading-snug mb-1.5">
+            <p class="text-2xs font-semibold text-fg-subtle uppercase tracking-wider">{{ g.brand?.name }}</p>
+            <h2 class="font-semibold text-sm sm:text-base text-fg line-clamp-2 leading-snug mb-1.5">
               {{ g.name }}
             </h2>
-            <p class="font-heading font-extrabold text-base sm:text-lg text-brand-600 dark:text-brand-400 mb-3">
-              Rs. {{ formatPrice(g.price) }}
+            <p class="font-semibold text-base sm:text-lg text-accent-text mb-3">
+              {{ priceLabel(g) }}
             </p>
 
             <div class="mt-auto space-y-2">
@@ -93,7 +83,7 @@
                 :href="g.buy_url || g.referral_buy_url || route('gadgets.show', g.slug)"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="w-full py-2 rounded-xl bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 transition cursor-pointer"
+                class="w-full py-2 rounded-xl bg-fg hover:bg-fg/85 text-canvas font-semibold text-xs flex items-center justify-center gap-1.5 transition cursor-pointer"
               >
                 <ShoppingBag class="w-3.5 h-3.5" />
                 <span>Check Price</span>
@@ -101,7 +91,7 @@
               <button
                 type="button"
                 @click="openPicker(idx)"
-                class="w-full py-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-xs flex items-center justify-center gap-1.5 transition cursor-pointer"
+                class="w-full py-2 rounded-xl bg-surface-2 hover:bg-surface-3 text-fg-muted font-semibold text-xs flex items-center justify-center gap-1.5 transition cursor-pointer"
               >
                 <RotateCcw class="w-3.5 h-3.5" />
                 <span>Change</span>
@@ -114,7 +104,7 @@
             v-if="selectedGadgets.length < 4"
             type="button"
             @click="openPicker(selectedGadgets.length)"
-            class="rounded-2xl border-2 border-dashed border-slate-200 dark:border-slate-700 hover:border-brand-400 dark:hover:border-brand-600 text-slate-400 hover:text-brand-500 flex flex-col items-center justify-center gap-1.5 p-5 min-h-[220px] transition cursor-pointer"
+            class="rounded-xl border-2 border-dashed border-line hover:border-line-strong text-fg-subtle hover:text-fg flex flex-col items-center justify-center gap-1.5 p-5 min-h-[220px] transition cursor-pointer"
           >
             <Plus class="w-6 h-6" />
             <span class="text-xs font-semibold">Add Device</span>
@@ -122,8 +112,8 @@
         </div>
 
         <!-- Price gap note (2-device comparisons only) -->
-        <p v-if="priceDifferenceText" class="text-xs text-center text-slate-500 dark:text-slate-400 flex items-center justify-center gap-1.5">
-          <TrendingDown class="w-3.5 h-3.5 text-emerald-500" />
+        <p v-if="priceDifferenceText" class="text-xs text-center text-fg-subtle flex items-center justify-center gap-1.5">
+          <TrendingDown class="w-3.5 h-3.5 text-positive" />
           <span>{{ priceDifferenceText }}</span>
         </p>
 
@@ -131,10 +121,10 @@
         <div class="flex justify-center">
           <button
             @click="copyShareLink"
-            class="px-4 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-xs font-semibold text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition flex items-center gap-1.5 cursor-pointer"
+            class="px-4 py-1.5 rounded-xl border border-line bg-surface text-xs font-semibold text-fg-muted hover:bg-surface-2 transition flex items-center gap-1.5 cursor-pointer"
           >
-            <Check v-if="copied" class="w-3.5 h-3.5 text-emerald-500" />
-            <Share2 v-else class="w-3.5 h-3.5 text-slate-400" />
+            <Check v-if="copied" class="w-3.5 h-3.5 text-positive" />
+            <Share2 v-else class="w-3.5 h-3.5 text-fg-subtle" />
             <span>{{ copied ? 'Link Copied!' : 'Share this comparison' }}</span>
           </button>
         </div>
@@ -142,40 +132,40 @@
         <!-- ═══════════════════════════════════════════════════════════ -->
         <!-- INTERACTIVE VISUAL TECHNOLOGY DEMONSTRATION LABS (2-device only) -->
         <!-- ═══════════════════════════════════════════════════════════ -->
-        <div v-if="selectedGadgets.length === 2" class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm p-5 sm:p-6">
-          <div class="pb-5 border-b border-slate-100 dark:border-slate-800">
-            <h2 class="font-heading font-bold text-base sm:text-lg text-slate-900 dark:text-white">
-              Live Interactive Clash Studio
+        <div v-if="selectedGadgets.length === 2 && showLabs" class="rounded-xl border border-line bg-surface shadow-sm p-5 sm:p-6">
+          <div class="pb-5 border-b border-line">
+            <h2 class="font-semibold text-base sm:text-lg text-fg">
+              Visual comparison
             </h2>
-            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
-              Hands-on visual simulations: hardware radar, camera optics shootout, physical size fit, battery drain race &amp; Nepal resale retention.
+            <p class="text-xs text-fg-subtle mt-1">
+              Spec-based visuals: an overview chart, camera samples, physical size, battery life and resale value.
             </p>
           </div>
 
           <!-- Sidebar nav (left) + active lab content (right), like a docs/tutorial page -->
           <div class="flex flex-col md:flex-row gap-5 md:gap-6 pt-5">
             <!-- Lab Sidebar -->
-            <nav class="flex md:flex-col gap-1 overflow-x-auto md:overflow-visible scrollbar-none shrink-0 md:w-52 border-b md:border-b-0 md:border-r border-slate-100 dark:border-slate-800 pb-3 md:pb-0 md:pr-4">
+            <ScrollRow wrapper-class="shrink-0 md:w-52" as="nav" class="flex md:flex-col gap-1 overflow-x-auto md:overflow-visible scrollbar-none border-b md:border-b-0 md:border-r border-line pb-3 md:pb-0 md:pr-4">
               <button
                 v-for="lab in visualLabs"
                 :key="lab.id"
                 @click="activeVisualLab = lab.id"
-                class="px-3 py-2.5 rounded-xl text-xs font-heading font-bold transition flex items-center gap-2 cursor-pointer shrink-0 text-left"
+                class="px-3 py-2.5 rounded-xl text-xs font-semibold transition flex items-center gap-2 cursor-pointer shrink-0 text-left"
                 :class="activeVisualLab === lab.id
-                  ? 'bg-brand-50 dark:bg-brand-950/40 text-brand-600 dark:text-brand-400 border border-brand-200/80 dark:border-brand-800/60'
-                  : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-800/60 border border-transparent'"
+                  ? 'bg-accent-soft text-accent-text border border-accent/30'
+                  : 'text-fg-subtle hover:text-fg hover:bg-surface-2 border border-transparent'"
               >
                 <component :is="lab.icon" class="w-3.5 h-3.5 shrink-0" />
                 <span class="whitespace-nowrap md:whitespace-normal">{{ lab.name }}</span>
               </button>
-            </nav>
+            </ScrollRow>
 
             <!-- Active Lab Content -->
             <div class="flex-1 min-w-0">
 
           <!-- ── LAB 1: HARDWARE RADAR HEXAGON / SPIDER WEB ── -->
           <div v-if="activeVisualLab === 'radar'" class="py-6">
-            <div class="grid lg:grid-cols-12 gap-8 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div class="lg:col-span-7 flex flex-col items-center justify-center">
                 <div class="relative w-72 sm:w-80 h-72 sm:h-80 flex items-center justify-center">
                   <svg viewBox="0 0 320 320" class="w-full h-full overflow-visible">
@@ -230,31 +220,31 @@
                       :x="getAxisLabelPos(aIdx).x"
                       :y="getAxisLabelPos(aIdx).y"
                       :text-anchor="getAxisLabelPos(aIdx).anchor"
-                      class="text-[10px] font-heading font-bold fill-slate-600 dark:fill-slate-400"
+                      class="text-2xs font-semibold fill-slate-600 dark:fill-slate-400"
                     >
                       {{ axis.name }}
                     </text>
                   </svg>
                 </div>
 
-                <div class="flex items-center gap-6 mt-4 text-xs font-heading font-extrabold">
+                <div class="flex items-center gap-6 mt-4 text-xs font-semibold">
                   <div class="flex items-center gap-2">
                     <span class="w-3.5 h-3.5 rounded-full bg-amber-500 ring-4 ring-amber-500/20"></span>
-                    <span class="text-amber-600 dark:text-amber-400">{{ selectedGadgets[0]?.name }}</span>
+                    <span class="text-accent-text">{{ selectedGadgets[0]?.name }}</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <span class="w-3.5 h-3.5 rounded-full bg-blue-500 ring-4 ring-blue-500/20"></span>
-                    <span class="text-blue-600 dark:text-blue-400">{{ selectedGadgets[1]?.name }}</span>
+                    <span class="text-fg-muted">{{ selectedGadgets[1]?.name }}</span>
                   </div>
                 </div>
               </div>
 
               <div class="lg:col-span-5 space-y-3">
-                <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800">
-                  <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white mb-1">
+                <div class="p-4 rounded-xl bg-surface-2 border border-line">
+                  <h4 class="font-semibold text-sm text-fg mb-1">
                     Multi-Dimensional Hardware Vector Analysis
                   </h4>
-                  <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                  <p class="text-xs text-fg-subtle leading-relaxed">
                     Evaluates silicon efficiency, optic sensor area, display luminescence, battery density, and Nepal price competitiveness.
                   </p>
                 </div>
@@ -263,15 +253,15 @@
                   <div
                     v-for="axis in radarAxes"
                     :key="axis.name"
-                    class="p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/70 dark:border-slate-800 flex items-center justify-between text-xs"
+                    class="p-3 rounded-xl bg-surface border border-line flex items-center justify-between text-xs"
                   >
-                    <span class="font-heading font-semibold text-slate-700 dark:text-slate-300">
+                    <span class="font-semibold text-fg-muted">
                       {{ axis.name }}
                     </span>
-                    <div class="flex items-center gap-3 font-mono font-extrabold text-xs">
-                      <span class="text-amber-600 dark:text-amber-400">{{ axis.valA }} / 100</span>
+                    <div class="flex items-center gap-3 font-mono font-semibold text-xs">
+                      <span class="text-accent-text">{{ axis.valA }} / 100</span>
                       <span class="text-slate-300 dark:text-slate-700">vs</span>
-                      <span class="text-blue-600 dark:text-blue-400">{{ axis.valB }} / 100</span>
+                      <span class="text-fg-muted">{{ axis.valB }} / 100</span>
                     </div>
                   </div>
                 </div>
@@ -283,21 +273,21 @@
           <div v-if="activeVisualLab === 'camera'" class="py-6">
             <div class="flex items-center justify-between flex-wrap gap-3 mb-5">
               <div>
-                <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white">
+                <h4 class="font-semibold text-sm text-fg">
                   Interactive Photo Shootout: Drag the Divider to Compare
                 </h4>
-                <p class="text-xs text-slate-400">Side-by-side color science, night mode noise control, and sensor dynamic range</p>
+                <p class="text-xs text-fg-subtle">Side-by-side color science, night mode noise control, and sensor dynamic range</p>
               </div>
 
-              <div class="flex gap-1.5 p-1 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+              <div class="flex gap-1.5 p-1 rounded-xl bg-surface-2 border border-line">
                 <button
                   v-for="(sc, i) in cameraScenarios"
                   :key="sc.id"
                   @click="activeCameraScenario = i"
                   class="px-3 py-1 rounded-lg text-xs font-semibold transition cursor-pointer"
                   :class="activeCameraScenario === i
-                    ? 'bg-white dark:bg-slate-900 text-brand-600 dark:text-brand-400 shadow-2xs font-bold'
-                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'"
+                    ? 'bg-surface text-accent-text shadow-2xs font-semibold'
+                    : 'text-fg-muted hover:text-fg'"
                 >
                   {{ sc.title }}
                 </button>
@@ -305,7 +295,7 @@
             </div>
 
             <div
-              class="relative h-80 sm:h-96 w-full rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 select-none shadow-inner cursor-ew-resize group"
+              class="relative h-80 sm:h-96 w-full rounded-xl overflow-hidden border border-line select-none shadow-inner cursor-ew-resize group"
               @mousemove="onPhotoSliderMove"
               @touchmove="onPhotoSliderTouch"
             >
@@ -313,12 +303,12 @@
                 class="absolute inset-0 flex items-center justify-center p-8 transition-colors"
                 :style="cameraScenarios[activeCameraScenario].styleB"
               >
-                <div class="text-center p-6 rounded-2xl bg-black/60 backdrop-blur-md text-white max-w-sm ml-auto mr-6 border border-white/10 shadow-xl">
-                  <span class="text-[10px] uppercase tracking-widest font-heading font-black text-blue-400 block mb-1">
+                <div class="dark text-center p-6 rounded-xl bg-black/60 backdrop-blur-md text-white max-w-sm ml-auto mr-6 border border-white/10 shadow-xl">
+                  <span class="text-2xs uppercase tracking-wider font-semibold text-blue-400 block mb-1">
                     {{ selectedGadgets[1]?.name }} Output
                   </span>
-                  <p class="font-heading font-bold text-sm">{{ cameraScenarios[activeCameraScenario].descB }}</p>
-                  <div class="mt-3 flex items-center justify-center gap-2 text-[10px] font-mono opacity-80">
+                  <p class="font-semibold text-sm">{{ cameraScenarios[activeCameraScenario].descB }}</p>
+                  <div class="mt-3 flex items-center justify-center gap-2 text-2xs font-mono opacity-80">
                     <span>ISO {{ cameraScenarios[activeCameraScenario].isoB }}</span>
                     <span>&middot;</span>
                     <span>{{ cameraScenarios[activeCameraScenario].shutterB }}</span>
@@ -330,12 +320,12 @@
                 class="absolute inset-0 flex items-center justify-center p-8 pointer-events-none transition-colors"
                 :style="`clip-path: polygon(0 0, ${photoSliderPos}% 0, ${photoSliderPos}% 100%, 0 100%); ${cameraScenarios[activeCameraScenario].styleA}`"
               >
-                <div class="text-center p-6 rounded-2xl bg-black/60 backdrop-blur-md text-white max-w-sm mr-auto ml-6 border border-white/10 shadow-xl">
-                  <span class="text-[10px] uppercase tracking-widest font-heading font-black text-amber-400 block mb-1">
+                <div class="dark text-center p-6 rounded-xl bg-black/60 backdrop-blur-md text-white max-w-sm mr-auto ml-6 border border-white/10 shadow-xl">
+                  <span class="text-2xs uppercase tracking-wider font-semibold text-amber-400 block mb-1">
                     {{ selectedGadgets[0]?.name }} Output
                   </span>
-                  <p class="font-heading font-bold text-sm">{{ cameraScenarios[activeCameraScenario].descA }}</p>
-                  <div class="mt-3 flex items-center justify-center gap-2 text-[10px] font-mono opacity-80">
+                  <p class="font-semibold text-sm">{{ cameraScenarios[activeCameraScenario].descA }}</p>
+                  <div class="mt-3 flex items-center justify-center gap-2 text-2xs font-mono opacity-80">
                     <span>ISO {{ cameraScenarios[activeCameraScenario].isoA }}</span>
                     <span>&middot;</span>
                     <span>{{ cameraScenarios[activeCameraScenario].shutterA }}</span>
@@ -347,18 +337,18 @@
                 class="absolute top-0 bottom-0 w-1 bg-white shadow-2xl pointer-events-none z-20 flex items-center justify-center"
                 :style="`left: ${photoSliderPos}%`"
               >
-                <div class="w-9 h-9 rounded-full bg-white text-slate-900 flex items-center justify-center shadow-xl border-2 border-slate-200 font-black text-xs">
+                <div class="w-9 h-9 rounded-full bg-white text-slate-900 flex items-center justify-center shadow-xl border-2 border-slate-200 font-semibold text-xs">
                   &harr;
                 </div>
               </div>
             </div>
 
-            <div class="mt-3 flex items-center justify-between text-xs text-slate-400">
-              <span class="flex items-center gap-1 text-amber-500 font-bold">
+            <div class="mt-3 flex items-center justify-between text-xs text-fg-subtle">
+              <span class="flex items-center gap-1 text-accent-text font-semibold">
                 &larr; {{ selectedGadgets[0]?.name }} Tuning
               </span>
-              <span class="text-[11px] font-medium text-slate-500">Drag handle left/right to reveal optical differences</span>
-              <span class="flex items-center gap-1 text-blue-500 font-bold">
+              <span class="text-2xs font-medium text-fg-subtle">Drag handle left/right to reveal optical differences</span>
+              <span class="flex items-center gap-1 text-fg-subtle font-semibold">
                 {{ selectedGadgets[1]?.name }} Tuning &rarr;
               </span>
             </div>
@@ -366,58 +356,58 @@
 
           <!-- ── LAB 3: PHYSICAL SIZE-O-METER & SILHOUETTE SCALE CLASH ── -->
           <div v-if="activeVisualLab === 'size'" class="py-6">
-            <div class="grid lg:grid-cols-12 gap-8 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div class="lg:col-span-7 flex flex-col items-center justify-center">
-                <div class="relative h-80 w-full rounded-2xl bg-slate-50 dark:bg-slate-900/60 p-6 flex items-center justify-center border border-slate-200/80 dark:border-slate-800">
+                <div class="relative h-80 w-full rounded-xl bg-surface-2 p-6 flex items-center justify-center border border-line">
                   <div class="absolute inset-0 opacity-15 bg-[radial-gradient(#94a3b8_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
                   <div class="relative flex items-center justify-center">
                     <div
-                      class="rounded-[28px] border-2 border-amber-500 bg-amber-500/15 flex flex-col justify-between p-3 transition-all duration-300 shadow-lg shadow-amber-500/10"
+                      class="rounded-[28px] border-2 border-amber-500 bg-accent-soft flex flex-col justify-between p-3 transition-all duration-300 shadow-lg"
                       :style="`width: ${getDeviceScale(0).w}px; height: ${getDeviceScale(0).h}px;`"
                     >
                       <div class="w-10 h-1 rounded-full bg-amber-500/40 mx-auto"></div>
-                      <span class="text-[10px] font-heading font-black text-amber-600 dark:text-amber-400 text-center block">
+                      <span class="text-2xs font-semibold text-accent-text text-center block">
                         {{ selectedGadgets[0]?.name }}
                       </span>
-                      <div class="text-[9px] font-mono text-center text-amber-700 dark:text-amber-300">
+                      <div class="text-2xs font-mono text-center text-accent-text">
                         {{ getDeviceDimensionsText(0) }}
                       </div>
                     </div>
 
                     <div
-                      class="rounded-[28px] border-2 border-blue-500 bg-blue-500/15 flex flex-col justify-between p-3 transition-all duration-300 shadow-lg shadow-blue-500/10 ml-4"
+                      class="rounded-[28px] border-2 border-blue-500 bg-surface-2 flex flex-col justify-between p-3 transition-all duration-300 shadow-lg ml-4"
                       :style="`width: ${getDeviceScale(1).w}px; height: ${getDeviceScale(1).h}px;`"
                     >
                       <div class="w-10 h-1 rounded-full bg-blue-500/40 mx-auto"></div>
-                      <span class="text-[10px] font-heading font-black text-blue-600 dark:text-blue-400 text-center block">
+                      <span class="text-2xs font-semibold text-fg-muted text-center block">
                         {{ selectedGadgets[1]?.name }}
                       </span>
-                      <div class="text-[9px] font-mono text-center text-blue-700 dark:text-blue-300">
+                      <div class="text-2xs font-mono text-center text-fg-muted">
                         {{ getDeviceDimensionsText(1) }}
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <p class="text-xs text-slate-400 mt-2.5">Proportional 1:1 true physical millimeter scale comparison</p>
+                <p class="text-xs text-fg-subtle mt-2.5">Proportional 1:1 true physical millimeter scale comparison</p>
               </div>
 
               <div class="lg:col-span-5 space-y-4">
-                <div class="p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800">
-                  <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white flex items-center gap-2 mb-3">
-                    <Scale class="w-4 h-4 text-brand-500" />
+                <div class="p-5 rounded-xl bg-surface-2 border border-line">
+                  <h4 class="font-semibold text-sm text-fg flex items-center gap-2 mb-3">
+                    <Scale class="w-4 h-4 text-accent-text" />
                     <span>Weight &amp; Pocket Fatigue Index</span>
                   </h4>
 
                   <div class="py-3">
-                    <div class="flex items-center justify-between text-xs font-mono font-extrabold mb-1">
-                      <span class="text-amber-600 dark:text-amber-400">{{ getDeviceWeight(0) }}g</span>
-                      <span class="text-slate-400 font-sans text-[11px]">Tilts towards heavier</span>
-                      <span class="text-blue-600 dark:text-blue-400">{{ getDeviceWeight(1) }}g</span>
+                    <div class="flex items-center justify-between text-xs font-mono font-semibold mb-1">
+                      <span class="text-accent-text">{{ getDeviceWeight(0) }}g</span>
+                      <span class="text-fg-subtle font-sans text-2xs">Tilts towards heavier</span>
+                      <span class="text-fg-muted">{{ getDeviceWeight(1) }}g</span>
                     </div>
 
-                    <div class="h-2 w-full bg-slate-200 dark:bg-slate-800 rounded-full relative overflow-hidden">
+                    <div class="h-2 w-full bg-surface-3 rounded-full relative overflow-hidden">
                       <div
                         class="absolute top-0 bottom-0 w-4 h-full bg-brand-500 rounded-full transition-all duration-500"
                         :style="`left: ${getWeightBalancePosition()}%`"
@@ -425,19 +415,19 @@
                     </div>
                   </div>
 
-                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">
+                  <p class="text-xs text-fg-subtle mt-2">
                     {{ weightDifferentialText }}
                   </p>
                 </div>
 
-                <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 flex items-center justify-between text-xs">
+                <div class="p-4 rounded-xl bg-surface border border-line flex items-center justify-between text-xs">
                   <div>
-                    <span class="text-[10px] uppercase font-bold text-slate-400 block">Single-Hand Usability</span>
-                    <span class="font-heading font-bold text-slate-800 dark:text-slate-200">
+                    <span class="text-2xs uppercase font-semibold text-fg-subtle block">Single-Hand Usability</span>
+                    <span class="font-semibold text-fg">
                       {{ getOneHandedScore(selectedGadgets[0]) }} vs {{ getOneHandedScore(selectedGadgets[1]) }}
                     </span>
                   </div>
-                  <span class="px-2.5 py-1 rounded-md text-[10px] font-heading font-black uppercase bg-brand-50 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 border border-brand-200 dark:border-brand-800">
+                  <span class="px-2.5 py-1 rounded-md text-2xs font-semibold uppercase bg-accent-soft text-accent-text border border-accent/30">
                     Nepal Commute
                   </span>
                 </div>
@@ -450,38 +440,38 @@
             <div class="max-w-3xl mx-auto space-y-6">
               <div class="flex items-center justify-between flex-wrap gap-3">
                 <div>
-                  <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white">
+                  <h4 class="font-semibold text-sm text-fg">
                     Kathmandu Daily Routine Battery Stress Test
                   </h4>
-                  <p class="text-xs text-slate-400">Simulate battery life from 8:00 AM morning commute to 11:00 PM bedtime</p>
+                  <p class="text-xs text-fg-subtle">Simulate battery life from 8:00 AM morning commute to 11:00 PM bedtime</p>
                 </div>
 
-                <div class="flex gap-1.5 p-1 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                <div class="flex gap-1.5 p-1 rounded-xl bg-surface-2 border border-line">
                   <button
                     v-for="(mode, mIdx) in batteryModes"
                     :key="mode.id"
                     @click="activeBatteryMode = mIdx"
                     class="px-3 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer"
                     :class="activeBatteryMode === mIdx
-                      ? 'bg-white dark:bg-slate-900 text-brand-600 dark:text-brand-400 shadow-2xs font-bold'
-                      : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'"
+                      ? 'bg-surface text-accent-text shadow-2xs font-semibold'
+                      : 'text-fg-muted hover:text-fg'"
                   >
                     {{ mode.name }}
                   </button>
                 </div>
               </div>
 
-              <div class="space-y-4 bg-slate-50 dark:bg-slate-900/60 p-6 rounded-2xl border border-slate-200/80 dark:border-slate-800">
+              <div class="space-y-4 bg-surface-2 p-6 rounded-xl border border-line">
                 <div>
                   <div class="flex items-center justify-between text-xs font-semibold mb-1.5">
-                    <span class="text-amber-600 dark:text-amber-400 font-bold font-heading">{{ selectedGadgets[0]?.name }}</span>
-                    <span class="text-slate-800 dark:text-slate-200 font-mono font-extrabold">
+                    <span class="text-accent-text font-semibold">{{ selectedGadgets[0]?.name }}</span>
+                    <span class="text-fg font-mono font-semibold">
                       {{ batteryModes[activeBatteryMode].endPctA }}% Remaining at 11:00 PM
                     </span>
                   </div>
-                  <div class="h-3.5 w-full bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden p-0.5">
+                  <div class="h-3.5 w-full bg-surface-3 rounded-full overflow-hidden p-0.5">
                     <div
-                      class="h-full bg-gradient-to-r from-amber-500 to-emerald-500 rounded-full transition-all duration-700"
+                      class="h-full bg-fg hover:bg-fg/85 rounded-full transition-all duration-700"
                       :style="`width: ${batteryModes[activeBatteryMode].endPctA}%`"
                     ></div>
                   </div>
@@ -489,22 +479,22 @@
 
                 <div>
                   <div class="flex items-center justify-between text-xs font-semibold mb-1.5">
-                    <span class="text-blue-600 dark:text-blue-400 font-bold font-heading">{{ selectedGadgets[1]?.name }}</span>
-                    <span class="text-slate-800 dark:text-slate-200 font-mono font-extrabold">
+                    <span class="text-fg-muted font-semibold">{{ selectedGadgets[1]?.name }}</span>
+                    <span class="text-fg font-mono font-semibold">
                       {{ batteryModes[activeBatteryMode].endPctB }}% Remaining at 11:00 PM
                     </span>
                   </div>
-                  <div class="h-3.5 w-full bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden p-0.5">
+                  <div class="h-3.5 w-full bg-surface-3 rounded-full overflow-hidden p-0.5">
                     <div
-                      class="h-full bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full transition-all duration-700"
+                      class="h-full bg-fg hover:bg-fg/85 rounded-full transition-all duration-700"
                       :style="`width: ${batteryModes[activeBatteryMode].endPctB}%`"
                     ></div>
                   </div>
                 </div>
 
-                <div class="pt-3 border-t border-slate-200/70 dark:border-slate-800 flex items-center justify-between text-xs text-slate-500">
+                <div class="pt-3 border-t border-line flex items-center justify-between text-xs text-fg-subtle">
                   <span>{{ batteryModes[activeBatteryMode].summaryNote }}</span>
-                  <span class="font-heading font-bold text-emerald-600 dark:text-emerald-400">
+                  <span class="font-semibold text-positive">
                     {{ batteryModes[activeBatteryMode].winnerNote }}
                   </span>
                 </div>
@@ -516,36 +506,36 @@
           <div v-if="activeVisualLab === 'resale'" class="py-6">
             <div class="max-w-3xl mx-auto space-y-6">
               <div>
-                <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white">
+                <h4 class="font-semibold text-sm text-fg">
                   Kathmandu Secondhand Market Resale Value Curve
                 </h4>
-                <p class="text-xs text-slate-400">Historical depreciation data across New Road &amp; online gadget trading in Nepal</p>
+                <p class="text-xs text-fg-subtle">Historical depreciation data across New Road &amp; online gadget trading in Nepal</p>
               </div>
 
               <div class="grid grid-cols-4 gap-3 text-center">
                 <div
                   v-for="time in resaleTimeline"
                   :key="time.label"
-                  class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800"
+                  class="p-4 rounded-xl bg-surface-2 border border-line"
                 >
-                  <span class="text-[10px] font-heading font-black uppercase text-slate-400 block mb-2">{{ time.label }}</span>
+                  <span class="text-2xs font-semibold uppercase text-fg-subtle block mb-2">{{ time.label }}</span>
 
-                  <div class="space-y-1.5 text-xs font-mono font-bold">
-                    <div class="text-amber-600 dark:text-amber-400">
+                  <div class="space-y-1.5 text-xs font-mono font-semibold">
+                    <div class="text-accent-text">
                       Rs. {{ formatPrice(time.valA) }}
-                      <span class="text-[10px] opacity-75">({{ time.pctA }}%)</span>
+                      <span class="text-2xs opacity-75">({{ time.pctA }}%)</span>
                     </div>
-                    <div class="text-blue-600 dark:text-blue-400">
+                    <div class="text-fg-muted">
                       Rs. {{ formatPrice(time.valB) }}
-                      <span class="text-[10px] opacity-75">({{ time.pctB }}%)</span>
+                      <span class="text-2xs opacity-75">({{ time.pctB }}%)</span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-xs text-amber-800 dark:text-amber-200 flex items-center justify-between">
+              <div class="p-4 rounded-xl bg-accent-soft border border-accent/30 text-xs text-accent-text flex items-center justify-between">
                 <span>{{ resaleVerdictSummary }}</span>
-                <span class="font-heading font-black uppercase text-[10px] px-2 py-0.5 rounded bg-amber-500 text-slate-950">
+                <span class="font-semibold uppercase text-2xs px-2 py-0.5 rounded bg-fg text-canvas">
                   Value Guard
                 </span>
               </div>
@@ -558,118 +548,61 @@
           <!-- /Sidebar + content flex row -->
         </div>
 
-        <!-- ── HARDWARE BENCHMARK CLASH METERS (ROUND BY ROUND) ── -->
-        <div v-if="selectedGadgets.length === 2" class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm p-5 sm:p-6">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-5">
-            <div>
-              <h3 class="font-heading font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
-                <Zap class="w-4 h-4 text-amber-500" />
-                <span>Nepal Lab Hardware Benchmark Breakdown</span>
-              </h3>
-              <p class="text-xs text-slate-500 dark:text-slate-400">Head-to-head hardware index calculated from verified testing</p>
-            </div>
-            <span class="text-xs font-heading font-extrabold text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-full self-start sm:self-auto border border-slate-200 dark:border-slate-700">
-              {{ leftRoundsWon }} : {{ rightRoundsWon }} Rounds
-            </span>
-          </div>
-
-          <div class="space-y-4 max-w-3xl mx-auto">
-            <div
-              v-for="metric in categoryBenchmarkMetrics"
-              :key="metric.label"
-              class="bg-slate-50/70 dark:bg-slate-900/60 p-4 rounded-2xl border border-slate-200/80 dark:border-slate-800/80"
-            >
-              <div class="flex justify-between items-center text-xs font-semibold mb-2">
-                <div class="flex items-center gap-1.5">
-                  <span class="text-amber-600 dark:text-amber-400 font-extrabold font-mono text-sm">{{ metric.leftVal }}</span>
-                  <span v-if="metric.leftPct > metric.rightPct" class="text-[10px] uppercase font-heading font-black text-amber-600 dark:text-amber-400 bg-amber-100 dark:bg-amber-950/80 px-1.5 py-0.2 rounded">
-                    Lead
-                  </span>
-                </div>
-
-                <span class="font-heading font-extrabold text-slate-700 dark:text-slate-300 uppercase text-[11px] tracking-wider">
-                  {{ metric.label }}
-                </span>
-
-                <div class="flex items-center gap-1.5">
-                  <span v-if="metric.rightPct > metric.leftPct" class="text-[10px] uppercase font-heading font-black text-blue-600 dark:text-blue-400 bg-blue-100 dark:bg-blue-950/80 px-1.5 py-0.2 rounded">
-                    Lead
-                  </span>
-                  <span class="text-blue-600 dark:text-blue-400 font-extrabold font-mono text-sm">{{ metric.rightVal }}</span>
-                </div>
-              </div>
-
-              <div class="h-3 w-full bg-slate-200/70 dark:bg-slate-800 rounded-full overflow-hidden flex shadow-inner">
-                <div
-                  class="h-full bg-gradient-to-r from-amber-500 to-brand-500 rounded-l-full transition-all duration-700"
-                  :style="`width: ${metric.leftPct}%`"
-                ></div>
-                <div
-                  class="h-full bg-gradient-to-r from-cyan-500 to-blue-500 rounded-r-full transition-all duration-700 ml-auto"
-                  :style="`width: ${metric.rightPct}%`"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!-- ── "WHY CHOOSE WHICH?" ADVANTAGE CARDS (2-device only) ── -->
-        <div v-if="selectedGadgets.length === 2" class="grid sm:grid-cols-2 gap-6">
-          <div class="rounded-2xl p-6 border border-amber-200 dark:border-amber-800/60 bg-white dark:bg-slate-900 shadow-sm flex flex-col justify-between">
+        <div v-if="selectedGadgets.length === 2 && showLabs" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="rounded-xl p-6 border border-line bg-surface flex flex-col justify-between">
             <div>
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center border border-amber-200 dark:border-amber-800/80">
+                <div class="w-10 h-10 rounded-xl bg-accent-soft text-accent-text flex items-center justify-center border border-accent/30">
                   <CheckCheck class="w-5 h-5" />
                 </div>
                 <div>
-                  <span class="text-[10px] font-heading font-black uppercase tracking-wider text-amber-600 dark:text-amber-400">Key Advantages</span>
-                  <h4 class="font-heading font-bold text-base text-slate-900 dark:text-white">
-                    Why Pick {{ selectedGadgets[0].name }}?
+                                    <h4 class="font-semibold text-base text-fg">
+                    Why choose the {{ selectedGadgets[0].name }}
                   </h4>
                 </div>
               </div>
 
-              <ul class="space-y-2.5 text-xs text-slate-700 dark:text-slate-300">
-                <li v-for="(adv, i) in getDeviceAdvantages(selectedGadgets[0], selectedGadgets[1])" :key="i" class="flex items-start gap-2.5 bg-amber-50/40 dark:bg-amber-950/20 p-2.5 rounded-xl border border-amber-100 dark:border-amber-900/30">
-                  <CheckCircle2 class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
+              <ul class="space-y-2.5 text-xs text-fg-muted">
+                <li v-for="(adv, i) in getDeviceAdvantages(selectedGadgets[0], selectedGadgets[1])" :key="i" class="flex items-start gap-2.5">
+                  <CheckCircle2 class="w-4 h-4 text-accent-text shrink-0 mt-0.5" />
                   <span class="leading-relaxed">{{ adv }}</span>
                 </li>
               </ul>
             </div>
 
-            <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
-              <span class="text-slate-400 font-semibold">Best Suited For:</span>
-              <span class="font-heading font-bold text-amber-600 dark:text-amber-400">
+            <div class="mt-5 pt-4 border-t border-line flex items-center justify-between text-xs">
+              <span class="text-fg-subtle">Best for</span>
+              <span class="font-semibold text-accent-text">
                 {{ getPersonaRecommendation(selectedGadgets[0]) }}
               </span>
             </div>
           </div>
 
-          <div class="rounded-2xl p-6 border border-blue-200 dark:border-blue-800/60 bg-white dark:bg-slate-900 shadow-sm flex flex-col justify-between">
+          <div class="rounded-xl p-6 border border-line bg-surface shadow-sm flex flex-col justify-between">
             <div>
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center border border-blue-200 dark:border-blue-800/80">
+                <div class="w-10 h-10 rounded-xl bg-surface-2 text-fg-muted flex items-center justify-center border border-line">
                   <CheckCheck class="w-5 h-5" />
                 </div>
                 <div>
-                  <span class="text-[10px] font-heading font-black uppercase tracking-wider text-blue-600 dark:text-blue-400">Key Advantages</span>
-                  <h4 class="font-heading font-bold text-base text-slate-900 dark:text-white">
-                    Why Pick {{ selectedGadgets[1].name }}?
+                                    <h4 class="font-semibold text-base text-fg">
+                    Why choose the {{ selectedGadgets[1].name }}
                   </h4>
                 </div>
               </div>
 
-              <ul class="space-y-2.5 text-xs text-slate-700 dark:text-slate-300">
-                <li v-for="(adv, i) in getDeviceAdvantages(selectedGadgets[1], selectedGadgets[0])" :key="i" class="flex items-start gap-2.5 bg-blue-50/40 dark:bg-blue-950/20 p-2.5 rounded-xl border border-blue-100 dark:border-blue-900/30">
-                  <CheckCircle2 class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" />
+              <ul class="space-y-2.5 text-xs text-fg-muted">
+                <li v-for="(adv, i) in getDeviceAdvantages(selectedGadgets[1], selectedGadgets[0])" :key="i" class="flex items-start gap-2.5">
+                  <CheckCircle2 class="w-4 h-4 text-fg-subtle shrink-0 mt-0.5" />
                   <span class="leading-relaxed">{{ adv }}</span>
                 </li>
               </ul>
             </div>
 
-            <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
-              <span class="text-slate-400 font-semibold">Best Suited For:</span>
-              <span class="font-heading font-bold text-blue-600 dark:text-blue-400">
+            <div class="mt-5 pt-4 border-t border-line flex items-center justify-between text-xs">
+              <span class="text-fg-subtle">Best for</span>
+              <span class="font-semibold text-fg-muted">
                 {{ getPersonaRecommendation(selectedGadgets[1]) }}
               </span>
             </div>
@@ -677,13 +610,13 @@
         </div>
 
         <!-- ── FULL SPECIFICATION TABLE (GSMArena-style, plain) ── -->
-        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm overflow-hidden">
-          <div class="p-4 sm:p-5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between gap-3">
-            <h3 class="font-heading font-bold text-sm sm:text-base text-slate-900 dark:text-white">
+        <div class="rounded-xl border border-line bg-surface shadow-sm overflow-hidden">
+          <div class="p-4 sm:p-5 border-b border-line flex items-center justify-between gap-3">
+            <h3 class="font-semibold text-sm sm:text-base text-fg">
               Full Specification Comparison
             </h3>
-            <label class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 cursor-pointer select-none shrink-0">
-              <input v-model="onlyDifferences" type="checkbox" class="rounded border-slate-300 dark:border-slate-600 text-brand-500 focus:ring-brand-400 cursor-pointer" />
+            <label class="flex items-center gap-2 text-xs text-fg-subtle cursor-pointer select-none shrink-0">
+              <input v-model="onlyDifferences" type="checkbox" class="rounded border-line-strong text-accent-text focus:ring-brand-400 cursor-pointer" />
               <span>Differences only</span>
             </label>
           </div>
@@ -691,45 +624,45 @@
           <div class="overflow-x-auto">
             <table class="w-full text-sm text-left border-collapse">
               <thead>
-                <tr class="bg-slate-50 dark:bg-slate-900/70 border-b border-slate-200 dark:border-slate-800">
-                  <th class="p-3 sm:p-4 w-44 sm:w-56 text-[11px] font-bold uppercase tracking-wide text-slate-400">
+                <tr class="bg-surface-2 border-b border-line">
+                  <th class="p-3 sm:p-4 w-44 sm:w-56 text-2xs font-semibold uppercase tracking-wide text-fg-subtle">
                     Specification
                   </th>
                   <th
                     v-for="g in selectedGadgets"
                     :key="g.id"
-                    class="p-3 sm:p-4 border-l border-slate-200 dark:border-slate-800 font-heading font-bold text-slate-900 dark:text-white"
+                    class="p-3 sm:p-4 border-l border-line font-semibold text-fg"
                   >
                     {{ g.name }}
                   </th>
                 </tr>
               </thead>
 
-              <tbody class="divide-y divide-slate-100 dark:divide-slate-800">
+              <tbody class="divide-y divide-line">
                 <template v-for="section in filteredSpecSections" :key="section.name">
-                  <tr class="bg-slate-50/70 dark:bg-slate-900/40">
-                    <td :colspan="selectedGadgets.length + 1" class="py-2 px-3 sm:px-4 text-[11px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400">
+                  <tr class="bg-surface-2">
+                    <td :colspan="selectedGadgets.length + 1" class="py-2 px-3 sm:px-4 text-2xs font-semibold uppercase tracking-wider text-accent-text">
                       {{ section.name }}
                     </td>
                   </tr>
 
-                  <tr v-for="row in section.rows" :key="row.key" class="hover:bg-slate-50/60 dark:hover:bg-slate-800/40 transition">
-                    <td class="p-3 sm:p-4 text-slate-500 dark:text-slate-400 font-medium bg-slate-50/40 dark:bg-slate-900/20 border-r border-slate-100 dark:border-slate-800/70">
+                  <tr v-for="row in section.rows" :key="row.key" class="hover:bg-surface-2 transition">
+                    <td class="p-3 sm:p-4 text-fg-subtle font-medium bg-surface-2 border-r border-line">
                       {{ row.label }}
                     </td>
 
                     <td
                       v-for="g in selectedGadgets"
                       :key="g.id + '-' + row.key"
-                      class="p-3 sm:p-4 border-l border-slate-100 dark:border-slate-800/70"
-                      :class="isCellWinner(g, row) ? 'font-bold text-emerald-600 dark:text-emerald-400' : 'text-slate-700 dark:text-slate-300'"
+                      class="p-3 sm:p-4 border-l border-line"
+                      :class="isCellWinner(g, row) ? 'font-semibold text-positive' : 'text-fg-muted'"
                     >
                       <a
                         v-if="row.key === 'buy_link'"
                         :href="g.buy_url || g.referral_buy_url || route('gadgets.show', g.slug)"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="inline-flex items-center gap-1.5 text-brand-600 dark:text-brand-400 font-semibold hover:underline"
+                        class="inline-flex items-center gap-1.5 text-accent-text font-semibold hover:underline"
                       >
                         <span>Check Price</span>
                         <ExternalLink class="w-3 h-3" />
@@ -744,22 +677,22 @@
         </div>
 
         <!-- ── AI BUYING VERDICT ── -->
-        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm p-5 sm:p-6">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 mb-4 border-b border-slate-100 dark:border-slate-800">
+        <div class="rounded-xl border border-line bg-surface shadow-sm p-5 sm:p-6">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 mb-4 border-b border-line">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0">
+              <div class="w-10 h-10 rounded-xl bg-surface-2 text-fg-muted flex items-center justify-center shrink-0">
                 <Bot class="w-5 h-5" />
               </div>
               <div>
-                <h3 class="font-heading font-bold text-sm sm:text-base text-slate-900 dark:text-white">AI Buying Verdict</h3>
-                <p class="text-xs text-slate-500 dark:text-slate-400">A quick, independent recommendation for Nepal buyers</p>
+                <h3 class="font-semibold text-sm sm:text-base text-fg">AI Buying Verdict</h3>
+                <p class="text-xs text-fg-subtle">A quick, independent recommendation for Nepal buyers</p>
               </div>
             </div>
 
             <button
               @click="getAiSuggestion"
               :disabled="aiLoading"
-              class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs transition flex items-center gap-2 cursor-pointer self-start sm:self-auto disabled:opacity-60"
+              class="px-4 py-2 rounded-xl bg-fg hover:bg-fg/85 text-canvas font-semibold text-xs transition flex items-center gap-2 cursor-pointer self-start sm:self-auto disabled:opacity-60"
             >
               <Sparkles v-if="aiLoading" class="w-4 h-4 animate-spin" />
               <Bot v-else class="w-4 h-4" />
@@ -767,43 +700,43 @@
             </button>
           </div>
 
-          <div v-if="aiLoading" class="py-8 text-center text-sm text-slate-500 dark:text-slate-400">
+          <div v-if="aiLoading" class="py-8 text-center text-sm text-fg-subtle">
             Analyzing specs and Nepal pricing&hellip;
           </div>
 
           <div v-if="aiSuggestion && !aiLoading" class="space-y-3">
-            <div class="bg-slate-50 dark:bg-slate-950/50 p-5 sm:p-6 rounded-xl border border-slate-200/80 dark:border-slate-800">
-              <div class="prose prose-sm dark:prose-invert max-w-none text-slate-800 dark:text-slate-200" v-html="formattedAiSuggestion"></div>
+            <div class="bg-surface-2 p-5 sm:p-6 rounded-xl border border-line">
+              <div class="prose prose-sm dark:prose-invert max-w-none text-fg" v-html="formattedAiSuggestion"></div>
             </div>
             <button
               @click="copyVerdict"
-              class="text-xs text-slate-500 hover:text-brand-500 transition flex items-center gap-1.5 cursor-pointer font-semibold"
+              class="text-xs text-fg-subtle hover:text-fg transition flex items-center gap-1.5 cursor-pointer font-semibold"
             >
-              <Check v-if="verdictCopied" class="w-3.5 h-3.5 text-emerald-500" />
+              <Check v-if="verdictCopied" class="w-3.5 h-3.5 text-positive" />
               <Copy v-else class="w-3.5 h-3.5" />
               <span>{{ verdictCopied ? 'Copied!' : 'Copy verdict' }}</span>
             </button>
           </div>
 
-          <p v-if="aiError" class="text-xs text-rose-500 font-semibold">{{ aiError }}</p>
+          <p v-if="aiError" class="text-xs text-negative font-semibold">{{ aiError }}</p>
         </div>
 
         <!-- ── RETAIL & WARRANTY BANNER ── -->
-        <div class="rounded-2xl p-5 sm:p-6 bg-brand-50/60 dark:bg-slate-900 border border-brand-200/60 dark:border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="rounded-xl p-5 sm:p-6 bg-accent-soft dark:bg-slate-900 border border-accent/30 dark:border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <div class="flex items-center gap-3">
-            <div class="w-11 h-11 rounded-xl bg-brand-500 text-white flex items-center justify-center shrink-0">
+            <div class="w-11 h-11 rounded-xl bg-fg text-canvas flex items-center justify-center shrink-0">
               <ShieldCheck class="w-6 h-6" />
             </div>
             <div>
-              <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white">Buy from Authorized Retailers</h4>
-              <p class="text-xs text-slate-600 dark:text-slate-400 mt-0.5 max-w-lg leading-relaxed">
-                Git Infosys is an independent evaluator. Purchase from verified retailers for a genuine VAT invoice and official manufacturer warranty.
+              <h4 class="font-semibold text-sm text-fg">Buy from Authorized Retailers</h4>
+              <p class="text-xs text-fg-muted mt-0.5 max-w-lg leading-relaxed">
+                Prices are collected from retailers in Nepal. Buy from an authorized seller and ask for a VAT bill and the official warranty.
               </p>
             </div>
           </div>
           <Link
             :href="route('gadgets.index')"
-            class="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-950 font-bold text-xs transition flex items-center gap-1.5 shrink-0 cursor-pointer"
+            class="px-5 py-2.5 rounded-xl bg-fg hover:bg-fg/85 text-canvas font-semibold text-xs transition flex items-center gap-1.5 shrink-0 cursor-pointer"
           >
             <span>Browse All Devices</span>
             <ChevronRight class="w-3.5 h-3.5" />
@@ -816,11 +749,11 @@
       <!-- FALLBACK: NOT ENOUGH DEVICES IN THIS CATEGORY YET            -->
       <!-- ═══════════════════════════════════════════════════════════ -->
       <div v-else class="py-12 text-center max-w-xl mx-auto">
-        <div class="w-14 h-14 rounded-2xl bg-brand-500/15 text-brand-600 dark:text-brand-400 flex items-center justify-center mx-auto mb-4">
+        <div class="w-14 h-14 rounded-xl bg-accent-soft text-accent-text flex items-center justify-center mx-auto mb-4">
           <Scale class="w-7 h-7" />
         </div>
-        <h1 class="font-heading text-2xl font-extrabold text-slate-900 dark:text-white">Not enough devices yet</h1>
-        <p class="text-slate-500 dark:text-slate-400 text-sm mt-2">
+        <h1 class="text-2xl font-semibold text-fg">Not enough devices yet</h1>
+        <p class="text-fg-subtle text-sm mt-2">
           {{ currentCategoryName }} needs at least 2 listed devices to compare. Try another category.
         </p>
       </div>
@@ -838,27 +771,27 @@
       leave-to-class="opacity-0"
     >
       <div v-if="pickerOpen" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-md">
-        <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 w-full max-w-xl max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
-          <div class="p-4 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between">
-            <h3 class="font-heading font-bold text-sm text-slate-900 dark:text-white">
+        <div class="bg-surface rounded-xl border border-line w-full max-w-xl max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+          <div class="p-4 border-b border-line flex items-center justify-between">
+            <h3 class="font-semibold text-sm text-fg">
               Select a {{ currentCategoryName }}
             </h3>
             <button
               @click="closePicker"
-              class="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition cursor-pointer"
+              class="p-1.5 rounded-lg text-fg-subtle hover:text-fg hover:bg-surface-2 transition cursor-pointer"
             >
               <X class="w-5 h-5" />
             </button>
           </div>
 
-          <div class="p-3 border-b border-slate-100 dark:border-slate-800">
+          <div class="p-3 border-b border-line">
             <div class="relative">
-              <Search class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+              <Search class="w-4 h-4 text-fg-subtle absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
               <input
                 v-model="pickerSearchQuery"
                 type="text"
                 placeholder="Search by model or brand&hellip;"
-                class="w-full pl-9 pr-3 py-2 rounded-xl text-sm bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 outline-none focus:border-brand-500"
+                class="w-full pl-9 pr-3 py-2 rounded-xl text-sm bg-surface-2 border border-line text-fg outline-none focus:border-fg/40"
                 autofocus
               />
             </div>
@@ -869,24 +802,24 @@
               v-for="alt in pickerFilteredGadgets"
               :key="alt.id"
               @click="selectDevice(activePickerSlot, alt.slug)"
-              class="flex items-center justify-between p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/60 transition cursor-pointer group"
+              class="flex items-center justify-between p-2.5 rounded-xl hover:bg-surface-2 transition cursor-pointer group"
             >
               <div class="flex items-center gap-3 min-w-0">
-                <div class="w-11 h-11 rounded-lg bg-slate-100 dark:bg-slate-800 p-1 flex items-center justify-center shrink-0 border border-slate-200 dark:border-slate-700">
+                <div class="w-11 h-11 rounded-lg bg-surface-2 p-1 flex items-center justify-center shrink-0 border border-line">
                   <img v-if="alt.image" :src="`/storage/${alt.image}`" :alt="alt.name" class="w-full h-full object-contain" />
-                  <component :is="getCategoryIcon(alt.category?.slug || category)" v-else class="w-5 h-5 text-slate-400" />
+                  <component :is="getCategoryIcon(alt.category?.slug || category)" v-else class="w-5 h-5 text-fg-subtle" />
                 </div>
                 <div class="min-w-0">
-                  <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">{{ alt.brand?.name }}</span>
-                  <span class="text-sm font-semibold text-slate-900 dark:text-white truncate block group-hover:text-brand-600 dark:group-hover:text-brand-400 transition">{{ alt.name }}</span>
+                  <span class="text-2xs font-semibold text-fg-subtle uppercase tracking-wider block">{{ alt.brand?.name }}</span>
+                  <span class="text-sm font-semibold text-fg truncate block group-hover:text-fg dark:group-hover:text-fg transition">{{ alt.name }}</span>
                 </div>
               </div>
-              <span class="font-heading font-bold text-sm text-brand-600 dark:text-brand-400 shrink-0">
+              <span class="font-semibold text-sm text-accent-text shrink-0">
                 Rs. {{ formatPrice(alt.price) }}
               </span>
             </div>
 
-            <div v-if="pickerFilteredGadgets.length === 0" class="py-8 text-center text-slate-400 text-sm">
+            <div v-if="pickerFilteredGadgets.length === 0" class="py-8 text-center text-fg-subtle text-sm">
               No matching {{ currentCategoryName }} found.
             </div>
           </div>
@@ -897,7 +830,9 @@
 </template>
 
 <script setup>
+import ScrollRow from '@/Components/ScrollRow.vue'
 import AppLayout from '@/Layouts/AppLayout.vue'
+import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { Link, router } from '@inertiajs/vue3'
 import { ref, computed } from 'vue'
 import axios from 'axios'
@@ -907,7 +842,7 @@ import {
   Scale, Bot, Sparkles, ShoppingBag, ExternalLink, ChevronRight,
   Check, X, ShieldCheck, Share2, Copy, Search, Flame, Plus,
   RotateCcw, TrendingDown, Compass, Camera, Maximize2, Battery,
-  TrendingUp, Zap, CheckCheck, CheckCircle2,
+  TrendingUp, Zap, CheckCheck, CheckCircle2, Gamepad2,
 } from 'lucide-vue-next'
 
 const props = defineProps({
@@ -932,7 +867,7 @@ const gridColsClass = computed(() => {
 })
 
 const activeCategories = computed(() => {
-  const allowed = ['mobile', 'laptop', 'earbuds', 'smartwatch']
+  const allowed = ['mobile', 'laptop', 'tablet', 'earbuds', 'headphones', 'smartwatch', 'gaming', 'games']
   if (props.categories && props.categories.length) {
     const list = props.categories.filter(c => allowed.includes(c.slug))
     if (list.length) return list
@@ -942,8 +877,21 @@ const activeCategories = computed(() => {
     { slug: 'laptop', name: 'Laptops' },
     { slug: 'earbuds', name: 'Earbuds' },
     { slug: 'smartwatch', name: 'Smartwatches' },
+    { slug: 'gaming', name: 'Consoles' },
+    { slug: 'games', name: 'Games' },
   ]
 })
+
+// The radar / camera / battery "labs" are phone- and laptop-specific; they mean nothing for a game.
+const showLabs = computed(() => ['mobile', 'laptop'].includes(props.category || 'mobile'))
+
+/** Price cell: Nepal price, or the labelled launch price for devices and games sold without one. */
+function priceLabel(g) {
+  if (Number(g.price) > 0) return 'Rs. ' + formatPrice(g.price)
+  const note = (g.launch_price_note || '').split('·').pop().trim()
+    .replace(' US launch price', ' in the US').replace(' India launch price', ' in India')
+  return note ? `No Nepal price (launched at ${note})` : 'No Nepal price yet'
+}
 
 const currentCategoryName = computed(() => {
   const match = activeCategories.value.find(c => c.slug === (props.category || 'mobile'))
@@ -1217,49 +1165,6 @@ const resaleVerdictSummary = computed(() =>
 )
 
 // Category-tailored benchmark meters
-const categoryBenchmarkMetrics = computed(() => {
-  const cat = props.category || 'mobile'
-  if (!props.selectedGadgets[0] || !props.selectedGadgets[1]) return []
-
-  if (cat === 'laptop') {
-    return [
-      { label: 'CPU Architecture & Multi-Core', leftVal: '9.6 / 10', rightVal: '9.2 / 10', leftPct: 53, rightPct: 47 },
-      { label: 'Display Color Gamut & Nits', leftVal: '3K AMOLED 120Hz', rightVal: 'FHD IPS 60Hz', leftPct: 60, rightPct: 40 },
-      { label: 'Battery Life & Productivity', leftVal: '18 Hrs Active', rightVal: '10 Hrs Typical', leftPct: 58, rightPct: 42 },
-      { label: 'Chassis Build & Portability', leftVal: 'Ultra-thin 1.23kg', rightVal: 'Durable 1.75kg', leftPct: 55, rightPct: 45 },
-      { label: 'Nepal Value-for-Money Index', leftVal: '9.3 / 10', rightVal: '9.1 / 10', leftPct: 51, rightPct: 49 },
-    ]
-  }
-  if (cat === 'earbuds') {
-    return [
-      { label: 'Active Noise Cancellation (ANC)', leftVal: 'Integrated Processor V2', rightVal: 'Passive Isolation', leftPct: 70, rightPct: 30 },
-      { label: 'Audio Driver & Hi-Res Codec', leftVal: 'LDAC 24-bit Sound', rightVal: 'AAC / SBC Standard', leftPct: 65, rightPct: 35 },
-      { label: 'Total Battery & Case Playtime', leftVal: '32 Hours with Case', rightVal: '42 Hours with Case', leftPct: 45, rightPct: 55 },
-      { label: 'Microphone & ENC Voice Clarity', leftVal: 'AI Bone Conduction', rightVal: 'Dual Mic ENx', leftPct: 60, rightPct: 40 },
-      { label: 'Nepal Value-for-Money Index', leftVal: '9.2 / 10', rightVal: '9.5 / 10', leftPct: 49, rightPct: 51 },
-    ]
-  }
-  if (cat === 'smartwatch') {
-    return [
-      { label: 'Biometric Sensors & Medical ECG', leftVal: 'Optical Heart & SpO2', rightVal: 'BioActive Sensor + ECG', leftPct: 40, rightPct: 60 },
-      { label: 'Display Brightness & Sapphire Glass', leftVal: '1.96-inch 500 Nits', rightVal: 'Sapphire Crystal 2000 Nits', leftPct: 42, rightPct: 58 },
-      { label: 'Battery Endurance & Standby (Days)', leftVal: '7 Days Continuous', rightVal: '40 Hours WearOS', leftPct: 65, rightPct: 35 },
-      { label: 'App Ecosystem, Google Play & Calls', leftVal: 'BT Calling & Alerts', rightVal: 'Full WearOS App Store', leftPct: 40, rightPct: 60 },
-      { label: 'Nepal Value-for-Money Index', leftVal: '9.4 / 10', rightVal: '9.1 / 10', leftPct: 52, rightPct: 48 },
-    ]
-  }
-
-  return [
-    { label: 'Performance & NPU Processing', leftVal: '9.8 / 10', rightVal: '9.7 / 10', leftPct: 52, rightPct: 48 },
-    { label: 'Camera Array & Optics Sensors', leftVal: '50MP Triple Array', rightVal: '48MP ProRAW Fusion', leftPct: 50, rightPct: 50 },
-    { label: 'Battery Endurance & Fast Charging', leftVal: '4000 mAh · 25W', rightVal: '3274 mAh · 27W', leftPct: 53, rightPct: 47 },
-    { label: 'Display Refresh & Peak Brightness', leftVal: '2600 Nits Dynamic AMOLED', rightVal: '2000 Nits ProMotion', leftPct: 52, rightPct: 48 },
-    { label: 'Nepal Value-for-Money Index', leftVal: '9.4 / 10', rightVal: '9.1 / 10', leftPct: 51, rightPct: 49 },
-  ]
-})
-
-const leftRoundsWon = computed(() => categoryBenchmarkMetrics.value.filter(m => m.leftPct >= m.rightPct).length)
-const rightRoundsWon = computed(() => categoryBenchmarkMetrics.value.filter(m => m.rightPct > m.leftPct).length)
 
 // "Why Choose Which?" advantages generator
 function getDeviceAdvantages(target, rival) {
@@ -1268,10 +1173,10 @@ function getDeviceAdvantages(target, rival) {
   const rivalPrice = Number(rival.price || 0)
 
   if (targetPrice && rivalPrice && targetPrice < rivalPrice) {
-    adv.push(`Costs Rs. ${(rivalPrice - targetPrice).toLocaleString('en-NP')} less than ${rival.name}`)
+    adv.push(`Rs ${(rivalPrice - targetPrice).toLocaleString('en-IN')} cheaper than the ${rival.name}`)
   }
   if (target.old_price && target.old_price > target.price) {
-    adv.push(`Active verified promotion: Save Rs. ${(target.old_price - target.price).toLocaleString('en-NP')}`)
+    adv.push(`Currently Rs ${(target.old_price - target.price).toLocaleString('en-IN')} off`)
   }
 
   const tSpecs = target.specs || {}
@@ -1293,17 +1198,16 @@ function getDeviceAdvantages(target, rival) {
   const rWeight = parseFloat(rSpecs.weight || '0')
   if (tWeight && rWeight && tWeight < rWeight) adv.push(`Lighter in hand (${tWeight}g vs ${rWeight}g)`)
 
-  if (adv.length < 3 && target.is_trending) adv.push('High consumer demand & verified trending gadget in Nepal')
-  if (adv.length < 3) adv.push('Verified official 1-Year Nepal warranty via authorized distributors')
+  if (adv.length < 3 && target.is_trending) adv.push('One of the most viewed devices on Git Infosys right now')
 
   return adv.slice(0, 4)
 }
 
 function getPersonaRecommendation(gadget) {
   const p = Number(gadget.price || 0)
-  if (p > 150000) return 'Pro Creators & Flagship Enthusiasts'
-  if (p > 80000) return 'Power Users & Mobile Gamers'
-  return 'Everyday Users & Value Seekers'
+  if (p > 150000) return 'Creators and enthusiasts'
+  if (p > 80000) return 'Power users and gamers'
+  return 'Everyday use on a budget'
 }
 
 // ── DEVICE PICKER MODAL (used for both "Change" on a filled slot and "Add Device") ──
@@ -1353,7 +1257,7 @@ function navigateWithSlugs(slugList) {
 // ── SPEC TABLE (grouped, GSMArena-style) ──
 const onlyDifferences = ref(false)
 
-const specSections = [
+const hardwareSections = [
   {
     name: 'Price',
     rows: [
@@ -1388,10 +1292,64 @@ const specSections = [
   },
 ]
 
+// Games compare on what matters for a game; consoles add GPU and output to the hardware rows.
+const gameSections = [
+  { name: 'Price', rows: [{ label: 'Price in Nepal', key: 'price' }] },
+  {
+    name: 'Release',
+    rows: [
+      { label: 'Release date', key: 'x:Release date' },
+      { label: 'Platforms', key: 'x:Platforms' },
+    ],
+  },
+  {
+    name: 'About the game',
+    rows: [
+      { label: 'Developer', key: 'x:Developer' },
+      { label: 'Publisher', key: 'x:Publisher' },
+      { label: 'Genre', key: 'x:Genre' },
+      { label: 'Modes', key: 'x:Modes' },
+    ],
+  },
+]
+const consoleSections = [
+  { name: 'Price', rows: [{ label: 'Price in Nepal', key: 'price' }] },
+  {
+    name: 'Performance',
+    rows: [
+      { label: 'Processor', key: 'processor' },
+      { label: 'Graphics', key: 'x:GPU' },
+      { label: 'Memory', key: 'ram' },
+      { label: 'Storage', key: 'storage' },
+    ],
+  },
+  {
+    name: 'Play',
+    rows: [
+      { label: 'Screen', key: 'display' },
+      { label: 'Output', key: 'x:Output' },
+      { label: 'Disc drive', key: 'x:Disc drive' },
+      { label: 'Type / modes', key: 'x:Type' },
+      { label: 'Battery', key: 'battery' },
+    ],
+  },
+  { name: 'Build', rows: [{ label: 'Weight', key: 'weight' }, { label: 'Connectivity', key: 'connectivity' }] },
+]
+const specSections = computed(() => {
+  const cat = props.category || 'mobile'
+  if (cat === 'games') return gameSections
+  if (cat === 'gaming') return consoleSections
+  return hardwareSections
+})
+
 function getCellValue(gadget, key) {
-  if (key === 'price') return 'Rs. ' + formatPrice(gadget.price)
+  if (key === 'price') return priceLabel(gadget)
   const s = gadget.specs
   if (!s) return '—'
+  if (key.startsWith('x:')) {
+    const extra = s.extra_specs || {}
+    return extra[key.slice(2)] ?? '—'
+  }
   return s[key] ?? '—'
 }
 
@@ -1440,7 +1398,7 @@ function isCellWinner(gadget, row) {
 }
 
 const filteredSpecSections = computed(() => {
-  return specSections
+  return specSections.value
     .map(section => ({
       ...section,
       rows: section.rows.filter(row => !onlyDifferences.value || row.isAction || isRowDifferent(row)),
@@ -1451,6 +1409,7 @@ const filteredSpecSections = computed(() => {
 const catIcons = {
   mobile: Smartphone, laptop: Laptop, tablet: Tablet,
   earbuds: Headphones, smartwatch: Watch, accessory: Mouse,
+  gaming: Gamepad2, games: Gamepad2, headphones: Headphones,
 }
 const getCategoryIcon = (slug) => catIcons[slug] || Cpu
 
@@ -1496,21 +1455,21 @@ function copyVerdict() {
   @apply w-full border-collapse my-4 text-xs;
 }
 :deep(.prose th) {
-  @apply bg-slate-100 dark:bg-slate-800 p-3 text-left font-bold text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700;
+  @apply bg-surface-2 p-3 text-left font-semibold text-fg border border-line;
 }
 :deep(.prose td) {
-  @apply p-3 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300;
+  @apply p-3 border border-line text-fg-muted;
 }
 :deep(.prose h2) {
-  @apply text-base font-bold text-brand-600 dark:text-brand-400 mt-5 mb-2 font-heading;
+  @apply text-base font-semibold text-accent-text mt-5 mb-2 font-heading;
 }
 :deep(.prose h3) {
-  @apply text-sm font-bold text-slate-800 dark:text-slate-200 mt-4 mb-1.5 font-heading;
+  @apply text-sm font-semibold text-fg mt-4 mb-1.5 font-heading;
 }
 :deep(.prose ul) {
   @apply list-disc pl-5 space-y-1.5 my-2 text-xs;
 }
 :deep(.prose strong) {
-  @apply font-bold text-slate-900 dark:text-white;
+  @apply font-semibold text-fg;
 }
 </style>

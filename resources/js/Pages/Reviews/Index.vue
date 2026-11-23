@@ -1,181 +1,141 @@
 <template>
   <AppLayout>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <!-- Breadcrumbs & Header -->
-      <div class="mb-8 border-b border-gray-200 dark:border-gray-800 pb-6">
-        <nav class="text-sm text-gray-500 mb-3 flex items-center gap-2">
-          <Link :href="route('home')" class="hover:text-brand-500 dark:hover:text-brand-400">Home</Link> /
-          <Link :href="route('reviews.index')" class="hover:text-brand-500 dark:hover:text-brand-400">Reviews</Link>
-          <template v-if="isEditorsChoice"> / <span class="text-gray-700 dark:text-gray-300 font-medium">Editor's Choice</span></template>
-          <template v-else> / <span class="text-gray-700 dark:text-gray-300 font-medium">All Reviews</span></template>
-        </nav>
-        <div class="flex items-center gap-3 flex-wrap">
-          <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
-            {{ isEditorsChoice ? "Editor's Choice" : 'Expert Gadget Reviews' }}
-          </h1>
-          <span v-if="isEditorsChoice" class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-950/50 text-purple-700 dark:text-purple-300 text-sm font-bold border border-purple-200 dark:border-purple-800">⭐ Rating ≥ 8.0</span>
-        </div>
-        <p class="text-gray-500 dark:text-gray-400 mt-2 text-lg">
-          {{ isEditorsChoice ? 'Only the best — gadgets our editors rated 8.0 or above.' : 'In-depth tests, honest opinions, and the final verdict.' }}
+    <Breadcrumbs :items="[{ label: 'Reviews', href: route('reviews.index') }, ...(isEditorsChoice ? [{ label: 'Editor’s Choice' }] : [])]" />
+
+    <header class="mt-4 flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <h1 class="text-3xl font-semibold tracking-tight text-fg sm:text-4xl">{{ isEditorsChoice ? 'Editor’s Choice' : 'Reviews' }}</h1>
+        <p class="mt-2 max-w-xl text-fg-muted">
+          {{ isEditorsChoice ? 'Devices we scored 8 or higher out of 10.' : 'Long-form reviews with a score out of 10, what we liked and what we didn’t.' }}
         </p>
       </div>
-
-      <div class="grid lg:grid-cols-4 gap-8">
-        <!-- Main Content Area -->
-        <div class="lg:col-span-3 space-y-10">
-          
-          <!-- Hero Featured Section (91mobiles style: 1 large left, 2 small right) -->
-          <div v-if="featuredReviews?.length" class="grid md:grid-cols-2 gap-4">
-            <!-- Large Main Featured -->
-            <Link v-if="featuredReviews[0]" :href="route('reviews.show', featuredReviews[0].slug)" class="group relative block h-[400px] md:h-[480px] rounded-2xl overflow-hidden">
-              <img :alt="featuredReviews[0].gadget?.name || featuredReviews[0].title" :src="featuredReviews[0].gadget?.image ? `/storage/${featuredReviews[0].gadget.image}` : '/img/placeholder.jpg'" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" />
-              <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent"></div>
-              
-              <!-- Editor's Rating Badge -->
-              <div class="absolute top-4 right-4 bg-yellow-500 text-yellow-950 font-extrabold px-3 py-1 rounded-lg flex items-center gap-1 shadow-lg">
-                <span class="text-sm">⭐</span>
-                <span class="text-lg">{{ featuredReviews[0].rating }}</span>
-              </div>
-
-              <div class="absolute bottom-0 left-0 p-6 w-full">
-                <span class="bg-brand-500 text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3 inline-block">Review</span>
-                <h2 class="text-2xl md:text-3xl font-bold text-white group-hover:text-brand-300 transition leading-tight mb-2">{{ featuredReviews[0].title }}</h2>
-                <p class="text-gray-300 text-sm">by {{ featuredReviews[0].author?.name }}</p>
-              </div>
-            </Link>
-
-            <!-- 2 Smaller Featured on Right -->
-            <div class="grid grid-rows-2 gap-4 h-[400px] md:h-[480px]">
-              <Link v-for="review in featuredReviews.slice(1, 3)" :key="review.id" :href="route('reviews.show', review.slug)" class="group relative block rounded-2xl overflow-hidden h-full">
-                <img :alt="review.gadget?.name || review.title" :src="review.gadget?.image ? `/storage/${review.gadget.image}` : '/img/placeholder.jpg'" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" />
-                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent"></div>
-                
-                <div class="absolute top-3 right-3 bg-yellow-500 text-yellow-950 font-extrabold px-2 py-0.5 rounded-lg flex items-center gap-1 shadow-lg text-sm">
-                  <span>⭐ {{ review.rating }}</span>
-                </div>
-
-                <div class="absolute bottom-0 left-0 p-5 w-full">
-                  <h3 class="text-lg font-bold text-white group-hover:text-brand-300 transition leading-snug mb-1 line-clamp-2">{{ review.title }}</h3>
-                  <p class="text-gray-300 text-xs">{{ review.author?.name }}</p>
-                </div>
-              </Link>
-            </div>
-          </div>
-
-          <!-- Main Feed Title -->
-          <div class="flex items-center justify-between border-b border-gray-200 dark:border-gray-800 pb-3">
-            <h2 class="text-xl font-bold uppercase tracking-wide text-gray-900 dark:text-white">Latest Reviews</h2>
-          </div>
-
-          <!-- Vertical Cards Grid (Main Feed) -->
-          <div v-if="reviews?.data?.length" class="grid sm:grid-cols-2 gap-6">
-            <Link v-for="(review, idx) in reviews.data" :key="review.id" :href="route('reviews.show', review.slug)" 
-                  class="group bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden hover:shadow-xl transition duration-300 flex"
-                  :class="idx % 5 === 0 ? 'flex-col sm:flex-row sm:col-span-2' : 'flex-col'">
-              
-              <!-- Card Image with Rating Overlay -->
-              <div class="relative bg-gray-100 dark:bg-gray-800 overflow-hidden shrink-0"
-                   :class="idx % 5 === 0 ? 'h-64 sm:h-auto sm:w-1/2 md:w-3/5' : 'h-56'">
-                <img :alt="review.gadget?.name || review.title" :src="review.gadget?.image ? `/storage/${review.gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
-                <div class="absolute top-3 right-3 bg-yellow-500 text-yellow-950 font-extrabold px-2 py-1 rounded-lg flex items-center gap-1 shadow-md text-sm">
-                  <span>⭐ {{ review.rating }}</span>
-                </div>
-              </div>
-
-              <!-- Card Content -->
-              <div class="p-5 flex-1 flex flex-col justify-center" :class="idx % 5 === 0 ? 'sm:p-8' : ''">
-                <div class="text-xs text-brand-500 dark:text-brand-400 font-bold uppercase tracking-wider mb-2"
-                     :class="idx % 5 === 0 ? 'sm:mb-3' : ''">
-                  {{ review.gadget?.brand?.name }} {{ review.gadget?.name }}
-                </div>
-                <h3 class="font-bold text-gray-900 dark:text-gray-100 group-hover:text-brand-500 dark:group-hover:text-brand-400 transition leading-snug line-clamp-2"
-                    :class="idx % 5 === 0 ? 'text-xl sm:text-2xl mb-3 sm:mb-4' : 'text-lg mb-2'">
-                  {{ review.title }}
-                </h3>
-                <p v-if="review.verdict" class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 flex-1"
-                   :class="idx % 5 === 0 ? 'sm:text-base sm:line-clamp-3 mb-6' : 'mb-4'">
-                  {{ review.verdict }}
-                </p>
-                <div class="mt-auto flex items-center justify-between text-xs text-gray-500 border-t border-gray-100 dark:border-gray-800 pt-3">
-                  <span class="font-medium">{{ review.author?.name }}</span>
-                  <span>{{ formatDate(review.created_at) }}</span>
-                </div>
-              </div>
-
-            </Link>
-          </div>
-
-          <div v-else class="text-center py-12 text-gray-500">
-             <p class="text-xl font-semibold">No more reviews found.</p>
-          </div>
-
-          <!-- Pagination -->
-          <Pagination :paginator="reviews" />
-        </div>
-
-        <!-- Right Sidebar -->
-        <div class="lg:col-span-1 space-y-8">
-          
-          <!-- Popular Gadgets -->
-          <div v-if="trendingGadgets?.length" class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5">
-            <h3 class="text-sm font-bold uppercase tracking-wider mb-4 border-b border-gray-100 dark:border-gray-800 pb-2 text-gray-900 dark:text-white">🔥 Popular Gadgets</h3>
-            <div class="space-y-4">
-              <Link v-for="gadget in trendingGadgets" :key="gadget.id" :href="route('gadgets.show', gadget.slug)" class="flex gap-3 group">
-                <div class="w-16 h-16 rounded-xl bg-gray-100 dark:bg-gray-800 shrink-0 overflow-hidden">
-                  <img :alt="gadget.name" :src="gadget.image ? `/storage/${gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-110 transition" />
-                </div>
-                <div>
-                  <h4 class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-500 dark:group-hover:text-brand-400 line-clamp-2 leading-snug">{{ gadget.name }}</h4>
-                  <p class="text-xs font-bold text-brand-500 dark:text-brand-400 mt-1">NPR {{ gadget.price?.toLocaleString() }}</p>
-                </div>
-              </Link>
-            </div>
-          </div>
-
-          <!-- Latest News -->
-          <div v-if="sidebarNews?.length" class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5">
-            <h3 class="text-sm font-bold uppercase tracking-wider mb-4 border-b border-gray-100 dark:border-gray-800 pb-2 text-gray-900 dark:text-white">📰 Latest Tech News</h3>
-            <div class="space-y-4">
-              <Link v-for="news in sidebarNews" :key="news.id" :href="route('news.show', news.slug)" class="group block">
-                <p class="text-xs font-bold text-brand-500 dark:text-brand-400 uppercase tracking-widest mb-1">{{ news.category }}</p>
-                <h4 class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-500 transition leading-snug">{{ news.title }}</h4>
-              </Link>
-            </div>
-          </div>
-
-          <!-- Newsletter Banner -->
-          <div class="bg-gradient-to-br from-brand-500 to-navy-700 rounded-2xl p-6 text-white text-center shadow-lg">
-            <div class="text-3xl mb-2">📬</div>
-            <h3 class="font-bold text-lg mb-1">Never Miss a Review</h3>
-            <p class="text-xs text-brand-200 mb-4">Get the latest tech verdicts delivered straight to your inbox.</p>
-            <input type="email" placeholder="Your email address" class="w-full px-3 py-2 rounded-lg text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 mb-2" />
-            <button class="w-full bg-white text-brand-600 font-bold text-sm py-2 rounded-lg hover:bg-gray-50 transition">Subscribe</button>
-          </div>
-
-        </div>
+      <div class="flex gap-2" role="group" aria-label="Filter reviews">
+        <Link :href="route('reviews.index')" class="chip" :aria-current="!isEditorsChoice ? 'page' : undefined">All reviews</Link>
+        <Link :href="route('reviews.index', { filter: 'editors-choice' })" class="chip" :aria-current="isEditorsChoice ? 'page' : undefined">Editor’s Choice</Link>
       </div>
+    </header>
+
+    <!-- Featured -->
+    <section v-if="featuredReviews.length && !isEditorsChoice" class="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-12" aria-label="Featured reviews">
+      <Link :href="route('reviews.show', featuredReviews[0].slug)" class="group lg:col-span-7">
+        <div class="media-plate relative aspect-[16/10] rounded-2xl">
+          <img :src="getImageUrl(featuredReviews[0].gadget?.image)" :alt="featuredReviews[0].gadget?.name || ''" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" />
+          <ScoreBadge :score="featuredReviews[0].rating" size="lg" class="absolute right-4 top-4 shadow-md" />
+        </div>
+        <p class="mt-4 text-sm text-fg-subtle">{{ featuredReviews[0].gadget?.brand?.name }} · {{ formatDate(featuredReviews[0].created_at) }}</p>
+        <h2 class="mt-1 text-2xl font-semibold leading-tight tracking-tight text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4">
+          {{ featuredReviews[0].title }}
+        </h2>
+        <p v-if="featuredReviews[0].verdict" class="mt-2 line-clamp-2 text-fg-muted">{{ featuredReviews[0].verdict }}</p>
+      </Link>
+
+      <div class="divide-y divide-line lg:col-span-5">
+        <Link v-for="review in featuredReviews.slice(1, 4)" :key="review.id" :href="route('reviews.show', review.slug)" class="group flex gap-4 py-5 first:pt-0">
+          <div class="media-plate h-24 w-32 shrink-0 rounded-lg">
+            <img :src="getImageUrl(review.gadget?.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+          </div>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-start justify-between gap-3">
+              <p class="text-xs text-fg-subtle">{{ review.gadget?.brand?.name }}</p>
+              <ScoreBadge :score="review.rating" size="sm" />
+            </div>
+            <h3 class="-mt-1 line-clamp-2 pr-2 font-medium leading-snug text-fg group-hover:underline group-hover:underline-offset-4">{{ review.title }}</h3>
+            <p class="mt-1 text-xs text-fg-subtle">{{ formatDate(review.created_at) }}</p>
+          </div>
+        </Link>
+      </div>
+    </section>
+
+    <div class="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-12">
+      <section class="min-w-0 lg:col-span-8" aria-labelledby="all-heading">
+        <h2 id="all-heading" class="border-b border-line pb-3 text-sm font-semibold text-fg">{{ isEditorsChoice ? 'Highest rated' : 'Latest reviews' }}</h2>
+
+        <ul v-if="reviews.data?.length" class="divide-y divide-line">
+          <li v-for="review in reviews.data" :key="review.id">
+            <Link :href="route('reviews.show', review.slug)" class="group flex gap-5 py-6">
+              <div class="media-plate aspect-[4/3] w-28 shrink-0 rounded-lg sm:w-44">
+                <img :src="getImageUrl(review.gadget?.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+              </div>
+              <div class="min-w-0 flex-1">
+                <div class="flex items-start justify-between gap-4">
+                  <p class="text-xs text-fg-subtle">{{ review.gadget?.brand?.name }} · {{ formatDate(review.created_at) }}</p>
+                  <ScoreBadge :score="review.rating" size="sm" />
+                </div>
+                <h3 class="-mt-0.5 text-lg font-semibold leading-snug text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4">{{ review.title }}</h3>
+                <p v-if="review.verdict" class="mt-1.5 line-clamp-2 text-sm leading-6 text-fg-muted">{{ review.verdict }}</p>
+                <p v-if="review.author?.name" class="mt-2 text-xs text-fg-subtle">By {{ review.author.name }}</p>
+              </div>
+            </Link>
+          </li>
+        </ul>
+
+        <div v-else class="flex flex-col items-center rounded-xl border border-dashed border-line-strong px-6 py-20 text-center">
+          <h3 class="font-semibold text-fg">No reviews here yet</h3>
+          <p class="mt-1 text-sm text-fg-subtle">Check back soon.</p>
+        </div>
+
+        <Pagination :paginator="reviews" />
+      </section>
+
+      <aside class="space-y-10 lg:col-span-4">
+        <div v-if="trendingGadgets.length">
+          <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Popular devices</h2>
+          <ul class="divide-y divide-line">
+            <li v-for="g in trendingGadgets" :key="g.id">
+              <Link :href="route('gadgets.show', g.slug)" class="group flex items-center gap-3 py-3">
+                <div class="media-plate h-12 w-12 shrink-0 rounded-md">
+                  <img v-if="g.image" :src="getImageUrl(g.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                </div>
+                <div class="min-w-0">
+                  <p class="truncate text-sm font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ g.name }}</p>
+                  <p class="tabular text-xs text-fg-subtle">{{ formatPrice(g.price) }}</p>
+                </div>
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div v-if="sidebarNews.length">
+          <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Latest news</h2>
+          <ul class="divide-y divide-line">
+            <li v-for="n in sidebarNews" :key="n.id">
+              <Link :href="route('news.show', n.slug)" class="group block py-3">
+                <p class="text-xs text-accent-text">{{ newsCategoryLabel(n.category) }}</p>
+                <p class="mt-0.5 line-clamp-2 text-sm font-medium leading-snug text-fg group-hover:underline group-hover:underline-offset-4">{{ n.title }}</p>
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rounded-xl bg-surface-2 p-5">
+          <h2 class="font-semibold text-fg">How we score</h2>
+          <p class="mt-1 text-sm leading-6 text-fg-muted">
+            Every review ends with a score out of 10. Devices that score 8 or higher are listed as Editor’s Choice.
+          </p>
+        </div>
+      </aside>
     </div>
   </AppLayout>
 </template>
 
 <script setup>
+import { computed } from 'vue'
+import { Link } from '@inertiajs/vue3'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Pagination from '@/Components/Pagination.vue'
-import { Link } from '@inertiajs/vue3'
-import { computed } from 'vue'
+import Breadcrumbs from '@/Components/Breadcrumbs.vue'
+import ScoreBadge from '@/Components/ScoreBadge.vue'
+import { getImageUrl } from '@/Composables/useImageUrl.js'
+import { newsCategoryLabel } from '@/Composables/useCategories.js'
+import { formatDate, formatPrice } from '@/Composables/useFormat.js'
 
-const props = defineProps({ 
+const props = defineProps({
   featuredReviews: { type: Array, default: () => [] },
   reviews: { type: Object, default: () => ({ data: [], links: [] }) },
   trendingGadgets: { type: Array, default: () => [] },
   sidebarNews: { type: Array, default: () => [] },
-  filters: { type: Object, default: () => ({}) }
+  filters: { type: [Object, Array], default: () => ({}) },
 })
 
-const isEditorsChoice = computed(() => props.filters?.filter === 'editors-choice')
-
-function formatDate(d) {
-  if (!d) return ''
-  return new Date(d).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-}
+const isEditorsChoice = computed(() => !Array.isArray(props.filters) && props.filters?.filter === 'editors-choice')
 </script>

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class ProductVariant extends Model
 {
     protected $fillable = [
-        'gadget_id', 'sku', 'color', 'ram', 'storage', 'size',
+        'gadget_id', 'sku', 'color', 'ram', 'storage', 'edition', 'size',
         'price', 'discounted_price', 'stock_quantity', 'variant_image', 'is_active',
     ];
 
@@ -38,6 +38,7 @@ class ProductVariant extends Model
     {
         return implode(' / ', array_filter([
             $this->color,
+            $this->edition,
             $this->ram ? $this->ram . ' RAM' : null,
             $this->storage,
             $this->size,

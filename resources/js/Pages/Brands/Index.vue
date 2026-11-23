@@ -1,45 +1,38 @@
 <template>
   <AppLayout>
-    <div class="max-w-7xl mx-auto py-6">
-      <div class="mb-8 border-b border-slate-200 dark:border-slate-800 pb-6">
-        <nav class="text-xs text-slate-500 dark:text-slate-400 mb-2 flex items-center gap-1.5">
-          <Link :href="route('home')" class="hover:text-brand-500 transition">Home</Link>
-          <span>/</span>
-          <span class="text-slate-700 dark:text-slate-300 font-semibold">Brands</span>
-        </nav>
-        <h1 class="font-heading text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">Browse by Brand</h1>
-        <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">{{ brands.length }} brands with prices and specs for Nepal.</p>
-      </div>
+    <Breadcrumbs :items="[{ label: 'Brands' }]" />
 
-      <div class="relative max-w-sm mb-6">
-        <Search class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
-        <input
-          v-model="q"
-          type="text"
-          placeholder="Filter brands..."
-          class="w-full bg-white dark:bg-[#111827] border border-slate-200 dark:border-slate-800 rounded-xl pl-9 pr-3 py-2 text-sm outline-none focus:border-brand-500 text-slate-800 dark:text-slate-100 placeholder-slate-400"
-        />
+    <header class="mt-4 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+      <div>
+        <h1 class="text-3xl font-semibold tracking-tight text-fg sm:text-4xl">Brands</h1>
+        <p class="mt-2 text-fg-muted">{{ brands.length }} brands with specifications and prices in Nepal.</p>
       </div>
+      <div class="relative w-full md:w-72">
+        <label for="brand-filter" class="sr-only">Filter brands</label>
+        <Search class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-fg-subtle" :stroke-width="1.75" />
+        <input id="brand-filter" v-model="q" type="search" placeholder="Filter brands" class="input pl-9" />
+      </div>
+    </header>
 
-      <div v-if="filtered.length" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        <Link
-          v-for="b in filtered"
-          :key="b.id"
-          :href="route('brands.show', b.slug)"
-          class="group flex flex-col items-center gap-3 p-5 rounded-2xl bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 hover:border-brand-400 hover:-translate-y-0.5 transition text-center"
-        >
-          <div class="w-16 h-16 flex items-center justify-center">
-            <img v-if="b.logo" :src="getImageUrl(b.logo)" :alt="b.name" loading="lazy" class="max-w-full max-h-full object-contain" />
-            <span v-else class="w-16 h-16 rounded-2xl bg-brand-500/10 text-brand-600 dark:text-brand-400 font-extrabold text-2xl flex items-center justify-center">{{ b.name.charAt(0) }}</span>
-          </div>
-          <div>
-            <p class="font-heading font-bold text-sm text-slate-900 dark:text-white group-hover:text-brand-500 transition">{{ b.name }}</p>
-            <p class="text-[11px] text-slate-400">{{ b.gadgets_count }} {{ b.gadgets_count === 1 ? 'product' : 'products' }}</p>
-          </div>
+    <ul v-if="filtered.length" class="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+      <li v-for="b in filtered" :key="b.id" class="bg-surface">
+        <Link :href="route('brands.show', b.slug)" class="group flex h-full items-center gap-3 p-4 transition-colors hover:bg-surface-2">
+          <span
+            class="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-lg text-base font-semibold text-fg-muted"
+            :class="b.logo ? 'border border-line bg-white p-1.5' : 'bg-surface-2'"
+          >
+            <!-- Logos are brand marks, not photos: keep them whole, on white so dark marks stay visible in dark mode. -->
+            <img v-if="b.logo" :src="getImageUrl(b.logo)" :alt="''" loading="lazy" class="h-full w-full object-contain" />
+            <template v-else>{{ b.name.charAt(0) }}</template>
+          </span>
+          <span class="min-w-0">
+            <span class="block truncate font-medium text-fg">{{ b.name }}</span>
+            <span class="block text-xs text-fg-subtle">{{ b.gadgets_count }} {{ b.gadgets_count === 1 ? 'device' : 'devices' }}</span>
+          </span>
         </Link>
-      </div>
-      <p v-else class="text-center py-16 text-slate-400">No brands match "{{ q }}".</p>
-    </div>
+      </li>
+    </ul>
+    <p v-else class="mt-10 rounded-xl border border-dashed border-line-strong py-16 text-center text-sm text-fg-subtle">No brands match “{{ q }}”.</p>
   </AppLayout>
 </template>
 
@@ -48,6 +41,7 @@ import { computed, ref } from 'vue'
 import { Link } from '@inertiajs/vue3'
 import { Search } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
+import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
 
 const props = defineProps({ brands: { type: Array, default: () => [] } })

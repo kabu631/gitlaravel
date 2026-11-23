@@ -4,6 +4,9 @@
 gadgets/*
 !gadgets/*.jpg
 !gadgets/*.png
+!gadgets/2026/
+gadgets/2026/*
+!gadgets/2026/*.webp
 !brands/
 brands/*
 !brands/*.jpg

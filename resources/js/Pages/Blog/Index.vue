@@ -1,127 +1,92 @@
 <template>
   <AppLayout>
-    <div class="max-w-7xl mx-auto py-6">
-      <!-- Header -->
-      <div class="mb-8 border-b border-slate-200 dark:border-slate-800 pb-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div>
-          <nav class="text-xs text-slate-500 dark:text-slate-400 mb-2 flex items-center gap-1.5">
-            <Link :href="route('home')" class="hover:text-brand-500 transition">Home</Link>
-            <span>/</span>
-            <span class="text-slate-700 dark:text-slate-300 font-semibold">Blog</span>
-          </nav>
-          <h1 class="font-heading text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-2.5">
-            <PenLine class="w-8 h-8 text-brand-500" />
-            <span>The Git Infosys Blog</span>
-          </h1>
-          <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
-            Tips, how-tos, deals and stories from our tech desk.
-          </p>
-        </div>
+    <Breadcrumbs :items="[{ label: 'Blog' }]" />
 
-        <div class="relative w-full md:w-72">
-          <Search class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
-          <input
-            v-model="search"
-            type="text"
-            placeholder="Search posts..."
-            class="w-full bg-white dark:bg-[#111827] border border-slate-200 dark:border-slate-800 rounded-xl pl-9 pr-3 py-2 text-xs outline-none focus:border-brand-500 text-slate-800 dark:text-slate-100 placeholder-slate-400 shadow-xs"
-            @keyup.enter="apply({ search })"
-          />
-        </div>
+    <header class="mt-4 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+      <div>
+        <h1 class="text-3xl font-semibold tracking-tight text-fg sm:text-4xl">Blog</h1>
+        <p class="mt-2 max-w-xl text-fg-muted">How-tos, buying advice and stories from the Git Infosys desk.</p>
       </div>
+      <form class="relative w-full md:w-80" role="search" @submit.prevent="apply({ search })">
+        <label for="blog-search" class="sr-only">Search posts</label>
+        <Search class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-fg-subtle" :stroke-width="1.75" />
+        <input id="blog-search" v-model="search" type="search" placeholder="Search posts" class="input pl-9" />
+      </form>
+    </header>
 
-      <!-- Category pills -->
-      <div v-if="categories.length" class="flex items-center gap-2 overflow-x-auto pb-2 mb-6">
-        <button type="button" class="pill" :class="!filters.category ? 'pill-on' : 'pill-off'" @click="apply({ category: null })">All</button>
-        <button
-          v-for="c in categories"
-          :key="c.slug"
-          type="button"
-          class="pill"
-          :class="filters.category === c.slug ? 'pill-on' : 'pill-off'"
-          @click="apply({ category: c.slug })"
-        >{{ c.name }} <span class="opacity-60">({{ c.count }})</span></button>
-        <button v-if="filters.tag" type="button" class="pill pill-on" @click="apply({ tag: null })">#{{ filters.tag }} ✕</button>
+    <ScrollRow v-if="categories.length || filters.tag" class="mt-8 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+      <button type="button" class="chip" :aria-pressed="!filters.category" @click="apply({ category: null })">All</button>
+      <button v-for="c in categories" :key="c.slug" type="button" class="chip" :aria-pressed="filters.category === c.slug" @click="apply({ category: c.slug })">
+        {{ c.name }} <span class="tabular opacity-60">{{ c.count }}</span>
+      </button>
+      <button v-if="filters.tag" type="button" class="chip" aria-pressed="true" @click="apply({ tag: null })">
+        #{{ filters.tag }} <X class="h-3.5 w-3.5" />
+      </button>
+    </ScrollRow>
+
+    <!-- Featured -->
+    <Link v-if="featured" :href="route('blog.show', featured.slug)" class="group mt-10 grid grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-10">
+      <div class="media-plate aspect-[16/10] rounded-2xl">
+        <img :src="getImageUrl(featured.cover_image)" :alt="featured.title" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" />
       </div>
+      <div>
+        <p class="text-sm text-fg-subtle"><span class="font-medium text-accent-text">{{ featured.category_name }}</span> · {{ meta(featured) }}</p>
+        <h2 class="mt-2 text-2xl font-semibold leading-tight tracking-tight text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4 sm:text-3xl">{{ featured.title }}</h2>
+        <p class="mt-3 line-clamp-3 leading-7 text-fg-muted">{{ featured.excerpt }}</p>
+        <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-fg">Read post <ArrowRight class="h-4 w-4 transition-transform group-hover:translate-x-0.5" /></span>
+      </div>
+    </Link>
 
-      <!-- Featured post -->
-      <Link
-        v-if="featured"
-        :href="route('blog.show', featured.slug)"
-        class="group grid md:grid-cols-2 gap-0 mb-8 rounded-3xl overflow-hidden bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 hover:border-brand-400 transition shadow-xs"
-      >
-        <div class="aspect-video md:aspect-auto bg-slate-100 dark:bg-slate-800 overflow-hidden">
-          <img :src="getImageUrl(featured.cover_image)" :alt="featured.title" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+    <!-- Grid -->
+    <div v-if="gridPosts.length" class="mt-14 grid grid-cols-1 gap-x-6 gap-y-12 border-t border-line pt-10 sm:grid-cols-2 lg:grid-cols-3">
+      <Link v-for="post in gridPosts" :key="post.id" :href="route('blog.show', post.slug)" class="group block">
+        <div class="media-plate aspect-[16/10] rounded-xl">
+          <img :src="getImageUrl(post.cover_image)" :alt="post.title" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
         </div>
-        <div class="p-6 sm:p-8 flex flex-col justify-center">
-          <span class="text-[11px] font-black uppercase tracking-wider text-brand-600 dark:text-brand-400 mb-2">Featured · {{ featured.category_name }}</span>
-          <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white leading-tight group-hover:text-brand-500 transition">{{ featured.title }}</h2>
-          <p class="mt-3 text-sm text-slate-500 dark:text-slate-400 line-clamp-3">{{ featured.excerpt }}</p>
-          <p class="mt-4 text-xs text-slate-400">{{ meta(featured) }}</p>
-        </div>
+        <p class="mt-4 text-xs text-fg-subtle"><span class="font-medium text-accent-text">{{ post.category_name }}</span> · {{ meta(post) }}</p>
+        <h3 class="mt-1.5 text-lg font-semibold leading-snug text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4">{{ post.title }}</h3>
+        <p class="mt-2 line-clamp-2 text-sm leading-6 text-fg-muted">{{ post.excerpt }}</p>
       </Link>
-
-      <!-- Grid -->
-      <div v-if="posts.data.length" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <Link
-          v-for="post in posts.data"
-          :key="post.id"
-          :href="route('blog.show', post.slug)"
-          class="group flex flex-col rounded-2xl overflow-hidden bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 hover:border-brand-400 hover:-translate-y-0.5 transition shadow-xs"
-        >
-          <div class="aspect-video bg-slate-100 dark:bg-slate-800 overflow-hidden">
-            <img :src="getImageUrl(post.cover_image)" :alt="post.title" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
-          </div>
-          <div class="p-5 flex-1 flex flex-col">
-            <span class="text-[10px] font-black uppercase tracking-wider text-brand-600 dark:text-brand-400 mb-1.5">{{ post.category_name }}</span>
-            <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white leading-snug group-hover:text-brand-500 transition line-clamp-2">{{ post.title }}</h3>
-            <p class="mt-2 text-sm text-slate-500 dark:text-slate-400 line-clamp-3 flex-1">{{ post.excerpt }}</p>
-            <p class="mt-3 text-xs text-slate-400">{{ meta(post) }}</p>
-          </div>
-        </Link>
-      </div>
-
-      <div v-else class="text-center py-20 rounded-3xl border border-dashed border-slate-300 dark:border-slate-700">
-        <p class="font-semibold text-slate-700 dark:text-slate-300">No posts found</p>
-        <p class="text-sm text-slate-400 mt-1">Try a different category or search term.</p>
-      </div>
-
-      <Pagination :paginator="posts" />
     </div>
+
+    <div v-else-if="!featured" class="mt-10 flex flex-col items-center rounded-xl border border-dashed border-line-strong px-6 py-20 text-center">
+      <h2 class="font-semibold text-fg">No posts found</h2>
+      <p class="mt-1 text-sm text-fg-subtle">Try a different category or search term.</p>
+    </div>
+
+    <Pagination :paginator="posts" />
   </AppLayout>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import ScrollRow from '@/Components/ScrollRow.vue'
+import { ref, computed } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
-import { PenLine, Search } from 'lucide-vue-next'
+import { Search, ArrowRight, X } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Pagination from '@/Components/Pagination.vue'
+import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
+import { formatDate } from '@/Composables/useFormat.js'
 
 const props = defineProps({
-  posts:      { type: Object, required: true },
-  featured:   { type: Object, default: null },
-  categories: { type: Array,  default: () => [] },
-  filters:    { type: Object, default: () => ({}) },
+  posts: { type: Object, required: true },
+  featured: { type: Object, default: null },
+  categories: { type: Array, default: () => [] },
+  filters: { type: [Object, Array], default: () => ({}) },
 })
 
-const search = ref(props.filters.search || '')
+const filters = computed(() => (Array.isArray(props.filters) ? {} : props.filters))
+const search = ref(filters.value.search || '')
 
-const apply = (patch) => {
-  const query = { ...props.filters, ...patch }
+function apply(patch) {
+  const query = { ...filters.value, ...patch }
   Object.keys(query).forEach(k => { if (!query[k]) delete query[k] })
-  router.get(route('blog.index'), query, { preserveState: true, preserveScroll: false })
+  router.get(route('blog.index'), query, { preserveState: true })
 }
 
-const meta = (p) => {
-  const date = p.published_at ? new Date(p.published_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : ''
-  return [date, `${p.reading_time} min read`, p.author].filter(Boolean).join(' · ')
-}
+// The featured post is shown above, so don't repeat it in the grid.
+const gridPosts = computed(() => props.posts.data.filter(p => p.id !== props.featured?.id))
+
+const meta = p => [formatDate(p.published_at), `${p.reading_time} min read`].filter(Boolean).join(' · ')
 </script>
-
-<style scoped>
-.pill { @apply px-3.5 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer shrink-0; }
-.pill-on { @apply bg-brand-500 text-white shadow-xs; }
-.pill-off { @apply bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700; }
-</style>

@@ -1,33 +1,29 @@
 <template>
-  <div class="glass-card bg-white dark:bg-[#19222e] rounded-3xl p-6 sm:p-8 border border-slate-200/80 dark:border-slate-800/80 shadow-xs relative overflow-hidden">
+  <div class="glass-card bg-surface rounded-xl p-6 sm:p-8 border border-line shadow-xs relative overflow-hidden">
     <!-- Header -->
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800/80">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-line">
       <div>
         <div class="flex items-center gap-2 mb-1.5">
-          <span class="inline-flex items-center gap-1.5 text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-md bg-brand-500/15 text-brand-700 dark:text-brand-300 border border-brand-500/30">
-            <TrendingDown class="w-3.5 h-3.5 text-brand-500" />
-            Kathmandu Resale Index
-          </span>
-          <span class="text-xs text-slate-400 font-medium">Hamrobazar &amp; New Road Market Forecast</span>
+          <span class="text-xs text-fg-subtle font-medium">Hamrobazar &amp; New Road Market Forecast</span>
         </div>
-        <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">
-          3-Year Resale &amp; Depreciation Forecaster
+        <h3 class="text-lg font-semibold tracking-tight text-fg">
+          Resale value
         </h3>
-        <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+        <p class="text-xs text-fg-subtle mt-1">
           Estimated second-hand market value retention over time based on Kathmandu historical trade-ins.
         </p>
       </div>
 
       <!-- Condition Selector Dropdown/Pills -->
-      <div class="flex items-center gap-1.5 bg-slate-50 dark:bg-slate-800/60 p-1.5 rounded-2xl border border-slate-100 dark:border-slate-700/60 shrink-0">
+      <div class="flex items-center gap-1.5 bg-surface-2 p-1.5 rounded-xl border border-line shrink-0">
         <button
           v-for="c in conditions"
           :key="c.id"
           @click="selectedCondition = c.id"
           class="px-2.5 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer"
           :class="selectedCondition === c.id
-            ? 'bg-brand-500 text-slate-950 font-extrabold shadow-sm'
-            : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'"
+            ? 'bg-fg text-canvas font-semibold shadow-sm'
+            : 'text-fg-muted hover:text-fg'"
         >
           {{ c.label }}
         </button>
@@ -39,26 +35,26 @@
       <div
         v-for="node in timelineNodes"
         :key="node.year"
-        class="p-4 rounded-2xl border transition-all duration-300 relative overflow-hidden"
+        class="p-4 rounded-xl border transition-all duration-300 relative overflow-hidden"
         :class="node.isCurrent
-          ? 'bg-brand-500/10 dark:bg-brand-950/30 border-brand-400/80 dark:border-brand-800/80 shadow-xs'
-          : 'bg-slate-50/70 dark:bg-slate-800/40 border-slate-200/60 dark:border-slate-700/60'"
+          ? 'bg-accent-soft border-accent/30 shadow-xs'
+          : 'bg-surface-2 border-line'"
       >
-        <div class="text-[10px] uppercase font-bold text-slate-400 tracking-wider mb-1 flex items-center justify-between">
+        <div class="text-2xs uppercase font-semibold text-fg-subtle tracking-wider mb-1 flex items-center justify-between">
           <span>{{ node.period }}</span>
-          <span class="font-mono text-brand-600 dark:text-brand-400 font-extrabold">{{ node.percent }}% Retention</span>
+          <span class="font-mono text-accent-text font-semibold">{{ node.percent }}% Retention</span>
         </div>
 
-        <div class="font-heading font-extrabold text-lg sm:text-xl text-slate-900 dark:text-white mt-1">
+        <div class="font-semibold text-lg sm:text-xl text-fg mt-1">
           Rs. {{ Number(node.value).toLocaleString('en-NP') }}
         </div>
 
-        <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-2 leading-tight">
+        <p class="text-2xs text-fg-subtle mt-2 leading-tight">
           {{ node.desc }}
         </p>
 
         <!-- Visual Progress Bar -->
-        <div class="w-full bg-slate-200 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden mt-3">
+        <div class="w-full bg-surface-3 h-1.5 rounded-full overflow-hidden mt-3">
           <div
             class="bg-brand-500 h-full rounded-full transition-all duration-500"
             :style="{ width: `${node.percent}%` }"
@@ -68,16 +64,16 @@
     </div>
 
     <!-- Trade-In Recommendation & Store Card -->
-    <div class="mt-6 p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200/60 dark:border-slate-700/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+    <div class="mt-6 p-4 rounded-xl bg-surface-2 border border-line flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
       <div class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-xl bg-[#232F3F] text-brand-400 flex items-center justify-center shrink-0 shadow-xs border border-navy-700">
           <RotateCcw class="w-5 h-5" />
         </div>
         <div>
-          <div class="text-xs font-bold text-slate-900 dark:text-white">
+          <div class="text-xs font-semibold text-fg">
             Looking to Trade-In this device in Nepal?
           </div>
-          <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+          <p class="text-2xs text-fg-subtle mt-0.5">
             Check estimated resale valuation and certified second-hand market rates across Kathmandu and Nepal.
           </p>
         </div>
@@ -85,7 +81,7 @@
 
       <Link
         :href="route('gadgets.index')"
-        class="shrink-0 px-4 py-2 rounded-xl bg-brand-500 hover:bg-brand-600 text-slate-950 font-heading font-extrabold text-xs transition flex items-center gap-1.5 cursor-pointer shadow-xs hover:shadow-glow-brand"
+        class="shrink-0 px-4 py-2 rounded-xl bg-fg hover:bg-fg/85 text-canvas font-semibold text-xs transition flex items-center gap-1.5 cursor-pointer shadow-xs"
       >
         <span>Compare Market Value</span>
         <ArrowRight class="w-3.5 h-3.5" />

@@ -12,6 +12,7 @@ use App\Models\Gadget;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\RichEditor;
+use Filament\Forms\Components\Textarea;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -53,6 +54,27 @@ class GadgetResource extends Resource
                     ->searchable()->preload()->nullable(),
                 TextInput::make('price')->numeric()->prefix('NPR')->required(),
                 TextInput::make('old_price')->numeric()->prefix('NPR')->nullable()->label('Old Price'),
+                Select::make('release_status')
+                    ->label('Release status')
+                    ->options(Gadget::STATUSES)
+                    ->default(Gadget::STATUS_AVAILABLE)
+                    ->required()
+                    ->live()
+                    ->helperText('Announced: launched globally, official Nepal price not out yet. Upcoming: not launched yet.'),
+                TextInput::make('expected_launch')
+                    ->label('Expected launch (text)')
+                    ->placeholder('e.g. January–February 2027')
+                    ->maxLength(120)
+                    ->visible(fn ($get) => $get('release_status') !== Gadget::STATUS_AVAILABLE),
+                Toggle::make('price_is_estimate')
+                    ->label('Price is an estimate')
+                    ->helperText('Shows "Expected price" on the site and leaves the price out of Product structured data.')
+                    ->inline(false),
+                TextInput::make('launch_price_note')
+                    ->label('Launch price (when there is no Nepal price)')
+                    ->placeholder('e.g. $999 US launch price (64GB)')
+                    ->helperText('For discontinued models, grey-imported consoles and games. Set the Price to 0 and the site shows this instead.')
+                    ->maxLength(120),
                 Select::make('accessory_type')
                     ->label('Accessory Type')
                     ->options(fn() => AccessoryType::orderBy('name')->pluck('name', 'slug')->toArray())
@@ -101,6 +123,17 @@ class GadgetResource extends Resource
                         TextInput::make('alt_text')
                             ->label('Alt Text')
                             ->placeholder('e.g. Front view of Notebook Pro')
+                            ->maxLength(255)
+                            ->nullable(),
+                        TextInput::make('source_url')
+                            ->label('Image source / credit URL')
+                            ->url()
+                            ->maxLength(500)
+                            ->nullable(),
+                        TextInput::make('credit')
+                            ->label('Visible credit')
+                            ->placeholder('e.g. Photo: Jane Doe, CC BY-SA 4.0, via Wikimedia Commons')
+                            ->helperText('Shown under the image. Required for Creative Commons photos; leave empty for official images.')
                             ->maxLength(255)
                             ->nullable(),
                         TextInput::make('order')
@@ -187,6 +220,37 @@ class GadgetResource extends Resource
                 Toggle::make('is_trending')->label('Trending'),
             ])->columns(2),
 
+            Section::make('FAQs')->columnSpanFull()
+                ->description('Shown at the bottom of the product page and published as FAQPage structured data.')
+                ->schema([
+                    Repeater::make('faqs')
+                        ->hiddenLabel()
+                        ->schema([
+                            TextInput::make('question')->required()->maxLength(255)->columnSpanFull(),
+                            Textarea::make('answer')->required()->rows(3)->columnSpanFull(),
+                        ])
+                        ->addActionLabel('+ Add question')
+                        ->reorderable()
+                        ->collapsible()
+                        ->itemLabel(fn (array $state): ?string => $state['question'] ?? null)
+                        ->defaultItems(0),
+                ])->collapsible(),
+
+            Section::make('Research sources')->columnSpanFull()
+                ->description('Where prices and specs came from. Shown as a short "Sources" list on the product page.')
+                ->schema([
+                    Repeater::make('sources')
+                        ->hiddenLabel()
+                        ->schema([
+                            TextInput::make('label')->required()->maxLength(160),
+                            TextInput::make('url')->url()->required()->maxLength(500),
+                            TextInput::make('accessed')->label('Checked on')->type('date'),
+                        ])
+                        ->columns(3)
+                        ->addActionLabel('+ Add source')
+                        ->defaultItems(0),
+                ])->collapsible()->collapsed(),
+
             Section::make('Price Tracking Insights')->columnSpanFull()->schema([
                 RichEditor::make('price_tracker_description')
                     ->nullable()
@@ -206,6 +270,13 @@ class GadgetResource extends Resource
             TextColumn::make('brand.name')->sortable(),
             TextColumn::make('category.name')->sortable(),
             TextColumn::make('price')->money('NPR')->sortable(),
+            TextColumn::make('release_status')->label('Status')->badge()
+                ->formatStateUsing(fn ($state) => Gadget::STATUSES[$state] ?? $state)
+                ->color(fn ($state) => match ($state) {
+                    Gadget::STATUS_UPCOMING  => 'warning',
+                    Gadget::STATUS_ANNOUNCED => 'info',
+                    default                  => 'success',
+                }),
             TextColumn::make('algorithmic_badges')->sortable(false)
                 ->label('Algo Highlights')
                 ->badge()
@@ -224,6 +295,17 @@ class GadgetResource extends Resource
         ])->filters([
             SelectFilter::make('brand')->relationship('brand', 'name'),
             SelectFilter::make('category')->relationship('category', 'name'),
+            SelectFilter::make('release_status')->label('Status')->options(Gadget::STATUSES),
+            // Quickly find products that still need a picture.
+            TernaryFilter::make('has_image')
+                ->label('Has image')
+                ->placeholder('All products')
+                ->trueLabel('With image')
+                ->falseLabel('Missing image')
+                ->queries(
+                    true: fn ($q) => $q->whereNotNull('image')->where('image', '!=', ''),
+                    false: fn ($q) => $q->where(fn ($q) => $q->whereNull('image')->orWhere('image', '')),
+                ),
             \Filament\Tables\Filters\Filter::make('marathon_battery')
                 ->label('🔋 Marathon Battery (≥5000mAh)')
                 ->query(fn($q) => $q->whereHas('specs', fn($s) => $s->where('battery', 'like', '%5000%')

@@ -16,6 +16,24 @@ class Gadget extends Model
         'brand_id', 'category_id', 'name', 'slug', 'accessory_type',
         'image', 'model_3d', 'sketchfab_embed', 'price', 'old_price',
         'release_date', 'is_featured', 'is_trending', 'description', 'price_tracker_description', 'buy_url', 'views_count',
+        'release_status', 'expected_launch', 'price_is_estimate', 'launch_price_note', 'faqs', 'sources',
+    ];
+
+    /** Sold in Nepal at an official/retail price. */
+    public const STATUS_AVAILABLE = 'available';
+    /** Launched globally; official Nepal price/availability not confirmed yet. */
+    public const STATUS_ANNOUNCED = 'announced';
+    /** Not launched yet — specs and price are expectations. */
+    public const STATUS_UPCOMING = 'upcoming';
+
+    /** No longer sold new; kept for reference with its launch price. */
+    public const STATUS_DISCONTINUED = 'discontinued';
+
+    public const STATUSES = [
+        self::STATUS_AVAILABLE => 'Available in Nepal',
+        self::STATUS_ANNOUNCED => 'Announced (Nepal price pending)',
+        self::STATUS_UPCOMING  => 'Upcoming',
+        self::STATUS_DISCONTINUED => 'Discontinued (launch price shown)',
     ];
 
     protected $appends = ['referral_buy_url'];
@@ -31,7 +49,25 @@ class Gadget extends Model
         'price'        => 'decimal:2',
         'old_price'    => 'decimal:2',
         'release_date' => 'date',
+        'price_is_estimate' => 'boolean',
+        'faqs'         => 'array',
+        'sources'      => 'array',
     ];
+
+    public function scopeReleased($query)
+    {
+        return $query->where('release_status', '!=', self::STATUS_UPCOMING);
+    }
+
+    public function scopeUpcoming($query)
+    {
+        return $query->where('release_status', self::STATUS_UPCOMING);
+    }
+
+    public function isUpcoming(): bool
+    {
+        return $this->release_status === self::STATUS_UPCOMING;
+    }
 
     protected static function booted(): void
     {

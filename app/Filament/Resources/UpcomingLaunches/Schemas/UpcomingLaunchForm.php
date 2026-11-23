@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\UpcomingLaunches\Schemas;
 
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Toggle;
@@ -13,6 +14,14 @@ class UpcomingLaunchForm
     {
         return $schema
             ->components([
+                Select::make('gadget_id')
+                    ->label('Product page')
+                    ->relationship('gadget', 'name')
+                    ->searchable()
+                    ->preload()
+                    ->nullable()
+                    ->helperText('Optional. Link this launch to its product page so the "Coming soon" lists link through.')
+                    ->columnSpanFull(),
                 TextInput::make('name')
                     ->required(),
                 TextInput::make('brand')

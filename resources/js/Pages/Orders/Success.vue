@@ -1,36 +1,54 @@
 ﻿<template>
   <AppLayout>
-    <div class="max-w-lg mx-auto text-center py-20">
-      <div class="text-7xl mb-6">🎉</div>
-      <h1 class="text-3xl font-extrabold mb-2 text-emerald-600 dark:text-emerald-400">Order Placed!</h1>
-      <p class="text-gray-500 dark:text-gray-400 mb-2 text-lg">
-        Your order for <span class="font-semibold text-gray-800 dark:text-gray-200">{{ productNames }}</span> has been received.
-      </p>
-      <p class="text-gray-500 text-sm mb-8">We'll process your order shortly. Thank you for shopping with Git Infosys!</p>
-
-      <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-6 text-left mb-8">
-        <h2 class="font-bold mb-4">Order Details</h2>
-        <div class="grid grid-cols-2 gap-2 text-sm mb-4">
-          <div><span class="text-gray-500">Name:</span> {{ order.first_name }} {{ order.last_name }}</div>
-          <div><span class="text-gray-500">Phone:</span> {{ order.phone_number }}</div>
-          <div class="col-span-2"><span class="text-gray-500">Address:</span> {{ order.shipping_address }}</div>
-          <div><span class="text-gray-500">Payment:</span> {{ order.payment_method.toUpperCase() }}</div>
-          <div><span class="text-gray-500">Status:</span> <span class="text-amber-600 dark:text-amber-400 capitalize">{{ order.status }}</span></div>
-        </div>
-        <div class="border-t border-gray-200 dark:border-gray-800 pt-4">
-          <div v-for="item in order.items" :key="item.id" class="flex justify-between text-sm py-1">
-            <span>{{ item.gadget?.name ?? 'Product' }} × {{ item.quantity }}</span>
-            <span class="text-brand-500 dark:text-brand-400">NPR {{ Math.round(item.price * item.quantity).toLocaleString('en-NP') }}</span>
-          </div>
-          <div class="flex justify-between font-bold text-base mt-3 pt-3 border-t border-gray-200 dark:border-gray-800">
-            <span>Total</span>
-            <span class="text-brand-500 dark:text-brand-400">NPR {{ Math.round(order.total_amount).toLocaleString('en-NP') }}</span>
-          </div>
-        </div>
+    <div class="mx-auto max-w-xl py-6 sm:py-12">
+      <div class="text-center">
+        <span class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-positive-soft text-positive">
+          <Check class="h-6 w-6" />
+        </span>
+        <h1 class="mt-6 text-3xl font-semibold tracking-tight text-fg">Order received</h1>
+        <p class="mt-3 text-fg-muted">
+          We’ve received your order for <span class="font-medium text-fg">{{ productNames }}</span> and will be in touch to confirm delivery.
+        </p>
       </div>
 
-      <div class="flex gap-3 justify-center">
-        <Link :href="route('home')" class="px-6 py-3 bg-brand-500 hover:bg-brand-500 rounded-xl font-semibold transition">Continue Shopping</Link>
+      <section class="card mt-10 overflow-hidden" aria-labelledby="order-summary">
+        <h2 id="order-summary" class="border-b border-line px-6 py-4 font-semibold text-fg">Order summary</h2>
+        <dl class="grid grid-cols-2 gap-x-6 gap-y-4 px-6 py-5 text-sm">
+          <div>
+            <dt class="text-fg-subtle">Name</dt>
+            <dd class="mt-0.5 text-fg">{{ order.first_name }} {{ order.last_name }}</dd>
+          </div>
+          <div>
+            <dt class="text-fg-subtle">Phone</dt>
+            <dd class="mt-0.5 text-fg">{{ order.phone_number }}</dd>
+          </div>
+          <div class="col-span-2">
+            <dt class="text-fg-subtle">Delivery address</dt>
+            <dd class="mt-0.5 text-fg">{{ order.shipping_address }}</dd>
+          </div>
+          <div>
+            <dt class="text-fg-subtle">Payment</dt>
+            <dd class="mt-0.5 uppercase text-fg">{{ order.payment_method }}</dd>
+          </div>
+          <div>
+            <dt class="text-fg-subtle">Status</dt>
+            <dd class="mt-0.5 capitalize text-fg">{{ order.status }}</dd>
+          </div>
+        </dl>
+        <ul class="divide-y divide-line border-t border-line px-6 text-sm">
+          <li v-for="item in order.items" :key="item.id" class="flex justify-between gap-4 py-3">
+            <span class="text-fg-muted">{{ item.gadget?.name ?? 'Item' }} <span class="text-fg-subtle">× {{ item.quantity }}</span></span>
+            <span class="tabular text-fg">{{ formatPrice(item.price * item.quantity) }}</span>
+          </li>
+        </ul>
+        <div class="flex justify-between border-t border-line bg-surface-2 px-6 py-4 font-semibold text-fg">
+          <span>Total</span>
+          <span class="tabular">{{ formatPrice(order.total_amount) }}</span>
+        </div>
+      </section>
+
+      <div class="mt-8 text-center">
+        <Link :href="route('home')" class="btn btn-primary">Back to home</Link>
       </div>
     </div>
   </AppLayout>
@@ -38,16 +56,20 @@
 
 <script setup>
 import { computed } from 'vue'
-import AppLayout from '@/Layouts/AppLayout.vue'
 import { Link } from '@inertiajs/vue3'
+import { Check } from 'lucide-vue-next'
+import AppLayout from '@/Layouts/AppLayout.vue'
+import { formatPrice as fmt } from '@/Composables/useFormat.js'
 
-const props = defineProps({ order: Object })
+const props = defineProps({ order: { type: Object, required: true } })
+
+const formatPrice = v => fmt(Math.round(Number(v) || 0))
 
 const productNames = computed(() => {
-  if (!props.order?.items?.length) return 'your items'
-  const names = props.order.items.map(i => i.gadget?.name ?? 'Product')
+  const names = (props.order?.items || []).map(i => i.gadget?.name ?? 'an item')
+  if (!names.length) return 'your items'
   if (names.length === 1) return names[0]
   if (names.length === 2) return `${names[0]} and ${names[1]}`
-  return `${names[0]} and ${names.length - 1} other item${names.length - 1 > 1 ? 's' : ''}`
+  return `${names[0]} and ${names.length - 1} other items`
 })
 </script>

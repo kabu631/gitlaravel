@@ -1,122 +1,105 @@
 <template>
   <AppLayout>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      
-      <!-- Header -->
-      <div class="mb-8 border-b border-gray-200 dark:border-gray-800 pb-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div>
-          <nav class="text-sm text-gray-500 mb-3 flex items-center gap-2">
-            <Link :href="route('home')" class="hover:text-brand-500 dark:hover:text-brand-400">Home</Link> /
-            <Link :href="route('guides.index')" class="hover:text-brand-500 dark:hover:text-brand-400">Guides</Link>
-            <template v-if="activeType"> / <span class="text-gray-700 dark:text-gray-300 font-medium">{{ activeTypeLabel }}</span></template>
-            <template v-else> / <span class="text-gray-700 dark:text-gray-300 font-medium">All Guides</span></template>
-          </nav>
-          <div class="flex items-center gap-3 flex-wrap">
-            <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
-              {{ activeType === 'buying-guide' ? '🛍️ Buying Guides' : activeType === 'how-to' ? '🔧 How-To Guides' : '📖 Tech Guides' }}
-            </h1>
-            <span v-if="activeType" class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 text-sm font-bold border border-emerald-200 dark:border-emerald-800">
-              {{ activeTypeLabel }}
-            </span>
-          </div>
-          <p class="text-gray-500 dark:text-gray-400 mt-2 text-lg">
-            {{ activeType === 'buying-guide' ? 'Expert purchase recommendations to help you buy the right product.' : activeType === 'how-to' ? 'Step-by-step tutorials and tech tips.' : 'Expert advice to help you make smart purchasing decisions.' }}
-          </p>
-        </div>
-        <input v-model="search" @keyup.enter="doSearch" type="text" placeholder="Search guides..."
-               class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2 text-sm outline-none focus:border-brand-500 w-full md:w-64 text-gray-800 dark:text-gray-200 shadow-sm"/>
+    <Breadcrumbs :items="[{ label: 'Guides', href: route('guides.index') }, ...(activeTypeLabel ? [{ label: activeTypeLabel }] : [])]" />
+
+    <header class="mt-4 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+      <div>
+        <h1 class="text-3xl font-semibold tracking-tight text-fg sm:text-4xl">{{ activeTypeLabel || 'Guides' }}</h1>
+        <p class="mt-2 max-w-xl text-fg-muted">{{ description }}</p>
       </div>
+      <form class="relative w-full md:w-80" role="search" @submit.prevent="doSearch">
+        <label for="guide-search" class="sr-only">Search guides</label>
+        <Search class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-fg-subtle" :stroke-width="1.75" />
+        <input id="guide-search" v-model="search" type="search" placeholder="Search guides" class="input pl-9" />
+      </form>
+    </header>
 
-      <div class="grid lg:grid-cols-4 gap-8 items-start">
-        
-        <!-- Left Sidebar (Col 1) -->
-        <div class="hidden lg:block lg:col-span-1 space-y-8 sticky top-6">
-          <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5 shadow-sm">
-            <h3 class="text-sm font-bold uppercase tracking-wider mb-4 border-b border-gray-100 dark:border-gray-800 pb-2 text-gray-900 dark:text-white">🚀 Explore</h3>
-            <div class="space-y-1">
-              <Link :href="route('news.index')" class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-semibold text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-brand-500 transition">📰 Latest News</Link>
-              <Link :href="route('reviews.index')" class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-semibold text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-brand-500 transition">⭐ Gadget Reviews</Link>
-              <Link :href="route('compare.index')" class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-semibold text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-brand-500 transition">⚖️ Compare Tool</Link>
-              <Link :href="route('pcbuilder.index')" class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-semibold text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-brand-500 transition">🖥️ PC Builder</Link>
-            </div>
-          </div>
-        </div>
+    <div class="mt-8 flex gap-2">
+      <Link :href="route('guides.index')" class="chip" :aria-current="!activeType ? 'page' : undefined">All</Link>
+      <Link :href="route('guides.index', { type: 'buying-guide' })" class="chip" :aria-current="activeType === 'buying-guide' ? 'page' : undefined">Buying guides</Link>
+      <Link :href="route('guides.index', { type: 'how-to' })" class="chip" :aria-current="activeType === 'how-to' ? 'page' : undefined">How-to</Link>
+    </div>
 
-        <!-- Main Content Area (Col 2 & 3) -->
-        <div class="lg:col-span-2 space-y-8">
-          
-          <div v-if="guides.data.length" class="space-y-6">
-            <Link v-for="guide in guides.data" :key="guide.id" :href="route('guides.show', guide.slug)"
-                  class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden group transition shadow-sm hover:shadow-xl flex flex-col sm:flex-row">
-              <div class="sm:w-2/5 aspect-video sm:aspect-auto sm:h-full bg-gray-100 dark:bg-gray-800 shrink-0 overflow-hidden relative">
-                <img :alt="guide.title" v-if="guide.thumbnail" :src="`/storage/${guide.thumbnail}`" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"/>
-                <div v-else class="absolute inset-0 flex items-center justify-center text-5xl">📖</div>
+    <div class="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-12">
+      <div class="min-w-0 lg:col-span-8">
+        <ul v-if="guides.data.length" class="divide-y divide-line border-t border-line">
+          <li v-for="guide in guides.data" :key="guide.id">
+            <Link :href="route('guides.show', guide.slug)" class="group flex gap-6 py-6">
+              <div class="min-w-0 flex-1">
+                <p class="text-xs text-fg-subtle">{{ typeLabel(guide.type) }} · {{ formatDate(guide.created_at) }}</p>
+                <h2 class="mt-1.5 text-lg font-semibold leading-snug text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4 sm:text-xl">{{ guide.title }}</h2>
               </div>
-              <div class="p-5 sm:p-6 flex-1 flex flex-col justify-center">
-                <span class="text-xs text-brand-500 dark:text-brand-400 font-extrabold uppercase tracking-widest mb-2">Guide</span>
-                <h2 class="text-lg sm:text-xl font-bold mb-3 line-clamp-2 text-gray-900 dark:text-gray-100 group-hover:text-brand-500 dark:group-hover:text-brand-400 transition leading-snug">{{ guide.title }}</h2>
-                <div class="mt-auto flex items-center justify-between text-xs text-gray-500 border-t border-gray-100 dark:border-gray-800 pt-4">
-                  <span class="font-medium text-gray-600 dark:text-gray-400">By Editorial Team</span>
-                  <span>{{ new Date(guide.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) }}</span>
-                </div>
+              <div v-if="guide.thumbnail" class="media-plate hidden aspect-[4/3] w-40 shrink-0 rounded-lg sm:block">
+                <img :src="getImageUrl(guide.thumbnail)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
               </div>
             </Link>
-          </div>
-
-          <div v-else class="text-center py-20 text-gray-500 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl">
-            <p class="text-5xl mb-4">📖</p><p class="text-xl font-semibold">No guides found</p>
-          </div>
-
-          <!-- Pagination -->
-          <Pagination :paginator="guides" />
+          </li>
+        </ul>
+        <div v-else class="flex flex-col items-center rounded-xl border border-dashed border-line-strong px-6 py-20 text-center">
+          <BookOpen class="h-8 w-8 text-fg-faint" :stroke-width="1.5" />
+          <h2 class="mt-4 font-semibold text-fg">No guides found</h2>
+          <p class="mt-1 text-sm text-fg-subtle">Try a different search.</p>
         </div>
+        <Pagination :paginator="guides" />
+      </div>
 
-        <!-- Right Sidebar (Col 4) -->
-        <div class="lg:col-span-1 space-y-8 sticky top-6">
-          
-          <!-- Newsletter Banner -->
-          <div class="bg-gradient-to-br from-brand-500 to-navy-700 rounded-2xl p-6 text-white text-center shadow-lg">
-            <div class="text-3xl mb-2">📬</div>
-            <h3 class="font-bold text-lg mb-1">Stay Updated</h3>
-            <p class="text-xs text-brand-200 mb-4">Get the latest buying guides and tech tips directly to your inbox.</p>
-            <input type="email" placeholder="Your email address" class="w-full px-3 py-2 rounded-lg text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 mb-2" />
-            <button class="w-full bg-white text-brand-600 font-bold text-sm py-2 rounded-lg hover:bg-gray-50 transition">Subscribe</button>
-          </div>
-
-          <!-- Trending Gadgets -->
-          <div v-if="trendingGadgets?.length" class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-5 shadow-sm">
-            <h3 class="text-sm font-bold uppercase tracking-wider mb-4 border-b border-gray-100 dark:border-gray-800 pb-2 text-gray-900 dark:text-white">🔥 Trending Gadgets</h3>
-            <div class="space-y-4">
-              <Link v-for="gadget in trendingGadgets" :key="gadget.id" :href="route('gadgets.show', gadget.slug)" class="flex gap-3 group">
-                <div class="w-14 h-14 rounded-xl bg-gray-100 dark:bg-gray-800 shrink-0 overflow-hidden">
-                  <img :alt="gadget.name" :src="gadget.image ? `/storage/${gadget.image}` : '/img/placeholder.jpg'" class="w-full h-full object-cover group-hover:scale-110 transition" />
+      <aside class="space-y-10 lg:col-span-4">
+        <div v-if="trendingGadgets?.length">
+          <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Popular devices</h2>
+          <ul class="divide-y divide-line">
+            <li v-for="g in trendingGadgets" :key="g.id">
+              <Link :href="route('gadgets.show', g.slug)" class="group flex items-center gap-3 py-3">
+                <div class="media-plate h-12 w-12 shrink-0 rounded-md">
+                  <img v-if="g.image" :src="getImageUrl(g.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
                 </div>
-                <div>
-                  <h4 class="text-xs font-semibold text-gray-800 dark:text-gray-200 group-hover:text-brand-500 line-clamp-2 leading-snug">{{ gadget.name }}</h4>
-                  <p class="text-[11px] font-bold text-brand-500 mt-1">NPR {{ gadget.price?.toLocaleString() }}</p>
+                <div class="min-w-0">
+                  <p class="truncate text-sm font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ g.name }}</p>
+                  <p class="tabular text-xs text-fg-subtle">{{ formatPrice(g.price) }}</p>
                 </div>
               </Link>
-            </div>
-          </div>
-          
+            </li>
+          </ul>
         </div>
-
-      </div>
+        <div>
+          <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Keep exploring</h2>
+          <ul class="mt-2 space-y-1 text-sm">
+            <li><Link :href="route('reviews.index')" class="flex items-center justify-between py-2 text-fg-muted hover:text-fg">Reviews <ArrowRight class="h-4 w-4" /></Link></li>
+            <li><Link :href="route('compare.index')" class="flex items-center justify-between py-2 text-fg-muted hover:text-fg">Compare devices <ArrowRight class="h-4 w-4" /></Link></li>
+            <li><Link :href="route('pcbuilder.index')" class="flex items-center justify-between py-2 text-fg-muted hover:text-fg">PC Builder <ArrowRight class="h-4 w-4" /></Link></li>
+          </ul>
+        </div>
+      </aside>
     </div>
   </AppLayout>
 </template>
+
 <script setup>
+import { ref, computed } from 'vue'
+import { Link, router } from '@inertiajs/vue3'
+import { Search, BookOpen, ArrowRight } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Pagination from '@/Components/Pagination.vue'
-import { Link, router } from '@inertiajs/vue3'
-import { ref, computed } from 'vue'
-const props = defineProps({ guides: Object, filters: Object, trendingGadgets: Array })
-const search = ref(props.filters.search ?? '')
-const activeType = computed(() => props.filters?.type ?? '')
-const activeTypeLabel = computed(() => {
-  if (activeType.value === 'buying-guide') return 'Buying Guides'
-  if (activeType.value === 'how-to') return 'How-To Guides'
-  return ''
+import Breadcrumbs from '@/Components/Breadcrumbs.vue'
+import { getImageUrl } from '@/Composables/useImageUrl.js'
+import { formatDate, formatPrice } from '@/Composables/useFormat.js'
+
+const props = defineProps({
+  guides: { type: Object, required: true },
+  filters: { type: [Object, Array], default: () => ({}) },
+  trendingGadgets: { type: Array, default: () => [] },
 })
-function doSearch() { router.get(route('guides.index'), { search: search.value }, { preserveState: true }) }
+
+const filters = computed(() => (Array.isArray(props.filters) ? {} : props.filters))
+const search = ref(filters.value.search ?? '')
+const activeType = computed(() => filters.value.type ?? '')
+const activeTypeLabel = computed(() => ({ 'buying-guide': 'Buying guides', 'how-to': 'How-to guides' }[activeType.value] || ''))
+const description = computed(() => ({
+  'buying-guide': 'What to look for, and which models to shortlist, at every budget.',
+  'how-to': 'Step-by-step help with setup, settings and fixes.',
+}[activeType.value] || 'Buying advice and step-by-step help for phones, laptops and accessories.'))
+const typeLabel = type => ({ 'buying-guide': 'Buying guide', 'how-to': 'How-to' }[type] || 'Guide')
+
+function doSearch() {
+  router.get(route('guides.index'), { ...filters.value, search: search.value || undefined }, { preserveState: true })
+}
 </script>

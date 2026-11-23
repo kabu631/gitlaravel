@@ -1,22 +1,42 @@
 <script setup>
-import ApplicationLogo from '@/Components/ApplicationLogo.vue';
-import { Link } from '@inertiajs/vue3';
+import { computed } from 'vue'
+import { Link, usePage } from '@inertiajs/vue3'
+import { useTheme } from '@/Composables/useTheme.js'
+import { onMounted } from 'vue'
+
+defineProps({
+  title: { type: String, default: '' },
+  description: { type: String, default: '' },
+})
+
+const { isDark, init } = useTheme()
+onMounted(init)
+const year = new Date().getFullYear()
+const siteName = computed(() => usePage().props.siteName || 'Git Infosys')
 </script>
 
 <template>
-    <div
-        class="flex min-h-screen flex-col items-center bg-gray-100 pt-6 sm:justify-center sm:pt-0"
-    >
-        <div>
-            <Link href="/">
-                <ApplicationLogo class="h-20 w-20 fill-current text-gray-500" />
-            </Link>
-        </div>
+  <div class="flex min-h-screen flex-col bg-surface-2/60">
+    <header class="container-page flex h-16 items-center justify-between">
+      <Link href="/" class="rounded-md" aria-label="Back to home">
+        <img :src="isDark ? '/images/logo-white.png' : '/images/logo_dark.png'" :alt="siteName" class="h-8 w-auto" />
+      </Link>
+      <Link href="/" class="text-sm text-fg-subtle hover:text-fg">Back to site</Link>
+    </header>
 
-        <div
-            class="mt-6 w-full overflow-hidden bg-white px-6 py-4 shadow-md sm:max-w-md sm:rounded-lg"
-        >
-            <slot />
+    <main class="flex flex-1 items-start justify-center px-4 pb-16 pt-8 sm:items-center sm:pt-0">
+      <div class="w-full max-w-sm">
+        <div v-if="title" class="mb-6 text-center">
+          <h1 class="text-2xl font-semibold tracking-tight text-fg">{{ title }}</h1>
+          <p v-if="description" class="mt-2 text-sm text-fg-muted">{{ description }}</p>
         </div>
-    </div>
+        <div class="card p-6 shadow-sm sm:p-8">
+          <slot />
+        </div>
+        <slot name="after" />
+      </div>
+    </main>
+
+    <footer class="py-6 text-center text-xs text-fg-subtle">© {{ year }} {{ siteName }}</footer>
+  </div>
 </template>

@@ -1,26 +1,22 @@
 <template>
-  <div class="rounded-3xl border border-slate-200/80 dark:border-slate-800/80 bg-white/95 dark:bg-[#0f172a]/95 backdrop-blur-md p-5 sm:p-7 glass-card shadow-xs">
+  <div class="rounded-xl border border-line bg-surface/95 backdrop-blur-md p-5 sm:p-7 glass-card shadow-xs">
     <!-- Header -->
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-slate-100 dark:border-slate-800/80">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-line">
       <div>
-        <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 border border-rose-200/60 dark:border-rose-800/60 mb-1.5">
-          <Flame class="w-3 h-3 text-rose-500 animate-pulse" />
-          <span>Nepal Real-World Hardware Thermal &amp; FPS Lab</span>
-        </div>
-        <h3 class="font-heading font-extrabold text-base sm:text-lg text-slate-900 dark:text-white">
-          Gaming Performance &amp; Heat Dissipation Simulator
+        <h3 class="text-lg font-semibold tracking-tight text-fg">
+          Gaming performance
         </h3>
-        <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-          Simulated under authentic Kathmandu ambient temperatures with real battery discharge telemetry for <strong class="text-slate-800 dark:text-slate-200">{{ gadgetName }}</strong>.
+        <p class="text-xs text-fg-subtle mt-0.5">
+          Estimated frame rates, heat and battery drain in popular games for <strong class="font-medium text-fg">{{ gadgetName }}</strong>. Real results vary with settings and updates.
         </p>
       </div>
 
       <!-- Quick Processor Badge -->
-      <div class="flex items-center gap-2 bg-slate-50 dark:bg-slate-900/60 px-3 py-1.5 rounded-xl border border-slate-200/80 dark:border-slate-800 shrink-0 self-start sm:self-auto">
-        <Cpu class="w-4 h-4 text-brand-500" />
+      <div class="flex items-center gap-2 bg-surface-2 px-3 py-1.5 rounded-xl border border-line shrink-0 self-start sm:self-auto">
+        <Cpu class="w-4 h-4 text-accent-text" />
         <div class="text-right">
-          <div class="text-[9px] uppercase font-bold text-slate-400">Benchmark SoC</div>
-          <div class="text-xs font-bold text-slate-800 dark:text-slate-200 truncate max-w-[150px]">{{ processor || 'Flagship Multi-Core' }}</div>
+          <div class="text-2xs uppercase font-semibold text-fg-subtle">Benchmark SoC</div>
+          <div class="text-xs font-semibold text-fg truncate max-w-[150px]">{{ processor || 'Flagship Multi-Core' }}</div>
         </div>
       </div>
     </div>
@@ -29,8 +25,8 @@
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 my-6">
       <!-- Left: Game Selection (5 cols) -->
       <div class="lg:col-span-5 space-y-3">
-        <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
-          <Gamepad2 class="w-3.5 h-3.5 text-brand-500" />
+        <label class="text-xs font-semibold uppercase tracking-wider text-fg-subtle flex items-center gap-1.5">
+          <Gamepad2 class="w-3.5 h-3.5 text-accent-text" />
           <span>Select Title (Popular in Nepal)</span>
         </label>
 
@@ -40,33 +36,33 @@
             :key="game.id"
             @click="activeGameId = game.id"
             type="button"
-            class="w-full p-3 rounded-2xl border text-left transition-all duration-200 cursor-pointer flex items-center justify-between group"
+            class="w-full p-3 rounded-xl border text-left transition-all duration-200 cursor-pointer flex items-center justify-between group"
             :class="activeGameId === game.id
-              ? 'bg-brand-500/10 border-brand-500 dark:border-brand-400 shadow-xs ring-1 ring-brand-500/30'
-              : 'bg-slate-50/60 dark:bg-slate-900/40 border-slate-200/70 dark:border-slate-800/70 hover:bg-slate-100/80 dark:hover:bg-slate-800/50'"
+              ? 'bg-accent-soft border-brand-500 dark:border-brand-400 shadow-xs ring-1 ring-brand-500/30'
+              : 'bg-surface-2 border-line hover:bg-surface-2'"
           >
             <div class="flex items-center gap-3">
               <div
-                class="w-9 h-9 rounded-xl flex items-center justify-center font-bold text-xs shrink-0 transition"
-                :class="activeGameId === game.id ? 'bg-brand-500 text-white shadow-xs' : 'bg-slate-200/70 dark:bg-slate-800 text-slate-600 dark:text-slate-300'"
+                class="w-9 h-9 rounded-xl flex items-center justify-center font-semibold text-xs shrink-0 transition"
+                :class="activeGameId === game.id ? 'bg-fg text-canvas shadow-xs' : 'bg-surface-3 text-fg-muted'"
               >
                 <component :is="game.icon" class="w-4 h-4" />
               </div>
               <div>
-                <div class="text-xs font-bold text-slate-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition">
+                <div class="text-xs font-semibold text-fg group-hover:text-fg dark:group-hover:text-fg transition">
                   {{ game.title }}
                 </div>
-                <div class="text-[11px] text-slate-400">
-                  {{ game.genre }} · Target: <span class="font-bold text-slate-600 dark:text-slate-300">{{ game.targetFps }} FPS</span>
+                <div class="text-2xs text-fg-subtle">
+                  {{ game.genre }} · Target: <span class="font-semibold text-fg-muted">{{ game.targetFps }} FPS</span>
                 </div>
               </div>
             </div>
 
             <span
-              class="text-[10px] font-extrabold px-2 py-0.5 rounded-md border"
+              class="text-2xs font-semibold px-2 py-0.5 rounded-md border"
               :class="activeGameId === game.id
-                ? 'bg-brand-500 text-white border-brand-400'
-                : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border-slate-200 dark:border-slate-700'"
+                ? 'bg-fg text-canvas border-fg'
+                : 'bg-surface-2 text-fg-subtle border-line'"
             >
               {{ game.tier }}
             </span>
@@ -75,15 +71,15 @@
       </div>
 
       <!-- Right: Settings & Environmental Sliders (7 cols) -->
-      <div class="lg:col-span-7 space-y-5 bg-slate-50/50 dark:bg-slate-900/30 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800/80 flex flex-col justify-between">
+      <div class="lg:col-span-7 space-y-5 bg-surface-2 p-5 rounded-xl border border-line flex flex-col justify-between">
         <!-- Graphics Quality Tier -->
         <div>
           <div class="flex items-center justify-between mb-2">
-            <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
-              <Sliders class="w-3.5 h-3.5 text-blue-500" />
+            <label class="text-xs font-semibold uppercase tracking-wider text-fg-subtle flex items-center gap-1.5">
+              <Sliders class="w-3.5 h-3.5 text-fg-subtle" />
               <span>Graphics Fidelity Preset</span>
             </label>
-            <span class="text-xs font-bold text-brand-600 dark:text-brand-400">
+            <span class="text-xs font-semibold text-accent-text">
               {{ currentPreset.label }}
             </span>
           </div>
@@ -96,11 +92,11 @@
               type="button"
               class="py-2.5 px-3 rounded-xl text-xs font-semibold border transition cursor-pointer text-center"
               :class="activePresetId === preset.id
-                ? 'bg-brand-500 text-white border-brand-500 shadow-xs'
-                : 'bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:border-brand-400'"
+                ? 'bg-fg text-canvas border-fg shadow-xs'
+                : 'bg-surface text-fg-muted border-line hover:border-line-strong'"
             >
               <div>{{ preset.label }}</div>
-              <div class="text-[9px] opacity-75 mt-0.5">{{ preset.desc }}</div>
+              <div class="text-2xs opacity-75 mt-0.5">{{ preset.desc }}</div>
             </button>
           </div>
         </div>
@@ -108,11 +104,11 @@
         <!-- Ambient Room Temperature Slider (Nepal Real Conditions) -->
         <div>
           <div class="flex items-center justify-between mb-1.5">
-            <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
-              <Thermometer class="w-3.5 h-3.5 text-amber-500" />
+            <label class="text-xs font-semibold uppercase tracking-wider text-fg-subtle flex items-center gap-1.5">
+              <Thermometer class="w-3.5 h-3.5 text-accent-text" />
               <span>Nepal Ambient Environment</span>
             </label>
-            <span class="text-xs font-bold px-2 py-0.5 rounded bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-800">
+            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-accent-soft text-accent-text border border-accent/30">
               {{ ambientTemp }}°C ({{ ambientDescription }})
             </span>
           </div>
@@ -123,10 +119,10 @@
             min="12"
             max="42"
             step="1"
-            class="w-full accent-brand-500 cursor-pointer h-2 bg-slate-200 dark:bg-slate-700 rounded-lg appearance-none"
+            class="w-full accent-brand-500 cursor-pointer h-2 bg-surface-3 rounded-lg appearance-none"
           />
 
-          <div class="flex justify-between text-[10px] text-slate-400 mt-1 font-medium">
+          <div class="flex justify-between text-2xs text-fg-subtle mt-1 font-medium">
             <span>Kathmandu Winter (14°C)</span>
             <span>Room Temp (24°C)</span>
             <span>Terai Summer (38°C)</span>
@@ -134,21 +130,21 @@
         </div>
 
         <!-- Fan / Cooler Toggle -->
-        <div class="flex items-center justify-between pt-2 border-t border-slate-200/60 dark:border-slate-800/60">
+        <div class="flex items-center justify-between pt-2 border-t border-line">
           <div class="flex items-center gap-2">
-            <Wind class="w-4 h-4 text-cyan-500" />
+            <Wind class="w-4 h-4 text-fg-subtle" />
             <div>
-              <div class="text-xs font-bold text-slate-800 dark:text-slate-200">Clip-On Semiconductor Cooler</div>
-              <div class="text-[10px] text-slate-400">Simulate playing with Black Shark / MagSafe peltier cooler (-6°C)</div>
+              <div class="text-xs font-semibold text-fg">Clip-On Semiconductor Cooler</div>
+              <div class="text-2xs text-fg-subtle">Simulate playing with Black Shark / MagSafe peltier cooler (-6°C)</div>
             </div>
           </div>
           <button
             @click="coolerAttached = !coolerAttached"
             type="button"
-            class="px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer border"
+            class="px-3 py-1 rounded-lg text-xs font-semibold transition cursor-pointer border"
             :class="coolerAttached
-              ? 'bg-cyan-500 text-white border-cyan-500 shadow-xs'
-              : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700 hover:border-cyan-400'"
+              ? 'bg-fg text-canvas border-fg shadow-xs'
+              : 'bg-surface text-fg-muted border-line hover:border-cyan-400'"
           >
             {{ coolerAttached ? 'Cooler ON' : 'Cooler OFF' }}
           </button>
@@ -161,68 +157,68 @@
     <!-- ═══════════════════════════════════════════════════════════ -->
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
       <!-- 1. Average FPS -->
-      <div class="p-4 rounded-2xl bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
-        <div class="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
+      <div class="p-4 rounded-xl bg-surface border border-line shadow-xs">
+        <div class="flex items-center justify-between text-2xs font-semibold uppercase tracking-wider text-fg-subtle mb-1">
           <span>Average In-Game FPS</span>
-          <Activity class="w-3.5 h-3.5 text-emerald-500" />
+          <Activity class="w-3.5 h-3.5 text-positive" />
         </div>
         <div class="flex items-baseline gap-1.5">
-          <span class="font-heading text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
+          <span class="text-2xl sm:text-3xl font-semibold text-fg">
             {{ computedMetrics.averageFps }}
           </span>
-          <span class="text-xs font-bold text-slate-400">/ {{ currentGame.targetFps }} max</span>
+          <span class="text-xs font-semibold text-fg-subtle">/ {{ currentGame.targetFps }} max</span>
         </div>
-        <div class="text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 mt-1 flex items-center gap-1">
+        <div class="text-2xs font-semibold text-positive mt-1 flex items-center gap-1">
           <CheckCircle class="w-3 h-3" />
           <span>1% Low: {{ computedMetrics.onePercentLow }} FPS</span>
         </div>
       </div>
 
       <!-- 2. Stability Rating -->
-      <div class="p-4 rounded-2xl bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
-        <div class="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
+      <div class="p-4 rounded-xl bg-surface border border-line shadow-xs">
+        <div class="flex items-center justify-between text-2xs font-semibold uppercase tracking-wider text-fg-subtle mb-1">
           <span>Frame Stability</span>
-          <ShieldCheck class="w-3.5 h-3.5 text-blue-500" />
+          <ShieldCheck class="w-3.5 h-3.5 text-fg-subtle" />
         </div>
         <div class="flex items-baseline gap-1.5">
-          <span class="font-heading text-2xl sm:text-3xl font-black text-brand-600 dark:text-brand-400">
+          <span class="text-2xl sm:text-3xl font-semibold text-accent-text">
             {{ computedMetrics.stability }}%
           </span>
         </div>
-        <div class="text-[11px] font-medium text-slate-500 dark:text-slate-400 mt-1">
+        <div class="text-2xs font-medium text-fg-subtle mt-1">
           {{ computedMetrics.stabilityLabel }}
         </div>
       </div>
 
       <!-- 3. Peak Surface Thermals -->
-      <div class="p-4 rounded-2xl bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
-        <div class="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
+      <div class="p-4 rounded-xl bg-surface border border-line shadow-xs">
+        <div class="flex items-center justify-between text-2xs font-semibold uppercase tracking-wider text-fg-subtle mb-1">
           <span>Surface Thermals</span>
           <Thermometer class="w-3.5 h-3.5" :class="thermalColorClass" />
         </div>
         <div class="flex items-baseline gap-1">
-          <span class="font-heading text-2xl sm:text-3xl font-black" :class="thermalColorClass">
+          <span class="text-2xl sm:text-3xl font-semibold" :class="thermalColorClass">
             {{ computedMetrics.peakTemp }}°C
           </span>
         </div>
-        <div class="text-[11px] font-semibold mt-1" :class="thermalColorClass">
+        <div class="text-2xs font-semibold mt-1" :class="thermalColorClass">
           {{ computedMetrics.throttleRisk }}
         </div>
       </div>
 
       <!-- 4. Battery Drain & Endurance -->
-      <div class="p-4 rounded-2xl bg-white dark:bg-[#111827] border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
-        <div class="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
+      <div class="p-4 rounded-xl bg-surface border border-line shadow-xs">
+        <div class="flex items-center justify-between text-2xs font-semibold uppercase tracking-wider text-fg-subtle mb-1">
           <span>Battery Consumption</span>
-          <BatteryCharging class="w-3.5 h-3.5 text-amber-500" />
+          <BatteryCharging class="w-3.5 h-3.5 text-accent-text" />
         </div>
         <div class="flex items-baseline gap-1">
-          <span class="font-heading text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
+          <span class="text-2xl sm:text-3xl font-semibold text-fg">
             -{{ computedMetrics.drainPerHour }}%
           </span>
-          <span class="text-xs font-medium text-slate-400">/ hour</span>
+          <span class="text-xs font-medium text-fg-subtle">/ hour</span>
         </div>
-        <div class="text-[11px] font-medium text-slate-500 dark:text-slate-400 mt-1">
+        <div class="text-2xs font-medium text-fg-subtle mt-1">
           Approx. {{ computedMetrics.hoursPlay }} hrs non-stop
         </div>
       </div>
@@ -231,21 +227,21 @@
     <!-- ═══════════════════════════════════════════════════════════ -->
     <!--  30-MINUTE SUSTAINED PERFORMANCE THROTTLING CURVE          -->
     <!-- ═══════════════════════════════════════════════════════════ -->
-    <div class="p-5 rounded-2xl bg-slate-900 text-white border border-slate-800 mb-4">
+    <div class="dark p-5 rounded-xl bg-slate-900 text-white border border-slate-800 mb-4">
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
         <div>
-          <div class="text-xs font-bold text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+          <div class="text-xs font-semibold text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
             <TrendingDown class="w-3.5 h-3.5" />
             <span>30-Minute Continuous Session Throttling Curve</span>
           </div>
-          <p class="text-[11px] text-slate-400 mt-0.5">Tracking frame rate drop when internal SoC hits thermal saturation point</p>
+          <p class="text-2xs text-fg-subtle mt-0.5">Tracking frame rate drop when internal SoC hits thermal saturation point</p>
         </div>
         <div class="flex items-center gap-3 text-xs">
-          <span class="flex items-center gap-1 text-emerald-400 font-bold">
+          <span class="flex items-center gap-1 text-emerald-400 font-semibold">
             <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block"></span>
             Min 1: {{ computedMetrics.initialFps }} FPS
           </span>
-          <span class="flex items-center gap-1 text-amber-400 font-bold">
+          <span class="flex items-center gap-1 text-amber-400 font-semibold">
             <span class="w-2.5 h-2.5 rounded-full bg-amber-500 inline-block"></span>
             Min 30: {{ computedMetrics.finalFps }} FPS
           </span>
@@ -286,7 +282,7 @@
         </svg>
 
         <!-- X-Axis Labels -->
-        <div class="flex justify-between text-[10px] text-slate-500 font-mono mt-1">
+        <div class="flex justify-between text-2xs text-fg-subtle font-mono mt-1">
           <span>0m (Spawn)</span>
           <span>10m (First Skirmish)</span>
           <span>20m (Thermal Saturation)</span>
@@ -296,11 +292,11 @@
     </div>
 
     <!-- Editorial Verdict Pill -->
-    <div class="p-4 rounded-2xl bg-brand-50/60 dark:bg-brand-950/40 border border-brand-200/60 dark:border-brand-800/60 flex items-start gap-3 text-xs">
-      <Sparkles class="w-4 h-4 text-brand-500 shrink-0 mt-0.5" />
+    <div class="p-4 rounded-xl bg-accent-soft border border-accent/30 flex items-start gap-3 text-xs">
+      <Sparkles class="w-4 h-4 text-accent-text shrink-0 mt-0.5" />
       <div>
-        <span class="font-extrabold text-slate-900 dark:text-white">Git Infosys Gaming Verdict for Nepal: </span>
-        <span class="text-slate-600 dark:text-slate-300 leading-relaxed">
+        <span class="font-semibold text-fg">Git Infosys Gaming Verdict for Nepal: </span>
+        <span class="text-fg-muted leading-relaxed">
           {{ computedMetrics.verdictText }}
         </span>
       </div>
@@ -323,7 +319,7 @@ const props = defineProps({
 })
 
 const games = [
-  { id: 'pubg', title: 'PUBG Mobile / BGMI', genre: 'Battle Royale', targetFps: 90, tier: 'Nepal #1 eSports', icon: Crosshair, baseFps: 88, baseTemp: 39, baseDrain: 19 },
+  { id: 'pubg', title: 'PUBG Mobile / BGMI', genre: 'Battle Royale', targetFps: 90, tier: 'Popular in Nepal', icon: Crosshair, baseFps: 88, baseTemp: 39, baseDrain: 19 },
   { id: 'genshin', title: 'Genshin Impact', genre: 'Open-World Action RPG', targetFps: 60, tier: 'Thermal Torture', icon: Swords, baseFps: 56, baseTemp: 42, baseDrain: 24 },
   { id: 'mlbb', title: 'Mobile Legends: Bang Bang', genre: 'MOBA 5v5', targetFps: 120, tier: 'High-Refresh Champ', icon: Shield, baseFps: 118, baseTemp: 36, baseDrain: 15 },
   { id: 'freefire', title: 'Free Fire Max', genre: 'Fast Battle Royale', targetFps: 60, tier: 'Smooth On Any Phone', icon: Zap, baseFps: 60, baseTemp: 35, baseDrain: 13 },
@@ -407,9 +403,9 @@ const computedMetrics = computed(() => {
 
 const thermalColorClass = computed(() => {
   const t = computedMetrics.value.peakTemp
-  if (t < 38) return 'text-emerald-500'
-  if (t < 42) return 'text-amber-500'
-  return 'text-rose-500'
+  if (t < 38) return 'text-positive'
+  if (t < 42) return 'text-accent-text'
+  return 'text-negative'
 })
 
 function yForFps(fps) {
