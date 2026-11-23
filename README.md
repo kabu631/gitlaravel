@@ -119,11 +119,10 @@ The application will be available at **http://localhost:8000**
 
 ## 🗄 Database & SQL
 
-The repository maintains the latest database state in two locations:
-1.  **Root Directory**: `git_infosys_v2.sql` (Main production dump)
-2.  **Database Directory**: `database/project.sql` (Sync for reference)
+The latest database state is in `git_infosys_v2.sql` at the repository root.
 
-To update your local environment with the latest data, import either of these files into your MySQL server.
+To update your local environment with the latest data, import it into a MySQL/MariaDB database named `git_infosys_v2`.
+The catalogue can also be rebuilt from the data files with `php artisan db:seed --class=MarketCatalogSeeder`.
 
 ---
 
@@ -159,12 +158,12 @@ gitlaravel/
 │   ├── Models/               # Eloquent models
 ├── database/
 │   ├── migrations/           # Schema definitions
-│   ├── project.sql           # Latest SQL dump
+│   ├── seeders/data/catalog/ # Catalogue, reviews, news and guide data
 ├── resources/
 │   ├── js/
 │   │   ├── Components/       # Vue UI components
 │   │   ├── Pages/            # Page modules (Home, Gadgets, Cart, etc.)
-├── git_infosys_v2.sql        # Root SQL dump for easy access
+├── git_infosys_v2.sql        # Latest SQL dump
 ```
 
 ---

@@ -556,7 +556,6 @@ return [
     'motorola-edge-50-fusion' => 'https://www.motorola.com/we/en/p/phones/motorola-edge/50-fusion/pmipmgy39md',
     'motorola-edge-70-fusion' => 'https://www.motorola.com/we/en/p/pmipmjm44md',
     'motorola-moto-g35-5g' => 'https://www.motorola.com/we/en/p/phones/moto-g/35-5g/pmipmhc38m9',
-    'motorola-moto-g57-power' => 'https://www.motorola.com/we/en/p/pmipmjf43ml',
     'nintendo-switch-2' => 'https://www.nintendo.com/us/gaming-systems/switch-2/',
     'noise-aura-buds' => 'https://www.gonoise.com/products/noise-aura-buds-truly-wireless-earbuds',
     'noise-buds-trance-2' => 'https://www.gonoise.com/products/noise-buds-trance-2-wireless-earbuds',
