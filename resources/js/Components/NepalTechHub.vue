@@ -304,7 +304,7 @@
                 {{ center.brand }}
               </span>
               <span class="text-2xs font-semibold text-positive flex items-center gap-1">
-                <CheckCircle class="w-3 h-3" /> Official Partner
+                <CheckCircle class="w-3 h-3" /> Authorised service
               </span>
             </div>
 

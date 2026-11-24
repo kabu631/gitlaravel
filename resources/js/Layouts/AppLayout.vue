@@ -22,7 +22,7 @@
 
     <!-- Header -->
     <header class="sticky top-0 z-50 border-b border-line bg-canvas/90 backdrop-blur-md supports-[backdrop-filter]:bg-canvas/80">
-      <div class="container-page flex h-16 items-center gap-6">
+      <div class="container-page flex h-16 items-center gap-3 sm:gap-6">
         <Link :href="route('home')" class="shrink-0 rounded-md" aria-label="Git Infosys home">
           <img :src="isDark ? '/images/logo-white.png' : '/images/logo_dark.png'" alt="Git Infosys" class="h-8 w-auto" width="76" height="32" />
         </Link>
@@ -47,13 +47,13 @@
                 <div
                   v-if="activeMenu === item.id"
                   class="absolute left-0 top-[calc(100%-6px)] z-50 rounded-xl bg-surface p-2 shadow-popover"
-                  :class="item.children.some(c => c.type === 'categories') ? 'w-[26rem]' : 'w-80'"
+                  :class="item.children.some(c => c.type === 'categories') ? 'w-[40rem]' : 'w-80'"
                   @mouseenter="cancelClose"
                 >
                   <template v-for="child in item.children" :key="child.id">
                     <div v-if="child.type === 'divider'" class="my-1.5 border-t border-line" />
                     <p v-else-if="child.type === 'heading'" class="eyebrow px-3 pb-1 pt-2.5">{{ child.label }}</p>
-                    <div v-else-if="child.type === 'categories'" class="grid grid-cols-2 gap-0.5">
+                    <div v-else-if="child.type === 'categories'" class="grid grid-cols-3 gap-0.5">
                       <Link
                         v-for="cat in navCategories"
                         :key="cat.slug"
@@ -101,7 +101,7 @@
           </template>
         </nav>
 
-        <div class="ml-auto flex items-center gap-1.5">
+        <div class="ml-auto flex min-w-0 flex-1 items-center justify-end gap-1.5 md:flex-none">
           <!-- Search -->
           <button
             type="button"
@@ -117,19 +117,32 @@
             </span>
             <kbd>{{ shortcutLabel }}</kbd>
           </button>
-          <button type="button" class="btn btn-ghost btn-icon md:hidden" aria-label="Search" @click="openSearch">
-            <Search class="h-5 w-5" :stroke-width="1.75" />
-          </button>
-
           <button
             type="button"
-            class="btn btn-ghost btn-icon hidden sm:inline-flex"
+            class="flex h-9 min-w-0 flex-1 items-center gap-2 rounded-lg border border-line bg-surface-2 px-2.5 text-sm text-fg-subtle transition-colors hover:border-line-strong md:hidden"
+            aria-label="Search devices, news…"
+            @click="openSearch"
+          >
+            <Search class="h-4 w-4 shrink-0" :stroke-width="1.75" />
+            <span class="flex min-w-0 flex-1 items-center text-left" aria-hidden="true">
+              <span class="truncate text-fg-muted">{{ typedHint }}</span>
+              <span class="ml-px inline-block h-4 w-px shrink-0 bg-accent" :class="hintTyping ? '' : 'animate-caret'" />
+            </span>
+          </button>
+
+          <!-- Theme toggle: in front of the search bar on phones. Shows the theme you'll switch to. -->
+          <button
+            type="button"
+            class="theme-toggle order-first md:order-none"
             :aria-label="isDark ? 'Switch to light theme' : 'Switch to dark theme'"
+            :aria-pressed="isDark"
             :title="isDark ? 'Light theme' : 'Dark theme'"
             @click="toggleTheme"
           >
-            <Sun v-if="isDark" class="h-[18px] w-[18px]" :stroke-width="1.75" />
-            <Moon v-else class="h-[18px] w-[18px]" :stroke-width="1.75" />
+            <Transition name="theme-icon" mode="out-in">
+              <Sun v-if="isDark" key="sun" class="h-[18px] w-[18px]" :stroke-width="2" />
+              <Moon v-else key="moon" class="h-[18px] w-[18px]" :stroke-width="2" />
+            </Transition>
           </button>
 
           <template v-if="user">
@@ -295,10 +308,6 @@
             <Link :href="route('pages.terms')" class="hover:text-fg">Terms</Link>
             <Link :href="route('pages.privacy')" class="hover:text-fg">Privacy</Link>
             <button type="button" class="hover:text-fg" @click="openCookieSettings">Cookie settings</button>
-            <button type="button" class="flex items-center gap-1.5 hover:text-fg sm:hidden" @click="toggleTheme">
-              <Sun v-if="isDark" class="h-3.5 w-3.5" /><Moon v-else class="h-3.5 w-3.5" />
-              {{ isDark ? 'Light theme' : 'Dark theme' }}
-            </button>
           </div>
         </div>
       </div>
@@ -338,9 +347,15 @@
             <button
               type="button"
               class="flex h-10 w-full items-center gap-2 rounded-lg border border-line bg-surface-2 px-3 text-sm text-fg-subtle"
+              aria-label="Search devices, news…"
               @click="mobileOpen = false; openSearch()"
             >
-              <Search class="h-4 w-4" :stroke-width="1.75" /> Search devices, news…
+              <Search class="h-4 w-4 shrink-0" :stroke-width="1.75" />
+              <span class="flex min-w-0 flex-1 items-center text-left" aria-hidden="true">
+                <span class="shrink-0">Search&nbsp;</span>
+                <span class="truncate text-fg-muted">{{ typedHint }}</span>
+                <span class="ml-px inline-block h-4 w-px shrink-0 bg-accent" :class="hintTyping ? '' : 'animate-caret'" />
+              </span>
             </button>
 
             <nav class="mt-4 divide-y divide-line" aria-label="Mobile">
@@ -398,12 +413,6 @@
           </div>
 
           <div class="shrink-0 space-y-3 border-t border-line p-4">
-            <button type="button" class="btn btn-secondary w-full justify-between" @click="toggleTheme">
-              <span class="flex items-center gap-2">
-                <Sun v-if="isDark" class="h-4 w-4" /><Moon v-else class="h-4 w-4" />
-                {{ isDark ? 'Light theme' : 'Dark theme' }}
-              </span>
-            </button>
             <div v-if="user" class="grid grid-cols-2 gap-2">
               <Link :href="route('profile.edit')" class="btn btn-secondary" @click="mobileOpen = false">Account</Link>
               <button type="button" class="btn btn-secondary" @click="logout">Log out</button>
@@ -425,7 +434,7 @@
         leave-active-class="transition-opacity duration-100"
         leave-to-class="opacity-0"
       >
-        <div v-if="searchOpen" class="fixed inset-0 z-[999] flex items-start justify-center bg-navy-950/40 px-4 pt-[12vh] backdrop-blur-[2px]" @mousedown.self="closeSearch">
+        <div v-if="searchOpen" class="fixed inset-0 z-[999] flex items-start justify-center bg-navy-950/50 px-4 pt-[12vh] backdrop-blur-md" @mousedown.self="closeSearch">
           <div class="w-full max-w-xl overflow-hidden rounded-xl border border-line bg-surface shadow-xl" role="dialog" aria-modal="true" aria-label="Search">
             <div class="flex items-center gap-3 border-b border-line px-4">
               <Search class="h-5 w-5 shrink-0 text-fg-subtle" :stroke-width="1.75" />
@@ -433,7 +442,8 @@
                 ref="searchInput"
                 v-model="searchQuery"
                 type="text"
-                placeholder="Search phones, laptops, brands, news…"
+                aria-label="Search phones, laptops, brands, news"
+                :placeholder="`Search ${typedHint}`"
                 class="h-14 flex-1 border-0 bg-transparent px-0 text-base text-fg placeholder:text-fg-faint focus:ring-0"
                 autocomplete="off"
                 @keydown.down.prevent="moveSelection(1)"
@@ -446,11 +456,35 @@
 
             <div class="max-h-[60vh] overflow-y-auto p-2">
               <template v-if="searchQuery.trim()">
-                <button type="button" class="palette-row" :class="{ 'palette-row-active': selection === 0 }" @mouseenter="selection = 0" @click="search()">
-                  <Search class="h-4 w-4 text-fg-subtle" :stroke-width="1.75" />
-                  <span class="flex-1 truncate">Search for <span class="font-medium text-fg">“{{ searchQuery.trim() }}”</span></span>
-                  <CornerDownLeft class="h-3.5 w-3.5 text-fg-faint" />
-                </button>
+                <!-- Live results: devices, shelves, brands and guides as you type; Enter opens the highlighted one. -->
+                <template v-for="(item, i) in liveItems" :key="item.key">
+                  <p v-if="item.heading" class="eyebrow px-3 pb-1.5" :class="i === 0 ? 'pt-2' : 'pt-4'">{{ item.heading }}</p>
+                  <button
+                    type="button"
+                    class="palette-row"
+                    :class="{ 'palette-row-active': selection === i }"
+                    @mouseenter="selection = i"
+                    @click="openLiveItem(item)"
+                  >
+                    <span v-if="item.kind === 'product'" class="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-md bg-surface-2">
+                      <img v-if="item.image" :src="item.image" alt="" class="h-full w-full object-contain" loading="lazy" />
+                    </span>
+                    <Search v-else-if="item.kind === 'search'" class="h-4 w-4 text-fg-subtle" :stroke-width="1.75" />
+                    <component :is="catIcon(item.slug)" v-else-if="item.kind === 'category'" class="h-4 w-4 text-fg-subtle" :stroke-width="1.75" />
+                    <BookOpen v-else-if="item.kind === 'guide'" class="h-4 w-4 text-fg-subtle" :stroke-width="1.75" />
+                    <Award v-else class="h-4 w-4 text-fg-subtle" :stroke-width="1.75" />
+                    <span class="min-w-0 flex-1">
+                      <span class="block truncate" :class="item.kind === 'search' ? '' : 'text-fg'">
+                        <template v-if="item.kind === 'search'">Search for <span class="font-medium text-fg">“{{ searchQuery.trim() }}”</span></template>
+                        <template v-else>{{ item.label }}</template>
+                      </span>
+                      <span v-if="item.sub" class="block truncate text-xs text-fg-subtle">{{ item.sub }}</span>
+                    </span>
+                    <span v-if="item.price" class="tabular shrink-0 text-xs text-fg-muted">{{ item.price }}</span>
+                    <CornerDownLeft v-else-if="item.kind === 'search'" class="h-3.5 w-3.5 text-fg-faint" />
+                  </button>
+                </template>
+                <p v-if="suggestLoading && liveItems.length <= 1" class="px-3 py-3 text-xs text-fg-subtle">Searching…</p>
               </template>
               <template v-else>
                 <p class="eyebrow px-3 pb-1.5 pt-2">Popular searches</p>
@@ -528,6 +562,7 @@ import SitePopup from '@/Components/SitePopup.vue'
 import SeoHead from '@/Components/SeoHead.vue'
 import { useTheme } from '@/Composables/useTheme.js'
 import { categoryIcon } from '@/Composables/useCategories.js'
+import { formatPrice } from '@/Composables/useFormat.js'
 import { SOCIAL_ICONS } from '@/Composables/useSocialIcons.js'
 import { useTypewriter } from '@/Composables/useTypewriter.js'
 import { startReveal } from '@/Composables/useReveal.js'
@@ -581,7 +616,11 @@ function matches(url) {
   if (!p || p === '/') return false
   return currentPath.value === p || currentPath.value.startsWith(p + '/')
 }
-const isActive = item => matches(item.url) || (item.children || []).some(c => matches(c.url))
+// Pages that have their own top-level link (PC Builder, Compare...) light up only that link,
+// not also the dropdown they're listed under, so only one item is ever underlined.
+const topLevelPaths = computed(() => new Set(headerMenu.value.map(i => pathOf(i.url)).filter(Boolean)))
+const isActive = item => matches(item.url)
+  || (item.children || []).some(c => matches(c.url) && !topLevelPaths.value.has(pathOf(c.url)))
 
 /* --------------------------------------------- Desktop dropdown intent */
 const activeMenu = ref(null)
@@ -620,7 +659,7 @@ const searchOpen = ref(false)
 const searchQuery = ref('')
 const searchInput = ref(null)
 const selection = ref(0)
-const popularSearches = ['iPhone 16 Pro', 'Samsung Galaxy S24', 'MacBook Air M3', 'Gaming laptops', 'Noise-cancelling earbuds']
+const popularSearches = ['iPhone 17 Pro', 'Galaxy S26 Ultra', 'MacBook Air M5', 'Gaming laptops', 'Noise-cancelling earbuds']
 const paletteCategories = computed(() =>
   navCategories.value.length
     ? navCategories.value.slice(0, 6)
@@ -655,13 +694,67 @@ function browseCategory(slug) {
   closeSearch()
   router.get(route('gadgets.index'), { category: slug })
 }
-const optionCount = computed(() => (searchQuery.value.trim() ? 1 : popularSearches.length + paletteCategories.value.length))
-watch(searchQuery, () => { selection.value = 0 })
+/* Live suggestions from /search/suggest while typing (debounced; stale responses are ignored). */
+const suggestions = ref(null)
+const suggestLoading = ref(false)
+let suggestTimer = null
+let suggestSeq = 0
+watch(searchQuery, value => {
+  selection.value = 0
+  clearTimeout(suggestTimer)
+  const term = value.trim()
+  if (term.length < 2) {
+    suggestions.value = null
+    suggestLoading.value = false
+    return
+  }
+  suggestLoading.value = true
+  suggestTimer = setTimeout(async () => {
+    const seq = ++suggestSeq
+    try {
+      const res = await fetch(route('search.suggest', { q: term }), { headers: { Accept: 'application/json' } })
+      const data = res.ok ? await res.json() : null
+      if (seq === suggestSeq) suggestions.value = data
+    } catch {
+      if (seq === suggestSeq) suggestions.value = null
+    } finally {
+      if (seq === suggestSeq) suggestLoading.value = false
+    }
+  }, 160)
+})
+const liveItems = computed(() => {
+  const s = suggestions.value
+  const items = [{ key: 'search', kind: 'search', sub: s?.corrected ? `Showing results for “${s.corrected}”` : (s?.understood?.price || null) }]
+  if (!s) return items
+  ;(s.products || []).forEach((p, i) => items.push({
+    key: `p-${p.slug}`, kind: 'product', heading: i === 0 ? 'Devices' : null,
+    label: p.name, sub: [p.brand, p.category].filter(Boolean).join(' · '), image: p.image,
+    price: p.price > 0 ? formatPrice(p.price) : null, href: route('gadgets.show', p.slug),
+  }))
+  ;(s.categories || []).forEach((c, i) => items.push({
+    key: `c-${c.slug}`, kind: 'category', heading: i === 0 ? 'In categories' : null, slug: c.slug,
+    label: c.name, sub: 'Matching devices', href: route('search.index', { q: searchQuery.value.trim(), category: c.slug }),
+  }))
+  ;(s.brands || []).forEach((b, i) => items.push({
+    key: `b-${b.slug}`, kind: 'brand', heading: i === 0 ? 'Brands' : null,
+    label: b.name, sub: 'Brand', href: route('brands.show', b.slug),
+  }))
+  ;(s.guides || []).forEach((g, i) => items.push({
+    key: `g-${g.slug}`, kind: 'guide', heading: i === 0 ? 'Guides' : null, label: g.title, href: route('guides.show', g.slug),
+  }))
+  return items
+})
+function openLiveItem(item) {
+  if (item.kind === 'search') return search()
+  closeSearch()
+  router.visit(item.href)
+}
+const optionCount = computed(() => (searchQuery.value.trim() ? liveItems.value.length : popularSearches.length + paletteCategories.value.length))
 function moveSelection(step) {
   selection.value = (selection.value + step + optionCount.value) % optionCount.value
 }
 function submitSelection() {
-  if (searchQuery.value.trim()) return search()
+  if (searchQuery.value.trim()) return openLiveItem(liveItems.value[selection.value] || liveItems.value[0])
   const i = selection.value
   if (i < popularSearches.length) return search(popularSearches[i])
   const cat = paletteCategories.value[i - popularSearches.length]
@@ -695,7 +788,7 @@ function dismissFlash() { flashDismissed.value = true }
 /* ------------------------------------------------- Admin-managed values */
 const settings = computed(() => page.props.settings || {})
 const contact = computed(() => settings.value.contact || {})
-const adminUrl = computed(() => page.props.adminUrl || '/secure-admin')
+const adminUrl = computed(() => page.props.adminUrl || '')
 const announcement = computed(() => {
   const a = settings.value.announcement || {}
   return { show: a.announcement_enabled !== false && !!a.announcement_text, text: a.announcement_text, url: a.announcement_url, badge: a.announcement_badge }
@@ -730,7 +823,7 @@ const footerColumns = computed(() => [
       { label: 'Buying guides', href: route('guides.index') },
       { label: 'Blog', href: route('blog.index') },
       { label: 'Tech Lab', href: route('pages.tech-lab') },
-      { label: 'PC Builder', href: route('pcbuilder.index') },
+      { label: 'PC Builder', href: route('pcbuilder.custom') },
     ],
   },
   {

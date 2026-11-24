@@ -252,7 +252,13 @@ class TechNewsSeeder extends Seeder
             ],
         ];
 
+        // These articles have been rewritten (data/catalog/editorial_rewrites.php, seeded by MarketCatalogSeeder).
+        // Never overwrite a rewritten article with the old copy below; only create it on an empty install.
+        $rewritten = array_column((require __DIR__ . '/data/catalog/editorial_rewrites.php')['news'] ?? [], 'slug');
         foreach ($articles as $art) {
+            if (in_array($art['slug'], $rewritten, true) && NewsArticle::where('slug', $art['slug'])->exists()) {
+                continue;
+            }
             NewsArticle::updateOrCreate(['slug' => $art['slug']], $art);
         }
     }

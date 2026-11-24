@@ -85,7 +85,7 @@ class TechLabAndSettingsSeeder extends Seeder
             ]);
         }
 
-        // 2. Seed Partner Commercial Banks
+        // 2. Seed commercial banks that offer 0% EMI (listed for reference, no affiliation)
         $banks = [
             ['name' => 'Nabil Bank', 'slug' => 'nabil', 'supported_tenures' => [3, 6, 9, 12, 18], 'min_downpayment_percent' => 0.00, 'sort_order' => 1],
             ['name' => 'NIC Asia Bank', 'slug' => 'nic', 'supported_tenures' => [3, 6, 9, 12, 18], 'min_downpayment_percent' => 10.00, 'sort_order' => 2],

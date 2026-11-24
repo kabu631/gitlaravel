@@ -837,12 +837,12 @@ import { Link, router } from '@inertiajs/vue3'
 import { ref, computed } from 'vue'
 import axios from 'axios'
 import { marked } from 'marked'
+import { categoryIcon } from '@/Composables/useCategories.js'
 import {
-  Smartphone, Laptop, Tablet, Headphones, Watch, Mouse, Cpu,
   Scale, Bot, Sparkles, ShoppingBag, ExternalLink, ChevronRight,
   Check, X, ShieldCheck, Share2, Copy, Search, Flame, Plus,
   RotateCcw, TrendingDown, Compass, Camera, Maximize2, Battery,
-  TrendingUp, Zap, CheckCheck, CheckCircle2, Gamepad2,
+  TrendingUp, Zap, CheckCheck, CheckCircle2,
 } from 'lucide-vue-next'
 
 const props = defineProps({
@@ -866,12 +866,9 @@ const gridColsClass = computed(() => {
   }[n] || 'grid-cols-1 sm:grid-cols-2'
 })
 
+// Every category with at least two devices (the server decides), biggest first.
 const activeCategories = computed(() => {
-  const allowed = ['mobile', 'laptop', 'tablet', 'earbuds', 'headphones', 'smartwatch', 'gaming', 'games']
-  if (props.categories && props.categories.length) {
-    const list = props.categories.filter(c => allowed.includes(c.slug))
-    if (list.length) return list
-  }
+  if (props.categories && props.categories.length) return props.categories
   return [
     { slug: 'mobile', name: 'Smartphones' },
     { slug: 'laptop', name: 'Laptops' },
@@ -1335,11 +1332,41 @@ const consoleSections = [
   },
   { name: 'Build', rows: [{ label: 'Weight', key: 'weight' }, { label: 'Connectivity', key: 'connectivity' }] },
 ]
+// Phone-style rows (camera, battery, RAM...) suit these; everything else is compared on its own specs.
+const PHONE_STYLE = ['mobile', 'laptop', 'tablet', 'earbuds', 'headphones', 'smartwatch']
+const CORE_LABELS = {
+  display: 'Display', processor: 'Processor', os: 'Operating System', ram: 'RAM', storage: 'Storage',
+  camera: 'Camera', battery: 'Battery', connectivity: 'Connectivity', weight: 'Weight', dimensions: 'Dimensions',
+}
+const hasValue = v => v != null && String(v).trim() !== '' && !/^(n\/?a|—|-)$/i.test(String(v).trim())
+
+// Printers, drones, UPS, SSDs, projectors...: the filled-in core fields, then every spec any selected device lists,
+// in the order the first device lists them.
+const genericSections = computed(() => {
+  const list = props.selectedGadgets || []
+  const core = Object.entries(CORE_LABELS)
+    .filter(([key]) => list.some(g => hasValue(g.specs?.[key])))
+    .map(([key, label]) => ({ label, key }))
+  const seen = new Set()
+  const extra = []
+  for (const g of list) {
+    for (const [k, v] of Object.entries(g.specs?.extra_specs || {})) {
+      if (!seen.has(k) && hasValue(v)) { seen.add(k); extra.push({ label: k, key: `x:${k}` }) }
+    }
+  }
+  return [
+    hardwareSections[0], // Price + where to buy
+    ...(core.length ? [{ name: 'Key specs', rows: core }] : []),
+    ...(extra.length ? [{ name: 'Specifications', rows: extra }] : []),
+  ]
+})
+
 const specSections = computed(() => {
   const cat = props.category || 'mobile'
   if (cat === 'games') return gameSections
   if (cat === 'gaming') return consoleSections
-  return hardwareSections
+  if (PHONE_STYLE.includes(cat)) return hardwareSections
+  return genericSections.value
 })
 
 function getCellValue(gadget, key) {
@@ -1406,12 +1433,7 @@ const filteredSpecSections = computed(() => {
     .filter(section => section.rows.length > 0)
 })
 
-const catIcons = {
-  mobile: Smartphone, laptop: Laptop, tablet: Tablet,
-  earbuds: Headphones, smartwatch: Watch, accessory: Mouse,
-  gaming: Gamepad2, games: Gamepad2, headphones: Headphones,
-}
-const getCategoryIcon = (slug) => catIcons[slug] || Cpu
+const getCategoryIcon = categoryIcon
 
 function formatPrice(n) {
   if (!n) return '0'

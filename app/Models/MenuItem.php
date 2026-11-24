@@ -96,7 +96,7 @@ class MenuItem extends Model
                 ['Shop by Category', null, null, null, null, 'default', 'heading'],
                 ['Categories', null, null, null, null, 'default', 'categories'],
                 ['Side-by-Side Compare', '/compare', 'Scale', 'Spec & price showdown'],
-                ['PC Builder', '/pc-builder', 'Bot', 'Custom build estimator', 'AI', 'blue'],
+                ['PC Builder', '/custom-pc-build', 'Cpu', 'Builds by budget, or ask AI'],
                 ['Price Tracker', '/price-tracker', 'Flame', 'Nepal price drops & cuts', 'HOT', 'rose'],
             ]],
             ['Reviews', null, null, [
@@ -119,7 +119,7 @@ class MenuItem extends Model
             ]],
             ['Blog', '/blog', 'PenLine', []],
             ['Compare', '/compare', 'Scale', []],
-            ['PC Builder', '/pc-builder', 'Bot', [], 'blue'],
+            ['PC Builder', '/custom-pc-build', 'Bot', [], 'blue'],
         ];
 
         foreach ($tree as $i => $row) {

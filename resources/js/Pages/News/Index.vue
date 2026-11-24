@@ -36,27 +36,26 @@
         <section v-if="filters.category === 'rumors' && upcomingLaunches.length" class="mb-12" aria-labelledby="expected-heading">
           <h2 id="expected-heading" class="section-title">Expected launches</h2>
           <p class="section-desc">Based on leaks and announcements. Prices are our estimates for Nepal.</p>
-          <div class="mt-6 overflow-x-auto rounded-xl border border-line">
-            <table class="w-full text-sm">
-              <thead class="bg-surface-2 text-left text-xs text-fg-subtle">
-                <tr>
-                  <th scope="col" class="px-4 py-3 font-medium">Device</th>
-                  <th scope="col" class="hidden px-4 py-3 font-medium sm:table-cell">Expected</th>
-                  <th scope="col" class="px-4 py-3 text-right font-medium">Est. price</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-line">
-                <tr v-for="launch in upcomingLaunches" :key="launch.name" class="align-top">
-                  <td class="px-4 py-3.5">
-                    <p class="font-medium text-fg">{{ launch.name }}</p>
-                    <p class="mt-0.5 text-xs text-fg-subtle">{{ launch.brand }}<template v-if="launch.highlight"> · {{ launch.highlight }}</template></p>
-                    <p class="mt-0.5 text-xs text-fg-subtle sm:hidden">{{ launch.expected_date }}</p>
-                  </td>
-                  <td class="hidden whitespace-nowrap px-4 py-3.5 text-fg-muted sm:table-cell">{{ launch.expected_date }}</td>
-                  <td class="tabular whitespace-nowrap px-4 py-3.5 text-right text-fg">{{ normalisePrice(launch.est_price) }}</td>
-                </tr>
-              </tbody>
-            </table>
+          <!-- A list rather than a fixed table: long "when" notes wrap and prices never get cut off on phones. -->
+          <div class="mt-6">
+            <div class="hidden grid-cols-[minmax(0,1fr)_minmax(0,12rem)_8.5rem] gap-6 border-b border-fg/80 pb-2.5 text-2xs font-medium uppercase tracking-[0.08em] text-fg-subtle sm:grid">
+              <span>Device</span><span>When</span><span class="text-right">Est. price</span>
+            </div>
+            <ul class="divide-y divide-line border-y border-line sm:border-t-0">
+              <li v-for="launch in upcomingLaunches" :key="launch.name" class="group relative grid grid-cols-[minmax(0,1fr)_auto] gap-x-4 gap-y-1 py-4 sm:grid-cols-[minmax(0,1fr)_minmax(0,12rem)_8.5rem] sm:gap-x-6">
+                <div class="min-w-0">
+                  <p class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                    <Link v-if="launch.slug" :href="route('gadgets.show', launch.slug)" class="font-semibold leading-snug text-fg after:absolute after:inset-0 group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4">{{ launch.name }}</Link>
+                    <span v-else class="font-semibold leading-snug text-fg">{{ launch.name }}</span>
+                    <span v-if="launch.badge" class="badge" :class="launch.badge === 'Announced' ? 'badge-positive' : 'badge-accent'">{{ launch.badge }}</span>
+                  </p>
+                  <p class="mt-1 line-clamp-2 text-sm text-fg-subtle"><span class="font-medium text-fg-muted">{{ launch.brand }}</span><template v-if="launch.highlight"> · {{ launch.highlight }}</template></p>
+                  <p class="mt-1.5 text-xs text-fg-subtle sm:hidden"><span class="font-medium uppercase tracking-[0.08em] text-fg-faint">When</span> {{ launch.expected_date }}</p>
+                </div>
+                <p class="hidden text-sm leading-snug text-fg-muted sm:block">{{ launch.expected_date }}</p>
+                <p class="tabular whitespace-nowrap text-right text-base font-semibold text-fg">{{ normalisePrice(launch.est_price) }}</p>
+              </li>
+            </ul>
           </div>
         </section>
 

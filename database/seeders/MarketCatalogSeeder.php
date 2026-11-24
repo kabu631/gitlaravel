@@ -43,6 +43,10 @@ class MarketCatalogSeeder extends Seeder
     public function run(): void
     {
         $gadgets = array_merge(
+            // ONIN Infosys in-stock listings come first: where they share a slug with a market listing below,
+            // the store's current, buyable configuration is the one the page describes.
+            require self::DATA_DIR . '/onin.php',
+            is_file(self::DATA_DIR . '/onin_more.php') ? require self::DATA_DIR . '/onin_more.php' : [],
             require self::DATA_DIR . '/phones.php',
             require self::DATA_DIR . '/laptops.php',
             require self::DATA_DIR . '/audio_wearables.php',
@@ -53,12 +57,17 @@ class MarketCatalogSeeder extends Seeder
             require self::DATA_DIR . '/archive.php',
             require self::DATA_DIR . '/flagships_upcoming.php',
             require self::DATA_DIR . '/flagships_archive.php',
+            // ONIN listings that are out of stock go last, so an existing page always wins on a shared slug.
+            is_file(self::DATA_DIR . '/onin_oos.php') ? require self::DATA_DIR . '/onin_oos.php' : [],
         );
         $gadgets = $this->mergeDuplicateRows($gadgets);
+        $gadgets = $this->applyContentQuality($gadgets);
         $editorial = require self::DATA_DIR . '/editorial.php';
         $reviews = array_merge($editorial['reviews'] ?? [], require self::DATA_DIR . '/reviews_more.php', require self::DATA_DIR . '/reviews_budget_mid.php');
-        $news = array_merge($editorial['news'] ?? [], require self::DATA_DIR . '/news_more.php');
-        $guides = array_merge($editorial['guides'] ?? [], require self::DATA_DIR . '/guides_more.php', require self::DATA_DIR . '/guides_generated.php');
+        // Rewrites of older articles go last, so they replace the out-of-date originals with the same slug.
+        $rewrites = is_file(self::DATA_DIR . '/editorial_rewrites.php') ? require self::DATA_DIR . '/editorial_rewrites.php' : [];
+        $news = array_merge($editorial['news'] ?? [], require self::DATA_DIR . '/news_more.php', $rewrites['news'] ?? []);
+        $guides = array_merge($editorial['guides'] ?? [], require self::DATA_DIR . '/guides_more.php', require self::DATA_DIR . '/guides_generated.php', $rewrites['guides'] ?? []);
 
         $this->authorId = User::where('is_admin', true)->value('id') ?? User::value('id');
         $this->imageCredits = is_file(self::DATA_DIR . '/image_credits.php') ? require self::DATA_DIR . '/image_credits.php' : [];
@@ -92,7 +101,8 @@ class MarketCatalogSeeder extends Seeder
     /**
      * Several data files can describe the same device under one slug (e.g. a GadgetByte Nepal listing and
      * a flagship-archive entry). Files are loaded from most to least Nepal-specific, so the first row wins;
-     * a later duplicate only adds spec lines and sources the first row lacks (such as DXOMARK scores).
+     * a later duplicate only adds what the first row lacks: spec lines (such as DXOMARK scores), sources,
+     * dated price points, a release date, and the editorial featured/trending flags.
      */
     private function mergeDuplicateRows(array $rows): array
     {
@@ -103,8 +113,32 @@ class MarketCatalogSeeder extends Seeder
                 $out[$slug] = $row;
                 continue;
             }
+            foreach ($row['specs'] ?? [] as $field => $value) {
+                if ($field !== 'extra' && is_string($value) && $value !== '') {
+                    $out[$slug]['specs'][$field] ??= $value;
+                }
+            }
             foreach ($row['specs']['extra'] ?? [] as $label => $value) {
                 $out[$slug]['specs']['extra'][$label] ??= $value;
+            }
+            foreach (['release_date', 'listed_at'] as $field) {
+                if (! empty($row[$field])) {
+                    $out[$slug][$field] ??= $row[$field];
+                }
+            }
+            foreach (['featured', 'trending'] as $flag) {
+                if (! empty($row[$flag])) {
+                    $out[$slug][$flag] = true;
+                }
+            }
+            $dates = array_column($out[$slug]['history'] ?? [], 0);
+            foreach ($row['history'] ?? [] as $point) {
+                if (! in_array($point[0], $dates, true)) {
+                    $out[$slug]['history'][] = $point;
+                }
+            }
+            if (! empty($out[$slug]['history'])) {
+                usort($out[$slug]['history'], fn ($a, $b) => strcmp($a[0], $b[0]));
             }
             $known = array_column($out[$slug]['sources'] ?? [], 'url');
             foreach ($row['sources'] ?? [] as $source) {
@@ -115,6 +149,57 @@ class MarketCatalogSeeder extends Seeder
         }
 
         return array_values($out);
+    }
+
+    /**
+     * Keep the catalogue safe from search engines' scaled-content and thin-content signals.
+     *
+     * 1. Drop the "Price and specifications are checked against …" closing paragraph that older imports put on
+     *    every page. The product page already lists its sources with the date they were checked, so the
+     *    paragraph only added identical text to well over a thousand pages.
+     * 2. Flag pages whose description is mostly fill-in-the-blank sentences (the same sentence pattern on 25+
+     *    pages once names, brands and numbers are masked) or is under 40 words. Those get "noindex, follow".
+     *    They stay useful to visitors and to on-site search; writing real copy for a page lifts the flag on the
+     *    next seed automatically. Rows that set their own seo.robots are left alone.
+     */
+    private function applyContentQuality(array $rows): array
+    {
+        $template = function (string $sentence, array $row): string {
+            $s = Str::lower($sentence);
+            $s = str_replace([Str::lower($row['name']), Str::lower($row['brand'] ?? '')], ['<n>', '<b>'], $s);
+            $s = preg_replace('/[\d,.]+/', '#', $s);
+
+            return trim(mb_substr(preg_replace('/\s+/', ' ', $s), 0, 60));
+        };
+
+        $sentences = [];
+        $frequency = [];
+        foreach ($rows as $i => $row) {
+            $desc = preg_replace('#<p>\s*Prices? and specifications (?:are|were) checked against.*?</p>#si', '', (string) ($row['description'] ?? ''));
+            $rows[$i]['description'] = trim($desc);
+            $text = html_entity_decode(strip_tags($desc));
+            $sentences[$i] = [];
+            foreach (preg_split('/(?<=[.!?])\s+/', $text) as $s) {
+                if (strlen(trim($s)) < 25) {
+                    continue;
+                }
+                $t = $template($s, $row);
+                $sentences[$i][] = $t;
+                $frequency[$t] = ($frequency[$t] ?? 0) + 1;
+            }
+        }
+
+        $flagged = 0;
+        foreach ($rows as $i => $row) {
+            $list = $sentences[$i];
+            $repeated = $list ? count(array_filter($list, fn ($t) => $frequency[$t] >= 25)) / count($list) : 1;
+            $words = str_word_count(strip_tags($rows[$i]['description']));
+            $rows[$i]['quality_noindex'] = $repeated >= 0.5 || $words < 40;
+            $flagged += (int) $rows[$i]['quality_noindex'];
+        }
+        $this->command?->info("Content-quality gate: {$flagged} of " . count($rows) . ' device pages set to noindex until they get their own copy.');
+
+        return $rows;
     }
 
     /** @return array<string, Category> keyed by slug */
@@ -130,6 +215,20 @@ class MarketCatalogSeeder extends Seeder
             'tablet'     => 'Tablet',
             'games'      => 'Games',
             'headphones' => 'Headphones',
+            // Categories added for the ONIN Infosys catalogue (computers, peripherals, home and office tech).
+            'monitor'      => 'Monitors',
+            'desktop'      => 'Desktops & All-in-One',
+            'pc-component' => 'PC Components',
+            'storage'      => 'Storage',
+            'peripheral'   => 'Keyboards & Mice',
+            'speaker'      => 'Speakers & Audio',
+            'printer'      => 'Printers',
+            'projector'    => 'Projectors',
+            'ups'          => 'UPS & Power',
+            'cctv'         => 'CCTV & Security',
+            'tv'           => 'Smart TVs',
+            'smart-board'  => 'Interactive Displays',
+            'drone'        => 'Drones',
         ];
 
         $out = [];
@@ -180,6 +279,10 @@ class MarketCatalogSeeder extends Seeder
             'sources'           => $row['sources'] ?? [],
             'accessory_type'    => $row['accessory_type'] ?? null,
         ];
+        // Retail listings link "Buy" straight to the store's product page.
+        if (array_key_exists('buy_url', $row)) {
+            $attributes['buy_url'] = $row['buy_url'];
+        }
         if ($image) {
             $attributes['image'] = $image;
         }
@@ -254,16 +357,40 @@ class MarketCatalogSeeder extends Seeder
                 'order'      => 0,
             ]);
         }
+        // Extra photos (other angles, ports, keyboard) follow the cover, in the order the data file lists them.
+        foreach (array_values($row['gallery'] ?? []) as $i => $photo) {
+            if (! Storage::disk('public')->exists($photo['image'])) {
+                continue;
+            }
+            $gadget->images()->create([
+                'image'      => $photo['image'],
+                'alt_text'   => $photo['alt'] ?? $row['name'],
+                'source_url' => $photo['source'] ?? null,
+                'order'      => $i + 1,
+            ]);
+        }
 
         // Per-page SEO overrides (title, description, keywords, alt text).
         if (! empty($row['seo'])) {
-            $gadget->seo()->updateOrCreate([], [
+            $gadget->seo()->updateOrCreate([], array_filter([
                 'meta_title'       => $row['seo']['title'],
                 'meta_description' => $row['seo']['description'],
                 'meta_keywords'    => $row['seo']['keywords'] ?? null,
                 'image_alt'        => $row['image_alt'] ?? null,
                 'og_type'          => 'product',
-            ]);
+                // e.g. 'noindex, follow' for pages whose copy is generated from the spec sheet.
+                'robots'           => $row['seo']['robots'] ?? null,
+            ], fn ($v) => $v !== null));
+        }
+
+        // Content-quality gate (see applyContentQuality): boilerplate pages stay reachable but out of search
+        // engines' index and the sitemap; once a page gets its own copy, the gate lifts the noindex again.
+        if (empty($row['seo']['robots'])) {
+            if (! empty($row['quality_noindex'])) {
+                $gadget->seo()->updateOrCreate([], ['robots' => 'noindex, follow']);
+            } elseif ($gadget->seo && $gadget->seo->robots === 'noindex, follow') {
+                $gadget->seo->update(['robots' => null]);
+            }
         }
 
         return $gadget;

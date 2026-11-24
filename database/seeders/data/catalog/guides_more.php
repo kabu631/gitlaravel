@@ -126,7 +126,7 @@ HTML,
 <ul>
 <li><strong><a href="/products/xiaomi-pad-7">Xiaomi Pad 7</a> — from Rs 44,999.</strong> A 3.2K 144Hz screen and Snapdragon 7+ Gen 3. The best performance under Rs 50,000.</li>
 <li><strong><a href="/products/samsung-galaxy-tab-s10-fe">Galaxy Tab S10 FE</a> — Rs 74,999.</strong> The S Pen comes in the box, along with IP68 and seven years of updates. Good for handwritten notes.</li>
-<li><strong><a href="/products/apple-ipad-11-a16-2025">iPad 11 (A16)</a> — from Rs 86,000.</strong> The simplest choice for iPhone owners, with the biggest app library.</li>
+<li><strong><a href="/products/ipad-11-2025">iPad 11 (A16)</a> — from Rs 86,000.</strong> The simplest choice for iPhone owners, with the biggest app library.</li>
 </ul>
 
 <h2>To replace a laptop</h2>

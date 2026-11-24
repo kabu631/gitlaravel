@@ -50,7 +50,7 @@
             :aria-current="activeCategory === cat.slug ? 'page' : undefined"
             @click="selectCategory(cat.slug)"
           >
-            {{ cat.name }} <span class="tabular text-fg-faint">{{ cat.gadgets_count }}</span>
+            {{ cat.name }}
           </button>
         </ScrollRow>
       </nav>
@@ -91,7 +91,7 @@
             </tr>
           </thead>
           <tbody class="divide-y divide-line">
-            <tr v-for="g in displayGadgets" :key="g.id" class="group relative transition-colors hover:bg-surface-2">
+            <tr v-for="g in visibleGadgets" :key="g.id" class="group relative transition-colors hover:bg-surface-2">
               <td class="px-3 py-3 sm:px-4">
                 <div class="flex items-center gap-3">
                   <div class="media-plate h-11 w-11 shrink-0 rounded-md">
@@ -123,8 +123,14 @@
           </tbody>
         </table>
       </div>
+      <div v-if="hasMore" class="mt-5 flex justify-center">
+        <button type="button" class="btn btn-secondary" @click="showMore">
+          See more
+          <ChevronDown class="h-4 w-4" aria-hidden="true" />
+        </button>
+      </div>
 
-      <div v-else class="mt-5 flex flex-col items-center rounded-xl border border-dashed border-line-strong px-6 py-16 text-center">
+      <div v-else-if="!displayGadgets.length" class="mt-5 flex flex-col items-center rounded-xl border border-dashed border-line-strong px-6 py-16 text-center">
         <h3 class="font-semibold text-fg">Nothing matches these filters</h3>
         <p class="mt-1 text-sm text-fg-subtle">Try another category or clear the search.</p>
         <button type="button" class="btn btn-secondary mt-5" @click="resetFilters">Reset filters</button>
@@ -152,9 +158,9 @@
 
 <script setup>
 import ScrollRow from '@/Components/ScrollRow.vue'
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { Link } from '@inertiajs/vue3'
-import { Search, ArrowDownRight, ArrowUpRight } from 'lucide-vue-next'
+import { Search, ArrowDownRight, ArrowUpRight, ChevronDown } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import Sparkline from '@/Components/Sparkline.vue'
@@ -229,6 +235,14 @@ const displayGadgets = computed(() => {
   }
   return sorted
 })
+
+// Show the table 10 rows at a time; "See more" reveals the next 10. Any filter change starts again at 10.
+const PAGE_SIZE = 10
+const visibleCount = ref(PAGE_SIZE)
+const visibleGadgets = computed(() => displayGadgets.value.slice(0, visibleCount.value))
+const hasMore = computed(() => visibleCount.value < displayGadgets.value.length)
+function showMore() { visibleCount.value += PAGE_SIZE }
+watch([activeCategory, activeStatusFilter, activeSort, searchQuery], () => { visibleCount.value = PAGE_SIZE })
 
 const trendClass = trend => (trend === 'Dropped' ? 'text-positive' : trend === 'Increased' ? 'text-negative' : 'text-fg-subtle')
 function changeLabel(g) {

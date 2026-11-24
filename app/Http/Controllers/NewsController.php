@@ -40,7 +40,16 @@ class NewsController extends Controller
 
         $trendingGadgets = \App\Models\Gadget::with('brand')->where('is_trending', true)->latest()->take(5)->get();
 
-        $upcomingLaunches = UpcomingLaunch::active()->orderBy('sort_order')->get();
+        $upcomingLaunches = UpcomingLaunch::active()->with('gadget:id,slug')->orderBy('sort_order')->get()
+            ->map(fn ($l) => [
+                'name'          => $l->name,
+                'slug'          => $l->gadget?->slug,
+                'brand'         => $l->brand,
+                'badge'         => $l->badge,
+                'highlight'     => $l->highlight,
+                'expected_date' => $l->expected_date,
+                'est_price'     => $l->est_price,
+            ]);
 
         $seoTitle = $category === 'rumors'
             ? 'Nepal Tech Rumors & Upcoming Flagship Releases — Git Infosys'

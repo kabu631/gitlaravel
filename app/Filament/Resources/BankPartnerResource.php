@@ -33,7 +33,7 @@ class BankPartnerResource extends Resource
     public static function form(Schema $schema): Schema
     {
         return $schema->schema([
-            Section::make('Bank Partner Information')->columnSpanFull()->schema([
+            Section::make('EMI Bank Information')->columnSpanFull()->schema([
                 TextInput::make('name')
                     ->label('Commercial Bank Name')
                     ->required()
@@ -72,7 +72,7 @@ class BankPartnerResource extends Resource
                     ->numeric()
                     ->default(0.00)
                     ->prefix('%')
-                    ->helperText('Usually 0% for zero-interest promotional partnerships.'),
+                    ->helperText('Usually 0% on zero-interest promotional offers.'),
 
                 TextInput::make('min_downpayment_percent')
                     ->label('Minimum Down Payment (%)')
@@ -94,7 +94,7 @@ class BankPartnerResource extends Resource
                     ->helperText('Lower number = shown first'),
 
                 Toggle::make('is_active')
-                    ->label('Active Partner')
+                    ->label('Show in EMI calculator')
                     ->default(true),
             ])->columns(2),
         ]);
@@ -120,8 +120,8 @@ class BankPartnerResource extends Resource
         ->actions([
 \Filament\Actions\ActionGroup::make([
             EditAction::make()
-                ->modalHeading('EDIT BANK PARTNER')
-                ->modalDescription('UPDATE 0% EMI BANK PARTNER DETAILS')
+                ->modalHeading('EDIT EMI BANK')
+                ->modalDescription('UPDATE 0% EMI BANK DETAILS')
                 ->modalSubmitActionLabel('SAVE CHANGES')
                 ->modalWidth('lg'),
             \Filament\Actions\DeleteAction::make(),

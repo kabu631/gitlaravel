@@ -8,20 +8,22 @@
    Contrast targets (WCAG AA): fg-subtle and accent-text >= 4.5:1 on surface.
    ========================================================================== */
 @layer base {
+  /* Brand: the Git Infosys logo is navy #232F3F with an orange #FF991B mark.
+     Navy carries text, primary buttons and active states; orange is the accent. Greys are navy-tinted. */
   :root {
     --canvas: 255 255 255;
     --surface: 255 255 255;
-    --surface-2: 245 246 248;
-    --surface-3: 236 238 241;
-    --line: 228 231 235;
-    --line-strong: 207 212 219;
+    --surface-2: 243 246 249;      /* navy-50 */
+    --surface-3: 227 232 239;      /* navy-100 */
+    --line: 225 231 238;
+    --line-strong: 200 211 223;    /* navy-200 */
 
-    --fg: 18 25 35;
-    --fg-muted: 71 82 96;
-    --fg-subtle: 100 110 123;
-    --fg-faint: 142 151 163;
+    --fg: 35 47 63;                /* logo navy #232F3F */
+    --fg-muted: 60 86 115;         /* navy-600 */
+    --fg-subtle: 79 103 131;       /* >= 4.5:1 on white */
+    --fg-faint: 128 150 173;
 
-    --accent: 255 153 27;          /* logo orange — fills, indicators, focus */
+    --accent: 255 153 27;          /* logo orange #FF991B: fills, indicators, focus */
     --accent-text: 173 85 0;       /* orange that passes AA as text on white */
     --accent-soft: 255 244 230;
 
@@ -35,26 +37,26 @@
   }
 
   .dark {
-    --canvas: 15 21 29;
-    --surface: 21 28 38;
-    --surface-2: 27 36 48;
-    --surface-3: 35 45 59;
-    --line: 37 47 61;
-    --line-strong: 50 62 79;
+    --canvas: 14 20 28;            /* navy-950 */
+    --surface: 25 34 46;           /* navy-900 */
+    --surface-2: 35 47 63;         /* logo navy */
+    --surface-3: 49 68 91;         /* navy-700 */
+    --line: 42 56 75;
+    --line-strong: 60 80 105;
 
-    --fg: 231 235 240;
-    --fg-muted: 168 178 190;
-    --fg-subtle: 138 149 163;
-    --fg-faint: 95 107 122;
+    --fg: 243 246 249;             /* navy-50 */
+    --fg-muted: 200 211 223;       /* navy-200 */
+    --fg-subtle: 159 179 199;      /* navy-300 */
+    --fg-faint: 111 133 158;
 
-    --accent: 255 159 46;
-    --accent-text: 255 169 64;
-    --accent-soft: 49 43 37;
+    --accent: 255 153 27;          /* logo orange */
+    --accent-text: 255 172 70;
+    --accent-soft: 56 42 26;
 
     --positive: 63 191 127;
-    --positive-soft: 26 48 49;
+    --positive-soft: 24 48 45;
     --negative: 240 103 92;
-    --negative-soft: 47 37 44;
+    --negative-soft: 52 35 42;
     color-scheme: dark;
   }
 
@@ -165,6 +167,17 @@
            transition-colors hover:border-line-strong;
   }
 
+  /* Header theme switch: a highlighted round icon (moon in light mode, sun in dark mode). */
+  .theme-toggle {
+    @apply inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-accent/40 bg-accent-soft
+           text-accent-text transition-colors hover:border-accent hover:bg-accent/15 focus-visible:outline-none
+           focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas;
+  }
+  .theme-icon-enter-active,
+  .theme-icon-leave-active { transition: transform 0.18s ease, opacity 0.18s ease; }
+  .theme-icon-enter-from { opacity: 0; transform: rotate(-90deg) scale(0.6); }
+  .theme-icon-leave-to   { opacity: 0; transform: rotate(90deg) scale(0.6); }
+
   /* Chips (filters, tabs) */
   .chip {
     @apply inline-flex h-8 shrink-0 cursor-pointer select-none items-center gap-1.5 rounded-full border border-line bg-surface px-3
@@ -188,6 +201,16 @@
   .section-head { @apply mb-6 flex items-end justify-between gap-4; }
   .section-title { @apply text-xl font-semibold tracking-tight text-fg sm:text-2xl; }
   .section-desc { @apply mt-1 text-sm text-fg-subtle; }
+
+  /* Outlined index numerals ("01", "02"...), the chart look from the homepage's Most viewed list. */
+  .numeral-outline {
+    color: transparent;
+    -webkit-text-stroke: 1.25px rgb(var(--line-strong));
+    transition: -webkit-text-stroke-color 0.2s ease, color 0.2s ease;
+  }
+  .group:hover .numeral-outline {
+    -webkit-text-stroke-color: rgb(var(--accent));
+  }
 
   /* Media plate behind product photography */
   .media-plate { @apply overflow-hidden bg-surface-2; }

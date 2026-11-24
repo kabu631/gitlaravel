@@ -1,4 +1,7 @@
-import { Smartphone, Laptop, Tablet, Headphones, Watch, Mouse, Cpu, Gamepad2, Camera, Tv } from 'lucide-vue-next'
+import {
+  Smartphone, Laptop, Tablet, Headphones, Watch, Mouse, Cpu, Gamepad2, Camera, Tv,
+  Monitor, PcCase, HardDrive, Keyboard, Speaker, Printer, Projector, BatteryCharging, Cctv, Presentation, Drone,
+} from 'lucide-vue-next'
 
 const ICONS = {
   mobile: Smartphone,
@@ -16,6 +19,18 @@ const ICONS = {
   games: Gamepad2,
   camera: Camera,
   tv: Tv,
+  monitor: Monitor,
+  desktop: PcCase,
+  'pc-component': Cpu,
+  storage: HardDrive,
+  peripheral: Keyboard,
+  speaker: Speaker,
+  printer: Printer,
+  projector: Projector,
+  ups: BatteryCharging,
+  cctv: Cctv,
+  'smart-board': Presentation,
+  drone: Drone,
 }
 
 const LABELS = {
@@ -28,6 +43,19 @@ const LABELS = {
   accessory: 'Accessories',
   gaming: 'Consoles',
   games: 'Games',
+  monitor: 'Monitors',
+  desktop: 'Desktops',
+  'pc-component': 'PC Components',
+  storage: 'Storage',
+  peripheral: 'Keyboards & Mice',
+  speaker: 'Speakers',
+  printer: 'Printers',
+  projector: 'Projectors',
+  ups: 'UPS & Power',
+  cctv: 'CCTV',
+  tv: 'Smart TVs',
+  'smart-board': 'Interactive Displays',
+  drone: 'Drones',
 }
 
 /** Lucide icon component for a category slug (falls back to a generic chip). */

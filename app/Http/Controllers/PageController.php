@@ -87,7 +87,9 @@ class PageController extends Controller
         }])->having('gadgets_count', '>', 0)->get(['id', 'name', 'slug', 'gadgets_count']);
 
         // 2. Query all tracked gadgets
-        $query = Gadget::with(['brand', 'category', 'priceHistory'])
+        // Only the columns the tracker table uses; this page lists every tracked device at once.
+        $query = Gadget::with(['brand:id,name', 'category:id,name,slug', 'priceHistory:id,gadget_id,date,price'])
+            ->select(['id', 'name', 'slug', 'image', 'price', 'old_price', 'brand_id', 'category_id', 'is_trending', 'created_at', 'updated_at'])
             ->where(function ($q) {
                 $q->whereNotNull('price_tracker_description')
                   ->orWhereHas('priceHistory');
@@ -148,8 +150,8 @@ class PageController extends Controller
             $gadget->trend              = $trend;
             $gadget->is_hot_change      = $isHotChange;
             $gadget->last_changed_date  = $lastChangedDate ?? $gadget->updated_at?->format('M d, Y');
-            $gadget->buy_url            = $gadget->referral_buy_url;
-            $gadget->history_points     = $history->map(fn($h) => [
+            // The sparkline only needs the recent shape of the curve.
+            $gadget->history_points     = $history->slice(-12)->values()->map(fn($h) => [
                 'date'  => $h->date ? $h->date->format('M Y') : '',
                 'price' => (float)$h->price,
             ])->toArray();
@@ -200,12 +202,30 @@ class PageController extends Controller
             $filtered = $filtered->sortByDesc('updated_at');
         }
 
-        $trendingGadgets = Gadget::with('brand')->where('is_trending', true)->take(5)->get();
+        $trendingGadgets = Gadget::with('brand:id,name')->where('is_trending', true)->take(5)->get(['id', 'name', 'slug', 'image', 'price', 'brand_id']);
+
+        $slim = fn ($g) => [
+            'id'                 => $g->id,
+            'name'               => $g->name,
+            'slug'               => $g->slug,
+            'image'              => $g->image,
+            'brand'              => ['name' => $g->brand?->name],
+            'category'           => $g->category ? ['name' => $g->category->name, 'slug' => $g->category->slug] : null,
+            'current_price'      => $g->current_price,
+            'previous_price'     => $g->previous_price,
+            'price_diff_amount'  => $g->price_diff_amount,
+            'price_diff_percent' => $g->price_diff_percent,
+            'trend'              => $g->trend,
+            'is_hot_change'      => $g->is_hot_change,
+            'last_changed_date'  => $g->last_changed_date,
+            'updated_at'         => $g->updated_at?->toIso8601String(),
+            'history_points'     => $g->history_points,
+        ];
 
         return Inertia::render('Pages/PriceTracker', array_merge($this->sidebarData(), [
             'heading'           => 'Nepal Gadget Price Tracker',
             'subheading'        => 'Track real-time market price revisions, heavy drop alerts, and official price cuts in Nepal.',
-            'gadgets'           => $filtered->values(),
+            'gadgets'           => $filtered->values()->map($slim),
             'categories'        => $categories,
             'selectedCategory'  => $selectedCategory,
             'selectedFilter'    => $selectedFilter,
@@ -218,7 +238,7 @@ class PageController extends Controller
                 'max_discount_percent' => $maxDiscountPercent,
                 'total_savings'        => $totalSavings,
             ],
-            'topHotDrops'       => $topHotDrops,
+            'topHotDrops'       => $topHotDrops->map($slim),
             'trending'          => $trendingGadgets,
             'seo'               => Seo::make([
                 'title'       => 'Price Tracker — Monitor Gadget Prices & Heavy Drops in Nepal',

@@ -32,7 +32,6 @@ class SeoMeta extends Model
         'reviews.index'       => 'Reviews listing',
         'guides.index'        => 'Guides listing',
         'compare.index'       => 'Compare',
-        'pcbuilder.index'     => 'PC Builder',
         'search.index'        => 'Search',
         'pages.price-tracker' => 'Price Tracker',
         'pages.tech-lab'      => 'Tech Lab',

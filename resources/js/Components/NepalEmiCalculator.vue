@@ -7,7 +7,7 @@
           EMI calculator
         </h3>
         <p class="text-xs text-fg-subtle mt-1">
-          Estimate monthly installments on 0% EMI plans from Nepali banks. Check final terms with your bank.
+          Estimate monthly instalments on 0% EMI plans offered by banks in Nepal. Banks are listed for reference only. Git Infosys has no tie-up with any of them, so check the final terms with your bank.
         </p>
       </div>
     </div>
@@ -19,7 +19,7 @@
         <!-- 1. Select Nepal Commercial Bank -->
         <div>
           <label class="block text-xs font-semibold text-fg-muted uppercase tracking-wider mb-2">
-            1. Select Partner Bank:
+            1. Choose your bank:
           </label>
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
             <button

@@ -65,7 +65,7 @@
           <ul class="mt-2 space-y-1 text-sm">
             <li><Link :href="route('reviews.index')" class="flex items-center justify-between py-2 text-fg-muted hover:text-fg">Reviews <ArrowRight class="h-4 w-4" /></Link></li>
             <li><Link :href="route('compare.index')" class="flex items-center justify-between py-2 text-fg-muted hover:text-fg">Compare devices <ArrowRight class="h-4 w-4" /></Link></li>
-            <li><Link :href="route('pcbuilder.index')" class="flex items-center justify-between py-2 text-fg-muted hover:text-fg">PC Builder <ArrowRight class="h-4 w-4" /></Link></li>
+            <li><Link :href="route('pcbuilder.custom')" class="flex items-center justify-between py-2 text-fg-muted hover:text-fg">PC Builder <ArrowRight class="h-4 w-4" /></Link></li>
           </ul>
         </div>
       </aside>

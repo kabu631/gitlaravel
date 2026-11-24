@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Support\Seo;
+use App\Models\Gadget;
 use App\Models\TechGuide;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -47,6 +48,21 @@ class GuideController extends Controller
     {
         $guide   = TechGuide::where('slug', $slug)->where('is_published', true)->firstOrFail();
         $related = TechGuide::where('is_published', true)->where('id', '!=', $guide->id)->latest()->take(3)->get();
+
+        // Sidebar. Devices the guide links to come first (in the order the guide mentions them), with today's
+        // price, so readers can jump straight to a pick; then the latest guides, guide types and popular devices.
+        preg_match_all('#href="/products/([a-z0-9-]+)"#', (string) $guide->content, $m);
+        $linked = array_values(array_unique($m[1]));
+        $guideDevices = $linked
+            ? Gadget::whereIn('slug', $linked)->get(['id', 'name', 'slug', 'image', 'price', 'release_status'])
+                ->sortBy(fn ($g) => array_search($g->slug, $linked))->values()->take(8)
+            : collect();
+        $recentGuides = TechGuide::where('is_published', true)->where('id', '!=', $guide->id)
+            ->latest('updated_at')->take(6)->get(['id', 'title', 'slug', 'type', 'created_at', 'updated_at']);
+        $guideTypes = TechGuide::where('is_published', true)
+            ->selectRaw('type, COUNT(*) as count')->groupBy('type')->orderByDesc('count')->get();
+        $trendingGadgets = Gadget::where('is_trending', true)->whereNotIn('slug', $linked)
+            ->latest()->take(5)->get(['id', 'name', 'slug', 'image', 'price']);
         $appUrl   = config('app.url');
         $desc     = Str::limit(strip_tags($guide->content), 155);
         $imgUrl   = $guide->thumbnail ? Storage::url($guide->thumbnail) : null;
@@ -54,8 +70,12 @@ class GuideController extends Controller
         $canonical = route('guides.show', $guide->slug);
 
         return Inertia::render('Guides/Show', [
-            'guide'   => $guide,
-            'related' => $related,
+            'guide'           => $guide,
+            'related'         => $related,
+            'guideDevices'    => $guideDevices,
+            'recentGuides'    => $recentGuides,
+            'guideTypes'      => $guideTypes,
+            'trendingGadgets' => $trendingGadgets,
 
             'seo' => Seo::for($guide, [
                 'title'        => $guide->title,

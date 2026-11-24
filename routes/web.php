@@ -75,9 +75,12 @@ Route::post('/compare/ai-suggest', [CompareController::class, 'suggest'])
 
 // Search
 Route::get('/search', [SearchController::class, 'index'])->name('search.index');
+Route::get('/search/suggest', [SearchController::class, 'suggest'])->middleware('throttle:120,1')->name('search.suggest');
 
 // PC Builder
-Route::get('/pc-builder', [PCBuilderController::class, 'index'])->name('pcbuilder.index');
+// The AI builder lives inside the PC Builder page now; the old AI-only address redirects to it.
+Route::get('/pc-builder', fn () => redirect(route('pcbuilder.custom') . '#ai-builder', 301))->name('pcbuilder.index');
+Route::get('/custom-pc-build', [PCBuilderController::class, 'custom'])->name('pcbuilder.custom');
 Route::post('/pc-builder/recommend', [PCBuilderController::class, 'recommend'])
     ->middleware('throttle:ai')
     ->name('pcbuilder.recommend');

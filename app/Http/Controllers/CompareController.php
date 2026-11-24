@@ -12,7 +12,14 @@ class CompareController extends Controller
 {
     public function index(Request $request)
     {
-        $categories = Category::all();
+        // A comparison needs two devices, so categories with fewer stay out of the switcher until they grow.
+        // Same order as the header's category menu.
+        $categories = Category::withCount('gadgets')
+            ->having('gadgets_count', '>=', 2)
+            ->orderBy('id')
+            ->get(['id', 'name', 'slug'])
+            ->map->only(['id', 'name', 'slug'])
+            ->values();
         $category   = $request->category;
         $slugs      = array_values(array_filter([$request->g1, $request->g2, $request->g3, $request->g4]));
 
@@ -61,12 +68,22 @@ class CompareController extends Controller
         $minPrice = $prices ? min($prices) : null;
 
         // Load all gadgets belonging to this exact category so user can swap within same category
+        // The picker only shows name, brand, image and price, so send just that for the whole category.
         $gadgets = $category
-            ? Gadget::with(['brand', 'specs', 'category'])
+            ? Gadget::with(['brand:id,name'])
                 ->whereHas('category', fn($q) => $q->where('slug', $category))
                 ->orderBy('is_trending', 'desc')
                 ->latest()
-                ->get()
+                ->get(['id', 'name', 'slug', 'image', 'price', 'brand_id', 'is_trending', 'created_at'])
+                ->map(fn ($g) => [
+                    'id'       => $g->id,
+                    'name'     => $g->name,
+                    'slug'     => $g->slug,
+                    'image'    => $g->image,
+                    'price'    => (float) $g->price,
+                    'brand'    => ['name' => $g->brand?->name],
+                    'category' => ['slug' => $category],
+                ])
             : collect();
 
         return Inertia::render('Compare/Index', [

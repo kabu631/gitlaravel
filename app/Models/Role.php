@@ -152,7 +152,7 @@ class Role extends Model
             ['slug' => 'tech_lab_specialist'],
             [
                 'name' => 'Tech Lab Specialist',
-                'description' => 'Manages tech guides, camera shootouts, rival matchups, carrier bands, bank partners, and upcoming launches.',
+                'description' => 'Manages tech guides, camera shootouts, rival matchups, carrier bands, EMI banks, and upcoming launches.',
                 'is_system' => false,
             ]
         );

@@ -17,10 +17,15 @@ class GadgetController extends Controller
 {
     public function index(Request $request)
     {
-        $query = Gadget::with(['brand', 'category', 'specs'])
+        // Card columns only (no description/FAQ/sources), but the full spec sheet: the list view
+        // and the battery/camera/gaming highlight filters read display, camera and extra_specs.
+        $query = Gadget::forCard()->with('specs')
             ->when($request->category, fn($q) => $q->whereHas('category', fn($q2) => $q2->where('slug', $request->category)))
             ->when($request->brand,    fn($q) => $q->whereHas('brand',    fn($q2) => $q2->where('slug', $request->brand)))
-            ->when($request->search,   fn($q) => $q->where('name', 'like', "%{$request->search}%"))
+            // Model names and chipsets both count ("Dimensity", "Core Ultra" match on the spec sheet).
+            ->when($request->search,   fn($q) => $q->where(fn ($w) => $w
+                ->where('name', 'like', "%{$request->search}%")
+                ->orWhereHas('specs', fn ($sp) => $sp->where('processor', 'like', "%{$request->search}%"))))
             ->when($request->min_price, fn($q) => $q->where('price', '>=', $request->min_price))
             // Devices without a Nepal price are stored as 0; they don't belong in a price range.
             ->when($request->max_price, fn($q) => $q->where('price', '<=', $request->max_price)->where('price', '>', 0))
@@ -52,7 +57,8 @@ class GadgetController extends Controller
 
         return Inertia::render('Gadgets/Index', [
             'gadgets'    => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
-            'categories' => Category::withCount(['gadgets' => fn ($q) => $inBrand($inStatus($q))])->get(),
+            'categories' => Category::withCount(['gadgets' => fn ($q) => $inBrand($inStatus($q))])->get()
+                ->filter(fn ($c) => $c->gadgets_count > 0 || $c->slug === $request->category)->values(),
             'brands'     => \App\Models\Brand::withCount(['gadgets' => fn ($q) => $inCategory($inStatus($q))])
                 ->having('gadgets_count', '>', 0)->orderByDesc('gadgets_count')->get(),
             'filters'    => $request->only(['category', 'brand', 'search', 'min_price', 'max_price', 'sort', 'status']),
@@ -78,12 +84,12 @@ class GadgetController extends Controller
 
         $review   = $gadget->reviews()->where('is_published', true)->first();
         $comments = $gadget->comments()->with('user')->latest()->get();
-        $related  = Gadget::with(['brand', 'specs'])
+        $related  = Gadget::forCard()
             ->where('category_id', $gadget->category_id)
             ->where('id', '!=', $gadget->id)
             ->take(6)->get();
 
-        $trending = Gadget::with(['brand', 'specs'])
+        $trending = Gadget::query()
             ->where('is_trending', true)
             ->where('id', '!=', $gadget->id)
             ->latest()->take(4)->get(['id', 'name', 'slug', 'image', 'price', 'brand_id']);

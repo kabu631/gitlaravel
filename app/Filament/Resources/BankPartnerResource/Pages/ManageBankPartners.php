@@ -14,10 +14,10 @@ class ManageBankPartners extends ManageRecords
     {
         return [
             CreateAction::make()
-                ->label('New Bank Partner')
-                ->modalHeading('NEW BANK PARTNER')
-                ->modalDescription('DEFINE A 0% EMI BANK PARTNER')
-                ->modalSubmitActionLabel('CREATE BANK PARTNER')
+                ->label('New EMI Bank')
+                ->modalHeading('NEW EMI BANK')
+                ->modalDescription('ADD A BANK THAT OFFERS 0% EMI')
+                ->modalSubmitActionLabel('CREATE EMI BANK')
                 ->modalWidth('lg')
                 ->createAnother(false),
         ];

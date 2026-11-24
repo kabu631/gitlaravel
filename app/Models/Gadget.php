@@ -59,6 +59,26 @@ class Gadget extends Model
         return $query->where('release_status', '!=', self::STATUS_UPCOMING);
     }
 
+    /**
+     * Just what a product card renders (GadgetCard.vue), so listing pages don't ship
+     * descriptions, FAQs, sources and the full spec sheet for every tile.
+     */
+    public function scopeForCard($query)
+    {
+        return $query
+            ->select([
+                'gadgets.id', 'gadgets.brand_id', 'gadgets.category_id', 'gadgets.name', 'gadgets.slug',
+                'gadgets.image', 'gadgets.price', 'gadgets.old_price', 'gadgets.price_is_estimate',
+                'gadgets.launch_price_note', 'gadgets.release_status', 'gadgets.release_date',
+                'gadgets.is_featured', 'gadgets.is_trending', 'gadgets.buy_url', 'gadgets.created_at',
+            ])
+            ->with([
+                'brand:id,name,slug',
+                'category:id,name,slug',
+                'specs:id,gadget_id,processor,display,ram,storage,battery',
+            ]);
+    }
+
     public function scopeUpcoming($query)
     {
         return $query->where('release_status', self::STATUS_UPCOMING);

@@ -4,18 +4,38 @@ namespace App\Http\Controllers;
 
 use App\Support\Seo;
 use App\Models\Brand;
+use App\Models\Category;
 use App\Models\Gadget;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
 class BrandController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $brands = Brand::withCount('gadgets')->orderBy('name')->get(['id', 'name', 'slug', 'logo']);
+        // Which categories each brand actually sells in, so the sidebar can narrow the grid without a reload.
+        $categoriesByBrand = Gadget::query()
+            ->select('brand_id', 'category_id')->distinct()
+            ->whereNotNull('category_id')
+            ->get()->groupBy('brand_id')
+            ->map(fn ($rows) => $rows->pluck('category_id')->values());
+
+        $brands = Brand::orderBy('name')->get(['id', 'name', 'slug', 'logo'])
+            ->map(fn ($b) => [
+                'id'           => $b->id,
+                'name'         => $b->name,
+                'slug'         => $b->slug,
+                'logo'         => $b->logo,
+                'category_ids' => $categoriesByBrand->get($b->id, collect()),
+            ]);
+
+        // Same order as the header's category menu; empty categories are left out.
+        $categories = Category::whereHas('gadgets')->orderBy('id')->get(['id', 'name', 'slug']);
 
         return Inertia::render('Brands/Index', [
-            'brands' => $brands,
+            'brands'     => $brands,
+            'categories' => $categories,
+            'filters'    => $request->only(['category']),
             'seo'    => Seo::make([
                 'title'       => 'All Brands — Gadget Prices & Reviews in Nepal',
                 'description' => 'Browse every smartphone, laptop and gadget brand available in Nepal with specs, prices and reviews.',
@@ -29,17 +49,42 @@ class BrandController extends Controller
     {
         $brand = Brand::where('slug', $slug)->firstOrFail();
 
-        $query = Gadget::with(['brand', 'category'])
-            ->where('brand_id', $brand->id)
-            ->when($request->sort === 'price_asc',  fn($q) => $q->orderBy('price'))
-            ->when($request->sort === 'price_desc', fn($q) => $q->orderByDesc('price'))
-            ->when($request->sort === 'popular',    fn($q) => $q->orderByDesc('views_count'))
-            ->when(!$request->sort,                 fn($q) => $q->latest());
+        $status = in_array($request->status, array_keys(Gadget::STATUSES), true) ? $request->status : null;
+
+        // Same convention as /products: the default view hides discontinued models, which live under "Older models".
+        $inStatus = fn ($q) => $status
+            ? $q->where('release_status', $status)
+            : $q->where('release_status', '!=', Gadget::STATUS_DISCONTINUED);
+        $inCategory = fn ($q) => $q->when($request->category, fn ($q) => $q->whereHas('category', fn ($q2) => $q2->where('slug', $request->category)));
+        $ofBrand = fn ($q) => $q->where('brand_id', $brand->id);
+
+        $query = $inStatus($inCategory($ofBrand(Gadget::forCard()->with('specs'))))
+            ->when($request->min_price, fn ($q) => $q->where('price', '>=', $request->min_price))
+            // Devices without a Nepal price are stored as 0; they don't belong in a price range.
+            ->when($request->max_price, fn ($q) => $q->where('price', '<=', $request->max_price)->where('price', '>', 0));
+
+        match ($request->sort) {
+            'price_asc'  => $query->orderByRaw('price = 0')->orderBy('price'), // "no Nepal price" goes last
+            'price_desc' => $query->orderByDesc('price'),
+            'popular'    => $query->orderByDesc('views_count'),
+            default      => $query->latest(),
+        };
 
         return Inertia::render('Brands/Show', [
             'brand'   => $brand,
             'gadgets' => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
-            'filters' => $request->only(['sort']),
+            'filters' => $request->only(['category', 'min_price', 'max_price', 'sort', 'status']),
+
+            // Sidebar facets. Counts are only used to hide empty options, never shown.
+            'categories' => Category::whereHas('gadgets', fn ($q) => $inStatus($ofBrand($q)))
+                ->orderBy('name')->get(['id', 'name', 'slug']),
+            'statusCounts' => $inCategory($ofBrand(Gadget::query()))
+                ->selectRaw('release_status, count(*) as total')->groupBy('release_status')->pluck('total', 'release_status'),
+            'otherBrands' => Brand::where('id', '!=', $brand->id)
+                ->whereHas('gadgets')
+                ->withCount('gadgets')->orderByDesc('gadgets_count')
+                ->get(['id', 'name', 'slug', 'logo'])
+                ->map->only(['id', 'name', 'slug', 'logo']),
 
             'seo' => Seo::for($brand, [
                 'title'       => "{$brand->name} Products — Prices & Reviews in Nepal",

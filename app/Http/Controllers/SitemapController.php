@@ -34,7 +34,7 @@ class SitemapController extends Controller
             'brands.index'        => ['0.6', 'weekly'],
             'pages.price-tracker' => ['0.7', 'daily'],
             'compare.index'       => ['0.6', 'monthly'],
-            'pcbuilder.index'     => ['0.6', 'monthly'],
+            'pcbuilder.custom'    => ['0.8', 'weekly'],
             'pages.tech-lab'      => ['0.5', 'monthly'],
             'pages.about'         => ['0.5', 'monthly'],
             'pages.services'      => ['0.5', 'monthly'],
@@ -52,7 +52,7 @@ class SitemapController extends Controller
             }
         }
 
-        Category::indexable()->select('id', 'slug', 'updated_at')->each(fn ($c) => $urls->push([
+        Category::indexable()->whereHas('gadgets')->select('id', 'slug', 'updated_at')->each(fn ($c) => $urls->push([
             'loc' => route('gadgets.index', ['category' => $c->slug]), 'lastmod' => $c->updated_at?->toDateString(),
             'priority' => '0.8', 'freq' => 'daily',
         ]));

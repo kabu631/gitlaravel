@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-        <meta name="theme-color" content="#0f151d" media="(prefers-color-scheme: dark)">
+        <meta name="theme-color" content="#0e141c" media="(prefers-color-scheme: dark)">
         <link rel="icon" type="image/png" href="/favicon.png">
         <link rel="shortcut icon" href="/favicon.png">
 

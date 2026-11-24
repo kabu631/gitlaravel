@@ -705,17 +705,23 @@ const averageRating = computed(() => {
 
 /* Specs — only values that actually exist are shown. */
 const s = computed(() => props.gadget.specs || {})
-const keySpecs = computed(() =>
-  [
+const prettyLabel = k => k.charAt(0).toUpperCase() + k.slice(1).replace(/_/g, ' ')
+const extraEntries = computed(() => {
+  const extra = s.value.extra_specs
+  return extra && typeof extra === 'object' ? Object.entries(extra).filter(([, v]) => isReal(String(v ?? ''))) : []
+})
+const keySpecs = computed(() => {
+  const base = [
     ['Display', s.value.display],
     ['Chip', s.value.processor],
     ['Memory', [s.value.ram, s.value.storage].filter(isReal).join(' / ')],
     ['Camera', s.value.camera],
     ['Battery', s.value.battery],
-  ]
-    .filter(([, v]) => isReal(v))
-    .map(([label, value]) => ({ label, value })),
-)
+  ].filter(([, v]) => isReal(v))
+  // Monitors, printers, UPS, SSDs... have no phone-style specs: lead with their own first specs instead.
+  if (base.length < 2) base.push(...extraEntries.value.slice(0, 5 - base.length).map(([k, v]) => [prettyLabel(k), String(v)]))
+  return base.map(([label, value]) => ({ label, value }))
+})
 const specGroups = computed(() => {
   const rows = list => list.filter(([, v]) => isReal(v)).map(([label, value]) => ({ label, value }))
   const groups = [
@@ -724,9 +730,9 @@ const specGroups = computed(() => {
     { title: 'Camera and battery', rows: rows([['Camera', s.value.camera], ['Battery', s.value.battery]]) },
     { title: 'Connectivity', rows: rows([['Network', s.value.connectivity]]) },
   ]
-  const extra = s.value.extra_specs
-  if (extra && typeof extra === 'object' && Object.keys(extra).length) {
-    groups.push({ title: 'Other', rows: rows(Object.entries(extra).map(([k, v]) => [k.charAt(0).toUpperCase() + k.slice(1).replace(/_/g, ' '), String(v ?? '')])) })
+  if (extraEntries.value.length) {
+    const hasCore = groups.some(g => g.rows.length)
+    groups.push({ title: hasCore ? 'Other' : 'Specifications', rows: rows(extraEntries.value.map(([k, v]) => [prettyLabel(k), String(v ?? '')])) })
   }
   return groups.filter(g => g.rows.length)
 })
@@ -762,13 +768,19 @@ function submitComment() {
 
 /* Tools */
 const activeLabTab = ref('emi-calc')
-const labTabs = [
-  { id: 'emi-calc', label: 'EMI calculator' },
-  { id: 'resale-val', label: 'Resale value' },
-  { id: 'community', label: 'Owner benchmarks' },
-  { id: 'gaming', label: 'Gaming' },
-  { id: 'refresh-rate', label: 'Refresh rate' },
-]
+// EMI and resale apply to anything with a price; the others only make sense for computing devices or screens,
+// not for a printer, UPS or SSD.
+const COMPUTING = ['mobile', 'laptop', 'tablet', 'desktop']
+const SCREENS = [...COMPUTING, 'monitor', 'tv', 'gaming']
+const labTabs = computed(() => {
+  const cat = props.gadget.category?.slug
+  return [
+    { id: 'emi-calc', label: 'EMI calculator' },
+    { id: 'resale-val', label: 'Resale value' },
+    ...(COMPUTING.includes(cat) ? [{ id: 'community', label: 'Owner benchmarks' }, { id: 'gaming', label: 'Gaming' }] : []),
+    ...(SCREENS.includes(cat) ? [{ id: 'refresh-rate', label: 'Refresh rate' }] : []),
+  ]
+})
 
 /* Section navigation + scroll spy */
 const tocItems = computed(() => [

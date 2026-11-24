@@ -8,6 +8,7 @@ use App\Models\Popup;
 use App\Models\SiteSetting;
 use App\Support\Seo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Inertia\Middleware;
 
 class HandleInertiaRequests extends Middleware
@@ -40,11 +41,13 @@ class HandleInertiaRequests extends Middleware
             'siteName' => config('app.name'),
             'baseUrl'  => config('app.url'),
             'settings' => fn () => SiteSetting::publicSettings(),
-            'navCategories' => fn () => Category::orderBy('id')->get(['id', 'name', 'slug']),
+            // Only categories that have products; empty ones would be dead-end menu links.
+            'navCategories' => fn () => Cache::remember('nav-categories:v1', 600, fn () => Category::whereHas('gadgets')->orderBy('id')->get(['id', 'name', 'slug'])->toArray()),
             'headerMenu'   => fn () => MenuItem::tree(),
             'activePopup'  => fn () => Popup::live()->first(['id', 'title', 'body', 'image', 'badge', 'btn_text', 'btn_url', 'delay_seconds', 'frequency', 'updated_at']),
             'seo'          => fn () => Seo::make(),
-            'adminUrl' => '/' . ltrim(config('filament.path', 'secure-admin'), '/'),
+            // Only admins get the panel address; everyone else shouldn't see it in the page source.
+            'adminUrl' => fn () => $request->user()?->is_admin ? '/' . ltrim(config('filament.path', 'secure-admin'), '/') : null,
             'flash'    => [
                 'success' => fn () => $request->session()->get('success'),
                 'error'   => fn () => $request->session()->get('error'),
