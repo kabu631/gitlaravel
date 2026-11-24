@@ -23,8 +23,9 @@
     <div class="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-12">
       <div class="min-w-0 lg:col-span-8">
         <ul v-if="guides.data.length" class="divide-y divide-line border-t border-line">
-          <li v-for="guide in guides.data" :key="guide.id">
-            <Link :href="route('guides.show', guide.slug)" class="group flex gap-6 py-6">
+          <li v-for="(guide, i) in guides.data" :key="guide.id">
+            <Link :href="route('guides.show', guide.slug)" class="group flex gap-5 py-6 sm:gap-6">
+              <span class="numeral-outline tabular w-12 shrink-0 pt-0.5 text-4xl font-bold leading-none tracking-tighter sm:w-16 sm:text-5xl" aria-hidden="true">{{ String((guides.from || 1) + i).padStart(2, '0') }}</span>
               <div class="min-w-0 flex-1">
                 <p class="text-xs text-fg-subtle">{{ typeLabel(guide.type) }} · {{ formatDate(guide.created_at) }}</p>
                 <h2 class="mt-1.5 text-lg font-semibold leading-snug text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4 sm:text-xl">{{ guide.title }}</h2>

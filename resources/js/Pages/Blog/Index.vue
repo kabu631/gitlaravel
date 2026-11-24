@@ -17,7 +17,7 @@
     <ScrollRow v-if="categories.length || filters.tag" class="mt-8 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
       <button type="button" class="chip" :aria-pressed="!filters.category" @click="apply({ category: null })">All</button>
       <button v-for="c in categories" :key="c.slug" type="button" class="chip" :aria-pressed="filters.category === c.slug" @click="apply({ category: c.slug })">
-        {{ c.name }} <span class="tabular opacity-60">{{ c.count }}</span>
+        {{ c.name }}
       </button>
       <button v-if="filters.tag" type="button" class="chip" aria-pressed="true" @click="apply({ tag: null })">
         #{{ filters.tag }} <X class="h-3.5 w-3.5" />

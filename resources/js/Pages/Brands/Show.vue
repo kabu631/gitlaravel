@@ -137,7 +137,7 @@
         </div>
 
         <div v-if="gadgets.data.length" class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 xl:grid-cols-3">
-          <GadgetCard v-for="g in gadgets.data" :key="g.id" :gadget="g" :show-category="!localFilters.category" />
+          <SpecCard v-for="(g, i) in gadgets.data" :key="g.id" :gadget="g" :index="(Number(gadgets.from) || 1) + i" :show-category="!localFilters.category" />
         </div>
 
         <div v-else class="mt-6 flex flex-col items-center rounded-xl border border-dashed border-line-strong px-6 py-20 text-center">
@@ -165,7 +165,7 @@
 import { computed, reactive, ref, onMounted, onUnmounted } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
 import AppLayout from '@/Layouts/AppLayout.vue'
-import GadgetCard from '@/Components/GadgetCard.vue'
+import SpecCard from '@/Components/SpecCard.vue'
 import Pagination from '@/Components/Pagination.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { SlidersHorizontal, SearchX, X } from 'lucide-vue-next'

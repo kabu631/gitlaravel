@@ -62,7 +62,7 @@
           </ScrollRow>
 
           <div v-if="gadgets.length" class="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6">
-            <GadgetCard v-for="g in gadgets" :key="g.id" :gadget="g" show-category />
+            <SpecCard v-for="(g, i) in gadgets" :key="g.id" :gadget="g" :index="i + 1" show-category />
           </div>
           <p v-else class="mt-6 text-sm text-fg-subtle">No devices in this category match. <button type="button" class="link" @click="go({ category: undefined })">Show all categories</button></p>
 
@@ -189,7 +189,7 @@ import { computed, ref } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
 import { ArrowRight, Search, SearchX } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
-import GadgetCard from '@/Components/GadgetCard.vue'
+import SpecCard from '@/Components/SpecCard.vue'
 import ScoreBadge from '@/Components/ScoreBadge.vue'
 import ScrollRow from '@/Components/ScrollRow.vue'
 import { newsCategoryLabel } from '@/Composables/useCategories.js'

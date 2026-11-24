@@ -79,7 +79,7 @@
               class="chip"
               :aria-current="article.category === cat.category ? 'page' : undefined"
             >
-              {{ newsCategoryLabel(cat.category) }} <span class="tabular opacity-60">{{ cat.count }}</span>
+              {{ newsCategoryLabel(cat.category) }}
             </Link>
           </div>
         </div>

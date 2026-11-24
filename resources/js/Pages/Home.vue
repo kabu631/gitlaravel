@@ -42,32 +42,21 @@
       </div>
     </section>
 
-    <!-- 2. Categories: a frosted glass stripe over soft brand-coloured light -->
-    <section v-if="categories.length" class="container-page mt-12 pb-16" aria-label="Browse by category">
-      <div class="relative isolate">
-        <!-- Colour for the glass to blur; without something behind it, frosted white just looks flat. -->
-        <div class="glass-glow pointer-events-none absolute inset-x-8 -inset-y-1 -z-10" aria-hidden="true">
-          <span class="absolute left-[6%] top-1/2 h-16 w-56 -translate-y-1/2 rounded-full bg-accent/40 blur-2xl" />
-          <span class="absolute left-[38%] top-1/2 h-14 w-72 -translate-y-1/2 rounded-full bg-navy-400/30 blur-2xl" />
-          <span class="absolute right-[8%] top-1/2 h-16 w-56 -translate-y-1/2 rounded-full bg-accent/25 blur-2xl" />
-        </div>
-
-        <!-- Every category in one scrollable row; ScrollRow shows arrows whenever some are off-screen -->
-        <ScrollRow wrapper-class="glass-stripe" class="flex snap-x overflow-x-auto scroll-smooth scrollbar-none">
-          <Link
-            v-for="cat in categories"
-            :key="cat.id"
-            :href="route('gadgets.index', { category: cat.slug })"
-            class="glass-item group relative flex w-40 shrink-0 snap-start items-center gap-3 px-3.5 py-3.5 sm:w-48 lg:w-56 lg:px-5 lg:py-4"
-          >
-            <span class="glass-chip flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-fg-muted transition-all duration-300 group-hover:-translate-y-0.5 group-hover:text-accent-text">
-              <component :is="categoryIcon(cat.slug)" class="h-5 w-5" :stroke-width="1.5" />
-            </span>
-            <span class="block min-w-0 truncate text-sm font-medium text-fg">{{ categoryLabel(cat.slug, cat.name) }}</span>
-          </Link>
-        </ScrollRow>
-      </div>
-    </section>
+    <!-- 2. Categories -->
+    <nav v-if="categories.length" class="container-page mt-12 pb-16" aria-label="Browse by category">
+      <!-- Every category in one scrollable row; ScrollRow shows arrows whenever some are off-screen -->
+      <ScrollRow class="flex gap-7 overflow-x-auto border-b border-line scrollbar-none">
+        <Link
+          v-for="cat in categories"
+          :key="cat.id"
+          :href="route('gadgets.index', { category: cat.slug })"
+          class="group inline-flex shrink-0 items-center gap-2 border-b-2 pb-3 text-sm font-medium transition-colors border-transparent text-fg-muted hover:border-fg hover:text-fg"
+        >
+          <component :is="categoryIcon(cat.slug)" class="h-[18px] w-[18px] shrink-0 text-fg-subtle group-hover:text-fg" :stroke-width="1.75" />
+          {{ categoryLabel(cat.slug, cat.name) }}
+        </Link>
+      </ScrollRow>
+    </nav>
 
     <!-- 3. Featured devices -->
     <section v-if="featured.length" class="home-band" aria-labelledby="featured-heading">
@@ -455,118 +444,6 @@ const tools = [
 /* On a tinted band, photo plates switch to white so they still stand off the background. */
 .home-band:nth-child(odd of .home-band) :deep(.media-plate) {
   background: rgb(var(--surface));
-}
-
-/* Category glass stripe ---------------------------------------------------------------------- */
-.glass-stripe {
-  overflow: hidden;
-  border-radius: 1.25rem;
-  background: linear-gradient(135deg, rgb(255 255 255 / 0.62), rgb(255 255 255 / 0.28));
-  -webkit-backdrop-filter: blur(20px) saturate(170%);
-  backdrop-filter: blur(20px) saturate(170%);
-  border: 1px solid rgb(255 255 255 / 0.7);
-  box-shadow:
-    inset 0 1px 0 rgb(255 255 255 / 0.9),
-    inset 0 -1px 0 rgb(var(--line) / 0.7),
-    0 12px 32px -14px rgb(16 24 40 / 0.22);
-}
-/* A soft sheen that sweeps across the glass on hover. */
-.glass-stripe::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.55) 50%, transparent 65%);
-  transform: translateX(-110%);
-  transition: transform 1.1s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.glass-stripe:hover::after {
-  transform: translateX(110%);
-}
-/* Hairline dividers that fade out at the top and bottom. */
-.glass-item + .glass-item::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 22%;
-  bottom: 22%;
-  width: 1px;
-  background: linear-gradient(to bottom, transparent, rgb(var(--fg) / 0.14), transparent);
-}
-.glass-item {
-  transition: background-color 0.25s ease;
-}
-.glass-item:hover {
-  background: rgb(255 255 255 / 0.35);
-}
-.glass-chip {
-  background: linear-gradient(145deg, rgb(255 255 255 / 0.85), rgb(255 255 255 / 0.4));
-  border: 1px solid rgb(255 255 255 / 0.9);
-  box-shadow: 0 2px 6px -2px rgb(16 24 40 / 0.12), inset 0 1px 0 rgb(255 255 255 / 1);
-}
-.group:hover .glass-chip {
-  background: linear-gradient(145deg, rgb(var(--accent-soft)), rgb(255 255 255 / 0.6));
-  border-color: rgb(var(--accent) / 0.45);
-  box-shadow: 0 6px 16px -6px rgb(var(--accent) / 0.55), inset 0 1px 0 rgb(255 255 255 / 1);
-}
-/* The scroll arrows sit on a frosted fade so items slide under them instead of showing through. */
-.glass-stripe :deep(.scroll-row-btn) {
-  width: 4.5rem;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-}
-.glass-stripe :deep(.scroll-row-btn.right-0) {
-  background: linear-gradient(to left, rgb(255 255 255 / 0.92) 35%, rgb(255 255 255 / 0));
-  -webkit-mask-image: linear-gradient(to left, #000 55%, transparent);
-  mask-image: linear-gradient(to left, #000 55%, transparent);
-}
-.glass-stripe :deep(.scroll-row-btn.left-0) {
-  background: linear-gradient(to right, rgb(255 255 255 / 0.92) 35%, rgb(255 255 255 / 0));
-  -webkit-mask-image: linear-gradient(to right, #000 55%, transparent);
-  mask-image: linear-gradient(to right, #000 55%, transparent);
-}
-.glass-stripe :deep(.scroll-row-icon) {
-  background: rgb(255 255 255 / 0.75);
-  border-color: rgb(255 255 255 / 0.9);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
-}
-
-:global(.dark .glass-stripe) {
-  background: linear-gradient(135deg, rgb(255 255 255 / 0.09), rgb(255 255 255 / 0.03));
-  border-color: rgb(255 255 255 / 0.12);
-  box-shadow:
-    inset 0 1px 0 rgb(255 255 255 / 0.14),
-    inset 0 -1px 0 rgb(0 0 0 / 0.25),
-    0 12px 32px -14px rgb(0 0 0 / 0.6);
-}
-:global(.dark .glass-stripe::after) {
-  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.12) 50%, transparent 65%);
-}
-:global(.dark .glass-item:hover) {
-  background: rgb(255 255 255 / 0.05);
-}
-:global(.dark .glass-chip) {
-  background: linear-gradient(145deg, rgb(255 255 255 / 0.12), rgb(255 255 255 / 0.04));
-  border-color: rgb(255 255 255 / 0.14);
-  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.12);
-}
-:global(.dark .group:hover .glass-chip) {
-  background: linear-gradient(145deg, rgb(var(--accent) / 0.25), rgb(255 255 255 / 0.04));
-  border-color: rgb(var(--accent) / 0.5);
-}
-:global(.dark .glass-stripe .scroll-row-icon) {
-  background: rgb(255 255 255 / 0.1);
-  border-color: rgb(255 255 255 / 0.18);
-}
-:global(.dark .glass-stripe .scroll-row-btn.right-0) {
-  background: linear-gradient(to left, rgb(25 34 46 / 0.95) 35%, rgb(25 34 46 / 0));
-}
-:global(.dark .glass-stripe .scroll-row-btn.left-0) {
-  background: linear-gradient(to right, rgb(25 34 46 / 0.95) 35%, rgb(25 34 46 / 0));
-}
-:global(.dark .glass-glow) {
-  opacity: 0.6;
 }
 
 /* Review scores: a solid figure for the lead, outlined chart numbers for the rest. Top scores in orange. */

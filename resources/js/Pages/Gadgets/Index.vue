@@ -3,7 +3,7 @@
     <!-- ============ Masthead: the site's tinted band, the filter sentence is the headline ============ -->
     <section class="relative border-b border-line bg-surface-2/60">
 
-      <div class="container-page relative pb-28 pt-6 sm:pb-32 sm:pt-8">
+      <div class="container-page relative pb-10 pt-6 sm:pb-12 sm:pt-8">
         <nav aria-label="Breadcrumb">
           <ol class="flex flex-wrap items-center gap-1.5 text-sm text-fg-subtle">
             <li><Link :href="route('home')" class="transition-colors hover:text-fg">Home</Link></li>
@@ -157,26 +157,33 @@
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- ============ Glass category rail, straddling the dark/light edge ============ -->
-    <nav class="container-page relative z-10 -mt-[3.25rem]" aria-label="Device types">
-      <ScrollRow wrapper-class="rail-glass" class="flex snap-x overflow-x-auto scroll-smooth scrollbar-none">
-        <button type="button" class="rail-item group" :aria-current="!localFilters.category ? 'page' : undefined" @click="selectCategory(null)">
-          <span class="rail-chip"><LayoutGrid class="h-5 w-5" :stroke-width="1.5" /></span><span class="truncate">All devices</span>
-        </button>
-        <button
-          v-for="cat in visibleCategories"
-          :key="cat.id"
-          type="button"
-          class="rail-item group"
-          :aria-current="localFilters.category === cat.slug ? 'page' : undefined"
-          @click="selectCategory(cat.slug)"
-        >
-          <span class="rail-chip"><component :is="categoryIcon(cat.slug)" class="h-5 w-5" :stroke-width="1.5" /></span><span class="truncate">{{ cat.name }}</span>
-        </button>
-      </ScrollRow>
-    </nav>
+      <!-- Category tabs on the band's bottom edge -->
+      <nav class="container-page" aria-label="Device types">
+        <ScrollRow wrapper-class="band-tabs -mb-px" class="flex gap-7 overflow-x-auto scrollbar-none">
+          <button
+            type="button"
+            class="group inline-flex shrink-0 items-center gap-2 border-b-2 pb-3 text-sm font-medium transition-colors"
+            :class="!localFilters.category ? 'border-fg text-fg' : 'border-transparent text-fg-subtle hover:text-fg'"
+            :aria-current="!localFilters.category ? 'page' : undefined"
+            @click="selectCategory(null)"
+          >
+            All devices
+          </button>
+          <button
+            v-for="cat in visibleCategories"
+            :key="cat.id"
+            type="button"
+            class="group inline-flex shrink-0 items-center gap-2 border-b-2 pb-3 text-sm font-medium transition-colors"
+            :class="localFilters.category === cat.slug ? 'border-fg text-fg' : 'border-transparent text-fg-subtle hover:text-fg'"
+            :aria-current="localFilters.category === cat.slug ? 'page' : undefined"
+            @click="selectCategory(cat.slug)"
+          >
+            {{ cat.name }}
+          </button>
+        </ScrollRow>
+      </nav>
+    </section>
 
     <div class="container-page pb-4 pt-10">
       <!-- Toolbar -->
@@ -571,91 +578,15 @@ function resetAllFilters() {
   @apply opacity-100;
 }
 
-/* Category rail: frosted glass laid across the dark/light edge, so the blur shows both. */
-.rail-glass {
-  overflow: hidden;
-  border-radius: 1.25rem;
-  background: linear-gradient(135deg, rgb(255 255 255 / 0.78), rgb(255 255 255 / 0.55));
-  -webkit-backdrop-filter: blur(22px) saturate(170%);
-  backdrop-filter: blur(22px) saturate(170%);
-  border: 1px solid rgb(255 255 255 / 0.75);
-  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.95), 0 14px 32px -16px rgb(16 24 40 / 0.22);
+/* The tabs sit on the tinted band, so the scroll arrows fade into that colour instead of the page white. */
+.band-tabs {
+  --band: color-mix(in srgb, rgb(var(--surface-2)) 60%, rgb(var(--canvas)));
 }
-.rail-item {
-  @apply relative flex h-[6.5rem] w-36 shrink-0 snap-start flex-col items-start justify-center gap-2.5 px-4 text-left text-sm font-medium text-fg-muted transition-colors sm:w-40;
+.band-tabs :deep(.scroll-row-btn.right-0) {
+  background: linear-gradient(to left, var(--band) 45%, transparent);
 }
-.rail-item + .rail-item::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 22%;
-  bottom: 22%;
-  width: 1px;
-  background: linear-gradient(to bottom, transparent, rgb(var(--fg) / 0.14), transparent);
-}
-.rail-item:hover {
-  @apply text-fg;
-  background: rgb(255 255 255 / 0.4);
-}
-.rail-chip {
-  @apply flex h-10 w-10 items-center justify-center rounded-xl transition-all duration-300;
-  background: linear-gradient(145deg, rgb(255 255 255 / 0.9), rgb(255 255 255 / 0.45));
-  border: 1px solid rgb(255 255 255 / 0.95);
-  box-shadow: 0 2px 6px -2px rgb(16 24 40 / 0.14), inset 0 1px 0 #fff;
-}
-.rail-item:hover .rail-chip {
-  @apply -translate-y-0.5 text-accent-text;
-}
-.rail-item[aria-current='page'] {
-  @apply text-fg;
-}
-.rail-item[aria-current='page'] .rail-chip {
-  @apply text-navy-950;
-  background: rgb(var(--accent));
-  border-color: rgb(var(--accent));
-  box-shadow: 0 8px 18px -6px rgb(var(--accent) / 0.7);
-}
-.rail-item[aria-current='page']::after {
-  content: '';
-  position: absolute;
-  left: 1rem;
-  right: 1rem;
-  bottom: 0;
-  height: 3px;
-  border-radius: 3px 3px 0 0;
-  background: rgb(var(--accent));
-}
-.rail-glass :deep(.scroll-row-btn) {
-  width: 4.5rem;
-}
-.rail-glass :deep(.scroll-row-btn.right-0) {
-  background: linear-gradient(to left, rgb(255 255 255 / 0.95) 40%, rgb(255 255 255 / 0));
-}
-.rail-glass :deep(.scroll-row-btn.left-0) {
-  background: linear-gradient(to right, rgb(255 255 255 / 0.95) 40%, rgb(255 255 255 / 0));
-}
-:global(.dark .rail-glass) {
-  background: linear-gradient(135deg, rgb(35 47 63 / 0.72), rgb(25 34 46 / 0.6));
-  border-color: rgb(255 255 255 / 0.12);
-  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.12), 0 18px 40px -18px rgb(0 0 0 / 0.7);
-}
-:global(.dark .rail-item:hover) {
-  background: rgb(255 255 255 / 0.05);
-}
-:global(.dark .rail-chip) {
-  background: linear-gradient(145deg, rgb(255 255 255 / 0.12), rgb(255 255 255 / 0.04));
-  border-color: rgb(255 255 255 / 0.14);
-  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.12);
-}
-:global(.dark .rail-item[aria-current='page'] .rail-chip) {
-  background: rgb(var(--accent));
-  border-color: rgb(var(--accent));
-}
-:global(.dark .rail-glass .scroll-row-btn.right-0) {
-  background: linear-gradient(to left, rgb(25 34 46 / 0.95) 40%, rgb(25 34 46 / 0));
-}
-:global(.dark .rail-glass .scroll-row-btn.left-0) {
-  background: linear-gradient(to right, rgb(25 34 46 / 0.95) 40%, rgb(25 34 46 / 0));
+.band-tabs :deep(.scroll-row-btn.left-0) {
+  background: linear-gradient(to right, var(--band) 45%, transparent);
 }
 
 .glance-cell {
