@@ -17,6 +17,7 @@ use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Vite;
+use Illuminate\Validation\Rules\Password;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -37,6 +38,9 @@ class AppServiceProvider extends ServiceProvider
         Vite::prefetch(concurrency: 3);
 
         $this->configureRateLimiting();
+
+        // New passwords (sign-up, reset, change): at least 10 characters with letters and numbers.
+        Password::defaults(fn () => Password::min(10)->letters()->numbers());
         $this->configureAdminTables();
 
         // Auto-clean stale public/hot file if Vite dev server is offline to prevent white screen
@@ -109,6 +113,10 @@ class AppServiceProvider extends ServiceProvider
             ->by($request->user()?->id ?: $request->ip()));
 
         RateLimiter::for('contact', fn (Request $request) => Limit::perMinute(3)
+            ->by($request->ip()));
+
+        // Sign-up, login and password-reset attempts per visitor (login also locks per e-mail after 5 tries).
+        RateLimiter::for('auth', fn (Request $request) => Limit::perMinute(10)
             ->by($request->ip()));
 
         RateLimiter::for('interactions', fn (Request $request) => Limit::perMinute(30)

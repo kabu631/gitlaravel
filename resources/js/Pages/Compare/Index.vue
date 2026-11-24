@@ -836,7 +836,7 @@ import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { Link, router } from '@inertiajs/vue3'
 import { ref, computed } from 'vue'
 import axios from 'axios'
-import { marked } from 'marked'
+import { renderMarkdown } from '@/Composables/useMarkdown.js'
 import { categoryIcon } from '@/Composables/useCategories.js'
 import {
   Scale, Bot, Sparkles, ShoppingBag, ExternalLink, ChevronRight,
@@ -1446,7 +1446,7 @@ const aiLoading = ref(false)
 const aiError = ref(null)
 const verdictCopied = ref(false)
 
-const formattedAiSuggestion = computed(() => aiSuggestion.value ? marked.parse(aiSuggestion.value) : '')
+const formattedAiSuggestion = computed(() => aiSuggestion.value ? renderMarkdown(aiSuggestion.value) : '')
 
 async function getAiSuggestion() {
   aiLoading.value = true

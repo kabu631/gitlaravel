@@ -454,6 +454,7 @@
               <Link :href="route('gadgets.show', t.slug)" class="group flex items-center gap-3 py-3">
                 <div class="media-plate h-12 w-12 shrink-0 rounded-md">
                   <img v-if="t.image" :src="getImageUrl(t.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                  <DeviceIcon v-else :category="t.category?.slug" />
                 </div>
                 <div class="min-w-0">
                   <p class="truncate text-sm font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ t.name }}</p>
@@ -481,6 +482,7 @@
 </template>
 
 <script setup>
+import DeviceIcon from '@/Components/DeviceIcon.vue'
 import ScrollRow from '@/Components/ScrollRow.vue'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'

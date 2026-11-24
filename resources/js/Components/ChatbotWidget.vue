@@ -98,11 +98,9 @@
 <script setup>
 import { ref, nextTick, computed, watch } from 'vue'
 import axios from 'axios'
-import { marked } from 'marked'
+import { renderMarkdown } from '@/Composables/useMarkdown.js'
 import { MessageCircle, X, Trash2, ArrowUp } from 'lucide-vue-next'
 
-marked.setOptions({ breaks: true, gfm: true })
-const renderMarkdown = text => marked.parse(text ?? '')
 
 const open = ref(false)
 const input = ref('')

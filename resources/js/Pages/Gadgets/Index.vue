@@ -255,6 +255,7 @@
                     <div class="flex items-center gap-3">
                       <div class="media-plate h-12 w-16 shrink-0 rounded-lg">
                         <img v-if="g.image" :src="getImageUrl(g.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                        <DeviceIcon v-else :category="g.category?.slug" />
                       </div>
                       <div class="min-w-0">
                         <Link :href="route('gadgets.show', g.slug)" class="line-clamp-2 font-medium leading-snug text-fg after:absolute after:inset-0 group-hover:underline group-hover:underline-offset-4">{{ g.name }}</Link>
@@ -280,6 +281,7 @@
               <span class="numeral-outline tabular w-9 shrink-0 text-2xl font-bold tracking-tighter" aria-hidden="true">{{ String(numberFor(i)).padStart(2, '0') }}</span>
               <div class="media-plate h-14 w-[4.5rem] shrink-0 rounded-lg">
                 <img v-if="g.image" :src="getImageUrl(g.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                <DeviceIcon v-else :category="g.category?.slug" />
               </div>
               <div class="min-w-0 flex-1">
                 <Link :href="route('gadgets.show', g.slug)" class="line-clamp-2 text-sm font-medium leading-snug text-fg after:absolute after:inset-0">{{ g.name }}</Link>
@@ -317,6 +319,7 @@
 </template>
 
 <script setup>
+import DeviceIcon from '@/Components/DeviceIcon.vue'
 import ScrollRow from '@/Components/ScrollRow.vue'
 import { computed, reactive, ref, onMounted, onUnmounted } from 'vue'
 import { Link, router } from '@inertiajs/vue3'

@@ -108,6 +108,7 @@
         <Link v-if="leadReview" :href="route('reviews.show', leadReview.slug)" class="group block lg:col-span-7">
           <div class="media-plate aspect-[16/9] rounded-[2rem]">
             <img v-if="leadReview.gadget?.image" :src="getImageUrl(leadReview.gadget.image)" :alt="leadReview.gadget?.name" loading="lazy" class="h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]" />
+            <DeviceIcon v-else :category="leadReview.gadget?.category?.slug" />
           </div>
           <div class="mt-6 flex gap-5 sm:gap-7">
             <p class="shrink-0 text-center">
@@ -136,6 +137,7 @@
               </div>
               <div class="media-plate hidden h-16 w-20 shrink-0 rounded-xl sm:block">
                 <img v-if="review.gadget?.image" :src="getImageUrl(review.gadget.image)" :alt="''" loading="lazy" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <DeviceIcon v-else :category="review.gadget?.category?.slug" />
               </div>
             </Link>
           </li>
@@ -172,6 +174,7 @@
                     <div class="flex items-center gap-3">
                       <div class="media-plate h-9 w-9 shrink-0 rounded-md">
                         <img v-if="item.image" :src="getImageUrl(item.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                        <DeviceIcon v-else :category="item.category?.slug" />
                       </div>
                       <div class="min-w-0">
                         <Link :href="route('gadgets.show', item.slug)" class="block truncate font-medium text-fg after:absolute after:inset-0">{{ item.name }}</Link>
@@ -248,6 +251,7 @@
             <span class="rank tabular w-12 shrink-0 text-4xl font-bold leading-none tracking-tighter sm:w-16 sm:text-5xl" :data-rank="i + 1" aria-hidden="true">{{ String(i + 1).padStart(2, '0') }}</span>
             <div class="media-plate h-14 w-[4.5rem] shrink-0 rounded-xl sm:h-16 sm:w-20">
               <img v-if="g.image" :src="getImageUrl(g.image)" :alt="''" loading="lazy" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <DeviceIcon v-else :category="g.category?.slug" />
             </div>
             <div class="min-w-0 flex-1">
               <p class="truncate text-2xs font-medium uppercase tracking-[0.08em] text-fg-subtle">{{ g.brand?.name }}<template v-if="g.category?.name"><span class="mx-1 text-fg-faint">/</span>{{ g.category.name }}</template></p>
@@ -327,6 +331,7 @@
 </template>
 
 <script setup>
+import DeviceIcon from '@/Components/DeviceIcon.vue'
 import ScrollRow from '@/Components/ScrollRow.vue'
 import { ref, computed } from 'vue'
 import { Link, WhenVisible } from '@inertiajs/vue3'

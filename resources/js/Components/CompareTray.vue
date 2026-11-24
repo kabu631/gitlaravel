@@ -39,6 +39,7 @@
               :title="item.name"
             >
               <img v-if="item.image" :src="getImageUrl(item.image)" :alt="item.name" class="h-full w-full object-cover" />
+              <DeviceIcon v-else :category="item.category?.slug" />
               <button
                 type="button"
                 class="absolute inset-0 flex items-center justify-center bg-navy-950/60 text-white opacity-0 transition-opacity focus-visible:opacity-100 group-hover:opacity-100"
@@ -74,6 +75,7 @@
 </template>
 
 <script setup>
+import DeviceIcon from '@/Components/DeviceIcon.vue'
 import { router } from '@inertiajs/vue3'
 import { ArrowRight, Check, X } from 'lucide-vue-next'
 import { useCompareTray } from '@/Composables/useCompareTray.js'

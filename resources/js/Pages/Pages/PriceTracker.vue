@@ -23,6 +23,7 @@
         <Link v-for="g in topHotDrops" :key="g.id" :href="route('gadgets.show', g.slug)" class="group block">
           <div class="media-plate relative aspect-[4/3] rounded-xl">
             <img v-if="g.image" :src="getImageUrl(g.image)" :alt="g.name" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
+            <DeviceIcon v-else :category="g.category?.slug" />
             <span class="badge badge-solid absolute left-3 top-3">−{{ g.price_diff_percent }}%</span>
           </div>
           <p class="mt-3 text-xs text-fg-subtle">{{ g.brand?.name }}</p>
@@ -96,6 +97,7 @@
                 <div class="flex items-center gap-3">
                   <div class="media-plate h-11 w-11 shrink-0 rounded-md">
                     <img v-if="g.image" :src="getImageUrl(g.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                    <DeviceIcon v-else :category="g.category?.slug" />
                   </div>
                   <div class="min-w-0">
                     <Link :href="route('gadgets.show', g.slug)" class="block truncate font-medium text-fg after:absolute after:inset-0">{{ g.name }}</Link>
@@ -157,6 +159,7 @@
 </template>
 
 <script setup>
+import DeviceIcon from '@/Components/DeviceIcon.vue'
 import ScrollRow from '@/Components/ScrollRow.vue'
 import { ref, computed, watch } from 'vue'
 import { Link } from '@inertiajs/vue3'

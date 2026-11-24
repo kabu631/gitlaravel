@@ -290,7 +290,7 @@
 import { Link } from '@inertiajs/vue3'
 import { ref, computed, nextTick, useId } from 'vue'
 import axios from 'axios'
-import { marked } from 'marked'
+import { renderMarkdown } from '@/Composables/useMarkdown.js'
 import {
   Gamepad2, Crosshair, Briefcase, BookOpen, Clapperboard, Radio,
   Cpu, Monitor, HardDrive, Layers, Zap, Fan, Box, Bot,
@@ -304,10 +304,6 @@ const props = defineProps({
 
 const uid = useId()
 
-marked.setOptions({ breaks: true, gfm: true })
-function renderMarkdown(text) {
-  return marked.parse(text ?? '')
-}
 
 const partKeys = ['cpu', 'gpu', 'ram', 'storage', 'motherboard', 'psu', 'cooling', 'case']
 

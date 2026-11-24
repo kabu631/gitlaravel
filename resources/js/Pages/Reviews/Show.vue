@@ -76,6 +76,7 @@
         <div v-if="review.gadget" class="card overflow-hidden lg:sticky lg:top-24">
           <div class="media-plate aspect-[4/3]">
             <img v-if="review.gadget.image" :src="getImageUrl(review.gadget.image)" :alt="review.gadget.name" class="h-full w-full object-cover" />
+            <DeviceIcon v-else :category="review.gadget?.category?.slug" />
           </div>
           <div class="p-5">
             <p class="text-xs text-fg-subtle">{{ review.gadget.brand?.name }}</p>
@@ -98,6 +99,7 @@
               <Link :href="route('gadgets.show', g.slug)" class="group flex items-center gap-3 py-3">
                 <div class="media-plate h-12 w-12 shrink-0 rounded-md">
                   <img v-if="g.image" :src="getImageUrl(g.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                  <DeviceIcon v-else :category="g.category?.slug" />
                 </div>
                 <div class="min-w-0">
                   <p class="truncate text-sm font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ g.name }}</p>
@@ -113,6 +115,7 @@
 </template>
 
 <script setup>
+import DeviceIcon from '@/Components/DeviceIcon.vue'
 import { ref, reactive, computed } from 'vue'
 import { Link } from '@inertiajs/vue3'
 import axios from 'axios'

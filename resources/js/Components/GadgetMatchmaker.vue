@@ -52,6 +52,7 @@
           <li v-for="(match, index) in topMatches" :key="match.id" class="card card-link group relative flex gap-3 p-3 sm:gap-4 sm:p-4">
             <div class="media-plate h-16 w-16 shrink-0 rounded-lg sm:h-20 sm:w-20">
               <img v-if="match.image" :src="getImageUrl(match.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+              <DeviceIcon v-else :category="match.category?.slug" />
             </div>
             <div class="min-w-0 flex-1">
               <div class="flex items-start justify-between gap-3">
@@ -82,6 +83,7 @@
 </template>
 
 <script setup>
+import DeviceIcon from '@/Components/DeviceIcon.vue'
 import { ref, computed } from 'vue'
 import { Link } from '@inertiajs/vue3'
 import { RotateCcw, Camera, Gamepad2, BatteryFull, Briefcase, BadgePercent } from 'lucide-vue-next'

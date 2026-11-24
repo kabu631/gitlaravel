@@ -13,7 +13,7 @@ class TechNewsSeeder extends Seeder
         $admin = User::first() ?? User::create([
             'name'     => 'Editor Team',
             'email'    => 'editor@gitinfosys.com.np',
-            'password' => bcrypt('password'),
+            'password' => bcrypt(\Illuminate\Support\Str::random(40)),
             'role'     => 'admin',
         ]);
 
