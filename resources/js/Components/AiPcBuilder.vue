@@ -390,14 +390,14 @@ const submittedSummary = computed(() => {
   if (!s) return ''
   return [
     purposeLabelFor(s.purpose),
-    `Rs. ${Number(s.budget || 0).toLocaleString('en-NP')}`,
+    `Rs ${Number(s.budget || 0).toLocaleString('en-IN')}`,
     s.monitor && s.monitor !== 'Not sure yet' ? s.monitor : null,
     s.extras.length ? `incl. ${s.extras.join(', ')}` : null,
   ].filter(Boolean).join(' · ')
 })
 
 function formatBudget(b) {
-  return b >= 100000 ? `Rs. ${b / 100000} Lakh` : `Rs. ${b / 1000}K`
+  return b >= 100000 ? `Rs ${b / 100000} Lakh` : `Rs ${b / 1000}K`
 }
 
 function toggleExtra(x) {

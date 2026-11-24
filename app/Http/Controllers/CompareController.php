@@ -63,8 +63,6 @@ class CompareController extends Controller
 
         $selected = $selectedModels->toArray();
         $slugs    = $selectedModels->pluck('slug')->toArray();
-        $prices   = array_filter(array_column($selected, 'price'));
-        $minPrice = $prices ? min($prices) : null;
 
         // Load all gadgets belonging to this exact category so user can swap within same category
         // The picker only shows name, brand, image and price, so send just that for the whole category.
@@ -91,7 +89,6 @@ class CompareController extends Controller
             'gadgets'         => $gadgets,
             'selectedGadgets' => $selected,
             'slugs'           => $slugs,
-            'minPrice'        => $minPrice,
             'seo'             => \App\Support\Seo::make($this->seoDefaults($selected, $category, $categories)),
         ]);
     }

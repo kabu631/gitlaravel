@@ -1,0 +1,458 @@
+=== snapdragon-8-gen-4-debut-qualcomm-summit-2024
+<h2>Why Qualcomm changed the name</h2>
+<p>For three years the pattern was easy. Snapdragon 8 Gen 1, Gen 2, Gen 3. Everyone expected Gen 4. Qualcomm chose "Elite" because the processor inside was no longer built around cores licensed from Arm. Qualcomm had bought a company called Nuvia, whose engineers had designed chips at Apple, and the new Oryon cores came from that team. The company wanted the break to be visible on the box.</p>
+<p>The trouble is that a name which means something to engineers confuses everybody else. A customer who knows that Gen 3 is older than Gen 5 has no way of guessing where "Elite" belongs. Then the 8 Gen 5 arrived beside the 8 Elite Gen 5, two different chips with nearly the same name, and shop staff began to mix them up.</p>
+<h2>The complete order, from oldest to newest</h2>
+<ol>
+<li><strong>Snapdragon 8 Gen 2</strong> (late 2022). Found in used flagships. Still quick.</li>
+<li><strong>Snapdragon 8 Gen 3</strong> (late 2023). Galaxy S24 Ultra, Xiaomi 14, OnePlus 12.</li>
+<li><strong>Snapdragon 8s Gen 3</strong> (2024). A cheaper relative, in the OnePlus Nord 5 and others.</li>
+<li><strong>Snapdragon 8 Elite</strong> (late 2024). Galaxy S25 series, OnePlus 13, POCO F8 Pro, Honor 600 Pro.</li>
+<li><strong>Snapdragon 8s Gen 4</strong> (2025). POCO F7, OnePlus Nord 6.</li>
+<li><strong>Snapdragon 8 Gen 5</strong> (late 2025). OnePlus 15R. Below the Elite Gen 5.</li>
+<li><strong>Snapdragon 8 Elite Gen 5</strong> (late 2025). Galaxy S26 Ultra, OnePlus 15, Xiaomi 17 Ultra.</li>
+<li><strong>Snapdragon 8 Elite Gen 6</strong> (2026). Xiaomi 18 Pro and the next wave.</li>
+</ol>
+<p>The number after "Gen" counts the generation for the whole family, which is why the Elite jumped straight to Gen 5. There never was an Elite Gen 2, 3 or 4.</p>
+<h2>What the small letters and words mean</h2>
+<p><strong>"s"</strong>, as in 8s Gen 4, marks a lower-cost version with slower cores and graphics. It is still far above any 7-series chip.</p>
+<p><strong>"For Galaxy"</strong> is a small speed increase reserved for Samsung. You will not feel it.</p>
+<p><strong>"Extreme", "Leading Version" and similar</strong> are higher-clocked editions sold to gaming brands. They run faster and hotter, and need cooling.</p>
+<p><strong>"7s", "6s" and "4s"</strong> follow the same logic in lower families, with one trap: a 7s chip can be slower than a plain 6 of a newer year.</p>
+<h2>Does a flagship chip matter to you?</h2>
+<p>Consider what a phone does most of the day. Messaging, scrolling, video, calls, maps, banking. A mid-range chip from 2023 handles those without effort. The flagship chip earns its price in four situations: demanding games for long periods, 4K and 8K video work, camera processing on large sensors, and keeping a phone smooth in its fifth year. If none describes you, a 7-series or 8s chip is the sensible place to stop, and the money is better spent on battery, storage or a telephoto lens.</p>
+<h2>Same chip, different phone</h2>
+<p>Two phones with the same Snapdragon can behave very differently. Cooling decides how long the chip can stay fast. A thin phone with a small vapour chamber may lose a third of its speed after fifteen minutes of a heavy game. Memory type matters as well. LPDDR5X and UFS 4.0 storage let the chip breathe, and older parts hold it back. Software tuning adds another layer. So when a seller says "same processor as the S26 Ultra", treat it as the start of the conversation.</p>
+<h2>And Samsung's Exynos, MediaTek and Google?</h2>
+<p>MediaTek's Dimensity 9500 and 9500s stand beside the Elite Gen 5 and appear in the vivo X300 Pro, OPPO Find X9 Pro and POCO X8 Pro Max. The Dimensity 8500 and 8350 are rivals of the 8s class. Samsung uses its Exynos 2600 in some S26 models and the Exynos 2500 in the S26 FE. Google's Tensor G5 concentrates on photo and AI work and is slower in games. All of them are strong enough that brand alone should not decide your purchase.</p>
+<h2>How to check a chip in the shop</h2>
+<ul>
+<li>Look in Settings, About phone, for the processor name.</li>
+<li>Install CPU-Z or DevCheck and read the model number. SM8750 is the 8 Elite, SM8850 is the 8 Elite Gen 5, SM8650 is the 8 Gen 3.</li>
+<li>Compare with the specification on the maker's site for that exact variant and region.</li>
+</ul>
+<p>The last point is important with Samsung, as different markets received different processors in the same model. An official Nepali unit and an imported one may not match.</p>
+<h2>Buying an older flagship today</h2>
+<p>A phone with an 8 Gen 3 or 8 Elite is often the best value in the country. It is fast enough for years, its camera system was built for the top of the market, and its price has fallen. The questions to ask are different from those for a new phone. How many years of updates remain? What is the battery health? Is it a Nepali unit with MDMS registration? Has the screen been replaced? Our <a href="/reviews/samsung-galaxy-s24-review-snapdragon-8-gen-3-flagship-value">Galaxy S24 review</a> looks at one such phone in detail.</p>
+<h2>What to expect next</h2>
+<p>The Elite Gen 6 is built on a 2nm process, which should mean better efficiency more than higher speed. The first phones are already in China and Europe, led by the <a href="/news/xiaomi-18-pro-snapdragon-8-elite-gen-6-launch">Xiaomi 18 Pro</a>. Samsung's S27 series is expected to follow. For buyers in Nepal, the arrival of a new generation is mostly good news because it pulls down the price of the last one.</p>
+<h2>A short glossary for the counter</h2>
+<p><strong>Core:</strong> a worker inside the processor. Big cores do heavy work, small cores save power. <strong>GHz:</strong> how quickly a core works, useful only when comparing similar designs. <strong>nm:</strong> the manufacturing generation. Smaller is usually cooler. <strong>NPU:</strong> the part for AI tasks. <strong>Throttling:</strong> slowing down to avoid heat. <strong>AnTuTu:</strong> a benchmark. A higher number is faster on paper, and differences under 20 per cent are hard to feel.</p>
+<h2>Our advice</h2>
+<p>Do not chase the newest name. Decide your budget, list the phones in it, and use the chip as one line among six: screen, battery, camera, storage, support and speed. If two phones tie on everything else, take the newer chip. That is the only time it should have the casting vote.</p>
+
+=== apple-intelligence-nepal-iphone-users-guide
+<h2>Why some iPhones are left out</h2>
+<p>Apple Intelligence keeps language models on the phone so that your messages do not have to leave it. Those models sit in memory while they work, and 8GB is the practical minimum. The iPhone 15 and 15 Plus have 6GB, and the older ones have less. It is a hard limit and no update will change it. The 15 Pro, with 8GB, is the oldest phone on the list. Newer models with 12GB, such as the 17 Pro and 18 Pro families, have more room and are likely to receive the heavier features first.</p>
+<h2>Storage matters too</h2>
+<p>The models need several gigabytes of free space, and the amount grows as Apple adds languages. If your phone is full, the switch will not turn on, or the download will stop without explanation. Check Settings, General, iPhone Storage. Remove old offline maps, WhatsApp media and unused apps, and aim for at least 10GB free.</p>
+<h2>Setting it up in Nepal, step by step</h2>
+<ol>
+<li>Update iOS in Settings, General, Software Update.</li>
+<li>In Settings, General, Language and Region, choose English as the phone language. English (India), English (UK) and English (US) are fine. You can keep Nepali as a second language for keyboards and apps.</li>
+<li>In Apple Intelligence and Siri, set Siri's language to match.</li>
+<li>Turn on Apple Intelligence and connect to Wi-Fi and a charger. The first download can take from twenty minutes to a few hours.</li>
+<li>Open Notes, write two sentences, select them and look for Writing Tools. If it appears, you are ready.</li>
+</ol>
+<p>Your region can stay Nepal. The requirement concerns language and device, and there have been restrictions for Apple accounts in some markets. If the option does not appear at all, check the model, the iOS version and the language in that order.</p>
+<h2>Does it work in Nepali?</h2>
+<p>Not at the moment, as far as Apple's list of languages goes. You can write Nepali as usual, but Writing Tools, summaries and Siri's new abilities work in the supported languages. Romanised Nepali confuses the summaries, sometimes amusingly. Turn off summaries for chats where family writes in a mix of Nepali and English, as the results can be wrong in ways that matter.</p>
+<h2>The features, ranked by usefulness</h2>
+<p><strong>Writing Tools.</strong> The best of them. If English is your second language, the Proofread button is a patient teacher. It shows each change and explains why. Professional changes the tone of a hurried email. It works in nearly any text box, including browsers and Gmail.</p>
+<p><strong>Clean Up.</strong> Removes a stranger, a wire or a bin from a photo. It is excellent with simple backgrounds and poor with patterns such as temple carvings.</p>
+<p><strong>Call recording and transcripts.</strong> Both sides hear a notice. Useful for students and journalists in English.</p>
+<p><strong>Mail summaries and priority.</strong> Helpful if you get many newsletters.</p>
+<p><strong>Visual intelligence.</strong> Point the camera at a plant, a poster or a dish and ask. It sends a picture to a service, so it needs data.</p>
+<p><strong>Image Playground and Genmoji.</strong> Fun for a week.</p>
+<p><strong>Live translation.</strong> Handy with supported languages. Guides in Thamel will find it useful with Spanish, French, German, Japanese, Korean and Chinese-speaking guests, depending on what Apple supports at the time.</p>
+<h2>What leaves your phone</h2>
+<p>Small tasks stay on the device. Larger ones can go to Apple's Private Cloud Compute, where Apple says data is not stored and is not accessible to the company. Requests to ChatGPT are separate. The phone asks each time, and you can use it without an account. If you work with confidential documents, leave the ChatGPT extension off. You can see a report of requests in Settings, Privacy and Security, Apple Intelligence Report.</p>
+<h2>Battery and heat</h2>
+<p>For a day or two after enabling it, the phone indexes photos and messages. It may feel warm and drain faster. This settles. Notification summaries and Clean Up use little power. Long sessions of image generation use a lot. If battery life is poor after a week, turn off features one by one and keep the ones you use.</p>
+<h2>Should you buy a new iPhone for it?</h2>
+<p>In our opinion, no. Buy an iPhone for its camera, battery, size and years of updates. Apple Intelligence is a pleasant extra and it will matter more as it improves. If you are choosing between an iPhone 15 and a 16 or 17e at similar prices, take the one that supports it, since it will also receive longer updates. The <a href="/products/iphone-17e">iPhone 17e</a> is the cheapest current model with it, and the <a href="/products/iphone-17">iPhone 17</a> is the better phone. Read <a href="/reviews/iphone-17-review-nepal">our iPhone 17 review</a>.</p>
+<h2>For used iPhone buyers</h2>
+<p>A used 15 Pro, with its titanium frame and telephoto camera, is popular in Nepal. It supports Apple Intelligence and will for some years. Check battery health, that all parts are genuine in Settings, General, About, that Activation Lock is off, and that the IMEI is registered. The regular iPhone 15 is cheaper for a reason, and one reason is this.</p>
+<h2>Compared with Galaxy AI and Gemini</h2>
+<p>Android phones offer more AI tools, earlier, and some of them are better: Circle to Search, call translation and generative photo editing are widely used. Apple's approach is slower and more private. Samsung allows on-device processing in its settings. Nobody's assistant understands Nepali as well as you would like, though Google's is closest. If AI tools in Nepali matter to you, try Gemini's voice mode on either platform.</p>
+<h2>Troubleshooting</h2>
+<ul>
+<li><strong>The menu is missing.</strong> Wrong model, old iOS or unsupported language.</li>
+<li><strong>"Downloading" for hours.</strong> Connect to power and Wi-Fi, and free some storage.</li>
+<li><strong>Writing Tools do not show.</strong> Select more text, or use the Apple Intelligence icon above the keyboard.</li>
+<li><strong>Summaries are wrong.</strong> Settings, Notifications, Summarise Notifications: turn off the offending app.</li>
+<li><strong>Siri sounds the same.</strong> Siri's larger changes come with later updates and depend on the model.</li>
+</ul>
+<h2>Parents and shared phones</h2>
+<p>Screen Time lets you restrict image creation, writing tools and the ChatGPT extension for a child's phone. Open Content and Privacy Restrictions, then Intelligence and Siri. It takes a minute, and it is worth doing before homework season.</p>
+<h2>In one paragraph</h2>
+<p>If your iPhone supports it, switch it on, keep Proofread and Clean Up, turn off summaries for Nepali chats, and leave the rest until you need it. If your iPhone does not support it, you are missing a few conveniences and nothing essential.</p>
+
+=== best-gaming-laptops-nepal-under-150000-2024
+<h2>The three laptops side by side</h2>
+[[models:hp-victus-15,asus-tuf-gaming-a15-fa506ncg-2024,acer-nitro-lite-16-2025-13th-gen-i7-13620h-rtx-4050-16gb-512gb,lenovo-loq-15-2025]]
+<p>The table includes two machines above the limit, since the most useful question at this budget is what a little more money would change.</p>
+<h2>How did we get here?</h2>
+<p>In 2023 a student with Rs 1.4 lakh could choose among RTX 3060 and 4050 laptops. Three things pushed prices up. Memory and SSDs became dearer in 2026. Graphics chips were in short supply as makers favoured AI hardware. And the rupee did not help. So the same money now reaches one class lower. It is nobody's fault in the shop, and bargaining will not undo it.</p>
+<h2>What an RTX 3050 can do in 2026</h2>
+<p>There are two versions, with 4GB and 6GB of video memory. The 6GB version is meaningfully better, and it is the only one we would buy. With it, at 1080p:</p>
+<ul>
+<li><strong>Very smooth:</strong> Valorant, CS2, League of Legends, Dota 2, Rocket League, Minecraft without shaders.</li>
+<li><strong>Good:</strong> Fortnite in performance mode, Apex Legends, GTA V, Forza Horizon 5 at medium, Genshin Impact.</li>
+<li><strong>Playable with compromises:</strong> Cyberpunk 2077, Hogwarts Legacy and Red Dead Redemption 2 at low to medium with DLSS.</li>
+<li><strong>Not recommended:</strong> the newest releases that list 8GB of video memory as a minimum.</li>
+</ul>
+<p>If your friends play Valorant on weekday evenings, this is enough. If you dream of open-world games with ray tracing, it is not.</p>
+<h2>A laptop for class as well</h2>
+<p>Most people at this price are students, and the machine must also carry notes, slides and perhaps AutoCAD. Weight matters: 2.2 to 2.3kg plus the charger. Battery matters: two to four hours of light work. Screen colour matters if you design: ask for sRGB coverage. Look for a keyboard you can type on for an hour. The Victus is quiet-looking and fits a classroom. The TUF is sturdier.</p>
+<h2>Do not skip the memory question</h2>
+<p>Some listings under Rs 1.5 lakh quote a price for 8GB. Games today use 12GB or more together with Windows, and a gaming laptop with 8GB stutters. Plan for 16GB in two sticks. A spare stick costs several thousand rupees in 2026, more than it did a year ago, so compare the total and not the sticker.</p>
+<h2>Storage</h2>
+<p>A single large game can take 100 to 150GB. With 512GB you keep three or four. A second M.2 slot lets you add a drive without reinstalling Windows. Ask whether the slot exists, and what speed it supports.</p>
+<h2>Alternative one: a desktop</h2>
+<p>For Rs 1.4 lakh you can build a desktop with a processor such as a Ryzen 5 and an RTX 5060, with a Full HD monitor close behind. It will be around twice as fast as any laptop at this price, quieter, cooler, and upgradeable for years. If you study at home, or your college has labs, it is the wiser purchase. Try the <a href="/custom-pc-build">PC builder</a> with your budget.</p>
+<h2>Alternative two: a console and a simple laptop</h2>
+<p>A PlayStation 5 Digital Edition at about Rs 95,000 plays every big release at high quality, on your TV, for years. Pair it with a Rs 55,000 to 70,000 laptop for study. You lose mouse-and-keyboard games like Valorant and Dota, and gain GTA VI, which is not on PC. See <a href="/news/ps5-price-in-nepal-november-2026">PS5 prices in Nepal</a>.</p>
+<h2>Alternative three: used</h2>
+<p>RTX 3060 laptops from 2021 and 2022 appear at Rs 85,000 to 1,10,000. A 6GB RTX 3060 at 100W or more is considerably faster than a new 3050. The risks are heat damage, tired batteries and no warranty. Test for twenty minutes with a game or a tool such as FurMark, watching for shutdowns. Check that the hinge is tight, the ports are firm and the keyboard is even. Pay for a technician's inspection if you are unsure. It is money well spent.</p>
+<h2>Alternative four: wait</h2>
+<p>Dashain, the new year and college sessions bring offers. A Victus with RTX 4050 falls close to Rs 1.5 lakh on some days. If you can wait a month and watch the <a href="/price-tracker">price tracker</a>, you may get a whole class higher for the same money.</p>
+<h2>Why the watts matter more at this price</h2>
+<p>Cheaper gaming laptops often limit power to keep the chassis cool. A 3050 at 95W can be a quarter faster than one at 60W. It is not printed on the sticker. Open Nvidia Control Panel, choose System Information, and read the maximum graphics power. If the seller does not allow this, buy elsewhere.</p>
+<h2>Heat in the Terai</h2>
+<p>In forty-degree rooms, entry-level cooling struggles. Use a stand, clean the vents every three months, and set a frame cap at 60 in story games. Undervolting the processor with ThrottleStop, or choosing the balanced mode, can lower temperatures by several degrees at no cost. Avoid beds and sofas, as blocked vents age the machine faster than anything else.</p>
+<h2>For engineering and design students</h2>
+<p>The same RTX 3050 accelerates SolidWorks, Blender's viewport and Premiere effects. Lumion and Twinmotion will open, and large scenes will be slow. For architecture in the third year, try to reach an 8GB RTX 5050 or 5060. The <a href="/products/lenovo-loq-15-2025">LOQ 15</a> with its full-power 5050 and accurate screen is the first laptop we would call comfortable for that work. Our <a href="/reviews/lenovo-loq-15-2025-review-nepal">review</a> explains why.</p>
+<h2>Checklist for the day of purchase</h2>
+<ol>
+<li>Graphics chip, video memory and watts.</li>
+<li>Memory: size and number of sticks.</li>
+<li>Screen: refresh rate and colour.</li>
+<li>Free M.2 and memory slots.</li>
+<li>Warranty: who, how long, where.</li>
+<li>Charger: original and wattage.</li>
+<li>Ten-minute stress test.</li>
+</ol>
+<h2>Our recommendation</h2>
+<p>With exactly Rs 1.5 lakh, choose the HP Victus 15 in the best graphics configuration you can find, and spend what remains on memory. With Rs 20,000 more, the <a href="/reviews/acer-nitro-lite-16-rtx-4050-review-nepal">Nitro Lite 16</a> or an RTX 4050 Victus is worth the wait. And if the laptop will never leave your room, build a desktop and do not look back.</p>
+
+=== ntc-ncell-5g-rollout-nepal-2024
+<h2>Trials and service are different things</h2>
+<p>A trial means that an operator has built a small number of 5G sites with temporary permission, to test equipment and measure performance. Service means that ordinary customers with ordinary SIMs can use 5G at an advertised price over a useful area. News reports often blur the two. When you read that 5G "has reached" a city, ask whether you could walk into a shop and buy a plan for it. Until the answer is yes, 5G on your phone is a feature waiting for a road.</p>
+<h2>What stands in the way</h2>
+<p><strong>Spectrum.</strong> 5G needs wide blocks of frequency. The regulator has to decide which bands to offer, at what price and with what obligations. Operators have complained for years that Nepal's spectrum fees are heavy compared with what customers pay.</p>
+<p><strong>Money.</strong> Average revenue from a Nepali mobile customer is low and has been falling as calls move to apps. Each 5G site costs a lot and covers a smaller area than a 4G one. Operators must believe that people will pay more, or that it lowers their cost of carrying data.</p>
+<p><strong>Geography.</strong> Hills block high frequencies. Fibre to connect the towers is missing in many places. Power is better than it was, though backup is still needed.</p>
+<p><strong>Phones.</strong> A network without 5G phones earns nothing. That part is being solved, since handsets with 5G now start at about Rs 34,000.</p>
+<h2>What 5G would change for a user</h2>
+<p>In a crowded place such as a stadium, a bus park or New Road on a festival day, 4G sites run out of capacity. Pages hang though the signal bars are full. 5G has far more capacity, so the benefit would be felt first in crowds. Downloads would be faster, and video calls steadier. Fixed wireless internet at home, without digging for fibre, could become a real option in towns.</p>
+<p>What it would not change: coverage in your village, the price of data, battery life in weak signal, or the speed of a slow website.</p>
+<h2>4G is not finished</h2>
+<p>There is a lot of room to improve the present network. VoLTE gives clearer calls and frees older bands. Carrier aggregation combines bands for higher speed. More sites and more fibre would lift speeds in places where the network is slow at eight in the evening. If your 4G is poor, a 5G phone will not help. A phone with better antennas and support for more 4G bands might.</p>
+<h2>Bands to look for</h2>
+<p>When buying, check that the phone supports the 4G bands used here, commonly band 3 (1800MHz), band 20 (800MHz), and others depending on operator and area. For 5G, mid-band n78 around 3.5GHz is the most widely used in the world, and n41, n28 and n1 appear in many countries. Official Nepali and Indian units of major brands support a broad list. Phones made for the United States or Japan can miss some. The maker's specification page lists bands by model number. Compare yours.</p>
+<h2>Standalone and non-standalone</h2>
+<p>Early 5G networks lean on 4G for control and are called non-standalone. Newer ones stand alone and can offer lower delay and voice over 5G. Cheap 5G phones support both in most cases. You do not need to study this before buying. It is enough to know that a phone bought today should work with whatever Nepal's operators launch, provided that it has the right bands and a software update enables it.</p>
+<h2>Battery cost</h2>
+<p>A 5G modem searching for a network it cannot find wastes power. If your phone lasts poorly, set the preferred network to 4G/LTE in SIM settings. Newer phones do this automatically. It is one of the quickest fixes for a 5G phone in a 4G country.</p>
+<h2>Should you pay extra for 5G today?</h2>
+<p>Here is how we would decide.</p>
+<ul>
+<li><strong>Budget under Rs 30,000:</strong> no. Take the better screen, memory or battery.</li>
+<li><strong>Rs 30,000 to 45,000:</strong> only if the rest of the phone is equal.</li>
+<li><strong>Above Rs 45,000:</strong> most phones have it. A 4G-only phone should be clearly better in other ways.</li>
+<li><strong>You keep phones five years:</strong> lean towards 5G.</li>
+<li><strong>You travel to India, the Gulf or Europe often:</strong> yes, you will use it there now.</li>
+</ul>
+<p>Our guide <a href="/guides/top-reasons-buy-5g-phone-nepal">Should your next phone be 5G?</a> looks at individual models.</p>
+<h2>Travellers and migrant workers</h2>
+<p>If you are leaving for Qatar, the Emirates, Malaysia, Korea or Japan, 5G is everyday life there, and a phone bought in Nepal with wide band support will use it. Check the list for your destination. When you return, a phone bought abroad needs MDMS registration to keep working on Nepali SIMs. <a href="/guides/how-to-check-phone-is-official-in-nepal">This guide</a> shows how.</p>
+<h2>eSIM and other changes</h2>
+<p>Operators here have introduced eSIM for supported phones, which helps travellers and people with two numbers. It is separate from 5G. If you buy an imported phone without a physical SIM tray, confirm with your operator before paying that your number can move to eSIM and what it costs to change phones.</p>
+<h2>Security and health questions</h2>
+<p>5G uses radio waves in ranges similar to those of 4G and Wi-Fi, and international bodies set exposure limits that networks must follow. There is no need to fear a 5G phone. Security depends more on your own habits: updates, a SIM PIN, and caution with calls that ask for OTPs.</p>
+<h2>Signs that service is near</h2>
+<p>Watch for four events: a spectrum decision by the regulator, licences with coverage obligations, operators publishing tariffs, and phone makers releasing updates that mention Nepali carriers. When those line up, commercial service is months away. Until then, announcements of trials are interesting but do not change what you should buy.</p>
+<h2>In the meantime</h2>
+<p>Use VoLTE, keep your phone updated, set the network mode to suit your area and use Wi-Fi calling where your operator supports it. Choose a phone that makes today pleasant. If it happens to be ready for 5G, that is a small gift to your future self.</p>
+
+=== on-device-ai-revolution-npu-gemini-nano-apple-intelligence
+<h2>What an NPU is</h2>
+<p>A phone chip contains several kinds of worker. The CPU follows instructions one after another and is good at everything. The GPU does many small calculations at once, for games and graphics. The NPU does one kind of calculation, the multiplication of huge tables of numbers, extremely efficiently. AI models consist almost entirely of such tables. So an NPU can run a model with a fraction of the energy that a CPU would need.</p>
+<p>Makers quote its power in TOPS, trillions of operations per second. The figure is close to useless for buyers. It is measured in ideal conditions and with different precision from one brand to another, and most of the features you use need only a little of it. Memory is the real limit.</p>
+<h2>Why memory decides</h2>
+<p>A language model must sit in memory to answer quickly. A small one, with three billion parameters compressed cleverly, takes two to three gigabytes. On a phone with 8GB that is a third of the total, and the rest must hold Android, your apps and the camera. That explains why features appear on the 12GB version of a phone and not on the 8GB version, and why Apple drew its line at 8GB.</p>
+<h2>A test you can do today</h2>
+<p>Turn on airplane mode. Then try each AI feature on your phone.</p>
+<ul>
+<li>Recorder transcription on a Pixel, Galaxy or iPhone: usually works.</li>
+<li>Live translation in the Samsung phone app with a downloaded language: works.</li>
+<li>Google Translate with a downloaded language: works, including Nepali text.</li>
+<li>Object eraser: basic versions work, generative fill usually does not.</li>
+<li>Gemini, ChatGPT, Copilot: do not work.</li>
+<li>Circle to Search: does not work.</li>
+<li>Keyboard suggestions and voice typing: work in downloaded languages.</li>
+</ul>
+<p>The list you get is the honest measure of on-device AI. It is shorter than the advertisement and more useful than people expect.</p>
+<h2>What this means in Nepal</h2>
+<p><strong>Data cost.</strong> Local features cost nothing. A chat with a cloud assistant uses little data, but image and video generation uses a lot.</p>
+<p><strong>Coverage.</strong> In the hills, where signal comes and goes, offline translation, transcription and maps are worth more than any chatbot. Download the languages and regions before you leave.</p>
+<p><strong>Privacy.</strong> A recording of a meeting that is transcribed on your phone stays with you. One that is uploaded may be stored elsewhere. For lawyers, doctors and journalists this is a practical difference.</p>
+<p><strong>Language.</strong> Nepali support is growing in translation and voice typing, and is thin in assistants and summaries. Try before buying a phone for it.</p>
+<h2>The features worth having</h2>
+<ol>
+<li><strong>Transcription with speaker labels.</strong> Students can record a lecture in English and search it later.</li>
+<li><strong>Photo clean-up.</strong> Removing a passer-by from a picture at Patan Durbar Square takes seconds.</li>
+<li><strong>Night photography.</strong> This is AI too, though nobody calls it that any more.</li>
+<li><strong>Call screening and spam detection.</strong> Where supported.</li>
+<li><strong>Voice typing.</strong> Faster than thumbs, and much improved in Nepali.</li>
+<li><strong>Accessibility.</strong> Live captions, image descriptions and sound alerts help people with disabilities enormously.</li>
+</ol>
+<h2>The features to ignore</h2>
+<p>Wallpapers made by AI, stickers, assistants that summarise short messages, and "AI cooling" or "AI battery" labels, which usually mean ordinary software. A sticker on the box does not mean that the phone has a useful NPU.</p>
+<h2>Gemini Nano, Apple's models, and Samsung's mix</h2>
+<p>Google's Gemini Nano is a small model built into Android on certain phones, available to apps that ask for it. Apple's on-device model serves Writing Tools and summaries, with larger requests going to its private cloud. Samsung mixes its own models with Google's, and a switch in settings lets you keep processing on the device. MediaTek and Qualcomm supply the hardware for everyone else. As a buyer you do not choose a model. You choose a phone, and it comes with one.</p>
+<h2>How long will today's AI phone stay current?</h2>
+<p>Nobody knows. Models are getting smaller and cleverer, which helps older phones, while features grow, which hurts them. A phone with 12GB and an update promise of six or seven years is the safest guess. A phone with 8GB will keep its present features and may miss the next ones. A phone with 6GB or less should be bought for other reasons.</p>
+<h2>AI on laptops</h2>
+<p>Windows laptops with NPUs above 40 TOPS carry the Copilot+ name and run features such as improved search, live captions with translation and image tools locally. They are pleasant. Most AI software that professionals use still runs on a graphics card or in the cloud. If you plan to run language models yourself, video memory on an Nvidia card is what matters, and a 16GB RTX 5060 Ti is the entry level we would suggest. See <a href="/news/nvidia-rtx-50-series-blackwell-gpus-nepal-guide">our RTX 50 guide</a>.</p>
+<h2>Security concerns</h2>
+<p>AI makes scams better. Voices can be copied from a few seconds of audio, and messages no longer have spelling mistakes. Agree on a family code word for emergencies. Do not share OTPs. Treat urgent requests for money by voice or video with suspicion, and call back on a known number. No NPU will protect you from a good story.</p>
+<h2>Battery and heat</h2>
+<p>Local AI uses little energy for short tasks and a lot for long ones. A thirty-minute transcription is fine. Generating images for half an hour will warm the phone. If battery life dropped after an update that added AI, look in the battery settings for background indexing and wait a few days before judging.</p>
+<h2>Buying advice</h2>
+<ul>
+<li><strong>Under Rs 40,000:</strong> ignore AI. Buy screen, memory and battery.</li>
+<li><strong>Rs 40,000 to 80,000:</strong> choose 8GB at least, 12GB if the price is close.</li>
+<li><strong>Above Rs 80,000:</strong> 12GB should be standard. Compare the features on the test above.</li>
+<li><strong>iPhone:</strong> 15 Pro or newer for Apple Intelligence.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>On-device AI is a set of small conveniences that happen to be quick and private. It is not a reason to replace a good phone, and it is a reason to prefer more memory when you do replace it. Ask for features you will use next week. If the answer is none, keep your money.</p>
+
+=== nvidia-rtx-50-series-blackwell-gpus-nepal-guide
+<h2>Choose by monitor first</h2>
+<p>The graphics card and the monitor are one purchase. A card that is too strong for the screen wastes money, and a card that is too weak wastes the screen.</p>
+<ul>
+<li><strong>1080p at 60 to 144Hz:</strong> RTX 5050 for esports, RTX 5060 for everything.</li>
+<li><strong>1440p at 144 to 180Hz:</strong> RTX 5060 Ti 16GB with DLSS, RTX 5070 without much compromise.</li>
+<li><strong>1440p ultrawide or 4K at 60Hz:</strong> RTX 5070 Ti.</li>
+<li><strong>4K at 120Hz and above:</strong> RTX 5080 or higher.</li>
+</ul>
+<p>If you do not plan to change a 1080p monitor, the RTX 5060 is where gaming value ends. See <a href="/products?category=monitor">monitors</a> before deciding.</p>
+<h2>The video memory argument</h2>
+<p>Games in 2026 use more video memory than they did. At 1080p with high textures, 8GB is usually enough, and in some titles it is the limit. When it is exceeded, the card does not slow down politely. Frame times jump and textures blur. The 16GB version of the RTX 5060 Ti avoids this for years, and it is the card we would choose for a system that must last. The 8GB version of the same card is hard to recommend at anything but a large discount.</p>
+<p>For AI work the argument is stronger. Language and image models must fit in video memory. Sixteen gigabytes opens many doors that eight keeps closed.</p>
+<h2>What DLSS 4 does</h2>
+<p>DLSS has three parts. Super resolution renders fewer pixels and rebuilds the picture, with little loss at Quality mode. Ray reconstruction cleans up ray tracing. Frame generation inserts new frames between real ones, and the 50-series can insert up to three. The last makes the counter rise dramatically, but the game still responds at the speed of the real frames. If your base rate is 60, multi-frame generation looks and feels great. If it is 25, it looks smooth and feels like mud. So treat the advertised numbers as a bonus on top of real performance.</p>
+<h2>Power supply and case</h2>
+<p>A cheap power supply is the most common fault in Nepali builds. Buy a known brand with an 80 Plus Bronze rating or better. Use 550W for an RTX 5050 or 5060, 650W for a 5060 Ti or 5070, 750 to 850W for a 5070 Ti or 5080. Check that the connector matches, and if your card uses the 16-pin plug, push it in fully until it clicks and leave a straight run of cable before the first bend.</p>
+<p>Measure the case too. Triple-fan cards can exceed 320mm. Two intake fans and one exhaust make a real difference in summer.</p>
+<h2>Processor pairing</h2>
+<p>You do not need an expensive processor. A Ryzen 5 7500F or 7600, a Ryzen 5 9600X or a Core i5 of the 13th or 14th generation suits everything to the RTX 5070. For competitive games at very high frame rates, an X3D Ryzen is worth the money. Older systems with PCIe 3.0 lose a little speed with the 5050 and 5060, which use eight lanes.</p>
+<h2>AMD and Intel alternatives</h2>
+<p>AMD's RX 9060 XT 16GB and RX 9070 series compete well in ordinary rendering, and often give more video memory for the price. Nvidia keeps an edge in ray tracing, DLSS support, streaming encoders and CUDA software for creators. Intel's Arc B580 with 12GB is good value where it can be found. Availability in Nepal is uneven, so compare real stock and not only names. Our <a href="/products?category=pc-component">component listings</a> show what is on sale.</p>
+<h2>Used cards: worth it?</h2>
+<p>A used RTX 3060 12GB, 3070 or 4060 can be good value. Ask how it was used. Mining cards are not automatically bad, but fans and thermal pads may be worn. Test with a demanding game for half an hour. Watch the temperature, listen for rattling and look for coloured dots or lines. Ask for the bill, since some brands honour a warranty by serial number.</p>
+<h2>Laptops: the watt problem again</h2>
+<p>In laptops, the name describes the chip and the wattage describes the performance. An RTX 5060 laptop at 115W can match one called 5070 at 60W. Ask for TGP, and prefer thicker machines with big chargers if speed is the goal. The <a href="/products/lenovo-loq-15-2025">Lenovo LOQ 15</a> and <a href="/products/lenovo-legion-5-15ahp10">Legion 5</a> are examples that do not hide it. Laptop cards also have less video memory: 8GB in the 5050, 5060 and 5070, 12GB in the 5070 Ti.</p>
+<h2>For creators and students</h2>
+<p><strong>Video editing:</strong> the 50-series encoders handle 4:2:2 footage from modern cameras, which older cards could not. A 5060 is enough for 1080p and light 4K.</p>
+<p><strong>Blender and rendering:</strong> OptiX is fast. More video memory allows larger scenes. Choose the 5060 Ti 16GB or 5070 Ti.</p>
+<p><strong>Architecture:</strong> Lumion and Enscape like 12GB or more.</p>
+<p><strong>Machine learning:</strong> 16GB minimum for comfort.</p>
+<h2>Electricity cost</h2>
+<p>A system with an RTX 5060 draws about 250 to 300W while gaming. Three hours a day is roughly 25 units a month. With a 5070 Ti it is 40 or more. An undervolt, which takes ten minutes with MSI Afterburner, reduces power by 15 to 20 per cent with almost no loss. It also lowers noise and heat.</p>
+<h2>Warranty in Nepal</h2>
+<p>Graphics cards from official distributors usually carry two or three years. Parallel imports may have a shop promise. Ask for the distributor's sticker and keep the box, as many require it for claims. Do not remove the cooler yourself within the warranty period. Cards are fragile in transport: if you send a PC to another city, take the card out and pack it separately.</p>
+<h2>When to buy</h2>
+<p>Prices in 2026 were affected by memory shortages, and cards with more memory rose most. A sudden fall is unlikely before supply improves. If your present card is dead, buy what you need. If it works, watch the price history on product pages for a few weeks, and look for offers at Dashain and the new year.</p>
+<h2>Our picks in a line each</h2>
+<ul>
+<li><strong>Tight budget:</strong> RTX 5050 8GB, for esports.</li>
+<li><strong>Most builds:</strong> RTX 5060 8GB.</li>
+<li><strong>Keep for five years, or AI study:</strong> RTX 5060 Ti 16GB.</li>
+<li><strong>1440p gaming:</strong> RTX 5070 12GB.</li>
+<li><strong>Serious creators:</strong> RTX 5070 Ti 16GB, which is priced close enough to the 5070 to be tempting.</li>
+</ul>
+<p>Use the <a href="/custom-pc-build">PC builder</a> to see what the whole system would cost with each.</p>
+
+=== electronic-price-hikes-nepal-ram-ssd-smartphones-analysis
+<h2>How a data centre raises the price of your phone</h2>
+<p>There are only three large makers of memory chips in the world: Samsung, SK Hynix and Micron. Each factory can produce several kinds of memory, and the kind used beside AI accelerators, called HBM, earns far more per wafer than the kind used in phones and laptops. When buyers with very deep pockets ask for as much HBM as can be made, factories shift towards it. What remains for ordinary DDR5 and LPDDR5X is less, and its price rises. Flash storage, used in SSDs and phones, followed a similar road.</p>
+<p>New factories take two to three years to build. That is why the pressure has lasted, and why nobody sensible promises quick relief.</p>
+<h2>How it reaches Nepal</h2>
+<p>Importers here pay in dollars, add freight, customs duty and VAT, and then a margin. A rise of twenty dollars at the factory can be Rs 4,000 to 5,000 on the shelf. Shops with old stock keep the old price for a while, and that is why two shops on one street may differ widely. Distributors adjust price lists in jumps, and the jump often arrives when a new batch lands.</p>
+<h2>What rose most</h2>
+<p><strong>Laptops with 16GB or more.</strong> Memory is a larger share of their cost. Many makers responded by offering 8GB at the old price, which is a hidden increase.</p>
+<p><strong>Desktop RAM kits.</strong> DDR5 kits that were affordable in 2024 became one of the most expensive parts of a build. DDR4 has also risen as production ends.</p>
+<p><strong>SSDs.</strong> Large drives in particular.</p>
+<p><strong>Budget phones.</strong> Memory and storage make up a big part of a cheap phone. Some models reappeared with 64GB where 128GB used to be standard.</p>
+<p><strong>Graphics cards with more video memory.</strong></p>
+<p><strong>Consoles.</strong> Sony and Nintendo both raised prices.</p>
+<h2>What barely moved</h2>
+<p>Earbuds, watches, power banks, keyboards, mice, most monitors and televisions without large memory. If your list includes both a laptop and a pair of headphones, the laptop is the one to plan around.</p>
+<h2>A decision table in words</h2>
+<p><strong>Your phone is broken.</strong> Buy now, and buy the memory you will need in three years.</p>
+<p><strong>Your phone is slow but works.</strong> Replace the battery, clear storage, reset it, and wait for an offer. That costs Rs 4,000 to 8,000 and buys a year.</p>
+<p><strong>Your laptop has a free memory slot.</strong> Add a stick when you find a good price. A used module from a reliable shop is fine, since memory rarely fails.</p>
+<p><strong>Your laptop has soldered memory and 8GB.</strong> Lighten the software, use web apps, and replace the laptop only when work demands it.</p>
+<p><strong>You want to build a PC.</strong> Buy memory and SSD early if you see a fair price, as these move most. Cases, power supplies and coolers can wait.</p>
+<p><strong>You need backup storage.</strong> Hard drives remain cheap per terabyte. For files you seldom open, they are the better choice.</p>
+<h2>Eight or sixteen? Doing the sum</h2>
+<p>Say the 16GB version of a laptop costs Rs 12,000 more. Over four years that is Rs 250 a month. Against it, put ten minutes a day lost in waiting, which is a full working week each year. For anyone who earns or studies on a computer, the larger memory is the cheaper choice. The same logic applies to 256GB against 128GB on a phone, where running out of space often forces an early replacement.</p>
+<h2>Do not panic-buy</h2>
+<p>Shortages produce bad purchases. People buy a laptop they dislike because "prices will rise tomorrow". Prices may rise a few per cent. A poor choice costs you for years. Fix your requirements, know the fair price from the <a href="/price-tracker">price tracker</a>, and act when a suitable product meets it.</p>
+<h2>Beware of tricks</h2>
+<ul>
+<li><strong>Virtual RAM counted as real.</strong> "16GB" on a cheap phone may be 8GB plus storage.</li>
+<li><strong>Single-channel memory.</strong> One 16GB stick in place of two 8GB sticks. Ask.</li>
+<li><strong>eMMC sold as SSD.</strong> It is many times slower and soldered.</li>
+<li><strong>SSDs without a known brand.</strong> Some report a false capacity. Test with a tool such as H2testw before trusting them with files.</li>
+<li><strong>Refurbished drives sold as new.</strong> CrystalDiskInfo shows power-on hours.</li>
+</ul>
+<h2>Second-hand as a hedge</h2>
+<p>When new prices rise, used prices follow more slowly. Business laptops with 16GB, two-year-old flagships and desktop memory are attractive in such years. The usual checks apply. For phones, look at MDMS registration first.</p>
+<h2>Stretching what you own</h2>
+<p>On a computer: uninstall what you do not use, disable startup apps, keep 20 per cent of the drive free, clean the fan. On a phone: turn off automatic downloads in WhatsApp, use Google Photos or a computer for old videos, delete unused apps, and restart weekly. On both: replace the battery before the device. These steps feel dull. They are the cheapest upgrade in 2026.</p>
+<h2>For small businesses</h2>
+<p>If you must buy ten machines, ask suppliers for a quotation valid for thirty days and lock it. Consider refurbished business desktops with 16GB, which cost less than new 8GB laptops and are easier to repair. Standardise on one model so that parts can be shared. Keep one spare SSD and one memory module in the cupboard.</p>
+<h2>When will it end?</h2>
+<p>Nobody can say with confidence. Memory has always moved in cycles: shortage, high prices, new factories, surplus, low prices. The present cycle is unusual because demand from AI has been so strong. Announcements of new capacity point to easing over the next couple of years, not weeks. If you can wait until then, wait. If you cannot, buy carefully and keep it long.</p>
+<h2>A short list to remember</h2>
+<ol>
+<li>Memory you cannot add later: buy now.</li>
+<li>Memory you can add later: wait for a price.</li>
+<li>External storage: only when full.</li>
+<li>Accessories: no rush.</li>
+<li>Any device that works: maintain it.</li>
+</ol>
+
+=== from-cyberpunk-to-reality-sci-fi-cinema-tech-exists-today
+<h2>The gap between film and footpath</h2>
+<p>Science fiction writers were usually right about the object and wrong about the life around it. They imagined video phones, and we got them, along with a cousin who calls at dinner. They imagined talking computers, and did not guess that we would use them mostly to set timers. Walking through the shops of New Road or Putalisadak with that in mind is good fun, and occasionally useful. Here is a longer tour of things that were props and are now products, what they cost in spirit and money, and whether they deserve a place in your home.</p>
+<h2>Communicators: the foldable phone</h2>
+<p>The flip of the original Star Trek communicator came back in phones that fold like a compact. They make a full-size phone fit a shirt pocket, and their outer screen lets you answer without opening. Book-style foldables do the opposite and give you a small tablet. After several generations the hinges are dependable, the crease is faint, and repairs remain expensive. A broken inner screen can cost as much as a good mid-range phone. If you are careful and curious, they are the most futuristic object you can own. If you drop things, they are a warning.</p>
+<h2>Tricorders: the watch on your wrist</h2>
+<p>Doctors in films wave a device and read the body. Our watches read heart rate, estimate oxygen and take a simple ECG in some models. They are nowhere near a hospital, yet they have alerted people to problems they did not know about. The useful part is the long record. A resting heart rate that climbs over a month says something. Our <a href="/guides/smartwatch-buying-guide-nepal-2024">smartwatch guide</a> explains what to trust.</p>
+<h2>The universal translator</h2>
+<p>Conversation mode in Google Translate supports Nepali. Two people can speak in turn and read or hear the result. It is slow, it stumbles on dialect and mixed speech, and it works better in a quiet room. For a trekking guide with Japanese guests, or a nurse with a patient who speaks another language, it is already a tool. Download the language in advance so that it works without signal. Earbuds with translation add comfort and not accuracy.</p>
+<h2>The computer you talk to</h2>
+<p>HAL spoke calmly and refused to open doors. Today's assistants speak calmly and invent facts. They can explain a contract, draft an email, plan a trip to Rara and debug a program. They need an internet connection for anything clever, and they should not be trusted with medicine, law or money without checking. Voice in Nepali is improving quickly. Used as a patient assistant and not as an oracle, they are the nearest thing to the future we were promised.</p>
+<h2>Holograms, almost: VR and AR</h2>
+<p>Headsets place you in another room convincingly enough to make you step back from a ledge that is not there. They are sold in small numbers in Nepal, usually through importers, with little local support. For games and design studios they are remarkable. Glasses that overlay information on the world exist too, with short battery life and few apps. Most people will try one, smile, and go back to a screen.</p>
+<h2>Robots in the house</h2>
+<p>The robot vacuum is the only household robot that has succeeded. In a flat with smooth floors it works well. In a traditional house with thresholds, carpets and shoes at the door, it needs help. Mapping models avoid chairs and return to charge. Dust in our cities fills the bin daily. It will not replace anyone. It will keep the floor cleaner between proper cleanings.</p>
+<h2>Flying cameras</h2>
+<p>Drones made a director of anyone with a lakh and a steady hand. A small model such as the <a href="/products/dji-flip-drone-with-rc-2">DJI Flip</a> follows you, avoids some obstacles and lands by itself. In Nepal, the rules matter more than the machine. Weight classes, permissions from the civil aviation authority and local administration, and bans near airports, borders, heritage sites and national parks all apply. Ask before you fly. Confiscation is a sad ending to an expensive purchase.</p>
+<h2>Doors that know your face</h2>
+<p>Fingerprint and face locks, common in spy films, are now on office doors and flats. A good one opens by finger, code, card and key, and warns when its batteries are low. Choose a model with a mechanical key as backup, and place it where monsoon rain will not reach. Check the thickness of the door before ordering.</p>
+<h2>Screens as thin as paper</h2>
+<p>OLED televisions are a few millimetres thick at the edge. Laptops with two screens exist, and rollable phones have been shown. E-ink readers are the quiet success: no glare, weeks of battery and no notifications. For a student with many PDFs, a ten-inch e-ink tablet is perhaps the most sensible futuristic device of all, though few shops stock it.</p>
+<h2>Power from the sun</h2>
+<p>Portable power stations and folding panels are ordinary now. They run a router, lights and a laptop through a cut, or a film projector in a village school. Compare them by watt-hours, and look for lithium iron phosphate cells, which last for thousands of cycles. For trekking lodges and field clinics, they are less a gadget than infrastructure.</p>
+<h2>Electric vehicles</h2>
+<p>Blade Runner's flying cars are late. Silent electric cars and scooters have arrived, and Nepal has adopted them faster than most countries thanks to hydropower and taxes. They need a home charger and a calm approach to range in the hills. It is the one science-fiction prediction that you can hear, or rather cannot hear, on the Ring Road.</p>
+<h2>What has not arrived</h2>
+<ul>
+<li>A battery that lasts a month.</li>
+<li>A screen that works perfectly in full sun and full dark.</li>
+<li>An assistant that understands a Nepali family conversation.</li>
+<li>Teleportation, which Kalanki would welcome.</li>
+</ul>
+<h2>How to buy the future sensibly</h2>
+<p>Three questions help with any novel gadget. Who will repair it here? What happens to it when the company's servers close? Would I still use it in March? If you can answer them, enjoy it. If not, wait for the second generation. The future tends to get cheaper, and it never sells out for long.</p>
+<h2>Our favourites, honestly</h2>
+<p>If we had to choose three pieces of the future for an ordinary home in Nepal, we would take a good phone with offline translation, a power station for the cuts that remain, and a pair of noise-cancelling headphones. None would look impressive in a film. All of them would improve an ordinary Tuesday, which is the better test.</p>
+
+=== iphone-17-pro-max-leaks-2nm-a19-pro-nepal-pricing-radar
+<h2>Specifications as sold</h2>
+[[specs:apple-iphone-17-pro-max]]
+<h2>Keeping score of the rumours</h2>
+<p>Leaks come from several places, and they do not deserve equal trust. Factory drawings and cases, made months ahead, are usually right about shape and buttons. Component orders are usually right about screens and cameras. Chip details come from analysts and are right more often than not, though they confuse one year with the next, as happened here. Prices are guesses until the last weeks, and prices for Nepal are guesses about guesses.</p>
+<p>So when you read about the next iPhone, give weight in that order: design first, cameras next, chip after that, and price last. The same method works for Samsung, as in our reports on the <a href="/news/galaxy-s27-ultra-leaks-launch-date-nepal-price">Galaxy S27 Ultra</a>.</p>
+<h2>What the aluminium body changed</h2>
+<p>Moving from titanium to aluminium looked like a step down and turned out to be a practical one. Aluminium carries heat better, and together with the vapour chamber it lets the A19 Pro keep its speed in long games and video recording. The earlier titanium phones became warm and slowed in the sun. For anyone who films at weddings in May, this is a real improvement.</p>
+<p>The cost is that coloured aluminium marks more easily at sharp edges. A case that covers the camera plateau prevents most of it.</p>
+<h2>Cameras: three 48MP sensors</h2>
+<p>With all three cameras at 48MP, quality no longer drops when you change lens. The 4x telephoto gives a natural perspective for portraits, and a crop reaches 8x with good detail. Video remains Apple's strongest card: stable, well-exposed, with professional formats for those who need them. The front camera's larger sensor lets you take wide group selfies while holding the phone upright.</p>
+<h2>Battery: the improvement people feel</h2>
+<p>Owners talk about battery life more than any other change. It comfortably lasts a long day of maps, camera and hotspot. Charging is quicker with a suitable USB-C PD adapter, reaching about half in some twenty minutes by Apple's figures. Note that models sold in some countries without a SIM tray have a slightly larger battery. In Nepal, a model with a physical SIM is usually more convenient. Check which one you are being offered.</p>
+<h2>17 Pro Max or 18 Pro Max?</h2>
+<p>The newer phone costs about Rs 37,000 more at 256GB. It brings the 2nm A20 Pro, a 5x periscope and other refinements described in <a href="/reviews/iphone-18-pro-max-review-nepal">our review</a>. If you own a 15 Pro or older, either is a big step. If you want to save, the 17 Pro Max is the sensible choice as long as it is sealed and official. At less than a Rs 25,000 difference, take the newer one, since it will be updated and resold for a year longer.</p>
+<h2>And the alternatives</h2>
+[[rivals:apple-iphone-17-pro-max]]
+<p>The <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a> offers a pen, a longer zoom and a privacy screen for a little less. The <a href="/products/vivo-x300-pro">vivo X300 Pro</a> takes better zoom photos for less money. Neither matches the iPhone's video or resale. If you live with a Mac, an iPad and AirPods, the decision is made already.</p>
+<h2>How much storage?</h2>
+<p>A minute of 4K at 60 frames per second takes about 400MB, and ProRes takes many times more. For ordinary photos and video, 256GB lasts most people two or three years. For creators, 512GB is the sensible choice. The terabyte versions are for professionals who cannot carry an external drive, and even they can record straight to a USB-C SSD.</p>
+<h2>Buying in Nepal: official and otherwise</h2>
+<p>Apple sells through authorised resellers here. An official unit has a bill, a local service route and MDMS registration. Grey units from Dubai, Hong Kong, India or the United States are sold beside them, often Rs 10,000 to 20,000 cheaper. The differences to check are:</p>
+<ul>
+<li><strong>SIM type.</strong> United States units use eSIM only. Hong Kong and mainland China units take two physical SIMs.</li>
+<li><strong>Warranty.</strong> Apple's one-year cover may depend on country. Ask what will happen if it fails.</li>
+<li><strong>MDMS.</strong> The IMEI must be registered or the phone may lose service.</li>
+<li><strong>Activation date.</strong> Enter the serial at Apple's coverage page.</li>
+<li><strong>Camera shutter.</strong> Units from Japan and Korea may have a permanent shutter sound.</li>
+</ul>
+<p>Our guide on <a href="/guides/how-to-check-phone-is-official-in-nepal">checking an official phone</a> has the steps.</p>
+<h2>Used 17 Pro Max</h2>
+<p>They have begun to appear. Look for battery health above 90 per cent, original parts in Settings, General, About, no Activation Lock and a matching IMEI. Test Face ID, all cameras, the telephoto's focus, the Camera Control button and charging. Deduct for a replaced screen. If the price is within Rs 30,000 of a new one, buy new.</p>
+<h2>Repairs and insurance</h2>
+<p>Screen and back glass repairs on a Pro Max cost a large share of a mid-range phone. AppleCare is not sold here in the way it is abroad. Some shops and insurers offer screen plans. Read the limits: number of claims, excess, and whether genuine parts are used. A good case and glass cost Rs 3,000 and remove most of the risk.</p>
+<h2>How long will it last?</h2>
+<p>Apple supports iPhones for six to seven years or more. With 12GB of memory, the 17 Pro Max is well placed for features to come. Budget for a battery in year three. On that plan, Rs 2,42,499 over six years is about Rs 3,400 a month, before counting what it sells for at the end. It is expensive, and less so than it looks.</p>
+<h2>What the episode taught us</h2>
+<p>Rumours are entertainment. They are useful for one decision, whether to wait a few weeks, and dangerous for another, whether to sell your phone early. When a price in Nepali rupees appears before launch, remember that nobody knows it. We mark our own estimates as estimates and replace them when an official price is announced. That is the only honest way to do it.</p>
+
+=== samsung-galaxy-s25-ultra-leak-roundup-snapdragon-8-elite-nepal
+<h2>The two phones compared</h2>
+[[models:samsung-galaxy-s25-ultra,samsung-galaxy-s26-ultra,vivo-x300-pro,xiaomi-17-ultra]]
+<h2>Rs 40,000 is a lot of phone</h2>
+<p>The difference between the S25 Ultra and the S26 Ultra buys a Galaxy A17 for your mother, or a pair of Galaxy Buds and a watch, or two years of mobile data. So the question is not whether the new phone is better, because it is. The question is whether you would notice Rs 40,000 worth of difference on a Wednesday. For most people, the honest answer is no.</p>
+<h2>Performance a year later</h2>
+<p>The Snapdragon 8 Elite for Galaxy was the fastest chip in any Android phone at its launch. A year does not make it slow. Games run at the highest settings, DeX is fluid and the camera is instant. The newer Elite Gen 5 is ahead in benchmarks and a bit cooler. Samsung also enlarged the vapour chamber in the S26 Ultra. Only long gaming sessions make these differences visible.</p>
+<h2>Screen: the privacy question</h2>
+<p>Both have huge, bright, anti-reflective 6.9-inch panels that are among the best anywhere. The S26 Ultra's Privacy Display narrows the viewing angle on demand, so the person beside you on a microbus sees a dark screen. If you handle salaries, patient records or a private life in public, that is an actual reason to pay more. If not, a privacy protector on the S25 Ultra costs Rs 1,500 and does a coarser version of the job.</p>
+<h2>Cameras</h2>
+<p>Both use a 200MP main sensor, a 50MP ultra wide, a 10MP 3x and a 50MP 5x. The S26 Ultra's main lens is brighter at f/1.4 and gathers more light at night. In daylight you will not tell the pictures apart. Indoors, moving children come out sharper on the newer phone more often. Video is excellent on both.</p>
+<h2>Battery and charging</h2>
+<p>Both have 5,000mAh, and both last a full day. The S26 Ultra charges at 60W and the S25 Ultra at 45W, saving perhaps fifteen minutes on a full charge. Neither comes close to the 6,500 to 7,500mAh that Chinese flagships offer. If battery is your complaint with Samsung, neither of these solves it.</p>
+<h2>S Pen</h2>
+<p>The pen on both phones is for writing, sketching and precise editing. The Bluetooth functions of older pens, such as remote shutter, are gone. People who take notes on their phone love it, others forget it is there. Be honest about which you are.</p>
+<h2>Updates</h2>
+<p>Samsung promised seven years for both. The S25 Ultra will be covered into early 2032 and the S26 Ultra into 2033. If you keep phones four years, this changes nothing.</p>
+<h2>Resale value</h2>
+<p>The S25 Ultra has already taken its steepest loss. From here it falls more slowly than the S26 Ultra will in its first year. Someone who sells every two years loses less money with the older phone. Samsung's Ultra models hold value better than other Androids in Nepal, so both are reasonable.</p>
+<h2>What else does the money buy?</h2>
+<p>At around Rs 1,85,000 to 2,00,000, two camera flagships compete. The <a href="/reviews/vivo-x300-pro-review-nepal">vivo X300 Pro</a> has the best zoom camera in this price range and a 6,510mAh battery. The <a href="/reviews/xiaomi-17-ultra-review-nepal">Xiaomi 17 Ultra</a> has a one-inch class main sensor with Leica tuning. For photography and battery, both beat the S25 Ultra. For software, service, DeX, the pen and resale, Samsung wins.</p>
+<h2>Buying an S25 Ultra safely in late 2026</h2>
+<p>Stock of older flagships comes from three sources: distributors clearing inventory, shops with display units, and importers. Look closely.</p>
+<ul>
+<li>Dial *#06# and check the IMEI in MDMS.</li>
+<li>Enter the IMEI on Samsung's warranty page or the Members app and read the start date. Samsung warranties begin at activation.</li>
+<li>Check the model code. The suffix tells the region. Ask for the Nepali one.</li>
+<li>A sealed phone that has sat for a year may have a slightly aged battery. Charge it fully and look at battery status in Members.</li>
+<li>Ask for the same one-year warranty as a new phone, in writing.</li>
+</ul>
+<h2>Display units</h2>
+<p>They are sold at tempting prices. Their screens have been on at full brightness for months, and OLED panels can show a ghost of the demo. Display a plain grey image and look carefully. Expect 25 per cent off at least, and a warranty.</p>
+<h2>Used S25 Ultra</h2>
+<p>Good used units cost Rs 1,20,000 to 1,50,000 depending on condition, and at that price the phone is superb value. Check the pen, all cameras at each zoom level, the fingerprint reader, the speakers and the back glass. Look for a pink or green line on the screen. Make sure Knox is intact: in settings the warranty bit should read 0x0, as a tripped one disables Secure Folder and Samsung Wallet features.</p>
+<h2>Should you wait for the S27 Ultra?</h2>
+<p>Samsung's next launch is expected in the first months of 2027. When it arrives, the S26 Ultra should come down and the S25 Ultra will become scarce. If your phone works, waiting until then improves your position on either. Reports so far point to a larger battery, which would be the first real fix for Samsung's weak point. <a href="/news/galaxy-s27-ultra-leaks-launch-date-nepal-price">Here is what is known</a>.</p>
+<h2>Who should buy the S25 Ultra</h2>
+<ul>
+<li>People coming from an S21, S22 or Note who want the pen.</li>
+<li>Value-minded buyers who still want the best Samsung hardware.</li>
+<li>Professionals who use DeX and long zoom.</li>
+</ul>
+<h2>Who should buy the S26 Ultra</h2>
+<ul>
+<li>People who keep a phone for six or seven years.</li>
+<li>Those who need the privacy screen.</li>
+<li>Night photographers and heavy gamers.</li>
+</ul>
+<h2>Who should buy neither</h2>
+<p>If you do not use the pen or zoom, a <a href="/products/samsung-galaxy-s26">Galaxy S26</a> at Rs 1,39,999 is smaller and cheaper. If battery is everything, look at OnePlus, vivo or OPPO.</p>
+<h2>Verdict</h2>
+<p>At Rs 1,84,999 with a full official warranty, the S25 Ultra is the Samsung flagship we would recommend to a friend this winter. Under Rs 1,75,000 it is easy. Above Rs 1,95,000, the reason to choose it disappears.</p>

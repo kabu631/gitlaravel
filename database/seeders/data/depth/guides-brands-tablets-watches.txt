@@ -1,0 +1,600 @@
+=== apple-tablet-price-in-nepal
+<h2>iPads compared</h2>
+[[models:ipad-11-2025,apple-ipad-air-11-m4-2026,apple-ipad-air-13-m4-2026,apple-ipad-pro-11-m5-2025,apple-ipad-pro-13-m5-2025]]
+<h2>Why iPads outlast everything else</h2>
+<p>An iPad bought in 2018 still opens, still updates most apps and still sells for a third of its price. No Android tablet in Nepal can say that. The reasons are long software support, chips that are far more powerful than tablets need, and apps made for a large screen. If you plan to keep a tablet for five years or more, an iPad is often the cheaper choice, though the sticker says otherwise.</p>
+<h2>iPad 11: enough for most people</h2>
+<p>At about Rs 83,500 the basic <a href="/products/ipad-11-2025">iPad</a> has the A16 chip, an 11-inch screen and 128GB. It handles notes, films, drawing lessons, video calls and games. It lacks Apple Intelligence, the laminated display and the better pencil. For a school or college student who will read, annotate and watch, it is the right one, and spending more should be a deliberate choice.</p>
+<h2>iPad Air: for people who make things</h2>
+<p>The Air at about Rs 1,40,000 adds the M4, more memory, a laminated screen that removes the gap under the glass, and the Apple Pencil Pro with squeeze and hover. Illustrators, architecture students and video editors feel these every day. The 13-inch Air is for people who want a whole A4 page on the screen. If you only take notes, you will not notice most of it.</p>
+<h2>iPad Pro: for professionals</h2>
+<p>Tandem OLED, 120Hz, M5 and a thinness that surprises. At Rs 2,29,500 and above before accessories, it competes with a MacBook Air plus a basic iPad. Choose it if you are paid to draw, grade colour or edit on location.</p>
+<h2>The accessories question</h2>
+<p>Prices of Apple's accessories change the whole calculation. There are three pencils, and each works with certain iPads only:</p>
+<ul>
+<li><strong>Apple Pencil (USB-C):</strong> cheapest, no pressure sensitivity. Good for notes.</li>
+<li><strong>Apple Pencil Pro:</strong> pressure, squeeze, hover. For Air and Pro.</li>
+<li><strong>Older pencils:</strong> for older iPads. Check compatibility.</li>
+</ul>
+<p>Third-party pencils at Rs 2,500 to 5,000 work well for writing, with palm rejection and no pressure. For lecture notes they are the sensible purchase. Keyboards from other makers at Rs 5,000 to 10,000 do most of what the Magic Keyboard does.</p>
+<h2>Will it replace a laptop?</h2>
+<p>For email, documents, presentations and browsing, with a keyboard, yes. For Excel beyond the basics, programming, accounting software and many government portals, no. An Air with Apple's keyboard and pencil costs more than a MacBook Neo and nearly as much as a good Windows laptop. Read <a href="/guides/laptop-vs-tablet-work-study-nepal">laptop or tablet</a> before deciding.</p>
+<h2>Storage</h2>
+<p>128GB is comfortable for study. Procreate files, 4K video and offline films fill it. There is no card slot, but USB-C drives work in the Files app. Choose 256GB if you edit video or if children share it.</p>
+<h2>Wi-Fi or cellular?</h2>
+<p>Cellular versions cost about Rs 20,000 to 30,000 more. A phone hotspot does the same job for most. Cellular iPads also have GPS and need MDMS registration. Recent models use eSIM only, so confirm with your operator.</p>
+<h2>Buying official or imported</h2>
+<p>Apple's limited warranty on iPads is usually honoured through authorised service in many countries, and cellular models are the exception to check. Enter the serial number on Apple's coverage page. American, Emirati and Indian units are all common in Nepal. Screen replacement is very costly, so a case is essential.</p>
+<h2>Used iPads</h2>
+<p>A used iPad Air M1 at Rs 60,000 to 75,000 or an iPad 9 or 10 at Rs 30,000 to 50,000 is a good buy. Check:</p>
+<ul>
+<li>Activation Lock is off. Erase it and set it up yourself.</li>
+<li>No remote management from a school or company.</li>
+<li>Touch works in every corner. Drag an icon along all edges.</li>
+<li>The pencil connects and charges.</li>
+<li>Battery lasts as the seller claims. Watch video for twenty minutes.</li>
+<li>The frame is straight. Lay it on a table.</li>
+</ul>
+<h2>For children</h2>
+<p>Use Screen Time with a passcode, Guided Access to lock a child into one app, and Ask to Buy for purchases. Buy a thick foam case. A base iPad, used or new, outlives several cheap tablets and is safer on the internet, because you control which apps are allowed.</p>
+<h2>For artists</h2>
+<p>Procreate is a single purchase and remains the best reason to own an iPad. Start with the base iPad and the cheapest compatible pencil that has pressure sensitivity, if your model supports one, or a used Air with the second-generation Pencil. A matte protector helps the hand and softens the picture.</p>
+<h2>For students of medicine and science</h2>
+<p>GoodNotes, Notability and Apple's own Notes app with handwriting search change how revision works. Split view with a PDF on one side and notes on the other is the best study tool we know. The base iPad is enough. Buy the 13-inch Air only if you read two-column papers all day.</p>
+<h2>iPadOS and updates</h2>
+<p>Expect five to seven years of new versions and some years of patches after that. Newer iPadOS versions have proper windows on most recent models. Features tied to Apple Intelligence need an M-series chip or newer A-series with enough memory.</p>
+<h2>Battery and care</h2>
+<p>About ten hours of use is typical. Keep it between 20 and 80 per cent when convenient, and set the 80 per cent limit on newer models if it is always on a stand. Do not leave it in a hot car. Clean the screen with a damp microfibre cloth.</p>
+<h2>When to buy</h2>
+<p>New iPads appear irregularly, often in spring and autumn. In 2026 memory costs pushed prices up, so clearance is modest. Look for older stock of the previous Air, and ask about education prices at authorised resellers.</p>
+<h2>Our shortlist</h2>
+<ul>
+<li><strong>Most people and students:</strong> iPad 11, 128GB.</li>
+<li><strong>Artists and architects:</strong> iPad Air 11.</li>
+<li><strong>Large documents and music scores:</strong> iPad Air 13.</li>
+<li><strong>Professionals:</strong> iPad Pro 11.</li>
+<li><strong>Tight budget:</strong> used iPad 10 or Air M1.</li>
+</ul>
+<h2>Android alternatives</h2>
+<p>The <a href="/products/samsung-galaxy-tab-s10-fe">Galaxy Tab S10 FE</a> includes a pen and costs less. The <a href="/products/xiaomi-pad-7">Xiaomi Pad 7</a> has a smoother screen for half the price. They are good tablets with shorter lives and fewer large-screen apps. Our <a href="/guides/best-tablets-nepal">tablet guide</a> compares them all.</p>
+
+=== samsung-tablet-price-in-nepal
+<h2>The five tablets</h2>
+[[models:samsung-galaxy-tab-a11,samsung-galaxy-tab-a11-plus,samsung-galaxy-tab-s10-lite,samsung-galaxy-tab-s10-fe,samsung-galaxy-tab-s11]]
+<h2>Samsung's advantage in one word: pen</h2>
+<p>From the S10 Lite upwards, a Galaxy Tab comes with an S Pen in the box. It never needs charging to write, it has good pressure sensitivity, and Samsung Notes is one of the best handwriting apps anywhere. Add the price of a pen to any rival before comparing, and Samsung's tablets look better value than they first seem.</p>
+<h2>Tab A11: small and simple</h2>
+<p>At Rs 21,999 the <a href="/products/samsung-galaxy-tab-a11">Tab A11</a> is an 8.7-inch tablet for children, reading and video. The screen is low in resolution. Samsung Kids, long support and easy service are the reasons to choose it over cheaper names. Take the 8GB version if it is within reach, as 4GB is tight.</p>
+<h2>Tab A11+: the family tablet</h2>
+<p>For Rs 41,999 the <a href="/products/samsung-galaxy-tab-a11-plus">A11+</a> has an 11-inch screen and a much faster Dimensity 7300. It suits homework, films and video calls. The Xiaomi Pad 7 at Rs 44,999 has a sharper, smoother screen and more speed. Samsung answers with updates, service and DeX support where available. No pen here.</p>
+<h2>Tab S10 Lite: the cheapest with a pen</h2>
+<p>At Rs 63,499 it brings the S Pen and an Exynos 1380. For lecture notes it is enough. The gap to the S10 FE is Rs 11,500, which buys a better screen, faster chip, water resistance and faster charging. We would stretch.</p>
+<h2>Tab S10 FE: our recommendation</h2>
+<p>At Rs 74,999 the <a href="/products/samsung-galaxy-tab-s10-fe">S10 FE</a> is the student tablet to beat: S Pen, IP68, 90Hz, 45W charging and seven years of support. It can be used beside a sink, in the rain and through an entire degree. Add a keyboard cover later if needed.</p>
+<h2>Tab S11: flagship</h2>
+<p>At Rs 1,29,999 the <a href="/products/samsung-galaxy-tab-s11">S11</a> has an AMOLED at 120Hz, a flagship chip and 12GB. For artists, film lovers and people who use DeX as a desktop it is excellent. It costs about as much as an iPad Air without pen. With the pen included, the Samsung is cheaper.</p>
+<h2>What DeX does</h2>
+<p>DeX gives you a desktop with windows, a taskbar and keyboard shortcuts. Word, Excel and browsers sit beside each other. With a keyboard cover, a mouse and an external monitor on models that support it, light office work is comfortable. Apps are still mobile versions. Anyone who needs full Excel, Tally or programming tools needs a laptop.</p>
+<h2>Handwriting in practice</h2>
+<ul>
+<li>Samsung Notes searches your handwriting, including some Devanagari depending on version.</li>
+<li>You can record a lecture while writing, and tap a word later to hear that moment.</li>
+<li>PDFs can be imported and marked.</li>
+<li>Notes can be exported to PDF, Word and Microsoft OneNote.</li>
+</ul>
+<p>A matte protector makes the glass feel closer to paper, at a small loss of sharpness. Spare S Pens cost a few thousand rupees, and the pen attaches by magnet, so it is easily lost in a bag. Use a case with a holder.</p>
+<h2>For children</h2>
+<p>Samsung Kids locks a child in a safe area with time limits. Combine with Google Family Link for app approval. The Tab A11 in a foam case is the standard choice. Check that Widevine L1 is supported if films matter.</p>
+<h2>Screens explained</h2>
+<p>TFT and IPS LCD panels on the A and Lite models are fine indoors. The FE reaches 800 nits in high brightness. The S11's AMOLED is superb for films and dark rooms. If you read for hours, a good LCD with adjusted warmth is equally comfortable.</p>
+<h2>Battery and charging</h2>
+<p>From 5,100mAh on the A11 to 8,400 on the S11, with charging at 15 to 45W. The charger is not in the box for most. A 45W PD charger with PPS suits the FE and S11. With an old phone charger they take all night.</p>
+<h2>Wi-Fi or LTE/5G?</h2>
+<p>Cellular versions cost Rs 5,000 to 15,000 more. They are useful in the field or in a vehicle. They need MDMS registration. For home and campus, Wi-Fi is enough.</p>
+<h2>Memory and storage</h2>
+<p>Avoid 4GB unless for a child. Most Galaxy Tabs have a microSD slot, a real advantage over iPads: films and PDFs can live on a Rs 1,500 card.</p>
+<h2>Service and warranty</h2>
+<p>Samsung's service network covers tablets. Screens are expensive, up to half the price on cheap models. Official units have a Nepali warranty that you can see in Samsung Members. Imports exist, mostly Indian, with Indian warranty.</p>
+<h2>Used Galaxy Tabs</h2>
+<p>A Tab S7, S8 or S9 series in good condition with its pen is a fine purchase at Rs 45,000 to 80,000. AMOLED panels on the Plus and Ultra can show burn-in, so check with a grey image. Confirm that the pen writes in every corner and that the battery lasts. Make sure no Samsung or Google account remains.</p>
+<h2>Samsung, Apple or Xiaomi?</h2>
+<p><strong>Apple</strong> has better tablet apps, especially Procreate, and the longest life. <strong>Xiaomi</strong> has better screens and speed for the money, with pens sold separately. <strong>Samsung</strong> has the pen in the box, DeX, microSD and service. For study, Samsung. For drawing as a career, Apple. For films and games on a budget, Xiaomi.</p>
+<h2>When to buy</h2>
+<p>Galaxy Tabs are discounted at Dashain and during back-to-school offers, often with a free cover. The S series falls when a new one is near. Education discounts exist through Samsung's channels from time to time.</p>
+<h2>Our shortlist</h2>
+<ul>
+<li><strong>Child:</strong> Tab A11.</li>
+<li><strong>Family:</strong> Tab A11+ on offer.</li>
+<li><strong>Student:</strong> Tab S10 FE.</li>
+<li><strong>Creative and DeX:</strong> Tab S11.</li>
+</ul>
+<h2>First-day settings</h2>
+<ol>
+<li>Update One UI.</li>
+<li>Turn on battery protection if it stays on a stand.</li>
+<li>Set up Samsung Kids or Family Link if shared.</li>
+<li>Insert a microSD card and set it for downloads.</li>
+<li>Pin your note app to the pen's Air command.</li>
+</ol>
+<h2>In summary</h2>
+<p>If you will write by hand, buy the S10 FE and stop looking. If you will not, compare the A11+ with the Xiaomi Pad 7, and choose between service and screen. The complete field is in our <a href="/guides/best-tablets-nepal">tablet guide</a>.</p>
+
+=== xiaomi-tablet-price-in-nepal
+<h2>Four tablets, four budgets</h2>
+[[models:redmi-pad-2-9-7,redmi-pad-2,xiaomi-pad-7,xiaomi-pad-8]]
+<h2>Short range, strong range</h2>
+<p>Xiaomi sells only four tablets in Nepal in our listing, and each of them is the one to beat at its price. That makes advice easy. The questions are how much speed you need, whether you will write with a pen, and whether you can tolerate tidying up the software on the first evening.</p>
+<h2>Redmi Pad 2 9.7</h2>
+<p>At Rs 25,999 the <a href="/products/redmi-pad-2-9-7">smaller Redmi Pad</a> has a 120Hz screen and is light enough to hold in one hand. It has 4GB of memory, so it does one thing at a time. For children, reading in bed and recipes it is ideal. For classes with a document beside the video, choose the larger one.</p>
+<h2>Redmi Pad 2 (11-inch)</h2>
+<p>At Rs 29,999 the <a href="/products/redmi-pad-2">Redmi Pad 2</a> has a 2.5K screen, four speakers and a 9,000mAh battery. It is the most sensible family tablet in the country. Take 6GB or 8GB. The chip is adequate and the charging is slow at 18W. For video, lessons and web pages it is a pleasure.</p>
+<h2>Xiaomi Pad 7</h2>
+<p>At Rs 44,999 the <a href="/products/xiaomi-pad-7">Pad 7</a> changes class: 3.2K at 144Hz, 800 nits, a fast Snapdragon 7+ Gen 3 and a shape suited to documents. With Xiaomi's pen it is an excellent note tablet, and with the keyboard a light work machine. It leads our <a href="/guides/best-tablets-under-50000-nepal">tablets under Rs 50,000</a>.</p>
+<h2>Xiaomi Pad 8</h2>
+<p>At Rs 59,999 the <a href="/products/xiaomi-pad-8">Pad 8</a> has a Snapdragon 8s Gen 4, close to flagship speed, with 9,200mAh. The screen is similar to the Pad 7's. If you play demanding games or edit video, it is worth it. If you read and write, the Pad 7 is the same experience for Rs 15,000 less, enough for the pen and keyboard.</p>
+<h2>Pen and keyboard: check stock first</h2>
+<p>Xiaomi's pens and keyboards are sold separately and arrive in smaller quantities than the tablets. Each generation may use its own. Ask to see both before paying for the tablet, and ask the price. A tablet bought for handwriting without an available pen is a sad sight. Generic capacitive pens are no substitute, since they have no palm rejection.</p>
+<h2>HyperOS on a tablet</h2>
+<p>Multitasking is good: split screen, floating windows and a desktop-like mode on newer models. With a Xiaomi phone you can share clipboard, calls and files. On the first day, remove extra apps, turn off recommendations and stop promotional notifications. Updates cover a few Android versions and several years of patches on the Pad series, less on Redmi. Samsung and Apple last longer.</p>
+<h2>Screens and reading</h2>
+<p>All four use LCDs, which are comfortable for long reading with the paper mode turned on. The 3:2 shape of the Pad 7 and 8 shows more of a page than the wider Redmi. If you mainly watch films, the wider screen leaves thinner black bars.</p>
+<h2>Film quality</h2>
+<p>Widevine L1 is needed for HD on Netflix and similar services. Xiaomi's recent tablets have it, but check with the DRM Info app on the unit you are buying, since imported versions may differ.</p>
+<h2>Games</h2>
+<p>The Redmi Pads handle casual games and light shooters. The Pad 7 runs PUBG Mobile at high frame rates. The Pad 8 runs nearly everything. A large screen gives your thumbs room and makes a tablet heavy after an hour, so use a stand with a controller.</p>
+<h2>Cameras and calls</h2>
+<p>Front cameras on the long edge suit video lessons. Image quality is fine in light. Microphones are good enough for class. Nobody should choose a tablet for its rear camera. Use it for scanning documents.</p>
+<h2>Battery and charging</h2>
+<p>Expect a full day of study from all, two from the Redmi Pad 2 in light use. The Pad 7 and 8 charge at 45W. Check whether the charger is in the box. Use a matching PD charger otherwise.</p>
+<h2>Connectivity</h2>
+<p>Most are Wi-Fi only here. USB-C on the Redmi models is slow and without video output. Pad models have faster ports and may support a display, so check the sheet if you plan to connect a monitor.</p>
+<h2>Service</h2>
+<p>Xiaomi's service centres handle tablets. Screen parts can take time, and they cost a large part of a Redmi Pad's price. A case that covers corners is essential. Indian and Chinese units are in the market. The Chinese ones have software without global services and are poor choices for most people.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Child:</strong> Redmi Pad 2 9.7 with a foam case.</li>
+<li><strong>Family and lessons:</strong> Redmi Pad 2, 6GB or more.</li>
+<li><strong>University student:</strong> Pad 7 with pen.</li>
+<li><strong>Gamer or editor:</strong> Pad 8.</li>
+</ul>
+<h2>Who should look elsewhere</h2>
+<ul>
+<li>Daily handwriters who want the pen included: Galaxy Tab S10 FE.</li>
+<li>Artists: iPad Air.</li>
+<li>People who want seven years of updates: Samsung or Apple.</li>
+<li>Those who need LTE: OnePlus Pad Lite LTE or a Samsung cellular model.</li>
+</ul>
+<h2>Setting up for study</h2>
+<ol>
+<li>Install your PDF and note app, for example OneNote, Xodo or Xiaomi's own.</li>
+<li>Set split-screen pairs for lecture and notes.</li>
+<li>Turn on paper mode after sunset.</li>
+<li>Limit social apps with focus mode.</li>
+<li>Back up notes to a cloud folder.</li>
+</ol>
+<h2>Setting up for a child</h2>
+<ol>
+<li>Create a child Google account in Family Link.</li>
+<li>Approve apps one by one.</li>
+<li>Set hours and a bedtime.</li>
+<li>Use YouTube Kids.</li>
+<li>Remove the browser from the home screen.</li>
+</ol>
+<h2>Prices and timing</h2>
+<p>Redmi Pads have moved up with memory costs, and the version with 4GB that used to sell for less has become rarer. Discounts appear at brand days and Dashain. The Pad 7 may fall as the Pad 8 becomes common, and below Rs 42,000 it is a bargain.</p>
+<h2>Xiaomi against the others at the same price</h2>
+<p><strong>Honor:</strong> larger batteries, weaker screens, with the Pad V9 a good rival to the Pad 8. <strong>OnePlus:</strong> cleaner software, the Pad Go 2 has a bigger screen. <strong>Samsung:</strong> longer support, pens included higher up. <strong>Blackview and Infinix:</strong> cheaper and less refined.</p>
+<h2>Verdict</h2>
+<p>Choose the Redmi Pad 2 if you lean back and the Pad 7 if you lean forward. The other two are for a child and for a power user. That is the whole range, and none of them is a mistake, which is rare praise.</p>
+
+=== honor-tablet-price-in-nepal
+<h2>Honor's tablets</h2>
+[[models:honor-pad-x7,honor-pad-x9a,honor-pad-x8b,honor-pad-v9]]
+<h2>Big batteries, slim bodies</h2>
+<p>Honor's tablets follow its phones: they are light for their size, they last a long time, and the cheaper ones use older chips. There are three for watching and reading, and one that is seriously fast. None includes a pen, and support is shorter than Samsung's. Within those limits they are good value.</p>
+<h2>Pad X7: small and cheap</h2>
+<p>At Rs 21,999 the <a href="/products/honor-pad-x7">Pad X7</a> has an 8.7-inch screen, 4GB and a large 7,020mAh battery for its size. It is a child's tablet or a reader, and it competes with the Galaxy Tab A11. The Honor lasts longer, the Samsung has Samsung Kids and longer support. For a child, we lean to the Samsung. For an adult who reads on buses, to the Honor.</p>
+<h2>Pad X9a: the one with the nice screen</h2>
+<p>At Rs 25,999 the <a href="/products/honor-pad-x9a">X9a</a> has an 11.5-inch 120Hz screen, a Snapdragon 685, up to 8GB and 35W charging. It is our favourite of the cheap ones. It costs Rs 4,000 less than the Redmi Pad 2 and has a slightly bigger, smoother screen with more memory in the top version. The Redmi's resolution is higher and its speakers better. Look at both.</p>
+<h2>Pad X8b: the marathon runner</h2>
+<p>A 10,100mAh battery at Rs 29,999. The Snapdragon 680 inside is from 2021, and the base version has 4GB. Buy it if hours away from a socket are the reason, and take 8GB. Otherwise the X9a is cheaper and quicker.</p>
+<h2>Pad V9: the grown-up</h2>
+<p>At Rs 69,999 the <a href="/products/honor-pad-v9">Pad V9</a> has a Dimensity 8350 Elite, a 144Hz 11.5-inch screen and 10,100mAh in a thin metal body. It is fast enough for anything on Android and lasts for days of study. It competes with the Xiaomi Pad 8 at Rs 59,999, which has a similar chip for less, and the Galaxy Tab S10 FE at Rs 74,999, with a pen, water resistance and seven years of updates. If you need battery above all, choose the Honor. If you write, choose the Samsung.</p>
+<h2>Which chip does what</h2>
+<p>The Snapdragon 680 and 685 are for video, reading, light browsing and simple games. Two apps at once are possible with patience. The Dimensity 8350 is for everything. There is nothing between them in the range, and that gap is where the Xiaomi Pad 7 at Rs 44,999 sits, unchallenged by Honor.</p>
+<h2>MagicOS on a tablet</h2>
+<p>Split screen, floating windows and a side panel for dragging content work well. If you also use an Honor phone, you can share files, mirror the phone and use the tablet as a second screen for some laptops. A handful of extra apps can be removed. Updates: expect one or two Android versions on the X models, more on the V9. Ask.</p>
+<h2>Pens and keyboards</h2>
+<p>The V9 supports Honor's active pen and a keyboard, sold separately and in small quantities here. Confirm that both are available. The X models work with basic capacitive pens only. For handwriting on a budget there is no good Honor option.</p>
+<h2>Eye comfort</h2>
+<p>Honor pays attention to flicker and blue light. Its reading mode with a paper-like texture and the hardware low blue light certification on several models are pleasant for long evenings. Warmth and brightness adjust automatically.</p>
+<h2>Speakers and films</h2>
+<p>Most have four speakers, two on the Pad X7. Check Widevine L1 for HD streaming with the DRM Info app. On older imported units it may be L3.</p>
+<h2>Battery life in hours</h2>
+<p>Local video at medium brightness runs for about ten hours on the X7, twelve or so on the X9a and around fifteen on the X8b and V9. Charging is slow on the X7 at 10W, so leave it overnight. The others charge at 22 to 35W.</p>
+<h2>For online classes</h2>
+<p>The X9a with 8GB is comfortable with Zoom or Meet and a PDF beside it. Prop it on a stand at eye level, sit facing a window and use earphones with a microphone. The front camera sits on the side that suits landscape on newer models. Check.</p>
+<h2>For children</h2>
+<p>Honor has a Kids mode, and Google Family Link works. Get a thick case. Prefer 6GB or more, since children open everything. Avoid giving a child the only device with your wallet or bank app on it.</p>
+<h2>Service</h2>
+<p>Honor service is available in Kathmandu and some cities. Tablet screens may have to be ordered. Ask about time and price. Official units have a distributor's sticker. Tablets with a SIM need MDMS registration, Wi-Fi ones do not.</p>
+<h2>Who should buy an Honor tablet</h2>
+<ul>
+<li><strong>Reader or film lover with Rs 26,000:</strong> Pad X9a.</li>
+<li><strong>Traveller:</strong> Pad X8b, 8GB.</li>
+<li><strong>Power user who wants endurance:</strong> Pad V9.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Students who write by hand.</li>
+<li>People who want updates until 2032.</li>
+<li>Buyers without service nearby.</li>
+</ul>
+<h2>Comparisons that matter</h2>
+<p><strong>X9a or Redmi Pad 2?</strong> Honor for smoothness and price. Redmi for sharpness and speakers.</p>
+<p><strong>X8b or OnePlus Pad Lite?</strong> OnePlus for cleaner software and the LTE option. Honor for battery.</p>
+<p><strong>V9 or Xiaomi Pad 8?</strong> Xiaomi for price, Honor for battery and slimness.</p>
+<p><strong>V9 or Tab S10 FE?</strong> Samsung for pen, water and support.</p>
+<h2>Bargaining</h2>
+<p>Honor dealers often add a case, earbuds or a keyboard. Ask for the case at least. Tablets are slow sellers outside of school admission season, so prices are flexible.</p>
+<h2>Care</h2>
+<ul>
+<li>Store at half charge if unused for weeks.</li>
+<li>Use the charger supplied.</li>
+<li>Protect the corners.</li>
+<li>Restart weekly.</li>
+<li>Keep 15 per cent of storage free.</li>
+</ul>
+<h2>Verdict</h2>
+<p>The Pad X9a is a quiet bargain for reading and watching. The Pad V9 is a fine tablet in a hard neighbourhood. The other two are for particular needs. Compare all of them with our picks for <a href="/guides/best-tablets-under-30000-nepal">under Rs 30,000</a> and the wider <a href="/guides/best-tablets-nepal">tablet guide</a>.</p>
+
+=== blackview-tablet-price-in-nepal
+<h2>Representative models</h2>
+[[models:blackview-link-1-kids-wifi,blackview-tab-50-kids,blackview-tab-90,blackview-active-5,blackview-tab-60-pro,blackview-mega-2-wifi,blackview-mega-8,blackview-mega-12-5g]]
+<h2>Thirty tablets and one question</h2>
+<p>Blackview has more tablets on sale here than any other brand, with names that differ by a digit or the word Kids. Most use a small set of basic chips and LCD screens at 60Hz. The question to ask of each is simple: what is it better at than a Redmi Pad 2 or Galaxy Tab A11 at the same price? For the children's, rugged and very large models there is an answer. For the rest there usually is not.</p>
+<h2>Kids tablets: when they make sense</h2>
+<p>From Rs 12,000 the Kids models come with a foam case, a handle and a child interface already installed. The hardware is slow, with Rockchip or Allwinner processors, 3 to 4GB and dim screens. For a child of three to seven who watches downloaded cartoons and plays simple learning games, that is enough, and a fall costs you less. For a school-age child who needs Zoom, a browser and YouTube to work smoothly, they are frustrating. A Galaxy Tab A11 in a Rs 1,000 foam case is a better investment.</p>
+<p>If you do buy one, choose 4GB over 3GB, an 8-inch or larger screen, and a model with a recent Android version. Set up Google Family Link as well, as the built-in child mode is not a substitute.</p>
+<h2>Standard tablets</h2>
+<p>The <a href="/products/blackview-tab-90">Tab 90</a> and <a href="/products/blackview-tab-60-pro">Tab 60 Pro</a> at Rs 23,000 to 28,000 use the Unisoc T606. They have LTE in many versions, which is the argument in their favour: a tablet with a SIM slot and calls at this price is rare. For a salesperson or a family without fibre, that matters. For anyone with Wi-Fi, the Honor Pad X9a and Redmi Pad 2 have better screens.</p>
+<h2>Active: rugged tablets</h2>
+<p>The <a href="/products/blackview-active-5">Active 5</a> and its relatives are built for work sites, with sealed bodies and thick edges. Surveyors, engineers, warehouse staff and clinics in the field are the buyers. Ordinary tablets in a rugged case are an alternative, though a sealed port and a hand strap are worth a lot in mud. Check the IP rating, the brightness outdoors and whether your company's app runs on 6GB and a T615.</p>
+<h2>Mega: very large screens</h2>
+<p>The Mega series offers 12 to 13 inches from about Rs 32,000. The <a href="/products/blackview-mega-8">Mega 8</a> at Rs 39,000 has a 13-inch screen, 12GB and an 11,000mAh battery. As a kitchen television, a music stand for scores, a sign in a shop or a screen for elderly eyes, size beats everything. The chips are basic, and the resolution is modest for the size. Do not buy it as a laptop.</p>
+<p>The <a href="/products/blackview-mega-12-5g">Mega 12 5G</a> at Rs 59,999 is the exception: a Dimensity 7200, 120Hz and 55W charging. It is a proper tablet. At that price the Xiaomi Pad 8 is faster and better supported, without the larger screen or 5G.</p>
+<h2>Real and claimed memory</h2>
+<p>Boxes say 24GB or 36GB of RAM. That is real memory plus storage borrowed as memory. Count only the real part. Look at the specification on our product pages, or in Settings, About tablet. Storage is usually eMMC, so apps open slowly.</p>
+<h2>Screens</h2>
+<p>Many are 1280 x 800 on 10-inch panels, with brightness around 320 to 400 nits. Text is a little soft. Full HD+ models such as the Tab 90 are better. Look at a newspaper PDF in Devanagari before buying.</p>
+<h2>Streaming quality</h2>
+<p>Widevine level varies. Some models are L1, many are L3, which limits Netflix to about 480p. YouTube is unaffected. Ask the seller to open DRM Info.</p>
+<h2>Software and updates</h2>
+<p>DokeOS is simple, based on recent Android. Expect few or no version updates. Do not use such a tablet for banking. Keep apps updated, and use it on a guest Wi-Fi network if it belongs to a child.</p>
+<h2>Battery and charging</h2>
+<p>Capacities are decent, from 5,000 to 11,000mAh. Charging at 10 to 18W is slow: three to six hours. Leave it overnight. Kids tablets come back empty every evening, so fix a place and time for charging.</p>
+<h2>Accessories</h2>
+<p>Some bundles include a keyboard, pen, case and earphones. The keyboards are small, and the pens are capacitive. Treat them as free extras and not as reasons to buy.</p>
+<h2>Service and warranty</h2>
+<p>Ask the dealer for the distributor and the service address. Tablets of this kind are cheaper to replace than repair, so the replacement policy in the first months matters most. Cellular models must be registered in MDMS. <a href="/guides/how-to-check-phone-is-official-in-nepal">Here is how to check</a>.</p>
+<h2>Best uses by person</h2>
+<ul>
+<li><strong>Toddler:</strong> Link 1 Kids or Tab 50 Kids.</li>
+<li><strong>Field worker:</strong> Active 5.</li>
+<li><strong>Shop sign or kitchen screen:</strong> Mega 2 or Mega 8.</li>
+<li><strong>Salesperson who needs a SIM:</strong> Tab 60 Pro LTE.</li>
+</ul>
+<h2>Better choices for common needs</h2>
+<ul>
+<li><strong>School student:</strong> <a href="/products/redmi-pad-2">Redmi Pad 2</a>.</li>
+<li><strong>Reading and films:</strong> <a href="/products/honor-pad-x9a">Honor Pad X9a</a>.</li>
+<li><strong>Safe child tablet:</strong> <a href="/products/samsung-galaxy-tab-a11">Galaxy Tab A11</a>.</li>
+<li><strong>Notes by hand:</strong> <a href="/products/samsung-galaxy-tab-s10-fe">Galaxy Tab S10 FE</a>.</li>
+</ul>
+<h2>Testing in the shop</h2>
+<ol>
+<li>Open three apps and switch between them.</li>
+<li>Play a YouTube video at 1080p.</li>
+<li>Turn brightness to maximum and walk to the door.</li>
+<li>Join a test call with the front camera.</li>
+<li>Check memory, storage and Android version in Settings.</li>
+<li>Press every edge of the screen.</li>
+</ol>
+<h2>Bargaining</h2>
+<p>Margins are comfortable. A tablet marked Rs 22,999 can often be had for Rs 20,000 with a case. Compare with online listings of the exact model name and memory.</p>
+<h2>Verdict</h2>
+<p>Blackview's tablets are like a hardware shop: full of things you do not need, and one or two that solve your exact problem. If that problem is a toddler, a building site or a very large cheap screen, you are in the right place. If it is study, reading or work, see <a href="/guides/best-tablets-under-30000-nepal">tablets under Rs 30,000</a> first.</p>
+
+=== samsung-smartwatch-price-in-nepal
+<h2>Galaxy Watches and the Fit</h2>
+[[models:galaxy-fit-3,samsung-galaxy-watch-fe,samsung-galaxy-watch-7,samsung-galaxy-watch-8,samsung-galaxy-watch9,samsung-galaxy-watch8-classic,samsung-galaxy-watch-ultra-2]]
+<h2>First question: do you own an Android phone?</h2>
+<p>Galaxy Watches do not work with iPhones. They work with any recent Android phone, and best with a Samsung. Some health functions, such as ECG and blood pressure where available, need the Samsung Health Monitor app, which officially supports Galaxy phones only. If you own a Xiaomi or OnePlus, you get most of the watch. If you own a Galaxy, you get all of it.</p>
+<h2>Fit 3: the modest one</h2>
+<p>The <a href="/products/galaxy-fit-3">Galaxy Fit 3</a> at Rs 7,999 is a band with a wide AMOLED, up to 13 days of battery and fall detection. It is not a smartwatch: no apps, no replies, no GPS of its own. For steps, sleep, notifications and an elder's safety, it is the best small purchase in Samsung's catalogue.</p>
+<h2>Watch FE: the cheapest real Galaxy Watch</h2>
+<p>At Rs 21,999 the <a href="/products/samsung-galaxy-watch-fe">Watch FE</a> runs Wear OS with apps, replies, GPS and Samsung's sensors. It uses older hardware with a 40mm size and a battery that lasts a day and a half at best. For someone who wants to try a smartwatch with a Samsung phone, it is enough.</p>
+<h2>Watch 7: the value choice</h2>
+<p>The <a href="/products/samsung-galaxy-watch-7">Watch 7</a> at about Rs 28,500 has a newer, more efficient chip, dual-band GPS and better sensors. It is the Galaxy Watch we would buy today. Listings also show the older Watch 6 at Rs 44,999, a good example of why you should compare before paying: the newer watch is cheaper.</p>
+<h2>Watch 8 and Watch 9</h2>
+<p>The 8 introduced a thinner cushion shape and a brighter screen. The <a href="/products/samsung-galaxy-watch9">Watch 9</a> moves to a new chip and improves battery, as our <a href="/reviews/samsung-galaxy-watch9-review-nepal">review</a> explains. At Rs 62,000 to 66,500 they cost more than double the Watch 7, with a modest difference in daily use. Buy the 9 if you keep a watch for four years or more.</p>
+<h2>Classic: the rotating ring</h2>
+<p>Scrolling with a physical bezel is a pleasure that touch cannot match. The <a href="/products/samsung-galaxy-watch8-classic">Watch 8 Classic</a> at about Rs 83,000 brings it back in steel. If you love the ring, nothing else will do. If you have never used one, you will not miss it.</p>
+<h2>Ultra</h2>
+<p>The <a href="/products/samsung-galaxy-watch-ultra-2">Watch Ultra 2</a> at about Rs 1,23,500 is for mountains and long races, with titanium, strong GPS and around five days of battery by Samsung's figures. Trekkers should compare it with Garmin and Amazfit watches that last for weeks and cost less.</p>
+<h2>What works in Nepal</h2>
+<p><strong>Works:</strong> notifications and replies, calls, GPS, sleep coaching, heart rate, body composition, music, maps with the phone, fall detection.</p>
+<p><strong>Depends:</strong> ECG and blood pressure, on region and phone. Blood pressure needs calibration with a cuff every month and is not a medical replacement. Ask the seller to show it working.</p>
+<p><strong>Limited:</strong> Samsung Wallet payments, LTE versions without operator support, some Galaxy AI features.</p>
+<h2>Battery: the honest figure</h2>
+<p>Plan to charge every day or every other day for all models except the Ultra and Fit. With always-on display, GPS for an hour and sleep tracking, most reach about 24 to 30 hours. A quick charge while you shower keeps it going. If charging daily sounds unbearable, look at Huawei or Amazfit.</p>
+<h2>Size</h2>
+<p>40mm suits wrists under 165mm, 44mm suits most others. Watch 8 and 9 have a cushion case that looks larger than its number. Try it with your sleeve. Straps on newer models use a quick system that does not accept standard pins, so accessories must match.</p>
+<h2>Sleep, heart and body composition</h2>
+<p>Samsung's sleep coaching is friendly and useful over a month. Heart rate is good at rest and in steady exercise. Body composition gives a trend, and numbers vary with hydration. Use it in the morning, always at the same time.</p>
+<h2>LTE or Bluetooth?</h2>
+<p>LTE watches need an operator that supports a shared number on eSIM. That is not generally available in Nepal at present. Do not pay extra for LTE unless your operator confirms it in writing.</p>
+<h2>Official and imported watches</h2>
+<p>Samsung's Nepali warranty can be checked in Samsung Members or Galaxy Wearable. Indian and Gulf units are common and have no local cover. Older models such as the Watch 4 and 5 appear new in boxes: their batteries have aged, and their updates are ending.</p>
+<h2>Used Galaxy Watches</h2>
+<p>Check the battery after a full charge, the screen for burn-in from always-on faces, the crystal for scratches, the buttons, and that no account is locked to it. Reset and pair it yourself. A used Watch 6 or 7 at half price is sensible.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Elder or first band:</strong> Fit 3.</li>
+<li><strong>Trying a smartwatch:</strong> Watch FE.</li>
+<li><strong>Most Samsung owners:</strong> Watch 7.</li>
+<li><strong>Long-term:</strong> Watch 9.</li>
+<li><strong>Ring lovers:</strong> Classic.</li>
+<li><strong>Outdoors with a Samsung:</strong> Ultra 2.</li>
+</ul>
+<h2>Alternatives</h2>
+<p>With another Android, or if battery matters, look at the <a href="/products/huawei-watch-gt-6">Huawei Watch GT 6</a> or <a href="/products/cmf-watch-3-pro">CMF Watch 3 Pro</a>. With an iPhone, look at Apple. Our <a href="/guides/best-smartwatches-under-30000-nepal">watches under Rs 30,000</a> cover the cheaper choices.</p>
+<h2>Setting up well</h2>
+<ol>
+<li>Update the watch and the Galaxy Wearable plug-in.</li>
+<li>Choose five apps that may notify you.</li>
+<li>Set emergency contacts and fall detection.</li>
+<li>Turn off always-on display if battery disappoints.</li>
+<li>Enter your body data and wear it snugly for the first week.</li>
+</ol>
+<h2>When to buy</h2>
+<p>Samsung's new watches arrive in summer, with the previous ones falling over the following months. Bundles with phones during pre-orders often give a watch at half price. Dashain offers apply as well. The Watch 7's present price is already the result of such a fall.</p>
+<h2>Verdict</h2>
+<p>For a Samsung owner who wants replies and apps, the Watch 7 is the sweet spot by a wide margin. For everyone who wants only tracking, the Fit 3 does it for a quarter of the money. The rest of the range is for people with a particular love.</p>
+
+=== xiaomi-smartwatch-price-in-nepal
+<h2>Watches in the range</h2>
+[[models:redmi-watch-5-active,redmi-watch-6-active,redmi-watch-6-lite,redmi-watch-6,xiaomi-watch-s5]]
+<h2>A ladder with clear steps</h2>
+<p>Xiaomi's five watches climb from Rs 4,499 to Rs 39,999, and each step adds something you can name. Step one is a screen on the wrist. Step two is AMOLED and GPS. Step three is size and style. Step four is refinement. The last is steel and long battery. That clarity is rare, and it makes it easy to stop at the right place.</p>
+<h2>Redmi Watch 5 Active</h2>
+<p>For Rs 4,499, notifications, calls, steps and sleep with up to 18 days of battery. An LCD and no GPS. It is our pick <a href="/guides/best-smartwatches-under-5000-nepal">under Rs 5,000</a>, for a first watch or a teenager.</p>
+<h2>Redmi Watch 6 Active</h2>
+<p>At Rs 10,999 you get AMOLED and built-in GPS, the two features that turn a toy into a tool. If you walk, run or cycle, this is the best value in the range and perhaps in the country.</p>
+<h2>Redmi Watch 6 Lite</h2>
+<p>At Rs 14,999 it has a slightly larger screen and a nicer frame. Functions are the same. Buy it for looks.</p>
+<h2>Redmi Watch 6</h2>
+<p>At Rs 20,499 the <a href="/products/redmi-watch-6">Watch 6</a> has the largest and brightest AMOLED of the family, at 2.07 inches, up to 24 days of light use and better materials. For people who read messages on the wrist, the size is a pleasure. Compare it with the Huawei Watch Fit 4 at Rs 22,990, which has more refined sports tracking.</p>
+<h2>Xiaomi Watch S5</h2>
+<p>At Rs 39,999 the <a href="/products/xiaomi-watch-s5">Watch S5</a> looks like a proper round watch, with interchangeable bezels and up to three weeks of battery. The Huawei Watch GT 6 at Rs 34,490 is its main rival and has the better reputation for sensors. Choose the Xiaomi if you use a Xiaomi phone and like the design.</p>
+<h2>HyperOS and Mi Fitness</h2>
+<p>These watches run a light system, not Wear OS. You cannot install WhatsApp or Google Maps on them. You read notifications, send quick replies on Android, control music, see weather and use a small set of apps. In exchange the battery lasts for weeks. The Mi Fitness app works on Android and iPhone, syncs with Strava, Apple Health and Google's Health Connect, and shows no drama.</p>
+<h2>With a Xiaomi phone</h2>
+<p>You get a few extras: unlock the phone nearby, remote camera, control of smart home devices and quicker pairing. They are pleasant and not essential. With other phones everything important works.</p>
+<h2>GPS and accuracy</h2>
+<p>On open roads the tracks are clean. In narrow streets they wander. Heart rate is dependable at rest and in steady walking, weaker in intervals. If you train by heart rate zones, use a chest strap that connects to your phone app. SpO2 and stress are indications only.</p>
+<h2>Sleep</h2>
+<p>Durations are close to reality, stages are estimates. The useful part is regularity: the app shows how your bedtime drifts through the week. Wear the watch a little looser at night.</p>
+<h2>Calls</h2>
+<p>Bluetooth calling is clear indoors. Keep the phone within ten metres. In a noisy street, use the phone.</p>
+<h2>Water</h2>
+<p>5ATM on most models allows swimming in a pool. Rinse after. Avoid hot showers, soap and saunas. The 5 Active has a lower rating, so check the box.</p>
+<h2>Straps and size</h2>
+<p>Redmi Watches use a proprietary quick-release on some models and standard pins on others. Spare straps are cheap online. The rectangular watches are big, so try them on a thin wrist. The S5 accepts standard 22mm straps.</p>
+<h2>Nepali and notifications</h2>
+<p>Devanagari shows correctly in notifications on current firmware. Long messages are cut. Emojis may be missing. Allow Mi Fitness to run in the background on your phone, disable battery limits for it, and lock it in recent apps. That fixes the usual complaint that notifications stop.</p>
+<h2>Privacy</h2>
+<p>Mi Fitness stores health data on Xiaomi's servers. You choose the region when you create an account, and you can export and delete data. Give location permission only while using, unless you need weather updates.</p>
+<h2>Service and warranty</h2>
+<p>Xiaomi's service centres in Nepal handle watches, usually by replacement under warranty. One year is standard. Straps and glass scratches are not covered. Keep the bill.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>First watch, small budget:</strong> Redmi Watch 5 Active.</li>
+<li><strong>Walkers, runners, most people:</strong> Redmi Watch 6 Active.</li>
+<li><strong>Large screen:</strong> Redmi Watch 6.</li>
+<li><strong>Dress watch with a Xiaomi phone:</strong> Watch S5.</li>
+</ul>
+<h2>Who should look elsewhere</h2>
+<ul>
+<li>People who want to reply from the wrist: Galaxy Watch or Apple Watch.</li>
+<li>Serious runners: Amazfit Cheetah, Huawei GT Runner or Garmin.</li>
+<li>Trekkers with multi-day routes: Amazfit T-Rex or Garmin.</li>
+</ul>
+<h2>Xiaomi against rivals at each step</h2>
+<p><strong>Rs 5,000:</strong> better than most unknown brands thanks to the app. <strong>Rs 11,000:</strong> the CMF Watch 3 Pro at Rs 12,999 has a nicer design. <strong>Rs 20,000:</strong> Huawei Watch Fit 4 has better sport modes. <strong>Rs 40,000:</strong> Huawei GT 6 and older Galaxy Watches.</p>
+<h2>Battery figures, adjusted</h2>
+<p>Take Xiaomi's light-use number and halve it for normal life with calls, continuous heart rate and one hour of GPS a week. With always-on display, divide by four. All still last more than four days.</p>
+<h2>Price and offers</h2>
+<p>Watches are the most common free gift in Xiaomi phone bundles. If you plan to buy both, wait for a brand day. Separate prices fall by 10 to 20 per cent in festival sales.</p>
+<h2>Copies</h2>
+<p>Fake Redmi watches exist, usually sold with other names. A real one appears in Mi Fitness at once and has a serial number. If the seller asks you to install an unfamiliar app, it is not a Xiaomi.</p>
+<h2>Setting up</h2>
+<ol>
+<li>Create an account, choose region, pair.</li>
+<li>Update the firmware.</li>
+<li>Turn on continuous heart rate and sleep.</li>
+<li>Choose notifications.</li>
+<li>Connect Strava or Health Connect.</li>
+<li>Pick a simple watch face. Animated ones eat battery.</li>
+</ol>
+<h2>Verdict</h2>
+<p>The Redmi Watch 6 Active is all the watch that most people will ever need, at a price that leaves money for running shoes. Everything below it is for a first try, and everything above it is for pleasure. Compare it with other brands in <a href="/guides/best-smartwatches-under-20000-nepal">watches under Rs 20,000</a>.</p>
+
+=== huawei-smartwatch-price-in-nepal
+<h2>The range</h2>
+[[models:huawei-band-10,huawei-band-11-pro,huawei-watch-fit-4,huawei-watch-fit-5,huawei-watch-gt-6,huawei-watch-gt-5-pro,huawei-watch-gt-6-pro,huawei-watch-d2]]
+<h2>Huawei's phones left. Its watches stayed</h2>
+<p>In Nepal, Huawei is now mainly a watch and earphone brand, and a very good one. Its watches have excellent sensors, handsome bodies, bright screens and batteries that last one to three weeks. They work with Android and iPhone. What they lack is an app store of any depth, replies on iPhone, contactless payment here, and an easy installation on Android.</p>
+<h2>Installing the app on Android</h2>
+<p>The version of Huawei Health in the Play Store is outdated or missing. Scan the code in the watch's manual or visit Huawei's site, download the app and allow the installation. It takes three minutes. Update it from inside the app later. On Samsung phones, turn off Auto Blocker for that moment and back on afterwards. On iPhone, the App Store version is fine.</p>
+<h2>Bands: 10, 11, 11 Pro</h2>
+<p>The <a href="/products/huawei-band-10">Band 10</a> at Rs 7,990 is among the best cheap trackers, especially for sleep and swimming. The 11 has a larger screen. The <a href="/products/huawei-band-11-pro">Band 11 Pro</a> at Rs 14,990 adds its own GPS, so runners with slim wrists may like it. At that price, a Redmi Watch 6 Active is a full watch with GPS for less.</p>
+<h2>Watch Fit 4 and Fit 5</h2>
+<p>Rectangular, thin and light, with large AMOLED screens, GPS and barometers on newer models. The <a href="/products/huawei-watch-fit-4">Fit 4</a> at Rs 22,990 is excellent value. The <a href="/products/huawei-watch-fit-5">Fit 5</a> at Rs 27,990 is brighter and newer. The Fit 5 Pro adds sapphire and titanium with diving and trail functions. For people who find round watches bulky, the Fit line is the most comfortable smartwatch of all.</p>
+<h2>Watch GT 6: the one we recommend</h2>
+<p>At Rs 34,490 the <a href="/products/huawei-watch-gt-6">GT 6</a> offers a classic look, a 3,000-nit screen, dual-band GPS and up to 21 days in the 46mm size. <a href="/reviews/huawei-watch-gt-6-review-nepal">Our review</a> calls it the best fitness watch for the money in Nepal. The newer GT 7 at Rs 44,990 improves details. Unless it is discounted, the 6 is the better buy.</p>
+<h2>The Pro models</h2>
+<p>GT 5 Pro, GT 6 Pro and GT 7 Pro use titanium, sapphire and ceramic backs, with golf maps, diving and ECG. The <a href="/products/huawei-watch-gt-5-pro">GT 5 Pro</a> at about Rs 50,000 is the value among them. ECG availability depends on region, so ask to see it working.</p>
+<h2>Watch D2: blood pressure</h2>
+<p>The <a href="/products/huawei-watch-d2">Watch D2</a> at Rs 64,990 contains a tiny inflating cuff in the strap. It measures blood pressure in the same way as a home monitor and can take readings through the day. It is the only watch in this list that measures it properly, and Huawei has obtained medical device approvals for it in several regions. It is still no substitute for a doctor, and a Rs 4,000 arm cuff is accurate for home checks. For people advised to monitor pressure over 24 hours, it is a serious tool.</p>
+<h2>Training features</h2>
+<p>Running plans, training load, recovery time, VO2 max estimates and route import. For ordinary runners and cyclists there is more than enough. Serious athletes still prefer Garmin for its ecosystem. Huawei syncs to Strava, and to Apple Health on iPhone.</p>
+<h2>Trekking</h2>
+<p>GT models record routes, show contour maps on newer versions when downloaded, and have barometers. Battery with GPS lasts 20 to 40 hours depending on the mode. For the Annapurna Circuit, record in economy mode and carry a small power bank. The watch charger is proprietary, so do not forget it.</p>
+<h2>Sleep and health</h2>
+<p>Huawei's sleep tracking has long been among the most consistent. The TruSense sensors handle wrist movement and varied skin tones well. SpO2, stress and emotional state are indicators. Women's health tracking is good.</p>
+<h2>Notifications</h2>
+<p>Text and emojis appear well, with Devanagari supported. On Android you can send quick replies to some apps. On iPhone you cannot. Keep the Huawei Health app allowed in the background. Phones from Xiaomi, OPPO and vivo need it to be locked in recent apps.</p>
+<h2>iPhone owners</h2>
+<p>Huawei's are some of the best watches for an iPhone user who dislikes daily charging. You lose replies, Apple Pay and deep integration. You gain two weeks between charges and a round case.</p>
+<h2>Sizes</h2>
+<p>GT watches come in 41 and 46mm. The smaller are elegant and have roughly two-thirds of the battery life. Fit models are 43 to 48mm tall and slim. Try them on.</p>
+<h2>Straps</h2>
+<p>Standard 22mm on 46mm GT, 18 or 20mm on the smaller ones. Fit models use their own clips. Leather is lovely and dislikes sweat. Fluoroelastomer is better for sport.</p>
+<h2>Official units and warranty</h2>
+<p>Huawei has a distributor in Nepal, with a one-year warranty. Gulf and Chinese units exist. Chinese versions may lack languages. Check the box and the sticker.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Cheap and accurate:</strong> Band 10.</li>
+<li><strong>Light and comfortable:</strong> Watch Fit 4.</li>
+<li><strong>Best for most:</strong> Watch GT 6, 46mm.</li>
+<li><strong>Dress watch:</strong> GT 5 Pro.</li>
+<li><strong>Blood pressure:</strong> Watch D2, with a doctor's advice.</li>
+</ul>
+<h2>Who should look elsewhere</h2>
+<ul>
+<li>People who want apps and replies: Galaxy Watch, Apple Watch.</li>
+<li>Those who cannot install apps from outside the Play Store, for instance on managed work phones.</li>
+<li>Elite runners: Garmin, Coros, Amazfit Cheetah.</li>
+</ul>
+<h2>Price behaviour</h2>
+<p>Older generations stay on sale beside newer ones, and that is where bargains live. GT 5 Pro and Fit 4 fall at each launch. Bundles with FreeBuds are common.</p>
+<h2>Privacy</h2>
+<p>Health data is stored in Huawei's cloud for your region if you turn on syncing. You can use the watch with syncing off. Read the permissions and decline what you do not need.</p>
+<h2>Verdict</h2>
+<p>If you can install the app, Huawei gives you more watch for the money than anyone else between Rs 8,000 and Rs 50,000. The GT 6 is the heart of the range. The Fit 4 is its comfortable cousin. Everything else is taste. See the wider field in our <a href="/guides/smartwatch-buying-guide-nepal-2024">smartwatch guide</a>.</p>
+
+=== amazfit-smartwatch-price-in-nepal
+<h2>Models with a confirmed price</h2>
+[[models:amazfit-gtr-mini,amazfit-cheetah,amazfit-cheetah-pro,amazfit-t-rex-ultra]]
+<p>Amazfit has many more models in the world than in this table. Others, such as the Bip 5, Active and T-Rex 2, appear in shops here from time to time without a steady price. If you find one, use the notes below to judge it.</p>
+<h2>What Amazfit stands for</h2>
+<p>Long battery, honest GPS, a good app and prices below Garmin. The company behind it, Zepp Health, concentrates on tracking and leaves the phone-like features to others. If your interest is running, trekking, cycling or sleep, it deserves a place on your list. If you want to answer WhatsApp at length from your wrist, it does not.</p>
+<h2>The families</h2>
+<p><strong>Bip</strong> is cheap and simple. <strong>Active</strong> and <strong>Balance</strong> are daily watches. <strong>GTR</strong> is round and classic, <strong>GTS</strong> square. <strong>Cheetah</strong> is for runners. <strong>T-Rex</strong> and <strong>Falcon</strong> are for the outdoors. Numbers show the generation.</p>
+<h2>GTR Mini</h2>
+<p>At Rs 17,499 the <a href="/products/amazfit-gtr-mini">GTR Mini</a> is a small steel watch for slim wrists, with GPS and two weeks of battery. It is one of the few good-looking round watches for people who find 46mm absurd. The AMOLED is bright and the weight is low.</p>
+<h2>Cheetah and Cheetah Pro</h2>
+<p>Made for runners: very light, with dual-band GPS, offline maps on the Pro, a training coach and accurate tracking in cities. The <a href="/products/amazfit-cheetah">Cheetah</a> at Rs 36,999 is round or square depending on version. The <a href="/products/amazfit-cheetah-pro">Cheetah Pro</a> at Rs 49,999 adds a better screen, titanium bezel and speaker. Against a Garmin Forerunner of similar price, Amazfit gives a better display and Garmin better analysis and more dependable heart rate in intervals.</p>
+<h2>T-Rex Ultra</h2>
+<p>At Rs 69,000 the <a href="/products/amazfit-t-rex-ultra">T-Rex Ultra</a> is built for mud, cold and water, with offline maps, dual-band GPS and up to 25 days in normal use. It has a steel body and works down to very low temperatures according to Amazfit. For guides and serious trekkers it competes with Garmin's Instinct and Fenix at a lower price. It is heavy at close to 90 grams.</p>
+<h2>T-Rex 2 and 3</h2>
+<p>If a dealer offers the T-Rex 2 or the newer T-Rex 3 near Rs 28,000 to 45,000, those are the value choices for trekking. The T-Rex 3 has a brighter screen and better maps. Ask about the exact model and warranty.</p>
+<h2>Bip and Active</h2>
+<p>The Bip 5 has GPS and a big LCD for around Rs 11,000 when available. The Active has AMOLED and GPS in a light frame near Rs 20,000. Today the Redmi Watch 6 Active and CMF Watch 3 Pro compete hard with them. Amazfit's advantage is the app.</p>
+<h2>Zepp: the app</h2>
+<p>Zepp is among the better companion apps. It shows readiness, sleep quality, training load and trends clearly. It syncs with Strava, Google's Health Connect, Apple Health and others. Zepp Coach creates training plans without a fee on many models, and some deeper insights are sold as a subscription. You can ignore the subscription.</p>
+<h2>Zepp OS on the watch</h2>
+<p>There is a small store of mini apps and watch faces. Notifications work on Android and iPhone. Quick replies exist on Android. Zepp Flow, a voice assistant, works on newer models with an internet connection. Music storage and Bluetooth calling are on several.</p>
+<h2>GPS in the hills</h2>
+<p>Dual-band models hold a line under trees and in valleys. Update the satellite data in the app before a trek. With the highest accuracy, battery falls to 20 to 40 hours of recording depending on model. In endurance mode it can stretch to several days. For Everest Base Camp, record each day separately and charge every third or fourth night.</p>
+<h2>Offline maps</h2>
+<p>On Cheetah Pro, T-Rex Ultra and newer watches you can download map tiles and import GPX routes. Prepare at home on Wi-Fi. A watch map is a guide and not a substitute for a paper map and local advice.</p>
+<h2>Heart rate and health</h2>
+<p>Good at rest and steady pace. Cold hands at altitude reduce accuracy for all optical sensors, so wear the watch over a thin sleeve or use a chest strap. SpO2 readings at altitude are indicative. Use a fingertip oximeter for decisions, and descend if you feel unwell, whatever the watch says.</p>
+<h2>Durability</h2>
+<p>T-Rex models pass a range of military tests and resist 10ATM. GTR and Cheetah are 5ATM. Glass varies. Buttons on T-Rex are excellent with gloves.</p>
+<h2>Service in Nepal</h2>
+<p>Amazfit is sold through distributors, with warranty usually handled by replacement. Ask for one year in writing. Some shops sell Indian or Chinese units, with Chinese-language boxes. Check the region in the app.</p>
+<h2>Used Amazfits</h2>
+<p>Battery wear is slow, so a used T-Rex can be good. Check that it can be unpaired from the previous account. Look for scratches, test GPS outside and press every button.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Small wrist, daily wear:</strong> GTR Mini.</li>
+<li><strong>Runner:</strong> Cheetah, or Pro if maps matter.</li>
+<li><strong>Trekker or guide:</strong> T-Rex 3 if found, T-Rex Ultra for extremes.</li>
+<li><strong>Budget GPS:</strong> Bip 5 or Redmi Watch 6 Active.</li>
+</ul>
+<h2>Compared with rivals</h2>
+<p><strong>Huawei:</strong> better sensors and style, harder app installation, fewer rugged choices. <strong>Garmin:</strong> best analysis and support for athletes, costlier. <strong>Xiaomi:</strong> cheaper, simpler. <strong>Samsung and Apple:</strong> smarter and charged daily.</p>
+<h2>Setting up</h2>
+<ol>
+<li>Install Zepp and update the firmware.</li>
+<li>Download satellite data and, if supported, maps.</li>
+<li>Choose sports you use and hide the rest.</li>
+<li>Connect Strava.</li>
+<li>Set sleep mode and raise-to-wake hours.</li>
+</ol>
+<h2>When to buy</h2>
+<p>Prices fall when a new number arrives, and older Amazfits are often discounted heavily online. Stock in Nepal is uneven. If a model you want appears at a fair price with a warranty, take it, as it may not be there next month.</p>
+<h2>Verdict</h2>
+<p>Amazfit is for people who move. The GTR Mini is a lovely small watch, the Cheetah line suits runners, and T-Rex is the trekking choice for those who cannot justify a Garmin. For the general field, start with our <a href="/guides/smartwatch-buying-guide-nepal-2024">smartwatch buying guide</a>.</p>
+
+=== boat-smartwatch-price-in-nepal
+<h2>The watches</h2>
+[[models:boat-wave-fury,boat-wave-call-3,boat-wave-sigma-3,boat-storm-call-3-plus,boat-enigma-oreon,boat-ultima-regal,boat-enigma-radiant,boat-ultima-ember]]
+<h2>Who boAt is for</h2>
+<p>boAt is an Indian brand that sells style at a low price. Its watches look good in a photo, take calls, show messages and cost Rs 3,000 to 7,000. They are fashion accessories with sensors, and judged that way many are fine. Judged as fitness instruments they are weak. Knowing which you want saves disappointment.</p>
+<h2>How the names work</h2>
+<p><strong>Wave</strong> and <strong>Storm</strong> are the cheap rectangular lines. <strong>Enigma</strong> is round and dressy. <strong>Ultima</strong> has AMOLED and a better finish. "Call" means Bluetooth calling. Models change every few months, so shops hold a mixture of new and old.</p>
+<h2>Rs 3,000 to 3,500: Wave and Storm</h2>
+<p>The <a href="/products/boat-wave-call-3">Wave Call 3</a> is the best balanced, with up to ten days of battery in normal use. The <a href="/products/boat-wave-sigma-3">Wave Sigma 3</a> has a larger screen, the Storm Call 3 Plus and Astra 3 are variations, and the <a href="/products/boat-wave-fury">Wave Fury</a> is the cheapest with about five days. Screens are LCD: good indoors, poor in the sun.</p>
+<p>Before choosing, consider adding Rs 1,000 for a <a href="/products/redmi-watch-5-active">Redmi Watch 5 Active</a>, which has a better app, longer battery and steadier tracking.</p>
+<h2>Rs 5,700 to 6,800: Enigma and Ultima</h2>
+<p>The <a href="/products/boat-ultima-regal">Ultima Regal</a> has a 2-inch AMOLED and a metal look. The <a href="/products/boat-ultima-ember">Ultima Ember</a> is similar. The <a href="/products/boat-enigma-radiant">Enigma Radiant</a> is round with AMOLED, and the <a href="/products/boat-enigma-oreon">Oreon</a> is the dressy one. They photograph beautifully. At this price the Samsung Galaxy Fit 3, Huawei Band 10 and Honor Watch X5i track better and last longer. So buy an Ultima or Enigma because you like how it looks on your wrist.</p>
+<h2>Accuracy</h2>
+<p>Steps are approximate. Heart rate at rest is acceptable, and during exercise it drifts. Sleep duration is fair. SpO2 and stress are for amusement. None has GPS of its own. No boAt watch measures blood pressure in a way you should act on.</p>
+<h2>Calling</h2>
+<p>Bluetooth calling works through your phone. The speaker is small, the microphone is good enough indoors. It is the most used feature by many owners: in the kitchen, on a motorbike stop, in a shop. Pair both the watch and its audio connection. If calls come to the watch when you do not want them, turn off the audio pairing in the phone's Bluetooth settings.</p>
+<h2>Apps</h2>
+<p>boAt Crest and other companion apps handle different models. They ask for many permissions and show promotions. Allow notifications, phone and Bluetooth. Deny contacts and location unless you use the related function. Keep the app allowed in the background, or messages stop arriving.</p>
+<h2>Notifications in Nepali</h2>
+<p>Some models show Devanagari properly, others show boxes. Send yourself a message in Nepali in the shop before paying. Firmware updates sometimes fix it.</p>
+<h2>Battery</h2>
+<p>Divide the claim by two if you use calling. A week on the better ones, two or three days on the smaller batteries with AMOLED always-on. They charge by a magnetic cable in under two hours. The cable is not standard, so look after it.</p>
+<h2>Water</h2>
+<p>IP67 or IP68 means sweat, rain and hand washing. Not swimming, and not hot water.</p>
+<h2>Straps</h2>
+<p>Mostly standard 22mm pins, which is good. A Rs 500 strap changes the character of the watch. Skin reactions come from trapped sweat: wash and dry the strap often.</p>
+<h2>Warranty in Nepal</h2>
+<p>boAt has a distributor here, and the warranty is commonly one year, handled by replacement or repair at the dealer. Indian units are common at the border with no local cover. Ask for a stamped card and test the watch fully within the first week.</p>
+<h2>Copies and lookalikes</h2>
+<p>Cheap watches with Apple-like designs and no brand are sold beside boAt for Rs 1,500. Their apps are from unknown developers, their readings are random, and they can drain your phone's battery. A known brand for Rs 3,000 is worth the difference.</p>
+<h2>Who should buy one</h2>
+<ul>
+<li>Teenagers who want a stylish first watch.</li>
+<li>People who mainly want calls and messages on the wrist.</li>
+<li>Anyone buying a gift under Rs 4,000.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Runners and cyclists. Get GPS.</li>
+<li>People who care about sleep and heart data.</li>
+<li>iPhone owners who want a smooth experience.</li>
+</ul>
+<h2>Better alternatives by price</h2>
+<p><strong>Rs 4,500:</strong> Redmi Watch 5 Active. <strong>Rs 7,000:</strong> MWC Aether One Watch Pro with GPS, if you trust the warranty. <strong>Rs 8,000:</strong> Galaxy Fit 3 or Huawei Band 10. <strong>Rs 9,000:</strong> Honor Watch X5i. <strong>Rs 11,000:</strong> Redmi Watch 6 Active.</p>
+<h2>How to get the best from a boAt watch</h2>
+<ol>
+<li>Update firmware first.</li>
+<li>Choose a simple watch face.</li>
+<li>Limit notifications to calls and two or three apps.</li>
+<li>Turn off continuous SpO2.</li>
+<li>Charge on a fixed day each week.</li>
+</ol>
+<h2>What breaks</h2>
+<p>The charging pins corrode from sweat, the strap pins loosen, and the screen scratches. Wipe the back after exercise, use a thin protector, and do not sleep on a charging watch. Two years is a fair life.</p>
+<h2>Price and bargains</h2>
+<p>List prices are high and discounts constant. A watch marked Rs 6,999 and sold at Rs 3,199 was never really Rs 6,999. Judge the final price against the alternatives above. Online sales of boAt products can be 20 per cent lower than shops.</p>
+<h2>Final advice</h2>
+<p>Buy a Wave Call 3 if your budget is around Rs 3,000 and style and calls are the point. Buy an Ultima if you love the look. If you catch yourself comparing sensors, you are in the wrong aisle. Walk over to our <a href="/guides/best-smartwatches-under-10000-nepal">watches under Rs 10,000</a>.</p>

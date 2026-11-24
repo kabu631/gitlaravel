@@ -46,7 +46,7 @@
         </div>
 
         <div class="font-semibold text-lg sm:text-xl text-fg mt-1">
-          Rs. {{ Number(node.value).toLocaleString('en-NP') }}
+          Rs {{ Number(node.value).toLocaleString('en-IN') }}
         </div>
 
         <p class="text-2xs text-fg-subtle mt-2 leading-tight">

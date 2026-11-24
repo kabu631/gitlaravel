@@ -32,7 +32,7 @@ function chip(v) {
 function screen(v) {
   if (!real(v)) return null
   // "6.9-inch AMOLED main screen + 2.9-inch rear display": only the main screen counts.
-  const s = String(v).split('+')[0]
+  const s = String(v).split(/\s\+\s/)[0]
   const size = s.match(/(\d{1,2}(?:\.\d{1,2})?)\s*(?:-?\s*inch(?:es)?\b|["”″])/i)
   if (!size) return null
   const panel = s.match(/\b(LTPO OLED|Mini[- ]?LED|AMOLED|OLED|IPS|VA|TN|LCD)\b/i)
@@ -179,7 +179,7 @@ export function listHighlights(gadgets) {
   if (mah && mah.v >= 1000) out.push({ label: 'Biggest battery', figure: `${mah.v.toLocaleString('en-US')} mAh`, gadget: mah.g })
   else if (wh) out.push({ label: 'Biggest battery', figure: `${wh.v} Wh`, gadget: wh.g })
 
-  const hz = best(g => num(String(g.specs?.display || '').split('+')[0], /(\d{2,3})\s*Hz/i))
+  const hz = best(g => num(String(g.specs?.display || '').split(/\s\+\s/)[0], /(\d{2,3})\s*Hz/i))
   if (hz && hz.v > 60) out.push({ label: 'Fastest screen', figure: `${hz.v}Hz`, gadget: hz.g })
 
   const ram = best(g => num(g.specs?.ram, /(\d+)\s*GB/i))

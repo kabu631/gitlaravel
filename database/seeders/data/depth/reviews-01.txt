@@ -1,0 +1,350 @@
+=== samsung-galaxy-s24-review-snapdragon-8-gen-3-flagship-value replace
+<p><em>How we rated it:</em> We have not run our own lab test of the Galaxy S24. This review is based on Samsung's specifications, what is known about the phone after almost three years on sale, and how it compares with phones you can buy in Nepal today.</p>
+<p>The Galaxy S24 came out in January 2024 as the small, sensible member of Samsung's flagship family. It is no longer sold new through official channels in Nepal, so most people reading this in late 2026 are looking at a used or leftover unit and asking one question: is it still worth having, or should the money go to a new mid-range phone? The short answer is that it has aged well, with one clear weakness that you need to plan around.</p>
+<h2>Which S24 are you looking at?</h2>
+<p>Before anything else, find out which chip is inside. Samsung sold the S24 with its own Exynos 2400 in most of the world and with the Snapdragon 8 Gen 3 for Galaxy in the United States, South Korea and China. Units sold officially in Nepal belong to the Exynos group. Units brought in from America by relatives, or through grey-market shops, may have the Snapdragon.</p>
+<p>In daily use the gap is smaller than forum arguments suggest. Messaging, photos, maps, YouTube and banking apps feel the same on both. The Snapdragon holds its speed longer in heavy games and uses a little less power while doing it. If you play Genshin Impact or PUBG for an hour at a time, it is worth paying slightly more for that version. If you do not, buy whichever unit is in better condition. You can check in Settings under About phone, where the model number ends in B for the international version and U or U1 for the American one.</p>
+<h2>Size is the reason to buy it</h2>
+<p>Very few good phones are this small any more. The S24 has a 6.2-inch screen and weighs 167 grams, which means you can reach most of the display with one thumb and forget it is in a shirt pocket. Compare that with the 6.8 and 6.9-inch phones that fill shop counters on New Road. If you ride a scooter, hold your phone on crowded buses, or simply have smaller hands, this matters every single day in a way that a faster chip does not.</p>
+<p>The screen is also excellent. It is a Dynamic AMOLED panel that runs between 1Hz and 120Hz and reaches 2,600 nits at its peak, so maps stay readable in direct sun. Resolution is Full HD+, which at this size looks perfectly sharp.</p>
+[[specs:samsung-galaxy-s24]]
+<h2>Cameras: still better than most mid-rangers</h2>
+<p>The camera set is a 50MP main sensor, a 12MP ultra wide and a 10MP telephoto with 3x optical zoom. That telephoto is the quiet advantage over a new phone at a similar used price. Mid-range phones usually replace the zoom lens with a 2MP macro camera that nobody uses. On the S24 you can photograph a child on a school stage, a temple detail or a distant peak without the picture turning to mush, as long as there is reasonable light.</p>
+<p>Samsung's processing leans towards bright faces and vivid skies. Some people like that, others find it heavy. Night mode works well on the main camera and noticeably less well on the other two. Video goes up to 8K, but 4K at 60 frames per second is the setting worth using because files stay manageable and all the stabilisation works.</p>
+<p>The selfie camera is 12MP with autofocus, which helps with group shots taken at arm's length.</p>
+<h2>The battery is the catch</h2>
+<p>There is no polite way around it. The S24 has a 4,000mAh battery in a year when budget phones carry 6,000mAh and some mid-rangers reach 10,000mAh. Modern screens and a slim body make the most of it, but if you are out from morning college until evening tuition with mobile data on, expect to look for a charger before bed. On 5G the drain is faster still.</p>
+<p>Charging tops out at 25W by cable. It also supports wireless charging and can charge earbuds from its back, both rare in the price range where used units now sit. Samsung did not put a charger in the box, so check whether a seller is including one, and use a USB Power Delivery charger that supports PPS to get the full speed.</p>
+<p>There is a second issue with any phone from early 2024: the battery inside has been through a few hundred charge cycles. Lithium cells lose capacity with every cycle. A used S24 with eighty-five per cent of its original capacity behaves like a 3,400mAh phone. Include the price of a battery replacement at a Samsung service centre in your budget, and treat a unit that already has a new genuine battery as worth more.</p>
+<h2>Software support is its best long-term feature</h2>
+<p>Samsung promised seven years of Android upgrades and security patches for the S24 family, which takes it to 2031. Almost no mid-range phone on sale in Nepal today can match that. It launched with Android 14 and One UI 6.1 and has been updated since. For someone who keeps a phone until it breaks, that promise counts for more than the processor.</p>
+<p>The Galaxy AI tools that were the headline in 2024 still work: Circle to Search for identifying something on the screen, call and text translation, and generative photo edits. Language support varies, and Nepali is not covered by every feature, so do not buy the phone for translation without trying it first.</p>
+<h2>What to check on a used unit</h2>
+<ul>
+<li><strong>MDMS registration.</strong> Dial *#06#, note the IMEI and check it on the NTA portal before you hand over money. An unregistered phone can lose network access.</li>
+<li><strong>Screen.</strong> Open a plain white and a plain grey image at low brightness. Look for green tint, faint keyboard outlines or dark patches along the edges.</li>
+<li><strong>Accounts.</strong> The previous owner must remove their Google and Samsung accounts in front of you, otherwise the phone locks after a reset.</li>
+<li><strong>Water seals.</strong> The S24 is rated IP68 from the factory. A phone that has been opened for repair no longer has that protection.</li>
+<li><strong>Knox.</strong> In the service menu or in Settings, confirm that Knox has not been tripped. If it has, banking features and Samsung Wallet may be blocked.</li>
+</ul>
+<h2>What else the money buys</h2>
+<p>A new phone such as the <a href="/products/samsung-galaxy-a57-5g">Galaxy A57 5G</a> gives you a fresh battery, a full warranty and a bigger screen, but loses the telephoto lens, the compact size and the wireless charging. A <a href="/products/samsung-galaxy-s25">Galaxy S25</a>, where you can find one, keeps the size and adds a faster chip. If you want the newest small Samsung, look at the <a href="/products/samsung-galaxy-s26">Galaxy S26</a>, and expect to pay properly for it.</p>
+<p>Our rule of thumb: an S24 in clean condition, with registration and a healthy battery, is a better buy than a new phone at the same price for anyone who cares about size, zoom and long updates. It is a worse buy for gamers and for people who are away from a socket all day.</p>
+<h2>Verdict</h2>
+<p>The Galaxy S24 was never the most exciting phone of its year, and that has helped it. It does nearly everything well, it fits in a hand, and it will still be receiving updates when many newer phones have been forgotten. Buy it for the size, the zoom lens and the support. Keep a power bank in your bag and you will get along fine.</p>
+
+=== iphone-15-pro-review-titanium-action-button-and-usb-c-finally replace
+<p><em>How we rated it:</em> We have not run our own lab test of the iPhone 15 Pro. This review uses Apple's specifications, what is known about the phone three years after launch, and current prices in Nepal.</p>
+<p>When the iPhone 15 Pro arrived in September 2023 it changed three things that iPhone owners touch every day: the metal around the edge, the switch on the side and the port at the bottom. Three years on, with the iPhone 18 Pro in shops, it has become a popular second-hand choice and still appears in some listings at around Rs 1,49,999. That price deserves a hard look, because newer phones now sit very close to it.</p>
+<h2>The changes that still matter</h2>
+<p>Apple replaced the steel frame of the 14 Pro with titanium. The result is a 187 gram phone that feels noticeably lighter than the one before it. The edges are gently rounded, so it is more comfortable to hold for a long call. The brushed finish hides small scratches, although the darker colours show marks from a coin or a key if you carry the phone without a case.</p>
+<p>The mute switch became the Action button. You can leave it as a silent toggle or make it open the camera, the torch, a voice memo or any shortcut you build. It sounds trivial until you set it to something you use ten times a day.</p>
+<p>The third change is the one everyone in the house will notice. USB-C means one cable for the phone, a laptop, an Android tablet and a power bank. On the Pro models the port also runs at USB 3 speeds of up to 10 gigabits per second, but only if you buy a suitable cable. The one in the box is limited to slower USB 2 transfers. For anyone who shoots long videos, that cable is a worthwhile purchase, because moving 100GB over the slow one takes the better part of an hour.</p>
+[[specs:iphone-15-pro]]
+<h2>Performance has not become a problem</h2>
+<p>The A17 Pro was the first phone chip built on a 3nm process. Paired with 8GB of memory it still opens apps instantly, exports 4K video quickly and runs demanding games. It is also the oldest iPhone chip that supports Apple Intelligence, which matters if you want the writing tools, notification summaries and the newer Siri. The ordinary iPhone 15, despite looking similar, does not get those features because it has less memory and an older chip. If you are choosing between a used 15 and a used 15 Pro, that is the strongest argument for the Pro.</p>
+<p>Heat was the main complaint at launch. Early software let the phone get uncomfortably warm during setup and heavy use, and Apple changed the behaviour with an update within weeks. It remains a compact phone with no fan, so long gaming sessions in a Terai summer will still make it dim the screen and slow down.</p>
+<h2>Cameras, including one common mistake</h2>
+<p>The back has a 48MP main camera, a 12MP ultra wide that doubles as a macro lens, and a 12MP telephoto with 3x zoom. Please note the number. The 5x periscope-style lens belongs to the larger iPhone 15 Pro Max only. Listings and older articles, including an earlier version of this page, often mix the two up. If long zoom is what you want, the small Pro is the wrong phone.</p>
+<p>What it does have is consistency. Photos match each other as you move between lenses, skin tones stay natural, and the main camera saves 24MP images by default with good detail. Portraits can be created after the fact from normal photos of people and pets. Video is still the reason many wedding and event shooters in Nepal use iPhones as second cameras: 4K at 60 frames per second looks steady and clean, and ProRes with Log recording gives editors room to work. You can even record ProRes straight to an external SSD through the USB-C port.</p>
+<h2>Battery life is average, and age makes it worse</h2>
+<p>The cell holds 3,274mAh. When new, that meant a normal day for moderate use and an evening top-up for heavy use. A phone that has been used since 2023 will have lost some of that. On any used unit, open Settings, then Battery, then Battery Health, and read the maximum capacity figure and the cycle count. The 15 series was the first to show cycles clearly. Below eighty per cent, plan for a replacement, and remember that a cheap unofficial battery will show a warning message that puts off the next buyer too.</p>
+<p>Charging takes roughly half an hour to reach the halfway mark with a 20W or stronger USB-C charger. MagSafe wireless charging works at up to 15W, and a setting lets you stop at eighty per cent to slow the ageing of the battery.</p>
+<h2>Is Rs 1,49,999 fair in late 2026?</h2>
+<p>For a new, sealed unit with a warranty, it is difficult to recommend. At almost the same money you will find phones that are two years younger.</p>
+[[rivals:iphone-15-pro]]
+<p>The <a href="/products/iphone-17">iPhone 17</a> is the comparison that hurts. For a small step up it brings a 120Hz screen to the standard model, a newer chip, a longer period of software updates ahead of it and a battery that starts at full health. You give up the telephoto lens and the titanium. Most buyers should make that trade. On the Android side, the <a href="/products/samsung-galaxy-s26">Galaxy S26</a> offers a similar compact size with seven years of updates from 2026.</p>
+<p>A used 15 Pro is a different story. Prices in the second-hand market depend on storage, battery health and whether the box is present, so compare several sellers. If one is clearly cheaper than everything else, ask why before you ask how much.</p>
+<h2>Buying one safely in Nepal</h2>
+<p>Match the IMEI on the screen, the SIM tray area and the box. Check MDMS registration. Ask the owner to sign out of iCloud and turn off Find My while you watch, then start the phone from the Hello screen yourself. Test Face ID, all three lenses, both speakers, the microphones by recording a voice memo, and wireless charging. In Settings under General, About, look at Parts and Service History: it tells you whether the battery, screen or camera has been replaced, and whether the part was genuine. American units have no physical SIM tray and use eSIM only, so make sure your Nepali operator can set that up for you before you buy.</p>
+<h2>Who should buy it</h2>
+<ul>
+<li><strong>Good fit:</strong> someone who wants a small, light iPhone with Apple Intelligence and a zoom lens, and has found a clean used unit at a sensible price.</li>
+<li><strong>Good fit:</strong> video creators who need ProRes and fast USB-C without paying for the newest Pro.</li>
+<li><strong>Poor fit:</strong> anyone buying new at the old price, when the iPhone 17 is within reach.</li>
+<li><strong>Poor fit:</strong> heavy users who are away from a charger all day. Look at a Pro Max or a large Android phone.</li>
+</ul>
+<h2>Verdict</h2>
+<p>The iPhone 15 Pro was a turning point and it remains a lovely object: light, quick and good at video. Its problem in 2026 is the price tag, not the phone. Used and healthy, it is one of the better compact iPhones to own. New at Rs 1,49,999, spend a little more on something current.</p>
+
+=== sony-wf-1000xm5-review-still-the-best-noise-cancelling-earbuds replace
+<p><em>How we rated it:</em> We have not run our own sound test of the WF-1000XM5. This review draws on Sony's specifications, what is known about the earbuds after three years on sale, and current prices in Nepal.</p>
+<p>Sony's WF-1000XM5 set the standard for small noise-cancelling earbuds when they launched, and they are still on sale in Nepal at around Rs 50,000. The catch is that Sony has since released the <a href="/products/sony-wf-1000xm6">WF-1000XM6</a>, and Apple has the <a href="/products/airpods-pro-3">AirPods Pro 3</a> at Rs 47,999. So the question is no longer whether the XM5 are good. They are. It is whether they make sense at this price today.</p>
+<h2>What changed from the older model</h2>
+<p>If you remember the XM4, you remember a chunky bud that some ears could not tolerate for long. The XM5 are about a quarter smaller. Each one weighs 5.9 grams, and the case is 39 grams, light enough for a jeans pocket. The shell is smooth and rounded, which looks elegant and makes them a little slippery when you lift them out of the case with cold fingers.</p>
+<p>Sony packs four sizes of foam-filled tips in the box, from extra small to large. This matters more than any feature in the app. Foam expands in the ear canal and blocks noise physically, before the electronics do any work. Spend ten minutes trying all four, and use the fit test in Sony's app. A poor seal ruins both the bass and the noise cancelling, and many unhappy reviews come down to the wrong tip.</p>
+<h2>Noise cancelling in Nepali conditions</h2>
+<p>Noise cancelling is strongest against steady, low sounds: the drone of a bus engine on the Prithvi Highway, a generator outside a shop, a ceiling fan, the cabin of a domestic flight. The XM5 use two processors and three microphones on each bud to deal with those, and they do it very well. Sharp, irregular sounds are harder for any earbud. Horns at Kalanki and a colleague's laugh will be softened, not erased.</p>
+<p>An ambient mode lets outside sound in when you need it, and you can set how much. There is also a feature that pauses music when you start speaking. It is clever, and it also triggers when you sing along or cough, so most people end up switching it off.</p>
+<p>One safety note: do not ride or drive with noise cancelling on. Cutting out traffic noise on a two-wheeler is dangerous, and the ambient mode is not a substitute for open ears.</p>
+[[specs:sony-wf-1000xm5]]
+<h2>Sound and the LDAC question</h2>
+<p>Out of the box the tuning is warm, with full bass and smooth treble. Vocals in Nepali folk and pop tracks sit comfortably in front. If you prefer more sparkle, the equaliser in the app is easy to use and the result is stored on the buds themselves.</p>
+<p>LDAC is Sony's high-quality Bluetooth codec, and it only works with Android phones that support it. With an iPhone, the connection uses AAC. That does not make the XM5 a bad choice for iPhone owners, but it removes one of the reasons to pay extra for them. LDAC also drains the battery faster and can stutter in places with heavy wireless interference, so leave it on the automatic setting and let the buds decide.</p>
+<p>Be realistic about your source. Songs streamed at a low-quality setting to save mobile data will not sound any better through a Rs 50,000 earbud. Set your music app to high quality on Wi-Fi and download albums before a trip.</p>
+<h2>Calls and everyday use</h2>
+<p>Call quality is good for earbuds of this size, thanks to a sensor that picks up the vibration of your voice through bone. In a quiet office or at home you will be heard clearly. In strong wind, or on a footpath next to traffic, the person at the other end will know you are outside.</p>
+<p>The XM5 can stay connected to two devices at once, for example a laptop for a meeting and a phone for calls. Touch controls can be changed in the app. They are rated IPX4, which means sweat and light rain are fine, while a swim or a downpour in Asar is not. The case itself has no water rating.</p>
+<h2>Battery and charging</h2>
+<p>Sony quotes eight hours of music with noise cancelling on and another sixteen hours from the case, for twenty-four in total. Three minutes of charging gives about an hour of listening, which is useful when you find them empty just before leaving home. Charging is by USB-C or by any Qi wireless pad. An older version of this page said the case could not charge wirelessly; that was wrong.</p>
+<p>Like all earbuds, the tiny batteries wear out. After two to three years of daily use expect noticeably shorter life, and keep in mind that replacing the cells is rarely economical. If you are offered a used pair, ask when they were bought and listen for one side dying before the other.</p>
+<h2>How the price looks now</h2>
+<p>At Rs 50,000 these cost more than the AirPods Pro 3 and about Rs 15,000 less than Sony's newer WF-1000XM6. They also cost several times as much as good mid-range earbuds.</p>
+[[rivals:sony-wf-1000xm5]]
+<p>If you use an iPhone, the AirPods Pro 3 connect more smoothly, switch between Apple devices and include features that Sony cannot offer on iOS. If you use Android and want the best Sony makes, compare the price of the XM6 on the same day, because shops discount the older model only when stock is moving. If you simply want quiet on a bus, look at earbuds between Rs 8,000 and Rs 20,000. Our guide to <a href="/guides/best-earbuds-under-20000-nepal">earbuds under Rs 20,000</a> lists models that give you most of the silence for a fraction of the money.</p>
+<h2>Avoiding fakes</h2>
+<p>Sony earbuds are copied often, and some copies even trigger the pairing pop-up. Buy from a seller who gives a bill and a warranty card. Pair the buds with the official Sony app before paying: a genuine pair is recognised by name, shows the firmware version and offers updates. Check the spelling on the box, the serial number on the case against the one on the packaging, and be suspicious of a price that is half of everyone else's.</p>
+<h2>Who should buy the XM5</h2>
+<ul>
+<li><strong>Buy them</strong> if you use Android, fly or commute often, and find them discounted well below Rs 50,000.</li>
+<li><strong>Buy them</strong> if the bulkier XM4 hurt your ears and you want Sony's sound in a smaller body.</li>
+<li><strong>Skip them</strong> if you use an iPhone and want simplicity.</li>
+<li><strong>Skip them</strong> if you need earbuds mainly for running. An open or hooked design will stay in place better.</li>
+</ul>
+<h2>Verdict</h2>
+<p>The WF-1000XM5 are comfortable, quiet and still sound excellent, and nothing about their age makes them feel old in use. They are just no longer the automatic choice at full price. Wait for a discount, compare them with the XM6 and the AirPods Pro 3 on the same afternoon, and let the fit in your own ear make the final decision.</p>
+
+=== xiaomi-14-review-leica-cameras-at-a-smarter-price replace
+<p><em>How we rated it:</em> We have not run our own lab test of the Xiaomi 14. This review is based on Xiaomi's specifications, what is known about the phone since its 2024 release, and the phones it competes with in Nepal now.</p>
+<p>The Xiaomi 14 was the phone that made people take Xiaomi seriously as a camera brand: a small flagship with three 50MP cameras tuned with Leica, a top Qualcomm chip and charging that embarrassed Samsung and Apple. It is discontinued now, so in Nepal you will meet it as a used phone or as an imported unit. Here is how it holds up, and the traps to avoid.</p>
+<h2>A small flagship without the usual compromises</h2>
+<p>Compact phones normally pay for their size with a weak battery. The Xiaomi 14 does not. Inside a body with a 6.36-inch screen and a weight of 193 grams there is a 4,610mAh cell, more than the Galaxy S24 and the iPhone 15 Pro managed in the same period. It charges at 90W with the right adapter, which fills an empty phone in a little over half an hour. Wireless charging runs at 50W on a compatible stand, and it can pass 10W to earbuds or another phone.</p>
+<p>The frame is flat, the edges of the screen are flat, and the camera block is a large square that makes the phone rock on a table. A case solves that. The panel is a 120Hz AMOLED that peaks at 3,000 nits, bright enough for midday in Pokhara, and it can drop its refresh rate very low to save power on still pages.</p>
+[[specs:xiaomi-14]]
+<h2>What the Leica name means in practice</h2>
+<p>There are two ways of seeing the cameras. Technically, you get a 50MP main camera with a large Light Fusion 900 sensor, a 50MP ultra wide and a 50MP telephoto with roughly 3.2x zoom. It is rare for all three to have the same resolution, and it means picture quality does not collapse when you change lenses.</p>
+<p>In practice, the important part is the choice of two looks. Leica Vibrant is closer to what most phones do: brighter shadows, stronger colour. Leica Authentic keeps contrast and lets shadows stay dark, so photos of a Bhaktapur courtyard or a foggy morning feel more like pictures from a camera than from a phone. If you are used to Samsung's processing it can look gloomy for a week, and then going back is difficult.</p>
+<p>The telephoto can focus as close as ten centimetres, which turns it into a surprisingly good lens for food, jewellery and flowers. Portraits at that focal length have a natural shape, without the stretched noses that wide lenses produce. Low light is a strength of the main camera and only acceptable on the other two. Video is good but not at iPhone level for smooth panning and steady focus.</p>
+<h2>Speed is still not an issue</h2>
+<p>The Snapdragon 8 Gen 3 with fast LPDDR5X memory and UFS 4.0 storage remains quicker than almost every mid-range chip sold today. Games run at high settings, and 12GB of memory keeps plenty of apps open. A small body warms up faster than a large one, so an hour of PUBG at maximum settings will make the top half hot to the touch and bring the frame rate down a step.</p>
+<h2>Global version or China version: check before you pay</h2>
+<p>This is the single most important thing about buying a Xiaomi 14 in Nepal. Two versions exist. The global version comes with Google services, international 4G and 5G bands, and IP68 protection against water and dust. The China version is cheaper, and many units entered Nepal that way. It may arrive with a Chinese system, with Google apps added afterwards by a shop, and with different network bands.</p>
+<p>Problems with a China unit include missing notifications until you change battery settings, banking apps that refuse to run on modified software, and no Android Auto. Never buy one on which a shop has installed an unofficial global ROM: the bootloader is usually unlocked or relocked badly, and an update can leave you with a dead phone. Look at the MIUI or HyperOS version in About phone. Global builds contain the letters MI after the version number, while Chinese builds contain CN.</p>
+<p>Xiaomi promised four Android upgrades and five years of security patches for the global 14. Service and parts in Nepal depend on the official distributor, and an imported unit may be refused warranty work, so ask at the service centre before you buy.</p>
+<h2>Living with HyperOS</h2>
+<p>The software is fast and full of options, and it also has more built-in apps and suggestions than a Pixel or an iPhone. Spend fifteen minutes after setup: remove the apps you do not need, turn off recommendations inside the file manager and security apps, and allow the apps that matter, such as WhatsApp, Viber and your bank, to run in the background. After that it stays out of your way.</p>
+<h2>Where it stands against phones you can buy today</h2>
+<p>The natural replacement inside the same family is the standard Xiaomi 17, with a newer chip and a bigger battery at a higher price. At the top is the <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a>, which is really a camera that makes calls. If your budget is closer to a used Xiaomi 14, the new <a href="/products/poco-f7">POCO F7</a> is faster on paper and has a huge battery, and the <a href="/products/nothing-phone-4a">Nothing Phone 4a</a> has a periscope zoom lens. Neither is as small, and neither has three matched cameras or wireless charging.</p>
+<p>So the choice is simple to describe. Pay for a new phone if you want a warranty, a fresh battery and a long run of updates. Choose a used Xiaomi 14 if compact size and photography matter more to you than those things and you are willing to inspect the phone carefully.</p>
+<h2>Inspection list for a used unit</h2>
+<ul>
+<li>Confirm the global model and IMEI, then check MDMS registration.</li>
+<li>Take a photo with each of the three lenses at night. Look for haze, which means a damaged lens cover or moisture.</li>
+<li>Plug in a charger and see whether the phone reports 90W or HyperCharge. Very slow charging can mean a damaged port or a replaced battery.</li>
+<li>Read the battery cycle count and health if the software version shows it.</li>
+<li>Check the screen for green lines, a fault that appears on many AMOLED phones after an update or a fall.</li>
+<li>Make sure Mi Account is signed out. A locked account cannot be removed by a local shop.</li>
+</ul>
+<h2>Verdict</h2>
+<p>The Xiaomi 14 is one of the best small phones of its generation, and its cameras have more character than most phones at twice its used price. Its risks come from how it is sold here, not from the hardware. Find a registered global unit in good health and you will enjoy it. If the seller cannot show you which version it is, walk away.</p>
+
+=== iphone-18-pro-max-review-nepal
+<h2>Full specifications</h2>
+[[specs:iphone-18-pro-max]]
+<h2>The screen, and why the coating matters more than the nits</h2>
+<p>Phone makers like to argue about peak brightness, and 3,000 nits is a big number. What makes the difference on a bright afternoon at Ratna Park is how much of the sky the glass throws back at your eyes. The anti-reflective coating on the 18 Pro Max reduces that mirror effect, so dark apps, maps and videos stay readable without pushing the panel to its limit. That in turn saves battery, because the screen does not have to fight the sun.</p>
+<p>There is a practical consequence. A cheap tempered glass protector covers the coating and cancels it. If you always use a screen guard, look for one that has its own anti-reflective layer, or you will have paid for a feature you never see.</p>
+<p>At 6.9 inches with a resolution of 1320 by 2868 and a variable 120Hz refresh rate, it is a comfortable size for reading PDFs, editing photos and watching football. It is too large for one hand. Try holding the phone in a shop for a full five minutes, not five seconds, because 249 grams only announces itself over time.</p>
+<h2>Cameras: what three 48MP sensors change</h2>
+<p>Earlier Pro models had one excellent camera and two good ones. Giving all three rear cameras a 48MP sensor means the ultra wide and the telephoto can now save detailed images as well, and cropping a photo later does less damage. The main camera has a variable aperture, which physically opens to let in light and closes to bring more of the scene into focus. It is useful for group photos, where a wide aperture often leaves the person at the edge slightly soft, and for documents and food shot from close range.</p>
+<p>The 5x periscope is the lens that justifies the Max. Think of a graduation at Tribhuvan University, where you are standing thirty metres from the stage, or rhinos on the far bank of the Rapti. A 4x lens on the smaller Pro will get you most of the way, and cropping from 48MP closes some of the gap, so be honest about how often you need it.</p>
+<p>The 24MP front camera gives more room to crop selfies and video calls. Creators who film themselves will find that more useful than any rear zoom.</p>
+<h2>Performance and heat</h2>
+<p>A 2nm chip is smaller and more efficient than the 3nm parts before it. For ordinary apps you will not feel a difference from an iPhone 17 Pro. Where it helps is in sustained work: long 4K recording, exporting a project in the field, games with ray-traced lighting, and the on-device parts of Apple Intelligence. The 12GB of memory helps with the last of those. If your heaviest task is Instagram, none of this is a reason to upgrade.</p>
+<h2>Charging at last</h2>
+<p>iPhones have charged slowly for years, and 50W by cable is a real change. You need a USB Power Delivery charger that can supply that power, and Apple does not include one in the box, so add it to your budget. MagSafe at 25W is enough for a desk or a car mount. Reverse charging at 4.5W by cable is meant for earbuds or a watch, not for rescuing a friend's phone.</p>
+<p>Apple does not publish battery capacity in the way Android brands do, so compare the hours of video playback it quotes and, better, ask someone who has owned the phone for a month. Any claim about an exact mAh figure usually comes from teardown reports.</p>
+<h2>What it costs to own for four years</h2>
+<p>The price on the sticker is only the start. Take the 256GB model at Rs 2,79,900. Add a charger, a case and a protector, roughly Rs 10,000 if you avoid counterfeits. Add AppleCare-style cover or put money aside for a screen, because an out-of-warranty screen on a Pro Max is one of the most expensive repairs in the phone business. Then subtract the resale value. iPhones hold their price better than almost any Android phone in Nepal, which is a large part of why people accept the higher entry cost.</p>
+<p>You can see the effect by looking at what a three-year-old Pro Max sells for and comparing it with an Android flagship of the same age. Our <a href="/tech-lab#resale">resale value tool</a> gives a rough estimate. If you change phones every two years, the gap in running cost between this and a Galaxy S26 Ultra becomes smaller than the Rs 54,900 difference at the counter. If you keep a phone for six years, resale matters less and the cheaper phone wins.</p>
+<h2>Official unit, EMI and grey imports</h2>
+<p>Buy from a seller who gives a VAT bill and official warranty. Grey units from Dubai, Hong Kong or the United States can look attractive, but they come with their own problems: American models use eSIM only, some regional models have different bands, and any phone brought in has to be registered in MDMS with the duty paid. Use our <a href="/tech-lab">customs calculator</a> to work out the real cost before you decide that an imported phone is cheaper.</p>
+<p>At this price many buyers use EMI. Ask three questions: is there a processing fee, is the price on EMI the same as the cash price, and what happens if you want to close the loan early? A zero per cent plan on a higher sticker price is not zero per cent.</p>
+<h2>How it compares at around this price</h2>
+[[rivals:iphone-18-pro-max]]
+<p>Foldables now live in the same bracket. The <a href="/products/samsung-galaxy-z-fold-7">Galaxy Z Fold 7</a> and <a href="/products/honor-magic-v5">Honor Magic V5</a> give you a small tablet that folds into a phone, which is a bigger change to daily life than a better zoom. They also have softer inner screens and more fragile hinges. If you hand your phone to children or work on building sites, a slab is the safer choice.</p>
+<p>Last year's <a href="/products/apple-iphone-17-pro-max">iPhone 17 Pro Max</a> at Rs 2,42,499 is the other obvious rival. You lose the coating, the faster charging and the newest chip, and you save over Rs 37,000. For many people that is the smarter iPhone to buy this year.</p>
+<h2>Who should buy it, and who should not</h2>
+<ul>
+<li><strong>Buy it</strong> if you shoot a lot of distant subjects or video, already own a Mac or Apple Watch, and plan to sell the phone in two or three years.</li>
+<li><strong>Buy the 18 Pro instead</strong> if you like the cameras but not the weight.</li>
+<li><strong>Buy the 17 Pro Max instead</strong> if the price feels like a stretch.</li>
+<li><strong>Look at Android</strong> if you want a built-in stylus, a bigger battery or more zoom for less.</li>
+</ul>
+
+=== samsung-galaxy-s26-ultra-review-nepal
+<h2>Full specifications</h2>
+[[specs:samsung-galaxy-s26-ultra]]
+<h2>Privacy Display explained</h2>
+<p>The feature people ask about most is the one that sounds least exciting. Privacy Display narrows the viewing angle of the screen so that someone sitting beside you sees a dark or blurred panel. You can switch it on for the whole screen, or only when particular apps or the PIN pad are open. In a microbus from Lagankhel, in a bank queue or at a shared desk, that is worth having, especially with mobile banking and eSewa on the phone.</p>
+<p>It has a cost. With the mode on, the screen is a little dimmer and colours shift if you are not looking straight at it. Leave it automatic for sensitive apps and off for video, and you will rarely notice the trade.</p>
+<h2>The camera system in plain words</h2>
+<p>Samsung uses four rear cameras, and each has a job. The 200MP main camera with an f/1.4 lens gathers a great deal of light, so indoor photos at a wedding or a puja look clean without flash. It usually combines pixels into 12MP or 50MP pictures; use the full 200MP only in strong daylight when you plan to crop or print.</p>
+<p>The 50MP ultra wide is good enough for landscapes and for close-up macro shots. The 50MP periscope with 5x zoom is the travel lens: peaks from Nagarkot, birds at Koshi Tappu, the details on a temple roof. The weak member is the 10MP 3x camera. It covers the portrait range that people use constantly, and it is the lowest-resolution sensor of the group, so portraits sometimes look softer than on rivals that put a large sensor there. In good light the phone often crops from the main camera instead, and you should let it.</p>
+<p>If portraits are your main interest, compare with the <a href="/products/vivo-x300-pro">vivo X300 Pro</a> before you buy. If you want one phone that does everything reasonably well, Samsung remains the safer answer.</p>
+<h2>S Pen: useful or decoration?</h2>
+<p>The stylus lives inside the phone and is always charged enough to write. People who use it tend to use it for small things: signing a PDF, marking up a screenshot, jotting a phone number on the locked screen, cropping a photo accurately. It no longer works as a Bluetooth remote for the camera, which Samsung removed in an earlier generation. If you never wrote on a phone before, try it for a week before telling yourself you need it.</p>
+<h2>Battery life, honestly</h2>
+<p>A 5,000mAh battery was large in 2020 and is ordinary in 2026. The efficient chip and the adaptive screen still get most people through a day, and the 60W wired charging makes a difference compared with older Ultras. But if you are comparing it with phones that carry 6,500 or 7,500mAh, you will charge the Samsung more often. Trekkers, delivery riders and people who live with load-shedding in mind should give that proper weight.</p>
+<p>Remember that the charger is sold separately. A 60W-capable USB PD charger with PPS is what you need. A cheap 65W laptop charger without PPS will fall back to a slower speed.</p>
+<h2>Seven years of updates: what it is worth</h2>
+<p>Samsung's promise covers Android version upgrades and security patches into 2033. The obvious benefit is safety for banking apps, which stop supporting old Android versions. The hidden benefit is resale: a phone with four years of updates left sells faster than one with none. If you pass phones on to parents or younger siblings, as most families here do, the S26 Ultra will still be useful at the end of the chain.</p>
+<h2>Which storage, which memory?</h2>
+<p>The step from 256GB to 512GB costs Rs 35,000. There is no memory card slot. Record 4K video regularly, keep offline maps and games, and 512GB makes sense. Use Google Photos backup and mostly stream, and 256GB is enough. The 1TB model at Rs 2,93,999 includes 16GB of memory, and it is aimed at people who edit video on the phone or use DeX as a desktop. Very few buyers need it.</p>
+<h2>DeX, the underrated reason</h2>
+<p>Connect the phone to a monitor with a USB-C cable and it becomes a simple desktop, with resizable windows, a mouse and a keyboard. For students writing assignments, or for a shop owner who needs spreadsheets now and then, it can replace a cheap laptop. Our <a href="/products?category=monitor">monitor list</a> includes models with USB-C that charge the phone at the same time.</p>
+<h2>What else costs about the same</h2>
+[[rivals:samsung-galaxy-s26-ultra]]
+<p>The <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a> is the stronger camera and the weaker all-rounder, with fewer service points. The <a href="/products/oneplus-15">OnePlus 15</a> at Rs 1,89,999 has far better battery life and charging, with a plainer camera set. The <a href="/products/google-pixel-10-pro-xl">Pixel 10 Pro XL</a> takes beautiful, consistent photos, but Google has no official presence in Nepal, so warranty means sending it abroad. Samsung's advantage is dull and important: authorised service, spare parts in Kathmandu and official pricing.</p>
+<h2>Price history and timing</h2>
+<p>It is unusual for a phone to cost more at the end of its first year than in the middle. The rise from Rs 2,12,999 to Rs 2,24,999 reflects the wider increase in memory prices and exchange rates that we covered in <a href="/news/why-gadget-prices-rose-nepal-2026">why gadget prices rose</a>. With the S27 series expected early in 2027, shops will want to clear stock, and Samsung often bundles earbuds or exchange bonuses in that window. If your current phone works, January is a better month to buy than November.</p>
+<h2>Before you pay</h2>
+<ul>
+<li>Check that the box carries the official distributor's sticker and that the IMEI is registered in MDMS.</li>
+<li>Ask whether screen-protection cover is included. Samsung sells accidental-damage plans, and the curved corners of a large phone find the floor sooner or later.</li>
+<li>Test the Privacy Display, the S Pen and all four cameras in the shop.</li>
+<li>Compare the EMI price with the cash price on the same bill.</li>
+</ul>
+<h2>Who it suits</h2>
+<p>Buy it if you want one phone to keep for a long time, use the stylus or DeX, and value local service. Choose something else if battery life, portraits or price come first. And if you already own an S24 or S25 Ultra, there is nothing here that should make you hurry.</p>
+
+=== redmi-note-17-pro-max-review-nepal
+<h2>Full specifications</h2>
+[[specs:redmi-note-17-pro-max-5g]]
+<h2>What ten thousand milliamp-hours feels like</h2>
+<p>Numbers this large are hard to picture, so think in days. A typical phone with 5,000mAh lasts a busy person from breakfast to bedtime. Twice that does not always mean two full days, because a bigger and brighter screen uses more, but it changes your habits. You stop carrying a power bank. You stop checking the percentage before a bus to Jhapa. You can leave the hotspot on for a laptop through a power cut without anxiety.</p>
+<p>Silicon-carbon chemistry is the reason a phone can hold this much without becoming a brick. Silicon stores more energy than the graphite used in older batteries. The technology is young, so long-term ageing is the open question. Xiaomi sets its own rating for charge cycles, and a battery this big goes through fewer cycles in the first place, since you charge it less often. That alone should slow the wear.</p>
+<p>Charging at 100W needs the right adapter. Check whether it is in your box, because bundles differ between shops and batches. With a generic 33W charger, an empty battery of this size will need well over two hours.</p>
+<h2>Is it heavy?</h2>
+<p>Yes, and you should hold it before ordering. A 6.83-inch phone with this battery cannot be light. Weight is not a flaw by itself, but it is the price of the headline feature. People with smaller hands, or anyone who reads in bed with the phone above their face, will be happier with the smaller <a href="/products/redmi-note-17-pro-5g">Redmi Note 17 Pro</a>.</p>
+<h2>The screen is a class above the chip</h2>
+<p>A 1.5K AMOLED panel sits between Full HD+ and Quad HD+. Text looks crisper than on a Full HD+ phone of the same size, and the 120Hz refresh rate makes scrolling smooth. A peak of 3,500 nits is only reached on small parts of the picture, usually in HDR video, but general outdoor brightness is high as well. Twelve-bit colour is mostly a marketing line, as very little content uses it.</p>
+<p>Gorilla Glass Victus 2 on the front deserves more attention than it gets. It is the glass from flagship phones, and it handles drops onto rough surfaces better than the cheaper types normally used at this price.</p>
+<h2>IP68 and IP69K: what they cover</h2>
+<p>IP68 means protection against dust and against being under still, fresh water for a limited time. IP69K refers to hot, high-pressure water jets. Together they suggest a phone that will survive monsoon rain, a spilled cup of tea, a muddy trail and a rinse under the tap. They do not cover salt water, soap, steam or damage from a fall that loosened the seals, and water damage is usually excluded from warranty whatever the rating says. Enjoy the safety margin, but do not go swimming with it.</p>
+<h2>Performance for real tasks</h2>
+<p>The Snapdragon 6 Gen 5 belongs to Qualcomm's middle family. It is efficient, which suits the purpose of this phone. Facebook, TikTok, banking apps, Google Maps, split-screen messaging and video calls all run well. In PUBG Mobile and Free Fire you can expect smooth play at medium settings. Heavier games will need lower graphics, and after a long session you will feel the difference from a phone such as the <a href="/products/poco-f7">POCO F7</a>, which costs the same and has a much faster chip.</p>
+<p>That comparison is the heart of the decision. At Rs 69,999 you can have speed or endurance. The POCO gives you the first with a good battery. The Redmi gives you the second with an adequate chip.</p>
+<h2>Camera expectations</h2>
+<p>The 50MP main camera with optical stabilisation is the one to use. In daylight it produces sharp, slightly warm pictures, and stabilisation keeps indoor shots usable. The 8MP ultra wide is fine for a group photo in good light and weak after dark. There is no telephoto, so zoom beyond 2x is a digital crop. The 32MP selfie camera has plenty of detail for video calls and social media.</p>
+<p>If you photograph a lot, the <a href="/products/nothing-phone-4a">Nothing Phone 4a</a> with its 3.5x periscope is a better tool at the same price, and the <a href="/products/honor-400">Honor 400</a> at Rs 67,999 leans heavily on its main camera. Neither will last as long between charges.</p>
+<h2>Software and support</h2>
+<p>HyperOS 3 on Android 16 brings plenty of features along with some clutter. After setup, remove the extra apps and switch off recommendations in the built-in tools. Xiaomi's update promise for the Note series is shorter than Samsung's, so ask for the exact number of years in writing if it matters to you. Service is one of the advantages of buying Redmi in Nepal: there are authorised centres and parts for popular Note models are easy to get.</p>
+<h2>Eight or twelve gigabytes?</h2>
+<p>Both versions have 256GB of storage. The extra Rs 10,000 buys 4GB of memory. On a phone with this chip, 8GB is enough for most people today. Twelve helps if you keep dozens of apps open or plan to use the phone for four years. If money is tight, spend the difference on a good case and a genuine 100W charger instead.</p>
+<h2>Alternatives at about Rs 70,000</h2>
+[[rivals:redmi-note-17-pro-max-5g]]
+<p>Also look at the <a href="/products/realme-p4-power">Realme P4 Power</a>. It has nearly the same battery capacity and a 144Hz screen, and it costs about Rs 7,000 more. And consider whether you need the full 10,000mAh at all: the <a href="/products/honor-x9d">Honor X9d</a> with 8,300mAh costs Rs 15,000 less and is already far ahead of ordinary phones.</p>
+<h2>Who should buy it</h2>
+<ul>
+<li><strong>Yes:</strong> riders, field workers, trekkers, students in hostels with unreliable power, and parents who forget to charge their phones.</li>
+<li><strong>Yes:</strong> anyone who runs a mobile hotspot for hours.</li>
+<li><strong>No:</strong> competitive gamers and zoom photographers.</li>
+<li><strong>No:</strong> people who want a light, pocketable phone.</li>
+</ul>
+<p>For its intended audience it is one of the easiest recommendations of the year. Everyone else should decide what they would do with the extra battery before carrying it around.</p>
+
+=== macbook-air-m5-13-review-nepal
+<h2>Full specifications</h2>
+[[specs:macbook-air-m5-13]]
+<h2>Who the Air is really for</h2>
+<p>The Air is easy to recommend because most laptop work is light. Writing a thesis, running Excel sheets with a few thousand rows, coding in VS Code, attending Zoom classes, editing photos, managing a small online shop: none of these stress an M5. What people notice is everything around the chip. The lid opens with one finger and the screen is already awake. The keyboard is comfortable. The trackpad is the best on any laptop. And the machine can sit in a bag asleep for a week and still have charge.</p>
+<p>In a place with power cuts, that last point changes how you work. A laptop that loses only a little overnight means you are not planning your day around a socket. Apple's own figure for video playback is optimistic, as every manufacturer's is; the listing in our catalogue quotes 11 to 13 hours, which is a fair expectation for mixed office use at sensible brightness.</p>
+<h2>No fan: what that means under load</h2>
+<p>With no fan, the aluminium body has to carry away the heat. For short bursts the Air is as quick as a MacBook Pro with the same chip. Keep it busy for fifteen or twenty minutes, exporting a long 4K video or compiling a large project, and it slows down to keep cool. In a warm room in Nepalgunj in May it will slow down sooner.</p>
+<p>So ask yourself how often you do work that lasts longer than a tea break. If the answer is daily, the <a href="/products/macbook-pro-14-m5">MacBook Pro 14</a> is worth the extra. If it is once a month, the Air will simply take a few minutes longer.</p>
+<h2>Is 16GB enough?</h2>
+<p>For almost everyone, yes. macOS handles memory well, and 16GB leaves room for a browser with thirty tabs, Office and a photo editor together. You cannot add memory later, though, so think about the next five years and not about this semester. People who run virtual machines, Docker containers, large Lightroom catalogues or local AI models should look at 24GB.</p>
+<p>Storage is the other permanent choice. The Rs 55,000 step from 512GB to 1TB is steep. An external NVMe drive of the same size costs a fraction of that and works well for photos and archives. Keep active projects on the internal drive and move the rest. Our <a href="/products?category=storage">storage section</a> lists portable SSDs with current prices.</p>
+<h2>macOS if you come from Windows</h2>
+<p>Most popular software is available: Microsoft Office, Adobe's apps, AutoCAD, Chrome, Zoom, VS Code. The trouble spots are specific. Some accounting packages used in Nepal, certain government and bank portals that depend on old browser components, Tally without workarounds, many engineering tools and a large number of games are Windows only. Write down the five programs you cannot live without and check each one before buying. Windows can run in a virtual machine on Apple silicon, but that is an extra cost and it uses the Arm version of Windows.</p>
+<p>Nepali typing works without extra software. macOS includes Devanagari keyboard layouts, and Unicode text behaves properly in Pages, Word and the browser. Older Preeti-font documents will need converting.</p>
+<h2>Ports and accessories</h2>
+<p>You get two Thunderbolt USB-C ports, MagSafe charging and a headphone jack. There is no HDMI, no USB-A and no card reader. A small hub is close to compulsory for students who present in classrooms with HDMI projectors. MagSafe is worth using in shared rooms, because a foot caught in the cable pulls out the plug and not the laptop.</p>
+<p>The 12MP Center Stage camera keeps you in the middle of the picture during calls. For online teachers and remote workers it is a visible improvement over the poor webcams on most laptops at this price.</p>
+<h2>Price in Nepal: why the figure moves</h2>
+<p>The launch price was Rs 2,34,900 and current listings are around Rs 2,42,499, which reflects the exchange rate and stock. Discounts appear around Dashain and Tihar and for students at some resellers, so ask. Compare what the price includes: official units carry Apple's one-year warranty, honoured at authorised service providers in Kathmandu, while some imported machines have only a shop warranty. Check the serial number on Apple's coverage page before paying, and check the keyboard layout, as units from some countries have a different Enter key and extra symbols.</p>
+<h2>Windows alternatives in the same budget</h2>
+[[rivals:macbook-air-m5-13]]
+<p>For the same money, Windows laptops split into two groups. Gaming machines such as the <a href="/products/asus-tuf-a16-fa608umi-ryzen-7-260-rtx-5060">ASUS TUF A16 with an RTX 5060</a> offer far more graphics power and far less battery life. Thin machines such as the <a href="/products/asus-vivobook-s14-s3407ca-core-ultra-7-255h">Vivobook S14</a> or <a href="/products/dell-xps-13-9350-2024-intel-core-ultra-7-256v-16gb-512gb-134-fhd">Dell XPS 13</a> offer OLED or sharper screens, Windows software and often more ports, though not always the same silence and standby time.</p>
+<h2>Buying used or older instead</h2>
+<p>An M4 Air is still a very good laptop, and even an M2 will serve a student for years. If you go that way, insist on 16GB of memory, look at the battery cycle count in System Information, check that the machine is not enrolled in a company's device management, and make sure the previous owner has removed it from their Apple account. Avoid 8GB models now unless the price is very low.</p>
+<p>The <a href="/products/macbook-neo">MacBook Neo</a> is the cheap way into macOS. It suits schoolwork and browsing, but the 8GB of memory is a ceiling you will reach. If you can afford the Air, buy the Air.</p>
+<h2>Common questions at the counter</h2>
+<ul>
+<li><strong>Midnight or silver?</strong> Dark finishes show fingerprints and chips around the ports. Silver and starlight age better.</li>
+<li><strong>13 or 15 inches?</strong> The 15-inch model gives you a bigger desk to work on and better speakers, at the cost of weight and Rs 35,000 or so. Take the 13 if you commute.</li>
+<li><strong>Do I need antivirus?</strong> Keep macOS updated, install software from the App Store or the developer's own site, and you will not need a paid one.</li>
+</ul>
+
+=== hp-victus-15-review-nepal
+<h2>Full specifications</h2>
+[[specs:hp-victus-15]]
+<h2>What you can play, and at what settings</h2>
+<p>A 6GB graphics card in 2026 needs realistic expectations, so here is how to think about it. Esports games are the easy part. Valorant, Counter-Strike 2, League of Legends, Dota 2 and Rocket League are designed to run on modest hardware, and either version of the Victus should keep them above 100 frames per second at 1080p, which is what the 144Hz screen is for.</p>
+<p>Older big titles such as GTA V, Red Dead Redemption 2, The Witcher 3 and Forza Horizon 5 are comfortable at medium to high settings. New releases built on Unreal Engine 5 are the hard part. They often want 8GB of video memory for high textures, so plan on medium textures with DLSS set to Quality or Balanced. The RTX 4050 version adds frame generation in games that support it, which makes motion smoother once the base frame rate is already playable. It does not rescue a game running at 25 frames per second.</p>
+<h2>Power limits: the number that is missing from the box</h2>
+<p>Two laptops with the same RTX 4050 can perform quite differently, because manufacturers choose how many watts the chip may use. The Victus 15 is built to a budget, so its graphics power limit is lower than in thicker and more expensive machines. That keeps heat and noise under control, and it means you should not compare it with benchmark videos of a gaming laptop twice its price. When you watch reviews online, look for this exact model and the same graphics power figure.</p>
+<h2>Heat and noise in a Nepali room</h2>
+<p>Gaming laptops are tested in air-conditioned rooms, and most of us do not live in one. At 32 degrees in Biratnagar the fans will run near full speed during a game, the keyboard area above the number row will get hot, and the chip will slow down slightly to protect itself. Raise the back of the laptop by two or three centimetres with a stand or even a book, keep the rear vents away from the wall, and clean the dust out once a year. Those three habits do more than an expensive cooling pad.</p>
+<h2>The screen is the weakest part</h2>
+<p>The 144Hz panel is fast enough for games, but listings do not mention wide colour coverage, and budget Victus screens have traditionally been dim with muted colour. For gaming and coding that is acceptable. For photo editing, video grading or design work, it is not, and you should plan to use an external monitor. A 24-inch IPS display costs from around Rs 18,000, and our <a href="/products?category=monitor">monitors page</a> shows what is available.</p>
+<h2>Upgrades that make sense</h2>
+<p>This is where the Victus earns its place. Memory sits in standard slots, so a machine that starts with 16GB can grow later. Check whether the 16GB is one stick or two: two sticks run in dual channel, which helps both games and integrated graphics. If you find a single stick, adding a matching one is the cheapest performance upgrade available.</p>
+<p>Storage is the first thing you will run out of. Windows, Office and three large games can fill a 512GB drive. Ask the shop whether your exact model has a second M.2 slot. If it does, a 1TB NVMe drive is a half-hour job. If not, replace the original and move it into a USB enclosure as a backup drive.</p>
+<h2>Battery and everyday use</h2>
+<p>Do not expect to sit through a full day of lectures without the charger. Gaming laptops of this class manage a few hours of browsing and documents when the dedicated graphics chip is switched off, and little more than an hour of gaming. Use the hybrid graphics mode in the HP app, drop the refresh rate to 60Hz on battery and lower the keyboard backlight.</p>
+<p>It is also a 15.6-inch machine with a large power brick. If you walk to college every day, carry both in a shop and then decide. Many students end up leaving it in the hostel and using a phone or tablet in class.</p>
+<h2>AMD or Intel version?</h2>
+<p>The Ryzen 5 8645HS is the newer and more efficient processor. The Core i5-13420H is older, but it comes with the better graphics card, and in games the graphics card decides. For gaming, take the Intel version with the RTX 4050. For programming, study and occasional Valorant, the AMD version saves Rs 12,000 and lasts longer away from a socket.</p>
+<h2>Service and warranty in Nepal</h2>
+<p>HP has authorised service in Kathmandu and partners in larger cities. Ask whether the warranty is from HP Nepal or from the importer, and get the period written on the bill. Gaming laptops have more moving parts than thin ones, and fans and hinges are the usual failures in year two, so a genuine two-year warranty is worth a few thousand rupees more than a vague one-year shop promise.</p>
+<h2>Alternatives at a similar price</h2>
+[[rivals:hp-victus-15]]
+<p>The <a href="/products/acer-nitro-lite-16-anl16-71g-2025-intel-core-i5-13420h-rtx-3050">Acer Nitro Lite 16</a> has a larger 16:10 screen that is nicer for study. Older laptops such as the IdeaPad Gaming 3 sometimes appear at the same price with a stronger processor but an ageing graphics card. Look past the CPU name and compare the GPU and its wattage. If you can wait and save, the <a href="/products/lenovo-loq-15-2025">Lenovo LOQ 15</a> with an RTX 5050 is a generation ahead and has a much better screen.</p>
+<h2>A short checklist before buying</h2>
+<ul>
+<li>Open Task Manager and confirm the exact GPU name and its memory.</li>
+<li>Check for dead pixels on a black and a white screen, and for backlight bleeding at the corners.</li>
+<li>Press every key, and listen to the fans at full speed for grinding.</li>
+<li>Make sure Windows is activated with a genuine licence and not an activation script.</li>
+<li>Ask for the original charger. A lower-watt replacement will limit performance.</li>
+</ul>
+<h2>Who should choose the Victus 15</h2>
+<p>First-time buyers with a firm limit of about Rs 1.6 lakh, who play esports and older titles, study engineering or IT, and are prepared to add storage later. If you want to play the newest games at high settings for several years, or you need a laptop that lasts through the day, keep saving or choose a different type of machine.</p>
+
+=== ps5-digital-slim-pro-review-nepal
+<h2>The three models side by side</h2>
+<p>All PS5 consoles use the same family of processor: eight AMD Zen 2 cores and 16GB of fast GDDR6 memory. That is why every PS5 game runs on every PS5. The differences are the graphics section, the storage and the disc drive.</p>
+<table><thead><tr><th>Model</th><th>Listed price</th><th>Storage</th><th>Disc drive</th><th>Best for</th></tr></thead><tbody>
+<tr><td>Digital Edition</td><td>Rs 95,000</td><td>825GB</td><td>No (sold separately)</td><td>Lowest entry price, downloads only</td></tr>
+<tr><td>Slim Disc Edition</td><td>Rs 1,39,999</td><td>1TB</td><td>Yes</td><td>People who buy and resell discs</td></tr>
+<tr><td>PS5 Pro</td><td>Rs 1,45,000</td><td>2TB</td><td>No (sold separately)</td><td>4K TV owners who want the best picture</td></tr>
+</tbody></table>
+<h2>Discs or downloads: do the sums first</h2>
+<p>Physical games matter more in Nepal than in many countries. Internet packages can make a 100GB download slow, and discs can be swapped with friends or sold when you finish. If you buy six games a year and sell each one for half of what you paid, a disc drive can save you tens of thousands of rupees over the life of the console.</p>
+<p>On the other side, digital stores run sales all year, and subscription plans include a large library. With a stable fibre connection and a habit of waiting for discounts, you may never miss the drive. There is a trap, though: a digital game is tied to your account for ever and has no resale value.</p>
+<p>If you are unsure, remember that Sony sells a detachable drive for both the Digital Edition and the Pro. Check that it is available and what it costs before you count on adding it later. At the moment availability here is irregular.</p>
+<h2>What the Pro improves</h2>
+<p>The Pro's larger graphics section, at 16.7 TFLOPS compared with about 10.3, does two things. It lets games run at higher resolution while keeping 60 frames per second, and it uses Sony's AI upscaling to sharpen the image. In games with a Pro patch you often get the quality mode's visuals at the performance mode's speed.</p>
+<p>Whether you can see that depends on your television. On a 4K set of 55 inches or more, viewed from two or three metres, the difference is visible in fine detail and steadier motion. On a 1080p TV or a 32-inch screen, most people will struggle to tell. If your TV is not 4K, put the money towards a better one before you think about the Pro.</p>
+<h2>TV features that matter</h2>
+<p>Look for HDMI 2.1, a 120Hz panel, variable refresh rate and a low input lag game mode. A basic 4K 60Hz TV still looks good with a PS5 and is all that many games need. Use the HDMI cable from the box, as it is certified for the full bandwidth, and turn on the TV's game mode and its enhanced HDMI setting. More disappointing first impressions come from a wrong TV setting than from the console.</p>
+<h2>Storage: plan for it on day one</h2>
+<p>System files take up a part of the drive, so the Digital Edition's 825GB leaves much less for games. Recent blockbusters take between 80GB and 200GB each. Every PS5 has a slot for an M.2 NVMe drive. Buy a PCIe Gen4 model with a read speed of at least 5,500MB/s and a heatsink that fits the slot. Installing it takes a screwdriver and ten minutes, and Sony's support page shows each step.</p>
+<p>An ordinary USB hard drive can store PS4 games and play them, but PS5 games can only be kept there as an archive and must be copied back before playing. It is a cheap way to avoid downloading a game twice.</p>
+<h2>GTA VI and the reason for the rush</h2>
+<p>The launch of GTA VI sent many buyers to the shops at once, and prices moved with demand. If that game is your only reason, any of the three consoles will run it. Wait a few weeks if you can. Launch-window stock is expensive, bundles appear later, and the first patches usually improve performance. Our <a href="/news/gta-6-launch-record-sales-how-to-buy-nepal">GTA VI buying article</a> covers editions and regional accounts.</p>
+<h2>Accounts, regions and paying for games</h2>
+<p>There is no Nepal PlayStation Store, so most people use an account from another country. Choose the region carefully at the start, because it cannot be changed, and downloadable content must match the region of the game. Gift cards must match the account region as well. Buy them only from sellers you trust, as reversed or stolen codes can get an account banned. Games on disc work on any console, but extra content for them follows the region of the disc.</p>
+<p>Online play in most paid games needs a PlayStation Plus subscription. Free-to-play games such as Fortnite do not. Work out the yearly cost when you compare consoles with a gaming laptop.</p>
+<h2>Power, heat and safety</h2>
+<p>Use a proper surge protector, and better still a UPS that lets you shut down safely. A power cut in the middle of a system update or a save can damage data. Put the console in rest mode only when your power is reliable; otherwise shut it down fully. Leave at least ten centimetres of space around it, do not enclose it in a glass cabinet, and clean the dust ports with a soft brush and a vacuum cleaner every few months. Kathmandu dust is the most common cause of noisy fans.</p>
+<h2>Which one to buy</h2>
+<ul>
+<li><strong>Digital Edition:</strong> the right choice for a tight budget, a good internet connection and people who mostly play one or two big games. Add an SSD later.</li>
+<li><strong>Slim Disc:</strong> only if you already own PS4 or PS5 discs, or will buy and sell them regularly. At today's listing its price is too close to the Pro.</li>
+<li><strong>Pro:</strong> the best hardware, and at a gap of about Rs 5,000 over the Slim Disc it is strangely good value. Make sure your TV deserves it.</li>
+</ul>
+<h2>Buying used</h2>
+<p>A second-hand PS5 can be a good deal. Ask to see it running a demanding game for twenty minutes and listen for loud fans or coil whine. Check that the disc drive reads both a game and a Blu-ray if it has one, that the controller sticks do not drift, and that the console is not banned: sign in with your own account and go online. Look at the HDMI port for bent pins, since that repair is common and not cheap. Original boxes and bills help if you want to sell it on later.</p>

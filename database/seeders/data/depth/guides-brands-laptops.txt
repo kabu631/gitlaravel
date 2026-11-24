@@ -1,0 +1,386 @@
+=== asus-laptop-price-in-nepal
+<h2>Representative models with specifications</h2>
+[[models:asus-vivobook-15-x1504va-2023-intel-core-i5-1334u-16gb-512gb-156-fhd,asus-vivobook-s14-m3407ha-2025,asus-zenbook-14-oled-um3405ga-2026,asus-tuf-gaming-a16-fa607nug-2024-ryzen-7-7445hs,asus-v16-2025-core-7-rtx-5050,asus-rog-strix-g18-g814fp-2025-ryzen-9-9955hx-rtx-5070]]
+<h2>How to read an Asus model number</h2>
+<p>X1504VA looks like noise, and it is a small description. The first letter is the family: X for Vivobook, UX or UM for Zenbook with Intel or AMD, FX and FA for TUF with Intel or AMD, G for ROG. The next two digits are the screen size, 15 or 14. The following digits are the generation, and the letters at the end describe the platform. So X1504VA is a 15-inch Vivobook with a 13th generation Intel chip. Write down the whole code before comparing prices. "Vivobook 15" alone describes a dozen machines.</p>
+<h2>Vivobook: choose by memory</h2>
+<p>Asus sells Vivobooks with 8GB at Rs 90,000 and with 16GB at Rs 80,000, depending on age and importer. The 16GB X1504VA is the bargain of the range, as we explain in <a href="/guides/best-laptops-under-80000-nepal">laptops under Rs 80,000</a>. The Vivobook S versions are slimmer with bigger batteries and better screens. The <a href="/products/asus-vivobook-s14-m3407ha-2025">S14 with a Ryzen 5 220</a> and 70Wh is a fine student machine, at a price that should be negotiated.</p>
+<h2>Zenbook: the thin ones</h2>
+<p>Zenbooks have metal bodies, OLED screens and good keyboards. The cheap one, the <a href="/products/asus-zenbook-14-oled-q415">Q415</a>, has 8GB and an imported past, described in <a href="/reviews/asus-zenbook-14-oled-q415-review-nepal">our review</a>. The current ones cost Rs 2 lakh and more and compete with the MacBook Air. Look for 16GB or more and at least 70Wh.</p>
+<h2>TUF: sturdy gaming</h2>
+<p>TUF laptops take knocks, cool well and cost less than ROG. The A15 with an RTX 3050 is getting old, as <a href="/reviews/asus-tuf-gaming-a15-rtx-3050-review-nepal">our review</a> says. The A16 and F16 with RTX 4050 to 5060 are the ones to consider. In this family, ask for the graphics wattage and the panel's colour coverage, since both vary.</p>
+<h2>ROG: from fast to absurd</h2>
+<p>Strix models are thick and powerful. The <a href="/products/asus-rog-strix-g18-g814fp-2025-ryzen-9-9955hx-rtx-5070">Strix G18 with a Ryzen 9 and RTX 5070</a> at about Rs 4 lakh with 32GB is better value than several others with the same graphics chip at Rs 4.6 lakh or more. Zephyrus models are thin and lovely, and our <a href="/news/asus-rog-zephyrus-g16-2025-rtx-5080-benchmarks-leaked">Zephyrus G16 article</a> compares them. The Zephyrus Duo has two screens and costs as much as a small car.</p>
+<h2>V16 and Gaming V16</h2>
+<p>A newer family that puts gaming chips in plainer bodies. The <a href="/products/asus-v16-2025-core-7-rtx-5050">V16 with an RTX 5050</a> at about Rs 2,08,000 is close to a Lenovo LOQ in idea. Check the watts and the screen.</p>
+<h2>ProArt and others</h2>
+<p>ProArt laptops are for creators, with accurate OLED screens and dials. Few reach Nepal. If one does, look at who provides the warranty. Chromebooks and ExpertBooks appear now and then.</p>
+<h2>Which Asus for which person?</h2>
+<ul>
+<li><strong>School or first laptop:</strong> Vivobook Go with a Core i3 or Ryzen 3, 8GB and an SSD of 256GB or more. Avoid the Celeron.</li>
+<li><strong>Bachelor student:</strong> Vivobook 15 X1504VA with 16GB.</li>
+<li><strong>Office and travel:</strong> Vivobook S14 or Zenbook 14.</li>
+<li><strong>Engineering and games:</strong> TUF A16 or V16 with an RTX 5050.</li>
+<li><strong>Creators:</strong> Zephyrus or ProArt with 32GB.</li>
+</ul>
+<h2>Traps in the Asus range</h2>
+<ol>
+<li>The Vivobook Go E410 with a Celeron and 64GB of eMMC. It is slow the day you buy it.</li>
+<li>The <a href="/reviews/asus-vivobook-14-x1404va-i3-review-nepal">X1404VA with 128GB</a>, which needs a new drive at once.</li>
+<li>The <a href="/reviews/asus-vivobook-14-x1404vap-review-nepal">X1404VAP</a>, sold with two different drives under one name.</li>
+<li>16GB in laptops above Rs 4 lakh with soldered memory.</li>
+</ol>
+<h2>Screens</h2>
+<p>Asus uses everything from dull 45% NTSC panels to reference-class OLED. On Vivobooks, look at the panel with your own eyes. On OLED models, set pixel care and dark mode, as static toolbars over years can leave a mark.</p>
+<h2>MyAsus: use it</h2>
+<p>The app registers the warranty, limits charging to 60 or 80 per cent, updates drivers and runs diagnostics. On gaming models, Armoury Crate controls fans and power. Remove the trial antivirus, as Windows Security is enough.</p>
+<h2>Warranty in Nepal</h2>
+<p>Asus has an authorised distributor and service in Nepal. Official units usually carry one or two years, and some include accidental cover if registered within a period. Units with codes for other regions, such as Q-series Zenbooks or North American ROG models, are imports with a shop warranty. Enter the serial number on the Asus site to see. Ask for the answer in writing.</p>
+<h2>Power and heat</h2>
+<p>Use the original charger. Some Vivobooks take 45W by a round plug, others USB-C. TUF and ROG machines need 150 to 280W, more than many small inverters supply cleanly. Clean the fans each year, and raise the rear of gaming models in summer.</p>
+<h2>Upgrades</h2>
+<p>Many Vivobooks have some memory soldered and one slot. TUF and Strix models have two slots and two M.2 bays, making them the most upgradeable. Zenbooks and Zephyrus are fixed except for the SSD. Check before buying, since it changes how much memory you need on the first day.</p>
+<h2>Asus or another brand?</h2>
+<p><strong>Lenovo</strong> has better keyboards and the best-value gaming laptop in the LOQ. <strong>HP</strong> and <strong>Dell</strong> have stronger office service. <strong>Acer</strong> is cheaper for similar parts. <strong>MSI</strong> is for gaming with bolder designs. Asus offers the widest choice, OLED at lower prices, and sturdy gaming machines.</p>
+<h2>Price behaviour</h2>
+<p>With so many models there is always something being cleared. Older Vivobooks and TUFs with good specifications appear at Rs 5,000 to 20,000 below newer, weaker ones. Ask what is old in stock. Discounts are larger after Tihar and before the new college sessions.</p>
+<h2>Checks in the shop</h2>
+<ul>
+<li>Full model code on the base matches the box and bill.</li>
+<li>Processor, memory and drive in Task Manager.</li>
+<li>Battery report with powercfg.</li>
+<li>Screen on plain white, grey and black.</li>
+<li>Hinge, keyboard, webcam and all ports.</li>
+</ul>
+<h2>In short</h2>
+<p>Asus has a right laptop for nearly everyone and a wrong one beside it on the shelf. Let memory, screen and model code guide you, and not the family name. For advice that crosses brands, see our <a href="/guides/best-laptops-nepal-students-gamers">laptop guide</a>.</p>
+
+=== acer-laptop-price-in-nepal
+<h2>Acer's range at a glance</h2>
+[[models:acer-aspire-lite-14-al14-45p-ryzen-3-5400u,acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u,acer-extensa-15-ex215-57-2024-intel-core-i5-13420h,acer-aspire-ai-a14-52mt-2025-intel-core-ultra-7-258v,acer-nitro-v-15-anv15-52-57dy-2025-intel-core-5-210h-rtx-5050,acer-nitro-v-16s-2025-core-7-240h-rtx-5060]]
+<h2>The honest engineer of laptop brands</h2>
+<p>Acer spends little on advertising and much on parts. Its laptops are rarely beautiful, and at a given price they often have more memory, a bigger battery or a better processor than the HP or Dell beside them. That is why three of our general recommendations in Nepal are Acers. The weak points are plain designs, average speakers and a confusing list of names.</p>
+<h2>Families in plain words</h2>
+<p><strong>Aspire Lite</strong> and <strong>Aspire Go</strong> are budget machines for study. <strong>Aspire</strong> is the main line. <strong>Aspire AI</strong> uses efficient modern chips. <strong>Extensa</strong> and <strong>TravelMate</strong> are for business. <strong>Swift</strong> is thin and light. <strong>Nitro</strong> is for gaming and <strong>Predator</strong> for serious gaming. The code after the name, such as AL15-41, identifies the exact version.</p>
+<h2>Aspire Lite and Go</h2>
+<p>The <a href="/products/acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u">Aspire Lite 15</a> with a six-core Ryzen, 16GB and a 58Wh battery at Rs 97,999 is our first choice under a lakh. <a href="/reviews/acer-aspire-lite-15-ryzen-5-review-nepal">Our review</a> says why. Beware of the AL15-42P version at nearly the same price: it has a 36Wh battery. Two letters in the code and a third less battery.</p>
+<p>The <a href="/products/acer-aspire-lite-14-al14-45p-ryzen-3-5400u">Aspire Lite 14</a> with a Ryzen 3 is a good school laptop at about Rs 74,000. The Go 15 models vary from weak N-series chips to a decent Ryzen 7 7730U at Rs 1,14,999.</p>
+<h2>Extensa and TravelMate</h2>
+<p>The <a href="/products/acer-extensa-15-ex215-57-2024-intel-core-i5-13420h">Extensa 15</a> with a Core i5-13420H and 16GB at about Rs 1,08,000 is one of the strongest processors near a lakh. For offices and computing students who sit at a desk, it is excellent and completely ignored by fashion.</p>
+<h2>Aspire 14 AI: the one we like most</h2>
+<p>With a Core Ultra 7 258V, 32GB and 1TB at Rs 1,39,999, the <a href="/products/acer-aspire-ai-a14-52mt-2025-intel-core-ultra-7-258v">Aspire 14 AI</a> has all-day battery and memory for years. The screen is ordinary. If you want one laptop for five years of work or study and do not play, buy this. A Snapdragon version, the <a href="/products/acer-aspire-16-ai-2025-snapdragon-x-x1-26100-16gb-512gb-16-wuxga">Aspire 16 AI</a>, costs less and has the software limits explained in <a href="/news/qualcomm-oryon-snapdragon-x-elite-laptops-nepal-battery-benchmarks">our article</a>.</p>
+<h2>Swift</h2>
+<p>Swift Neo and Swift Lite bring OLED screens for Rs 1.2 to 1.5 lakh. The processors in the cheaper ones, such as the Core Ultra 5 115U, are modest. Choose the OLED if your day is reading and film, and the Aspire 14 AI if it is work.</p>
+<h2>Aspire 7</h2>
+<p>A normal-looking laptop with an RTX 3050 at about Rs 1,55,000. Handy for engineering students who do not want a gaming look. The graphics chip is old, so ask which memory version it has.</p>
+<h2>Nitro: the popular choice</h2>
+<p>Nitro V 15 and V 16 cover RTX 3050 to 5060. The <a href="/products/acer-nitro-v-15-anv15-52-57dy-2025-intel-core-5-210h-rtx-5050">Nitro V 15 with an RTX 5050</a> at Rs 1,82,400 is among the cheapest 50-series laptops. The catch is in the charger. A 135W adapter means lower graphics power than a Lenovo LOQ with the same chip. The <a href="/reviews/acer-nitro-lite-16-rtx-4050-review-nepal">Nitro Lite 16</a> has the same story. The V 16S with an RTX 5060 and a 76Wh battery is slimmer and better finished.</p>
+<h2>Predator</h2>
+<p>Helios Neo machines are fast, heavy and well cooled, from about Rs 3 lakh. An older model with an i9-14900HX and an RTX 4080 at Rs 3,69,000 is unusually good value for pure graphics power. Check its warranty and how long it has been in stock.</p>
+<h2>Who should buy which Acer</h2>
+<ul>
+<li><strong>School:</strong> Aspire Lite 14.</li>
+<li><strong>Bachelor student:</strong> Aspire Lite 15 AL15-41.</li>
+<li><strong>Computing on a budget:</strong> Extensa 15.</li>
+<li><strong>Professional:</strong> Aspire 14 AI.</li>
+<li><strong>First gaming laptop:</strong> Nitro V 15 or Nitro Lite 16.</li>
+<li><strong>Serious gaming:</strong> Predator, or a Legion.</li>
+</ul>
+<h2>Things to check on an Acer</h2>
+<ol>
+<li>The battery in watt-hours. It varies within a family.</li>
+<li>The charger's wattage on Nitro models.</li>
+<li>The panel: IPS, brightness and colour.</li>
+<li>Memory slots. Many Aspires have one free.</li>
+<li>The full model code on the base.</li>
+</ol>
+<h2>Service</h2>
+<p>Acer has an authorised distributor and service in Kathmandu with partners elsewhere. Parts for Aspire and Nitro are common, and independent technicians know them well. Official units carry a one-year warranty, sometimes two. Imported Predators and Swifts may have only a shop's promise. Enter the serial number on Acer's site.</p>
+<h2>Software</h2>
+<p>AcerSense or Acer Care Center sets the 80 per cent charge limit, performance modes and updates. NitroSense controls fans. Remove trial antivirus, shopping shortcuts and the browser bars that sometimes come with them.</p>
+<h2>Build quality</h2>
+<p>Budget Aspires are plastic and flex a little. They last if carried in a padded bag. Hinges are the usual failure after three years. Open the lid from the middle. Keyboards are decent with number pads on 15-inch models.</p>
+<h2>Upgrades</h2>
+<p>Acer is friendly here. Most Aspire Lite, Extensa and Nitro models allow an extra stick of memory and a second SSD. It is a good way to buy a cheaper version and improve it. Have the service centre fit parts within the warranty period.</p>
+<h2>Acer compared</h2>
+<p><strong>Lenovo:</strong> better keyboards and more refined. <strong>HP, Dell:</strong> wider office service. <strong>Asus:</strong> more choice and better screens. <strong>MSI:</strong> flashier gaming. Acer tends to win on the sheet for the money.</p>
+<h2>Price and bargaining</h2>
+<p>Because Acer competes on value, list prices have less padding. Ask for memory or an SSD upgrade at cost, which helps you more than a bag. The best time is after festivals, when remaining Nitros are cleared.</p>
+<h2>In the end</h2>
+<p>If you read specifications and do not mind plain looks, start with Acer and make the others prove that they are better. At Rs 98,000 and Rs 1,40,000 in particular, most cannot. Compare with <a href="/guides/best-laptops-under-100000-nepal">laptops under Rs 1 lakh</a> and <a href="/guides/best-laptops-under-150000-nepal">under Rs 1.5 lakh</a>.</p>
+
+=== dell-laptop-price-in-nepal
+<h2>Dell models compared</h2>
+[[models:dell-15-dc15250-2025,dell-15-dc15250-core-i5-1334u,dell-pro-14-pc14250-2025,dell-inspiron-14-x360-intel-core-5-120u,dell-inspiron-14-plus-7440-intel-core-ultra-9-185h,dell-xps-13-9350-2024-intel-core-ultra-7-256v-16gb-512gb-134-fhd,dell-alienware-16x-aurora-2025]]
+<h2>The new names</h2>
+<p>Dell retired Inspiron, Vostro and Latitude for a simpler system, then brought XPS back. Today, <strong>Dell</strong> followed by a number is for home. <strong>Dell Pro</strong> is for business. <strong>Dell Pro Max</strong> is a workstation. <strong>Plus</strong> and <strong>Premium</strong> mean better versions. Shops still hold Inspirons and Latitudes, so you will see both systems side by side. The names changed, and the questions remain: processor, memory, screen, battery.</p>
+<h2>Why people choose Dell</h2>
+<p>Service. Dell's business support in Nepal is among the best, with on-site options for companies, and parts available for years. Offices know it, banks buy it, and used Latitudes keep their value. On consumer models the specification for the price is average: you often find 8GB at Rs 90,000. You are paying for the badge and the counter behind it.</p>
+<h2>Under Rs 80,000</h2>
+<p>The <a href="/products/dell-15-dc15250-2025">Dell 15 DC15250</a> with a Core 3 100U, 8GB and a 120Hz screen is a fair home and office machine. Add a stick of memory if the slot is free. The Wyse 5470 with a Celeron, at Rs 58,999, is a thin client and not a laptop for a student. Avoid it.</p>
+<h2>Around one lakh</h2>
+<p>The <a href="/products/dell-15-dc15250-core-i5-1334u">DC15250 with a Core i5-1334U</a> at Rs 96,499 has a good processor with 8GB in one stick. With another 8GB fitted it becomes a solid laptop at Rs 1,03,000 or so. Compare with the Acer Aspire Lite 15, which comes ready with 16GB. The Dell Pro 15 uses the weaker Ryzen 5 7520U.</p>
+<h2>Rs 1.25 to 1.35 lakh</h2>
+<p>The <a href="/products/dell-pro-14-pc14250-2025">Dell Pro 14</a> is the business choice: 16GB in two sticks, a 300 nit 16:10 screen and a proper keyboard. The <a href="/products/dell-inspiron-14-x360-intel-core-5-120u">Inspiron 14 2-in-1</a> folds and accepts a pen. The <a href="/products/dell-xps-13-2026">XPS 13 (2026)</a> is beautiful with only 8GB, as <a href="/reviews/dell-xps-13-2026-review-nepal">our review</a> warns. The Snapdragon Inspiron 14 5441 lasts all day with software limits. Our choice here is the Pro 14.</p>
+<h2>Rs 1.75 to 2.4 lakh</h2>
+<p>The <a href="/products/dell-inspiron-14-plus-7440-intel-core-ultra-9-185h">Inspiron 14 Plus</a> with a sixteen-core Core Ultra 9 and 32GB at about Rs 1,75,000 is powerful for developers. The 14 Plus 2-in-1 with a Ryzen AI 7 is balanced. The <a href="/products/dell-xps-13-9350-2024-intel-core-ultra-7-256v-16gb-512gb-134-fhd">XPS 13 9350</a> with a Core Ultra 7 256V and 16GB is the real XPS: light, efficient and well made.</p>
+<h2>Alienware</h2>
+<p>Alienware 15 starts near Rs 1.9 lakh with an RTX 4050, and the <a href="/products/dell-alienware-16x-aurora-2025">16X Aurora</a> is close to Rs 5 lakh. They cool well and look distinctive. A Lenovo Legion or Asus Strix usually gives more graphics for the same money. Choose Alienware for design and, where official, for Dell's service.</p>
+<h2>Used Latitudes: the quiet bargain</h2>
+<p>Thousands of Latitude laptops arrive from foreign offices. For Rs 45,000 to 80,000 you can find a 7000-series machine with a Core i5 or i7, 16GB, a backlit keyboard and a metal body. For writing, office and programming they beat new consumer laptops at the price. Check the battery report, hinges, screen, BIOS password and whether the device is enrolled with a company (a message at first start). Buy from a shop that gives at least three months.</p>
+<h2>Reading the service tag</h2>
+<p>Every Dell has a seven-character tag on the base. Enter it at Dell's support site. You will see the original configuration, the country, the ship date and the warranty with its end date. It is the best honesty test in the laptop market. If the seller's story does not match the tag, believe the tag.</p>
+<h2>Warranty types</h2>
+<p><strong>Basic:</strong> carry in. <strong>On-site:</strong> a technician visits, after remote diagnosis. <strong>ProSupport:</strong> faster, for business. <strong>Accidental damage:</strong> extra. Ask which you have. Companies should ask for three years on-site, which costs a few per cent more and saves arguments.</p>
+<h2>Screens</h2>
+<p>Dell's budget screens are 250 nits with limited colour. Business panels reach 300 to 400. XPS and Premium models are excellent. The 120Hz panels on cheap models are smoother, not more colourful.</p>
+<h2>Keyboards and build</h2>
+<p>Business models have the best keyboards, with spill resistance. Consumer models are plain plastic. XPS keyboards have zero gap between keys, which takes a day to learn.</p>
+<h2>Ports</h2>
+<p>XPS machines have USB-C only. Buy a hub with HDMI and USB-A. Dell Pro machines have everything, including Ethernet on some.</p>
+<h2>Who should buy which Dell</h2>
+<ul>
+<li><strong>Home and school:</strong> DC15250 with added memory.</li>
+<li><strong>Office:</strong> Dell Pro 14 or 15 with 16GB.</li>
+<li><strong>Developer:</strong> Inspiron 14 Plus.</li>
+<li><strong>Executive:</strong> XPS 13 9350.</li>
+<li><strong>Careful buyer:</strong> a used Latitude 7000.</li>
+<li><strong>Gamer:</strong> Alienware on discount, otherwise another brand.</li>
+</ul>
+<h2>Set-up tips</h2>
+<ul>
+<li>Install Dell Command Update or SupportAssist and update the BIOS.</li>
+<li>Set charging to "Primarily AC use" if it lives on a desk.</li>
+<li>Remove trial antivirus.</li>
+<li>Turn on BitLocker or device encryption and save the key.</li>
+<li>Create a recovery drive.</li>
+</ul>
+<h2>Dell or HP, Lenovo, Acer?</h2>
+<p><strong>HP</strong> is the closest rival in service. <strong>Lenovo ThinkPads</strong> have better keyboards. <strong>Acer</strong> gives more hardware. If your company will maintain it, choose Dell or HP. If you will maintain it yourself, choose by memory and price.</p>
+<h2>Bargaining</h2>
+<p>For a single machine, ask for memory at cost. For five or more, ask for a quotation from two dealers with the same configuration, three-year warranty and delivery date. Prices follow the dollar, so quotations expire quickly. The EMI estimate on product pages helps with cash flow.</p>
+<h2>Verdict</h2>
+<p>Dell is a service company that also makes laptops. If you value that, the Dell Pro 14 and the used Latitudes are excellent. If you want the most computer for a fixed sum, look at Acer and Lenovo first, and come back if you need the counter. For a wider view, see <a href="/guides/best-laptops-nepal-students-gamers">best laptops in Nepal</a>.</p>
+
+=== hp-laptop-price-in-nepal
+<h2>From Notebook to Spectre</h2>
+[[models:hp-pavilion-15,hp-15-ryzen-7-7730u-8gb,hp-probook-445-g11-ryzen-5-7535u,hp-elitebook-655-g10-ryzen-5-pro-7530u,hp-victus-15,hp-victus-15-2023-13th-gen-i5-13420h-rtx-4050,hp-omnibook-x-flip-14-14-fm0013dx-2025-intel-core-ultra-5-226v,hp-spectre-x360-14-eu0060ca-2024-intel-core-ultra-5-125h-16gb-16gb-14-3k-oled-touch]]
+<h2>HP's families, old and new</h2>
+<p>HP is moving to the OmniBook name for consumer laptops, replacing Pavilion, Envy and Spectre. You will see both in shops for some time. <strong>HP 14/15</strong> are basic. <strong>Pavilion</strong> and <strong>OmniBook 5</strong> are the middle. <strong>OmniBook X</strong>, <strong>Envy</strong> and <strong>Spectre</strong> are premium. <strong>ProBook</strong> and <strong>EliteBook</strong> are for business. <strong>Victus</strong> and <strong>OMEN</strong> are for games.</p>
+<h2>The best thing HP sells here: ProBook and EliteBook</h2>
+<p>At Rs 1,14,999 the <a href="/products/hp-probook-445-g11-ryzen-5-7535u">ProBook 445 G11</a> has 32GB, a 16:10 screen, a 56Wh battery and Windows 11 Pro. The <a href="/products/hp-elitebook-655-g10-ryzen-5-pro-7530u">EliteBook 655 G10</a> at Rs 1,29,999 adds a terabyte and a stronger chassis. The Ryzen chips are not the newest, but the rest is superb for office work, coding and study. People walk past them to buy glossy consumer laptops with 8GB. Do not be one of them.</p>
+<h2>Under Rs 80,000</h2>
+<p>The <a href="/products/hp-pavilion-15">Pavilion 15</a> with a Ryzen 5 7530U at about Rs 75,000 is the strongest, with six cores and 8GB of replaceable memory. Add a stick and it lasts. The HP 14 with an Athlon and 4GB at Rs 54,999 belongs in the same drawer as the N100 machines: avoid. The HP 15 with a Ryzen 3 7320U is slow for its price.</p>
+<h2>Around one lakh</h2>
+<p>The HP 15 with a Ryzen 7 7730U or Core Ultra 5 125H looks tempting, until you see the 8GB. The processor is fine, the battery at 41Wh is small. With another 8GB these are good, so ask whether a slot exists. If it must be perfect out of the box, the Acer Aspire Lite 15 is cheaper with 16GB.</p>
+<h2>Convertibles</h2>
+<p>The Pavilion x360 from 2022 at Rs 95,000 is an old design. The <a href="/products/hp-omnibook-x-flip-14-14-fm0013dx-2025-intel-core-ultra-5-226v">OmniBook X Flip 14</a> with a Core Ultra 5 226V is the modern choice: efficient, light and fine with a pen. The <a href="/products/hp-spectre-x360-14-eu0060ca-2024-intel-core-ultra-5-125h-16gb-16gb-14-3k-oled-touch">Spectre x360 14</a> with its 2.8K OLED is the most beautiful. Its listing mentions two different processors, so check the sticker.</p>
+<h2>Victus: gaming for students</h2>
+<p>Victus 15 is the most popular first gaming laptop in Nepal, and with reason. It looks normal and is sold everywhere. Versions differ a lot: RTX 3050 with 6GB, RTX 4050, different processors, and in some listings DDR4 memory. The <a href="/products/hp-victus-15-2023-13th-gen-i5-13420h-rtx-4050">RTX 4050 version</a> at about Rs 1,66,000 is the one to aim for. <a href="/reviews/hp-victus-15-review-nepal">Our Victus review</a> lists the questions.</p>
+<h2>Who should buy which HP</h2>
+<ul>
+<li><strong>Home:</strong> Pavilion 15 Ryzen 5 with added memory.</li>
+<li><strong>Student in any course except 3D:</strong> ProBook 445 G11.</li>
+<li><strong>Office fleet:</strong> ProBook or EliteBook with a three-year warranty.</li>
+<li><strong>Artist or note-taker:</strong> OmniBook X Flip.</li>
+<li><strong>Luxury:</strong> Spectre x360.</li>
+<li><strong>Gaming:</strong> Victus with RTX 4050.</li>
+</ul>
+<h2>HP's model codes</h2>
+<p>Codes such as 15-fd0154wm carry meaning at the end. "wm", "dx", "cl" and "nr" mark machines made for American retailers, so they are imports. "ne", "nia" and "tu" are for our part of the world. An American unit is not bad, but its warranty and keyboard may differ, and the original price was set for another market.</p>
+<h2>Warranty check</h2>
+<p>Enter the serial and product number at HP's warranty page. Business units show the type and the end date. Ask the seller to match it on the bill. HP has authorised service in Nepal, with the best coverage for ProBook and EliteBook. Batteries are often covered for one year only.</p>
+<h2>Screens and speakers</h2>
+<p>Budget HPs have 250 nit panels and quiet speakers. Business models offer 300 nits or more, and matte finish. The Spectre and OmniBook X are bright and colourful. If you present to others often, ask about brightness first.</p>
+<h2>Security features</h2>
+<p>EliteBooks have useful extras: privacy shutters, BIOS protection, smart card and fingerprint readers, and in some a built-in privacy screen. For lawyers, doctors and accountants these are worth more than a faster chip.</p>
+<h2>Battery care</h2>
+<p>In the BIOS, HP Battery Health Manager can hold the charge near 80 per cent. On consumer models look in the HP Support Assistant. Use the original charger. HP business laptops warn about underpowered adapters, and they are right.</p>
+<h2>Used EliteBooks</h2>
+<p>An EliteBook 840 or 845 from two or three years ago at Rs 55,000 to 85,000 with 16GB is a pleasure to type on and solid to carry. Check for BIOS administrator passwords, as they cannot be removed easily, company enrolment, battery health and screen marks. With a new battery for Rs 5,000 to 8,000 it will serve you for years.</p>
+<h2>Printers and ecosystem</h2>
+<p>Many offices buy HP laptops to match HP printers. There is no technical need. If you are buying a printer too, compare ink costs. See <a href="/products?category=printer">printers</a>.</p>
+<h2>HP compared</h2>
+<p><strong>Dell:</strong> equal in business, similar prices. <strong>Lenovo:</strong> ThinkPad keyboards and LOQ gaming are ahead, HP's convertibles are nicer. <strong>Acer:</strong> more hardware on consumer models. <strong>Asus:</strong> more OLED choice.</p>
+<h2>Set-up</h2>
+<ol>
+<li>Update Windows and the BIOS through HP Support Assistant.</li>
+<li>Remove McAfee trials and shopping shortcuts.</li>
+<li>Set battery protection.</li>
+<li>Turn on device encryption and save the key.</li>
+<li>On Victus, set the performance mode in OMEN Gaming Hub and leave the rest.</li>
+</ol>
+<h2>When to buy</h2>
+<p>Consumer HPs are discounted at festivals and session starts. Business models are cleared when a new generation arrives. Right now G10 and G11 machines are excellent value because of that. Ask specifically for "older ProBook or EliteBook with 16GB or 32GB".</p>
+<h2>Verdict</h2>
+<p>HP's consumer range in Nepal is average for the money, and its business range is outstanding. Buy the ProBook 445 G11 or EliteBook 655 for work and study, the Victus RTX 4050 for games, and the OmniBook X Flip or Spectre if you want to enjoy looking at your laptop. Compare all with <a href="/guides/best-laptops-under-150000-nepal">laptops under Rs 1.5 lakh</a>.</p>
+
+=== lenovo-laptop-price-in-nepal
+<h2>A selection from the range</h2>
+[[models:lenovo-ideapad-slim-3-15ahp10-2025-ryzen-7-8840hs-16gb-512gb-153-wuxga,lenovo-ideapad-slim-5i-gen-9-2024-core-ultra-5,lenovo-yoga-slim-7i-aura-edition,lenovo-loq-15-2025,lenovo-legion-5-15ahp10,lenovo-thinkpad-l16-gen-2-2025-intel-core-ultra-7-255h,lenovo-legion-pro-7i-16iax10h-2025-intel-core-ultra-9-275hx-rtx-5090]]
+<h2>Six families worth knowing</h2>
+<p><strong>IdeaPad</strong> is for home and study. <strong>V series</strong> is cheap business. <strong>ThinkPad</strong> is proper business. <strong>Yoga</strong> is premium and thin. <strong>LOQ</strong> is entry gaming. <strong>Legion</strong> is serious gaming. Codes such as 15AHP10 give the size (15), the chip maker and platform (A for AMD, I for Intel), and the generation (10). IdeaPad 1, 3 and 5 are ranks: higher is better.</p>
+<h2>What Lenovo does best</h2>
+<p>Keyboards, value in gaming laptops, and a habit of putting strong processors into plain bodies. Two of our favourite machines in Nepal are Lenovos: the <a href="/products/lenovo-loq-15-2025">LOQ 15</a> for games and technical courses, and the <a href="/products/lenovo-yoga-slim-7i-aura-edition">Yoga Slim 7i Aura</a> for work.</p>
+<h2>IdeaPad: the best and the worst</h2>
+<p>The same family contains the <a href="/reviews/lenovo-ideapad-slim-3-n100-review-nepal">Slim 3 with an N100 and 4GB</a>, which we ask people not to buy, and the <a href="/reviews/lenovo-ideapad-slim-3-ryzen-7-8840hs-review-nepal">Slim 3 with a Ryzen 7 8840HS</a>, which is the cheapest powerful laptop in the country. Read the processor and the memory, always. The <a href="/reviews/lenovo-ideapad-1-ryzen-5-7520u-review-nepal">IdeaPad 1</a> is a basic study tool.</p>
+<p>The <a href="/products/lenovo-ideapad-slim-5i-gen-9-2024-core-ultra-5">IdeaPad Slim 5i</a> with a Core Ultra 5 125H, 16GB and OLED at about Rs 1,30,000 is an attractive middle choice: better screen than the Slim 3, more affordable than the Yoga.</p>
+<h2>V series: simple office machines</h2>
+<p>V14 and V15 laptops are plain and dependable. The <a href="/products/lenovo-v14-13th-gen-intel-core-i5-13420h">V14 with a Core i5-13420H and 16GB</a> at about Rs 1,18,000 is fast for its class. One listing of a V15 with a Ryzen 5 7520U at Rs 1,41,900 is far too expensive for the chip. Prices of imported stock can be strange.</p>
+<h2>ThinkPad</h2>
+<p>For typists, engineers in the field and companies, ThinkPads remain the standard. The keyboard, the TrackPoint and the tolerance for abuse are worth paying for. New ones are expensive here, for instance the <a href="/products/lenovo-thinkpad-l16-gen-2-2025-intel-core-ultra-7-255h">L16 Gen 2</a> at about Rs 2,66,000. Used T14, T14s and X1 Carbons at Rs 55,000 to 1,00,000 are where the value lies. Check the battery, the supervisor password and the keyboard.</p>
+<h2>Yoga</h2>
+<p>Thin, light, OLED. The Slim 7i Aura is our choice at Rs 1,65,000, and <a href="/reviews/lenovo-yoga-slim-7i-aura-edition-review-nepal">our review</a> explains its limits. The Yoga 9 convertible at about Rs 3,70,000 is gorgeous, with a soundbar hinge and 32GB, for people who want one beautiful object.</p>
+<h2>LOQ: the first gaming laptop to consider</h2>
+<p>The LOQ 15 with an RTX 5050 at its full 100W and an accurate screen at Rs 1,94,999 sets the standard. <a href="/reviews/lenovo-loq-15-2025-review-nepal">Read our review</a>. Other LOQs in shops range from an ageing RTX 2050 at Rs 1,81,900, which makes no sense, to an i7-13650HX with an RTX 5050 at Rs 3,31,900, which makes even less. There is one LOQ to buy, and it is the cheaper one.</p>
+<h2>Legion</h2>
+<p>The <a href="/products/lenovo-legion-5-15ahp10">Legion 5</a> at about Rs 2,60,000 has an RTX 5060 at high power with good cooling. Legion Pro models go up to the RTX 5090 at nearly Rs 7,74,000. For heat and noise, Legion is among the best of the gaming brands.</p>
+<h2>Who should buy which Lenovo</h2>
+<ul>
+<li><strong>School:</strong> IdeaPad Slim 3 with Core i3 and 8GB.</li>
+<li><strong>Bachelor student:</strong> V14 or IdeaPad Slim 5i with 16GB.</li>
+<li><strong>Computing:</strong> IdeaPad Slim 3 Ryzen 7 8840HS.</li>
+<li><strong>Office and travel:</strong> Yoga Slim 7i Aura.</li>
+<li><strong>Engineering, architecture, gaming:</strong> LOQ 15, then Legion 5.</li>
+<li><strong>Writers and coders on a budget:</strong> used ThinkPad.</li>
+</ul>
+<h2>Traps to avoid</h2>
+<ol>
+<li>4GB or 128GB in anything.</li>
+<li>TN screens on IdeaPad Slim 3 and V models. Tilt the lid and look.</li>
+<li>Old RTX 2050 laptops at new prices.</li>
+<li>Soldered 8GB in slim machines.</li>
+<li>Names without codes. Ask for the full code and look it up in Lenovo's PSREF documents.</li>
+</ol>
+<h2>PSREF: a gift to buyers</h2>
+<p>Lenovo publishes a specification reference for each model, with memory slots, screen options, battery sizes and ports. Search the model code with the word PSREF. It ends arguments in shops.</p>
+<h2>Vantage</h2>
+<p>Lenovo Vantage sets conservation mode (charging to 80 per cent), rapid charge, fan modes and updates. On Legion and LOQ, Fn+Q changes the performance mode. Purple or red is for games plugged in, white is for class.</p>
+<h2>Warranty</h2>
+<p>Lenovo's warranty can be checked by serial number, with country and dates. Official units in Nepal are covered by authorised service. Imported ones may be covered only where they were sold. Some warranties can be upgraded online within the period, sometimes cheaply. Batteries are covered for a year.</p>
+<h2>Upgrades</h2>
+<p>LOQ and Legion have two memory slots and two M.2 slots. IdeaPads vary. Yogas are fixed. Note that some Lenovos use short 2242 SSDs, so check the length before buying a drive.</p>
+<h2>Lenovo compared</h2>
+<p><strong>Acer</strong> is cheaper in plain machines. <strong>Asus</strong> has more OLED and more models. <strong>HP and Dell</strong> have stronger consumer service networks for offices. Lenovo leads in keyboards and gaming value.</p>
+<h2>Price behaviour</h2>
+<p>Gaming models follow graphics card prices, and IdeaPads follow memory. Both rose in 2026. Older LOQ stock with RTX 4050 sometimes falls below Rs 1,65,000 and is worth catching. Watch the <a href="/price-tracker">price tracker</a>.</p>
+<h2>Verdict</h2>
+<p>Lenovo is the brand where the code matters most. Choose the right one and you have the best laptop in your budget. Choose the wrong one and you have an N100. Now you know how to tell them apart. Compare across brands in our <a href="/guides/best-laptops-nepal-students-gamers">laptop guide</a>.</p>
+
+=== msi-laptop-price-in-nepal
+<h2>MSI's laptops in Nepal</h2>
+[[models:msi-modern-14-2024-intel-core-7-150u,msi-modern-15-h-2023-i5-13420h,msi-venture-14-ai-a1mg-core-ultra-5-125h,msi-cyborg-15-b2rwekg-core-7-240h-rtx-5050,msi-pulse-15-b13v-i7-13700h-rtx-4060-360hz,msi-stealth-16-ai-studio-intel-core-ultra-7-155h-rtx-4060,msi-vector-16-hx-ai-2025]]
+<h2>A gaming company with office clothes</h2>
+<p>MSI is known for graphics cards and motherboards, and its laptops follow from that: strong components, bold designs, and gaming at the centre. It also sells simple work laptops, some of which are among the best value in the country. The network of service is smaller than HP's or Asus's, and that is the main thing to weigh.</p>
+<h2>Names</h2>
+<p><strong>Modern</strong> and <strong>Venture</strong> are for study and work. <strong>Prestige</strong> and <strong>Summit</strong> are premium business. <strong>Cyborg</strong> and <strong>Katana</strong> are entry gaming. <strong>Pulse</strong> and <strong>Sword</strong> are the middle. <strong>Stealth</strong> is thin gaming. <strong>Vector</strong>, <strong>Raider</strong> and <strong>Titan</strong> are the heavyweights. <strong>Creator</strong> and <strong>Studio</strong> are for content work.</p>
+<h2>Modern 14: our favourite MSI</h2>
+<p>The <a href="/products/msi-modern-14-2024-intel-core-7-150u">Modern 14 F1MG with a Core 7 150U</a>, 16GB and 1TB at Rs 93,000 is hard to match. It weighs little and handles office work and code quickly. The screen is ordinary and the battery below 47Wh is average. Be careful: an older Modern 14 with a Core i5-1235U, 8GB and a 39Wh battery sits beside it at Rs 92,000. A thousand rupees separate a bargain from a poor buy.</p>
+<h2>Modern 15 and 15 H</h2>
+<p>The Modern 15 with 8GB at Rs 1,05,000 is overpriced. The <a href="/products/msi-modern-15-h-2023-i5-13420h">Modern 15 H</a> with an H-class processor and 16GB at about Rs 1,13,000 is stronger than most laptops at that price, good for computing students who work at a desk.</p>
+<h2>Venture 14 AI</h2>
+<p>A newer design with a Core Ultra 5 125H and a 16:10 screen at about Rs 1,20,000. The base has 8GB, so check for a slot. With 16GB it is a sensible modern laptop.</p>
+<h2>Summit and Prestige</h2>
+<p>The <a href="/products/msi-summit-e16-flip-evo-2023-i7-1360p-165hz">Summit E16 Flip</a> at Rs 1,95,000 is a large convertible with a 165Hz QHD+ screen and an 82Wh battery, an unusual and useful thing for people who present and sketch. The Summit E13 is small and neat. They are older stock, so negotiate and check the battery.</p>
+<h2>Cyborg and Katana</h2>
+<p>Cyborg 15 models with an RTX 5050 cost about Rs 2,15,000. The translucent plastic is fun, the graphics power is low: Cyborgs have traditionally limited the chip to 45W or so. The Lenovo LOQ with the same chip at 100W is cheaper and much faster. Ask for the TGP before looking at anything else. The Katana 15 with an RTX 4060 at Rs 2,09,000 is older and, if the wattage is above 100W, quicker in games.</p>
+<h2>Pulse</h2>
+<p>The <a href="/products/msi-pulse-15-b13v-i7-13700h-rtx-4060-360hz">Pulse 15</a> with an i7-13700H, RTX 4060 and a 90Wh battery at Rs 2,23,250 is an interesting older machine, with a 360Hz panel for competitive players. Compare it with the Nitro V 16 AI and Legion 5, which have newer chips.</p>
+<h2>Stealth 16 Studio</h2>
+<p>At Rs 2,60,000 the <a href="/products/msi-stealth-16-ai-studio-intel-core-ultra-7-155h-rtx-4060">Stealth 16</a> has 32GB, a QHD+ screen, a 99.9Wh battery and an RTX 4060 in a slim body. For creators who move, it is far cheaper than a Zephyrus and worth a serious look.</p>
+<h2>Vector</h2>
+<p>Vector models are desktop replacements. At Rs 6,10,000 to 6,25,000 the <a href="/products/msi-vector-16-hx-ai-2025">Vector 16 HX</a> is the lowest price for an RTX 5090 laptop in our catalogue. It is heavy, loud and extremely fast. It ships with 16GB in some versions, which is odd for such a machine, so budget for 32GB.</p>
+<h2>Who should buy which MSI</h2>
+<ul>
+<li><strong>Student, office, travel:</strong> Modern 14 with the Core 7.</li>
+<li><strong>Computing at a desk:</strong> Modern 15 H.</li>
+<li><strong>Presenter:</strong> Summit E16 Flip on discount.</li>
+<li><strong>Creator on the move:</strong> Stealth 16.</li>
+<li><strong>Maximum power:</strong> Vector.</li>
+<li><strong>Entry gaming:</strong> consider Lenovo and HP first.</li>
+</ul>
+<h2>The wattage lesson</h2>
+<p>MSI publishes the maximum graphics power on its specification pages. Use that. A thin or cheap model can carry an impressive chip at half power. In a shop, Nvidia Control Panel, System Information shows it.</p>
+<h2>MSI Center</h2>
+<p>It sets performance modes, fan speed and battery mode: balanced, for mobility or best for battery at 60 per cent. Use the last at a desk. On gaming models, Cooler Boost runs the fans at full. It is loud and useful for rendering.</p>
+<h2>Service in Nepal</h2>
+<p>MSI works through a distributor with service in Kathmandu. Parts for popular models are available, others are ordered. Ask about the warranty period, whether it is MSI's or the shop's, and register the product online. Keep the box.</p>
+<h2>Build and keyboard</h2>
+<p>Modern models are light with some flex. Gaming models are plastic with metal lids. Keyboards are good, some by SteelSeries on higher models. Webcams are ordinary.</p>
+<h2>Upgrades</h2>
+<p>Gaming MSIs usually have two memory slots and two M.2 slots. Modern models have some soldered memory with one slot, or are fixed. Check the exact code. Opening the case may break a factory seal, so ask the service centre first.</p>
+<h2>Old stock: good and bad</h2>
+<p>MSI shelves in Nepal hold models from 2022 to 2025. Old stock with strong specifications at a discount is a fine purchase. Ask for the manufacture date, run a battery report, and look for a warranty that starts on the day you buy.</p>
+<h2>MSI against others</h2>
+<p><strong>Asus:</strong> wider range, stronger service. <strong>Lenovo:</strong> better-value gaming. <strong>Acer:</strong> cheaper entry gaming. <strong>HP:</strong> more normal-looking. MSI wins with the Modern 14 F1MG, with big batteries on Stealth and Pulse, and at the very top for price.</p>
+<h2>Before you pay</h2>
+<ol>
+<li>Full model code.</li>
+<li>Memory: size, sticks, slots.</li>
+<li>Graphics power.</li>
+<li>Battery report.</li>
+<li>Warranty in writing.</li>
+</ol>
+<h2>Verdict</h2>
+<p>Most buyers should look at one MSI, the Modern 14 with the Core 7 150U. Creators should look at the Stealth 16. People who need an RTX 5090 already know what they are doing. For the rest, the alternatives in our <a href="/guides/best-gaming-laptops-nepal">gaming laptop guide</a> are easier to service and better value.</p>
+
+=== apple-laptop-price-in-nepal
+<h2>MacBooks side by side</h2>
+[[models:macbook-neo,macbook-air-m5-13,macbook-air-m5-15,macbook-pro-14-m5,macbook-pro-14-m5-pro,apple-macbook-pro-16-inch-m5-pro-2026]]
+<h2>Three ladders in one shop</h2>
+<p>For the first time Apple sells MacBooks at three clearly different levels. The <strong>Neo</strong>, from about Rs 1,33,499, is for study and writing. The <strong>Air</strong>, from about Rs 2,42,499, is for nearly all work. The <strong>Pro</strong>, from about Rs 3,65,000, is for people who export, compile and render for a living. Decide which of those you are before looking at colours.</p>
+<p>You will notice two listings for the same Pro in some places, such as the 14-inch M5 at Rs 3,64,999 and Rs 3,76,500. They come from different sellers and dates. Ask for the exact configuration, and compare the two.</p>
+<h2>MacBook Neo: for whom?</h2>
+<p>Students in non-technical courses, writers, teachers, parents and small businesses. It is silent, light and lasts all day. Its 8GB can never grow, and the base model has no Touch ID or keyboard backlight. <a href="/reviews/macbook-neo-review-nepal">Our review</a> helps you decide between 256GB and 512GB.</p>
+<h2>MacBook Air M5: the default</h2>
+<p>Sixteen gigabytes, a superb screen and enough power for photo work, web development and 4K editing of short films. The 13-inch is the better traveller. The 15-inch costs about Rs 37,500 more, with the same speed and a larger display, and is kinder to people who work in spreadsheets. <a href="/reviews/macbook-air-m5-13-review-nepal">Our review</a> names it the best laptop for most people with the budget.</p>
+<h2>MacBook Pro: what the money adds</h2>
+<p>A fan, so it keeps its speed. An XDR display that is far brighter, with 120Hz. More ports, including HDMI and an SD slot. Better speakers. Longer battery life. With M5 Pro and Max, more cores, more memory and faster video engines. If you do not export or render at least weekly, you will not use what you paid for.</p>
+<h2>M5, M5 Pro or M5 Max?</h2>
+<p><strong>M5</strong> is right for developers, photographers and short-form video. <strong>M5 Pro</strong> is for multicam 4K, large code bases, many virtual machines and several displays. <strong>M5 Max</strong> is for 3D, 8K, heavy effects and local AI models with large memory. Each step costs more than a lakh here. Let a slow task in your present work decide, and not ambition.</p>
+<h2>Memory: buy once</h2>
+<p>Unified memory is shared by processor and graphics and cannot be changed. 16GB is comfortable for most. 24GB is right for developers with Docker and for photographers with large catalogues. 36GB and above for professionals. On the Neo, 8GB is what there is.</p>
+<h2>Storage: buy outside</h2>
+<p>Apple charges a great deal for internal storage. 512GB inside, with a 1 or 2TB external SSD on USB-C, is the sensible combination. See <a href="/products?category=storage">storage prices</a>.</p>
+<h2>M6 and the OLED MacBook Pro</h2>
+<p>Apple has announced newer Pros that are not officially in Nepal yet. The estimated prices and whether to wait are covered in <a href="/news/macbook-pro-m6-oled-macbook-pro-expected-price-nepal">this article</a>. If your Mac works, waiting a couple of months may bring a newer chip or a cheaper M5.</p>
+<h2>Will my software run?</h2>
+<p>Most will. Office, Google tools, Adobe, AutoCAD for Mac, MATLAB, SPSS, Python, web tools. Some will not: Tally and several Nepali accounting programs, ETABS and SAP2000, SolidWorks, Revit, certain government signing drivers and Windows-only exam software. Parallels can run Windows for Arm, at extra cost and with its own limits. Make a list before you buy.</p>
+<h2>Nepali typing</h2>
+<p>macOS includes Devanagari keyboards, romanised and traditional. Preeti and other legacy fonts can be installed, though documents in those fonts need converters for sharing. Unicode works perfectly.</p>
+<h2>Buying official</h2>
+<p>Authorised resellers sell with a VAT bill and a proper warranty. Apple's one-year limited warranty on Macs is generally honoured internationally through authorised service, which makes a Mac safer to import than a phone. Check the serial at checkcoverage.apple.com. Keyboard layout, plug and language are the usual differences. A US layout is the most common here.</p>
+<h2>Used MacBooks</h2>
+<p>An M1 Air at Rs 75,000 to 95,000, an M2 Air at Rs 1 to 1.3 lakh and an M1 Pro 14-inch at Rs 1.6 to 2 lakh are all good computers in 2026. Prefer 16GB. Check:</p>
+<ul>
+<li>Battery cycles and condition in System Information.</li>
+<li>Activation Lock: erase it and set it up in front of the seller.</li>
+<li>No MDM profile from a company or school. Look for "remote management" during set-up.</li>
+<li>Keyboard, trackpad, screen coating, hinge, ports, speakers.</li>
+<li>Liquid marks and dented corners.</li>
+</ul>
+<p>Avoid Intel MacBooks now. They are hot, slow by comparison and near the end of support.</p>
+<h2>Repairs</h2>
+<p>Screens and logic boards are expensive, and liquid damage is not covered. Use a sleeve, keep tea away, and never close the lid on anything, not even a thin webcam cover. Batteries can be replaced by authorised providers in a few days.</p>
+<h2>EMI and education offers</h2>
+<p>Resellers offer zero-interest EMI through banks and occasional student discounts. Ask for the cash price too. On Rs 2,42,499, twelve months is about Rs 20,208 a month before fees.</p>
+<h2>Cost over time</h2>
+<p>A MacBook Air kept six years and sold for a quarter of its price costs about Rs 2,500 a month. A Rs 1,00,000 Windows laptop kept four years and sold for little costs about Rs 1,900. The gap is smaller than the stickers suggest, and it buys battery life, screen and quiet.</p>
+<h2>Mac or Windows?</h2>
+<p>Choose a Mac for battery, build, video and music work, and life with an iPhone. Choose Windows for games, engineering, local accounting, upgrades and price. There is no winner, only a list of programs.</p>
+<h2>First-day set-up</h2>
+<ol>
+<li>Update macOS.</li>
+<li>Turn on FileVault and Find My.</li>
+<li>Set up Time Machine to an external drive.</li>
+<li>Install a window manager and Rectangle-style shortcuts if you come from Windows.</li>
+<li>Leave optimised charging on.</li>
+</ol>
+<h2>Our shortlist</h2>
+<ul>
+<li><strong>Study and writing:</strong> Neo 512GB, or a used M2 Air with 16GB.</li>
+<li><strong>Most professionals:</strong> Air M5 13-inch.</li>
+<li><strong>Spreadsheets and design:</strong> Air M5 15-inch.</li>
+<li><strong>Paid video and code:</strong> Pro 14 M5 or M5 Pro.</li>
+</ul>
+<p>For alternatives at each budget, see <a href="/guides/best-laptops-nepal-students-gamers">best laptops in Nepal</a>.</p>

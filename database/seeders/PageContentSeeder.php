@@ -31,6 +31,7 @@ class PageContentSeeder extends Seeder
                     'method'  => [
                         ['title' => 'Prices', 'text' => 'We record prices from shops, distributors and brand announcements in Nepal, with the date we saw them. Prices change often, so check with the shop before you buy.'],
                         ['title' => 'Reviews', 'text' => 'Our reviews are based on specifications, Nepal prices and published test results. When we have not tested a device ourselves, the review says so.'],
+                        ['title' => 'Partners', 'text' => 'ONIN Infosys is our business partner. Buy buttons often lead to its shop, and some product photos and prices come from it. We name it wherever that is the case.'],
                         ['title' => 'Corrections', 'text' => 'If a price or specification is wrong, tell us through the contact page and we will check it.'],
                     ],
                 ],

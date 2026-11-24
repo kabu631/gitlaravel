@@ -1,0 +1,509 @@
+=== samsung-ncell-partnership-galaxy-offers-nepal replace
+<p>Samsung Nepal and Ncell have joined hands on a set of offers meant to move people from feature phones to 4G, and to make Galaxy phones easier to pay for. Some of it is marketing. Some of it can save you real money if it matches what you were going to buy anyway. Here is each part, what it is worth, and the questions to ask before you sign.</p>
+<h2>The offers in brief</h2>
+<ul>
+<li><strong>2G to 4G exchange.</strong> Bring an old feature phone and receive a bonus of Rs 5,000 on a selected smartphone. Monthly payments begin at about Rs 1,221.</li>
+<li><strong>Long EMI.</strong> Plans of 24 to 36 months through Hulas Fin Serve, with 20 per cent down, starting at around Rs 5,106 a month on costlier models.</li>
+<li><strong>Extra warranty and exchange bonus.</strong> Up to Rs 10,000 more for your old phone, plus an additional year of warranty, on selected Galaxy Z and S models.</li>
+<li><strong>Data packs.</strong> Up to 12 months of Ncell's Rs 799 pack on Z and S phones, and nine months of the Rs 449 pack on A and M phones.</li>
+<li><strong>App-based valuation.</strong> A tool called PhoneShield used at service centres and selected stores to check a phone before exchange.</li>
+</ul>
+<p>Offers of this sort change by month and by store. Treat the figures as the shape of the programme and confirm the detail at the counter.</p>
+<h2>Is the free data worth what they say?</h2>
+<p>Twelve packs of Rs 799 come to Rs 9,588 on paper. Their worth to you depends on your habits. If you already buy that pack every month, it is real cash in your pocket. If you use Wi-Fi all day and buy a Rs 200 pack twice a month, the value is closer to Rs 400 a month. If your main SIM is from NTC, it is worth whatever you would pay for a second line, which may be nothing.</p>
+<p>There are conditions to look for. The packs are usually credited month by month, must be activated by a date, and may be tied to the number registered at purchase. Ask what happens if you miss a month.</p>
+<h2>Rs 5,000 for a feature phone</h2>
+<p>This is the most generous part for the people it targets. A keypad phone that works sells for a few hundred rupees. Getting Rs 5,000 for it against a 4G smartphone is a real subsidy, provided the smartphone's price has not been raised to pay for it. Check the normal price on our product pages first. A <a href="/products/samsung-galaxy-a07">Galaxy A07</a> has been about Rs 25,499. If the exchange brings it close to Rs 20,000, take it.</p>
+<p>Before handing in the old phone, copy its contacts to the SIM or write them down, remove the memory card and delete messages. It may go to recycling, and recycling does not mean that the data is destroyed.</p>
+<h2>Thirty-six months is a long time</h2>
+<p>Long plans make a flagship look affordable. Take the <a href="/products/samsung-galaxy-s26">Galaxy S26</a> at Rs 1,39,999. With 20 per cent down you pay Rs 28,000 on the day and finance Rs 1,12,000. Over 36 months at an ordinary finance rate, the total interest can be Rs 20,000 or more, though the monthly amount looks gentle. Three questions decide whether the plan is good:</p>
+<ol>
+<li>What is the total of all payments, including the fee?</li>
+<li>Is the cash price the same, or is there a discount that EMI buyers lose?</li>
+<li>What happens if a payment is late or the phone is stolen?</li>
+</ol>
+<p>The last one matters in the third year. You may still be paying for a phone that is broken. For that reason we prefer plans of twelve months, or eighteen at most, and a phone whose price lets you manage that. The EMI estimate on our product pages shows the monthly figure for different periods.</p>
+<h2>An extra year of warranty</h2>
+<p>For a Galaxy Z this is the best item on the list. Foldables have more to go wrong, and a hinge or an inner screen outside warranty costs a large part of the phone. Read what the second year covers. Manufacturing faults are normal, accidents usually not. Ask whether the extension is registered in Samsung's system by IMEI and can be seen in the Members app. A stamp on paper is weaker.</p>
+<h2>How valuation apps work</h2>
+<p>PhoneShield and similar tools test the screen, touch, cameras, buttons, speakers, battery and connectivity, look at the model and storage, and offer a price. They bring some fairness, since the figure no longer depends on the mood of the person at the counter. They also find faults you have stopped noticing: a dead microphone, a swollen battery, a line on the screen.</p>
+<p>Before you go, clean the phone, charge it, remove the case and the cracked protector, and sign out of your accounts. Look up private sale prices for your model. A clean phone often fetches 15 to 25 per cent more in a private sale, at the cost of time and some risk. Exchange is worth it when the bonus closes that gap.</p>
+<h2>AI features on cheaper phones</h2>
+<p>Part of the campaign promotes Galaxy AI on models such as the <a href="/products/samsung-galaxy-a17-5g">Galaxy A17 5G</a>. Be clear about what that means. Budget phones get a short list, for example Circle to Search and some assistant features, most of which need the internet. Call translation, generative photo editing and note summaries belong to the S and Z series and some higher A models. If a seller mentions AI, ask to see the feature working on the phone in question.</p>
+<h2>Who benefits most</h2>
+<ul>
+<li><strong>Families moving a parent from a keypad phone.</strong> The exchange bonus is excellent.</li>
+<li><strong>Ncell users who already buy monthly packs.</strong> The data is close to its face value.</li>
+<li><strong>Foldable buyers.</strong> The warranty is worth having.</li>
+</ul>
+<h2>Who benefits least</h2>
+<ul>
+<li>People who mainly use NTC.</li>
+<li>Cash buyers who can bargain for a discount in place of gifts.</li>
+<li>Anyone who would stretch to a costlier phone because the instalment looks small.</li>
+</ul>
+<h2>What about the 4G argument?</h2>
+<p>Operators want customers off 2G for good reasons. Old networks occupy valuable frequencies and serve few people well. VoLTE calls on 4G are clearer and connect faster. For users, the change brings wallets, video calls with children abroad and government services. It also brings scams. If you are setting up a first smartphone for an older relative, take an hour to turn on automatic updates and Play Protect, block unknown app installs, put a lock on the wallet app, and explain that nobody from a bank ever asks for an OTP.</p>
+<h2>Compare before you accept</h2>
+<p>A package of gifts can hide a higher price. Take the final amount you would pay, subtract only the things you would have bought anyway, and compare the result with the same phone at two other shops and with rivals. At Rs 45,000, for example, a <a href="/products/redmi-note-15-5g">Redmi Note 15 5G</a> or <a href="/products/moto-g96">Moto G96</a> offers stronger hardware without any gifts. At Rs 1.4 lakh, so do several others. Samsung's advantages are support and service, and those do not depend on this campaign.</p>
+<h2>Questions to take to the counter</h2>
+<ol>
+<li>Which of these offers apply to this exact model in this shop today?</li>
+<li>Can exchange, bank discount and data offers be used together?</li>
+<li>How and when is the data credited, and to which number?</li>
+<li>Is the phone an official Nepali unit, registered in MDMS?</li>
+<li>May I have the conditions in writing on the bill?</li>
+</ol>
+<h2>Our take</h2>
+<p>It is a useful programme for two groups: people leaving feature phones and people who were about to buy a premium Galaxy on an Ncell number. For others it is a pleasant extra at best. Choose the phone first, with our <a href="/guides/best-phones-in-nepal-by-budget">guide to phones by budget</a>, and then see which offers fall into your lap. Doing it the other way round is how people end up with a phone they did not want and a pack they do not use.</p>
+
+=== huawei-osta-1-pro-new-brand-wide-screen-phone replace
+<p>Huawei has started a new line called OSTA, and its first phone looks like nothing else on the shelf. The OSTA 1 Pro is short and very wide. Where nearly every phone since 2017 has been tall and narrow, this one is closer to a passport. It has been announced in China, with no word about Nepal, but the idea is worth understanding, because shapes that succeed in China tend to spread.</p>
+<h2>What has been announced</h2>
+<table><thead><tr><th>Item</th><th>OSTA 1 Pro</th></tr></thead><tbody>
+<tr><td>Display</td><td>6.39-inch OLED, 2232 × 1320, 120Hz, 16:9.5 shape</td></tr>
+<tr><td>Size</td><td>144.1 × 87 × 6.68mm, about 200g</td></tr>
+<tr><td>Cameras</td><td>200MP main, 50MP periscope telephoto</td></tr>
+<tr><td>Battery</td><td>7,000mAh, 66W wired, 50W wireless</td></tr>
+<tr><td>Protection</td><td>IP68 and IP69</td></tr>
+</tbody></table>
+<p>The closest relative is Huawei's own Pura X View, and the two share a lot. OSTA appears to be Huawei's way of selling the idea under a fresh name to a younger audience.</p>
+<h2>Why a wide phone?</h2>
+<p>Tall screens are good for scrolling. They are poor for nearly everything else. A 16:9 video on a tall phone leaves black bars at both ends. A PDF page must be zoomed. Two apps side by side are ribbons. A spreadsheet shows three columns.</p>
+<p>A wide screen gives a page, a map or a video more room without folding. At 87mm across, the OSTA shows an A5 page at a comfortable size. Reading news, marking a document, following a map while riding in a taxi and watching a film all improve. In some ways it offers half of what a foldable offers, without a hinge and at less weight.</p>
+<h2>And why not?</h2>
+<p>Hands. The average adult can wrap fingers around about 75mm. Above 80mm, one-handed typing becomes a stretch, and 87mm is wider than any ordinary phone sold in Nepal. You will use it with two hands, like a small tablet. Trouser pockets designed for narrow phones may object. Cases and protectors will be scarce. And apps made for tall screens may look stretched until developers adapt them.</p>
+<p>People with large hands, readers and those who keep a phone in a bag will not mind. Commuters holding a handle on a bus will.</p>
+<h2>Battery and charging in a thin body</h2>
+<p>Seven thousand milliampere-hours in a 6.68mm body shows how far silicon-carbon cells have come. A conventional battery of that capacity would need a phone two millimetres thicker. Wired charging at 66W and wireless at 50W are both quick, though you need Huawei's own chargers to see those figures. For a screen of this size, a day and a half of ordinary use is a fair expectation.</p>
+<h2>Cameras</h2>
+<p>Huawei has made some of the best phone cameras of the past decade. A 200MP main sensor with a 50MP periscope suggests that the OSTA is not a cheap experiment. We have no measurements and no pictures of our own to judge, so anything more would be guesswork.</p>
+<h2>The software question</h2>
+<p>Huawei phones sold in China run HarmonyOS, and those sold elsewhere run EMUI. Neither includes Google's services. In practice that means no Play Store, no built-in Google Maps, Gmail or YouTube apps, and banking or wallet apps that may refuse to start. There are workarounds, including Huawei's AppGallery, the Aurora Store and tools that imitate Google's services. Some people live with them happily. For a Nepali user who depends on eSewa, Khalti, a bank's app and Google Maps, it is a risk to check in advance, app by app.</p>
+<p>The newest Chinese version, HarmonyOS without Android inside, cannot run Android apps at all except through a compatibility layer. A phone imported from China with that system would be a poor choice here, whatever its hardware.</p>
+<h2>Will it come to Nepal?</h2>
+<p>Huawei has not announced it. The company sells watches, bands, earbuds and some other devices here, and its phones have been rare for years. If the OSTA line goes global, it would probably appear first in the Middle East and South-East Asia. Importers may bring a few units. If you see one, remember that it will have no local warranty, must be registered in MDMS, and may miss some of the network bands used by Ncell and NTC. Screens for such a shape will be impossible to find on New Road.</p>
+<h2>What to buy if you like the idea</h2>
+<p><strong>A book-style foldable.</strong> The <a href="/products/samsung-galaxy-z-fold-7">Galaxy Z Fold 7</a> gives you an ordinary phone outside and a wide screen inside, with Google services and service centres. It costs more than three times what a good phone costs.</p>
+<p><strong>A large ordinary phone.</strong> The <a href="/products/redmi-17-5g">Redmi 17 5G</a> with its 6.9-inch screen is cheap and good for maps. It is still tall.</p>
+<p><strong>A small tablet.</strong> The 8.7-inch <a href="/products/samsung-galaxy-tab-a11">Galaxy Tab A11</a> at about Rs 22,000 reads pages and plays films better than any phone, beside whichever phone you already own. For most readers it is the practical answer.</p>
+<h2>Big batteries you can buy now</h2>
+<p>If the 7,000mAh battery is what caught your eye, the Nepali market is full of them. The <a href="/products/honor-x8d">Honor X8d</a> costs about Rs 40,000, the <a href="/products/oneplus-nord-ce-5">OnePlus Nord CE5</a> about Rs 60,000, and the <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a> reaches 10,000mAh at about Rs 70,000. All have Google's services and local warranty.</p>
+<h2>A short history of odd shapes</h2>
+<p>Wide phones have been tried before. BlackBerry's square Passport of 2014 was loved by a few and bought by fewer. LG made phones with a 4:3 screen. Microsoft's Surface Duo folded two wide screens together. Each failed for a similar reason: apps were not designed for them, and people would not hold them in public for long. Two things are different today. Foldables have pushed developers to support many shapes, and video is what most people do on a phone. Perhaps the time has come. Perhaps it will join the museum.</p>
+<h2>What it would need to succeed here</h2>
+<ul>
+<li>Google services, or dependable access to banking and wallet apps.</li>
+<li>A price below Rs 1 lakh.</li>
+<li>Screens and parts held by a distributor.</li>
+<li>A case with a grip.</li>
+</ul>
+<p>The first point is political and unlikely to change soon. That alone makes a large launch in Nepal improbable.</p>
+<h2>Huawei products that make sense in Nepal</h2>
+<p>It would be unfair to leave the impression that Huawei has nothing for you. Its watches are among the best fitness watches sold here, as our <a href="/reviews/huawei-watch-gt-6-review-nepal">Watch GT 6 review</a> explains. The <a href="/products/huawei-band-10">Band 10</a> is an excellent cheap tracker, and the FreeBuds earbuds are good. They work with any Android phone and with iPhones, and do not depend on Google's services on Huawei's side.</p>
+<h2>Our view</h2>
+<p>We like that somebody is still experimenting. A phone that treats reading and video as its main work is an honest idea in 2026. As a purchase for Nepal, the OSTA 1 Pro is for collectors with a second phone in the other pocket. Enjoy it as news, and watch whether Xiaomi, OPPO or vivo copy the shape. If one of them does it with Google services and a service centre in Pokhara, we will be the first to try it with two hands.</p>
+
+=== xiaomi-18-pro-snapdragon-8-elite-gen-6-launch replace
+<p>Xiaomi has launched the 18 Pro and the larger 18 Pro Max, starting in Europe. The 18 Pro is the first phone with Qualcomm's Snapdragon 8 Elite Gen 6, the company's first flagship chip on a 2nm process. It is also something rarer in 2026: a top phone with a 6.4-inch screen and a 6,000mAh battery. Below is what has been announced, what it means in practice, and whether a buyer in Nepal should wait.</p>
+<h2>The announced specification</h2>
+<table><thead><tr><th>Item</th><th>Xiaomi 18 Pro</th></tr></thead><tbody>
+<tr><td>Display</td><td>6.4-inch LTPO AMOLED, 120Hz, up to 4,000 nits, hardware privacy mode</td></tr>
+<tr><td>Chip</td><td>Snapdragon 8 Elite Gen 6 (2nm)</td></tr>
+<tr><td>Cameras</td><td>Leica-tuned, two 200MP sensors, 3.2x periscope with 10cm close focus</td></tr>
+<tr><td>Battery</td><td>6,000mAh silicon-carbon, 90W wired, 50W wireless</td></tr>
+<tr><td>Body</td><td>8.46mm and 198g (Cosmic Blue 8.56mm and 203g)</td></tr>
+</tbody></table>
+<h2>What 2nm does for you</h2>
+<p>A smaller process lets a chip do the same work with less energy, or more work with the same. Phone makers usually take some of each. In daily life the first is what you notice: cooler video calls, longer navigation, a battery that lasts an hour or two more. Peak speed rises as well, and it is wasted on messaging. Gamers get something in between, as the phone can hold a high frame rate for longer before heat forces it to slow down.</p>
+<p>Compared with the Snapdragon 8 Elite Gen 5 in this year's flagships, the step should be pleasant and not dramatic. Compared with an 8 Gen 2 or older, it will be large. Our explainer on <a href="/news/snapdragon-8-gen-4-debut-qualcomm-summit-2024">Qualcomm's chip names</a> puts them in order.</p>
+<h2>A small flagship with a big battery</h2>
+<p>Compact phones have always asked for a sacrifice. The Galaxy S26 has 4,300mAh, the iPhone 17 less than that on paper. At 6,000mAh, a phone of nearly the same size would last perhaps a third longer. For people who gave up small phones because they died at five in the afternoon, this is the interesting part of the announcement.</p>
+<p>The trick is silicon-carbon. It stores more energy in the same volume. Early concerns about ageing have eased as brands have shipped tens of millions of such cells, though we would still use the 80 per cent charge limit on nights at home.</p>
+<h2>Two 200MP cameras</h2>
+<p>Megapixels by themselves mean little. What a 200MP sensor behind a periscope gives is freedom to crop. At 3.2x the lens frames a portrait nicely. By taking the middle of the sensor, the phone can offer something like 6x with good detail, and more with processing. The ability to focus at 10cm turns the same lens into a macro camera, useful for flowers, food, documents and jewellery, and far better than the 2MP macro lenses on cheap phones.</p>
+<p>Leica's part is tuning: contrast, colour and vignetting that many photographers like. You can switch between an authentic and a vibrant look. People who want bright, flattering faces straight from the camera may prefer vivo or Samsung.</p>
+<h2>The privacy display</h2>
+<p>At a touch, the screen can narrow its viewing angles, so that the person beside you sees little. Samsung introduced a similar idea with the S26 Ultra. On a full microbus, in an office with an open plan or in a bank queue, it is more useful than it sounds. It may lower brightness a little when on. Being built into the panel, it can be applied only to certain apps or parts of the screen, and it can be turned off, which a stick-on film cannot.</p>
+<h2>Nepal price and timing</h2>
+<p>There is no official price. The catalogue entry on our <a href="/products/xiaomi-18-pro">product page</a> carries an estimate of about Rs 1,89,999, and it will be replaced when Xiaomi Nepal announces one. The present flagship here, the <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a>, costs Rs 1,99,999. Xiaomi has brought its flagships to Nepal some months after their global launch, in limited numbers and sometimes only one version. It has also skipped models, so nothing is certain.</p>
+<h2>Should you wait for it?</h2>
+<p><strong>Yes, if</strong> you want a compact flagship with a strong battery, your phone still works, and you can live with uncertainty for several months.</p>
+<p><strong>No, if</strong> you need a phone this season. Good compact choices exist. The <a href="/products/oneplus-13s">OnePlus 13s</a> at about Rs 1,20,000 has a 6.32-inch screen and 5,850mAh. The <a href="/products/honor-600-pro">Honor 600 Pro</a> at about Rs 1,30,000 has a 6.57-inch screen, 7,000mAh and a telephoto. The <a href="/products/samsung-galaxy-s26">Galaxy S26</a> has the best support.</p>
+<h2>Xiaomi 17T and 17 Ultra in the meantime</h2>
+<p>The <a href="/products/xiaomi-17t">Xiaomi 17T</a> at about Rs 93,000 brings Leica tuning and strong performance for half the price of a flagship. The 17 Ultra is the camera specialist, with a one-inch class sensor, and <a href="/reviews/xiaomi-17-ultra-review-nepal">our review</a> explains who it suits. When the 18 series arrives, both should fall. If you want the Ultra, patience will be rewarded.</p>
+<h2>Grey imports from Europe and China</h2>
+<p>Units will appear in Kathmandu before any official launch. European versions have Google services and many languages, and Chinese ones have HyperOS for China, with Google services that can be enabled, notifications that arrive late and no local warranty. Network bands differ. MDMS registration is needed in every case. For a phone near two lakhs, the saving does not cover the risk for most people. If you go ahead, check the model code on the box, test VoLTE with your SIM in the shop, and confirm that the IMEI is registered before paying.</p>
+<h2>HyperOS: the part that has not changed</h2>
+<p>Xiaomi's software is fast, full of options and busy. Expect extra apps to remove, recommendations to switch off and permissions to review. Support for flagships has improved to several Android versions and around six years of patches. Samsung and Google still lead. If you keep a phone for four years, Xiaomi's promise is enough.</p>
+<h2>How it may compare with the Galaxy S27 and iPhone 18</h2>
+<p>The small Galaxy S27 is expected in the first months of 2027 with the same generation of chip in some regions. It will have Samsung's support, and reports suggest only a modest battery increase. The iPhone 18 is expected in spring. On hardware, the Xiaomi looks stronger than both. On resale, service and longevity, it will be weaker. That is the usual trade, only with a better battery than usual.</p>
+<h2>What we would like to know</h2>
+<ul>
+<li>How quickly it slows in a forty-minute game.</li>
+<li>Whether the privacy mode dims the screen outdoors.</li>
+<li>How the telephoto handles indoor light.</li>
+<li>Whether Nepal will get 12GB/256GB or only a costlier version.</li>
+</ul>
+<p>We have not used the phone, and we will not pretend otherwise. When there is a local unit and a local price, this page and the product page will be updated.</p>
+<h2>In short</h2>
+<p>A compact body, a large battery, two high-resolution cameras and the newest chip make the 18 Pro one of the most appealing announcements of the year. For Nepal it is, for now, a reason to watch prices of the 17 series, and a hint about what every flagship will look like in 2027. If small phones are your thing, be glad that someone is still making them properly.</p>
+
+=== oppo-reno-17-launched-8000mah-battery replace
+<p>OPPO has launched the Reno 17 in China. The Reno line has always been about portraits and slimness, and the new model keeps both while adding something nobody expected from it: an 8,000mAh battery in a phone with a 6.56-inch screen. Here is what has been announced, how it differs from the Renos sold in Nepal, and what to do if you were about to buy one.</p>
+<h2>Announced specification</h2>
+<table><thead><tr><th>Item</th><th>OPPO Reno 17</th></tr></thead><tbody>
+<tr><td>Display</td><td>6.56-inch 1.5K flat panel, 120Hz</td></tr>
+<tr><td>Chip</td><td>Snapdragon 7 Gen 4</td></tr>
+<tr><td>Memory and storage</td><td>Up to 12GB and 1TB</td></tr>
+<tr><td>Rear cameras</td><td>Three 50MP cameras, including a 3.5x periscope; 4K at 60 frames</td></tr>
+<tr><td>Battery</td><td>8,000mAh, 80W wired charging</td></tr>
+<tr><td>Software and build</td><td>ColorOS 17, metal frame, glass back</td></tr>
+</tbody></table>
+<p>There is also a special edition with a three-dimensional cat on the back, and an accessory called the OPPO Bubble, a small magnetic screen that clips behind the phone so you can see yourself while using the main cameras for a selfie. It is sold separately.</p>
+<h2>Why 8,000mAh in this size matters</h2>
+<p>Look at what is on sale. Phones with 8,000mAh or more, such as the Honor X9d or the Redmi Note 17 Pro, are large, with screens of 6.8 inches and weights above 210 grams. A 6.56-inch phone usually has 5,000 to 6,500mAh. Smaller screens also use less power. Put the two together and you have a phone that should last two days for many people and still fit a small hand.</p>
+<p>This is the direction of the whole industry. Silicon-carbon batteries are becoming denser every year, and it is reasonable to expect mid-range phones in 2027 to make today's 5,000mAh models look old.</p>
+<h2>Three real cameras</h2>
+<p>Many phones at this level have one good camera and two decorations. Here all three are 50MP, and one is a 3.5x periscope. For portraits that is the most useful lens on a phone. A face photographed from two metres with a longer lens has natural proportions, and the background falls away without artificial blur. The ultra wide at 50MP should hold detail in groups and landscapes, where 8MP lenses turn faces to mush.</p>
+<p>If OPPO brings its colour tuning from the Find series, the Reno 17 could be the portrait phone to beat below flagship prices. We say could because no one outside the launch has used it for long.</p>
+<h2>The chip: sensible</h2>
+<p>The Snapdragon 7 Gen 4 is a solid mid-range part. Everyday use is smooth, games run at medium to high, and efficiency is good. It does not compete with the 8s Gen 4 in a POCO F7 or the 8 Gen 5 in a OnePlus 15R. If Nepal's price lands near that of the Reno 16, at about Rs 1,10,000, the phone will be slower than rivals by a wide margin. Reno buyers rarely mind, and heavy gamers should know.</p>
+<h2>What is on sale in Nepal now</h2>
+[[models:oppo-reno-16-5g,oppo-reno-16f-5g,oppo-reno-15-f,oppo-find-x9-pro]]
+<p>The <a href="/products/oppo-reno-16-5g">Reno 16</a> is the direct predecessor, and the <a href="/products/oppo-reno-16f-5g">Reno 16F</a> is the cheaper branch with a 7,000mAh battery. The <a href="/products/oppo-reno-15-f">Reno 15 F</a> is older and cheaper still, and <a href="/reviews/oppo-reno-15-f-review-nepal">our review</a> discusses its confusing specification. And for not much more than a Reno 16, the <a href="/products/oppo-find-x9-pro">Find X9 Pro</a> offers a proper flagship chip and camera at about Rs 1,26,000. That is a strange overlap in OPPO's own range, and a good one for buyers.</p>
+<h2>When might it reach Nepal?</h2>
+<p>No date has been given. OPPO has usually brought the Reno series to Nepal a few months after China, following India. Models change on the way. The global Reno may have a smaller battery for shipping reasons, a different chip, or a missing camera. In past generations the Indian and Chinese versions have differed noticeably. So wait for the specification of the Nepali unit before getting attached to 8,000mAh.</p>
+<h2>Why batteries sometimes shrink on the way</h2>
+<p>Rules for transporting lithium cells become stricter when a single cell exceeds 20 watt-hours. At about 3.8 volts, that is a little over 5,200mAh. Makers get around it with two cells in one pack, which adds cost and takes space. For Europe and the United States in particular, brands often choose a smaller battery. South Asian models have more often kept the full size. Nepal usually follows the Indian version.</p>
+<h2>Should you wait?</h2>
+<p><strong>Wait if</strong> you like compact phones, take portraits and want long battery life, and your current phone can last until spring.</p>
+<p><strong>Do not wait if</strong> you need a phone now. For portraits, the <a href="/products/nothing-phone-4a">Nothing Phone 4a</a> already has a 3.5x periscope at Rs 69,999. For battery, the <a href="/products/honor-x9d">Honor X9d</a> has 8,300mAh at Rs 54,999. For a compact phone with a big battery and a strong camera, the <a href="/products/honor-600">Honor 600</a> at about Rs 85,000 has 7,000mAh and 200MP. For OPPO's own best camera, the Find X9 Pro.</p>
+<h2>What it means for Reno 16 prices</h2>
+<p>When the successor lands, dealers will want to clear the Reno 16. OPPO shops are generous with exchange bonuses, accessories and cash discounts at such times. At Rs 1,10,000 the Reno 16 is hard to justify against the Find X9 Pro. At Rs 85,000 to 90,000 it becomes a nice portrait phone. If you like it, let them know that you know about the 17.</p>
+<h2>The Bubble and other ideas</h2>
+<p>A clip-on screen for selfies is a clever answer to an old problem: the best cameras are on the back, and you cannot see yourself. Vloggers might love it. It must be charged, carried and paid for, and a small mirror does part of the job for Rs 100. If it ever comes to Nepal, try it before buying.</p>
+<h2>ColorOS 17</h2>
+<p>OPPO's software is one of the smoothest on Android, and recent versions have good privacy tools and links with Windows and Mac. It includes bundled apps and a feed that you should switch off. Update promises on the Reno series are moderate, commonly a few Android versions with longer security patches. Ask for the figure for the model sold here.</p>
+<h2>Service and resale</h2>
+<p>OPPO has an established service network and reasonable parts prices. Resale is average. Renos lose value faster than Samsung's phones and more slowly than POCOs. A curved or unusual screen costs more to replace, and a flat panel, as on the Reno 17, is good news for repair bills and for cheap protectors.</p>
+<h2>Our view</h2>
+<p>The Reno 17 fixes the two complaints we have had about the line: ordinary batteries and weak secondary cameras. If the global model keeps them and the price stays near Rs 1 lakh, it will be the Reno to recommend. If the battery shrinks and the price grows, it will be another pretty phone. We will add it to the catalogue with confirmed details when OPPO Nepal announces it. Until then, see <a href="/guides/oppo-phone-price-in-nepal">current OPPO prices in Nepal</a>.</p>
+
+=== redmagic-12-pro-coming-to-nepal-december replace
+<p>The REDMAGIC 12 Pro, a gaming phone from Nubia, has been launched globally and is expected in Nepal in December. It is not a normal phone with a sporty sticker. It has a fan inside, a screen without a camera hole and a chip pushed past the speeds other makers allow. For a certain kind of player it will be the most desirable object in the country. For everybody else it is a lesson in what such devices give up. Here is how to tell which you are.</p>
+<h2>What has been announced</h2>
+<table><thead><tr><th>Item</th><th>REDMAGIC 12 Pro</th></tr></thead><tbody>
+<tr><td>Chip</td><td>Snapdragon 8 Elite Extreme Gen 6 (2nm), up to 5.0GHz, with RedCore R5 gaming chip</td></tr>
+<tr><td>Cooling</td><td>Dual-loop liquid system and a 25,500rpm internal fan</td></tr>
+<tr><td>Display</td><td>6.85-inch 1.5K AMOLED, 185Hz, under-display front camera</td></tr>
+<tr><td>Battery</td><td>8,400mAh, 80W wired and wireless charging</td></tr>
+<tr><td>Memory</td><td>Up to 16GB and 1TB</td></tr>
+<tr><td>Cameras</td><td>Dual 50MP on the back</td></tr>
+</tbody></table>
+<p>The price in Nepal has not been announced. Gaming phones of this class have generally landed between Rs 1.1 and 1.6 lakh depending on memory, so plan around that and wait for the official number.</p>
+<h2>Why a fan inside a phone?</h2>
+<p>Every phone is fast for five minutes. After that, heat builds up and the chip slows to protect itself. In a long match you see it as dropping frames, dimming screen and warm fingers. A vapour chamber spreads heat, but it has nowhere to go except your hand. A fan moves it out of the body. The result is a frame rate in the fortieth minute close to that in the first. For competitive players that consistency is worth more than a higher peak.</p>
+<p>The costs are real. You can hear the fan in a quiet room. It takes space. Dust enters, and Kathmandu has plenty, so expect to clean the vents with a soft brush. Water resistance is limited in a phone with holes for air. Ask about the exact IP rating before taking it out in the rain.</p>
+<h2>185Hz: useful or not?</h2>
+<p>Few games reach that rate. Popular shooters on mobile are capped at 90, 120 or, in some cases, 144 frames. The larger benefit is touch sampling, how often the screen checks your finger, which makes aiming feel direct. If you play at 60 frames today, 120 will impress you. Above 144 it is for the specification sheet.</p>
+<h2>No hole in the screen</h2>
+<p>Hiding the front camera under the display leaves the picture unbroken. It is lovely in games and films. The camera itself suffers, since it looks through pixels. Selfies and video calls are softer than on any phone at half the price. If you stream with your face on screen, use another camera.</p>
+<h2>Who should consider it</h2>
+<ul>
+<li>People who play two or more hours a day and compete in tournaments.</li>
+<li>Streamers who run a game, a recorder and chat at the same time.</li>
+<li>Emulation fans who need sustained speed.</li>
+<li>Anyone who finds the idea delightful and has another phone for photos.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Casual players. An hour of Free Fire does not need a fan.</li>
+<li>Photographers. Two 50MP cameras without a telephoto are average here.</li>
+<li>People who want long software support. Nubia's record is shorter than Samsung's, Google's or OnePlus's.</li>
+<li>Users in towns without service. Parts for a niche phone take weeks.</li>
+</ul>
+<h2>Sensible alternatives</h2>
+[[models:oneplus-15r,poco-f8-pro,poco-x8-pro-max,realme-gt-8-pro,poco-f7]]
+<p>The <a href="/products/poco-f8-pro">POCO F8 Pro</a> with a Snapdragon 8 Elite at about Rs 1,05,000 gives most of the speed with a better balance. The <a href="/products/poco-x8-pro-max">POCO X8 Pro Max</a> has an 8,500mAh battery for long sessions. The <a href="/products/oneplus-15r">OnePlus 15R</a> is the all-rounder with a 165Hz screen. The <a href="/products/realme-gt-8-pro">Realme GT 8 Pro</a> adds a serious camera. And the <a href="/products/poco-f7">POCO F7</a> at Rs 69,999 runs every game well. With any of them, a clip-on cooler for Rs 1,500 to 3,000 provides a good part of the REDMAGIC's advantage.</p>
+<h2>The same money on other things</h2>
+<p>For Rs 1.3 lakh you could also buy a PlayStation 5 Digital Edition with several games, or an entry gaming laptop with a used phone beside it. Mobile esports have their own appeal and community, and if those are your games, a phone is right. If you simply like games, think about the bigger screen first. See <a href="/news/ps5-price-in-nepal-november-2026">PS5 prices</a> and <a href="/guides/best-gaming-laptops-nepal">gaming laptops</a>.</p>
+<h2>Which games will notice?</h2>
+<p><strong>PUBG Mobile and BGMI.</strong> At 120 frames, cooling matters. PUBG Mobile itself has had a complicated legal history in Nepal, so follow the rules in force.</p>
+<p><strong>Genshin Impact, Wuthering Waves, Zenless Zone Zero.</strong> Heavy titles where sustained speed shows clearly.</p>
+<p><strong>Call of Duty Mobile, Free Fire.</strong> Any good phone is enough.</p>
+<p><strong>Mobile Legends.</strong> Network quality matters far more than the phone.</p>
+<p>That last remark applies widely. With 80 milliseconds of delay and packet loss, no chip will save you. Use Wi-Fi on 5GHz near the router, or a good 4G cell away from crowds, and close downloads.</p>
+<h2>Buying an official unit</h2>
+<p>If a distributor launches it in December, choose that route. Imported REDMAGIC phones have been sold in Nepal for years without warranty, sometimes with Chinese software. Check that the phone has the global ROM, that the IMEI is in MDMS, that VoLTE works with your SIM, and who will replace the fan if it fails. A moving part is the first thing to wear out in any electronic device.</p>
+<h2>Living with it</h2>
+<ul>
+<li>Use bypass charging in long sessions at home, so that the battery is not heated while you play.</li>
+<li>Clean the vents monthly.</li>
+<li>Set the fan to automatic, and off at night.</li>
+<li>Do not block the intake with a case that is not made for it.</li>
+<li>Turn off the RGB light if you want a little more battery and a lot more dignity in class.</li>
+</ul>
+<h2>Battery and charging</h2>
+<p>With 8,400mAh it should run four to five hours of demanding games, or two days of ordinary use. Fast charging at 80W fills it in under an hour with the correct charger. Wireless charging at the same figure requires a special stand, so count on the cable.</p>
+<h2>What we do not know yet</h2>
+<p>Local price, memory versions, warranty terms, the number of updates, and how it behaves in a hot Terai room. We have not used one. When an official price arrives we will add a product page with the full specification and the date.</p>
+<h2>Our advice</h2>
+<p>If you read the list of who should consider it and recognised yourself, wait for the official unit and go and hold it. If you were attracted by the numbers, buy a POCO or a OnePlus, add a clip-on cooler, and put the Rs 30,000 to 50,000 you save into a better router, a pair of low-latency earphones and something sweet for the family, who will hear less of the fan.</p>
+
+=== iphone-air-2-rumours-dual-camera replace
+<p>The first iPhone Air impressed everyone who held it and puzzled many who considered buying it. It was astonishingly thin, and it had a single rear camera at a price close to that of a Pro. Rumours about its successor suggest that Apple heard the complaint. The iPhone Air 2 is said to gain a second camera while staying about 5.2mm thin. Nothing has been confirmed. Here is what is being reported, how far to believe it, and what it means if you are choosing an iPhone in Nepal this winter.</p>
+<h2>What the rumours say</h2>
+<ul>
+<li>Two 48MP rear cameras, adding an ultra wide to the main camera.</li>
+<li>An A20 Pro chip with 12GB of memory.</li>
+<li>A 6.55-inch OLED at 120Hz, with a smaller Dynamic Island.</li>
+<li>The same 5.2mm thickness, with a titanium frame.</li>
+<li>A launch around spring 2027, beside the iPhone 18 and 18e.</li>
+</ul>
+<p>Dummy models used by case makers show two openings on the camera bar, and that makes the second camera the most credible item. Chips and dates are plausible. Screen details are uncertain.</p>
+<h2>How thin is 5.2mm?</h2>
+<p>Stack three one-rupee coins and you are near it. The current phone is about 5.6mm, the <a href="/products/iphone-17">iPhone 17</a> is close to 8mm, and the <a href="/products/samsung-galaxy-s26">Galaxy S26</a> a little over 7mm. In the hand, the difference is obvious at once. In a pocket, you forget it. With a case, which most people in Nepal use from the first hour, a good part of the magic disappears. That is the Air's central problem: it is designed to be touched, and priced so that you dare not.</p>
+<h2>What thinness costs</h2>
+<p><strong>Battery.</strong> Less volume means less energy. The first Air manages a day for moderate users and struggles with heavy ones. An efficient 2nm chip would help. Physics still applies.</p>
+<p><strong>Cameras.</strong> A telephoto lens needs depth. There is no realistic way to put a periscope in such a body, so zoom will remain digital.</p>
+<p><strong>Heat.</strong> There is less metal to soak it up, so long games and 4K recording will slow it earlier than a Pro.</p>
+<p><strong>Sound.</strong> The first Air has a single speaker at the earpiece. Films in landscape sound one-sided.</p>
+<p><strong>Repairs.</strong> Thin phones are packed tightly, and glass on both sides is costly.</p>
+<h2>Why a second camera changes the story</h2>
+<p>An ultra wide lens is used more than people think. Family groups in a small room, temples, landscapes, close-ups with macro mode. Its absence was felt on every trip. With two 48MP cameras the Air would match the regular iPhone in most photography and come closer to justifying its price. It still would not replace a Pro for portraits and stages.</p>
+<h2>SIM: an important point for Nepal</h2>
+<p>The first iPhone Air has no physical SIM slot in any country. It uses eSIM only. If the Air 2 follows, you need an operator here that supports eSIM for your number, and you should understand how to move it to a new phone. Both major operators have introduced eSIM with their own procedures and fees. Ask before buying, and ask what happens if the phone breaks while you are travelling in a district without a service office. For people who swap SIM cards between phones, the Air is simply the wrong device.</p>
+<h2>What would it cost?</h2>
+<p>The present <a href="/products/iphone-air">iPhone Air</a> is listed at Rs 1,90,699 here. Memory has become more expensive, and Apple's other models have been going up. It would be reasonable to expect something between Rs 1,95,000 and 2,15,000 for the base version. That is a guess, marked as such, and we have not put it in the catalogue as a price.</p>
+<h2>What else could you buy?</h2>
+[[models:iphone-air,iphone-17,iphone-18-pro,samsung-galaxy-s26]]
+<p>For about Rs 26,000 less than the Air, the iPhone 17 has two cameras, stereo speakers, a larger battery and the same 120Hz display. For about Rs 70,000 more, the 18 Pro has everything. The Air sits between them and is chosen by the heart. There is nothing wrong with that, as long as you know it.</p>
+<h2>Thin Android phones</h2>
+<p>Samsung tried the same idea with the Galaxy S25 Edge, and several Chinese brands have shown phones near 6mm with batteries of 5,500mAh or more, thanks to silicon-carbon cells. Sales of thin phones have been modest everywhere. If you like slimness and battery together, phones such as the <a href="/products/honor-x8d">Honor X8d</a> at 7.5mm with 7,000mAh, or the <a href="/products/samsung-galaxy-a57-5g">Galaxy A57 5G</a> at 6.9mm, offer much of the feeling for far less.</p>
+<h2>Should you wait for the Air 2?</h2>
+<p><strong>Wait if</strong> you love the Air's design, were put off by the single camera, use eSIM already and can manage until spring.</p>
+<p><strong>Buy the current Air if</strong> you find it at a deep discount, say Rs 1,50,000 or less, and take mostly ordinary photos. When a successor arrives, prices of the first generation will fall further.</p>
+<p><strong>Forget about it if</strong> you need battery, zoom, loud stereo sound or a SIM slot.</p>
+<h2>Buying a used iPhone Air</h2>
+<p>A few are already on the second-hand market. Check battery health first, since a small battery that has lost a tenth of its capacity is felt at once. Look along the frame for bends with a straight edge. Test the eSIM by adding your own line. Confirm that Activation Lock is off and that parts are genuine in Settings, General, About. Look at the glass on both sides under a light.</p>
+<h2>Accessories</h2>
+<p>If you get one, resist thick cases. A thin aramid or silicone case with a raised edge around the camera bar keeps the point of the phone. MagSafe batteries designed for the Air add most of a charge and can be removed at home, and a small power bank does the same for less.</p>
+<h2>How reliable are these rumours?</h2>
+<p>At this stage before an iPhone launch, shapes are usually right, cameras mostly right, and chips right in the family but not in the details. Apple has also been known to cancel or delay models whose sales disappoint. There were reports of weak demand for the first Air. The second may come later than expected or not at all. Nobody should sell a working phone because of it.</p>
+<h2>Where it fits in Apple's plan</h2>
+<p>With the launch split in two, spring could bring the iPhone 18, the 18e and the Air 2, while autumn belongs to the Pro and the foldable. Some observers think that the Air was practice for the folding iPhone, which needs thin halves. That may be the truth of it: a product made to learn how to make another. Our article on the <a href="/news/iphone-18-iphone-18e-spring-2027-what-we-know">iPhone 18 and 18e</a> covers the rest of the spring line.</p>
+<h2>Our view</h2>
+<p>A second camera would turn the Air from a beautiful compromise into a beautiful phone with ordinary limits. It would still be for people who value how a thing feels over what it does. In Nepal, with eSIM, service costs and the price, that is a small group. If you are in it, spring should be interesting. If you are not, the iPhone 17 is cheaper, louder and lasts longer, and nobody at dinner will measure it.</p>
+
+=== galaxy-s27-pro-s27-ultra-design-leak replace
+<p>Design sketches said to show two of Samsung's 2027 flagships have been shared by a well-known tipster. If they are accurate, Samsung will add a Pro to the Galaxy S family for the first time, and change the look of the cameras on the back. Samsung has said nothing. Here is what the sketches suggest, why a Pro would make sense, and how a buyer in Nepal might use the information.</p>
+<h2>What the sketches show</h2>
+<ul>
+<li>A compact cluster of three lenses on both phones, replacing the separate rings Samsung has used since the S22 Ultra.</li>
+<li>An S27 Ultra with a 50MP periscope at 5x optical zoom and an S Pen.</li>
+<li>An S27 Pro with a 10MP telephoto at 3x and no pen.</li>
+<li>A family of four: S27, S27+, S27 Pro and S27 Ultra.</li>
+</ul>
+<p>Sketches are drawn from dimensions given to case makers or from files seen by someone in the supply chain. They are often right about where things are, and less so about what those things can do. A lens drawn in the right place tells you nothing about the sensor behind it.</p>
+<h2>Why add a Pro?</h2>
+<p>Look at the present range from a customer's point of view. The S26 is small and simple. The S26+ is the same phone, larger. The Ultra is enormous, with a pen that many owners take out twice. Between the Plus and the Ultra is a gap of about Rs 50,000 and one missing idea: the best camera and chip in a phone that fits a normal hand, without a pen.</p>
+<p>Apple has sold that idea for years as the iPhone Pro, and Chinese brands sell it as the Pro below the Ultra. Samsung's customers have had to choose between too little and too much. A Pro would answer them.</p>
+<h2>The 10MP telephoto is the doubt</h2>
+<p>If the sketch and the notes are right, the Pro would use a 10MP 3x camera similar to the one in recent S and S+ models. That would be a disappointment. Rivals at this price have 50MP or 200MP telephotos with larger sensors, which hold detail indoors and allow closer focusing. A Pro without a better telephoto than the base phone would be a Pro in name. We hope the detail is wrong.</p>
+<h2>The camera layout</h2>
+<p>Separate rings gave Samsung phones a clean, recognisable back. They also collected dust between the lenses and made the phone rock on a table. A single cluster or bar can be stiffer, easier to clean and steadier on a desk. Some will miss the old look. In a case, which is how most phones live in Nepal, nobody will notice after a week.</p>
+<h2>What the Pro might cost in Nepal</h2>
+<p>We do not have a reliable figure and will not print one as fact. Reasoning from the present ladder, with the <a href="/products/samsung-galaxy-s26">S26</a> at Rs 1,39,999 and the <a href="/products/samsung-galaxy-s26-ultra">S26 Ultra</a> at Rs 2,24,999, a Pro would sit somewhere around Rs 1.8 to 2 lakh. That is precisely where the <a href="/products/vivo-x300-pro">vivo X300 Pro</a> and <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a> are sold. Samsung would be relying on software, service, resale and seven years of updates against larger sensors and batteries.</p>
+<h2>And the Ultra</h2>
+<p>For the Ultra, the more interesting reports concern the battery, said to grow to about 5,700mAh, and the 2nm chip. We keep those in a separate article: <a href="/news/galaxy-s27-ultra-leaks-launch-date-nepal-price">what the leaks say about the Galaxy S27 Ultra</a>. The design sketches add that the pen stays and that the corners may be rounder.</p>
+<h2>What the pen is worth</h2>
+<p>The S Pen occupies a tunnel inside the Ultra that could hold battery. Samsung could give Ultra owners perhaps 500mAh by removing it. The company keeps it since a devoted group buys the phone for nothing else: site engineers who sign drawings, teachers who mark, designers, traders, and people who type Devanagari faster by handwriting. If you are not one of them, a Pro without a pen is a more honest phone for you.</p>
+<h2>How to decide this winter</h2>
+<p><strong>You want the biggest Samsung and the pen.</strong> The <a href="/products/samsung-galaxy-s25-ultra">S25 Ultra</a> at about Rs 1,84,999 is good value today. The S26 Ultra will fall after the launch. Waiting pays.</p>
+<p><strong>You want a smaller flagship.</strong> The S26 is very good and limited by its battery. If the Pro is real, it may be what you were missing. Three or four months of patience will tell.</p>
+<p><strong>You want the best camera under Rs 2 lakh.</strong> Do not wait for Samsung. Look at vivo, Xiaomi and OPPO now.</p>
+<p><strong>You need a phone this week.</strong> Buy one. Rumours do not make calls.</p>
+<h2>Reading a leak like a professional</h2>
+<ol>
+<li><strong>Who said it?</strong> Some tipsters have a long record. Even they are right perhaps two times in three.</li>
+<li><strong>What is it based on?</strong> Parts and certification beat drawings, and drawings beat "I have heard".</li>
+<li><strong>Does a second source agree?</strong> Independently, and not by quoting the first.</li>
+<li><strong>How close is the launch?</strong> Accuracy rises sharply in the last six weeks.</li>
+<li><strong>Who benefits?</strong> Some leaks are advertising.</li>
+</ol>
+<p>By those measures, the new camera layout is likely, the existence of a Pro is probable, and the camera specification is a coin toss.</p>
+<h2>What a four-phone family means for shops</h2>
+<p>More models make stock harder to manage. In Nepal, distributors may bring only two or three of the four at first, probably the S27 and the Ultra. The Plus has been the least popular here for years, and a Pro could replace it on local shelves. If you want a particular model, ask a dealer in January and leave a small refundable deposit, with the terms in writing.</p>
+<h2>Trade-in strategy</h2>
+<p>Phone values drop in the two months after a launch. If you own an S23 Ultra or S24 Ultra and plan to move, get quotations in January and compare Samsung's exchange bonus during the pre-order period. That bonus is usually the best of the year. Clean the phone, replace a cracked protector, and keep the box and bill.</p>
+<h2>Other phones expected around then</h2>
+<p>The first half of 2027 should also bring the regular iPhone 18 and 18e, several Xiaomi 18 models for wider markets, and the next vivo and OPPO flagships. Competition at around Rs 1.5 to 2 lakh will be unusually strong. That is good for patience. See <a href="/upcoming-launches">upcoming launches</a> for those with more certain dates.</p>
+<h2>What we would like Samsung to do</h2>
+<p>Give the Pro a telephoto with a larger sensor and a 5,500mAh battery, keep it under 190 grams, include a case in the box and price it under Rs 1.8 lakh in Nepal. It would be the easiest Samsung flagship to recommend in years. If it arrives with a 10MP telephoto and 4,700mAh at Rs 2 lakh, people will buy the Plus in their thousands, or the vivo.</p>
+<h2>Summary</h2>
+<p>A Pro is coming, probably. The back will change, probably. The pen stays in the Ultra. Prices are unknown. Use the information to time a purchase, and do not let a drawing decide it for you.</p>
+
+=== redmi-note-18-5g-bigger-battery-rumour replace
+<p>The Redmi Note is the phone that much of Nepal buys. So even a small rumour about the next one travels fast. The latest says that the Redmi Note 18 5G will be very close to the Note 17 5G, with a larger battery as its main change. If that is true, it answers a practical question for anyone with Rs 48,000 in hand: buy now or wait? We think the answer is clear, and here is why.</p>
+<h2>What is being said</h2>
+<ul>
+<li>A battery of 8,100mAh in the global model, up from 7,700mAh. A Chinese version could reach 8,888mAh.</li>
+<li>Charging unchanged at 45W.</li>
+<li>The same Snapdragon 4 Gen 4 chip, 6.99-inch FHD+ AMOLED and 50MP main camera.</li>
+<li>Possible sale as a POCO in some markets.</li>
+</ul>
+<p>It comes from a single tipster and has not been supported by certification papers so far. Xiaomi often prepares several versions of a phone and changes plans by region, so treat the numbers as a direction and no more.</p>
+<h2>The phone it would replace</h2>
+[[specs:redmi-note-17-5g]]
+<p>The <a href="/products/redmi-note-17-5g">Redmi Note 17 5G</a> at Rs 47,999 is a big, long-lasting phone with an ordinary processor. <a href="/reviews/redmi-note-17-5g-review-nepal">Our review</a> says as much. Its battery already outlasts nearly everything at the price. An increase of 400mAh is about five per cent, or roughly an hour of screen time. You would not notice without a stopwatch.</p>
+<h2>Why a lightly updated model makes sense to Xiaomi</h2>
+<p>Memory has become expensive. A maker can respond by raising the price or by reusing parts. Keeping the same screen, chip and camera means no new tooling, lower cost and a price that stays near the old one. Adding battery gives the advertisements a number. It is not exciting, but it is better than removing storage, which some rivals have done. Our article on <a href="/news/why-gadget-prices-rose-nepal-2026">rising prices in 2026</a> has the background.</p>
+<h2>Should you wait?</h2>
+<p>If the report is right, no. Three reasons.</p>
+<p><strong>The gain is tiny.</strong> Same speed, same screen, same camera.</p>
+<p><strong>The wait may be long.</strong> Redmi Notes arrive in Nepal weeks or months after their first launch elsewhere.</p>
+<p><strong>The price may be higher.</strong> New stock carries new component costs. The outgoing phone, on the other hand, will probably be discounted.</p>
+<p>So the best use of this news is as a bargaining tool. Dealers know when a successor is coming. Ask for the Note 17 5G at Rs 43,000 to 45,000 with a tempered glass and case, or wait for the first week after the new model is announced.</p>
+<h2>Is the Note 17 5G right for you at all?</h2>
+<p>Its strengths are battery, screen size and IP protection. Its weakness is speed. The Snapdragon 4 Gen 4 is fine for messaging, video, maps and office work, and slow for games. If you play, consider others at the same price.</p>
+[[rivals:redmi-note-17-5g]]
+<p>The <a href="/products/redmi-note-15-5g">Redmi Note 15 5G</a> at about Rs 44,000 is in some ways the better phone: a faster chip, a 108MP stabilised camera and a brighter screen, with a smaller battery. The <a href="/products/realme-p3">Realme P3</a> is quick. The <a href="/products/samsung-galaxy-a17-5g">Galaxy A17 5G</a> has long support. Choose the Note 17 5G only if endurance comes first.</p>
+<h2>More battery today</h2>
+<p>If endurance is everything, you do not need to wait for anyone.</p>
+[[models:honor-x9d,redmi-note-17-pro-5g,redmi-note-17-pro-max-5g,realme-p4-power]]
+<p>The <a href="/products/honor-x9d">Honor X9d</a> has 8,300mAh and drop protection at Rs 54,999. The <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a> has 10,000mAh with 100W charging at Rs 69,999. The second is a different class of phone altogether and probably the best battery phone sold in Nepal.</p>
+<h2>Understanding battery numbers</h2>
+<p>A milliampere-hour figure tells you the size of the tank. How long it lasts depends on the engine and the driver. A bright 6.99-inch screen uses more than a 6.5-inch one. An old chip on weak signal uses more than a new one on good signal. As a rough guide for ordinary use:</p>
+<ul>
+<li>5,000mAh: a day.</li>
+<li>6,000 to 6,500mAh: a day and a half.</li>
+<li>7,000 to 8,000mAh: close to two days.</li>
+<li>10,000mAh: two to three days.</li>
+</ul>
+<p>Heavy users should halve those. Beyond 8,000mAh, charging speed begins to matter more than capacity, because filling such a battery at 18W takes half the night. At 45W, 8,100mAh would need around an hour and a half.</p>
+<h2>Weight</h2>
+<p>Large batteries are heavy, and the Note 17 5G is already a substantial phone. Hold one for ten minutes as if you were reading in bed. If your wrist complains, a 190 gram phone with 6,000mAh will make you happier than a 230 gram one with 8,000.</p>
+<h2>Silicon-carbon and ageing</h2>
+<p>The new cells pack more energy by adding silicon to the negative electrode. Silicon swells slightly as it charges, and makers manage that with the structure of the material. Most promise that the battery keeps around 80 per cent of its capacity after a thousand or more cycles. With a two-day battery, a thousand cycles is over five years. Keep it cool, avoid leaving it empty, and use the charge limit at night.</p>
+<h2>What a true upgrade would look like</h2>
+<p>We would like to see the next Redmi Note with a faster chip of the Snapdragon 6 class, UFS 3.1 storage, 8GB as the minimum and the Note 15's camera. Put those into the Note 17's body and nobody would care about 400mAh. If the leak is right, that phone is not coming this time, at least not in the basic model. The Pro versions may be different.</p>
+<h2>The POCO connection</h2>
+<p>Xiaomi sells many phones twice, with a different badge and a different price. If a POCO version appears, compare it carefully. Sometimes it costs Rs 2,000 to 3,000 less with the same hardware and a brighter back. Service is the same in practice, as POCO phones are handled by Xiaomi's centres.</p>
+<h2>Official units</h2>
+<p>Redmi Notes are among the most imported phones across the open border. An Indian unit may be a few thousand rupees cheaper, without Nepali warranty and with extra steps for MDMS. Check the IMEI and the sticker of the distributor. <a href="/guides/how-to-check-phone-is-official-in-nepal">This guide</a> shows how.</p>
+<h2>If you own an older Redmi Note</h2>
+<p>From a Note 10, 11 or 12, any phone mentioned here will feel new. From a Note 13 Pro or 14 Pro, the basic Note 17 or 18 may be a step down in speed and camera. Replace the battery for Rs 2,500 to 4,000 and wait for a Pro model on sale.</p>
+<h2>Our verdict on the rumour</h2>
+<p>It is believable and unimportant. The Note 18 5G, if this is it, will be a fine phone for the same people who like the Note 17 5G, at a similar or slightly higher price. Buy the current one at a discount, or better, look at the Note 15 5G for speed or the Pro Max for battery. We will add the new model to the catalogue when it has an official specification, and not before.</p>
+
+=== honor-13500mah-battery-phone-certified replace
+<p>A Honor battery with a typical capacity of 13,500mAh has passed safety certification in China. Certification papers do not name a phone, but they do mean that a cell of that size is close to production. Five years ago this was the capacity of a power bank. Here is what is known, how such a battery fits in a pocket, and whether it would change anything for someone living in Nepal.</p>
+<h2>What is known</h2>
+<ul>
+<li>The battery is rated at 13,300mAh, with a typical 13,500mAh.</li>
+<li>It appears under model number HB6674118ELW-C in China's 3C system.</li>
+<li>It is expected in a 7-inch mid-range phone, possibly from the Power series.</li>
+<li>Honor's earlier large models used 10,080mAh, 11,000mAh and 12,070mAh cells, and the company is said to be trying 14,000 to 15,000mAh.</li>
+</ul>
+<p>There is no name, date, price or mention of any market outside China. Everything beyond the certificate is inference.</p>
+<h2>How can a phone hold that much?</h2>
+<p>Ordinary lithium-ion batteries use graphite for the negative electrode. Silicon can hold roughly ten times more lithium by weight, but it swells and cracks. The solution in use today mixes silicon with carbon in a structure that gives it room to expand. Each year the share of silicon has gone up, and the energy in a given volume with it. A phone from 2021 with 5,000mAh and one from 2026 with 8,000mAh can be the same size.</p>
+<p>At 13,500mAh the phone will still be large. Expect a 7-inch screen and a weight of 230 grams or more. Honor has been clever about thickness, so a body under 9mm is possible.</p>
+<h2>How long would it last?</h2>
+<p>Nobody outside Honor has measured it. We can reason from phones on sale. The <a href="/products/realme-p4-power">Realme P4 Power</a>, with 10,001mAh, lasts about two days for heavy users and three for light ones. A third more capacity, with a similar screen and chip, points to three days for many people and four for those who mostly call and chat. Continuous video might approach thirty hours.</p>
+<h2>Who needs three days?</h2>
+<p><strong>Trekking guides and porters.</strong> Charging in tea houses costs Rs 300 to 1,000 a time at altitude, and cold drains batteries faster. A phone that crosses from Lukla to Gorak Shep on one or two charges pays for itself.</p>
+<p><strong>Drivers.</strong> Long-distance bus and truck drivers with maps and calls all day.</p>
+<p><strong>Field staff.</strong> Surveyors, health workers, journalists, vaccinators.</p>
+<p><strong>People in places with poor supply.</strong> Fewer now than ten years ago, though there are still many.</p>
+<p><strong>Migrant workers.</strong> Long shifts on sites where charging is not allowed.</p>
+<p>For someone with an office and a bedside table, 6,000mAh is enough. Charging is a habit, not a hardship.</p>
+<h2>The other side of a giant battery</h2>
+<p><strong>Weight.</strong> You will feel it in a shirt pocket and while reading in bed.</p>
+<p><strong>Charging time.</strong> At 80W, around an hour and a quarter. At 18W with an old charger, five or six hours.</p>
+<p><strong>Air travel.</strong> The limit for batteries in devices is 100 watt-hours without approval. At about 3.85 volts, 13,500mAh is some 52 watt-hours, so a phone like this is fine in the cabin. Spare power banks of 20,000mAh at 74 watt-hours are within the limit as well, and must be in hand luggage.</p>
+<p><strong>Repair.</strong> A large special cell costs more and may have to be ordered. Never fit an unknown replacement in a phone that stores this much energy.</p>
+<p><strong>Price.</strong> More battery in a mid-range phone usually means a plainer camera.</p>
+<h2>Phone or power bank?</h2>
+<p>A fair question. A 10,000mAh power bank costs Rs 1,500 to 3,000, and delivers about 6,000 to 6,500mAh to your phone after conversion losses. It weighs 200 grams, and you leave it at home on ordinary days. A phone with a huge battery is one object, charges faster and never needs a cable in the rain. If you need endurance once a month, buy the power bank. If you need it every day, buy the phone. See <a href="/products?category=accessory">accessories</a> for current prices.</p>
+<h2>Reverse charging</h2>
+<p>Big-battery phones increasingly charge other devices by cable at 20W or so. With 13,500mAh, you could fill a friend's phone and still have two days left. For a family on a trip, one such phone serves as everyone's emergency supply.</p>
+<h2>Big batteries on sale in Nepal today</h2>
+[[models:honor-x9d,redmi-note-17-pro-5g,realme-p4-power,redmi-note-17-pro-max-5g,poco-x8-pro-max]]
+<p>The <a href="/products/honor-x9d">Honor X9d</a> is the toughest, with 8,300mAh at Rs 54,999. The <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a> balances 10,000mAh with 100W charging. The <a href="/products/realme-p4-power">Realme P4 Power</a> is the simplest choice for pure endurance. The <a href="/products/poco-x8-pro-max">POCO X8 Pro Max</a> joins 8,500mAh to a fast chip. We have reviews of the <a href="/reviews/honor-x9d-review-nepal">X9d</a>, the <a href="/reviews/redmi-note-17-pro-max-review-nepal">Note 17 Pro Max</a> and the <a href="/reviews/realme-p4-power-review-nepal">P4 Power</a>.</p>
+<h2>Would Honor bring it to Nepal?</h2>
+<p>Honor has been active here, with phones from Rs 16,000 to more than a lakh, and its strength has been battery and toughness. A phone with this battery would suit the market well. It may appear under another name and with a smaller cell, as happens with many Chinese models. The X9 series usually arrives within months of its global launch. A domestic Power model may never come. Importers will certainly try, and an imported unit means no local warranty and a check of MDMS.</p>
+<h2>Is it safe?</h2>
+<p>Certification exists to answer that. Cells are tested for short circuit, crushing, heat and overcharging. More energy does mean more consequences when something is abused. So the ordinary rules matter more: use a good charger, do not cover the phone while it charges at high speed, do not use it after the body swells or bends, and do not let an unknown shop fit a battery. A phone that becomes too hot to hold should be unplugged and left on a hard surface.</p>
+<h2>How it ages</h2>
+<p>Batteries wear by cycles and by heat. A phone charged twice a week instead of every day goes through a third as many cycles. After four years it may still hold most of its capacity, while a small-battery phone is on its second cell. Endurance, then, is also longevity, a quiet argument in favour of the giants.</p>
+<h2>What to watch for</h2>
+<ol>
+<li>A second certificate with charging speed.</li>
+<li>A product name in China's network access list.</li>
+<li>Honor's announcement, probably with a round number in its title.</li>
+<li>A global model with an IMEI registered for South Asia.</li>
+</ol>
+<h2>Our view</h2>
+<p>Every few months someone announces a larger battery, and each time the previous giant becomes the sensible choice at a lower price. That is the useful way to read this. If you need endurance now, a 10,000mAh phone at Rs 70,000 is already more than most people can finish in two days. If you can wait a year, 8,000mAh will be ordinary at Rs 40,000. Either way, the old worry about reaching the evening is coming to an end, and that is better news than any single phone.</p>
+
+=== phone-price-updates-nepal-november-2026
+<h2>The full comparison</h2>
+[[models:nothing-phone-4a-pro,motorola-edge-70-fusion,oneplus-nord-ce-6,honor-600-pro,redmi-note-17-pro-max-5g,samsung-galaxy-s26-ultra,samsung-galaxy-a37-5g,redmi-note-15-5g]]
+<p>The table is drawn from the live catalogue, so it will follow later changes. The paragraphs below were written with November prices in front of us.</p>
+<h2>How to read a price change</h2>
+<p>When a price moves, three different things may have happened. The maker has changed the official price. A distributor has passed on a new cost with the latest batch. Or a dealer is clearing stock. The first lasts, the second usually lasts, and the third ends when the shelf is empty. A rise is nearly always the first two. A fall is often the third, so if you see one and you want the phone, do not think for a week.</p>
+<h2>Phones that became expensive for what they are</h2>
+<p><strong>Galaxy A37 5G.</strong> Good, safe and now about Rs 75,000. At its original Rs 64,999 we recommended it easily. <a href="/reviews/samsung-galaxy-a37-5g-review-nepal">Our review</a> explains who should still buy it.</p>
+<p><strong>Galaxy A57 5G.</strong> Close to Rs 97,000 for the base version puts it beside phones with flagship chips. Buy it for support and slimness, with an exchange offer.</p>
+<p><strong>Galaxy A17 5G.</strong> From the high thirties to Rs 44,999. Still a sensible phone for parents.</p>
+<p><strong>Nothing Phone (4a) Pro.</strong> Repeated increases have taken it to Rs 1,09,999, beyond the OnePlus 15R and near the POCO F8 Pro. The regular <a href="/products/nothing-phone-4a">4a</a> at Rs 69,999 is the one we would choose.</p>
+<p><strong>vivo X300 Pro.</strong> Up by Rs 20,000 since its launch. The camera remains superb. <a href="/reviews/vivo-x300-pro-review-nepal">Read the review</a>.</p>
+<h2>Phones that held their value</h2>
+<p><strong>Redmi Note 17 Pro Max.</strong> Rs 69,999 for 10,000mAh and 100W charging is still remarkable.</p>
+<p><strong>POCO F7.</strong> The fastest phone under Rs 70,000 a year after its launch.</p>
+<p><strong>Honor X9d.</strong> At Rs 54,999 there is nothing tougher.</p>
+<p><strong>Redmi Note 15 5G.</strong> About Rs 44,000, and the best general-purpose phone below Rs 50,000.</p>
+<p><strong>Infinix Note 50x.</strong> Around Rs 22,000 for a chip that embarrasses phones costing twice as much.</p>
+<h2>New arrivals to judge carefully</h2>
+<p><strong>OnePlus Nord CE 6.</strong> At Rs 74,999 it costs more than the older Nord 5 with a faster chip. It wins on battery and on being new. Compare the two before choosing. <a href="/reviews/oneplus-nord-5-review-nepal">Our Nord 5 review</a> covers the older one.</p>
+<p><strong>Motorola Edge 70 Fusion.</strong> Rs 79,999 for a pretty, light phone. Motorola has fewer service points, so ask about screens.</p>
+<p><strong>Honor 600 Pro.</strong> Rs 1,29,999 with a Snapdragon 8 Elite, a 200MP camera, a telephoto and 7,000mAh in a compact body. On hardware it is among the best in its class.</p>
+<h2>Where the gaps are strange</h2>
+<p>An attentive buyer looks for places where the price ladder has missing or crooked rungs. At present we see four.</p>
+<ol>
+<li>The OPPO Find X9 Pro at about Rs 1,26,000 is cheaper than some mid-range phones with more memory.</li>
+<li>The POCO F8 Pro at Rs 1,04,999 costs less than the Nothing 4a Pro and is in another class.</li>
+<li>The Galaxy S25 Ultra at Rs 1,84,999 is only slightly above the top Galaxy S26 version.</li>
+<li>The Galaxy A37 in its 12GB version costs exactly what a base A57 costs.</li>
+</ol>
+<p>Such gaps appear when one brand's price list is updated and another's is not. They close within weeks.</p>
+<h2>What to do if your budget has not risen</h2>
+<p>Wages have not kept pace with phone prices this year. There are four ways to respond that do not involve debt.</p>
+<p><strong>Keep the old phone.</strong> A battery at Rs 2,500 to 5,000 and a clean reset bring most phones back.</p>
+<p><strong>Buy last year's model.</strong> A Realme P3 or Moto G96 gives up little.</p>
+<p><strong>Change brand.</strong> Infinix, POCO and Honor have absorbed more of the increase than Samsung and Nothing.</p>
+<p><strong>Buy used, with care.</strong> Use our checks for <a href="/guides/how-to-check-phone-is-official-in-nepal">official phones</a> before paying.</p>
+<h2>If you must buy this month</h2>
+<ul>
+<li><strong>Rs 25,000:</strong> Galaxy A07 or Infinix Note 50x.</li>
+<li><strong>Rs 35,000:</strong> Infinix Note 50s or Redmi 17 5G.</li>
+<li><strong>Rs 45,000:</strong> Redmi Note 15 5G.</li>
+<li><strong>Rs 55,000:</strong> Honor X9d.</li>
+<li><strong>Rs 70,000:</strong> POCO F7 or Redmi Note 17 Pro Max.</li>
+<li><strong>Rs 1,00,000:</strong> OnePlus 15R.</li>
+<li><strong>Rs 1,30,000:</strong> OPPO Find X9 Pro.</li>
+<li><strong>Above that:</strong> Galaxy S25 Ultra on discount, or the flagship you have been dreaming of.</li>
+</ul>
+<p>Our guide to <a href="/guides/best-phones-in-nepal-by-budget">phones by budget</a> explains each choice.</p>
+<h2>If you can wait until spring</h2>
+<p>Samsung's S27 series, the regular iPhone 18 and several Chinese flagships are expected in the first half of 2027. New models push the present ones down, especially the S26 Ultra and iPhone 17. New mid-range phones, on the other hand, may come with higher prices or smaller storage, as memory remains dear. So waiting helps flagship buyers more than budget buyers.</p>
+<h2>Festival discounts are over. What next?</h2>
+<p>After Tihar, shops are quieter and more willing to talk. Stock brought for the season that did not sell is the best source of real discounts until the new year. Colours that nobody wanted, display units and bundles can be had for less. Ask directly: "What have you got that you would like to clear?" It is a better opening than "What is your last price?"</p>
+<h2>Accessories and the true total</h2>
+<p>Several makers have stopped including chargers. Add Rs 1,500 to 4,000 for a proper one, Rs 500 for glass, Rs 500 to 1,500 for a case. On a Rs 25,000 phone that is a tenth of the price. A bundle that includes them is worth more than a small cash discount.</p>
+<h2>How we record changes</h2>
+<p>Each product page keeps dated entries, and the <a href="/price-tracker">price tracker</a> lists the latest movements. Shops differ, cities differ, and an exchange or bank offer can change the final figure by thousands. We show the list price and the date on which it was checked. If what you are quoted is far from it, in either direction, ask why. An unusually low price has a reason, and you want to know it before you pay.</p>
+<h2>The month in one paragraph</h2>
+<p>Samsung's A series and Nothing rose, big-battery Redmis and POCOs held, OPPO and Honor offered unexpected value at the top, and the cheapest phones quietly lost storage. Memory is still the cause, and nothing in November suggests that it will change by the new year. Buy what you need, buy enough memory, and let the rest wait.</p>

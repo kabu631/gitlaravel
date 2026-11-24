@@ -164,7 +164,7 @@
 
         <div v-if="priceTracker?.length">
           <div class="flex items-center justify-between border-b border-line pb-3">
-            <h2 class="text-sm font-semibold text-fg">Recent price changes</h2>
+            <h2 class="text-sm font-semibold text-fg">Price drops</h2>
             <Link :href="route('pages.price-tracker')" class="text-xs text-fg-subtle hover:text-fg">Tracker</Link>
           </div>
           <ul class="divide-y divide-line text-sm">

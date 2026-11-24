@@ -1,0 +1,273 @@
+=== redmi-a7-pro-review-nepal
+<h2>Specifications</h2>
+[[specs:redmi-a7-pro]]
+<h2>The biggest screen for the least money</h2>
+<p>At 6.9 inches, the Redmi A7 Pro has a display as large as phones costing ten times as much. That is the whole idea. Text can be enlarged without every message spilling off the page, YouTube is comfortable from arm's length, and video calls show faces at a decent size. For older eyes this is a better feature than any processor.</p>
+<p>It also makes the phone wide. Someone with small hands will need both of them to type, and it will stick out of a trouser pocket. Try it in person if the owner is used to a compact phone.</p>
+<p>The resolution is HD+, spread over all those inches, so letters look soft when you hold it close. At normal viewing distance with large text, it is acceptable. The 120Hz setting gives smoother movement, though the chip often cannot deliver 120 frames, and locking it at 60Hz saves power with little loss.</p>
+<h2>Everyday speed</h2>
+<p>The Unisoc T7250 and 4GB of memory handle one thing at a time. WhatsApp, calls, a wallet payment, a YouTube video: each works. Doing several together shows the limits. The phone takes a moment to open the camera, and returning to an app often means waiting for it to load again. It is usable with patience. It is not suitable for someone who is used to a mid-range phone.</p>
+<h2>Storage is the choice that matters</h2>
+<p>Pay the additional Rs 2,500 for 128GB. The cheaper version's 64GB will fill with system files, apps and WhatsApp media, and a full phone becomes slow. A memory card, if your unit has a free slot, can hold photos and music.</p>
+<h2>Battery and charging</h2>
+<p>The 6,000mAh battery runs for a day and a half of typical use, with two days possible if the phone is mostly for calls. Charging is 15W. Leave it plugged in overnight. The charger may or may not be in the box depending on the batch, so ask.</p>
+<h2>Camera</h2>
+<p>A single 13MP camera is honest in one respect: there is no fake second lens. In daylight it records what you point it at. Indoors and at night it is poor. The 8MP front camera is actually better suited to its job, which is video calls.</p>
+<h2>Software and safety</h2>
+<p>HyperOS 3 on Android 15 looks like other Redmi phones, so anyone who has used one will feel at home. Remove the extra apps and turn off recommendations. Update support on the A series is short compared with Samsung, so this is a phone for two to three years and not for five.</p>
+<p>If you are giving it to a first-time user, set up a screen lock and Find My Device, disable unknown app sources, and install the official eSewa, Khalti or banking apps yourself from the Play Store. Fake wallet apps circulate in chat groups.</p>
+<h2>What else is near Rs 22,000?</h2>
+[[rivals:redmi-a7-pro]]
+<p>The <a href="/products/realme-note-80">Realme Note 80</a> uses the same chip, has a slightly larger battery and a tougher body, and comes with 64GB only. The <a href="/products/infinix-smart-20">Infinix Smart 20</a> and <a href="/products/tecno-spark-go-3">Tecno Spark Go 3</a> compete closely. All of them are slow in a similar way, so choose by storage, service and screen.</p>
+<p>The real alternative costs about Rs 4,000 more. The <a href="/products/samsung-galaxy-a07">Galaxy A07</a> with its Helio G99 feels like a different class, and it receives updates for much longer. If there is any way to stretch, stretch.</p>
+<h2>Four situations where it makes sense</h2>
+<ul>
+<li><strong>A grandparent</strong> who wants to see family on a large screen.</li>
+<li><strong>A shop counter</strong> that needs a phone for QR payments, calls and a customer WhatsApp number.</li>
+<li><strong>A driver</strong> who uses it as a map and call phone on a mount.</li>
+<li><strong>A child's first phone</strong> with parental controls, where loss or breakage is likely.</li>
+</ul>
+<h2>Four situations where it does not</h2>
+<ul>
+<li>Online classes with many tabs and documents.</li>
+<li>Games beyond Ludo, carrom and simple puzzles.</li>
+<li>Taking photos at weddings or on trips.</li>
+<li>Replacing a three-year-old mid-range phone. You would be going backwards.</li>
+</ul>
+<h2>New or used?</h2>
+<p>For Rs 22,000 to 24,000, the used market offers phones that were far better when new: a Galaxy A52 or A53, a Redmi Note 11 Pro, a Poco X4. They have AMOLED screens and quicker chips. Against that, you get a worn battery, no warranty and a shorter future for updates. For a confident buyer who can check the phone and the MDMS registration, used can be the better deal. For a parent or a first-timer, new with a warranty is the safer choice.</p>
+<h2>Making it last</h2>
+<p>Use a case with raised corners, since a 6.9-inch screen is a large target. Keep 20GB of storage free. Update apps on Wi-Fi. Restart it every few days. And when the battery begins to fade after a couple of years, a replacement is inexpensive because Redmi parts are everywhere.</p>
+<h2>A note on the price of cheap phones</h2>
+<p>Memory has become more expensive through 2026, and entry-level phones feel it most, as our article on <a href="/news/electronic-price-hikes-nepal-ram-ssd-smartphones-analysis">memory prices</a> explains. Two years ago Rs 22,000 bought 6GB and a faster chip. Today it buys 4GB. That is not the fault of this phone, but it does mean that waiting for a sale, or spending a little more once, pays off better than usual.</p>
+<h2>Verdict</h2>
+<p>The Redmi A7 Pro does one thing well, which is to put a very large screen and a long battery into ordinary hands for little money. Buy the 128GB version for someone whose phone life is calls, chats, payments and video. For everybody else it is a false economy.</p>
+
+=== realme-note-80-review-nepal
+<h2>Specifications</h2>
+[[specs:realme-note-80]]
+<h2>The tough-phone idea at Rs 21,999</h2>
+<p>Realme has noticed that many buyers at this price break their phones before they outgrow them. The Note 80 answers with a body tested to a military standard for shock and temperature. MIL-STD-810H is a set of laboratory procedures, and makers choose which of them to run, so it is not a guarantee that a fall onto a gravel road will leave no mark. Still, the corners are reinforced and the frame is stiff, and the result is a phone that should cope better than most with being dropped, sat on or rattled in a toolbox.</p>
+<p>It manages that at under 8mm thick and under 200 grams, with a 6,300mAh battery inside. Rugged phones usually look like bricks, and this one does not.</p>
+<h2>Battery and power sharing</h2>
+<p>Expect a day and a half to two days. The 15W charging is slow, as it is on every phone at this level. Reverse charging at 6W is slow too, but it can bring a dead feature phone or a pair of earbuds back to life, and that has value on a long day out.</p>
+<h2>A correction about the camera</h2>
+<p>Specifications for this phone differ between sources. Our own specification sheet lists a 50MP main camera, while some listings, including the summary above, mention 8MP. Ask the shop to open the camera settings and check the maximum photo resolution before you buy. Either way, expect modest results: usable pictures in daylight and weak ones after sunset. The 5MP front camera is for calls.</p>
+<h2>64GB and nothing else</h2>
+<p>This is the weakness that decides the review. Only one version is sold in Nepal, with 4GB of memory and 64GB of storage. The system and preinstalled apps take around 20GB. Add a wallet, banking, Facebook, TikTok and WhatsApp with a year of media, and you will be deleting things. A memory card can take photos and videos, so buy one on the first day and set the camera to save to it. WhatsApp will still use the internal storage.</p>
+<h2>Performance and screen</h2>
+<p>The Unisoc T7250 is the same entry-level chip as in the <a href="/products/redmi-a7-pro">Redmi A7 Pro</a>. One app at a time is fine. Multitasking is slow. The 6.74-inch HD+ LCD runs at 90Hz and about 450 nits, so it is readable indoors and difficult in direct sun. That is a pity on a phone meant for outdoor use.</p>
+<h2>Who should consider it</h2>
+<ul>
+<li><strong>Construction and farm workers</strong> who need a phone that can be dropped.</li>
+<li><strong>Trekking porters and drivers</strong> who want a long battery.</li>
+<li><strong>Anyone who needs a backup phone</strong> for a second SIM, hotspot or emergencies.</li>
+<li><strong>Parents of a teenager</strong> who has already broken two phones.</li>
+</ul>
+<h2>Who should avoid it</h2>
+<ul>
+<li>Anyone for whom this will be the only phone and who likes photos and videos.</li>
+<li>Students and gamers.</li>
+<li>People who keep phones for four years.</li>
+</ul>
+<h2>Alternatives</h2>
+[[rivals:realme-note-80]]
+<p>The Redmi A7 Pro with 128GB costs Rs 2,000 more and solves the storage problem with a bigger screen, though without the reinforced body. The <a href="/products/blackview-fort-1">Blackview Fort 1</a> is a true rugged phone at the same price, with a thicker and heavier body. The <a href="/products/honor-x5c-plus">Honor X5c Plus</a> and <a href="/products/infinix-smart-20">Infinix Smart 20</a> are ordinary phones with their own small advantages. If toughness is the priority and your budget can grow, the <a href="/products/honor-x9d">Honor X9d</a> shows what is possible at more than twice the price: high-grade water protection, a bright AMOLED and a large battery.</p>
+<h2>Do you need a tough phone or a good case?</h2>
+<p>It is worth asking. A Rs 500 silicone case with raised lips and a Rs 300 tempered glass protect an ordinary phone from most falls. That leaves you free to buy the faster Galaxy A07. What a case cannot do is protect against bending, dust in the ports or extreme heat. If your phone lives in a back pocket on a construction site, the stronger body is worth having. If it lives on a desk, it is not.</p>
+<h2>Software</h2>
+<p>Realme UI 5 on Android 15 is easy to use. There are a number of preinstalled apps and suggestions to clean up, and a simple mode for older users. Do not expect more than one version upgrade on a phone at this price. Security updates tend to come every few months.</p>
+<h2>Service</h2>
+<p>Realme shares much of its service arrangement with its sister brands, and centres exist in major cities. Screens and batteries for C and Note series phones are affordable. As always, ask for a VAT bill, the warranty card and MDMS registration, even on a cheap phone. Networks treat an unregistered Rs 20,000 phone the same as an unregistered flagship.</p>
+<h2>How to make 64GB bearable</h2>
+<ul>
+<li>Insert a 128GB memory card and move the camera roll there.</li>
+<li>In WhatsApp, turn off automatic media download and clear large files monthly.</li>
+<li>Use Google Photos backup on Wi-Fi and free up space afterwards.</li>
+<li>Choose lite apps and uninstall what you do not use.</li>
+<li>Check that at least 10GB stays free, or updates will fail.</li>
+</ul>
+<h2>Verdict</h2>
+<p>As a second phone or a work phone, the Note 80 has a clear purpose: it lasts long and takes knocks. As a main phone, its storage holds it back so much that we cannot recommend it over cheaper-looking rivals with twice the space. If Realme brings a 128GB version at a small premium, the advice changes.</p>
+
+=== poco-f7-review-nepal
+<h2>Specifications</h2>
+[[specs:poco-f7]]
+<h2>What near-flagship means in numbers you can feel</h2>
+<p>The Snapdragon 8s Gen 4 borrows its design from Qualcomm's top tier and trims the peaks. In practice, apps open as quickly as on phones that cost twice as much. The gap appears in the heaviest games and in the final seconds of a video export. For everyone else the limiting factor is the network.</p>
+<p>Just as important are the parts around it. LPDDR5X memory and UFS 4.1 storage mean that installing a large game, scrolling a gallery of ten thousand photos or editing a clip happens without a pause. And with 12GB and 512GB as the only version, there is no trap model with too little of either.</p>
+<h2>Gaming for an hour, and not for five minutes</h2>
+<p>Benchmarks measure a burst. Gamers care about minute forty. A large phone with a sizeable vapour chamber holds its speed well, and Xiaomi's Game Turbo settings let you choose between cooler and faster. In a room at 30 degrees, expect the back to become hot and frame rates to settle a little lower after half an hour. Remove the case, lower the brightness and do not charge while you play.</p>
+<p>PUBG Mobile, Mobile Legends and Call of Duty Mobile can run at high frame-rate modes where the game allows. Genshin Impact and Wuthering Waves work at high settings with a steady frame rate if you drop one or two effects.</p>
+<h2>Screen and build</h2>
+<p>The 6.83-inch AMOLED is bright, smooth and sharp at 1.5K. HDR video reaches a peak of 3,200 nits. Glass on both sides with an aluminium frame and IP68 protection make it feel like a more expensive phone. At 216 grams it is solid and heavy. If you play lying down, you will feel it.</p>
+<h2>Battery and charging</h2>
+<p>A 6,500mAh silicon-carbon battery is large for a fast phone. A day of heavy use is safe, and light users will see nearly two. At 90W it goes from low to nearly full over lunch. Check that the adapter is included, since bundles vary between shops.</p>
+<h2>Cameras: know what you are getting</h2>
+<p>The 50MP Sony IMX882 is a respected sensor, and with stabilisation it takes crisp daylight photos and decent night shots. The 8MP ultra wide is weak. There is no telephoto. Xiaomi's processing is punchy, with a portrait mode that works best at 2x from a couple of metres. If you post a lot of photos of people, the <a href="/products/nothing-phone-4a">Nothing Phone 4a</a> or the <a href="/products/honor-400">Honor 400</a> will please you more.</p>
+<p>Video recording goes to 4K at 60 frames per second with fair stabilisation. The 20MP front camera is good for calls and reels.</p>
+<h2>Software support has improved</h2>
+<p>Xiaomi promises four Android upgrades and six years of security patches for this phone. It launches with Android 15, so it should reach Android 19, and patches run into the next decade. That is a serious commitment at this price, and it makes the fast chip worth having, because the phone can still be useful when those updates arrive.</p>
+<p>HyperOS has many features and some noise. After setup, uninstall the bundled apps and games, switch off recommendations in the system apps, choose Google's keyboard and messages if you prefer them, and allow your chat apps to run in the background.</p>
+<h2>Weak points worth repeating</h2>
+<ul>
+<li>It is big and heavy.</li>
+<li>The second camera is there for the specification sheet.</li>
+<li>No wireless charging.</li>
+<li>Poco's resale value is lower than that of Samsung or Apple.</li>
+</ul>
+<h2>Against others at Rs 70,000</h2>
+[[rivals:poco-f7]]
+<p>The <a href="/products/poco-x8-pro">POCO X8 Pro</a> is a newer design at the same price, so compare chips and prices on the day. The <a href="/products/realme-15-pro">Realme 15 Pro</a> is slimmer with a camera focus. The <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a> is the endurance champion. If you can wait or spend more, the <a href="/products/poco-f8-pro">POCO F8 Pro</a> at around Rs 1 lakh moves up to a flagship chip and a better camera set.</p>
+<h2>F7 or X7 Pro?</h2>
+<p>The <a href="/products/poco-x7-pro">X7 Pro</a> saves Rs 10,000. You lose the metal frame, some speed, Wi-Fi 7 and two years of security updates, and you keep 12GB, 512GB, IP68 and 90W charging. For a student whose limit is Rs 60,000 it is the smart choice. For someone who will keep the phone for five years, the F7's longer support is worth the difference.</p>
+<h2>Who should buy the F7</h2>
+<ul>
+<li>Mobile gamers who want high settings without a flagship price.</li>
+<li>People who keep phones for a long time and hate lag.</li>
+<li>Students and creators who need lots of storage.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Photographers who use zoom and wide lenses.</li>
+<li>Anyone who wants a small or light phone.</li>
+<li>Buyers who value resale above everything.</li>
+</ul>
+<h2>Buying tips for Nepal</h2>
+<p>Buy the official unit. Indian and Chinese versions of Poco and Redmi phones have different names, batteries and software, and the Indian F7 has a bigger battery with a different warranty. Check that the model number on the box matches the phone, register the IMEI through MDMS and keep the VAT bill. Service is handled by Xiaomi's authorised centres, which is one of the reasons to prefer Poco over similarly fast phones from smaller brands.</p>
+<h2>One last thought</h2>
+<p>It is easy to be blinded by speed. If you do not play games, edit video or keep a phone beyond three years, you will not use what this chip can do, and one of the other phones in the table will make you happier. If you do any of those things, the F7 is the best use of Rs 70,000 in Nepal right now.</p>
+
+=== poco-x7-pro-review-nepal
+<h2>Specifications</h2>
+[[specs:poco-x7-pro]]
+<h2>Why an older phone can still win</h2>
+<p>The X7 Pro came out in early 2025, and in phone years that is old. It remains on this list because chips at this price have barely moved. Memory became expensive, so manufacturers kept mid-range phones on mid-range processors. The Dimensity 8400 Ultra is a class above them. It uses eight large cores, with no small ones, and this shows in games and in heavy multitasking.</p>
+<p>So the choice at Rs 60,000 is between a new phone with a modest chip and a slightly older one with a fast chip. For players, the second is better. For people who want the latest design or the longest support, the first may be.</p>
+<h2>Gaming</h2>
+<p>Expect high settings and steady frame rates in PUBG Mobile, Mobile Legends and Free Fire, with high frame-rate modes available where supported. Genshin Impact runs well at medium to high. The 1.5K screen adds sharpness, and touch response is quick. The plastic body is a small advantage here, as it does not feel as hot as metal in the hand, though the chip inside will slow a little in a warm room.</p>
+<h2>Storage you will not fill quickly</h2>
+<p>Having 512GB of UFS 4.0 in a Rs 60,000 phone is remarkable when some rivals start at 128GB. You can keep several large games, a year of 4K video and offline films without thinking. There is no memory card slot, and with this much space you will not miss it.</p>
+<h2>Display and design</h2>
+<p>The 6.67-inch AMOLED is smaller than the near-7-inch panels that are now common, which makes the phone easier to handle at 195 grams. Brightness is high enough for outdoors. The flat sides and the choice of plastic or vegan leather backs give it some character, and the leather version hides fingerprints.</p>
+<p>IP68 protection on a plastic phone at this price was unusual at launch and remains so. Rain, dust and an accidental dip in fresh water should not be a problem while the seals are intact.</p>
+<h2>Battery</h2>
+<p>The 6,000mAh battery gives a comfortable day for gamers and more for others. At 90W, a short stop refills most of it. Rivals with 8,000mAh or more last longer. Compare the <a href="/products/redmi-note-17-pro-5g">Redmi Note 17 Pro</a> at Rs 57,999 if endurance matters more than frames.</p>
+<h2>Camera</h2>
+<p>You get the same 50MP Sony main sensor as the F7, with stabilisation. Daylight photos are sharp, with contrast set a little high, and night shots are fine. The 8MP ultra wide is below average, and no zoom lens exists. The 20MP front camera does its job. In short, one good camera.</p>
+<h2>Software and support</h2>
+<p>The phone launched with Android 15 and HyperOS 2. Three Android versions and four years of security updates were promised from early 2025, so about two years of versions and two and a half years of patches remain today. That is fine for someone who upgrades every two or three years and less good for long-term owners. Factor it into the price: a phone with less support left should cost less.</p>
+<h2>Compared with newer phones</h2>
+[[rivals:poco-x7-pro]]
+<p>The <a href="/products/poco-m8-pro">POCO M8 Pro</a> and <a href="/products/oneplus-nord-ce-5">OnePlus Nord CE 5</a> are more recent, with larger batteries and slower chips. The <a href="/products/tecno-pova-8">Tecno Pova 8</a> aims at gamers with bold design. The <a href="/products/samsung-galaxy-a27-5g">Galaxy A27 5G</a> is the long-support choice and cannot match it for speed. For Rs 10,000 more, the <a href="/products/poco-f7">POCO F7</a> is the natural upgrade.</p>
+<h2>Is it risky to buy a phone near the end of its run?</h2>
+<p>Two practical checks remove most of the risk. Look at the manufacturing date on the box: batteries age on the shelf, so prefer a unit made within the past year. And ask for the full official warranty from the date of purchase, not from the date the shop received it. Then use it heavily for the first week, while exchange is easy.</p>
+<h2>Who will enjoy it</h2>
+<ul>
+<li>Gamers with a firm Rs 60,000 limit.</li>
+<li>People who install everything and delete nothing.</li>
+<li>Anyone who prefers a phone under 6.7 inches with a fast chip.</li>
+</ul>
+<h2>Who will not</h2>
+<ul>
+<li>Owners who keep phones for five years.</li>
+<li>Photographers.</li>
+<li>Buyers who want premium materials.</li>
+</ul>
+<h2>Settings worth changing</h2>
+<p>Choose 120Hz for all apps. Turn off system app recommendations. In the battery menu, allow WhatsApp, Viber and your bank to run without restriction. Use the Game Turbo panel to block notifications while playing. If the phone warms up in summer, limit games to 60 frames per second. You will hardly notice, and the battery will thank you.</p>
+<h2>What about a used F6 or F5?</h2>
+<p>Second-hand Poco F phones are tempting at lower prices. They are fast, but their batteries have aged and their support is close to its end. If you find one with a healthy battery for half the price of the X7 Pro, it can make sense as a gaming device. As a main phone, the newer one with a warranty is the better bet.</p>
+<h2>Verdict</h2>
+<p>Judged purely on what it does per rupee, the X7 Pro embarrasses most phones launched after it. Its age shows only in the remaining update years and in the plastic body. If you want speed and space for Rs 60,000, buy it while official stock lasts. If you plan further ahead, find Rs 10,000 more for the F7.</p>
+
+=== redmi-note-17-pro-5g-review-nepal
+<h2>Specifications</h2>
+[[specs:redmi-note-17-pro-5g]]
+<h2>The Goldilocks model</h2>
+<p>The Redmi Note 17 family has three rungs. The plain Note 17 has a huge screen and an entry-level chip. The Pro Max has a 10,000mAh battery and a price near Rs 70,000. The Pro in the middle keeps what matters from the top: the same AMOLED, the same protection against water and dust, and a battery that few people will empty in a day. It is the one we would hand to a friend who says, just give me something that works.</p>
+<h2>Battery reality</h2>
+<p>With 8,340mAh, the arithmetic is friendly. Moderate users finish the first day above half. Heavy users reach bedtime with a margin. Charging at 67W is not class-leading, yet a battery this large needs filling less often. The 22.5W reverse charging is useful for earbuds, a watch puck or a friend.</p>
+<p>Use the charge limit setting. If you stop at eighty-five per cent on normal days, you still have more capacity than most phones have at full, and the battery will age more slowly.</p>
+<h2>A screen that is easy on the eyes</h2>
+<p>The 1.5K panel is sharp without wasting power. High-frequency dimming at 3,840Hz reduces the invisible flicker that gives some people headaches on AMOLED phones. If you have ever felt tired after reading on a phone at night, that is worth testing in the shop: lower the brightness to minimum and look at a white page for a minute.</p>
+<p>The peak of 3,500 nits applies to HDR highlights, and everyday outdoor visibility is very good.</p>
+<h2>Durability at an honest price</h2>
+<p>IP68 and IP69K ratings used to belong to flagships and rugged bricks. Here they come on a phone at Rs 57,999. They mean rain, dust, mud and a rinse are no concern. Add a case for drops, because water seals do nothing for glass.</p>
+<h2>The chip is fine, and it helps to know what fine means</h2>
+<p>The Snapdragon 6s Gen 4 is designed for efficiency. Scrolling, banking, video calls, navigation and photo editing are smooth. Games run at medium. A long session of PUBG is comfortable, and Genshin is a compromise. Compared with the Dimensity 8400 Ultra in the <a href="/products/poco-x7-pro">POCO X7 Pro</a>, it is about half as fast in heavy work. Most owners will never notice. Gamers will notice on the first evening.</p>
+<h2>Cameras</h2>
+<p>A 50MP main camera with optical stabilisation handles most scenes. Night photos of streets and indoor family pictures are dependable. The 8MP ultra wide is for daylight. There is no telephoto and the crop at 2x is usable. The 16MP front camera is adequate for calls and less flattering than the Pro Max's 32MP unit. Users who take a lot of selfies should take that into account.</p>
+<h2>8GB or 12GB</h2>
+<p>The 12GB version costs Rs 7,000 more with the same storage. On this chip, 8GB is the better value. Spend the difference on a genuine fast charger if yours is not included, or on screen insurance.</p>
+<h2>Where it sits among rivals</h2>
+[[rivals:redmi-note-17-pro-5g]]
+<p>The <a href="/products/honor-x9d">Honor X9d</a> is cheaper by Rs 3,000, about as tough and slightly thinner, with a smaller service network. The <a href="/products/samsung-galaxy-a27-5g">Galaxy A27 5G</a> has longer support and half the battery. The <a href="/products/nothing-phone-3a-lite">Nothing Phone 3a Lite</a> has cleaner software. The <a href="/products/oneplus-nord-ce-5">OnePlus Nord CE 5</a> is faster, with a large battery and lower protection. If battery and toughness top your list, the Redmi and the Honor are the two to compare. Buy whichever has service near you.</p>
+<h2>Updates and service</h2>
+<p>Ask the seller for the exact number of Android versions and years of security patches for this model, as Xiaomi's policy differs across its ranges. Service is one of the stronger arguments for Redmi: centres in several cities, a wide choice of parts and technicians who know the phones. Out-of-warranty repairs on Note phones cost less than on Samsung's A5x series.</p>
+<h2>First-day checklist</h2>
+<ul>
+<li>Update to the latest HyperOS build before installing apps.</li>
+<li>Remove bundled apps and turn off recommendations.</li>
+<li>Turn on anti-flicker or DC dimming if your eyes are sensitive.</li>
+<li>Set charge protection.</li>
+<li>Allow chat and banking apps to run in the background.</li>
+</ul>
+<h2>Who should buy it</h2>
+<ul>
+<li>People who want one phone for work, travel and family, without fuss.</li>
+<li>Anyone who spends days outdoors.</li>
+<li>Readers and viewers with sensitive eyes.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Gamers, who should take the POCO X7 Pro.</li>
+<li>Zoom and selfie enthusiasts.</li>
+<li>People who prefer small or light phones.</li>
+</ul>
+<h2>Common questions</h2>
+<p><strong>Is it better than the Note 17 Pro Max?</strong> Not better, but better value for most. The Max adds battery, charging speed and a sharper selfie camera for Rs 12,000.</p>
+<p><strong>Can I use it with a power bank to charge faster?</strong> Full speed needs Xiaomi's own charging system. With USB PD it charges more slowly.</p>
+<p><strong>Is it good for elderly parents?</strong> The battery and screen are excellent for them. Clean up the software first, and consider a lighter phone if they have weak hands.</p>
+<h2>Verdict</h2>
+<p>There is always a phone in the catalogue that does everything people actually complain about: battery, breakage, sunlight, rain. This year it is the Redmi Note 17 Pro. It will not win arguments about processors or cameras, and its owners will be too busy not charging it to care.</p>
+
+=== redmi-note-17-5g-review-nepal
+<h2>Specifications</h2>
+[[specs:redmi-note-17-5g]]
+<h2>Check the version and the price together</h2>
+<p>Listings for this phone have not been consistent. The summary above describes 8GB/256GB at Rs 47,999 and 12GB/512GB at Rs 52,999, while our price table records 6GB/128GB at Rs 47,999 and 8GB/256GB at Rs 52,999. Before paying, look at the sticker on the box and at About phone, and make sure you get the memory you were quoted. The difference decides whether this phone is merely expensive or a poor buy.</p>
+<h2>Almost seven inches of AMOLED</h2>
+<p>At 6.99 inches this is one of the largest phones in normal production. Watching cricket highlights, reading PDFs for an exam or following a recipe in the kitchen is pleasant, and AMOLED contrast makes a difference compared with the LCDs of cheaper phones. A 120Hz refresh rate and 1,800 nits in HDR round it off.</p>
+<p>It will not fit every pocket, and one-handed use is out of the question for most people. With 225 grams to hold, it feels more like a small tablet that makes calls. Try it before ordering online.</p>
+<h2>The chip explains the score</h2>
+<p>Qualcomm's Snapdragon 4 series is made for entry-level 5G phones. It is efficient and adequate, and it does not belong in a Rs 48,000 phone. Social feeds scroll well, but loading a heavy web page, switching between apps or editing a long video shows the limits. Games run at low to medium settings. A phone at this price should stay comfortable for four years, and this one starts closer to the edge.</p>
+<h2>Battery life is superb</h2>
+<p>The other side of a modest chip is endurance. With 7,700mAh, many owners will charge every second night. At 45W a full charge takes a little over an hour and a half. Reverse charging at 22.5W is fast enough to be useful.</p>
+<h2>Camera: one lens, no extras</h2>
+<p>There is a single 50MP camera with autofocus and, according to the sheet, no optical stabilisation. Daylight photos are good. At night you need steady hands. No ultra wide means stepping back for group photos, and that is awkward in small rooms. The 16MP selfie camera is fine.</p>
+<h2>Protection</h2>
+<p>IP65 covers dust and water jets, enough for rain. The more expensive Note 17 models add immersion and high-pressure ratings.</p>
+<h2>What we would buy instead</h2>
+[[rivals:redmi-note-17-5g]]
+<p>The table shows the trouble. For the same money, you can have the <a href="/products/realme-14-5g">Realme 14 5G</a> or <a href="/products/infinix-gt-30">Infinix GT 30</a> with gaming-class speed, or the <a href="/products/motorola-edge-50-fusion">Motorola Edge 50 Fusion</a> with a curved pOLED and two good cameras. The <a href="/products/samsung-galaxy-a17-5g">Galaxy A17 5G</a> is cheaper with stabilisation and longer support. And ten thousand more brings the <a href="/products/redmi-note-17-pro-5g">Redmi Note 17 Pro</a>, which fixes nearly every complaint.</p>
+<h2>So who is it for?</h2>
+<p>There is a real audience. Think of someone whose phone is mostly a screen: a retired teacher who reads and watches all day, a shop owner who streams news at the counter, a student who studies from PDFs and lectures and does not play games. For them the display and the battery are the two features that count, and nothing else near this price has both at this size.</p>
+<h2>Tips for living with it</h2>
+<ul>
+<li>Use one-handed mode, which shrinks the interface, when you need to reach the top.</li>
+<li>Set the font size once and the display size separately. Larger text with normal icons reads best.</li>
+<li>Use split screen: on seven inches it is useful, with a video above and notes below.</li>
+<li>Choose a case with a ring or strap to hold it safely.</li>
+<li>Keep 60Hz for reading and 120Hz for scrolling, or leave it on automatic.</li>
+</ul>
+<h2>HyperOS 3 on Android 16</h2>
+<p>You get the current software, which is good. Clean up the bundled apps, stop recommendations, and check the promised update period with the seller. Xiaomi's Note series generally receives several years of security patches, with fewer version upgrades than Samsung gives.</p>
+<h2>Tablet or big phone?</h2>
+<p>If reading and video are the only goals and you already own a working phone, a budget tablet may serve you better. A 10 or 11-inch tablet costs from about Rs 25,000, and our <a href="/guides/best-tablets-under-30000-nepal">guide to tablets under Rs 30,000</a> lists good ones. You would have two devices for less than the price of this phone, with a much larger picture. If you want just one thing to carry, the Note 17's size makes sense.</p>
+<h2>Resale and service</h2>
+<p>Redmi Note phones sell easily second-hand because buyers know them. The unusual size may narrow the audience later. Service coverage is good, and screens for a 6.99-inch AMOLED will cost more than for smaller Redmis, so take out screen insurance if it is offered.</p>
+<h2>If the price falls</h2>
+<p>At around Rs 40,000 for the 8GB model this would be an easy phone to like. At that level the slow chip is what you expect and the screen and battery become a bonus. Festival sales and exchange offers sometimes bring Redmi phones down quickly, so if you are in no hurry, put it on your list in our <a href="/price-tracker">price tracker</a> and wait.</p>
+<h2>Verdict</h2>
+<p>A magnificent screen and battery have been attached to the wrong processor and then priced as though nobody would notice. Buy it only for reading and video, and only after comparing the version and price carefully. Everyone else should save for the Note 17 Pro or choose one of the faster phones in the table.</p>

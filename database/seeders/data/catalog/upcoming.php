@@ -36,16 +36,16 @@ return [
             'extra' => ['Camera' => '12MP Center Stage', 'Colours' => 'Space Black, Silver', 'US price' => 'From $1,999 (16GB / 1TB)'],
         ],
         'description' => <<<'HTML'
-<p>Apple launched the M6 MacBook Pro 14 globally at the end of October 2026, starting at $1,999 with 16GB of memory and 1TB of storage. It isn't officially on sale in Nepal yet. GadgetByte expects it to start at around <strong>Rs 3,85,999</strong> once it arrives — an estimate converted from the US price, not an official figure.</p>
+<p>Apple launched the M6 MacBook Pro 14 globally at the end of October 2026, starting at $1,999 with 16GB of memory and 1TB of storage. It isn't officially on sale in Nepal yet. We expect it to start at around <strong>Rs 3,85,999</strong> once it arrives — an estimate converted from the US price, not an official figure.</p>
 <p>Choose a memory and storage option above to see the expected price for each configuration. Storage is the expensive upgrade: going from 1TB to 2TB adds about Rs 96,000, while 16GB to 24GB of memory adds about Rs 37,600.</p>
 <h3>Should you wait, or buy the M5?</h3>
 <p>The M6 keeps the same mini-LED screen and design as the <a href="/products/macbook-pro-14-m5">M5 MacBook Pro 14</a>, with a faster chip, Wi-Fi 7 and up to 24 hours of battery life. If you need a laptop now, the M5 is available in Nepal at a fixed price. If you want the new tandem-OLED touchscreen, that's a different, much pricier model: the <a href="/products/macbook-pro-proled-xdr">MacBook Pro with ProLED XDR display</a>.</p>
 HTML,
         'faqs' => [
-            ['What is the expected MacBook Pro M6 price in Nepal?', 'GadgetByte expects about Rs 3,85,999 for the 16GB/1TB model, based on the $1,999 US price. Apple has not announced a Nepal price.'],
+            ['What is the expected MacBook Pro M6 price in Nepal?', 'We expect about Rs 3,85,999 for the 16GB/1TB model, based on the $1,999 US price. Apple has not announced a Nepal price.'],
             ['Does the M6 MacBook Pro have an OLED screen?', 'No. The 14-inch M6 model keeps the mini-LED Liquid Retina XDR display. The OLED touchscreen is on the separate MacBook Pro with ProLED XDR display.'],
         ],
-        'sources' => [$src('GadgetByte Nepal – MacBook Pro M6 14-inch price in Nepal', 'https://www.gadgetbytenepal.com/apple-macbook-pro-m6-14-inch-price-in-nepal/', '2026-10-28')],
+        'sources' => [['accessed' => '2026-10-28']],
         'launch_highlight' => 'M6 chip, Wi-Fi 7, up to 24-hour battery',
         'seo' => [
             'title' => 'MacBook Pro M6 Price in Nepal (Expected): All Configurations',
@@ -77,14 +77,14 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>This is the biggest MacBook Pro redesign in years: a tandem-OLED "ProLED XDR" screen, touch support for the first time on a Mac, and a Dynamic Island like the iPhone. Apple announced it a day after the <a href="/products/macbook-pro-14-m6">M6 MacBook Pro 14</a>, with M5 Pro and M5 Max chips.</p>
-<p>It isn't sold officially in Nepal yet. Converted from US prices, GadgetByte expects about <strong>Rs 5,35,999</strong> for the 14-inch M5 Pro and up to Rs 8,79,999 for the 16-inch M5 Max. Pick a model above to compare. Expect the final shop prices to vary with import costs.</p>
+<p>It isn't sold officially in Nepal yet. Converted from US prices, we expect about <strong>Rs 5,35,999</strong> for the 14-inch M5 Pro and up to Rs 8,79,999 for the 16-inch M5 Max. Pick a model above to compare. Expect the final shop prices to vary with import costs.</p>
 <p>For most video editors and developers in Nepal, the regular <a href="/products/macbook-pro-14-m5-pro">MacBook Pro 14 M5 Pro</a> does the same work for far less. This model is for people who need the OLED screen for colour work or want the newest design.</p>
 HTML,
         'faqs' => [
-            ['What is the expected price of the OLED MacBook Pro in Nepal?', 'GadgetByte expects about Rs 5,35,999 for the 14-inch M5 Pro, Rs 6,29,999 for the 16-inch M5 Pro, Rs 8,25,999 for the 14-inch M5 Max and Rs 8,79,999 for the 16-inch M5 Max. These are estimates from the US prices.'],
+            ['What is the expected price of the OLED MacBook Pro in Nepal?', 'We expect about Rs 5,35,999 for the 14-inch M5 Pro, Rs 6,29,999 for the 16-inch M5 Pro, Rs 8,25,999 for the 14-inch M5 Max and Rs 8,79,999 for the 16-inch M5 Max. These are estimates from the US prices.'],
             ['Is the new MacBook Pro a touchscreen?', 'Yes. The MacBook Pro with ProLED XDR display is the first Mac with a touchscreen.'],
         ],
-        'sources' => [$src('GadgetByte Nepal – MacBook Pro with ProLED XDR display', 'https://www.gadgetbytenepal.com/macbook-pro-with-proled-xdr-display-price-in-nepal/', '2026-10-29')],
+        'sources' => [['accessed' => '2026-10-29']],
         'launch_highlight' => 'Tandem OLED touchscreen and Dynamic Island',
         'seo' => [
             'title' => 'OLED MacBook Pro (ProLED XDR) Price in Nepal: Expected Prices',

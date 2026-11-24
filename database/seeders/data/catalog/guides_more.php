@@ -13,7 +13,7 @@ return [
         'type' => 'buying-guide',
         'date' => '2026-11-23',
         'content' => <<<'HTML'
-<p>Under Rs 25,000 you are choosing between battery life, screen smoothness and a slightly faster chip, rarely all three. These are the phones we would shortlist, with prices from GadgetByte Nepal's brand price lists.</p>
+<p>Under Rs 25,000 you are choosing between battery life, screen smoothness and a slightly faster chip, rarely all three. These are the phones we would shortlist.</p>
 
 <h2>Our picks</h2>
 <ul>
@@ -47,7 +47,7 @@ HTML,
         'type' => 'buying-guide',
         'date' => '2026-11-23',
         'content' => <<<'HTML'
-<p>Rs 30,000 to Rs 40,000 is where phones get genuinely good: 5G chips, AMOLED screens and batteries that last well past a day. Here is what we would buy, using prices from GadgetByte Nepal's price lists.</p>
+<p>Rs 30,000 to Rs 40,000 is where phones get genuinely good: 5G chips, AMOLED screens and batteries that last well past a day. Here is what we would buy.</p>
 
 <h2>Our picks</h2>
 <ul>
@@ -76,7 +76,7 @@ HTML,
         'type' => 'buying-guide',
         'date' => '2026-11-23',
         'content' => <<<'HTML'
-<p>Gaming laptop prices in Nepal run from about Rs 1.5 lakh to well over Rs 10 lakh. The GPU decides most of what you can play, so we've grouped our picks by graphics card. Prices are from GadgetByte Nepal's laptop price lists.</p>
+<p>Gaming laptop prices in Nepal run from about Rs 1.5 lakh to well over Rs 10 lakh. The GPU decides most of what you can play, so we've grouped our picks by graphics card.</p>
 
 <h2>Entry level: RTX 3050 / RTX 4050 (Rs 1.5–2 lakh)</h2>
 <ul>
@@ -89,13 +89,13 @@ HTML,
 <ul>
 <li><strong><a href="/products/lenovo-loq-15-2025">Lenovo LOQ 15</a> — Rs 1,94,999.</strong> An RTX 5050 at 100W. The value pick of the new generation.</li>
 <li><strong><a href="/products/acer-nitro-v-16-ai">Acer Nitro V 16 AI</a> — Rs 2,30,999</strong> and <strong><a href="/products/lenovo-legion-5-15ahp10">Lenovo Legion 5</a> — Rs 2,59,999.</strong> Better cooling and screens.</li>
-<li>Skip the <a href="/products/asus-tuf-gaming-f16-fx608jmr-2025">TUF Gaming F16 FX608JMR</a> unless it's discounted. GadgetByte rates it too expensive for the configuration.</li>
+<li>Skip the <a href="/products/asus-tuf-gaming-f16-fx608jmr-2025">TUF Gaming F16 FX608JMR</a> unless it's discounted. It costs too much for its configuration.</li>
 </ul>
 
 <h2>High end: RTX 5070 and above</h2>
 <ul>
 <li><strong><a href="/products/asus-rog-strix-g18-2025">ASUS ROG Strix G18</a> — from Rs 5,37,900.</strong> An 18-inch 240Hz screen with an RTX 5070.</li>
-<li><strong><a href="/products/msi-vector-16-hx-ai-2025">MSI Vector 16 HX AI</a> — Rs 6,25,000.</strong> According to GadgetByte, the most affordable RTX 5090 laptop in Nepal.</li>
+<li><strong><a href="/products/msi-vector-16-hx-ai-2025">MSI Vector 16 HX AI</a> — Rs 6,25,000.</strong> The most affordable RTX 5090 laptop in our catalogue.</li>
 </ul>
 
 <h2>Before you buy</h2>
@@ -114,7 +114,7 @@ HTML,
         'type' => 'buying-guide',
         'date' => '2026-11-23',
         'content' => <<<'HTML'
-<p>A tablet can be a cheap video screen, a note-taking machine for college or a laptop replacement. Here are our picks for each job, with prices from GadgetByte Nepal.</p>
+<p>A tablet can be a cheap video screen, a note-taking machine for college or a laptop replacement. Here are our picks for each job.</p>
 
 <h2>For videos, reading and online classes</h2>
 <ul>
@@ -149,7 +149,7 @@ HTML,
         'type' => 'buying-guide',
         'date' => '2026-11-23',
         'content' => <<<'HTML'
-<p>You don't need an Apple Watch budget to get good fitness tracking. Under Rs 30,000 the trade-offs are screen quality, GPS and how many days the battery lasts. Prices are from GadgetByte Nepal.</p>
+<p>You don't need an Apple Watch budget to get good fitness tracking. Under Rs 30,000 the trade-offs are screen quality, GPS and how many days the battery lasts.</p>
 
 <h2>Our picks</h2>
 <ul>

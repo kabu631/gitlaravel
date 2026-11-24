@@ -90,7 +90,7 @@ class SliderResource extends Resource
     {
         return $table->columns([
             TextColumn::make('sort_order')->label('#')->sortable()->width('50px'),
-            ImageColumn::make('image')->height(48)->disk('public')->defaultImageUrl(asset('images/placeholder.png')),
+            ImageColumn::make('image')->height(48)->disk('public')->defaultImageUrl(asset('placeholder.png')),
             TextColumn::make('title')->searchable()->limit(45)->weight('bold'),
             TextColumn::make('subtitle')->limit(35)->color('gray'),
             IconColumn::make('is_active')->boolean()->label('Active'),

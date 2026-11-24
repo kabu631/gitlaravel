@@ -48,3 +48,9 @@ export function readMinutes(html) {
   const words = stripHtml(html).split(' ').filter(Boolean).length
   return Math.max(1, Math.round(words / 220))
 }
+
+/** Author shown to readers; the shared "Admin" login is not a person, so it signs as the site. */
+export function byline(name, fallback = 'Git Infosys') {
+  const n = String(name || '').trim()
+  return !n || /^(admin|administrator)$/i.test(n) ? fallback : n
+}

@@ -123,7 +123,7 @@ const refreshRates = [
     batteryImpact: 'Lowest Drain',
     batteryColor: 'text-emerald-400',
     gliderClass: 'bg-slate-700 text-slate-200',
-    verdict: 'Standard 60Hz is common in budget phones under Rs. 20,000. In fast scrolling (Facebook/Instagram), text becomes blurry and micro-stutters are perceptible.'
+    verdict: 'Standard 60Hz is common in budget phones under Rs 20,000. In fast scrolling (Facebook/Instagram), text becomes blurry and micro-stutters are perceptible.'
   },
   {
     hz: 90,
@@ -135,7 +135,7 @@ const refreshRates = [
     batteryImpact: '+12% Drain',
     batteryColor: 'text-amber-400',
     gliderClass: 'bg-fg text-canvas',
-    verdict: '90Hz is the sweet spot for budget mid-rangers (Rs. 25,000 to Rs. 35,000). Provides noticeably smoother UI animations without killing battery.'
+    verdict: '90Hz is the sweet spot for budget mid-rangers (Rs 25,000 to Rs 35,000). Provides noticeably smoother UI animations without killing battery.'
   },
   {
     hz: 120,

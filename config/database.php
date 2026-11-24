@@ -64,19 +64,6 @@ return [
             ]) : [],
         ],
 
-        'django' => [
-            'driver'    => 'mysql',
-            'host'      => '127.0.0.1',
-            'port'      => '3306',
-            'database'  => 'git_infosys',
-            'username'  => env('DB_USERNAME', 'root'),
-            'password'  => env('DB_PASSWORD', ''),
-            'charset'   => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
-            'prefix'    => '',
-            'strict'    => false,
-        ],
-
         'mariadb' => [
             'driver' => 'mariadb',
             'url' => env('DB_URL'),

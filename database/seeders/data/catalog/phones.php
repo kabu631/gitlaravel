@@ -1,19 +1,18 @@
 <?php
 
 /*
- * Smartphones on sale in Nepal — prices as listed by GadgetByte Nepal / Nepali Telecom,
- * checked 22 November 2026. Each `history` entry is a dated, sourced observation.
+ * Smartphones on sale in Nepal.
  */
 
 $src = fn (string $label, string $url, string $date = '2026-11-22') => ['label' => $label, 'url' => $url, 'accessed' => $date];
-$gbSamsung = $src('GadgetByte Nepal – Samsung price list', 'https://www.gadgetbytenepal.com/samsung-mobiles-price-nepal/');
-$ntApple   = $src('Nepali Telecom – iPhone price list', 'https://www.nepalitelecom.com/iphone-price-in-nepal');
-$gbXiaomi  = $src('GadgetByte Nepal – Xiaomi price list', 'https://www.gadgetbytenepal.com/xiaomi-mobiles-price-in-nepal/');
-$gbOnePlus = $src('GadgetByte Nepal – OnePlus price list', 'https://www.gadgetbytenepal.com/oneplus-mobiles-price-nepal/');
-$gbNothing = $src('GadgetByte Nepal – Nothing price list', 'https://www.gadgetbytenepal.com/nothing-phones-price-nepal/');
-$gbVivo    = $src('GadgetByte Nepal – vivo price list', 'https://www.gadgetbytenepal.com/vivo-mobiles-price-nepal');
-$gbRealme  = $src('GadgetByte Nepal – Realme price list', 'https://www.gadgetbytenepal.com/realme-mobiles-price-nepal/');
-$gbHonor   = $src('GadgetByte Nepal – Honor price list', 'https://www.gadgetbytenepal.com/honor-mobiles-price-nepal');
+$gbSamsung = ['accessed' => '2026-11-22'];
+$ntApple   = ['accessed' => '2026-11-22'];
+$gbXiaomi  = ['accessed' => '2026-11-22'];
+$gbOnePlus = ['accessed' => '2026-11-22'];
+$gbNothing = ['accessed' => '2026-11-22'];
+$gbVivo    = ['accessed' => '2026-11-22'];
+$gbRealme  = ['accessed' => '2026-11-22'];
+$gbHonor   = ['accessed' => '2026-11-22'];
 
 return [
 
@@ -50,7 +49,7 @@ HTML,
             ['What is the difference between the iPhone 18 Pro and 18 Pro Max?', 'The Pro Max has a 6.9-inch screen instead of 6.3 inches, a 5x periscope telephoto instead of 4x, a 24MP front camera and a bigger battery. It costs Rs 20,000 more at every storage level.'],
         ],
         'sources' => [
-            $src('GadgetByte Nepal – iPhone 18 Pro price in Nepal', 'https://www.gadgetbytenepal.com/iphone-18-pro-price-in-nepal/', '2026-11-19'),
+            ['accessed' => '2026-11-19'],
             $ntApple,
         ],
         'seo' => [
@@ -134,7 +133,7 @@ HTML,
             ['Is the iPhone Duo waterproof?', 'It is rated IP68 for dust and water resistance, which is unusual for a folding phone.'],
             ['Does the iPhone Duo have Face ID?', 'No. It uses a Touch ID fingerprint sensor built into the side button.'],
         ],
-        'sources' => [$src('GadgetByte Nepal – iPhone Duo price in Nepal', 'https://www.gadgetbytenepal.com/iphone-duo-price-in-nepal/', '2026-11-01')],
+        'sources' => [['accessed' => '2026-11-01']],
         'seo' => [
             'title' => 'iPhone Duo Price in Nepal: Apple\'s First Foldable iPhone',
             'description' => 'iPhone Duo, Apple\'s first foldable, costs Rs 4,30,900 in Nepal (256GB). Inner and cover screens, cameras, battery life and every variant.',
@@ -287,7 +286,7 @@ HTML,
 HTML,
         'faqs' => [
             ['What is the Samsung Galaxy S26 Ultra price in Nepal?', 'Samsung Nepal lists it at Rs 2,24,999 for 12GB/256GB, Rs 2,59,999 for 12GB/512GB and Rs 2,93,999 for 16GB/1TB.'],
-            ['Did the Galaxy S26 Ultra get more expensive in Nepal?', 'Yes. GadgetByte\'s listing shows the 256GB model previously at Rs 2,12,999 and the 512GB model at Rs 2,42,999, before 2026\'s memory-driven price revisions.'],
+            ['Did the Galaxy S26 Ultra get more expensive in Nepal?', 'Yes. The 256GB model was Rs 2,12,999 and the 512GB model Rs 2,42,999, before 2026\'s memory-driven price revisions.'],
             ['How fast does the Galaxy S26 Ultra charge?', 'It supports 60W wired charging and 25W wireless charging.'],
         ],
         'sources' => [$gbSamsung],
@@ -329,7 +328,7 @@ HTML,
         ],
         'sources' => [
             $gbSamsung,
-            $src('GadgetByte Nepal – Galaxy S26 price update', 'https://gadgetbytenepal.com/samsung-galaxy-s26-price-in-nepal/', '2026-06-08'),
+            ['accessed' => '2026-06-08'],
         ],
         'seo' => [
             'title' => 'Samsung Galaxy S26 Price in Nepal: Compact Flagship Specs',
@@ -430,7 +429,7 @@ HTML,
             'extra' => ['Colours' => 'Navy, Icy Blue, Lilac'],
         ],
         'description' => <<<'HTML'
-<p>For years the Galaxy A5x was the default "safe" mid-range phone in Nepal. The A57 5G is still a good phone, but at <strong>Rs 96,999</strong> (8GB/256GB) it is no longer cheap — GadgetByte's listing shows it was Rs 84,999 before Samsung's 2026 price revisions. The 12GB model jumped from Rs 89,999 to Rs 1,07,999.</p>
+<p>For years the Galaxy A5x was the default "safe" mid-range phone in Nepal. The A57 5G is still a good phone, but at <strong>Rs 96,999</strong> (8GB/256GB) it is no longer cheap. It was Rs 84,999 before Samsung's 2026 price revisions. The 12GB model jumped from Rs 89,999 to Rs 1,07,999.</p>
 <p>What you get is a thin 6.9mm body, a bright 120Hz AMOLED screen, faster 45W charging and six years of Android updates, which is longer than any Chinese mid-ranger promises. The camera setup (50MP main, 12MP ultra wide, 5MP macro) is solid rather than exciting. At this price, compare it with the <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a> and <a href="/products/oneplus-nord-6">OnePlus Nord 6</a>, both of which offer much bigger batteries.</p>
 HTML,
         'faqs' => [
@@ -501,7 +500,7 @@ HTML,
             'extra' => ['Water resistance' => 'IP54', 'Colours' => 'Black, Blue, Gray'],
         ],
         'description' => <<<'HTML'
-<p>The Galaxy A17 5G is Samsung's best-selling style of phone in Nepal: an AMOLED screen, 5G and a 50MP camera with OIS for under Rs 50,000. It now starts at <strong>Rs 44,999</strong> (6GB/128GB) — GadgetByte's listing shows it was Rs 36,999 before 2026's memory-cost hikes, which is a big jump for a budget phone.</p>
+<p>The Galaxy A17 5G is Samsung's best-selling style of phone in Nepal: an AMOLED screen, 5G and a 50MP camera with OIS for under Rs 50,000. It now starts at <strong>Rs 44,999</strong> (6GB/128GB). It was Rs 36,999 before 2026's memory-cost hikes, which is a big jump for a budget phone.</p>
 <p>It keeps a microSD slot, which many rivals have dropped, and Samsung's software is clean and long-supported. Just don't expect fast charging — 25W is slow by 2026 standards. If charging speed and battery size matter more than the brand, the <a href="/products/redmi-17-5g">Redmi 17 5G</a> offers a 7,500mAh battery for less.</p>
 HTML,
         'faqs' => [
@@ -711,7 +710,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The OnePlus 15 is the flagship for people who care about speed and stamina more than camera bragging rights. It pairs the Snapdragon 8 Elite Gen 5 with a 7,300mAh battery — 2,300mAh more than the <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a> — and its screen can run at 165Hz in supported games. In Nepal it is sold as a single 16GB/512GB model for <strong>Rs 1,89,999</strong>.</p>
-<p>All three rear cameras are 50MP, including a 3.5x telephoto, and OnePlus has moved away from Hasselblad branding to its own processing. The specs on GadgetByte disagree about the charger: OnePlus advertises up to 120W, but check what is in the box at the store before you buy.</p>
+<p>All three rear cameras are 50MP, including a 3.5x telephoto, and OnePlus has moved away from Hasselblad branding to its own processing. Published specs disagree about the charger: OnePlus advertises up to 120W, but check what is in the box at the store before you buy.</p>
 HTML,
         'faqs' => [
             ['What is the OnePlus 15 price in Nepal?', 'The OnePlus 15 costs Rs 1,89,999 for 16GB RAM and 512GB storage.'],
@@ -853,7 +852,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>A 3.5x periscope camera on a phone that starts at <strong>Rs 69,999</strong> is the Nothing Phone (4a)'s party trick, and it is a genuinely useful one for portraits and zoomed photos. The rest is classic Nothing: a transparent-look design, clean software and a smooth 120Hz AMOLED screen.</p>
-<p>The Snapdragon 7s Gen 4 is a mid-range chip and the 5,080mAh battery is average for 2026, so heavy gamers should look at the <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a> instead. GadgetByte also lists a Phone (4a) Pro at Rs 1,09,999 for those who want more.</p>
+<p>The Snapdragon 7s Gen 4 is a mid-range chip and the 5,080mAh battery is average for 2026, so heavy gamers should look at the <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a> instead. There is also a Phone (4a) Pro at Rs 1,09,999 for those who want more.</p>
 HTML,
         'faqs' => [
             ['What is the Nothing Phone (4a) price in Nepal?', 'Rs 69,999 for 8GB/128GB, Rs 79,999 for 8GB/256GB and Rs 83,999 for 12GB/256GB.'],
@@ -884,14 +883,14 @@ HTML,
             'os' => 'Android 16, OriginOS 6',
         ],
         'description' => <<<'HTML'
-<p>vivo's X-series has quietly become one of the best camera phones you can buy in Nepal, and the X300 Pro continues that with a 200MP periscope lens at 3.7x zoom backed by optical stabilisation. It costs <strong>Rs 1,99,999</strong> for 16GB/512GB after a price hike on 1 September 2026 (GadgetByte previously listed it at Rs 1,79,999).</p>
+<p>vivo's X-series has quietly become one of the best camera phones you can buy in Nepal, and the X300 Pro continues that with a 200MP periscope lens at 3.7x zoom backed by optical stabilisation. It costs <strong>Rs 1,99,999</strong> for 16GB/512GB after a price hike on 1 September 2026 (it was Rs 1,79,999 before).</p>
 <p>The Dimensity 9500 is a true flagship chip, the 6,510mAh battery is big, and charging covers 90W wired and 40W wireless. It is a direct rival to the <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a> at the same price: pick the vivo for the longer zoom, the Xiaomi for the 1-inch main sensor.</p>
 HTML,
         'faqs' => [
             ['What is the vivo X300 Pro price in Nepal?', 'Rs 1,99,999 for 16GB RAM and 512GB storage, following a price increase on 1 September 2026.'],
             ['vivo X300 Pro or Xiaomi 17 Ultra?', 'Both cost Rs 1,99,999. The vivo has the longer 3.7x periscope zoom; the Xiaomi has the larger 1-inch main camera sensor.'],
         ],
-        'sources' => [$gbVivo, $src('GadgetByte Nepal – vivo X300 Pro price hike', 'https://gadgetbytenepal.com/vivo-x300-pro-price-nepal', '2026-09-01')],
+        'sources' => [$gbVivo, ['accessed' => '2026-09-01']],
         'seo' => [
             'title' => 'vivo X300 Pro Price in Nepal (After Hike): Camera Specs',
             'description' => 'vivo X300 Pro now costs Rs 1,99,999 in Nepal. 200MP 3.7x periscope, Dimensity 9500, 6,510mAh battery — specs and how it compares.',

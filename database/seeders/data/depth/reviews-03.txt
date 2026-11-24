@@ -1,0 +1,294 @@
+=== airpods-pro-3-review-nepal
+<h2>Specifications</h2>
+[[specs:airpods-pro-3]]
+<h2>The case for them in one week of use</h2>
+<p>Feature lists do not explain why iPhone owners stop looking at other earbuds. A normal week does. On Monday you open the case beside a phone and they connect. On Tuesday a call arrives on your Mac during a video on your iPad, and the sound moves by itself. On Wednesday you take one bud out to talk to a shopkeeper and the music pauses. On Thursday you leave them in a teashop, and Find My shows the case on a map and lets you play a sound. None of this needs an app or a setting. Other brands match individual pieces. Nobody else gets all of it on an iPhone, since Apple does not give outside companies the same access.</p>
+<h2>Noise cancelling and Transparency</h2>
+<p>These are among the quietest earbuds you can buy. The new foam-infused tips matter as much as the electronics, because they block more sound physically. Apple includes a wider range of sizes than before. Run the fit test in Settings with each of two sizes, and choose the one that stays put when you chew.</p>
+<p>Transparency is the mode that other makers still chase. Voices sound natural, as if you were not wearing anything, and sudden loud sounds such as a horn are softened. For walking in city traffic it is the safer choice than full cancellation. Adaptive mode mixes the two and changes as you move, which works well in an office and is less predictable on a street.</p>
+<h2>Sound</h2>
+<p>The balance is lively with stronger bass than the previous model and clear vocals. Spatial audio with head tracking is impressive with films on an iPad and a matter of taste with music. There is no high-resolution codec: iPhones send AAC over Bluetooth. At a decent bitrate AAC sounds very good, and few people can identify a difference in a blind test on the move. If you collect lossless music and listen in silence, wired headphones remain the better answer.</p>
+<h2>Health features</h2>
+<p>Apple has added sensors and hearing tools to this line, including a hearing test and an assistance mode in supported countries, along with heart-rate sensing during workouts. Availability of the medical functions depends on your region, and Nepal is often absent from those lists. Do not buy them as a hearing aid. The heart-rate reading is useful for people who train with an iPhone and do not own an Apple Watch.</p>
+<h2>Fit, sweat and rain</h2>
+<p>Each bud weighs about 5.5 grams, and the angle of the stem has been adjusted so that most people forget them after ten minutes. IP57 for buds and case is a real improvement. It covers dust and a short dip in fresh water, so running in drizzle or a spill at the gym is no concern. They are still not for swimming.</p>
+<h2>Battery</h2>
+<p>You can expect roughly a full working day of on-and-off listening, with the case bringing the total to about 24 hours with cancellation on. Five minutes in the case gives around an hour. The case charges by USB-C, MagSafe, Qi and an Apple Watch charger. Like all small lithium cells, the ones inside will fade after two or three years of daily use. Apple offers a battery service, at a price that is sometimes close to a discounted new pair.</p>
+<h2>If you use Android</h2>
+<p>They will connect as ordinary Bluetooth earbuds. Noise cancelling and Transparency work by squeezing the stem. You lose automatic switching, customisation, spatial audio, the fit test, Find My and easy firmware updates. At Rs 47,999 that is a poor bargain. Look at the <a href="/products/sony-wf-1000xm5">Sony WF-1000XM5</a> or the Galaxy Buds 4 Pro for Samsung phones.</p>
+<h2>AirPods Pro 2 owners</h2>
+<p>If your second-generation pair still lasts the day, the upgrade is nice and not necessary. You would gain stronger cancelling, better fit, improved water resistance and heart-rate sensing. If your battery is tired, this is the moment.</p>
+<h2>What else is at this price?</h2>
+[[rivals:airpods-pro-3]]
+<p>For half the money, earbuds such as the <a href="/products/soundcore-liberty-5-pro">Soundcore Liberty 5 Pro</a> cancel noise impressively and work the same on every phone. They will not switch between your Apple devices by magic, and on a tight budget you may not care.</p>
+<h2>Fakes are everywhere</h2>
+<p>AirPods are among the most copied products in Nepal. Good copies show the same pairing animation and even a serial number that belongs to a real pair. Check properly. Open Settings on an iPhone with the earbuds connected and look for the full feature page, including the ear-tip fit test, Adaptive audio and firmware version. Run the fit test and switch between all three noise modes. Enter the serial number on Apple's coverage page and make sure the product, purchase date and warranty make sense. Look at the print quality on the case. If a seller asks Rs 8,000 for "original", it is not.</p>
+<h2>Warranty in Nepal</h2>
+<p>Buy from an authorised reseller and keep the bill. One-year service is handled through authorised providers, and they may replace a single bud instead of the full set. Register the pair to your Apple account right away, so that nobody else can use them if they are lost.</p>
+<h2>Who should buy them</h2>
+<ul>
+<li>iPhone users who also own a Mac, iPad or Apple Watch.</li>
+<li>Commuters who want excellent quiet without studying settings.</li>
+<li>Runners who need water resistance and heart-rate data.</li>
+</ul>
+<h2>Who should skip them</h2>
+<ul>
+<li>Android users.</li>
+<li>People who lose earbuds. A Rs 5,000 pair hurts less.</li>
+<li>Audiophiles who want high-bitrate wireless.</li>
+</ul>
+
+=== samsung-galaxy-watch9-review-nepal
+<h2>Specifications</h2>
+[[specs:samsung-galaxy-watch9]]
+<h2>Smartwatch or fitness band: decide that first</h2>
+<p>Many people who say they want a smartwatch need a fitness tracker, and the other way round. A fitness watch counts steps, shows notifications, records exercise and lasts a week or more. A full smartwatch, such as the Galaxy Watch 9, runs apps, replies to messages by voice or keyboard, plays music without the phone, gives turn-by-turn directions and takes calls properly. In return it wants a charger every day or two.</p>
+<p>If you have never installed an app on a watch and only want health numbers, read our <a href="/reviews/huawei-watch-gt-6-review-nepal">Huawei Watch GT 6 review</a> before spending Rs 66,499.</p>
+<h2>Speed and software</h2>
+<p>The 3nm Snapdragon Wear Elite is a big change from earlier chips. Menus respond straight away, voice replies process quickly and maps draw without waiting. Wear OS 7 with Samsung's One UI on top gives access to the Play Store on the wrist. Google Maps, WhatsApp, Spotify, Strava and calculators all have proper apps. Google and Samsung's assistants understand English well. Nepali voice typing is limited, so most replies will be in English or by quick phrases.</p>
+<h2>Screen and build</h2>
+<p>Sapphire crystal is far harder than ordinary glass and resists scratches from walls, zips and keys. At 3,000 nits the AMOLED is readable in strong sun. The two sizes suit different wrists: 40mm for slim ones, 44mm for most men and anyone who wants a bigger battery. At around 32 to 34 grams without the strap, both are light enough for sleep tracking.</p>
+<p>The watch is rated 5ATM and IP68, which covers pools, showers with care and monsoon rain, and it meets a military standard for shock and temperature. Rinse it in fresh water after a pool, since chlorine eats at seals.</p>
+<h2>Health tracking you can rely on, and what you cannot</h2>
+<p>Heart rate, sleep stages, step counts, blood oxygen and skin temperature trends are useful when you look at weeks of data. The BioActive sensor estimates body fat and muscle using a small current. It is fine for seeing a direction of change, and not a medical reading. ECG and blood pressure depend on regional approval and on using a Samsung phone, and they may not be enabled in Nepal. No watch replaces a doctor. If it warns of an irregular rhythm or high heart rate at rest, get checked.</p>
+<h2>GPS for runs and treks</h2>
+<p>Dual-band GPS listens to two frequencies, so it copes better with tall buildings and deep valleys. Recorded distances in places like Thamel or on the Langtang trail should be closer to the truth than with single-band watches. Battery is the limit. Continuous GPS with the screen on will drain the watch in several hours, so it suits a day walk but not a week's trek without a power bank.</p>
+<h2>Battery in practice</h2>
+<p>About a day and a half with normal settings means a routine: charge while you shower and dress, and wear it at night for sleep tracking. Turn off the always-on display and it stretches towards two days. The charger is a small magnetic puck and should be packed for every trip. If a nightly charge sounds like a chore, this is not your watch.</p>
+<h2>Which phones does it work with?</h2>
+<p>It needs an Android phone. Any recent model will do, but some health features and the smoothest experience require a Samsung. It does not work with iPhones at all. Bluetooth and LTE versions exist in other markets. Check which one you are buying, as cellular watch plans are not a normal product in Nepal.</p>
+<h2>How it compares</h2>
+[[rivals:samsung-galaxy-watch9]]
+<p>The older <a href="/products/samsung-galaxy-watch-8">Galaxy Watch 8</a> sometimes sells for a few thousand rupees less. It has a slower chip and is otherwise similar, so it is worth buying only at a clear discount. The <a href="/products/huawei-watch-gt-7-pro">Huawei Watch GT 7 Pro</a> gives you premium materials and long battery life without apps. The <a href="/products/apple-watch-series-11">Apple Watch Series 11</a> is the equivalent for iPhone users. The <a href="/products/amazfit-t-rex-ultra">Amazfit T-Rex Ultra</a> is for people who go off-grid.</p>
+<h2>Payments and local services</h2>
+<p>Samsung Wallet and Google Wallet on the watch are attractive features abroad. In Nepal, tap-to-pay support from local banks is limited, so do not count on leaving your wallet at home. Notifications from eSewa, Khalti and banking apps arrive normally, which is handy for OTP messages.</p>
+<h2>Everyday tips</h2>
+<ul>
+<li>Choose which apps may send notifications on the first day. Ten useful alerts beat two hundred.</li>
+<li>Turn on fall detection and add an emergency contact for elderly users.</li>
+<li>Use a fabric or sport strap for exercise. Leather ruins quickly in summer.</li>
+<li>Keep the battery protection option on if you charge every night.</li>
+</ul>
+<h2>Should you buy it?</h2>
+<p>With a Samsung phone and a real interest in apps, replies and maps on your wrist, it is the best Android watch available here. With another Android phone it is still good, only a little less complete. With an iPhone, or with a dislike of daily charging, choose something else and keep Rs 20,000 or more in your pocket.</p>
+
+=== huawei-watch-gt-6-review-nepal
+<h2>Specifications</h2>
+[[specs:huawei-watch-gt-6]]
+<h2>Three weeks: where the number comes from</h2>
+<p>Huawei's 21-day claim belongs to the 46mm model under light use. Switch on the always-on display, record several GPS workouts a week and allow plenty of notifications, and it will be closer to ten or twelve days. The 41mm version, rated at 14, will be nearer to a week. Even those halved figures are far beyond any Wear OS or Apple Watch.</p>
+<p>The effect on daily life is larger than it sounds. You never think about the watch at night, so you sleep with it on and the sleep data has no holes. You can go on a ten-day trek without packing its charger. And because it is charged perhaps twice a month, the battery will stay healthy for longer.</p>
+<h2>For trekkers and runners</h2>
+<p>Dual-band GPS, an altimeter and a compass make it a capable outdoor companion. It records routes accurately in valleys, shows elevation gain and can guide you back along the track you walked. Offline maps and route import depend on the model and app version, so test that at home before relying on it. Runners get training load, recovery advice and pace coaching. Cyclists can see estimated power and cadence when paired with the phone.</p>
+<p>One thing to note about altitude: wrist blood-oxygen readings become less reliable when your hands are cold. If you are going above 3,500 metres, carry a fingertip oximeter and listen to your body.</p>
+<h2>Health features</h2>
+<p>Heart rate is tracked all day, with alerts for unusually high or low values. Sleep staging and stress estimates are sensible as trends. Huawei has added an emotional wellbeing indicator and arrhythmia analysis to this generation. Some of those features are limited by region and all of them are guidance and not diagnosis.</p>
+<h2>Screen and comfort</h2>
+<p>Both sizes use a sharp 466 by 466 AMOLED that reaches 3,000 nits. It looks like a watch and less like a gadget, with a rotating crown and a proper bezel. At about 37 and 51 grams, the smaller one is comfortable for slim wrists and sleep, and the larger one wears like a normal sports watch. The Pro, in titanium and sapphire, costs Rs 20,000 more. Materials are the main difference, along with a few diving and golf features, so buy it for how it feels and not for health data.</p>
+<h2>What it cannot do</h2>
+<p>There is no Play Store. A few third-party apps exist in Huawei's gallery, but you will not find WhatsApp, Spotify or Google Maps as full apps. Notifications show the text of messages. On Android you can send short quick replies in some apps. On an iPhone you can only read. Calls work over Bluetooth using the watch's speaker and microphone, which is useful with wet or dirty hands.</p>
+<p>Music can be stored on the watch and played to Bluetooth earbuds. Streaming without the phone is not possible. If those limits bother you, the <a href="/products/samsung-galaxy-watch9">Galaxy Watch 9</a> is what you are looking for.</p>
+<h2>Setting it up with a non-Huawei phone</h2>
+<p>On Android the Huawei Health app is best installed from Huawei's own website or AppGallery, because the Play Store version may be older. That means allowing an installation from outside the store. Download it only from the official address, and refuse copies sent by friends. On iPhone it is in the App Store. After pairing, allow the app to run in the background, as many phones stop it and then people complain about missing notifications.</p>
+<h2>Compared with others near Rs 35,000</h2>
+[[rivals:huawei-watch-gt-6]]
+<p>The <a href="/products/honor-watch-6">Honor Watch 6</a> is close in spirit and price. The <a href="/products/amazfit-cheetah">Amazfit Cheetah</a> is a lightweight running watch with strong training tools and a more open app for exporting data. The <a href="/products/xiaomi-watch-s5">Xiaomi Watch S5</a> has an attractive round design. The <a href="/products/samsung-galaxy-watch-7">Galaxy Watch 7</a> at a lower price is a full smartwatch with one-day battery. Each serves a different person.</p>
+<h2>Strava and data export</h2>
+<p>If you share workouts on Strava or Komoot, check the current state of syncing. Huawei Health supports linking to some services, and it has been less open than Garmin or Amazfit in the past. Serious runners who live in Strava should confirm this before buying.</p>
+<h2>Buying and warranty</h2>
+<p>Huawei wearables are sold officially in Nepal. Ask for a warranty card, check that the strap size fits, and make sure the box contains the magnetic charger for this model. Third-party straps use a standard width, so replacements are cheap and easy to find. A spare charging puck is worth having if you travel a lot.</p>
+<h2>Who it suits</h2>
+<ul>
+<li>Trekkers, runners and field workers.</li>
+<li>People who dislike charging things.</li>
+<li>iPhone and Android users who want health tracking with a classic look.</li>
+</ul>
+<h2>Who it does not suit</h2>
+<ul>
+<li>Anyone who wants to reply to messages or use apps on the wrist.</li>
+<li>People who want mobile payments.</li>
+<li>Athletes tied to other training platforms.</li>
+</ul>
+<p>For its purpose it is very hard to fault. It tells the time, watches over your health, records your walks and otherwise leaves you alone, for weeks at a stretch.</p>
+
+=== moto-g64-review-nepal
+<h2>Specifications</h2>
+[[specs:moto-g64]]
+<h2>First, check that it is still available</h2>
+<p>The G64 went on sale in April 2024 and has since been marked as discontinued in our catalogue, so prices in this review are the last ones we recorded. You may still find sealed stock in some shops and plenty of used ones. If a seller asks the same Rs 29,999 today, compare it with newer phones first, because what made it special was how much it offered at that price two years ago. At a discount it remains a good phone.</p>
+<h2>Why it became a favourite</h2>
+<p>Budget phones usually cut the same corners: a low-resolution screen, 4GB of memory and slow storage. Motorola refused. The G64 has a sharp Full HD+ panel, 8GB or 12GB of memory, UFS storage and a chip with 5G. Anyone upgrading from a three-year-old budget phone feels the difference in the first minute, as apps open without the usual pause.</p>
+<p>It is also one of the few phones in its class with optical stabilisation on the main camera. In dim rooms, that lets the phone use a slower shutter without blur. Budget rivals with the same 50MP number and no stabilisation produce softer pictures.</p>
+<h2>Screen</h2>
+<p>The 6.5-inch LCD is smooth at 120Hz and sharp enough for long reading. Brightness of around 560 nits is fine indoors and in shade, and you will tilt the phone to read it at midday. Being an LCD, it cannot show true black. If you watch films in a dark room, an AMOLED phone such as the <a href="/products/honor-x8d">Honor X8d</a> looks better.</p>
+<h2>Performance today</h2>
+<p>The Dimensity 7025 is a capable 6nm chip. Social apps, video calls, banking and office documents are smooth. PUBG Mobile and Free Fire run at medium settings. The 12GB version keeps many apps open, and since the price difference was only Rs 1,000, that is the one to look for.</p>
+<h2>Battery</h2>
+<p>With 6,000mAh, it lasts well over a day for most people, and the 30W charger fills it in a little less than two hours. A used phone from 2024 will have lost some capacity. Android 15 and later show battery health on some models. If yours does not, charge to full, use it for a normal day and see how much is left.</p>
+<h2>Software: the honest weakness</h2>
+<p>Motorola promised one Android upgrade and three years of security patches for the G64. It launched with Android 14, so the upgrade to 15 is the last version it will get, with security patches ending around 2027. That does not stop the phone working, but banking apps raise their minimum requirements over time. For someone who plans to use it until 2029, a Samsung with longer support is the safer choice.</p>
+<p>In every other way the software is pleasant. It is close to plain Android, with few extra apps. The Moto gestures, a double chop for the torch and a double twist for the camera, are the kind of small idea you miss on other phones.</p>
+<h2>Cameras</h2>
+<p>The 50MP main camera is good in daylight and acceptable at night. The 8MP ultra wide has autofocus, so it also takes close-ups. The 16MP selfie camera is fine for calls and social media. Video tops out at 1080p, with steady results thanks to stabilisation.</p>
+<h2>Durability and connectivity</h2>
+<p>IP52 protects against dust and drips and nothing more. Carry it in a pouch during rain. There is a headphone jack, a microSD slot that shares space with the second SIM, side fingerprint reader and stereo speakers. For students, the headphone jack and card slot are more useful than they sound.</p>
+<h2>What to buy instead in late 2026</h2>
+<ul>
+<li><strong>For support:</strong> the <a href="/products/samsung-galaxy-a07">Galaxy A07</a>, slower but with a long update promise.</li>
+<li><strong>For battery:</strong> the <a href="/products/tecno-spark-50">Tecno Spark 50</a> with 7,000mAh.</li>
+<li><strong>For a better screen:</strong> spend a little more on the <a href="/products/honor-x8d">Honor X8d</a> with AMOLED.</li>
+<li><strong>From the same brand:</strong> the <a href="/products/motorola-moto-g35-5g">Moto G35 5G</a>, a newer but simpler phone, or the <a href="/products/moto-g96">Moto G96</a> if you can reach Rs 45,000.</li>
+</ul>
+<h2>Buying a used G64</h2>
+<p>Motorola's service presence in Nepal is smaller than Samsung's or Xiaomi's, so condition matters. Look for even brightness, test both speakers, take a photo in a dark room to check that stabilisation works, try both SIM slots and the card slot, and verify MDMS registration. Ask when the battery was last replaced, if ever. Expect to pay clearly less than the original price, and walk away from a unit with a third-party screen, which usually shows bluish whites and poor touch at the edges.</p>
+<h2>Who should still consider it</h2>
+<p>A student who needs a fast phone for little money and changes phones every two years. A second phone for hotspot use, where the battery and 5G modem help. Someone who likes clean Android and a headphone jack. For parents and long-term owners, choose a phone with more update years ahead.</p>
+<h2>Final thoughts</h2>
+<p>The Moto G64 set a standard that many newer phones at Rs 30,000 still fail to reach, which says more about the market than about the phone. Memory prices have risen, and manufacturers have gone back to 4GB and HD+ screens to hold the line. If you find one at a fair price in good condition, it is a smart buy. If you find one at full price, let it go.</p>
+
+=== samsung-galaxy-a07-review-nepal
+<h2>Specifications</h2>
+[[specs:samsung-galaxy-a07]]
+<h2>Buying for someone else</h2>
+<p>The Galaxy A07 is rarely chosen by people who read spec sheets for fun. It is chosen by a daughter buying for her father in Palpa, by a small business that needs five identical phones, by a student's parents. Seen from that angle, the questions change. Will it last? Can it be repaired nearby? Will the apps still work in four years? Can I help over the phone when something goes wrong? On those questions the A07 does well.</p>
+<h2>The chip is the pleasant surprise</h2>
+<p>MediaTek's Helio G99 has been around for years and has earned a good reputation. It is built on a 6nm process, so it runs cool, and it has two strong cores that keep the interface responsive. Phones at the same price often use 12nm Unisoc or Helio G81 chips that feel noticeably slower when you open the camera or switch apps. For WhatsApp, Facebook, YouTube, maps, mobile banking and a little Ludo or Free Fire, this is enough.</p>
+<h2>Memory and storage, in rupees</h2>
+<p>There are three versions. The 4GB/64GB model at Rs 25,499 looks tempting and is the wrong one. After the system takes its share you get roughly 40GB, and a few months of WhatsApp media will fill it. The 4GB/128GB model at Rs 29,499 is the sensible middle. The 6GB/128GB at Rs 33,499 is smoother over the years, but at that price other phones appear with AMOLED screens and bigger batteries.</p>
+<p>A memory card helps with photos and videos. It does not help with apps, which need internal space. So if money is tight, take 128GB of internal storage before anything else.</p>
+<h2>Screen</h2>
+<p>At 6.7 inches it is large, at 90Hz it is reasonably smooth, and at HD+ it is not sharp. Older readers often increase the text size, in which case the lower resolution hardly shows. Brightness is moderate, so direct sunlight needs shading with a hand. The big panel makes video calls with grandchildren pleasant, which is arguably its main job.</p>
+<h2>Battery and charging</h2>
+<p>The 5,000mAh battery combined with an efficient chip and a low-resolution screen lasts more than a day for most people. It charges at up to 25W, which is faster than the 15W common at this price, but the charger is not in the box. Samsung's own 25W charger or another PPS model will do. An old 10W charger also works, only slowly.</p>
+<h2>Cameras</h2>
+<p>The 50MP main camera takes clear pictures in daylight and weak ones at night. The second lens is a 2MP depth sensor with no practical use. The 8MP selfie camera is good enough for video calls. If photography matters at all, this is not the phone.</p>
+<h2>4G only: does it matter?</h2>
+<p>For the next few years, no. NTC and Ncell's 4G covers the places where most people live, while 5G is limited, as described in our <a href="/news/ntc-ncell-5g-rollout-nepal-2024">5G article</a>. Someone who keeps a phone for five years in Kathmandu may wish for 5G at the end. Someone in a rural municipality probably will not.</p>
+<h2>Long support is the reason to pay for the badge</h2>
+<p>Samsung has extended support even on cheap A-series phones, to a length that almost no rival offers at this price. Security patches close holes used by scam apps and malware, which are a genuine danger for older users in Nepal who receive fake lottery and parcel messages. An up-to-date phone and Samsung's Auto Blocker feature, which stops apps from being installed outside the stores, make a good combination. Turn Auto Blocker on during setup.</p>
+<h2>Durability</h2>
+<p>IP54 covers dust and rain splashes. The plastic back does not shatter. Add a simple silicone case and a screen protector and it will survive ordinary life.</p>
+<h2>Alternatives</h2>
+[[rivals:samsung-galaxy-a07]]
+<p>Other phones in the table offer bigger batteries or smoother screens. The <a href="/products/vivo-y05">vivo Y05</a> has 6,500mAh and a brighter display with a slower chip. The <a href="/products/honor-x5d">Honor X5d</a> and <a href="/products/realme-c71">Realme C71</a> compete on battery and design. A little above, the <a href="/products/samsung-galaxy-a07s">Galaxy A07s</a> is a variation worth comparing on the day. Read our <a href="/guides/best-phones-under-30000-nepal">best phones under Rs 30,000</a> for the full picture.</p>
+<h2>Set it up for a parent in fifteen minutes</h2>
+<ul>
+<li>Use Easy mode and a large font.</li>
+<li>Put the phone, WhatsApp, camera and torch on the first page and remove the rest.</li>
+<li>Turn on Auto Blocker, Find My Mobile and automatic updates.</li>
+<li>Add emergency contacts and medical details to the lock screen.</li>
+<li>Switch off notifications from shopping and news apps.</li>
+<li>Show them that a bank will never ask for an OTP by phone.</li>
+</ul>
+<h2>Verdict in plain words</h2>
+<p>It is an ordinary phone done carefully. Nothing about it will excite a young buyer, and that buyer should look at Redmi, Infinix or Tecno. For anyone who needs a dependable phone from a brand with service in many towns, the 4GB/128GB Galaxy A07 does its job and will keep doing it.</p>
+
+=== tecno-spark-50-review-nepal
+<h2>Specifications</h2>
+[[specs:tecno-spark-50]]
+<h2>What seven thousand milliamp-hours means on a small budget</h2>
+<p>In many Nepali homes the phone is also the television, the torch, the radio and the hotspot. A battery that lasts a day and a half is not a luxury in that situation. The Spark 50 can play downloaded films on a bus from Kathmandu to Mahendranagar and still have charge left to call for a ride at the end. With light use it reaches two days.</p>
+<p>The price of that size is the charging speed. At 18W, going from empty to full takes close to three hours. If you charge overnight, you will not care. If you are used to a quick top-up before leaving, you will be disappointed, as half an hour adds perhaps twenty per cent.</p>
+<h2>The processor, without sugar coating</h2>
+<p>The Helio G81 is an older 12nm design. It runs the basics, but you wait a little: a second for the camera, a second for a web page to settle, a moment when switching from a call to a chat. On the 4GB model those waits grow as you install more apps. Tecno's virtual memory feature borrows storage space to help, and it is much slower than real memory, so think of 4GB plus 4GB as 4GB.</p>
+<p>For Rs 3,000 more, the 6GB version is the one we would buy. It does not make the chip faster, but it reduces the number of times apps have to restart. Games such as Free Fire work at low settings. PUBG Mobile is possible and not enjoyable.</p>
+<h2>Screen and sound</h2>
+<p>A 6.78-inch panel at 120Hz looks smooth while scrolling. The resolution is HD+, so small letters have soft edges. For watching video at 480p, which most people use to save data, it looks fine. Colours are average, black is grey, and outdoors you will look for shade. Speakers are loud, a genuine strength of Tecno phones.</p>
+<h2>Camera expectations</h2>
+<p>There is one useful camera, the 50MP main one. Daylight photos of people and places are good enough to share. Indoors they turn grainy, and at night the phone struggles. The 8MP front camera comes with many beauty filters. Switch them off for video calls if faces look like plastic.</p>
+<h2>HiOS and how to calm it down</h2>
+<p>HiOS 16 on Android 16 is current, and that is a point in its favour. It also includes a lot: its own app store, theme store, browser, games and suggestions. Spend ten minutes removing what you can. In the settings, turn off personalised recommendations and notifications from the app store, phone manager and theme apps. Keep Google Play as your only source of apps. Tecno's update policy for the Spark series is short, so expect security patches and perhaps one version upgrade.</p>
+<h2>Who sells it and who fixes it</h2>
+<p>Tecno, Infinix and itel belong to the same group, which has built a wide sales network in Nepal, including small towns. Carlcare is the group's service arm. Ask where the nearest service point is, and keep the bill. Screens and batteries for popular Spark models are usually easy to find.</p>
+<h2>Compared with what Rs 30,000 buys elsewhere</h2>
+[[rivals:tecno-spark-50]]
+<p>The <a href="/products/samsung-galaxy-a07s">Galaxy A07s</a> has a better-known brand and longer support with a smaller battery. The <a href="/products/motorola-moto-g35-5g">Moto G35 5G</a> adds 5G and a sharper screen. The <a href="/products/honor-x6d">Honor X6d</a> has a more efficient chip and slower charging. If you can find a <a href="/products/moto-g64">Moto G64</a> in old stock, it beats all of these for speed.</p>
+<h2>Three kinds of buyer</h2>
+<p><strong>The traveller or driver.</strong> Long days, few sockets, mostly calls and maps. The Spark 50 fits well.</p>
+<p><strong>The student.</strong> Online classes, notes, social media and some games. The battery helps, but the slow chip will frustrate within a year. Choose the 6GB version or look at a phone with a Helio G99 or a Dimensity chip.</p>
+<p><strong>The parent.</strong> A loud speaker, large screen and long battery are just right. Spend time on the setup to remove clutter and scam risks.</p>
+<h2>Getting the best from the battery</h2>
+<ul>
+<li>Use 60Hz mode if you do not notice the difference. It adds hours.</li>
+<li>Keep the screen at automatic brightness.</li>
+<li>Charge with the supplied adapter and avoid cheap cables that slow it further.</li>
+<li>Try not to keep it at 100 per cent on the charger all day.</li>
+</ul>
+<h2>Things we would like to see improved</h2>
+<p>A faster charger would change how this phone feels more than anything else. After that, a Full HD+ screen and a 6nm chip would put it level with rivals. None of those are possible after purchase, so decide whether you can live with them now.</p>
+<h2>Final advice</h2>
+<p>Buy the Spark 50 if your first question about any phone is how long the battery lasts. In that respect it beats everything near it. For any other priority, whether speed, screen, camera or long support, a different phone at the same price will serve you better. And at any price, avoid the 4GB model if you keep phones for more than two years.</p>
+
+=== honor-x6d-review-nepal
+<h2>Specifications</h2>
+[[specs:honor-x6d]]
+<h2>A phone that arrived at the wrong price</h2>
+<p>There is nothing wrong with the Honor X6d as an object. It is well assembled, light, up to date and efficient. The problem is simple arithmetic. At Rs 29,999 a buyer can have more memory, a sharper screen, faster charging or a bigger battery from someone else. A review has to judge a phone against what else your money could do, and that is why the score is low while the phone itself is perfectly usable.</p>
+<h2>What works</h2>
+<p>The Dimensity 6300 is a 6nm chip with 5G, and it is the best part. It opens everyday apps without long pauses, stays cool and gets good mileage from the battery. In a price band full of 12nm processors, that is a meaningful advantage. If you place it beside a <a href="/products/tecno-spark-50">Tecno Spark 50</a> and open the same five apps, the Honor finishes first.</p>
+<p>It also runs MagicOS 10 on Android 16, the newest version you will see on a budget phone this year. Google services are all present. Honor's interface is tidy compared with others at this price, with fewer adverts. Useful touches include a sidebar for opening a second app in a small window and a simple mode for older users.</p>
+<p>At 186 grams it feels lighter than most big-battery rivals, and the 6.75-inch screen fills the front nicely.</p>
+<h2>What does not</h2>
+<p>Four gigabytes of memory in a phone sold in late 2026 is the main limit. Android itself, the Google services and the keyboard use most of it, so switching between WhatsApp, a browser and the camera means waiting for apps to reload. There is no 6GB version listed in Nepal.</p>
+<p>The LCD is HD+ with a peak of about 450 nits. Indoors that is fine. In the afternoon sun at a bus stop you will be shading it with your palm. Charging at 15W is the slowest on the market, taking well over two hours for a full charge, and it makes little sense when rivals offer 30W.</p>
+<p>The main 50MP camera is respectable in daylight, and the 5MP selfie camera is the weakest in the group. Video calls in a dim room will look rough.</p>
+<h2>Battery life</h2>
+<p>The numbers are average and the result is better than average, because the chip and the low-resolution screen use so little. A day and a half of calls, chat and video is realistic. It is the refilling that tests your patience.</p>
+<h2>5G: the argument in its favour</h2>
+<p>If you want a light 5G phone from a known brand at about Rs 30,000, the list is short. The X6d is on it, as is the <a href="/products/motorola-moto-g35-5g">Moto G35 5G</a>. Whether 5G is worth paying for is another matter. Coverage in Nepal is limited and mobile data packs are small, so most owners will run on 4G for years.</p>
+<h2>How it compares</h2>
+[[rivals:honor-x6d]]
+<p>The Motorola gives you a sharper, smoother screen and near-stock Android. The Tecno and ZTE models give you larger batteries. Samsung's <a href="/products/samsung-galaxy-a07s">Galaxy A07s</a> brings longer software support and a wider service network. A leftover <a href="/products/moto-g64">Moto G64</a> has twice the memory. Each of them is a better answer to a specific need.</p>
+<h2>When it becomes a good buy</h2>
+<p>Phones in this class often fall in price within months, and shops run bundles. Here is a guide to when it makes sense:</p>
+<ul>
+<li><strong>Around Rs 29,999:</strong> skip it.</li>
+<li><strong>Around Rs 26,000:</strong> fair, if you value a light body and 5G.</li>
+<li><strong>Under Rs 24,000:</strong> a good phone for parents and light users.</li>
+</ul>
+<h2>Service and warranty</h2>
+<p>Honor is growing in Nepal, but its network remains smaller than those of Samsung, Xiaomi and vivo. Find out the nearest service point and the price of a screen before buying. Check the IMEI in MDMS, and insist on a sealed box with the distributor's warranty card.</p>
+<h2>If you already own one</h2>
+<p>You can make it noticeably nicer to live with. Uninstall apps you do not use, especially those that run in the background. Use the lite versions of Facebook and Messenger. Restart the phone once a week to clear memory. Keep at least 15GB of storage free. Turn the refresh rate to 90Hz if scrolling feels rough, or 60Hz to save power. Buy a longer charging cable and charge overnight, since the slow speed is then no bother and is even gentle on the battery.</p>
+<h2>Who might still choose it</h2>
+<p>Someone who wants a light, tidy phone for calls, messaging and occasional video, likes Honor's software and has found a discount. Someone who needs 5G support for an office SIM or a hotspot on a budget. For games, photos or a phone to keep for four years, look elsewhere.</p>
+<h2>The wider lesson</h2>
+<p>Budget phones have become harder to judge by their price alone. Two phones at Rs 30,000 can be separated by years in speed and comfort. When comparing, look at four numbers before anything else: memory, screen resolution, charging speed and the age of the chip's process. The X6d wins one of those four. Most rivals win two or three.</p>
+
+=== vivo-y05-review-nepal
+<h2>Specifications</h2>
+[[specs:vivo-y05]]
+<h2>What you notice first</h2>
+<p>Pick up the Y05 and two things stand out for a phone at about Rs 25,000. The screen is easy to see, and the body feels solid. A 6.74-inch panel with a 1,200-nit high-brightness mode is rare at this price. Walk outside and you can read a message without cupping your hand over it. The 120Hz refresh rate makes scrolling smoother than on most budget phones, even though the chip cannot always keep up.</p>
+<h2>The infrared blaster deserves its own paragraph</h2>
+<p>It sounds like a relic, yet an IR transmitter is useful in Nepali homes. The phone can act as a remote for a television, set-top box, fan or air conditioner. When the DishHome remote goes missing between the sofa cushions, you will be glad of it. Set it up through vivo's remote app, choose the brand and test a few codes until one works.</p>
+<h2>Battery</h2>
+<p>At 6,500mAh, with a low-resolution screen and an undemanding chip, two days are possible for light users and a full day is certain for heavy ones. The downside is 15W charging. It needs about three hours from empty, so overnight charging is the sensible routine. vivo says its batteries are designed to keep most of their capacity for several years, and slow charging does no harm there.</p>
+<h2>Where the savings were made</h2>
+<p>The Unisoc T7225 is an entry-level chip on a 12nm process. Opening the camera takes a moment, the keyboard sometimes trails your typing, and a heavy Facebook feed stutters. With 4GB of memory, apps in the background are closed quickly. The storage is eMMC, which is slower than the UFS storage in better phones, and that shows when installing or updating apps.</p>
+<p>The main camera has 8 megapixels. In good light it takes pictures that look acceptable on a phone screen. It is fine for photographing a document, a notice or a bill. Evening photos of people are blurry and noisy. The 5MP front camera is for video calls only.</p>
+<h2>64GB or 128GB</h2>
+<p>The gap is about Rs 3,500. Take 128GB. With 64GB, after the system and a few large apps, you will have perhaps 35GB for everything else, and WhatsApp will claim most of that within a year. When a phone's storage is nearly full, it slows down, and on this chip you cannot afford that.</p>
+<h2>Software</h2>
+<p>OriginOS 6 on Android 16 is a welcome change from older vivo systems, with a cleaner design. There are preinstalled apps and a second app store. Remove what you do not need, and turn off suggestions in settings. vivo's update plan for the cheapest Y phones is limited, so regard the version you get as close to the one you will keep, with security patches for a time.</p>
+<h2>Who it is really for</h2>
+<p>We think of three people. The first is a parent or grandparent who wants a bright, loud phone with a battery that lasts. The second is a worker who needs a tough-ish phone for calls, WhatsApp groups, eSewa and YouTube at lunch. The third is a family that wants a spare phone and a universal remote in one.</p>
+<p>It is not for students who run many apps at once, not for gamers, and not for anyone who likes taking photos.</p>
+<h2>The competition</h2>
+[[rivals:vivo-y05]]
+<p>The <a href="/products/samsung-galaxy-a07">Galaxy A07</a> at Rs 25,499 is the main rival. It has a far faster chip, a 50MP camera and long software support, with a dimmer and slower screen and a smaller battery. For most people the Samsung is the better all-round phone. The <a href="/products/oppo-a6c">OPPO A6c</a> is close to the vivo in character. The <a href="/products/redmi-a7-pro">Redmi A7 Pro</a> is cheaper with an even larger display. The <a href="/products/realme-c71">Realme C71</a> adds a bit of toughness.</p>
+<p>If you can reach Rs 30,000, the list of good choices grows quickly, as our <a href="/guides/best-phones-under-30000-nepal">guide to phones under Rs 30,000</a> shows. And if you must stay below Rs 20,000, see <a href="/guides/best-phones-under-20000-nepal">phones under Rs 20,000</a>.</p>
+<h2>Service</h2>
+<p>vivo has service centres in the main cities and a dealer network that reaches smaller towns. Parts for Y-series phones are common and cheap. This is a real advantage over lesser-known brands that offer slightly better numbers.</p>
+<h2>Living with a slow phone</h2>
+<ul>
+<li>Use Facebook Lite, Messenger Lite-style apps and YouTube in the browser when you can.</li>
+<li>Set WhatsApp to not save every photo and video automatically.</li>
+<li>Turn on extended memory, and do not expect miracles from it.</li>
+<li>Restart weekly, and update apps only over Wi-Fi at night.</li>
+<li>Choose 60Hz if animation looks uneven. A steady 60 is nicer than a jumpy 120.</li>
+</ul>
+<h2>Safety for first-time users</h2>
+<p>Many budget phones are somebody's first smartphone. Before handing it over, set a PIN, add the fingerprint, enable Find My Device, and turn off installation of apps from unknown sources. Explain that prize messages, parcel fees and job offers on Viber or WhatsApp are usually scams, and that no bank or wallet asks for an OTP.</p>
+<h2>Verdict</h2>
+<p>The Y05 chooses brightness and battery over speed and cameras. If those are your priorities, and especially if an infrared remote appeals to you, the 128GB version is reasonable. Everybody else should put Rs 25,499 on the counter for the Galaxy A07, or wait until they can spend a little more.</p>

@@ -1,51 +1,20 @@
 <template>
-  <div class="rounded-xl border border-line bg-surface/95 backdrop-blur-md p-5 sm:p-8 glass-card shadow-xs">
-    <!-- Header -->
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-line">
+  <div>
+    <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
       <div>
-        <h3 class="text-lg font-semibold tracking-tight text-fg">
-          Customs duty, 5G bands and service centers
-        </h3>
-        <p class="text-xs text-fg-subtle mt-0.5">
-          Work out the duty on a phone you bring home, check which network bands it supports, and find an authorized service center.
-        </p>
+        <h2 class="section-title">Customs duty, 5G bands and service centers</h2>
+        <p class="section-desc max-w-xl">Work out the duty on a phone you bring home, check which network bands it supports, and find an authorized service center.</p>
       </div>
-
-      <!-- Quick MDMS Badge -->
-      <a
-        href="https://mdms.nta.gov.np/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-surface-2 hover:bg-brand-500 hover:text-white text-fg-muted text-xs font-semibold transition border border-line shrink-0 self-start sm:self-auto cursor-pointer"
-        title="Check IMEI Registration on Official NTA Portal"
-      >
-        <span>Check IMEI on NTA</span>
-        <ExternalLink class="w-3 h-3" />
+      <a href="https://mdms.nta.gov.np/" target="_blank" rel="noopener noreferrer" class="link inline-flex shrink-0 items-center gap-1 text-sm">
+        Check IMEI on NTA <ExternalLink class="h-3.5 w-3.5" />
       </a>
     </div>
 
-    <!-- Hub Tab Switcher (Pills) -->
-    <ScrollRow class="flex gap-2 overflow-x-auto py-4 border-b border-line scrollbar-thin">
-      <button
-        v-for="tab in hubTabs"
-        :key="tab.id"
-        @click="activeTab = tab.id"
-        type="button"
-        class="flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold shrink-0 transition-all cursor-pointer border"
-        :class="activeTab === tab.id
-          ? 'bg-fg text-canvas border-fg shadow-xs font-semibold'
-          : 'bg-surface-2 text-fg-muted border-line hover:bg-surface-2'"
-      >
-        <component :is="tab.icon" class="w-3.5 h-3.5" />
-        <span>{{ tab.label }}</span>
-        <span
-          class="text-2xs px-1.5 py-0.5 rounded-md font-semibold uppercase tracking-wider"
-          :class="activeTab === tab.id ? 'bg-white/20 text-white' : 'bg-surface-3 text-fg-subtle'"
-        >
-          {{ tab.badge }}
-        </span>
-      </button>
-    </ScrollRow>
+    <div class="mt-6 border-b border-line">
+      <ScrollRow class="-mb-px flex gap-6 overflow-x-auto scrollbar-none">
+        <button v-for="tab in hubTabs" :key="tab.id" type="button" class="tab" :aria-pressed="activeTab === tab.id" @click="activeTab = tab.id">{{ tab.label }}</button>
+      </ScrollRow>
+    </div>
 
     <!-- ═══════════════════════════════════════════════════════════ -->
     <!--  TAB 1: MDMS & AIRPORT CUSTOMS DUTY CALCULATOR             -->
@@ -56,10 +25,7 @@
         <div class="lg:col-span-7 space-y-5">
           <!-- 1. Traveler Status -->
           <div>
-            <label class="text-xs font-semibold uppercase tracking-wider text-fg-subtle flex items-center gap-1.5 mb-2">
-              <UserCheck class="w-3.5 h-3.5 text-positive" />
-              <span>Traveler Category at Kathmandu Airport (TIA)</span>
-            </label>
+            <p class="mb-2.5 text-sm font-medium text-fg">Who is bringing the phone in?</p>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
               <button
@@ -67,8 +33,8 @@
                 @click="travelerType = 'labor'"
                 class="p-3 rounded-xl border text-left transition cursor-pointer"
                 :class="travelerType === 'labor'
-                  ? 'bg-positive-soft border-emerald-500 ring-1 ring-emerald-500/30'
-                  : 'bg-surface-2 border-line hover:bg-slate-100/70'"
+                  ? 'border-fg bg-surface-2 text-fg'
+                  : 'border-line text-fg-muted hover:border-line-strong'"
               >
                 <div class="flex items-center justify-between mb-1">
                   <span class="text-xs font-semibold text-fg">Labor Permit Returnee (Shramik)</span>
@@ -84,8 +50,8 @@
                 @click="travelerType = 'general'"
                 class="p-3 rounded-xl border text-left transition cursor-pointer"
                 :class="travelerType === 'general'
-                  ? 'bg-positive-soft border-emerald-500 ring-1 ring-emerald-500/30'
-                  : 'bg-surface-2 border-line hover:bg-slate-100/70'"
+                  ? 'border-fg bg-surface-2 text-fg'
+                  : 'border-line text-fg-muted hover:border-line-strong'"
               >
                 <div class="flex items-center justify-between mb-1">
                   <span class="text-xs font-semibold text-fg">Tourist / Student / General</span>
@@ -100,10 +66,7 @@
 
           <!-- 2. Device Tier / Estimated Price -->
           <div>
-            <label class="text-xs font-semibold uppercase tracking-wider text-fg-subtle flex items-center gap-1.5 mb-2">
-              <Smartphone class="w-3.5 h-3.5 text-fg-subtle" />
-              <span>Select Smartphone Category</span>
-            </label>
+            <p class="mb-2.5 text-sm font-medium text-fg">What did the phone cost?</p>
 
             <div class="grid grid-cols-3 gap-2">
               <button
@@ -113,8 +76,8 @@
                 type="button"
                 class="p-3 rounded-xl border text-center transition cursor-pointer"
                 :class="activePhoneTier === tier.id
-                  ? 'bg-fg text-canvas border-fg shadow-xs'
-                  : 'bg-surface text-fg-muted border-line hover:border-emerald-400'"
+                  ? 'border-fg bg-surface-2 text-fg'
+                  : 'border-line text-fg-muted hover:border-line-strong'"
               >
                 <div class="text-xs font-semibold">{{ tier.name }}</div>
                 <div class="text-2xs opacity-80 mt-0.5">{{ tier.range }}</div>
@@ -124,10 +87,7 @@
 
           <!-- 3. Phone Count Brought (1st vs 2nd phone) -->
           <div>
-            <label class="text-xs font-semibold uppercase tracking-wider text-fg-subtle flex items-center gap-1.5 mb-2">
-              <CreditCard class="w-3.5 h-3.5 text-accent-text" />
-              <span>Is this your 1st (Personal) or 2nd (Extra) Phone?</span>
-            </label>
+            <p class="mb-2.5 text-sm font-medium text-fg">Is it your first or second phone?</p>
 
             <div class="flex gap-2">
               <button
@@ -135,68 +95,52 @@
                 @click="phoneOrder = 'first'"
                 class="flex-1 py-2.5 px-3 rounded-xl text-xs font-semibold border transition cursor-pointer text-center"
                 :class="phoneOrder === 'first'
-                  ? 'bg-positive-soft text-positive border-emerald-500'
-                  : 'bg-surface text-fg-muted border-line'"
+                  ? 'border-fg bg-surface-2 text-fg'
+                  : 'border-line text-fg-muted hover:border-line-strong'"
               >
-                1st Phone (Currently in Personal Use)
+                First phone, in personal use
               </button>
               <button
                 type="button"
                 @click="phoneOrder = 'second'"
                 class="flex-1 py-2.5 px-3 rounded-xl text-xs font-semibold border transition cursor-pointer text-center"
                 :class="phoneOrder === 'second'
-                  ? 'bg-positive-soft text-positive border-emerald-500'
-                  : 'bg-surface text-fg-muted border-line'"
+                  ? 'border-fg bg-surface-2 text-fg'
+                  : 'border-line text-fg-muted hover:border-line-strong'"
               >
-                2nd Phone (Sealed or Gift Pack)
+                Second phone, sealed or a gift
               </button>
             </div>
           </div>
         </div>
 
-        <!-- Customs Tax Breakdown Card (5 cols) -->
-        <div class="dark lg:col-span-5 bg-navy-900 text-white p-6 rounded-xl border border-slate-800 shadow-lg space-y-4">
-          <div class="flex items-center justify-between border-b border-slate-800 pb-3">
-            <span class="text-xs font-semibold uppercase tracking-wider text-emerald-400">Total Payable Customs Duty</span>
-            <span class="text-2xs font-mono px-2 py-0.5 rounded bg-positive-soft text-emerald-300 border border-positive/25">
-              NTA &amp; Nepal Customs Rate
-            </span>
-          </div>
+        <!-- Result -->
+        <div class="lg:col-span-5 lg:border-l lg:border-line lg:pl-8">
+          <p class="text-sm text-fg-subtle">Estimated duty and registration</p>
+          <p class="tabular mt-1 text-4xl font-semibold tracking-tight text-fg sm:text-5xl">Rs {{ calculatedMdms.totalPayable.toLocaleString('en-IN') }}</p>
+          <p v-if="calculatedMdms.totalPayable === 0" class="mt-2 text-sm font-medium text-positive">Nothing to pay under the allowance.</p>
 
-          <div>
-            <div class="text-2xs text-fg-subtle">Estimated Customs + MDMS Tax</div>
-            <div class="text-3xl sm:text-4xl font-semibold text-white mt-0.5">
-              Rs. {{ calculatedMdms.totalPayable.toLocaleString('en-NP') }}
+          <dl class="mt-6 divide-y divide-line border-y border-line text-sm">
+            <div class="flex justify-between gap-4 py-3">
+              <dt class="text-fg-subtle">Customs duty ({{ dutyPercentLabel }}%)</dt>
+              <dd class="tabular font-medium text-fg">Rs {{ calculatedMdms.customsFee.toLocaleString('en-IN') }}</dd>
             </div>
-            <div v-if="calculatedMdms.totalPayable === 0" class="text-xs font-semibold text-emerald-400 mt-1 flex items-center gap-1">
-              <CheckCircle class="w-3.5 h-3.5" />
-              <span>100% Tax-Exempt Under Government Allowance!</span>
+            <div class="flex justify-between gap-4 py-3">
+              <dt class="text-fg-subtle">VAT ({{ vatPercentLabel }}%)</dt>
+              <dd class="tabular font-medium text-fg">Rs {{ calculatedMdms.vatFee.toLocaleString('en-IN') }}</dd>
             </div>
-          </div>
+            <div class="flex justify-between gap-4 py-3">
+              <dt class="text-fg-subtle">MDMS registration with NTA</dt>
+              <dd class="tabular font-medium text-fg">Rs {{ calculatedMdms.ntaFee.toLocaleString('en-IN') }}</dd>
+            </div>
+          </dl>
 
-          <div class="space-y-2 pt-3 border-t border-slate-800 text-xs">
-            <div class="flex justify-between py-1 border-b border-slate-800/60">
-              <span class="text-fg-subtle">Official Customs Duty ({{ dutyPercentLabel }}%)</span>
-              <span class="font-mono font-semibold">Rs. {{ calculatedMdms.customsFee.toLocaleString('en-NP') }}</span>
-            </div>
-            <div class="flex justify-between py-1 border-b border-slate-800/60">
-              <span class="text-fg-subtle">VAT ({{ vatPercentLabel }}% on Imported Luxury)</span>
-              <span class="font-mono font-semibold">Rs. {{ calculatedMdms.vatFee.toLocaleString('en-NP') }}</span>
-            </div>
-            <div class="flex justify-between py-1 border-b border-slate-800/60">
-              <span class="text-fg-subtle">MDMS Official NTA Registration</span>
-              <span class="font-mono font-semibold">Rs. {{ calculatedMdms.ntaFee.toLocaleString('en-NP') }}</span>
-            </div>
-          </div>
-
-          <div class="p-3 rounded-xl bg-white/5 border border-white/10 text-2xs text-slate-300 space-y-1">
-            <p><strong>Required Documents at Customs Counter:</strong></p>
-            <ul class="list-disc pl-4 space-y-0.5 text-fg-subtle">
-              <li>Passport with Arrival Stamp at TIA</li>
-              <li>Boarding Pass &amp; Purchase Invoice / Receipt</li>
-              <li>Labor Permit Sticker / QR (if claiming Shramik waiver)</li>
-            </ul>
-          </div>
+          <p class="mt-6 text-sm font-medium text-fg">Bring to the customs counter</p>
+          <ul class="mt-2 list-disc space-y-1 pl-4 text-sm leading-6 text-fg-muted">
+            <li>Passport with the arrival stamp</li>
+            <li>Boarding pass and the purchase invoice or receipt</li>
+            <li>Labor permit sticker or QR, if you’re claiming the Shramik waiver</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -205,27 +149,27 @@
     <!--  TAB 2: NEPAL 5G & 4G CARRIER FREQUENCY BAND RADAR         -->
     <!-- ═══════════════════════════════════════════════════════════ -->
     <div v-show="activeTab === '5g'" class="py-5 space-y-6">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-surface-2 p-4 rounded-xl border border-line">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h4 class="font-semibold text-sm text-fg">Nepal Mobile Network Frequency Radar</h4>
-          <p class="text-xs text-fg-subtle">Check compatibility with NTC (Nepal Telecom) and Ncell 4G LTE &amp; 5G</p>
+          <h3 class="font-semibold text-fg">Network bands in Nepal</h3>
+          <p class="text-sm text-fg-subtle">Match these with the bands on your phone’s spec sheet.</p>
         </div>
 
         <!-- Carrier Selector -->
-        <div class="flex gap-1.5 self-start sm:self-auto bg-surface p-1 rounded-xl border border-line">
+        <div class="flex gap-2 self-start sm:self-auto">
           <button
             @click="activeCarrier = 'ntc'"
             type="button"
-            class="px-3 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer"
-            :class="activeCarrier === 'ntc' ? 'bg-fg text-canvas shadow-xs' : 'text-fg-muted hover:text-slate-900'"
+            class="chip"
+            :aria-pressed="activeCarrier === 'ntc'"
           >
             Nepal Telecom (NTC)
           </button>
           <button
             @click="activeCarrier = 'ncell'"
             type="button"
-            class="px-3 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer"
-            :class="activeCarrier === 'ncell' ? 'bg-fg text-canvas shadow-xs' : 'text-fg-muted hover:text-slate-900'"
+            class="chip"
+            :aria-pressed="activeCarrier === 'ncell'"
           >
             Ncell Axiata
           </button>
@@ -237,26 +181,21 @@
         <div
           v-for="band in currentCarrierBands"
           :key="band.code"
-          class="p-4 rounded-xl bg-surface border border-line glass-card"
+          class="border-t border-fg/80 pt-4"
         >
           <div class="flex items-center justify-between mb-2">
-            <span class="text-xs font-semibold text-fg">{{ band.code }}</span>
+            <span class="text-lg font-semibold tracking-tight text-fg">{{ band.code }}</span>
             <span class="text-2xs font-semibold px-2 py-0.5 rounded-full" :class="band.statusClass">
               {{ band.tech }}
             </span>
           </div>
 
-          <div class="text-xs font-semibold text-fg">{{ band.frequency }}</div>
-          <div class="text-2xs text-fg-subtle mt-1 leading-snug">{{ band.role }}</div>
-
-          <div class="mt-3 pt-3 border-t border-line flex items-center gap-1.5 text-2xs font-semibold text-positive">
-            <CheckCircle class="w-3.5 h-3.5" />
-            <span>99.8% Global Phone Support</span>
-          </div>
+          <div class="text-sm font-medium text-fg">{{ band.frequency }}</div>
+          <div class="mt-1 text-sm leading-6 text-fg-subtle">{{ band.role }}</div>
         </div>
       </div>
 
-      <div class="p-4 rounded-xl bg-accent-soft border border-accent/30 text-xs text-fg-muted flex items-start gap-2.5">
+      <div class="flex items-start gap-2.5 border-t border-line pt-4 text-sm leading-6 text-fg-muted">
         <Info class="w-4 h-4 text-accent-text shrink-0 mt-0.5" />
         <p>
           <strong>5G Status in Nepal:</strong> Nepal Telecom (NTC) currently operates high-speed trial 5G towers in Kathmandu (Sundhara, Babarmaal, Chhauni) on <strong>Band n78 (3500MHz)</strong>. Ensure any imported phone has Band n78 enabled in its hardware modem.
@@ -270,8 +209,8 @@
     <div v-show="activeTab === 'repair'" class="py-5 space-y-6">
       <div class="flex items-center justify-between flex-wrap gap-2">
         <div>
-          <h4 class="font-semibold text-sm text-fg">Authorized Service Centers in Nepal</h4>
-          <p class="text-xs text-fg-subtle">Genuine parts, manufacturer-trained technicians, and official repair warranties</p>
+          <h3 class="font-semibold text-fg">Authorized service centers</h3>
+          <p class="text-sm text-fg-subtle">Call first to confirm the address and the repair price.</p>
         </div>
 
         <!-- Brand Selector -->
@@ -281,50 +220,25 @@
             :key="b"
             @click="selectedRepairBrand = b"
             type="button"
-            class="px-3 py-1 rounded-xl text-xs font-semibold border transition cursor-pointer shrink-0"
-            :class="selectedRepairBrand === b
-              ? 'bg-fg text-canvas border-transparent shadow-xs'
-              : 'bg-surface-2 text-fg-muted border-line hover:border-slate-400'"
+            class="chip"
+            :aria-pressed="selectedRepairBrand === b"
           >
             {{ b }}
           </button>
         </ScrollRow>
       </div>
 
-      <!-- Service Centers Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div
-          v-for="center in filteredServiceCenters"
-          :key="center.name"
-          class="p-5 rounded-xl bg-surface border border-line glass-card flex flex-col justify-between"
-        >
-          <div>
-            <div class="flex items-center justify-between mb-2">
-              <span class="text-2xs font-semibold uppercase tracking-wider text-accent-text bg-accent-soft px-2 py-0.5 rounded">
-                {{ center.brand }}
-              </span>
-              <span class="text-2xs font-semibold text-positive flex items-center gap-1">
-                <CheckCircle class="w-3 h-3" /> Authorised service
-              </span>
-            </div>
-
-            <h5 class="font-semibold text-sm text-fg mb-1">{{ center.name }}</h5>
-            <p class="text-xs text-fg-subtle flex items-center gap-1.5 mb-2">
-              <MapPin class="w-3.5 h-3.5 text-fg-subtle shrink-0" />
-              <span>{{ center.address }}</span>
-            </p>
-            <p class="text-xs font-semibold text-fg-muted flex items-center gap-1.5">
-              <Phone class="w-3.5 h-3.5 text-positive shrink-0" />
-              <span>{{ center.phone }}</span>
-            </p>
-          </div>
-
-          <div class="mt-4 pt-3 border-t border-line text-2xs text-fg-subtle flex justify-between">
-            <span>Avg. Screen Fix:</span>
-            <strong class="text-fg">{{ center.avgScreenCost }}</strong>
-          </div>
-        </div>
-      </div>
+      <ul class="grid grid-cols-1 gap-x-10 border-t border-line md:grid-cols-2">
+        <li v-for="center in filteredServiceCenters" :key="center.name" class="border-b border-line py-5">
+          <p class="eyebrow">{{ center.brand }}</p>
+          <h4 class="mt-1 font-semibold text-fg">{{ center.name }}</h4>
+          <p class="mt-1 text-sm leading-6 text-fg-muted">{{ center.address }}</p>
+          <p class="mt-2 flex flex-wrap justify-between gap-x-4 text-sm">
+            <a :href="`tel:${center.phone}`" class="link">{{ center.phone }}</a>
+            <span class="text-fg-subtle">Screen repair about <span class="tabular font-medium text-fg">{{ center.avgScreenCost }}</span></span>
+          </p>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -333,10 +247,7 @@
 import ScrollRow from '@/Components/ScrollRow.vue'
 import { ref, computed } from 'vue'
 import { usePage } from '@inertiajs/vue3'
-import {
-  ShieldCheck, ExternalLink, UserCheck, Smartphone,
-  CreditCard, CheckCircle, Radio, Wrench, Info, MapPin, Phone
-} from 'lucide-vue-next'
+import { ExternalLink, Info } from 'lucide-vue-next'
 
 const props = defineProps({
   frequencyBands: {
@@ -350,9 +261,9 @@ const props = defineProps({
 })
 
 const hubTabs = [
-  { id: 'mdms', label: 'MDMS & Airport Duty Calculator', icon: ShieldCheck, badge: 'Official Rates' },
-  { id: '5g', label: 'Nepal 5G & 4G Band Radar', icon: Radio, badge: 'NTC / Ncell' },
-  { id: 'repair', label: 'Authorized Service Directory', icon: Wrench, badge: 'Genuine Fix' },
+  { id: 'mdms', label: 'Airport duty' },
+  { id: '5g', label: '4G and 5G bands' },
+  { id: 'repair', label: 'Service centers' },
 ]
 
 const activeTab = ref('mdms')
@@ -372,9 +283,9 @@ const dutyPercentLabel = computed(() => Number(mdmsSettings.value.mdms_customs_d
 const vatPercentLabel  = computed(() => Number(mdmsSettings.value.mdms_vat_percent ?? 13))
 
 const phoneTiers = computed(() => [
-  { id: 'budget', name: 'Budget / Feature', range: 'Under Rs. 15K', baseValue: 12000, ntaRate: 0 },
-  { id: 'mid', name: 'Mid-Range Smartphone', range: 'Rs. 15K – 50K', baseValue: 35000, ntaRate: ntaStandard.value },
-  { id: 'flagship', name: 'Premium Flagship (iPhone/Galaxy)', range: 'Rs. 50K+', baseValue: 110000, ntaRate: ntaLuxury.value },
+  { id: 'budget', name: 'Budget', range: 'Under Rs 15K', baseValue: 12000, ntaRate: 0 },
+  { id: 'mid', name: 'Mid-range', range: 'Rs 15K – 50K', baseValue: 35000, ntaRate: ntaStandard.value },
+  { id: 'flagship', name: 'Flagship', range: 'Over Rs 50K', baseValue: 110000, ntaRate: ntaLuxury.value },
 ])
 
 const calculatedMdms = computed(() => {
@@ -462,12 +373,12 @@ const currentCarrierBands = computed(() => {
 const selectedRepairBrand = ref('All')
 
 const defaultServiceCenters = [
-  { brand: 'Apple', name: 'EvoStore Authorized Service Provider', address: 'Fortune Square, Durbarmarg, Kathmandu', phone: '+977-1-4225444', avgScreenCost: 'Rs. 28,000 – 55,000' },
-  { brand: 'Apple', name: 'Oliz Store Customer Care Center', address: 'Babarmaal Revisited, Kathmandu', phone: '+977-1-4261160', avgScreenCost: 'Rs. 25,000 – 52,000' },
-  { brand: 'Samsung', name: 'Samsung Plaza Customer Service', address: '4th Floor, CTC Mall, Sundhara, Kathmandu', phone: '+977-1-4228990', avgScreenCost: 'Rs. 12,000 – 38,000' },
-  { brand: 'Samsung', name: 'Samsung Smart Care Pokhara', address: 'Chipledhunga, Pokhara', phone: '+977-61-528890', avgScreenCost: 'Rs. 12,000 – 38,000' },
-  { brand: 'Xiaomi', name: 'Xiaomi Authorized Care Center', address: 'Tamrakar Complex, 5th Floor, New Road, Kathmandu', phone: '+977-1-4240500', avgScreenCost: 'Rs. 4,500 – 14,000' },
-  { brand: 'OnePlus', name: 'Smart Care (Official OnePlus Center)', address: 'Pashupati Plaza, New Road, Kathmandu', phone: '+977-1-4233333', avgScreenCost: 'Rs. 14,000 – 28,000' },
+  { brand: 'Apple', name: 'EvoStore Authorized Service Provider', address: 'Fortune Square, Durbarmarg, Kathmandu', phone: '+977-1-4225444', avgScreenCost: 'Rs 28,000 – 55,000' },
+  { brand: 'Apple', name: 'Oliz Store Customer Care Center', address: 'Babarmaal Revisited, Kathmandu', phone: '+977-1-4261160', avgScreenCost: 'Rs 25,000 – 52,000' },
+  { brand: 'Samsung', name: 'Samsung Plaza Customer Service', address: '4th Floor, CTC Mall, Sundhara, Kathmandu', phone: '+977-1-4228990', avgScreenCost: 'Rs 12,000 – 38,000' },
+  { brand: 'Samsung', name: 'Samsung Smart Care Pokhara', address: 'Chipledhunga, Pokhara', phone: '+977-61-528890', avgScreenCost: 'Rs 12,000 – 38,000' },
+  { brand: 'Xiaomi', name: 'Xiaomi Authorized Care Center', address: 'Tamrakar Complex, 5th Floor, New Road, Kathmandu', phone: '+977-1-4240500', avgScreenCost: 'Rs 4,500 – 14,000' },
+  { brand: 'OnePlus', name: 'Smart Care (Official OnePlus Center)', address: 'Pashupati Plaza, New Road, Kathmandu', phone: '+977-1-4233333', avgScreenCost: 'Rs 14,000 – 28,000' },
 ]
 
 const serviceCentersList = computed(() => {

@@ -14,7 +14,7 @@ return [
         'date' => '2026-11-23',
         'content' => <<<'HTML'
 <p>ASUS has the widest laptop range in Nepal by some distance. It runs from a Rs 45,999 Vivobook Go with a Celeron chip all the way to the dual-screen <a href="/products/asus-rog-zephyrus-duo-gx651ax-2026">ROG Zephyrus Duo</a> at over Rs 13 lakh. That breadth is useful, but it also makes the line-up confusing, because similar names hide very different machines.</p>
-<p>A rough map of the families: <strong>Vivobook</strong> is the everyday range, <strong>Zenbook</strong> the thin premium one, <strong>TUF</strong> and <strong>ROG</strong> are for gaming, and <strong>ProArt</strong> is for creative work. Each product page shows where its price came from.</p>
+<p>A rough map of the families: <strong>Vivobook</strong> is the everyday range, <strong>Zenbook</strong> the thin premium one, <strong>TUF</strong> and <strong>ROG</strong> are for gaming, and <strong>ProArt</strong> is for creative work. Each product page shows when its price was last checked.</p>
 <h2>ASUS laptops price list</h2>
 <table>
 <thead><tr><th>Model</th><th>Variant</th><th>Price in Nepal</th></tr></thead>

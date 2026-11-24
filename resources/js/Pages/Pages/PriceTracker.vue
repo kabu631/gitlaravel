@@ -8,10 +8,10 @@
     </header>
 
     <!-- Stats -->
-    <dl class="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line lg:grid-cols-4">
-      <div v-for="s in statCards" :key="s.label" class="bg-surface px-5 py-4">
+    <dl class="mt-8 grid grid-cols-1 divide-y divide-line border-y border-line sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+      <div v-for="s in statCards" :key="s.label" class="flex items-baseline justify-between gap-4 py-4 sm:block sm:px-6 sm:py-5 sm:first:pl-0">
         <dt class="text-xs text-fg-subtle">{{ s.label }}</dt>
-        <dd class="tabular mt-1 text-2xl font-semibold tracking-tight text-fg">{{ s.value }}</dd>
+        <dd class="tabular text-2xl font-semibold sm:mt-1 sm:text-3xl tracking-tight text-fg">{{ s.value }}</dd>
       </div>
     </dl>
 
@@ -206,7 +206,6 @@ const statCards = computed(() => {
   const s = props.stats || {}
   const drops = props.gadgets.filter(g => g.trend === 'Dropped').length
   return [
-    { label: 'Devices tracked', value: formatNumber(s.total_tracked ?? props.gadgets.length) },
     { label: 'Prices down', value: formatNumber(s.total_drops_count ?? drops) },
     { label: 'Big drops (20%+ or Rs 10k+)', value: formatNumber(s.hot_drops_count ?? props.gadgets.filter(g => g.is_hot_change).length) },
     { label: 'Largest drop', value: `${s.max_discount_percent ?? Math.max(0, ...props.gadgets.map(g => g.trend === 'Dropped' ? g.price_diff_percent : 0))}%` },
@@ -275,11 +274,3 @@ function syncUrl() {
 }
 </script>
 
-<style scoped>
-.tab {
-  @apply flex shrink-0 items-center gap-1.5 border-b-2 border-transparent pb-3 text-sm font-medium text-fg-subtle transition-colors hover:text-fg;
-}
-.tab[aria-current='page'] {
-  @apply border-fg text-fg;
-}
-</style>

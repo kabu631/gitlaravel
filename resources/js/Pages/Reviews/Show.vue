@@ -9,9 +9,9 @@
           <h1 class="mt-3 text-3xl font-semibold leading-tight tracking-tight text-fg sm:text-[2.5rem] sm:leading-[1.15]">{{ review.title }}</h1>
           <div class="mt-6 flex flex-wrap items-center justify-between gap-4 border-y border-line py-4">
             <div class="flex items-center gap-3 text-sm">
-              <span class="flex h-9 w-9 items-center justify-center rounded-full bg-surface-3 font-semibold text-fg">{{ (review.author?.name || 'G')[0].toUpperCase() }}</span>
+              <span class="flex h-9 w-9 items-center justify-center rounded-full bg-surface-3 font-semibold text-fg">{{ byline(review.author?.name)[0].toUpperCase() }}</span>
               <div>
-                <p class="font-medium text-fg">{{ review.author?.name || 'Git Infosys' }}</p>
+                <p class="font-medium text-fg">{{ byline(review.author?.name) }}</p>
                 <p class="text-fg-subtle"><time :datetime="review.created_at">{{ formatDate(review.created_at) }}</time></p>
               </div>
             </div>
@@ -73,7 +73,8 @@
       </article>
 
       <aside class="space-y-10 lg:col-span-4">
-        <div v-if="review.gadget" class="card overflow-hidden lg:sticky lg:top-24">
+        <!-- Only the last block may stick: a sticky block with siblings after it covers them while scrolling. -->
+        <div v-if="review.gadget" class="card overflow-hidden" :class="trending.length ? '' : 'lg:sticky lg:top-24'">
           <div class="media-plate aspect-[4/3]">
             <img v-if="review.gadget.image" :src="getImageUrl(review.gadget.image)" :alt="review.gadget.name" class="h-full w-full object-cover" />
             <DeviceIcon v-else :category="review.gadget?.category?.slug" />
@@ -92,7 +93,7 @@
           </div>
         </div>
 
-        <div v-if="trending.length">
+        <div v-if="trending.length" class="lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:scrollbar-thin">
           <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Popular devices</h2>
           <ul class="divide-y divide-line">
             <li v-for="g in trending" :key="g.id">
@@ -125,7 +126,7 @@ import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import ScoreBadge from '@/Components/ScoreBadge.vue'
 import ShareLinks from '@/Components/ShareLinks.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
-import { formatDate, formatPrice } from '@/Composables/useFormat.js'
+import { byline, formatDate, formatPrice } from '@/Composables/useFormat.js'
 
 const props = defineProps({
   review: { type: Object, required: true },

@@ -64,7 +64,7 @@
               3. Down Payment:
             </label>
             <span class="text-xs font-semibold text-positive">
-              {{ downPaymentPercent }}% (Rs. {{ Number(downPaymentAmount).toLocaleString('en-NP') }})
+              {{ downPaymentPercent }}% (Rs {{ Number(downPaymentAmount).toLocaleString('en-IN') }})
             </span>
           </div>
           <input
@@ -92,7 +92,7 @@
             <span class="text-positive font-semibold">0% Interest</span>
           </div>
           <div class="font-semibold text-3xl sm:text-4xl text-fg leading-tight">
-            Rs. {{ Number(monthlyInstallment).toLocaleString('en-NP') }}
+            Rs {{ Number(monthlyInstallment).toLocaleString('en-IN') }}
             <span class="text-xs font-semibold text-fg-subtle">/ month</span>
           </div>
         </div>
@@ -101,20 +101,20 @@
         <div class="space-y-2.5 text-xs border-t border-b border-positive/25 py-4">
           <div class="flex justify-between">
             <span class="text-fg-subtle">Retail Price (Inc. 13% VAT):</span>
-            <span class="font-semibold text-fg">Rs. {{ Number(basePrice).toLocaleString('en-NP') }}</span>
+            <span class="font-semibold text-fg">Rs {{ Number(basePrice).toLocaleString('en-IN') }}</span>
           </div>
           <div class="flex justify-between">
             <span class="text-fg-subtle">Down Payment Paid:</span>
-            <span class="font-semibold text-positive">- Rs. {{ Number(downPaymentAmount).toLocaleString('en-NP') }}</span>
+            <span class="font-semibold text-positive">- Rs {{ Number(downPaymentAmount).toLocaleString('en-IN') }}</span>
           </div>
           <div class="flex justify-between">
             <span class="text-fg-subtle">Total Financed Principal:</span>
-            <span class="font-semibold text-fg">Rs. {{ Number(financedPrincipal).toLocaleString('en-NP') }}</span>
+            <span class="font-semibold text-fg">Rs {{ Number(financedPrincipal).toLocaleString('en-IN') }}</span>
           </div>
           <div class="flex justify-between">
             <span class="text-fg-subtle">Processing Fee / Interest:</span>
             <span class="font-semibold text-positive">
-              {{ processingFeeAmount > 0 ? `Rs. ${Number(processingFeeAmount).toLocaleString('en-NP')} (${activeBank?.processingFeePercent}%)` : 'Rs. 0 (Waived)' }}
+              {{ processingFeeAmount > 0 ? `Rs ${Number(processingFeeAmount).toLocaleString('en-IN')} (${activeBank?.processingFeePercent}%)` : 'Rs 0 (Waived)' }}
             </span>
           </div>
         </div>

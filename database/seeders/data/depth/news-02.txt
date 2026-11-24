@@ -1,0 +1,488 @@
+=== asus-rog-zephyrus-g16-2025-rtx-5080-benchmarks-leaked
+<h2>The versions on sale</h2>
+[[models:asus-rog-zephyrus-g16-gu605cr-core-ultra-9-285h-32gb-1tb-rtx-5070-ti,asus-rog-zephyrus-g16-gu605cm-2025,asus-rog-zephyrus-g16-gu606aw-tb103x-2026-intel-core-ultra-9-386h-rtx-5080,asus-rog-strix-scar-16-2025-intel-core-ultra-9-275hx-rtx-5080]]
+<p>Look at the table carefully, because it shows something odd. The GU605CR with a Core Ultra 9 285H, an RTX 5070 Ti and 32GB is listed below the GU605CM, which has a lesser processor and half the memory. Prices of imported premium laptops depend on when a batch arrived and who brought it. It pays to ask three sellers about the same model code, and to judge by the graphics chip and memory and not by the family name.</p>
+<h2>What thinness costs</h2>
+<p>A laptop is a box for moving heat. A thick box with two large fans and a liquid metal compound can let an RTX 5080 draw 150 to 175 watts. A 1.85kg aluminium body cannot. Asus limits the graphics power in a Zephyrus to keep the keyboard touchable and the noise bearable. In games that means the same chip gives perhaps 15 to 25 per cent fewer frames than in a Strix Scar. In short bursts, such as applying an effect in Premiere, the difference disappears.</p>
+<p>So the Zephyrus is not a slower Strix. It is a different idea: most of the speed, in something you would gladly carry to a client.</p>
+<h2>The screen is the reason</h2>
+<p>A 16-inch 2.5K OLED at 240Hz covers the cinema colour range, with a response time that LCDs cannot match. For colour grading, photo work and films it is one of the best laptop screens sold here. Static toolbars over years may leave faint marks, so use dark themes, hide the taskbar and let Asus's pixel refresh run. Glossy glass reflects windows, and that bothers some people more than burn-in ever will.</p>
+<h2>Battery: unusual for the class</h2>
+<p>With 90Wh and efficient modes, the Zephyrus can last a working afternoon of documents and browsing. Switch the screen to 60Hz, choose the integrated graphics in Armoury Crate and dim the panel. Gaming on battery is possible and short. USB-C charging at 100W is enough for office work, so the heavy brick can stay at home.</p>
+<h2>Who buys it</h2>
+<ul>
+<li><strong>Video editors and motion designers</strong> who visit clients.</li>
+<li><strong>Architects</strong> who present models on site.</li>
+<li><strong>Developers and data scientists</strong> who want CUDA in a bag.</li>
+<li><strong>Gamers</strong> who refuse to carry 2.8kg.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Competitive players at a desk. Buy a Strix, Legion or a desktop.</li>
+<li>Students on a budget. An RTX 5060 laptop at half the price does the same coursework.</li>
+<li>People who need upgrades. The memory is soldered on most configurations.</li>
+</ul>
+<h2>Sixteen gigabytes in a five-lakh laptop?</h2>
+<p>The GU605CM's 16GB deserves a warning. Modern games together with a browser and a voice chat use that much, and creative software uses more. As the memory cannot be added later, a premium laptop with 16GB has a short professional life. Choose 32GB. If a seller offers the 16GB model at a discount, the discount has to be large.</p>
+<h2>RTX 5060, 5070, 5070 Ti or 5080?</h2>
+<p>In a thin chassis the step from a 5070 Ti to a 5080 is smaller than the price suggests, because both run near the same power limit. The jump from 8GB of video memory on the 5070 to 12GB on the 5070 Ti, however, is real for creators. Our choice in this body is the 5070 Ti. Take the 5080 if your software needs its 16GB.</p>
+<h2>Alternatives in the same price range</h2>
+<p><strong>MacBook Pro 14 or 16.</strong> Better battery, quieter, with excellent video engines, and no gaming or CUDA. The <a href="/products/macbook-pro-14-m5">MacBook Pro 14 M5</a> starts far lower.</p>
+<p><strong>Razer Blade.</strong> Similar idea, rarer here, and harder to service.</p>
+<p><strong>Lenovo Legion Pro and Asus Strix.</strong> More speed, more weight. The <a href="/products/asus-rog-strix-scar-16-2025-intel-core-ultra-9-275hx-rtx-5080">Strix Scar 16 with an RTX 5080</a> costs about Rs 1.5 lakh less than the Zephyrus with the same chip.</p>
+<p><strong>A desktop plus a thin laptop.</strong> For five lakhs you can have a desktop with an RTX 5080 and a Yoga or MacBook Air. If you do not render while travelling, this is the better pair.</p>
+<h2>What to test before paying five to seven lakhs</h2>
+<ol>
+<li>Run a game or Cinebench for twenty minutes. Note the sustained speed, noise and keyboard temperature.</li>
+<li>Read the graphics power in Nvidia Control Panel.</li>
+<li>Check the screen with grey, red, green and blue images.</li>
+<li>Generate a battery report. Full charge should be near 90Wh.</li>
+<li>Look at the serial number on Asus's warranty page.</li>
+<li>Try the speakers, webcam and Windows Hello.</li>
+<li>Check the charger's wattage and plug.</li>
+</ol>
+<h2>Warranty is not a footnote here</h2>
+<p>A motherboard in a thin laptop contains the processor, graphics chip and memory. If it fails outside warranty, the repair can cost half the price. Ask whether the laptop has Asus's own warranty valid in Nepal, for how long, and who handles it. Model codes with letters for other regions, such as those ending in a North American suffix, are imports. A shop warranty for a Rs 7,49,999 machine should be in writing, with a stamp, and the shop should have existed for some years. Consider insurance.</p>
+<h2>About leaked benchmarks</h2>
+<p>When this story began, numbers were circulating from engineering samples. They were roughly right about the chip and wrong about this laptop, because early samples ran at higher power than the retail model. It is a good lesson. A benchmark belongs to a chip at a given wattage in a given chassis. Read results for the exact model, from someone who states the mode and the room temperature, and ignore the rest.</p>
+<h2>Living with one in Nepal</h2>
+<p>Dust is the enemy of thin cooling. Have it opened and cleaned once a year by someone who has done it before. Use a surge protector, as the power supply is expensive. Keep it out of the sun in a car. In the hot months, raise the rear and use the balanced profile. Back up daily, since a machine this attractive is attractive to others too.</p>
+<h2>Verdict</h2>
+<p>The Zephyrus G16 remains the best-looking way to carry real graphics power. Buy it if you are paid for work that happens away from a desk, choose 32GB and a 5070 Ti, and settle the warranty first. For everyone else, thicker is cheaper, faster and easier to repair.</p>
+
+=== qualcomm-oryon-snapdragon-x-elite-laptops-nepal-battery-benchmarks
+<h2>Models and prices today</h2>
+[[models:acer-aspire-16-ai-2025-snapdragon-x-x1-26100-16gb-512gb-16-wuxga,dell-inspiron-14-5441-2024-snapdragon-x-plus-x1p-42-100,asus-vivobook-s15-oled-x-plus-16gb-1tb-15-6-3k-oled,asus-vivobook-s15-2024-x-elite-x1e-78-100,dell-xps-13-9345-snapdragon-x-plus-16gb-256gb,hp-elitebook-ultra-g1q-b16xzua-2025-snapdragon-x-elite-x1e-78-100]]
+<h2>X, X Plus and X Elite</h2>
+<p>Qualcomm sells one design in three sizes. <strong>Snapdragon X</strong> has eight cores at lower speeds and a small graphics unit, for laptops around Rs 1.2 lakh. <strong>X Plus</strong> comes with eight or ten cores. <strong>X Elite</strong> has twelve. All share the same neural processor, so AI features are identical. For office work you will not feel the difference between Plus and Elite. For compiling and photo exports you will. Nobody should choose an Elite for gaming.</p>
+<h2>How the battery life happens</h2>
+<p>Three things work together. The cores finish short tasks quickly and go back to sleep. Standby uses very little, so a laptop left closed overnight loses one or two per cent. And performance on battery is the same as on the charger, where many Intel and AMD laptops slow down when unplugged to save power. In everyday work with moderate brightness, twelve hours and more is realistic on the larger batteries. Video playback lasts longer, video calls far less.</p>
+<p>For a country where some neighbourhoods still lose power, and where a student may sit in a classroom with two sockets for sixty people, this is worth more than any benchmark.</p>
+<h2>Prism, the translator</h2>
+<p>Programs written for Intel and AMD processors are translated as they run. It works well for most. The first launch is slower. Speed drops by perhaps ten to thirty per cent. Programs that use special instructions used to fail, and later Windows updates have added support for many of them. Programs that install drivers remain the problem: a driver must be written for Arm. That is why VPN clients, anti-cheat systems, hardware keys, antivirus software and older printers are the usual failures.</p>
+<h2>A Nepali compatibility list to test</h2>
+<p>We suggest that you try these before paying, as they matter here and international lists ignore them.</p>
+<ul>
+<li>Your bank's website and any token or signing tool.</li>
+<li>The digital signature certificate driver used for tax and company filings.</li>
+<li>Tally, Swastik, Busy or whichever accounting program your office runs.</li>
+<li>Preeti and other Nepali font typing tools, and Unicode keyboards.</li>
+<li>The exact printer and scanner in your office.</li>
+<li>Your college's exam browser, if it uses one.</li>
+<li>Zoom, Teams and Google Meet, which are fine.</li>
+<li>AutoCAD, ETABS, SAP2000, MATLAB: check the vendor's statement.</li>
+</ul>
+<p>Ask the shop for a demonstration, or a three-day return in writing.</p>
+<h2>Development work</h2>
+<p>VS Code, Git, Node, Python, .NET, Java and Go have native versions. WSL runs Arm Linux, and Docker runs Arm images, which is fine until a project needs an image built only for x86. Android Studio and its emulator have been a weak point. iOS development is of course impossible. Web developers are happy here. Mobile developers should choose Intel, AMD or a Mac.</p>
+<h2>Games</h2>
+<p>Older and lighter games run through translation at low settings. Anything with kernel-level anti-cheat, such as Valorant, does not. If games are part of your week, this is the wrong laptop.</p>
+<h2>Compared with Intel's Lunar Lake</h2>
+<p>Intel answered Qualcomm with the Core Ultra 200V series, which comes close in battery life and runs everything. That is the greatest threat to Snapdragon laptops. In Nepal, the <a href="/products/acer-aspire-ai-a14-52mt-2025-intel-core-ultra-7-258v">Acer Aspire 14 AI</a> with a Core Ultra 7 258V, 32GB and 1TB costs about Rs 1,39,999, and the <a href="/products/lenovo-yoga-slim-7i-aura-edition">Yoga Slim 7i Aura</a> about Rs 1,64,999. If a Snapdragon model is not clearly cheaper or does not have a clearly better screen, take the Intel.</p>
+<h2>Compared with a MacBook</h2>
+<p>Apple's chips are quicker in single tasks, and macOS has no translation problems left to speak of. The <a href="/products/macbook-neo">MacBook Neo</a> is in the same price range with half the memory. The Air is much dearer. If you can live in macOS, a used M2 Air with 16GB is a fierce competitor. If you need Windows and long battery life, we are back to Qualcomm and Intel.</p>
+<h2>Which model makes sense?</h2>
+<p><strong>Acer Aspire 16 AI</strong> is the cheapest, with a large screen for study. <strong>Vivobook S15 X Plus</strong> is the one we like most, thanks to its 3K OLED and a terabyte of storage. <a href="/reviews/asus-vivobook-s15-snapdragon-review-nepal">Our review</a> covers it. <strong>Dell Inspiron 14</strong> is sensible. <strong>XPS 13</strong> is beautiful, with only 256GB in its base version. <strong>EliteBook Ultra</strong> is for companies that have tested their software.</p>
+<h2>Copilot+ features</h2>
+<p>These laptops qualify for Windows features that run on the neural processor: live captions with translation, Studio effects for the camera, improved search, and Recall, which is optional and takes encrypted snapshots of your screen. Read what Recall does before turning it on. On a shared family computer, leave it off.</p>
+<h2>Repair and resale</h2>
+<p>Memory is soldered on all of them. SSDs can usually be replaced. Few technicians in Nepal have experience with Arm motherboards, so official warranty matters. Resale is uncertain, since buyers are cautious. Plan to keep the laptop for its whole life.</p>
+<h2>Who will be happy</h2>
+<ul>
+<li>Writers, teachers, managers, marketers, translators and researchers.</li>
+<li>Students of management, law, education and humanities.</li>
+<li>People who travel by bus and work on the way.</li>
+</ul>
+<h2>Who will return it</h2>
+<ul>
+<li>Engineers and architects.</li>
+<li>Accountants with local software, unless tested.</li>
+<li>Gamers and mobile app developers.</li>
+</ul>
+<h2>Setup tips</h2>
+<p>Choose Arm64 downloads when a site offers them. Use Edge, Chrome or Firefox in their native versions. Run Windows Update until nothing is left, as translation improves with each release. Prefer printers with driverless IPP support. Set the battery limit to 80 per cent if you work at a desk.</p>
+<h2>Our view</h2>
+<p>Snapdragon laptops changed what Windows users expect from a battery, and forced Intel to respond. As products they are very good for a limited group. Write your list of programs. If it fits on the safe side, buy for the screen and the price. If one item is doubtful, choose Lunar Lake and sleep well.</p>
+
+=== wifi-7-adoption-nepal-routers-speed-isp-support
+<h2>What Wi-Fi 7 adds</h2>
+<p>Three changes matter. Channels can be twice as wide, up to 320MHz, in the 6GHz band. Devices can use two bands at once, called multi-link operation, which reduces delay and dropouts. And data is packed more densely when the signal is strong. In a laboratory that produces astonishing numbers. In a home, the second change is the one people would feel: steadier video calls and games.</p>
+<p>There is a catch. The widest channels need the 6GHz band, and each country decides whether and how it may be used. Check what the regulator in Nepal permits before paying for a router whose main advantage depends on it. Without 6GHz, Wi-Fi 7 works on 2.4 and 5GHz and is only modestly better than Wi-Fi 6.</p>
+<h2>Your plan is the ceiling</h2>
+<p>If your fibre package is 100Mbps, every generation of Wi-Fi from the last ten years can carry it across a room. A faster standard will not make a download quicker. It may make it reach the bedroom better, and that depends on walls. Most Nepali households have packages between 80 and 300Mbps. Wi-Fi 6 carries those comfortably.</p>
+<h2>Concrete and brick: the real problem</h2>
+<p>Houses here are built of brick and reinforced concrete. Each wall takes away a large part of a 5GHz signal, and a floor slab takes more. 6GHz is worse still. So a router in the corner of the ground floor cannot serve a room on the third, whatever the number on its box. The cure is placement and more access points.</p>
+<h3>Placement rules</h3>
+<ul>
+<li>In the middle of the home, high on a shelf, in the open.</li>
+<li>Away from the television, microwave, fridge and aquarium.</li>
+<li>Not inside the metal box with the fibre terminal.</li>
+<li>Antennas at different angles if you have floors above and below.</li>
+</ul>
+<p>Try this first. Moving a router two metres can double the speed in the next room, free of charge.</p>
+<h2>Mesh, extender or cable?</h2>
+<p><strong>A cable</strong> from the router to a second access point is best, and costs little during construction or painting. If you are building a house, run Ethernet to every floor. You will thank yourself for thirty years.</p>
+<p><strong>Mesh</strong> systems with two or three units are the easiest cure for a finished house. Choose one with a dedicated wireless link, or connect units by cable if you can. A Wi-Fi 6 mesh is enough.</p>
+<p><strong>Extenders</strong> are cheap, and halve the speed. Use them for a doorbell or a distant light.</p>
+<p><strong>Powerline adapters</strong> are a gamble with older wiring.</p>
+<h2>The router from your ISP</h2>
+<p>It is usually basic, locked, and shared with the fibre terminal. You can often keep it as the terminal and connect your own router behind it. Ask the ISP to put theirs in bridge mode, or turn off its Wi-Fi and use yours as an access point. If two routers both hand out addresses, some things such as games and cameras will misbehave. Support staff know the setting as "bridge" or "double NAT".</p>
+<h2>How to measure properly</h2>
+<ol>
+<li>Connect a laptop by cable to the router and run a speed test. This is your plan's real speed.</li>
+<li>Repeat on 5GHz Wi-Fi beside the router. It should be close.</li>
+<li>Repeat in each room. Write it down.</li>
+<li>Repeat at nine in the evening. If the cable result is also slow, the problem is the ISP and no router will help.</li>
+</ol>
+<h2>What to buy by situation</h2>
+<p><strong>Flat, 100Mbps, few devices.</strong> Keep the ISP router and move it.</p>
+<p><strong>Three-storey house, 150 to 300Mbps.</strong> Wi-Fi 6 mesh with two or three units.</p>
+<p><strong>Gaming.</strong> A cable to the PC or console. Nothing wireless is as steady.</p>
+<p><strong>Home office with video calls.</strong> Wi-Fi 6 router near the desk and a small UPS for router and terminal.</p>
+<p><strong>500Mbps or more, new devices, NAS.</strong> Here Wi-Fi 7 starts to make sense.</p>
+<p><strong>Small office.</strong> Proper access points on the ceiling with wired connections, from a business range.</p>
+<h2>A small UPS is the best network upgrade</h2>
+<p>Routers and fibre terminals use 10 to 20 watts together. A mini UPS for Rs 2,500 to 4,500 keeps them on for hours in a power cut. Fibre networks usually stay up. This one purchase improves life more than any new Wi-Fi standard.</p>
+<h2>Which devices have Wi-Fi 7?</h2>
+<p>Recent flagship phones, many laptops from 2025 onwards and the newest Macs. They work with older routers, so there is no hurry. When you replace a router in two or three years because it has failed, Wi-Fi 7 models will be the ordinary choice and cost less.</p>
+<h2>Wi-Fi 6E: a stop on the way</h2>
+<p>Wi-Fi 6E is Wi-Fi 6 with the 6GHz band. If you see it at a good price, the same question applies: is 6GHz permitted and useful in your home? For most homes, plain Wi-Fi 6 is the same thing for less.</p>
+<h2>Security settings worth five minutes</h2>
+<ul>
+<li>Change the router's admin password, not only the Wi-Fi password.</li>
+<li>Use WPA2/WPA3 and a long passphrase.</li>
+<li>Create a guest network for visitors and smart devices.</li>
+<li>Turn off WPS and remote management.</li>
+<li>Update the firmware twice a year.</li>
+<li>Check the list of connected devices and remove strangers.</li>
+</ul>
+<h2>Common myths</h2>
+<p><strong>"More antennas mean more speed."</strong> Not by themselves. <strong>"5GHz is always better."</strong> Near the router, yes. Two rooms away, 2.4GHz may win. <strong>"Wi-Fi 7 is dangerous."</strong> It uses low power, like every version before it. <strong>"A booster app will help."</strong> No app can.</p>
+<h2>When we would upgrade to Wi-Fi 7</h2>
+<p>If we were buying a new router anyway, had a plan above 500Mbps, owned at least two Wi-Fi 7 devices, and could use 6GHz in the room where we work. If three of those are true, go ahead. If one is true, buy a good Wi-Fi 6 mesh and spend the difference on a UPS and an Ethernet cable.</p>
+<h2>Our advice</h2>
+<p>Move the router, measure the rooms, add a cable or a mesh unit, and protect the power. Do these in order and stop when the problem is gone. In most Nepali homes it will be gone before you reach the shop that sells Wi-Fi 7.</p>
+
+=== gta-6-launch-record-sales-how-to-buy-nepal
+<h2>Choosing your console</h2>
+[[models:sony-playstation-5]]
+<p>The table shows our current listing for the PlayStation 5 family, and the product page has every version. Rockstar's game runs on all of them, with differences in picture quality and frame rate that the console decides. The cheapest way to play is the Digital Edition. The catch is that you can only buy from the store, at store prices, for the life of the console.</p>
+<h2>Digital or disc? Do the sums</h2>
+<p>The disc model costs much more at present. In return you can buy used games, lend them and sell them. In Kathmandu, a new disc at Rs 9,000 to 13,000 can often be resold at 60 to 70 per cent after a month. If you buy six big games a year and sell them, the drive pays for itself within a couple of years. If you play one or two games for hundreds of hours, as many will with GTA VI, the Digital Edition is the thrifty choice. A detachable drive can be added to the Slim Digital and the Pro later, where it is available.</p>
+<h2>Which edition of the game?</h2>
+<p>The Standard Edition contains the full story. The Ultimate Edition adds in-game items, and its value depends on how you feel about cosmetic extras. Nothing in it is needed to finish the game. With special editions the sensible approach is to buy Standard, play ten hours, and upgrade if you still want to. Most stores sell the upgrade separately.</p>
+<h2>Paying from Nepal</h2>
+<p>There are four routes, from safest to riskiest.</p>
+<ol>
+<li><strong>Your own dollar card on the PlayStation or Xbox store.</strong> Nepali banks issue prepaid dollar cards within the yearly limit set by Nepal Rastra Bank. The game belongs to your account.</li>
+<li><strong>Gift cards.</strong> Buy a code for the region of your account from a reputable seller. Region must match. A United States code does not work on an Indian account.</li>
+<li><strong>A physical disc from a shop.</strong> Check the region printed on it for add-on content.</li>
+<li><strong>Shared accounts.</strong> Cheap for a reason. The owner can change the password, the store can close the account, and you lose everything including your progress. We advise against them.</li>
+</ol>
+<h2>Choose the account region once</h2>
+<p>Sony has no Nepal store. People choose the United States, India, the United Arab Emirates or others. Prices, sales and payment methods differ, and you cannot move your library later. If you have a card that works with one store and you are comfortable with its prices, choose that and stay. Changing regions is the commonest regret of new owners.</p>
+<h2>Storage and download</h2>
+<p>Modern open-world games are over 100GB, and updates keep arriving. The Digital Edition's 825GB holds about six large games. A second NVMe drive fits inside every PS5: choose a PCIe 4.0 model with a heatsink, rated above 5,500MB per second. On a 100Mbps connection, 120GB takes around three hours in good conditions. Set it to download overnight in rest mode, and put the console and router on a UPS. A power cut in the middle of a system update is a bad way to begin.</p>
+<h2>Your television matters as much</h2>
+<p>To see what the console can do, you want 4K, HDR with real brightness, a 120Hz panel with HDMI 2.1 and a game mode. A Full HD television works perfectly well and looks good from three metres. Turn on game mode whichever you have. The delay of ordinary picture modes makes driving feel drunk, and in this series that is meant to be optional. See <a href="/products?category=tv">televisions</a> and <a href="/products?category=monitor">monitors</a>.</p>
+<h2>Is the PS5 Pro worth it?</h2>
+<p>The Pro has stronger graphics, two terabytes and an upscaler that sharpens the picture on large 4K sets. If you own one, or plan to buy, a big 4K television, and if the gap to the Slim Disc is as small as it is now in Nepal, the Pro is the better purchase. On a Full HD television it is money thrown away. <a href="/reviews/ps5-digital-slim-pro-review-nepal">Our buying verdict</a> compares all three.</p>
+<h2>Xbox in Nepal</h2>
+<p>The game is also on Series X and S. Both are less common here, with fewer used discs and fewer friends to play with. The Series S is cheap, all-digital and limited in storage. Buy one if you already have an Xbox library or Game Pass.</p>
+<h2>What about PC?</h2>
+<p>No PC version has been announced for launch. Rockstar's earlier titles reached PC a year or more after consoles. Anything offered today as GTA VI for PC is fake and probably malware. The same goes for APK files that claim to be a mobile version. Please tell your younger cousins.</p>
+<h2>Online play</h2>
+<p>Online modes need a PlayStation Plus subscription for most games, and a stable connection more than a fast one. Use an Ethernet cable. If voice chat fails or friends cannot join, the cause is usually double NAT from an ISP router. Ask for bridge mode.</p>
+<h2>Parents, please read this part</h2>
+<p>Grand Theft Auto games are rated for adults, with violence, sexual content and drug use. They are superb and not for children. PlayStation's family settings allow you to restrict games by age, set spending limits and control playing time. Set them up in ten minutes. If your child says that everyone at school plays it, that may be true, and it does not change the rating.</p>
+<h2>Scams to expect</h2>
+<ul>
+<li>"Activation keys" for consoles at a quarter of the price.</li>
+<li>Social media pages taking advance payment for pre-orders after launch.</li>
+<li>Links offering free in-game money in exchange for your login.</li>
+<li>Used consoles that have been banned from the network. Sign in and test before paying.</li>
+</ul>
+<p>Turn on two-step verification for your account today.</p>
+<h2>Should you buy a console for one game?</h2>
+<p>If you play for a hundred hours, a Rs 95,000 console plus a Rs 13,499 game costs about Rs 1,085 an hour, falling with each further game. If a friend owns one, try it first. The console also plays hundreds of older titles, many cheaper than a cinema ticket in sales. And its price has been rising and not falling, so waiting for a discount may not be rewarded this year.</p>
+<h2>Final word</h2>
+<p>Buy the console that suits your television, buy the Standard Edition from your own account, protect the power, and lock the profile if there are children at home. Then enjoy a game that took more than a decade to make.</p>
+
+=== ps5-price-in-nepal-november-2026
+<h2>Why is the Digital Edition so much cheaper?</h2>
+<p>Two reasons. It has no disc drive, and its storage is smaller. It is also the version that importers have brought in larger numbers, so competition keeps its price honest. The Slim Disc is in short supply, and that has pushed it to within a few thousand rupees of the Pro. It is a strange situation that will not last, and it means the middle model is the worst buy of the three at the moment.</p>
+<h2>What each model includes</h2>
+<p><strong>Digital Edition (825GB).</strong> A console, one DualSense controller, cables and horizontal feet. All games from the store.</p>
+<p><strong>Slim Disc (1TB).</strong> The same with a 4K Blu-ray drive. Plays PS4 and PS5 discs and films.</p>
+<p><strong>Pro (2TB).</strong> Faster graphics, machine-learning upscaling, Wi-Fi 7 and more storage. No disc drive in the box. The same detachable drive can be added.</p>
+<p>None includes a vertical stand. The Slim and Pro can lie flat with the feet provided.</p>
+<h2>Real prices to expect in a shop</h2>
+<p>Listed prices are a guide. In practice you will meet three numbers: the cash price with no gifts, the bundle price with a second controller or a game, and the EMI price. Ask for all three. Work out the bundle by subtracting what the extras cost on their own. A DualSense is about Rs 9,500, and a popular used disc Rs 4,000 to 6,000. Some bundles are fair. Others hide a Rs 5,000 increase.</p>
+<h2>Official, imported and refurbished</h2>
+<p>Sony does not run a PlayStation operation in Nepal in the way it does for televisions, so many consoles are brought by importers. Warranty comes from the shop or an importer. Ask three things: how long, who repairs it, and whether the console is new, refurbished or a display unit. The model number on the box shows the region. Games are not region locked, though discs and downloadable content should match the account's region. Plugs and voltage are not an issue, as the power supply handles 100 to 240 volts.</p>
+<h2>Checking a console before paying</h2>
+<ol>
+<li>Seal intact, with serial numbers matching on the box and console.</li>
+<li>Power on, set up a user and connect to Wi-Fi.</li>
+<li>Sign in to PlayStation Network. A banned console cannot.</li>
+<li>Play a disc, if it has a drive, and listen for grinding.</li>
+<li>Check that the controller sticks do not drift. Open a game menu and leave it alone.</li>
+<li>Test USB ports and HDMI. A loose HDMI port is the most common repair.</li>
+<li>Ask for the bill with the serial number.</li>
+</ol>
+<h2>Used PS5: a reasonable idea?</h2>
+<p>Original models from 2020 to 2022 are sold at Rs 55,000 to 75,000. They are bigger and as capable as the Slim. Check the fan noise after half an hour of a heavy game, and look at the vents for dust. Vertical use for years with the liquid metal inside has caused trouble in some opened units, so avoid consoles that have been repaired. Make sure that the previous owner has deactivated the console from the account and reset it.</p>
+<h2>The cost of owning one</h2>
+<p>The console is the beginning. Over two years, plan for:</p>
+<ul>
+<li>Four to six games a year, new, used or on sale: Rs 15,000 to 50,000.</li>
+<li>PlayStation Plus, if you play online: the price of one or two games a year.</li>
+<li>A second controller: Rs 9,500.</li>
+<li>A 1TB drive, later: Rs 15,000 or more at present prices.</li>
+<li>A headset: Rs 3,000 to 10,000.</li>
+<li>A surge protector or small UPS: Rs 2,000 to 8,000.</li>
+</ul>
+<p>Sales on the store are deep. Games from a year or two ago often cost a quarter of their launch price, so patience is the best discount.</p>
+<h2>Electricity</h2>
+<p>A PS5 draws about 180 to 220 watts in demanding games, less in lighter ones and films, and around a watt in rest mode. Three hours a day is close to 20 units a month. Your television adds more. Turn off rest-mode features you do not use.</p>
+<h2>Heat, dust and monsoon</h2>
+<p>Give it ten centimetres on every side. Do not put it in a closed cabinet. Clean the vents and the dust catchers with a vacuum every couple of months. In the monsoon, let it run for half an hour every few days, as moisture is kinder to warm electronics. Keep it off the carpet.</p>
+<h2>PS5 against a gaming PC</h2>
+<p>A PC that matches a PS5 costs Rs 1.3 lakh or more in Nepal today, with a monitor extra. It also does homework, editing and mods, and plays games such as Valorant and Dota. A console is cheaper, simpler and better for the living room. If there is already a decent laptop for study, the console is the better entertainment purchase. If not, a PC does two jobs. Compare with our <a href="/custom-pc-build">PC builder</a>.</p>
+<h2>PS5 against Nintendo Switch 2</h2>
+<p>They hardly compete. The Switch is portable, with Nintendo's own games, and suits families and commuters. The PS5 is for cinematic games on a big screen. Homes with small children often get more use from the Switch. Check the language of imported units before paying.</p>
+<h2>Is a PS6 coming?</h2>
+<p>Sony has spoken in general terms about its next hardware and has given no date or price. Nothing suggests that it would reach Nepal soon, and first-year consoles are always scarce and expensive here. Waiting for it makes little sense if you want to play now.</p>
+<h2>Will prices fall?</h2>
+<p>Historically consoles became cheaper with age. This generation has gone the other way because of component costs and exchange rates. GTA VI has raised demand further. There may be some relief after the festival season and the launch rush. We would not expect a dramatic fall. Watch the <a href="/price-tracker">price tracker</a>, and buy when a genuine seller offers the Digital Edition below Rs 90,000 or a Pro below Rs 1,40,000.</p>
+<h2>Which one should you buy?</h2>
+<ul>
+<li><strong>Most people:</strong> Digital Edition.</li>
+<li><strong>Collectors and traders of discs:</strong> Digital or Pro with the detachable drive, or a used disc model.</li>
+<li><strong>Large 4K television:</strong> Pro.</li>
+<li><strong>Nobody, at today's price:</strong> Slim Disc.</li>
+</ul>
+<p>For a fuller comparison, read our <a href="/reviews/ps5-digital-slim-pro-review-nepal">PS5 buying verdict</a>, and if GTA VI is the reason, see <a href="/news/gta-6-launch-record-sales-how-to-buy-nepal">how to buy it in Nepal</a>.</p>
+
+=== iphone-18-pro-pro-max-iphone-duo-nepal-price
+<h2>The family at a glance</h2>
+[[models:iphone-18-pro,iphone-18-pro-max,iphone-duo,iphone-17,iphone-17e]]
+<h2>What changed this year</h2>
+<p>For more than a decade Apple launched its phones together in September. In 2026 it split them. The expensive phones came in autumn, and the regular models are expected in spring. For buyers in Nepal this has two effects. Anyone who wants a new iPhone under Rs 2.5 lakh this winter is choosing from last year's line. And the usual price cut on older models, which comes when a successor arrives, has been smaller than people expected.</p>
+<h2>iPhone 18 Pro or 18 Pro Max?</h2>
+<p>The difference is Rs 20,000 at 256GB. For that the Pro Max gives you a 6.9-inch screen, a bigger battery, and a 5x periscope camera where the Pro has 4x. The Pro gives you something that cannot be bought: a phone that fits a hand. Hold both for five minutes, with a case. If you read and watch a lot, or film at a distance, choose the Max. If your phone lives in a trouser pocket, choose the Pro. The chip, memory and main camera are the same.</p>
+<h2>The iPhone Duo: who is it for?</h2>
+<p>A phone with a 7.6-inch inner display costs Rs 4,30,900 and up. It is a small tablet that becomes a phone. People who read documents, review spreadsheets, sketch or watch films while travelling will use the inner screen every day. Everyone else will open it for a week to show friends, and then use the outer screen. The first generation of any foldable carries risk: hinges, inner screens and repairs. With Touch ID in place of Face ID and a first-generation design, we would wait unless the price means little to you.</p>
+<p>If you like the idea and not the price, Samsung's foldables are several generations old by now. The <a href="/products/samsung-galaxy-z-fold8">Galaxy Z Fold8</a> costs about Rs 2,74,999, and the <a href="/products/samsung-galaxy-z-fold-7">Fold 7</a> less.</p>
+<h2>Storage: where Apple earns its money</h2>
+<p>Going from 256GB to 512GB costs about Rs 42,000 to 43,000. A 512GB portable SSD costs a fraction of that, and an iPhone can record video directly to one. Cloud storage is another route. Our view is simple. If you shoot a lot of 4K video and do not want to manage files, pay for 512GB. Otherwise 256GB and a habit of moving old videos to a computer each month will do. A terabyte or two makes sense only for people who are paid for their footage.</p>
+<h2>Should you buy the iPhone 17 instead?</h2>
+<p>At Rs 1,64,999 the <a href="/products/iphone-17">iPhone 17</a> has a 120Hz display, two 48MP cameras, a good battery and years of updates. It lacks the telephoto and some of the polish. For ninety per cent of buyers it is the right iPhone, and it leaves almost a lakh in your pocket. <a href="/reviews/iphone-17-review-nepal">Our review</a> explains its few weaknesses. The <a href="/products/iphone-17e">17e</a> is cheaper still at Rs 1,32,499, with one rear camera.</p>
+<h2>Or the 17 Pro Max?</h2>
+<p>It remains available at about Rs 2,42,499 for 256GB. The gap to the 18 Pro Max is some Rs 37,000. We compare them in <a href="/news/iphone-17-pro-max-leaks-2nm-a19-pro-nepal-pricing-radar">this article</a>. If you find it sealed and official at Rs 2,25,000 or less, it is the better value.</p>
+<h2>Official or grey?</h2>
+<p>At these prices a grey iPhone can be Rs 15,000 to 40,000 cheaper. Understand what you give up: local warranty, certainty about MDMS, and sometimes a SIM tray. United States units have eSIM only. Chinese and Hong Kong units take two physical SIMs. Japanese units may make a shutter sound that cannot be switched off. If you travel and know what you are doing, a grey phone may suit you. If you want to walk into a shop when something fails, pay for official.</p>
+<p>Check any unit at Apple's coverage page, verify the IMEI with the MDMS system, and insist on a bill with the serial number. Our guide to <a href="/guides/how-to-check-phone-is-official-in-nepal">checking an official phone</a> has the steps.</p>
+<h2>EMI and exchange</h2>
+<p>On Rs 2,59,900, a twelve-month plan at zero interest is about Rs 21,658 a month. Banks may ask for a processing fee and a minimum salary. Longer plans with interest can add Rs 20,000 to 30,000 in total, so ask for the full amount you will have paid at the end. Exchange values for older iPhones are often generous in launch season and lower in winter. Compare with a private sale. The EMI estimate on our product pages shows the monthly figure.</p>
+<h2>Protecting a phone that costs more than a motorbike</h2>
+<p>Screen and back glass repairs are severe. A MagSafe case and a good tempered glass are the minimum. Some insurers and shops sell accidental damage plans. Ask about the excess, the number of claims and whether parts are genuine. Turn on Stolen Device Protection, Find My and a six-digit passcode. Do not leave Control Centre available on the lock screen, as thieves switch on airplane mode first.</p>
+<h2>What the 2nm chip does for you</h2>
+<p>The A20 Pro is the first iPhone chip on a 2nm process. In daily use you feel it mainly as battery life and coolness. Games hold their frame rate longer, video exports are quicker, and Apple Intelligence tasks have more memory to work with. Compared with an A19 Pro phone, the change is small. Compared with a 14 Pro or older, it is large.</p>
+<h2>Trade-in timing</h2>
+<p>If you own a 16 Pro or 17 Pro, its value will drop again when the spring models arrive and once more next September. If you intend to upgrade within the year, selling before spring is wiser. If you are content, keep it. Apple's phones age slowly, and a new battery does more for a 14 Pro than most people expect.</p>
+<h2>Waiting for the iPhone 18</h2>
+<p>The regular iPhone 18 and the 18e are expected around spring 2027, and our estimate for the former is about Rs 1,75,000. If the 17 feels like last year's phone to you, that is four or five months away. <a href="/news/iphone-18-iphone-18e-spring-2027-what-we-know">Here is what is known</a>.</p>
+<h2>Our recommendations</h2>
+<ul>
+<li><strong>Best for most:</strong> iPhone 17, 256GB.</li>
+<li><strong>Best compact flagship:</strong> iPhone 18 Pro.</li>
+<li><strong>Best for video and battery:</strong> iPhone 18 Pro Max. <a href="/reviews/iphone-18-pro-max-review-nepal">Read the review</a>.</li>
+<li><strong>Best value flagship:</strong> iPhone 17 Pro Max at a discount.</li>
+<li><strong>For enthusiasts only:</strong> iPhone Duo.</li>
+</ul>
+
+=== macbook-pro-m6-oled-macbook-pro-expected-price-nepal
+<h2>Current and coming models</h2>
+[[models:macbook-air-m5-13,macbook-pro-14-m5,macbook-pro-14-m5-pro,macbook-pro-14-m6,macbook-pro-proled-xdr]]
+<p>The last two rows are estimates based on prices in the United States, with duty, VAT and the usual margin added. They are not official Nepali prices. Treat a difference of Rs 20,000 in either direction as normal.</p>
+<h2>How we estimate a Nepal price</h2>
+<p>Apple's dollar price excludes sales tax. To reach a shelf in Kathmandu a laptop passes through exchange, freight, customs duty, VAT at 13 per cent and the reseller's margin. Looking back at several years of MacBooks, the final number has tended to land between 1.25 and 1.4 times the plain converted price. With a starting price of $1,999 that gives a range around Rs 3.5 to 3.95 lakh, and the middle of it is our estimate. We replace it as soon as a reseller announces the real figure.</p>
+<h2>M5 to M6: what changes in work</h2>
+<p>The M6 adds cores to both processor and graphics. Expect exports, compiles and renders to finish perhaps 15 to 25 per cent sooner than on the M5, going by Apple's past steps. Single tasks improve less. Wi-Fi 7 and longer battery life round it off. If you own an M1 or M2, the sum of four or five such steps is large. If you own an M4 or M5, it is not worth the loss on resale.</p>
+<h2>An OLED Mac at last</h2>
+<p>Tandem OLED stacks two light-emitting layers. It reaches higher brightness, lasts longer, and gives perfect blacks with no halo around subtitles. For colourists and photographers it is the best screen Apple has put in a laptop. The touchscreen is the surprise, since Apple argued against the idea for fifteen years. macOS was designed for a pointer, so in the first versions touch will be handy for scrolling, scrubbing a timeline and signing, and little else.</p>
+<p>There are reasons to wait. First generations of new screens cost more to repair. Long-term wear with a fixed menu bar is unknown. And the price, starting at more than five lakhs here by our estimate, is for professionals who bill by the project.</p>
+<h2>Which Mac do you need? Four questions</h2>
+<ol>
+<li><strong>Do you export video longer than ten minutes, several times a week?</strong> Pro. If not, Air.</li>
+<li><strong>Do you need more than 24GB of memory?</strong> M5 Pro class.</li>
+<li><strong>Do you work in bright rooms or with HDR?</strong> Pro for its XDR screen.</li>
+<li><strong>Is it for study, writing, spreadsheets, code for the web?</strong> Air or even the Neo.</li>
+</ol>
+<p>Most people who buy a Pro could have bought an Air, with money left for a monitor. Our <a href="/reviews/macbook-air-m5-13-review-nepal">MacBook Air M5 review</a> goes into it.</p>
+<h2>Memory and storage for professionals</h2>
+<p>Unified memory cannot be added. For Final Cut, Logic, Xcode and Docker, 24GB is comfortable and 16GB is workable. For After Effects, 3D and local language models, look at 36GB or more, which means Pro or Max chips. Storage is different: a fast external SSD over Thunderbolt or USB4 is nearly as quick as the internal drive for a quarter of Apple's price. So spend on memory inside and storage outside.</p>
+<h2>Buy now or wait?</h2>
+<p><strong>Buy the M5 now</strong> if you need a machine this month, or find a discount of Rs 25,000 or more. The M5 is not slow and will receive macOS for many years.</p>
+<p><strong>Wait for the M6</strong> if your current Mac works, if you keep machines six years or more, or if Wi-Fi 7 and battery matter.</p>
+<p><strong>Wait for the OLED model</strong> if colour is your profession and you can let others discover the early faults.</p>
+<p><strong>Buy used</strong> if you are a student. An M1 Pro or M2 Pro 14-inch at Rs 1.6 to 2.2 lakh remains a wonderful computer with the same class of screen and speakers.</p>
+<h2>When will they reach Nepal?</h2>
+<p>Apple's authorised resellers usually receive new MacBooks four to ten weeks after the global launch. Importers bring a few earlier at a premium. With the launch in late October, January is a fair expectation for the M6 and a little later for the OLED machines, which are in shorter supply. Early imports carry the risk of a keyboard layout or warranty you did not want.</p>
+<h2>Warranty for Macs</h2>
+<p>Apple's limited warranty on Macs is generally international, and service here goes through authorised providers. Confirm by entering the serial number at Apple's coverage site. AppleCare+ bought in another country may or may not be honoured. Liquid damage is never covered by the standard warranty. A sleeve and a habit of keeping tea away are the cheapest insurance.</p>
+<h2>Windows alternatives</h2>
+<p>For the expected price of an M6 Pro you could buy a <a href="/products/asus-zenbook-14-oled-um3406ga">Zenbook 14 OLED</a> and a serious desktop, or a thin RTX laptop such as a Zephyrus. If your software uses CUDA, games matter or your clients use Windows-only tools, those are better. If you edit in Final Cut, value battery and quiet, or live in Apple's world, they are not.</p>
+<h2>Education and business pricing</h2>
+<p>Resellers in Nepal offer education prices from time to time, typically a few per cent, and more during admission season. Bring a college ID. Businesses with a PAN can claim VAT input in some cases, so ask your accountant. Company purchases should specify configuration, warranty terms and delivery date in the quotation, since exchange rates move.</p>
+<h2>Setting up a new Mac in Nepal</h2>
+<ul>
+<li>Update macOS before installing anything.</li>
+<li>Add the Nepali Devanagari keyboards and check old Preeti files with a converter.</li>
+<li>Turn on FileVault and Find My.</li>
+<li>Set Optimised Battery Charging.</li>
+<li>Start Time Machine on an external drive the same evening.</li>
+<li>Use a surge protector with the MagSafe charger.</li>
+</ul>
+<h2>Trading in the old one</h2>
+<p>Macs hold value. Back up, sign out of iCloud, turn off Find My, erase all content and settings, and keep the box. A clean M1 Air still sells quickly. Prices for M5 machines will soften when M6 stock lands, so if you plan to switch, sell a few weeks earlier.</p>
+<h2>In short</h2>
+<p>The M6 is a steady step. The OLED model is the beginning of a new shape for Macs. Neither makes an M5 a mistake, and for most readers the <a href="/products/macbook-air-m5-13">MacBook Air M5</a> is still the one to buy.</p>
+
+=== galaxy-s27-ultra-leaks-launch-date-nepal-price
+<h2>How much weight does each rumour deserve?</h2>
+<p>We sort leaks into three baskets.</p>
+<p><strong>Likely.</strong> Things that appear in several independent places, including component suppliers and certification papers: a larger battery, a Snapdragon from the Elite Gen 6 family, the S Pen staying, four models in the line.</p>
+<p><strong>Possible.</strong> Things seen in drawings but not yet in cases and parts: the horizontal camera strip, dimensions, colours.</p>
+<p><strong>Guesswork.</strong> Prices, exact dates, and any number in Nepali rupees, including ours. Ours is printed so that you can plan, and it is labelled.</p>
+<h2>Why the battery would matter most</h2>
+<p>Every Galaxy Ultra since 2020 has had 5,000mAh. In that time Chinese brands moved to silicon-carbon cells with 6,500mAh or more in bodies of the same size. Samsung held back, partly from caution after older battery troubles, partly because some shipping rules make single cells above 20Wh more complicated. A move to around 5,700mAh would not match rivals, but it would add two hours or so to a heavy day. For Nepali users who travel, use hotspots and play video on mobile data, it is the only change that would be felt by everybody.</p>
+<h2>The 2nm chip</h2>
+<p>Smaller transistors switch with less energy. The likely benefit is steadier performance in long games and video recording, and better battery life in mixed use. Peak speed will rise, and few people will notice. There is also the question of whether some regions will get an Exynos. For the Ultra, Samsung has used Snapdragon everywhere in recent years, and reports suggest that will continue. For the smaller S27 models it is open.</p>
+<h2>Cameras: a new layout</h2>
+<p>If the three lenses move into one strip, Samsung may have changed the sensors behind them as well. A rumoured 5x periscope at 50MP would match the current one, so improvements may come from processing, a brighter lens or a larger main sensor. Until real samples exist, nothing more can be said honestly.</p>
+<h2>What will it cost here?</h2>
+<p>Our estimate is around Rs 2,40,000 for the base version. It comes from the S26 Ultra's launch price of Rs 2,24,999, the reported increase of $100 to $200 in the United States, and the way Samsung Nepal has followed such changes before. There is a range. If memory prices ease, Rs 2,30,000 is possible. If Samsung raises base storage or the rupee weakens, Rs 2,55,000 would not shock us.</p>
+<p>Launch offers usually soften it. In recent years early buyers received double storage, a trade-in bonus, or a discount on buds and watches. If you plan to buy at launch, do it in the pre-order window with an exchange.</p>
+<h2>What happens to the S26 Ultra?</h2>
+<p>When the new model arrives, the <a href="/products/samsung-galaxy-s26-ultra">S26 Ultra</a> will come down, by Rs 15,000 to 30,000 in the first two months if history is a guide, and stock will thin after that. The <a href="/products/samsung-galaxy-s25-ultra">S25 Ultra</a> will probably vanish from official shelves. Both remain good phones with many years of support. Our <a href="/news/samsung-galaxy-s25-ultra-leak-roundup-snapdragon-8-elite-nepal">comparison of the two</a> is the place to start if you want to save.</p>
+<h2>Should you wait? A simple test</h2>
+<ul>
+<li><strong>Your phone is dead or failing:</strong> do not wait. Three or four months without a proper phone costs more than a price drop.</li>
+<li><strong>You own an S24 Ultra or S25 Ultra:</strong> wait, and perhaps skip. Nothing in the leaks demands an upgrade.</li>
+<li><strong>You own an S21, S22 or Note 20:</strong> waiting is worthwhile. Either you get the new battery or a cheaper S26 Ultra.</li>
+<li><strong>You want an S26 Ultra at the lowest price:</strong> February and March 2027 will be your season.</li>
+<li><strong>You were going to buy an S26 or S26+:</strong> the same logic, with smaller amounts.</li>
+</ul>
+<h2>The new Pro in the middle</h2>
+<p>A fourth model, the S27 Pro, is expected to bring flagship cameras in a smaller body without a pen. For people who found the Ultra too large and the Plus too plain, it may be the most interesting of all. <a href="/news/galaxy-s27-pro-s27-ultra-design-leak">Our report on the design leak</a> has the details.</p>
+<h2>Competition by then</h2>
+<p>By the time the S27 Ultra reaches Kathmandu, it will face the <a href="/products/xiaomi-18-pro">Xiaomi 18 Pro</a> and its larger versions, vivo's next X series, OPPO's Find line and the iPhone 18 Pro Max. Chinese rivals will have bigger batteries and faster charging. Samsung's answer is software, service, resale, seven years of updates and the pen. Those have been enough so far.</p>
+<h2>Charging</h2>
+<p>The S26 Ultra went to 60W after years at 45W. Nothing reliable suggests another jump. With a larger battery, the same 60W would take slightly longer to fill. A PPS charger of 60W or more with a 5A cable is needed for the full speed, and Samsung does not include one. If you already bought one for the S26 Ultra, it will serve.</p>
+<h2>Storage and memory</h2>
+<p>Base storage has been 256GB. With memory expensive, we do not expect a generous increase, and some reports even mention fewer memory options. If you need 512GB, the launch period is the time, as Samsung often gives the larger size for the price of the smaller one.</p>
+<h2>Buying at launch in Nepal</h2>
+<ol>
+<li>Register interest through Samsung's official channels or a known dealer.</li>
+<li>Read what the pre-order deposit covers and whether it can be refunded.</li>
+<li>Compare the exchange value of your old phone with a private sale.</li>
+<li>Ask which bank offers apply, and what the cap is.</li>
+<li>Confirm the delivery date in writing. Popular colours are often late.</li>
+<li>Check the IMEI in MDMS when it arrives, and register the warranty.</li>
+</ol>
+<h2>How we will update this</h2>
+<p>As Samsung confirms details, the estimates on the <a href="/products/samsung-galaxy-s27-ultra">product page</a> will be replaced with official figures and dates. If a leak proves wrong, we will say so here. For other phones on the way, see <a href="/upcoming-launches">upcoming launches</a>.</p>
+<h2>Our honest expectation</h2>
+<p>A bigger battery, a cooler chip, a cleaner back and a higher price. It sounds modest. For the person who keeps an Ultra for five years, modest improvements every year add up to a phone that is much better than the one in their pocket. For everyone else, its greatest service will be to make last year's model cheaper.</p>
+
+=== iphone-18-iphone-18e-spring-2027-what-we-know
+<h2>Why Apple may have split the launch</h2>
+<p>Selling four or five phones in one month strains factories, advertising and shops. Spreading them over the year gives each a moment and evens out sales. It also lets Apple answer Samsung, whose S series arrives in the first quarter. For buyers the effect is simple: there will be two iPhone seasons, one for expensive models in autumn and one for ordinary models in spring.</p>
+<h2>What we can say with some confidence</h2>
+<p>Reports from several sources agree on the outline: a spring launch, an A20 chip on a 2nm process, and a design close to the iPhone 17. They agree less on memory and cameras. Nobody outside Apple knows the prices. We have listed estimates for Nepal and will replace them when real numbers come.</p>
+<h2>iPhone 17 today or iPhone 18 in spring?</h2>
+[[models:iphone-17,iphone-18,iphone-17e,iphone-18e]]
+<p>The iPhone 17 was the year Apple gave its regular model a 120Hz display, brighter screen and better front camera. It is a mature phone. The 18 is expected to add a newer chip, more memory and a better front camera. If you use a phone for messages, photos and video, you would be hard pressed to tell the two apart after a week. The stronger reasons to wait are length of support, about one more year, and more memory for Apple Intelligence.</p>
+<p>The reason not to wait is life. If your phone's battery dies at two in the afternoon, four or five months is a long time.</p>
+<h2>What will happen to the price of the 17?</h2>
+<p>When a successor arrives, Apple usually lowers the older model by about $100, or stops selling it. In Nepal, resellers clear stock with discounts of Rs 8,000 to 20,000. If Apple keeps the 17 in the line at a lower price, that is the moment to buy one. If it drops the 17 in favour of the 17e and 18, stock will vanish quickly. So in spring, be ready.</p>
+<h2>The e line: what it is for</h2>
+<p>The 16e and 17e proved that many people want an iPhone and do not care about the number of cameras. One good 48MP camera, strong battery life, the newest chip and a lower price. The cuts are the ultra wide lens, MagSafe strength on earlier models, screen brightness and refresh rate. If reports are right, the 18e will follow the same recipe. For parents, students and people moving from an iPhone 11 or 12, it will be the one to consider, provided the Nepal price stays near Rs 1,35,000.</p>
+<p>At Rs 1,50,000 it would be a bad purchase, as an iPhone 17 on discount would cost nearly the same. That is the risk with the e models here, where the gap between them and the regular phone tends to shrink after duties.</p>
+<h2>Is a 60Hz screen acceptable in 2027?</h2>
+<p>For someone who has only used 60Hz, yes. For someone who has used a 120Hz phone, scrolling feels slightly rough for a few days, and then you forget. On Android, phones at Rs 20,000 have 120Hz, so it looks mean at Rs 1.35 lakh. It saves battery, and that is a genuine benefit. Try both in a shop before deciding how much you care.</p>
+<h2>Compared with Android at the same price</h2>
+<p>At Rs 1.3 to 1.8 lakh you can buy a Galaxy S26, an OPPO Find X9 Pro, a Pixel 10 or an Honor 600 Pro. All have telephoto lenses, faster charging and, except the Samsung and Pixel, far larger batteries. iPhones reply with video, longevity, resale, iMessage and FaceTime with family abroad, and apps that work the same for years. Decide which list is yours. Our guide to <a href="/guides/best-phones-under-150000-nepal">phones under Rs 1,50,000</a> sets out the Android side.</p>
+<h2>eSIM and the SIM tray</h2>
+<p>Apple has been removing the SIM tray in more countries. If the models sold in our region become eSIM-only, buyers here will need an operator that supports eSIM for their number. Both major operators have introduced it, with conditions. Before ordering any iPhone from abroad, ask what SIM arrangement it has. A phone that cannot take your SIM is an expensive camera.</p>
+<h2>Who should wait</h2>
+<ul>
+<li>Owners of an iPhone 13, 14 or 15 in good health.</li>
+<li>People who keep phones six years.</li>
+<li>Anyone hoping for a discount on the 17.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Owners of an iPhone 11 or older, as updates are ending.</li>
+<li>People with a damaged phone.</li>
+<li>Students who need one now. An <a href="/products/iphone-17e">iPhone 17e</a> is fine.</li>
+</ul>
+<h2>A bridge: change the battery</h2>
+<p>If your current iPhone is only tired, a genuine battery at an authorised provider restores its life for Rs 10,000 to 15,000, less at independent shops with the usual caution. It buys a year of comfort while you wait. Check battery health in Settings. Below 80 per cent, replacement transforms the phone, since iOS stops slowing it to protect a weak cell.</p>
+<h2>Trading in</h2>
+<p>Resale of an iPhone 14, 15 or 16 will dip in spring. If you plan to upgrade, listing your phone in February gets you more than in April. Erase it properly, sign out of iCloud, and meet the buyer somewhere public.</p>
+<h2>What might still change</h2>
+<p>Apple can move dates, rename models and adjust features until weeks before launch. Supply of 2nm chips is limited, and memory is expensive, so a price rise is quite possible. Reports that mention lower specifications to hold the price should be taken seriously. Wait for the announcement before making a decision that cannot be undone.</p>
+<h2>How to prepare</h2>
+<ol>
+<li>Write down what bothers you about your current phone.</li>
+<li>Note the price of an iPhone 17 today at two official resellers.</li>
+<li>Check your battery health.</li>
+<li>Set a budget, including a case and a plan for storage.</li>
+<li>Look again when Apple sends its invitations, probably in late winter.</li>
+</ol>
+<h2>Our expectation</h2>
+<p>The iPhone 18 will be a better iPhone 17 and not a different phone. That is praise, as the 17 is very good. The 18e will be as attractive as its Nepali price allows. And the best purchase of spring 2027 may well be a discounted iPhone 17. Follow the <a href="/products/iphone-18">iPhone 18</a> and <a href="/products/iphone-18e">iPhone 18e</a> pages, where we will post confirmed details.</p>
+
+=== why-gadget-prices-rose-nepal-2026
+<h2>What a price in Nepal is made of</h2>
+<p>To understand why a phone costs what it does, open it up. Suppose a mid-range phone leaves the factory gate at 300 dollars. Freight and insurance add a little. Customs duty and any excise are charged on that value, then VAT at 13 per cent on the total. The distributor adds a margin to cover warranty, marketing and the cost of money. The dealer adds another. By the time it is on the counter, the rupee figure is far above a plain conversion.</p>
+<p>Two conclusions follow. A small rise at the factory is multiplied on the way. And a weaker rupee raises every one of those steps at once. In 2026 both happened.</p>
+<h2>Memory: the largest single cause</h2>
+<p>Memory and storage can be a fifth or more of the parts cost of a budget phone and a large share of a laptop. When they rose, makers had four choices: raise the price, reduce the memory, cut something else, or accept less profit. We have seen the first three. If a successor arrives with a smaller base storage, a missing charger or an older chip at the same price, that is also a price rise. It is just harder to see. Our article on <a href="/news/electronic-price-hikes-nepal-ram-ssd-smartphones-analysis">RAM and SSD prices</a> explains the mechanism.</p>
+<h2>Who was hit hardest</h2>
+<p><strong>Buyers under Rs 40,000.</strong> Memory is a bigger share of cheap phones. Some models that started at Rs 20,000 in 2025 now begin at Rs 25,000 with the same specification.</p>
+<p><strong>Students buying laptops.</strong> The 16GB machines that used to be Rs 85,000 moved towards a lakh, and 8GB returned to the shelves.</p>
+<p><strong>PC builders.</strong> Memory, SSDs and graphics cards all rose together.</p>
+<p><strong>Console buyers.</strong> For the first time in memory, an ageing console costs more than it did at launch.</p>
+<h2>Who was hardly affected</h2>
+<p>People buying earbuds, watches, power banks, basic monitors and older televisions. Competition there is fierce and memory content is small. If you were postponing a pair of headphones because "everything is expensive", you need not.</p>
+<h2>Why prices do not fall quickly</h2>
+<p>Prices rise by email and fall by clearance. A distributor who imported a thousand phones at a high cost will not sell them below it unless forced. So even when parts become cheaper, shelves need months to turn over. Retailers also remember: once customers accept Rs 45,000 for a certain phone, nobody hurries back to Rs 37,000. The pressure comes from a rival with newer, cheaper stock, and that is why watching several brands helps.</p>
+<h2>How to buy well in an expensive year</h2>
+<ol>
+<li><strong>Buy less often.</strong> A new battery for Rs 4,000 to 8,000 gives a phone two more years.</li>
+<li><strong>Buy one step down, with more memory.</strong> An A-series phone with 8GB/256GB ages better than a fancier one with 6GB/128GB.</li>
+<li><strong>Buy last year's flagship.</strong> Its price falls while new mid-range prices rise. The two lines have crossed.</li>
+<li><strong>Use festivals, with a notebook.</strong> Record the price before. Our <a href="/blog/dashain-tihar-tech-deals-how-to-spot-a-real-discount">festival deals article</a> shows how.</li>
+<li><strong>Ask for exchange and bank offers together.</strong> They sometimes combine.</li>
+<li><strong>Compare across brands.</strong> Increases were uneven. One brand's rise is another's opportunity.</li>
+</ol>
+<h2>New, used and refurbished in 2026</h2>
+<p>Used prices rose too, since demand moved there, but by less. Business laptops and two-year-old flagships are the sweet spots. Refurbished goods depend wholly on who did the work. Insist on a warranty of at least three months, a battery health figure and, for phones, MDMS registration. <a href="/guides/how-to-check-phone-is-official-in-nepal">How to check</a>.</p>
+<h2>Is a grey import worth the saving now?</h2>
+<p>When official prices rise, the gap to grey units widens and the temptation grows. Consider the whole cost. No local warranty, uncertain registration and weaker resale. On a Rs 40,000 phone the saving is rarely worth it. On a Rs 2 lakh phone it may be Rs 25,000, and some people take that risk knowingly. If you do, verify the IMEI before paying, and do not call it a bargain until the first year has passed.</p>
+<h2>EMI in a year of rising prices</h2>
+<p>Instalments make a high price feel small. Zero per cent plans are useful if the cash price is the same, because your money keeps working for you. If the plan carries a fee or interest, or removes a discount, you are paying more for a product that is already expensive. Ask for the total, and keep the monthly amount under a tenth of your income.</p>
+<h2>For shops and small businesses</h2>
+<p>If you buy equipment, ask suppliers to hold quotations for a month. Standardise on one laptop model. Consider desktops, which give more performance and can be upgraded. Stretch replacement cycles from three to four years with an SSD and a memory upgrade. And keep a spare machine, because emergencies are when people pay the most.</p>
+<h2>Do official announcements help?</h2>
+<p>Government decisions on customs and VAT, usually with the annual budget in Jestha and Asar, can move prices more than any factory. A change in duty on phones or computers shows up within weeks on new stock. If you read that a rate will change, ask your dealer whether current stock was cleared under the old one. It can work in your favour in either direction.</p>
+<h2>What we expect next</h2>
+<p>We are careful with predictions. New memory capacity is being built, and it takes time. Flagship prices in early 2027 look more likely to rise than fall, judging by reports on the coming Galaxy and iPhone models. Budget phones may stabilise if competition among Xiaomi, Realme, Infinix and Tecno continues. Consoles depend on Sony and Nintendo. Laptops with 16GB should remain around or above a lakh for some time.</p>
+<h2>How we record prices</h2>
+<p>Each product page shows dated prices and, where there is more than one, a history. When a price changes we add a new entry and do not overwrite the old one. Some prices come from official lists and others from what sellers ask, and shops vary. If you see a difference in your city, tell us through the <a href="/contact">contact page</a>. The <a href="/price-tracker">price tracker</a> lists recent movements in both directions.</p>
+<h2>A calmer way to think about it</h2>
+<p>A gadget is expensive when it is replaced early and cheap when it lasts. Divide any price by the months you will use it. A Rs 45,000 phone over four years is under Rs 940 a month. A Rs 98,000 laptop over five years is about Rs 1,630. Seen that way, choosing well and looking after it will save you more than any discount 2026 has to offer.</p>

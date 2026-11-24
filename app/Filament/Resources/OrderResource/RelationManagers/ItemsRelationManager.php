@@ -31,7 +31,7 @@ class ItemsRelationManager extends RelationManager
                     ->label('Image')
                     ->square()
                     ->disk('public')
-                    ->defaultImageUrl(asset('images/placeholder.png')),
+                    ->defaultImageUrl(asset('placeholder.png')),
 
                 TextColumn::make('gadget.name')
                     ->label('Product')

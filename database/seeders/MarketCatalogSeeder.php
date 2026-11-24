@@ -65,7 +65,7 @@ class MarketCatalogSeeder extends Seeder
             require self::DATA_DIR . '/audio_wearables.php',
             require self::DATA_DIR . '/gaming_accessories.php',
             require self::DATA_DIR . '/upcoming.php',
-            require self::DATA_DIR . '/gadgetbyte.php',
+            require self::DATA_DIR . '/devices.php',
             require self::DATA_DIR . '/bulk_market.php',
             require self::DATA_DIR . '/archive.php',
             require self::DATA_DIR . '/flagships_upcoming.php',
@@ -74,7 +74,7 @@ class MarketCatalogSeeder extends Seeder
             is_file(self::DATA_DIR . '/onin_oos.php') ? require self::DATA_DIR . '/onin_oos.php' : [],
         );
         $gadgets = $this->mergeDuplicateRows($gadgets);
-        $gadgets = $this->applyContentQuality($gadgets);
+        $gadgets = $this->applyContentQuality($this->applyProductCopy($gadgets));
         $editorial = require self::DATA_DIR . '/editorial.php';
         $reviews = array_merge($editorial['reviews'] ?? [], require self::DATA_DIR . '/reviews_more.php', require self::DATA_DIR . '/reviews_budget_mid.php');
         // Rewrites of older articles go last, so they replace the out-of-date originals with the same slug.
@@ -102,6 +102,7 @@ class MarketCatalogSeeder extends Seeder
             $this->seedNews($news);
             $this->seedGuides($guides);
             $this->refreshDemoSlides();
+            $this->applyArticleDepth();
             $this->applyEditorialImages();
             $this->fixLegacyProductImages(array_column($gadgets, 'slug'));
             $this->applyBrandLogos();
@@ -111,8 +112,37 @@ class MarketCatalogSeeder extends Seeder
             count($gadgets), count($reviews), count($news), count($guides)));
     }
 
+    /** Hand-written descriptions from data/product_copy/*.txt ("=== device-slug" blocks) replace the imported ones. */
+    private function applyProductCopy(array $rows): array
+    {
+        $copy = [];
+        foreach (glob(database_path('seeders/data/product_copy/*.txt')) ?: [] as $file) {
+            foreach (preg_split('/^=== /m', str_replace("\r\n", "\n", (string) file_get_contents($file))) as $chunk) {
+                [$slug, $html] = array_pad(explode("\n", $chunk, 2), 2, '');
+                if (trim($html) !== '') {
+                    $copy[trim($slug)] = trim($html);
+                }
+            }
+        }
+
+        return array_map(fn (array $row) => isset($copy[$row['slug']]) ? ['description' => $copy[$row['slug']]] + $row : $row, $rows);
+    }
+
+    /** Add the long-form text from database/seeders/data/depth to reviews, news, guides and blog posts. */
+    private function applyArticleDepth(): void
+    {
+        $depth = \App\Support\ArticleDepth::all();
+        foreach ([Review::class, NewsArticle::class, TechGuide::class, \App\Models\BlogPost::class] as $model) {
+            foreach ($model::whereIn('slug', array_keys($depth))->get() as $article) {
+                $article->timestamps = false;
+                $article->forceFill(['content' => \App\Support\ArticleDepth::apply((string) $article->content, $depth[$article->slug])])->saveQuietly();
+                $article->timestamps = true;
+            }
+        }
+    }
+
     /**
-     * Several data files can describe the same device under one slug (e.g. a GadgetByte Nepal listing and
+     * Several data files can describe the same device under one slug (e.g. a market listing and
      * a flagship-archive entry). Files are loaded from most to least Nepal-specific, so the first row wins;
      * a later duplicate only adds what the first row lacks: spec lines (such as DXOMARK scores), sources,
      * dated price points, a release date, and the editorial featured/trending flags.
@@ -155,7 +185,7 @@ class MarketCatalogSeeder extends Seeder
             }
             $known = array_column($out[$slug]['sources'] ?? [], 'url');
             foreach ($row['sources'] ?? [] as $source) {
-                if (! in_array($source['url'] ?? null, $known, true)) {
+                if (! isset($source['url']) ? empty($out[$slug]['sources']) : ! in_array($source['url'], $known, true)) {
                     $out[$slug]['sources'][] = $source;
                 }
             }
@@ -168,7 +198,7 @@ class MarketCatalogSeeder extends Seeder
      * Keep the catalogue safe from search engines' scaled-content and thin-content signals.
      *
      * 1. Drop the "Price and specifications are checked against …" closing paragraph that older imports put on
-     *    every page. The product page already lists its sources with the date they were checked, so the
+     *    every page. The product page already shows the date it was checked, so the
      *    paragraph only added identical text to well over a thousand pages.
      * 2. Flag pages whose description is mostly fill-in-the-blank sentences (the same sentence pattern on 25+
      *    pages once names, brands and numbers are masked) or is under 40 words. Those get "noindex, follow".

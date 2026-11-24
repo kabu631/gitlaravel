@@ -2,8 +2,6 @@
 
 namespace App\Filament\Resources\ContactMessages;
 
-use App\Filament\Resources\ContactMessages\Pages\CreateContactMessage;
-use App\Filament\Resources\ContactMessages\Pages\EditContactMessage;
 use App\Filament\Resources\ContactMessages\Pages\ListContactMessages;
 use App\Filament\Resources\ContactMessages\Pages\ViewContactMessage;
 use App\Filament\Resources\ContactMessages\Schemas\ContactMessageForm;

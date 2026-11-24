@@ -14,15 +14,17 @@
       </form>
     </header>
 
-    <div class="mt-8 flex gap-2">
-      <Link :href="route('guides.index')" class="chip" :aria-current="!activeType ? 'page' : undefined">All</Link>
-      <Link :href="route('guides.index', { type: 'buying-guide' })" class="chip" :aria-current="activeType === 'buying-guide' ? 'page' : undefined">Buying guides</Link>
-      <Link :href="route('guides.index', { type: 'how-to' })" class="chip" :aria-current="activeType === 'how-to' ? 'page' : undefined">How-to</Link>
-    </div>
+    <nav class="mt-8 border-b border-line" aria-label="Guide types">
+      <div class="-mb-px flex gap-6">
+      <Link :href="route('guides.index')" class="tab" :aria-current="!activeType ? 'page' : undefined">All</Link>
+      <Link :href="route('guides.index', { type: 'buying-guide' })" class="tab" :aria-current="activeType === 'buying-guide' ? 'page' : undefined">Buying guides</Link>
+      <Link :href="route('guides.index', { type: 'how-to' })" class="tab" :aria-current="activeType === 'how-to' ? 'page' : undefined">How-to</Link>
+      </div>
+    </nav>
 
     <div class="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-12">
       <div class="min-w-0 lg:col-span-8">
-        <ul v-if="guides.data.length" class="divide-y divide-line border-t border-line">
+        <ul v-if="guides.data.length" class="-mt-6 divide-y divide-line">
           <li v-for="(guide, i) in guides.data" :key="guide.id">
             <Link :href="route('guides.show', guide.slug)" class="group flex gap-5 py-6 sm:gap-6">
               <span class="numeral-outline tabular w-12 shrink-0 pt-0.5 text-4xl font-bold leading-none tracking-tighter sm:w-16 sm:text-5xl" aria-hidden="true">{{ String((guides.from || 1) + i).padStart(2, '0') }}</span>

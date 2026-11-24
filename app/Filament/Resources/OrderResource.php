@@ -83,7 +83,7 @@ class OrderResource extends Resource
                                 $gadget  = $item->gadget;
                                 $imgUrl  = $gadget->image
                                     ? Storage::url($gadget->image)
-                                    : asset('images/placeholder.png');
+                                    : asset('placeholder.png');
 
                                 $variantHtml = '';
                                 if (!empty($item->variant_info) && is_array($item->variant_info)) {
@@ -204,7 +204,7 @@ class OrderResource extends Resource
             ->defaultSort('created_at', 'desc');
     }
 
-    public static function getRelationManagers(): array
+    public static function getRelations(): array
     {
         return [
             ItemsRelationManager::class,

@@ -14,15 +14,17 @@
       </form>
     </header>
 
-    <ScrollRow v-if="categories.length || filters.tag" class="mt-8 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
-      <button type="button" class="chip" :aria-pressed="!filters.category" @click="apply({ category: null })">All</button>
-      <button v-for="c in categories" :key="c.slug" type="button" class="chip" :aria-pressed="filters.category === c.slug" @click="apply({ category: c.slug })">
+    <nav v-if="categories.length || filters.tag" class="mt-8 border-b border-line" aria-label="Blog categories">
+    <ScrollRow class="-mb-px flex gap-6 overflow-x-auto scrollbar-none">
+      <button type="button" class="tab" :aria-pressed="!filters.category" @click="apply({ category: null })">All</button>
+      <button v-for="c in categories" :key="c.slug" type="button" class="tab" :aria-pressed="filters.category === c.slug" @click="apply({ category: c.slug })">
         {{ c.name }}
       </button>
-      <button v-if="filters.tag" type="button" class="chip" aria-pressed="true" @click="apply({ tag: null })">
+      <button v-if="filters.tag" type="button" class="tab" aria-pressed="true" @click="apply({ tag: null })">
         #{{ filters.tag }} <X class="h-3.5 w-3.5" />
       </button>
     </ScrollRow>
+    </nav>
 
     <!-- Featured -->
     <Link v-if="featured" :href="route('blog.show', featured.slug)" class="group mt-10 grid grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-10">

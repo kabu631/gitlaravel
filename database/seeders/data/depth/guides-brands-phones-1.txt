@@ -1,0 +1,363 @@
+=== samsung-phone-price-in-nepal
+<h2>The middle of the range, with specifications</h2>
+[[models:samsung-galaxy-a07,samsung-galaxy-m36-5g,samsung-galaxy-a17-5g,samsung-galaxy-a27-5g,samsung-galaxy-a37-5g,samsung-galaxy-s26,samsung-galaxy-s25-ultra]]
+<h2>Understanding the letters</h2>
+<p>Samsung's naming is tidy once someone explains it. The letter is the family. A is for everyone, M and F are versions of A sold mainly online, S is the flagship line, Z folds. The first digit is the rank inside the family, from 0 to 5 in the A series. The second digit is the year. So the A07 is the basic model of the 7 generation and the A57 its best. A phone called A08 is newer than an A07 and not better than an A17.</p>
+<p>"FE" means a simplified flagship. "Plus" means a larger one. "Ultra" means everything, with a pen.</p>
+<h2>Why Samsung costs more for the same hardware</h2>
+<p>Set a Galaxy A17 5G beside a Redmi Note 15 5G at nearly the same price, and the Redmi wins most rows: brighter screen, faster chip, larger battery, better zoom. Samsung asks you to pay for other things.</p>
+<ul>
+<li><strong>Service.</strong> Centres in most cities, with parts in stock.</li>
+<li><strong>Updates.</strong> Six years on recent A models, seven on S and Z.</li>
+<li><strong>Security.</strong> Knox, Secure Folder, Auto Blocker.</li>
+<li><strong>Resale.</strong> A used Galaxy sells quickly at a better price.</li>
+</ul>
+<p>If you change phones every eighteen months, these are worth little. If you keep one for five years, they are worth more than a faster chip.</p>
+<h2>Up to Rs 35,000: A07, A07s, A08</h2>
+<p>The <a href="/products/samsung-galaxy-a07">A07</a> is the one to know. It is a plain, dependable phone, and <a href="/reviews/samsung-galaxy-a07-review-nepal">our review</a> explains its limits. The A07s and A08 cost more for small changes, and at over Rs 34,000 you should look at other brands unless support is the reason. Take 6GB if you can.</p>
+<h2>Rs 40,000 to 57,000: M36, M17, A17, A27</h2>
+<p>This is where Samsung's own range competes with itself. The <a href="/products/samsung-galaxy-m36-5g">M36 5G</a> at Rs 41,999 has a faster chip, a 120Hz screen and 8GB, and is the best value Samsung sells in Nepal at present. It is found online more than in shops. The <a href="/products/samsung-galaxy-a17-5g">A17 5G</a> is everywhere and a little weaker. The <a href="/products/samsung-galaxy-a27-5g">A27 5G</a> has a Snapdragon 6 Gen 3 and 120Hz, and at Rs 55,999 it meets the Honor X9d and others with far larger batteries.</p>
+<h2>Rs 75,000 to 1,08,000: A37 and A57</h2>
+<p>After this year's increases these are hard to recommend at list price. The A37 in its base version makes sense for people who want IP68 and six years of support. The A57 is thin and pleasant, with a price that now touches phones with flagship chips. Both become reasonable with an exchange bonus. See our <a href="/reviews/samsung-galaxy-a37-5g-review-nepal">A37</a> and <a href="/reviews/samsung-galaxy-a57-5g-review-nepal">A57</a> reviews.</p>
+<h2>Rs 1,25,000 to 1,60,000: S26 FE, S26, S26+</h2>
+<p>The <a href="/products/samsung-galaxy-s26">S26</a> is the one we like: small, fast and beautifully made, with a battery that asks for a midday top-up from heavy users. The FE is bigger and slower. The Plus brings a larger screen and battery for Rs 20,000 more and is quietly the most comfortable phone in the line for people who do not need a pen.</p>
+<h2>Rs 1,85,000 and above: Ultra and foldables</h2>
+<p>The <a href="/products/samsung-galaxy-s25-ultra">S25 Ultra</a> has become the sensible Ultra, as we argue in <a href="/news/samsung-galaxy-s25-ultra-leak-roundup-snapdragon-8-elite-nepal">this comparison</a>. The <a href="/reviews/samsung-galaxy-s26-ultra-review-nepal">S26 Ultra</a> is the complete one. Among foldables, the Flip models are stylish and compact, and the Fold models are small tablets. The <a href="/products/samsung-galaxy-z-flip7-fe">Z Flip7 FE</a> at Rs 1,35,999 is the cheapest way to own a folding phone from a brand with service here. Ask about the price of an inner screen before you fall in love.</p>
+<h2>When Samsung prices move</h2>
+<p>S phones launch in the first quarter and fold in summer. The months before a launch are for bargains on the outgoing model, and the pre-order window is for exchange bonuses on the new one. A phones change in spring. Dashain and Tihar bring cashback. Between these, the price in the shop is often a few thousand below the list, so ask.</p>
+<h2>Exynos or Snapdragon?</h2>
+<p>Some Galaxy S models use Samsung's own chip in our region and Qualcomm's elsewhere. In ordinary use they are equal. In long games the Snapdragon has usually been cooler. Do not buy an imported unit for this reason alone. You would lose the local warranty for a difference you may never feel.</p>
+<h2>Checking an official Galaxy</h2>
+<ol>
+<li>Dial *#06# and check the IMEI in MDMS.</li>
+<li>Open Samsung Members and read the warranty start.</li>
+<li>Look for the distributor's sticker on the box.</li>
+<li>Check the model code and region in Settings, Software information.</li>
+<li>Make sure the Knox warranty bit has not been tripped on a used phone.</li>
+</ol>
+<p>The complete routine is in <a href="/guides/how-to-check-phone-is-official-in-nepal">how to check that a phone is official</a>.</p>
+<h2>What is not in the box</h2>
+<p>No charger, on any model. The right one depends on the phone: 25W for the A0 and A1 series and the small S, 45W for the A37, A57 and Plus, and 60W for the S26 Ultra. Buy genuine or a reputable PD charger with PPS. A cheap one charges slowly and warms the phone.</p>
+<h2>Three settings for every new Galaxy</h2>
+<ul>
+<li>Battery protection at 80 per cent for nights at home.</li>
+<li>Auto Blocker on, to stop unknown apps.</li>
+<li>Motion smoothness at its highest, as some models ship with it lowered.</li>
+</ul>
+<h2>Samsung or something else?</h2>
+<p>Choose Samsung for a parent, an employee, a long-term purchase or a town with a Samsung centre. Choose Xiaomi, Realme or Infinix for hardware, OnePlus for smoothness, Honor for battery, vivo for portraits, Apple for video. There is no shame in either answer. If you are still between two, use <a href="/compare">Compare</a>, then read <a href="/guides/best-phones-in-nepal-by-budget">phones by budget</a>.</p>
+<h2>Our Samsung shortlist</h2>
+<ul>
+<li><strong>Parent:</strong> A07 6GB, or A17 5G.</li>
+<li><strong>Value:</strong> M36 5G.</li>
+<li><strong>Small flagship:</strong> S26.</li>
+<li><strong>Best overall for the money:</strong> S25 Ultra.</li>
+<li><strong>No compromise:</strong> S26 Ultra.</li>
+</ul>
+
+=== xiaomi-phone-price-in-nepal
+<h2>From Redmi A to Ultra</h2>
+[[models:redmi-a7-pro,redmi-15-4g,redmi-note-15-5g,poco-x7-pro,redmi-note-17-pro-max-5g,poco-f7,xiaomi-17t,xiaomi-17-ultra]]
+<h2>Three names, one company</h2>
+<p>Xiaomi sells phones under three brands in Nepal, and the differences are smaller than the logos suggest. <strong>Redmi</strong> is for the budget and middle, sold everywhere. <strong>POCO</strong> is for speed, sold with less advertising at a lower price. <strong>Xiaomi</strong> is for cameras and design. All run HyperOS, all are serviced by the same centres, and some phones appear under two names with different backs. When a Redmi and a POCO share a chip and screen, buy the cheaper one.</p>
+<h2>The cheapest: Redmi A7 and A7 Pro</h2>
+<p>Around Rs 20,000 to 22,000, for calls, chat and video. They are fine as a first or second phone. The Pro has a bigger battery and 4GB. Expect slow charging and basic cameras. Read <a href="/reviews/redmi-a7-pro-review-nepal">our A7 Pro review</a> before buying one as a main phone.</p>
+<h2>The popular middle: Redmi 15, 17 and the Notes</h2>
+<p>The numbers here run in parallel and confuse everyone. The plain Redmi (15, 17) is a large LCD phone with a large battery. The Redmi Note adds AMOLED, better cameras and more polish. Within the Notes there are 4G and 5G versions, Pro, Pro Plus and Pro Max, and a newer number is not always better than an older one with a higher rank.</p>
+<p>Our advice, after reading every sheet:</p>
+<ul>
+<li><strong>Redmi 15 4G</strong> for battery on a small budget.</li>
+<li><strong>Redmi 17 5G</strong> for battery with 5G, in the 6GB version.</li>
+<li><strong>Redmi Note 15 5G</strong> for most people. It is the best all-round Redmi.</li>
+<li><strong>Redmi Note 17 5G</strong> only if you want its enormous battery and do not play.</li>
+<li><strong>Redmi Note 17 Pro Max</strong> for 10,000mAh and fast charging.</li>
+</ul>
+<p>Reviews of the <a href="/reviews/redmi-17-5g-review-nepal">17 5G</a>, <a href="/reviews/redmi-note-17-5g-review-nepal">Note 17 5G</a> and <a href="/reviews/redmi-note-17-pro-max-review-nepal">Note 17 Pro Max</a> go into detail.</p>
+<h2>The fast ones: POCO</h2>
+<p>The <a href="/products/poco-x7-pro">X7 Pro</a> at around Rs 60,000, the <a href="/products/poco-f7">F7</a> and <a href="/products/poco-x8-pro">X8 Pro</a> at Rs 70,000 and the <a href="/products/poco-f8-pro">F8 Pro</a> at Rs 1,05,000 are, rupee for rupee, the quickest phones in Nepal. Cameras are decent, batteries large, charging fast. If you play games, start and probably finish here.</p>
+<h2>The Leica ones: 15T, 17T, 17 Ultra</h2>
+<p>The T models are the thoughtful choice. They give Leica-tuned cameras with a telephoto, solid chips and good screens for less than the flagships. The <a href="/products/xiaomi-15t">15T</a> at about Rs 65,000 is particularly good value as an older model. The <a href="/products/xiaomi-17-ultra">17 Ultra</a> is for photographers, with a sensor larger than most compact cameras had. <a href="/reviews/xiaomi-17-ultra-review-nepal">Our review</a> says who should carry it.</p>
+<h2>HyperOS: what to expect, what to switch off</h2>
+<p>It is fast and full of options. It also comes with extra apps, notifications that promote things and, on cheaper models, advertisements in system apps. Give it ten minutes on the first day:</p>
+<ol>
+<li>Uninstall games and shopping apps.</li>
+<li>In Settings, search for "personalised" and turn off each recommendation.</li>
+<li>Open the Security, Themes and File Manager apps, and turn off recommendations in their settings.</li>
+<li>Revoke authorisation of the MSA system ads service.</li>
+<li>Allow WhatsApp and Messenger to autostart and run without battery limits, so messages are not late.</li>
+</ol>
+<p>After that it is a pleasant system.</p>
+<h2>Updates</h2>
+<p>Xiaomi has improved. Flagships and the better Notes and POCOs now get around four Android versions and up to six years of patches. Entry models get less. Ask for the figure for your model. Updates arrive region by region, and an official global unit is the one that gets them in time.</p>
+<h2>China ROM and Indian units</h2>
+<p>Because Redmi is so popular, grey stock is everywhere. Phones with Chinese software may lack Nepali language support, delay notifications and be relocked or blocked by updates if the seller flashed a global version. Indian units work, and are covered by warranty in India. In Settings, About phone, the version should show Global, and the box should have a Nepali distributor's sticker. Check MDMS either way.</p>
+<h2>Service and spare parts</h2>
+<p>Xiaomi's service network is among the widest after Samsung. Screens for popular Notes are available even in independent shops, at moderate prices. For the Ultra and T models, parts may need ordering.</p>
+<h2>Price behaviour</h2>
+<p>Redmi Notes hold their price for months and then drop Rs 2,000 to 5,000 when a successor is near. POCOs fall faster. Xiaomi runs brand days, festival offers and bundle deals with buds and bands. The first month after launch often has the best bundles, and the sixth month the best cash price.</p>
+<h2>Chargers in the box</h2>
+<p>One of Xiaomi's better habits in Nepal is that many phones still include the fast charger. Check the box. If it is missing from a POCO that supports 90W, the seller may have removed it.</p>
+<h2>Which Xiaomi phone for which person</h2>
+<ul>
+<li><strong>Grandparent:</strong> Redmi A7 Pro.</li>
+<li><strong>Driver or field worker:</strong> Redmi 17 5G.</li>
+<li><strong>Student:</strong> Redmi Note 15 5G, or POCO X7 Pro for games.</li>
+<li><strong>Traveller:</strong> Redmi Note 17 Pro Max.</li>
+<li><strong>Creator on a budget:</strong> Xiaomi 15T.</li>
+<li><strong>Photographer:</strong> Xiaomi 17 Ultra.</li>
+</ul>
+<h2>When not to buy Xiaomi</h2>
+<p>If you dislike tinkering with settings, want seven years of updates, or live where only Samsung has a centre, pay a little more for a Galaxy. If resale matters a great deal, an iPhone or Samsung holds more. If you want the cleanest software, look at OnePlus, Nothing or Motorola.</p>
+<h2>What is coming</h2>
+<p>The <a href="/news/xiaomi-18-pro-snapdragon-8-elite-gen-6-launch">Xiaomi 18 Pro</a> has been launched abroad, and a lightly changed <a href="/news/redmi-note-18-5g-bigger-battery-rumour">Redmi Note 18 5G</a> is rumoured. Neither is a reason to delay a purchase you need. They are reasons to bargain on the present models.</p>
+<h2>Last word</h2>
+<p>Xiaomi's range looks like a maze because it is one. Two numbers get you through it: the chip and the memory. Choose a Snapdragon 6, 7s or Dimensity 7000 series or better, and 8GB, and nearly any Redmi or POCO will serve you for three or four years.</p>
+
+=== vivo-phone-price-in-nepal
+<h2>How the range fits together</h2>
+[[models:vivo-y05,vivo-y31d,vivo-y32,vivo-v60-lite-4g,vivo-v70-fe,vivo-v60-5g,vivo-v70,vivo-x300-pro]]
+<h2>Three families</h2>
+<p><strong>Y</strong> is for daily use and long batteries. <strong>V</strong> is for portraits and looks. <strong>X</strong> is for photography without limits. Inside each, a higher number is usually newer, "Lite" and "FE" are cheaper branches, and a letter such as d or e marks a small variation. vivo's phones are sold through a very wide network of dealers, and that is why you see the name in towns where other brands are absent.</p>
+<h2>What you pay for with vivo</h2>
+<p>Read the sheets and a pattern appears. At each price, vivo's chip is a step behind a Redmi or Realme. Its battery is large, its charging is good, its body is slim and its camera processing is flattering. The company spends on design, on advertising and on people in shops. For many buyers that is a fair exchange: the phone is there to touch, the seller explains it, and the service centre is nearby. Buyers who read benchmarks should look elsewhere under Rs 60,000.</p>
+<h2>Y series: which ones are worth it</h2>
+<p>The <a href="/products/vivo-y05">Y05</a> is a decent basic phone, as we say in <a href="/reviews/vivo-y05-review-nepal">our review</a>. The <a href="/products/vivo-y31d">Y31d</a> at Rs 32,999 is more interesting, with 7,200mAh, 44W charging and a better chip. The <a href="/products/vivo-y32">Y32</a> at Rs 39,999 has 8,000mAh. The <a href="/products/vivo-y21-5g">Y21 5G</a> adds 5G with an ordinary screen. The <a href="/products/vivo-y500">Y500</a> reaches 8,100mAh and an AMOLED at Rs 54,999, where the Honor X9d is tougher for the same money.</p>
+<p>For a parent, we would choose the Y31d over the Y05 every time. The extra Rs 8,000 buys years.</p>
+<h2>V Lite and FE: the pretty middle</h2>
+<p>The <a href="/products/vivo-v60-lite-4g">V60 Lite 4G</a> has an AMOLED, 90W charging and a light body at Rs 43,499. It is a 4G phone with an older chip, and it is also lovely to hold. The 5G version at about Rs 52,000 is considerably faster. The <a href="/products/vivo-v70-fe">V70 FE</a> at Rs 62,999 brings a 200MP stabilised camera and 7,000mAh, and it is the one that makes the best case for itself. The V80 Lite 5G at Rs 63,999 is newer with slower charging. Compare the two before paying.</p>
+<h2>V series: portraits</h2>
+<p>The <a href="/products/vivo-v60-5g">V60 5G</a> and <a href="/products/vivo-v70">V70</a> carry a proper telephoto camera tuned with Zeiss. That is why to buy them. Faces at two to three metres look natural and the background falls away gently. Wedding guests, parents of small children and people who sell clothes online benefit directly. The Snapdragon 7 Gen 4 is comfortable for everything except serious gaming. The V80 at about Rs 1,09,000 asks a lot: it meets the OnePlus 15R and POCO F8 Pro on price, and the OPPO Find X9 Pro is not much further. Wait for offers.</p>
+<h2>X300 Pro: one of the great cameras</h2>
+<p>At Rs 1,99,999 it is expensive and special. The 200MP periscope makes stage, wildlife and portrait photos that no Samsung or iPhone can match at that distance. Battery and charging are excellent. <a href="/reviews/vivo-x300-pro-review-nepal">Read our review</a>. If photography is your pleasure, try it beside a Xiaomi 17 Ultra.</p>
+<h2>Software: OriginOS</h2>
+<p>vivo has replaced Funtouch with OriginOS on newer phones. It is smooth and attractive, with useful tools for photos and a neat lock screen. It includes extra apps and a recommendation page that you can remove. Support is moderate: a few Android versions on V models, fewer on Y, more on X. Ask for the number.</p>
+<h2>Charging standards</h2>
+<p>vivo's FlashCharge needs vivo's charger for full speed. Phones rated 44W or 90W fall to ordinary speeds with other adapters. The charger is normally in the box in Nepal. Keep it, as a replacement costs Rs 2,000 to 4,000, and copies are unsafe.</p>
+<h2>Cameras: how to set them</h2>
+<ul>
+<li>In portraits, lower the beauty setting from its default if skin looks like wax.</li>
+<li>Choose Natural colour for documents and products.</li>
+<li>Use the Zeiss styles on V and X phones for portraits, and stand further back with the telephoto.</li>
+<li>Turn on the grid, and clean the lens. Most haze in night photos is fingerprints.</li>
+</ul>
+<h2>Where vivo phones are cheaper</h2>
+<p>Dealers have room. List prices are firm in advertisements and soft at the counter, especially on V models a few months old. Accessories, a free screen replacement within six months, or exchange bonuses are usual. Ask for the cash equivalent. Around Dashain the V series has seen the largest cuts.</p>
+<h2>Service and parts</h2>
+<p>vivo runs service centres in the main cities with fair prices and quick screen replacements for Y and V models. X series parts may need ordering. Curved screens on older V models cost more to replace, so prefer flat ones if you drop phones.</p>
+<h2>Official and imported</h2>
+<p>Indian vivo units are common near the border. They are cheaper by a few thousand rupees and covered only in India. Check the box for a Nepali distributor's sticker and the IMEI in MDMS, as described in <a href="/guides/how-to-check-phone-is-official-in-nepal">our guide</a>.</p>
+<h2>vivo against its neighbours</h2>
+<p><strong>Against OPPO:</strong> similar philosophy. vivo's portraits are a little better, OPPO's software a little smoother.</p>
+<p><strong>Against Samsung:</strong> vivo gives more battery and charging, and Samsung longer support and resale.</p>
+<p><strong>Against Xiaomi and Realme:</strong> they give more speed, and vivo more polish and a nearer shop.</p>
+<p><strong>Against iPhone:</strong> vivo's zoom and battery are ahead, video and longevity behind.</p>
+<h2>Our vivo shortlist</h2>
+<ul>
+<li><strong>Parent or simple use:</strong> Y31d.</li>
+<li><strong>Slim and light under Rs 45,000:</strong> V60 Lite 4G.</li>
+<li><strong>All-round:</strong> V70 FE.</li>
+<li><strong>Portraits:</strong> V60 5G on offer, or V70.</li>
+<li><strong>Photography:</strong> X300 Pro.</li>
+</ul>
+<h2>Summary</h2>
+<p>vivo makes likeable phones for people who care about how photos and the phone itself look. Skip the cheapest Y models if you can add Rs 8,000, avoid paying list price on the V series, and take the X300 Pro seriously if pictures are your passion. For other brands at the same prices, see <a href="/guides/best-phones-in-nepal-by-budget">phones by budget</a>.</p>
+
+=== oppo-phone-price-in-nepal
+<h2>Where each series sits</h2>
+[[models:oppo-a5,oppo-a6c,oppo-a6,oppo-a6-pro-4g,oppo-reno-15-f,oppo-reno-16-5g,oppo-find-x9-pro,oppo-find-n5]]
+<h2>A, Reno, Find</h2>
+<p><strong>A</strong> phones are for endurance and toughness at modest prices. <strong>Reno</strong> phones are for style and people pictures. <strong>Find X</strong> is the flagship, and <strong>Find N</strong> folds. Letters after the number, such as c, x, k and s, mark small variations that differ by market. Some of them are the same phone with another battery or charger, so read the sheet and not the name.</p>
+<h2>The A series: look at two things</h2>
+<p>With OPPO's cheaper phones, check storage and charging speed. The <a href="/products/oppo-a5">A5</a> at about Rs 23,000 has a Snapdragon chip and 45W charging, and is better than it looks. The <a href="/products/oppo-a6c">A6c</a> at Rs 24,999 has a huge battery with 64GB and 15W. The A6x models at about Rs 28,000 fall between. If we were choosing one for a parent, it would be the A5 in the larger memory version.</p>
+<p>Higher up, the <a href="/products/oppo-a6">A6</a> at Rs 40,999 has 5G-class silicon with 7,000mAh, and the <a href="/products/oppo-a6-pro-4g">A6 Pro 4G</a> at Rs 51,999 adds an AMOLED, 80W charging and strong water resistance, held back by a 4G chip that others sell at Rs 25,000. At that price the Honor X9d or Realme 14 5G are better rounded.</p>
+<h2>The Reno puzzle</h2>
+<p>Reno phones are attractive, and their prices confuse. The <a href="/products/oppo-reno-15-f">Reno 15 F</a> at Rs 63,999 has a 2022 chip. <a href="/reviews/oppo-reno-15-f-review-nepal">Our review</a> explains why the sheet and the advertisements disagree. The Reno 15 5G and Reno 16F both sit at Rs 89,999. The first has a faster Snapdragon 7 Gen 4 and 12GB, and the second is newer. The <a href="/products/oppo-reno-16-5g">Reno 16</a> at Rs 1,09,999 is remarkable for one thing: a 6.32-inch screen with a 6,700mAh battery, making it one of the very few small phones with real endurance.</p>
+<p>And an older model, the Reno 11 Pro, is still listed at about Rs 63,000 from remaining stock. Check its update status before buying.</p>
+<h2>Find X9 Pro: the odd bargain</h2>
+<p>At Rs 1,25,999, OPPO's true flagship costs only Rs 16,000 more than a Reno 16. For that you move to a Dimensity 9500, a large main sensor, a high-resolution telephoto and 7,500mAh. If you can reach it, there is no reason to buy a Reno above Rs 1 lakh unless you want a small phone. We put it first in our <a href="/guides/best-phones-under-150000-nepal">phones under Rs 1,50,000</a>.</p>
+<h2>Find N5</h2>
+<p>At Rs 2,49,999 the <a href="/products/oppo-find-n5">Find N5</a> is one of the thinnest book-style foldables, with a wide and useful outer screen. Hinges have matured, but repairs have not become cheap. Ask for the price of both screens in writing. For service in many cities, Samsung's Fold is easier to live with.</p>
+<h2>ColorOS</h2>
+<p>OPPO's software is among the smoothest on Android. Animations stay fluid when the phone is busy, the private safe and app lock are useful, and file sharing with iPhones and Macs through a companion app works well. Two things need attention on the first day: turn off the recommendation page and lock-screen magazine, and remove the bundled games. Update promises are moderate on A and Reno, and good on Find.</p>
+<h2>SUPERVOOC and chargers</h2>
+<p>OPPO, Realme and OnePlus share a family of chargers. An 80W brick from one usually works with the others, which is convenient in a household. With ordinary PD chargers OPPO phones charge at lower speeds. Keep the cable that came with it, since the high speeds need a special one. Genuine replacements cost Rs 2,500 to 5,000. Cheap copies are dangerous.</p>
+<h2>Cameras</h2>
+<p>Reno phones are tuned for faces. The result is bright, smooth and ready for social media. If it looks too smooth, lower the retouch level. Autofocus on the front camera, found on the better models, is worth having. For zoom, only the Reno 16 and Find models have proper telephoto lenses. Choose those if you photograph stages, children at play or mountains.</p>
+<h2>Toughness</h2>
+<p>OPPO has put real effort into water and drop protection on the A6 line, with ratings up to IP69 on some models. These are laboratory results and not a warranty. Still, for riders and kitchen workers they are welcome.</p>
+<h2>Buying and bargaining</h2>
+<p>OPPO sells through a large dealer network. Board prices have a margin for negotiation, and exchange bonuses are common. A Reno six months after launch can be had for 10 to 15 per cent less than its list price. Ask for the cash price with no gifts. Then decide if the gifts are worth more.</p>
+<h2>Service</h2>
+<p>Service centres in the major cities keep parts for A and Reno models, with published prices for screens and batteries. Find models may wait for parts. A battery replacement in the third year costs a few thousand rupees and is the best money you can spend on an ageing OPPO.</p>
+<h2>Official units</h2>
+<p>Look for the distributor's sticker, check the IMEI in MDMS and keep the bill. Indian units have Indian warranty. Chinese Find phones run a different ColorOS with Google services that must be enabled, and they do not receive global updates.</p>
+<h2>OPPO compared</h2>
+<p><strong>With vivo:</strong> cousins in style. Choose by the phone in front of you. <strong>With Realme:</strong> same charging family, faster chips for less, plainer cameras. <strong>With Samsung:</strong> OPPO offers battery and charging, and Samsung longevity and resale. <strong>With OnePlus:</strong> shared software roots. OnePlus gives more speed, OPPO more camera and toughness.</p>
+<h2>Our OPPO shortlist</h2>
+<ul>
+<li><strong>Under Rs 25,000:</strong> A5.</li>
+<li><strong>Long battery, small budget:</strong> A6c with 128GB, if found.</li>
+<li><strong>Small phone with stamina:</strong> Reno 16, on discount.</li>
+<li><strong>Best OPPO for the money:</strong> Find X9 Pro.</li>
+</ul>
+<h2>What is next</h2>
+<p>The <a href="/news/oppo-reno-17-launched-8000mah-battery">Reno 17</a> has been launched in China with 8,000mAh and three 50MP cameras. It may reach Nepal in some form next year. Until then it is a good reason to ask for a better price on the 15 and 16.</p>
+<h2>In a sentence</h2>
+<p>Buy OPPO at the bottom for battery and charging, at the top for the Find X9 Pro, and in the middle only with a discount.</p>
+
+=== realme-phone-price-in-nepal
+<h2>The line-up with specifications</h2>
+[[models:realme-note-70,realme-c71,realme-c100x,realme-c85-pro,realme-p3,realme-14-5g,realme-p3-ultra,realme-p4-power,realme-gt-8-pro]]
+<h2>Six series in one brand</h2>
+<p>Realme names too many phones. Here is the map. <strong>Note</strong> is the cheapest. <strong>C</strong> is basic with a big battery or tough body. <strong>P</strong> is for performance at a price. <strong>Number series</strong>, such as 14, 15 and 16, is for style and camera. <strong>GT</strong> is the flagship. "X", "Lite", "Pro" and "Ultra" tell you the rank. "4G" in the name is a useful warning that a similar phone exists with a better chip.</p>
+<h2>What Realme does well</h2>
+<p>Battery and charging. No brand under Rs 50,000 is as generous with both. 45W charging appears at Rs 25,000, and batteries of 7,000 to 8,000mAh are ordinary. The company also puts strong dust and water ratings on mid-range models, which few others do. What it does less well is restraint: too many models, a crowded app list and modest update promises on cheap phones.</p>
+<h2>Under Rs 25,000: Note 60x, Note 70, Note 80</h2>
+<p>All three are for light use with the same family of basic chips. The <a href="/products/realme-note-70">Note 70</a> has the best balance with 6,300mAh. The <a href="/products/realme-note-80">Note 80</a> costs about Rs 5,000 more for small changes, as our <a href="/reviews/realme-note-80-review-nepal">review</a> points out. Choose 128GB versions.</p>
+<h2>Rs 25,000 to 36,000: C71, C100i, P4 Lite, P4x, C100x</h2>
+<p>Here lies a trap. Several of these phones use the same Unisoc T7250 found in Rs 15,000 models, dressed with a bigger battery and a nicer name. The C100x costs Rs 35,999 with that chip. A battery of 8,000mAh is attractive, yet at the same price a Redmi 17 5G or Infinix Note 50s is several times faster. Buy these only if endurance is the single thing you want. The <a href="/products/realme-c71">C71</a> is the sensible one for its charging.</p>
+<h2>Rs 37,000 to 50,000: where Realme shines</h2>
+<p>The <a href="/products/realme-c85-pro">C85 Pro</a> is an AMOLED phone with extreme water ratings. The <a href="/products/realme-c85-5g">C85 5G</a> adds 5G and 144Hz with an LCD. Then comes the pair that makes Realme worth visiting: the <a href="/products/realme-p3">P3</a> at Rs 44,999 and the <a href="/products/realme-14-5g">14 5G</a> at Rs 49,999. Both use the Snapdragon 6 Gen 4, with AMOLED screens, 6,000mAh and 45W. The 14 5G adds a stabilised camera and stronger memory. For students who play, they are among the best purchases in the country.</p>
+<p>Be careful with the P4 4G at Rs 45,999. It shares a number with better phones and has an older 4G chip.</p>
+<h2>Rs 65,000 to 77,000: 16 5G, P3 Ultra, 15 Pro, P4 Power</h2>
+<p>The <a href="/products/realme-p3-ultra">P3 Ultra</a> has the fastest chip of the four and 80W charging. The <a href="/products/realme-15-pro">15 Pro</a> balances a 144Hz screen, 7,000mAh and a decent camera. The <a href="/products/realme-p4-power">P4 Power</a> is for battery, and <a href="/reviews/realme-p4-power-review-nepal">our review</a> explains how far 10,001mAh goes. The 16 5G at Rs 64,999 has a weaker chip for the price. At this level, look at the POCO F7 as well before paying.</p>
+<h2>GT 8 Pro</h2>
+<p>At Rs 1,49,999 it has a top chip, a QHD+ screen at 144Hz, 7,000mAh with 120W charging and a camera system that can stand beside the established names. The weak points are resale and the length of support. It sits among the OPPO Find X9 Pro, Galaxy S26 and OnePlus 15. For pure hardware it is strong. Try for a discount, since flagships from value brands fall quickly.</p>
+<h2>Realme UI</h2>
+<p>It shares its base with OPPO's ColorOS: smooth, with many options. On cheaper models expect preinstalled apps and recommendation folders. On the first day, uninstall what you can, turn off App Market recommendations and the lock-screen magazine, and limit notifications. Updates: two to three Android versions on most P and number models, less on Note and C, more on GT.</p>
+<h2>Charging</h2>
+<p>Realme's chargers are the SUPERVOOC family, interchangeable with OPPO and OnePlus. They are usually in the box. At full speed the battery warms, so keep it out of the sun and off the bed. For overnight charging an old slow adapter is kinder.</p>
+<h2>Cameras</h2>
+<p>Treat everything below Rs 45,000 as a daylight camera. From the 14 5G upwards, stabilisation helps indoors. For portraits with a real zoom, Realme's mid-range has little to offer: look at the Nothing Phone 4a or a vivo V. The GT 8 Pro is the exception.</p>
+<h2>Service and parts</h2>
+<p>Realme has service points in the larger cities, and its popular models are easy for independent technicians. Parts prices are moderate. For the GT line, ask about stock.</p>
+<h2>Where to buy and how to bargain</h2>
+<p>Online brand stores and large dealers run frequent flash discounts. C and P models drop by 8 to 15 per cent within months. Ask for the box charger, a case and glass. Exchange values for old Realmes are low, so sell privately.</p>
+<h2>Checking the unit</h2>
+<p>Indian units are common. Their boxes show an Indian MRP and importer. They carry no Nepali warranty. Check MDMS, the distributor's sticker, and confirm in Settings that the region and model match. <a href="/guides/how-to-check-phone-is-official-in-nepal">Here is how</a>.</p>
+<h2>Realme or...</h2>
+<p><strong>Redmi or POCO?</strong> Redmi has better cameras in the middle, POCO more speed above Rs 60,000. Realme has tougher bodies and faster charging below Rs 50,000.</p>
+<p><strong>Infinix?</strong> Infinix is faster for the money under Rs 40,000. Realme has wider service.</p>
+<p><strong>Samsung?</strong> Support and resale against battery and charging.</p>
+<h2>Our Realme shortlist</h2>
+<ul>
+<li><strong>Cheapest worth having:</strong> Note 70, 128GB.</li>
+<li><strong>Quick charging on a budget:</strong> C71.</li>
+<li><strong>Toughest:</strong> C85 Pro.</li>
+<li><strong>Best value:</strong> P3.</li>
+<li><strong>Best all-rounder:</strong> 14 5G.</li>
+<li><strong>Longest lasting:</strong> P4 Power.</li>
+</ul>
+<h2>One rule for shopping Realme</h2>
+<p>Read the processor line before the battery line. If it says Unisoc T7250 and the price is above Rs 28,000, move on. If it says Snapdragon 6 Gen 4, sit down and ask for tea.</p>
+
+=== honor-phone-price-in-nepal
+<h2>Key models compared</h2>
+[[models:honor-x6d,honor-x7d,honor-x8d,honor-x9d,honor-400,honor-600,honor-600-pro,honor-magic-8-pro]]
+<h2>A brand that came back</h2>
+<p>Honor began as Huawei's younger line and became independent in 2020. That matters for one reason: its phones have Google services, unlike Huawei's. In Nepal it has grown quickly by putting big batteries in slim, tough bodies and offering large storage. The ladder runs from about Rs 16,500 to the foldable Magic V5 at Rs 2,66,999.</p>
+<h2>The series</h2>
+<p><strong>Choice and Play:</strong> very basic. <strong>X5 and X6:</strong> entry phones. <strong>X7, X8, X9:</strong> the middle, where Honor is strongest. <strong>Number series (400, 600):</strong> cameras and style. <strong>Magic:</strong> flagships. The letter after the X number is the generation, so X9d is newer than X9c.</p>
+<h2>Under Rs 30,000: choose carefully</h2>
+<p>The X5 and X6 phones use the Helio G81, a basic chip, with HD screens and 15W charging in most. They are pleasant to look at and slow to use. Storage is generous in some versions, which helps. The <a href="/products/honor-x6d">X6d</a> has a better chip, and <a href="/reviews/honor-x6d-review-nepal">our review</a> covers it. At Rs 22,000 to 26,000 an Infinix Note 50x or Galaxy A07 is usually the better purchase.</p>
+<h2>X7d and X7e</h2>
+<p>The <a href="/products/honor-x7d">X7d</a> at Rs 33,999 comes with a 108MP camera, 8GB and 256GB or more. For people who store everything, it is excellent. The chip is an older 4G one and the screen an LCD. The X7e at Rs 39,999 has 7,500mAh, and a slower chip than the X7d, so look twice.</p>
+<h2>X8d: the one for reading and video</h2>
+<p>An AMOLED that reaches high brightness, a 7,000mAh battery and a slim body at Rs 39,999. No 5G, modest speed. We like it a lot for ordinary people, as <a href="/reviews/honor-x8d-review-nepal">our review</a> says.</p>
+<h2>X9d: the best Honor for most</h2>
+<p>For Rs 54,999 you get 8,300mAh, 66W charging, a very bright screen, a capable chip and drop protection that competitors do not attempt. It is the phone to give someone who works outdoors, travels or has small children. <a href="/reviews/honor-x9d-review-nepal">Read our review</a>.</p>
+<h2>400 and 600: the camera line</h2>
+<p>The <a href="/products/honor-400">Honor 400</a> at about Rs 68,000 and the <a href="/products/honor-600">600</a> at Rs 84,999 are compact, with 200MP main cameras. The 600's 7,000mAh battery in a 6.57-inch body is hard to find anywhere else. The <a href="/products/honor-600-pro">600 Pro</a> at Rs 1,29,999 adds a flagship chip and a telephoto, and it belongs on any list of small powerful phones. If you dislike large phones, Honor deserves your attention before Samsung.</p>
+<h2>Magic 8 Pro and Magic V5</h2>
+<p>Flagships with excellent cameras and batteries. They compete with vivo, Xiaomi and Samsung at about Rs 2 lakh, where resale and service count for more, and Honor is weaker there. Buy the Magic 8 Pro if you have held it and prefer it. The <a href="/products/honor-magic-v5">Magic V5</a> is among the thinnest foldables. Ask about repair costs.</p>
+<h2>MagicOS</h2>
+<p>MagicOS is smooth, with clever gestures such as dragging text or images to a side panel to send them to another app. It includes some extra apps. On flagships, Honor has promised long support, in line with the best. On X models expect a couple of Android versions and several years of patches. Ask for the exact promise.</p>
+<h2>Batteries: what Honor learned first</h2>
+<p>Honor was early with silicon-carbon cells, and its big batteries come without the thickness you would expect. Charging speeds are moderate on X models, at 35 to 66W, and fast on Magic. The charger is usually included. Use the smart charging option at night.</p>
+<h2>Toughness, honestly</h2>
+<p>The X9 line's drop resistance comes from a layered screen structure and cushioned corners. It survives falls that break others, though not every fall. Honor has offered free screen replacement in the first months on some models in Nepal. Ask whether that applies to yours and get it written on the bill.</p>
+<h2>Service in Nepal</h2>
+<p>Honor has authorised service in Kathmandu and some other cities, and the network is growing. In smaller towns you may have to send the phone. Parts for X models are reasonably priced. Before buying an expensive Honor outside Kathmandu, ask where it goes when it breaks and for how long.</p>
+<h2>Official and grey</h2>
+<p>Honor sells different versions of the same name around the world, with different batteries and memory. Official Nepali units have the distributor's sticker and MDMS registration. Phones from the Gulf or China appear too. Chinese ones have MagicOS without Nepali and with fewer Google functions. Check the model code.</p>
+<h2>Price behaviour</h2>
+<p>Honor phones launch with bundles such as earbuds, watches or an extra year of warranty, and fall in price within four to six months. The X9 series keeps its price best. If you see an earlier X9c at Rs 40,000 to 45,000 new, it is a bargain.</p>
+<h2>Compared with the rest</h2>
+<p><strong>Against Redmi:</strong> Honor is slimmer and tougher, Redmi faster with more service points. <strong>Against vivo and OPPO:</strong> more battery and storage for the price, fewer shops. <strong>Against Samsung:</strong> much better batteries, shorter support on X models, lower resale. <strong>Against Realme:</strong> better screens and build, slower charging.</p>
+<h2>Our Honor shortlist</h2>
+<ul>
+<li><strong>Storage on a budget:</strong> X7d.</li>
+<li><strong>Screen and battery under Rs 40,000:</strong> X8d.</li>
+<li><strong>Best for most:</strong> X9d.</li>
+<li><strong>Compact camera phone:</strong> 600, or 600 Pro if the budget allows.</li>
+</ul>
+<h2>Who should not choose Honor</h2>
+<p>Serious gamers on a budget, people who sell their phone every year, and buyers far from a service centre. For them POCO, Samsung and whichever brand has the nearest counter are better.</p>
+<h2>What is next</h2>
+<p>A <a href="/news/honor-13500mah-battery-phone-certified">13,500mAh battery</a> has been certified in China, and a successor to the X9d will come in time. Neither is a reason to wait if your phone is dying. The X9d already lasts two days.</p>
+<h2>In short</h2>
+<p>Honor is the brand to look at when you want a slim phone that lasts. Start at the X8d, stop at the X9d unless you love cameras, and settle the service question before you pay.</p>
+
+=== apple-phone-price-in-nepal
+<h2>The present range</h2>
+[[models:iphone-17e,apple-iphone-16,iphone-17,iphone-air,apple-iphone-17-pro,iphone-18-pro,iphone-18-pro-max,iphone-duo]]
+<h2>Which iPhone is for whom?</h2>
+<p>Apple's range looks long, and for most people it contains two phones. The <strong>iPhone 17</strong> is for almost everyone: a 120Hz screen, two good cameras, long battery, years of support. The <strong>18 Pro</strong> or <strong>Pro Max</strong> is for those who film and photograph seriously. The others serve a particular wish: lowest price (17e), thinness (Air), novelty (Duo) or a saving on an older flagship (17 Pro and Pro Max).</p>
+<h2>Cheapest sensible iPhone</h2>
+<p>The <a href="/products/iphone-17e">17e</a> at Rs 1,32,499 has a new chip, 8GB of memory and a strong battery with one rear camera. It is better than a new iPhone 15 at Rs 1,27,499, which is older by two generations, has 6GB, and does not support Apple Intelligence. The difference of Rs 5,000 decides itself. The 16 at Rs 1,46,599 sits in between and is hard to justify when the 17 is Rs 18,000 more.</p>
+<h2>iPhone 17: the one we recommend</h2>
+<p>For the first time the regular iPhone has the smooth display that used to be reserved for the Pro. It starts with 256GB. The front camera lets you take wide group selfies in portrait. <a href="/reviews/iphone-17-review-nepal">Our review</a> finds little to complain about except slow wired charging compared with Android and the missing telephoto.</p>
+<h2>Pro models: 17 or 18?</h2>
+<p>The 18 Pro and Pro Max are faster, more efficient and better at zoom. The 17 Pro Max is about Rs 37,000 cheaper and remains superb. If you keep phones for five years or more, the newer one gives you an extra year. If not, look for a sealed 17 Pro Max. The full prices by storage are in <a href="/news/iphone-18-pro-pro-max-iphone-duo-nepal-price">this article</a>.</p>
+<h2>Why iPhones cost what they do here</h2>
+<p>The American price excludes tax. Then come freight, duty, VAT and the reseller's margin. A phone at $799 ends up near Rs 1,65,000. It is why cousins abroad are so popular in September. Bringing one for personal use is possible within customs rules, and it must be registered in MDMS. Consider the warranty and SIM type before asking for the favour.</p>
+<h2>Regions and their quirks</h2>
+<ul>
+<li><strong>United States:</strong> eSIM only. Some carriers sell locked phones.</li>
+<li><strong>China and Hong Kong:</strong> two physical SIMs. Some features differ.</li>
+<li><strong>Japan and Korea:</strong> camera shutter sound.</li>
+<li><strong>India and Dubai:</strong> close to the version sold here.</li>
+</ul>
+<p>The letters at the end of the model number in Settings, General, About tell you the region. An unlocked phone shows "No SIM restrictions" on the same page.</p>
+<h2>Official sellers</h2>
+<p>Apple has authorised resellers and service providers in Nepal. They give a VAT bill, a genuine unit and a route for repairs. Their prices are similar, so compare bank offers, exchange value and waiting time. Elsewhere you can find lower prices on units with a shop warranty. Decide knowingly.</p>
+<h2>How to check an iPhone before paying</h2>
+<ol>
+<li>Enter the serial number at checkcoverage.apple.com. Look at the model and the coverage date.</li>
+<li>Dial *#06# and check the IMEI in MDMS.</li>
+<li>In General, About, look for "Unknown Part" notices.</li>
+<li>On 15 and newer, read the battery cycle count and first use.</li>
+<li>Test Face ID, True Tone, all cameras, both speakers and charging.</li>
+<li>Make sure that no Apple account is signed in.</li>
+</ol>
+<h2>Storage: how much?</h2>
+<p>128GB, on older models, is tight. 256GB is right for most. Videographers should take 512GB or record to an external SSD over USB-C on Pro models. iCloud at 50GB or 200GB costs little and protects photos.</p>
+<h2>Battery and charging</h2>
+<p>Battery life is good on the 17, better on the Pro Max, average on the Air. Use a USB-C PD charger of 20W or more, and 40W or above for the newer Pros. The 80 per cent limit in Settings slows ageing. After three years a genuine battery restores an iPhone better than any new feature would.</p>
+<h2>Buying used in Nepal</h2>
+<p>Used iPhones are a large market, with large risks. Prices depend on battery health, storage, SIM type and whether the phone has been opened. A 15 Pro in good condition is a lovely purchase. Avoid phones with non-genuine screens, missing Face ID or any account lock. If the seller says "it only needs an update", leave. Ask for the bill and a copy of identification.</p>
+<h2>Repairs</h2>
+<p>Screen and back glass repairs are expensive, and Face ID is tied to the board. Third-party screens reduce brightness and may trigger warnings. Use a case and a glass, and turn on Stolen Device Protection.</p>
+<h2>EMI</h2>
+<p>At zero interest over twelve months, an iPhone 17 is about Rs 13,750 a month. Add the bank's fee. If the cash price is lower than the EMI price, the difference is the true interest. Longer plans cost more in total. Our product pages show the monthly arithmetic.</p>
+<h2>iPhone or Android?</h2>
+<p>Choose iPhone for video, app quality, privacy controls, resale, and family on FaceTime and iMessage. Choose Android for battery, fast charging, zoom, price and freedom. Both are secure when updated. At Rs 1.6 lakh, Android offers more hardware, and the iPhone will be worth more in three years.</p>
+<h2>When to buy</h2>
+<p>Prices of older models soften after September and again when spring models arrive. The <a href="/news/iphone-18-iphone-18e-spring-2027-what-we-know">iPhone 18 and 18e</a> are expected around spring 2027, and a discounted 17 may be the best purchase then. For Pro buyers, October to December is the calm season, with stock available and bank offers about.</p>
+<h2>Accessories worth having</h2>
+<ul>
+<li>A 20 to 40W USB-C charger and a good cable.</li>
+<li>A MagSafe case with raised edges.</li>
+<li>A tempered glass from a known brand.</li>
+<li>A 256GB USB-C flash drive or SSD for moving video.</li>
+</ul>
+<h2>Our shortlist</h2>
+<ul>
+<li><strong>Cheapest:</strong> 17e.</li>
+<li><strong>Best for most:</strong> 17.</li>
+<li><strong>Value flagship:</strong> 17 Pro Max on offer.</li>
+<li><strong>Newest compact flagship:</strong> 18 Pro.</li>
+<li><strong>Best iPhone:</strong> <a href="/reviews/iphone-18-pro-max-review-nepal">18 Pro Max</a>.</li>
+</ul>
+<h2>Apple Intelligence</h2>
+<p>If you care about Apple's AI features, choose a 16 or newer, or a 15 Pro. <a href="/news/apple-intelligence-nepal-iphone-users-guide">This guide</a> explains what works in Nepal and how to switch it on.</p>

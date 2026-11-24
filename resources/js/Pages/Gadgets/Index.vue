@@ -495,16 +495,15 @@ const displayedGadgets = computed(() => {
 const columns = computed(() => tableColumns(displayedGadgets.value, localFilters.category))
 const highlights = computed(() => listHighlights(displayedGadgets.value))
 
-// Full-width spreads: the first device, and one more further down with the photo on the other side.
+// Full-width spreads: one at the start of every 25 devices, sides alternating. The 24 tiles after it fill
+// whole rows at two, three and four columns.
 const featureSlots = computed(() => {
   const n = displayedGadgets.value.length
   const slots = new Map()
-  if (n >= 6) slots.set(0, 'left')
-  // Second spread after two full rows of four cards, photo on the other side.
-  if (n >= 14) slots.set(9, 'right')
+  for (let i = 0; i + 6 <= n; i += 25) slots.set(i, i % 50 === 0 ? 'left' : 'right')
   return slots
 })
-// Numbers continue across pages (page 2 starts at 21).
+// Numbers continue across pages (page 2 starts at 26).
 const numberFor = i => (Number(props.gadgets?.from) || 1) + i
 
 const quickSearches = ['Snapdragon 8 Elite', 'Dimensity', 'Core Ultra', 'Ryzen']

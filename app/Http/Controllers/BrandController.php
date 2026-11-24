@@ -72,7 +72,7 @@ class BrandController extends Controller
 
         return Inertia::render('Brands/Show', [
             'brand'   => $brand,
-            'gadgets' => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
+            'gadgets' => $query->paginate(\App\Support\PerPage::resolve($request, 24))->withQueryString(),
             'filters' => $request->only(['category', 'min_price', 'max_price', 'sort', 'status']),
 
             // Sidebar facets. Counts are only used to hide empty options, never shown.

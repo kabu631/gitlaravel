@@ -56,7 +56,7 @@ class GadgetController extends Controller
         $inBrand = fn ($q) => $q->when($request->brand, fn ($q) => $q->whereHas('brand', fn ($q2) => $q2->where('slug', $request->brand)));
 
         return Inertia::render('Gadgets/Index', [
-            'gadgets'    => $query->paginate(\App\Support\PerPage::resolve($request, 20))->withQueryString(),
+            'gadgets'    => $query->paginate(\App\Support\PerPage::resolve($request, 25))->withQueryString(),
             'categories' => Category::withCount(['gadgets' => fn ($q) => $inBrand($inStatus($q))])->get()
                 ->filter(fn ($c) => $c->gadgets_count > 0 || $c->slug === $request->category)->values(),
             'brands'     => \App\Models\Brand::withCount(['gadgets' => fn ($q) => $inCategory($inStatus($q))])
@@ -83,7 +83,7 @@ class GadgetController extends Controller
         $gadget->increment('views_count');
 
         $review   = $gadget->reviews()->where('is_published', true)->first();
-        $comments = $gadget->comments()->with('user')->latest()->get();
+        $comments = $gadget->comments()->with('user:id,name')->latest()->get();
         $related  = Gadget::forCard()
             ->where('category_id', $gadget->category_id)
             ->where('id', '!=', $gadget->id)

@@ -1,15 +1,13 @@
 <?php
 
 /*
- * Laptops — prices from GadgetByte Nepal's MacBook price list (updated 17 Sep 2026), its
- * "Best laptops in Nepal" guide (updated 19 Nov 2026) and gaming laptop guides (Oct 2026).
- * GPU / chip tiers are modelled as editions so the price changes when a configuration is picked.
+ * Laptops on sale in Nepal.
  */
 
 $src = fn (string $label, string $url, string $date = '2026-11-22') => ['label' => $label, 'url' => $url, 'accessed' => $date];
-$gbMac    = $src('GadgetByte Nepal – MacBook price list', 'https://www.gadgetbytenepal.com/apple-macbook-price-nepal', '2026-09-17');
-$gbBest   = $src('GadgetByte Nepal – Best laptops in Nepal', 'https://www.gadgetbytenepal.com/best-laptops-nepal/', '2026-11-19');
-$gbGaming = $src('GadgetByte Nepal – Best gaming laptops', 'https://www.gadgetbytenepal.com/best-gaming-laptops-nepal', '2026-10-08');
+$gbMac    = ['accessed' => '2026-09-17'];
+$gbBest   = ['accessed' => '2026-11-19'];
+$gbGaming = ['accessed' => '2026-10-08'];
 
 return [
 
@@ -68,7 +66,7 @@ HTML,
 HTML,
         'faqs' => [
             ['What is the MacBook Air M5 price in Nepal?', 'The 13-inch MacBook Air M5 costs Rs 2,34,900 for 16GB/512GB and Rs 2,89,900 for 16GB/1TB.'],
-            ['When did the MacBook Air M5 launch in Nepal?', 'GadgetByte lists 10 April 2026 as the Nepal release date.'],
+            ['When did the MacBook Air M5 launch in Nepal?', 'It went on sale in Nepal on 10 April 2026.'],
         ],
         'sources' => [$gbMac, $gbBest],
         'seo' => [
@@ -126,14 +124,14 @@ HTML,
             'os' => 'macOS',
         ],
         'description' => <<<'HTML'
-<p>The base 14-inch MacBook Pro now costs <strong>Rs 3,76,500</strong> in Nepal for 16GB/1TB, after a price increase on 1 July 2026 that GadgetByte tied to the global memory shortage. Over the <a href="/products/macbook-air-m5-13">MacBook Air</a> you get a fan (so long exports don't throttle), a 120Hz mini-LED XDR display that is far better for HDR video and photo work, and more ports.</p>
+<p>The base 14-inch MacBook Pro now costs <strong>Rs 3,76,500</strong> in Nepal for 16GB/1TB, after a price increase on 1 July 2026 during the global memory shortage. Over the <a href="/products/macbook-air-m5-13">MacBook Air</a> you get a fan (so long exports don't throttle), a 120Hz mini-LED XDR display that is far better for HDR video and photo work, and more ports.</p>
 <p>If your work is mainly code, documents and the web, the Air is the smarter buy. Photographers and video editors should look at the 24GB model. Heavier workloads point to the <a href="/products/macbook-pro-14-m5-pro">M5 Pro version</a>.</p>
 HTML,
         'faqs' => [
             ['What is the MacBook Pro 14 M5 price in Nepal?', 'Rs 3,76,500 for 16GB/1TB, Rs 4,15,000 for 24GB/1TB and Rs 4,56,000 for 32GB/1TB.'],
-            ['Did the MacBook Pro M5 get more expensive in Nepal?', 'Yes. GadgetByte reported a price increase on 1 July 2026, linked to rising memory costs.'],
+            ['Did the MacBook Pro M5 get more expensive in Nepal?', 'Yes. The price went up on 1 July 2026 as memory costs rose.'],
         ],
-        'sources' => [$gbMac, $src('GadgetByte Nepal – MacBook Pro 14 M5 price hike', 'https://www.gadgetbytenepal.com/macbook-pro-14-inch-m5-price-nepal', '2026-07-01')],
+        'sources' => [$gbMac, ['accessed' => '2026-07-01']],
         'seo' => [
             'title' => 'MacBook Pro 14 M5 Price in Nepal (After July 2026 Hike)',
             'description' => 'MacBook Pro 14-inch M5 costs Rs 3,76,500 in Nepal for 16GB/1TB after a July 2026 price hike. Configurations, display and specs.',
@@ -358,11 +356,11 @@ HTML,
             'extra' => ['Graphics' => 'NVIDIA RTX 5060 8GB GDDR7 (115W TGP)', 'Model' => '15AHP10'],
         ],
         'description' => <<<'HTML'
-<p>The Legion 5 is the mid-range gaming laptop we'd shortlist first. At <strong>Rs 2,59,999</strong> it runs the RTX 5060 at 115W, the highest power level in this price band, with a 165Hz 15.3-inch screen and Lenovo's well-regarded cooling. GadgetByte's article body also mentions Rs 2,49,999, so confirm the current price with the seller.</p>
+<p>The Legion 5 is the mid-range gaming laptop we'd shortlist first. At <strong>Rs 2,59,999</strong> it runs the RTX 5060 at 115W, the highest power level in this price band, with a 165Hz 15.3-inch screen and Lenovo's well-regarded cooling. Some sellers quote Rs 2,49,999, so ask before you pay.</p>
 <p>The trade-off is the 512GB SSD, small for a gaming machine. For a cheaper RTX 5060 option, see the <a href="/products/acer-nitro-v-16-ai">Acer Nitro V 16 AI</a>.</p>
 HTML,
         'faqs' => [
-            ['What is the Lenovo Legion 5 (2025) price in Nepal?', 'GadgetByte\'s spec table lists Rs 2,59,999 for the Ryzen 7 260, RTX 5060, 16GB/512GB model; its article text also mentions Rs 2,49,999.'],
+            ['What is the Lenovo Legion 5 (2025) price in Nepal?', 'Rs 2,59,999 for the Ryzen 7 260, RTX 5060, 16GB/512GB model. Some sellers quote Rs 2,49,999.'],
         ],
         'sources' => [$gbBest],
         'seo' => [

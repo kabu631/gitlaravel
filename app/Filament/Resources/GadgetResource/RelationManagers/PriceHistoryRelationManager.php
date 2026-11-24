@@ -30,6 +30,8 @@ class PriceHistoryRelationManager extends RelationManager
             TextColumn::make('price')->money('NPR'),
         ])->headerActions([CreateAction::make()])
           ->bulkActions([DeleteBulkAction::make()])
+          // The relation itself sorts oldest first (for the chart); clear that so the table can sort.
+          ->modifyQueryUsing(fn ($query) => $query->reorder())
           ->defaultSort('date', 'desc');
     }
 }

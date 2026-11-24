@@ -1,0 +1,230 @@
+=== acer-nitro-lite-16-rtx-4050-review-nepal
+<h2>Specifications</h2>
+[[specs:acer-nitro-lite-16-2025-13th-gen-i7-13620h-rtx-4050-16gb-512gb]]
+<h2>The wattage question, explained</h2>
+<p>Two laptops can both say RTX 4050 on the sticker and differ by a quarter in speed. Nvidia lets manufacturers choose how much power the chip may draw, anywhere from about 35 to 115 watts. Thick laptops with big chargers use the upper end. Thin ones use the lower.</p>
+<p>The Nitro Lite's 135W adapter has to feed the processor, screen, drives and graphics together. That leaves a moderate allowance for the GPU. It will still beat any RTX 3050 comfortably, but do not expect the frame rates you see in videos of a full-power RTX 4050. Ask the seller to open Nvidia Control Panel, System Information, and read the maximum graphics power on the actual machine. It takes thirty seconds and tells you more than any brochure.</p>
+<h2>What it plays</h2>
+<p>At 1080p with sensible settings, esports titles such as Valorant, CS2, Dota 2 and League run far beyond sixty frames and make use of the 165Hz panel. Story games from recent years run at medium to high with DLSS. The 6GB of video memory is the long-term limit. Very new titles with large textures will want medium textures, whatever the GPU's raw speed. Ray tracing is possible in small doses.</p>
+<h2>The processor is more than a match</h2>
+<p>An i7-13620H has six performance cores and four efficient ones. It is comfortable with game streaming, video editing in DaVinci Resolve or Premiere, and engineering software such as SolidWorks at student level. It runs hot under sustained load, as most H-series Intel chips do, so a stand and a room that is not stuffy will help it keep its speed.</p>
+<h2>Screen and body</h2>
+<p>Sixteen inches with a 16:10 shape gives you more height for code and timelines than a 15.6-inch panel. The catalogue lists the resolution as 1920 x 1080 under a WUXGA label, which would normally mean 1920 x 1200. Check on the machine. Colour coverage on budget gaming screens is usually modest. If you edit photos for clients, plan for an external monitor.</p>
+<p>At 2.2kg plus the charger, you are carrying close to three kilos. That is fine for a hostel room and tiring for a daily bus ride.</p>
+<h2>Memory and storage</h2>
+<p>Sixteen gigabytes is right for games today. Find out whether it is one stick or two, as dual-channel memory improves frame rates. The 512GB drive holds Windows, a few programs and three or four big games. A second M.2 slot is common on Nitro machines, so a 1TB drive is the first upgrade to budget for.</p>
+<h2>What else is on the shelf</h2>
+[[rivals:acer-nitro-lite-16-2025-13th-gen-i7-13620h-rtx-4050-16gb-512gb]]
+<p>The <a href="/products/hp-victus-15-i5-13420h-rtx-4050">HP Victus 15 with RTX 4050</a> is about Rs 2,500 cheaper with a lesser processor, and its graphics power allowance may be higher, which matters more in games. The <a href="/products/acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050">Nitro V 15</a> is Acer's own alternative at the same price. Watch for the <a href="/products/acer-nitro-lite-16-nl16-71g-i7-13620h-rtx-3050">Nitro Lite 16 with an RTX 3050</a>: same name, weaker graphics, and in our listing it even costs more. The <a href="/products/lenovo-loq-15-2025">Lenovo LOQ 15</a> is the better gaming chassis for those who can reach Rs 1,94,999.</p>
+<h2>Heat, noise and Nepali summers</h2>
+<p>A gaming laptop in Birgunj in May is working in a forty-degree room. Performance drops when the chip reaches its thermal limit. Raise the back of the laptop by a few centimetres, clean the vents every few months, and cap the frame rate at what your eyes can enjoy. A cap of 90 in story games lowers heat, noise and power use with little loss. In winter in Kathmandu, the same machine will feel like a different one.</p>
+<h2>Power and battery</h2>
+<p>With 57Wh, count on three or so hours of light use. During load-shedding it acts as its own UPS for a while, but games on battery run at a fraction of their speed. Use a proper surge protector. Some small inverters cannot supply 135W cleanly alongside a router and lights, so check the rating.</p>
+<h2>Who it is for</h2>
+<ul>
+<li>Students who want one machine for engineering software and games.</li>
+<li>First-time gaming laptop buyers who stay mostly at a desk.</li>
+<li>Beginner video editors who need CUDA acceleration.</li>
+</ul>
+<h2>Who should look elsewhere</h2>
+<ul>
+<li>Competitive players who need every frame from the GPU.</li>
+<li>Daily commuters.</li>
+<li>Anyone who could use a desktop. The same money buys a stronger PC through our <a href="/custom-pc-build">PC builder</a>.</li>
+</ul>
+<h2>Inspection list</h2>
+<ul>
+<li>Read the maximum graphics power in Nvidia Control Panel.</li>
+<li>Run a game or a stress test for fifteen minutes and listen to the fans.</li>
+<li>Check for dead pixels and backlight bleed in a dark corner of the shop.</li>
+<li>Confirm the memory sticks, free M.2 slot and warranty period.</li>
+</ul>
+<h2>Verdict</h2>
+<p>The Nitro Lite 16 offers a modern GPU, a strong processor and a roomy screen for less than most rivals ask. The charger tells you where the saving was made. Go in knowing that, test before paying, add storage, and it is one of the better first gaming laptops in the country.</p>
+
+=== asus-tuf-gaming-a15-rtx-3050-review-nepal
+<h2>Specifications</h2>
+[[specs:asus-tuf-gaming-a15-fa506ncg-2024]]
+<h2>An old graphics chip in a good laptop</h2>
+<p>The RTX 3050 for laptops appeared in 2021. It was entry level then. In late 2026 it still runs the games most Nepali students play, and that keeps it on shelves. What has changed is the price around it. At Rs 1,55,999 you are only a short step from laptops with chips two steps newer, and that is the whole difficulty with this TUF.</p>
+<h2>Where it is perfectly happy</h2>
+<p>Valorant, CS2, Dota 2, League of Legends, Rocket League, FIFA, GTA V and Minecraft all run well at 1080p, and several will fill the 144Hz display. Older story games from the PS4 period play nicely on medium or high. For someone who plays these and studies, the laptop feels quick.</p>
+<h2>Where it struggles</h2>
+<p>Video memory is the bottleneck. Depending on the version, the 3050 laptop carries 4GB or 6GB, and current releases list 6GB or 8GB as a comfortable amount. With too little, the game shows blurry textures or stutters when it loads new areas. DLSS upscaling helps the frame rate and does little for memory. Frame generation, which makes newer cards feel smoother, is not available here. Ask which memory size this unit has. A 6GB version is clearly the one to want.</p>
+<h2>The processor and the rest</h2>
+<p>AMD's Ryzen 7 7445HS is a six-core Zen 4 part with a generous name. It is efficient, strong in single tasks and fine for programming and editing. With 16GB of memory and a PCIe 4.0 drive, general use is fast. The 180W charger gives the components enough power to work near their limits, something the Nitro Lite's smaller adapter cannot promise.</p>
+<h2>Built for hostels</h2>
+<p>TUF laptops are tested against parts of a military standard for drops, vibration and temperature, according to Asus. It does not make them indestructible, but hinges and corners survive student life better than most. The keyboard has full-size keys and clear WASD markings. The cooling system has self-cleaning fans that push dust out, which is a real help in our cities. The 48Wh battery is the weak link, good for about two hours of lectures. At 2.3kg it is not a commuter's machine.</p>
+<h2>The screen</h2>
+<p>A 15.6-inch Full HD IPS panel at 144Hz gives smooth motion. Colour coverage on many TUF panels is limited, around two-thirds of sRGB, so colours look muted. Gamers adjust to it in a day. Designers should not buy it for colour work.</p>
+<h2>Rivals by price</h2>
+[[rivals:asus-tuf-gaming-a15-fa506ncg-2024]]
+<p>The <a href="/products/acer-aspire-7-a715-59g-76rm-2026-intel-core-7-240h-rtx-3050">Acer Aspire 7</a> offers the same graphics for a similar price in a body that can pass for an office laptop. Asus's own <a href="/products/asus-gaming-v16-2025-core-7-240h-rtx-3050-16gb-1tb-16-wuxga-144hz">Gaming V16</a> adds a bigger screen and twice the storage for Rs 2,000 more, which makes the TUF look poor. The <a href="/products/hp-victus-15-i5-13420h-rtx-4050">HP Victus 15</a> with an RTX 4050 is about Rs 11,500 more and is the purchase that will still feel right in 2029.</p>
+<h2>How to judge the gap</h2>
+<p>Imagine keeping the laptop for four years. An extra Rs 11,500 works out at about Rs 240 a month. For that you gain roughly half as much speed again, more or better-used video memory, frame generation and a higher resale price. Very few upgrades are such a clear bargain. If the difference has to be found, EMI can spread it, or you can wait for the next festival sale.</p>
+<h2>When the TUF is still the right buy</h2>
+<ul>
+<li>A dealer offers it at or below Rs 1,40,000.</li>
+<li>You only play esports titles and want a sturdy machine.</li>
+<li>You need strong official service in Nepal and prefer Asus.</li>
+</ul>
+<h2>When it is not</h2>
+<ul>
+<li>You want to play new single-player releases.</li>
+<li>You edit video or photos with colour in mind.</li>
+<li>You carry a laptop every day.</li>
+</ul>
+<h2>Upgrades worth making</h2>
+<p>Most A15 boards have two memory slots and two M.2 slots, which is a strength. Confirm on your unit, then add a 1TB drive for games when the first fills up. If it ships with a single 16GB stick, a matching second stick brings dual-channel speed. Both jobs need only a small screwdriver and some patience, or fifteen minutes at a service centre.</p>
+<h2>Settings that help</h2>
+<ul>
+<li>Use Armoury Crate's Turbo mode only when plugged in and gaming.</li>
+<li>Limit the battery to 80 per cent if it stays on a desk.</li>
+<li>Set textures one step lower than the preset suggests.</li>
+<li>Turn on DLSS Quality in supported games.</li>
+<li>Cap frames at 144 in esports to keep heat down.</li>
+</ul>
+<h2>Used market note</h2>
+<p>RTX 3050 laptops from 2022 and 2023 are sold used for much less. If your budget is under a lakh and you only want esports, a clean used TUF with a healthy battery is a better deal than this new one. Check fan noise, temperature under load and hinge movement before paying.</p>
+<h2>Verdict</h2>
+<p>A solid laptop tied to a tired graphics chip. Nothing about it is bad, and at the right discount it is a sensible esports machine. At Rs 1,55,999, though, the best advice we can give is to look one shelf up.</p>
+
+=== asus-vivobook-s15-snapdragon-review-nepal
+<h2>Specifications</h2>
+[[specs:asus-vivobook-s15-s5507qa]]
+<h2>The laptop that behaves like a phone</h2>
+<p>Close the lid on Friday and open it on Monday: it wakes at once, with nearly the same charge. Work on a sofa for an afternoon and the base stays cool. Those are the everyday advantages of Arm-based processors, and on Windows the Snapdragon X family is the first that delivers them convincingly. The Vivobook S15 pairs the chip with a splendid screen and generous memory for Rs 1,42,800.</p>
+<h2>Before anything else: your software list</h2>
+<p>Write down every program, device and website you depend on. Then sort them.</p>
+<p><strong>Safe:</strong> Microsoft 365, Chrome, Edge, Firefox, Zoom, Teams, WhatsApp, Spotify, VLC, Photoshop, Lightroom, DaVinci Resolve, Visual Studio Code, Python, Git. These have native Arm versions or work well.</p>
+<p><strong>Usually fine under emulation:</strong> many older 32-bit and 64-bit Windows programs, with some loss of speed and battery.</p>
+<p><strong>Risky:</strong> accounting packages with hardware keys, government signing tools, older scanners and receipt printers, some VPN clients, AutoCAD and other engineering suites, Android emulators, and games with kernel-level anti-cheat such as Valorant.</p>
+<p>In Nepal the practical tests are often local: digital signature drivers, Nepali accounting software, the bank token tool your office uses and the printer in the corner. If one of them fails, the best battery in the world will not help. Ask the shop for a demo or a return window and try them.</p>
+<h2>The screen is the showpiece</h2>
+<p>A 15.6-inch OLED at about 3K resolution is sharp enough that you stop noticing pixels. Blacks are true, colours cover the cinema range and motion is smooth. Reading, film and photo work all benefit. Use dark mode, auto-hide the taskbar and keep Asus's pixel care enabled to protect the panel over the years.</p>
+<h2>Performance</h2>
+<p>Snapdragon X Plus has enough speed for anything a manager, writer, student of humanities, teacher or marketer does. It is strong in browsers and Office, and it holds the same speed on battery, unlike many Intel and AMD laptops that slow down when unplugged. Its graphics are modest. Light photo and short video editing are fine.</p>
+<p>The neural processor runs Windows features such as live captions, background effects in calls and local image tools without draining the battery. They are pleasant, and no reason by themselves to buy.</p>
+<h2>Battery life</h2>
+<p>Expect a full working day with room to spare in browser and document work, and long local video playback. OLED at high brightness with white pages consumes more, so dark mode helps twice. USB-C charging means that a 65W phone-and-laptop charger can serve for both.</p>
+<h2>Is there a catch in the configuration?</h2>
+<p>Sixteen gigabytes and a terabyte are excellent at this price. The memory is soldered, as on most thin laptops. Our listing shows another entry for the same machine, the <a href="/products/asus-vivobook-s15-oled-x-plus-16gb-1tb-15-6-3k-oled">Vivobook S15 OLED X Plus</a>, at the same price. A faster <a href="/products/asus-vivobook-s15-2024-x-elite-x1e-78-100">X Elite version</a> costs about Rs 12,000 more and is worth it only for heavier multitasking.</p>
+<h2>Rivals</h2>
+[[rivals:asus-vivobook-s15-s5507qa]]
+<p>The <a href="/products/acer-swift-go-14-sfg14-74t-2025-intel-core-ultra-5-225h-16gb-512gb-14-wuxga-touch">Acer Swift Go 14</a> with a Core Ultra 5 225H runs all software and has stronger multi-core speed with a plainer screen. The <a href="/products/acer-aspire-ai-a14-52mt-2025-intel-core-ultra-7-258v">Acer Aspire AI 14</a> with a Core Ultra 7 258V is a particularly good alternative: Intel's efficient chip, long battery life and full compatibility, for slightly less. The <a href="/products/macbook-neo">MacBook Neo</a> has similar ease and battery with half the memory.</p>
+<p>That Acer deserves emphasis. If you came for battery and not for the OLED, it removes the compatibility risk entirely.</p>
+<h2>Who will be delighted</h2>
+<ul>
+<li>Writers, teachers, marketers, consultants and managers.</li>
+<li>Students of management, law, arts and education.</li>
+<li>People who watch a lot of films and work away from sockets.</li>
+</ul>
+<h2>Who should avoid it</h2>
+<ul>
+<li>Engineers, architects and anyone with specialised Windows tools.</li>
+<li>Gamers.</li>
+<li>Accountants until their software has been tested.</li>
+</ul>
+<h2>Service and resale</h2>
+<p>Arm laptops are still new to technicians in Nepal. Windows reinstallation is different, and parts are less common. Choose official stock with Asus warranty. Resale is harder to predict, since many buyers are cautious about Arm, so buy it to keep.</p>
+<h2>Setup tips</h2>
+<ul>
+<li>Install Arm64 versions of apps where offered. Check the download page.</li>
+<li>Use the manufacturer's printer driver page to confirm Arm support, or choose a printer that supports driverless printing.</li>
+<li>Set the battery limit to 80 per cent in MyAsus.</li>
+<li>Keep Windows updated. Emulation has improved with each release.</li>
+</ul>
+<h2>Verdict</h2>
+<p>For a person whose work happens in a browser, Office and a media player, this is one of the most enjoyable laptops under Rs 1.5 lakh. The screen is lovely, the battery is freeing and the storage is ample. Just do not buy it on hope. Test the one odd program you cannot live without.</p>
+
+=== dell-xps-13-2026-review-nepal
+<h2>Specifications</h2>
+[[specs:dell-xps-13-2026]]
+<h2>An XPS for less, and what was removed</h2>
+<p>XPS has long been Dell's showcase: a small aluminium laptop that cost two lakhs or more in Nepal and felt it. The 2026 model at Rs 1,34,999 opens the door to many more people. Dell kept the part you touch and reduced the part you do not see. The body, hinge, trackpad and screen are still special. The memory is 8GB and the chip is mid-range.</p>
+<p>Whether that is a fair exchange depends on how you use a computer, so let us be specific.</p>
+<h2>What 8GB means on Windows 11</h2>
+<p>After starting up, Windows and its services occupy three to four gigabytes. Outlook, Teams and a browser with ten tabs take the rest. From there, Windows compresses memory and writes to the SSD. It works, and a fast SSD hides much of it. You notice small delays in switching, tabs that reload and the fan waking up. By 2029, with heavier software, you would notice more. The memory is soldered, so no technician can help.</p>
+<p>If you write, read, send email and watch lectures, you will be fine for years. If you work in large spreadsheets, code, edit photos in Lightroom or keep dozens of tabs, choose a 16GB machine, however plain.</p>
+<h2>Screen</h2>
+<p>The 13.4-inch touchscreen is sharp and reaches 500 nits, enough for a bright cafe. It is an IPS panel with good colour. Our specification sheet lists 2408 x 1506, an unusual resolution for an XPS and identical to the MacBook Neo's panel, so confirm it on the machine. Touch is useful for scrolling and signing.</p>
+<h2>Processor</h2>
+<p>The Core 5 320 has six cores and boosts to 4.6GHz. It belongs to Intel's economical line, quick for short tasks and efficient. It is not made for long exports or engineering work.</p>
+<h2>Feel, weight and sound</h2>
+<p>Here the XPS justifies its name. It is rigid, compact and beautifully finished. The keyboard takes a day to learn and is pleasant after that. The trackpad is accurate. Speakers are better than in most small laptops. If you carry a computer to meetings, the impression matters, and this one gives a good one.</p>
+<h2>Ports</h2>
+<p>XPS laptops use USB-C only. Projectors in Nepali classrooms and offices still expect HDMI, and pen drives expect USB-A. Buy a small hub on the first day, and keep it in the bag.</p>
+<h2>Rivals at the same price</h2>
+[[rivals:dell-xps-13-2026]]
+<p>The neighbours are awkward for it. The <a href="/products/dell-xps-13-2026-intel-core-ultra-5-320">XPS 13 with a Core Ultra 5</a> is listed at only Rs 1,000 more, so ask what memory it comes with. The <a href="/products/dell-16-dc16255-2025-ryzen-7-250-16gb-1tb-16-fhd">Dell 16 with a Ryzen 7 250</a> has 16GB and a terabyte for the same money in a larger, plainer body. The <a href="/products/acer-swift-lite-14-sfl14-41m-r4qm-2025-amd-ryzen-7-260">Acer Swift Lite 14</a> gives a powerful chip in a portable shell. The <a href="/products/macbook-neo">MacBook Neo</a> has the same memory, where macOS manages it better, and far longer battery life, with 256GB of storage.</p>
+<h2>XPS 13 or MacBook Neo?</h2>
+<p>Choose the Neo if you have an iPhone, want the longest battery life and your software exists on macOS. Choose the XPS if you need Windows, want twice the storage and a touchscreen, and like its keyboard and shape. Neither is for heavy work. A <a href="/compare?g1=macbook-neo&g2=dell-xps-13-2026">side-by-side comparison</a> shows the remaining details.</p>
+<h2>Who should buy it</h2>
+<ul>
+<li>Executives and consultants who mostly use email, documents and calls.</li>
+<li>Writers and journalists who travel.</li>
+<li>Students in non-technical courses who value a small, strong laptop.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Developers, analysts, designers and engineers.</li>
+<li>Anyone who plans to keep one laptop for five years or more.</li>
+<li>People who need HDMI and USB-A every day.</li>
+</ul>
+<h2>Getting the best from it</h2>
+<ul>
+<li>Use Edge with sleeping tabs, and web versions of Teams and WhatsApp.</li>
+<li>Uninstall trial antivirus and disable startup apps.</li>
+<li>Keep 100GB of the SSD free, as Windows will lean on it.</li>
+<li>Set the charge limit in Dell's power manager for desk use.</li>
+</ul>
+<h2>Warranty</h2>
+<p>Dell's service in Nepal is among the better ones for business models. XPS units, however, are often parallel imports. Enter the service tag on Dell's support page and see the country and the end date. If the warranty belongs to another region, ask whether it can be transferred before you buy. Parts for an XPS are expensive, and a screen assembly can cost a third of the laptop.</p>
+<h2>Verdict</h2>
+<p>There is real pleasure in using a laptop this well made, and for light work it will serve nicely. But memory is the one specification that decides how long a Windows laptop stays comfortable, and 8GB is the wrong answer at Rs 1.35 lakh. Buy it with open eyes for light duties, or spend a little more on the <a href="/products/lenovo-yoga-slim-7i-aura-edition">Yoga Slim 7i Aura</a> and stop thinking about it.</p>
+
+=== macbook-neo-review-nepal
+<h2>Specifications</h2>
+[[specs:macbook-neo]]
+<h2>The price, and what it changes</h2>
+<p>When we first reviewed it, the 256GB Neo was Rs 1,34,999. The current figure in our catalogue is Rs 1,33,499, and the 512GB version has been around Rs 1,54,000. Until this year, a new Mac in Nepal meant saving for an Air at well over Rs 2 lakh or buying a used one. The Neo puts a new Mac beside ordinary Windows laptops, and for students that is a genuine change.</p>
+<h2>An iPhone chip in a laptop: does it work?</h2>
+<p>Yes, for what this laptop is meant to do. The A18 Pro has two very fast cores and four efficient ones. Single tasks, the kind you do all day, feel as quick as on any laptop at this price: opening apps, loading pages, typing, editing a photo. It is silent because there is no fan.</p>
+<p>Sustained work is different. Exporting a long 4K video, compiling a large project or running several heavy apps will take longer than on an Air. The chip has fewer cores and less cooling. It can do those jobs occasionally and should not be hired for them.</p>
+<h2>8GB on macOS</h2>
+<p>Apple's system is better than Windows at living in little memory. Compression and a quick SSD hide the limit for typical study. A dozen Safari tabs, Pages, Music and Zoom are fine. Chrome with thirty tabs plus Figma plus Teams is not. Use Safari, which is lighter, and close what you do not need.</p>
+<p>Since memory can never be added, ask yourself what you will be doing in the third year of your course. If the answer involves Xcode, Docker, virtual machines or Premiere, buy a different Mac.</p>
+<h2>256GB or 512GB?</h2>
+<p>The more expensive version brings twice the storage and Touch ID, for roughly Rs 20,000. The base model also lacks a keyboard backlight, according to the published details, and in a country where the lights still go out, that is more annoying than it sounds. External SSDs are cheap, so storage can be worked around. Touch ID and the backlight cannot. If you can afford it, the 512GB model is nicer to live with. If not, the base model with a portable drive is the value choice.</p>
+<h2>Screen, sound and camera</h2>
+<p>The 13-inch Liquid Retina panel is sharp and reaches 500 nits. It covers sRGB, a step below the wider colour of the Air, and that is fine for nearly everyone. The 1080p camera is much better than the webcams in most cheap laptops, and calls look clean. At 1.23kg, it disappears in a bag.</p>
+<h2>Battery</h2>
+<p>An efficient chip in a laptop body means a long day. Classes from morning to evening without a charger are realistic. It charges by USB-C, and a phone charger of 30W or more will do. In power cuts this is a calm machine to own.</p>
+<h2>Software in Nepal</h2>
+<p>Microsoft Office, Google Workspace, Zoom, Adobe apps and most study tools run well. Problems appear with local accounting packages, some government signing tools, AutoCAD add-ons, and Windows-only engineering software. If your college or employer uses those, ask first. For Nepali typing, macOS includes Devanagari layouts, and Preeti-based documents need font conversion.</p>
+<h2>Compared with Windows at the same price</h2>
+[[rivals:macbook-neo]]
+<p>The <a href="/products/lenovo-ideapad-slim-3-15ahp10-2025-ryzen-7-8840hs-16gb-512gb-153-wuxga">IdeaPad Slim 3 with Ryzen 7 8840HS</a> gives twice the memory and storage and far more power, with shorter battery life and a plain screen. The <a href="/products/acer-swift-lite-14-sfl14-41m-r4qm-2025-amd-ryzen-7-260">Swift Lite 14</a> is similar in a smaller body. The <a href="/products/dell-xps-13-2026">Dell XPS 13</a> is the closest in spirit, with more storage and the same memory on a system that needs more. For raw work, choose AMD. For comfort, quiet and longevity, choose the Mac.</p>
+<h2>Or a used MacBook Air?</h2>
+<p>This is the comparison many buyers should make. A clean M2 or M3 Air with 16GB can cost about the same. It has wider colour, more cores and more memory, along with a used battery and no warranty. Check battery cycles, the Activation Lock status and the keyboard. If you know the seller, a used Air with 16GB is the better computer. If you want new and worry-free, choose the Neo.</p>
+<h2>Who it suits</h2>
+<ul>
+<li>Students in management, humanities, medicine, law and media basics.</li>
+<li>iPhone owners who want messages, photos and calls across devices.</li>
+<li>Writers, teachers and small-business owners.</li>
+</ul>
+<h2>Who it does not suit</h2>
+<ul>
+<li>Computing and engineering students.</li>
+<li>Video editors and music producers.</li>
+<li>Gamers.</li>
+</ul>
+<h2>Buying tips</h2>
+<ul>
+<li>Check the serial on Apple's coverage page and the date of first activation.</li>
+<li>Ask whether the seller is an authorised reseller with a Nepali warranty. Apple's international cover depends on country and product.</li>
+<li>Ask for education offers.</li>
+<li>Budget for a USB-C hub, since projectors use HDMI.</li>
+</ul>
+<h2>Verdict</h2>
+<p>The MacBook Neo does one thing very well: it makes a pleasant, long-lasting, well-built laptop available at the price of an ordinary one. Its limits are printed on the box, and they are permanent. If your work fits inside 8GB, you will enjoy it every day. If it does not, no amount of polish will help.</p>

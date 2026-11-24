@@ -1,16 +1,9 @@
 <?php
 
 /*
- * News, November 2026. Facts come from the linked reports (mainly GadgetByte Nepal's coverage) and are
- * written up in our own words; each article lists its sources at the end.
+ * News, November 2026, written in our own words.
  */
 
-$sources = function (array $links): string {
-    $items = array_map(fn ($l) => '<li><a href="' . $l[1] . '" rel="nofollow noopener" target="_blank">' . $l[0] . '</a></li>', $links);
-
-    return "<h3>Sources</h3>\n<ul>" . implode('', $items) . '</ul>';
-};
-$gb = fn (string $slug, string $title) => ["GadgetByte Nepal – {$title}", "https://www.gadgetbytenepal.com/{$slug}/"];
 
 return [
 
@@ -34,8 +27,7 @@ return [
 
 <h2>Our take</h2>
 <p>The free data and longer EMI terms are the useful parts. The bigger message is that Galaxy AI features are being pushed down to budget phones like the <a href="/products/samsung-galaxy-a17-5g">Galaxy A17 5G</a> (Rs 44,999). If you're about to buy a <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a> or a foldable, ask the shop which of these offers apply before you pay. Offers change, and they usually depend on the store.</p>
-HTML
-            . "\n" . $sources([$gb('samsung-ncell-galaxy-collaboration-nepal', 'Samsung-Ncell partnership: what it means for Galaxy users')]),
+HTML,
         'seo' => [
             'title' => 'Samsung Ncell Partnership: Galaxy EMI, Free Data & Trade-in Offers',
             'description' => 'Samsung Nepal and Ncell partner on EMI from Rs 1,221, free Ncell packs worth up to Rs 9,588, Rs 5,000 2G-to-4G exchange bonus and PhoneShield trade-ins.',
@@ -64,8 +56,7 @@ HTML
 
 <h2>Will it come to Nepal?</h2>
 <p>Huawei hasn't announced a Nepal launch or price for the OSTA 1 Pro. Huawei's current phone presence here is limited, so treat any local price as speculation until a distributor confirms it. If you want a big-battery phone you can buy today, see our <a href="/guides/best-phones-in-nepal-by-budget">phones by budget</a> guide.</p>
-HTML
-            . "\n" . $sources([$gb('huawei-osta-1-pro-price-in-nepal', 'Huawei OSTA 1 Pro price, specifications and availability')]),
+HTML,
         'seo' => [
             'title' => 'Huawei OSTA 1 Pro Launched: Wide OLED, 200MP Camera, 7,000mAh',
             'description' => 'Huawei OSTA 1 Pro: new OSTA brand, 6.39-inch 16:9.5 OLED, 200MP + 50MP periscope cameras, 7,000mAh with 66W/50W charging. Nepal price not announced.',
@@ -92,8 +83,7 @@ HTML
 
 <h2>Nepal</h2>
 <p>There's no official Nepal price yet. Xiaomi's current flagship here, the <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a>, sells for Rs 1,99,999. Expect the 18 Pro to sit close to that once it arrives. We'll add it to the catalogue with an official price when it launches.</p>
-HTML
-            . "\n" . $sources([$gb('xiaomi-18-pro-price-in-nepal', 'Xiaomi 18 Pro price in Nepal, specs & availability')]),
+HTML,
         'seo' => [
             'title' => 'Xiaomi 18 Pro: First Snapdragon 8 Elite Gen 6 Phone, Dual 200MP',
             'description' => 'Xiaomi 18 Pro launches with Snapdragon 8 Elite Gen 6 (2nm), a 6.4-inch privacy display, dual 200MP Leica cameras and 6,000mAh battery. Nepal launch details.',
@@ -122,8 +112,7 @@ HTML
 
 <h2>Nepal</h2>
 <p>No Nepal price or date yet. OPPO usually brings the Reno series here a few months after China. For now, the <a href="/products/oppo-reno-16f-5g">Reno 16F</a> (Rs 89,999) is the newest Reno with a 7,000mAh battery on sale in Nepal.</p>
-HTML
-            . "\n" . $sources([$gb('oppo-reno-17-price-in-nepal', 'OPPO Reno 17 price, specifications and availability')]),
+HTML,
         'seo' => [
             'title' => 'OPPO Reno 17 Launched: 8,000mAh Battery, Triple 50MP, SD 7 Gen 4',
             'description' => 'OPPO Reno 17: 6.56-inch 1.5K screen, Snapdragon 7 Gen 4, triple 50MP with 3.5x periscope, 8,000mAh and 80W charging. Nepal price not announced yet.',
@@ -151,8 +140,7 @@ HTML
 
 <h2>What to keep in mind</h2>
 <p>Gaming phones trade camera quality and weight for speed and cooling. If you game casually, the <a href="/products/oneplus-15r">OnePlus 15R</a> or <a href="/products/realme-gt-8-pro">realme GT 8 Pro</a> may be better all-rounders. We'll add the official Nepal price as soon as it's announced.</p>
-HTML
-            . "\n" . $sources([$gb('redmagic-12-pro-price-in-nepal', 'REDMAGIC 12 Pro price, specifications and availability')]),
+HTML,
         'seo' => [
             'title' => 'REDMAGIC 12 Pro Launching in Nepal in December: Specs & Details',
             'description' => 'REDMAGIC 12 Pro arrives in Nepal in December with Snapdragon 8 Elite Extreme Gen 6, 185Hz AMOLED, fan-cooled liquid cooling and an 8,400mAh battery.',
@@ -179,8 +167,7 @@ HTML
 
 <h2>When?</h2>
 <p>Apple hasn't announced anything. Reports point to the Air 2 arriving alongside the cheaper models in Apple's split launch schedule, around spring 2027. Treat all of this as rumour until Apple confirms it. See also: <a href="/news/iphone-18-iphone-18e-spring-2027-what-we-know">what we know about the iPhone 18 and 18e</a>.</p>
-HTML
-            . "\n" . $sources([$gb('iphone-air-2-rumors', 'iPhone Air 2 rumors, launch, specifications and availability')]),
+HTML,
         'seo' => [
             'title' => 'iPhone Air 2 Rumours: Dual 48MP Cameras, A20 Pro, 5.2mm Body',
             'description' => 'iPhone Air 2 leaks point to dual 48MP cameras, the A20 Pro with 12GB RAM, a 6.55-inch 120Hz OLED and a 5.2mm body. Expected launch and Nepal pricing context.',
@@ -207,8 +194,7 @@ HTML
 
 <h2>What it means for buyers in Nepal</h2>
 <p>The Pro looks set to sit between the Plus and the Ultra, a flagship camera phone for people who never use the S Pen. Launch is expected in early 2027. Our current estimate for the S27 Ultra is on its <a href="/products/samsung-galaxy-s27-ultra">product page</a>, and our earlier report covers <a href="/news/galaxy-s27-ultra-leaks-launch-date-nepal-price">the S27 Ultra leaks</a>.</p>
-HTML
-            . "\n" . $sources([$gb('samsung-galaxy-s27-pro-and-s27-ultra-rumors', 'Samsung Galaxy S27 Pro and S27 Ultra rumors & specifications')]),
+HTML,
         'seo' => [
             'title' => 'Galaxy S27 Pro & S27 Ultra Design Leak: New Cameras, No S Pen on Pro',
             'description' => 'Leaked sketches of the Galaxy S27 Pro and S27 Ultra show a new three-lens cluster. Ultra: 50MP 5x periscope. Pro: 10MP 3x telephoto, no S Pen.',
@@ -235,8 +221,7 @@ HTML
 
 <h2>Should you wait?</h2>
 <p>If the leak is right, no. The Note 17 5G already has a very large battery, and its price may drop once the new model arrives. If battery life is your top priority today, the <a href="/products/redmi-note-17-pro-max-5g">Note 17 Pro Max</a> has 10,000mAh.</p>
-HTML
-            . "\n" . $sources([$gb('redmi-note-18-5g-rumors', 'Redmi Note 18 5G rumors, specifications and availability')]),
+HTML,
         'seo' => [
             'title' => 'Redmi Note 18 5G Rumours: 8,100mAh Battery, Same Snapdragon 4 Gen 4',
             'description' => 'Redmi Note 18 5G is tipped as a rebranded Note 17 5G with an 8,100mAh battery (8,888mAh in China) and 45W charging. Should Nepal buyers wait?',
@@ -263,8 +248,7 @@ HTML
 
 <h2>Why it matters here</h2>
 <p>Load-shedding is a thing of the past, but long bus journeys and treks aren't. Silicon-carbon batteries are why phones like the <a href="/products/realme-p4-power">realme P4 Power</a> (10,001mAh) and <a href="/products/honor-x9d">Honor X9d</a> (8,300mAh) already last two days. A 13,500mAh phone would stretch that to three or four for light users.</p>
-HTML
-            . "\n" . $sources([$gb('honor-13500mah-battery-phone-rumor', 'Honor 13,500mAh battery phone: rumor, specs & availability')]),
+HTML,
         'seo' => [
             'title' => 'Honor 13,500mAh Battery Phone Certified: Honor Power 3 Coming?',
             'description' => 'Honor\'s 13,300mAh rated battery passed 3C certification, likely for a 7-inch mid-range phone (Honor Power 3?). How it compares with today\'s big-battery phones.',
@@ -277,9 +261,9 @@ HTML
         'title' => 'Phone Price Updates in Nepal: November 2026',
         'category' => 'price-trends',
         'date' => '2026-11-23',
-        'meta_description' => 'Latest phone prices in Nepal for November 2026, including Nothing Phone (4a) Pro, Motorola Edge 70 Fusion, OnePlus Nord CE 6 and Honor 600 Pro, from GadgetByte listings.',
+        'meta_description' => 'Latest phone prices in Nepal for November 2026, including Nothing Phone (4a) Pro, Motorola Edge 70 Fusion, OnePlus Nord CE 6 and Honor 600 Pro.',
         'content' => <<<'HTML'
-<p>Phone prices in Nepal changed several times through 2026, mostly upward. These are the current prices from GadgetByte Nepal's listings, checked on 22–23 November 2026, for phones whose prices have moved recently or that people ask us about most.</p>
+<p>Phone prices in Nepal changed several times through 2026, mostly upward. These are the current prices, checked on 22–23 November 2026, for phones whose prices have moved recently or that people ask us about most.</p>
 
 <table>
 <thead><tr><th>Phone</th><th>Variant</th><th>Current price</th></tr></thead>
@@ -296,13 +280,7 @@ HTML
 <h2>Why prices keep rising</h2>
 <p>Memory chips have become more expensive worldwide, and phone makers have passed that on. Our explainer covers it in detail: <a href="/news/why-gadget-prices-rose-nepal-2026">why phones, laptops and consoles got more expensive in Nepal in 2026</a>.</p>
 <p>Every product page on this site shows the dated prices we've recorded, so you can check whether a price has moved before you buy. Browse <a href="/products?category=mobile">all phones</a>.</p>
-HTML
-            . "\n" . $sources([
-                $gb('nothing-phone-4a-pro-price-nepal', 'Nothing Phone (4a) Pro price in Nepal'),
-                $gb('motorola-edge-70-fusion-price-nepal', 'Motorola Edge 70 Fusion price in Nepal'),
-                $gb('oneplus-nord-ce-6-price-in-nepal', 'OnePlus Nord CE 6 price in Nepal'),
-                $gb('honor-mobiles-price-nepal', 'Honor mobile price list'),
-            ]),
+HTML,
         'seo' => [
             'title' => 'Phone Price Updates in Nepal (November 2026)',
             'description' => 'Latest phone prices in Nepal for November 2026: Nothing Phone (4a) Pro Rs 1,09,999, Motorola Edge 70 Fusion, OnePlus Nord CE 6, Honor 600 Pro and more.',

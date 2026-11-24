@@ -1,0 +1,418 @@
+=== best-laptops-under-80000-nepal
+<h2>The shortlist</h2>
+[[models:asus-vivobook-15-x1504va-2023-intel-core-i5-1334u-16gb-512gb-156-fhd,acer-aspire-go-15-ag15-21pt-2024-ryzen-5-7520u,dell-15-dc15250-2025,lenovo-ideapad-slim-3-14amn8-2023,acer-aspire-lite-14-al14-45p-ryzen-3-5400u,lenovo-ideapad-slim-3-14iru8-core-i3-1315u]]
+<h2>One machine stands apart</h2>
+<p>Look down the memory column and one line is different. The Vivobook 15 X1504VA with a Core i5-1334U, 16GB and 512GB for about Rs 80,000 is a stronger laptop than several that cost a lakh. It is a 2023 model and stock is uneven, so call before travelling. If you find it new with an official warranty, the rest of this page is academic. Buy it.</p>
+<p>If you cannot find it, the choice is between machines with 8GB, and then it becomes a matter of processor, storage, screen and service.</p>
+<h2>Reading a budget processor</h2>
+<p>Names are confusing on purpose, so here is a ranking of what you will meet under Rs 80,000, from most to least capable for normal work:</p>
+<ol>
+<li><strong>Core i5-1334U:</strong> ten cores, quick in everything ordinary.</li>
+<li><strong>Core i3-1315U and Core 3 100U:</strong> six cores, close to each other, good for study and office.</li>
+<li><strong>Ryzen 3 5400U:</strong> four solid cores of an older generation.</li>
+<li><strong>Ryzen 5 7520U:</strong> four efficient cores, despite the "5" in its name.</li>
+<li><strong>Core 3 N355 or i3-N305:</strong> eight small cores, fine for light use.</li>
+<li><strong>Athlon Silver 7120U:</strong> two cores. Emails and little else.</li>
+<li><strong>N100, N150, Celeron:</strong> for a single simple task.</li>
+</ol>
+<p>The IdeaPad Slim 3 14AMN8 in our list uses the Athlon. It is there as the cheapest acceptable machine from a good brand, and it should be treated as a typewriter with a browser. Its TN screen also loses colour when viewed from the side.</p>
+<h2>Why we keep saying 16GB</h2>
+<p>Windows 11 with a browser, Word and Teams uses about 8GB. On an 8GB laptop it borrows from the SSD all day. You feel it as short waits. In 2026 these are tolerable. In 2029, with heavier websites and programs, they will not be. If you buy an 8GB model, ask whether there is a free slot, because a second stick turns a four-year laptop into a six-year one. Some models, such as those with LPDDR5, have memory soldered and can never be upgraded.</p>
+<h2>Screens at this price</h2>
+<p>Expect Full HD, 250 nits and modest colour. The Dell 15 DC15250 offers 120Hz, which makes scrolling smoother, a pleasant extra. Make sure that the panel is IPS and not TN. To check, tilt the lid back and look from above. If the picture turns negative or pale, it is TN. For long reading, matte is better than glossy.</p>
+<h2>Storage</h2>
+<p>256GB is the minimum and 512GB is comfortable. An SSD can normally be replaced later for a few thousand rupees, so storage should not decide your purchase unless the machine has 128GB or uses slow eMMC, which is soldered.</p>
+<h2>Which one for which person</h2>
+<ul>
+<li><strong>Bachelor-level student in any subject:</strong> Vivobook 15 X1504VA.</li>
+<li><strong>School student:</strong> Acer Aspire Lite 14 or IdeaPad Slim 3 14 with Core i3.</li>
+<li><strong>Office and billing:</strong> Dell 15 DC15250, for service and a smooth screen.</li>
+<li><strong>Home and parents:</strong> Acer Aspire Go 15, for its larger battery and number pad.</li>
+<li><strong>Programming student:</strong> the Vivobook, or wait until you can reach <a href="/guides/best-laptops-under-100000-nepal">Rs 1 lakh</a>.</li>
+</ul>
+<h2>The used alternative</h2>
+<p>For Rs 50,000 to 75,000, used ThinkPads, Latitudes and EliteBooks from foreign offices come with 16GB, good keyboards and metal bodies. Many have an 11th or 12th generation Core i5, faster than most new laptops here. Check four things: battery health with the powercfg report, hinge tightness, screen marks, and whether a BIOS or company lock is present. Boot it, restart it, and make sure no "managed by organisation" message appears. A shop that gives three to six months of its own warranty is worth paying a little more.</p>
+<h2>What these laptops cannot do</h2>
+<p>They do not run modern games, 3D modelling or long video edits. They will run Valorant at low settings on the better chips and edit a short family video. If your course needs AutoCAD 3D, Revit, Blender or Premiere, saving for a machine with a graphics card is the honest advice. See <a href="/guides/best-gaming-laptops-nepal">gaming laptops</a>, as they double as engineering machines.</p>
+<h2>Costs after the purchase</h2>
+<p>Plan Rs 3,000 to 6,000 for a sleeve or bag, a mouse, and Office if you need the desktop version. Free alternatives work well: LibreOffice for documents, Google Docs for sharing, and Windows Security for protection. Do not pay a shop for pirated software. It is the most common way laptops in Nepal get infected.</p>
+<h2>Warranty and the bill</h2>
+<p>Ask for one year of official brand warranty, with the name of the service centre. "Shop warranty" on a new sealed laptop suggests an import. Check the serial number on the brand's website in front of the seller. Make sure that the VAT bill carries the serial number.</p>
+<h2>First evening checklist</h2>
+<ul>
+<li>Run Windows Update until nothing remains.</li>
+<li>Remove trial antivirus and shopping apps.</li>
+<li>Set the battery limit to 80 per cent if it lives on a desk.</li>
+<li>Turn on File History or cloud backup.</li>
+<li>Create a recovery USB stick.</li>
+</ul>
+<h2>Our advice in short</h2>
+<p>Find the Vivobook with 16GB. If you cannot, buy the best 8GB machine with a free memory slot, and add a stick within the year. And if you can wait until a sale brings the Rs 95,000 machines within reach, the wait will be rewarded for years.</p>
+
+=== best-laptops-under-100000-nepal
+<h2>The candidates</h2>
+[[models:msi-modern-14-2024-intel-core-7-150u,acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u,hp-15-fc0043nq-2024,asus-zenbook-14-oled-q415,dell-pro-15-pv15255-2025,asus-vivobook-15-x1504va-2023-intel-core-i5-1334u-16gb-512gb-156-fhd]]
+<h2>What a lakh should buy</h2>
+<p>Here is a minimum standard you can take into any shop. A processor with at least six cores, or a recent Core i5 or i7 of the U series. Sixteen gigabytes of memory. A 512GB NVMe drive. A Full HD IPS screen. One year of official warranty. Three of the laptops above meet it, and plenty of laptops sold for a lakh do not. If a seller shows you 8GB and 256GB at this price, walk to the next counter.</p>
+<h2>MSI Modern 14: the strongest sheet</h2>
+<p>A Core 7 150U with 16GB and a terabyte for Rs 93,000 is remarkable. The processor is quick in short tasks, and the 14-inch body weighs little. The screen is plain, the battery at under 47Wh is average, and MSI's service network is smaller than HP's or Dell's. For a student who wants speed and storage in a light machine, it leads the list. Make sure you are offered that exact configuration, as the same model exists with less.</p>
+<h2>Acer Aspire Lite 15: the all-day choice</h2>
+<p>Six Ryzen cores, 16GB and a 58Wh battery at under a lakh. The larger screen and number pad suit accounting, spreadsheets and long documents. It does not look exciting. <a href="/reviews/acer-aspire-lite-15-ryzen-5-review-nepal">Our review</a> explains why we like it anyway.</p>
+<h2>Zenbook 14 OLED: the beautiful one</h2>
+<p>An OLED screen and a Core Ultra 5 125H in a premium body, with only 8GB of soldered memory and usually an imported unit. If you mostly read, write and watch, it is a joy. If you run many programs, it is a trap. Read <a href="/reviews/asus-zenbook-14-oled-q415-review-nepal">the review</a> before falling in love.</p>
+<h2>HP 15 and Dell Pro 15</h2>
+<p>Both use the Ryzen 5 7520U, a four-core chip that is slower than its name suggests. Their strength is service: HP and Dell have the most developed support for offices in Nepal. Choose the 16GB version of the HP. The Dell's 120Hz display is pleasant, but 8GB at Rs 86,500 is weak.</p>
+<h2>Vivobook 15 X1504VA: still the bargain</h2>
+<p>We list it in the <a href="/guides/best-laptops-under-80000-nepal">Rs 80,000 guide</a>, and it belongs here as well. If you find it, you keep Rs 15,000 to 20,000 for a monitor, a better bag or a year of internet.</p>
+<h2>By course and job</h2>
+<p><strong>BBA, BBS, MBA, law:</strong> Aspire Lite 15 or HP 15 (16GB). Number pads and large screens help.</p>
+<p><strong>BCA, CSIT, computing:</strong> MSI Modern 14. Compiling benefits from its speed. Add memory if a slot exists.</p>
+<p><strong>Engineering:</strong> any of the 16GB machines is enough for the first two years of 2D drawing and MATLAB. Third-year 3D work calls for a graphics card.</p>
+<p><strong>Medicine and nursing:</strong> portability and battery. MSI Modern 14.</p>
+<p><strong>Design and media:</strong> the Zenbook's screen is tempting, but 8GB is too little for Photoshop and Premiere. Look at the next budget.</p>
+<p><strong>Remote work:</strong> Aspire Lite 15 with an external monitor makes a good desk.</p>
+<h2>Power cuts and battery life</h2>
+<p>Battery size in watt-hours tells you most. The Acer's 58Wh leads. 41 to 47Wh machines manage half a day of real work. If your area still loses power regularly, choose the larger battery, or buy a 65W USB-C power bank for laptops that charge by USB-C. Check that the USB-C port supports charging. A port that only carries data looks the same.</p>
+<h2>Ports you will miss if they are absent</h2>
+<p>HDMI for projectors, at least two USB-A ports for pen drives and a mouse, and an Ethernet port if your college lab has unreliable Wi-Fi. Slim laptops drop some of these. A Rs 2,000 hub solves it, and it is one more thing to carry.</p>
+<h2>Upgrades that make sense</h2>
+<ul>
+<li><strong>Memory:</strong> an extra stick, if there is a slot, is the best value.</li>
+<li><strong>Storage:</strong> 1TB NVMe when 512GB fills.</li>
+<li><strong>Monitor:</strong> a 24-inch Full HD screen at home does more for your back and eyes than any processor. See <a href="/products?category=monitor">monitors</a>.</li>
+<li><strong>Keyboard and mouse:</strong> a basic wireless set for desk use.</li>
+</ul>
+<h2>Festival offers and EMI</h2>
+<p>Laptop dealers discount around new academic sessions and Dashain. Free items are common: bags, mice, antivirus and headphones worth less than they claim. Ask for the cash price without gifts. EMI at zero interest is real when the cash price stays the same. The estimate on our product pages shows the monthly amount.</p>
+<h2>Mistakes we see</h2>
+<ul>
+<li>Choosing by brand and then accepting 8GB.</li>
+<li>Buying an older gaming laptop for college because it looks powerful, then carrying 2.5kg daily.</li>
+<li>Paying extra for a touchscreen that is used twice.</li>
+<li>Ignoring the keyboard. You will touch it more than anything else. Type a paragraph in the shop.</li>
+</ul>
+<h2>Verdict</h2>
+<p>For most people with a lakh we suggest the Acer Aspire Lite 15. For those who carry their laptop and want it quick, the MSI Modern 14. For readers and writers with a love of screens, the Zenbook. For bargain hunters, the Vivobook. Any of these will see you through a degree if you treat it gently and keep it clean.</p>
+
+=== best-laptops-under-150000-nepal
+<h2>The main options</h2>
+[[models:acer-aspire-ai-a14-52mt-2025-intel-core-ultra-7-258v,hp-probook-445-g11-ryzen-5-7535u,hp-elitebook-655-g10-ryzen-5-pro-7530u,asus-vivobook-s15-oled-x-plus-16gb-1tb-15-6-3k-oled,acer-swift-lite-14-ai-sfl14-54m-786p-2025-intel-core-ultra-7-155u-16gb-512gb-14-wuxga-oled-60hz,hp-victus-15]]
+<h2>A budget with three roads</h2>
+<p>With Rs 1.5 lakh you can walk into a shop and come out with a light machine that lasts all day, a sturdy business laptop with lots of memory, or an entry gaming laptop. They are different tools. The commonest mistake at this level is to buy the third for the work of the first, and then spend four years carrying 2.3 kilos and looking for sockets.</p>
+<h2>Road one: light and long-lasting</h2>
+<p><strong>Acer Aspire 14 AI with Core Ultra 7 258V</strong> is our favourite laptop under Rs 1.5 lakh. Intel's Lunar Lake chip is thrifty in the way that phones are, so a working day on battery is realistic. It has 32GB and 1TB, which nobody else offers here with that chip. The screen is an ordinary 14-inch panel at 60Hz, fine for work. If you want one laptop for five years of study or office, stop here.</p>
+<p><strong>Acer Swift Lite 14 AI</strong> trades memory and chip efficiency for an OLED screen. <strong>Vivobook S15</strong> goes further, with a 3K 120Hz OLED and great battery life on a Snapdragon processor, and the compatibility homework that comes with it. <a href="/reviews/asus-vivobook-s15-snapdragon-review-nepal">Our review</a> has a list of what runs and what may not.</p>
+<h2>Road two: business machines</h2>
+<p><strong>HP ProBook 445 G11</strong> at about Rs 1,15,000 comes with 32GB and Windows 11 Pro. <strong>EliteBook 655 G10</strong> adds a terabyte and a stronger build. Business lines have better keyboards, spill resistance, docking support and parts that are stocked for years. They are plain to look at and often outlive prettier machines. Offices, accountants and developers who keep many things open should look here first.</p>
+<h2>Road three: entry gaming</h2>
+<p><strong>HP Victus 15</strong> starts just under the limit. Choose the version with an RTX 4050 if it fits. With an RTX 3050 you get esports and older games. The same graphics cards accelerate Blender, Premiere and CUDA work for students. <a href="/reviews/hp-victus-15-review-nepal">Read our review</a> for the versions and their differences.</p>
+<h2>What about a Mac?</h2>
+<p>The <a href="/products/macbook-neo">MacBook Neo</a> is priced from about Rs 1,33,499. It is light, silent and long-lasting, with 8GB of memory and 256GB of storage in the base model. For writing, study and browsing it is delightful. For developers and editors it is too small. <a href="/reviews/macbook-neo-review-nepal">Our review</a> helps you decide which group you are in.</p>
+<h2>And raw power without a graphics card?</h2>
+<p>The <a href="/products/lenovo-ideapad-slim-3-15ahp10-2025-ryzen-7-8840hs-16gb-512gb-153-wuxga">IdeaPad Slim 3 with a Ryzen 7 8840HS</a> offers eight strong cores and the best integrated graphics at this price. Computing and data students who sit near a socket get the most from it.</p>
+<h2>Comparing processors quickly</h2>
+<ul>
+<li><strong>Core Ultra 7 258V:</strong> efficient, quick in short tasks, modern graphics.</li>
+<li><strong>Ryzen 7 8840HS:</strong> strongest in sustained multi-core work.</li>
+<li><strong>Core Ultra 7 155U:</strong> balanced, an earlier generation.</li>
+<li><strong>Ryzen 5 7535U and 7530U:</strong> older six-core parts, dependable and not fast.</li>
+<li><strong>Snapdragon X Plus:</strong> efficient, with Arm software limits.</li>
+</ul>
+<p>In documents and browsing you will hardly notice a difference. In compiling, rendering and exports you will, in the order 8840HS, 258V, 155U, 7535U.</p>
+<h2>How much memory?</h2>
+<p>Sixteen gigabytes is comfortable for nearly everyone. Thirty-two matters for virtual machines, Android development, large datasets, many browser profiles or heavy photo work. On chips like the 258V, memory is part of the processor package, so choose the right amount on the first day.</p>
+<h2>Screen advice</h2>
+<p>If you edit pictures or watch films, OLED is worth it. If you work on spreadsheets with static toolbars for eight hours a day, a good IPS panel avoids the risk of uneven wear. Look for 16:10 screens, such as WUXGA, as they show more lines. Aim for at least 300 nits.</p>
+<h2>Warranty differences</h2>
+<p>Business laptops sold officially may carry up to three years of warranty, with on-site service in some contracts. Ask. Consumer laptops usually have one or two years. Many of the attractive configurations in Nepal, with 32GB and odd processors, come through importers. That is not wrong, but the promise then belongs to the shop. Get it in writing with the duration and what is covered.</p>
+<h2>Who should pick what</h2>
+<ul>
+<li><strong>One laptop for everything, five years:</strong> Acer Aspire 14 AI.</li>
+<li><strong>Company purchase:</strong> HP ProBook 445 G11.</li>
+<li><strong>Developer who plugs in:</strong> IdeaPad Slim 3 Ryzen 7.</li>
+<li><strong>Film and photo lover with simple software needs:</strong> Vivobook S15.</li>
+<li><strong>Student gamer:</strong> HP Victus 15 RTX 4050.</li>
+<li><strong>iPhone owner who writes:</strong> MacBook Neo.</li>
+</ul>
+<h2>Before you pay</h2>
+<p>Open Settings and read the exact processor and memory. Run a battery report. Connect to your phone's hotspot and play a video. Try the webcam in the light of the shop. Check that the charger is original and what wattage it has. For a laptop at this price, half an hour of checking is reasonable, and a good dealer will not mind.</p>
+<h2>Should you go up to two lakhs?</h2>
+<p>If you game seriously or need a better graphics card, yes. The <a href="/guides/best-laptops-under-200000-nepal">next guide</a> has laptops with an RTX 5050 at full power. If you do not, the Rs 1.4 lakh Acer already does what you need, and the extra fifty thousand is better spent on a monitor, a chair and a backup drive.</p>
+
+=== best-laptops-under-200000-nepal
+<h2>At a glance</h2>
+[[models:lenovo-loq-15-2025,asus-tuf-gaming-a16-fa607nuq-2026,asus-tuf-gaming-f16-fx607-2024,acer-aspire-14-ai-a14-52mt-94h5-2025-intel-core-ultra-9-288v-32gb-1tb-14-wuxga-touch,dell-inspiron-14-plus-7440-intel-core-ultra-9-185h,hp-spectre-x360-14-eu0060ca-2024-intel-core-ultra-5-125h-16gb-16gb-14-3k-oled-touch,lenovo-yoga-slim-7i-aura-edition]]
+<h2>Decide what the laptop is for</h2>
+<p>Two lakhs is a serious amount, and the two halves of this page have almost nothing in common. On one side are machines with graphics cards, thick bodies and fans. On the other are thin ones with lovely screens, made for people who carry a computer every day. A good question to ask yourself is where the laptop will be at three in the afternoon on a normal Tuesday. If the answer is a desk with a socket, either side is open. If it is a classroom, a cafe or a client's office, choose the thin side.</p>
+<h2>Gaming and heavy work</h2>
+<p><strong>Lenovo LOQ 15 (2025).</strong> An RTX 5050 at its full 100W, a 100% sRGB screen and solid cooling for under two lakhs. The full power matters: other laptops with the same chip at 60 or 70W are noticeably slower. The colour-accurate screen makes it usable for design students as well. It ships with one 16GB stick and 512GB, so plan for a second stick and a second drive. <a href="/reviews/lenovo-loq-15-2025-review-nepal">Our review</a> covers it in full.</p>
+<p><strong>Asus TUF A16 (2026).</strong> A larger 16-inch display, a tough chassis and an eight-core Ryzen with an RTX 4050. It is the choice for people who are hard on their things. The graphics chip is a generation behind.</p>
+<p><strong>Asus TUF F16 FX607.</strong> Cheaper, with several versions that share one name. The graphics card and memory vary, so read the label twice. The base version with 8GB is not worth buying.</p>
+<h2>Thin, light and long-lasting</h2>
+<p><strong>Yoga Slim 7i Aura.</strong> At Rs 1,64,999, with an OLED screen, 16GB and the efficient Core Ultra 5 226V, it is the best value on this side. <a href="/reviews/lenovo-yoga-slim-7i-aura-edition-review-nepal">Read more</a>.</p>
+<p><strong>Acer Aspire 14 AI with Core Ultra 9 288V.</strong> The fastest version of Intel's efficient chip with 32GB and 1TB and a touchscreen. The body and screen are less premium than the Yoga's. For professionals who need memory and battery more than beauty, it is excellent. The cheaper <a href="/products/acer-aspire-ai-a14-52mt-2025-intel-core-ultra-7-258v">258V version</a> gives you nine-tenths of it for Rs 46,000 less, so think before paying for the Ultra 9.</p>
+<p><strong>Dell Inspiron 14 Plus.</strong> A Core Ultra 9 185H with sixteen cores and 32GB in a 14-inch body. It is a developer's machine: fast at compiling, warm under load and average on battery.</p>
+<p><strong>HP Spectre x360 14.</strong> A convertible with a wonderful 2.8K OLED at 120Hz and a pen-friendly hinge. Listings disagree about its processor. The name says Core Ultra 5 125H and our sheet says Ultra 7 155H, so check the sticker. It is the most luxurious object on the page.</p>
+<h2>What an RTX laptop does for non-gamers</h2>
+<p>Students of architecture, civil engineering, animation and data science need a graphics card for Lumion, Twinmotion, Blender, Revit and CUDA libraries. An RTX 5050 with 8GB of video memory is a fair entry level. The VRAM amount matters more than the name, so look for 8GB. Video editors benefit from hardware encoding and effects acceleration too. If you are in one of those fields, the LOQ is a tool and not a toy.</p>
+<h2>Weight, heat and noise</h2>
+<p>Gaming laptops weigh 2.2 to 2.5kg and their chargers another half kilo or more. Their fans are loud under load. Their batteries last three to five hours in light use and one in games. Thin laptops weigh 1.2 to 1.5kg, are nearly silent and last eight hours or more. There is no machine that is both. Anyone who tells you otherwise is selling something.</p>
+<h2>Screens for creative work</h2>
+<p>Ask for the colour coverage. 100% sRGB is the minimum for design. DCI-P3 coverage of 95% or more, as on the OLED machines, is better for photo and video. Many gaming laptops still use 45% NTSC panels, which look washed out. The LOQ avoids that. Check the exact panel of the unit in the shop.</p>
+<h2>Desktop instead?</h2>
+<p>If the computer will not move, two lakhs builds a far stronger desktop with a monitor included. You can upgrade it for a decade. Try our <a href="/custom-pc-build">PC builder</a> before deciding. Many students would be better served by a desktop at home and a Rs 45,000 used ThinkPad for class.</p>
+<h2>And a MacBook?</h2>
+<p>Within this budget it is the <a href="/products/macbook-neo">Neo</a>, or a used M2 or M3 MacBook Air. A new <a href="/products/macbook-air-m5-13">Air M5</a> is above Rs 2.3 lakh. For writers and students who like macOS, a clean used Air with 16GB is a very good buy.</p>
+<h2>Checklist for gaming laptops</h2>
+<ul>
+<li>Graphics power (TGP) in watts, read from Nvidia Control Panel.</li>
+<li>Video memory: 8GB if possible.</li>
+<li>Memory: 16GB, and whether a slot is free.</li>
+<li>MUX switch or Advanced Optimus, for a few more frames.</li>
+<li>Panel: refresh rate, brightness, sRGB.</li>
+<li>Second M.2 slot.</li>
+</ul>
+<h2>Checklist for thin laptops</h2>
+<ul>
+<li>Battery in watt-hours and the chip family.</li>
+<li>Memory: soldered, so choose enough.</li>
+<li>Keyboard feel and backlight.</li>
+<li>USB-C charging.</li>
+<li>Webcam of 1080p or better.</li>
+</ul>
+<h2>Our picks</h2>
+<p>For games and technical courses, the Lenovo LOQ 15. For professional work, the Yoga Slim 7i Aura if 16GB is enough, or the Acer Aspire 14 AI with the 258V if it is not, saving enough for a good monitor. For developers who want muscle, the Inspiron 14 Plus. For people who love beautiful things and a pen, the Spectre.</p>
+
+=== best-gaming-laptops-nepal
+<h2>The ladder, rung by rung</h2>
+[[models:hp-victus-15,asus-tuf-gaming-a15-fa506ncg-2024,acer-nitro-lite-16-2025-13th-gen-i7-13620h-rtx-4050-16gb-512gb,asus-tuf-gaming-a16-fa607nuq-2026,lenovo-loq-15-2025,acer-nitro-v-16-ai,lenovo-legion-5-15ahp10,asus-rog-strix-g18-2025,msi-vector-16-hx-ai-2025]]
+<h2>The three numbers that decide everything</h2>
+<p>A gaming laptop's sticker is full of words. Only three numbers matter at first.</p>
+<p><strong>The graphics chip and its watts.</strong> An RTX 4050 at 100W beats an RTX 4060 at 45W in many games. Makers are not required to print the figure in large type. Ask, or open Nvidia Control Panel, System Information, and look for maximum graphics power.</p>
+<p><strong>Video memory.</strong> Games store textures here. 6GB is the practical minimum in 2026 and 8GB is comfortable at 1080p. An RTX 3050 with 4GB will run out before it runs slow.</p>
+<p><strong>System memory.</strong> Sixteen gigabytes, ideally as two sticks. A single stick can cost you a tenth of your frames.</p>
+<p>Processor, refresh rate and storage come after these.</p>
+<h2>What each class plays</h2>
+<p><strong>RTX 3050 (about Rs 1.4 to 1.6 lakh).</strong> Valorant, CS2, Dota 2, League, Rocket League, Minecraft, GTA V, older story games. New releases at low settings, if at all.</p>
+<p><strong>RTX 4050 and 5050 (Rs 1.65 to 2 lakh).</strong> Nearly everything at 1080p with medium to high settings and DLSS. The 5050 adds newer frame generation and, usually, 8GB.</p>
+<p><strong>RTX 5060 (Rs 2.2 to 3 lakh).</strong> High settings at 1080p, good 1440p with DLSS. The sensible upper limit for most people.</p>
+<p><strong>RTX 5070 and 5070 Ti (Rs 3.5 lakh upward).</strong> 1440p with high settings and some ray tracing. More important for creators who use the extra video memory.</p>
+<p><strong>RTX 5080 and 5090 (Rs 5 lakh and beyond).</strong> For professionals and people who do not ask the price.</p>
+<h2>The same game on a desktop</h2>
+<p>It is only fair to say it: a desktop gives more for less. A Rs 1,80,000 desktop with a full RTX 5060 outperforms most laptops costing Rs 2,60,000, runs cooler, and can be upgraded for years. If you play in one room, look at the <a href="/custom-pc-build">PC builder</a>. If you move between hostel and home, a laptop is the right answer.</p>
+<h2>Consoles are part of the question</h2>
+<p>A PlayStation 5 costs about as much as an entry gaming laptop's graphics card alone, connects to any TV and plays big releases without settings menus. GTA VI is on consoles first. If you do not need a computer for study, a console plus a Rs 70,000 laptop may be better than one Rs 1,80,000 machine. See <a href="/news/ps5-price-in-nepal-november-2026">PS5 prices</a>.</p>
+<h2>Cooling in a warm country</h2>
+<p>Reviews online are done in cool rooms. In the Terai, or on a top floor in Kathmandu in June, the same laptop reaches its thermal limit earlier and slows. Choose thicker chassis with more vents: Legion and TUF A16 over slim designs. Keep the machine on a hard surface, raise the rear, clean it every few months, and cap frames to what your screen and eyes can use.</p>
+<h2>Screens</h2>
+<p>144Hz is plenty. 165Hz and above is for competitive players. More valuable is brightness of 300 nits and 100% sRGB colour, as on the LOQ and Legion. 16-inch 16:10 displays are better for work. If you connect an external monitor, check that the HDMI or USB-C port is wired to the graphics chip and supports the refresh rate you want.</p>
+<h2>Power at home</h2>
+<p>Gaming laptops use 135 to 330W chargers. Confirm that your inverter or UPS can carry it along with the router and lights. Use a surge protector. Never replace the charger with a lower-rated one: the laptop will drain its battery while plugged in.</p>
+<h2>Why the MUX switch matters</h2>
+<p>In normal mode, the picture from the Nvidia chip passes through the processor's graphics, which costs some performance. A MUX switch or Advanced Optimus bypasses it. If two laptops are otherwise equal, choose the one that has it.</p>
+<h2>Which one should you buy?</h2>
+<ul>
+<li><strong>Budget under Rs 1.5 lakh:</strong> HP Victus 15 with the best graphics chip you can get. See also <a href="/news/best-gaming-laptops-nepal-under-150000-2024">gaming laptops under Rs 1.5 lakh</a>.</li>
+<li><strong>Rs 1.7 lakh:</strong> <a href="/reviews/acer-nitro-lite-16-rtx-4050-review-nepal">Nitro Lite 16</a> or the Victus with RTX 4050.</li>
+<li><strong>Under two lakhs:</strong> <a href="/reviews/lenovo-loq-15-2025-review-nepal">Lenovo LOQ 15</a>. It is our value pick of the whole list.</li>
+<li><strong>Rs 2.3 to 2.6 lakh:</strong> Legion 5 for cooling and finish, Nitro V 16 AI for storage.</li>
+<li><strong>Above five lakhs:</strong> Strix G18 for a desktop replacement.</li>
+</ul>
+<h2>New, used or open-box</h2>
+<p>Gaming laptops age faster than office ones. A used machine may have spent two years at ninety degrees. If you buy used, run a stress test for twenty minutes, watch temperatures, listen to the fans, and inspect the hinges and the area around the vents. RTX 3060 laptops from 2022 can be excellent value at under a lakh if they pass. Ask when the thermal paste was last replaced.</p>
+<h2>Budget for what comes after</h2>
+<p>Keep aside Rs 8,000 to 12,000 for a 1TB drive, Rs 3,000 for a cooling stand, and something for a headset and mouse. Games cost money too. Plan for the subscription or the discs.</p>
+<h2>Setting it up well</h2>
+<ul>
+<li>Update graphics drivers from Nvidia, and the BIOS from the maker.</li>
+<li>Use performance mode plugged in and balanced mode on battery.</li>
+<li>Turn on DLSS Quality first, then raise other settings.</li>
+<li>Keep 15 per cent of the SSD free.</li>
+<li>Limit the battery to 80 per cent if it lives on a desk.</li>
+</ul>
+<h2>A word about timing</h2>
+<p>Prices of memory and drives went up during 2026, so discounts are smaller than before. The best moments remain Dashain, the new year and the weeks before a new generation. If a machine you like drops by ten per cent with the same warranty, that is a good day to buy.</p>
+
+=== best-laptops-nepal-students-gamers
+<h2>Where the price list stands today</h2>
+[[models:macbook-neo,dell-xps-13-2026,lenovo-yoga-slim-7i-aura-edition,macbook-air-m5-13,asus-zenbook-14-oled-um3406ga,hp-victus-15,lenovo-loq-15-2025,acer-nitro-v-16-ai,lenovo-legion-5-15ahp10]]
+<p>The table uses current catalogue prices, so a few figures differ slightly from those quoted in the picks above. Where they differ, trust the table and the product page.</p>
+<h2>Begin with your course or job</h2>
+<p><strong>Management, humanities, law, education.</strong> Documents, presentations, video calls. A processor of any recent type, 16GB if possible, a comfortable keyboard and a good battery. Rs 80,000 to 1,00,000 is enough. Our <a href="/guides/best-laptops-under-100000-nepal">one-lakh guide</a> is the right page for you.</p>
+<p><strong>Computing and data.</strong> Cores and memory. Six cores at the least, eight if you can, 16GB or more. The Ryzen 7 8840HS machines at Rs 1.3 lakh are very good value.</p>
+<p><strong>Civil, mechanical, architecture.</strong> A graphics card from the third year onwards. Start with an RTX laptop such as the LOQ 15 if you can afford to buy once. Otherwise use a 16GB laptop for two years and upgrade.</p>
+<p><strong>Medicine and nursing.</strong> Light weight, long battery, good screen for images. Yoga Slim 7i Aura, MacBook Neo or a used MacBook Air.</p>
+<p><strong>Media, film and design.</strong> Colour-accurate screen, 16 to 32GB, fast drive. MacBook Air M5, or a Windows laptop with an RTX chip and 100% sRGB.</p>
+<p><strong>Office and remote work.</strong> Webcam, microphone, keyboard, USB-C and a monitor at home. Business lines such as ProBook, Latitude and ThinkPad are better value than they look.</p>
+<h2>Understanding processor names in 2026</h2>
+<p>Intel now sells Core and Core Ultra in several series that are unrelated to each other. Letters at the end tell you more than the numbers. <strong>V</strong> means very efficient with memory built in. <strong>U</strong> is low power. <strong>H</strong> is stronger and hotter. <strong>HX</strong> is desktop-class. AMD uses Ryzen 200, Ryzen AI 300 and 400, along with many renamed older chips such as the 7520U and 7430U. When in doubt, count the cores and check the launch year.</p>
+<h2>Windows, Mac or Arm?</h2>
+<p>Windows on Intel or AMD runs everything and is the safe choice for Nepali software, from Tally to government signing tools. A Mac lasts longer on battery and holds its value. Some Windows-only programs will not run. Windows on Snapdragon gives Mac-like battery with more limits, described in <a href="/news/qualcomm-oryon-snapdragon-x-elite-laptops-nepal-battery-benchmarks">our Snapdragon laptop article</a>. Write down the programs you must have before choosing.</p>
+<h2>Screen size and weight</h2>
+<p>Fourteen inches is the best compromise if you carry the laptop daily. Fifteen or sixteen inches is easier on the eyes at a desk and brings a number pad. Below 1.4kg you stop noticing it in a bag. Above 2kg you leave it at home. Also think about the charger: a USB-C brick of 65W is light, and a gaming brick is as heavy as a book.</p>
+<h2>How long should it last?</h2>
+<p>A well-chosen laptop should serve five years. The parts that end its life are usually memory, battery and hinges. So buy enough memory on the first day, choose a model whose battery can be replaced, and open the lid from the middle. A yearly clean and a thermal paste change in the third year keep it quiet and quick.</p>
+<h2>Buying new against buying used</h2>
+<p>Up to Rs 80,000 the used business market often beats new laptops. From a lakh upwards, new machines make more sense because of warranty, batteries and efficiency. Used MacBook Airs with 16GB are an exception and remain attractive. Used gaming laptops are a risk, as heat ages them.</p>
+<h2>Warranty in Nepal</h2>
+<p>HP, Dell, Lenovo, Asus and Acer have official service here. MSI and others work through distributors. Apple has authorised resellers and service providers. Ask who repairs the laptop, how long the parts take and whether the warranty is printed in the maker's system. Enter the serial number on the brand's site in the shop. Our <a href="/about">partners</a> and many other shops sell both official and imported stock, and an honest seller will tell you which one you are looking at.</p>
+<h2>What the prices do through the year</h2>
+<p>In 2026 laptop prices moved upwards with the cost of memory and storage. Configurations with 16GB that were Rs 85,000 in January are nearer a lakh now. New sessions in the colleges, Dashain and the western calendar's year end bring offers. If you need a laptop for a course, buy at least two weeks before classes start, as stock of good configurations disappears first.</p>
+<h2>Things to buy with it</h2>
+<ul>
+<li>A padded bag or sleeve.</li>
+<li>A wireless mouse. Your wrist will thank you.</li>
+<li>A 1TB external drive for backup. Two copies of every important file, one of them away from the laptop.</li>
+<li>A surge protector.</li>
+<li>A USB-C hub if your laptop lacks HDMI.</li>
+</ul>
+<h2>Ten-minute test in the shop</h2>
+<p>Type a paragraph. Scroll a long page with the touchpad. Play a video at full volume. Look at a white and a black screen. Turn on the webcam. Open Task Manager and read the memory and processor. Run the battery report. Plug in the charger and see that it charges. Close the lid, open it and see how quickly it wakes. Feel the base after all that. If nothing annoyed you, it is a good laptop for you.</p>
+<h2>If you are still undecided</h2>
+<p>Tell us your course, budget and what you carry every day through the <a href="/contact">contact page</a>, or line up two candidates in the <a href="/compare">comparison tool</a>. Nine times out of ten the answer is the one with more memory.</p>
+
+=== best-tablets-nepal
+<h2>All the picks, with current prices</h2>
+[[models:redmi-pad-2,oneplus-pad-lite,xiaomi-pad-7,samsung-galaxy-tab-s10-fe,ipad-11-2025,samsung-galaxy-tab-s11,apple-ipad-air-11-m4-2026,apple-ipad-pro-11-m5-2025]]
+<p>Some prices have moved since the picks above were written. The Redmi Pad 2, for example, starts higher for the version most shops stock, and the iPad 11 has come down a little. The table follows the live catalogue.</p>
+<h2>What will it do at eight in the evening?</h2>
+<p>That is a better question than "which tablet is best". In most homes a tablet plays video in the kitchen, entertains a child, shows a PDF to a student or holds a recipe. For those, a Rs 25,000 to 35,000 tablet is as good as one that costs a lakh. If the honest answer is "I will write notes for three hours" or "I will draw", you need a pen and a better screen. If it is "I will work on it", you need a keyboard, and perhaps a laptop.</p>
+<h2>For watching and reading</h2>
+<p>Size, resolution and speakers matter most. Eleven inches with a 2K or better screen, four speakers and a battery of 8,000mAh or more is the formula, and the Redmi Pad 2 and OnePlus Pad Lite follow it. Check Widevine L1 support if you use Netflix or Prime Video, since without it films play in low resolution. The seller can show it with a free app such as DRM Info.</p>
+<h2>For students</h2>
+<p>A pen changes what a tablet is for. Handwritten notes over lecture slides, diagrams, signatures and maths are where it beats a laptop. Three approaches:</p>
+<ul>
+<li><strong>Galaxy Tab S10 FE:</strong> the pen is in the box, it never needs charging, and the tablet is water resistant. Our choice for most students.</li>
+<li><strong>iPad 11 with Apple Pencil (USB-C):</strong> the best note apps, with a pen that costs extra.</li>
+<li><strong>Xiaomi Pad 7 with Xiaomi's pen:</strong> the smoothest screen for the price. Check availability of the pen before buying the tablet.</li>
+</ul>
+<p>Add a case with a stand. A tablet without one is tiring in class.</p>
+<h2>For artists</h2>
+<p>iPad with Procreate remains the easiest start. The base iPad 11 is fine for learning. The Air adds a better pencil with pressure and hover features, and a laminated display that removes the gap between tip and line. The Pro's OLED is for professionals. On the Samsung side, the Tab S11's AMOLED and included S Pen with Clip Studio or Infinite Painter make a strong alternative. Beginners who only want to draw at a desk can also use a pen tablet with their computer for much less.</p>
+<h2>For work</h2>
+<p>iPadOS with windows and Samsung's DeX have made tablets better at multitasking. They can replace a laptop for email, documents, meetings and browsing. They still cannot run full Excel add-ins, accounting packages, coding tools or many government sites properly. Add the price of the keyboard before deciding. An iPad Air with keyboard and pencil is far above the price of a decent laptop. Our piece on <a href="/guides/laptop-vs-tablet-work-study-nepal">laptop or tablet</a> works it through.</p>
+<h2>For children</h2>
+<p>Choose a smaller, tougher and cheaper device, with a rubber case. The 8.7-inch Galaxy Tab A11 and 9.7-inch Redmi Pad 2 are right. Set up Google Family Link or Samsung Kids on the first day, with a time limit and app approvals. Cheap tablets with unknown names often carry old Android versions, poor screens and no security updates. Avoid them for children in particular.</p>
+<h2>Wi-Fi or SIM?</h2>
+<p>A SIM slot adds Rs 5,000 to 20,000. Most people can use their phone as a hotspot. Field workers, people who travel and those using a tablet in a vehicle benefit from LTE. Check that the tablet with a SIM is registered in MDMS, as devices with cellular modems have IMEI numbers. <a href="/guides/how-to-check-phone-is-official-in-nepal">This guide</a> shows how.</p>
+<h2>How long do tablets last?</h2>
+<p>Longer than phones. iPads receive updates for seven years or so. Samsung's S series and FE have similar promises. Xiaomi, OnePlus and Honor offer fewer. A tablet that is used for video can live happily without the newest Android, so support matters most if you use banking or work apps on it.</p>
+<h2>Memory and storage</h2>
+<p>Avoid 4GB unless it is for a child and video. Six is fine, and eight is comfortable. 128GB is enough for most, as films can be streamed or placed on a card. iPads have no card slot, so choose with care. The base 128GB is usually sufficient for notes and study.</p>
+<h2>Screen facts worth knowing</h2>
+<ul>
+<li>90Hz is fine, and 120Hz or 144Hz makes writing feel more natural.</li>
+<li>400 to 500 nits is enough indoors and weak outdoors.</li>
+<li>Laminated screens look better for pens.</li>
+<li>Matte paper-like protectors improve writing and reduce sharpness.</li>
+<li>LCD is fine for reading, AMOLED for films.</li>
+</ul>
+<h2>Buying tips</h2>
+<p>Look for official units with a Nepali warranty. Screen replacement on a tablet can cost half of its price, so a case is essential. Ask whether the charger is included and its wattage, as a 10,000mAh battery on a 10W charger takes all night. Bundles with keyboards are often good value at launch and during Dashain.</p>
+<h2>Our recommendations</h2>
+<ul>
+<li><strong>Family:</strong> Redmi Pad 2.</li>
+<li><strong>Student:</strong> Galaxy Tab S10 FE.</li>
+<li><strong>Student on a smaller budget:</strong> Xiaomi Pad 7.</li>
+<li><strong>iPhone household:</strong> iPad 11.</li>
+<li><strong>Artist:</strong> iPad Air 11 or Galaxy Tab S11.</li>
+<li><strong>Child:</strong> Redmi Pad 2 9.7 or Galaxy Tab A11.</li>
+</ul>
+<p>For tighter budgets, see tablets <a href="/guides/best-tablets-under-30000-nepal">under Rs 30,000</a> and <a href="/guides/best-tablets-under-50000-nepal">under Rs 50,000</a>.</p>
+
+=== best-tablets-under-30000-nepal
+<h2>Five tablets compared</h2>
+[[models:redmi-pad-2,honor-pad-x8b,redmi-pad-2-9-7,samsung-galaxy-tab-a11,infinix-xpad-20-pro]]
+<h2>What a cheap tablet is good for</h2>
+<p>A tablet under Rs 30,000 is a window. It shows films, lessons, cartoons, books and video calls on a larger screen than your phone, with a battery that lasts an evening or three. It is not a computer. People who buy it as a window are happy for years. People who buy it to replace a laptop return to the shop within a month.</p>
+<h2>Redmi Pad 2 (11-inch)</h2>
+<p>The best screen of the group, at 2.5K, with four speakers and a 9,000mAh battery. The Helio G100 Ultra is adequate: YouTube, Zoom, reading and light games work smoothly. Charging at 18W is slow for such a battery, so leave it overnight. The listed Rs 29,999 is for the version most shops hold. Smaller ones cost less, so check memory. Take at least 6GB.</p>
+<h2>Honor Pad X8b</h2>
+<p>A 10,100mAh battery gives it the longest life. The Snapdragon 680 is an older chip and the screen is plainer than the Redmi's. It is for people who watch for hours away from a socket. The 4GB version is too small for comfort.</p>
+<h2>Redmi Pad 2 9.7</h2>
+<p>A compact tablet with a 120Hz screen, easy to hold in one hand for reading. It has 4GB of memory, so it suits one thing at a time. For a child or for reading in bed, the size is ideal.</p>
+<h2>Samsung Galaxy Tab A11</h2>
+<p>At 8.7 inches it is nearly a large phone. Samsung Kids, the long software support and the service network make it the natural choice for small children and grandparents. The screen resolution is low, so it is not for reading PDFs.</p>
+<h2>Infinix XPAD 20 Pro</h2>
+<p>A 12-inch screen with 45W charging at under Rs 27,000 is tempting, with a chip like the Redmi's. Infinix has less of a history in tablets and updates are uncertain. If you want the biggest picture for the money, see it in person.</p>
+<h2>Online classes: what matters</h2>
+<p>The front camera should sit on the long side, so that your face is centred in landscape. The microphone should be clear. The tablet should run Zoom or Meet with a document beside it, which needs 6GB or more. A stand case matters more than any of these, because a tablet leaning against books falls.</p>
+<h2>Reading PDFs and books</h2>
+<p>An A4 page on an 11-inch 2.5K screen is readable without zooming. On an 8.7-inch HD screen it is not. Students with scanned notes should choose the Redmi Pad 2. For long reading at night, use the reading mode and lower the brightness, as LCD backlights are tiring in the dark.</p>
+<h2>Pens on a budget</h2>
+<p>Most tablets here accept only simple capacitive pens, which are like writing with a finger. Some support the maker's own active pen, sold separately and not always in stock in Nepal. If handwriting is the reason you are buying, save for a <a href="/products/xiaomi-pad-7">Xiaomi Pad 7</a> with its pen or a <a href="/products/samsung-galaxy-tab-s10-fe">Galaxy Tab S10 FE</a>, which includes one.</p>
+<h2>Films and Widevine</h2>
+<p>Streaming apps limit quality on devices without Widevine L1 certification. Ask the seller to install DRM Info and show you the level. L3 means that Netflix will play at about 480p on your beautiful 2.5K screen. YouTube is not affected.</p>
+<h2>Games</h2>
+<p>The Helio G100 tablets run Free Fire, PUBG Mobile on smooth settings and all casual games. The Snapdragon 680 handles light games. A large screen makes the controls easier and the picture rougher. For serious play, look at the Xiaomi Pad 7.</p>
+<h2>Wi-Fi, SIM and hotspots</h2>
+<p>Cheaper versions have Wi-Fi only. If you need mobile data, sharing from your phone works well and costs nothing. LTE versions must be registered in MDMS like phones, so check the IMEI.</p>
+<h2>Refurbished and used</h2>
+<p>An old iPad in good condition is often offered at this price. A 9th generation iPad is still a fine reader and note-taker with a first-generation Pencil. Check the battery, the Apple ID lock and how many iPadOS versions remain. For a child, be careful: glass repairs are expensive.</p>
+<p>Very cheap new tablets with names you have never seen, at Rs 8,000 to 12,000, are best avoided. They have slow chips, dull screens, old Android and no updates, and they claim memory that they do not have.</p>
+<h2>Setting up for a child</h2>
+<ul>
+<li>Create a child account and add it to Family Link.</li>
+<li>Set a daily limit and a bedtime.</li>
+<li>Approve every app and turn off purchases.</li>
+<li>Use YouTube Kids in place of YouTube.</li>
+<li>Put on a thick case with a handle.</li>
+<li>Keep the volume limit on if headphones are used.</li>
+</ul>
+<h2>Battery care</h2>
+<p>Tablets spend weeks on a shelf. A battery left empty for months can fail. Charge it to about half before storing it and top it up now and then. If it is always plugged in, for example as a kitchen screen, turn on battery protection where the option exists.</p>
+<h2>Questions people ask</h2>
+<p><strong>Is 4GB enough?</strong> For video and one app, yes. For classes and multitasking, choose 6GB or 8GB.</p>
+<p><strong>Can it connect to a TV?</strong> By casting, if the TV supports it. Most at this price have no video output through USB-C.</p>
+<p><strong>Can it run Microsoft Office?</strong> The mobile apps, yes. They are fine for reading and small edits.</p>
+<p><strong>How many years will it last?</strong> Three to five for video and reading, with a careful owner.</p>
+<h2>Verdict</h2>
+<p>The Redmi Pad 2 is the one to beat, and it is our recommendation for families and students who mostly read and watch. Choose the Tab A11 for small children and the Honor for battery. And if your needs include handwriting or speed, spending Rs 15,000 more takes you to a different class of tablet in our <a href="/guides/best-tablets-under-50000-nepal">next guide</a>.</p>
+
+=== best-tablets-under-50000-nepal
+<h2>The line-up</h2>
+[[models:xiaomi-pad-7,oneplus-pad-go-2,oneplus-pad-lite,redmi-pad-2,samsung-galaxy-tab-s10-fe]]
+<h2>The point where tablets become quick</h2>
+<p>Under Rs 30,000 a tablet waits for you to be patient. At Rs 45,000 that stops. Apps open at once, two of them share the screen without fuss, the pen keeps up with your hand and games look like games. If you plan to use a tablet for more than an hour every day, this is the level at which it feels like a proper tool.</p>
+<h2>Xiaomi Pad 7: our pick</h2>
+<p>The Snapdragon 7+ Gen 3 is by a wide margin the fastest chip under Rs 50,000. The 11.2-inch screen has a 3.2K resolution at 144Hz and 800 nits, with a 3:2 shape that suits documents better than the wide screens of its rivals. Reading a PDF, marking up slides or working with two apps side by side feels natural. HyperOS on tablets has good multitasking and some clutter to remove. Xiaomi sells a pen and a keyboard cover, and you should check that they are in stock and what they cost, because the total approaches Rs 65,000 with both.</p>
+<h2>OnePlus Pad Go 2: for long evenings</h2>
+<p>A 12.1-inch screen and a battery of more than 10,000mAh make it the best film tablet of the group. The Dimensity 7300 is a step below the Xiaomi's chip and perfectly smooth. OxygenOS is clean. If you watch more than you write, choose this one.</p>
+<h2>OnePlus Pad Lite: the one with a SIM option</h2>
+<p>With a Helio G100 it belongs to the slower class. Its attraction is a large battery, a simple interface and an LTE version for field workers, sales teams and families in places without fibre.</p>
+<h2>Redmi Pad 2: save Rs 15,000</h2>
+<p>It remains an excellent screen for reading and lessons. If your use is light, the faster chip in the Pad 7 will be wasted on you.</p>
+<h2>Stretching to the Galaxy Tab S10 FE</h2>
+<p>At Rs 74,999 it is outside the budget, and we mention it for one group of people. If you take handwritten notes daily, its included S Pen, water resistance and seven years of updates make it cheaper over a degree than buying a Rs 45,000 tablet plus a pen plus a replacement in three years.</p>
+<h2>Pen, keyboard, case: the true price</h2>
+<p>Work it out before you pay. A Xiaomi Pad 7 at Rs 45,000, a pen at around Rs 6,000 to 8,000, and a keyboard cover at about Rs 10,000 make Rs 60,000 or more. At that point an entry laptop with 16GB is not far away. If you need a keyboard every day, read <a href="/guides/laptop-vs-tablet-work-study-nepal">laptop or tablet</a> first. If you need only the pen, the tablet is still the better choice.</p>
+<h2>Note-taking in practice</h2>
+<p>Try three things in the shop with the pen. Write small Devanagari at normal speed and see whether the strokes keep their shape. Rest your palm on the glass and see whether it leaves marks. Write for two minutes and feel whether the pen is too smooth. A matte protector helps a lot. Good note apps on Android include Samsung Notes on Samsung tablets, Xiaomi's own, and cross-platform choices such as OneNote, Squid and Xodo for PDFs.</p>
+<h2>As a second screen</h2>
+<p>Many people overlook this. With apps such as Spacedesk, or the maker's own sharing feature, an 11-inch tablet can act as an additional display for a Windows laptop. For students who write with a source open, that is a good reason to own one.</p>
+<h2>Games and creative work</h2>
+<p>The Pad 7 runs PUBG Mobile at high frame rates and handles most games in the store with ease. For drawing, look at Infinite Painter, Krita or ibisPaint. Video editing in CapCut is smooth. Professional illustrators will still prefer an iPad with Procreate, whose entry price is about Rs 83,500 plus the pencil.</p>
+<h2>Battery and charging</h2>
+<p>The Pad Go 2 lasts longest, followed by the Pad Lite and Redmi. The Xiaomi's screen and chip use more, but a full day of study is realistic. With 45W charging it refills fastest. Use a charger of matching wattage: an old phone charger will take all night.</p>
+<h2>Software support</h2>
+<p>Tablets are kept for a long time, so ask about updates. Xiaomi and OnePlus promise a few Android versions and several years of patches on these models. Samsung leads. If the tablet will hold office email or banking, give this more weight.</p>
+<h2>Durability</h2>
+<p>None of these except the Samsung has full water resistance. Large glass panels break easily when a tablet is dropped on a corner, and replacement costs are high. Use a case that covers the corners, and never carry a tablet in a bag beside a metal water bottle.</p>
+<h2>Questions before you buy</h2>
+<ul>
+<li>Is it an official unit with a warranty in Nepal?</li>
+<li>Which memory version is it? Choose 8GB.</li>
+<li>Is the charger included, and how many watts?</li>
+<li>Is Widevine L1 supported?</li>
+<li>Are the pen and keyboard available now, and not "soon"?</li>
+</ul>
+<h2>Who should buy what</h2>
+<ul>
+<li><strong>University student, heavy reading:</strong> Xiaomi Pad 7.</li>
+<li><strong>Family film tablet:</strong> OnePlus Pad Go 2.</li>
+<li><strong>Salesperson in the field:</strong> OnePlus Pad Lite LTE.</li>
+<li><strong>School student:</strong> Redmi Pad 2.</li>
+<li><strong>Daily handwriter:</strong> save for the Tab S10 FE.</li>
+</ul>
+<h2>Verdict</h2>
+<p>The Xiaomi Pad 7 is the rare product that is clearly the best in its price class. The OnePlus Pad Go 2 is the more relaxing one. Choose by asking whether you lean forward or lean back when you use a tablet. Forward means Xiaomi, back means OnePlus.</p>

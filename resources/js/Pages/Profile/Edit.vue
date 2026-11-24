@@ -253,7 +253,7 @@ const tabs = computed(() => [
 
 const activeTab = ref('orders')
 
-const formatPrice = (p) => Number(p).toLocaleString('en-NP')
+const formatPrice = (p) => Number(p).toLocaleString('en-IN')
 
 const statusClass = (s) => ({
   pending:    'bg-accent-soft text-accent-text',

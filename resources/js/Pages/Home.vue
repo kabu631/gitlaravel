@@ -152,51 +152,31 @@
         <div v-if="priceTracker.length" class="min-w-0 lg:col-span-7" aria-labelledby="prices-heading">
           <div class="section-head">
             <div>
-              <h2 id="prices-heading" class="section-title">Price changes</h2>
-              <p class="section-desc">How prices moved over the last 7 days.</p>
+              <h2 id="prices-heading" class="section-title">Price drops</h2>
+              <p class="section-desc">On sale now for less than their earlier listed price.</p>
             </div>
-            <Link :href="route('pages.price-tracker')" class="link text-sm">Price tracker</Link>
+            <Link :href="route('pages.price-tracker')" class="link shrink-0 text-sm">Price tracker</Link>
           </div>
 
-          <div class="card overflow-hidden">
-            <!-- Fixed layout: long names truncate instead of pushing the price off small screens. -->
-            <table class="w-full table-fixed text-sm">
-              <thead>
-                <tr class="border-b border-line text-left text-xs text-fg-subtle">
-                  <th scope="col" class="px-3 py-3 font-medium sm:px-4">Device</th>
-                  <th scope="col" class="w-[7.25rem] px-3 py-3 text-right font-medium sm:w-32 sm:px-4">Price</th>
-                  <th scope="col" class="hidden w-32 px-4 py-3 text-right font-medium sm:table-cell">7-day change</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-line">
-                <tr v-for="item in priceTracker.slice(0, 6)" :key="item.id" class="group relative transition-colors hover:bg-surface-2">
-                  <td class="px-3 py-3 sm:px-4">
-                    <div class="flex items-center gap-3">
-                      <div class="media-plate h-9 w-9 shrink-0 rounded-md">
-                        <img v-if="item.image" :src="getImageUrl(item.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
-                        <DeviceIcon v-else :category="item.category?.slug" />
-                      </div>
-                      <div class="min-w-0">
-                        <Link :href="route('gadgets.show', item.slug)" class="block truncate font-medium text-fg after:absolute after:inset-0">{{ item.name }}</Link>
-                        <p class="text-xs text-fg-subtle">{{ item.brand }}</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="tabular whitespace-nowrap px-3 py-3 text-right font-medium text-fg sm:px-4">
-                    {{ formatPrice(item.price) }}
-                    <span class="mt-0.5 block text-xs font-normal sm:hidden" :class="changeClass(item.price_change)">{{ changeLabel(item.price_change) }}</span>
-                  </td>
-                  <td class="tabular hidden whitespace-nowrap px-4 py-3 text-right sm:table-cell" :class="changeClass(item.price_change)">
-                    <span class="inline-flex items-center gap-1">
-                      <ArrowDownRight v-if="item.price_change < 0" class="h-3.5 w-3.5" />
-                      <ArrowUpRight v-else-if="item.price_change > 0" class="h-3.5 w-3.5" />
-                      {{ changeLabel(item.price_change) }}
-                    </span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <ul class="border-t border-line">
+            <li v-for="item in priceTracker.slice(0, 6)" :key="item.id">
+              <Link :href="route('gadgets.show', item.slug)" class="group flex items-center gap-3 border-b border-line py-4 sm:gap-4">
+                <div class="media-plate h-14 w-[4.5rem] shrink-0 rounded-xl sm:h-16 sm:w-20">
+                  <img v-if="item.image" :src="getImageUrl(item.image)" :alt="''" loading="lazy" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <DeviceIcon v-else :category="item.category" />
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="truncate text-2xs font-medium uppercase tracking-[0.08em] text-fg-subtle">{{ item.brand }}</p>
+                  <h3 class="mt-0.5 line-clamp-2 font-medium leading-snug text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4 sm:line-clamp-1">{{ item.name }}</h3>
+                  <p class="tabular mt-0.5 text-xs text-fg-subtle">was {{ formatPrice(item.old_price) }}</p>
+                </div>
+                <div class="tabular shrink-0 text-right">
+                  <p class="text-sm font-semibold text-fg">{{ formatPrice(item.price) }}</p>
+                  <p class="mt-0.5 inline-flex items-center gap-0.5 text-xs text-positive"><ArrowDownRight class="h-3.5 w-3.5" aria-hidden="true" />{{ formatPrice(-item.price_change) }} less</p>
+                </div>
+              </Link>
+            </li>
+          </ul>
         </div>
 
         <div v-if="upcomingLaunches.length" class="min-w-0 lg:col-span-5" aria-labelledby="upcoming-heading">
@@ -206,14 +186,14 @@
               <p class="section-desc">Expected launches and estimated local prices.</p>
             </div>
           </div>
-          <ul class="card divide-y divide-line">
-            <li v-for="launch in upcomingLaunches.slice(0, 5)" :key="launch.name" class="relative flex items-start justify-between gap-4 px-4 py-3.5 transition-colors hover:bg-surface-2">
+          <ul class="divide-y divide-line border-y border-line">
+            <li v-for="launch in upcomingLaunches.slice(0, 5)" :key="launch.name" class="group relative flex items-start justify-between gap-4 py-4">
               <div class="min-w-0">
-                <Link v-if="launch.slug" :href="route('gadgets.show', launch.slug)" class="block truncate text-sm font-medium text-fg after:absolute after:inset-0">{{ launch.name }}</Link>
-                <p v-else class="truncate text-sm font-medium text-fg">{{ launch.name }}</p>
+                <Link v-if="launch.slug" :href="route('gadgets.show', launch.slug)" class="block truncate font-medium text-fg after:absolute after:inset-0 group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4">{{ launch.name }}</Link>
+                <p v-else class="truncate font-medium text-fg">{{ launch.name }}</p>
                 <p class="mt-0.5 text-xs text-fg-subtle">{{ launch.brand }} · {{ launch.expected_date }}</p>
               </div>
-              <p class="tabular shrink-0 text-sm text-fg-muted">{{ normalisePrice(launch.est_price) }}</p>
+              <p class="tabular shrink-0 text-sm font-semibold text-fg">{{ normalisePrice(launch.est_price) }}</p>
             </li>
           </ul>
           <Link :href="route('news.index', { category: 'rumors' })" class="link mt-4 inline-block text-sm">Rumors and leaks</Link>
@@ -259,8 +239,9 @@
                 <span class="sr-only">Number {{ i + 1 }}: </span>{{ g.name }}
               </h3>
               <p class="tabular mt-0.5 line-clamp-1 text-xs text-fg-subtle">{{ keySpecs(g, 2).map(s => s.value).join(' · ') }}</p>
+              <p v-if="Number(g.price) > 0" class="tabular mt-1 text-sm font-semibold text-fg sm:hidden">{{ formatPrice(g.price) }}</p>
             </div>
-            <p class="tabular shrink-0 text-right text-sm font-semibold text-fg">{{ Number(g.price) > 0 ? formatPrice(g.price) : '' }}</p>
+            <p class="tabular hidden shrink-0 text-right text-sm font-semibold text-fg sm:block">{{ Number(g.price) > 0 ? formatPrice(g.price) : '' }}</p>
           </Link>
         </li>
       </ol>
@@ -297,10 +278,10 @@
     <section class="home-band" aria-labelledby="tools-heading">
       <div class="container-page">
       <h2 id="tools-heading" class="section-title mb-6">Tools to help you decide</h2>
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <Link v-for="tool in tools" :key="tool.title" :href="tool.href" class="card card-link group flex flex-col p-5">
+      <div class="grid grid-cols-1 border-t border-fg/80 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-4">
+        <Link v-for="tool in tools" :key="tool.title" :href="tool.href" class="group flex flex-col border-b border-line py-7 lg:border-b-0">
           <component :is="tool.icon" class="h-6 w-6 text-fg" :stroke-width="1.5" />
-          <h3 class="mt-6 font-semibold text-fg">{{ tool.title }}</h3>
+          <h3 class="mt-5 text-lg font-semibold tracking-tight text-fg">{{ tool.title }}</h3>
           <p class="mt-1 text-sm leading-6 text-fg-subtle">{{ tool.text }}</p>
           <span class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-fg">
             {{ tool.cta }}
@@ -343,8 +324,8 @@ import HeroSlider from '@/Components/HeroSlider.vue'
 import GadgetMatchmaker from '@/Components/GadgetMatchmaker.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
 import { categoryIcon, categoryLabel, newsCategoryLabel } from '@/Composables/useCategories.js'
-import { formatPrice, formatNumber, timeAgo } from '@/Composables/useFormat.js'
-import { ArrowRight, ArrowDownRight, ArrowUpRight, Scale, LineChart, Cpu, FlaskConical } from 'lucide-vue-next'
+import { formatPrice, timeAgo } from '@/Composables/useFormat.js'
+import { ArrowRight, ArrowDownRight, Scale, LineChart, Cpu, FlaskConical } from 'lucide-vue-next'
 
 const props = defineProps({
   sliders: { type: Array, default: () => [] },
@@ -389,19 +370,11 @@ const scoreText = v => { const n = Number(v) || 0; return Number.isInteger(n) ? 
 
 const trendingTop = computed(() => props.trending.slice(0, 8))
 
-// For a buyer a falling price is good news, so drops read as positive.
-function changeClass(change) {
-  if (!change) return 'text-fg-subtle'
-  return change < 0 ? 'text-positive' : 'text-negative'
+// Admin-entered strings such as "Rs. 219,999" are shown as "Rs 2,19,999", like every other price; other text is kept.
+const normalisePrice = v => {
+  const text = String(v || '').trim()
+  return /^(Rs|NPR)?\.?\s*[\d,]+$/i.test(text) ? formatPrice(text.replace(/\D/g, '')) : text.replace(/^Rs\.?\s*/i, 'Rs ')
 }
-function changeLabel(change) {
-  if (change === null || change === undefined) return '—'
-  if (change === 0) return 'No change'
-  return `${change < 0 ? '−' : '+'}Rs ${formatNumber(Math.abs(change))}`
-}
-
-// Admin-entered strings such as "Rs. 2,19,999" → "Rs 2,19,999" to match the rest of the site.
-const normalisePrice = v => (v || '').replace(/^Rs\.?\s*/i, 'Rs ')
 
 const tools = [
   { title: 'Compare', text: 'Put up to four devices side by side, spec by spec.', cta: 'Compare devices', href: route('compare.index'), icon: Scale },

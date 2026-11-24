@@ -354,14 +354,12 @@ class GadgetResource extends Resource
           ->defaultSort('created_at', 'desc');
     }
 
-    public static function getRelationManagers(): array
+    public static function getRelations(): array
     {
         return [
             RelationManagers\ProductVariantsRelationManager::class,
             RelationManagers\VariantsRelationManager::class,
-            RelationManagers\SpecsRelationManager::class,
             RelationManagers\PriceHistoryRelationManager::class,
-            // ImagesRelationManager removed — gallery is now inline in the form above
         ];
     }
 

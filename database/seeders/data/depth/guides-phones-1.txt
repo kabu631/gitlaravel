@@ -1,0 +1,406 @@
+=== best-phones-under-15000-nepal
+<h2>The shortlist in numbers</h2>
+[[models:tecno-spark-go-2,infinix-smart-10,blackview-wave-10c,ai-plus-plus]]
+<h2>What Rs 15,000 really pays for</h2>
+<p>After customs, VAT, the distributor's margin and the shop's margin, very little of your Rs 15,000 is left for the phone itself. Makers therefore choose one of three things to do properly, and save on the rest. Some give you a smooth screen. Some give you storage. Some give you a battery that lasts. Nobody gives you all three. If you know which one you need, you will be happy. If you expect a small version of a Rs 40,000 phone, you will not.</p>
+<h2>Memory first, everything else second</h2>
+<p>Android 15 and 16 are heavier than the Android of five years ago. A 3GB phone spends its life closing apps to make room for others. You switch from Facebook to the camera and back, and Facebook starts again. With 4GB that still happens, only less. So the first rule is simple: do not buy a 3GB phone new in 2026 unless it will be used only for calls.</p>
+<p>The second rule is about storage. The system takes 15 to 20GB. WhatsApp takes another 10GB in a few months if you belong to family groups that share videos every morning. On a 64GB phone you will be deleting things by next Dashain. On 128GB you have a year or two. A memory card helps with photos and videos, though apps still live on the internal storage.</p>
+<h2>Looking at each phone again</h2>
+<p><strong>Tecno Spark Go 2.</strong> The 120Hz screen makes it feel quicker than it is, and the chip is as good as you will find here. It comes in several sizes. The 3GB/64GB version at the bottom is the one shown in advertisements. The 4GB/128GB version costs about Rs 3,500 more and is a different experience. Tecno's phones come with extra apps, so spend ten minutes removing them.</p>
+<p><strong>Infinix Smart 10.</strong> Very similar hardware from a sister brand, with a brighter screen in sunlight. It runs the Go edition of Android, built for small memory, which is sensible. The 8MP camera is for documents and daylight.</p>
+<p><strong>Blackview Wave 10C.</strong> It has the largest screen of the group at 6.88 inches with a plain 60Hz refresh rate, and the Unisoc T310 is the slowest chip here. Choose it only for someone who wants large text and simple use.</p>
+<p><strong>Ai+ Pulse.</strong> A newer name in the market. The T615 chip is a little stronger. Before buying, ask where it is serviced and whether parts exist in Nepal. A phone without a service centre is a disposable phone.</p>
+<h2>Cameras: what to expect</h2>
+<p>Outdoors, in good light, all of these take pictures that look fine on WhatsApp. Indoors, at night or with anything that moves, they struggle. The number of lenses on the back is decoration. Two or three of the circles on cheap phones are depth sensors or nothing at all. Judge by taking one photo of the inside of the shop and zooming in.</p>
+<h2>Battery and charging</h2>
+<p>Every phone here has about 5,000mAh, and slow chips with HD screens use little energy, so a day and a half is normal. Charging at 10 to 15W takes two and a half to three hours. That means charging at night. If your area has frequent cuts, a small power bank is more useful than a faster charger.</p>
+<h2>Who should buy at this price</h2>
+<ul>
+<li>A parent or grandparent who calls, uses Messenger and watches bhajans or news on YouTube.</li>
+<li>A child's first phone, with parental controls on.</li>
+<li>A second phone for a shop, a delivery rider or a business SIM.</li>
+<li>A temporary phone while saving for a better one.</li>
+</ul>
+<h2>Who should wait two months</h2>
+<p>If this will be your only phone, with banking, online classes, TikTok and games, the experience at Rs 15,000 will be frustrating within the year. Adding Rs 6,000 to 10,000 changes everything: more memory, faster charging, a better screen. See what that buys in our guides to phones <a href="/guides/best-phones-under-20000-nepal">under Rs 20,000</a> and <a href="/guides/best-phones-under-25000-nepal">under Rs 25,000</a>.</p>
+<h2>What about a used phone?</h2>
+<p>For Rs 15,000 the second-hand market offers two-year-old Redmi, Samsung and Realme phones that were Rs 25,000 to 30,000 new. A clean one is faster than anything on this page. The risks are a tired battery, a replaced screen, and an IMEI that is not registered. Check the last one first, with the method in <a href="/guides/how-to-check-phone-is-official-in-nepal">our guide to official phones</a>. Ask for the original bill, test every function, and keep Rs 2,000 aside for a new battery.</p>
+<h2>Five things to do on the first day</h2>
+<ul>
+<li>Uninstall or disable the games and shopping apps you did not ask for.</li>
+<li>Turn off automatic media download in WhatsApp.</li>
+<li>Install Facebook Lite where it is available, or use Facebook in the browser.</li>
+<li>Switch animations to 0.5x in developer options. It makes slow phones feel quicker.</li>
+<li>Set up Find My Device and a screen lock.</li>
+</ul>
+<h2>Security on cheap phones</h2>
+<p>Budget phones receive few Android updates, sometimes none, and security patches for a limited time. If you use mobile banking or a wallet on one, install apps only from the Play Store, keep the apps updated, never install an APK sent on chat, and do not root the phone. Set a separate PIN for your wallet. These habits protect you more than any antivirus.</p>
+<h2>Our pick</h2>
+<p>For most people with exactly Rs 15,000, we would take the <a href="/products/tecno-spark-go-2">Tecno Spark Go 2</a> in the 4GB/128GB version, if your shop has it at or under Rs 15,000. It has the smooth screen, enough memory to be usable and enough storage to last. If it is out of stock, the <a href="/products/infinix-smart-10">Infinix Smart 10</a> is nearly the same phone with a different badge. And if you can find Rs 1,000 more, the <a href="/products/infinix-smart-10-plus">Infinix Smart 10 Plus</a> adds a larger battery with 128GB as standard, which is why it leads our next guide.</p>
+
+=== best-phones-under-20000-nepal
+<h2>Side by side</h2>
+[[models:infinix-smart-10-plus,realme-note-70,honor-choice-t10,zte-nubia-a57,vivo-y05e]]
+<h2>A crowded shelf of similar phones</h2>
+<p>Look at the chip column and you will see nearly the same name on every line. Unisoc's T7250 and its relatives are twelve-nanometre processors made for basic phones, and at Rs 20,000 everyone uses one. So speed will not help you choose. What separates these phones is storage, battery, charging speed, the screen and, above all, who repairs them.</p>
+<h2>How to rank them for yourself</h2>
+<p>Take a piece of paper and give each of these a mark from zero to three according to how much it matters to you.</p>
+<ul>
+<li><strong>Storage.</strong> If you keep videos and photos, 128GB is worth two marks by itself.</li>
+<li><strong>Battery.</strong> Above 6,000mAh, you can forget the charger for a day and a half.</li>
+<li><strong>Charging.</strong> 18 to 22W saves an hour compared with 10W.</li>
+<li><strong>Screen.</strong> 120Hz scrolls more smoothly. 90Hz is acceptable.</li>
+<li><strong>Service.</strong> Is there a centre within an hour of your home?</li>
+</ul>
+<p>Most people who do this end up with either the Infinix Smart 10 Plus or the Realme Note 70, for different reasons.</p>
+<h2>The picks, with their faults</h2>
+<p><strong>Infinix Smart 10 Plus.</strong> The strongest sheet here: 128GB as standard, a 6,000mAh battery, 18W charging and a 120Hz screen at Rs 15,999. The fault is the 8MP camera, which is weak indoors, and eMMC storage, which is slower than UFS. If you hardly take photos, this is the best value under Rs 20,000.</p>
+<p><strong>Realme Note 70.</strong> A 6,300mAh battery, a 50MP main camera that copes better in daylight and a wider service network. Charging is 15W. The 64GB version at the advertised price is too small. Look for 128GB, even if it nears Rs 19,000.</p>
+<p><strong>Honor Choice T10.</strong> It looks smart and costs little. With 10W charging, Android Go and as little as 32GB, it is for light use. We list it for people who find it on offer, and we would not pay full price.</p>
+<p><strong>ZTE Nubia A57.</strong> The fastest charging in the list at 22.5W, a 120Hz screen and Android 16. The brand's service footprint in Nepal is small, so ask before buying. The 13MP camera is average.</p>
+<p><strong>vivo Y05e.</strong> You pay a little more for vivo's reputation and service, and receive 64GB, an 8MP camera and a 6,500mAh battery. For an older relative in a small town with a vivo dealer, the trade makes sense.</p>
+<h2>What nobody tells you about 4GB phones</h2>
+<p>Advertisements speak of "8GB RAM with extension". The extension borrows storage and treats it as memory. It can keep a few more apps from closing, but storage is many times slower than memory, so it does not make the phone quick. Count only the physical number. At this price it is 4GB, which is enough for one thing at a time.</p>
+<h2>Games</h2>
+<p>Ludo, Carrom Pool, Subway Surfers and Candy Crush run well. Free Fire is playable at low settings. PUBG Mobile will open and be unpleasant. If someone in your family will definitely use the phone for games, save for an <a href="/products/infinix-note-50x">Infinix Note 50x</a> at around Rs 22,000. Its Dimensity chip is several times faster, and it is the single best Rs 2,000 to 3,000 you can add at this level.</p>
+<h2>4G and calls</h2>
+<p>All of these are 4G phones. On NTC and Ncell that is what you will be using anyway. More important is VoLTE, which carries calls over 4G with clearer sound and less dropping. Insert your SIM in the shop and check that the option exists in network settings and that it works for your operator. Some budget models support it on one operator and not the other.</p>
+<h2>Screens in daylight</h2>
+<p>Most screens here give between 450 and 740 nits. In Terai sunshine you will shade the phone with your hand. If you work outdoors, look at the display in the street before paying, and choose the brighter one over the smoother one.</p>
+<h2>After-sales: a realistic view</h2>
+<p>A cheap phone breaks in expensive ways. A screen can cost Rs 3,000 to 5,000, about a quarter of the phone's price. A tempered glass and a case for Rs 500 are the best accessories you can buy. Ask what the warranty covers: usually manufacturing faults for a year on the phone, six months on the charger, and nothing that looks like a drop or water. Keep the bill with the IMEI written on it.</p>
+<h2>Should you stretch to Rs 25,000?</h2>
+<p>If this is your main phone, yes, when you can. Five thousand rupees moves you to faster chips, 25 to 45W charging or a much better brand network. Our <a href="/guides/best-phones-under-25000-nepal">Rs 25,000 guide</a> and <a href="/guides/best-phones-under-30000-nepal">Rs 30,000 guide</a> show what opens up. Paying the difference by EMI is rarely sensible at this level, since fees can eat the benefit.</p>
+<h2>Best choice by person</h2>
+<ul>
+<li><strong>Student with a small budget:</strong> Infinix Smart 10 Plus.</li>
+<li><strong>Parent in a district town:</strong> vivo Y05e or Realme Note 70, whichever has service nearby.</li>
+<li><strong>Delivery rider:</strong> Realme Note 70 for its battery. Add a mount and a power bank.</li>
+<li><strong>Shop counter phone:</strong> ZTE Nubia A57 for quick charging.</li>
+<li><strong>Child:</strong> the cheapest with 128GB, and parental controls from the first day.</li>
+</ul>
+<h2>Keep it feeling new</h2>
+<p>Restart the phone once a week. Keep 15GB free. Remove apps you have not opened in a month. Update apps over Wi-Fi at night. Charge between 20 and 80 per cent when it is convenient. A basic phone that is kept tidy lasts three years. One that is filled to the last gigabyte feels old in one.</p>
+
+=== best-phones-under-25000-nepal
+<h2>Prices move, so start here</h2>
+[[models:realme-c71,samsung-galaxy-a07,oppo-a6c,vivo-y05,realme-note-70,infinix-note-50x]]
+<p>The table above is drawn from our live catalogue, so it may differ from the prices mentioned in our picks, which were written with the cheapest version in mind. The Realme C71, for example, has been sold from about Rs 21,000 for the smaller configuration and is listed higher for the larger one. Always compare the exact memory and storage.</p>
+<h2>The four phones, honestly</h2>
+<p><strong>Realme C71: the all-rounder.</strong> Fast charging is what you notice. At 45W, half an hour while you get ready fills most of a 6,300mAh battery, and neighbours on this page take two hours. Realme phones at this price sometimes appear with different screens in different listings. Our sheet says AMOLED for one version, while most units sold here use an LCD, so look at a black screen in a dark corner of the shop before you pay. If you see a grey glow, it is an LCD.</p>
+<p><strong>Samsung Galaxy A07: the safe one.</strong> The Helio G99 is the most capable chip in the group, and Samsung supports its cheap phones with updates for years. The screen is only HD+ and the charger is extra. If the buyer is a parent, or the phone must last four years, this is the one we would choose. Read <a href="/reviews/samsung-galaxy-a07-review-nepal">our full review</a>.</p>
+<p><strong>OPPO A6c: the marathon runner.</strong> Two days of light use from 7,000mAh. The price of that is slow charging and only 64GB in the base model. It suits people who travel or live with long cuts.</p>
+<p><strong>vivo Y05: easy to recommend, easy to outgrow.</strong> A bright 120Hz screen and a strong service network. The 8MP camera is the weakest here, and 4GB of memory is modest. <a href="/reviews/vivo-y05-review-nepal">Our review</a> explains who it suits.</p>
+<h2>The wildcard: Infinix Note 50x</h2>
+<p>It does not appear among our main picks, as Infinix has fewer service points, but at around Rs 22,000 its Dimensity 7300 Ultimate is in another league for speed. Games that stutter on every other phone here run properly. It also has 6 or 8GB of memory with faster UFS storage. If you live near an Infinix service point and you are under 25, look at it first.</p>
+<h2>What you can expect at this budget</h2>
+<ul>
+<li><strong>Smooth enough.</strong> Social apps, maps, wallets and video calls are fine with 6GB or more.</li>
+<li><strong>Good daylight photos.</strong> A 50MP main camera is common. Night photos remain noisy.</li>
+<li><strong>A day and a half of battery.</strong> Often two.</li>
+<li><strong>4G only, with few exceptions.</strong></li>
+<li><strong>No water resistance to rely on.</strong> IP54 or IP64 means splashes.</li>
+</ul>
+<h2>What you should not pay for</h2>
+<p>Ignore 2MP macro and depth lenses. Ignore "AI camera" stickers. Ignore memory extension. Ignore the number of megapixels if the aperture and sensor are not mentioned. And do not pay for a 5G badge at this price. The phones that have it give up screen, battery or storage to afford the modem.</p>
+<h2>128GB is the line</h2>
+<p>If there is one decision to get right, it is this. Phones with 64GB are cheaper by Rs 3,000 or so. They also fill up in a year. When storage is nearly full, Android slows down, apps fail to update and the camera refuses to record. Spread over three years, 128GB costs you about Rs 85 a month. It is the best upgrade in this price band.</p>
+<h2>Is a used phone better?</h2>
+<p>At Rs 25,000 the used market has Galaxy A5-series phones, Redmi Note Pros and OnePlus Nords from two or three years ago, with AMOLED screens and stabilised cameras. They can be lovely. They also come with worn batteries and no warranty. If you know how to check one, or you trust the seller, consider it. If not, a new phone with a one-year warranty is worth the plainer screen.</p>
+<h2>Accessories to budget for</h2>
+<p>Keep Rs 1,500 for a case, tempered glass and, in Samsung's case, a 25W charger. A cheap unbranded charger can damage a battery or worse. Our <a href="/products?category=accessory">accessory listings</a> show what genuine ones cost.</p>
+<h2>Questions readers ask</h2>
+<p><strong>Is Realme or Samsung better at this price?</strong> Realme gives more hardware, Samsung more years. Decide how long you keep phones.</p>
+<p><strong>Can these phones run PUBG?</strong> The A07 and C71 manage it at smooth graphics with a lower frame rate. For comfortable play, get the Note 50x.</p>
+<p><strong>Which has the best camera?</strong> The A07 and C71, in daylight. None is good at night. For family photos, saving for a phone with optical stabilisation makes a bigger difference.</p>
+<p><strong>Which lasts longest away from a charger?</strong> The OPPO A6c, then the vivo Y05 and Realme C71.</p>
+<p><strong>Which charges fastest?</strong> The C71 and the Note 50x, both at 45W.</p>
+<h2>How long will it last?</h2>
+<p>With care, expect three years. The battery loses some capacity, apps grow heavier and updates stop. A phone with 6GB of memory ages noticeably better than one with 4GB. If you can, buy that version in preference to extra storage, because you can add a memory card and you can never add memory.</p>
+<h2>The decision in one paragraph</h2>
+<p>Choose the Galaxy A07 if you value support and service. Choose the Realme C71 if you value quick charging and balance. Choose the OPPO A6c if you hate chargers. Choose the Infinix Note 50x if you play games. If none of these feels right and you can wait for the next salary, the jump to <a href="/guides/best-phones-under-30000-nepal">Rs 30,000</a> brings AMOLED screens, and at <a href="/guides/best-phones-under-40000-nepal">Rs 40,000</a> you reach 5G and real cameras.</p>
+
+=== best-phones-under-30000-nepal
+<h2>Compare the numbers</h2>
+[[models:infinix-note-50x,infinix-hot-50-pro-plus,redmi-15-4g,oppo-a6c,samsung-galaxy-a07,blackview-fort-1]]
+<h2>The budget where you can finally choose</h2>
+<p>Below Rs 20,000 you take what you can get. Between Rs 20,000 and 30,000 the market opens into different kinds of phone, and you can pick the one that matches your habits. There is a fast one, a pretty one, two long-lasting ones, a dependable one and a tough one. Here is how to tell which you are.</p>
+<h2>If you play games: Infinix Note 50x</h2>
+<p>The Dimensity 7300 Ultimate is built on a modern 4nm process. In practice that means PUBG Mobile at a steady frame rate, Free Fire at high settings, and a phone that stays cool. The storage is UFS 2.2, quick enough that apps open without a pause. Charging at 45W is strong. The screen is an LCD, the one place where money was saved, and the 8MP selfie camera is plain. At Rs 21,999 no rival is within reach on speed.</p>
+<h2>If you watch more than you play: Infinix Hot 50 Pro Plus</h2>
+<p>A 6.78-inch AMOLED at 120Hz changes films, reels and reading. Blacks are black, colours are lively and text is sharp. With 8GB and up to 256GB, it has room to last. The Helio G100 is fine for daily work and moderate for games. It launched with Android 14, so ask about the updates it will receive. At Rs 25,999 it has the best screen here by a distance.</p>
+<h2>If you dislike charging: Redmi 15 4G or OPPO A6c</h2>
+<p>Both have 7,000mAh. The Redmi costs more and gives you a better chip, a larger 144Hz screen, more memory and 33W charging. The OPPO is cheaper, with 15W charging and 64GB. If you can afford the Redmi, choose it. A 6.9-inch phone is big, so check that your thumb reaches across it.</p>
+<h2>If you want it to be someone else's problem: Galaxy A07</h2>
+<p>Samsung has the widest service network and a long update promise for its cheap phones. The hardware is modest. You buy it because it will still be receiving patches when the others have been forgotten, and because the service centre is in your city.</p>
+<h2>If it will be dropped: Blackview Fort 1</h2>
+<p>A thick, rubber-edged phone with IP68 and a 10,000mAh battery. It is for site engineers, guides, drivers and farmers. The chip is slow, the screen is dim and the camera is basic. Nothing else at this price survives a construction site. Ask where it is serviced.</p>
+<h2>What to weigh, in order</h2>
+<ol>
+<li><strong>Memory:</strong> 6GB is comfortable, 8GB is better, 4GB is a compromise at this price.</li>
+<li><strong>Storage type:</strong> UFS opens apps faster than eMMC. It matters more than another core in the chip.</li>
+<li><strong>Screen:</strong> AMOLED for contrast, Full HD+ for sharpness, brightness for outdoors.</li>
+<li><strong>Charging:</strong> 33W or more means a useful top-up during lunch.</li>
+<li><strong>Support:</strong> years of security patches, if you keep phones long.</li>
+</ol>
+<h2>Cameras under Rs 30,000</h2>
+<p>Here is an honest summary. In daylight, all of the 50MP phones produce photos that look good on a phone screen. The differences appear in three places: indoors with children, at night, and when zooming. Optical stabilisation, which helps with the first two, begins at about Rs 36,000 with phones such as the <a href="/products/infinix-note-50s">Infinix Note 50s</a>. If photographs of your family matter to you, that gap is worth saving for.</p>
+<h2>Do not be fooled by a thin body</h2>
+<p>Shops place slim phones at the front. A slim phone with 5,000mAh lasts a day. A thicker one with 7,000mAh lasts two. Neither is wrong, but know which you are paying for. Also feel the back: glossy plastic slides off a table and a cheap case hides the design anyway.</p>
+<h2>Buying tips for this price band</h2>
+<ul>
+<li>Dealers have room to move here. Ask for a tempered glass, a case or a 10,000mAh power bank.</li>
+<li>Infinix and Tecno phones are often sold with exchange bonuses. Compare the final figure.</li>
+<li>Check that the charger is in the box. Samsung's is not.</li>
+<li>Insert both SIMs if you use two. Some phones share the second slot with the memory card.</li>
+<li>Confirm the IMEI on the MDMS page.</li>
+</ul>
+<h2>Frequently asked</h2>
+<p><strong>Is 4G still fine?</strong> Yes. Commercial 5G in Nepal is limited, and the phones above use 4G efficiently. Our <a href="/guides/top-reasons-buy-5g-phone-nepal">5G article</a> says when it makes sense to pay for it.</p>
+<p><strong>Infinix or Redmi?</strong> Infinix offers more hardware. Redmi has more service points and a larger used market. If you resell phones often, Redmi holds value better.</p>
+<p><strong>Can I use these for online banking safely?</strong> Yes, if you keep the phone updated and install apps from the Play Store only.</p>
+<p><strong>Which is the best camera under Rs 30,000?</strong> In good light, the Note 50x and Galaxy A07. None is strong at night.</p>
+<h2>Where the next step leads</h2>
+<p>Add Rs 4,000 and you reach the <a href="/products/redmi-17-5g">Redmi 17 5G</a> with a 7,500mAh battery and the <a href="/products/tecno-spark-40-pro">Tecno Spark 40 Pro</a> with a brilliant AMOLED. Add Rs 6,000 and the Note 50s brings speed, stabilisation and a 144Hz screen together. If your budget is flexible, read <a href="/guides/best-phones-under-40000-nepal">phones under Rs 40,000</a> before deciding.</p>
+<h2>Verdict</h2>
+<p>For most people under thirty we would choose the Infinix Note 50x. For people who watch films on the bus, the Hot 50 Pro Plus. For parents, the Galaxy A07. For travellers, the Redmi 15. That four good phones with four different strengths exist under Rs 30,000 is the best thing about this part of the market.</p>
+
+=== best-phones-under-40000-nepal
+<h2>The main contenders</h2>
+[[models:redmi-17-5g,moto-g57-power,tecno-spark-40-pro,realme-c85-pro,honor-x7d,infinix-note-50s]]
+<h2>Why Rs 30,000 to 40,000 is the sweet spot</h2>
+<p>If you asked us how much an ordinary person should spend on a phone in Nepal, we would say about Rs 35,000. Below that you keep bumping into limits. Above it you pay for refinements. In this band you can have a battery that lasts two days, or a brilliant screen, or a quick chip, or serious water resistance, and sometimes two of those in one phone.</p>
+<h2>Screens: LCD or AMOLED</h2>
+<p>Three of the phones here use LCD panels: the Redmi 17 5G, the Moto G57 Power and the Honor X7d. Three use AMOLED: the Spark 40 Pro, the Realme C85 Pro and the Note 50s. If you watch video at night, read in bed or like an always-on clock, AMOLED is worth choosing. If your phone is mainly for work, calls and maps, an LCD with a huge battery is fine and often kinder to the wallet when it breaks.</p>
+<p>Resolution matters as well. The Redmi 17's panel is HD+ stretched over 6.9 inches, so small text is a little soft. Look at a page of Devanagari news on it before buying. Some people do not see the difference and some cannot stop seeing it.</p>
+<h2>Chips: a wide spread</h2>
+<p>The Snapdragon 6s Gen 4 in the Moto G57 Power and the Dimensity 7300 Ultimate in the Note 50s are modern 4nm designs and comfortable with games. The Snapdragon 4 Gen 5 in the Redmi 17 is a newer entry chip, good for daily work. The Snapdragon 685 in the Realme and Honor, and the Helio G100 in the Tecno, are older 4G parts. They run apps without complaint and games at medium.</p>
+<p>Our advice: if you play anything heavier than Ludo, choose the Note 50s or Moto. If you do not, ignore this paragraph.</p>
+<h2>Battery life ranking</h2>
+<ol>
+<li>Redmi 17 5G, 7,500mAh with an HD+ screen: two full days for many people.</li>
+<li>Moto G57 Power, 7,000mAh.</li>
+<li>Realme C85 Pro, 7,000mAh with an AMOLED.</li>
+<li>Honor X7d, 6,500mAh.</li>
+<li>Spark 40 Pro and Note 50s, 5,200mAh: a day and a bit.</li>
+</ol>
+<p>Charging reverses the order in places. The 45W phones refill in an hour or so, the 30W Motorola takes longer and ships without a charger.</p>
+<h2>Cameras</h2>
+<p>The Note 50s has the only stabilised main camera under Rs 40,000 in this list, and it shows indoors. The Moto's larger sensor does well in daylight. The Honor's 108MP can crop into distant subjects when there is light. The rest are ordinary. If photos of children and evenings with friends are what you take, the Note 50s is the one.</p>
+<h2>Toughness</h2>
+<p>The Realme C85 Pro carries a long list of ratings up to IP69K, which covers rain, dust, immersion and hot spray in laboratory conditions. It is the phone for trekkers, kitchen staff and motorbike riders. Remember that no maker covers water damage under warranty, whatever is printed on the box.</p>
+<h2>Who should buy which</h2>
+<p><strong>Field worker or driver:</strong> Redmi 17 5G. Big screen for maps, big battery for the road.</p>
+<p><strong>University student who games:</strong> Infinix Note 50s. Fast, smooth, good camera.</p>
+<p><strong>Film and reels lover:</strong> Tecno Spark 40 Pro. A bright 144Hz AMOLED with 256GB.</p>
+<p><strong>Someone who breaks things:</strong> Realme C85 Pro.</p>
+<p><strong>Someone who likes clean Android:</strong> Moto G57 Power.</p>
+<p><strong>Someone who never deletes anything:</strong> Honor X7d, with 256GB as standard and 512GB available.</p>
+<h2>5G: does it decide?</h2>
+<p>Only the Redmi and Moto in our main list have it. In a country where most connections are 4G, that should be a tie-breaker. If you keep phones for four years or live in the valley, lean towards 5G. Otherwise choose on screen, battery and camera. We say more in <a href="/news/ntc-ncell-5g-rollout-nepal-2024">5G in Nepal</a>.</p>
+<h2>Should you add Rs 5,000?</h2>
+<p>At Rs 44,999 the market changes again. The <a href="/products/samsung-galaxy-a17-5g">Galaxy A17 5G</a> brings Samsung's support. The <a href="/products/realme-p3">Realme P3</a> is fast with IP69. The <a href="/products/moto-g96">Moto G96</a> has a gorgeous curved screen. The <a href="/products/redmi-note-15-5g">Redmi Note 15 5G</a> at about Rs 44,000 combines a bright AMOLED, a stabilised 108MP camera and 5G, and is perhaps the best all-round phone under Rs 50,000. If you can wait a month to reach it, do.</p>
+<h2>Traps at this price</h2>
+<ul>
+<li><strong>Half-memory versions.</strong> The Redmi 17 starts at 4GB. Buy the 6GB model.</li>
+<li><strong>Storage type.</strong> The Spark 40 Pro's 256GB is eMMC, slower than UFS. You notice when installing apps.</li>
+<li><strong>Grey imports.</strong> Motorola and POCO phones from India are common. They have no local warranty.</li>
+<li><strong>Last year's phone at this year's price.</strong> Compare the launch date on the product page.</li>
+</ul>
+<h2>Practical checks</h2>
+<p>In the shop, open the camera and take a picture of your own hand in the dimmest corner. Play a video at full volume. Put the brightness at maximum and walk to the door. Type a message with one thumb. Ask about the price of a screen replacement. These five minutes tell you more than a page of specifications.</p>
+<h2>Our overall choice</h2>
+<p>If we had Rs 36,000 and no other information about the buyer, we would choose the Infinix Note 50s for its balance of screen, speed and camera, as long as service is available nearby. If service is a concern or battery is the priority, the Redmi 17 5G with 6GB is the sensible alternative. Read <a href="/reviews/redmi-17-5g-review-nepal">our Redmi 17 5G review</a> to see whether its screen would bother you.</p>
+
+=== best-phones-under-50000-nepal
+<h2>Eight phones, one table</h2>
+[[models:infinix-note-50s,poco-m8s,samsung-galaxy-m36-5g,redmi-note-15-5g,moto-g96,samsung-galaxy-a17-5g,realme-p3,realme-14-5g]]
+<h2>Start with your own week</h2>
+<p>Before comparing anything, think about last week. How many hours did you spend on video? Did the battery reach the evening? How many photos did you take, and where? Did you play games? How old is your present phone? The right phone for a person who answered "four hours of reels, dead by six, forty photos of my daughter" is not the right one for "two hours of PUBG and no photos at all". With that in mind, here are the phones by the question they answer.</p>
+<h2>"My battery never lasts": POCO M8s, Realme P3, Realme 14 5G</h2>
+<p>The POCO has 7,000mAh and a 6.9-inch screen, and comfortably gets through a day and a half. The two Realmes have 6,000mAh silicon-carbon cells with better chips and 45W charging. If endurance is everything, the <a href="/products/honor-x8d">Honor X8d</a> with 7,000mAh at about Rs 40,000 deserves a look, provided you can live with 4G.</p>
+<h2>"My photos are blurry": Redmi Note 15 5G, Moto G96, Galaxy M36 5G</h2>
+<p>All three have optical stabilisation. The Redmi's 108MP sensor is the most flexible in daylight. The Motorola's Sony sensor is larger and better indoors. Samsung's processing is the most consistent, with natural skin tones after a little tuning. Any of these will transform pictures of people who do not sit still.</p>
+<h2>"My phone is slow": Realme P3 and Realme 14 5G</h2>
+<p>The Snapdragon 6 Gen 4 is a modern 4nm chip with a clear lead over the Exynos 1330 and Snapdragon 6s Gen 3 phones here. The Infinix Note 50s with the Dimensity 7300 Ultimate is close and cheaper, with very fast LPDDR5X memory and UFS 3.1 storage. For smoothness per rupee, the Infinix wins.</p>
+<h2>"I want it to last five years": Samsung</h2>
+<p>Samsung's promise of updates on the A17 and M36 goes well beyond the others. The M36 5G is the better hardware of the two: a stronger Exynos 1380, 120Hz and 8GB as standard, for less money. It is sold mostly online, so the A17 is the one you see in shops. If you can find an official M36 at Rs 41,999, it is the better buy. Read <a href="/reviews/samsung-galaxy-a17-5g-review-nepal">our A17 review</a> for what Samsung does at this price.</p>
+<h2>"I want it to feel expensive": Moto G96</h2>
+<p>A curved 144Hz pOLED, a soft back and 178 grams. No other phone under Rs 50,000 is as pleasant to hold. The battery is average and service is limited. <a href="/reviews/moto-g96-review-nepal">Our review</a> has the details.</p>
+<h2>"It will get wet": Realme P3 or Realme 14 5G</h2>
+<p>Both carry high IP ratings. They are the sensible choice for people who ride, trek or work in kitchens.</p>
+<h2>One phone for most people</h2>
+<p>If a friend asked us for one name without any explanation, we would say the <strong>Redmi Note 15 5G</strong>. Its screen reaches 3,200 nits, the main camera is stabilised, it has 5G, 256GB in the base version and a service centre in most cities. It does nothing best and nothing badly. The version with 8GB is worth the extra.</p>
+<h2>Understanding the differences in screens</h2>
+<p>Every phone in the list uses an OLED-type panel, so the fight is about brightness and smoothness. Peak numbers such as 3,200 or 2,000 nits apply to small areas in HDR video. The figure to look for is high brightness mode, the level you get in sunlight. Above 1,000 nits is good. POCO's 850 is the weakest here, and you will notice it outdoors. 144Hz on the Infinix, POCO and Moto is pleasant, but few people can separate it from 120Hz.</p>
+<h2>Memory and storage</h2>
+<p>At this price, accept nothing less than 8GB/128GB, and try for 256GB. The base versions of the A17, M8s and Note 15 start with 6GB. It is the small compromise that you will notice in the third year. Check whether the phone has a card slot if you shoot a lot of video. Most AMOLED phones have dropped it.</p>
+<h2>Price tactics</h2>
+<p>This is the most competitive shelf in the country, and dealers know you have eight choices. Use that. Ask two shops for their final price, including exchange, and tell each what the other offered. Watch for models about to be replaced. The Realme 14 5G and Infinix Note 50s are from 2025, and real discounts on them appear often. Look at their movement on our <a href="/price-tracker">price tracker</a>.</p>
+<h2>What Rs 20,000 more would bring</h2>
+<p>Phones at Rs 60,000 to 70,000, covered in <a href="/guides/best-phones-under-70000-nepal">the next guide</a>, add flagship-class speed, 90 to 100W charging, IP68 and better zoom. If you keep a phone for four years, that is Rs 400 a month. If you change every two years, it is Rs 800. Think about it in those terms, and not as one large sum.</p>
+<h2>Three mistakes to avoid</h2>
+<ul>
+<li>Buying on megapixels. A 108MP camera without stabilisation loses to a stabilised 50MP one after sunset.</li>
+<li>Buying on 5G alone. See whether your street has it first.</li>
+<li>Buying the last piece on display. Display phones have been on full brightness for months.</li>
+</ul>
+<h2>Before you pay</h2>
+<p>Check the IMEI in MDMS, the bill, the warranty card and the variant. Test the fingerprint reader, as the ones under cheaper AMOLED screens vary. Make a call. Take a video while walking, to see the stabilisation at work. Then enjoy it, and stop reading about phones for at least a year.</p>
+
+=== best-phones-under-70000-nepal
+<h2>Compared at a glance</h2>
+[[models:poco-f7,poco-x8-pro,oneplus-nord-ce-5,redmi-note-17-pro-max-5g,vivo-v70-fe,nothing-phone-4a,samsung-galaxy-a37-5g]]
+<h2>The most interesting money in phones</h2>
+<p>Spend Rs 70,000 and you can buy a phone that plays any game, or one that lasts three days, or one with a real zoom lens, or one that will be updated until 2032. You cannot buy all four. Two years ago that would have cost a lakh and a half, and it is why we think this band offers the greatest value for people who use their phones hard.</p>
+<h2>POCO F7: for speed</h2>
+<p>The Snapdragon 8s Gen 4 with 12GB and 512GB of UFS 4.1 storage is close to flagship speed at less than half the price. Games run at high settings and stay there. IP68, 90W charging and a 6,500mAh battery complete the sheet. The weak points are an ordinary ultra wide and no zoom, HyperOS with its extra apps, and a chunky feel. <a href="/reviews/poco-f7-review-nepal">Our review</a> goes through them.</p>
+<h2>POCO X8 Pro: for speed in a smaller body</h2>
+<p>With a 6.59-inch screen it is easier to hold than the F7, and the Dimensity 8500 Ultra is just as quick in daily life. It charges at 100W. If you find most phones too big, look here first. Compare prices by memory version, because the F7's 12GB/512GB at the same price is the better deal if you want storage.</p>
+<h2>Redmi Note 17 Pro Max: for battery</h2>
+<p>Ten thousand milliampere-hours with 100W charging, in a phone that is still reasonable to hold. People who travel for work, guide treks or simply hate chargers will find it life-changing. The chip is a class below the POCOs, good for everything except the heaviest games. Read <a href="/reviews/redmi-note-17-pro-max-review-nepal">the review</a>.</p>
+<h2>Nothing Phone 4a: for character and zoom</h2>
+<p>A 50MP periscope with 3.5x optical zoom is rare under Rs 1 lakh. It makes portraits look natural and brings stages and mountains closer. The software is clean and distinct, and the lights on the back are either charming or silly, depending on you. The battery is average at about 5,000mAh. See <a href="/reviews/nothing-phone-4a-review-nepal">our review</a>.</p>
+<h2>OnePlus Nord CE5: for balance</h2>
+<p>At Rs 59,999 it is the cheapest of the group. It brings a Dimensity 8350 Apex, 7,100mAh, 80W charging and the smoothness of OxygenOS. Cameras are fine and nothing more. If you want to spend less than Rs 60,000 and avoid weaknesses, this is the phone.</p>
+<h2>vivo V70 FE: for portraits and style</h2>
+<p>A slim phone with a 200MP main camera and 7,000mAh, aimed at people who share photos. vivo's portrait processing flatters faces, and the service network is wide. The chip is adequate. Compare it with the Nothing if you care about zoom.</p>
+<h2>Galaxy A37 5G: for the long term</h2>
+<p>It has drifted above Rs 70,000 and is not the fastest. Six years of updates, IP68 and Samsung's service are the reasons to choose it. <a href="/reviews/samsung-galaxy-a37-5g-review-nepal">Our review</a> is frank about the price.</p>
+<h2>How to decide in three questions</h2>
+<ol>
+<li><strong>Do you play demanding games more than three hours a week?</strong> POCO F7 or X8 Pro. Stop here.</li>
+<li><strong>Is running out of battery your main complaint?</strong> Redmi Note 17 Pro Max. Stop here.</li>
+<li><strong>Do you take more than ten photos a week of people?</strong> Nothing Phone 4a or vivo V70 FE. If not, Nord CE5 for value or Galaxy A37 for longevity.</li>
+</ol>
+<h2>What to know about charging watts</h2>
+<p>Ninety and one hundred watt charging work only with the right brick and cable. POCO and Redmi include them in most Nepali boxes. Check yours. With an ordinary USB-C charger they drop to about 18 to 27W. Fast charging does warm the battery, so use it when you need it and a slower one overnight. The phones manage themselves well, and modern cells keep most of their capacity for three or four years.</p>
+<h2>Water resistance at this level</h2>
+<p>IP68 is common now, on the POCOs, Redmi and Samsung. It means that a fall into a bucket is not the end. It does not mean swimming. Seals age, a repaired phone loses them, and warranty does not cover liquid. Treat it as insurance you hope never to claim.</p>
+<h2>Updates compared</h2>
+<p>Samsung leads with six Android versions on the A37. OnePlus and Nothing promise several versions and up to six years of patches on recent models, depending on the phone. POCO and Redmi have improved with around four versions on these series. vivo's FE models are shorter. Ask the seller for the number in writing, or check the maker's site. If you keep a phone for three years, all are enough.</p>
+<h2>New or last year's flagship?</h2>
+<p>Seventy thousand also buys a used Galaxy S24 or iPhone 14 in good condition. You get a better main camera, wireless charging and a premium body, along with a worn battery and no warranty. For photographers who can check a used phone it is a serious option. For everyone else, new phones at this price are so good that the risk is hard to justify. Our <a href="/reviews/samsung-galaxy-s24-review-snapdragon-8-gen-3-flagship-value">Galaxy S24 review</a> explains how it has aged.</p>
+<h2>Final advice</h2>
+<p>Try the POCO F7 and Nothing Phone 4a side by side if you can. They are opposites: one is all engine, the other all character. Whichever you prefer after five minutes in the hand tells you which side of this list to buy from. And if neither attracts you, you may be a Nord CE5 person, which is a compliment: you want a phone that works and leaves Rs 10,000 in your pocket.</p>
+
+=== best-phones-under-100000-nepal
+<h2>The field</h2>
+[[models:oneplus-15r,poco-x8-pro-max,oneplus-nord-6,honor-600,realme-p4-power,poco-f8-pro]]
+<h2>What changes just below a lakh</h2>
+<p>At Rs 70,000 you could have speed, battery or zoom. Here you can have two of them, sometimes with a third thrown in. Chips come from the top family, batteries pass 7,000mAh, screens reach 165Hz and memory starts at 12GB. What you still do not get, mostly, is a flagship camera system with a long zoom, wireless charging and the very longest support. Those begin above Rs 1.2 lakh.</p>
+<h2>OnePlus 15R: our choice for most buyers</h2>
+<p>The Snapdragon 8 Gen 5 is one step below the chip in two-lakh phones, and you would need a stopwatch to notice. The 165Hz AMOLED is superb, the 7,400mAh battery lasts well past a day, and OxygenOS is among the cleanest versions of Android. Cameras are good, with an 8MP ultra wide that lets the side down and no telephoto. If you want one phone under a lakh that will not irritate you for four years, this is it.</p>
+<h2>OnePlus Nord 6: nearly the same, for less</h2>
+<p>For about Rs 8,500 less you get a Snapdragon 8s Gen 4, a similar screen and a slightly larger battery. The differences in daily use are tiny. We would buy the Nord 6 unless you play the heaviest games, and use the difference for earbuds. The base version has 8GB. Choose 12GB if you can.</p>
+<h2>POCO X8 Pro Max: for people who finish batteries</h2>
+<p>An 8,500mAh cell with 100W charging and a Dimensity 9500s. It is a gaming phone in all but name. It is large and heavy, and HyperOS needs tidying on the first evening. If you stream, hotspot and play every day, nothing else here keeps up.</p>
+<h2>Honor 600: for a compact hand and a good camera</h2>
+<p>At 6.57 inches, with a 200MP stabilised main camera and a 12MP ultra wide, it is the most camera-minded choice here. Its 7,000mAh battery in that size is remarkable. The Snapdragon 7 Gen 4 is a class below the others, fine for anything except extreme gaming. Honor's service network is growing but still smaller, so ask first.</p>
+<h2>Realme P4 Power: two days, guaranteed</h2>
+<p>Ten thousand milliampere-hours. It costs about Rs 77,000, leaving money in your pocket. The chip is mid-range. It is for a driver, a guide or a traveller, as <a href="/reviews/realme-p4-power-review-nepal">our review</a> explains.</p>
+<h2>And the tempting Rs 5,000 more</h2>
+<p>The <a href="/products/poco-f8-pro">POCO F8 Pro</a> at Rs 1,04,999 brings a Snapdragon 8 Elite, 12GB/512GB and IP68. If your budget has any give, it offers the most performance for each rupee in the Nepali market today. It is in our <a href="/guides/best-phones-under-150000-nepal">next guide</a> for that reason.</p>
+<h2>Performance in perspective</h2>
+<p>All of these phones run every app in the Play Store smoothly. The difference between them shows only in long gaming sessions and heavy video editing. So rank them by things you can feel daily instead: weight, size, screen, software, battery and camera.</p>
+<h2>Size and weight matter more than you expect</h2>
+<p>Hold each one for five minutes with a case on. A 6.83-inch, 220 gram phone is wonderful for films and tiring in bed. The Honor 600 is the only truly one-handed phone in the list. If you come from an iPhone or a small Samsung, try it before deciding that you need the biggest screen.</p>
+<h2>Cameras without zoom</h2>
+<p>With the exception of the Honor's high-resolution crop, these phones use a single serious camera. For food, people, streets and documents they are great. For portraits at a distance, school stages and mountains, a telephoto lens matters. If that is your life, two options sit on either side: the <a href="/products/nothing-phone-4a">Nothing Phone 4a</a> with a 3.5x periscope at Rs 69,999, or a camera flagship above Rs 1.2 lakh.</p>
+<h2>Support and repairs</h2>
+<p>OnePlus promises several Android versions and up to six years of patches on the R series. Ask for the exact number on the model. POCO and Realme are a little shorter, and Honor has improved. For repairs, Realme and Xiaomi have more centres than OnePlus and Honor. A screen on any of these costs between Rs 15,000 and 30,000, so insurance or at least a decent protector is not a luxury.</p>
+<h2>iPhone or Samsung at this price?</h2>
+<p>A new iPhone under a lakh means an older generation from remaining stock, and a new Galaxy S means a discounted older model. An iPhone 15 or a Galaxy S24 can still be a good purchase if you value the ecosystem, the cameras and the resale price. You give up battery and charging speed. Check that older stock has not been activated and that the battery has been stored well.</p>
+<h2>Paying for it</h2>
+<p>At a lakh, the method of payment matters. EMI over twelve months at zero interest is only free if the cash price is the same. Ask for both. Bank cards have caps on cashback. An exchange bonus is worth it if it beats the private sale price of your old phone by more than your time is worth. The EMI estimate on each product page shows the monthly amount.</p>
+<h2>Who should choose what</h2>
+<ul>
+<li><strong>Everyday user with high standards:</strong> OnePlus 15R.</li>
+<li><strong>Value hunter:</strong> OnePlus Nord 6.</li>
+<li><strong>Gamer and streamer:</strong> POCO X8 Pro Max, or stretch to the POCO F8 Pro.</li>
+<li><strong>Small hands, many photos:</strong> Honor 600.</li>
+<li><strong>Road warrior:</strong> Realme P4 Power.</li>
+</ul>
+<h2>Our last word</h2>
+<p>Nobody needs to spend a lakh on a phone to have a good one. But if you use it five hours a day and keep it for four years, a lakh works out at under Rs 70 a day, or about Rs 14 for each hour of use. Choose the one that fits your hand and your evenings, and ignore the last ten per cent of benchmark scores.</p>
+
+=== best-phones-under-150000-nepal
+<h2>Seven phones worth the money</h2>
+[[models:poco-f8-pro,oneplus-13s,samsung-galaxy-s26-fe,oppo-find-x9-pro,google-pixel-10,honor-600-pro,samsung-galaxy-s26]]
+<h2>Two kinds of phone live here</h2>
+<p>Between a lakh and a lakh and a half there are phones from value brands that match flagships on the sheet, and entry flagships from big brands that match them in polish. A POCO F8 Pro is faster than a Galaxy S26 FE and costs Rs 20,000 less. The Samsung takes more dependable photos, has wireless charging and will be repaired in any city until 2033. Decide which of those sentences you care about, and half the list disappears.</p>
+<h2>OPPO Find X9 Pro: the surprise</h2>
+<p>At Rs 1,25,999 this is a complete flagship. The Dimensity 9500 is among the fastest chips made, the 7,500mAh battery is larger than any rival's, and the camera system with a 1/1.28-inch main sensor and a high-resolution telephoto belongs with phones that cost two lakhs. If photography and battery are both important, nothing else under Rs 1.5 lakh gives you so much. Check that the unit is official, as the price in different shops varies a lot.</p>
+<h2>POCO F8 Pro: the fastest for the price</h2>
+<p>Snapdragon 8 Elite, 12GB/512GB, IP68, 100W charging. It is the phone for players and for people who keep twenty apps open. The main camera is good, the rest are fine. The software carries extra apps that need removing.</p>
+<h2>Google Pixel 10: the cleverest camera</h2>
+<p>Pixels do more with software than anyone. Faces look natural, night photos are calm, and features such as Best Take and call screening feel useful. The 6.3-inch size is comfortable, and support runs for seven years. Two cautions for Nepal: there is no official Google service, so warranty depends on the importer, and the Tensor chip runs behind rivals in games. Confirm MDMS registration and VoLTE on your SIM before paying.</p>
+<h2>Galaxy S26 FE and Galaxy S26</h2>
+<p>The FE gives you Samsung's flagship look, a large screen, a telephoto lens and seven years of updates, with the Exynos 2500. At Rs 1,24,999 it is for people who want a big Samsung without paying two lakhs. The S26 at Rs 1,39,999 is smaller, faster and better made, with a weaker battery. If the larger screen is not essential, the S26 is worth Rs 15,000 more. If battery matters, neither is the best choice on this page.</p>
+<h2>OnePlus 13s: the small powerhouse</h2>
+<p>A 6.32-inch phone with a Snapdragon 8 Elite, a 2x telephoto and a 5,850mAh battery is rare. It charges at 80W and fits any pocket. The cameras are a step behind the Pixel and OPPO, and the ultra wide is missing. For people who miss small phones, it is the one.</p>
+<h2>Honor 600 Pro: the compact camera phone</h2>
+<p>A 200MP stabilised main camera with a 50MP telephoto in a 6.57-inch body, with a Snapdragon 8 Elite and 7,000mAh. On paper it is the best balanced phone in the list. Service and resale are the questions. If there is an Honor centre near you, take it seriously.</p>
+<h2>Cameras: how to judge at this level</h2>
+<p>Every phone here takes a good photo at noon. Judge them on three difficult shots: a person indoors in the evening, a moving child and a subject across the street. Ask the shop to let you try. A telephoto lens of 3x or more makes the third possible. Optical stabilisation and fast processing decide the first two. The Pixel and Samsung are the most reliable, the OPPO and Honor the most ambitious.</p>
+<h2>Battery: the surprising gap</h2>
+<p>The Galaxy S26 has 4,300mAh. The OPPO has 7,500. That is not a small difference. Samsung and Google have been slow to adopt silicon-carbon cells, and it shows by six in the evening. If you are out from seven to seven, give battery a high place in your list.</p>
+<h2>Should you buy last year's two-lakh phone?</h2>
+<p>The Galaxy S25 Ultra has been seen at well under its original price, and the iPhone 16 and 17 sit close to this range, at Rs 1,46,599 and Rs 1,64,999 in our listings. If you want an iPhone, the <a href="/products/iphone-17e">iPhone 17e</a> at Rs 1,32,499 is the cheapest current one, with a single rear camera. Choose it for iOS and not for its hardware.</p>
+<h2>Resale value</h2>
+<p>If you change phones every two years, resale is part of the price. Samsung's S series and iPhones hold value best. Pixels hold it moderately, OnePlus less, POCO, Honor and OPPO least. A phone that costs Rs 1,40,000 and sells for Rs 70,000 after two years costs the same to own as one bought at Rs 1,05,000 and sold for Rs 35,000. Include that in your sums.</p>
+<h2>Paying and protecting</h2>
+<p>At this price, take a VAT bill, register the warranty online, and consider screen protection plans. Samsung Care+ and similar schemes cost a few thousand rupees and cover the most likely accident. Ask for the cash price, the EMI price and the exchange offer separately, and compare totals.</p>
+<h2>Quick recommendations</h2>
+<ul>
+<li><strong>Best all-round value:</strong> OPPO Find X9 Pro.</li>
+<li><strong>Best for games:</strong> POCO F8 Pro.</li>
+<li><strong>Best for service and resale:</strong> Galaxy S26.</li>
+<li><strong>Best photos without effort:</strong> Pixel 10, if you accept importer warranty.</li>
+<li><strong>Best small phone:</strong> OnePlus 13s.</li>
+<li><strong>Best for five years or more:</strong> Galaxy S26 FE or Pixel 10.</li>
+</ul>
+<h2>Is it worth going above Rs 1.5 lakh?</h2>
+<p>For most people, no. Above this line you pay for longer zoom, larger sensors, titanium frames, pens and status. They are real, and they matter to some. A professional who earns from photos or video can justify a <a href="/products/vivo-x300-pro">vivo X300 Pro</a> or a <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>. For the rest of us, the phones on this page are already better than we are.</p>
+
+=== best-phones-in-nepal-by-budget
+<h2>How we choose</h2>
+<p>We do not score phones by adding up specifications. Our picks come from three questions. Is the price in Nepal fair compared with everything else on the shelf today? Does the phone have a weakness that would annoy an ordinary owner every week? And can it be serviced here? A phone that wins on paper and cannot be repaired in Pokhara does not make the list, and neither does one that was a bargain at launch and has since become expensive. Prices come from published dealer lists and brand pages, and each device page shows its history.</p>
+<h2>How much should you spend?</h2>
+<p>A useful rule is to think in months. Divide the price by the number of months you will keep the phone. A Rs 36,000 phone kept for three years is Rs 1,000 a month. A Rs 1,40,000 phone kept for five years is about Rs 2,300, and a Rs 15,000 phone that becomes unbearable after eighteen months is about Rs 830. Seen this way, the cheapest phone is rarely much cheaper, and the middle of the market is where most of us should look.</p>
+<h2>The middle of the market in detail</h2>
+[[models:redmi-17-5g,redmi-note-15-5g,honor-x9d,poco-f7,redmi-note-17-pro-max-5g,oneplus-15r,samsung-galaxy-s26,iphone-17e]]
+<h2>Read this before you pick a brand</h2>
+<p><strong>Samsung</strong> has the widest service and the longest updates, with modest batteries and slower charging. <strong>Xiaomi, Redmi and POCO</strong> give the most hardware for your money, and software that needs some tidying. <strong>vivo and OPPO</strong> make handsome phones with flattering cameras and large dealer networks. <strong>Realme</strong> leans towards battery and charging. <strong>Honor</strong> makes slim, tough phones with huge batteries, and its service is expanding. <strong>OnePlus and Nothing</strong> have the cleanest software among the Chinese-owned makers and fewer service points. <strong>Infinix and Tecno</strong> are strongest under Rs 40,000. <strong>Apple</strong> offers longevity, video quality and resale, at a price.</p>
+<p>Our brand guides have full price lists, for example <a href="/guides/samsung-phone-price-in-nepal">Samsung</a>, <a href="/guides/xiaomi-phone-price-in-nepal">Xiaomi</a>, <a href="/guides/vivo-phone-price-in-nepal">vivo</a> and <a href="/guides/apple-phone-price-in-nepal">Apple</a>.</p>
+<h2>Match the phone to the person</h2>
+<p><strong>For a parent:</strong> a big, bright screen, loud speaker, long battery and nearby service. Galaxy A07 or A17, vivo Y series.</p>
+<p><strong>For a college student:</strong> a smooth screen, 8GB of memory and enough speed for games. Infinix Note 50s, Redmi Note 15 5G, POCO F7.</p>
+<p><strong>For someone who sells online:</strong> a stabilised main camera and good front camera. Moto G96, vivo V series, Galaxy A37.</p>
+<p><strong>For a traveller or guide:</strong> battery and toughness. Honor X9d, Redmi Note 17 Pro, Realme P4 Power.</p>
+<p><strong>For a photographer:</strong> vivo X300 Pro, Xiaomi 17 Ultra, OPPO Find X9 Pro.</p>
+<p><strong>For someone who never wants to think about it:</strong> iPhone 17, Galaxy S26, OnePlus 15R.</p>
+<h2>Features that matter, ranked</h2>
+<ol>
+<li>Memory and storage. They decide how the phone feels in year three.</li>
+<li>Battery. Above 6,000mAh, most people stop worrying.</li>
+<li>Main camera with optical stabilisation.</li>
+<li>Screen brightness, then smoothness.</li>
+<li>Years of security updates.</li>
+<li>Charging speed, from 33W upwards.</li>
+<li>Water and dust protection.</li>
+<li>5G, if your area is likely to get it.</li>
+</ol>
+<h2>Features that matter less than advertised</h2>
+<p>Macro and depth cameras. Memory extension. Peak brightness in HDR. Ultra-fast charging above 80W. The number of AI tools. Benchmark scores. A processor two names higher than the one you can afford. None of these will change your Tuesday.</p>
+<h2>When to buy</h2>
+<p>Prices follow a calendar. Samsung launches its S series in the first months of the year and its foldables in July, and older models fall before those dates. iPhones change in September, with discounts on the previous series from October. Dashain and Tihar bring broad offers, described in <a href="/blog/dashain-tihar-tech-deals-how-to-spot-a-real-discount">our festival deals article</a>. In 2026, component costs pushed many prices upwards, so waiting is not always rewarded. If your phone is broken, buy now. If it works, wait for a sale.</p>
+<h2>Buying safely</h2>
+<p>Whichever phone you choose, three checks protect your money. The IMEI must be registered, the bill must carry it, and the warranty must belong to the brand's distributor in Nepal. Our guide to <a href="/guides/how-to-check-phone-is-official-in-nepal">checking an official phone</a> shows how in five minutes.</p>
+<h2>New, used or refurbished?</h2>
+<p>A one-year-old flagship often beats a new mid-range phone at the same price on camera and build, and loses on battery and warranty. If you can judge a used phone or know the owner, it is worth considering above Rs 50,000. Below that, new phones are so capable that the saving is rarely worth the risk. Refurbished phones sold by shops vary widely. Ask who refurbished it, what was replaced and how long the guarantee lasts.</p>
+<h2>Keeping it longer</h2>
+<p>The best way to save money on phones is to buy fewer of them. A case, a screen protector, a charge limit of 80 per cent at night, 20GB of free space and a battery replacement in the third year can stretch almost any phone here by a year or two. At Rs 4,000 to 8,000, a new battery is the best value upgrade in the whole market.</p>
+<h2>How often this page changes</h2>
+<p>We revisit it as prices move and new phones arrive in Nepal. If you spot a price that no longer matches your local shop, tell us through the <a href="/contact">contact page</a> and we will check it. For phones announced but not yet on sale, see <a href="/upcoming-launches">upcoming launches</a>.</p>

@@ -6,10 +6,10 @@ use App\Models\BlogPost;
 use App\Models\Category;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
-use App\Models\PriceHistory;
 use App\Models\Review;
 use App\Models\TechGuide;
 use App\Support\CatalogSearch;
+use App\Support\PriceDrops;
 use App\Support\Seo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
@@ -28,7 +28,7 @@ class SearchController extends Controller
         $sort = in_array($request->sort, ['relevance', 'price_asc', 'price_desc', 'newest'], true) ? $request->sort : null;
         $page = max(1, (int) $request->page);
 
-        $priceTracker = $this->priceTracker();
+        $priceTracker = PriceDrops::top(8);
 
         if ($q === '') {
             return Inertia::render('Search/Index', [
@@ -93,7 +93,7 @@ class SearchController extends Controller
             'total' => $total,
             'priceTracker' => $priceTracker,
             'seo' => Seo::make([
-                'title' => "Search results for \"{$q}\" — {$total} found",
+                'title' => "Search results for \"{$q}\"",
                 'noindex' => true,
             ]),
         ]);
@@ -187,27 +187,5 @@ class SearchController extends Controller
             ->latest()
             ->take($limit)
             ->get();
-    }
-
-    private function priceTracker(): array
-    {
-        $trending = Gadget::forCard()->where('is_trending', true)->latest()->take(8)->get();
-        $historyMap = PriceHistory::whereIn('gadget_id', $trending->pluck('id'))->orderBy('date', 'desc')->get()->groupBy('gadget_id');
-
-        return $trending->map(function ($g) use ($historyMap) {
-            $history = $historyMap->get($g->id, collect())->sortByDesc('date');
-            $latest = $history->first();
-            $old = $history->first(fn ($h) => $h->date->lte(now()->subDays(7))) ?? $history->last();
-
-            return [
-                'id' => $g->id,
-                'name' => $g->name,
-                'slug' => $g->slug,
-                'price' => (float) $g->price,
-                'brand' => $g->brand?->name,
-                'category' => $g->category?->slug,
-                'price_change' => ($latest && $old) ? round((float) $latest->price - (float) $old->price) : 0,
-            ];
-        })->values()->toArray();
     }
 }

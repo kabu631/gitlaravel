@@ -6,17 +6,19 @@
       <p v-if="subheading" class="mt-3 text-lg leading-8 text-fg-muted">{{ subheading }}</p>
     </header>
 
-    <ol v-if="services.length" class="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-xl border border-line bg-line sm:grid-cols-2">
-      <li v-for="(svc, i) in services" :key="svc.id" class="bg-surface p-6 sm:p-7">
-        <p class="tabular text-sm font-medium text-fg-faint">{{ String(i + 1).padStart(2, '0') }}</p>
-        <h2 class="mt-3 text-lg font-semibold text-fg">{{ svc.title }}</h2>
+    <ol v-if="services.length" class="mt-10 grid grid-cols-1 gap-x-12 border-t border-line sm:grid-cols-2">
+      <li v-for="(svc, i) in services" :key="svc.id" class="group flex gap-5 border-b border-line py-7">
+        <p class="numeral-outline tabular w-14 shrink-0 text-4xl font-bold leading-none tracking-tighter" aria-hidden="true">{{ String(i + 1).padStart(2, '0') }}</p>
+        <div class="min-w-0">
+        <h2 class="text-lg font-semibold text-fg">{{ svc.title }}</h2>
         <p class="mt-2 text-sm leading-6 text-fg-muted">{{ svc.description }}</p>
+        </div>
       </li>
     </ol>
 
     <div v-if="body" class="prose mt-12 max-w-3xl" v-html="body" />
 
-    <aside class="mt-16 flex flex-col gap-4 rounded-xl bg-surface-2 p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+    <aside class="mt-14 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
       <div>
         <h2 class="font-semibold text-fg">Working with us</h2>
         <p class="mt-1 text-sm text-fg-muted">For reviews, partnerships or advertising, tell us what you have in mind.</p>

@@ -1,0 +1,198 @@
+=== 5-things-to-check-before-buying-a-smartphone-in-nepal replace
+<p>Buying a phone in Nepal is not like buying one in Delhi or Dubai. The same model can sit in three shops on New Road at three prices, with three kinds of warranty, and one of them may stop connecting to the network a few weeks later. Most of the trouble people write to us about could have been avoided in ten minutes at the counter. These are the five checks, in the order we would do them.</p>
+<h2>1. Is it registered in MDMS?</h2>
+<p>The Mobile Device Management System is run by the Nepal Telecommunications Authority. Every phone has a 15-digit IMEI number, and the system keeps a list of numbers that were imported legally and registered. A phone that is missing from the list can be restricted from using Nepali networks.</p>
+<p>Dial <strong>*#06#</strong> on the phone. The IMEI numbers appear on the screen. Compare them with the sticker on the box. They should match, digit for digit. Then check the number on the NTA's MDMS page. If the seller says "it will be registered in two or three days", ask them to register it before you pay, or ask for a written promise of a refund. Once money has changed hands, your argument is weaker.</p>
+<p>People who bring a phone from abroad in their own luggage can register it individually, within the rules in force at the time. Keep your passport stamp and bill. Our <a href="/guides/how-to-check-phone-is-official-in-nepal">MDMS guide</a> explains the process.</p>
+<h2>2. Whose warranty is it?</h2>
+<p>There are three kinds in the market, and sellers often say "one year warranty" for all of them.</p>
+<ul>
+<li><strong>Official Nepal warranty.</strong> Given by the brand's distributor and honoured at its service centres. This is the one you want.</li>
+<li><strong>Shop warranty.</strong> The shop repairs the phone itself, or tries to. It is worth as much as the shop.</li>
+<li><strong>International or Indian warranty.</strong> Valid in the country of purchase. For you it usually means a bus ride across the border, or nothing.</li>
+</ul>
+<p>Ask for the name of the distributor printed on the bill or warranty card, and the address of the nearest service centre. Then ask one more question: how much does a screen replacement cost for this model? A seller who deals in genuine units will know. The answer also tells you how expensive the phone will be to own. An AMOLED screen on a Rs 60,000 phone can cost a third of its price.</p>
+<h2>3. Will it work well on your network?</h2>
+<p>Most phones sold officially here support the bands used by Ncell and Nepal Telecom. Grey imports made for other regions can be missing one, and you find out when there is no signal at home.</p>
+<p>Put your own SIM in the display phone and make a call from the place where signal is weakest, if you can. Check that VoLTE can be turned on, since calls over 4G are clearer and connect faster. If you care about 5G, ask which bands the phone supports, and be realistic: coverage is still limited, and a good 4G phone is not a mistake. See <a href="/guides/top-reasons-buy-5g-phone-nepal">our 5G guide</a> for how much weight to give it.</p>
+<p>Phones that use eSIM need a moment's thought as well. Some imported models, particularly iPhones made for the United States, have no physical SIM tray at all. Confirm that your operator supports eSIM for your number and what it charges.</p>
+<h2>4. Is the price honest?</h2>
+<p>A label that says "Rs 59,999, down from Rs 74,999" tells you nothing unless somebody paid Rs 74,999. Look at the price history first. Our <a href="/price-tracker">price tracker</a> shows when a figure changed and by how much.</p>
+<p>Then compare like with like. A phone with 8GB of memory and 128GB of storage is a different product from the one with 12GB and 256GB, and shop boards often show the price of the first beside the photo of the second. Check the exact variant on the box.</p>
+<p>Finally, work out the real cost. Add the charger if it is not included, a case, a screen protector and the exchange value you lose if the shop's offer for your old phone is low. If you pay by EMI, ask for the total of all payments including the processing fee, and compare it with the cash price. "Zero per cent" sometimes means the discount has been removed. The EMI estimate on our product pages does the sums for you.</p>
+<h2>5. Is this the phone in the box?</h2>
+<p>Before you leave the counter, spend five minutes with the actual unit.</p>
+<ul>
+<li>The seal should be intact and opened in front of you.</li>
+<li>Model number, colour, memory and storage should match the box, the bill and the Settings page.</li>
+<li>Open a plain white image and a plain black one to find dead pixels, marks or tint.</li>
+<li>Take a photo with every camera, including the front one, and zoom in.</li>
+<li>Record a short video and listen to it. This tests microphone and speaker together.</li>
+<li>Plug in the charger and watch for the fast-charging symbol.</li>
+<li>Set up the fingerprint reader and try it five times.</li>
+<li>For iPhones and Samsungs, check that no previous account is signed in.</li>
+</ul>
+<h2>A short list for used phones</h2>
+<p>Used phones deserve a longer look. Ask for the original bill, and check that the seller's name matches. Read battery health where the phone shows it. Look for screws with scratches around them and a screen that looks bluish compared with a new one, both signs of earlier repair. Make a call on speaker and on the earpiece. Insert a SIM and test mobile data. Reset the phone yourself and set it up from zero before paying, which proves that no account lock remains. The MDMS part is explained in <a href="/guides/how-to-check-phone-is-official-in-nepal">our guide to official phones</a>.</p>
+<h2>Three traps we see again and again</h2>
+<p><strong>The "box open" bargain.</strong> A phone that was activated months ago is sold as new. Check the activation date. On iPhones, Apple's coverage page shows it. On Samsungs and others, the warranty start date may appear when you enter the IMEI on the support page.</p>
+<p><strong>The wrong region.</strong> A Chinese version with a different Android build, no Google services or odd notifications. Open the Play Store in the shop and install an app.</p>
+<p><strong>The missing bill.</strong> "The VAT bill costs extra." A bill is your proof of purchase, your warranty and your evidence if the phone is stolen. Insist on one with the IMEI written on it.</p>
+<h2>Is the cheapest price ever the best one?</h2>
+<p>Sometimes a price is low because a newer model is arriving, or because a dealer needs to clear stock. Those are good bargains. It is low for bad reasons when the phone has no local warranty, has been refurbished, or is a variant with less memory. The five checks above separate the two. If a phone passes all of them and is still Rs 5,000 cheaper than everywhere else, buy it and smile.</p>
+<h2>When to walk away</h2>
+<p>Walk away if the seller refuses to open the box, will not write the IMEI on the bill, cannot name the distributor, or hurries you. There is always another shop. Phones lose value every month, so waiting a day costs you nothing.</p>
+<h2>Keep these after you buy</h2>
+<p>Photograph the bill, the IMEI sticker and the warranty card, and email them to yourself. Set up Find My Device or Find My iPhone the same evening. Turn on automatic backup. If the phone is ever lost, you will need exactly those things, and by then it will be too late to collect them.</p>
+
+=== how-to-make-your-laptop-battery-last-longer replace
+<p>Two different questions hide inside "my battery is bad". One is how long the laptop runs after a full charge. The other is how many years the battery survives before it becomes a desk ornament. Some habits help both, some help only one, and a few popular tips help neither. Here is what matters, with Nepali power cuts and summer heat in mind.</p>
+<h2>First, find out how healthy the battery is</h2>
+<p>On Windows, open the Start menu, type <strong>cmd</strong>, and run <strong>powercfg /batteryreport</strong>. Windows saves an HTML file and tells you where. Open it and find two numbers: design capacity and full charge capacity. If the second is 80 per cent or more of the first, the battery is in good shape. Between 60 and 80, you will notice. Below 60, think about a replacement.</p>
+<p>On a Mac, hold Option and open the Apple menu, choose System Information and then Power. The cycle count and condition are there. Apple rates most modern MacBook batteries for 1,000 cycles.</p>
+<p>Doing this first saves frustration. No setting will bring back a battery that has lost half of its capacity.</p>
+<h2>Getting more hours out of today's charge</h2>
+<h3>Turn down the screen</h3>
+<p>The display is the largest consumer in ordinary use. Going from full brightness to 60 per cent can add an hour on many laptops. Sit with a window beside you and not behind you, and you can go lower. If the panel is OLED, use dark mode, as black pixels use almost no power. On an ordinary LCD, dark mode changes nothing.</p>
+<p>If your screen runs at 120Hz or 144Hz, set it to 60Hz on battery. Games benefit from a high refresh rate. Documents do not.</p>
+<h3>Find the hungry program</h3>
+<p>In Windows, go to Settings, System, Power and battery, and look at usage by app. The culprit is often a browser with forty tabs, a cloud sync client uploading a folder of videos, or a chat program that never sleeps. In Task Manager, the Power usage column shows it live.</p>
+<p>Edge and Chrome can put idle tabs to sleep. Turn that on. Remove browser extensions you do not use, as each one runs on every page. A single video playing in a hidden tab can halve your battery life.</p>
+<h3>Use battery saver early</h3>
+<p>Most people enable battery saver at 20 per cent, when there is little left to save. Set it to start at 50 or even keep it on all day. It reduces background work and limits the processor's bursts of speed. For typing and reading, you will not feel it.</p>
+<h3>Disconnect what you do not need</h3>
+<p>A USB drive, an RGB mouse, a keyboard backlight and a Bluetooth headset each take a little. An external drive takes a lot. On gaming laptops, close anything that keeps the dedicated graphics chip awake. In Nvidia's settings, choose the integrated graphics for everyday programs. The difference can be two hours.</p>
+<h3>Sleep or hibernate</h3>
+<p>Modern standby on some laptops drains the battery in a bag. If yours loses 10 per cent overnight, choose hibernate instead. In Power Options, set the laptop to hibernate after an hour of sleep. It wakes a few seconds slower and loses nothing.</p>
+<h2>Helping the battery live for years</h2>
+<h3>Heat is the real enemy</h3>
+<p>Lithium batteries age faster when they are hot. A laptop on a blanket with blocked vents, a car dashboard in the sun, a game session in Nepalgunj in June: these do more damage than a thousand ordinary charges. Use a hard surface, clean the vents every few months with compressed air, and raise the rear edge. A cheap stand pays for itself. If the fan is always loud, have a technician clean it and renew the thermal paste.</p>
+<h3>Do not live at 100 per cent</h3>
+<p>Batteries are happiest in the middle. If your laptop is plugged in most of the time, set a charge limit. Nearly every brand offers one:</p>
+<ul>
+<li><strong>Asus:</strong> MyAsus, Battery Health Charging.</li>
+<li><strong>Lenovo:</strong> Vantage, Conservation mode.</li>
+<li><strong>Dell:</strong> Dell Power Manager or the BIOS.</li>
+<li><strong>HP:</strong> Battery Health Manager in the BIOS.</li>
+<li><strong>Acer:</strong> Acer Care Center or AcerSense.</li>
+<li><strong>MSI:</strong> MSI Center, battery master.</li>
+<li><strong>MacBook:</strong> Optimised Battery Charging, on by default.</li>
+</ul>
+<p>Choose 80 per cent for a desk and turn the limit off the night before a long day.</p>
+<h3>Do not live at zero either</h3>
+<p>Running flat every day is hard on the cells. Plug in at 20 or 25 per cent when you can. The old advice to discharge fully once a month was for a different kind of battery. The only reason to do a full cycle today is to recalibrate a meter that jumps around, and once every few months is plenty.</p>
+<h3>Storing a laptop</h3>
+<p>If a laptop will stay in a cupboard for months, leave it at around 50 per cent, switched off, in a cool dry place. A battery stored empty can drop below the level from which it can be charged again. Check it every two or three months.</p>
+<h2>Power in Nepal: protect the charger</h2>
+<p>Our voltage moves, particularly in the evening and outside the cities. Laptop chargers tolerate a wide range, but spikes when the power returns are another matter. Plug into a surge protector, and unplug during thunderstorms. Avoid inverters with a rough square-wave output if the charger gets hot or hums. A stable home supply with voltage protection looks after the fridge and the router too.</p>
+<p>When a charger dies, replace it with a genuine one of the same wattage. A 45W copy on a 65W laptop charges slowly while the battery drains under load, and poor regulation damages cells. For USB-C laptops, a good third-party charger with the right Power Delivery rating is fine.</p>
+<h2>Four tips you can ignore</h2>
+<ul>
+<li><strong>"Remove the battery when plugged in."</strong> Modern laptops do not allow it and do not need it.</li>
+<li><strong>"Overnight charging overcharges the battery."</strong> The laptop stops by itself. The harm comes from heat and from sitting at full, which the charge limit solves.</li>
+<li><strong>"Battery booster apps."</strong> They cannot add capacity, and some are malware.</li>
+<li><strong>"A new laptop must be charged for eight hours first."</strong> No.</li>
+</ul>
+<h2>Signs that it is time to replace it</h2>
+<p>If the laptop shuts down at 20 or 30 per cent, if the report shows less than half of the design capacity, or if it lasts under an hour doing simple work, a new battery is cheaper than a new laptop. And there is one sign that cannot wait: swelling. If the touchpad has risen, the bottom cover bulges or the lid no longer closes flat, stop using it, do not charge it and take it to a service centre. A swollen battery is a fire risk.</p>
+<h2>Choosing a replacement in Nepal</h2>
+<p>Ask for an original battery or a known brand, with a date of manufacture within the last year, since batteries age on the shelf as well. The price varies by model, usually from a few thousand rupees for common business laptops to much more for thin premium ones. Get a warranty of at least six months, and run the battery report in the shop. Full charge capacity should be close to the design capacity. If it is not, ask for another.</p>
+<h2>If you are buying a new laptop</h2>
+<p>Look for watt-hours, written Wh, and not the number of cells. A 60Wh battery with an efficient processor will outlast an 80Wh one in a gaming laptop. Chips from the Core Ultra 200V, Snapdragon X and Apple families are particularly thrifty. Check whether it charges by USB-C, because then one charger serves your phone and laptop, and a power bank can help in a cut. Our <a href="/guides/best-laptops-nepal-students-gamers">laptop guide</a> takes it from there.</p>
+<h2>The five-minute version</h2>
+<p>Brightness at 60 per cent. Battery saver on. Forty tabs closed. Charge limit at 80 at your desk. A hard surface under it. Do those and most people gain an hour today and a year in the long run.</p>
+
+=== earbuds-vs-headphones-which-should-you-buy replace
+<p>Go into any electronics shop and the wall of audio gear starts at Rs 999 and ends above Rs 60,000, with earbuds on one side and headphones on the other. People ask which is better. The honest answer is that they are built for different hours of the day. Work out which hours you want to fill with sound, and the choice becomes easy.</p>
+<h2>How each one works on your ears</h2>
+<p>Earbuds sit in the ear canal with a soft tip that seals it, or rest at the entrance without sealing. Because the driver is close to the eardrum, it can be tiny and still sound full. Headphones sit on the ear or around it, with a larger driver moving more air at a distance. That is why a good pair of headphones feels spacious, as if the music were in the room, while earbuds feel as if it were inside your head. Neither is wrong.</p>
+<h2>Comfort decides more than sound</h2>
+<p>For half an hour, almost everything is comfortable. After two hours the differences appear. In-ear tips can leave a feeling of pressure and make ears itch, especially in humid weather. Over-ear headphones spread their weight, but they press on spectacles and make ears warm. In Kathmandu's winter that is pleasant. In Biratnagar in June it is not.</p>
+<p>If you wear glasses, try headphones with the glasses on. If you have had ear infections, avoid sealed tips and look at open designs. And if you have long study or work sessions, take comfort seriously, because an uncomfortable pair ends up in a drawer.</p>
+<h2>Noise: the bus, the office and the neighbour's construction</h2>
+<p>Sealed earbuds block a good amount of noise by themselves, and active noise cancelling removes the low rumble of engines and fans. Good over-ear headphones block more of everything and are calmer for long stretches. For a commute on a microbus, ANC earbuds from around Rs 5,000 upwards make a big difference. For a shared office or a room next to a building site, over-ear ANC is better. Voices and horns are harder to cancel than engines on both types.</p>
+<p>One safety note. Do not use noise cancelling while walking on or riding along a road. Use transparency mode, or keep one ear free.</p>
+<h2>Calls and meetings</h2>
+<p>Microphones near your mouth pick up your voice best, and neither type has that. Midrange earbuds with several microphones are fine indoors and poor in wind. Headphones designed for calls, and wired headsets with a boom, are still the best for people who sit in meetings all day. If you work for an international client, a Rs 5,000 headset with a boom microphone will make you sound more professional than Rs 25,000 earbuds.</p>
+<h2>Battery life</h2>
+<p>Earbuds last from five to ten hours, and their case refills them several times. Headphones run for thirty to sixty hours on a charge. If you often forget to charge things, headphones are more forgiving, and most still work with a cable when empty. In earbuds, batteries are tiny and wear out sooner. After two or three years of daily use, many pairs last half as long, and they cannot normally be repaired. Headphones can be used for five years or more, with replaceable pads.</p>
+<h2>Sound for the money</h2>
+<p>Below Rs 3,000, both are basic. A wired pair of earphones often beats wireless at this price. Between Rs 3,000 and 8,000, earbuds have improved more than anything in audio, and brands such as CMF, OnePlus, realme, Soundcore and Redmi sell pairs that would have cost double a few years ago. From Rs 10,000 to 20,000, over-ear headphones start to pull ahead for music. Above Rs 30,000, you pay for excellent noise cancelling, comfort and tuning, and differences between brands become a matter of taste.</p>
+<p>Look through our <a href="/products?category=audio">audio listings</a> for current prices, and read the <a href="/guides/true-wireless-earbuds-buying-guide-nepal-2024">earbuds buying guide</a> before choosing a pair.</p>
+<h2>Gaming and video</h2>
+<p>Wireless audio has delay. Video apps hide it by shifting the picture. Games cannot, so footsteps arrive late. Many earbuds have a low-latency mode that helps in PUBG Mobile and similar games. For serious play, use a wired headset or one with its own 2.4GHz dongle. For films, over-ear headphones win through comfort and scale.</p>
+<h2>Sport and sweat</h2>
+<p>Earbuds, without question. Look for IPX4 or better, a secure fit and physical buttons, or touch controls that you can lock. Over-ear headphones become hot, heavy and salty. For running on roads, open-ear designs that leave the canal free are the safest. They leak sound and have little bass, which is a fair price for hearing a motorbike behind you.</p>
+<h2>Codecs, briefly</h2>
+<p>AAC suits iPhones. LDAC and aptX give higher quality on Android phones that support them. The difference is small next to the difference made by fit, so do not pay thousands extra for a logo. Find the right tip size first. A tip that does not seal makes the best earbuds sound thin.</p>
+<h2>Losing things</h2>
+<p>Earbuds are easy to lose, and a single replacement bud often costs a third of the set, where it is available at all. Headphones are difficult to lose and easy to leave behind. If you drop things on the way to work, choose earbuds with a find function and avoid the expensive ones.</p>
+<h2>Four people, four answers</h2>
+<ul>
+<li><strong>Sunita travels from Bhaktapur to Thapathali daily and takes calls on the way.</strong> ANC earbuds, about Rs 5,000 to 8,000, with a comfortable fit.</li>
+<li><strong>Prakash writes code for nine hours in an open office.</strong> Over-ear ANC headphones. Comfort and battery matter more than size.</li>
+<li><strong>Asmita runs in the morning and shares a room in the evening.</strong> Sport earbuds with an IP rating, plus wired earphones for late films.</li>
+<li><strong>Rohan edits video.</strong> Wired studio headphones with a flat sound. Wireless consumer pairs change what he hears.</li>
+</ul>
+<h2>What about both?</h2>
+<p>For many people the best setup is a Rs 4,000 pair of earbuds for moving about and a Rs 6,000 to 8,000 pair of headphones for the desk. Together they cost less than one premium pair, and each lasts longer because it is used half as much.</p>
+<h2>Before you pay</h2>
+<ul>
+<li>Try the fit for at least ten minutes. For earbuds, ask about spare tip sizes.</li>
+<li>Make a call to someone and ask them how you sound.</li>
+<li>Check the warranty: many budget brands give six months, some a year.</li>
+<li>Inspect the box for a seal and a serial number. Copies of AirPods and JBL are everywhere, some of them convincing.</li>
+<li>Update the firmware in the app on the first day.</li>
+</ul>
+<h2>Look after your hearing</h2>
+<p>Volume is the one thing that cannot be repaired. Keep it under 60 per cent most of the time and take breaks. Noise cancelling helps here, because you no longer turn the sound up to fight the traffic. If your ears ring after a session, it was too loud.</p>
+<h2>Our answer</h2>
+<p>If you can have only one, and you move around a lot, buy midrange ANC earbuds. If you sit for hours, buy over-ear headphones. Spend the first Rs 5,000 wisely and the next Rs 20,000 slowly. The gap between bad and good is large, and the gap between good and great is smaller than the price suggests.</p>
+
+=== dashain-tihar-tech-deals-how-to-spot-a-real-discount replace
+<p>In the weeks before Dashain every shop window turns red and yellow, and every gadget seems to be half price. Some of those offers are the best of the year. Many are ordinary prices in festive clothes. Knowing the difference takes a little homework in the weeks before and a calm head on the day.</p>
+<h2>Why prices really do fall</h2>
+<p>Festival season is when Nepalis buy. Salaries come with a Dashain allowance, remittances rise, and families replace televisions and phones together. Distributors plan for it. They bring in larger stock, agree margins with dealers and receive money from brands for promotions. New models announced in September push the old ones into clearance. So there are real savings, especially on last year's phones, televisions, home appliances and accessories.</p>
+<p>There are also reasons for prices not to fall. In 2026, memory and storage became more expensive across the world, and many gadgets rose in price during the year, as we explained in <a href="/news/why-gadget-prices-rose-nepal-2026">this article</a>. A ten per cent discount on a price that rose fifteen per cent in August is not a discount.</p>
+<h2>Step one: know the normal price</h2>
+<p>Write down the price of the thing you want three or four weeks before the festival, from at least three places. If you did not, our <a href="/price-tracker">price tracker</a> and the history on product pages can help. What you need is the price that people actually paid in the previous two months, not the maximum retail price on the box. MRP is a ceiling, and few buyers ever pay it.</p>
+<p>Now an offer can be judged with one subtraction. If the price in Bhadra was Rs 62,000 and the Dashain price is Rs 58,500, you are saving Rs 3,500, whatever the banner says about Rs 15,000.</p>
+<h2>Step two: check that it is the same thing</h2>
+<p>Discounts often sit on a variant you did not want. The photo shows the 12GB phone and the price belongs to the 6GB one. The television is last year's panel with a similar model number. The laptop has 8GB where the normal version has 16GB. Ask for the full model number and compare it with the manufacturer's website. One letter can be a different product.</p>
+<p>Look for these in particular: memory and storage on phones and laptops, panel type and refresh rate on televisions, inverter or non-inverter on fridges and air conditioners, and the version year on watches.</p>
+<h2>Step three: take the offer apart</h2>
+<p>Festival offers are usually built from several pieces. Price each piece separately.</p>
+<ul>
+<li><strong>Cash discount.</strong> Simple and real. Compare it with your recorded price.</li>
+<li><strong>Bank discount or cashback.</strong> Often limited to one card, a minimum amount and a maximum saving. Cashback can arrive weeks later. Read the cap.</li>
+<li><strong>Exchange bonus.</strong> Check what your old phone would fetch privately. If the shop offers Rs 8,000 plus a bonus of Rs 5,000 and you could sell it for Rs 13,000 on your own, the bonus is zero.</li>
+<li><strong>Free gifts.</strong> A power bank "worth Rs 3,500" may be sold for Rs 1,200. Value the gift at what you would pay for it, which is nothing if you do not need it.</li>
+<li><strong>Scratch cards and lucky draws.</strong> Treat the value as zero, and enjoy it if you win.</li>
+<li><strong>Zero per cent EMI.</strong> Ask for the cash price without EMI. If it is lower, the difference is your interest. Ask about the processing fee too. The EMI estimate on each of our product pages shows the monthly amount and the total.</li>
+</ul>
+<p>Add only the pieces that are worth money to you. That is the true price.</p>
+<h2>Step four: warranty and paperwork</h2>
+<p>Crowded shops get careless. Insist on a VAT bill with the IMEI or serial number, and a warranty card stamped with the date. Check MDMS for phones on the spot. For televisions and appliances, ask who installs, whether installation is free, and how long the panel and compressor are covered. If the festival offer comes with the words "no warranty" or "no return", reduce your valuation accordingly.</p>
+<h2>Which products have the best real deals?</h2>
+<p><strong>Good bets:</strong> phones that are a year old, televisions at the end of their model year, earbuds and smartwatches, power banks, air fryers and other small appliances, and last-generation laptops.</p>
+<p><strong>Poor bets:</strong> phones launched in the past two months, the newest iPhones, graphics cards, and anything in short supply. Sellers have no reason to cut those prices.</p>
+<p><strong>Worth waiting for:</strong> air conditioners and coolers in winter, heaters in spring, and laptops around the start of academic sessions, when student offers appear.</p>
+<h2>Online sales</h2>
+<p>Large online sales run from 11.11 through Dashain and Tihar depending on the calendar. They can be excellent, and they need extra care. Look at the seller's name, rating and number of sales, not only the product page. Choose listings marked as brand stores or official sellers. Read the negative reviews first. Take a video while opening the parcel. Pay on delivery where possible, and check the seal before handing over cash. Beware of pages on social media that copy the name of a known shop and ask for advance payment. If the price is half of everyone else's, it is bait.</p>
+<h2>Tricks to recognise</h2>
+<ul>
+<li><strong>The raised "before" price.</strong> It climbs in the weeks before the sale, then falls back.</li>
+<li><strong>The single-unit offer.</strong> One phone at a wonderful price, sold out by the time you arrive, and a helpful salesman with something else.</li>
+<li><strong>The bundle you cannot undo.</strong> The laptop is cheap if you also take the bag, the mouse and the antivirus.</li>
+<li><strong>The clock.</strong> "Only today." Tihar lasts five days, and so does the stock.</li>
+<li><strong>Grey units.</strong> Festival crowds hide phones without local warranty. The five checks in <a href="/blog/5-things-to-check-before-buying-a-smartphone-in-nepal">our phone checklist</a> take ten minutes.</li>
+</ul>
+<h2>How to bargain without drama</h2>
+<p>Go on a weekday morning, when staff have time. Know your recorded price. Ask politely: "I have a quote for this much with official warranty. Can you match it?" If the number will not move, ask for something that costs the shop little and is useful to you: a good case, a tempered glass, an extended warranty, free delivery or a better exchange value. Pay by a method that gives them no fee, and you may get a little more.</p>
+<p>And be ready to leave. In the last two days before Tika and again after Bhai Tika, shops with stock to clear become much more flexible.</p>
+<h2>A budget that survives the festival</h2>
+<p>Decide the amount before you enter a shop. Write it down. Offers are designed to move you up one step: "Only Rs 6,000 more for double the storage." Sometimes it is worth it. Decide that at home, with our <a href="/compare">comparison tool</a>, and not under a banner with music playing. Keep some money for a case, protector, stabiliser or installation, as these are never in the advertisement.</p>
+<h2>After you buy</h2>
+<p>Test everything within the return period. For phones that means calls, cameras, charging and speakers. For televisions, check for lines, dead pixels and uneven brightness with a plain grey image. For laptops, run a battery report and look at memory and storage in Settings. Register the warranty online, and keep the bill, the box and the packaging until the first month has passed.</p>
+<h2>The short version</h2>
+<p>Record the normal price. Match the exact model. Value every part of the offer at what it is worth to you. Get the bill. If the final number beats the recorded price and the paperwork is in order, it is a real discount. Happy Dashain and Tihar, and may your new gadget outlast the sale banners.</p>

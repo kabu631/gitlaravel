@@ -9,10 +9,10 @@
           {{ isEditorsChoice ? 'Devices we scored 8 or higher out of 10.' : 'Long-form reviews with a score out of 10, what we liked and what we didn’t.' }}
         </p>
       </div>
-      <div class="flex gap-2" role="group" aria-label="Filter reviews">
-        <Link :href="route('reviews.index')" class="chip" :aria-current="!isEditorsChoice ? 'page' : undefined">All reviews</Link>
-        <Link :href="route('reviews.index', { filter: 'editors-choice' })" class="chip" :aria-current="isEditorsChoice ? 'page' : undefined">Editor’s Choice</Link>
-      </div>
+      <nav class="-mb-px flex gap-6 self-stretch border-b border-line sm:self-auto sm:border-b-0" aria-label="Filter reviews">
+        <Link :href="route('reviews.index')" class="tab" :aria-current="!isEditorsChoice ? 'page' : undefined">All reviews</Link>
+        <Link :href="route('reviews.index', { filter: 'editors-choice' })" class="tab" :aria-current="isEditorsChoice ? 'page' : undefined">Editor’s Choice</Link>
+      </nav>
     </header>
 
     <!-- Featured -->
@@ -63,7 +63,7 @@
                 </div>
                 <h3 class="-mt-0.5 text-lg font-semibold leading-snug text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4">{{ review.title }}</h3>
                 <p v-if="review.verdict" class="mt-1.5 line-clamp-2 text-sm leading-6 text-fg-muted">{{ review.verdict }}</p>
-                <p v-if="review.author?.name" class="mt-2 text-xs text-fg-subtle">By {{ review.author.name }}</p>
+                <p class="mt-2 text-xs text-fg-subtle">By {{ byline(review.author?.name) }}</p>
               </div>
             </Link>
           </li>
@@ -129,7 +129,7 @@ import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import ScoreBadge from '@/Components/ScoreBadge.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
 import { newsCategoryLabel } from '@/Composables/useCategories.js'
-import { formatDate, formatPrice } from '@/Composables/useFormat.js'
+import { byline, formatDate, formatPrice } from '@/Composables/useFormat.js'
 
 const props = defineProps({
   featuredReviews: { type: Array, default: () => [] },

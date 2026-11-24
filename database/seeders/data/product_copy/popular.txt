@@ -1,0 +1,451 @@
+=== poco-f7
+<p>The POCO F7 is bought for one reason, speed, and turns out to be good at more than that. A Snapdragon 8s Gen 4 with 12GB of memory and 512GB of very fast storage runs any game sold today, and the 6,500mAh battery with 90W charging keeps up with it. IP68 protection is a welcome extra at this price.</p>
+<p>It gives up camera range: the main sensor is stabilised and reliable, while the ultra wide is ordinary and there is no zoom lens. HyperOS also needs an evening of tidying. If you play or multitask hard, few phones under Rs 1 lakh make more sense. <a href="/reviews/poco-f7-review-nepal">Read our full view of it</a>.</p>
+
+=== redmi-note-15-5g
+<p>If one phone had to suit a room full of strangers, this would be a safe guess. The Redmi Note 15 5G joins a very bright curved-feeling AMOLED to a stabilised 108MP camera, a sensible Snapdragon 6 Gen 3 and 256GB of storage in its base version, with service centres in most Nepali cities.</p>
+<p>Nothing about it is the best in the country, and nothing will annoy you weekly. Choose 8GB of memory over 6GB, because the phone has four years of Android updates ahead of it and the extra memory will be felt in the third. Heavy players are better off with a Realme P3 or POCO.</p>
+
+=== samsung-galaxy-a07
+<p>The A07 is the phone we suggest when someone asks for "a simple Samsung for my parents". Its Helio G99 is quick enough for calls, chat, maps and wallets, the 50MP camera handles daylight, and Samsung promises six years of updates, which is extraordinary for something at this price.</p>
+<p>You accept an HD+ screen and a 25W charger that is not in the box. Avoid the 4GB/64GB version if you can: family WhatsApp groups fill it within a year. The 6GB/128GB model costs more and will still be pleasant long after. More in <a href="/reviews/samsung-galaxy-a07-review-nepal">our review</a>.</p>
+
+=== honor-x8d
+<p>Thin, light and long-lasting do not often appear in the same sentence. The Honor X8d manages it with a 7,000mAh silicon-carbon battery in a 7.5mm body, and adds an AMOLED bright enough for midday in the Terai. A memory card slot is a bonus for people who keep films on the phone.</p>
+<p>The catch is a 4G processor meant for everyday work. Reels, office apps and video are fine, demanding games are not. If you have no plans for 5G in the next few years, it is one of the most comfortable phones near Rs 40,000. <a href="/reviews/honor-x8d-review-nepal">Our review</a> has the trade-offs.</p>
+
+=== moto-g96
+<p>Pick up a Moto G96 and you may wonder why it does not cost more. The curved 144Hz pOLED, soft back and 178 gram weight belong to dearer phones, and the stabilised Sony camera takes better indoor photos than most rivals at the price.</p>
+<p>What you give up is stamina and years. The battery suits a normal day and not a travelling one, and Motorola's update promise here is short. Service is concentrated in Kathmandu, so ask about screens before buying. For people who enjoy holding their phone, it is still hard to put back on the shelf.</p>
+
+=== samsung-galaxy-tab-s10-fe
+<p>Students who write by hand should start here. The S Pen is in the box, never needs charging to write, and works with one of the best note apps on any tablet. The body is rated IP68, the screen is bright enough for a library window, and Samsung promises seven years of updates.</p>
+<p>It costs more than a Xiaomi Pad 7, until you add a pen to the Xiaomi. The LCD runs at 90Hz and not 120, which only gamers will mind. A keyboard cover can come later. For a four or five year degree, this is money well placed.</p>
+
+=== realme-p3
+<p>The P3 is what happens when a brand spends its budget on the processor and battery and leaves the rest alone. The Snapdragon 6 Gen 4 is quick for the price, the AMOLED is bright, 6,000mAh lasts well past a day, and the body resists water jets.</p>
+<p>Cameras are daylight-only and the software arrives with more apps than anyone asked for. If photographs come first, the Redmi Note 15 5G is better. If you want a phone that stays smooth through a semester of games, buses and group chats for about Rs 45,000, the P3 is one of the two or three to look at.</p>
+
+=== redmi-pad-2
+<p>Most homes need a tablet that plays lessons and films, shows a recipe and survives a child. The Redmi Pad 2 does that with a sharp 11-inch 2.5K screen, four speakers and a 9,000mAh battery that only needs attention every few days.</p>
+<p>Its Helio chip is adequate and not lively, so take 6GB or 8GB of memory and leave heavy games to something else. Charging at 18W is an overnight affair. There is no pen in the box, and handwriting is better served by a Galaxy Tab S10 FE or a Xiaomi Pad 7 with its own pen.</p>
+
+=== xiaomi-pad-7
+<p>No tablet under Rs 50,000 feels as quick. A Snapdragon 7+ Gen 3 drives a 3.2K, 144Hz screen whose squarer shape suits documents, and two apps share it without stuttering. With Xiaomi's pen it becomes a serious notebook, and with the keyboard a light office machine.</p>
+<p>Check that both accessories are in stock before paying, because they are sold separately and arrive in small numbers. HyperOS takes some cleaning. Support is good and shorter than Samsung's. If your tablet will be used for an hour or more every day, this is the point where spending pays off.</p>
+
+=== acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u
+<p>Plain to look at and easy to recommend. The Aspire Lite 15 puts a six-core Ryzen 5 7430U, 16GB of memory and a 58Wh battery under one lakh, where many prettier laptops still ship with half the memory. For assignments, accounts, code and video calls it will stay comfortable for years.</p>
+<p>The screen is an ordinary Full HD panel and Wi-Fi is the older standard. Look carefully at the model code: the AL15-42P version sells for nearly the same price with a much smaller battery. <a href="/reviews/acer-aspire-lite-15-ryzen-5-review-nepal">Our review</a> explains who it suits.</p>
+
+=== oneplus-nord-ce-6
+<p>OnePlus built the Nord CE 6 around endurance: 7,500mAh, 80W charging and a chip that sips power. Add a smooth 144Hz AMOLED and tidy OxygenOS, and you have a phone that can be ignored for a day and a half at a time.</p>
+<p>At about the same price the older Nord 5 has a faster processor and a far better selfie camera, so decide whether battery or speed matters more. The single 8GB/256GB version keeps the choice simple. Confirm that a charger is included, and buy an official unit, because imported OnePlus phones carry no Nepali warranty.</p>
+
+=== tecno-spark-40-pro
+<p>The Spark 40 Pro spends its money where your eyes are. A 144Hz AMOLED that gets very bright is unusual at Rs 33,999, and with 8GB of memory, 256GB of storage and 45W charging it does not feel like a budget phone in daily use.</p>
+<p>Its Helio G100 is for ordinary apps and lighter games, and the storage is the slower eMMC type, which you notice when installing large apps. HiOS needs its extras removed. For someone whose phone is mostly a screen for reels, films and reading, it is among the best purchases under Rs 40,000.</p>
+
+=== cmf-buds-2-plus
+<p>Earbuds under Rs 10,000 are a crowded field, and these lead it. The Buds 2 Plus bring adaptive noise cancelling that calms a microbus, LDAC for Android phones, connection to two devices and a hearing test that shapes the sound to you. Fourteen hours per charge means forgetting the cable for a week.</p>
+<p>They do not reach the silence of Sony or Apple, and iPhone owners gain nothing from LDAC. The case is plain and charges only by cable. For commuters and students with a laptop and a phone, we would not look further without a special reason.</p>
+
+=== acer-aspire-ai-a14-52mt-2025-intel-core-ultra-7-258v
+<p>One laptop for five years of work or study: that is the case for this Aspire 14 AI. Intel's Core Ultra 7 258V is built for battery life, 32GB of memory removes any worry about multitasking, and a terabyte of storage is enough for most careers.</p>
+<p>Acer saved on the display, an ordinary 60Hz panel, and on looks. Neither will slow you down. It is not for games or 3D, where a graphics card is needed. Compared with Snapdragon laptops at the same price it lasts nearly as long and runs every Windows program, which in Nepal is worth a lot.</p>
+
+=== huawei-band-10
+<p>Light enough to forget in bed, the Band 10 is among the most trustworthy cheap trackers for sleep and swimming. Its AMOLED is easy to read, and a charge lasts a week or more. Women's health, heart rate and workout modes are all here without a subscription.</p>
+<p>Android users install Huawei Health from Huawei's own site, which takes a few minutes and puts some people off. There is no GPS inside, so carry the phone if you want a map of your run. At about Rs 8,000 it beats most full-size watches for health data.</p>
+
+=== infinix-note-50s
+<p>For a student with Rs 36,000, the Note 50s is close to ideal. A Dimensity 7300 Ultimate with fast memory and storage keeps games steady, the 144Hz AMOLED looks far more expensive, and the stabilised 64MP camera takes usable photos after sunset.</p>
+<p>The 5,200mAh battery is average beside today's giants, and Infinix has fewer service points and shorter updates than Samsung or Xiaomi. Check which variant is in the box, since 4G and 5G versions exist under similar names. If service is available near you, nothing else at the price is as complete.</p>
+
+=== samsung-galaxy-a27-5g
+<p>The A27 5G fills the space between the popular A17 and the costlier A37. A Snapdragon 6 Gen 3 and a 120Hz Super AMOLED make it noticeably smoother than the A17, and the stabilised 50MP camera with Samsung's long update promise completes the picture.</p>
+<p>The difficulty is its neighbours. At Rs 55,999 an Honor X9d offers far more battery and toughness, and a Redmi Note 15 5G with the same chip costs Rs 12,000 less. Buy the A27 for Samsung's service, security and resale, ideally with an exchange bonus, and choose 8GB.</p>
+
+=== vivo-v60-5g
+<p>Portraits are the V60's reason to exist. Its Zeiss-tuned telephoto frames a face from a comfortable distance, so noses look right and backgrounds melt without software tricks. A 6,500mAh battery and 90W charging support a long wedding day.</p>
+<p>The Snapdragon 7 Gen 4 is smooth for everything except long gaming, and 128GB fills quickly with 50MP pictures, so look at 256GB. Dealers discount V-series phones several months after launch. At a lower price than its list, it is a lovely choice for parents, small sellers and anyone who photographs people.</p>
+
+=== oppo-a6c
+<p>A 7,000mAh battery at Rs 24,999 makes the A6c a favourite of people who travel or live with power cuts. Light users can go two days without a charger, and the 120Hz screen scrolls smoothly.</p>
+<p>Two compromises come with it. Charging is 15W, so a full charge is a night's work, and the base version has only 64GB with 4GB of memory. The Unisoc chip is for calls, chat and video. If you can find the larger storage version, take it. Those who want speed should compare the Infinix Note 50x.</p>
+
+=== realme-c71
+<p>Quick charging is the pleasure of the C71. At 45W, the time it takes to shower and eat puts most of a day back into its large battery, while neighbours at this price need two hours or more. A 120Hz screen and a 128GB base make it a balanced budget phone.</p>
+<p>Realme sells more than one version of this model, with different memory and, according to some listings, different panels. Check the exact configuration and look at a black screen in dim light. The Unisoc chip handles daily apps, not heavy games.</p>
+
+=== poco-x7-pro
+<p>A year on, the X7 Pro remains a quiet bargain. The Dimensity 8400 Ultra is only a little behind phones that cost twice as much, 12GB and 512GB come as standard, and 90W charging refills 6,000mAh in under an hour.</p>
+<p>It takes good photos with the main camera and forgettable ones with the ultra wide. The design is loud in yellow and calmer in other colours. With the F7 above it and cheaper Redmis below, its price has room to be negotiated, and under Rs 55,000 it is hard to resist. <a href="/reviews/poco-x7-pro-review-nepal">Our review</a> goes further.</p>
+
+=== infinix-smart-10-plus
+<p>At Rs 15,999 the Smart 10 Plus avoids the two mistakes that ruin cheap phones. It has 128GB of storage, so WhatsApp will not choke it in six months, and a 6,000mAh battery that lasts a day and a half.</p>
+<p>The processor is basic and the 8MP camera is for documents and daylight. Four gigabytes of memory means one thing at a time. As a first phone, a second phone or a careful gift to a grandparent, it does its work better than anything else at the price we have listed.</p>
+
+=== honor-400
+<p>The Honor 400 is a compact phone in a market of giants: a 6.55-inch screen, a comfortable body and a 200MP stabilised camera that rewards people who crop. Its 6,000mAh battery outlasts every small Samsung or iPhone.</p>
+<p>A Snapdragon 7 Gen 3 is smooth for daily life and modest for games. At about Rs 68,000 it meets the POCO F7, which is faster, and the Nothing Phone 4a, which has real zoom. Choose the Honor for size, portraits and battery together. If your budget stretches, the newer Honor 600 improves each of those.</p>
+
+=== infinix-note-50x
+<p>Few phones embarrass their rivals like the Note 50x. For about Rs 22,000 it carries a Dimensity 7300 Ultimate, the kind of chip found in phones at twice the price, together with UFS storage and 45W charging. PUBG and Free Fire run properly.</p>
+<p>To afford it, Infinix fitted an ordinary LCD and a simple selfie camera. Service is through Carlcare, so make sure there is a centre within reach, and expect two or three years of updates. If you are a student who plays, start your search here and see whether anything pulls you away.</p>
+
+=== huawei-watch-fit-5
+<p>Thin, light and bright, the Watch Fit 5 is for people who find round smartwatches clumsy. The large rectangular AMOLED is easy to read in sunlight, GPS and swim tracking are built in, and a charge lasts about ten days.</p>
+<p>It works with Android and iPhone, though Huawei Health has to be installed from Huawei's site on Android, and you cannot reply to messages from an iPhone. The Pro version adds sapphire, ECG and dual-band GPS for trail and dive use. For everyday comfort the regular one is the better value.</p>
+
+=== vivo-y05
+<p>vivo's Y05 is a sensible basic phone with a wide service network behind it. A 6,500mAh battery, a 120Hz screen that stays readable outdoors and vivo's tidy software suit calls, Facebook, YouTube and wallets.</p>
+<p>The 8MP camera and 4GB of memory are its limits, and at the listed price a Galaxy A07 has a quicker chip and longer updates. If the nearest service counter is vivo's, that can settle it. Otherwise look at the Y31d, which costs more and lasts years longer. See <a href="/reviews/vivo-y05-review-nepal">our review</a>.</p>
+
+=== vivo-v70-fe
+<p>The V70 FE gathers what most buyers ask a shopkeeper for: a slim body, a large battery, quick charging and a camera with a big number. The 200MP main sensor is stabilised, and its crops are good enough to stand in for a short zoom.</p>
+<p>Performance is comfortable and not exciting. Gamers will do better with a POCO at the same price. As an all-day phone for people who share photos, with vivo's dealers and service in most towns, it is the most balanced member of the V series. Ask for the 8GB/256GB price with an exchange.</p>
+
+=== realme-note-70
+<p>For less than Rs 17,000 the Note 70 offers the battery of a bigger phone, 6,300mAh, and a 50MP main camera that does decent work in daylight. Realme's service network and easily found parts are reassuring in smaller towns.</p>
+<p>It is slow when asked to do several things, and the 64GB version is a false economy. With 128GB it becomes a good second phone for a delivery rider, a shop or an older relative. Charging takes most of an evening at 15W.</p>
+
+=== realme-c85-pro
+<p>Built for rough days, the C85 Pro lists almost every dust and water rating there is, up to high-pressure hot spray, and wraps them around an AMOLED screen and a 7,000mAh battery. Riders, cooks, site workers and trekkers will see the point immediately.</p>
+<p>The processor is a 4G Snapdragon 685, fine for apps and maps and weak for games. Remember that no maker's warranty covers water, so treat the ratings as insurance. If you want 5G and speed at a similar price, the Redmi 17 5G and Infinix Note 50s are the alternatives.</p>
+
+=== oneplus-nord-5
+<p>Video callers and vloggers should try the Nord 5 before anything else. Its 50MP front camera has autofocus and records in 4K, something phones at twice the price often lack. A Snapdragon 8s Gen 3 and a 144Hz screen make the rest feel fast.</p>
+<p>Check whether a charger is included, because the 80W brick is sold separately in many boxes. IP65 covers rain only, and there is no telephoto. The 12GB/512GB version is worth its small premium. <a href="/reviews/oneplus-nord-5-review-nepal">Our review</a> compares it with the newer CE 6 and Nord 6.</p>
+
+=== honor-x7d
+<p>If you never delete anything, the X7d is for you. It comes with 8GB and 256GB in the version most shops sell, and 512GB exists, all at a price where rivals offer half. The 108MP camera lets you crop into a school stage in good light.</p>
+<p>You get a 4G chip and an LCD in return, so films and games are better elsewhere. With a 6,500mAh battery and 35W charging it is an unfussy phone for work, family photos and long group chats. The X8d costs Rs 6,000 more and adds a much nicer screen.</p>
+
+=== honor-600
+<p>There are very few phones this small with a battery this large. The Honor 600 fits 7,000mAh behind a 6.57-inch AMOLED, adds a 200MP stabilised camera and an unusually good 12MP ultra wide, and still slips into a pocket.</p>
+<p>The Snapdragon 7 Gen 4 keeps everything smooth short of hardcore gaming. At Rs 84,999 it competes with faster OnePlus and POCO phones that are considerably bigger. If you have been putting off an upgrade because every phone has become a tablet, hold this one first. Ask about Honor service in your city.</p>
+
+=== moto-g57-power
+<p>The G57 Power is the Motorola that makes the most practical sense: a modern Snapdragon 6s Gen 4, 7,000mAh, 8GB of memory and near-plain Android 16 for Rs 37,499. It is quick in daily use and goes two days with light owners.</p>
+<p>Its LCD is good rather than beautiful, and the charger must be bought separately. Motorola's updates are shorter than Samsung's. For people who like clean software and long battery, and live near service, it is one of the strongest choices under Rs 40,000.</p>
+
+=== amazfit-gtr-mini
+<p>Small wrists are badly served by smartwatches, and the GTR Mini is the exception. A 1.28-inch AMOLED sits in a light steel case that looks like a normal watch, with built-in GPS, good sleep tracking and up to two weeks between charges.</p>
+<p>It shows notifications on Android and iPhone without replies on the latter, and has no app store to speak of. Stock and price vary in Nepal, so ask for a written warranty. For someone who wants fitness data in an elegant size, there is little else to compare.</p>
+
+=== galaxy-fit-3
+<p>The Galaxy Fit 3 is a band with a watch-like screen. Its wide AMOLED is comfortable to read, the battery runs for close to two weeks, and features such as fall detection and an emergency alert make it a thoughtful gift for an older parent with a Samsung phone.</p>
+<p>It works only with Android, has no GPS of its own and does not run apps. Within those limits it is polished and reliable. At about Rs 8,000 it is our first suggestion for Galaxy owners who want steps, sleep and notifications and nothing to charge at night.</p>
+
+=== cmf-watch-3-pro
+<p>Round, light and a little playful, the Watch 3 Pro has bezels you can change and one of the cleanest interfaces at its price. GPS is accurate on open roads, the AMOLED is bright, and the battery lasts well over a week with normal use.</p>
+<p>It does not run third-party apps, and iPhone owners cannot reply from it. Nothing and CMF phone owners get tidy integration. Between this and the cheaper Redmi Watch 6 Active the decision is mostly style, and style is a fair reason with something you wear every day.</p>
+
+=== hp-elitebook-655-g10-ryzen-5-pro-7530u
+<p>Business laptops hide their value. This EliteBook has 32GB of memory, a terabyte of storage and the solid keyboard and chassis that offices pay for, at a price where consumer machines offer half the memory and a glossier lid.</p>
+<p>The Ryzen 5 Pro 7530U is an older six-core chip, quick in spreadsheets and code, unhurried in video exports. The 42Wh battery is average. Lawyers, accountants, developers and anyone who keeps thirty things open will appreciate it. Confirm the source and length of the warranty.</p>
+
+=== motorola-edge-50-fusion
+<p>Last year's Edge 50 Fusion still looks like a premium phone: a curved 144Hz pOLED, a slim body, water protection and 68W charging. The stabilised Sony camera takes pleasing photos indoors.</p>
+<p>Its processor is the same as the cheaper Moto G96, which has a slightly larger battery. What you pay extra for is faster charging and tougher protection. Ask how many Android updates remain. Found near Rs 40,000, it is a very nice phone to own for two or three years.</p>
+
+=== poco-x8-pro
+<p>The X8 Pro is the fast POCO for people with normal hands. At 6.59 inches it is far easier to hold than the F7, yet the Dimensity 8500 Ultra is just as quick in daily life, and 100W charging fills its 6,500mAh battery in around forty minutes.</p>
+<p>IP68 and a strong main camera complete a convincing phone. The secondary cameras are the usual weak point. Compare memory versions with care: at the same price the F7 gives you more storage. If size decides it, the X8 Pro wins easily.</p>
+
+=== tecno-spark-go-2
+<p>Below Rs 15,000 almost every phone disappoints in some way. The Spark Go 2 disappoints least. Its 120Hz screen feels smooth, the chip copes with WhatsApp and YouTube, and the battery lasts a day and more.</p>
+<p>Everything depends on the version. The 3GB/64GB model in advertisements is too small for modern Android. The 4GB/128GB one costs around Rs 3,500 more and is a different experience. Spend ten minutes removing the preinstalled apps. For a first phone, a spare or a child, it is a fair answer.</p>
+
+=== msi-modern-14-2024-intel-core-7-150u
+<p>Reading down a list of laptops under a lakh, this one makes you check for a printing mistake. A Core 7 150U, 16GB of memory and a full terabyte in a light 14-inch body costs Rs 93,000.</p>
+<p>The screen is ordinary and the battery, at under 47Wh, manages about half a day. MSI's service network is smaller than HP's or Asus's. Make sure you are offered this configuration and not the older i5 version with 8GB at nearly the same price. For students who carry a laptop and want it quick, it is excellent value.</p>
+
+=== blackview-fort-1
+<p>A phone for people whose phones get dropped off scaffolding. The Fort 1 wraps a 10,000mAh battery and IP68 sealing in a thick rubber-edged body and asks only Rs 21,999. Two or three days between charges is ordinary.</p>
+<p>The processor is slow, the display dim and the camera meant for records rather than memories. Charging at 18W needs a night. None of that matters on a construction site, a raft or a farm. Ask where it is serviced, and close the port covers firmly, because the rating depends on them.</p>
+
+=== anker-soundcore-r60i-nc
+<p>Soundcore's R60i NC gives you most of a Rs 9,000 pair for Rs 5,499. Noise cancelling is effective on engines and fans, LDAC is available for Android, two devices can stay connected, and the app has the best equaliser in the class.</p>
+<p>The bass arrives too heavy and improves after one minute in that equaliser. Calls are clear indoors and average beside traffic. If you were about to spend Rs 5,000 on something with a famous logo, listen to these first.</p>
+
+=== realme-14-5g
+<p>The Realme 14 5G is the Rs 50,000 phone for people who want few compromises: a quick Snapdragon 6 Gen 4, faster memory than its siblings, a stabilised camera, a bright AMOLED and water resistance, with a 6,000mAh battery behind it all.</p>
+<p>It costs Rs 5,000 more than the P3, which shares the chip and loses the stabilisation. For photos after dark the extra is worth paying. It has been on sale since 2025, so expect a discount and ask for one.</p>
+
+=== kick-phantom-buds-x-pro
+<p>Noise cancelling and a connection to two devices under Rs 3,000 used to be impossible. The Phantom Buds X Pro offer both. The cancelling softens a bus engine without silencing it, and multipoint lets you take a phone call in the middle of a laptop lecture.</p>
+<p>Sound is bass-first, the microphones are for quiet rooms, and nobody should expect more than two years of daily use. Try all the ear tips, since a good seal changes everything. For students counting rupees, they are the most feature for the money in the shop.</p>
+
+=== asus-vivobook-15-x1504va-2023-intel-core-i5-1334u-16gb-512gb-156-fhd
+<p>Old stock can be the smartest purchase in a laptop shop. This Vivobook 15 from 2023 has a ten-core Core i5-1334U, 16GB of memory and 512GB of storage for about Rs 80,000, while newer machines at the price offer 8GB.</p>
+<p>Its screen is average, the battery is 42Wh, and units are not in every shop. Confirm that it is new, that the warranty starts on the day you buy, and that the memory is really 16GB. If all three are true, it is the best student laptop under Rs 80,000 that we list.</p>
+
+=== samsung-galaxy-m17-5g
+<p>Think of the M17 5G as an online-only twin of the Galaxy A17. Both use the Exynos 1330, a 90Hz Super AMOLED and a stabilised 50MP camera, and both receive Samsung's long support. Prices usually decide which to buy.</p>
+<p>Listings disagree on its memory, so check whether the box says 6GB or 8GB. The M36 5G, at a lower price, has a faster chip and a smoother screen and is the better Samsung if you can find it. <a href="/reviews/samsung-galaxy-m17-5g-review-nepal">Our review</a> covers who should still choose the M17.</p>
+
+=== vivo-y32
+<p>Eight thousand milliampere-hours with 44W charging makes the Y32 one of vivo's longest-lasting phones, and its big, bright screen is kind to older eyes and maps in a vehicle. vivo's dealers and service counters are found far from Kathmandu.</p>
+<p>The Unisoc chip and 4G connection are modest for Rs 39,999, and the screen is an HD-class LCD. Honor's X8d costs the same with an AMOLED and a smaller battery. Choose the Y32 if two days away from a charger is the goal and vivo service is the one near you.</p>
+
+=== vivo-v60-lite-4g
+<p>Slim, light and quick to charge, the V60 Lite 4G is a phone people like the moment they hold it. The AMOLED is colourful, 90W charging is generous, and the stabilised camera flatters faces in the way vivo is known for.</p>
+<p>Inside is an older Snapdragon 685 without 5G. For messages, photos and video you will not notice. For games or a four-year stay, the 5G version costs about Rs 8,500 more and is considerably faster. At a discount the 4G model is a pretty and practical choice.</p>
+
+=== nothing-phone-4b
+<p>The 4b brings Nothing's calm software and unusual back to a lower price, with a Snapdragon 6 Gen 4, a stabilised main camera and a good AMOLED. For people tired of cluttered phones it is refreshing from the first minute.</p>
+<p>Its problem is its sibling. For Rs 5,000 more the Phone 4a adds a 3.5x periscope zoom and a better chip, and is the model to have. Buy the 4b only if you find it well below list price or have no interest in zoom.</p>
+
+=== samsung-galaxy-tab-s11
+<p>The Tab S11 is Samsung's flagship tablet in a size you can hold: an 11-inch AMOLED at 120Hz, a fast Dimensity 9400+, 12GB of memory and an S Pen in the box. DeX turns it into a small desktop for email, documents and browsing.</p>
+<p>Illustrators, film lovers and professionals who read on screen will use what they paid for. Students who mainly take notes can save Rs 55,000 with the S10 FE. Compared with an iPad Air the app choice is smaller, and the pen is included.</p>
+
+=== dell-xps-13-9350-2024-intel-core-ultra-7-256v-16gb-512gb-134-fhd
+<p>This is the XPS that earns the name. Intel's efficient Core Ultra 7 256V, 16GB of memory and a beautifully made small body give a laptop that lasts through a working day and looks at home in any meeting.</p>
+<p>It has USB-C ports only, so a hub for HDMI is part of the purchase, and at Rs 2,39,999 it costs as much as a MacBook Air. The cheaper 2026 XPS 13 shares the style with half the memory. Enter the service tag on Dell's site to see where its warranty applies.</p>
+
+=== anker-soundcore-p20i
+<p>A good pair of cheap earbuds needs three things: a stable connection, a battery that lasts and an app. The P20i has all of them at Rs 2,999, with ten hours in the buds and an equaliser that tames its eager bass.</p>
+<p>There is no noise cancelling, so commuters on loud routes should spend more. As a first pair, a gym pair or a gift with a real warranty behind it, it is dependable.</p>
+
+=== asus-vivobook-s15-oled-x-plus-16gb-1tb-15-6-3k-oled
+<p>The attraction is a 3K OLED at 120Hz that makes films and photos glow, a terabyte of storage and battery life that Windows users are not used to. The Snapdragon X Plus keeps it cool and quiet through a day of documents and browsing.</p>
+<p>Being an Arm machine, it may refuse some engineering programs, games, VPN clients and old printer drivers. Test yours before paying. For writers, teachers and marketers it is a delight, as <a href="/reviews/asus-vivobook-s15-snapdragon-review-nepal">our review</a> describes.</p>
+
+=== lenovo-ideapad-slim-3-15ahp10-2025-ryzen-7-8840hs-16gb-512gb-153-wuxga
+<p>Behind a modest lid sits a Ryzen 7 8840HS with eight strong cores and some of the best integrated graphics available. For computing, data and engineering students it offers more working speed per rupee than anything else we list without a graphics card.</p>
+<p>The touch screen is plain and the 50Wh battery drains quickly under load, so it suits people who sit near a socket. Ask whether a memory slot is free. <a href="/reviews/lenovo-ideapad-slim-3-ryzen-7-8840hs-review-nepal">Our review</a> matches it to courses.</p>
+
+=== soundcore-p30i
+<p>The P30i has a trick that sounds silly until you use it: the case opens into a stand for your phone. On a bus table or kitchen shelf it makes a small cinema. Noise cancelling is decent, bass is full, and the Soundcore app puts you in charge of the rest.</p>
+<p>At Rs 4,999 the OnePlus Nord Buds 4 cancel more noise. Pick the P30i if you watch a lot on your phone or prefer Soundcore's controls.</p>
+
+=== infinix-gt-30
+<p>Shoulder triggers, lights and a Dimensity 7400 mark the GT 30 as a phone for players. The 144Hz AMOLED is quick to respond, and bypass charging lets you play while plugged in without cooking the battery.</p>
+<p>For ordinary use the cheaper Note 50s does nearly everything the same. Choose the GT 30 if the triggers appeal after you have tried them. Updates and resale are modest, as with other Infinix phones, and the design is not for the boardroom.</p>
+
+=== honor-pad-x9a
+<p>At Rs 25,999 the Pad X9a is an under-noticed tablet. Its 11.5-inch screen runs at 120Hz, the top version has 8GB of memory, and 35W charging is quick for the class. Reading, lessons and films are all comfortable.</p>
+<p>The Redmi Pad 2 is sharper and sounds better for Rs 4,000 more. The Honor is smoother and cheaper. There is no useful pen support, and updates are limited, so think of it as a reading and watching device for the next three or four years.</p>
+
+=== anker-soundcore-liberty-4-nc
+<p>Once the pair to beat under Rs 15,000, the Liberty 4 NC is now an ageing favourite at a falling price. Noise cancelling remains strong, LDAC and multipoint are here, and the battery gives ten hours per charge without it.</p>
+<p>Newer Liberty models take better calls and adapt faster. If you see these near Rs 10,000 they are easy to recommend. At full price, look at the CMF Buds 2 Plus for less or the Liberty 5 for more.</p>
+
+=== acer-swift-lite-14-sfl14-41m-r4qm-2025-amd-ryzen-7-260
+<p>A Ryzen 7 260 is a lot of processor for a 14-inch laptop at Rs 1,32,999. With 16GB and a terabyte, the Swift Lite 14 suits developers and students who want desktop-like speed in a bag.</p>
+<p>The display is a standard 60Hz panel and the 50Wh battery is average, so it is at its best near a socket. Against the IdeaPad Slim 3 with an 8840HS it is smaller, with more storage. Against the Aspire 14 AI it is faster in long jobs and lasts less time.</p>
+
+=== cmf-buds-pro-2
+<p>The dial on the case is the first thing people play with: turn for volume, press to pause, hold for noise cancelling. The second is the sound, livelier than most at this price thanks to separate drivers for bass and treble.</p>
+<p>Noise cancelling is strong and the app is clean. Battery life is a little shorter than that of the Buds 2 Plus, which cost less. Choose the Pro 2 if music is what you mostly listen to, and the Plus if you travel.</p>
+
+=== hp-probook-445-g11-ryzen-5-7535u
+<p>Thirty-two gigabytes of memory, a 16:10 screen, a 56Wh battery and Windows 11 Pro for Rs 1,14,999. The ProBook 445 G11 is the kind of laptop offices buy by the dozen and students rarely hear about.</p>
+<p>Its Ryzen 5 7535U is not the latest, and for documents, code, spreadsheets and calls it is plenty. Keyboard and build are a class above consumer models. Check the product number and warranty on HP's site, as business stock comes from several routes.</p>
+
+=== boat-ultima-regal
+<p>From across a table the Ultima Regal could pass for a watch at three times the price. The two-inch AMOLED is bright, the finish is metallic and calls work from the wrist.</p>
+<p>Look closer and it is a style piece: heart-rate and sleep data are rough, there is no GPS, and the battery manages a few days with calling on. At a similar price a Galaxy Fit 3 or Huawei Band 10 tracks better. Buy it for how it looks on you, and it will not disappoint.</p>
+
+=== samsung-galaxy-m36-5g
+<p>The M36 5G may be the best value Samsung sells in Nepal at the moment. A faster Exynos 1380, a 120Hz Super AMOLED, a stabilised camera and 8GB of memory come for Rs 41,999, less than the weaker A17 5G.</p>
+<p>It is sold mainly online, so check the seller, the distributor's sticker and the IMEI. Battery and 25W charging are ordinary by current standards. For anyone who wants Samsung's updates without Samsung's usual premium, it is worth the search.</p>
+
+=== vivo-y31d
+<p>Add Rs 8,000 to a basic phone and this is the sort of thing you get: a Snapdragon chip, a 7,200mAh battery, 44W charging and up to 8GB of memory. The Y31d is the Y-series phone we would give a parent.</p>
+<p>Its LCD is HD-class and the camera is for daylight. Those are fair limits at Rs 32,999. With vivo's service network and a battery that shrugs off a long day, it will age far better than the cheaper Y05.</p>
+
+=== vivo-y500
+<p>An 8,100mAh battery and a bright AMOLED make the Y500 comfortable for long bus journeys and longer films. It charges at 44W and feels well made.</p>
+<p>The Unisoc T7300 is an odd match for a Rs 54,999 phone. At the same money an Honor X9d has a faster chip, a similar battery and real drop protection. The Y500 makes sense for loyal vivo owners with a dealer nearby and an exchange bonus in hand.</p>
+
+=== vivo-v70
+<p>Smaller than most of its rivals at 6.59 inches, the V70 is vivo's portrait phone for people who dislike big slabs. The Zeiss-tuned telephoto is its charm, joined by a bright AMOLED, 6,500mAh and 90W charging.</p>
+<p>At Rs 84,999 phones with far quicker chips are available, so this is a choice for photographers of people. Compare it with the V60 5G, which shares much of the hardware for Rs 10,000 less, and buy whichever is discounted more.</p>
+
+=== oppo-a6-pro-4g
+<p>OPPO has made the A6 Pro 4G hard to hurt, with strong water ratings, a 7,000mAh battery and 80W charging, in a tidy 6.57-inch size with an AMOLED. For riders and people who work outside, that combination is attractive.</p>
+<p>The Helio G100 inside is what other brands sell at Rs 26,000 to 34,000. At Rs 51,999 the balance is off unless a dealer is generous. Look at the Realme 14 5G or Honor X9d before deciding.</p>
+
+=== tecno-pova-curve-2
+<p>A curved 144Hz AMOLED and an 8,000mAh battery rarely share a phone. The Pova Curve 2 does it with a slim profile and a look that people either admire or photograph for their friends.</p>
+<p>Performance is mid-range, fine for daily use and moderate gaming, and the secondary camera is decoration. At Rs 52,999 the Honor X9d is tougher and the Realme 14 5G takes better pictures. If the curve and the battery are what you want, nothing else offers both.</p>
+
+=== asus-vivobook-s14-m3407ha-2025
+<p>The S in Vivobook S stands for a slimmer body, better speakers and, in this case, a 70Wh battery that makes a full day of classes realistic. The Ryzen 5 220 is quick, and 16GB keeps it so.</p>
+<p>At Rs 1,52,999 it has strong competition: the Aspire 14 AI has twice the memory for less. The Asus answers with finish and official service. Negotiate, and check whether memory is soldered.</p>
+
+=== asus-tuf-gaming-a15-fa506ncg-2024
+<p>A sturdy laptop tied to an older graphics chip. The TUF A15 survives hostel life, has a capable Ryzen 7 7445HS and runs Valorant, CS2 and Dota 2 smoothly on its 144Hz screen.</p>
+<p>The RTX 3050 struggles with new releases, and laptops with an RTX 4050 cost only about Rs 11,000 more. Buy this at a real discount or for esports only. <a href="/reviews/asus-tuf-gaming-a15-rtx-3050-review-nepal">Our review</a> works through the numbers.</p>
+
+=== honor-pad-x8b
+<p>Ten thousand milliampere-hours is the argument for the Pad X8b. Fifteen hours of video is within reach, which suits long journeys, field offices and homes where charging is a negotiation.</p>
+<p>The Snapdragon 680 dates from 2021 and the base version has only 4GB, so choose 8GB and keep expectations to films, reading and calls. The X9a in the same range is smoother and cheaper if endurance is not your first need.</p>
+
+=== oneplus-pad-lite
+<p>OnePlus kept the Pad Lite simple: an 11-inch screen, four speakers, a big battery with 33W charging and clean software. The LTE version is the interesting one, because tablets with a SIM slot are scarce at this price.</p>
+<p>The Helio G100 is for lessons, films and browsing. Families on fibre can save with the Redmi Pad 2. Sales staff, teachers in the field and homes that depend on mobile data should look at the LTE model, and register it in MDMS.</p>
+
+=== amazfit-cheetah-pro
+<p>Runners are the audience here. The Cheetah Pro is light, tracks with dual-band GPS, stores offline maps and builds training plans in the Zepp app without a fee. The AMOLED is far nicer than on many sports watches.</p>
+<p>Heart rate in sharp intervals is best taken from a chest strap, and Garmin still analyses training more deeply. At Rs 49,999 it is a strong alternative for half-marathon and trail runners who want maps and a good screen.</p>
+
+=== realme-buds-t200x
+<p>Realme managed to fit noise cancelling, multipoint and a proper app into a Rs 2,999 pair that also sounds more balanced than most. For a student moving between a phone and a laptop it is our favourite at the price.</p>
+<p>The cancelling is gentle, the buds last about five hours with it on, and calls are for indoor use. Owners of Realme, OPPO and OnePlus phones get quick pairing. If you can reach Rs 4,999, the Nord Buds 4 are a full step up.</p>
+
+=== huawei-watch-d2
+<p>The Watch D2 does something other watches only claim: it measures blood pressure with a tiny inflating cuff hidden in the strap, and can repeat the reading through the day and night. Huawei has obtained medical approvals for it in several regions.</p>
+<p>For people asked by a doctor to monitor pressure it is a remarkable tool, though a Rs 4,000 arm cuff is enough for a morning check. It is thicker than an ordinary watch and needs correct strap sizing. Discuss the readings with a professional before changing any medicine.</p>
+
+=== hp-omnibook-x-flip-14-14-fm0013dx-2025-intel-core-ultra-5-226v
+<p>A convertible that does not feel like a compromise. The OmniBook X Flip 14 folds back for notes and drawings, lasts through a day thanks to Intel's efficient Core Ultra 5 226V, and weighs little enough to carry everywhere.</p>
+<p>The "dx" in its code shows that it was made for American shops, so ask about warranty and keyboard. Check which pen it uses and whether one is included. For teachers, designers and note-takers, it is one of the nicest 2-in-1 machines near Rs 1.6 lakh.</p>
+
+=== huawei-band-11-pro
+<p>GPS inside a slim band is rare. The Band 11 Pro lets runners leave the phone at home without wearing a large watch, and keeps Huawei's dependable sleep and swim tracking with about a week of battery.</p>
+<p>At Rs 14,990 full-size watches with GPS cost less, the Redmi Watch 6 Active among them. Choose this one for comfort, small wrists and sleep. On Android, Huawei Health is installed from Huawei's site.</p>
+
+=== acer-nitro-v-15-anv15-52-57dy-2025-intel-core-5-210h-rtx-5050
+<p>Among the cheapest laptops with a 50-series graphics chip, this Nitro V 15 brings frame generation and newer video encoders to a Rs 1,82,400 machine. The Core 5 210H is sufficient, and the keyboard and cooling are familiar Nitro.</p>
+<p>Its 135W charger suggests a lower graphics power limit, so read the figure in Nvidia Control Panel before buying. A Lenovo LOQ 15 for about Rs 12,500 more runs the same chip at 100W with a better screen.</p>
+
+=== acer-nitro-lite-16-2025-13th-gen-i7-13620h-rtx-4050-16gb-512gb
+<p>A 16-inch 165Hz screen, a ten-core i7 and an RTX 4050 for Rs 1,69,999 make the Nitro Lite 16 one of the more affordable ways into modern gaming and engineering software.</p>
+<p>It is called Lite because the graphics chip probably runs at moderate power. It will still outpace any RTX 3050 laptop. Add a second SSD early, since 512GB holds only a few games. <a href="/reviews/acer-nitro-lite-16-rtx-4050-review-nepal">Our review</a> shows what to test in the shop.</p>
+
+=== mwc-aether-one-watch-pro
+<p>On paper this is the most watch you can buy for Rs 7,000: a round AMOLED, built-in GPS, an altimeter, 5ATM water resistance and Bluetooth calls. Walkers and new runners will see why it is tempting.</p>
+<p>The brand is young, so the app's long-term support and the accuracy of its sensors are less proven than Xiaomi's or Huawei's. Agree on a return period, take it for a run beside a phone and compare the maps. If they match, you have a bargain.</p>
+
+=== hp-victus-15-2023-13th-gen-i5-13420h-rtx-4050
+<p>Of the many Victus 15 versions, this is the one to look for. The RTX 4050 is a clear step above the 3050 models that share the name, and the Core i5-13420H keeps up with it in games and in student software.</p>
+<p>The design passes in a classroom and the 150W adapter leaves the graphics some room. Battery life is short, as with all gaming laptops at this level. At about Rs 1,66,000 compare it with the Nitro Lite 16, and choose by graphics power and warranty.</p>
+
+=== asus-rog-strix-g18-g814fp-2025-ryzen-9-9955hx-rtx-5070
+<p>An 18-inch desktop replacement with a sixteen-core Ryzen 9 9955HX, 32GB of memory and an RTX 5070. At about Rs 4 lakh it costs less than some Strix models with the same graphics chip and half the memory, so the listing deserves a second look.</p>
+<p>It is heavy, its charger is heavier, and it belongs on a desk. The RTX 5070 laptop chip has 8GB of video memory, a limit for high-resolution work. For coders, editors and players who move house more often than rooms, it is a lot of machine.</p>
+
+=== realme-buds-air-8
+<p>Comfort and battery are what people notice first with the Buds Air 8: light stems, and fourteen hours between charges. Noise cancelling is good for the price and calls hold up better than on cheaper Realme pairs.</p>
+<p>They sit next to the CMF Buds 2 Plus, which cancel slightly more noise for Rs 500 extra. With a Realme phone, or as part of a launch bundle, the Air 8 are the natural choice.</p>
+
+=== jbl-tune-530c
+<p>A wired pair in a wireless world, the Tune 530C plugs into USB-C and simply works: no charging, no pairing, no delay. For editing, online teaching, exams that forbid Bluetooth and late-night games, that is an advantage.</p>
+<p>The on-ear pads are light and begin to press after an hour. Make sure that your phone or laptop sends audio through its USB-C port, as a few do not. The sound is JBL's energetic style and can be softened with an equaliser.</p>
+
+=== boat-nirvana-ion
+<p>Twenty-four hours from the buds and 120 with the case, by boAt's figures at moderate volume. Even at two-thirds of that, the Nirvana Ion needs a charger about twice a month.</p>
+<p>There is no noise cancelling in this version, and the bass is heavy until you turn it down. Security staff, long-distance travellers and people who forget cables will forgive both. Commuters who want quiet should choose the ANC version or another pair.</p>
+
+=== redmi-buds-8-pro
+<p>If you use a Xiaomi, Redmi or POCO phone, stop here before spending more. The Buds 8 Pro have noise cancelling that competes with far dearer pairs, LDAC, several drivers and controls built into the phone's own menus.</p>
+<p>With other brands they remain very good, and the Soundcore Liberty 5 becomes the natural comparison. Calls are strong for the price. At Rs 14,999, or less in a phone bundle, they are the best purchase in Xiaomi's audio range.</p>
+
+=== redmi-15-4g
+<p>The Redmi 15 4G is a big phone with a bigger battery: 6.9 inches, 144Hz and 7,000mAh for under Rs 28,000. Drivers, shopkeepers and people who watch a lot of video get two days from it without trying.</p>
+<p>The Snapdragon 685 is an older 4G chip, smooth for apps and limited for games. Make sure that your thumb can reach across the screen. For 5G and a newer chip, the Redmi 17 5G costs about Rs 6,000 more.</p>
+
+=== poco-m8s
+<p>POCO's M8s is for people who want a huge, smooth screen and a long day. The 6.9-inch 144Hz AMOLED and 7,000mAh battery make films and maps a pleasure at Rs 39,999.</p>
+<p>The Snapdragon 6s Gen 3 is modest for a brand known for speed, and the display's 850 nits is dimmer outdoors than rivals at this price. Choose 8GB. If you play games, an Infinix Note 50s is faster for less. If you stream on the road, the POCO makes sense.</p>
+
+=== xiaomi-pad-8
+<p>With a Snapdragon 8s Gen 4 the Pad 8 is close to flagship speed, and its 9,200mAh battery lasts a long day of study or editing. The 3.2K screen at 144Hz is shared with the cheaper Pad 7.</p>
+<p>That is the question to answer: the Pad 7 does the same reading and writing for Rs 15,000 less, enough to pay for a pen and keyboard. Choose the Pad 8 for heavy games, video work or if you plan to keep it for many years.</p>
+
+=== acer-aspire-16-ai-2025-snapdragon-x-x1-26100-16gb-512gb-16-wuxga
+<p>The lowest-priced way into Snapdragon laptops in our list, with a roomy 16-inch screen and a 65Wh battery that can outlast a college day. For browsing, Office, video lessons and writing it is cool, quiet and instant to wake.</p>
+<p>Arm compatibility is the thing to check: engineering suites, some VPNs, older printers and many games may not work. <a href="/news/qualcomm-oryon-snapdragon-x-elite-laptops-nepal-battery-benchmarks">Our Snapdragon guide</a> has a list to test in the shop.</p>
+
+=== msi-stealth-16-ai-studio-intel-core-ultra-7-155h-rtx-4060
+<p>Creators on the move will find a lot here: 32GB of memory, a QHD+ display, a battery at the airline limit of 99.9Wh and an RTX 4060 in a slim body for Rs 2,60,000, about half the price of some thin rivals.</p>
+<p>It is last generation's hardware, so ask for a new unit, a battery report and the warranty in writing. The graphics chip runs at moderate power in this chassis. For editing, motion work and occasional games away from a desk, it is a thoughtful alternative to a Zephyrus.</p>
+
+=== boat-airdopes-loop
+<p>Curious about earbuds that do not enter the ear? The Airdopes Loop clip to its edge and leave you aware of traffic, children and colleagues, at a price far below Huawei's or JBL's versions.</p>
+<p>Bass is thin and sound leaks at high volume, as with every open design. They are comfortable for hours of calls and podcasts, and safer on a morning walk. Try the clip on your own ear before buying, since shapes vary.</p>
+
+=== jbl-endurance-race-2
+<p>Made for sweat, dust and rain, the Endurance Race 2 carry an IP68 rating and a twist-to-lock fit that stays put through burpees. Battery life is generous, and JBL's punchy tuning suits a workout.</p>
+<p>Noise cancelling is moderate and should be switched to ambient mode on roads. Check the serial number with JBL, because this brand is copied more than any other here. For gyms and trails they are one of the stronger reasons to buy JBL.</p>
+
+=== oppo-a5
+<p>Better than its simple name suggests, the A5 pairs a Snapdragon chip with 6GB or 8GB of memory, a 6,000mAh battery and 45W charging for about Rs 23,000. It feels quicker than most phones sold at the price.</p>
+<p>The 90Hz LCD and daylight-only camera are the usual savings. OPPO's dealers usually have room to move on price. For a parent or a first job, it is the OPPO we would choose before any of the A6 variations.</p>
+
+=== asus-v16-2025-core-7-rtx-5050
+<p>Asus built the V16 for people who need a graphics card and prefer a laptop that does not announce it. A Core 7 240H, RTX 5050, 16GB and a terabyte sit in a calm 16-inch body at about Rs 2,08,000.</p>
+<p>Its 150W adapter sets a ceiling on graphics power, so compare it with a LOQ 15 before choosing. The larger storage and screen are in its favour. Architecture and engineering students who present in class may prefer its looks.</p>
+
+=== infinix-smart-10
+<p>Nearly the same as a Tecno Spark Go 2 with a different badge, the Smart 10 runs the lighter Go edition of Android, which suits its small memory, and has a screen that copes with sunlight.</p>
+<p>Choose the version with 4GB and 128GB. At Rs 1,000 more the Smart 10 Plus brings a larger battery and that storage as standard, so this one is for buyers with exactly Rs 15,000.</p>
+
+=== acer-extensa-15-ex215-57-2024-intel-core-i5-13420h
+<p>The Extensa is Acer's plain office laptop, and this one hides a Core i5-13420H, an H-class processor that is far stronger than the usual chips near a lakh. With 16GB and 512GB it suits accounting, coding and data work at a desk.</p>
+<p>It is not slim, the display is ordinary and the battery is used quickly when the chip works hard. If speed for the money is the aim and looks are not, put it on your list beside the Aspire Lite 15.</p>
+
+=== huawei-watch-fit-4
+<p>One step behind the newest Fit and several thousand rupees cheaper, the Watch Fit 4 is slim, light and bright, with GPS, a barometer for hills and about a week of real use between charges.</p>
+<p>The same Huawei conditions apply: the app comes from Huawei's site on Android, and there are no replies on iPhone. At Rs 22,990 it is arguably the best-balanced fitness watch under Rs 25,000 for people who like a rectangular face.</p>
+
+=== xiaomi-15t
+<p>The 15T is how to get Leica-tuned cameras without paying for a flagship. Three useful lenses, including a telephoto, sit with a Dimensity 8400 Ultra, 12GB of memory and a large bright AMOLED for about Rs 65,000.</p>
+<p>It is no longer the latest, which is why it is affordable, and it remains faster than most new phones at the price. Battery and 67W charging are solid. For travel and street photography on a budget, look at this before the fashionable mid-rangers.</p>
+
+=== lenovo-ideapad-slim-5i-gen-9-2024-core-ultra-5
+<p>An OLED screen, a Core Ultra 5 125H and 16GB of memory for about Rs 1,30,000 make the IdeaPad Slim 5i a pleasant middle path between plain student laptops and premium Yogas.</p>
+<p>The H-class processor is quick and uses more energy than the newest efficient chips, so expect a good half day from 57Wh. Check that the panel is the OLED version, as others exist. For reading, film and study with occasional photo work, it is a happy choice.</p>
+
+=== msi-modern-15-h-2023-i5-13420h
+<p>Students who compile, calculate or edit at a desk will like the Modern 15 H. Its H-class Intel processor and 16GB of memory give it more muscle than most laptops near Rs 1.13 lakh, and the body is lighter than it looks.</p>
+<p>It is 2023 stock and listings differ on the exact processor, so read the sticker and run a battery report. Integrated graphics mean no serious games. MSI's service is smaller than its rivals', so get the warranty in writing.</p>
+
+=== infinix-hot-50-pro-plus
+<p>For Rs 25,999 the Hot 50 Pro Plus has one of the loveliest screens you can buy, a 6.78-inch AMOLED at 120Hz, together with 8GB of memory. Films, reels and reading look as they should.</p>
+<p>The Helio G100 is fine for daily use and moderate for games, and it launched with Android 14, so ask what updates remain. If you play more than you watch, the Note 50x from the same shop is faster and cheaper.</p>
+
+=== redmi-buds-8-lite
+<p>With a Xiaomi phone the Buds 8 Lite appear on the screen the moment you open the case, and their noise cancelling and equaliser sit in the control centre. That ease is their strength, along with steady sound and eight hours without ANC.</p>
+<p>At Rs 4,999 the OnePlus Nord Buds 4 cancel more noise with any phone. Choose the Redmi for its home advantage, or wait for a bundle.</p>
+
+=== redmi-buds-8
+<p>The middle child of the Redmi family brings eleven hours per charge, better drivers than the Lite and noise cancelling that manages a bus comfortably. They are light and easy to live with.</p>
+<p>Their price, Rs 10,499, is the difficulty. CMF's Buds 2 Plus do more for less, and the Buds 8 Pro above them are excellent. Buy these when a Xiaomi offer brings them near Rs 8,000.</p>
+
+=== samsung-galaxy-a07s
+<p>A small variation on the A07 with a slightly different chip and the same six-year promise, the A07s costs about Rs 5,000 more in our listing for the same 4GB and 64GB.</p>
+<p>It is hard to see what most buyers gain from that. The regular A07 in its 6GB/128GB version is a better use of the money. If a dealer offers the A07s at the A07's price, it is an equally dependable simple Samsung.</p>
+
+=== soundcore-p41i
+<p>The case is the product: a large one with a screen that stores enough energy for about 190 hours of listening and can top up a phone in an emergency. For trekkers and people on long duty, that removes a power bank from the bag.</p>
+<p>The buds themselves are solid, with noise cancelling and Soundcore's app. It will not fit a tight pocket. If you charge at home every night, spend the same on the CMF Buds 2 Plus.</p>
+
+=== galaxy-buds-core
+<p>Samsung's cheapest earbuds are small, light and at their best with a Galaxy phone, where they pair by opening the lid and share controls with the system. Basic noise cancelling and a long battery are included.</p>
+<p>Judged on features alone, the CMF Buds 2 Plus give more for a little extra. The Core's price has fallen sharply during Samsung's pre-order offers, and that is the moment to take them.</p>
+
+=== sony-wh-g300-inzone-h3
+<p>A wired gaming headset from Sony's INZONE line, with a clear boom microphone, comfortable pads and accurate positional sound on PC and PlayStation. Nothing to charge, nothing to pair, no delay.</p>
+<p>At Rs 16,200 in Nepal it costs more than abroad, and HyperX or Logitech alternatives may be cheaper in some shops. If voice chat and footsteps matter more to you than wireless freedom, it does both well.</p>
+
+=== honor-x6d
+<p>The X6d is Honor's inexpensive 5G phone, with a Dimensity 6300 that is a class above the Helio chips in its siblings. It opens apps briskly enough and has the room of 128GB.</p>
+<p>The screen, at 90Hz and modest brightness, and the 15W charging remind you of the price. With 4GB of memory it is for one task at a time. Unless 5G is the point, the X7d offers more memory and storage for Rs 4,000 extra. <a href="/reviews/honor-x6d-review-nepal">Our review</a> has more.</p>
+
+=== tecno-pova-6
+<p>Seventy-watt charging in the box and a 6,000mAh battery make the Pova 6 a phone that is never out of action for long. The 120Hz AMOLED is good, storage is generous, and the light-up design has its admirers.</p>
+<p>Inside is a Helio G99, a 4G chip from phones half the price, so players should look at a Realme P3. For video, social apps and quick top-ups between classes it works well. Ask for a discount, as it has been on sale for some time.</p>
+
+=== redmi-pad-2-9-7
+<p>A tablet you can hold in one hand. The smaller Redmi Pad 2 weighs little, scrolls at 120Hz and lasts for days of reading, recipes and cartoons. Children and bedtime readers are its natural owners.</p>
+<p>With 4GB of memory it does one thing at a time, and the low-cost chip is for light use. For online classes with notes beside the teacher, the 11-inch model with 6GB or more is worth the extra Rs 4,000.</p>
+
+=== motorola-moto-g35-5g
+<p>Motorola's clean Android and a 5G modem at about Rs 31,000 are the G35's selling points. It is simple, light on clutter and bright enough outdoors.</p>
+<p>Against it are 18W charging, an ordinary battery and short update promises. A Redmi 17 5G for Rs 3,300 more lasts far longer, and a Spark 40 Pro has a much finer screen. Choose the G35 only for the software, and look for the 8GB version.</p>

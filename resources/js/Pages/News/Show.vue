@@ -116,7 +116,7 @@ import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import ShareLinks from '@/Components/ShareLinks.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
 import { newsCategoryLabel } from '@/Composables/useCategories.js'
-import { formatDate, formatPrice, readMinutes } from '@/Composables/useFormat.js'
+import { byline, formatDate, formatPrice, readMinutes } from '@/Composables/useFormat.js'
 
 const props = defineProps({
   article: { type: Object, required: true },
@@ -126,5 +126,5 @@ const props = defineProps({
   trendingGadgets: { type: Array, default: () => [] },
 })
 
-const authorName = computed(() => props.article.author?.name || 'Git Infosys News Desk')
+const authorName = computed(() => byline(props.article.author?.name, 'Git Infosys News Desk'))
 </script>

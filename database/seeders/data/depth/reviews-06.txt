@@ -1,0 +1,356 @@
+=== acer-aspire-lite-15-ryzen-5-review-nepal
+<h2>Specifications</h2>
+[[specs:acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u]]
+<h2>Why memory decides laptops under one lakh</h2>
+<p>Open Task Manager on a typical Windows 11 laptop with a browser, Teams and Word running, and you will see seven or eight gigabytes in use. On an 8GB machine that is the ceiling, and Windows starts borrowing from the SSD. Everything still works, only with a hesitation each time you switch windows. On 16GB there is no hesitation. That is the practical reason this Acer beats prettier laptops at the same price, and it is the figure we would check first on any laptop for college or office.</p>
+<h2>Six cores that do real work</h2>
+<p>The Ryzen 5 7430U has six cores and twelve threads. Compiling a class project, running a database in the background, joining a video call while sharing a spreadsheet, exporting a batch of photos: these are tasks where extra cores help, and where four-core chips such as the Ryzen 5 7520U fall behind. Its graphics are modest. Expect Valorant or Minecraft at reduced settings and no modern big-budget games.</p>
+<p>The chip is based on an older design, so it is not as efficient as the newest processors. The 58Wh battery makes up for much of that. A morning of lectures and an afternoon in the library is possible with sensible brightness.</p>
+<h2>Screen and sound</h2>
+<p>A 15.6-inch Full HD IPS panel is easy to read and can be viewed from the side when two people share it. Brightness is adequate for rooms and poor near a sunny window. Colour coverage is limited, as on almost all laptops at this price, so it is not for design work. The speakers are for voices. Use headphones for music.</p>
+<h2>Build, keyboard and weight</h2>
+<p>The body is plastic with a metal-look lid on some versions. It flexes a little if you press it, and it will survive normal use in a padded bag. The keyboard includes a number pad, which accounting and management students will value. At 1.59kg it is light for its size, lighter than many 14-inch machines from a few years ago.</p>
+<h2>Ports and upgrades</h2>
+<p>You get the usual USB-A, USB-C and HDMI connections, enough for a projector and a mouse without adapters. Ask the shop about memory and storage. Aspire Lite models often allow the SSD to be replaced, and some have a spare memory slot. The wireless card is Wi-Fi 5, which is fine for home fibre packages up to a few hundred megabits.</p>
+<h2>Windows and software</h2>
+<p>It comes with Windows 11 Home. Check that it is activated. Uninstall trial antivirus programs, since Windows Security is enough, and use LibreOffice or Microsoft 365 for documents. Set the laptop to update at night so that it does not restart in the middle of a class.</p>
+<h2>Alternatives near Rs 1 lakh</h2>
+[[rivals:acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u]]
+<p>Dell's 15-inch models come with Intel chips and a better-known badge, usually with less memory for the same money. The <a href="/products/acer-aspire-lite-15-al15-42p-ryzen-5-7430u">AL15-42P version</a> of the same Acer differs in details such as ports and finish, so compare the two. Convertible HP Pavilions at Rs 95,000 are from 2022, with touchscreens and older processors. The <a href="/products/asus-zenbook-14-oled-q415">Zenbook 14 OLED</a> is a nicer object with half the memory.</p>
+<h2>Who should buy it</h2>
+<ul>
+<li>BBA, BCA, BIT and law students who need one laptop for four years.</li>
+<li>Office workers who live in browsers and spreadsheets.</li>
+<li>Families that share a computer for school, bank work and films.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Gamers and 3D students, who need a dedicated graphics card.</li>
+<li>Designers and photographers, who need a better screen.</li>
+<li>People who travel daily and want something small and solid.</li>
+</ul>
+<h2>Extending its life</h2>
+<p>Three inexpensive steps keep a laptop like this useful into its fifth year. Add a second stick of memory if a slot is free. Replace the SSD with a 1TB drive when space runs low and use the old one as a backup in a USB case. And clean the fan and replace the thermal paste in year three. Together they cost less than a tenth of a new machine.</p>
+<h2>Power protection</h2>
+<p>Voltage swings are hard on chargers. Use a surge protector, unplug the charger in thunderstorms, and avoid charging from a cheap inverter that produces a rough waveform. If the charger is lost, buy a genuine 65W replacement. An underpowered one will slow the laptop and wear its battery.</p>
+<h2>Checking it in the shop</h2>
+<ul>
+<li>Confirm the exact processor name in Settings, System, About.</li>
+<li>Look at the memory in Task Manager: 16GB, and whether it is one stick or two.</li>
+<li>Open a white page and a black one to look for bright spots.</li>
+<li>Test the webcam, microphone, Wi-Fi and every port.</li>
+<li>Ask for an official Acer warranty with the period on the bill.</li>
+</ul>
+<h2>Verdict</h2>
+<p>There is nothing glamorous about the Aspire Lite 15, and that is fine. It puts its budget into memory, cores, storage and battery, the four things that determine whether a laptop is still pleasant in 2030. Under one lakh, that makes it our first recommendation for people who have work to do.</p>
+
+=== asus-zenbook-14-oled-q415-review-nepal
+<h2>Specifications</h2>
+[[specs:asus-zenbook-14-oled-q415]]
+<h2>What OLED brings to a laptop</h2>
+<p>On an OLED screen each pixel makes its own light, so black is truly off and colours have depth that LCD panels cannot show. Films look better at once. So do photographs, slides and even text in dark mode. At under Rs 90,000 you normally get a dim IPS panel that covers two-thirds of the standard colour range. The Q415's screen is the single best reason to choose it.</p>
+<p>OLED has two weaknesses. Static elements such as the taskbar can leave a faint ghost after years of use, and Asus includes tools to reduce that: shift pixels, dim the screen when idle and use dark mode. Some people also notice flicker at low brightness, which Asus lets you reduce in its settings. Set these up on the first day.</p>
+<h2>An H-series chip in a thin body</h2>
+<p>The Core Ultra 5 125H has fourteen cores of different types and a decent integrated Arc graphics unit. It is quicker than the U-series chips found in most laptops at this price. Coding, photo editing and even light video work go well. Arc graphics can run older games and esports titles at low to medium settings. A neural unit speeds up background blur in video calls and similar effects.</p>
+<h2>Eight gigabytes is the limit you must accept</h2>
+<p>The memory is soldered. It can never be increased. Windows 11 with a browser and Office uses most of it, so heavy multitasking means waiting. For writing, streaming, research and one big application at a time, it is fine. For programmers who run containers, for designers with several Adobe apps open, or for anyone who keeps forty tabs, it is not. If that sounds like you, the <a href="/products/acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u">Aspire Lite 15 with 16GB</a> is less beautiful and more useful.</p>
+<h2>Where it comes from, and why that matters</h2>
+<p>Asus uses Q model numbers for machines made for a large American retailer. Units in Nepal have been imported, often as open-box or refurbished stock. That explains the low price, and it raises questions to ask before paying:</p>
+<ul>
+<li>Is it new, open-box or refurbished? Look for signs of use around the ports and keys.</li>
+<li>Who provides the warranty? Asus Nepal may not cover it, so get the shop's terms in writing.</li>
+<li>Is the charger original, and does the plug need an adapter?</li>
+<li>Is Windows activated with a licence tied to the machine?</li>
+</ul>
+<p>Use MyAsus or a battery report to check health. In a command window, type powercfg /batteryreport, and open the file it creates. Compare full charge capacity with design capacity. Anything below ninety per cent on a supposedly new machine deserves an explanation.</p>
+<h2>Build and portability</h2>
+<p>Zenbooks have metal lids, slim frames and a hinge that lies nearly flat. The keyboard is comfortable with a number pad built into the touchpad on some versions. It slips into any bag and wakes quickly. Compared with a plastic 15-inch laptop at the same price, it feels like the next class up.</p>
+<h2>Battery life</h2>
+<p>Expect a working day of light use if you keep brightness at half and use dark themes, which save power on OLED. Heavy work on the H-series chip drains it faster. It charges by USB-C, so a good phone charger of 65W or a power bank with laptop support can rescue you.</p>
+<h2>How it compares</h2>
+[[rivals:asus-zenbook-14-oled-q415]]
+<p>Most of its neighbours are ordinary plastic machines with IPS screens. A few offer 16GB. The <a href="/products/asus-vivobook-15-e1504fa-ryzen-5-40">Vivobook 15 E1504FA</a> is a larger, simpler Asus with official supply. The <a href="/products/msi-modern-14-2024-intel-core-7-150u">MSI Modern 14</a> has a fast processor and a plain display. Decide whether your priority is screen and feel, or memory and warranty, and the choice makes itself.</p>
+<h2>Good for</h2>
+<ul>
+<li>Writers, journalists, lawyers and teachers who read all day.</li>
+<li>Students who watch lectures and films on the same machine.</li>
+<li>Travellers who want something light and handsome.</li>
+</ul>
+<h2>Not good for</h2>
+<ul>
+<li>Software developers and heavy multitaskers.</li>
+<li>Gamers.</li>
+<li>Anyone who needs official service in their city.</li>
+</ul>
+<h2>How to get the most from 8GB</h2>
+<p>Use Edge or Chrome with sleeping tabs on. Close Teams and Spotify when you do not need them. Disable startup apps in Task Manager. Choose web versions over desktop apps for chat. Keep at least 60GB of the SSD free, so that Windows has room for its swap file. Set the visual effects to best performance if it feels heavy. With these habits most people will be comfortable.</p>
+<h2>An alternative view</h2>
+<p>For Rs 45,000 more, the <a href="/products/macbook-neo">MacBook Neo</a> also has 8GB, with longer battery life and official support, though macOS makes better use of that memory. For Rs 8,000 more, the Aspire Lite doubles the memory. The Zenbook sits between them as the one you would rather look at.</p>
+<h2>Verdict</h2>
+<p>If your work is reading, writing and watching, the Q415 gives you a lovely screen, a quick chip and a premium body for the price of a budget laptop. Inspect the unit, sort out the warranty, and accept the fixed memory. If any of those worries you, spend the money on something plainer.</p>
+
+=== lenovo-ideapad-1-ryzen-5-7520u-review-nepal
+<h2>Specifications</h2>
+[[specs:lenovo-ideapad-1-15amn7-2023-ryzen-5-7520u]]
+<h2>What the price looks like now</h2>
+<p>The text above quotes Rs 80,999, while our latest record is Rs 84,499. Prices of basic laptops have moved up with memory and storage costs through 2026. Ask two or three shops, and compare versions carefully, since the same model is sold with 256GB and 512GB drives and it is easy to pay the price of one for the other.</p>
+<h2>A tool for school and office</h2>
+<p>Think of the IdeaPad 1 as the Maruti 800 of laptops: simple, cheap to run and good enough for the journey. It types, prints, browses, joins classes and plays films. It does these things without warming your lap or making noise. Asking for more than that is where disappointment begins.</p>
+<h2>Understanding the Ryzen 5 7520U</h2>
+<p>AMD's naming suggests a mid-range chip. In reality the 7520U is a four-core part with an older core design on a newer process, built for efficiency. It is far better than an N100 or a Celeron, roughly equal to a modern Core i3, and well behind six-core Ryzens such as the 7430U. You will feel comfortable with a dozen tabs and a document, and less so with thirty tabs and a video call.</p>
+<h2>Memory that stays as it is</h2>
+<p>The 8GB of LPDDR5 is soldered to the board on this design. It is fast, which helps the integrated graphics, but it is final. For the next three years of ordinary study this is workable. Beyond that, expect to feel the squeeze. If you can find a 16GB version for a modest premium, take it.</p>
+<h2>Storage</h2>
+<p>A 256GB SSD leaves about 180GB after Windows and Office. That is enough for documents and not for a film collection or games. The SSD can normally be replaced with a larger M.2 drive, so storage is the upgrade you can plan for. Until then a portable drive or cloud storage does the job. Our <a href="/products?category=storage">storage page</a> lists current prices.</p>
+<h2>Screen and webcam</h2>
+<p>The 15.6-inch Full HD IPS panel is better than the TN screens in some cheaper laptops, because you can tilt it without losing the picture. Its brightness is listed at 250 nits, dim by modern standards, so avoid sitting with a window behind you. The 720p webcam has a physical privacy shutter, a good touch, and its picture is grainy in the evening. A cheap desk lamp in front of you will help more than any setting.</p>
+<h2>Battery</h2>
+<p>At 42Wh it is small for a 15-inch laptop. The efficient chip stretches it to a reasonable afternoon of notes and browsing. Plan to carry the charger for a full day. Lenovo's Rapid Charge can add a couple of hours of use in fifteen to thirty minutes on supported models.</p>
+<h2>Build and keyboard</h2>
+<p>The plastic body is light at 1.58kg and the lid bends a little. Lenovo's keyboards are comfortable even on cheap machines, with a number pad here. There is usually no backlight, which hostel students may miss. Look for it in the version you buy.</p>
+<h2>Alternatives</h2>
+[[rivals:lenovo-ideapad-1-15amn7-2023-ryzen-5-7520u]]
+<p>The <a href="/products/lenovo-ideapad-slim-3-15iru8-intel-core-i3-1315u">IdeaPad Slim 3 with Core i3-1315U</a> costs slightly less with a faster processor for short tasks. The <a href="/products/asus-vivobook-15-x1504va-2023-intel-core-i5-1334u-16gb-512gb-156-fhd">Vivobook 15 with a Core i5-1334U and 16GB</a>, where it is available for about Rs 80,000, is a much stronger laptop and shows how uneven prices can be. Always look for leftover stock of better-specified machines before settling on a new basic one.</p>
+<p>If the budget can stretch to Rs 98,000, the <a href="/products/acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u">Acer Aspire Lite 15</a> with 16GB and six cores will be useful for years longer.</p>
+<h2>Windows tips for a basic laptop</h2>
+<ul>
+<li>Remove trial software on the first day.</li>
+<li>Turn off startup programs you do not need.</li>
+<li>Use Edge with efficiency mode or Firefox with a light set of extensions.</li>
+<li>Keep 20 per cent of the drive free.</li>
+<li>Let Windows Update run overnight once a week.</li>
+</ul>
+<h2>Used business laptops: the honest alternative</h2>
+<p>For Rs 45,000 to 65,000 you can find used ThinkPads, Latitudes and EliteBooks with 16GB, better keyboards and metal bodies. They are two to four years old and come from offices abroad. A clean one can outlast a new budget laptop. The risks are worn batteries, missing warranty and hidden faults. If you know someone who can inspect it, consider that route. If not, new with a warranty is calmer.</p>
+<h2>Who should buy the IdeaPad 1</h2>
+<ul>
+<li>School and bachelor-level students with a fixed budget.</li>
+<li>Small offices that need typing, email and billing.</li>
+<li>Parents who want a computer for bank work and video calls.</li>
+</ul>
+<h2>Who should wait or stretch</h2>
+<ul>
+<li>IT, engineering and design students.</li>
+<li>Anyone who expects to keep it beyond four years.</li>
+<li>Gamers and video editors.</li>
+</ul>
+<h2>Verdict</h2>
+<p>As a first laptop, it is decent and unexciting. The processor is fine for study, the screen is fair, and the fixed memory sets a clear end date. If you find it near Rs 80,000 and need a computer now, it will serve. If you can wait for a sale or add Rs 15,000, you will be rewarded for years.</p>
+
+=== asus-vivobook-14-x1404vap-review-nepal
+<h2>Specifications</h2>
+[[specs:asus-vivobook-14-x1404vap-2025]]
+<h2>Two configurations, one name</h2>
+<p>There is a trap here. The review text describes a version with a 512GB SSD at Rs 97,999. Our latest listing, at Rs 87,000, has 8GB of memory and a 256GB SSD. Both are called Vivobook 14 X1404VAP and both have the Core 5 120U. Read the sticker under the laptop or check Settings before paying, and judge the price against the version in front of you. At Rs 87,000 with 256GB it is an average deal. At Rs 97,999 it was a poor one even with 512GB.</p>
+<h2>The processor is better than the rest</h2>
+<p>The Core 5 120U has two fast cores and eight efficient ones, reaching high speeds for short tasks. Opening programs, loading web pages and working in spreadsheets feel quick. It is a low-power part, so long jobs such as video exports take their time. The integrated graphics are for video and simple games.</p>
+<p>It is frustrating to see a chip like this tied to 8GB of memory. With 16GB it would be one of the better student laptops in the country. Ask the seller to open the bottom or check the service manual for this model: many X1404 boards have some memory soldered and one free slot. If a slot is free, adding an 8GB stick turns the machine around for a few thousand rupees.</p>
+<h2>Screen: the part to see in person</h2>
+<p>The panel is Full HD at 60Hz with 250 nits and 45 per cent NTSC coverage. Translated, that means usable for documents, dull for photos and weak near a window. Colours look pale if you are used to a phone's AMOLED. If you study late at night in a hostel this will not trouble you. If you edit pictures for a page or a shop, look elsewhere or connect a monitor.</p>
+<h2>Size and comfort</h2>
+<p>A 14-inch machine of 1.4kg is the right size for a backpack. Asus gives it a comfortable keyboard, a fingerprint sensor on many units and a webcam shutter. The hinge opens flat, which is nice for sharing a screen at a table. The body is plastic and meets some military test items for shock and temperature, according to Asus.</p>
+<h2>Battery</h2>
+<p>With 42Wh you can expect half a day of mixed work. The chip is efficient at idle, so reading and typing stretch it. A 45W or 65W USB-C charger can top it up if the model supports charging through that port. Confirm it.</p>
+<h2>Its rivals tell the story</h2>
+[[rivals:asus-vivobook-14-x1404vap-2025]]
+<p>At almost the same price, the <a href="/products/asus-zenbook-14-oled-q415">Zenbook 14 OLED Q415</a> gives you a far better screen and a stronger chip with imported-unit questions. The <a href="/products/lenovo-ideapad-slim-3-15amn8-2023">IdeaPad Slim 3</a> is larger with a Ryzen chip. The <a href="/products/hp-15-fc0043nq-2024">HP 15</a> is another plain machine. For about Rs 11,000 more, the <a href="/products/acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u">Acer Aspire Lite 15</a> offers 16GB and 512GB, and it is the one we recommend.</p>
+<h2>When the Vivobook 14 is the right answer</h2>
+<ul>
+<li>You want a small laptop for college and cannot go above Rs 90,000.</li>
+<li>You have confirmed a free memory slot and plan to add a stick.</li>
+<li>You value Asus's local service and an official warranty over a fancier import.</li>
+</ul>
+<h2>When it is not</h2>
+<ul>
+<li>You will not upgrade it and you multitask.</li>
+<li>You care about the screen.</li>
+<li>You are being charged close to a lakh.</li>
+</ul>
+<h2>What to do with 256GB</h2>
+<p>After Windows, Office and a few programs, you have about 170GB. Keep coursework in OneDrive or Google Drive, store films on a portable drive, and uninstall games when you finish them. Replacing the SSD with a 1TB drive later is straightforward on this model and takes twenty minutes with a screwdriver and a USB stick with Windows on it.</p>
+<h2>Asus extras worth using</h2>
+<p>MyAsus lets you limit charging to 60 or 80 per cent, which extends battery life if the laptop is mostly on a desk. It also has fan modes, noise reduction for calls and a diagnostic tool. Register the warranty in the same app. If you get an option of extended or accidental cover in the first weeks, students should consider it.</p>
+<h2>Core 5 120U or Ryzen 5 7430U?</h2>
+<p>People ask this because the two are found in laptops at similar prices. For short, single tasks the Intel chip feels snappier. For work that uses many cores at once, the Ryzen keeps up better. In daily life the difference between 8GB and 16GB is much larger than the difference between these processors. Choose by memory first.</p>
+<h2>A quick inspection routine</h2>
+<ul>
+<li>Check processor, memory and drive size in Settings.</li>
+<li>Run a battery report and compare capacities.</li>
+<li>Test the keyboard, touchpad, webcam and ports.</li>
+<li>Look for pressure marks on the screen with a plain grey image.</li>
+</ul>
+<h2>Verdict</h2>
+<p>A quick processor and a handy size are held back by a dull screen and too little memory. It is an acceptable laptop at the right price with a small upgrade, and an expensive one otherwise. Let the version and the price decide, and do not pay a lakh for 8GB.</p>
+
+=== asus-vivobook-14-x1404va-i3-review-nepal
+<h2>Specifications</h2>
+[[specs:asus-vivobook-14-x1404va-2023]]
+<h2>The 128GB problem in detail</h2>
+<p>A new Windows 11 installation takes around 30GB, updates and recovery files take more, and Windows needs free space to install its yearly version. Add Office, a browser profile, Zoom and a PDF reader, and a 128GB drive has perhaps 60GB left. That is before your files. When free space falls below about 15GB, updates fail and the laptop slows. Many owners of 128GB laptops meet that point in the first year.</p>
+<p>The fix is cheap. The drive is a standard M.2 module on this model. A 512GB NVMe SSD costs a few thousand rupees, and a technician can clone the old one onto it in an hour. So think of the price not as Rs 70,999 but as Rs 70,999 plus the cost of a drive. On that basis, compare it with laptops that start with 256GB or 512GB.</p>
+<h2>The processor is fine</h2>
+<p>The Core i3-1315U has two performance cores and four efficient ones. It handles Word, Excel, browsing, Zoom and YouTube smoothly, and it is faster than many older Core i5 chips. For schoolwork and office tasks nobody needs more. Memory, at 8GB, is the next limit, and is often soldered with one spare slot on this series. Ask.</p>
+<h2>Using it every day</h2>
+<p>At 1.4kg and 14 inches it is easy to carry. The Full HD screen is sharp enough, with the pale colours and modest brightness that are standard at this price. The keyboard is good, and the fingerprint reader on some versions speeds up sign-in. Asus's hinge and build are better than they look. The 42Wh battery gives an afternoon of work.</p>
+<h2>Who this laptop suits</h2>
+<p>It suits people whose work lives online. A teacher using Google Classroom, a small business using online accounting, a student writing in Google Docs and streaming lectures can live happily with 128GB, because almost nothing is stored locally. It also suits buyers who already have a spare SSD or know how to fit one.</p>
+<h2>Who it does not suit</h2>
+<p>Anyone who downloads films, edits photos, installs games or keeps a phone backup on the computer will run out of room. Engineering and IT students need more memory and cores as well.</p>
+<h2>Other options near Rs 71,000</h2>
+[[rivals:asus-vivobook-14-x1404va-2023]]
+<p>The <a href="/products/acer-aspire-lite-14-al14-45p-ryzen-3-5400u">Acer Aspire Lite 14</a> with a Ryzen 3 and 512GB costs Rs 3,000 more and solves the storage problem. The <a href="/products/lenovo-ideapad-slim-3-14iru8-core-i3-1315u">IdeaPad Slim 3 14</a> has the same Core i3 with a better configuration at about Rs 75,000. The <a href="/products/acer-aspire-go-15-ag15-32p-39r2-2025-intel-core-3-n355-8gb-256gb-156-fhd">Aspire Go 15</a> has a larger battery and 256GB with a slower chip. The <a href="/products/dell-inspiron-15-3520">Inspiron 15 3520</a> is a bigger machine with good service. For most people, one of these is the better purchase.</p>
+<h2>The upgrade plan, with numbers</h2>
+<p>If you get the Vivobook at a discount, say Rs 62,000 to 65,000, then a 512GB SSD and, if there is a slot, an 8GB memory stick bring the total to around Rs 75,000. For that you have a Core i3, 16GB and 512GB in a light body, which beats everything new at the price. That is the only scenario in which we would recommend it. Keep the old SSD in a USB enclosure as a backup.</p>
+<p>Opening the laptop may affect warranty terms, so ask Asus service to fit the parts or to confirm in writing that a standard upgrade is allowed.</p>
+<h2>How to stretch 128GB until you upgrade</h2>
+<ul>
+<li>Use Storage Sense to delete temporary files automatically.</li>
+<li>Set OneDrive to online-only files.</li>
+<li>Turn off hibernation to regain several gigabytes.</li>
+<li>Install programs you seldom use on a memory card or an external drive, or use web versions.</li>
+<li>Move the Downloads folder to external storage.</li>
+</ul>
+<h2>Consider a Chromebook-style approach</h2>
+<p>If your needs are online, ChromeOS Flex or a light Linux system can make a low-storage laptop feel fresh. They need little space and start quickly. Some Windows-only programs will not work, so this is a choice for confident users. An inexpensive tablet with a keyboard is another path for reading and typing, as we discuss in <a href="/guides/laptop-vs-tablet-work-study-nepal">laptop or tablet for study</a>.</p>
+<h2>Checks before buying</h2>
+<ul>
+<li>Confirm drive size. Some sellers advertise the 512GB version's price and photo.</li>
+<li>Look inside Task Manager for memory slots used.</li>
+<li>Check the battery report.</li>
+<li>Make sure the warranty is Asus's own.</li>
+</ul>
+<h2>Service</h2>
+<p>Asus has official service in Nepal and parts for the Vivobook line are widely available. That is a fair advantage over unknown imports.</p>
+<h2>Verdict</h2>
+<p>A capable little laptop has been sold with a drive that belongs in 2015. At its listed price there are better choices on the same shelf. At a proper discount, with a new SSD, it becomes one of the more sensible student machines around. Do the sum before you decide, and do not let a low sticker price hide the second purchase.</p>
+
+=== lenovo-ideapad-slim-3-n100-review-nepal
+<h2>Specifications</h2>
+[[specs:lenovo-ideapad-slim-3-15ian8-2023-intel-n100]]
+<h2>Why we scored it so low</h2>
+<p>A low score does not mean a faulty product. It means that the money is likely to be regretted. Windows 11 officially asks for 4GB of memory as a minimum, in the same way that a bus needs four wheels as a minimum. With the system running, about a gigabyte is left for everything else. A browser with a few tabs is enough to send the laptop into constant swapping with its drive. You wait for the start menu, then for the browser, then for the page.</p>
+<p>At Rs 54,999 this is not a throwaway sum. A student who struggles with it for a year and then buys a better laptop has paid twice.</p>
+<h2>What the N100 does well</h2>
+<p>The chip is more capable than its name suggests. It has four efficient cores that play high-resolution video without effort, sip power and stay cool, usually without needing a loud fan. Put 8GB of memory beside it and it makes a pleasant basic computer. Our variant table shows a version with a Core i3-N305, 8GB and 256GB at Rs 67,999. That one is worth considering. The 4GB/128GB one is not.</p>
+<h2>Can the memory be upgraded?</h2>
+<p>This is the first question to ask the shop. On some IdeaPad Slim 3 models the memory is soldered, and on others there is a slot. If yours has a slot, replacing or adding a stick to reach 8GB or more would change our opinion of the machine. Do not accept "probably". Ask the seller to check the model code in Lenovo's PSREF document, or open it in front of you.</p>
+<h2>The TN screen</h2>
+<p>The 15.6-inch Full HD panel uses the older TN type. Seen straight on, it is acceptable. Tilt it, and colours invert or fade. Two people cannot comfortably watch the same film. For spreadsheets and text it does the job.</p>
+<h2>Storage</h2>
+<p>With 128GB you face the same trouble we describe in our <a href="/reviews/asus-vivobook-14-x1404va-i3-review-nepal">Vivobook Core i3 review</a>: updates need room, and there is little to spare. An SSD upgrade is usually possible.</p>
+<h2>Realistic uses</h2>
+<ul>
+<li>A reception desk running a single billing page.</li>
+<li>A typing-practice machine for a training centre.</li>
+<li>A kitchen or prayer-room screen for YouTube.</li>
+<li>A light Linux computer for a hobbyist.</li>
+</ul>
+<p>With Linux Mint or ChromeOS Flex in place of Windows, 4GB goes further, and the laptop becomes quite usable for browsing, documents and video. That is an honest way to give it a good life, as long as you do not need Windows programs.</p>
+<h2>Better ways to spend Rs 55,000</h2>
+[[rivals:lenovo-ideapad-slim-3-15ian8-2023-intel-n100]]
+<p>The list of new laptops at this price is short and weak. Think wider.</p>
+<p><strong>A used business laptop.</strong> ThinkPad, Latitude and EliteBook models with a Core i5, 16GB and 256GB or more appear in the used market at around this price. They have better keyboards, screens and bodies. Have the battery and hinges checked and ask for at least a short shop warranty.</p>
+<p><strong>A tablet with a keyboard.</strong> For reading, notes and online classes, an 11-inch tablet with a Bluetooth keyboard is quicker and lasts longer. See our <a href="/guides/best-tablets-under-50000-nepal">tablets under Rs 50,000</a>.</p>
+<p><strong>Waiting two or three months.</strong> At Rs 70,000 to 75,000 you reach laptops with 8GB and 256GB or 512GB that will last through a degree. The <a href="/products/acer-aspire-lite-14-al14-45p-ryzen-3-5400u">Acer Aspire Lite 14</a> is one of them. EMI can bridge the gap if the total cost is fair.</p>
+<p><strong>A desktop for home.</strong> If the computer will never move, a small desktop or a mini PC with a monitor gives far more power per rupee. Our <a href="/custom-pc-build">PC builder</a> can plan one.</p>
+<h2>If you already bought one</h2>
+<p>Do not despair. First, check for a memory slot and go to 8GB if you can. Second, install a 256GB or 512GB SSD. Third, remove everything that starts with Windows. Fourth, use a light browser such as Edge in efficiency mode with no more than five tabs. Fifth, use web versions of Office. Those steps can make it tolerable.</p>
+<h2>Advice for schools and offices</h2>
+<p>Cheap machines bought in bulk often cost more in the end, since staff time is lost and replacements come early. If you are buying ten computers for a lab, ask suppliers for refurbished business desktops with 8GB and SSDs. They are faster, easier to repair and frequently cheaper than new laptops of this class.</p>
+<h2>Who should consider it despite everything</h2>
+<p>Someone with a precise, tiny need and no other option, or someone who plans to run Linux. Everyone else should treat the Rs 54,999 sticker as a warning sign. The price looks like a bargain because the parts that make a laptop pleasant have been removed.</p>
+<h2>The rule to remember</h2>
+<p>For Windows in 2026: 8GB of memory is the floor, 16GB is comfortable, 256GB of storage is the floor, and an IPS screen is worth asking for. If a new laptop misses two of those, as this one misses three, leave it in the shop.</p>
+
+=== lenovo-yoga-slim-7i-aura-edition-review-nepal
+<h2>Specifications</h2>
+[[specs:lenovo-yoga-slim-7i-aura-edition]]
+<h2>The case for a quiet premium laptop</h2>
+<p>Between the budget machines at one lakh and the showpieces at two and a half there is a gap that few laptops fill well. The Yoga Slim 7i Aura Edition does. It costs Rs 1,64,999, weighs little, has a beautiful screen and lasts through a working day. For lawyers, accountants, researchers, managers and postgraduate students, that combination is more valuable than a graphics card.</p>
+<h2>Lunar Lake, explained simply</h2>
+<p>Intel designed the Core Ultra 200V chips around efficiency. Memory sits on the same package as the processor, background tasks run on low-power cores, and standby uses very little. The result is a Windows laptop that behaves more like a MacBook: it wakes quickly, stays cool on your lap and keeps its charge overnight. The Core Ultra 5 226V is the entry model, and for office work you will not feel any lack.</p>
+<p>Two limits follow from the design. The memory cannot be changed, so 16GB is what you have for life. And heavy multi-core work, such as compiling a large code base or rendering, is slower than on H-series chips that use more power. Choose according to your work.</p>
+<h2>The OLED screen</h2>
+<p>A 14-inch panel with 600 nits and full DCI-P3 colour is far above the norm. Reading is comfortable, photographs look right, and films are a pleasure. Editors of pictures and short videos can trust the colours. The 16:10 shape shows more of each page.</p>
+<p>As with every OLED, use dark mode, hide the taskbar and let the pixel care run, to avoid uneven wear after some years.</p>
+<h2>Battery life in practice</h2>
+<p>With moderate brightness and typical office tools, a full working day away from a socket is realistic, and light use goes further. That is an advantage in a city with power cuts, and for people who travel between meetings. It charges by USB-C, so one charger can serve your phone as well.</p>
+<h2>Webcam, sound and keyboard</h2>
+<p>Lenovo's premium models have sharp webcams with a physical shutter, quality microphones and speakers that sound fuller than you expect from a thin machine. The keyboard has enough travel for long typing. Aura Edition features such as modes for focus, privacy and wellness can be ignored if you prefer a plain laptop.</p>
+<h2>Gaming and creative work</h2>
+<p>The integrated Arc 130V graphics can run older and lighter games at reduced settings. It can edit 4K clips on a short timeline. It is not for modern games or 3D work. If that is what you need at this price, a gaming laptop such as the <a href="/products/lenovo-loq-15-15ahp9-2024-ryzen-7-7445hs">Lenovo LOQ 15</a> costs the same and is the opposite kind of machine: heavy, loud and powerful.</p>
+<h2>Compared with others at Rs 1,65,000</h2>
+[[rivals:lenovo-yoga-slim-7i-aura-edition]]
+<p>The <a href="/products/hp-spectre-x360-14-eu0060ca-2024-intel-core-ultra-5-125h-16gb-16gb-14-3k-oled-touch">HP Spectre x360 14</a> is a luxurious convertible with a sharper OLED and an older, thirstier chip. The <a href="/products/dell-14-plus-2-in-1-db04250-2025-intel-core-ultra-7-256v-16gb-1tb-14-fhd">Dell 14 Plus 2-in-1</a> has a faster chip of the same family, twice the storage and a plain screen that folds. If you value a pen or tent mode, choose one of those. If you want the best screen and battery in a normal laptop, the Yoga wins.</p>
+<p>Two more to consider. The <a href="/products/macbook-air-m5-13">MacBook Air M5</a> costs far more and lasts longer with macOS. The <a href="/products/macbook-neo">MacBook Neo</a> is cheaper with half the memory.</p>
+<h2>Storage: plan ahead</h2>
+<p>Five hundred gigabytes is enough for documents and photos. Video makers will need an external SSD. The internal drive can be replaced on many Yoga models, though it may be a short 2242 size. Check before buying a spare.</p>
+<h2>Warranty and checking the unit</h2>
+<p>Premium imports appear in the market beside official stock. Enter the serial number on Lenovo's support site to see where the laptop was sold and which warranty applies. Ask the seller to write the period and provider on the bill. Look for the correct keyboard layout, a Windows licence that activates by itself, and a battery report close to design capacity.</p>
+<h2>Who it suits</h2>
+<ul>
+<li>Professionals who carry a laptop daily.</li>
+<li>Postgraduate students who read and write for hours.</li>
+<li>Photographers who need colour on the road.</li>
+</ul>
+<h2>Who it does not suit</h2>
+<ul>
+<li>Gamers and 3D artists.</li>
+<li>Developers who need 32GB or more.</li>
+<li>Buyers who want to upgrade parts later.</li>
+</ul>
+<h2>Set it up well</h2>
+<ul>
+<li>Turn on conservation mode in Lenovo Vantage if you are mostly on a desk.</li>
+<li>Use 60 per cent brightness indoors, which is plenty on this screen.</li>
+<li>Set the power button to sleep and let the laptop wake by lid.</li>
+<li>Back up to an external drive or cloud from the first day.</li>
+</ul>
+<h2>Is it worth the jump from a one-lakh laptop?</h2>
+<p>If you use a computer for six or more hours a day, yes. The screen, battery, keyboard and weight pay you back in comfort, and a better-built machine lasts longer. If you use one for an hour in the evening, a cheaper laptop does the same work and leaves you Rs 65,000 for other things.</p>
+<h2>Verdict</h2>
+<p>Not flashy and not cheap, the Yoga Slim 7i Aura is one of those rare laptops that get out of your way. It is the thin Windows machine we would choose for real work at this price, provided your idea of real work does not include rendering or games.</p>
+
+=== lenovo-ideapad-slim-3-ryzen-7-8840hs-review-nepal
+<h2>Specifications</h2>
+[[specs:lenovo-ideapad-slim-3-15ahp10-2025-ryzen-7-8840hs-16gb-512gb-153-wuxga]]
+<h2>A sleeper in a plain body</h2>
+<p>From the outside this is an ordinary IdeaPad. Inside sits a chip that was used in premium and gaming laptops a year earlier. The Ryzen 7 8840HS has eight Zen 4 cores and sixteen threads, and it runs in this thin chassis at moderate power. For students who compile code, run simulations, train small models or process data, it is the cheapest way to get this much speed in a new laptop.</p>
+<h2>What eight cores change</h2>
+<p>Consider a third-year computing student. Android Studio with an emulator, a database and a browser can bring a four-core laptop to its knees. With eight cores and 16GB, it is workable. A civil engineering student running structural analysis, a data student with large Excel and Python files, a media student exporting short films: each waits less. Over four years, less waiting is worth money.</p>
+<h2>Radeon 780M: surprisingly able</h2>
+<p>The integrated graphics are the best AMD offered in this generation. Valorant, CS2 at low settings, Rocket League, Minecraft with modest shaders, GTA V at medium and many indie games run smoothly at 1080p. It depends on memory speed, so check whether the laptop has two sticks or one. Dual-channel memory can raise frame rates by a third or more.</p>
+<p>New big-budget games are out of reach. If those matter, look at laptops with an RTX chip from about Rs 1,50,000.</p>
+<h2>The screen</h2>
+<p>At 15.3 inches with a 16:10 shape and touch, it shows more of a document than a normal 15.6-inch panel. Touch is useful for scrolling and signing, less so for drawing. It runs at 60Hz, with average brightness and colour. It is the part where Lenovo saved money, and for code and text it is fine.</p>
+<h2>Battery and heat</h2>
+<p>A 50Wh battery is small for an HS-class chip. In light use, the laptop is efficient and lasts an afternoon. Under heavy load it drains fast and the fan becomes audible. Use the quiet or balanced mode for classes and performance mode when plugged in. A thin chassis cannot keep maximum speed for long, so a thirty-minute render will settle below its peak.</p>
+<h2>Build and weight</h2>
+<p>At 1.59kg it is easy to carry. The shell is a mix of plastic and metal depending on colour, and the keyboard is comfortable with a number pad. Wi-Fi 6, USB-C with charging and display output, HDMI and a card reader on most versions cover the needs of a student.</p>
+<h2>Memory and storage</h2>
+<p>Sixteen gigabytes is right. Find out whether it is soldered or in slots, as this differs between IdeaPad versions. If there is a free slot, going to 24GB or 32GB later will keep the machine current. The SSD is replaceable.</p>
+<h2>Alternatives near Rs 1.3 lakh</h2>
+[[rivals:lenovo-ideapad-slim-3-15ahp10-2025-ryzen-7-8840hs-16gb-512gb-153-wuxga]]
+<p>The <a href="/products/macbook-neo">MacBook Neo</a> is quieter, lasts longer and has 8GB. The <a href="/products/acer-swift-lite-14-sfl14-41m-r4qm-2025-amd-ryzen-7-260">Acer Swift Lite 14</a> with a Ryzen 7 260 uses a refreshed version of the same chip in a smaller body, so compare price and screen. The <a href="/products/hp-elitebook-655-g10-ryzen-5-pro-7530u">EliteBook 655</a> has a stronger business build and a slower processor. The Dell with Snapdragon X is the battery champion, although Arm compatibility is a concern for engineering software, as we explain in <a href="/news/qualcomm-oryon-snapdragon-x-elite-laptops-nepal-battery-benchmarks">our Snapdragon X article</a>.</p>
+<h2>For which courses?</h2>
+<ul>
+<li><strong>Computer engineering, BCA, CSIT:</strong> excellent.</li>
+<li><strong>Civil and electrical engineering:</strong> very good for AutoCAD 2D, ETABS and MATLAB. Heavy 3D work needs a dedicated GPU.</li>
+<li><strong>Data science:</strong> good for learning. Large model training belongs in the cloud.</li>
+<li><strong>Architecture:</strong> workable for 2D and light SketchUp. Rendering in Lumion requires an RTX laptop.</li>
+<li><strong>Management and law:</strong> more than you need. Spend on a better screen instead.</li>
+</ul>
+<h2>Tuning it</h2>
+<ul>
+<li>Update the BIOS and chipset drivers in Lenovo Vantage.</li>
+<li>Allocate more memory to graphics in the BIOS only if you play games.</li>
+<li>Set the charge limit to 80 per cent for desk use.</li>
+<li>Elevate the rear of the laptop for heavy work.</li>
+<li>Use the integrated Windows dev tools, such as WSL, on this chip. It handles Linux workloads well.</li>
+</ul>
+<h2>Warranty notes</h2>
+<p>Check the model code 15AHP10 and the serial number on Lenovo's site. Official units have local warranty. Others come through importers with their own cover. Ask about accidental damage protection if the laptop goes to a hostel.</p>
+<h2>Compared with the Yoga Slim 7i</h2>
+<p>Our other recommendation, the <a href="/products/lenovo-yoga-slim-7i-aura-edition">Yoga Slim 7i Aura</a>, costs Rs 33,000 more with a lovely OLED and far better battery life and has less multi-core power. Choose the IdeaPad if your work makes the fan spin. Choose the Yoga if your work makes your eyes tired.</p>
+<h2>Verdict</h2>
+<p>Few laptops give you this much processor for the money. The plain screen and small battery are fair compromises for students and developers who sit near a socket. If your course depends on computing power and your budget ends at Rs 1.4 lakh, this is where we would put it.</p>

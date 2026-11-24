@@ -54,9 +54,9 @@
       </aside>
 
       <section class="min-w-0" aria-label="Brands">
-        <ul v-if="filtered.length" class="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line sm:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-          <li v-for="b in filtered" :key="b.id" class="bg-surface">
-            <Link :href="brandHref(b)" class="group flex h-full items-center gap-3 p-4 transition-colors hover:bg-surface-2">
+        <ul v-if="filtered.length" class="grid grid-cols-2 gap-x-6 border-t border-line sm:grid-cols-3 sm:gap-x-8 xl:grid-cols-4">
+          <li v-for="b in filtered" :key="b.id" class="border-b border-line">
+            <Link :href="brandHref(b)" class="group flex h-full items-center gap-3 py-4">
               <span
                 class="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-lg text-base font-semibold text-fg-muted"
                 :class="b.logo ? 'border border-line bg-white p-1.5' : 'bg-surface-2'"
@@ -66,7 +66,7 @@
                 <template v-else>{{ b.name.charAt(0) }}</template>
               </span>
               <span class="min-w-0">
-                <span class="block truncate font-medium text-fg">{{ b.name }}</span>
+                <span class="block truncate font-medium text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4">{{ b.name }}</span>
               </span>
             </Link>
           </li>

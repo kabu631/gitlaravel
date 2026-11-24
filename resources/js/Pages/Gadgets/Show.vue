@@ -189,7 +189,7 @@
           </div>
           <p class="mt-3 text-xs leading-5 text-fg-subtle">
             <template v-if="gadget.price_is_estimate">The expected price is our estimate from the global price, taxes and past pricing in Nepal — the official price may differ.</template>
-            <template v-else>Prices are collected from retailers in Nepal and can change without notice. Git Infosys doesn’t sell devices directly.</template>
+            <template v-else>Prices are collected from retailers in Nepal and can change without notice. Git Infosys doesn’t sell devices directly.<template v-if="(buyUrl || '').includes('onin.com.np')"> The button opens ONIN Infosys, our business partner.</template></template>
           </p>
 
           <dl v-if="keySpecs.length" class="mt-7 divide-y divide-line border-y border-line text-sm">
@@ -235,12 +235,13 @@
             </div>
             <p v-if="!specGroups.length" class="text-sm text-fg-subtle">Specifications haven’t been published for this device yet.</p>
           </div>
-          <div v-if="sources.length" class="mt-6 text-xs leading-5 text-fg-subtle">
-            <span class="font-medium text-fg-muted">Sources:</span>
+          <div v-if="sources.length || checkedOn" class="mt-6 text-xs leading-5 text-fg-subtle">
+            <template v-if="sources.length"><span class="font-medium text-fg-muted">Sources:</span>
             <template v-for="(src, i) in sources" :key="src.url">
               <a :href="src.url" target="_blank" rel="noopener nofollow" class="underline decoration-line-strong underline-offset-2 hover:text-fg">{{ src.label }}</a><template v-if="i < sources.length - 1">, </template>
             </template>
-            <template v-if="sources[0]?.accessed"> · checked {{ formatDate(sources[0].accessed) }}</template>
+            <template v-if="checkedOn"> · </template></template>
+            <template v-if="checkedOn">Price and specifications checked {{ formatDate(checkedOn) }}</template>
           </div>
         </section>
 
@@ -558,6 +559,7 @@ const statusNotice = computed(() => {
 })
 const faqs = computed(() => (props.gadget.faqs || []).filter(f => f?.question && f?.answer))
 const sources = computed(() => (props.gadget.sources || []).filter(src => src?.url && src?.label))
+const checkedOn = computed(() => (props.gadget.sources || []).map(src => src?.accessed).filter(Boolean).sort().pop())
 
 const buyUrl = computed(() => props.gadget.buy_url || props.gadget.referral_buy_url || null)
 const releaseLabel = computed(() => {

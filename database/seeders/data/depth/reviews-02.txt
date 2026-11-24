@@ -1,0 +1,426 @@
+=== samsung-galaxy-a57-5g-review-nepal
+<h2>The full sheet</h2>
+[[specs:samsung-galaxy-a57-5g]]
+<h2>Why so many people end up with this phone</h2>
+<p>Walk into a mobile shop in Butwal or Dharan and say you have about a lakh and want something reliable. The A57 is very likely the first box that comes out. Some of that is habit, and some of it is fair. Samsung has authorised service in more Nepali cities than any other Android brand, spare parts are stocked, and a shop can tell you the cost of a screen before you break it. A phone is a four-year purchase for most families, and support is part of what you are buying.</p>
+<p>The design helps as well. At 6.9mm and about 179 grams it feels closer to a flagship than to a mid-ranger. Many rivals with huge batteries weigh 210 grams or more. If you have ever owned a heavy phone, you know the difference on a long scooter ride with it in a front pocket.</p>
+<h2>Screen</h2>
+<p>The 6.7-inch Super AMOLED is the part you will enjoy most. Colours are rich without being silly in the Natural mode, black is truly black for night reading, and 120Hz keeps scrolling steady. The glass is Gorilla Glass Victus+, which resists drops well. There is nothing exotic here, such as the 144Hz or 1.5K panels you find on Chinese phones, and nobody who is not comparing two phones next to each other will miss them.</p>
+<h2>Performance over time</h2>
+<p>The Exynos 1680 is a 4nm chip in the upper middle of the market. It handles Facebook, banking, Google Meet and ordinary photo editing without hesitation. Games such as Mobile Legends and Free Fire run well. Genshin Impact and similar titles need reduced settings.</p>
+<p>What matters more is how it behaves in year three. Samsung's One UI has become lighter, and 8GB of memory is still comfortable for this class. If you plan to use all six years of updates, the 12GB version for Rs 11,000 more is easier to live with at the end. If you change phones every three years, save the money.</p>
+<h2>Camera: good where it counts</h2>
+<p>The 50MP main camera is dependable. Daylight shots are sharp, faces look natural, and night mode brightens a street without turning it orange. The 12MP ultra wide is above average for the class, since most competitors use 8MP. It also has enough detail for group photos indoors. The 5MP macro is there to fill a space on the back.</p>
+<p>There is no telephoto. Two-times zoom, which crops the main sensor, is fine. Beyond that, detail goes quickly. A parent photographing a school programme from the back row will be happier with the <a href="/products/nothing-phone-4a">Nothing Phone 4a</a>.</p>
+<p>The 12MP front camera sounds modest beside 32MP rivals. In practice it produces pleasing skin and handles backlight well, which counts for more on video calls.</p>
+<h2>Battery and charging in a normal week</h2>
+<p>Five thousand milliamp-hours gets most people to bedtime. Heavy users on mobile data will need a top-up. The 45W charging refills about two-thirds of the battery in half an hour with a suitable charger, which is not supplied. Wireless charging is not available. If your house loses power for hours, rivals with 7,000mAh or more give you a wider safety margin, and no software feature makes up for that.</p>
+<h2>Six years of updates in plain terms</h2>
+<p>The phone launches with Android 16, and Samsung promises six generations of upgrades and six years of security patches. Banking apps and digital wallets drop old Android versions over time, so this directly affects how long the phone stays useful. It also affects resale. A two-year-old Galaxy A with four years of support left is easy to sell, while a similar phone from a brand with two years of support is not.</p>
+<h2>Price: the uncomfortable part</h2>
+<p>At Rs 96,999 the A57 costs nearly as much as phones with flagship chips.</p>
+[[rivals:samsung-galaxy-a57-5g]]
+<p>The <a href="/products/oneplus-15r">OnePlus 15R</a> and <a href="/products/poco-x8-pro-max">POCO X8 Pro Max</a> are much faster. The <a href="/products/xiaomi-17t">Xiaomi 17T</a> has a stronger camera set. The <a href="/products/oneplus-nord-6">OnePlus Nord 6</a> is cheaper and lasts far longer on a charge. Each of them gives up something the Samsung has, usually years of updates, service reach or slimness. You have to decide what those are worth to you, and it is perfectly reasonable to decide that they are worth it.</p>
+<p>There is also competition from inside the family. The <a href="/products/samsung-galaxy-a37-5g">Galaxy A37 5G</a> costs around Rs 22,000 less, and shares the same software approach. If your use is light, the A37 is the smarter Samsung. And during festival sales, last year's Galaxy S models sometimes fall close to the A57's price, at which point they are the better phone.</p>
+<h2>Who it fits</h2>
+<ul>
+<li><strong>Parents and relatives</strong> who want something familiar, light and supported for years.</li>
+<li><strong>Office users</strong> who live in email, calls and documents and value local service.</li>
+<li><strong>People in smaller cities</strong> where Samsung is the only brand with a nearby service centre.</li>
+</ul>
+<h2>Who should look elsewhere</h2>
+<ul>
+<li>Gamers, who get far more frames per rupee from POCO or OnePlus.</li>
+<li>Travellers and delivery workers, who need a bigger battery.</li>
+<li>Anyone who wants zoom.</li>
+</ul>
+<h2>Buying advice</h2>
+<p>Wait for an offer if you can. Samsung Nepal runs exchange bonuses and EMI schemes for most of the year, and the sticker price is rarely the final one. Ask for the official warranty sticker, check the IMEI in MDMS and confirm the memory version on the box, because the 8GB and 12GB models look identical. Finally, buy a charger from a known brand with PPS support, or you will pay for 45W charging and receive 15W.</p>
+
+=== samsung-galaxy-a17-5g-review-nepal
+<h2>Specifications</h2>
+[[specs:samsung-galaxy-a17-5g]]
+<h2>First phone, parents' phone, spare phone</h2>
+<p>The A17 5G is bought by three groups of people more than any others: students getting their first decent phone, sons and daughters buying for their parents, and people who need a second number that will not let them down. It suits all three because of what it avoids. The interface is the same as on expensive Samsungs, the menus are available in Nepali, emergency settings are easy to find, and a relative who already owns a Galaxy can help over the phone.</p>
+<p>Samsung's Easy mode deserves a mention here. It makes icons and text larger, simplifies the keyboard and lengthens the time needed for a long press. Set that up, pin WhatsApp, the camera and the dialler to the home screen, and an older user can manage without lessons.</p>
+<h2>A proper screen for the money</h2>
+<p>Super AMOLED at Full HD+ is still rare at this price. Text is sharp, contrast is strong and 1,100 nits is bright enough for reading outdoors in shade. The glass is Gorilla Glass Victus, an unusually tough choice for a budget phone and a good one for people who drop things.</p>
+<p>The refresh rate is 90Hz. Phones at the same price offer 120Hz, and if you place the two next to each other you can see it while scrolling fast. On its own, 90Hz looks smooth. The notch at the top is the dated U shape, so the front of the phone will not impress anybody.</p>
+<h2>What the Exynos 1330 can and cannot do</h2>
+<p>This is a modest processor. It opens WhatsApp, Facebook, YouTube and eSewa without drama, keeps a handful of apps in memory, and plays casual games. Free Fire works at standard settings. PUBG Mobile works if you keep graphics low. Switching quickly between a video call, a browser and a map will show short pauses.</p>
+<p>For that reason, spend the extra Rs 4,000 on 8GB of memory if you can. On this class of chip, memory is the difference between a phone that feels acceptable in 2028 and one that does not. The 8GB/256GB version at Rs 56,999 is harder to justify, since it costs as much as clearly faster phones. The microSD slot is the cheaper answer to storage.</p>
+<h2>Cameras with one real advantage</h2>
+<p>Optical image stabilisation on a Rs 45,000 phone is the advantage. It moves the lens to cancel out small shakes of your hand, so photos taken indoors in the evening come out sharp more often. Older users with less steady hands benefit the most. Video looks calmer too, though it is limited to 1080p.</p>
+<p>The 5MP ultra wide is for daylight only, and you can ignore the 2MP macro. The 13MP selfie camera is fine for video calls.</p>
+<h2>Battery, charging and the missing charger</h2>
+<p>A 5,000mAh battery with an undemanding chip lasts a full day, and nearer a day and a half for light users. Charging at 25W is slow by current standards, taking about an hour and a half from empty, and the charger is usually not in the box. For someone who plugs in overnight, none of this matters.</p>
+<p>IP54 means dust and splashes. Light rain on the way to the bus is fine. Dropping it in a bucket is not.</p>
+<h2>5G in Nepal: is it worth paying for?</h2>
+<p>Commercial 5G in Nepal is limited, and whether you benefit depends on where you live and which operator you use. Our <a href="/news/ntc-ncell-5g-rollout-nepal-2024">5G status article</a> explains the situation. The fair way to see it is as insurance for the next four years and not as a reason to buy today. If you would never move off 4G, the 4G-only phones at this price sometimes have bigger batteries or faster charging.</p>
+<h2>Updates are the hidden feature</h2>
+<p>Samsung has been giving its cheaper A-series phones a long run of updates, far longer than most rivals at this price. For a phone that will be handed down, that keeps banking and wallet apps working, and it keeps the owner safer from malware. Ask the shop to confirm the exact number of years for this model, and look it up on Samsung's site.</p>
+<h2>Around the same price</h2>
+[[rivals:samsung-galaxy-a17-5g]]
+<p>The <a href="/products/redmi-note-15-5g">Redmi Note 15 5G</a> has a faster feel and quicker charging. The <a href="/products/moto-g96">Moto G96</a> brings a smoother screen and cleaner software. The <a href="/products/samsung-galaxy-m17-5g">Galaxy M17 5G</a> is nearly the same phone with small differences, so compare the two prices on the day you buy. If you can reach Rs 54,999, the <a href="/products/honor-x9d">Honor X9d</a> is in another league for battery life and toughness.</p>
+<h2>About the Ncell offer</h2>
+<p>The A17 is included in the Samsung and Ncell promotion, which combines monthly payments with data packs. Read the conditions before signing. Add up every instalment and compare the total with the cash price elsewhere, check how long you must keep the plan, and find out what happens if you lose the phone. We went through the details in our <a href="/news/samsung-ncell-partnership-galaxy-offers-nepal">article on the offer</a>.</p>
+<h2>Should you buy it?</h2>
+<p>If the buyer is comfortable with technology and wants the most hardware for Rs 45,000, no. There are phones with bigger batteries and faster chips. If the buyer wants something dependable that the whole family already knows how to use, with service nearby and years of updates, yes. Choose 8GB of memory, add a good case and a 25W charger with PPS, and it will quietly do its job.</p>
+
+=== iphone-17-review-nepal
+<h2>Specifications at a glance</h2>
+[[specs:iphone-17]]
+<h2>How 120Hz changes the base iPhone</h2>
+<p>For four years people compared a Rs 1.5 lakh iPhone with a Rs 40,000 Android and asked why the cheaper phone scrolled more smoothly. That conversation is over. The iPhone 17 uses the same kind of variable panel as the Pro, running from a very low refresh rate on a still page up to 120Hz when you scroll. It also makes an always-on lock screen possible, so the time and your widgets are visible on the desk.</p>
+<p>Go from an iPhone 13 or 14 to this and the screen is the first thing you will notice. Text stays readable while it moves, animations feel lighter, and the 3,000-nit peak makes maps usable at noon. If you already have a Pro from the last few years, you will see no difference.</p>
+<h2>The cameras in daily life</h2>
+<p>There are two lenses on the back, both 48MP. The main one covers ninety per cent of what people shoot: family, food, streets, documents, pets. It also provides a 2x setting by cropping the centre of the sensor, which is good enough for portraits and half-length shots. The ultra wide now has the resolution to capture a whole room or a mountain view with detail in the corners, and it works for close-ups of flowers or jewellery.</p>
+<p>What you do not get is reach. At 5x or 10x the phone is enlarging pixels. At a football match at Dasharath Stadium, or with birds across a lake, the Pro models and many Android phones will beat it easily. Think back over the last hundred photos on your current phone. If fewer than five were zoomed, you will not miss the lens.</p>
+<p>The front camera is the surprise of this generation. It has a square sensor, so you can hold the phone upright and still take a wide group selfie. When more people step into the frame, it widens on its own. For creators who film themselves, this is more useful than any change on the back.</p>
+<h2>Speed, memory and Apple Intelligence</h2>
+<p>The A19 is quicker than the chips in almost every Android phone at the same price, and the interface never hesitates. The 8GB of memory is the minimum for Apple Intelligence. It is enough today, and it is the one figure that could feel tight towards the end of the phone's life if on-device AI features grow. Apple usually supports an iPhone for six years or more, so this is a minor doubt and not a reason to avoid it.</p>
+<h2>Battery and charging</h2>
+<p>Apple quotes a full day, and in mixed use that is realistic. Bright sun, hotspot use and mobile games will shorten it. The welcome change is charging speed: about half full in twenty minutes with a 40W-class USB-C charger. MagSafe at up to 25W is quick for a wireless system. There is no charger in the box, so plan for one, and buy a reputable brand. A fake charger is the cheapest way to damage an expensive phone.</p>
+<h2>Is the 512GB model worth it?</h2>
+<p>No, for most people. The jump from Rs 1,64,999 to Rs 2,15,699 is more than Rs 50,000 for 256GB of storage. At that point you are within sight of the <a href="/products/apple-iphone-17-pro">iPhone 17 Pro</a>. Since the base model now starts at 256GB, it is enough for anyone who backs photos up to iCloud or a computer. Pay for an iCloud plan or buy an external SSD, which plugs straight into the USB-C port.</p>
+<h2>Cost of ownership</h2>
+<p>An iPhone costs more at the counter and gives more back later. Two years from now a clean iPhone 17 with its box and bill should sell for a larger share of its price than an Android phone bought on the same day. Repairs are the other side. Screen and back-glass replacements with genuine parts are expensive, so use a case, and consider what you would do if you cracked the screen in the first month.</p>
+<p>Official warranty matters too. Apple products sold through authorised resellers in Nepal carry a one-year warranty handled by authorised service providers in Kathmandu. Outside the valley, expect to send the phone.</p>
+<h2>Compared with phones at about this price</h2>
+[[rivals:iphone-17]]
+<p>The <a href="/products/samsung-galaxy-s26">Galaxy S26</a> is the natural rival. It is Rs 25,000 cheaper, similar in size, and has a telephoto lens and seven years of updates. If you have no attachment to iOS, it is hard to argue against. The <a href="/products/oneplus-15">OnePlus 15</a> costs Rs 25,000 more and offers a battery that lasts almost twice as long. The <a href="/products/google-pixel-10-pro">Pixel 10 Pro</a> takes wonderful photos, but has no official support here.</p>
+<p>People choose the iPhone for reasons outside the spec sheet: iMessage and FaceTime with relatives abroad, AirDrop with a MacBook, an Apple Watch, steady app quality, and resale. If three or more of those apply to you, the comparison ends there.</p>
+<h2>Upgrading from an older iPhone</h2>
+<ul>
+<li><strong>From an iPhone 11 or 12:</strong> a huge step in every respect. Do it.</li>
+<li><strong>From a 13 or 14:</strong> worthwhile for the screen, camera and USB-C, if your battery is tired anyway.</li>
+<li><strong>From a 15 or 16:</strong> wait. The difference is mainly the 120Hz display.</li>
+<li><strong>From any Pro since the 14:</strong> you would lose a lens. Skip it.</li>
+</ul>
+<h2>Before you buy</h2>
+<p>Check that the box is sealed and the serial number matches Apple's coverage page. Confirm that the model has a physical SIM tray if your operator or habits need one, as some regions sell eSIM-only versions. Run the IMEI through MDMS. And compare at least two authorised sellers, because bundles with a charger or case can be worth several thousand rupees.</p>
+
+=== oneplus-15-review-nepal
+<h2>Specifications</h2>
+[[specs:oneplus-15]]
+<h2>Living with 7,300mAh</h2>
+<p>Most flagships are designed around a thin body, and the battery gets whatever space is left. OnePlus did it the other way round. Silicon-carbon cells let it fit 7,300mAh into a phone of normal thickness, and the result is a flagship you stop thinking about. Leave home at seven with mobile data on, take photos, use maps, share a hotspot for an hour, watch highlights on the bus back, and there is still a comfortable amount left at night.</p>
+<p>If you are a lighter user, you can charge every second day. That has a hidden benefit. Batteries age by the number of full cycles, and a phone that needs half as many will hold its health for longer.</p>
+<p>Charging is fast in both forms: up to 120W with a compatible OnePlus SUPERVOOC charger and 50W on the matching wireless stand. With an ordinary USB PD charger it is slower. Ask the shop which charger is in the box, or whether one is included at all, as listings in Nepal do not agree.</p>
+<h2>Speed, and how long it lasts</h2>
+<p>The Snapdragon 8 Elite Gen 5 is in the top group of phone chips, and paired with 16GB of fast memory and UFS 4.1 storage it makes everything feel immediate. The interesting question with any such chip is heat. A large phone with a large vapour chamber can keep its performance up longer than a compact one, which is one reason gamers like OnePlus. The 165Hz mode works in a list of supported titles and drops back to 120Hz elsewhere.</p>
+<p>In a hot room without a fan, no phone holds its peak speed for an hour. Take off the case, lower the brightness and avoid charging while you play. Those steps matter more than the chip's name.</p>
+<h2>Screen</h2>
+<p>The 6.78-inch AMOLED adapts between 1Hz and 120Hz in normal use. It is flat, which makes it easy to fit a protector and reduces accidental touches. OnePlus has put effort into comfort at night with very low minimum brightness and flicker reduction, worth knowing if you read in bed or get headaches from some AMOLED phones.</p>
+<h2>Cameras: consistent and unfussy</h2>
+<p>Three 50MP cameras sounds impressive, and the point is balance. The main camera uses a Sony sensor with stabilisation, the ultra wide is better than usual, and the 3.5x telephoto covers portraits and moderate zoom. Pictures look natural, and the camera app is quick.</p>
+<p>What keeps it behind the leaders is sensor size. The <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a> gathers more light with its one-inch sensor, and the <a href="/products/vivo-x300-pro">vivo X300 Pro</a> has far more detail at long zoom. At a concert or in a dim restaurant, you can tell. In daylight and on social media, most people cannot.</p>
+<h2>Toughness</h2>
+<p>IP68 and IP69K ratings together mean the phone resists dust, immersion in fresh water and jets of hot water. That is as high as consumer phones go. It is reassuring through the monsoon, but water damage is generally not covered by warranty, so treat it as a safety net.</p>
+<p>The weight of 211 to 215 grams is the cost of the battery. It is noticeable, though well balanced. Anyone coming from a compact phone should hold it for a while before buying.</p>
+<h2>Software</h2>
+<p>OxygenOS 16 is one of the more pleasant versions of Android: fast, not overloaded, with sensible shortcuts and good split-screen tools. Useful extras include the file dock and the ability to receive files from iPhones with a companion app. OnePlus promises several years of upgrades and security patches, which is shorter than Samsung's seven years. Ask for the exact figure for this model.</p>
+<h2>Service in Nepal</h2>
+<p>OnePlus phones are sold through official partners with service in Kathmandu. Coverage outside the valley is limited compared with Samsung and Xiaomi. If you live in Surkhet or Dhangadhi, find out how a repair would be handled before you spend almost two lakh. Buy an official unit: Chinese-market OnePlus phones run a different system, ColorOS, and their warranty does not apply here.</p>
+<h2>What else is near Rs 1,90,000?</h2>
+[[rivals:oneplus-15]]
+<p>The <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a> is the all-rounder with a stylus and the longest support, at Rs 35,000 more and with a much smaller battery. The <a href="/products/honor-magic-8-pro">Honor Magic 8 Pro</a> offers a large battery and strong cameras. The <a href="/products/iphone-air">iPhone Air</a> sits at the same price and represents the opposite idea: thinness before endurance. Try both in your hand and you will know within a minute which kind of person you are.</p>
+<p>If the price is the problem, the <a href="/products/oneplus-15r">OnePlus 15R</a> at about half the money keeps the speed and the big battery, and cuts the cameras. It is the value choice in the family.</p>
+<h2>One storage option, and what that means</h2>
+<p>In Nepal the listed version has 16GB of memory and 512GB of storage. That is generous and leaves nothing to upgrade, yet it also removes the cheaper entry point that exists elsewhere. If you would have been happy with 256GB, you are paying for space you may not use.</p>
+<h2>Verdict in practice</h2>
+<ul>
+<li><strong>Choose it</strong> for travel, gaming, long shifts and anyone who resents charging.</li>
+<li><strong>Choose it</strong> if you like clean Android and fast everything.</li>
+<li><strong>Choose something else</strong> if your camera is the main reason to spend this much.</li>
+<li><strong>Choose something else</strong> if you need a service centre in your own city.</li>
+</ul>
+
+=== xiaomi-17-ultra-review-nepal
+<h2>Specifications</h2>
+[[specs:xiaomi-17-ultra]]
+<h2>Why sensor size is the whole story</h2>
+<p>Phone adverts talk about megapixels because large numbers are easy to print. Photographers look at the size of the sensor. A one-inch-type sensor has several times the area of the one in a mid-range phone, so it collects several times as much light in the same fraction of a second. That gives you three things: less grain in the dark, faster shutter speeds for moving children, and a background that blurs because of the lens and not because software guessed where the edges were.</p>
+<p>LOFIC, the technology Xiaomi mentions, is about contrast. Each pixel can store more light before it clips to white, so a bright window behind a person, or the sky above a shaded courtyard, keeps its detail in a single exposure. For anyone who photographs the mountains at sunrise, with dark foreground and blazing snow, this solves a real problem.</p>
+<h2>The zoom that moves</h2>
+<p>Most phones have fixed zoom lenses and crop between them. The 17 Ultra's 200MP periscope physically changes focal length between 3.2x and 4.3x. Inside that range you lose no quality as you frame a portrait or a detail, and the high resolution leaves room to crop well beyond it. It is the closest thing to a real lens on a phone.</p>
+<p>For long distances the <a href="/products/vivo-x300-pro">vivo X300 Pro</a> remains a strong competitor with its 200MP 3.7x camera. The two phones cost the same, so the choice is about style. Xiaomi is the better everyday and low-light camera. vivo is the better choice for the far end of the zoom and for stage photography.</p>
+<h2>Taking photos with it</h2>
+<p>You pick between two Leica looks. Authentic keeps shadows and restrained colour, Vibrant is closer to what other phones produce. A professional mode gives manual control over shutter, focus and white balance, and you can save RAW files for editing. People who already own a mirrorless camera often find that this phone replaces it for travel, while people who only want to point and shoot will be paying for a lot of capability that stays in the menus.</p>
+<p>Video has improved, with stable 4K and flat colour profiles for grading. The iPhone still leads for effortless, consistent clips, particularly inside apps such as Instagram and TikTok, whose cameras are usually tuned better for Apple and Samsung.</p>
+<h2>Everything else is flagship too</h2>
+<p>The Snapdragon 8 Elite Gen 5 and 16GB of memory mean there is no task this phone struggles with. The 6.9-inch OLED is bright, accurate and adapts from 1Hz to 120Hz. A 6,000mAh battery is large for a camera phone and comfortably covers a day of shooting. It charges at 90W by cable and 50W wirelessly, and can send 22.5W to another device, enough to properly charge a small camera or earbuds.</p>
+<p>Protection is rated IP66, IP68 and IP69. The camera island is enormous, though, and it makes the phone top-heavy. Use a strap or a grip case. A drop onto that lens ring would be an expensive afternoon.</p>
+<h2>HyperOS and the things to change first</h2>
+<p>HyperOS 3 is fast and full of features. Spend a little time on it: uninstall the extra apps, turn off recommendations in the built-in tools, allow WhatsApp and Viber to run in the background, and set the camera to open with a double press of the volume key. Xiaomi's update promise for its top phones has grown, yet it remains shorter than Samsung's seven years.</p>
+<h2>Is this a good idea in Nepal?</h2>
+<p>There are practical points to consider. Xiaomi has official service here, but the Ultra is a low-volume model, and parts such as its camera module may need ordering. Ask how long a screen replacement would take. Resale is the second point: Android camera phones lose value faster than iPhones and Galaxy Ultras. If you buy it to keep and to photograph with, that does not matter. If you sell every year, it does.</p>
+<p>Third, check the version. Chinese units are common in the grey market and cost less, but they bring Chinese software, fewer Google conveniences and no local warranty. The official Nepali unit at Rs 1,99,999 is the one we price.</p>
+<h2>Compared with others at this price</h2>
+[[rivals:xiaomi-17-ultra]]
+<p>The <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a> does more non-camera things: a stylus, a privacy screen, DeX and long support. The <a href="/products/oneplus-15">OnePlus 15</a> lasts much longer on a charge. The <a href="/products/google-pixel-10-pro-xl">Pixel 10 Pro XL</a> has the most reliable point-and-shoot results, with no official service. Only the Xiaomi and the vivo feel like cameras that happen to make calls.</p>
+<h2>A question to ask yourself</h2>
+<p>Open the photo gallery on your current phone and look at the last month. Are there portraits, night scenes, travel and details that you wish were better? Then this phone will give you pleasure every week. Are they mostly screenshots, documents and food? Then the same money would be better spent on a phone with a longer battery, or half of it on something sensible and the other half on a trip worth photographing.</p>
+<h2>Who it suits</h2>
+<ul>
+<li>Enthusiasts, travellers and small studios who want one device for quick professional work.</li>
+<li>People who enjoy editing RAW files.</li>
+<li>Owners of older Leica-tuned Xiaomi phones who want a clear step up.</li>
+</ul>
+<p>It does not suit people who want a light phone, who need wide service coverage or who sell on quickly. Within its purpose it is outstanding, and it is refreshing to see a phone that knows exactly what it is for.</p>
+
+=== vivo-x300-pro-review-nepal
+<h2>Specifications</h2>
+[[specs:vivo-x300-pro]]
+<h2>What a 200MP periscope is good for</h2>
+<p>The headline camera on the X300 Pro is not the main one. It is the 200MP telephoto with 3.7x optical zoom and stabilisation. At its native length it takes portraits with the flattering perspective of an 85mm lens. Because the sensor has so many pixels, you can crop to seven or ten times and still have a photo worth keeping. vivo's work with ZEISS on the lenses shows in clean edges and controlled flare when shooting towards stage lights.</p>
+<p>In Nepal there are plenty of places to use that: rhinos and birds in Chitwan and Koshi, performers at a Dashain programme, a bride across a party palace, the face of Machhapuchhre from Pokhara lakeside. A hand-held 10x shot is something you can actually rely on here, whereas most phones treat it as a party trick. Beyond about 20x, atmospheric haze and shake take over, whatever the specification claims.</p>
+<h2>The main camera in comparison</h2>
+<p>The 50MP main camera is very good, but it uses a smaller sensor than the one-inch unit in the <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a>. In daylight you would not know. In a candle-lit room or on a street at night, the Xiaomi collects more light and shows more natural background blur. Colour is where vivo wins some people over: skin tones are warm and flattering, and the portrait modes imitate classic lenses convincingly.</p>
+<p>The 50MP ultra wide and the 50MP front camera complete a set without a weak member. Video is improved, with good stabilisation on the zoom lens, which is rare.</p>
+<h2>Performance and heat</h2>
+<p>The Dimensity 9500 is MediaTek's flagship 3nm chip. It competes directly with Qualcomm's best, and in everyday use the two are impossible to tell apart. Games run at high settings, and 16GB of memory keeps everything open. Some emulators and a few games are better optimised for Snapdragon, so heavy emulator users should prefer a phone with that chip.</p>
+<h2>Battery</h2>
+<p>At 6,510mAh this has one of the larger batteries among camera flagships. A long day of photography, maps and messaging is no problem. It charges at 90W with vivo's charger and 40W on a compatible wireless stand. With that combination you can arrive at a lunch stop with twenty per cent and leave with most of a charge.</p>
+<h2>Display</h2>
+<p>The 6.78-inch AMOLED reaches a claimed 4,500 nits on small bright areas, and is easily readable in strong sun. It is sharp, smooth at 120Hz and comfortable at night. It is flat, or very nearly so, which makes it easier to protect.</p>
+<h2>OriginOS instead of Funtouch</h2>
+<p>vivo moved its international phones to OriginOS, a redesign with smoother animation and more consistent menus. People who remember the older Funtouch software will find it a clear improvement. It still comes with vivo's own apps in duplicate, and the notification settings need a little attention so that messaging apps are not put to sleep. Ask about the number of Android upgrades promised, since this is an area where Samsung is ahead.</p>
+<h2>About that price rise</h2>
+<p>The phone moved up in September 2026 to Rs 1,99,999. Memory costs and the exchange rate pushed up almost every flagship this year, as we explained in <a href="/news/why-gadget-prices-rose-nepal-2026">our look at 2026 prices</a>. The effect is that the X300 Pro now sits exactly level with its closest rival. Before the rise it was an easy recommendation as the cheaper option. Now it has to win on zoom alone.</p>
+[[rivals:vivo-x300-pro]]
+<h2>Service and resale</h2>
+<p>vivo has been in Nepal for many years and has service centres in the main cities, which is a point in its favour over brands that only sell here. The X series is sold in small numbers, however, so camera modules and screens may not be on the shelf. Resale follows the usual Android pattern: expect a steep drop in the first year. A well-kept unit with box, bill and remaining warranty will sell more easily.</p>
+<h2>Accessories worth considering</h2>
+<p>vivo sells a photography kit and a ZEISS tele-extender lens for this series in some countries. Availability in Nepal is uncertain, so do not plan around it. What you should buy locally is simpler: a case with a raised edge around the camera ring, a small tripod with a phone clamp and a USB-C card reader. A tripod turns the night and long-zoom modes from good to excellent.</p>
+<h2>X300 Pro or Xiaomi 17 Ultra?</h2>
+<ul>
+<li><strong>You photograph people on stages, wildlife, sport or distant scenery:</strong> vivo.</li>
+<li><strong>You photograph family, streets, food and night scenes:</strong> Xiaomi.</li>
+<li><strong>You want the longer battery:</strong> vivo, by about 500mAh.</li>
+<li><strong>You want the more adjustable, camera-like controls:</strong> Xiaomi.</li>
+</ul>
+<p>The <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a> is the sensible third option for people who like both and need neither. It has good zoom, wider service and much longer software support for Rs 25,000 more.</p>
+<h2>Who should buy it</h2>
+<p>Buy the X300 Pro if you have missed photos because you could not get closer, and you enjoy taking them. If your zoom slider rarely moves past 2x, you would be paying two lakh for a feature you do not use. In that case, look at a good all-round phone and put the difference aside.</p>
+
+=== realme-p4-power-review-nepal
+<h2>Specifications</h2>
+[[specs:realme-p4-power]]
+<h2>Three days, if you let it</h2>
+<p>The extra one in 10,001mAh is a joke by the marketing team. The battery is not. With light use, meaning calls, messages, some browsing and an hour of video, this phone can go from Sunday morning to Tuesday night. Heavy users who stream, navigate and share a hotspot can expect close to two days. For trekking on routes where charging costs money at every teahouse, or for work in places with irregular electricity, that changes what you carry.</p>
+<p>Charging at 80W is slower than the 100W of the <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a>, yet an hour or so on the plug fills it. Because you charge half as often, the slower figure rarely matters. The 27W reverse charging is strong enough to rescue a friend's phone properly, so the P4 Power doubles as a power bank.</p>
+<h2>The rest of the phone is not an afterthought</h2>
+<p>Big-battery phones used to be heavy slabs with poor screens. Here you get a 6.8-inch AMOLED with 1.5K resolution and a 144Hz refresh rate. The claimed 6,500-nit peak applies to small highlights, but general brightness outdoors is excellent as well. Gamers will like the touch response, and readers will like the sharpness.</p>
+<p>It is a quad-curved panel, meaning the glass bends slightly on all four sides. It feels expensive in the hand. It also makes tempered glass protectors harder to fit, catches reflections along the edges and registers the odd accidental touch when you hold the phone with one hand. People who prefer flat screens should try before buying.</p>
+<h2>Dimensity 7400 Ultra in use</h2>
+<p>This is an upper mid-range chip built for efficiency. Everything ordinary is smooth. PUBG Mobile, Mobile Legends and Call of Duty Mobile run comfortably at medium to high settings, and the 144Hz screen helps in titles that support high frame rates. Very heavy games need lower settings. Where this phone shines for players is staying power, since you can play for hours without hunting for a plug.</p>
+<p>If raw speed matters, the <a href="/products/poco-f7">POCO F7</a> is faster and cheaper. It also has a large battery, though not on this scale.</p>
+<h2>Cameras</h2>
+<p>The 50MP Sony IMX882 main camera with stabilisation is a well-known and reliable sensor. Daylight results are detailed, and stabilisation keeps indoor photos sharp. The 8MP ultra wide is usable in good light and soft at night. There is no telephoto, so 2x is a crop of the main sensor and higher zooms lose detail. The 16MP selfie camera is ordinary.</p>
+<p>If photography is a priority at this price, look at the <a href="/products/nothing-phone-4a">Nothing Phone 4a</a>, or the <a href="/products/vivo-v60-5g">vivo V60 5G</a>, which is built around portraits.</p>
+<h2>Durability</h2>
+<p>Ratings of IP66, IP68 and IP69 cover dust, heavy splashes, immersion in fresh water and high-pressure jets. For farmers, riders, site engineers and anyone who works outside, this is as useful as the battery. Remember that the ratings describe a new phone under test conditions, and that liquid damage is normally excluded from the warranty.</p>
+<h2>Software</h2>
+<p>Realme UI 7 on Android 16 is quick and customisable. It comes with a number of preinstalled apps, most of which can be removed. Turn off personalised recommendations during setup. Realme's update commitment for this series is moderate; confirm the number of Android versions with the seller if you plan to keep the phone for long.</p>
+<h2>Price and the obvious rival</h2>
+<p>At Rs 76,999 for 12GB and 256GB, it costs Rs 7,000 more than the base Redmi Note 17 Pro Max, which has 8GB, and about Rs 3,000 less than the 12GB version of that phone.</p>
+[[rivals:realme-p4-power]]
+<p>So compare like with like. Against the 12GB Redmi, the Realme is cheaper and has the faster screen. The Redmi has quicker charging, tougher front glass and a service network that is larger in Nepal. Against the 8GB Redmi, you pay for memory that you might not need.</p>
+<p>Others near this price take a different path. The <a href="/products/samsung-galaxy-a37-5g">Galaxy A37 5G</a> has half the battery and far longer software support. The <a href="/products/oneplus-nord-5">OnePlus Nord 5</a> and <a href="/products/oneplus-nord-ce-6">Nord CE 6</a> balance performance and endurance. The <a href="/products/motorola-edge-70-fusion">Motorola Edge 70 Fusion</a> is slimmer and lighter.</p>
+<h2>Who it is made for</h2>
+<ul>
+<li><strong>Long-distance travellers and trekkers</strong> who count charging points.</li>
+<li><strong>Delivery riders and drivers</strong> who run maps and calls all day.</li>
+<li><strong>Families in areas with power cuts</strong>, where one phone is also the hotspot.</li>
+<li><strong>Mobile gamers</strong> who value session length over maximum graphics.</li>
+</ul>
+<h2>Who should pass</h2>
+<ul>
+<li>Anyone who wants a slim, light phone.</li>
+<li>Photographers who use zoom or ultra wide often.</li>
+<li>People who dislike curved screens.</li>
+</ul>
+<h2>Tips for owners</h2>
+<p>Use the original charger for full speed. Set charge protection to stop at eighty or ninety per cent on ordinary days, because you have capacity to spare and it slows ageing. Buy a case that covers the curved edges. And keep the packing: big-battery phones sell well second-hand outside the cities, and a full box helps.</p>
+
+=== honor-x9d-review-nepal
+<h2>Specifications</h2>
+[[specs:honor-x9d]]
+<h2>What "drop resistant" should mean to you</h2>
+<p>Honor says the X9d is tested for falls from 2.5 metres and carries the top water and dust ratings. Laboratory tests use specific surfaces and angles, so treat them as evidence of strong design and not as a promise. What you can expect is that an ordinary accident, such as the phone sliding off a motorbike tank or falling from a ladder, is less likely to end with a broken screen than it would be with most phones.</p>
+<p>Two details help. The glass is reinforced and surrounded by cushioning material, and the battery and board are mounted so that shock spreads instead of concentrating at the corners. For masons, electricians, guides, traffic police, farmers and parents of small children, that is worth more than another camera.</p>
+<h2>IP66, IP68 and IP69K in monsoon terms</h2>
+<p>IP66 covers heavy jets of water, IP68 covers being under fresh water for a time, and IP69K covers hot, high-pressure spray. Riding in Asar rain with the phone on a mount, wiping off mud, or rinsing it under a tap are all within what it is built for. Avoid the sea, soap, steam and swimming pools, and dry the charging port before plugging in. Water damage is usually outside warranty terms, however the phone is rated.</p>
+<h2>Battery without the bulk</h2>
+<p>An 8,300mAh cell in a 193 gram phone that is under 8mm thick is a small engineering feat made possible by silicon-carbon chemistry. Two days between charges is realistic for moderate users. At 66W it fills reasonably fast, and it can pass charge to other devices.</p>
+<p>Compare that with the 10,000mAh phones at Rs 70,000 and above. The Honor gives you more than four-fifths of their stamina in a body that does not feel like a tool. For most people that is the better balance.</p>
+<h2>A screen for the outdoors</h2>
+<p>The 6.79-inch AMOLED has a resolution between Full HD+ and Quad HD+, a 120Hz refresh rate and a claimed peak of 6,000 nits. Outdoors it is one of the easiest screens to read at this price. Honor also uses very fast dimming at low brightness, which reduces flicker for sensitive eyes.</p>
+<h2>Everyday performance</h2>
+<p>The Snapdragon 6 Gen 4 is a balanced mid-range chip. It is quick for social apps, navigation, mobile banking and video. Games work at medium settings. Multitasking is fine on 8GB, and 12GB for Rs 5,000 more is a fair upgrade if you keep the phone for several years. Heavy gamers will find faster chips at the same money from POCO or Infinix, usually without the ruggedness.</p>
+<h2>Camera</h2>
+<p>The 108MP main camera with optical stabilisation takes detailed photos in good light, and stabilisation helps at dusk. A 3x setting crops from the high-resolution sensor, with acceptable results in daylight. The 5MP ultra wide is the cheapest part of the phone and looks it. The 16MP front camera is adequate. Nobody should buy this phone mainly for photos, but nobody will be embarrassed by them either.</p>
+<h2>MagicOS and Google</h2>
+<p>Some buyers still connect Honor with Huawei and worry about missing Google services. Honor has been a separate company since 2020, and its phones come with the Play Store, Gmail, Maps and everything else. MagicOS 9 on Android 15 is smooth and has helpful touches such as dragging content into a side panel of apps. Expect some preinstalled software that you can remove. The phone ships with Android 15 while some rivals already have 16, so ask about the upgrade schedule.</p>
+<h2>After-sales support</h2>
+<p>This is the one place where caution is needed. Honor's network in Nepal is smaller than Samsung's or Xiaomi's, and screens for a curved, reinforced model are not cheap. Ask the seller three things: where the nearest service point is, how much a replacement screen costs today, and whether a free screen replacement period is included. Honor has offered such cover on X9-series phones in some markets, and a Nepali seller should be able to say clearly whether it applies.</p>
+<h2>Alternatives around Rs 55,000</h2>
+[[rivals:honor-x9d]]
+<p>The <a href="/products/redmi-note-15-pro-5g">Redmi Note 15 Pro 5G</a> has a better camera set and wider service. The <a href="/products/samsung-galaxy-a27-5g">Galaxy A27 5G</a> has longer software support. The <a href="/products/nothing-phone-3a-lite">Nothing Phone 3a Lite</a> has cleaner software and more style. The <a href="/products/vivo-y500">vivo Y500</a> is the closest match in spirit, with a very large battery and good water protection. None of them combine drop resistance, brightness and battery quite like the Honor.</p>
+<h2>Real-life buyers</h2>
+<ul>
+<li><strong>A trekking guide</strong> who needs two days of GPS and a screen that can be read on snow.</li>
+<li><strong>A delivery rider</strong> whose phone lives on the handlebar in dust and rain.</li>
+<li><strong>A shopkeeper</strong> who drops the phone on concrete once a week.</li>
+<li><strong>A student in a hostel</strong> who forgets to charge.</li>
+</ul>
+<h2>Less suitable for</h2>
+<ul>
+<li>Serious gamers.</li>
+<li>People who take lots of wide group photos.</li>
+<li>Anyone far from a service point who needs fast repairs.</li>
+</ul>
+<h2>Our advice</h2>
+<p>Take the 8GB version if you use the phone for calls, social apps and maps. Take 12GB if you will keep it beyond three years. Use a light case anyway, as scratches still happen, and register the warranty on the day you buy. At this price the X9d has few direct rivals, and for people who work outdoors it is the first phone we would look at.</p>
+
+=== redmi-17-5g-review-nepal
+<h2>Specifications</h2>
+[[specs:redmi-17-5g]]
+<h2>Where the money went</h2>
+<p>At Rs 33,999 every phone is a set of choices. Xiaomi put its budget into the battery, the size of the screen, a modern 4nm chip and a tough front glass. It saved on resolution, memory and cameras. If you agree with those choices, this is a very satisfying cheap phone. If you care most about a crisp display or photos, it will annoy you from the first day.</p>
+<h2>The battery is the star</h2>
+<p>With 7,500mAh feeding an efficient chip and a low-resolution screen, the Redmi 17 5G can last two days without much effort. That is a lot of reassurance in a village where the power comes and goes. The 45W charging is quick for the price, and reverse charging at 22.5W is faster than some phones can charge themselves. You can top up earbuds, a feature phone or a friend's handset by cable.</p>
+<h2>About that HD+ screen</h2>
+<p>The panel measures 6.9 inches, yet it has an HD+ resolution, roughly 720 by 1600 pixels. On a screen this large, small text has slightly fuzzy edges, and you will notice it when reading Devanagari with its fine matras, or when looking at spreadsheets. Videos on Facebook and YouTube at 480p or 720p, which most people choose to save data, look fine.</p>
+<p>It is an LCD, so black areas look dark grey at night. Peak brightness of 825 nits is enough for shade and for the street if you are not in direct sun. The 120Hz refresh rate keeps movement smooth, and Gorilla Glass 7i is a better protection layer than budget phones usually have.</p>
+<h2>Memory: do not buy the cheapest one</h2>
+<p>Android 16 with HyperOS uses a large part of 4GB for itself. With that much memory, apps reload when you return to them, and the keyboard can lag while several things are happening. Virtual memory, which borrows storage, helps only a little.</p>
+<p>Here is how we would choose. The 4GB/128GB version at Rs 33,999 is for calls, WhatsApp and YouTube. The 4GB/256GB version at Rs 37,999 is for the same use with lots of photos and videos. The 6GB/256GB version at Rs 45,999 is the one that will still feel acceptable in three years, although at that price it meets strong competition, including phones with AMOLED screens.</p>
+<h2>Performance</h2>
+<p>The Snapdragon 4 Gen 5 is an entry-level 5G chip on a modern process. It is more than enough for everyday apps and runs cool. Free Fire and Ludo are no problem. PUBG Mobile works at low settings. For students, Google Classroom, Teams and PDF readers are fine.</p>
+<h2>Camera and calls</h2>
+<p>The 50MP main camera takes decent daylight photos for social media. The second lens is an auxiliary sensor that adds nothing you will see. Night photos are noisy. The 8MP selfie camera is for video calls and not for creators. Voice calls are clear, and the speaker is loud, which is what many buyers at this price actually ask about.</p>
+<h2>5G at this price</h2>
+<p>Having 5G on a cheap phone is a bet on the future. The network in Nepal is still limited, as covered in our <a href="/news/ntc-ncell-5g-rollout-nepal-2024">5G article</a>. The practical gain today is the newer modem and chip, which handle 4G efficiently. If you live outside the cities, you may go years without seeing a 5G icon.</p>
+<h2>Service and spare parts</h2>
+<p>Redmi phones are everywhere in Nepal, and that is a feature. Screens, batteries and charging boards are easy to find, repairers know the models, and official centres exist in the main cities. Use official parts during warranty, and keep the bill. The microSD slot also makes it simple to move photos when you change phones.</p>
+<h2>What else costs about the same</h2>
+[[rivals:redmi-17-5g]]
+<p>The <a href="/products/redmi-note-15-4g">Redmi Note 15 4G</a> has an AMOLED screen and a much better main camera if you can live without 5G. For many people that is the nicer phone to look at every day. The <a href="/products/honor-x7d">Honor X7d</a> is another big-battery choice. The <a href="/products/infinix-hot-70">Infinix Hot 70</a> and <a href="/products/tecno-spark-40-pro">Tecno Spark 40 Pro</a> give more memory for the money. Our guide to the <a href="/guides/best-phones-under-40000-nepal">best phones under Rs 40,000</a> compares them in one place.</p>
+<h2>Set it up well on day one</h2>
+<ul>
+<li>Remove the preinstalled games and apps you do not need.</li>
+<li>Turn off recommendations in the file manager, security and music apps.</li>
+<li>Move photos and WhatsApp media to a memory card.</li>
+<li>Set the screen to 60Hz if you want even more battery life.</li>
+<li>Install Find My Device and a screen lock, as cheap phones get stolen too.</li>
+</ul>
+<h2>Who should buy it</h2>
+<p>Students, parents, shopkeepers and drivers who want a large, loud phone with a battery that does not need attention. It is also a good choice for a household hotspot. People who read a lot on the phone, take pictures at night or play demanding games should save a little longer or choose an AMOLED model.</p>
+
+=== nothing-phone-4a-review-nepal
+<h2>Specifications</h2>
+[[specs:nothing-phone-4a]]
+<h2>The lens that decides the argument</h2>
+<p>A periscope camera bends light through a prism so that a long lens can lie sideways inside a thin phone. Until recently you had to spend well over a lakh to get one. On the Phone (4a) it gives you 3.5x optical zoom on a 50MP sensor for Rs 69,999.</p>
+<p>What does 3.5x do? It is the distance between a photo of a stage and a photo of the dancer. It makes portraits look natural, because you stand further back and faces keep their shape. It lets you pick out a temple roof strut, a sign across the road or a child on a swing. Crop it to 7x and the result is still clean in daylight. Phones that only have a main camera and an 8MP ultra wide cannot do any of that.</p>
+<p>The main camera is a solid 50MP unit. The ultra wide, at 8MP, is the weak lens. In low light, use the main camera and step closer, as the periscope gathers less light.</p>
+<h2>Design and the lights on the back</h2>
+<p>Nothing's transparent back and its Glyph lights split opinion, and that is the intention. The lights can act as a timer, show charging progress, flash for chosen contacts or serve as a soft fill light for photos. Some people switch them off after a week and others build routines around them. Either way, the phone does not look like any other at the price, which counts for something when every rival is a plain glass rectangle.</p>
+<p>At 205 grams it is on the heavy side, and the 6.78-inch screen makes it wide. Protection is IP64: dust-tight and splash-proof. That is fine for rain and less than the immersion ratings of the Honor, Redmi and Realme phones nearby.</p>
+<h2>Nothing OS, and why people like it</h2>
+<p>The software looks like a design project, with dotted fonts and monochrome icons, and behaves like clean Android. There are no duplicate app stores, no lock-screen adverts and no games installed without asking. It feels quicker than heavier systems on the same chip. Nothing has been steady with updates, although its promise is shorter than Samsung's. Features such as the Essential key and AI notes vary by region and may not all be useful here.</p>
+<h2>Performance</h2>
+<p>The Snapdragon 7s Gen 4 is a sensible mid-range chip. Apps open fast, the interface stays smooth at 120Hz and casual games are easy. It is not the choice for heavy gaming, where the <a href="/products/poco-f7">POCO F7</a> at the same price is far stronger. For photos, social media and work, you will not feel a lack.</p>
+<h2>Battery: the real weakness</h2>
+<p>Around 5,000mAh used to be large. Next to rivals with 7,000 to 10,000mAh it is small. A normal day is fine. A day of travel with maps, camera and mobile data will send you to a charger in the evening. Charging at 50W helps, with the first half taking a little over twenty minutes, but you must buy the charger. Choose a USB PD charger that supports PPS from a known brand.</p>
+<h2>Which version?</h2>
+<p>The 8GB/128GB model is the one that makes the headline price. If you shoot in high resolution and record video, 128GB fills quickly, and there is no microSD slot. The 8GB/256GB version costs Rs 10,000 more, which is a lot for storage. Before paying it, look at your current phone and see how much you use. If it is under 90GB after two years, the base model with cloud backup is enough.</p>
+<h2>Buying and service in Nepal</h2>
+<p>Nothing is a young brand with a small network. Official units come through a local distributor, and service is concentrated in Kathmandu. The distinctive back panel is not something a corner shop will have in stock. Use a case, and ask what a replacement back and screen cost. Avoid units brought in from India or Dubai without MDMS registration, however tempting the price.</p>
+<h2>Compared with phones at Rs 70,000</h2>
+[[rivals:nothing-phone-4a]]
+<p>The list shows how specialised this price band has become. The <a href="/products/redmi-note-17-pro-max-5g">Redmi Note 17 Pro Max</a> is for endurance. The <a href="/products/poco-f7">POCO F7</a> and <a href="/products/poco-x8-pro">POCO X8 Pro</a> are for speed. The <a href="/products/honor-400">Honor 400</a> is for a big main camera. The Nothing is for zoom, software and style. None of them does everything, so decide on one priority and buy the phone that has it.</p>
+<h2>Questions people ask</h2>
+<ul>
+<li><strong>Is it good for TikTok and Reels?</strong> Yes. Stabilised video from the main camera and a 32MP front camera are both good, and the zoom adds a look other phones lack.</li>
+<li><strong>Does it work with Nepali banking apps?</strong> It is a normal Google-certified Android phone, so yes.</li>
+<li><strong>Can I use any earbuds?</strong> Any Bluetooth earbuds work. Nothing's own have tighter controls.</li>
+<li><strong>Will 5G work?</strong> It supports the common bands. Coverage depends on the operator and your area.</li>
+</ul>
+<h2>Who should choose it</h2>
+<p>Students, creators and design-minded buyers who take portraits and zoomed photos, like clean software and can charge once a day. If you are hard on phones, play heavy games or travel without power, choose one of the others in the table.</p>
+
+=== lenovo-loq-15-2025-review-nepal
+<h2>Specifications</h2>
+[[specs:lenovo-loq-15-2025]]
+<h2>Why 100 watts is the important number</h2>
+<p>Two laptops can carry the same RTX 5050 sticker and differ by a quarter or more in games. The reason is power. A graphics chip limited to 50 or 60 watts in a slim body runs slower than the same chip allowed 100 watts in a body with proper cooling. Lenovo gives this LOQ the full figure, and that is why we keep recommending it over prettier machines with a lower limit. When you compare laptops in a shop, ask for the TGP, which is the graphics power in watts. If the seller does not know, look up the exact model code, here 15AHP10.</p>
+<h2>What to expect in games</h2>
+<p>With 8GB of GDDR7 memory on the RTX 5050 and DLSS 4, the LOQ is a comfortable 1080p machine. Competitive games such as Valorant, CS2 and Apex Legends can fill the 144Hz screen at high settings. Story games run at high settings with DLSS on Quality. The newest Unreal Engine 5 titles need medium settings and frame generation to look smooth. Ray tracing is possible in lighter uses and not something to plan on.</p>
+<p>The six-core Ryzen 5 220 is well matched to the graphics chip. It holds back only in games that lean hard on the processor, like large strategy titles, and in heavy rendering or compiling. If you work in Blender or compile big projects daily, an eight-core model will repay the extra cost.</p>
+<h2>A screen you can work on</h2>
+<p>Budget gaming laptops often have panels that cover barely two-thirds of the sRGB colour space, so photos look washed out and red looks orange. The LOQ covers the whole of it. For students in design, architecture or media, that means one machine can do classwork and games. Brightness is 300 nits, adequate for a room and too low for a sunny veranda. G-SYNC keeps the picture free of tearing when frame rates change.</p>
+<h2>Memory and storage: plan the first upgrades</h2>
+<p>The specification shows one 16GB stick. A single stick leaves half of the memory bandwidth unused, and that costs frames, particularly in processor-heavy games. Adding a second matching 16GB DDR5-5600 SO-DIMM is the best-value upgrade you can make, giving you 32GB and dual-channel mode together.</p>
+<p>The 512GB SSD is a short 2242 module. After Windows, Office and two large games it will be almost full. Check whether your unit has a second M.2 slot; most LOQ designs do. A 1TB Gen4 NVMe drive installed there takes half an hour and leaves the original for the system. Our <a href="/products?category=storage">storage page</a> shows prices.</p>
+<h2>Battery, noise and weight</h2>
+<p>A 60Wh battery in a gaming laptop gives a few hours of light work if you use the integrated graphics and drop the screen to 60Hz. Do not expect to game unplugged. The charger is large, and the machine weighs well over two kilograms, so it belongs on a desk more than in a backpack.</p>
+<p>Under load the fans are loud. Lenovo gives you three performance modes on a key combination: quiet for lectures, balanced for daily use and performance for games. In the Terai summer, use a stand that lifts the rear edge, and clean the vents each year. Keyboard comfort is good, with a full number pad that helps accounting students.</p>
+<h2>Ports and connection</h2>
+<p>A wired Ethernet port is a welcome sight, because it gives online gamers a steadier connection than any Wi-Fi. HDMI and USB-C connect an external monitor. The Wi-Fi 6 card is a small economy compared with newer 6E or 7 cards and makes little difference on most home routers in Nepal.</p>
+<h2>How it compares around Rs 2 lakh</h2>
+[[rivals:lenovo-loq-15-2025]]
+<p>Notice how many laptops at this price still use the older RTX 4050 with 6GB. They may have a faster processor or a larger screen, but the newer chip with 8GB will age better. Others in the table are thin work machines with no dedicated graphics at all. They are better for travel and battery life, and cannot play the same games.</p>
+<p>Going down, the <a href="/products/hp-victus-15">HP Victus 15</a> saves Rs 35,000 to 45,000 and is a good esports machine. Going up, models with an RTX 5060 give a clear step in frame rates, at Rs 2,40,000 and more. The LOQ sits where each extra rupee still buys something you can feel.</p>
+<h2>Warranty and buying tips</h2>
+<p>Lenovo has an authorised network in Nepal. Ask whether your unit carries a Lenovo warranty, which you can check online with the serial number, or only the importer's. Accidental-damage plans are sometimes available for a few thousand rupees and are worth it for a student. Test the screen for uneven light, press every key, run a game for fifteen minutes while watching for crashes, and confirm the 170W or similar original charger is in the box.</p>
+<h2>Good choice for</h2>
+<ul>
+<li>Engineering, IT and design students who also play.</li>
+<li>First-time PC gamers with about two lakh to spend.</li>
+<li>Streamers and video editors who need an NVIDIA encoder.</li>
+</ul>
+<h2>Not the best choice for</h2>
+<ul>
+<li>People who carry a laptop everywhere.</li>
+<li>Professionals who render for hours.</li>
+<li>Anyone who wants a bright screen for outdoor use.</li>
+</ul>
+
+=== sony-wf-1000xm6-review-nepal
+<h2>Specifications</h2>
+[[specs:sony-wf-1000xm6]]
+<h2>Who pays Rs 64,999 for earbuds?</h2>
+<p>At this price you could buy a decent phone, so it is fair to start with the reason anyone would. The people who get value from the XM6 share a pattern: they wear earbuds for three or more hours a day, in noisy places, and they care about either silence or sound quality. A consultant who flies weekly, a student who lives beside Ring Road and needs to study, a developer in an open office, a musician who travels. For them the cost spreads over a thousand hours of use a year. For someone who listens for twenty minutes at the gym, it is a poor purchase.</p>
+<h2>Noise cancelling: what is possible</h2>
+<p>Sony's approach is to use several microphones on each bud with a dedicated processor, and to adapt to the noise around you and the seal in your ear. It is at its best with constant low sound: bus and aircraft engines, air conditioners, generators, fans. It reduces chatter noticeably. It softens horns and barking, and cannot remove them, since they are too sudden.</p>
+<p>The seal decides how good it gets. Try every tip in the box, use the fit test in the app, and repeat it after a week as the foam settles. If one ear feels less isolated, try a different size on that side. Many people have ears that do not match.</p>
+<p>Please do not use noise cancelling while riding, driving or crossing roads.</p>
+<h2>Sound</h2>
+<p>The XM line is tuned for a full, easy sound with deep bass and clear vocals. The app's equaliser can make it neutral in a minute. On Android you can use LDAC for higher-bitrate streaming, or LC3, the newer efficient codec, on phones that support Bluetooth LE Audio. On an iPhone you get AAC. The difference between LDAC and AAC is real but modest, and you need well-mastered music from a high-quality service to hear it. Free-tier streams will not reveal it.</p>
+<h2>Size and comfort</h2>
+<p>Each bud weighs 6.2 grams, a little more than the XM5's 5.9 grams, and the body is larger than an AirPod's. People with small ears should try them first. Foam tips are comfortable for long sessions, though they get dirty and need replacing every few months. Spare tips in Sony's sizes can be hard to find locally, so it is wise to buy a set when you see one.</p>
+<h2>Calls and multipoint</h2>
+<p>For people who spend their day in meetings, call quality may matter more than music. The microphones and voice pickup do a good job indoors and in moderate noise. Multipoint keeps a phone and a laptop connected together, so a call on one interrupts a video on the other without re-pairing. It is reliable once set up, though switching on LDAC may limit it depending on the phone.</p>
+<h2>Battery</h2>
+<p>Up to 24 hours in total with the case is enough for a working week of commuting. A short charge gives an hour or so of listening, and the case supports wireless charging. As with all earbuds, the cells inside are tiny and will lose capacity in two to three years of daily use. Treat that as part of the price.</p>
+<h2>Water resistance</h2>
+<p>IPX4 covers sweat and splashes. It is enough for walking in drizzle and light exercise. For running in the monsoon or hard gym sessions, choose a sports model with IP55 or better and hooks that hold it in place.</p>
+<h2>XM6, XM5 or something else?</h2>
+<p>The <a href="/products/sony-wf-1000xm5">WF-1000XM5</a> is about Rs 15,000 cheaper and remains excellent. The newer model improves noise cancelling, call pickup and the connection. If you already own the XM5, keep it until the battery fades. If you are buying your first pair of premium Sony earbuds, the XM6 will stay current for longer, but the older pair is better value whenever the gap is large.</p>
+<p>For iPhone owners the <a href="/products/airpods-pro-3">AirPods Pro 3</a> at Rs 47,999 are the sensible alternative. They pair instantly with every Apple device, offer personalised spatial audio and cost Rs 17,000 less. On Android they lose most of those benefits.</p>
+<p>If you want quiet without the luxury price, the <a href="/products/soundcore-liberty-5-pro">Soundcore Liberty 5 Pro</a> and similar models give you strong noise cancelling and a good app. Our <a href="/guides/best-earbuds-under-20000-nepal">guide to earbuds under Rs 20,000</a> goes lower still. And if comfort and battery matter more than pocket size, full-size headphones such as Sony's WH series cancel more noise for similar money.</p>
+<h2>Settings to change on the first day</h2>
+<ul>
+<li>Run the ear-tip fit test.</li>
+<li>Turn off the feature that pauses music when you talk, unless you like it.</li>
+<li>Limit maximum volume. Noise cancelling means you can listen more quietly, which protects your hearing.</li>
+<li>Set one long press to the ambient mode for shop counters and announcements.</li>
+<li>Update the firmware before judging the sound.</li>
+</ul>
+<h2>Buying genuine ones</h2>
+<p>Counterfeit Sony earbuds are common and increasingly convincing. Buy from a seller who issues a VAT bill and an official warranty. Pair them with Sony's app in the shop: a genuine set is recognised, shows its serial and firmware and completes the fit test. Check that the serial number on the case matches the box. If the price is far below Rs 64,999, be suspicious.</p>
+<h2>Care</h2>
+<p>Wipe the tips and charging contacts weekly, dry them after sweat, and keep the case away from keys and coins. Do not leave them in a car in summer, since heat is the fastest way to age the batteries. With that small amount of care, they should give you several good years.</p>

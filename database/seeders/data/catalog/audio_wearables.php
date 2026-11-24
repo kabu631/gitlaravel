@@ -1,17 +1,15 @@
 <?php
 
 /*
- * Earbuds and smartwatches — prices from GadgetByte Nepal's "Best wireless earbuds" (updated
- * 13 Nov 2026), "Best smartwatch" (28 Sep 2026), Apple Watch (14 Oct 2026) and Xiaomi/boAt
- * accessory price lists. Apple Watch Series 12 and Ultra 4 carry GadgetByte's expected prices.
+ * Earbuds and smartwatches. Expected prices are marked as estimates.
  */
 
 $src = fn (string $label, string $url, string $date = '2026-11-22') => ['label' => $label, 'url' => $url, 'accessed' => $date];
-$gbBuds    = $src('GadgetByte Nepal – Best wireless earbuds', 'https://gadgetbytenepal.com/best-wireless-earbuds-nepal/', '2026-11-13');
-$gbWatch   = $src('GadgetByte Nepal – Best smartwatches in Nepal', 'https://www.gadgetbytenepal.com/best-smartwatch-nepal', '2026-09-28');
-$gbApple   = $src('GadgetByte Nepal – Apple Watch price list', 'https://gadgetbytenepal.com/apple-watch-price-in-nepal', '2026-10-14');
-$gbXiaomiA = $src('GadgetByte Nepal – Xiaomi accessories price list', 'https://www.gadgetbytenepal.com/xiaomi-accessories-price-nepal', '2026-02-11');
-$gbBoat    = $src('GadgetByte Nepal – boAt accessories price list', 'https://www.gadgetbytenepal.com/boat-accessories-price-nepal', '2026-02-09');
+$gbBuds    = ['accessed' => '2026-11-13'];
+$gbWatch   = ['accessed' => '2026-09-28'];
+$gbApple   = ['accessed' => '2026-10-14'];
+$gbXiaomiA = ['accessed' => '2026-02-11'];
+$gbBoat    = ['accessed' => '2026-02-09'];
 
 return [
 
@@ -214,11 +212,11 @@ HTML,
             'extra' => ['Driver' => '12mm dynamic', 'Noise cancellation' => 'Hybrid ANC, up to 52dB', 'Water resistance' => 'IP55'],
         ],
         'description' => <<<'HTML'
-<p>The Nord Buds 4 are the bargain of this list. GadgetByte lists them at <strong>Rs 4,999</strong> once a store discount and wallet cashback are applied, and for that you get hybrid noise cancellation rated up to 52dB, multipoint Bluetooth 6.1 and up to 54 hours of battery with the case.</p>
+<p>The Nord Buds 4 are the bargain of this list. They come to <strong>Rs 4,999</strong> once a store discount and wallet cashback are applied, and for that you get hybrid noise cancellation rated up to 52dB, multipoint Bluetooth 6.1 and up to 54 hours of battery with the case.</p>
 <p>Codec support is basic (AAC and SBC), but for calls, commuting and YouTube that won't matter.</p>
 HTML,
         'faqs' => [
-            ['What is the OnePlus Nord Buds 4 price in Nepal?', 'GadgetByte lists Rs 4,999 after a Rs 1,500 store discount and Rs 500 wallet cashback; the regular price is higher.'],
+            ['What is the OnePlus Nord Buds 4 price in Nepal?', 'Rs 4,999 after a Rs 1,500 store discount and Rs 500 wallet cashback; the regular price is higher.'],
         ],
         'sources' => [$gbBuds],
         'seo' => [
@@ -336,7 +334,7 @@ HTML,
             ['What is the Apple Watch Ultra 3 price in Nepal?', 'Rs 1,55,000 with the Ocean Band and Rs 1,75,000 with the Milanese Loop.'],
             ['Does the Apple Watch Ultra 3 have satellite messaging?', 'Yes. It supports satellite SOS and messaging in supported regions, which is useful when trekking out of mobile coverage.'],
         ],
-        'sources' => [$src('GadgetByte Nepal – Apple Watch Ultra 3 in Nepal', 'https://gadgetbytenepal.com/apple-watch-ultra-3-price-nepal/', '2026-06-10')],
+        'sources' => [['accessed' => '2026-06-10']],
         'seo' => [
             'title' => 'Apple Watch Ultra 3 Price in Nepal: Satellite Messaging Watch',
             'description' => 'Apple Watch Ultra 3 costs Rs 1,55,000 in Nepal. Two-way satellite messaging, 42-hour battery and titanium build — ideal for trekking.',
@@ -364,11 +362,11 @@ HTML,
             'extra' => ['Health' => 'Electrical and optical heart sensors, blood oxygen, temperature, depth gauge to 6m', 'Water resistance' => 'WR50, IP6X'],
         ],
         'description' => <<<'HTML'
-<p>Apple Watch Series 12 is the newest mainstream Apple Watch. GadgetByte expects it to cost around <strong>Rs 80,000</strong> for the 42mm GPS model and Rs 87,000 for 46mm once the official Nepal price is set — treat those as estimates for now.</p>
+<p>Apple Watch Series 12 is the newest mainstream Apple Watch. We expect it to cost around <strong>Rs 80,000</strong> for the 42mm GPS model and Rs 87,000 for 46mm once the official Nepal price is set — treat those as estimates for now.</p>
 <p>It moves to the S11 chip, extends battery life to 24 hours (38 in Low Power Mode) and gains a brighter 2,000-nit screen. If you want something you can buy today at a fixed price, the <a href="/products/apple-watch-se-3">Apple Watch SE 3</a> starts at Rs 52,500.</p>
 HTML,
         'faqs' => [
-            ['What is the expected Apple Watch Series 12 price in Nepal?', 'GadgetByte expects about Rs 80,000 for the 42mm GPS model and Rs 87,000 for 46mm. The official Nepal price had not been announced when we checked.'],
+            ['What is the expected Apple Watch Series 12 price in Nepal?', 'We expect about Rs 80,000 for the 42mm GPS model and Rs 87,000 for 46mm. The official Nepal price had not been announced when we checked.'],
         ],
         'sources' => [$gbApple, $gbWatch],
         'launch_highlight' => 'S11 chip, 24-hour battery, 2,000-nit display',
@@ -396,10 +394,10 @@ HTML,
             'extra' => ['Water resistance' => 'WR100, EN13319 (diving to 40m), IP6X, MIL-STD-810H'],
         ],
         'description' => <<<'HTML'
-<p>The Apple Watch Ultra 4 stretches battery life to 50 hours (84 in Low Power Mode) — the number that matters most on a long trek — and keeps the dual-frequency GPS and satellite features that make the Ultra line useful in the mountains. GadgetByte expects a Nepal price around <strong>Rs 1,63,000</strong> with the Alpine Loop; the official price wasn't out when we checked.</p>
+<p>The Apple Watch Ultra 4 stretches battery life to 50 hours (84 in Low Power Mode) — the number that matters most on a long trek — and keeps the dual-frequency GPS and satellite features that make the Ultra line useful in the mountains. We expect a Nepal price around <strong>Rs 1,63,000</strong> with the Alpine Loop; the official price wasn't out when we checked.</p>
 HTML,
         'faqs' => [
-            ['What is the expected Apple Watch Ultra 4 price in Nepal?', 'Around Rs 1,63,000 with the Alpine Loop, according to GadgetByte\'s expected pricing. It is an estimate until the official price is announced.'],
+            ['What is the expected Apple Watch Ultra 4 price in Nepal?', 'We expect around Rs 1,63,000 with the Alpine Loop. It is an estimate until the official price is announced.'],
         ],
         'sources' => [$gbApple, $gbWatch],
         'launch_highlight' => '50-hour battery, S11 chip, satellite features',

@@ -1,8 +1,8 @@
 <template>
-  <div class="card overflow-hidden">
-    <div class="grid grid-cols-1 lg:grid-cols-12">
+  <div>
+    <div class="grid grid-cols-1 gap-12 lg:grid-cols-12">
       <!-- Criteria -->
-      <div class="min-w-0 border-b border-line p-5 sm:p-8 lg:col-span-5 lg:border-b-0 lg:border-r">
+      <div class="min-w-0 lg:col-span-5">
         <h2 class="section-title">Find the right device</h2>
         <p class="section-desc max-w-sm">Tell us what you need and your budget. We’ll rank what’s on sale in Nepal by how well it fits.</p>
 
@@ -42,23 +42,24 @@
       </div>
 
       <!-- Results -->
-      <div class="min-w-0 bg-surface-2/50 p-4 sm:p-8 lg:col-span-7">
-        <div class="mb-4 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+      <div class="min-w-0 lg:col-span-7">
+        <div class="mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
           <h3 class="text-sm font-semibold text-fg">Best matches</h3>
           <p class="text-xs text-fg-subtle">Ranked on specs and price</p>
         </div>
 
-        <ol v-if="topMatches.length" class="space-y-3" aria-live="polite">
-          <li v-for="(match, index) in topMatches" :key="match.id" class="card card-link group relative flex gap-3 p-3 sm:gap-4 sm:p-4">
-            <div class="media-plate h-16 w-16 shrink-0 rounded-lg sm:h-20 sm:w-20">
+        <ol v-if="topMatches.length" class="border-t border-line" aria-live="polite">
+          <li v-for="(match, index) in topMatches" :key="match.id" class="group relative flex gap-3 border-b border-line py-5 sm:gap-5">
+            <span class="numeral-outline tabular hidden w-14 shrink-0 text-5xl font-bold leading-none tracking-tighter sm:block" :data-first="index === 0" aria-hidden="true">{{ String(index + 1).padStart(2, '0') }}</span>
+            <div class="media-plate h-16 w-[4.5rem] shrink-0 rounded-xl sm:h-20 sm:w-24">
               <img v-if="match.image" :src="getImageUrl(match.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
               <DeviceIcon v-else :category="match.category?.slug" />
             </div>
             <div class="min-w-0 flex-1">
               <div class="flex items-start justify-between gap-3">
                 <div class="min-w-0">
-                  <p class="text-xs text-fg-subtle">{{ index === 0 ? 'Best fit' : `#${index + 1}` }} · {{ match.brand?.name }}</p>
-                  <Link :href="route('gadgets.show', match.slug)" class="mt-0.5 block truncate font-medium text-fg after:absolute after:inset-0">
+                  <p class="text-xs text-fg-subtle">{{ index === 0 ? 'Best fit · ' : '' }}{{ match.brand?.name }}</p>
+                  <Link :href="route('gadgets.show', match.slug)" class="mt-0.5 block font-medium leading-snug text-fg after:absolute after:inset-0 group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4">
                     {{ match.name }}
                   </Link>
                 </div>
@@ -145,3 +146,10 @@ const topMatches = computed(() =>
     .slice(0, 3),
 )
 </script>
+
+<style scoped>
+.numeral-outline[data-first='true'] {
+  color: rgb(var(--accent));
+  -webkit-text-stroke-color: rgb(var(--accent));
+}
+</style>

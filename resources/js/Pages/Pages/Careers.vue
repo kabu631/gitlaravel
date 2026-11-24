@@ -37,7 +37,7 @@
         </li>
       </ul>
 
-      <div v-else class="mt-6 rounded-xl border border-dashed border-line-strong px-6 py-14 text-center">
+      <div v-else class="mt-6 border-y border-line py-8">
         <p class="font-semibold text-fg">No open roles right now</p>
         <p class="mt-1 text-sm text-fg-subtle">
           You’re welcome to send your CV to

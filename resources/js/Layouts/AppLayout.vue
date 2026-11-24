@@ -278,7 +278,7 @@
                 <li v-if="contact.footer_address" class="leading-6">{{ contact.footer_address }}</li>
                 <li v-if="contact.footer_hours" class="text-fg-subtle">{{ contact.footer_hours }}</li>
               </ul>
-              <div v-if="socials.length" class="mt-5 flex flex-wrap gap-1">
+              <div v-if="socials.length" class="-ml-2 mt-5 flex flex-wrap gap-0.5">
                 <a
                   v-for="s in socials"
                   :key="s.key"
@@ -298,7 +298,7 @@
 
         <p class="max-w-3xl py-6 text-xs leading-5 text-fg-subtle">
           <span class="font-medium text-fg-muted">Editorial policy.</span>
-          Git Infosys does not sell devices on this website. Links to buy take you to retailers and distributors in Nepal.
+          Git Infosys does not sell devices on this website. Links to buy take you to shops in Nepal, including our business partner ONIN Infosys.
         </p>
 
         <div class="flex flex-col gap-3 border-t border-line py-6 text-xs text-fg-subtle sm:flex-row sm:items-center sm:justify-between">

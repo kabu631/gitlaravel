@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Support\PriceDrops;
 use App\Support\Seo;
 use App\Models\BlogPost;
 use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Gadget;
 use App\Models\NewsArticle;
-use App\Models\PriceHistory;
 use App\Models\Review;
 use App\Models\Slider;
 use App\Models\UpcomingLaunch;
@@ -21,40 +21,6 @@ class HomeController extends Controller
     public function index()
     {
         $trending = Gadget::forCard()->where('is_trending', true)->latest()->take(8)->get();
-
-        // Calculate 7-day price change for price tracker
-        $trendingIds     = $trending->pluck('id');
-        $priceHistoryMap = PriceHistory::whereIn('gadget_id', $trendingIds)
-            ->orderBy('date', 'desc')
-            ->get()
-            ->groupBy('gadget_id');
-
-        $priceTracker = $trending->map(function ($g) use ($priceHistoryMap) {
-            $history = $priceHistoryMap->get($g->id, collect())->sortByDesc('date');
-            $cutoff  = now()->subDays(7);
-            $latest  = $history->first();
-            // Fallback to the oldest available history if no 7-day data exists
-            $old     = $history->first(fn($h) => $h->date->lte($cutoff)) ?? $history->last();
-
-            $priceChange     = ($latest && $old) ? round((float) $latest->price - (float) $old->price) : 0;
-            $oldPrice        = (float) ($g->old_price ?? 0);
-            $currentPrice    = (float) $g->price;
-            $discountPercent = ($oldPrice > $currentPrice) ? round((($oldPrice - $currentPrice) / $oldPrice) * 100) : 0;
-
-            return [
-                'id'               => $g->id,
-                'name'             => $g->name,
-                'slug'             => $g->slug,
-                'image'            => $g->image,
-                'price'            => $currentPrice,
-                'old_price'        => $oldPrice,
-                'discount_percent' => $discountPercent,
-                'brand'            => $g->brand?->name,
-                'category'         => $g->category?->slug,
-                'price_change'     => $priceChange,
-                'is_hot_change'    => $discountPercent >= 15 || $priceChange <= -2000,
-            ];
-        })->values()->toArray();
 
         // Upcoming Nepal Gadget Launch Roadmap — loaded from admin (UpcomingLaunches resource)
         $upcomingLaunches = UpcomingLaunch::active()
@@ -100,7 +66,7 @@ class HomeController extends Controller
             'reviews'          => Review::with(['gadget:id,name,slug,image,brand_id', 'gadget.brand:id,name'])->where('is_published', true)->latest()->take(6)
                 ->get(['id', 'gadget_id', 'title', 'slug', 'rating', 'verdict', 'created_at']),
             'brands'           => Brand::withCount('gadgets')->orderByDesc('gadgets_count')->take(15)->get(['id', 'name', 'slug', 'gadgets_count']),
-            'priceTracker'     => $priceTracker,
+            'priceTracker'     => PriceDrops::top(6),
             'upcomingLaunches' => $upcomingLaunches,
             // Optional: left out of the first response, requested by <WhenVisible> on scroll.
             'matchmakerPool'   => Inertia::optional(fn () => $this->matchmakerPool()),

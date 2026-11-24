@@ -189,6 +189,16 @@
     @apply border-fg bg-fg text-canvas hover:border-fg hover:text-canvas;
   }
 
+  /* Underlined tabs: put them in a row with a hairline below (border-b border-line, tabs pulled down 1px). */
+  .tab {
+    @apply inline-flex shrink-0 items-center gap-1.5 border-b-2 border-transparent pb-3 text-sm font-medium text-fg-subtle
+           transition-colors hover:text-fg;
+  }
+  .tab[aria-current='page'],
+  .tab[aria-pressed='true'] {
+    @apply border-fg text-fg;
+  }
+
   /* Badges */
   .badge          { @apply inline-flex items-center gap-1 whitespace-nowrap rounded-md px-1.5 py-0.5 text-2xs font-medium leading-4; }
   .badge-neutral  { @apply bg-surface-2 text-fg-muted; }

@@ -73,13 +73,13 @@
 
 <script setup>
 import { computed } from 'vue'
-import { Link, usePage } from '@inertiajs/vue3'
+import { Link } from '@inertiajs/vue3'
 import { ArrowLeft } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import ShareLinks from '@/Components/ShareLinks.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
-import { formatDate } from '@/Composables/useFormat.js'
+import { byline, formatDate } from '@/Composables/useFormat.js'
 
 const props = defineProps({
   post: { type: Object, required: true },
@@ -87,5 +87,5 @@ const props = defineProps({
   recent: { type: Array, default: () => [] },
 })
 
-const author = computed(() => props.post.author_name || usePage().props.siteName || 'Git Infosys')
+const author = computed(() => byline(props.post.author_name))
 </script>

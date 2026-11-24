@@ -404,7 +404,7 @@ HTML,
 <h2>1. Search the way you'd ask a friend</h2>
 <p>Press <strong>Ctrl K</strong> (or tap the search bar) and type what you want, for example "gaming laptop under 2 lakh", "4k monitor" or "iphone 17 pro". Search understands budgets in lakh and k, specs like "32gb" or "oled", and copes with typos.</p>
 <h2>2. Check the price history on the product page</h2>
-<p>Every product page has a <strong>Price history</strong> section showing the dated prices we've recorded and where each came from. If today's price is well above what it was recently, it may be worth waiting.</p>
+<p>Every product page has a <strong>Price history</strong> section showing the dated prices we've recorded. If today's price is well above what it was recently, it may be worth waiting.</p>
 <h2>3. Pick the right configuration</h2>
 <p>Many devices come in several versions, with more storage or a different graphics card. Choose one on the product page and the price updates, so you can see exactly what the extra storage costs.</p>
 <h2>4. Watch recent changes</h2>

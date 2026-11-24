@@ -1,0 +1,953 @@
+=== anker-earbuds-price-in-nepal
+<h2>Soundcore earbuds compared</h2>
+[[models:anker-soundcore-p20i,soundcore-p30i,anker-soundcore-r60i-nc,soundcore-p41i,anker-soundcore-liberty-4-nc,soundcore-liberty-5,soundcore-liberty-5-pro-max]]
+<h2>Anker, Soundcore: the same thing</h2>
+<p>Anker makes chargers, and Soundcore is its audio brand. Both names appear on boxes and in shops. What sets Soundcore apart from other affordable brands is the software. The app gives a proper equaliser, control settings, firmware updates and, on better models, a hearing test that shapes the sound to your ears. A Rs 3,000 pair with a good app can sound better than a Rs 5,000 pair without one.</p>
+<h2>The letters</h2>
+<p><strong>P</strong> is the bass-focused budget line. <strong>R</strong> is value with features. <strong>C</strong> clips to the ear and leaves it open. <strong>Liberty</strong> is premium. <strong>NC</strong> in the name means noise cancelling. <strong>i</strong> is simply part of the name. So R50i and R50i NC are different products at the same price, and the second is the better buy.</p>
+<h2>Under Rs 5,500</h2>
+<p>The <a href="/products/anker-soundcore-p20i">P20i</a> at Rs 2,999 is the starter: no ANC, strong bass, ten hours per charge. The <a href="/products/soundcore-p30i">P30i</a> at Rs 4,999 has ANC and a case that turns into a phone stand. The R50i NC has ANC with a smaller body. The <a href="/products/anker-soundcore-r60i-nc">R60i NC</a> at Rs 5,499 adds LDAC. If you can reach Rs 5,499, that is the one. It offers nearly everything that a Rs 9,000 pair did a year ago.</p>
+<h2>Rs 7,800 to 8,500</h2>
+<p>The C50i is an open clip-on for people who dislike things in the ear canal and want to hear traffic. Bass is light and sound leaks a little. The <a href="/products/soundcore-p41i">P41i</a> has an enormous case that doubles as a power bank, with a listed 192 hours. It is bulky, and for travellers it removes one gadget from the bag.</p>
+<h2>Liberty: Rs 13,000 to 17,500</h2>
+<p>The <a href="/products/anker-soundcore-liberty-4-nc">Liberty 4 NC</a> is a former favourite at a falling price. The Liberty Buds are semi-open for comfort. The Liberty 4 Pro has better drivers and a case with a small display. The <a href="/products/soundcore-liberty-5">Liberty 5</a> is the newest all-rounder and our choice in the class. If the 4 NC is offered near Rs 10,000, it is the bargain.</p>
+<h2>Liberty 5 Pro and Pro Max</h2>
+<p>At Rs 35,000 to 40,000 these meet Samsung and Apple. They are good, and at that price the AirPods Pro 3 or Galaxy Buds 4 Pro give owners of those phones more. Choose Soundcore's best only if you switch between phone brands and want LDAC with strong ANC.</p>
+<h2>How to tune them</h2>
+<ol>
+<li>Update the firmware.</li>
+<li>Run the HearID test in a quiet room, if your model has it.</li>
+<li>Start from the Soundcore Signature preset and reduce the lowest band by two steps.</li>
+<li>Raise 2 to 4kHz slightly for speech.</li>
+<li>Set touch controls: single tap off, to avoid accidents.</li>
+</ol>
+<h2>Noise cancelling modes</h2>
+<p>Adaptive mode changes with the surroundings. Manual lets you choose strength. On the street use transparency. In a bus use full. If you feel pressure, lower it by a step.</p>
+<h2>Calls</h2>
+<p>Good indoors, fair outside. The stemmed Liberty and P30i are clearer than round buds. Wind is hard for all. For all-day calling, a headset is better.</p>
+<h2>LDAC on a budget</h2>
+<p>LDAC improves sound on Android with good sources at the cost of battery. Turn it on in the app, not only in the phone. When LDAC is on, some models cannot use multipoint at the same time. Decide which you need.</p>
+<h2>Battery</h2>
+<p>Soundcore's claims are fairly honest: 8 to 12 hours without ANC, 6 to 8 with. Ten minutes of charging gives a couple of hours. Cases on higher models charge wirelessly.</p>
+<h2>iPhone or Android</h2>
+<p>They work well with both. iPhones use AAC. Find features depend on the model, and some newer ones appear in Google's Find Hub network. Automatic switching like AirPods is not available, but multipoint does a similar job between two devices.</p>
+<h2>Fit and comfort</h2>
+<p>The boxes include three to five tips. Liberty models have soft wings on some versions. If one ear is smaller, use two sizes. For sport, the P and R lines with light bodies stay in well. For open ears, look at the C series.</p>
+<h2>Water resistance</h2>
+<p>Between IPX4 and IP55 depending on model. Enough for sweat and drizzle. The case is not protected.</p>
+<h2>Copies</h2>
+<p>Soundcore is copied less than JBL and Apple, but it happens. A real pair appears in the Soundcore app at once, has a serial number and an importer's sticker. Prices far below our list deserve suspicion.</p>
+<h2>Warranty in Nepal</h2>
+<p>Anker's distributor gives warranty on official units, commonly 18 months abroad and 6 to 12 months here, depending on the seller. Ask, and keep the bill. A single lost bud is rarely available. Some shops sell only complete sets.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>First pair:</strong> P20i.</li>
+<li><strong>Best value:</strong> R60i NC.</li>
+<li><strong>Traveller:</strong> P41i.</li>
+<li><strong>Open ear:</strong> C50i.</li>
+<li><strong>Best Soundcore for most budgets:</strong> Liberty 5, or Liberty 4 NC on sale.</li>
+</ul>
+<h2>Against rivals</h2>
+<p><strong>OnePlus Nord Buds 4</strong> has stronger ANC than the P30i at the same price. <strong>CMF Buds 2 Plus</strong> at Rs 8,999 beats everything Soundcore sells between Rs 6,000 and 12,000. <strong>Redmi Buds 8 Pro</strong> at Rs 14,999 is the Liberty 5's closest rival. Soundcore's app remains the best among them.</p>
+<h2>When to buy</h2>
+<p>Soundcore discounts often. Online brand days take 15 to 25 per cent off. The Liberty line drops when a successor is announced.</p>
+<h2>Verdict</h2>
+<p>Buy the R60i NC if you want to spend a little, and the Liberty 5 if you want to spend once. Skip the models in between unless one of their special features is precisely what you need. For the whole market, see <a href="/guides/best-earbuds-under-5000-nepal">earbuds under Rs 5,000</a> and <a href="/guides/best-earbuds-under-20000-nepal">under Rs 20,000</a>.</p>
+
+=== anker-headphones-price-in-nepal
+<h2>Soundcore headphones</h2>
+[[models:soundcore-q11i,soundcore-q20i,soundcore-space-one,soundcore-space-q45,soundcore-space-2,soundcore-space-one-pro]]
+<h2>Six headphones, three purposes</h2>
+<p>Soundcore's over-ear range divides neatly. The <strong>Q</strong> models are cheap and cheerful. The <strong>Space One</strong> family is the modern middle. The <strong>Space Q45</strong> and <strong>Space 2</strong> are for people who need quiet all day. All share the same excellent app, long batteries and multipoint, so you are choosing noise cancelling, comfort and finish.</p>
+<h2>Q11i: Rs 4,999</h2>
+<p>No noise cancelling, sixty hours of battery, soft pads. For music at home and online lessons it is the best under Rs 5,000. Because there is no ANC circuit to pay for, the money goes into sound and battery.</p>
+<h2>Q20i: Rs 9,199</h2>
+<p>The cheapest headphones in Nepal whose noise cancelling we would call real. Fans, engines and air conditioners fade by a clear amount. The body is plastic and a bit large. LDAC is not supported. A 3.5mm cable lets you use them when the battery is flat.</p>
+<h2>Space One: Rs 12,999</h2>
+<p>Here is the sweet spot. Better adaptive ANC that works on some voices, LDAC, 40 hours with ANC, a lighter body and a softer headband. It folds for travel. Against the CMF Headphone Pro at Rs 13,999 it is a close fight: CMF has physical controls and replaceable pads, Soundcore has the more detailed app. Try both for comfort.</p>
+<h2>Space Q45: Rs 19,999</h2>
+<p>A little older and still strong, with fifty hours with ANC on and a comfortable fit for long flights. At its list price the Space One makes it hard to justify. At Rs 15,000 to 16,000 on sale it is excellent.</p>
+<h2>Space 2: Rs 24,499</h2>
+<p>The newest. It aims at all-day wear: light, gentle clamp, strong cancelling in the low frequencies that make bus and plane journeys tiring. If you wear headphones for six or more hours a day, comfort is worth the price.</p>
+<h2>Space One Pro: Rs 25,499</h2>
+<p>A clever design that folds very small, with premium materials. Sound is refined. Its ANC is close to that of the Space 2. Choose it for travel and looks.</p>
+<h2>How noise cancelling really differs</h2>
+<p>All reduce low hum. Moving up the range, three things improve: how much of the voice range is reduced, how well the cancelling adapts when you move your head or wear glasses, and how natural transparency sounds. If your noise is a road or generator, the Q20i does most of the work. If it is people talking, spend more, and know that nothing under Rs 60,000 erases voices.</p>
+<h2>Comfort notes</h2>
+<p>Glasses break the seal of the pads. Thin frames suffer less. Test with yours. In summer, pads become warm. Take a break every hour. Pads on most models can be replaced with third-party ones for under Rs 1,500, and fresh pads restore both comfort and ANC.</p>
+<h2>Sound and equaliser</h2>
+<p>Default tuning is bass-heavy. In the app, the Acoustic or Podcast presets are good starting points. HearID on Space models makes a personal curve. Save two: one for music, one for voices.</p>
+<h2>Working with a laptop</h2>
+<p>Multipoint connects laptop and phone. On Windows, choose the headphones as the output and the laptop's microphone as the input, or call quality and music quality both fall. With LDAC turned on, multipoint may be limited. Update the Bluetooth driver from the laptop maker's site.</p>
+<h2>Calls</h2>
+<p>Voices come through clearly indoors. In wind they are poor. If your income depends on calls, buy a headset with a boom microphone for Rs 5,000 and keep these for music.</p>
+<h2>Battery facts</h2>
+<p>Figures are close to the truth at moderate volume. With LDAC and ANC, subtract a third. Five minutes of charging gives two to four hours. Charge once a week and forget.</p>
+<h2>Wired use</h2>
+<p>Most have a 3.5mm input, and the cable may be included. Wired mode without power works on some and sounds thinner. For editing and instruments, choose proper wired headphones.</p>
+<h2>Gaming</h2>
+<p>A game mode reduces delay for casual play. For shooters use a wired or 2.4GHz headset. With a PlayStation, connect by cable to the controller.</p>
+<h2>Durability</h2>
+<p>Plastic hinges are the weak point of the Q models. Open them with two hands. Use a case. The Space models have metal sliders. Expect three to five years.</p>
+<h2>Warranty and where to buy</h2>
+<p>Buy from a seller who shows Anker's distributor sticker. Warranty is usually one year or a little more. Check that the app recognises the headphones before leaving. Online brand stores run deep discounts, especially on Q45 and Q20i.</p>
+<h2>Which one for which person</h2>
+<ul>
+<li><strong>Student in a quiet room:</strong> Q11i.</li>
+<li><strong>Student near a road:</strong> Q20i.</li>
+<li><strong>Office worker:</strong> Space One.</li>
+<li><strong>Remote worker wearing them all day:</strong> Space 2.</li>
+<li><strong>Frequent flyer with a small bag:</strong> Space One Pro.</li>
+<li><strong>Bargain hunter:</strong> Q45 on sale.</li>
+</ul>
+<h2>Compared with other brands</h2>
+<p><strong>JBL:</strong> more energetic, higher prices for ANC. <strong>Sony:</strong> the CH720N at Rs 27,000 is lighter, and the Space 2 cancels more. The XM5 and XM6 are in another class and price. <strong>CMF:</strong> Space One's equal. <strong>boAt:</strong> cheaper without ANC.</p>
+<h2>A note on volume</h2>
+<p>The greatest benefit of noise cancelling is that you can listen quietly. Set the limit in the app or phone to 85 decibels. If the person beside you can name the song, turn it down.</p>
+<h2>Frequently asked</h2>
+<p><strong>Do they work with a TV?</strong> Yes, if it has Bluetooth. A slight delay can be adjusted on many TVs.</p>
+<p><strong>Can I sleep in them?</strong> Not comfortably. Use a headband or small buds.</p>
+<p><strong>Are they good for children?</strong> Only with a volume limit. Better to buy children's headphones.</p>
+<h2>Verdict</h2>
+<p>The Space One is the Soundcore to buy. Go down to the Q20i if money is short, up to the Space 2 if your ears live in them. And compare prices on the day, since the Q45 sometimes drops below the Space One and then becomes the answer. Others at these prices are in <a href="/guides/best-headphones-under-30000-nepal">headphones under Rs 30,000</a>.</p>
+
+=== huawei-earbuds-price-in-nepal
+<h2>The five models</h2>
+[[models:huawei-freebuds-se-4-anc,huawei-freearc,huawei-freebuds-7i,huawei-freeclips,huawei-freeclips-2]]
+<h2>Two ideas of what an earbud is</h2>
+<p>Huawei sells ordinary in-ear buds and, more interestingly, buds that do not enter the ear at all. The FreeClip and FreeArc sit outside, so you hear the world along with your music. For people who find ear canals sore, who walk in traffic or who want to hear a child in the next room, they are worth understanding. For people who want silence on a bus, they are the wrong product.</p>
+<h2>FreeBuds SE 4 ANC: Rs 7,490</h2>
+<p>The sensible pair. Noise cancelling, up to ten hours in the buds, fifty with the case, stems that make controls easy. Sound is balanced by Huawei's standards. Rivals such as the CMF Buds 2 at Rs 7,499 and Buds 2 Plus at Rs 8,999 offer more features, LDAC among them. The Huawei's strength is comfort and battery.</p>
+<h2>FreeBuds 7i: Rs 17,990</h2>
+<p>Better drivers and stronger ANC. At this price the Soundcore Liberty 5 and Redmi Buds 8 Pro are hard to beat. Choose the 7i if you own a Huawei tablet or watch and like the common app.</p>
+<h2>FreeArc: Rs 16,990</h2>
+<p>An ear-hook design for sport. A soft arm goes over the ear and a speaker points at the canal. It stays put while running, and with IP57 resistance it copes with sweat and rain. Bass is better than most open designs and still lighter than in-ear. For running on roads, this is the safest way to listen.</p>
+<h2>FreeClip and FreeClip 2: Rs 29,990 and 33,990</h2>
+<p>A ball, a bean and a bendable bridge. They clip to the edge of the ear like jewellery and weigh about five grams. You forget that they are there, which is their whole point. Left and right are interchangeable. Sound is clear for voices and light in bass. They leak little at moderate volume. The second version improves sound and battery. They are a luxury, and people who wear glasses, hearing aids or earrings should try them first.</p>
+<h2>Open or sealed? A short guide</h2>
+<p><strong>Choose sealed</strong> for buses, flights, offices and music with bass.</p>
+<p><strong>Choose open</strong> for walking, running, cycling where allowed, cooking, childcare, long calls at a desk, and sore ears.</p>
+<p>Many people end up with both: a Rs 5,000 ANC pair for travel and an open pair for life.</p>
+<h2>Safety on our roads</h2>
+<p>Motorbikes come from every side. Sealed buds with ANC remove the warning. If you walk or run beside a road, use open buds or transparency and keep the volume low. On a motorbike or bicycle, do not use earbuds.</p>
+<h2>The app</h2>
+<p>AI Life, now part of Huawei's Audio Connect on some phones, sets controls, equaliser and ANC, and updates firmware. On Android it is best installed from Huawei's site. On iPhone use the App Store. Without the app the buds work with default settings.</p>
+<h2>Pairing and multipoint</h2>
+<p>They pair with any Bluetooth device. Most support two at once. On Huawei and Honor devices there is a pop-up. Codecs are AAC and SBC on the cheaper models, with L2HC or LDAC on some higher ones. Check the sheet if you care.</p>
+<h2>Calls</h2>
+<p>Huawei's call quality is better than average, with bone-conduction sensors in several models. The FreeClip is surprisingly good for calls in quiet places. In wind, the in-ear models win.</p>
+<h2>Battery</h2>
+<p>Seven to ten hours on a charge for most. Open designs have no ANC to feed. The cases are small, and higher models charge wirelessly.</p>
+<h2>Comfort through the day</h2>
+<p>FreeClips can be worn for hours without pressure. FreeArc's hook may touch the arms of glasses. SE 4 and 7i are light with soft tips. If your ears are small, try the 7i's smallest tip before buying.</p>
+<h2>Warranty in Nepal</h2>
+<p>Huawei has a distributor and gives a year on official units. Single buds may be ordered for some models. The unusual shapes are copied widely: there are Rs 1,500 clip buds that look like FreeClips from a metre away. A real pair shows its name in the app.</p>
+<h2>Care</h2>
+<ul>
+<li>Wipe clips after sweat and let them dry before casing.</li>
+<li>Do not bend the bridge more than needed.</li>
+<li>Keep hair spray and perfume away from the speakers.</li>
+<li>Charge the case once a fortnight even if unused.</li>
+</ul>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Everyday, budget:</strong> FreeBuds SE 4 ANC.</li>
+<li><strong>Runner:</strong> FreeArc.</li>
+<li><strong>All-day wearer, style:</strong> FreeClip 2, or the first on sale.</li>
+<li><strong>Huawei device owner:</strong> FreeBuds 7i.</li>
+</ul>
+<h2>Cheaper open alternatives</h2>
+<p>The Soundcore C50i clip at Rs 7,799, the CMF Clip Pro at Rs 14,999 and JBL's Soundgear Clips at Rs 23,000 follow the same idea. Huawei's clips are the most comfortable we know of by reputation and design. The CMF is the value choice. Try before paying three times more.</p>
+<h2>Cheaper sealed alternatives</h2>
+<p>The <a href="/products/oneplus-nord-buds-4">Nord Buds 4</a> at Rs 4,999 and <a href="/products/cmf-buds-2-plus">CMF Buds 2 Plus</a> at Rs 8,999 have better noise cancelling than the SE 4. Those who do not care about the brand should look there.</p>
+<h2>Buying tips</h2>
+<p>Huawei often bundles earbuds with watches. If you want a GT 6 as well, ask for a combined price. FreeClip colours differ in price. Test for leakage by playing at your normal volume and asking someone to stand beside you.</p>
+<h2>Questions</h2>
+<p><strong>Do FreeClips fall off?</strong> Rarely. Jumping and headscarves can move them.</p>
+<p><strong>Can they be used with a helmet?</strong> Uncomfortable, and unsafe while riding.</p>
+<p><strong>Do they suit people with hearing loss in one ear?</strong> Mono mode works. Open buds can be heard along with hearing aids in some cases. Ask an audiologist.</p>
+<h2>Verdict</h2>
+<p>Huawei's open earbuds are the reason to visit this page. The FreeArc for sport and FreeClip for daily life do something in-ear buds cannot. Its normal earbuds are good and face cheaper, better-equipped rivals in our <a href="/guides/best-earbuds-under-10000-nepal">earbuds under Rs 10,000</a>.</p>
+
+=== jbl-earbuds-price-in-nepal
+<h2>JBL's line-up</h2>
+[[models:jbl-wave-buds-2,jbl-wave-beam-2,jbl-tune-beam-2,jbl-endurance-race-2,jbl-tune-flex-2,jbl-endurance-peak-4,jbl-soundgear-clips,jbl-live-beam-3]]
+<h2>Paying for a name that means something</h2>
+<p>JBL has been in sound for generations, and its consumer tuning is instantly recognisable: big bass, bright treble, plenty of energy. In Nepal its earbuds start at Rs 8,900, where other brands already offer noise cancelling, LDAC and long batteries. So you pay a premium for the sound signature, sturdy build and a brand whose warranty is real. Whether that is worth it depends on your ears.</p>
+<h2>Four families</h2>
+<p><strong>Wave</strong> is entry. <strong>Tune</strong> is the middle. <strong>Live</strong> is premium. <strong>Endurance</strong> is for sport. Within each, <strong>Buds</strong> are round, <strong>Beam</strong> have stems and sealed tips, <strong>Flex</strong> have stems and sit semi-open. The number is the generation. Once you know this, the list becomes readable: Tune Flex 2 is a mid-range, semi-open, second-generation pair.</p>
+<h2>Wave: Rs 8,900 to 13,500</h2>
+<p>The <a href="/products/jbl-wave-buds-2">Wave Buds 2</a> and <a href="/products/jbl-wave-beam-2">Wave Beam 2</a> are solid with basic noise cancelling. At these prices the <a href="/products/cmf-buds-2-plus">CMF Buds 2 Plus</a> has more of everything. Buy a Wave if you have heard both and prefer JBL.</p>
+<h2>Tune: Rs 13,000 to 16,500</h2>
+<p>The Tune Beam 2 and <a href="/products/jbl-tune-flex-2">Tune Flex 2</a> add better ANC and drivers, with 48 hours in total. The Flex is for people who dislike a tight seal, and it can be worn sealed or open with the tips provided. It is the most versatile of the range.</p>
+<h2>Endurance: the sport pair</h2>
+<p>The <a href="/products/jbl-endurance-race-2">Endurance Race 2</a> at Rs 14,000 and <a href="/products/jbl-endurance-peak-4">Peak 4</a> at Rs 20,000 are built for sweat and rain, with high water ratings. The Race uses a twist-lock fit, the Peak has ear hooks that will not move in a marathon. For gyms and trails they are among the best available here, and the strongest argument for JBL.</p>
+<h2>Sense Lite and Soundgear Clips: open designs</h2>
+<p>The Sense Lite hooks over the ear and the Soundgear Clips clip on. Both leave the canal free. They suit runners, cyclists in safe places and office workers. Huawei and CMF are the rivals.</p>
+<h2>Live: Rs 29,000</h2>
+<p>The <a href="/products/jbl-live-beam-3">Live Beam 3</a> and Live Flex 3 come with a touchscreen on the case, adaptive ANC and LDAC. The case is fun: you can change settings without a phone. The sound is powerful and can be tuned. They compete with Galaxy Buds 4 and AirPods 4, which suit their own phones better, and with the Liberty 5 at Rs 17,499, which costs far less.</p>
+<h2>The JBL Headphones app</h2>
+<p>Equaliser, Personi-Fi hearing profile, ANC modes, find my buds and firmware. Use the equaliser to bring down the bass by a couple of steps. The music opens up.</p>
+<h2>Fakes: a serious problem</h2>
+<p>JBL is the most copied audio brand in Nepal. A Rs 2,000 "JBL TWS" in a market stall is always fake. Protect yourself:</p>
+<ol>
+<li>Buy from an authorised seller, with a VAT bill.</li>
+<li>Check the serial number with JBL or Harman's verification.</li>
+<li>Open the JBL Headphones app. A fake will not connect.</li>
+<li>Look at printing, hinge and weight. Real cases feel dense.</li>
+<li>Be suspicious of any price far below our list.</li>
+</ol>
+<h2>Noise cancelling</h2>
+<p>Adequate on Wave, good on Tune, very good on Live. It is not at the level of Sony or Apple. TalkThru and Ambient Aware let in voices, and they sound natural on newer models.</p>
+<h2>Calls</h2>
+<p>Four to six microphones depending on model. Beam and Flex stems help. Outdoors they are average.</p>
+<h2>Battery</h2>
+<p>Ten to twelve hours without ANC, seven or eight with it. Cases add three or four charges. Ten minutes gives two to four hours. Wireless charging is available on Tune and Live in some versions.</p>
+<h2>Water resistance</h2>
+<p>From IPX2 for some cases to IP68 for sport models. JBL prints both bud and case ratings. Read them, since many people ruin the case and not the buds.</p>
+<h2>Fit</h2>
+<p>Three sizes of tip. The Endurance models include enhancers. Round Buds suit small ears better than stems for some people. Try.</p>
+<h2>With each phone</h2>
+<p>Works with all. Google Fast Pair on Android, AAC on iPhone, LDAC on Live. Multipoint on most newer models, and new ones support LE Audio and Auracast, which lets you listen to broadcasts from compatible JBL speakers and TVs.</p>
+<h2>Warranty in Nepal</h2>
+<p>Authorised distributors provide a year on genuine products, with replacement policies that vary. Keep the box. Single buds can sometimes be arranged.</p>
+<h2>Who should buy JBL</h2>
+<ul>
+<li><strong>Bass lovers</strong> who have compared: Tune Beam 2.</li>
+<li><strong>Sport:</strong> Endurance Peak 4 or Race 2.</li>
+<li><strong>People who like semi-open comfort:</strong> Tune Flex 2.</li>
+<li><strong>Owners of JBL speakers:</strong> any with Auracast.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Value seekers: CMF, OnePlus, Soundcore, Redmi.</li>
+<li>People who want the quietest: Sony, Apple.</li>
+<li>Anyone buying from a pavement.</li>
+</ul>
+<h2>Is it worth the premium?</h2>
+<p>Here is a test. Listen to a song you love on a Rs 8,999 CMF and a Rs 13,000 JBL in the same shop at the same volume. If the JBL makes you grin, buy it. Sound is personal, and a grin is worth Rs 4,000. If you cannot tell, keep the money.</p>
+<h2>Price and timing</h2>
+<p>JBL discounts well at Dashain, 11.11 and New Year, often 15 to 30 per cent on the previous generation. The first-generation Tune and Wave, when genuine and new, are good buys at such times.</p>
+<h2>Verdict</h2>
+<p>For sport, JBL's Endurance line is easy to recommend. For everything else it is a matter of taste at a premium. Check that it is real, tame the bass a little, and you will have a pair that makes walking to work feel like a film. Other options are in <a href="/guides/best-earbuds-under-20000-nepal">earbuds under Rs 20,000</a>.</p>
+
+=== jbl-headphones-price-in-nepal
+<h2>JBL headphones compared</h2>
+[[models:jbl-tune-530c,jbl-tune-530bt,jbl-tune-730bt,jbl-tune-680nc,jbl-tune-780nc,jbl-tour-one-m2]]
+<h2>Reading a JBL name</h2>
+<p>Tune is the affordable family, Live sits above it and Tour is the best. The first digit of the number tells the size: 5 and 6 are on-ear, 7 is over-ear. BT means Bluetooth without noise cancelling. NC means noise cancelling. C means a USB-C cable. So the Tune 730BT is an over-ear Bluetooth pair, the 680NC is an on-ear pair with noise cancelling. Once you know this, you can read the shelf.</p>
+<h2>Tune 530C: the one with a wire</h2>
+<p>At Rs 9,499 it costs the same as the Bluetooth version, which looks odd until you consider what a wire gives: no charging, no delay, no pairing, and sound that does not depend on a codec. For laptops, tablets and phones with USB-C audio, it is a practical tool. Teachers, editors and students in exam halls that forbid Bluetooth may prefer it.</p>
+<h2>Tune 530BT: light and long</h2>
+<p>At Rs 9,500, on-ear, foldable, with about 76 hours of battery. It is made for music while moving. On-ear pads press after an hour, so it is not for a working day.</p>
+<h2>Tune 730BT: the comfortable one</h2>
+<p>For Rs 11,000 you move to over-ear pads and the same battery. It is the better choice for study. Without ANC it relies on its pads, which block a fair amount. Compare it with the Soundcore Q20i at Rs 9,199, which has real noise cancelling for less, and the Space One at Rs 12,999.</p>
+<h2>Tune 680NC and 780NC</h2>
+<p>The 680NC at Rs 15,000 is on-ear with ANC, a strange combination: on-ear pads leak, so cancelling has more to do. The <a href="/products/jbl-tune-780nc">780NC</a> at Rs 19,500 is over-ear with adaptive ANC, 50 hours and multipoint. It is the Tune to buy for travel and offices. The CMF Headphone Pro at Rs 13,999 and Soundcore Space One are cheaper rivals with similar quiet. JBL's answer is its lively sound.</p>
+<h2>Tour One M2</h2>
+<p>At Rs 39,999 the <a href="/products/jbl-tour-one-m2">Tour One M2</a> is the premium pair: True Adaptive ANC, hi-res sound, excellent microphones, and comfortable pads. It sits between the Rs 27,000 Sony CH720N and the Rs 57,600 XM5. For calls and sound it is strong, and for silence the Sony is ahead. There is a newer M3 abroad, so ask for a discount on the M2.</p>
+<h2>The JBL sound</h2>
+<p>Bass first, then sparkle. It flatters pop, hip-hop, dohori with drums and films. For classical, ghazal and acoustic music it can be too much. In the app, reduce the low bands by two or three steps and it becomes balanced. The saved setting stays in the headphones.</p>
+<h2>App features</h2>
+<p>Equaliser, ANC control, ambient modes, VoiceAware to hear yourself in calls, and firmware updates. Personi-Fi on higher models shapes the sound by a hearing test. Turn off touch controls if you often adjust your hair.</p>
+<h2>Comfort and fit</h2>
+<p>Tune headphones are light. The clamp is firm at first and eases with time. People with glasses should choose the 730BT or 780NC. Headscarves and caps fit better with on-ear pairs.</p>
+<h2>Calls and work</h2>
+<p>Fine indoors. The Tour One M2 is the only one we would choose for a day of meetings. On Windows use the computer's microphone for your voice to keep music quality. Multipoint on the Bluetooth models handles laptop and phone.</p>
+<h2>Auracast and LE Audio</h2>
+<p>Newer Tune models support LE Audio and Auracast, for listening together from compatible sources. It is early, and few phones and TVs use it. Consider it a small bonus.</p>
+<h2>Fakes and how to spot them</h2>
+<p>JBL over-ear copies at Rs 1,200 to 2,500 are sold everywhere under names like "JBL 950". JBL never made most of them. A real pair has a serial number, an importer's sticker, proper printing and appears in the JBL Headphones app. If the box lists features such as an FM radio and memory card slot, it is fake.</p>
+<h2>Battery</h2>
+<p>Seventy-six hours is at half volume without ANC. Expect fifty in real life, still more than a week of use. Five minutes of charging gives about three hours. Batteries in headphones last many years if not left empty.</p>
+<h2>Durability</h2>
+<p>Tune hinges are plastic. Fold them gently, carry them in a case and do not stretch the headband. Ear pads flake after two years of sweat. Replacements are cheap. The Tour comes with a case.</p>
+<h2>For gaming</h2>
+<p>These are not gaming headsets. JBL's Quantum line is, with boom microphones and 2.4GHz dongles. For a console, the wired 530C works only with USB-C sources, so check your controller.</p>
+<h2>For children</h2>
+<p>JBL makes children's models limited to 85 decibels. They are the right choice for a seven-year-old, and a Tune 530BT is not.</p>
+<h2>Warranty</h2>
+<p>One year from authorised sellers. Ask who handles it and whether you will receive a replacement or a repair. Keep the box with the serial.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Laptop user:</strong> Tune 530C.</li>
+<li><strong>Commuter with music:</strong> Tune 530BT.</li>
+<li><strong>Student:</strong> Tune 730BT, or Soundcore Q20i for ANC.</li>
+<li><strong>Traveller who loves bass:</strong> Tune 780NC.</li>
+<li><strong>Professional caller:</strong> Tour One M2 on discount.</li>
+</ul>
+<h2>Compared with other brands</h2>
+<p><strong>Soundcore:</strong> cheaper ANC, better equaliser. <strong>Sony:</strong> better ANC at the top, calmer sound. <strong>CMF:</strong> best value near Rs 14,000. <strong>boAt:</strong> half the price without the refinement.</p>
+<h2>Prices and offers</h2>
+<p>JBL cuts prices at festivals and when a model number changes. Prices in our list are for official units. Online, choose the brand's store. A Tune 730BT at Rs 8,500 or 780NC at Rs 15,500 is a good day.</p>
+<h2>Looking after your hearing</h2>
+<p>JBL headphones go loud easily. Use the 85 decibel limit in your phone, take breaks, and do not use volume to cover traffic. That is what noise cancelling is for.</p>
+<h2>Verdict</h2>
+<p>If you love the JBL sound, the 730BT and 780NC are the two to hear. If you are undecided, listen to a Soundcore or CMF beside them at the same volume before paying. Both lists are in <a href="/guides/best-headphones-under-10000-nepal">headphones under Rs 10,000</a> and <a href="/guides/best-headphones-under-30000-nepal">under Rs 30,000</a>.</p>
+
+=== kick-earbuds-price-in-nepal
+<h2>The four pairs</h2>
+[[models:kick-phantom-buds-x2-neo,kick-phantom-buds-x-elite,kick-phantom-buds-x2,kick-phantom-buds-x-pro]]
+<h2>A local favourite at pocket-money prices</h2>
+<p>Kick has become familiar in Nepal by selling earbuds between Rs 1,500 and Rs 2,600 that do what people ask at that price: pair quickly, last long, make a decent thump, and, in one case, cancel some noise. Its advantages are price, availability and a distributor close at hand. Nobody should expect the finish or longevity of brands that charge twice as much.</p>
+<h2>Phantom Buds X2 Neo: Rs 1,499</h2>
+<p>The cheapest. It is a basic pair for calls, YouTube and songs. If your alternative is an unbranded pair from a stall, this is better because it comes with a box, a name and a warranty. If you can add Rs 500, a Redmi Buds 5A has a better app and wider service.</p>
+<h2>Phantom Buds X Elite: Rs 1,999</h2>
+<p>A step up in battery and sound. It competes directly with the Redmi Buds 5A. Pick whichever fits your ears.</p>
+<h2>Phantom Buds X2: about Rs 2,000</h2>
+<p>Its headline is a very large case: 100 hours in total by the maker's figure, with eight in the buds. For people who travel, guard a shop at night or forget to charge, that is attractive. The case is bigger in a pocket.</p>
+<h2>Phantom Buds X Pro: Rs 2,599</h2>
+<p>The one that put Kick on our lists. Active noise cancelling and connection to two devices under Rs 3,000 is unusual. The cancelling is modest, as you would expect, and it takes the edge off a bus engine. Multipoint is more valuable still for anyone who works between a laptop and a phone. It leads our <a href="/guides/best-earbuds-under-3000-nepal">earbuds under Rs 3,000</a>.</p>
+<h2>What to expect from sound</h2>
+<p>Strong bass, recessed voices, bright top. If there is an app or preset that reduces bass, use it. Otherwise use the equaliser in your phone's settings or music player. Choose "vocal" or lower the first two bands.</p>
+<h2>Fit decides the result</h2>
+<p>At this price half of the reviews that say "no bass" describe a poor seal. Try all the tips. If none works, Rs 300 foam tips will change your opinion.</p>
+<h2>Calls</h2>
+<p>Good enough indoors. Outside, people will ask you to repeat. Put one bud in, cup your hand if it is windy, or hold the phone.</p>
+<h2>Gaming</h2>
+<p>Game modes lower the delay for PUBG Mobile and Free Fire. They are fine for casual play. Wired earphones are still the best value for serious players.</p>
+<h2>Noise cancelling versus ENC</h2>
+<p>Boxes mix the two. ANC reduces what <em>you</em> hear. ENC reduces what your <em>caller</em> hears. Many cheap buds advertise ENC in large letters, and people think it is ANC. Among Kick's present models only the X Pro has the first. Check by turning it on near a fan.</p>
+<h2>Battery facts</h2>
+<p>Numbers such as 100 hours count the case. What matters on a given day is hours in the buds: five to eight, less with ANC. Quick charge gives about an hour and a half to two hours in ten minutes.</p>
+<h2>Water</h2>
+<p>Expect IPX4 or similar. Sweat and drizzle are fine. Dry the pins before charging, as corrosion is the commonest failure.</p>
+<h2>How long will they last?</h2>
+<p>A year to two years of daily use. The battery fades, the hinge loosens, one side goes quiet from wax. Clean the mesh monthly. At Rs 2,000, plan to replace and not repair.</p>
+<h2>Warranty</h2>
+<p>Ask for six months or a year on the bill. Kick's local distribution makes replacement quicker than with imported brands. Keep the box and all tips. Do not open the buds.</p>
+<h2>Shopping online</h2>
+<p>Look for the official store. Read the one-star reviews first: if several say that one side stopped, ask the seller about replacement. Film the opening of the parcel.</p>
+<h2>Who should buy Kick</h2>
+<ul>
+<li>Students with Rs 2,000 to 2,600.</li>
+<li>People who lose earbuds regularly.</li>
+<li>Anyone wanting multipoint for the lowest price.</li>
+<li>Night-shift workers who like the X2's battery.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Music lovers with Rs 5,000. The Nord Buds 4 are a different class.</li>
+<li>Professionals on calls.</li>
+<li>iPhone owners who want switching and find features.</li>
+</ul>
+<h2>Compared with neighbours</h2>
+<p><strong>Redmi Buds 5A (Rs 1,999):</strong> steadier app and service. <strong>boAt Airdopes 212 (Rs 2,199):</strong> long battery, bass. <strong>Realme Buds T200x (Rs 2,999):</strong> better tuned ANC and app. <strong>Soundcore P20i (Rs 2,999):</strong> the best equaliser.</p>
+<p>Against these, the X Pro wins on features for money and the T200x on quality. If you can add Rs 400, hear both.</p>
+<h2>Getting more from them</h2>
+<ol>
+<li>Forget and re-pair if one side disconnects.</li>
+<li>Update firmware if an app is provided.</li>
+<li>Keep the case above 20 per cent.</li>
+<li>Use volume at 60 per cent or less.</li>
+<li>Store with the tips clean.</li>
+</ol>
+<h2>Children and hearing</h2>
+<p>Cheap buds go loud, and their bass invites it. Set a volume limit in the phone for children. Do not let them sleep in earbuds. Lithium batteries and pillows do not mix.</p>
+<h2>E-waste</h2>
+<p>Millions of cheap buds end in rivers. When yours die, give them to a shop or collector that takes batteries. If you find yourself buying a third pair in two years, the next one should be a better pair with a longer life. It costs less.</p>
+<h2>Questions</h2>
+<p><strong>Do they work with an iPhone?</strong> Yes, as ordinary Bluetooth buds.</p>
+<p><strong>Can I use one bud?</strong> Yes, either side on most models.</p>
+<p><strong>Are they waterproof for swimming?</strong> No.</p>
+<p><strong>Do they support LDAC?</strong> No, and at this price it would not help.</p>
+<h2>Verdict</h2>
+<p>The Phantom Buds X Pro is the Kick to buy. The others are for tighter budgets or huge batteries. They are honest products at their price, as long as you do not ask them to be something else. If your budget grows, our <a href="/guides/best-earbuds-under-5000-nepal">earbuds under Rs 5,000</a> show what the next step brings.</p>
+
+=== noise-earbuds-price-in-nepal
+<h2>Noise models</h2>
+[[models:noise-buds-trance-2,noise-buds-n1,noise-mvp-102-gaming,noise-aura-buds]]
+<h2>An Indian value brand in Nepal</h2>
+<p>Noise is one of India's big sellers of cheap wearables, and its earbuds arrive here through a distributor and, in larger numbers, across the border. They are stylish, inexpensive and aimed at young buyers. Four models have a steady price in our listing, from Rs 2,699 to Rs 3,999. Despite the name, most do not cancel noise.</p>
+<h2>Buds Trance 2 and Buds N1</h2>
+<p>At Rs 2,699 and 2,799 both are simple pairs with long battery, quick charge and strong bass. They sit in the hardest part of the market. The Kick Phantom Buds X Pro at Rs 2,599 has ANC and multipoint, and the Redmi Buds 5A at Rs 1,999 does the basics for less. Choose a Noise here for its look and fit.</p>
+<h2>MVP 102 Gaming</h2>
+<p>At Rs 3,399, with a low-latency mode and gaming style. The delay is better than that of ordinary buds and still higher than a wire. If you play on a phone in a hostel room and dislike cables, it is fun. Competitive players should use wired earphones or a USB-C dongle headset.</p>
+<h2>Aura Buds</h2>
+<p>At Rs 3,999 it is the most polished of the four, with a nicer case and fuller sound. For Rs 1,000 more the OnePlus Nord Buds 4 have real ANC, a better app and better sound. That is a strong argument.</p>
+<h2>How to choose among them</h2>
+<p>Put each in your ear and shake your head. Make a call. Play a song with vocals. If two sound alike, take the one with longer battery. There is not much else between them.</p>
+<h2>Sound</h2>
+<p>Noise tunes for bass and loudness. Dance music is lively, and voices are a little behind. Use your phone's equaliser to bring forward the middle. Do not push the volume to the top: distortion begins early.</p>
+<h2>ENC, ANC and labels</h2>
+<p>Environmental noise cancellation helps your caller. Active noise cancellation helps you. Read the box carefully. If ANC is not written, it is not there. Labels such as "hyper sync" and "instacharge" describe quick pairing and quick charging.</p>
+<h2>App and firmware</h2>
+<p>NoiseFit Audio or similar apps support some models with equaliser presets and controls. They ask for permissions that are not all needed. If yours has no app, controls are fixed, so learn them on the first day.</p>
+<h2>Battery</h2>
+<p>Around five to seven hours in the buds and 30 to 60 with the case. Ten minutes of charge gives two hours or more. The case charges by USB-C on current models. Older stock may use micro USB, so look.</p>
+<h2>Water</h2>
+<p>IPX4 to IPX5 covers sweat and light rain. Dry before charging.</p>
+<h2>Fit</h2>
+<p>Three pairs of tips. Stems are comfortable for most. For small ears, the round ones are better. A seal is worth more than any feature.</p>
+<h2>Warranty and the border</h2>
+<p>Official Nepali units come with a distributor's sticker and a warranty of six to twelve months. Many Noise products here were bought in India, where their warranty applies and where the online price is lower. They are fine as long as you know that a fault means a trip. Ask the seller which it is, and expect a lower price for an Indian unit.</p>
+<h2>Registration</h2>
+<p>Noise asks buyers to register online for warranty. Use the serial number on the box. For units sold in Nepal, follow the distributor's instructions and keep the bill.</p>
+<h2>Compared with others near Rs 3,000</h2>
+<p><strong>Realme Buds T200x:</strong> ANC and multipoint at Rs 2,999. The strongest rival. <strong>Soundcore P20i:</strong> best app. <strong>boAt Airdopes 212:</strong> similar character. <strong>Kick X Pro:</strong> most features. <strong>Redmi Buds 6 Play:</strong> cheap and light.</p>
+<p>On features, Noise is behind. On design, some will prefer it.</p>
+<h2>Who should buy Noise</h2>
+<ul>
+<li>People who like the design and have tried the fit.</li>
+<li>Casual mobile gamers: MVP 102.</li>
+<li>Anyone with a discount that brings them near Rs 2,000.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Commuters who want quiet.</li>
+<li>Laptop users who need multipoint.</li>
+<li>People who call for work.</li>
+</ul>
+<h2>What to check in the shop</h2>
+<ol>
+<li>Seal, sticker and serial number.</li>
+<li>Both sides play and charge.</li>
+<li>The microphone: record a voice note.</li>
+<li>Case hinge and magnet.</li>
+<li>USB-C port.</li>
+<li>Return or replacement terms in writing.</li>
+</ol>
+<h2>Solving common problems</h2>
+<p><strong>One side silent:</strong> put both in the case, forget the device on the phone, reset the buds by holding the case button as the manual says, and pair again.</p>
+<p><strong>Low volume:</strong> clean the mesh with a soft dry brush. Check the media volume and the phone's hearing protection limit.</p>
+<p><strong>Disconnecting:</strong> carry the phone on the same side as the main bud, and turn off battery saving for Bluetooth.</p>
+<p><strong>Not charging:</strong> wipe the gold pins with a dry cloth.</p>
+<h2>Looking after them</h2>
+<p>Keep them in the case, away from coins and water bottles. Charge the case weekly. Do not leave it in a parked vehicle. Clean the tips with a damp cloth.</p>
+<h2>Sound for children</h2>
+<p>Loud cheap buds can harm young ears quickly. Use a limit of 85 decibels on the phone, or buy on-ear children's headphones.</p>
+<h2>Noise also makes watches</h2>
+<p>ColorFit watches from the same brand are sold here. They follow the same idea: good looks, calls, modest tracking. If you want a matching set, ask for a bundle price. For tracking, Xiaomi and Huawei are better, as our <a href="/guides/smartwatch-buying-guide-nepal-2024">smartwatch guide</a> explains.</p>
+<h2>Value over time</h2>
+<p>A Rs 2,700 pair that lasts 18 months costs Rs 150 a month. A Rs 4,999 pair that lasts three years costs under Rs 140 and sounds better every day. That is why we so often suggest saving for the next step.</p>
+<h2>Price watch</h2>
+<p>Noise products are discounted constantly. Compare with online brand stores on the day. If a shop's price is above our listing, ask for a match.</p>
+<h2>Verdict</h2>
+<p>Noise makes pleasant, fashionable earbuds in a crowded field, and at their listed prices others do more. If one of them fits you perfectly and costs Rs 500 less than its rivals, enjoy it. If not, our <a href="/guides/best-earbuds-under-3000-nepal">earbuds under Rs 3,000</a> list the stronger choices.</p>
+
+=== nothing-earbuds-price-in-nepal
+<h2>Nothing and CMF earbuds</h2>
+[[models:cmf-buds-2a,cmf-buds-2,cmf-buds-2-plus,cmf-buds-pro-2,nothing-ear-3a,nothing-ear-a,cmf-clip-pro]]
+<h2>One company, two labels</h2>
+<p>CMF by Nothing is the affordable label, and Nothing is the dearer one with the transparent design. They use the same app and similar engineering, and at present the CMF models are so good that the Nothing ones have trouble explaining themselves. That is the short version of this page.</p>
+<h2>CMF Buds 2a: Rs 5,999</h2>
+<p>ANC, a tidy design and good battery. It faces the OnePlus Nord Buds 4 at Rs 4,999 and Soundcore R60i NC at Rs 5,499. All three are good, and the CMF's app and look are its edge.</p>
+<h2>CMF Buds 2: Rs 7,499</h2>
+<p>Longer battery, stronger noise cancelling and better water resistance. Fine, and only Rs 1,500 from the next one.</p>
+<h2>CMF Buds 2 Plus: Rs 8,999</h2>
+<p>The one to buy. LDAC, strong adaptive ANC, a hearing test to personalise sound, multipoint, 14 hours in the buds and more than sixty with the case. We have put it first in <a href="/guides/best-earbuds-under-10000-nepal">earbuds under Rs 10,000</a>, and nothing has displaced it.</p>
+<h2>CMF Buds Pro 2: Rs 9,599</h2>
+<p>Two drivers per side and a dial on the case. Livelier sound, shorter battery. If you enjoy music more than you dislike charging, choose it. The dial is a better control than any touch pad.</p>
+<h2>Nothing Ear (a) and Ear (3a): Rs 14,000 to 15,000</h2>
+<p>Transparent stems, nicer cases and balanced sound. The Ear (a) is the older, at Rs 14,999, the 3a newer at Rs 13,999, so the choice between them is easy unless you love yellow. Against the Buds 2 Plus you pay Rs 5,000 for design and a small step in refinement.</p>
+<h2>CMF Clip Pro: Rs 14,999</h2>
+<p>An open clip design that leaves the ear free. For walkers, parents and desk workers who want awareness. It costs half of Huawei's FreeClip. Bass is light, as in all clips. Try the fit on your ear shape.</p>
+<h2>Nothing X: the app</h2>
+<p>Clean and fast, with equaliser, ANC strength, control mapping, low-latency mode, find my buds and firmware. On Nothing and CMF phones the controls are inside the system settings. ChatGPT integration on some models lets you ask questions by a pinch, with a Nothing phone and an internet connection. It is a curiosity.</p>
+<h2>Sound</h2>
+<p>CMF is tuned with strong but controlled bass. The personal sound test on the Plus helps more than presets. With LDAC on, use a good source or leave it off to save battery.</p>
+<h2>Noise cancelling</h2>
+<p>For Rs 9,000 it is impressive: buses become a murmur, offices calmer. High-pitched sounds and voices pass more than on Sony or Apple. Adaptive mode is good, and fixed high is stronger on a bus.</p>
+<h2>Calls</h2>
+<p>Better than average in the class, with wind handling on the Plus and Pro 2. In a quiet room people will not know that you are on earbuds.</p>
+<h2>Fit and comfort</h2>
+<p>Light, with three tip sizes. The stems are short. The Pro 2 is slightly heavier. For sport they are secure enough for running, and for intense workouts consider hooks.</p>
+<h2>Water</h2>
+<p>From IP54 to IP55 for buds, with lower or no rating for cases. Sweat and drizzle are fine.</p>
+<h2>Battery and charging</h2>
+<p>USB-C only on most, with no wireless charging under Rs 13,000. Ten minutes gives several hours. The 2 Plus is the champion.</p>
+<h2>Compatibility</h2>
+<p>Any phone. Fast Pair on Android, AAC on iPhone. Multipoint is reliable. On iPhone, use the Nothing X app from the App Store.</p>
+<h2>Warranty in Nepal</h2>
+<p>An authorised distributor provides a year on official units. Indian units are common with Indian warranty. Look for the sticker. Single buds are sometimes available through service. Ask for the price.</p>
+<h2>Copies</h2>
+<p>Less common than for JBL and Apple, but transparent-stem fakes exist. The Nothing X app will not accept them.</p>
+<h2>Which to buy</h2>
+<ul>
+<li><strong>Best overall:</strong> CMF Buds 2 Plus.</li>
+<li><strong>Music and fun:</strong> CMF Buds Pro 2.</li>
+<li><strong>Tight budget:</strong> Buds 2a, or the Nord Buds 4.</li>
+<li><strong>Open ear:</strong> CMF Clip Pro.</li>
+<li><strong>Design lovers:</strong> Nothing Ear (3a).</li>
+</ul>
+<h2>Compared with rivals</h2>
+<p><strong>Realme Buds Air 8 (Rs 8,499):</strong> similar battery, slightly weaker ANC. <strong>Soundcore R60i NC (Rs 5,499):</strong> most of it for less. <strong>Redmi Buds 8 (Rs 10,499):</strong> good with Xiaomi phones. <strong>Soundcore Liberty 5 (Rs 17,499):</strong> better ANC and extras. <strong>Samsung Buds 3 FE (Rs 19,999):</strong> for Galaxy owners.</p>
+<h2>Who should look elsewhere</h2>
+<ul>
+<li>iPhone owners who want automatic switching: AirPods.</li>
+<li>Galaxy owners who want Samsung's codec: Galaxy Buds.</li>
+<li>Frequent flyers who need maximum quiet: Sony or AirPods Pro.</li>
+</ul>
+<h2>Set-up in five steps</h2>
+<ol>
+<li>Install Nothing X and update.</li>
+<li>Run the fit and hearing tests where available.</li>
+<li>Map a double pinch to play and pause, a long pinch to ANC.</li>
+<li>Turn on multipoint and pair the laptop.</li>
+<li>Choose adaptive ANC for daily use.</li>
+</ol>
+<h2>Headphones too</h2>
+<p>The <a href="/products/cmf-headphone-pro">CMF Headphone Pro</a> at Rs 13,999 and <a href="/products/nothing-headphone-a">Nothing Headphone (a)</a> at Rs 26,999 follow the same logic: CMF for value, Nothing for design. They appear in <a href="/guides/best-headphones-under-30000-nepal">headphones under Rs 30,000</a>.</p>
+<h2>Price and timing</h2>
+<p>CMF prices drop by Rs 500 to 1,500 in sales. When a Buds 3 generation appears, the present ones should fall further. At Rs 7,500 the 2 Plus would be impossible to ignore.</p>
+<h2>Care</h2>
+<p>Clean the mesh monthly, dry after sweat, charge the case weekly, and keep the dial of the Pro 2 free from dust.</p>
+<h2>Verdict</h2>
+<p>If you came here to buy Nothing earbuds, buy the CMF Buds 2 Plus. They cost less, last longer and do the important things as well. Let your heart choose the transparent ones if it insists. It is only money, and they are pretty.</p>
+
+=== realme-earbuds-price-in-nepal
+<h2>Realme's earbuds</h2>
+[[models:realme-buds-t100,realme-buds-t200x,realme-buds-t200,realme-buds-t500-pro,realme-buds-air-8]]
+<h2>A tidy range under Rs 9,000</h2>
+<p>Realme sells five pairs in Nepal, all below Rs 9,000, and each adds one clear thing. It is a pleasant contrast with brands that sell thirty. The buds share a family sound, a decent app and the same quick pairing with Realme, OPPO and OnePlus phones. If you own one of those, look here first.</p>
+<h2>Buds T100: Rs 2,499</h2>
+<p>The oldest and simplest, with no ANC. It did well in its day. Now the T200x costs Rs 500 more and does much more. Skip it unless it is discounted to Rs 1,700 or so.</p>
+<h2>Buds T200x: Rs 2,999</h2>
+<p>Real noise cancelling, multipoint and an app at this price. It is the best-balanced pair under Rs 3,000, and only the Kick X Pro gives comparable features for less. The sound is more even than most cheap buds. For a student with a laptop, it is the one.</p>
+<h2>Buds T200: Rs 4,499</h2>
+<p>LDAC, better ANC and longer battery. Against the OnePlus Nord Buds 4 at Rs 4,999, the Realme is lighter and has LDAC, and the OnePlus cancels more noise. If you listen at home to good files, choose the T200. If you ride a bus, choose the OnePlus.</p>
+<h2>Buds T500 Pro: Rs 5,500</h2>
+<p>A newer model with long battery, up to 13.5 hours in the buds, and stronger ANC. It is good value just above the crowd. The Soundcore R60i NC at Rs 5,499 is its twin in price. Realme has longer battery, Soundcore the better equaliser.</p>
+<h2>Buds Air 8: Rs 8,499</h2>
+<p>The flagship, with comfortable stems, 14 hours per charge, good ANC and call quality. It sits beside the CMF Buds 2 Plus at Rs 8,999, which has slightly better noise cancelling and a hearing test. With a Realme phone, the Air 8's integration may tip the balance. It is often bundled with phones at half price, when it becomes an easy yes.</p>
+<h2>The app: realme Link</h2>
+<p>Equaliser, ANC levels, controls, dual connection, game mode, find my buds and updates. On Realme phones these appear in the system's Bluetooth settings. On others install the app. On OnePlus and OPPO phones much of it works through HeyMelody or the system.</p>
+<h2>Sound</h2>
+<p>Bass forward, with clear voices on the T200 and above. The Clear preset helps podcasts and Nepali songs. The "N Bass" preset is for those who like their ears shaken.</p>
+<h2>Game mode</h2>
+<p>Realme has paid attention here, with low-latency modes around 45 to 80 milliseconds on the sheet. In PUBG Mobile on a Realme phone it feels decent. For tournaments, a wire.</p>
+<h2>Noise cancelling expectations</h2>
+<p>T200x: takes the edge off. T200 and T500 Pro: useful on buses. Air 8: calm in offices. None is silent.</p>
+<h2>Calls</h2>
+<p>Good in rooms, with AI noise reduction on newer pairs. In traffic, acceptable on the T500 Pro and Air 8.</p>
+<h2>Fit</h2>
+<p>All are light, between four and five grams. Three tips. Small ears do well with the T200x. The Air 8's stems are rounder and rest comfortably.</p>
+<h2>Battery</h2>
+<p>From 5 hours with ANC on the cheapest to 8 or more on the Air 8. Ten minutes gives three to five hours on most. The cases are compact and charge by USB-C.</p>
+<h2>Water</h2>
+<p>IPX4 to IP55. Fine for the gym. Cases are not protected.</p>
+<h2>With an iPhone or Samsung</h2>
+<p>They work as normal Bluetooth buds, with the app for settings. LDAC works on Samsungs that support it, and not on iPhones.</p>
+<h2>Warranty</h2>
+<p>Realme's service points handle earbuds, with six to twelve months, usually by replacement. Look for a Nepali sticker, as Indian units are common. Keep the bill.</p>
+<h2>Fakes</h2>
+<p>There are some, especially of the Air series. A real pair pops up by name on a Realme or OPPO phone and appears in the app.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Best cheap pair:</strong> T200x.</li>
+<li><strong>Android listener with good files:</strong> T200.</li>
+<li><strong>Battery and ANC for little:</strong> T500 Pro.</li>
+<li><strong>Realme phone owner, or bundle:</strong> Air 8.</li>
+</ul>
+<h2>Compared with others</h2>
+<p><strong>OnePlus:</strong> the Nord Buds 4 is the best all-rounder at Rs 5,000. <strong>CMF:</strong> Buds 2 Plus edges the Air 8. <strong>Redmi:</strong> Buds 8 Lite for Xiaomi phones. <strong>Soundcore:</strong> better apps. <strong>boAt, Noise:</strong> cheaper looks, weaker tuning.</p>
+<h2>Problems and fixes</h2>
+<p><strong>Delay in video:</strong> turn game mode on, or off and on again. <strong>One bud quiet:</strong> brush the mesh. <strong>Will not switch between devices:</strong> enable dual connection and disconnect one of three. <strong>LDAC missing:</strong> turn it on in the app, then reconnect.</p>
+<h2>Looking after them</h2>
+<p>Dry after use, charge the case weekly, replace tips each year, and update firmware. Expect two to three years.</p>
+<h2>Bundles</h2>
+<p>When a new Realme number or P phone is launched, earbuds are offered at a deep discount to the first buyers. If you plan to change phone, plan for the buds at the same time. If the buds are "free", check that the phone's price has not risen to pay for them.</p>
+<h2>Volume and safety</h2>
+<p>Cheap ANC lets you listen more quietly. Use it that way. On roads use transparency, which the T200 and above have, and keep one ear free.</p>
+<h2>Questions</h2>
+<p><strong>Is the T200x better than Redmi Buds 5A?</strong> Yes, with ANC and multipoint, for Rs 1,000 more.</p>
+<p><strong>T200 or T500 Pro?</strong> T500 Pro for battery and ANC. T200 for LDAC at a lower price. Check if LDAC is supported on the T500 Pro unit you see.</p>
+<p><strong>Do they support wireless charging?</strong> Generally not.</p>
+<h2>Verdict</h2>
+<p>The T200x is the bargain, and the Air 8 the one to own with a Realme phone. The rest fill the steps in between, well. For a comparison across brands, read <a href="/guides/best-earbuds-under-3000-nepal">under Rs 3,000</a>, <a href="/guides/best-earbuds-under-5000-nepal">under Rs 5,000</a> and <a href="/guides/best-earbuds-under-10000-nepal">under Rs 10,000</a>.</p>
+
+=== samsung-earbuds-price-in-nepal
+<h2>Galaxy Buds in Nepal</h2>
+[[models:galaxy-buds-core,samsung-galaxy-buds3-fe,sasmung-galaxy-buds3,samsung-galaxy-buds4,samsung-galaxy-buds3-pro,samsung-galaxy-buds4-pro]]
+<h2>Are Galaxy Buds for you?</h2>
+<p>If you own a Galaxy phone, tablet or watch, read on. If you do not, you can stop here and buy something else, as the special features need Samsung's software. That is not a criticism. Apple does the same. It is simply how these products are built.</p>
+<h2>What you gain with a Galaxy</h2>
+<ul>
+<li>Pairing by opening the lid.</li>
+<li>Automatic switching between Galaxy devices.</li>
+<li>Samsung's own codec with higher-quality sound on recent models.</li>
+<li>360 Audio with head tracking.</li>
+<li>Live translation in the ear, with a supported phone.</li>
+<li>Controls in the quick panel, and SmartThings Find.</li>
+</ul>
+<h2>Buds Core: Rs 7,999</h2>
+<p>The <a href="/products/galaxy-buds-core">Buds Core</a> is small, light, has basic ANC and long battery. Sound is pleasant. The CMF Buds 2 Plus at Rs 8,999 is better equipped. Choose the Core for the Samsung conveniences, or when offered in a bundle. In November it was sold with large discounts during a pre-order campaign.</p>
+<h2>Buds 3 FE: Rs 19,999</h2>
+<p>Stems, sealed tips, good ANC. A solid mid-range pair with a price that meets the Soundcore Liberty 5 and Redmi Buds 8 Pro. On features outside Samsung's world they win. Inside it, the FE is convenient.</p>
+<h2>Buds 3 and Buds 4: Rs 22,999 and 26,099</h2>
+<p>Open-fit stems without tips. They are comfortable for hours and let in the world, and ANC cannot do much without a seal. People who dislike in-ear tips love them. Compare with AirPods 4 in idea. The <a href="/products/samsung-galaxy-buds4">Buds 4</a> improve sound, microphones and controls. The difference of about Rs 3,000 is fair.</p>
+<h2>Buds 3 Pro: Rs 31,999</h2>
+<p>Last year's best, with two-way drivers, strong ANC and 24-bit sound with Galaxy phones. At a discount to around Rs 25,000 they are excellent value. At list price, the Buds 4 Pro are only Rs 3,800 more.</p>
+<h2>Buds 4 Pro: Rs 35,799</h2>
+<p>Samsung's best noise cancelling, best sound and best calls. With a Galaxy S phone they are the natural choice. Against AirPods Pro 3 at Rs 47,999 they are cheaper. Against Sony's XM6 at Rs 64,999 they are much cheaper, and a step behind in silence.</p>
+<h2>Sealed or open</h2>
+<p>Pro, FE and Core models seal with tips. Buds 3 and 4 do not. This is the first decision. On a bus, sealed. In an office where you must hear your name, open. With sensitive ears, open. For bass, sealed.</p>
+<h2>Sound settings</h2>
+<p>In the Wearable app, choose Balanced and adjust with the nine-band equaliser. Turn on UHQ or 24-bit audio on supported phones and files. Adaptive EQ on Pro models compensates for fit. Turn off 360 Audio for music if voices feel distant.</p>
+<h2>ANC and ambient</h2>
+<p>Adaptive Noise Control on the Pros adjusts to sirens and voices. Conversation detect lowers the music when you speak. It is useful, and irritating if you sing along. Ambient sound is natural on the Pros.</p>
+<h2>Calls</h2>
+<p>Among the better ones, especially the Pros with super-wideband calls between Galaxy devices. In wind they manage.</p>
+<h2>Controls</h2>
+<p>Pinch and swipe on the stems. Swiping changes volume. It takes a day to learn. Customise the long pinch for ANC or an assistant.</p>
+<h2>Battery</h2>
+<p>Five to seven hours with ANC, 24 to 30 with the case. Wireless charging on higher models. Turn off always-listening assistant features to gain half an hour.</p>
+<h2>Water</h2>
+<p>Newer Pros carry IP57, others IP54 or so. Do not put wet buds in the case.</p>
+<h2>With non-Samsung phones</h2>
+<p>On other Androids, the Wearable app gives ANC and equaliser, with AAC. On iPhones there is hardly any support. No automatic switching, no Samsung codec.</p>
+<h2>Fit problems and tips</h2>
+<p>Run the fit test on Pro models. Replace tips yearly. Samsung's tips are a special shape, so buy genuine ones. On the first batches of Buds 3 Pro there were reports of torn tips abroad, so remove them gently with the pads of your fingers.</p>
+<h2>Warranty and lost buds</h2>
+<p>Samsung service in Nepal covers official units for a year and can supply single buds or cases for many models. Ask for the price: usually a third of the set. Register in Members. Use SmartThings Find, and remember it shows the last known location.</p>
+<h2>Fakes</h2>
+<p>Galaxy Buds are copied. Genuine ones show the correct name in the Wearable app and can update firmware. Check the serial inside the case and the sticker on the box.</p>
+<h2>Which to buy</h2>
+<ul>
+<li><strong>Budget Galaxy owner:</strong> Buds Core on offer.</li>
+<li><strong>Dislikes tips:</strong> Buds 4.</li>
+<li><strong>Best for the money:</strong> Buds 3 Pro discounted.</li>
+<li><strong>Best Samsung:</strong> Buds 4 Pro.</li>
+<li><strong>Not a Galaxy owner:</strong> CMF Buds 2 Plus or Soundcore Liberty 5.</li>
+</ul>
+<h2>Trade-ins and bundles</h2>
+<p>Samsung gives buds at half price or free during phone pre-orders. If you expect to buy an S27 or a fold in the coming year, wait for that. During Dashain, watch and buds combinations are discounted.</p>
+<h2>Galaxy Buds or Galaxy Watch first?</h2>
+<p>If your budget allows one, think about which you will use daily. Commuters and callers gain more from buds. Walkers and people who miss calls gain more from a watch. The <a href="/guides/samsung-smartwatch-price-in-nepal">watch page</a> has those prices.</p>
+<h2>Care</h2>
+<ul>
+<li>Wipe stems and sensors weekly.</li>
+<li>Clean mesh with a dry brush.</li>
+<li>Keep firmware current.</li>
+<li>Charge the case every week.</li>
+</ul>
+<h2>Verdict</h2>
+<p>For Galaxy owners with the money, the Buds 4 Pro are the ones to want and the Buds 3 Pro the ones to find on sale. For everybody else, the same rupees buy more from brands that treat all phones equally. See <a href="/guides/best-earbuds-under-20000-nepal">earbuds under Rs 20,000</a>.</p>
+
+=== sony-earbuds-price-in-nepal
+<h2>Sony's earbuds</h2>
+[[models:sony-wf-c510,sony-wfc700n,sony-wf-1000xm5,sony-wf-1000xm6]]
+<h2>Two leagues under one name</h2>
+<p>Sony sells four pairs in Nepal, and there is a canyon in the middle. The C510 and C700N are ordinary earbuds with good sound and high prices. The XM5 and XM6 are among the best in the world. If you are thinking about the first two, read carefully, because the same money goes further elsewhere. If you are thinking about the others, the question is which.</p>
+<h2>WF-C510: Rs 16,400</h2>
+<p>Small, light, comfortable, with clear sound, multipoint and no noise cancelling. Abroad it is a budget pair. In Nepal its price meets the Soundcore Liberty 5 and Redmi Buds 8 Pro, which have strong ANC and LDAC. Buy the C510 only for its tiny size, if your ears reject everything else.</p>
+<h2>WF-C700N: Rs 28,500</h2>
+<p>ANC, good battery, comfortable. It costs almost as much as Galaxy Buds 3 Pro on offer and more than the Liberty 5 that outperforms it. Look for it at half price or not at all.</p>
+<h2>WF-1000XM5: Rs 50,000</h2>
+<p>For two years the pair to beat. Superb sound with LDAC, strong noise cancelling, small comfortable body. <a href="/reviews/sony-wf-1000xm5-review-still-the-best-noise-cancelling-earbuds">Our review</a> explains why it still makes sense at the right price. Around Rs 35,000 to 40,000 on sale, it is a joy.</p>
+<h2>WF-1000XM6: Rs 64,999</h2>
+<p>Better noise cancelling, microphones and transparency. <a href="/reviews/sony-wf-1000xm6-review-nepal">Our review</a> finds it the quietest choice for Android users and asks whether Rs 15,000 more than the XM5 is worth it. For daily travellers, often yes. For most, the older one.</p>
+<h2>What Sony does best</h2>
+<p><strong>Sound.</strong> Balanced, detailed, with control over bass. <strong>LDAC.</strong> Sony invented it and implements it well. <strong>App.</strong> Deep settings: equaliser, adaptive sound by location, speak-to-chat, 360 Reality Audio. <strong>Noise cancelling.</strong> Broad and adaptive.</p>
+<h2>What it does less well</h2>
+<p>Controls can be fussy, cases are plain, some earlier models had battery ageing complaints, and the price in Nepal is high. There is no automatic switching across a Sony ecosystem in the way Apple and Samsung offer.</p>
+<h2>Foam tips</h2>
+<p>XM models use polyurethane foam tips that seal and block noise beautifully. They wear out in six to twelve months of daily use. Replacement sets cost Rs 2,000 to 3,000 where available. Third-party tips work, and may alter ANC. Include that in the cost of owning them.</p>
+<h2>Set-up that matters</h2>
+<ol>
+<li>Update firmware at once.</li>
+<li>Run the fit test for tip size.</li>
+<li>Turn off Speak-to-Chat unless you love it.</li>
+<li>Set equaliser through "Find your equaliser".</li>
+<li>Choose LDAC "priority on sound quality" at home and "stable connection" outside.</li>
+<li>Limit charging to 80 per cent if the option exists for your model.</li>
+</ol>
+<h2>Calls</h2>
+<p>XM5 good, XM6 very good, C-series average. In wind, the XM6's processing is strong. If you take calls on a street for a living, test.</p>
+<h2>iPhone owners</h2>
+<p>No LDAC. They still sound excellent over AAC. AirPods Pro 3 at Rs 47,999 give you switching, find my and health features. Choose Sony for sound, Apple for life. <a href="/reviews/airpods-pro-3-review-nepal">Our AirPods Pro 3 review</a> compares.</p>
+<h2>Galaxy owners</h2>
+<p>LDAC works on Galaxies. Buds 4 Pro at Rs 35,799 use Samsung's codec and integrate better. Sony cancels more and sounds more refined. The gap in price is large.</p>
+<h2>Battery</h2>
+<p>About eight hours with ANC on the XM5, similar on the XM6, and less with LDAC. Cases charge wirelessly on XM models. Three minutes gives an hour.</p>
+<h2>Durability</h2>
+<p>IPX4. Keep them dry. The glossy XM5 surface is slippery, so open the case over a table and not over a drain.</p>
+<h2>Official units and fakes</h2>
+<p>High-priced Sonys are copied, with convincing boxes. The Sony Sound Connect app recognises only real ones. Buy from a Sony dealer, check the serial, and ask for the warranty card. Grey units from Japan, Dubai and India are cheaper, with no local cover.</p>
+<h2>Lost buds</h2>
+<p>A single XM bud costs around a third of the pair and may take weeks to come. Turn on Find Your Equipment. Consider whether you lose things before spending Rs 65,000.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Frequent flyer on Android:</strong> XM6.</li>
+<li><strong>Music lover with sense:</strong> XM5 on sale.</li>
+<li><strong>Tiny ears:</strong> C510, reluctantly.</li>
+<li><strong>Nobody at list price:</strong> C700N.</li>
+</ul>
+<h2>Alternatives for less</h2>
+<p><strong>Rs 9,000:</strong> CMF Buds 2 Plus. <strong>Rs 15,000 to 17,500:</strong> Redmi Buds 8 Pro, Liberty 5. <strong>Rs 25,000 to 32,000:</strong> Galaxy Buds 3 Pro. They will give you 75 to 85 per cent of the XM5's experience.</p>
+<h2>Headphones instead?</h2>
+<p>At Rs 57,600 the WH-1000XM5 over-ear pair is more comfortable for desks and flights, with thirty hours of battery. If you do not need something pocketable, it is the better purchase. See <a href="/guides/sony-headphones-price-in-nepal">Sony headphones</a>.</p>
+<h2>Used XM5 or XM4</h2>
+<p>Used pairs are tempting. The batteries in buds age quickly, hygiene matters, and fakes circulate. Check in the app, test hours per charge, replace the tips, and pay no more than half of the new price.</p>
+<h2>When to buy</h2>
+<p>Sony discounts at festivals and when a successor lands. The XM5 has come down since the XM6 arrived, and there is room for more. Put a price in your head and wait for it.</p>
+<h2>Care</h2>
+<ul>
+<li>Brush the mesh and charging pins monthly.</li>
+<li>Replace foam tips when they no longer spring back.</li>
+<li>Do not charge with wet buds.</li>
+<li>Avoid leaving them at zero.</li>
+</ul>
+<h2>Verdict</h2>
+<p>Sony's best are worth their reputation. The XM5 at Rs 40,000 or less is the one we would buy. The XM6 is for people whose ears earn their living on the road. The C-series is for other countries, where it costs half as much.</p>
+
+=== sony-headphones-price-in-nepal
+<h2>Eight headphones, three audiences</h2>
+[[models:sony-wh-ch720n,sony-wh-ult900n-ult-wear,sony-wh-1000xm5,sony-wh-1000xm6,sony-wh-g300-inzone-h3,sony-wh-g500-inzone-h5,sony-wh-g900n-inzone-h9]]
+<h2>Find your row</h2>
+<p>Travellers and office workers want the 1000X line. Bass fans want ULT. Students on a budget look at the CH720N. Gamers look at INZONE. The four groups have little in common, so compare inside a row and not across the table.</p>
+<h2>WH-CH720N: Rs 27,000</h2>
+<p>At under 200 grams it is one of the lightest noise-cancelling headphones made, with 35 hours of battery and clear sound. It is comfortable for a whole day. The plastic feels cheap, and the price in Nepal is high for what is a budget model abroad. The Soundcore Space 2 at Rs 24,499 cancels more. The CMF Headphone Pro at Rs 13,999 does nearly as well for half. Choose the Sony if weight is your priority.</p>
+<h2>ULT Wear: Rs 35,000</h2>
+<p>A button adds bass, and another press adds more. Underneath is a good pair of noise-cancelling headphones with LDAC and fifty hours without ANC. If your playlist is hip-hop, EDM and dance, you will be very happy. With the button off it is balanced.</p>
+<h2>WH-1000XM5: Rs 57,600</h2>
+<p>Excellent cancelling, light, with a comfortable headband, superb app and clear calls. Its weaknesses are a design that does not fold and touch controls that misbehave in the cold. With the XM6 at Rs 88,999, the XM5 has become the sensible one, and on sale near Rs 48,000 it is outstanding.</p>
+<h2>WH-1000XM6: Rs 88,999</h2>
+<p>Stronger noise cancelling with more microphones, better calls, a folding hinge and refined sound. Is it Rs 31,000 better? If you fly monthly or work in a loud office, it might be. If you use headphones at home in the evening, no.</p>
+<h2>1000X The Collexion: Rs 1,06,900</h2>
+<p>A special edition with premium materials. A gift for someone who has everything.</p>
+<h2>INZONE H3, H5, H9</h2>
+<p>For PC and PlayStation. The <a href="/products/sony-wh-g300-inzone-h3">H3</a> at Rs 16,200 is wired, with a good boom microphone. The <a href="/products/sony-wh-g500-inzone-h5">H5</a> at Rs 28,999 is wireless with a 2.4GHz dongle, light and comfortable, and the best of the three for most players. The <a href="/products/sony-wh-g900n-inzone-h9">H9</a> at Rs 55,499 adds noise cancelling and better materials. HyperX, Logitech and Razer offer rivals, and stock in Nepal decides.</p>
+<h2>How Sony's noise cancelling works for you</h2>
+<p>It analyses pressure and noise and adapts. The XM models reduce voices more than most, though never completely. For constant hum, such as aircraft and generators, they are brilliant. In the app, you can set modes by place, so home and office have their own behaviour.</p>
+<h2>LDAC and DSEE</h2>
+<p>With Android, LDAC gives more detail with good files. DSEE restores some sparkle to compressed music. Both cost battery. On iPhone, AAC sounds fine.</p>
+<h2>Comfort in our climate</h2>
+<p>Leatherette pads trap heat. In the Terai summer, an hour is the limit for closed pads. In winter they are earmuffs with music. The CH720N's small pads are the coolest. Wipe pads after use, and replace them every two years. Third-party pads cost Rs 1,500 to 3,000 and may reduce ANC.</p>
+<h2>Calls and meetings</h2>
+<p>XM6 best, XM5 very good, others fair. Multipoint connects a laptop and a phone. On Windows, use the laptop's microphone to keep music quality, or enable LE Audio if both sides support it.</p>
+<h2>Wired use</h2>
+<p>XM and ULT models accept a 3.5mm cable. They can be used on a plane's system or with the battery empty, at lower quality. CH720N too.</p>
+<h2>Battery and charging</h2>
+<p>Thirty to fifty hours. Three minutes gives hours of play on XM5 and XM6. Batteries in headphones last many years. Avoid storing them empty.</p>
+<h2>Fakes and grey units</h2>
+<p>Counterfeit XM4s and XM5s are very convincing in photographs. Pair with Sony's app in the shop, check for firmware updates, test ANC against a fan and look at the serial number. Grey units from Dubai or Japan are genuine but carry no local warranty. Japanese ones may have region-locked language prompts.</p>
+<h2>Warranty in Nepal</h2>
+<p>Sony has authorised dealers and service. One year is usual. Headband cracks and hinge breaks are considered physical damage. Use the case.</p>
+<h2>Used XM4</h2>
+<p>A used XM4 at Rs 20,000 to 28,000 can be the bargain of the decade if genuine and healthy. It folds, sounds great, and cancels nearly as well as the XM5. Check the hinge, pads, microphones, ANC on both sides and battery hours. Factor in new pads.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Lightness:</strong> CH720N on discount.</li>
+<li><strong>Bass:</strong> ULT Wear.</li>
+<li><strong>Best value for quiet:</strong> XM5 on sale, or used XM4.</li>
+<li><strong>Best for frequent travel:</strong> XM6.</li>
+<li><strong>PlayStation and PC:</strong> INZONE H5.</li>
+</ul>
+<h2>Alternatives</h2>
+<p><strong>Rs 14,000:</strong> CMF Headphone Pro. <strong>Rs 20,000 to 25,000:</strong> Soundcore Space Q45, Space 2. <strong>Rs 27,000:</strong> Nothing Headphone (a). <strong>Rs 40,000:</strong> JBL Tour One M2. Bose and Apple are alternatives near the XM6, mostly imported.</p>
+<h2>Setting them up</h2>
+<ol>
+<li>Update firmware.</li>
+<li>Run the ANC optimiser, and again at altitude.</li>
+<li>Set the equaliser by ear with your own songs.</li>
+<li>Turn off Speak-to-Chat if you hum.</li>
+<li>Enable multipoint.</li>
+<li>Set the volume limiter.</li>
+</ol>
+<h2>For remote work</h2>
+<p>If noise at home costs you an hour a day, an XM5 repays its price within a couple of months for most salaried people. A quiet room would be better and costs more.</p>
+<h2>When to buy</h2>
+<p>Festival offers on the XM5 and ULT are frequent. The XM6 rarely moves. INZONE drops around console launches and year end. Our product pages show the last recorded price.</p>
+<h2>Verdict</h2>
+<p>The WH-1000XM5 at a good discount is the Sony for most people with a serious budget. The CH720N needs a lower price, the ULT is for those who know that they want it, and the XM6 is for travellers who will use every bit of it. Before paying any of these, listen to the CMF at Rs 13,999. It keeps everyone honest. See <a href="/guides/best-headphones-under-30000-nepal">headphones under Rs 30,000</a>.</p>
+
+=== xiaomi-earbuds-price-in-nepal
+<h2>Redmi Buds side by side</h2>
+[[models:redmi-buds-5a,redmi-buds-6-play,redmi-buds-8-active,redmi-buds-8-lite,redmi-buds-8,redmi-buds-8-pro]]
+<h2>Six steps from Rs 1,999</h2>
+<p>Redmi Buds are the default cheap earbuds in much of Nepal, with good reason. They are in every Xiaomi shop, they are serviced by Xiaomi, and at each price they are decent. Not every step on the ladder is worth climbing, though. Two of the six stand out.</p>
+<h2>Redmi Buds 5A: Rs 1,999</h2>
+<p>The best safe choice under Rs 2,000. Pairing is simple, the sound is acceptable and the battery lasts about a working week of commuting. Some versions offer basic noise reduction. As a first pair, a gift or a spare, buy it without thinking.</p>
+<h2>Redmi Buds 6 Play: Rs 2,499</h2>
+<p>Longer battery, light, no ANC. The Realme T200x at Rs 2,999 has ANC and multipoint, and the Kick X Pro at Rs 2,599 as well. The Play is for people who want comfort and battery from a known brand.</p>
+<h2>Redmi Buds 8 Active and 8 Lite: Rs 4,499 and 4,999</h2>
+<p>Here Redmi faces its hardest test, the OnePlus Nord Buds 4 at Rs 4,999. The OnePlus has stronger ANC and longer battery. The 8 Lite is a good pair for Xiaomi phone owners who enjoy the pop-up and system controls. The Active is a semi-open design for those who dislike a tight seal.</p>
+<h2>Redmi Buds 8: Rs 10,499</h2>
+<p>Better drivers and ANC, eleven hours in the buds. The CMF Buds 2 Plus at Rs 8,999 makes it hard to choose unless you have a Xiaomi phone.</p>
+<h2>Redmi Buds 8 Pro: Rs 14,999</h2>
+<p>The second standout. Strong ANC, LDAC, several drivers and good calls for Rs 14,999, close to pairs that cost twice as much. With a Xiaomi, Redmi or POCO phone it is the best earbud purchase under Rs 20,000. With other phones the Soundcore Liberty 5 is its equal at Rs 2,500 more. Both lead our <a href="/guides/best-earbuds-under-20000-nepal">earbuds under Rs 20,000</a>.</p>
+<h2>With Xiaomi phones</h2>
+<p>You get instant pairing, battery in the notification shade, ANC control in the control centre, spatial audio and, on some models, higher-quality codecs. On HyperOS you can set gestures without another app. Phones connected to a Xiaomi tablet can hand over audio.</p>
+<h2>With other phones</h2>
+<p>Use the Xiaomi Earbuds app for equaliser, ANC and updates. Google Fast Pair works on many models. On iPhone, basic functions and AAC.</p>
+<h2>Sound</h2>
+<p>Balanced to bassy. The "enhance voice" preset is useful for podcasts and news. The Pro has a custom equaliser and personal sound. The cheap ones have presets.</p>
+<h2>Noise cancelling expectations</h2>
+<p>8 Lite: useful for engines. Buds 8: good. 8 Pro: very good, with adaptive modes and natural transparency. 5A and 6 Play: do not expect any worth mentioning.</p>
+<h2>Calls</h2>
+<p>Fair on the cheap models indoors. The 8 Pro uses three microphones and handles wind better than anything under Rs 15,000 from Redmi.</p>
+<h2>Fit</h2>
+<p>Light and small. Three tip sizes. The 8 Active sits at the ear's entrance without tips. If a sealed pair hurts you, try it.</p>
+<h2>Battery</h2>
+<p>From six or seven hours on the cheap ones to eleven on the Buds 8 without ANC. Cases add three or four charges by USB-C. Ten minutes gives two to four hours.</p>
+<h2>Water</h2>
+<p>IP54 on most. Enough for sweat and drizzle.</p>
+<h2>Game mode</h2>
+<p>Present on most. Good for casual play. Triple tap on some models, or in the app.</p>
+<h2>Warranty</h2>
+<p>Xiaomi service in Nepal covers official units, usually for six months to a year on earbuds. Replacement is quick for common models. Indian units are common, with no local cover. Keep the bill and box.</p>
+<h2>Fakes</h2>
+<p>Redmi AirDots, the older name, are copied a great deal. Current models are too. A real pair shows its exact name in the Xiaomi Earbuds app and on Xiaomi phones. Prices under Rs 1,200 are a sign.</p>
+<h2>Which to buy</h2>
+<ul>
+<li><strong>Cheapest good pair:</strong> Buds 5A.</li>
+<li><strong>Xiaomi phone, Rs 5,000:</strong> Buds 8 Lite.</li>
+<li><strong>Any phone, Rs 5,000:</strong> OnePlus Nord Buds 4.</li>
+<li><strong>Best Redmi:</strong> Buds 8 Pro.</li>
+</ul>
+<h2>Bundles</h2>
+<p>Xiaomi gives buds with phones at launch and during brand days. If you are buying a Redmi Note or POCO, ask for the earbud price with the phone. The 8 Pro at Rs 11,000 in a bundle is a lovely deal.</p>
+<h2>Fixing common troubles</h2>
+<p><strong>Only one side connects:</strong> return both to the case, hold the button for ten seconds, pair again. <strong>Lag in video:</strong> turn off LDAC. <strong>Low volume:</strong> brush the mesh, and check the safety limit in the phone. <strong>Will not update:</strong> keep both buds in the open case near the phone, above 30 per cent charge.</p>
+<h2>Care</h2>
+<p>Dry them, brush them, charge the case weekly. Avoid the heat of a dashboard. Replace tips yearly. Two to three years is normal.</p>
+<h2>Compared with rivals</h2>
+<p><strong>Realme:</strong> better at Rs 3,000. <strong>OnePlus:</strong> better at Rs 5,000. <strong>CMF:</strong> better at Rs 9,000. <strong>Soundcore:</strong> better apps everywhere. <strong>Redmi:</strong> best at Rs 2,000 and at Rs 15,000, and strongest in service.</p>
+<h2>Children</h2>
+<p>For a teenager the 5A is perfect: cheap, replaceable. Set a volume limit. For younger children choose headphones with a fixed limit.</p>
+<h2>Is it worth waiting for a newer model?</h2>
+<p>Redmi Buds change every year. When a new generation arrives, the old one falls by a quarter. Cheap pairs are not worth waiting for. For the Pro, if a new number is in the news, wait a month.</p>
+<h2>Health</h2>
+<p>Use transparency on roads. Keep the volume under 60 per cent. Give your ears ten minutes off every hour.</p>
+<h2>Verdict</h2>
+<p>Remember two names: Buds 5A at the bottom and Buds 8 Pro at the top. Between them, other brands usually do a little more for the money. For the cross-brand lists, see <a href="/guides/best-earbuds-under-3000-nepal">under Rs 3,000</a> and <a href="/guides/best-earbuds-under-5000-nepal">under Rs 5,000</a>.</p>
+
+=== boat-earbuds-price-in-nepal
+<h2>A selection of boAt earbuds</h2>
+[[models:boat-airdopes-212,boat-airdopes-120,boat-immortal-131,boat-nirvana-ion,boat-airdopes-loop,boat-airdopes-411-anc,boat-nirvana-ion-anc-pro]]
+<h2>Twenty-four names, four ideas</h2>
+<p>boAt floods the shelf. Underneath the names there are four kinds of product. <strong>Airdopes</strong> are everyday buds. <strong>Immortal</strong> are for games. <strong>Nirvana</strong> are the better ones, with bigger batteries or more drivers. <strong>Loop</strong> and similar are open-ear. Once you decide which idea suits you, the choice falls from 24 to three or four.</p>
+<h2>What boAt is</h2>
+<p>An Indian brand that designs and markets products made largely by the same factories as other value brands. It spends on style, colours, celebrities and bass. Quality varies by model. It is strong in Nepal because prices are low, shops are many and the border is near.</p>
+<h2>Under Rs 3,000</h2>
+<p>The <a href="/products/boat-airdopes-212">Airdopes 212</a> at Rs 2,199 offers long battery and solid bass. The 91 Prime and <a href="/products/boat-airdopes-120">Airdopes 120</a> are similar. At Rs 2,599 the Kick X Pro has ANC and multipoint, and at Rs 1,999 the Redmi Buds 5A has better service. Among boAts here, the 212 is the value.</p>
+<h2>Immortal 131: gaming</h2>
+<p>At Rs 2,799 with a low-latency mode and lights. Fun for a teenager. The delay is acceptable for casual games. It is not a tournament tool.</p>
+<h2>Nirvana Ion: the battery king</h2>
+<p>For Rs 3,999 the <a href="/products/boat-nirvana-ion">Nirvana Ion</a> claims 24 hours in the buds and 120 with the case. Even at two-thirds of that, you charge twice a month. No ANC in this one. For watchmen, drivers on breaks and travellers it is a unique product.</p>
+<h2>Nirvana Ion ANC and ANC Pro</h2>
+<p>At Rs 6,599 to 6,699 they add noise cancelling to the same battery idea. The ANC is decent. Against the Soundcore R60i NC at Rs 5,499 and CMF Buds 2 at Rs 7,499, they win only on battery.</p>
+<h2>Airdopes 411 ANC, Nirvana Space, Nirvana X</h2>
+<p>At Rs 5,000 to 6,000 these meet the OnePlus Nord Buds 4 at Rs 4,999, which cancel noise better and have a better app. Unless discounted below Rs 4,000, choose the OnePlus.</p>
+<h2>Airdopes Loop: open ear</h2>
+<p>At Rs 4,499 the <a href="/products/boat-airdopes-loop">Loop</a> is one of the cheapest clip-style open earbuds. You hear your surroundings, the fit is comfortable, and bass is thin. If you are curious about open buds and not ready for Rs 15,000, try it.</p>
+<h2>Sound</h2>
+<p>Bass, and then more bass. boAt's signature hides voices. If there is an equaliser in the app, lower it. Otherwise use your phone's. With that, even the cheap ones become pleasant.</p>
+<h2>Apps</h2>
+<p>The boAt Hearables app supports the newer and dearer ones, with equaliser, controls and updates. Cheap models have none. Check that yours is supported before paying extra for "app support".</p>
+<h2>Labels decoded</h2>
+<ul>
+<li><strong>ENx:</strong> helps your caller, not you.</li>
+<li><strong>BEAST mode:</strong> low latency.</li>
+<li><strong>ASAP Charge:</strong> quick charge.</li>
+<li><strong>IWP:</strong> wakes on opening the case.</li>
+<li><strong>Signature Sound:</strong> bass.</li>
+<li><strong>ANC 32dB:</strong> actual noise cancelling, modest.</li>
+</ul>
+<h2>Calls</h2>
+<p>Four microphones are common in advertisements. Indoors they are fine. Outdoors they vary. Record a voice note in the shop near the door.</p>
+<h2>Battery claims</h2>
+<p>At 60 per cent volume, without ANC. Expect 70 per cent of the figure. Ten minutes of charge gives two hours or more.</p>
+<h2>Water</h2>
+<p>IPX4 to IPX7 depending on model. boAt does well here. Dry before charging regardless.</p>
+<h2>Fit</h2>
+<p>Stems and round types exist. The box has three tips. Nirvana models are larger. Try them.</p>
+<h2>Warranty</h2>
+<p>One year from the distributor on official units, usually with replacement. Indian units need a visit to India or a courier. Ask which it is. Register online where asked. Failures within the year are not rare with budget buds, so the warranty has real value.</p>
+<h2>Fakes</h2>
+<p>boAt is copied in the cheapest markets. Check the serial, the hologram sticker, the print and the name in Bluetooth. Very low prices online from unknown sellers are suspect.</p>
+<h2>Prices: ignore the MRP</h2>
+<p>The printed MRP can be three times the selling price. "78% off" means nothing. Compare the final price with the alternatives named above.</p>
+<h2>Who should buy boAt</h2>
+<ul>
+<li><strong>Extreme battery:</strong> Nirvana Ion.</li>
+<li><strong>Cheap everyday:</strong> Airdopes 212.</li>
+<li><strong>Curious about open ear:</strong> Airdopes Loop.</li>
+<li><strong>Young gamer:</strong> Immortal 131.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>People who want balanced music.</li>
+<li>Commuters who want strong ANC.</li>
+<li>Professionals on calls.</li>
+<li>Those who dislike choosing from twenty-four names.</li>
+</ul>
+<h2>Better alternatives by price</h2>
+<p><strong>Rs 2,000:</strong> Redmi Buds 5A. <strong>Rs 3,000:</strong> Realme T200x. <strong>Rs 5,000:</strong> OnePlus Nord Buds 4. <strong>Rs 5,500:</strong> Soundcore R60i NC. <strong>Rs 9,000:</strong> CMF Buds 2 Plus.</p>
+<h2>Troubleshooting</h2>
+<p><strong>One side dead:</strong> clean the pins, reset, re-pair. <strong>Pairs with someone else's phone:</strong> forget it there first. <strong>Echo in calls:</strong> lower the volume, and try one bud. <strong>Case not charging:</strong> try a 5V charger and cable, as some cases refuse fast chargers.</p>
+<h2>Neckbands</h2>
+<p>boAt's Rockerz neckbands at Rs 1,200 to 2,500 are excellent for delivery riders and shopkeepers: long battery, hard to lose, better microphones. If that is your day, they are a smarter purchase than buds.</p>
+<h2>Looking after hearing</h2>
+<p>Bass-heavy buds invite high volume. Keep below 60 per cent. Use transparency or one ear on roads.</p>
+<h2>Verdict</h2>
+<p>boAt's Nirvana Ion is special, and the Airdopes 212 and Loop are good at what they do. The rest are style for small money in a field with better sound and service. Choose by purpose, ignore the MRP, and test in the first week. For the wider field, read <a href="/guides/best-earbuds-under-5000-nepal">earbuds under Rs 5,000</a>.</p>
+
+=== boat-headphones-price-in-nepal
+<h2>boAt Rockerz headphones</h2>
+[[models:boat-rockerz-371,boat-rockerz-411,boat-rockerz-430,boat-rockerz-412,boat-rockerz-650-pro]]
+<h2>Five pairs, one family</h2>
+<p>All of boAt's over-the-head pairs in our list are Rockerz, all are Bluetooth, and none has active noise cancelling. They cost between Rs 2,299 and Rs 6,299. They are for students and young listeners who want long battery, strong bass and bright colours for little money. The numbers do not rise with quality, so here is the order that matters.</p>
+<h2>Rockerz 371: Rs 2,299</h2>
+<p>The cheapest. On-ear, light, with a claimed fifty hours. It does the job for lessons and videos. Pads are thin, so an hour is the limit of comfort.</p>
+<h2>Rockerz 411 and 430: Rs 2,799 and 2,999</h2>
+<p>Small variations in battery and design. The 430 lists sixty hours. Choose by what feels better on your head. The differences in sound are slight.</p>
+<h2>Rockerz 412: Rs 3,099</h2>
+<p>Fifty hours and connection to two devices. Multipoint makes it the most useful of the cheap ones for anyone with a laptop. It is our pick under Rs 4,000.</p>
+<h2>Rockerz 650 Pro: Rs 6,299</h2>
+<p>Over-ear, softer pads, eighty hours, multipoint, gesture controls. It is a real step up in comfort. Spatial audio modes are gimmicks, and the battery is not. Against the Soundcore Q11i at Rs 4,999, which is better tuned, the 650 Pro offers longer battery and a livelier look. Against the Q20i at Rs 9,199, it lacks noise cancelling.</p>
+<h2>On-ear or over-ear?</h2>
+<p>The first four rest on your ears. They are cooler and smaller, and begin to press. The 650 Pro surrounds them, blocks more noise and is better for glasses. If you study for three hours at a time, the difference is worth Rs 3,000.</p>
+<h2>Sound</h2>
+<p>Bass-heavy, loud, with a bright top. Films and dance music are exciting. Voices sit behind. Use an equaliser on the phone: lower the first two bands, raise the fourth. On a laptop, free tools such as Equalizer APO do the same.</p>
+<h2>For online classes</h2>
+<p>They are comfortable enough and the microphones are passable in a quiet room. Choose the laptop's own microphone for your voice to keep sound quality high. Windows lists the headphones twice: pick "Headphones (Stereo)" and not "Headset (Hands-Free)".</p>
+<h2>Battery in real life</h2>
+<p>The figures are measured at 60 per cent volume. Expect two-thirds. That is still a week or two for most. Charging takes about two hours by USB-C. Ten minutes gives several hours.</p>
+<h2>Wired mode</h2>
+<p>Many Rockerz have a 3.5mm input, and some include a cable. Check. It is useful for computers without Bluetooth and for zero delay in games.</p>
+<h2>Gaming</h2>
+<p>Low-latency modes exist on some. For serious play use a wired connection or a gaming headset with a boom microphone for Rs 2,500 to 4,500.</p>
+<h2>Durability</h2>
+<p>Plastic hinges and sliders are the weak points. Do not stretch them, do not sleep in them, and do not hang them by one cup. Pads flake after a year or two of sweat. Universal replacement pads cost Rs 300 to 600.</p>
+<h2>Water</h2>
+<p>No serious rating. Keep away from rain and heavy sweat.</p>
+<h2>Warranty in Nepal</h2>
+<p>Official units come with up to a year. Keep the bill and box. Indian units, common at the border, do not have local cover. Test both sides, the microphone and charging in the first days.</p>
+<h2>Fakes and lookalikes</h2>
+<p>Very cheap headphones with names similar to boAt appear in markets. Check the serial number and the distributor's sticker. A genuine pair announces itself with the correct name in Bluetooth.</p>
+<h2>Who should buy which</h2>
+<ul>
+<li><strong>Smallest budget:</strong> Rockerz 371.</li>
+<li><strong>Student with a laptop:</strong> Rockerz 412.</li>
+<li><strong>Long hours and comfort:</strong> Rockerz 650 Pro, or Soundcore Q11i.</li>
+</ul>
+<h2>Who should not</h2>
+<ul>
+<li>Anyone who needs noise cancelling.</li>
+<li>Musicians and editors.</li>
+<li>Professional callers.</li>
+</ul>
+<h2>Compared with rivals</h2>
+<p><strong>Soundcore Q11i (Rs 4,999):</strong> better sound, app, comfort. The one to save for. <strong>JBL Tune 530BT (Rs 9,500):</strong> better built, costlier. <strong>Wired options (Rs 1,500 to 3,000):</strong> cleaner sound for desks. <strong>boAt earbuds:</strong> smaller, with shorter comfort.</p>
+<h2>Why headphones and not earbuds?</h2>
+<p>They last longer on a charge, are hard to lose, do not enter the ear canal and can be repaired with new pads. They are larger and hotter. For home study we would choose headphones at this budget, and for a bus, earbuds with ANC. Our article on <a href="/blog/earbuds-vs-headphones-which-should-you-buy">earbuds or headphones</a> explores the choice.</p>
+<h2>Children</h2>
+<p>For children under twelve, buy limited-volume headphones. Rockerz go loud. If your child already has a pair, set the phone or tablet's volume limit and lock it with a PIN.</p>
+<h2>Setting up</h2>
+<ol>
+<li>Charge fully before first use.</li>
+<li>Pair with the phone, then the laptop if multipoint is supported.</li>
+<li>Set an equaliser.</li>
+<li>Adjust the band so pads sit flat.</li>
+<li>Learn the button presses: once to play, twice for next, hold for pairing.</li>
+</ol>
+<h2>Fixing faults</h2>
+<p><strong>Sound from one side:</strong> test with the cable. If both sides work wired, reset Bluetooth. If not, it is a broken wire in the band: warranty. <strong>Crackling:</strong> move away from a crowded 2.4GHz area. <strong>Will not charge:</strong> use a plain 5V adapter. <strong>Cuts out:</strong> keep the phone on the same side as the main cup.</p>
+<h2>Price sense</h2>
+<p>Ignore the MRP. These models are sold at half of it all year. A fair price for the 412 is around Rs 2,800 to 3,100, and for the 650 Pro Rs 5,500 to 6,300. Below that, check for authenticity.</p>
+<h2>Hearing</h2>
+<p>Sixty per cent volume for an hour, then a break. If your ears ring, it was too loud. No discount will buy new ones.</p>
+<h2>Verdict</h2>
+<p>The Rockerz 412 is the useful cheap pair, and the 650 Pro the comfortable one. If you can wait and save to Rs 4,999, the Soundcore Q11i is better than both for listening. All are compared in <a href="/guides/best-headphones-under-5000-nepal">headphones under Rs 5,000</a> and <a href="/guides/best-headphones-under-10000-nepal">under Rs 10,000</a>.</p>

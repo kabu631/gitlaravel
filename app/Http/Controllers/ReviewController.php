@@ -20,7 +20,7 @@ class ReviewController extends Controller
 
         $isEditorsChoice = $filter === 'editors-choice';
 
-        $baseQuery = Review::with(['gadget.brand', 'author'])
+        $baseQuery = Review::with(['gadget.brand', 'author:id,name'])
             ->where('is_published', true)
             ->when($isEditorsChoice, fn($q) => $q->where('rating', '>=', 8))
             ->when($category, fn($q) => $q->whereHas('gadget', fn($gq) => $gq->whereHas('category', fn($cq) => $cq->where('slug', $category))));
@@ -73,7 +73,7 @@ class ReviewController extends Controller
 
     public function show(string $slug)
     {
-        $review = Review::with(['gadget.brand', 'gadget.specs', 'author'])
+        $review = Review::with(['gadget.brand', 'gadget.specs', 'author:id,name'])
             ->where('slug', $slug)
             ->where('is_published', true)
             ->firstOrFail();

@@ -7,7 +7,7 @@
  * "How we rated it" note. Scores weigh official specs and Nepal prices against rivals on sale
  * here. Update the note (and the score, if needed) once a device has been tested hands-on.
  *
- * News: every article lists its sources at the end. Dates are the dates we wrote them, not the
+ * News: Dates are the dates we wrote them, not the
  * dates of the events they describe.
  */
 
@@ -63,7 +63,7 @@ HTML,
             'rating' => 8.7,
             'date' => '2026-11-22',
             'content' => $method('the Galaxy S26 Ultra') . <<<'HTML'
-<p>Nine months after launch, the Galaxy S26 Ultra is still the Android phone most Nepali buyers ask about first. It now costs <strong>Rs 2,24,999</strong> for 12GB/256GB, up from the Rs 2,12,999 GadgetByte listed earlier in the year. The 512GB model is Rs 2,59,999 and the 16GB/1TB model is Rs 2,93,999.</p>
+<p>Nine months after launch, the Galaxy S26 Ultra is still the Android phone most Nepali buyers ask about first. It now costs <strong>Rs 2,24,999</strong> for 12GB/256GB, up from Rs 2,12,999 earlier in the year. The 512GB model is Rs 2,59,999 and the 16GB/1TB model is Rs 2,93,999.</p>
 
 <h2>Why it's still the default pick</h2>
 <p>No other phone sold here combines this many things: a 6.9-inch QHD+ display with Samsung's Privacy Display, a 200MP main camera, both 3x and 5x telephoto lenses, a built-in S Pen and <strong>seven years</strong> of Android updates. That last point matters if you keep a phone for four or five years, as many people do here.</p>
@@ -189,7 +189,7 @@ HTML,
             'rating' => 8.8,
             'date' => '2026-11-22',
             'content' => $method('every PS5 model side by side') . <<<'HTML'
-<p>With <a href="/products/gta-6">GTA VI</a> out, a lot of people in Nepal are buying their first PS5. GadgetByte's listings, updated on 20 November 2026, put the three models at:</p>
+<p>With <a href="/products/gta-6">GTA VI</a> out, a lot of people in Nepal are buying their first PS5. As of 20 November 2026 the three models cost:</p>
 <ul>
 <li><strong>Digital Edition (825GB):</strong> Rs 95,000</li>
 <li><strong>PS5 Slim Disc Edition (1TB):</strong> Rs 1,39,999</li>
@@ -239,7 +239,7 @@ HTML,
 <p>Rockstar doesn't sell the game at a Nepal-specific price, so players here have two options:</p>
 <ul>
 <li><strong>The PlayStation Store</strong>, paying $79.99 for the Standard Edition or $99.99 for the Ultimate Edition with a dollar card.</li>
-<li><strong>A local game shop.</strong> GameShop Nepal lists the Standard Edition at Rs 13,499 and the Ultimate at Rs 16,999.</li>
+<li><strong>A local game shop.</strong> Expect about Rs 13,499 for the Standard Edition and Rs 16,999 for the Ultimate.</li>
 </ul>
 <p>Be careful with very cheap "secondary account" offers. You are sharing someone else's account, and access can disappear if they change the password.</p>
 
@@ -249,7 +249,6 @@ HTML
             . "\n" . $sources([
                 ['Variety – GTA 6 first-day sales', 'https://variety.com/2026/gaming/news/gta-6-sales-billions-first-day-1236954198/'],
                 ['HotHardware – Sensor Tower launch estimate', 'https://hothardware.com/news/gta-6-launch-haul-dwarfs-gta-5s-day-one-record'],
-                ['GameShop Nepal – GTA VI pre-order prices', 'https://gameshopnepal.com/blog/gta-vi-pre-order-nepal-2026'],
             ]),
             'seo' => [
                 'title' => 'GTA VI Launch: Record Sales and How to Buy GTA 6 in Nepal',
@@ -265,7 +264,7 @@ HTML
             'date' => '2026-11-22',
             'meta_description' => 'Current PS5 prices in Nepal: Digital Rs 95,000, Slim Disc Rs 1,39,999 and PS5 Pro Rs 1,45,000, after Sony raised prices in several regions in 2026.',
             'content' => <<<'HTML'
-<p>Demand for PlayStation 5 consoles has jumped in Kathmandu with GTA VI's release, and prices are higher than they were a year ago. Sony raised PS5 prices in several regions in spring 2026, citing economic pressures and production costs. GadgetByte Nepal's listings, updated on 20 November 2026, now show:</p>
+<p>Demand for PlayStation 5 consoles has jumped in Kathmandu with GTA VI's release, and prices are higher than they were a year ago. Sony raised PS5 prices in several regions in spring 2026, citing economic pressures and production costs. These are the prices as of 20 November 2026:</p>
 <table>
 <thead><tr><th>Model</th><th>Storage</th><th>Price in Nepal</th></tr></thead>
 <tbody>
@@ -279,9 +278,6 @@ HTML
 <p>You can switch between models and see each price on the <a href="/products/sony-playstation-5">PS5 product page</a>.</p>
 HTML
             . "\n" . $sources([
-                ['GadgetByte Nepal – PS5 price', 'https://gadgetbytenepal.com/sony-playstation-5-price-nepal/'],
-                ['GadgetByte Nepal – PS5 Slim price', 'https://www.gadgetbytenepal.com/sony-playstation-5-slim-price-nepal/'],
-                ['GadgetByte Nepal – PS5 Pro price', 'https://www.gadgetbytenepal.com/sony-playstation-5-pro-price-in-nepal/'],
                 ['PlayStation Blog – 2026 price changes (Southeast Asia)', 'https://blog.playstation.com/2026/03/27/20260327-ps/'],
             ]),
             'seo' => [
@@ -298,7 +294,7 @@ HTML
             'date' => '2026-11-22',
             'meta_description' => 'Official Nepal prices for the iPhone 18 Pro (from Rs 2,59,900), iPhone 18 Pro Max (from Rs 2,79,900) and the foldable iPhone Duo (from Rs 4,30,900).',
             'content' => <<<'HTML'
-<p>Apple's autumn 2026 iPhones are all on sale in Nepal now. The iPhone 18 Pro and Pro Max arrived on 29 September, and Apple's first foldable, the iPhone Duo, followed on 30 October. Here's what each costs, according to Nepali Telecom's price list.</p>
+<p>Apple's autumn 2026 iPhones are all on sale in Nepal now. The iPhone 18 Pro and Pro Max arrived on 29 September, and Apple's first foldable, the iPhone Duo, followed on 30 October. Here's what each costs.</p>
 
 <h2>iPhone 18 Pro</h2>
 <p>256GB Rs 2,59,900 · 512GB Rs 3,01,900 · 1TB Rs 3,86,900 · 2TB Rs 5,13,900. It has a 6.3-inch display, the A20 Pro chip and a 4x telephoto. <a href="/products/iphone-18-pro">Full specs</a>.</p>
@@ -311,10 +307,7 @@ HTML
 
 <h2>Where's the regular iPhone 18?</h2>
 <p>Apple split its line-up this year. The standard <a href="/products/iphone-18">iPhone 18</a> and the <a href="/products/iphone-18e">iPhone 18e</a> are expected in spring 2027. Until then, the <a href="/products/iphone-17">iPhone 17</a> (Rs 1,64,999) is the newest non-Pro iPhone.</p>
-HTML
-            . "\n" . $sources([
-                ['Nepali Telecom – iPhone price list', 'https://www.nepalitelecom.com/iphone-price-in-nepal'],
-            ]),
+HTML,
             'seo' => [
                 'title' => 'iPhone 18 Pro, Pro Max & iPhone Duo Price in Nepal: All Variants',
                 'description' => 'Official Nepal prices: iPhone 18 Pro from Rs 2,59,900, Pro Max from Rs 2,79,900 and the foldable iPhone Duo from Rs 4,30,900. Every storage option.',
@@ -329,7 +322,7 @@ HTML
             'date' => '2026-11-22',
             'meta_description' => 'Apple announced the M6 MacBook Pro 14 and a tandem-OLED MacBook Pro with touch. Expected Nepal prices start at Rs 3,85,999 and Rs 5,35,999.',
             'content' => <<<'HTML'
-<p>Apple announced two new MacBook Pro models at the end of October 2026, a day apart. Neither is officially on sale in Nepal yet, so the prices below are GadgetByte's estimates converted from US prices, not official figures.</p>
+<p>Apple announced two new MacBook Pro models at the end of October 2026, a day apart. Neither is officially on sale in Nepal yet, so the prices below are estimates converted from US prices, not official figures.</p>
 
 <h2>MacBook Pro 14 with M6</h2>
 <p>This model keeps the familiar design and mini-LED XDR screen, with a new M6 chip (12-core CPU and GPU), Wi-Fi 7 and battery life of up to 24 hours. It starts at $1,999 in the US with 16GB of memory and 1TB of storage. <strong>Expected Nepal price: about Rs 3,85,999</strong>, rising to Rs 4,81,999 with 2TB. <a href="/products/macbook-pro-14-m6">See every configuration</a>.</p>
@@ -339,11 +332,7 @@ HTML
 
 <h2>Should you wait?</h2>
 <p>If you need a Mac for work now, the <a href="/products/macbook-pro-14-m5">M5 MacBook Pro 14</a> is on sale here at Rs 3,76,500, and the M6 is an incremental step up. Most people don't need a Pro at all. The <a href="/reviews/macbook-air-m5-13-review-nepal">MacBook Air M5</a> is still our top pick.</p>
-HTML
-            . "\n" . $sources([
-                ['GadgetByte Nepal – MacBook Pro M6 14-inch price in Nepal', 'https://www.gadgetbytenepal.com/apple-macbook-pro-m6-14-inch-price-in-nepal/'],
-                ['GadgetByte Nepal – MacBook Pro with ProLED XDR display', 'https://www.gadgetbytenepal.com/macbook-pro-with-proled-xdr-display-price-in-nepal/'],
-            ]),
+HTML,
             'seo' => [
                 'title' => 'MacBook Pro M6 & OLED MacBook Pro: Expected Price in Nepal',
                 'description' => 'M6 MacBook Pro 14 expected from Rs 3,85,999 and the OLED touchscreen MacBook Pro from Rs 5,35,999 in Nepal. What\'s new and whether to wait.',
@@ -428,9 +417,9 @@ HTML
 
 <h2>The increases we tracked</h2>
 <ul>
-<li><strong><a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>:</strong> GadgetByte's listing shows the 256GB model up from Rs 2,12,999 to Rs 2,24,999, and the 512GB model up from Rs 2,42,999 to Rs 2,59,999.</li>
+<li><strong><a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>:</strong> the 256GB model went up from Rs 2,12,999 to Rs 2,24,999, and the 512GB model up from Rs 2,42,999 to Rs 2,59,999.</li>
 <li><strong><a href="/products/samsung-galaxy-s26">Galaxy S26</a>:</strong> recorded at Rs 1,33,999 in June, now Rs 1,39,999.</li>
-<li><strong><a href="/products/macbook-pro-14-m5">MacBook Pro 14 (M5)</a>:</strong> up on 1 July 2026 to Rs 3,76,500. GadgetByte linked the rise to the global memory shortage.</li>
+<li><strong><a href="/products/macbook-pro-14-m5">MacBook Pro 14 (M5)</a>:</strong> up on 1 July 2026 to Rs 3,76,500. The rise came with the global memory shortage.</li>
 <li><strong><a href="/products/vivo-x300-pro">vivo X300 Pro</a>:</strong> from Rs 1,79,999 to Rs 1,99,999 on 1 September 2026.</li>
 <li><strong><a href="/products/sony-playstation-5">PlayStation 5</a>:</strong> Sony raised prices in several regions in spring 2026. The Slim Disc is now listed at Rs 1,39,999.</li>
 <li><strong><a href="/products/nintendo-switch-2">Nintendo Switch 2</a>:</strong> the US price went from $449.99 to $499 on 1 September 2026, after Japan's rise in May. Imports to Nepal follow those prices.</li>
@@ -447,9 +436,6 @@ HTML
 </ul>
 HTML
             . "\n" . $sources([
-                ['GadgetByte Nepal – Samsung price list', 'https://www.gadgetbytenepal.com/samsung-mobiles-price-nepal/'],
-                ['GadgetByte Nepal – MacBook Pro 14 M5 price hike', 'https://www.gadgetbytenepal.com/macbook-pro-14-inch-m5-price-nepal'],
-                ['GadgetByte Nepal – vivo X300 Pro price hike', 'https://gadgetbytenepal.com/vivo-x300-pro-price-nepal'],
                 ['Digital Trends – Switch 2 US price increase', 'https://www.digitaltrends.com/gaming/nintendo-just-announced-a-price-hike-for-the-switch-2-in-the-us/'],
                 ['PlayStation Blog – 2026 price changes (Southeast Asia)', 'https://blog.playstation.com/2026/03/27/20260327-ps/'],
             ]),

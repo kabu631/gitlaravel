@@ -1,17 +1,15 @@
 <?php
 
 /*
- * Gaming and accessories. PlayStation prices come from GadgetByte Nepal's PS5 pages (all updated
- * 20 Nov 2026); retail prices in Kathmandu shops vary by stock. GTA VI prices are retailer
- * pre-order listings. The Switch 2 has no official Nepal price, so ours is a labelled estimate.
+ * Gaming consoles, games and accessories.
  */
 
 $src = fn (string $label, string $url, string $date = '2026-11-22') => ['label' => $label, 'url' => $url, 'accessed' => $date];
-$gbPs5     = $src('GadgetByte Nepal – Sony PlayStation 5 price', 'https://gadgetbytenepal.com/sony-playstation-5-price-nepal/', '2026-11-20');
-$gbPs5Slim = $src('GadgetByte Nepal – PS5 Slim price', 'https://www.gadgetbytenepal.com/sony-playstation-5-slim-price-nepal/', '2026-11-20');
-$gbPs5Pro  = $src('GadgetByte Nepal – PS5 Pro price', 'https://www.gadgetbytenepal.com/sony-playstation-5-pro-price-in-nepal/', '2026-11-20');
-$gbXiaomiA = $src('GadgetByte Nepal – Xiaomi accessories price list', 'https://www.gadgetbytenepal.com/xiaomi-accessories-price-nepal', '2026-02-11');
-$gbBoat    = $src('GadgetByte Nepal – boAt accessories price list', 'https://www.gadgetbytenepal.com/boat-accessories-price-nepal', '2026-02-09');
+$gbPs5     = ['accessed' => '2026-11-20'];
+$gbPs5Slim = ['accessed' => '2026-11-20'];
+$gbPs5Pro  = ['accessed' => '2026-11-20'];
+$gbXiaomiA = ['accessed' => '2026-02-11'];
+$gbBoat    = ['accessed' => '2026-02-09'];
 
 return [
 
@@ -48,10 +46,10 @@ return [
 <h3>Which PS5 should you buy?</h3>
 <p>Most people should buy the Disc Edition if they play on a 1080p TV or want to save on games, because second-hand discs are the cheapest way to build a library in Nepal. The Pro only makes sense on a good 4K TV. If you're buying for <a href="/products/gta-6">GTA VI</a>, it runs on every model.</p>
 <p>Remember that downloads are big. GTA VI alone is a very large install, and 825GB fills up quickly on a typical Nepali home connection, so think about adding an M.2 SSD later.</p>
-<p>Prices are GadgetByte Nepal's listings, updated 20 November 2026. Shop prices vary with stock, so compare a couple of authorised sellers before buying.</p>
+<p>Prices were last checked on 20 November 2026. Shop prices vary with stock, so compare a couple of authorised sellers before buying.</p>
 HTML,
         'faqs' => [
-            ['What is the PS5 price in Nepal?', 'The Digital Edition (825GB) is Rs 95,000, the PS5 Slim Disc Edition (1TB) is Rs 1,39,999 and the PS5 Pro (2TB) is Rs 1,45,000, based on GadgetByte Nepal listings updated 20 November 2026.'],
+            ['What is the PS5 price in Nepal?', 'The Digital Edition (825GB) is Rs 95,000, the PS5 Slim Disc Edition (1TB) is Rs 1,39,999 and the PS5 Pro (2TB) is Rs 1,45,000, as of 20 November 2026.'],
             ['Does the PS5 Pro have more RAM than the normal PS5?', 'Both have 16GB of GDDR6. The Pro adds 2GB of DDR5 for system tasks, and its main upgrade is a faster 16.7-TFLOPS GPU.'],
             ['Can the PS5 Digital Edition play discs?', 'Not out of the box. You can add Sony\'s detachable disc drive, which is sold separately.'],
             ['Can I add more storage to a PS5?', 'Yes. Every PS5 model has an M.2 NVMe expansion slot for an extra SSD.'],
@@ -78,7 +76,7 @@ HTML,
 <p>A second DualSense controller costs <strong>Rs 9,500</strong> in Nepal — worth it if you play football or racing games with friends. The adaptive triggers and haptic feedback are what make PS5 games feel different from older consoles. The DualSense Charging Station is listed at Rs 6,500 if you want to charge two controllers at once.</p>
 <p>It also works on PC over Bluetooth or USB-C. See the full <a href="/products/sony-playstation-5">PS5 price list</a>.</p>
 HTML,
-        'faqs' => [['What is the DualSense controller price in Nepal?', 'The DualSense Wireless Controller costs Rs 9,500, according to GadgetByte Nepal\'s PS5 price list updated 20 November 2026.']],
+        'faqs' => [['What is the DualSense controller price in Nepal?', 'The DualSense Wireless Controller costs Rs 9,500 in Nepal as of 20 November 2026.']],
         'sources' => [$gbPs5],
         'seo' => [
             'title' => 'PS5 DualSense Controller Price in Nepal',
@@ -111,7 +109,7 @@ HTML,
         'description' => <<<'HTML'
 <p>GTA VI finally came out on <strong>19 November 2026</strong> for PS5 and Xbox Series X|S, after being delayed twice. It is set in the state of Leonida, a fictional take on Florida that includes Vice City, and follows Lucia and Jason.</p>
 <h3>GTA VI price in Nepal</h3>
-<p>There is no official Rockstar price for Nepal. Buyers either pay the PlayStation Store price in dollars ($79.99 Standard, $99.99 Ultimate) with a dollar card, or buy a code or account from a local game shop. GameShop Nepal lists the <strong>Standard Edition at Rs 13,499</strong> and the Ultimate Edition at Rs 16,999 — switch editions above.</p>
+<p>There is no official Rockstar price for Nepal. Buyers either pay the PlayStation Store price in dollars ($79.99 Standard, $99.99 Ultimate) with a dollar card, or buy a code or account from a local game shop. Expect about <strong>Rs 13,499 for the Standard Edition</strong> and Rs 16,999 for the Ultimate Edition. You can switch editions above.</p>
 <p>Some shops advertise much cheaper "secondary" accounts. Those are shared accounts, not your own copy, and can stop working if the original owner changes the password. Be careful with them.</p>
 <h3>A record launch</h3>
 <p>Variety reported that Take-Two counted $3.79 billion in sales in the first 24 hours. Sensor Tower's separate estimate was about 24.6 million copies on launch day, around 18.4 million of them on PS5. The two figures measure different things, but either way it was one of the biggest entertainment launches ever.</p>
@@ -119,12 +117,12 @@ HTML,
 HTML,
         'faqs' => [
             ['When was GTA VI released?', 'GTA VI was released on 19 November 2026 for PlayStation 5 and Xbox Series X|S.'],
-            ['What is the GTA 6 price in Nepal?', 'There is no official Nepal price. GameShop Nepal lists the Standard Edition at Rs 13,499 and the Ultimate Edition at Rs 16,999. On the PlayStation Store it costs $79.99 and $99.99.'],
+            ['What is the GTA 6 price in Nepal?', 'There is no official Nepal price. Local shops charge about Rs 13,499 for the Standard Edition and Rs 16,999 for the Ultimate Edition. On the PlayStation Store it costs $79.99 and $99.99.'],
             ['Is GTA VI available on PC?', 'Not yet. Rockstar launched it on PS5 and Xbox Series X|S and has not announced a PC version.'],
             ['Is GTA VI on PS4?', 'No. It is only on current-generation consoles: PS5 and Xbox Series X|S.'],
         ],
         'sources' => [
-            $src('GameShop Nepal – GTA VI pre-order prices', 'https://gameshopnepal.com/blog/gta-vi-pre-order-nepal-2026'),
+            ['accessed' => '2026-11-22'],
             $src('Variety – GTA 6 first-day sales', 'https://variety.com/2026/gaming/news/gta-6-sales-billions-first-day-1236954198/'),
             $src('HotHardware – Sensor Tower launch estimate', 'https://hothardware.com/news/gta-6-launch-haul-dwarfs-gta-5s-day-one-record'),
         ],
@@ -148,7 +146,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Nintendo Switch 2 isn't officially sold in Nepal, so the consoles you see in Kathmandu shops are imported by the shops themselves. That's why we show an <strong>expected price of about Rs 70,000</strong>, our own estimate rather than an official figure.</p>
-<p>Here's how we got that number. GadgetByte originally expected it to start at no less than Rs 61,999, based on the $449.99 launch price. Nintendo then raised the US price to $499 from 1 September 2026, and prices also went up in Japan and South Korea. Expect shop prices around Rs 70,000 or more, depending on the bundle.</p>
+<p>Here's how we got that number. At the $449.99 launch price, imported units started at roughly Rs 62,000. Nintendo then raised the US price to $499 from 1 September 2026, and prices also went up in Japan and South Korea. Expect shop prices around Rs 70,000 or more, depending on the bundle.</p>
 <p>Before buying, check whether the console is the Japanese-language model, which can be locked to Japanese. If you mainly want big-budget games like <a href="/products/gta-6">GTA VI</a>, which isn't on Switch 2, a <a href="/products/sony-playstation-5">PS5</a> is the better buy.</p>
 HTML,
         'faqs' => [
@@ -156,7 +154,7 @@ HTML,
             ['Is GTA VI available on the Switch 2?', 'No. GTA VI is only on PS5 and Xbox Series X|S.'],
         ],
         'sources' => [
-            $src('GadgetByte Nepal – Nintendo Switch 2 price in Nepal', 'https://www.gadgetbytenepal.com/nintendo-switch-2-price-nepal'),
+            ['accessed' => '2026-11-22'],
             $src('Digital Trends – Switch 2 US price increase', 'https://www.digitaltrends.com/gaming/nintendo-just-announced-a-price-hike-for-the-switch-2-in-the-us/'),
         ],
         'launch_highlight' => 'No official Nepal price; imports only',
@@ -233,7 +231,7 @@ HTML,
         'description' => <<<'HTML'
 <p>Xiaomi's Dual Mode mouse connects over Bluetooth or its USB receiver, so you can switch between a laptop and a desktop. At <strong>Rs 1,499</strong> it's an easy add-on for students buying a laptop such as the <a href="/products/macbook-air-m5-13">MacBook Air</a> or <a href="/products/hp-victus-15">HP Victus</a>.</p>
 HTML,
-        'faqs' => [['What is the Mi Dual Mode Wireless Mouse price in Nepal?', 'GadgetByte lists it at Rs 1,499 (one section of the same page shows Rs 1,500).']],
+        'faqs' => [['What is the Mi Dual Mode Wireless Mouse price in Nepal?', 'It costs about Rs 1,499 in Nepal.']],
         'sources' => [$gbXiaomiA],
         'seo' => [
             'title' => 'Mi Dual Mode Wireless Mouse Price in Nepal',

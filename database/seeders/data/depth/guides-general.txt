@@ -1,0 +1,364 @@
+=== how-to-choose-smartphone-nepal-2024
+<h2>Spend twenty minutes before you spend thirty thousand rupees</h2>
+<p>Most people choose a phone in the shop, in ten minutes, with a salesperson who earns more on one model than on another. A little preparation at home changes the conversation. Take a piece of paper and answer five questions.</p>
+<ol>
+<li>What annoys me about my present phone?</li>
+<li>How many hours a day do I use it, and for what?</li>
+<li>How long do I want to keep the next one?</li>
+<li>Where is the nearest service centre for each brand I am considering?</li>
+<li>What is the most I will pay, including a case and charger?</li>
+</ol>
+<p>Those answers are your specification. Take the paper with you.</p>
+<h2>Turning annoyances into features</h2>
+<p><strong>"It dies by evening."</strong> Look for 6,000mAh or more, and 33W charging at least.</p>
+<p><strong>"It is slow."</strong> Memory of 8GB, UFS storage and a modern chip. More cores or megapixels will not help.</p>
+<p><strong>"Photos of my children are blurred."</strong> Optical stabilisation on the main camera, and a larger sensor.</p>
+<p><strong>"I cannot read it outside."</strong> A high brightness mode above 1,000 nits.</p>
+<p><strong>"Storage is always full."</strong> 256GB, and the habit of stopping WhatsApp downloads.</p>
+<p><strong>"The screen broke twice."</strong> A flat display, a stronger glass and a good case. Curved screens are lovely and fragile.</p>
+<p><strong>"It stopped getting updates."</strong> A brand with a published promise of five years or more.</p>
+<h2>What each budget changes</h2>
+[[models:infinix-smart-10-plus,samsung-galaxy-a07,infinix-note-50s,redmi-note-15-5g,poco-f7,oneplus-15r,samsung-galaxy-s26]]
+<p>The table climbs from Rs 16,000 to Rs 1.4 lakh. The jump from the first to the third row is the biggest you will ever feel in daily use. From the fifth row upwards you pay for cameras, materials and years of support.</p>
+<h2>Chips in plain words</h2>
+<p>You do not need to study processors. Use three groups. <strong>Basic:</strong> Unisoc T-series, Helio G81 and similar, fine for messaging. <strong>Comfortable:</strong> Snapdragon 6 and 7 series, Dimensity 7000 series, Helio G99 and G100 at the lower end. <strong>Fast:</strong> Snapdragon 8 series, Dimensity 8000 and 9000 series. Choose comfortable if you do not play demanding games. Our piece on <a href="/news/snapdragon-8-gen-4-debut-qualcomm-summit-2024">chip names</a> decodes the rest.</p>
+<h2>Screens: three things to check</h2>
+<p>AMOLED or LCD, brightness, and resolution. At sizes above 6.5 inches, HD+ looks soft, especially for small Devanagari text. Full HD+ is right for nearly everyone. 120Hz is pleasant and no longer rare. If you are sensitive to flicker, look for high-frequency dimming or prefer an LCD.</p>
+<h2>Cameras: how to test in a shop</h2>
+<p>Take the same picture with two phones. First of a face near the window. Then of the darkest corner. Then of someone walking. Zoom in on both. It takes three minutes and beats every specification. Record a short video while walking to see stabilisation. Ignore macro and depth lenses.</p>
+<h2>Battery and charging</h2>
+<p>Capacity is the tank, and the chip and screen are the engine. A 5,000mAh phone with an efficient chip can match 6,000mAh with an old one. Charging above 45W is a luxury, and below 18W is a nuisance. Check if the charger is in the box. A proper one costs Rs 1,500 to 4,000.</p>
+<h2>5G, NFC, eSIM: do you need them?</h2>
+<p><strong>5G:</strong> a tie-breaker in Nepal today. <a href="/guides/top-reasons-buy-5g-phone-nepal">Here is our full answer</a>.</p>
+<p><strong>NFC:</strong> limited use for payment here so far, useful for pairing and some cards.</p>
+<p><strong>eSIM:</strong> handy for travellers. Check with your operator.</p>
+<p><strong>IR blaster:</strong> an old-fashioned joy for controlling the TV and AC. Xiaomi and Infinix often include it.</p>
+<p><strong>Headphone jack and card slot:</strong> disappearing, and still found on cheaper phones.</p>
+<h2>Brand by brand, briefly</h2>
+<p>Samsung for service and updates. Xiaomi, Redmi and POCO for hardware. vivo and OPPO for portraits and dealer networks. Realme for charging and battery. Honor for slim phones with big batteries. Motorola and Nothing for clean software. OnePlus for smoothness. Infinix and Tecno for low prices. Apple for video, longevity and resale. Each has good and poor models, so judge the phone.</p>
+<h2>New, old stock or used</h2>
+<p>A flagship from last year, sold new with warranty, is often the best buy in the shop. A used flagship can be better still if you know how to check it. A phone that has been in a box for three years is neither: its battery has aged and its updates have run out. Ask for the launch date and the date on the box.</p>
+<h2>Ownership cost: an example</h2>
+<p>Two friends need a phone for four years. One buys a Rs 18,000 phone, and replaces it after two years with another at Rs 20,000. Total Rs 38,000, with slow phones throughout. The other buys a Rs 36,000 phone, changes the battery in year three for Rs 3,000, and sells it for Rs 8,000 at the end. Total Rs 31,000, with a better phone every day. Cheap is not always cheaper.</p>
+<h2>The shop visit</h2>
+<ul>
+<li>Ask to see the sealed box opened.</li>
+<li>Compare the IMEI on box, phone and bill, and check MDMS.</li>
+<li>Confirm memory and storage in Settings.</li>
+<li>Test cameras, speaker, call, charging and fingerprint.</li>
+<li>Ask what a screen costs and where it is replaced.</li>
+<li>Get the VAT bill and the warranty card.</li>
+</ul>
+<p>The detailed list is in <a href="/blog/5-things-to-check-before-buying-a-smartphone-in-nepal">five things to check before buying</a>.</p>
+<h2>Bargaining without conflict</h2>
+<p>Know the list price and one competing quotation. Ask for the best cash price, then for a case and glass. If you exchange an old phone, ask for its value separately from the discount, so one is not hidden in the other. Weekday mornings are best.</p>
+<h2>After you buy</h2>
+<p>Update the software, remove apps you do not need, set up backup and Find My Device, stop automatic media downloads, and photograph the bill and IMEI. Use the charge limit at night. These ten minutes add a year to its life.</p>
+<h2>If you are still choosing between two</h2>
+<p>Put them side by side in the <a href="/compare">comparison tool</a>, and read the rows that match your list of annoyances. If they tie, choose the one with more memory. If they still tie, choose the one whose service centre is closer to your home.</p>
+
+=== laptop-vs-tablet-work-study-nepal
+<h2>The same money, two very different tools</h2>
+[[models:redmi-pad-2,xiaomi-pad-7,samsung-galaxy-tab-s10-fe,ipad-11-2025,acer-aspire-lite-15-al15-41-2024-ryzen-5-7430u,macbook-neo]]
+<p>A table like this makes tablets look cheap. Add a keyboard at Rs 8,000 to 35,000 and a pen at Rs 6,000 to 18,000, and the picture changes. Always compare complete kits.</p>
+<h2>Try this experiment for a week</h2>
+<p>Keep a note of every task you do on a screen larger than a phone. Beside each, write R for reading or watching, H for handwriting, T for typing more than a paragraph, and S for special software. At the end of the week count the letters. Mostly R and H points to a tablet. Mostly T and S points to a laptop. If T and H are close, you are one of the people who benefit from both, or from a convertible laptop with a pen.</p>
+<h2>By level of study</h2>
+<p><strong>Class 5 to 10.</strong> A tablet with parental controls handles lessons, reading and practice apps. Typing can wait. Choose a tough case.</p>
+<p><strong>Plus two.</strong> Science students draw diagrams and solve numericals, where a pen is excellent. Computer science students need a laptop from the first day.</p>
+<p><strong>Bachelor in management, humanities, law.</strong> A laptop for assignments, reports and presentations. A cheap tablet for reading is a fine addition.</p>
+<p><strong>Engineering, IT, architecture.</strong> A laptop, without debate.</p>
+<p><strong>Medicine and nursing.</strong> The best case for a tablet with a pen: atlases, PDFs and annotated slides. A basic laptop at home for typing.</p>
+<p><strong>Postgraduate research.</strong> A laptop for writing and data, with a tablet for reading papers if the budget allows.</p>
+<h2>By job</h2>
+<p><strong>Teachers:</strong> a laptop for preparation, a tablet with a pen for explaining on screen. Many do well with a pen tablet connected to a laptop, at Rs 5,000 to 8,000.</p>
+<p><strong>Sales and field staff:</strong> a tablet with LTE, catalogues and signatures.</p>
+<p><strong>Accountants:</strong> a laptop. Large spreadsheets and local software do not run properly on tablets.</p>
+<p><strong>Doctors:</strong> a tablet for rounds and records, if the hospital's system runs in a browser.</p>
+<p><strong>Writers and journalists:</strong> a laptop with a good keyboard.</p>
+<p><strong>Designers:</strong> an iPad for sketching and a computer for finishing.</p>
+<p><strong>Shop owners:</strong> a tablet at the counter, a laptop in the back.</p>
+<h2>What tablets still do badly</h2>
+<ul>
+<li>Long documents with footnotes, tracked changes and complex tables.</li>
+<li>Excel beyond the basics: macros, pivot tables, add-ins.</li>
+<li>Nepali accounting, tax and registration portals that expect a desktop browser or a driver.</li>
+<li>Programming, apart from simple exercises.</li>
+<li>Managing many files from different places.</li>
+<li>Connecting to projectors and printers, which depends on the model.</li>
+<li>Working on your lap. Keyboard covers are wobbly on a sofa or bus.</li>
+</ul>
+<h2>What laptops do badly</h2>
+<ul>
+<li>Reading in bed or standing on a bus.</li>
+<li>Handwriting and drawing.</li>
+<li>Lasting two days on a charge, with few exceptions.</li>
+<li>Starting instantly for a thirty-second task.</li>
+<li>Being shared with a four-year-old.</li>
+</ul>
+<h2>Samsung DeX, iPad windows and other bridges</h2>
+<p>DeX turns a Galaxy Tab into something like a desktop with windows and a taskbar. iPadOS offers resizable windows on recent models. With a mouse and keyboard, email, documents and browsing are comfortable. They remain mobile apps underneath. Before buying for this reason, sit with the actual apps you need and try to finish a real piece of work in the shop.</p>
+<h2>Convertible laptops</h2>
+<p>A 2-in-1 laptop with a pen folds into a thick tablet. It runs full Windows, so there are no software limits. It weighs 1.3 to 1.8kg, too heavy to hold as a tablet for long, but fine on a desk for notes. If you need typing, special software and handwriting, it is the honest single-device answer, starting at around Rs 1.2 to 1.5 lakh.</p>
+<h2>Budgets and our suggestions</h2>
+<p><strong>Rs 30,000:</strong> Redmi Pad 2 for reading. A new laptop at this price is not worth having. A used business laptop may be.</p>
+<p><strong>Rs 50,000 to 60,000:</strong> Xiaomi Pad 7 with pen for notes, or a used ThinkPad for typing.</p>
+<p><strong>Rs 75,000 to 80,000:</strong> Galaxy Tab S10 FE for handwriting, or a Vivobook 15 with 16GB for everything else.</p>
+<p><strong>Rs 1,00,000:</strong> Acer Aspire Lite 15. Add a pen tablet if you draw.</p>
+<p><strong>Rs 1,30,000 to 1,50,000:</strong> MacBook Neo, IdeaPad Slim 3 Ryzen 7, or a Vivobook plus a Redmi Pad 2. The last pair covers more of a student's life than any single device.</p>
+<h2>Two cheap devices or one good one?</h2>
+<p>A Rs 80,000 laptop with a Rs 30,000 tablet gives you full software, a reading screen and a spare when one breaks. A Rs 1,10,000 tablet kit gives you one beautiful screen and several limits. For study, we would take the pair nearly every time.</p>
+<h2>Power and internet</h2>
+<p>Tablets run longer during cuts and can be charged from a power bank. Many laptops now charge by USB-C, and a 65W power bank can extend them. A tablet with LTE has its own connection. A laptop can use your phone's hotspot, at the cost of the phone's battery. In hostels with poor Wi-Fi, think about which of these you will depend on.</p>
+<h2>Durability and repair</h2>
+<p>A broken tablet screen can cost half the tablet. Laptop screens are cheaper to replace, and keyboards, batteries and drives can be changed. Over five years a laptop is easier to keep alive. Use a case for the tablet and a padded sleeve for the laptop, and insure neither with hope.</p>
+<h2>Resale</h2>
+<p>iPads hold value well. Android tablets lose it fast. Business laptops and MacBooks hold value, and consumer laptops fall quickly in the first two years. If you expect to sell after college, that difference can be Rs 15,000 to 20,000.</p>
+<h2>Questions to settle before you pay</h2>
+<ol>
+<li>Which programs must run, by name?</li>
+<li>Will I type more than one page a day?</li>
+<li>Will I write by hand every day?</li>
+<li>Where will I use it: desk, bed, bus, field?</li>
+<li>What is the total with accessories?</li>
+</ol>
+<h2>Our conclusion</h2>
+<p>Choose a laptop if you create, and a tablet if you consume and annotate. If you are unsure, you probably need a laptop, as it can do everything a tablet does in an awkward way, while a tablet cannot do everything a laptop does at any price. For models, see our <a href="/guides/best-laptops-under-100000-nepal">laptops under Rs 1 lakh</a> and <a href="/guides/best-tablets-nepal">tablet guide</a>.</p>
+
+=== how-to-read-gadget-spec-sheet-beginners-guide
+<h2>The three kinds of number on a spec sheet</h2>
+<p>Some numbers are <strong>facts</strong>: weight, screen size, memory, storage. You can check them with a scale, a ruler or a settings page. Some are <strong>laboratory results</strong>: battery hours, charging minutes, water resistance. They are true in conditions you will never repeat. Some are <strong>records</strong>: peak brightness, maximum speed, AI operations. They were reached once, for a moment, by a small part of the device. Read them with trust in that order.</p>
+<h2>Screens: what each word promises</h2>
+<p><strong>IPS LCD, PLS, TFT:</strong> a backlight behind a filter. IPS and PLS look right from the side. Plain TFT or TN on cheap laptops does not.</p>
+<p><strong>AMOLED, OLED, pOLED:</strong> each pixel makes light. Real black, rich colour, possible flicker at low brightness.</p>
+<p><strong>Mini-LED:</strong> an LCD with thousands of small lights. Very bright, with faint halos.</p>
+<p><strong>nits (typ):</strong> ordinary brightness. 400 to 600 is indoors. <strong>nits (HBM):</strong> what you get in sunlight. Above 1,000 is good. <strong>nits (peak, HDR):</strong> a small highlight in a video. Ignore it.</p>
+<p><strong>Hz:</strong> how often the picture refreshes. 60 is basic, 120 is smooth, above that is for games.</p>
+<p><strong>LTPO:</strong> can slow to 1Hz when nothing moves, which saves battery.</p>
+<p><strong>sRGB, DCI-P3, NTSC:</strong> how many colours. For laptops, "45% NTSC" means dull, "100% sRGB" means accurate enough for design.</p>
+<h2>Resolution names</h2>
+<p>HD+ is about 720 pixels wide on a phone and looks soft above 6.5 inches. FHD+ is 1080 and right for most. 1.5K is around 1220 and excellent. QHD+ is 1440 and rarely noticed. On laptops, FHD is 1920 x 1080, WUXGA is 1920 x 1200 with more height, and 2.5K to 3K is sharp at 14 to 16 inches.</p>
+<h2>Processors</h2>
+<p>Look at the year and class, not the gigahertz. A core at 2.4GHz from 2025 can beat one at 3GHz from 2019. "8 cores" may be two fast and six slow. "6nm" or "4nm" describes manufacturing: smaller is usually cooler. For laptops, the suffix tells you the power class: V and U are frugal, H is strong, HX is very strong and hot. For phone chips, see <a href="/news/snapdragon-8-gen-4-debut-qualcomm-summit-2024">this explainer</a>.</p>
+<h2>Memory and storage types</h2>
+<p><strong>LPDDR4X, LPDDR5X:</strong> phone and thin-laptop memory. Newer is faster and more efficient, and it is soldered.</p>
+<p><strong>DDR4, DDR5 SO-DIMM:</strong> laptop memory in slots, which you can replace.</p>
+<p><strong>8GB + 8GB extended:</strong> eight real, eight pretend.</p>
+<p><strong>eMMC:</strong> slow storage. Acceptable on a Rs 15,000 phone, not on a laptop.</p>
+<p><strong>UFS 2.2, 3.1, 4.0:</strong> increasingly fast phone storage.</p>
+<p><strong>SATA SSD, NVMe PCIe 3.0, 4.0, 5.0:</strong> laptop drives. Any NVMe drive feels quick.</p>
+<h2>Cameras</h2>
+<p><strong>MP:</strong> how many dots. <strong>Sensor size (1/1.56"):</strong> how much light. A smaller second number is a bigger sensor: 1/1.3" is larger than 1/1.95". <strong>f/1.8:</strong> the opening. Smaller numbers let in more light. <strong>OIS:</strong> optical stabilisation, the most valuable three letters on a mid-range phone. <strong>PDAF:</strong> fast focus. <strong>Telephoto 3x:</strong> real zoom. <strong>100x zoom:</strong> not real. <strong>2MP macro, 2MP depth:</strong> decoration.</p>
+<h2>Battery</h2>
+<p><strong>mAh</strong> for phones, <strong>Wh</strong> for laptops. To compare a power bank with a laptop, multiply mAh by 3.7 and divide by 1,000. A 20,000mAh bank holds 74Wh, and delivers about 65 per cent of it. <strong>W</strong> after charging is the highest speed, for a few minutes, with the maker's own charger. <strong>Silicon-carbon</strong> is a newer type that holds more. <strong>"Up to 18 hours"</strong> is video at low brightness in airplane mode. Halve it.</p>
+<h2>Water and dust</h2>
+<p>In IP68 the first digit is dust, up to 6, and the second is water, up to 9. X means not tested. IPX4: splashes. IP54: some dust, splashes. IP65: dust-tight, jets. IP67: immersion to a metre. IP68: deeper, as the maker states. IP69: hot high-pressure spray. Ratings apply to new devices in fresh water, and no warranty covers leaks. A high second digit does not include the lower tests automatically, so a phone that says IP68 and IP66 has passed both.</p>
+<h2>Connectivity</h2>
+<p><strong>Wi-Fi 5, 6, 6E, 7:</strong> newer is faster if your router matches. <strong>Bluetooth 5.x:</strong> the decimal rarely matters. <strong>Codecs:</strong> AAC for iPhone, LDAC for many Androids. <strong>Multipoint:</strong> two devices together. <strong>NFC:</strong> short-range, for pairing and cards. <strong>USB-C 2.0 and 3.2:</strong> the same plug at very different speeds. Cheap phones are 2.0 and cannot send a picture to a monitor. <strong>Thunderbolt and USB4:</strong> fast docks and drives.</p>
+<h2>Graphics</h2>
+<p><strong>Integrated:</strong> inside the processor, shares memory. <strong>Dedicated:</strong> its own chip and video memory. On laptops, <strong>TGP in watts</strong> decides speed as much as the name. <strong>VRAM:</strong> 6GB is the minimum and 8GB comfortable for games. <strong>DLSS, FSR, XeSS:</strong> clever upscaling. <strong>Frame generation:</strong> smoother picture, same response.</p>
+<h2>Audio</h2>
+<p><strong>Driver size (10mm, 40mm):</strong> means little across brands. <strong>ANC 45dB:</strong> a best case at one frequency. <strong>IPX4:</strong> sweat-proof. <strong>50 hours with case:</strong> look for hours per charge. <strong>Frequency 20Hz to 20kHz:</strong> printed on everything.</p>
+<h2>Televisions and monitors</h2>
+<p><strong>HDR10, Dolby Vision:</strong> formats, useful only with real brightness. <strong>Motion rate 240:</strong> marketing. Look for the panel's actual Hz. <strong>1ms:</strong> measured in the kindest way. <strong>HDMI 2.1:</strong> needed for 4K at 120Hz. <strong>VRR, FreeSync, G-Sync:</strong> no tearing in games.</p>
+<h2>A worked example</h2>
+[[specs:redmi-note-15-5g]]
+<p>Read it as we would. Screen: large AMOLED, FHD+ class, very high peak brightness, so good outdoors. Chip: Snapdragon 6 Gen 3, comfortable class, 4nm, fine. Memory: 6 or 8GB, so choose 8. Storage: UFS 2.2, adequate. Camera: 108MP with OIS on a 1/1.67" sensor, the important part is the OIS. Battery: about 5,500mAh, a full day and some. Conclusion: an all-rounder with no serious weakness at its price.</p>
+<h2>What the sheet never tells you</h2>
+<ul>
+<li>How warm it gets.</li>
+<li>How the cameras treat your skin tone.</li>
+<li>How many unwanted apps it carries.</li>
+<li>Whether the haptics, speaker and buttons feel good.</li>
+<li>How it behaves after two years.</li>
+<li>Where it is repaired in your city.</li>
+</ul>
+<p>For those you need a shop, a friend who owns one, or a long review.</p>
+<h2>Five questions that beat any sheet</h2>
+<ol>
+<li>Is the memory enough for how long I will keep it?</li>
+<li>Can I read the screen where I will use it?</li>
+<li>Does the battery cover my longest day?</li>
+<li>Who fixes it, and what does a screen cost?</li>
+<li>What did I not like when I held it?</li>
+</ol>
+<p>If you can answer them, you have understood the specification better than most salespeople. Then put your two finalists in the <a href="/compare">comparison tool</a> and look only at the rows you now know how to read.</p>
+
+=== top-reasons-buy-5g-phone-nepal
+<h2>Ten seconds to your own answer</h2>
+<p>Do you live in a place where you can buy a 5G plan today? If not, 5G has no effect on your life this month. Will you keep the phone for more than three years? If yes, there is a fair chance it will matter before you replace it. Does the 5G model cost less than about Rs 3,000 more than an equally good 4G one? If yes, take it. If not, spend the difference on memory or battery. That is the whole guide, and the rest is the reasoning.</p>
+<h2>What 5G phones cost in Nepal</h2>
+[[models:redmi-17-5g,moto-g57-power,samsung-galaxy-m17-5g,redmi-note-15-5g,realme-p3,honor-x9d]]
+<h2>What you give up at the bottom of the range</h2>
+<p>Makers have a fixed budget for a cheap phone. When they add a 5G modem and the licences that come with it, they take the money from somewhere else. Compare phones between Rs 33,000 and 40,000. The 5G ones tend to have HD+ LCD screens, 4GB of base memory and plain cameras. The 4G ones at the same price, such as the <a href="/products/tecno-spark-40-pro">Tecno Spark 40 Pro</a> or <a href="/products/infinix-note-50s">Infinix Note 50s</a>, offer AMOLED panels, 8GB and sometimes stabilised cameras. (The Infinix has 5G in some versions, so check the label.) For the next two years, the second group will be nicer to use every single day.</p>
+<p>Above Rs 45,000 this problem fades. There, 5G phones are good at everything, and a 4G-only phone needs an excuse.</p>
+<h2>Efficiency: the argument nobody makes</h2>
+<p>There is a better reason to choose some 5G phones than 5G. They use newer chips made on 4nm and 6nm processes, while many 4G phones still rely on 12nm designs. A newer chip runs cooler, lasts longer and stays quick. So look at the chip and not the icon. A Snapdragon 4 Gen 2 or 6 Gen 3 phone is a better phone even in airplane mode.</p>
+<h2>Where 5G helps first</h2>
+<p>If you travel to the Gulf, Malaysia, Japan, Korea, India or Europe, 5G is ordinary there. Students and workers going abroad should choose it, with attention to bands. A phone with wide band support bought here will work better in Doha or Delhi than a cheap regional one. Look at the list of bands on the maker's page for the exact model number.</p>
+<p>In Nepal, the first practical benefits will be in crowded places: stadiums, bus parks, festivals, campuses. 4G runs out of capacity in a crowd, and 5G has more.</p>
+<h2>Where 5G will not help</h2>
+<ul>
+<li>In a village with one bar of 4G.</li>
+<li>Inside a concrete building, where higher frequencies struggle.</li>
+<li>When the website you want is slow.</li>
+<li>When your data pack is nearly empty. 5G empties it sooner.</li>
+</ul>
+<h2>Battery life</h2>
+<p>A 5G phone in a 4G country behaves like a 4G phone, with one exception. If it keeps looking for a 5G signal at the edge of a test site, it wastes power. In SIM settings choose 4G/LTE as the preferred network. When service comes to your area, change it back.</p>
+<h2>Which bands should a Nepali buyer look for?</h2>
+<p>Nobody can say for certain until licences are issued. Around the world, n78 at about 3.5GHz is the main mid-band, with n41, n28, n1, n3 and n5 in support. A phone with those six is well prepared. Official models for South Asia usually have them. Phones made for the United States or China may miss some. And for daily life, 4G bands 3, 8, 20 and 40 and VoLTE support matter more.</p>
+<h2>Standalone, non-standalone, carrier aggregation</h2>
+<p>You will read these words in forums. Non-standalone 5G uses 4G for control and is how many countries started. Standalone is a full 5G network. Most phones sold since 2022 support both. Aggregation joins several bands for speed. None of it should decide a purchase under Rs 1 lakh.</p>
+<h2>Will my 5G phone need an update to work here?</h2>
+<p>Possibly. In India, several brands had to release software updates to enable 5G on phones that already had the hardware. Brands with active support did so quickly. It is one more reason to prefer an official unit of a brand that updates its phones. A grey import running another region's software may wait for ever.</p>
+<h2>What operators have said</h2>
+<p>NTC and Ncell have run trials, and the subject returns in the news every few months. Cost, spectrum and demand are the obstacles, and they are described in <a href="/news/ntc-ncell-5g-rollout-nepal-2024">our article on 5G in Nepal</a>. A reasonable planning assumption is that limited commercial service in the largest cities is possible in the next few years, and wide coverage will take much longer.</p>
+<h2>Advice by type of buyer</h2>
+<p><strong>Parent, light use, keeps phones long.</strong> Choose service and battery. A 4G Galaxy A07 is fine.</p>
+<p><strong>Student with Rs 35,000.</strong> Screen, speed and storage first. 5G if it is free.</p>
+<p><strong>Professional with Rs 50,000 or more.</strong> 5G will be included. Do not pay attention to it.</p>
+<p><strong>Going abroad within a year.</strong> Choose 5G with wide bands.</p>
+<p><strong>Reseller of phones every year.</strong> 5G models hold value a little better.</p>
+<p><strong>Gamer.</strong> Chip and cooling. Delay depends on the network and not on the letter G.</p>
+<h2>Four myths</h2>
+<p><strong>"4G will be switched off."</strong> Not for many years. Operators switch off 2G and 3G first, and even those remain in places.</p>
+<p><strong>"5G makes Wi-Fi faster."</strong> They are unrelated.</p>
+<p><strong>"A 5G SIM is needed, so buy now."</strong> Operators will tell customers if a new SIM is required. Do not buy one from a stranger.</p>
+<p><strong>"5G is harmful."</strong> Exposure limits are set by international bodies, and phones must follow them.</p>
+<h2>Better ways to get faster internet today</h2>
+<ol>
+<li>Turn on VoLTE and set the network to 4G preferred.</li>
+<li>Restart the phone weekly. It helps it find a better cell.</li>
+<li>Compare NTC and Ncell at your home and office with a friend's SIM.</li>
+<li>Use Wi-Fi at home on 5GHz, with the router in the middle.</li>
+<li>Remove apps that use background data.</li>
+</ol>
+<h2>In the end</h2>
+<p>5G is like a spare room. Nice to have if it comes with the house, and a poor reason to buy a worse house. Choose the phone you would buy if the icon did not exist, and if it happens to say 5G, smile. Our guides to phones <a href="/guides/best-phones-under-40000-nepal">under Rs 40,000</a> and <a href="/guides/best-phones-under-50000-nepal">under Rs 50,000</a> follow that rule.</p>
+
+=== how-to-use-price-tracker-git-infosys
+<h2>Why prices need tracking at all</h2>
+<p>In a country where most goods are imported, a price is not a fixed thing. It moves with the dollar, with customs rules, with the size of a distributor's last shipment and with the mood before a festival. Two shops on the same street may hold stock bought three months apart at different costs. So the useful question is not "what does it cost?" but "what has it cost lately, and where does today's number sit?"</p>
+<h2>Reading a product page</h2>
+<p>Every page is arranged in the same order, which makes it quick to scan.</p>
+<ol>
+<li><strong>Name and price.</strong> If there are several versions, the price shown belongs to the one selected.</li>
+<li><strong>Versions.</strong> Memory, storage, graphics card or size. Click each to see the difference in rupees.</li>
+<li><strong>Status.</strong> On sale, expected, announced or discontinued. An expected price is our estimate and is marked so.</li>
+<li><strong>Buy button.</strong> Where a partner shop stocks it, the button opens that shop's page. We say who the shop is.</li>
+<li><strong>Specification.</strong> Grouped, with the date it was last checked.</li>
+<li><strong>Price history.</strong> Dated entries. When a price changes we add a line and leave the old one.</li>
+<li><strong>Similar devices.</strong> Others near the same price.</li>
+</ol>
+<h2>How to judge a history</h2>
+<p><strong>A flat line</strong> means a stable official price. Discounts will come as gifts or exchange bonuses.</p>
+<p><strong>A step up</strong> usually follows a new shipment or a change in cost. It rarely reverses.</p>
+<p><strong>A step down</strong> can be a permanent cut, a sale, or a clearance before a new model. Look at the date. If a successor has just been announced, expect more.</p>
+<p><strong>A single entry</strong> means that we have recorded it once. Use it as a reference, and compare with two shops.</p>
+<h2>Using search like a conversation</h2>
+<p>Type what you would say to a friend. "Phone under 40k with big battery", "gaming laptop 2 lakh", "earbuds under 5000", "iphone 17 256". The search reads lakh and k, memory sizes and common misspellings. If you are looking for a kind of thing and not a model, start with a category and use the filters for brand, price and specification.</p>
+<h2>Comparing two or more devices</h2>
+<p>Open <a href="/compare">Compare</a> and choose your finalists. Look first at the rows that differ, and among those at the rows that matter to you. We suggest five: memory, storage, battery, main camera or graphics chip, and years of updates. If a row is blank, the maker has not published it or we have not confirmed it. Do not read it as a zero.</p>
+<h2>A worked example: buying a laptop for college</h2>
+<p>Suppose your budget is Rs 1,00,000. Search for "laptop under 1 lakh 16gb". Open the three that look right. Check which versions you are seeing, as a name can hide 8GB and 16GB models. Read the price history of each. If one has fallen by Rs 5,000 in the last month, ask why. Compare the three. Read our <a href="/guides/best-laptops-under-100000-nepal">guide for that budget</a>. Then call two shops with the exact model code and ask for a cash price and the warranty terms. The whole exercise takes forty minutes and can save you Rs 10,000.</p>
+<h2>A worked example: waiting for a phone</h2>
+<p>You want a Galaxy S26 Ultra and are not in a hurry. The <a href="/products/samsung-galaxy-s26-ultra">product page</a> shows its history. The <a href="/upcoming-launches">upcoming launches</a> page shows that a successor is expected in the first months of next year. Past generations fell after a launch. So add the phone to your wishlist, check the <a href="/price-tracker">price tracker</a> every week or two, and set a number at which you will buy. Having the number in advance stops you from being talked into something else.</p>
+<h2>Wishlist and account</h2>
+<p>With a free account you can save devices and return to them. We do not sell your details, and you can read what we store in the <a href="/privacy-policy">privacy policy</a>. You can use the rest of the site without signing in.</p>
+<h2>EMI estimates</h2>
+<p>On product pages you can see what a price means per month for different periods. It is arithmetic, not an offer from a bank. Real plans add a processing fee or interest, and need approval. Use the estimate to decide whether a price is comfortable. As a rule, if the instalment is more than a tenth of your monthly income, the gadget is too expensive.</p>
+<h2>The PC builder</h2>
+<p>The <a href="/custom-pc-build">custom PC builder</a> adds up parts and warns about common mismatches, such as a processor that does not fit a board or a power supply that is too small. Use it to see what a budget can do, then ask a shop to match the list.</p>
+<h2>Upcoming and estimated prices</h2>
+<p>For devices that are not yet sold in Nepal we sometimes give an estimate. It is based on the foreign price, the usual taxes and margins, and what the previous model cost here. It is there to help you plan. When the official price is announced, it replaces the estimate and the date is shown. Please do not plan a purchase to the last thousand on an estimate.</p>
+<h2>Why a shop may quote something different</h2>
+<ul>
+<li>It has older or newer stock.</li>
+<li>It is another version or region.</li>
+<li>The quotation includes or excludes VAT.</li>
+<li>A bank, exchange or festival offer has been counted.</li>
+<li>It is a grey unit without local warranty.</li>
+<li>Our entry is out of date.</li>
+</ul>
+<p>In the last case, tell us through the <a href="/contact">contact page</a> with the shop's name and the date, and we will check.</p>
+<h2>Festival discounts</h2>
+<p>Before Dashain and Tihar, open the history of what you want and write down the price. When the banners appear, subtract. The method is explained, with the tricks to look out for, in <a href="/blog/dashain-tihar-tech-deals-how-to-spot-a-real-discount">how to spot a real discount</a>.</p>
+<h2>What the site does not do</h2>
+<p>We cannot guarantee that a shop will honour a listed price, and we do not give scores for devices we have not used as though we had tested them. Where an opinion is based on specifications and price, we say so. Business relationships, such as with our partner ONIN Infosys, are named where they matter.</p>
+<h2>On a phone</h2>
+<p>The site works on slow connections. Tables scroll sideways. On a phone the filters open from the bottom. You can add the site to your home screen from the browser menu and use it like an app in the shop, which is where it is most useful: search the model while the seller is talking.</p>
+<h2>Five habits of people who pay less</h2>
+<ol>
+<li>They decide on needs before models.</li>
+<li>They know the price of the last two months.</li>
+<li>They compare the exact version.</li>
+<li>They ask two shops and are polite to both.</li>
+<li>They are ready to wait a week.</li>
+</ol>
+<p>The tracker helps with the second and third. The rest is up to you.</p>
+
+=== how-to-check-phone-is-official-in-nepal
+<h2>What "official" means, and what it does not</h2>
+<p>An official phone was imported by a company authorised by the brand, taxes were paid, its IMEI was registered, and the brand's local service network will repair it under warranty. A grey phone was brought in some other way. It can be new and genuine. It may also be refurbished, locked, stolen or made for another market. The word "original", which sellers love, says nothing about any of this. A grey phone is original too.</p>
+<h2>How MDMS works</h2>
+<p>Every phone that uses a SIM has one or two IMEI numbers. Importers submit the numbers of the phones they bring. The system compares them with the phones that appear on the networks. One that is not registered can be warned, limited or blocked according to the rules in force. The regulator has tightened and relaxed enforcement at different times, so the fact that a grey phone works today does not promise that it will work next year.</p>
+<h2>The check, step by step</h2>
+<ol>
+<li>Dial <strong>*#06#</strong>. Write down both numbers, or take a photo.</li>
+<li>Turn the box over. The sticker must show the same numbers.</li>
+<li>Open Settings, About phone, Status. The numbers must match again. A mismatch between dialler and settings suggests tampering.</li>
+<li>Open the MDMS site at mdms.nta.gov.np and enter the IMEI.</li>
+<li>Read the result carefully. It should say that the device is registered.</li>
+<li>For a dual-SIM phone, check the second IMEI as well.</li>
+</ol>
+<p>If the website does not open in the shop, ask a friend to check from home, or wait. Do not accept "the site is always down".</p>
+<h2>Clues on the box</h2>
+<ul>
+<li><strong>Importer's sticker.</strong> Official phones carry the distributor's name, address and often a MRP in Nepali rupees.</li>
+<li><strong>Model code.</strong> Brands use suffixes for regions. Ask the brand's service centre which ones are sold here.</li>
+<li><strong>Plug type.</strong> A charger with a British or American plug and an adapter is a clue.</li>
+<li><strong>Languages.</strong> A box in Chinese with a separate English leaflet is a clue.</li>
+<li><strong>Seal.</strong> Look for glue marks or a second seal.</li>
+</ul>
+<h2>Brand by brand</h2>
+<p><strong>Samsung.</strong> Open the Samsung Members app or the warranty page and enter the IMEI. Check the start date and the country. In Settings, the service provider software version shows a three-letter region code.</p>
+<p><strong>Apple.</strong> checkcoverage.apple.com shows the purchase date and coverage. In Settings, General, About, the model number ends in a region code, such as HN/A for India, LL/A for the United States or ZP/A for Hong Kong. American models from recent years have no SIM tray.</p>
+<p><strong>Xiaomi, Redmi, POCO.</strong> Mi's verification page accepts the IMEI. In About phone, the version should say Global or the region, not China.</p>
+<p><strong>vivo, OPPO, Realme, OnePlus.</strong> Their support sites accept an IMEI for warranty status. Indian units show an Indian warranty.</p>
+<p><strong>Honor, Motorola, Nothing, Infinix, Tecno.</strong> Use the maker's support app, and the distributor's sticker.</p>
+<h2>Is the phone really new?</h2>
+<p>A sealed box can contain a phone that was activated months ago. Look at the activation or warranty date on the brand's site. On Android, dialling a brand-specific code or opening the battery information may show a manufacture date and cycle count. On iPhones 15 and newer, Settings, Battery shows the cycle count and the date of first use. A new phone should show a handful of cycles at most.</p>
+<h2>Buying used: extra checks</h2>
+<ul>
+<li>Ask for the original bill and an identity document of the seller. A photo of both, with permission, protects you if the phone turns out to be stolen.</li>
+<li>Check that no account is signed in. Reset the phone yourself and set it up in front of the seller.</li>
+<li>Look for water indicators inside the SIM tray.</li>
+<li>On iPhones, look in About for "Unknown Part".</li>
+<li>Test every camera, the microphone, speaker, proximity sensor, fingerprint, charging and both SIM slots.</li>
+<li>Check the IMEI in MDMS and make a call with your own SIM.</li>
+</ul>
+<h2>Bringing a phone from abroad</h2>
+<p>Travellers and returning workers may bring a phone for personal use within the customs rules, and can register it through MDMS. Rules on the number of devices, time limits and fees have changed several times, so read the current notice on the NTA and customs sites before travelling. Keep the purchase bill, your passport with the arrival stamp and your visa or labour permit. Register early, as a phone that has already been blocked takes longer to restore.</p>
+<h2>What to do if your phone is not registered</h2>
+<p>First, find out why. If you bought it recently, go back to the seller with the result and ask for registration or a refund. Your bill is your evidence. If you brought it from abroad, use the individual registration. If it was a gift, the person who brought it may need to provide documents. Do not pay an agent on social media who promises to "register any IMEI". Some change the IMEI, which is illegal and can get the phone blocked permanently.</p>
+<h2>Why changing an IMEI is a bad idea</h2>
+<p>Altering the identity of a phone is an offence in many countries, and it makes the device untraceable if stolen. It also breaks updates and banking apps that check for integrity. If a seller offers it as a service, leave.</p>
+<h2>Is a grey phone ever sensible?</h2>
+<p>Sometimes a model is not sold officially here, such as Google's Pixels. In that case you depend on an importer. Choose one with a shop, a bill and a written warranty, confirm registration before paying, check network bands and VoLTE, and accept that repairs may take weeks. For models that are sold officially, the saving on a grey unit is rarely worth what you lose below a lakh.</p>
+<h2>What a proper bill contains</h2>
+<ul>
+<li>The shop's name, address and PAN or VAT number.</li>
+<li>Date, model, colour, memory and storage.</li>
+<li>IMEI numbers.</li>
+<li>Price and VAT.</li>
+<li>Warranty period and provider.</li>
+<li>Signature or stamp.</li>
+</ul>
+<p>If a seller offers two prices, with and without a bill, choose the one with. It is your warranty, your proof of ownership and, if the phone is stolen, the document the police will ask for.</p>
+<h2>Online purchases</h2>
+<p>Before accepting a parcel, film the opening. Check the IMEI on the box against the listing and the MDMS site while the courier waits, if allowed. Pay on delivery where possible. Choose listings from official stores. Keep the packaging for the return period.</p>
+<h2>Laptops, tablets and watches</h2>
+<p>Tablets and watches with a SIM have an IMEI and need the same check. Wi-Fi tablets and laptops do not, but their warranty has a region as well. Enter the serial number on the maker's site to see the country and the dates.</p>
+<h2>One minute version</h2>
+<p>Dial *#06#. Match the box. Check MDMS. Ask for the distributor's name. Get the bill with the IMEI. If any of the five is missing, the price should be lower or the answer should be no. For the wider list of checks, read <a href="/blog/5-things-to-check-before-buying-a-smartphone-in-nepal">five things to check before buying a smartphone</a>.</p>
