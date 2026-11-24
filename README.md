@@ -119,7 +119,7 @@ The application will be available at **http://localhost:8000**
 
 ## 🗄 Database & SQL
 
-The latest database state is in `git_infosys_v2.sql` at the repository root.
+The latest database state is in `git_infosys_v2.sql` at the repository root. It holds site data and the admin account only. Recreate it with `bash scripts/export-database.sh`, and set a new admin password after importing with `php artisan admin:password`.
 
 To update your local environment with the latest data, import it into a MySQL/MariaDB database named `git_infosys_v2`.
 The catalogue can also be rebuilt from the data files with `php artisan db:seed --class=MarketCatalogSeeder`.
