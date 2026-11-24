@@ -21,7 +21,7 @@
     --fg: 35 47 63;                /* logo navy #232F3F */
     --fg-muted: 60 86 115;         /* navy-600 */
     --fg-subtle: 79 103 131;       /* >= 4.5:1 on white */
-    --fg-faint: 128 150 173;
+    --fg-faint: 94 115 138;
 
     --accent: 255 153 27;          /* logo orange #FF991B: fills, indicators, focus */
     --accent-text: 173 85 0;       /* orange that passes AA as text on white */
@@ -47,7 +47,7 @@
     --fg: 243 246 249;             /* navy-50 */
     --fg-muted: 200 211 223;       /* navy-200 */
     --fg-subtle: 159 179 199;      /* navy-300 */
-    --fg-faint: 111 133 158;
+    --fg-faint: 139 160 184;
 
     --accent: 255 153 27;          /* logo orange */
     --accent-text: 255 172 70;

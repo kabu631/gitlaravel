@@ -116,6 +116,7 @@
           <input
             v-model.number="ambientTemp"
             type="range"
+            aria-label="Room temperature in degrees Celsius"
             min="12"
             max="42"
             step="1"

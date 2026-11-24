@@ -14,8 +14,7 @@ class CompareController extends Controller
     {
         // A comparison needs two devices, so categories with fewer stay out of the switcher until they grow.
         // Same order as the header's category menu.
-        $categories = Category::withCount('gadgets')
-            ->having('gadgets_count', '>=', 2)
+        $categories = Category::has('gadgets', '>=', 2)
             ->orderBy('id')
             ->get(['id', 'name', 'slug'])
             ->map->only(['id', 'name', 'slug'])
@@ -93,7 +92,31 @@ class CompareController extends Controller
             'selectedGadgets' => $selected,
             'slugs'           => $slugs,
             'minPrice'        => $minPrice,
+            'seo'             => \App\Support\Seo::make($this->seoDefaults($selected, $category, $categories)),
         ]);
+    }
+
+    /** "A vs B" titles for a filled comparison, otherwise one title per category. */
+    private function seoDefaults($selected, ?string $category, $categories): array
+    {
+        // The page always fills two devices, so only name them when the visitor picked them.
+        $names = collect($selected)->pluck('name')->filter()->values();
+        if (request()->filled('g1') && request()->filled('g2') && $names->count() >= 2) {
+            return [
+                'title'       => \Illuminate\Support\Str::limit($names->take(2)->implode(' vs '), 55, '') . ' Compared',
+                'description' => 'Compare ' . $names->implode(', ', ' and ') . ' side by side: prices in Nepal and full specifications, with the differences highlighted.',
+                // Device combinations are endless, so they all point to the main compare page.
+                'canonical'   => route('compare.index'),
+            ];
+        }
+
+        $label = collect($categories)->firstWhere('slug', $category)['name'] ?? null;
+
+        return [
+            'title'       => $label && $category !== 'mobile' ? "Compare {$label} Specs and Prices in Nepal" : 'Compare Phones and Gadgets in Nepal',
+            'description' => 'Put up to four devices next to each other: current prices in Nepal and full specifications, with the differences highlighted.',
+            'canonical'   => $category && $category !== 'mobile' ? route('compare.index', ['category' => $category]) : route('compare.index'),
+        ];
     }
 
     public function suggest(Request $request)

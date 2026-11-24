@@ -39,6 +39,12 @@ class AppServiceProvider extends ServiceProvider
 
         $this->configureRateLimiting();
 
+        // Behind a proxy or CDN the app may see plain HTTP; links must still be https on the live site.
+        if ($this->app->isProduction() && str_starts_with((string) config('app.url'), 'https://')) {
+            \Illuminate\Support\Facades\URL::forceRootUrl(config('app.url')); // one canonical address, whatever host was typed
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
+
         // New passwords (sign-up, reset, change): at least 10 characters with letters and numbers.
         Password::defaults(fn () => Password::min(10)->letters()->numbers());
         $this->configureAdminTables();

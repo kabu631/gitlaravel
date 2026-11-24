@@ -64,7 +64,8 @@
               <span class="tabular text-lg font-semibold tracking-tight text-fg">{{ formatPrice(gadget.price) }}</span>
               <span v-if="discount && status === 'available'" class="tabular text-xs text-fg-faint line-through">{{ formatPrice(gadget.old_price) }}</span>
             </p>
-            <p v-if="gadget.price_is_estimate" class="text-[0.6875rem] uppercase tracking-[0.06em] text-fg-faint">Expected</p>
+            <p v-if="outOfStock" class="text-[0.6875rem] uppercase tracking-[0.06em] text-fg-subtle">Out of stock</p>
+            <p v-else-if="gadget.price_is_estimate" class="text-[0.6875rem] uppercase tracking-[0.06em] text-fg-faint">Expected</p>
           </template>
           <p v-else class="text-xs leading-snug text-fg-subtle">{{ launchNote }}</p>
         </div>
@@ -100,11 +101,12 @@ function toggleCompare() {
 const specs = computed(() => keySpecs(props.gadget, 4))
 const status = computed(() => props.gadget.release_status || 'available')
 const statusText = computed(() => STATUS_LABEL[status.value] || 'On sale')
-const discount = computed(() => discountPercent(props.gadget.price, props.gadget.old_price))
+const outOfStock = computed(() => !!props.gadget.out_of_stock_at)
+const discount = computed(() => (outOfStock.value ? 0 : discountPercent(props.gadget.price, props.gadget.old_price)))
 const launchNote = computed(() => {
   const note = (props.gadget.launch_price_note || '').split('·').pop().trim()
   if (!note) return 'No Nepal price yet'
-  return status.value === 'discontinued' ? `Launched at ${note.replace(/ launch price.*/, '')}` : 'No official Nepal price'
+  return status.value === 'discontinued' ? /last listed/.test(note) ? `Last listed at ${note.replace(/ last listed.*/, '')}` : `Launched at ${note.replace(/ launch price.*/, '')}` : 'No official Nepal price'
 })
 </script>
 

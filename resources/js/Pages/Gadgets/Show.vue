@@ -79,11 +79,11 @@
               <p class="mt-1 text-sm text-fg-subtle">{{ gadget.release_status === 'discontinued' ? 'No longer sold new, so there is no current Nepal price.' : 'No official Nepal price. Shop prices vary.' }}</p>
             </template>
             <template v-else>
-            <p class="text-sm text-fg-subtle">{{ gadget.price_is_estimate ? 'Expected price in Nepal' : 'Price in Nepal' }}</p>
+            <p class="text-sm text-fg-subtle">{{ gadget.price_is_estimate ? 'Expected price in Nepal' : gadget.out_of_stock_at ? 'Last listed price in Nepal' : 'Price in Nepal' }}</p>
             <div class="mt-1 flex flex-wrap items-baseline gap-x-3 gap-y-1">
               <p class="tabular text-3xl font-semibold tracking-tight text-fg">{{ formatPrice(displayPrice) }}</p>
-              <p v-if="discountPercent" class="tabular text-base text-fg-faint line-through">{{ formatPrice(originalPrice) }}</p>
-              <span v-if="discountPercent" class="badge badge-positive">Save {{ formatPrice(originalPrice - displayPrice) }}</span>
+              <p v-if="discountPercent && !gadget.out_of_stock_at" class="tabular text-base text-fg-faint line-through">{{ formatPrice(originalPrice) }}</p>
+              <span v-if="discountPercent && !gadget.out_of_stock_at" class="badge badge-positive">Save {{ formatPrice(originalPrice - displayPrice) }}</span>
             </div>
             </template>
           </div>
@@ -544,6 +544,9 @@ const statusNotice = computed(() => {
   }
   if (props.gadget.release_status === 'discontinued') {
     return { title: 'No longer sold new.', text: 'We keep its specs and launch price for reference. If you buy one second-hand, check the battery and MDMS registration.' }
+  }
+  if (props.gadget.out_of_stock_at) {
+    return { title: 'Out of stock.', text: `The shop we checked had none on ${formatDate(props.gadget.out_of_stock_at)}. Ask it for current stock and price before you plan on this one.` }
   }
   if (!hasNepalPrice.value) {
     return { title: 'No official Nepal price.', text: 'It is sold through importers and game shops, so prices vary. The launch price is shown for reference.' }

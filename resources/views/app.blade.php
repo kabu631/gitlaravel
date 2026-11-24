@@ -6,7 +6,9 @@
         <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
         <meta name="theme-color" content="#0e141c" media="(prefers-color-scheme: dark)">
         <link rel="icon" type="image/png" href="/favicon.png">
-        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="manifest" href="/site.webmanifest">
 
         <!-- SEO Meta Tags (Server Rendered for Bots) -->
         @php

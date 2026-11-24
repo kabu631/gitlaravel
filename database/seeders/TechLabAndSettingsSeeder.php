@@ -295,22 +295,22 @@ class TechLabAndSettingsSeeder extends Seeder
         // 6. Seed Global Site Settings
         $settings = [
             'announcement_enabled'       => 'true',
-            'announcement_text'          => 'Nepal IT & Regulatory Radar: Airport MDMS customs calculator and 5G band radar are now live in Tech Lab!',
+            'announcement_text'          => 'Bringing a phone home? Work out the customs duty and check which 5G bands it supports.',
             'announcement_url'           => '/tech-lab',
             'announcement_badge'         => 'TECH LAB',
             'footer_phone'               => '+977-985-7039307',
             'footer_email'               => 'info@gitinfosys.com.np',
             'footer_address'             => 'Pako, New Road, Kathmandu - Nepal',
             'footer_hours'               => 'Sun – Fri: 10 AM – 8 PM',
-            'footer_copyright'           => '© ' . date('Y') . ' Git Infosys. All rights reserved. Nepal\'s Premier Independent Tech Platform.',
+            'footer_copyright'           => '© ' . date('Y') . ' Git Infosys. All rights reserved.',
             'social_facebook'            => 'https://facebook.com/gitinfosys',
             'social_instagram'           => 'https://instagram.com/gitinfosys',
             'social_twitter'             => 'https://twitter.com/gitinfosys',
             'social_youtube'             => 'https://youtube.com/@gitinfosys',
             'social_tiktok'              => 'https://tiktok.com/@gitinfosys',
             'cookie_consent_enabled'     => 'true',
-            'cookie_consent_title'       => 'Cookies & Session Protection',
-            'cookie_consent_message'     => 'We use cookies and active sessions to authenticate accounts, store device comparisons, manage your cart, and secure your session. Active sessions automatically end when your browser closes or system restarts.',
+            'cookie_consent_title'       => 'Cookies',
+            'cookie_consent_message'     => 'We use cookies to keep you signed in, protect forms and remember your choices.',
             'mdms_customs_duty_percent'  => '5',
             'mdms_vat_percent'           => '13',
             'mdms_nta_fee_standard'      => '3000',
@@ -330,68 +330,10 @@ class TechLabAndSettingsSeeder extends Seeder
             SiteSetting::set($key, $val, $group);
         }
 
-        // 7. Seed PageContent for Services and About
-        $servicesContent = PageContent::firstOrNew(['page' => 'services']);
-        $servicesContent->heading = 'Our Platform Services';
-        $servicesContent->subheading = "Git Infosys is Nepal's ultimate tech ecosystem. We offer an integrated suite of tools, reviews, and shopping experiences to make your tech life smarter.";
-        $servicesContent->meta_description = "Explore what Git Infosys offers — gadget reviews, price comparison, buying guides, sponsored content, and more for Nepal's tech community.";
-        $servicesContent->extra = [
-            'services' => [
-                [
-                    'icon'     => '⭐',
-                    'title'    => 'In-Depth Tech Reviews',
-                    'desc'     => 'Honest, hands-on tests of the latest smartphones, laptops, and wearables. Our expert verdicts help you make confident buying decisions.',
-                    'gradient' => 'linear-gradient(135deg, #6c5ce7, #4834d4)',
-                ],
-                [
-                    'icon'     => '↔️',
-                    'title'    => 'Gadget Comparisons',
-                    'desc'     => 'Use our powerful comparison engine to put devices head-to-head. Analyze specs, benchmarks, and camera differences instantly.',
-                    'gradient' => 'linear-gradient(135deg, #1877F2, #0A66C2)',
-                ],
-                [
-                    'icon'     => '📈',
-                    'title'    => 'Price & Specs Tracking',
-                    'desc'     => 'Official Nepal MRP and market rates tracked regularly with historical data to know if you are getting a genuine deal.',
-                    'gradient' => 'linear-gradient(135deg, #F56040, #C13584)',
-                ],
-                [
-                    'icon'     => '📰',
-                    'title'    => 'Daily Tech News',
-                    'desc'     => 'Stay updated with blazing-fast coverage on the latest tech launches, leaks, and industry insights.',
-                    'gradient' => 'linear-gradient(135deg, #00b894, #00cec9)',
-                ],
-                [
-                    'icon'     => '🤝',
-                    'title'    => 'Authorized Retail Guidance',
-                    'desc'     => 'To preserve 100% editorial impartiality, we guide buyers to authorized distributors and certified retailers across Nepal for authentic hardware and official warranties.',
-                    'gradient' => 'linear-gradient(135deg, #ff9f43, #ff6b6b)',
-                ],
-            ],
-            'cta_heading' => 'Ready to upgrade your tech?',
-            'cta_text'    => 'Join thousands of smart shoppers who trust Git Infosys for real-time reviews, competitive prices, and premium gadgets.',
-        ];
-        $servicesContent->save();
-
-        $aboutContent = PageContent::firstOrNew(['page' => 'about']);
-        $aboutContent->heading = "Nepal's Trusted Tech Platform";
-        $aboutContent->subheading = 'We help Nepali consumers make smarter, more confident tech purchasing decisions.';
-        $aboutContent->meta_description = 'Learn about Git Infosys — the team, mission, and values behind Nepal\'s leading tech review, gadget comparison, and price tracking platform.';
-        $aboutContent->extra = array_merge($aboutContent->extra ?? [], [
-            'mission' => "To be Nepal's most trusted source for gadget reviews, price comparisons, and tech news — empowering every buyer with unbiased, data-driven insights.",
-            'vision'  => 'A Nepal where every consumer has access to transparent, up-to-date technology information and can shop with complete confidence.',
-            'story'   => 'Git Infosys started as a passion project by a group of tech enthusiasts who were frustrated by the lack of reliable, localized tech information in Nepal.',
-            'stats'   => [
-                ['num' => '500+', 'label' => 'Products Reviewed'],
-                ['num' => '50K+', 'label' => 'Monthly Visitors'],
-                ['num' => '100+', 'label' => 'Expert Articles'],
-                ['num' => '10K+', 'label' => 'Happy Shoppers'],
-            ],
-            'team'    => [
-                ['name' => 'Anjan Bhandari', 'role' => 'Founder, Leader and Tech Expert', 'bio' => 'Tech enthusiast and visionary leader passionate about empowering Nepali consumers with honest, data-driven gadget insights.'],
-                ['name' => 'Kabindra Koirala', 'role' => 'CTO & Platform Supervisor', 'bio' => 'Tech enthusiast passionate about building high-performance tech platforms, benchmark systems, and supervising digital architecture.'],
-            ],
-        ]);
-        $aboutContent->save();
+        // 7. Static page text and the Services cards live in PageContentSeeder.
+        $this->call(PageContentSeeder::class);
+        foreach (PageContentSeeder::services() as $i => [$title, $description]) {
+            \App\Models\Service::updateOrCreate(['sort_order' => $i], ['title' => $title, 'description' => $description, 'is_active' => true]);
+        }
     }
 }

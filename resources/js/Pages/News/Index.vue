@@ -75,7 +75,7 @@
                 <p v-if="article.meta_description" class="mt-2 line-clamp-2 text-sm leading-6 text-fg-muted">{{ article.meta_description }}</p>
               </div>
               <div v-if="article.thumbnail" class="media-plate hidden aspect-[4/3] w-40 shrink-0 rounded-lg sm:block">
-                <img :src="getImageUrl(article.thumbnail)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                <img :src="getImageUrl(article.thumbnail)" :alt="''" loading="lazy" class="h-full w-full" :class="article.thumbnail.startsWith('gadgets/') ? 'object-contain' : 'object-cover'" />
               </div>
             </Link>
           </li>

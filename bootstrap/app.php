@@ -37,4 +37,25 @@ return Application::configure(basePath: dirname(__DIR__))
 
             return redirect()->to($redirect->to_path . ($query ? "?{$query}" : ''), $redirect->status_code);
         });
+
+        // 403/404 for page visits use the site layout (menu, search); everything else falls back to the plain
+        // resources/views/errors pages, which work even when the database is down.
+        $exceptions->respond(function (\Symfony\Component\HttpFoundation\Response $response, \Throwable $e, \Illuminate\Http\Request $request) {
+            $status = $response->getStatusCode();
+            $adminPath = trim((string) config('filament.path', 'secure-admin'), '/');
+            if (! in_array($status, [403, 404], true) || ! $request->isMethod('GET') || $request->is($adminPath, $adminPath . '/*')
+                || ($request->expectsJson() && ! $request->header('X-Inertia'))
+                || preg_match('/\.[a-z0-9]{2,5}$/i', $request->path())) {
+                return $response;
+            }
+
+            try {
+                return \Inertia\Inertia::render('Error', [
+                    'status' => $status,
+                    'seo'    => \App\Support\Seo::make(['title' => $status === 404 ? 'Page not found' : 'No access', 'noindex' => true]),
+                ])->toResponse($request)->setStatusCode($status);
+            } catch (\Throwable) {
+                return $response;
+            }
+        });
     })->create();

@@ -7,10 +7,11 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createApp, h } from 'vue';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 
-const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
+const appName = import.meta.env.VITE_APP_NAME || 'Git Infosys';
 
 createInertiaApp({
-    title: (title) => `${title} - ${appName}`,
+    // SEO titles are final (AppSupportSeo); only short ones such as "Log in" still need the site name.
+    title: (title) => (!title ? appName : title.includes(appName) || title.length + appName.length + 3 > 65 ? title : `${title} | ${appName}`),
     resolve: (name) =>
         resolvePageComponent(
             `./Pages/${name}.vue`,

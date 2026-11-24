@@ -70,6 +70,7 @@
           <input
             v-model.number="downPaymentPercent"
             type="range"
+            aria-label="Down payment in percent"
             min="0"
             max="50"
             step="5"

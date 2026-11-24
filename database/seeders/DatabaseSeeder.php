@@ -172,7 +172,7 @@ class DatabaseSeeder extends Seeder
             'name'              => 'Admin',
             // Set ADMIN_PASSWORD in .env before seeding; otherwise it is random and you reset it with
             // `php artisan admin:password`.
-            'password'          => Hash::make(env('ADMIN_PASSWORD') ?: Str::random(40)),
+            'password'          => Hash::make(config('app.admin_password') ?: Str::random(40)),
             'is_admin'          => true,
             'email_verified_at' => now(),
         ]);

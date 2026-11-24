@@ -27,7 +27,7 @@
         </header>
 
         <figure v-if="article.thumbnail" class="media-plate mt-8 aspect-[16/9] rounded-xl">
-          <img :src="getImageUrl(article.thumbnail)" :alt="$page.props.seo?.image_alt || article.title" class="h-full w-full object-cover" />
+          <img :src="getImageUrl(article.thumbnail)" :alt="$page.props.seo?.image_alt || article.title" class="h-full w-full" :class="article.thumbnail.startsWith('gadgets/') ? 'object-contain' : 'object-cover'" />
         </figure>
 
         <div class="prose prose-lg mt-8 max-w-3xl" v-html="article.content" />
@@ -43,7 +43,7 @@
             <li v-for="r in related" :key="r.id">
               <Link :href="route('news.show', r.slug)" class="group block">
                 <div v-if="r.thumbnail" class="media-plate mb-3 aspect-[16/10] rounded-lg">
-                  <img :src="getImageUrl(r.thumbnail)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                  <img :src="getImageUrl(r.thumbnail)" :alt="''" loading="lazy" class="h-full w-full" :class="r.thumbnail.startsWith('gadgets/') ? 'object-contain' : 'object-cover'" />
                 </div>
                 <p class="text-xs text-fg-subtle"><span class="text-accent-text">{{ newsCategoryLabel(r.category) }}</span> · {{ formatDate(r.created_at) }}</p>
                 <h3 class="mt-1 font-medium leading-snug text-fg group-hover:underline group-hover:underline-offset-4">{{ r.title }}</h3>

@@ -37,6 +37,19 @@ class MarketCatalogSeeder extends Seeder
     private ?int $authorId = null;
 
     /** @var array<string, string> slug => official page each product image came from */
+    /** News slug => the device it is about. Rumours about unreleased devices stay without a photo on purpose. */
+    private const NEWS_COVERS = [
+        'on-device-ai-revolution-npu-gemini-nano-apple-intelligence'       => 'iphone-18-pro',
+        'nvidia-rtx-50-series-blackwell-gpus-nepal-guide'                  => 'pny-geforce-rtx-5070-ti-16gb-gddr7-triple-fan-graphics-card',
+        'electronic-price-hikes-nepal-ram-ssd-smartphones-analysis'        => 'pny-xlr8-gaming-epic-x-rgb-32gb-2x16gb-ddr5-6400mhz-desktop-ram',
+        'iphone-17-pro-max-leaks-2nm-a19-pro-nepal-pricing-radar'          => 'apple-iphone-17-pro-max',
+        'samsung-galaxy-s25-ultra-leak-roundup-snapdragon-8-elite-nepal'   => 'samsung-galaxy-s25-ultra',
+        'asus-rog-zephyrus-g16-2025-rtx-5080-benchmarks-leaked'            => 'asus-rog-zephyrus-g16-gu605cr-core-ultra-9-285h-32gb-1tb-rtx-5070-ti',
+        'qualcomm-oryon-snapdragon-x-elite-laptops-nepal-battery-benchmarks' => 'asus-vivobook-s15-2024-x-elite-x1e-78-100',
+        'samsung-ncell-partnership-galaxy-offers-nepal'                    => 'samsung-galaxy-a17-5g',
+        'xiaomi-18-pro-snapdragon-8-elite-gen-6-launch'                    => 'xiaomi-18-pro',
+    ];
+
     private array $imageCredits = [];
     private array $imageAttributions = [];
 
@@ -283,6 +296,9 @@ class MarketCatalogSeeder extends Seeder
         if (array_key_exists('buy_url', $row)) {
             $attributes['buy_url'] = $row['buy_url'];
         }
+        if (array_key_exists('buy_url', $row) || isset($row['out_of_stock'])) {
+            $attributes['out_of_stock_at'] = $row['out_of_stock'] ?? null;
+        }
         if ($image) {
             $attributes['image'] = $image;
         }
@@ -481,6 +497,15 @@ class MarketCatalogSeeder extends Seeder
             ]);
             $this->stamp($article, $a['date']);
             $this->seo($article, $a['seo'] ?? null, 'article');
+
+            // Articles about one device show its photo unless an editor has set a cover.
+            $device = self::NEWS_COVERS[$article->slug] ?? null;
+            if ($device && (! $article->thumbnail || str_starts_with($article->thumbnail, 'gadgets/'))
+                && ($image = Gadget::where('slug', $device)->value('image'))) {
+                $article->timestamps = false;
+                $article->forceFill(['thumbnail' => $image])->saveQuietly();
+                $article->timestamps = true;
+            }
         }
     }
 

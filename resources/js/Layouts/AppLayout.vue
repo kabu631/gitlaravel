@@ -231,7 +231,7 @@
           <div class="lg:col-span-4">
             <img :src="isDark ? '/images/logo-white.png' : '/images/logo_dark.png'" alt="Git Infosys" class="h-8 w-auto" width="76" height="32" loading="lazy" />
             <p class="mt-4 max-w-xs text-sm leading-6 text-fg-muted">
-              Independent reviews, full specifications and current prices for phones, laptops and gadgets sold in Nepal.
+              Reviews, full specifications and current prices for phones, laptops and gadgets sold in Nepal.
             </p>
 
             <form class="mt-6 max-w-sm" @submit.prevent="subscribe">
@@ -298,8 +298,7 @@
 
         <p class="max-w-3xl py-6 text-xs leading-5 text-fg-subtle">
           <span class="font-medium text-fg-muted">Editorial policy.</span>
-          Git Infosys is an independent publication and does not sell devices directly. Links to buy take you to authorized
-          retailers and distributors in Nepal.
+          Git Infosys does not sell devices on this website. Links to buy take you to retailers and distributors in Nepal.
         </p>
 
         <div class="flex flex-col gap-3 border-t border-line py-6 text-xs text-fg-subtle sm:flex-row sm:items-center sm:justify-between">

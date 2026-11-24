@@ -104,16 +104,12 @@ The application will be available at **http://localhost:8000**
 
 ---
 
-## 🔐 Demo Login Credentials
+## 🔐 Admin Panel
 
-### Admin Panel Access
-1. Navigate to **http://localhost:8000/admin**
-2. Log in with the following credentials:
+1. Set a password for the admin account: `php artisan admin:password` (it prints a new random one).
+2. Open **/secure-admin** and sign in as `admin@gitinfosys.com`.
 
-| Field    | Value                |
-|----------|----------------------|
-| Email    | `admin@gitinfosys.com`|
-| Password | `password`           |
+There are no default passwords. Change the panel address with `FILAMENT_PATH` in `.env`.
 
 ---
 
@@ -126,21 +122,21 @@ The catalogue can also be rebuilt from the data files with `php artisan db:seed 
 
 ---
 
-## 🧪 Testing & Verification
+## 🧪 Testing
 
-A comprehensive audit was performed on **May 14, 2026**, covering all administrative and public components.
+```bash
+php artisan test     # runs on an in-memory database
+composer audit       # known security issues in PHP packages
+npm audit
+```
 
-### Admin Panel CRUD Audit
-All resource modules were manually and automatically verified for:
-- ✅ **Brand Management**: Full CRUD verified.
-- ✅ **Category Management**: Full CRUD verified.
-- ✅ **Gadget/Product Management**: Image uploads and specification handling verified.
-- ✅ **Order Processing**: Workflow from customer order to admin dashboard verified.
-- ✅ **User Management**: Role-based access and password resets verified.
+GitHub Actions runs the tests, the frontend build and `composer audit` on every push.
 
-### Public Storefront
-- Verified cross-browser compatibility for the PC Builder and Comparison engines.
-- Confirmed AI chatbot responsiveness using OpenRouter.
+---
+
+## 🚀 Going live
+
+See [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ---
 

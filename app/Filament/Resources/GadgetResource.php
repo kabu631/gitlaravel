@@ -216,6 +216,11 @@ class GadgetResource extends Resource
                     ->nullable()
                     ->placeholder('https://onin.com.np/product/...')
                     ->helperText('Direct purchase link — used for "Buy Now" button on product page'),
+                TextInput::make('out_of_stock_at')
+                    ->label('Out of stock since')
+                    ->type('date')
+                    ->nullable()
+                    ->helperText('Date the shop was last seen out of stock. Clear it when the product is back.'),
                 Toggle::make('is_featured')->label('Featured'),
                 Toggle::make('is_trending')->label('Trending'),
             ])->columns(2),

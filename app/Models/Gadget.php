@@ -15,7 +15,7 @@ class Gadget extends Model
     protected $fillable = [
         'brand_id', 'category_id', 'name', 'slug', 'accessory_type',
         'image', 'model_3d', 'sketchfab_embed', 'price', 'old_price',
-        'release_date', 'is_featured', 'is_trending', 'description', 'price_tracker_description', 'buy_url', 'views_count',
+        'release_date', 'is_featured', 'is_trending', 'description', 'price_tracker_description', 'buy_url', 'out_of_stock_at', 'views_count',
         'release_status', 'expected_launch', 'price_is_estimate', 'launch_price_note', 'faqs', 'sources',
     ];
 
@@ -49,6 +49,7 @@ class Gadget extends Model
         'price'        => 'decimal:2',
         'old_price'    => 'decimal:2',
         'release_date' => 'date',
+        'out_of_stock_at' => 'date:Y-m-d',
         'price_is_estimate' => 'boolean',
         'faqs'         => 'array',
         'sources'      => 'array',
@@ -70,7 +71,7 @@ class Gadget extends Model
                 'gadgets.id', 'gadgets.brand_id', 'gadgets.category_id', 'gadgets.name', 'gadgets.slug',
                 'gadgets.image', 'gadgets.price', 'gadgets.old_price', 'gadgets.price_is_estimate',
                 'gadgets.launch_price_note', 'gadgets.release_status', 'gadgets.release_date',
-                'gadgets.is_featured', 'gadgets.is_trending', 'gadgets.buy_url', 'gadgets.created_at',
+                'gadgets.is_featured', 'gadgets.is_trending', 'gadgets.buy_url', 'gadgets.out_of_stock_at', 'gadgets.created_at',
             ])
             ->with([
                 'brand:id,name,slug',

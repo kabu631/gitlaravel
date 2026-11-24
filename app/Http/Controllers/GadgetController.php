@@ -60,7 +60,7 @@ class GadgetController extends Controller
             'categories' => Category::withCount(['gadgets' => fn ($q) => $inBrand($inStatus($q))])->get()
                 ->filter(fn ($c) => $c->gadgets_count > 0 || $c->slug === $request->category)->values(),
             'brands'     => \App\Models\Brand::withCount(['gadgets' => fn ($q) => $inCategory($inStatus($q))])
-                ->having('gadgets_count', '>', 0)->orderByDesc('gadgets_count')->get(),
+                ->whereHas('gadgets', fn ($q) => $inCategory($inStatus($q)))->orderByDesc('gadgets_count')->get(),
             'filters'    => $request->only(['category', 'brand', 'search', 'min_price', 'max_price', 'sort', 'status']),
             'statusCounts' => $inBrand($inCategory(Gadget::query()))->selectRaw('release_status, count(*) as total')->groupBy('release_status')->pluck('total', 'release_status'),
 
@@ -198,7 +198,7 @@ class GadgetController extends Controller
 
         $sellable = $gadget->release_status === Gadget::STATUS_AVAILABLE && ! $gadget->price_is_estimate && $prices->isNotEmpty();
         if ($sellable) {
-            $availability = $productVariants->isNotEmpty() && ! $productVariants->contains('is_in_stock', true)
+            $availability = $gadget->out_of_stock_at || $productVariants->isNotEmpty() && ! $productVariants->contains('is_in_stock', true)
                 && $productVariants->sum('stock_quantity') > 0
                 ? 'https://schema.org/OutOfStock'
                 : 'https://schema.org/InStock';

@@ -50,7 +50,7 @@ const jsonLdStr = computed(() =>
     <meta v-if="s.published_at" head-key="article:published_time" property="article:published_time" :content="s.published_at" />
     <meta v-if="s.modified_at"  head-key="article:modified_time"  property="article:modified_time"  :content="s.modified_at" />
 
-    <!-- Structured Data (JSON-LD) -->
-    <component :is="'script'" v-if="jsonLdStr" head-key="json-ld" type="application/ld+json" v-text="jsonLdStr" />
+    <!-- Structured data. It must be the tag's text: Inertia writes v-text as an attribute, which empties the script. -->
+    <component :is="'script'" v-if="jsonLdStr" head-key="json-ld" type="application/ld+json">{{ jsonLdStr }}</component>
   </Head>
 </template>

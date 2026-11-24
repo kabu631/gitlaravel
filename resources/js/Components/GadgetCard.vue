@@ -81,7 +81,7 @@ const statusBadge = computed(() => ({ upcoming: 'Coming soon', announced: 'Annou
 const launchNote = computed(() => {
   const note = (props.gadget.launch_price_note || '').split('·').pop().trim()
   if (!note) return 'No Nepal price yet'
-  return props.gadget.release_status === 'discontinued' ? `Launched at ${note.replace(/ launch price.*/, '')}` : 'No official Nepal price'
+  return props.gadget.release_status === 'discontinued' ? /last listed/.test(note) ? `Last listed at ${note.replace(/ last listed.*/, '')}` : `Launched at ${note.replace(/ launch price.*/, '')}` : 'No official Nepal price'
 })
 
 // A short factual line built from structured specs when they exist.

@@ -28,6 +28,16 @@
           </section>
         </div>
       </div>
+
+      <section v-if="method.length" class="mt-12 border-t border-line pt-10" aria-labelledby="method-heading">
+        <h2 id="method-heading" class="text-xl font-semibold text-fg">How we work</h2>
+        <dl class="mt-4 divide-y divide-line border-y border-line">
+          <div v-for="m in method" :key="m.title" class="grid gap-1 py-5 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-6">
+            <dt class="font-medium text-fg">{{ m.title }}</dt>
+            <dd class="leading-7 text-fg-muted">{{ m.text }}</dd>
+          </div>
+        </dl>
+      </section>
     </article>
 
     <section v-if="team.length" class="mt-16 border-t border-line pt-10" aria-labelledby="team-heading">
@@ -67,6 +77,7 @@ defineProps({
   vision: { type: String, default: '' },
   story: { type: String, default: '' },
   stats: { type: Array, default: () => [] },
+  method: { type: Array, default: () => [] },
   team: { type: Array, default: () => [] },
   sidebarProducts: { type: Array, default: () => [] },
   sidebarNews: { type: Array, default: () => [] },

@@ -106,8 +106,8 @@ class HomeController extends Controller
             'matchmakerPool'   => Inertia::optional(fn () => $this->matchmakerPool()),
 
             'seo' => Seo::make([
-                'title'       => "Nepal's #1 Tech Review, Gadget Prices & Comparison",
-                'description' => 'Discover the latest smartphones, laptops, and accessories with honest reviews, live price tracking, and spec comparisons. Make smarter buying decisions with Git Infosys.',
+                'title'       => "Gadget Prices in Nepal, Reviews and Comparisons",
+                'description' => 'Current prices in Nepal, full specifications and reviews for phones, laptops and gadgets. Compare devices, track price changes and read buying guides.',
                 'canonical'   => $appUrl . '/',
                 'type'        => 'website',
                 'json_ld'     => [
@@ -118,7 +118,7 @@ class HomeController extends Controller
                             '@id'             => $appUrl . '/#website',
                             'url'             => $appUrl,
                             'name'            => $appName,
-                            'description'     => 'Nepal\'s trusted tech review & gadget price comparison platform.',
+                            'description'     => 'Gadget prices, specifications, reviews and comparisons for Nepal.',
                             'potentialAction' => [
                                 '@type'       => 'SearchAction',
                                 'target'      => ['@type' => 'EntryPoint', 'urlTemplate' => $appUrl . '/search?q={search_term_string}'],

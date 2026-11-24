@@ -94,6 +94,7 @@
               </div>
               <input
                 type="range"
+                aria-label="Outside temperature in degrees Celsius"
                 min="16"
                 max="40"
                 v-model.number="ambientTemp"
@@ -111,6 +112,7 @@
               </div>
               <input
                 type="range"
+                aria-label="Daily usage, from light to heavy"
                 min="1"
                 max="3"
                 v-model.number="usageIntensity"

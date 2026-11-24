@@ -131,3 +131,6 @@ Route::redirect($adminPath . '/bank-partners/create', $adminPath . '/bank-partne
 Route::redirect($adminPath . '/authorized-service-centers/create', $adminPath . '/authorized-service-centers');
 Route::redirect($adminPath . '/carrier-frequency-bands/create', $adminPath . '/carrier-frequency-bands');
 Route::redirect($adminPath . '/upcoming-launches/create', $adminPath . '/upcoming-launches');
+
+// Unknown addresses still go through the web middleware, so the 404 page has the menu, theme and sign-in state.
+Route::fallback(fn () => abort(404));

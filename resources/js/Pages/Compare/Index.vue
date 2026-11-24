@@ -260,7 +260,7 @@
                     </span>
                     <div class="flex items-center gap-3 font-mono font-semibold text-xs">
                       <span class="text-accent-text">{{ axis.valA }} / 100</span>
-                      <span class="text-slate-300 dark:text-slate-700">vs</span>
+                      <span class="text-fg-subtle">vs</span>
                       <span class="text-fg-muted">{{ axis.valB }} / 100</span>
                     </div>
                   </div>
@@ -685,7 +685,7 @@
               </div>
               <div>
                 <h3 class="font-semibold text-sm sm:text-base text-fg">AI Buying Verdict</h3>
-                <p class="text-xs text-fg-subtle">A quick, independent recommendation for Nepal buyers</p>
+                <p class="text-xs text-fg-subtle">A quick recommendation for buyers in Nepal, written by AI</p>
               </div>
             </div>
 

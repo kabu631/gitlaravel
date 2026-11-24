@@ -31,7 +31,7 @@ class Seo
             static::setting('seo_default_description'),
         ));
         $keywords = static::pick($meta?->meta_keywords, $defaults['keywords'] ?? null, static::setting('seo_default_keywords'));
-        $canonical = static::pick($meta?->canonical_url, $defaults['canonical'] ?? null, request()->url());
+        $canonical = static::pick($meta?->canonical_url, $defaults['canonical'] ?? null, url(request()->path()));
         $page = (int) request()->query('page', 1);
         if ($page > 1 && blank($meta?->canonical_url) && ! str_contains($canonical, 'page=')) {
             $canonical .= (str_contains($canonical, '?') ? '&' : '?') . "page={$page}";
@@ -42,10 +42,13 @@ class Seo
         )) ?? asset(file_exists(public_path('images/og-default.jpg')) ? 'images/og-default.jpg' : 'images/logo_dark.png');
         $type = static::pick($meta?->og_type, $defaults['type'] ?? null, 'website');
 
+        $title     = static::tidyTitle($title);
         $baseTitle = static::pick($title, static::setting('seo_default_title'));
         $fullTitle = match (true) {
             blank($baseTitle)                    => $siteName,
             Str::contains($baseTitle, $siteName) => $baseTitle,
+            // Search results cut titles at about 65 characters, so long ones go without the site name.
+            mb_strlen($baseTitle) + mb_strlen($siteName) + 3 > 65 => $baseTitle,
             default                              => "{$baseTitle} {$sep} {$siteName}",
         };
 
@@ -87,6 +90,20 @@ class Seo
             'modified_at'         => $defaults['modified_at'] ?? null,
             'json_ld'             => $jsonLd,
         ], fn ($v) => $v !== null && $v !== '');
+    }
+
+    /** Titles cut to a length limit can end mid-phrase ("… Price i"); drop the broken ending. */
+    private static function tidyTitle(?string $title): ?string
+    {
+        $tail = ' Price in Nepal & Specs';
+        for ($n = strlen($tail) - 1; $title !== null && $n > 1; $n--) {
+            $part = substr($tail, 0, $n);
+            if ($part !== ' Price in Nepal' && str_ends_with($title, $part)) {
+                return rtrim(str_starts_with($part, ' Price in Nepal') ? substr($title, 0, -($n - strlen(' Price in Nepal'))) : substr($title, 0, -$n));
+            }
+        }
+
+        return $title;
     }
 
     /** Replace controller-computed values inside JSON-LD with the admin-overridden ones. */
@@ -166,6 +183,8 @@ class Seo
 
         $base = $meta?->robots
             ?? (! empty($defaults['noindex']) ? 'noindex, nofollow' : null)
+            // Account pages never belong in search results.
+            ?? (request()->routeIs('login', 'register', 'password.*', 'verification.*', 'profile.*', 'wishlist.*', 'cart.*', 'checkout.*', 'orders.*', 'dashboard') ? 'noindex, follow' : null)
             ?? static::setting('seo_robots_default', 'index, follow');
 
         return collect([$base])->merge($meta?->robots_directives ?? [])->filter()->implode(', ');

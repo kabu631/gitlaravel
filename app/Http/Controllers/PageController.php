@@ -45,29 +45,25 @@ class PageController extends Controller
         $content = PageContent::forPage('about');
         $extra   = $content?->extra ?? [];
 
-        // Admin-managed override (Static Pages → About → extra.stats), otherwise real catalogue counts.
-        $stats = $extra['stats'] ?? [
-            ['num' => number_format(Gadget::count()) . '+', 'label' => 'Products Listed'],
-            ['num' => number_format(Review::where('is_published', true)->count()) . '+', 'label' => 'Expert Reviews'],
-            ['num' => number_format(NewsArticle::where('is_published', true)->count() + BlogPost::published()->count()) . '+', 'label' => 'Articles Published'],
-            ['num' => number_format(Brand::count()) . '+', 'label' => 'Brands Covered'],
-        ];
+        // Optional figures from the admin (Static Pages → About → extra.stats). Only publish numbers you can prove.
+        $stats = $extra['stats'] ?? [];
 
         $team = TeamMember::active()->get()->map(fn ($m) => [
             'name' => $m->name, 'role' => $m->role, 'bio' => $m->bio, 'photo' => $m->photo,
         ])->all();
 
         return Inertia::render('Pages/About', array_merge($this->sidebarData(), [
-            'heading'    => $content?->heading    ?? "Nepal's Trusted Tech Platform",
-            'subheading' => $content?->subheading ?? 'We help Nepali consumers make smarter, more confident tech purchasing decisions.',
-            'mission'    => $extra['mission'] ?? "To be Nepal's most trusted source for gadget reviews, price comparisons, and tech news — empowering every buyer with unbiased, data-driven insights.",
-            'vision'     => $extra['vision']  ?? 'A Nepal where every consumer has access to transparent, up-to-date technology information and can shop with complete confidence.',
+            'heading'    => $content?->heading    ?? 'Gadget prices, specs and buying advice for Nepal',
+            'subheading' => $content?->subheading ?? 'Git Infosys helps people in Nepal compare devices, check what they really cost here, and decide what to buy.',
+            'mission'    => $extra['mission'] ?? 'To make buying a phone, laptop or gadget in Nepal simpler, with clear specifications, local prices and advice in plain language.',
+            'vision'     => $extra['vision']  ?? 'Anyone in Nepal should be able to find out what a device costs, how it compares and whether it suits them before they walk into a shop.',
             'story'      => $extra['story']   ?? 'Git Infosys started as a passion project by a group of tech enthusiasts who were frustrated by the lack of reliable, localized tech information in Nepal.',
             'stats'      => $stats,
+            'method'     => $extra['method'] ?? [],
             'team'       => $team,
             'seo'        => Seo::for($content, [
-                'title'       => 'About Git Infosys — Nepal\'s Trusted Tech Review Platform',
-                'description' => $content?->meta_description ?? 'Learn about Git Infosys — the team, mission, and values behind Nepal\'s leading tech review, gadget comparison, and price tracking platform.',
+                'title'       => 'About Git Infosys: Who We Are and How We Work',
+                'description' => $content?->meta_description ?? 'Who runs Git Infosys, how we collect prices in Nepal, and how our reviews and guides are written.',
                 'canonical'   => route('pages.about'),
                 'type'        => 'website',
             ]),
@@ -82,14 +78,15 @@ class PageController extends Controller
         $search           = trim($request->query('search', ''));
 
         // 1. Fetch categories with counts of tracked gadgets
-        $categories = Category::withCount(['gadgets' => function ($q) {
-            $q->whereNotNull('price_tracker_description')->orWhereHas('priceHistory');
-        }])->having('gadgets_count', '>', 0)->get(['id', 'name', 'slug', 'gadgets_count']);
+        $categories = Category::whereHas('gadgets', fn ($q) => $q->whereNull('out_of_stock_at')->where(
+            fn ($q) => $q->whereNotNull('price_tracker_description')->orWhereHas('priceHistory')
+        ))->get(['id', 'name', 'slug']);
 
         // 2. Query all tracked gadgets
         // Only the columns the tracker table uses; this page lists every tracked device at once.
         $query = Gadget::with(['brand:id,name', 'category:id,name,slug', 'priceHistory:id,gadget_id,date,price'])
             ->select(['id', 'name', 'slug', 'image', 'price', 'old_price', 'brand_id', 'category_id', 'is_trending', 'created_at', 'updated_at'])
+            ->whereNull('out_of_stock_at') // a price nobody can buy at isn't a price movement
             ->where(function ($q) {
                 $q->whereNotNull('price_tracker_description')
                   ->orWhereHas('priceHistory');
@@ -241,7 +238,7 @@ class PageController extends Controller
             'topHotDrops'       => $topHotDrops->map($slim),
             'trending'          => $trendingGadgets,
             'seo'               => Seo::make([
-                'title'       => 'Price Tracker — Monitor Gadget Prices & Heavy Drops in Nepal',
+                'title'       => 'Price Tracker: Gadget Price Drops in Nepal',
                 'description' => 'Track the latest smartphone, laptop, and gadget price drops in Nepal with live market analytics and official buying links.',
                 'canonical'   => route('pages.price-tracker'),
             ]),
@@ -304,8 +301,8 @@ class PageController extends Controller
         $content = PageContent::forPage('services');
 
         return Inertia::render('Pages/Services', array_merge($this->sidebarData(), [
-            'heading'    => $content?->heading    ?? 'Our Platform Services',
-            'subheading' => $content?->subheading ?? "Git Infosys is Nepal's ultimate tech ecosystem. We offer an integrated suite of tools, reviews, and shopping experiences to make your tech life smarter.",
+            'heading'    => $content?->heading    ?? 'What you can do here',
+            'subheading' => $content?->subheading ?? 'Free tools and guides for choosing phones, laptops and other gadgets in Nepal.',
             'body'       => $content?->body,
             'services'   => Service::active()->get(['id', 'icon', 'title', 'description', 'gradient']),
             'seo'        => Seo::for($content, [
@@ -376,7 +373,7 @@ class PageController extends Controller
             'frequencyBands'  => CarrierFrequencyBand::active()->get(),
             'serviceCenters'  => AuthorizedServiceCenter::active()->get(),
             'seo' => Seo::make([
-                'title'       => 'Interactive Tech Lab & Nepal Ownership Radar — Git Infosys',
+                'title'       => 'Tech Lab: EMI, Customs and Resale Calculators for Nepal',
                 'description' => 'Airport MDMS customs duty tax calculator, NTC/Ncell 5G band compatibility, blind camera shootouts, and gaming thermal simulator for Nepal tech buyers.',
                 'canonical'   => route('pages.tech-lab'),
             ]),
