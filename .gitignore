@@ -31,3 +31,6 @@ Thumbs.db
 # AI design-tool files (kept locally, not part of the app)
 /.agents
 /design-system
+
+# Private local backups (database dumps). Never commit.
+/git-infosys-backup-*/

@@ -14,17 +14,7 @@
       </form>
     </header>
 
-    <nav v-if="categories.length || filters.tag" class="mt-8 border-b border-line" aria-label="Blog categories">
-    <ScrollRow class="-mb-px flex gap-6 overflow-x-auto scrollbar-none">
-      <button type="button" class="tab" :aria-pressed="!filters.category" @click="apply({ category: null })">All</button>
-      <button v-for="c in categories" :key="c.slug" type="button" class="tab" :aria-pressed="filters.category === c.slug" @click="apply({ category: c.slug })">
-        {{ c.name }}
-      </button>
-      <button v-if="filters.tag" type="button" class="tab" aria-pressed="true" @click="apply({ tag: null })">
-        #{{ filters.tag }} <X class="h-3.5 w-3.5" />
-      </button>
-    </ScrollRow>
-    </nav>
+    <CategoryRail v-if="categories.length || filters.tag" class="mt-8" flat dense aria-label="Blog categories" :items="railItems" @select="pick" />
 
     <!-- Featured -->
     <Link v-if="featured" :href="route('blog.show', featured.slug)" class="group mt-10 grid grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-10">
@@ -61,14 +51,15 @@
 </template>
 
 <script setup>
-import ScrollRow from '@/Components/ScrollRow.vue'
+import CategoryRail from '@/Components/CategoryRail.vue'
 import { ref, computed } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
-import { Search, ArrowRight, X } from 'lucide-vue-next'
+import { LayoutGrid, Search, ArrowRight, X } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Pagination from '@/Components/Pagination.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
+import { topicIcon } from '@/Composables/useCategories.js'
 import { formatDate } from '@/Composables/useFormat.js'
 
 const props = defineProps({
@@ -86,6 +77,15 @@ function apply(patch) {
   Object.keys(query).forEach(k => { if (!query[k]) delete query[k] })
   router.get(route('blog.index'), query, { preserveState: true })
 }
+
+// An active tag is the last tile; choosing it clears the tag.
+const TAG = '#tag'
+const railItems = computed(() => [
+  { key: null, label: 'All', icon: LayoutGrid, active: !filters.value.category },
+  ...props.categories.map(c => ({ key: c.slug, label: c.name, icon: topicIcon(c.slug), active: filters.value.category === c.slug })),
+  ...(filters.value.tag ? [{ key: TAG, label: `#${filters.value.tag}`, icon: X, active: true, title: 'Clear this tag' }] : []),
+])
+const pick = key => apply(key === TAG ? { tag: null } : { category: key })
 
 // The featured post is shown above, so don't repeat it in the grid.
 const gridPosts = computed(() => props.posts.data.filter(p => p.id !== props.featured?.id))

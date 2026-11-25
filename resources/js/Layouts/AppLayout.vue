@@ -298,7 +298,7 @@
 
         <p class="max-w-3xl py-6 text-xs leading-5 text-fg-subtle">
           <span class="font-medium text-fg-muted">Editorial policy.</span>
-          Git Infosys does not sell devices on this website. Links to buy take you to shops in Nepal, including our business partner ONIN Infosys.
+          Git Infosys does not sell devices on this website. Links to buy take you to shops in Nepal, including a business partner of ours.
         </p>
 
         <div class="flex flex-col gap-3 border-t border-line py-6 text-xs text-fg-subtle sm:flex-row sm:items-center sm:justify-between">

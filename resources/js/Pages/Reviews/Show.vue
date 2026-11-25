@@ -86,7 +86,7 @@
             <p class="text-xs text-fg-subtle">Current price in Nepal</p>
             <div class="mt-5 space-y-2">
               <a v-if="buyUrl" :href="buyUrl" target="_blank" rel="noopener sponsored" class="btn btn-primary w-full">
-                Check price at retailer <ArrowUpRight class="h-4 w-4" />
+                Check Retail Price <ArrowUpRight class="h-4 w-4" />
               </a>
               <Link :href="route('gadgets.show', review.gadget.slug)" class="btn btn-secondary w-full">Full specifications</Link>
             </div>

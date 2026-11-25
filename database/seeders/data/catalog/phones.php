@@ -33,20 +33,22 @@ return [
             'processor' => 'Apple A20 Pro (2nm)',
             'ram' => '12GB',
             'storage' => '256GB / 512GB / 1TB / 2TB',
-            'battery' => 'Up to 36 hours video playback; 50W wired (about 50% in 15 minutes), 25W MagSafe, 4.5W reverse wired',
+            'battery' => 'Up to 34 hours video playback (nano-SIM model; 36 hours on eSIM-only models); about 50% in 15 minutes with a 60W or higher adapter, 25W MagSafe and Qi2',
             'camera' => '48MP Fusion main (variable aperture f/1.48–f/4.0) + 48MP ultra wide + 48MP 4x telephoto (100mm) | 18MP Center Stage front',
             'os' => 'iOS 27',
-            'connectivity' => '5G, Wi-Fi 7, Bluetooth 6.0, USB-C (USB 3), dual eSIM',
+            'connectivity' => '5G, Wi-Fi 7, Bluetooth 6, USB-C (USB 3, 10Gb/s); nano-SIM + eSIM (eSIM only on US models)',
+            'weight' => '211g',
+            'dimensions' => '150.0 × 71.9 × 8.75 mm',
             'extra' => ['Water resistance' => 'IP68', 'Colours' => 'Black, Silver, Glacier, Burgundy'],
         ],
         'description' => <<<'HTML'
 <p>The iPhone 18 Pro arrived in Nepal on 29 September 2026 at <strong>Rs 2,59,900</strong> for the 256GB model, and it is the first Pro iPhone where the main camera has a genuinely variable aperture. In practice that means the phone can stop down from f/1.48 to f/4.0, so group shots and close-ups keep more of the frame in focus instead of melting the background the way every phone camera has for years. The A20 Pro is Apple's first 2nm chip, and the 12GB of RAM is there mainly for on-device Apple Intelligence.</p>
-<p>Charging finally catches up with the rest of the market: Apple quotes roughly half a battery in 15 minutes over a 50W charger. Storage tops out at a 2TB option priced at Rs 5,13,900 — only worth it if you shoot a lot of ProRes video. If you want the bigger screen and the 5x periscope lens instead of 4x, look at the <a href="/products/iphone-18-pro-max">iPhone 18 Pro Max</a>; if you're weighing Android, the obvious rival is the <a href="/compare?g1=iphone-18-pro&g2=samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>.</p>
+<p>Charging finally catches up with the rest of the market: Apple quotes roughly half a battery in 15 minutes with a 60W adapter. Storage tops out at a 2TB option priced at Rs 5,13,900, only worth it if you shoot a lot of ProRes video. If you want a bigger screen and longer battery life with the same cameras, look at the <a href="/products/iphone-18-pro-max">iPhone 18 Pro Max</a>; if you're weighing Android, the obvious rival is the <a href="/compare?g1=iphone-18-pro&g2=samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>.</p>
 HTML,
         'faqs' => [
             ['What is the iPhone 18 Pro price in Nepal?', 'The official price starts at Rs 2,59,900 for 12GB/256GB. The 512GB model costs Rs 3,01,900, 1TB costs Rs 3,86,900 and the 2TB model costs Rs 5,13,900.'],
             ['When did the iPhone 18 Pro launch in Nepal?', 'Apple-authorised sellers started selling it in Nepal at the end of September 2026, alongside the iPhone 18 Pro Max and the foldable iPhone Duo.'],
-            ['What is the difference between the iPhone 18 Pro and 18 Pro Max?', 'The Pro Max has a 6.9-inch screen instead of 6.3 inches, a 5x periscope telephoto instead of 4x, a 24MP front camera and a bigger battery. It costs Rs 20,000 more at every storage level.'],
+            ['What is the difference between the iPhone 18 Pro and 18 Pro Max?', 'The Pro Max has a 6.9-inch screen instead of 6.3 inches and a bigger battery (up to 43 hours of video against 34). The cameras, chip and charging are the same on both. It weighs 249g against 211g and costs about Rs 20,000 more.'],
         ],
         'sources' => [
             ['accessed' => '2026-11-19'],
@@ -75,27 +77,27 @@ HTML,
             'processor' => 'Apple A20 Pro (2nm)',
             'ram' => '12GB',
             'storage' => '256GB / 512GB / 1TB / 2TB',
-            'battery' => '50W wired, 25W MagSafe wireless, 4.5W reverse wired',
-            'camera' => '48MP main (variable aperture) + 48MP ultra wide + 48MP 5x periscope telephoto | 24MP front',
+            'battery' => 'Up to 43 hours video playback (nano-SIM model; 45 hours on eSIM-only models); about 50% in 15 minutes with a 60W or higher adapter, 25W MagSafe and Qi2',
+            'camera' => '48MP Fusion main (variable aperture f/1.48–f/4.0) + 48MP ultra wide + 48MP 4x telephoto (100mm) | 18MP Center Stage front',
             'os' => 'iOS 27',
-            'connectivity' => '5G, Wi-Fi 7, Bluetooth 6.0, USB-C',
+            'connectivity' => '5G, Wi-Fi 7, Bluetooth 6, USB-C (USB 3, 10Gb/s); nano-SIM + eSIM (eSIM only on US models)',
             'weight' => '249g',
             'dimensions' => '163.4 × 78.0 × 8.75 mm',
             'extra' => ['Water resistance' => 'IP68', 'Colours' => 'Burgundy, Glacier Blue, Silver, Black'],
         ],
         'description' => <<<'HTML'
-<p>At <strong>Rs 2,79,900</strong> the iPhone 18 Pro Max is Rs 20,000 more than the regular Pro, and for that money you get three things that matter: a 6.9-inch screen, a 5x periscope camera instead of 4x, and a sharper 24MP selfie camera. Everything else — the A20 Pro chip, 12GB of RAM, the variable-aperture main camera and 50W charging — is shared with the smaller phone.</p>
-<p>It is a heavy phone at 249g, and you will notice it after a long call or a commute on a crowded micro bus. Buy it for the screen and the longer zoom; if those don't matter to you, the <a href="/products/iphone-18-pro">iPhone 18 Pro</a> is the better-balanced phone. Android buyers in the same budget should also look at the <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>, which has a 200MP main camera and an S Pen.</p>
+<p>At <strong>Rs 2,79,900</strong> the iPhone 18 Pro Max is Rs 20,000 more than the regular Pro, and for that money you get two things that matter: a 6.9-inch screen and a much longer battery life. The A20 Pro chip, 12GB of RAM, the cameras and the charging are shared with the smaller phone.</p>
+<p>It is a heavy phone at 249g, and you will notice it after a long call or a commute on a crowded micro bus. Buy it for the screen and the battery; if those don't matter to you, the <a href="/products/iphone-18-pro">iPhone 18 Pro</a> is the better-balanced phone. Android buyers in the same budget should also look at the <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>, which has a 200MP main camera and an S Pen.</p>
 HTML,
         'faqs' => [
             ['What is the iPhone 18 Pro Max price in Nepal?', 'It starts at Rs 2,79,900 for 256GB. The 512GB version is Rs 3,22,900, 1TB is Rs 4,07,900 and 2TB is Rs 5,34,900.'],
-            ['Does the iPhone 18 Pro Max have a periscope camera?', 'Yes. It uses a 48MP periscope telephoto with 5x optical zoom, while the smaller 18 Pro uses a 4x telephoto.'],
+            ['Does the iPhone 18 Pro Max have a periscope camera?', 'It has a 48MP telephoto with a folded tetraprism lens that gives 4x optical zoom (100mm), and an 8x optical-quality crop. The smaller 18 Pro has exactly the same camera.'],
             ['How much does the iPhone 18 Pro Max weigh?', 'It weighs 249g, which is on the heavy side for a phone.'],
         ],
         'sources' => [$ntApple],
         'seo' => [
             'title' => 'iPhone 18 Pro Max Price in Nepal: All Variants & Full Specs',
-            'description' => 'iPhone 18 Pro Max costs Rs 2,79,900 in Nepal for 256GB, up to Rs 5,34,900 for 2TB. Specs, 5x periscope camera, weight and our take.',
+            'description' => 'iPhone 18 Pro Max costs Rs 2,79,900 in Nepal for 256GB, up to Rs 5,34,900 for 2TB. Specs, cameras, battery life, weight and our take.',
             'keywords' => 'iphone 18 pro max price in nepal, iphone 18 pro max nepal, iphone 18 pro max specs',
         ],
         'image_alt' => 'Apple iPhone 18 Pro Max',
@@ -116,17 +118,17 @@ HTML,
             'processor' => 'Apple A20 Pro (2nm) with vapour chamber',
             'ram' => '12GB',
             'storage' => '256GB / 512GB / 1TB / 2TB',
-            'battery' => 'Dual-cell; up to 31 hours video (inner screen) or 44 hours (outer screen); 25W MagSafe/Qi2',
-            'camera' => '48MP main + 48MP 2x telephoto | 12MP under-display inner camera, 12MP cover camera',
+            'battery' => 'Dual-cell; up to 31 hours video (inner screen) or 44 hours (outer screen); about 50% in 20 minutes with a 60W adapter, MagSafe and Qi2 wireless',
+            'camera' => '48MP Fusion main (26mm, f/1.6, sensor-shift OIS, 2x optical-quality crop) + 48MP ultra wide (13mm, 120°) | 12MP Center Stage front',
             'os' => 'iOS 27',
-            'connectivity' => '5G, Wi-Fi 7, Bluetooth 6.0, NFC, UWB (Gen 2), USB-C, dual nano-SIM',
+            'connectivity' => '5G, Wi-Fi 7, Bluetooth 6, NFC, UWB (Gen 2), USB-C; dual eSIM, no physical SIM slot',
             'weight' => '254g',
             'dimensions' => 'Folded 117.8 × 84.1 × 11.3 mm; unfolded 117.8 × 164.6 × 5.2 mm',
-            'extra' => ['Build' => 'Titanium frame and hinge, Ceramic Shield front and back', 'Unlock' => 'Side-mounted Touch ID (no Face ID)', 'Water resistance' => 'IP68', 'Colours' => 'Night Sky, Star White', 'Stylus' => 'Apple Pencil support'],
+            'extra' => ['Build' => 'Titanium frame and hinge, Ceramic Shield front and back', 'Unlock' => 'Side-mounted Touch ID (no Face ID)', 'Water resistance' => 'IP68', 'Colours' => 'Night Sky, Star White', 'Stylus' => 'Apple Pencil (USB-C)'],
         ],
         'description' => <<<'HTML'
 <p>Apple's first foldable is a book-style phone with a 5.4-inch cover screen and a 7.6-inch inner display that opens to a squarish 1.4:1 canvas — closer to a small iPad than a stretched phone. In Nepal it starts at <strong>Rs 4,30,900</strong>, which makes it the most expensive phone most shops here have ever stocked.</p>
-<p>A few choices stand out. There is no Face ID; Apple moved to a side-mounted Touch ID button. The camera system is a pair of 48MP sensors (main and 2x) rather than the triple setup on the Pro models, and the selfie camera under the inner screen is 12MP. The upside is a titanium hinge, IP68 water resistance — rare on foldables — and Apple Pencil support. If you want a foldable but not this price, Samsung's <a href="/products/samsung-galaxy-z-fold8">Galaxy Z Fold 8</a> costs about Rs 1.5 lakh less.</p>
+<p>A few choices stand out. There is no Face ID; Apple moved to a side-mounted Touch ID button. The camera system is a pair of 48MP sensors (main and ultra wide) rather than the triple setup on the Pro models, so there is no telephoto. It takes eSIM only, with no slot for a physical SIM. The upside is a titanium hinge, IP68 water resistance, rare on foldables, and Apple Pencil (USB-C) support. If you want a foldable but not this price, Samsung's <a href="/products/samsung-galaxy-z-fold8">Galaxy Z Fold 8</a> costs about Rs 1.5 lakh less.</p>
 HTML,
         'faqs' => [
             ['What is the iPhone Duo price in Nepal?', 'The official price is Rs 4,30,900 for 256GB, Rs 4,72,900 for 512GB, Rs 5,57,900 for 1TB and Rs 6,84,900 for 2TB.'],
@@ -531,6 +533,8 @@ HTML,
             'battery' => '6,000mAh; 90W wired, 50W wireless, 22.5W reverse',
             'camera' => '50MP 1-inch Light Fusion 1050L main (f/1.67, OIS, LOFIC) + 200MP periscope (3.2x–4.3x optical) + 50MP ultra wide | 50MP front',
             'os' => 'Android 16, HyperOS 3',
+            'weight' => '218.4g (Starlit Green 219g)',
+            'dimensions' => '162.9 × 77.6 × 8.29 mm',
             'extra' => ['Water resistance' => 'IP66, IP68, IP69'],
         ],
         'description' => <<<'HTML'
@@ -881,6 +885,10 @@ HTML,
             'battery' => '6,510mAh; 90W wired, 40W wireless',
             'camera' => '50MP main (OIS) + 50MP ultra wide + 200MP periscope 3.7x (OIS) | 50MP front',
             'os' => 'Android 16, OriginOS 6',
+            'connectivity' => '5G, Wi-Fi 7, Bluetooth 6.0, USB 3.2, NFC, infrared; dual SIM + eSIM',
+            'weight' => '226g',
+            'dimensions' => '161.98 × 75.48 × 7.99 mm',
+            'extra' => ['Water resistance' => 'IP68, IP69', 'Fingerprint' => 'Ultrasonic, in-display', 'In the box' => 'Charger and case (outside Europe)'],
         ],
         'description' => <<<'HTML'
 <p>vivo's X-series has quietly become one of the best camera phones you can buy in Nepal, and the X300 Pro continues that with a 200MP periscope lens at 3.7x zoom backed by optical stabilisation. It costs <strong>Rs 1,99,999</strong> for 16GB/512GB after a price hike on 1 September 2026 (it was Rs 1,79,999 before).</p>
@@ -949,6 +957,7 @@ HTML,
             'battery' => '7,000mAh; 120W wired, 50W wireless',
             'camera' => '50MP main (OIS) + 200MP 3x telephoto + 50MP ultra wide | 32MP front',
             'os' => 'Android 16, Realme UI 7',
+            'weight' => '214g (Diary White 218g)',
             'dimensions' => '8.2mm thick',
             'extra' => ['Water resistance' => 'IP68, IP69'],
         ],

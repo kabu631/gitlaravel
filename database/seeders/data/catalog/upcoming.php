@@ -174,7 +174,7 @@ HTML,
             'camera' => 'Dual 48MP rear, 24MP front (rumoured)',
         ],
         'description' => <<<'HTML'
-<p>Apple split its 2026 line-up. The <a href="/products/iphone-18-pro">iPhone 18 Pro</a>, Pro Max and the foldable came first, and the standard iPhone 18 follows in spring 2027. Bloomberg's Mark Gurman has repeatedly reported the spring timing, and later supply-chain reports point to a March launch. Apple hasn't confirmed anything.</p>
+<p>Apple split its 2026 line-up. The <a href="/products/iphone-18-pro">iPhone 18 Pro</a>, Pro Max and the foldable came first, and the standard iPhone 18 follows in spring 2027. Reports have repeatedly pointed to that spring timing, and later supply-chain reports point to a March launch. Apple hasn't confirmed anything.</p>
 <h3>Rumoured specs</h3>
 <p>The phone is expected to have the 2nm A20 chip (one step below the Pro's A20 Pro), a 6.3-inch display, two 48MP rear cameras, a 24MP front camera and more RAM than the iPhone 17's 8GB.</p>
 <h3>Expected price in Nepal</h3>

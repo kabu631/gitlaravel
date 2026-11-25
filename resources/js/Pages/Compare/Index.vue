@@ -7,21 +7,9 @@
         <p class="mt-2 text-fg-muted">Put up to four devices side by side — prices in Nepal and full specifications, with differences highlighted.</p>
       </header>
 
-      <nav class="mt-8 border-b border-line" aria-label="Categories">
-        <ScrollRow class="-mb-px flex gap-6 overflow-x-auto scrollbar-none">
-          <Link
-            v-for="cat in activeCategories"
-            :key="cat.slug"
-            :href="route('compare.index', { category: cat.slug })"
-            class="tab"
-            :aria-current="(category || 'mobile') === cat.slug ? 'page' : undefined"
-          >
-            {{ cat.name }}
-          </Link>
-        </ScrollRow>
-      </nav>
+      <CategoryRail class="mt-8" flat aria-label="Categories" :items="railItems" />
 
-      <p v-if="popularPairs.length" class="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+      <p v-if="popularPairs.length" class="mt-7 flex flex-wrap gap-x-5 gap-y-2 text-sm">
         <span class="text-fg-subtle">Try</span>
         <button v-for="pair in popularPairs" :key="pair.label" type="button" class="link text-left" @click="navigateWithSlugs(pair.slugs)">{{ pair.label }}</button>
       </p>
@@ -240,7 +228,6 @@
 </template>
 
 <script setup>
-import ScrollRow from '@/Components/ScrollRow.vue'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { Link, router } from '@inertiajs/vue3'
@@ -250,6 +237,8 @@ import { renderMarkdown } from '@/Composables/useMarkdown.js'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
 import { formatPrice } from '@/Composables/useFormat.js'
 import DeviceIcon from '@/Components/DeviceIcon.vue'
+import CategoryRail from '@/Components/CategoryRail.vue'
+import { categoryIcon } from '@/Composables/useCategories.js'
 import { ArrowUpRight, Check, Copy, Plus, Search, Share2, X } from 'lucide-vue-next'
 
 const props = defineProps({
@@ -279,6 +268,11 @@ const activeCategories = computed(() => {
     { slug: 'games', name: 'Games' },
   ]
 })
+
+const railItems = computed(() => activeCategories.value.map(c => ({
+  key: c.slug, label: c.name, icon: categoryIcon(c.slug), active: (props.category || 'mobile') === c.slug,
+  href: route('compare.index', { category: c.slug }),
+})))
 
 const buyUrl = g => g.buy_url || g.referral_buy_url || null
 

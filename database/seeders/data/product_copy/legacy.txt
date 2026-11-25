@@ -1,0 +1,78 @@
+=== iphone-15-pro
+<p>The iPhone 15 Pro came out in September 2023 and brought three lasting changes to the iPhone: a titanium frame, the Action button and a USB-C port. Apple stopped making it a year later. Its last listed price in Nepal was Rs 1,68,299, and phones offered now are old stock or second-hand.</p>
+<h3>What you get</h3>
+<p>The 6.1-inch display refreshes from 1 to 120Hz and stays on when the phone is locked. The A17 Pro chip and 8GB of memory make this the oldest iPhone able to run Apple Intelligence, which the ordinary iPhone 15 cannot do. The cameras are a 48MP main, a 12MP ultra wide that also shoots macro, and a 12MP telephoto at 3x. The 5x lens that many listings mention was only on the Pro Max.</p>
+<p>At 187 grams it is one of the lighter Pro phones Apple has made. USB-C runs at up to 10 gigabits per second, though the cable supplied in the box is slower.</p>
+<h3>Buying one used</h3>
+<ul>
+<li>Open Settings, Battery, Battery Health. Read both the capacity and the cycle count.</li>
+<li>Look at General, About, Parts and Service History for replaced screens, batteries or cameras.</li>
+<li>Match the IMEI with the box and check that it is registered in MDMS.</li>
+<li>Units bought in the United States take an eSIM only.</li>
+<li>Have the seller remove the phone from iCloud while you watch.</li>
+</ul>
+<h3>Newer phones to compare</h3>
+[[models:iphone-17,apple-iphone-17-pro,iphone-18-pro,samsung-galaxy-s26]]
+<p>The <a href="/products/iphone-17">iPhone 17</a> has a 120Hz screen too, with years more of updates ahead. Our <a href="/reviews/iphone-15-pro-review-titanium-action-button-and-usb-c-finally">iPhone 15 Pro review</a> explains when the older phone is still the better choice.</p>
+
+=== oppo-reno-11-pro
+<p>The Reno 11 Pro was OPPO's portrait phone for early 2024, with a slim curved body, an optically stabilised 50MP camera and a proper 2x telephoto at a time when many phones in its class had only a macro lens. Five Reno generations have followed it, and we no longer track a new price for it in Nepal.</p>
+<h3>Two different phones share this name</h3>
+<p>The international model has a 6.7-inch 2412 by 1080 screen, a Dimensity 8200 and a 4,600mAh battery. The Chinese one has a sharper 6.74-inch screen and a Snapdragon 8+ Gen 1. Listings mix their specifications freely. If the model number on the box is CPH2607, it is the international version, which comes with Google services ready.</p>
+<h3>How it holds up</h3>
+<p>Portraits are still its strength. The 32MP telephoto gives natural proportions for faces, and the 32MP front camera has autofocus. The processor handles daily work and lighter games. The weak points are age and endurance: 4,600mAh looks small beside current Reno phones, and software support is closer to its end than its beginning. Charging remains quick, at 28 minutes for a full battery by OPPO's own figure.</p>
+<h3>What to look at now</h3>
+[[models:oppo-reno-15-5g,oppo-reno-16-5g,oppo-find-x9-pro]]
+<p>Buy a used Reno 11 Pro only if the curved screen is free of cracks and burn-in and the price is far below these.</p>
+
+=== samsung-galaxy-book4-pro
+<p>The Galaxy Book4 Pro is a 16-inch Windows laptop that weighs 1.56kg and measures 12.5mm thick, which is unusual for the size. It was launched in early 2024 and Samsung has since moved on to newer Galaxy Book models. We have no confirmed Nepal price for this one.</p>
+<h3>The reasons people want it</h3>
+<p>The display is the main one: a 2880 by 1800 AMOLED touchscreen at 120Hz with deep blacks and an anti-reflective finish. It has a number pad, two Thunderbolt 4 ports, HDMI, USB-A and a microSD slot, so most people can leave the adapter at home. With a Galaxy phone it copies and pastes, shares files and extends its screen to a Galaxy Tab without extra apps.</p>
+<h3>Limits to know</h3>
+<p>The Core Ultra 7 155H is strong for office work, coding and photo editing, but the graphics are integrated. It is not a gaming or heavy 3D machine. Memory is soldered. Core Ultra chips of that generation also run for fewer hours than the newer low-power Core Ultra 200V parts.</p>
+<h3>If you are offered an imported unit</h3>
+<p>Ask for the exact model code, check the keyboard layout and the plug, and ask in writing who repairs it. An AMOLED panel of this size is expensive to replace, and parts will have to come from abroad.</p>
+<h3>Thin laptops sold here with a warranty</h3>
+[[models:macbook-air-m5-13,asus-zenbook-14-oled-q415,lenovo-yoga-slim-7i-aura-edition]]
+
+=== hp-pavilion-15
+<p>For years the Pavilion 15 was a common college laptop: a plain 15-inch HP with enough power for everything except games. The version on this page has a Ryzen 5 7530U, 8GB of memory and a 512GB SSD. HP is replacing Pavilion with the OmniBook name, so anything new in a shop is remaining stock and we do not track a current price.</p>
+<h3>Six cores in a plain case</h3>
+<p>The 7530U is a tidy processor for spreadsheets, coding and many browser tabs. It is based on an older AMD design, so it lacks the AI features of current chips, which few people will miss. It uses ordinary DDR4 memory. Going from 8GB to 16GB is the single best improvement for this laptop.</p>
+<p>The weak parts are the 41Wh battery, which is small, and a basic Full HD screen. Plan on working near a socket in the afternoon.</p>
+<h3>Check before you pay for old stock</h3>
+<ul>
+<li>The manufacturing date on the sticker, and the warranty start date on HP's website.</li>
+<li>Battery wear, using the Windows battery report.</li>
+<li>That the processor is the 7530U and not a Core i5 or Ryzen 3 sold under the same name.</li>
+</ul>
+<h3>Related HP laptops</h3>
+<p>Two other Pavilion 15 models we tracked, a Core i5-1335U and a Core i5-1240P, were last listed at Rs 76,000 and Rs 78,500. For something current, see our <a href="/guides/hp-laptop-price-in-nepal">HP laptop guide</a>.</p>
+[[models:hp-15-fc0043nq-2024,hp-15-ryzen-7-7730u-8gb,hp-probook-445-g11-ryzen-5-7535u]]
+
+=== dell-inspiron-15-3520
+<p>Dell sold the Inspiron 15 3520 in so many versions that two people with "the same laptop" may have very different machines. This page helps you work out which one is in front of you. The versions we followed are no longer stocked: the Core i3-1215U was last listed at Rs 55,000 and a Core i5 with 8GB and 256GB at Rs 62,000.</p>
+<h3>Four things that vary</h3>
+<ul>
+<li><strong>Screen.</strong> Dell's manual lists a 1366 by 768 panel as well as Full HD at 120Hz. The first is poor. Check the resolution in Windows display settings.</li>
+<li><strong>Battery.</strong> 41Wh or 54Wh. The larger one is worth paying more for.</li>
+<li><strong>Wi-Fi.</strong> Some have a single-antenna Wi-Fi 5 card, others Wi-Fi 6. You notice it on a fast fibre line.</li>
+<li><strong>Body.</strong> Plastic from 1.66kg or aluminium from 1.63kg, with slightly different thickness.</li>
+</ul>
+<h3>As a used or leftover buy</h3>
+<p>With a Core i5-1235U, a Full HD panel and 16GB it remains a sensible study and office laptop. Memory and storage can be replaced at home, and Dell's service tag shows the original configuration and warranty if you type it into the support site. That tag is the quickest way to catch a seller who has swapped parts.</p>
+<p>With 8GB, the 768p screen and the small battery, leave it on the shelf.</p>
+<h3>What to compare it with</h3>
+<p>Our <a href="/guides/dell-laptop-price-in-nepal">Dell laptop guide</a> lists what Dell sells here now, and the <a href="/guides/best-laptops-nepal-students-gamers">best laptops in Nepal</a> guide covers rivals at the same money.</p>
+
+=== noise-colorfit-ultra-3
+<p>The ColorFit Ultra 3 gave people on a small budget something they had only seen on costlier watches: a large 1.96-inch AMOLED screen in a stainless steel body. It launched in India at an introductory INR 4,499. Noise has moved to newer models, and we have no current Nepal listing for it.</p>
+<h3>What it does well</h3>
+<p>The 410 by 502 screen is bright enough, at a stated 550 nits, to read on a sunny street, and it can stay on all the time. The crown turns to scroll through menus. Calls work through Bluetooth 5.3 with a microphone and speaker in the watch. The body is rated IP68, so rain and hand washing are fine.</p>
+<h3>What it does not do</h3>
+<p>There is no listed GPS, so a run is measured with your phone or estimated from steps. Health readings are for general interest and not for medical decisions. Noise's own page says there is no voice assistant, although some shop titles claim one.</p>
+<p>Battery life is up to seven days by the published figure, and noticeably less with calls and the always-on display.</p>
+<h3>Where to look now</h3>
+[[models:redmi-watch-6-lite,cmf-watch-3-pro,redmi-watch-6]]
+<p>If you use an iPhone or want accurate workout routes, read <a href="/guides/smartwatch-buying-guide-nepal-2024">how to choose a smartwatch</a> before buying a low-cost model.</p>

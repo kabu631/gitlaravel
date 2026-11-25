@@ -40,23 +40,9 @@
     <section class="mt-16" aria-labelledby="all-heading">
       <h2 id="all-heading" class="section-title">All tracked devices</h2>
 
-      <nav class="mt-6 border-b border-line" aria-label="Categories">
-        <ScrollRow class="-mb-px flex gap-6 overflow-x-auto scrollbar-none">
-          <button type="button" class="tab" :aria-current="activeCategory === 'all' ? 'page' : undefined" @click="selectCategory('all')">All</button>
-          <button
-            v-for="cat in categories"
-            :key="cat.id"
-            type="button"
-            class="tab"
-            :aria-current="activeCategory === cat.slug ? 'page' : undefined"
-            @click="selectCategory(cat.slug)"
-          >
-            {{ cat.name }}
-          </button>
-        </ScrollRow>
-      </nav>
+      <CategoryRail class="mt-6" flat aria-label="Categories" :items="railItems" @select="selectCategory" />
 
-      <div class="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <ScrollRow class="flex gap-2 overflow-x-auto scrollbar-none" role="group" aria-label="Filter by change">
           <button v-for="f in statusFilters" :key="f.id" type="button" class="chip" :aria-pressed="activeStatusFilter === f.id" @click="filterByStatus(f.id)">
             {{ f.label }}
@@ -161,14 +147,15 @@
 <script setup>
 import DeviceIcon from '@/Components/DeviceIcon.vue'
 import ScrollRow from '@/Components/ScrollRow.vue'
+import CategoryRail from '@/Components/CategoryRail.vue'
 import { ref, computed, watch } from 'vue'
 import { Link } from '@inertiajs/vue3'
-import { Search, ArrowDownRight, ArrowUpRight, ChevronDown } from 'lucide-vue-next'
+import { LayoutGrid, Search, ArrowDownRight, ArrowUpRight, ChevronDown } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import Sparkline from '@/Components/Sparkline.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
-import { newsCategoryLabel } from '@/Composables/useCategories.js'
+import { categoryIcon, newsCategoryLabel } from '@/Composables/useCategories.js'
 import { formatPrice as fmt, formatNumber } from '@/Composables/useFormat.js'
 
 const props = defineProps({
@@ -193,6 +180,11 @@ const activeCategory = ref(props.selectedCategory || 'all')
 const activeStatusFilter = ref(props.selectedFilter || 'all')
 const activeSort = ref(props.selectedSort || 'hot_drops')
 const searchQuery = ref(props.search || '')
+
+const railItems = computed(() => [
+  { key: 'all', label: 'All', icon: LayoutGrid },
+  ...props.categories.map(c => ({ key: c.slug, label: c.name, icon: categoryIcon(c.slug) })),
+].map(i => ({ ...i, active: activeCategory.value === i.key })))
 
 const statusFilters = [
   { id: 'all', label: 'All' },

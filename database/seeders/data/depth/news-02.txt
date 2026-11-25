@@ -168,7 +168,7 @@
 [[models:sony-playstation-5]]
 <p>The table shows our current listing for the PlayStation 5 family, and the product page has every version. Rockstar's game runs on all of them, with differences in picture quality and frame rate that the console decides. The cheapest way to play is the Digital Edition. The catch is that you can only buy from the store, at store prices, for the life of the console.</p>
 <h2>Digital or disc? Do the sums</h2>
-<p>The disc model costs much more at present. In return you can buy used games, lend them and sell them. In Kathmandu, a new disc at Rs 9,000 to 13,000 can often be resold at 60 to 70 per cent after a month. If you buy six big games a year and sell them, the drive pays for itself within a couple of years. If you play one or two games for hundreds of hours, as many will with GTA VI, the Digital Edition is the thrifty choice. A detachable drive can be added to the Slim Digital and the Pro later, where it is available.</p>
+<p>For GTA VI itself the question does not arise. Even the boxed copy holds a download code and no disc, so it cannot be lent or resold. A disc drive matters only for your other games. The disc model costs much more at present. In return you can buy used games, lend them and sell them. In Kathmandu, a new disc at Rs 9,000 to 13,000 can often be resold at 60 to 70 per cent after a month. If you buy six big games a year and sell them, the drive pays for itself within a couple of years. If you play one or two games for hundreds of hours, as many will with GTA VI, the Digital Edition is the thrifty choice. A detachable drive can be added to the Slim Digital and the Pro later, where it is available.</p>
 <h2>Which edition of the game?</h2>
 <p>The Standard Edition contains the full story. The Ultimate Edition adds in-game items, and its value depends on how you feel about cosmetic extras. Nothing in it is needed to finish the game. With special editions the sensible approach is to buy Standard, play ten hours, and upgrade if you still want to. Most stores sell the upgrade separately.</p>
 <h2>Paying from Nepal</h2>
@@ -176,23 +176,25 @@
 <ol>
 <li><strong>Your own dollar card on the PlayStation or Xbox store.</strong> Nepali banks issue prepaid dollar cards within the yearly limit set by Nepal Rastra Bank. The game belongs to your account.</li>
 <li><strong>Gift cards.</strong> Buy a code for the region of your account from a reputable seller. Region must match. A United States code does not work on an Indian account.</li>
-<li><strong>A physical disc from a shop.</strong> Check the region printed on it for add-on content.</li>
+<li><strong>A boxed code from a shop.</strong> There is no disc inside. Check which store region the code belongs to.</li>
 <li><strong>Shared accounts.</strong> Cheap for a reason. The owner can change the password, the store can close the account, and you lose everything including your progress. We advise against them.</li>
 </ol>
 <h2>Choose the account region once</h2>
 <p>Sony has no Nepal store. People choose the United States, India, the United Arab Emirates or others. Prices, sales and payment methods differ, and you cannot move your library later. If you have a card that works with one store and you are comfortable with its prices, choose that and stay. Changing regions is the commonest regret of new owners.</p>
 <h2>Storage and download</h2>
-<p>Modern open-world games are over 100GB, and updates keep arriving. The Digital Edition's 825GB holds about six large games. A second NVMe drive fits inside every PS5: choose a PCIe 4.0 model with a heatsink, rated above 5,500MB per second. On a 100Mbps connection, 120GB takes around three hours in good conditions. Set it to download overnight in rest mode, and put the console and router on a UPS. A power cut in the middle of a system update is a bad way to begin.</p>
+<p>PlayStation and Xbox both ask for about 212GB of free space, and updates keep arriving. On the Digital Edition's 825GB drive that is close to a third of what you can use. A second NVMe drive fits inside every PS5: choose a PCIe 4.0 model with a heatsink, rated above 5,500MB per second. On a 100Mbps connection, 210GB takes around five hours in good conditions. Set it to download overnight in rest mode, and put the console and router on a UPS. A power cut in the middle of a system update is a bad way to begin.</p>
 <h2>Your television matters as much</h2>
 <p>To see what the console can do, you want 4K, HDR with real brightness, a 120Hz panel with HDMI 2.1 and a game mode. A Full HD television works perfectly well and looks good from three metres. Turn on game mode whichever you have. The delay of ordinary picture modes makes driving feel drunk, and in this series that is meant to be optional. See <a href="/products?category=tv">televisions</a> and <a href="/products?category=monitor">monitors</a>.</p>
 <h2>Is the PS5 Pro worth it?</h2>
 <p>The Pro has stronger graphics, two terabytes and an upscaler that sharpens the picture on large 4K sets. If you own one, or plan to buy, a big 4K television, and if the gap to the Slim Disc is as small as it is now in Nepal, the Pro is the better purchase. On a Full HD television it is money thrown away. <a href="/reviews/ps5-digital-slim-pro-review-nepal">Our buying verdict</a> compares all three.</p>
 <h2>Xbox in Nepal</h2>
-<p>The game is also on Series X and S. Both are less common here, with fewer used discs and fewer friends to play with. The Series S is cheap, all-digital and limited in storage. Buy one if you already have an Xbox library or Game Pass.</p>
+<p>The full game is also on the <a href="/products/microsoft-xbox-series-x">Xbox Series X</a> and <a href="/products/microsoft-xbox-series-s">Series S</a>, at the same dollar price, and it is not part of Game Pass. The Series X draws 1440p scaled to 4K, close to the standard PS5. The Series S draws 720p scaled to 1080p and drops frames most often. When we checked on 25 November 2026 both were listed in Nepal but out of stock, last at Rs 1,47,000 for the Series X and Rs 69,401 for the 512GB Series S. An Xbox One can stream the game from the cloud if you own it. Choose Xbox if you already have an Xbox library.</p>
+<h2>Other devices</h2>
+<p>Phones, tablets, Windows PCs, Windows handhelds such as the <a href="/products/asus-rog-xbox-ally">ROG Xbox Ally</a> and the PlayStation Portal can show GTA VI by Remote Play, with your own console doing the work. PS4, Mac, Steam Deck, Switch and Switch 2 have no version of the game. The <a href="/products/gta-6">GTA VI page</a> lists every device.</p>
 <h2>What about PC?</h2>
-<p>No PC version has been announced for launch. Rockstar's earlier titles reached PC a year or more after consoles. Anything offered today as GTA VI for PC is fake and probably malware. The same goes for APK files that claim to be a mobile version. Please tell your younger cousins.</p>
+<p>No PC version has been announced as of November 2026. Rockstar's earlier titles reached PC a year or more after consoles. Anything offered today as GTA VI for PC is fake and probably malware. The same goes for APK files that claim to be a mobile version. Please tell your younger cousins.</p>
 <h2>Online play</h2>
-<p>Online modes need a PlayStation Plus subscription for most games, and a stable connection more than a fast one. Use an Ethernet cable. If voice chat fails or friends cannot join, the cause is usually double NAT from an ISP router. Ask for bridge mode.</p>
+<p>GTA VI has no online mode at launch, and Rockstar has not dated one. For other games, online play needs a PlayStation Plus subscription in most cases, and a stable connection more than a fast one. Use an Ethernet cable. If voice chat fails or friends cannot join, the cause is usually double NAT from an ISP router. Ask for bridge mode.</p>
 <h2>Parents, please read this part</h2>
 <p>Grand Theft Auto games are rated for adults, with violence, sexual content and drug use. They are superb and not for children. PlayStation's family settings allow you to restrict games by age, set spending limits and control playing time. Set them up in ten minutes. If your child says that everyone at school plays it, that may be true, and it does not change the rating.</p>
 <h2>Scams to expect</h2>
@@ -205,6 +207,7 @@
 <p>Turn on two-step verification for your account today.</p>
 <h2>Should you buy a console for one game?</h2>
 <p>If you play for a hundred hours, a Rs 95,000 console plus a Rs 13,499 game costs about Rs 1,085 an hour, falling with each further game. If a friend owns one, try it first. The console also plays hundreds of older titles, many cheaper than a cinema ticket in sales. And its price has been rising and not falling, so waiting for a discount may not be rewarded this year.</p>
+<p>For a machine-by-machine comparison, read <a href="/guides/how-to-play-gta-6-nepal-consoles">which console to buy for GTA VI</a>. For how the series got here, see <a href="/blog/history-of-grand-theft-auto-1997-to-gta-vi">the history of Grand Theft Auto</a>.</p>
 <h2>Final word</h2>
 <p>Buy the console that suits your television, buy the Standard Edition from your own account, protect the power, and lock the profile if there are children at home. Then enjoy a game that took more than a decade to make.</p>
 
@@ -270,9 +273,9 @@
 <h2>What changed this year</h2>
 <p>For more than a decade Apple launched its phones together in September. In 2026 it split them. The expensive phones came in autumn, and the regular models are expected in spring. For buyers in Nepal this has two effects. Anyone who wants a new iPhone under Rs 2.5 lakh this winter is choosing from last year's line. And the usual price cut on older models, which comes when a successor arrives, has been smaller than people expected.</p>
 <h2>iPhone 18 Pro or 18 Pro Max?</h2>
-<p>The difference is Rs 20,000 at 256GB. For that the Pro Max gives you a 6.9-inch screen, a bigger battery, and a 5x periscope camera where the Pro has 4x. The Pro gives you something that cannot be bought: a phone that fits a hand. Hold both for five minutes, with a case. If you read and watch a lot, or film at a distance, choose the Max. If your phone lives in a trouser pocket, choose the Pro. The chip, memory and main camera are the same.</p>
+<p>The difference is Rs 20,000 at 256GB. For that the Pro Max gives you a 6.9-inch screen and a bigger battery, with up to 43 hours of video by Apple's figures against 34. The Pro gives you something that cannot be bought: a phone that fits a hand. Hold both for five minutes, with a case. If you read and watch a lot, or are away from a charger all day, choose the Max. If your phone lives in a trouser pocket, choose the Pro. The chip, memory and all the cameras are the same.</p>
 <h2>The iPhone Duo: who is it for?</h2>
-<p>A phone with a 7.6-inch inner display costs Rs 4,30,900 and up. It is a small tablet that becomes a phone. People who read documents, review spreadsheets, sketch or watch films while travelling will use the inner screen every day. Everyone else will open it for a week to show friends, and then use the outer screen. The first generation of any foldable carries risk: hinges, inner screens and repairs. With Touch ID in place of Face ID and a first-generation design, we would wait unless the price means little to you.</p>
+<p>A phone with a 7.6-inch inner display costs Rs 4,30,900 and up. It is a small tablet that becomes a phone. People who read documents, review spreadsheets, sketch or watch films while travelling will use the inner screen every day. Everyone else will open it for a week to show friends, and then use the outer screen. The first generation of any foldable carries risk: hinges, inner screens and repairs. It also takes eSIM only, so you need an operator that can move your number to eSIM. With Touch ID in place of Face ID and a first-generation design, we would wait unless the price means little to you.</p>
 <p>If you like the idea and not the price, Samsung's foldables are several generations old by now. The <a href="/products/samsung-galaxy-z-fold8">Galaxy Z Fold8</a> costs about Rs 2,74,999, and the <a href="/products/samsung-galaxy-z-fold-7">Fold 7</a> less.</p>
 <h2>Storage: where Apple earns its money</h2>
 <p>Going from 256GB to 512GB costs about Rs 42,000 to 43,000. A 512GB portable SSD costs a fraction of that, and an iPhone can record video directly to one. Cloud storage is another route. Our view is simple. If you shoot a lot of 4K video and do not want to manage files, pay for 512GB. Otherwise 256GB and a habit of moving old videos to a computer each month will do. A terabyte or two makes sense only for people who are paid for their footage.</p>
@@ -297,7 +300,7 @@
 <ul>
 <li><strong>Best for most:</strong> iPhone 17, 256GB.</li>
 <li><strong>Best compact flagship:</strong> iPhone 18 Pro.</li>
-<li><strong>Best for video and battery:</strong> iPhone 18 Pro Max. <a href="/reviews/iphone-18-pro-max-review-nepal">Read the review</a>.</li>
+<li><strong>Best for battery and a big screen:</strong> iPhone 18 Pro Max. <a href="/reviews/iphone-18-pro-max-review-nepal">Read the review</a>.</li>
 <li><strong>Best value flagship:</strong> iPhone 17 Pro Max at a discount.</li>
 <li><strong>For enthusiasts only:</strong> iPhone Duo.</li>
 </ul>

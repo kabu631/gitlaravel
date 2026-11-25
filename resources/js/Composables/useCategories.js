@@ -1,6 +1,7 @@
 import {
   Smartphone, Laptop, Tablet, Headphones, Watch, Mouse, Cpu, Gamepad2, Camera, Tv,
   Monitor, PcCase, HardDrive, Keyboard, Speaker, Printer, Projector, BatteryCharging, Cctv, Presentation, Drone,
+  Radar, CircuitBoard, BrainCircuit, Tag, RadioTower, FileText, Lightbulb, Wrench, PenLine, ShoppingBag,
 } from 'lucide-vue-next'
 
 const ICONS = {
@@ -63,6 +64,30 @@ export const categoryIcon = slug => ICONS[slug] || Cpu
 
 /** Display label for a category slug, preferring the name stored in the database. */
 export const categoryLabel = (slug, fallback) => fallback || LABELS[slug] || slug
+
+const TOPIC_ICONS = {
+  // News
+  rumors: Radar,
+  technology: Cpu,
+  mobile: Smartphone,
+  laptop: Laptop,
+  gpu: CircuitBoard,
+  'ai-ml': BrainCircuit,
+  'price-trends': Tag,
+  telecom: RadioTower,
+  // Guides
+  'buying-guide': ShoppingBag,
+  'how-to': Wrench,
+  // Blog
+  tips: Lightbulb,
+  opinion: PenLine,
+  deals: Tag,
+  lifestyle: Watch,
+  behind: Camera,
+}
+
+/** Lucide icon for a news, guide or blog topic slug. */
+export const topicIcon = slug => TOPIC_ICONS[slug] || FileText
 
 const NEWS_LABELS = {
   rumors: 'Rumors',

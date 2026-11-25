@@ -1,0 +1,137 @@
+=== microsoft-xbox-series-x
+<p>The Xbox Series X is Microsoft's full-power console: a square black tower with a 12-teraflop graphics chip, 16GB of memory and, on the usual model, a 4K Blu-ray drive. It is six years old and still the fastest Xbox you can put under a television. In Nepal the question is less whether it is good and more whether you can find one at a fair price. This page covers both.</p>
+<h3>Xbox Series X price in Nepal</h3>
+<p>Microsoft has no official distributor here, so shops import the console themselves. On 25 November 2026 the last price we found for the <strong>1TB model with a disc drive was Rs 1,47,000</strong>, and that listing was out of stock. Treat it as a guide and not as an offer.</p>
+<p>The reason for the figure is in the American price. The Series X opened at $499 in 2020. After increases in May 2025, October 2025 and on 1 August 2026, it costs <strong>$799.99 with a disc drive and $749.99 as the all-digital model</strong>. Freight, duty, VAT and the shop's margin come on top. Anyone quoting a price from two years ago is either selling an old unit or guessing.</p>
+<h3>The versions you may be offered</h3>
+<table><thead><tr><th>Version</th><th>Disc drive</th><th>Storage</th><th>Things to know</th></tr></thead><tbody>
+<tr><td>Carbon Black</td><td>4K UHD Blu-ray</td><td>1TB</td><td>The normal model, and the one to prefer in Nepal</td></tr>
+<tr><td>Digital Edition, Robot White</td><td>None</td><td>1TB</td><td>Lighter at 3.6kg; downloads only</td></tr>
+<tr><td>Galaxy Black Special Edition</td><td>4K UHD Blu-ray</td><td>2TB</td><td>Discontinued in August 2026; only leftover stock</td></tr>
+</tbody></table>
+<p>Choose the disc model if you can. It plays Xbox One discs, plenty of Xbox 360 discs and films, and used discs are the only cheap games you will ever find here.</p>
+<h3>What the hardware does</h3>
+<p>Eight Zen 2 processor cores run at up to 3.8GHz beside 52 graphics units. Games aim for 4K, with a ceiling of 120 frames per second on a television that accepts it. The internal drive moves 2.4GB a second, or 4.8GB with compressed data, which is why loading screens are short. <strong>Quick Resume</strong> keeps several games frozen at once, so you can leave one in the middle of a fight and come back to it on another day.</p>
+<p>It also handles variable refresh rate, Dolby Vision and Dolby Atmos. Cooling is quiet: one large fan pulls air straight up through the tower. Leave the top clear and it will hardly be heard.</p>
+<h3>GTA VI on Xbox Series X</h3>
+<p>Yes, it plays <a href="/products/gta-6">Grand Theft Auto VI</a>, and it is one of the better ways to do so. Rockstar draws the game at 1440p and scales it up to a 4K signal, the same as on the standard PlayStation 5. The target is 30 frames per second, with no faster mode on any console. Expect dips during long chases and shoot-outs.</p>
+<p>The install needs about 212GB out of the roughly 800GB that a 1TB console has free. GTA VI is sold separately for $79.99 and is not included in Game Pass. If the space is full, the game can be streamed from the cloud on the console, although then you see Series S picture settings. Our <a href="/guides/how-to-play-gta-6-nepal-consoles">GTA VI device guide</a> lists every other way to play it.</p>
+<h3>Game Pass, and the question of Nepal</h3>
+<p>Game Pass is the strongest argument for an Xbox. For a monthly fee you can download from a library of hundreds of games. In the United States, Essential costs $9.99, Premium $14.99 and Ultimate $22.99 after a cut in April 2026. New Call of Duty games no longer arrive on their release day.</p>
+<p>Nepal has not been among the countries that Microsoft officially supports, so there is no rupee price and no local support line. Look at the current country list on the Xbox website, and decide which country your account will belong to before you buy any subscription or gift code. Codes work only in the region they were made for.</p>
+<h3>Series X or PlayStation 5?</h3>
+<p>The two are close in power. Friends decide it for most people: nearly everyone with a current console in Nepal owns a PlayStation, so discs, controllers, repairs and people to play with are easier to find on that side. Choose the Series X if you have old Xbox discs, if you want Game Pass and understand the account arrangement, or if you find one well below the price of a <a href="/products/sony-playstation-5">PS5</a>. You can put them <a href="/compare?category=gaming&g1=microsoft-xbox-series-x&g2=sony-playstation-5">side by side here</a>.</p>
+<h3>Checks before paying</h3>
+<ul>
+<li><strong>Voltage.</strong> The power supply inside should accept 100–240V. Read the label, and ask for a plug that fits.</li>
+<li><strong>Warranty.</strong> Ask who repairs it, where, and for how long, and have it written on the bill.</li>
+<li><strong>Serial number.</strong> The box and the console must match.</li>
+<li><strong>Storage.</strong> Current games run only from the internal drive or a proprietary expansion card, which is hard to find here. An ordinary USB drive can hold them but not run them.</li>
+<li><strong>Used units.</strong> Insert a disc, play for half an hour, sign in online to be sure that the console is not banned, and move the HDMI cable gently to see whether the port is loose.</li>
+</ul>
+<h3>Wait for the next Xbox?</h3>
+<p>Microsoft announced its next console, code-named Project Helix, in March 2026 and says it will play both Xbox and PC games. Developers are due to receive early hardware in 2027, and there is no price or release date. It is not a reason to stop playing now, but it is a reason not to overpay for a Series X.</p>
+[[models:microsoft-xbox-series-x,microsoft-xbox-series-s,sony-playstation-5]]
+
+=== microsoft-xbox-series-s
+<p>The Xbox Series S is the smallest current-generation console: a white or black slab the size of a thick book, 6.5cm thick and under 2kg, with no disc drive. It plays the same games as its big brother at a lower resolution. Before 2025 it was the bargain of the generation. After three price rises it needs more thought, above all in Nepal.</p>
+<h3>Xbox Series S price in Nepal</h3>
+<p>On 25 November 2026 the last price we found for the <strong>512GB model was Rs 69,401</strong>, marked down from Rs 93,900, and it was out of stock. Used consoles are advertised privately at around Rs 70,000, which is too much for a used one. The 1TB model has no regular local price.</p>
+<p>There is no official distributor. In the United States the 512GB version rose from $299 at launch to <strong>$499.99</strong>, and the 1TB version costs <strong>$599.99</strong> since 1 August 2026. If you see an import below Rs 60,000, check that it is new and not refurbished.</p>
+<h3>What you give up against the Series X</h3>
+<table><thead><tr><th></th><th>Series S</th><th>Series X</th></tr></thead><tbody>
+<tr><td>Graphics</td><td>4 teraflops, 20 units</td><td>12 teraflops, 52 units</td></tr>
+<tr><td>Memory</td><td>10GB</td><td>16GB</td></tr>
+<tr><td>Aim</td><td>1440p, up to 120fps</td><td>4K, up to 120fps</td></tr>
+<tr><td>Storage</td><td>512GB or 1TB</td><td>1TB or 2TB</td></tr>
+<tr><td>Discs</td><td>None</td><td>4K Blu-ray on most versions</td></tr>
+<tr><td>Weight</td><td>1.9kg</td><td>4.4kg</td></tr>
+</tbody></table>
+<p>The processor is almost the same, and so is the speed of the drive, so menus, loading and Quick Resume feel just as modern. Memory is the real limit. Developers have to fit their games into 10GB, and it is the reason that some releases on this console look rougher than its age suggests.</p>
+<h3>Can the Series S play GTA VI?</h3>
+<p>Yes, and it is the weakest of the consoles that can. <a href="/products/gta-6">Grand Theft Auto VI</a> is drawn at 720p and scaled to a 1080p picture, with a 30 frame target that it misses more often than the others. On a 32 or 43-inch Full HD television it is perfectly playable. On a large 4K screen it looks soft.</p>
+<p>Space is the second problem. The game wants about 212GB, and a 512GB console has roughly 364GB free. That leaves room for one or two more games. If GTA VI is the main reason for your purchase, a <a href="/products/sony-playstation-5">PlayStation 5</a> or a <a href="/products/microsoft-xbox-series-x">Series X</a> is money better spent.</p>
+<h3>Living without discs</h3>
+<p>Every game is a download. That means no second-hand discs, no lending and no selling when you finish. It also means that your home internet matters. A 100GB game takes about two and a half hours on a 100Mbps line under ideal conditions, and a whole night on a shared one. Buy games in the seasonal sales, and keep one account and one region.</p>
+<h3>Who should still buy it</h3>
+<ul>
+<li>A family that wants a small, quiet console for Minecraft, Fortnite, football and Forza on a Full HD television.</li>
+<li>Somebody who already has a large digital Xbox library.</li>
+<li>A student who moves between rooms. It fits in a backpack and needs one cable for power and another for the screen.</li>
+</ul>
+<p>It is not for a 65-inch 4K television, for collectors of discs, or for anyone who keeps ten large games installed.</p>
+<h3>Storage and accessories</h3>
+<p>The expansion card made for this console matches the internal drive but costs a good part of the console's own price and is rarely stocked here. A USB 3 hard disk is cheap. It runs older Xbox One games directly and parks newer ones until you copy them back. A spare <a href="/products/xbox-wireless-controller">Xbox Wireless Controller</a> was last listed at Rs 10,800 in Nepal.</p>
+<h3>Buying a used one safely</h3>
+<p>Sign in with your own account, start a download and let the fan run. Check that the HDMI port does not wobble, that the console wakes from sleep and that the controller pairs at once. Ask for a full reset in front of you. "Games included" is a promise without value, because digital games remain with the seller's account and can disappear with it.</p>
+<p>Online multiplayer in paid games needs a Game Pass plan, while free games such as Fortnite do not. Nepal has not been an officially supported Xbox country, so read the country list on the Xbox website before buying a subscription code.</p>
+
+=== asus-rog-xbox-ally-x
+<p>The ROG Xbox Ally X is a handheld gaming computer built by ASUS together with Xbox. It carries the Xbox name and button, opens straight into a full-screen Xbox app, and underneath it is a complete Windows 11 PC. That mixture is its attraction and the source of most misunderstandings, so begin with the important sentence: <strong>it plays PC games, not Xbox console discs or console-only games</strong>.</p>
+<h3>Price and availability in Nepal</h3>
+<p>Unlike the living-room consoles, the Ally X can be bought new in Nepal. On 25 November 2026 the 24GB and 1TB model was listed at <strong>Rs 1,84,999</strong> with limited stock, and another seller asked Rs 1,88,955. Both listings were marked down from Rs 1,98,900. It is sold with a manufacturer's warranty here. Ask for the warranty card, since privately imported units may not be covered. In the United States it started at $999.99 on 16 October 2025.</p>
+<h3>What is inside</h3>
+<p>The Ryzen AI Z2 Extreme has eight cores and sixteen threads, with Radeon graphics in the same chip. Memory is 24GB of fast LPDDR5X, shared between the processor and the graphics, and the drive is a full-size 2280 M.2 that you can replace yourself. The 80Wh battery is as large as that of many 16-inch laptops. Everything weighs 715 grams.</p>
+<p>The 7-inch screen is Full HD at 120Hz with variable refresh, reaching 500 nits. The shape is the biggest improvement on the <a href="/products/asus-rog-ally-x">older ROG Ally X</a>: the ends are moulded like an Xbox controller, so your fingers wrap around real grips. The triggers have their own vibration motors.</p>
+<h3>How it runs games</h3>
+<p>At 1080p with sensible settings it plays most modern titles between 40 and 60 frames per second, and older or lighter games much faster. The heaviest new releases need lower settings and upscaling. Twenty-four gigabytes of memory helps in games that stumble on 16GB machines.</p>
+<p>Battery life depends on the game. Light indie titles last most of a long bus ride to Pokhara. A demanding game at full power empties it in about two to three hours. A 65W USB-C charger is in the box, and a good power bank with the same output works on the road.</p>
+<h3>Can it play GTA VI?</h3>
+<p><strong>Not by itself.</strong> <a href="/products/gta-6">Grand Theft Auto VI</a> has no PC version, and this is a PC. Cloud streaming of the game is limited to Xbox consoles. What does work is <strong>Remote Play</strong>: if you own a Series X, Series S or PlayStation 5 with the game installed, the Ally X can be its screen and controller over good Wi-Fi. If a PC version arrives, this machine should be able to run it, although nobody can yet say how well.</p>
+<h3>Games, shops and Game Pass</h3>
+<p>Because it is Windows, Steam, Epic, GOG, Battle.net and the Xbox app all work, and one library can gather them. Many Xbox games are marked Xbox Play Anywhere, which gives you the PC copy with the console one. Two months of Game Pass Premium are listed in the box. Check whether your account's region can redeem it.</p>
+<h3>Ally X or the standard Ally?</h3>
+<p>The <a href="/products/asus-rog-xbox-ally">ROG Xbox Ally</a> costs about Rs 55,000 less. It has the same screen and shape, with half the processor cores, 16GB of memory, 512GB of storage and a smaller battery. For Hades, football, Minecraft and older games it is enough. For new big-budget games and for two or three years of comfort, the X is the one to buy.</p>
+<h3>Or a gaming laptop?</h3>
+<p>At Rs 1,85,000 you could have a laptop with an RTX 5050 or 5060, which is far faster and has a keyboard for your studies. Choose the handheld if you will really play in bed, on journeys and on the sofa. If it would mostly stand on a desk, buy the laptop. See <a href="/products?category=laptop">laptops and their prices</a>.</p>
+<h3>Care in Nepal</h3>
+<p>Dust is the enemy of small fans, so use a case and clean the vents every few months. Keep it below 35 degrees when charging. Put Windows updates on hotel or home Wi-Fi and not on mobile data. A microSD card in the UHS-II slot is a cheap home for smaller games.</p>
+[[models:asus-rog-xbox-ally-x,asus-rog-xbox-ally,asus-rog-ally-x,valve-steam-deck-oled]]
+
+=== asus-rog-xbox-ally
+<p>The white ROG Xbox Ally is the cheaper half of the Xbox handheld pair. It shares the screen, the controller-shaped body and the full-screen Xbox interface of the <a href="/products/asus-rog-xbox-ally-x">Ally X</a>, and saves money inside. For the right player it is the more sensible of the two. For the wrong one it is a disappointment, so this page spends most of its length on that difference.</p>
+<h3>ROG Xbox Ally price in Nepal</h3>
+<p>New units with 16GB of memory and 512GB of storage were listed at <strong>Rs 1,29,999</strong> on 25 November 2026, down from Rs 1,38,900. A second listing stood at Rs 1,33,344 and was in stock. It went on sale worldwide on 16 October 2025 at $599.99, so the local price includes a sizeable amount for import and warranty.</p>
+<h3>The processor decides everything</h3>
+<p>The Ryzen Z2 A has four cores and eight threads at up to 3.8GHz. It belongs to the same family as the chip in the Steam Deck, with a higher power limit. That tells you what to expect: games of the past generation, indie games, emulation, football and racing at comfortable settings, usually at 720p or 900p scaled up to the Full HD screen. Large 2025 and 2026 releases often run at 30 frames with low settings, and a few do not run well at all.</p>
+<p>The 7-inch display refreshes at 120Hz with variable refresh, which hides uneven frame rates better than any setting. Five hundred nits is enough beside a window, not in direct sun.</p>
+<h3>Battery, weight and ports</h3>
+<p>The battery holds 60Wh and the machine weighs 670 grams. Two USB-C ports both carry power and a display signal, so it can charge and drive a television at the same time through a small dock. There is a headphone socket, a UHS-II microSD slot, Wi-Fi 6E and Bluetooth 5.4. The SSD is an ordinary 2280 size and can be upgraded.</p>
+<h3>Xbox on the label, Windows underneath</h3>
+<p>At start-up the machine opens the Xbox app across the whole screen and leaves the Windows desktop asleep, which frees some memory. Press a button and your PC games from several shops appear in one list. It remains a computer, so now and then you will see a Windows update, a launcher that wants a password, or text that is too small for the screen. People who dislike computers should buy a console.</p>
+<p>Console discs do not work, and neither do games that exist only for the Xbox console. Your console games appear here in two ways: as Xbox Play Anywhere titles that include the PC version, or by Remote Play from a console in your house.</p>
+<h3>And GTA VI?</h3>
+<p>No version of <a href="/products/gta-6">GTA VI</a> runs on this handheld today, because there is no PC release and the official cloud version is offered on Xbox consoles only. It can show the game by Remote Play from your own <a href="/products/microsoft-xbox-series-x">Series X</a>, <a href="/products/microsoft-xbox-series-s">Series S</a> or PlayStation 5. With four cores, we would not buy it in the hope of a later PC version.</p>
+<h3>Compared with a Steam Deck OLED</h3>
+<p>The <a href="/products/valve-steam-deck-oled">Steam Deck OLED</a> has a better screen, simpler software and longer life in light games. The Ally runs Game Pass, Fortnite and other titles whose protection refuses to work on the Deck, and it is sold with a warranty in Nepal while the Deck is imported privately. If your library is on Steam alone, look at the Deck first.</p>
+<h3>Who should buy it</h3>
+<ul>
+<li>Players of indie games, football, Minecraft and older hits who want to leave the desk.</li>
+<li>Owners of an Xbox who will use Remote Play in another room.</li>
+<li>Students who need a small second PC: with a USB-C screen, keyboard and mouse it writes assignments without complaint.</li>
+</ul>
+<p>Add a carrying case and a 65W power bank to the budget. Keep the bill, and update the BIOS and the Armoury Crate software before judging its speed, because early versions were slower.</p>
+
+=== xbox-wireless-controller
+<p>The Xbox Wireless Controller is the pad that comes with every Series X and Series S, and it may be the best inexpensive controller for a PC as well. You do not need an Xbox to make good use of it.</p>
+<h3>Price in Nepal</h3>
+<p>On 25 November 2026 the last listing we found was <strong>Rs 10,800</strong>, down from Rs 11,000, and it was out of stock. Special colours cost more. Treat a price far below that with suspicion, because copies are common.</p>
+<h3>What it works with</h3>
+<table><thead><tr><th>Device</th><th>How it connects</th></tr></thead><tbody>
+<tr><td>Xbox Series X, Series S, Xbox One</td><td>Xbox Wireless, paired by the button on both</td></tr>
+<tr><td>Windows 10 and 11</td><td>USB-C cable, Bluetooth, or the Xbox adapter</td></tr>
+<tr><td>Android phones, tablets and some TVs</td><td>Bluetooth</td></tr>
+<tr><td>iPhone and iPad</td><td>Bluetooth</td></tr>
+<tr><td>PlayStation consoles</td><td>Not supported</td></tr>
+</tbody></table>
+<p>It remembers one Xbox and one Bluetooth device, and a double press of the pairing button jumps between them. That makes it easy to play on the television in the evening and on a laptop during the day.</p>
+<h3>Feel and features</h3>
+<p>The grips, triggers and bumpers are lightly textured, and the cross pad is a dish that clicks in eight directions. A Share button saves a screenshot or clip. Two motors in the handles and two in the triggers provide the rumble. There is a 3.5mm headset socket. It lacks the adaptive triggers, speaker, touchpad and motion sensor of the <a href="/products/sony-dualsense-wireless-controller">DualSense</a>, and few PC games miss them.</p>
+<h3>Batteries: a blessing and a nuisance</h3>
+<p>It takes two AA cells and Microsoft quotes up to 40 hours. You will never be stuck with a dead built-in battery five years later, and during a long power cut you can simply change the cells. Use rechargeable ones: four good AA cells and a charger cost less than a year of disposables. A play-and-charge kit also exists. The USB-C cable powers the controller but does not charge ordinary cells inside it.</p>
+<h3>For GTA VI</h3>
+<p>The controller works with <a href="/products/gta-6">GTA VI</a> on a Series X, a Series S, or an Xbox One that streams the game. It is also the natural choice for Xbox Remote Play on a phone or laptop.</p>
+<h3>Genuine or fake?</h3>
+<p>Look inside the battery bay for a label with a model and serial number. The text should be crisp, the two halves of the shell should meet evenly, and a Windows PC should name it "Xbox Wireless Controller" when paired. Copies often connect only by cable, have loose sticks and lack vibration in the triggers. Test every button in a game before leaving the shop. Stick drift within the warranty should be repaired or replaced, so keep the bill.</p>
+<h3>Which one else?</h3>
+<p>If you play only on a PC, a wired pad at Rs 3,000 to 5,000 is enough for football and racing. If you own a PlayStation 5, buy a DualSense. The Xbox controller makes the most sense for people who move between a console, a computer and a phone and want one pad that behaves the same on all of them.</p>

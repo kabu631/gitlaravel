@@ -1,0 +1,297 @@
+=== xiaomi-18-pro
+<p>The Xiaomi 18 Pro is the small flagship many people have been asking for. It fits a 6.4-inch display, a 6,000mAh battery, two 200MP Leica cameras and Qualcomm's newest chip into 198 grams. It was launched globally in Paris on 17 November 2026 and has not been announced for Nepal.</p>
+<h3>Price and availability</h3>
+<p>In Europe it starts at €1,399. Our estimate for Nepal is about Rs 1,89,999, based on that and on what the present flagship costs here. Xiaomi Nepal has not given a price or date. Imported units may appear first, without local warranty.</p>
+<h3>A compact body</h3>
+<p>At 151.8 by 72 by 8.46mm it is close to a Galaxy S26 in width and a little thicker, with a battery forty per cent larger. The Cosmic Blue finish is slightly thicker and heavier, at 203 grams. Other colours are black, white and Velvet Red.</p>
+<h3>The display, and the one on the back</h3>
+<p>The main screen is a 12-bit LTPO AMOLED at 2436 by 1120, adapting from 1 to 120Hz, with a claimed peak of 4,000 nits. A privacy mode built into the panel narrows the viewing angle, so people beside you on a microbus see little.</p>
+<p>On the back, beside the cameras, is a 2.7-inch AMOLED. You can frame selfies with the 200MP camera, see who is calling with the phone face down, control music, or show a picture of somebody you like. It is a gimmick that people who have it tend to keep using.</p>
+<h3>Cameras</h3>
+<ul>
+<li><strong>200MP main.</strong> A 1/1.28-inch sensor at f/1.67 with stabilisation, 23mm.</li>
+<li><strong>200MP telephoto.</strong> A 1/1.56-inch sensor at 75mm, about 3.2x, stabilised, with close focus for macro.</li>
+<li><strong>50MP ultra wide.</strong> 102 degrees, with the smallest sensor of the three.</li>
+<li><strong>50MP front camera</strong> with autofocus.</li>
+</ul>
+<p>High resolution on the telephoto lets the phone crop to around 6x while keeping detail. Leica's two colour styles, one restrained and one vivid, are the reason photographers like these phones. Video goes to 8K at 30 and 4K at 120 frames, with Log recording.</p>
+<h3>Performance</h3>
+<p>The Snapdragon 8 Elite Gen 6 is built on a 2nm process and runs at up to 5GHz. With 12GB of LPDDR5X and UFS 4.1 storage it is among the fastest phones in the world. In a compact body, long games will warm it sooner than a larger phone.</p>
+<h3>Battery and charging</h3>
+<p>The global model has 6,000mAh, while China receives 7,000. Charging is 90W by wire and 50W wireless. Xiaomi's page says that no power adapter is included in the box and suggests its 100W charger. Add it to your budget.</p>
+<h3>Software</h3>
+<p>HyperOS 4 on Android 17, with Google's services, Gemini and Circle to Search. Expect extra apps to remove and recommendations to switch off. Reviewers list five major Android updates for the series.</p>
+<h3>18 Pro or 18 Pro Max?</h3>
+[[models:xiaomi-18-pro,xiaomi-18-pro-max,xiaomi-17-ultra,samsung-galaxy-s26,iphone-18-pro]]
+<p>The <a href="/products/xiaomi-18-pro-max">Pro Max</a> has a 6.9-inch screen, a faster "Extreme" chip, a better main sensor for highlights and 7,050mAh. The Pro is the one for pockets. The <a href="/products/xiaomi-17-ultra">17 Ultra</a>, already sold in Nepal, has a larger one-inch main sensor.</p>
+<h3>Should you wait?</h3>
+<p>If you want a small phone with a serious battery and can live with uncertainty for a few months, yes. If you need a phone now, the <a href="/products/oneplus-13s">OnePlus 13s</a> and <a href="/products/honor-600-pro">Honor 600 Pro</a> are the closest in spirit. Our <a href="/news/xiaomi-18-pro-snapdragon-8-elite-gen-6-launch">launch report</a> covers import risks.</p>
+
+=== xiaomi-18-pro-max
+<p>The Xiaomi 18 Pro Max is Xiaomi's top phone for 2026, built around three things: the fastest Snapdragon available, a pair of 200MP Leica cameras, and a second screen on the back. It went on sale in China in September and was launched globally on 17 November 2026. Nepal has no date yet.</p>
+<h3>Expected price in Nepal</h3>
+[[variants:xiaomi-18-pro-max]]
+<p>These are our estimates, based on the European price of €1,599 and current Xiaomi prices here. They will be replaced when Xiaomi Nepal announces official figures.</p>
+<h3>Display</h3>
+<p>A 6.9-inch LTPO AMOLED at 2624 by 1208, 12-bit, from 1 to 120Hz, with a stated peak of 4,000 nits and Xiaomi's privacy mode. The rear display is 2.9 inches at 120Hz, large enough for selfies, widgets, a small game or a teleprompter.</p>
+<h3>Performance</h3>
+<p>The Snapdragon 8 Elite Extreme Gen 6 is the higher-clocked edition of Qualcomm's 2nm chip. Memory is 12 or 16GB, and storage runs to 1TB. Nothing in the Play Store will trouble it.</p>
+<h3>Cameras</h3>
+<p>The main camera uses a 200MP Light Fusion 960L sensor, 1/1.28 inches at f/1.67, with LOFIC technology to hold bright skies and lamps without burning out. The 200MP telephoto is at 75mm with stabilisation and close focus. The 50MP ultra wide is the weak member, and the 50MP front camera has autofocus. Reviewers have praised it as a phone for creators, partly because the rear screen lets you film yourself with the best camera.</p>
+<h3>Battery: check which version</h3>
+<p>The global model carries 7,050mAh, against 8,500mAh in China, with 100W wired and 50W wireless charging. Even the smaller figure is a third more than a Galaxy S26 Ultra. If you are offered an import, ask which battery it has, and whether it runs Chinese or global software.</p>
+<h3>Size and weight</h3>
+<p>163.4 by 77.6 by 8.39mm and 229 grams, or 234 in Cosmic Blue. It is a large phone that is slimmer than you expect.</p>
+<h3>Software and updates</h3>
+<p>HyperOS 4 on Android 17, with five Android versions promised according to published reviews. It is quick, with many features and a little clutter.</p>
+<h3>Compared with other giants</h3>
+[[models:xiaomi-18-pro-max,samsung-galaxy-s26-ultra,iphone-18-pro-max,vivo-x300-pro,oneplus-15,xiaomi-17-ultra]]
+<p>The <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a> has the pen, a 5x lens, service and seven years of updates. The <a href="/products/vivo-x300-pro">vivo X300 Pro</a> has a longer telephoto. The <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a> has a bigger main sensor and is on sale now for Rs 1,99,999. The 18 Pro Max is the newest and quickest of them all.</p>
+<h3>Import or wait?</h3>
+<p>An early import gives you bragging rights, and no Nepali warranty, possible MDMS trouble and delayed updates. For a phone over two lakhs we would wait for an official launch or buy the 17 Ultra, which will become cheaper when this arrives.</p>
+
+=== xiaomi-17-ultra
+<p>The Xiaomi 17 Ultra is a camera that makes phone calls. Its main sensor is a full one-inch type, its telephoto zooms optically between 75 and 100mm, and Leica's name is on the glass for a reason. At Rs 1,99,999 in Nepal for 16GB and 512GB, it is for people who plan their evenings around the light.</p>
+<h3>The main camera</h3>
+<p>Fifty megapixels on a one-inch sensor at f/1.67, with stabilisation and LOFIC, a technology that lets each pixel hold far more light before it burns out. Sunsets, lamps at a temple and faces against windows keep their detail. The shallow focus of so large a sensor makes portraits look like photographs, and food or documents need a step back to be sharp from edge to edge.</p>
+<h3>The telephoto</h3>
+<p>A 200MP sensor behind a lens that moves continuously from 75 to 100mm, about 3.2x to 4.3x, without switching cameras. It is wonderful for people on the street, details on buildings and stage events. Beyond that it crops well to around 8x.</p>
+<h3>Ultra wide and front</h3>
+<p>A 50MP ultra wide at 14mm covers 115 degrees, and the 50MP front camera has autofocus. Video goes to 8K, and 4K at 120 frames in Dolby Vision and Log.</p>
+<h3>Screen and body</h3>
+<p>The 6.9-inch OLED runs at 2608 by 1200 and 1 to 120Hz, with a stated peak of 3,500 nits. At 8.29mm and about 218 grams it is slim for an Ultra. The camera disc is large, and protection reaches IP66, IP68 and IP69.</p>
+<h3>Performance and battery</h3>
+<p>The Snapdragon 8 Elite Gen 5 with 16GB of memory is more than enough. The 6,000mAh battery lasts a day of heavy shooting, and charges at 90W by wire or 50W wirelessly.</p>
+<h3>Software</h3>
+<p>HyperOS 3 on Android 16 is fast and carries more preinstalled apps than Samsung or Google. Ten minutes of tidying makes it pleasant. Xiaomi promises several Android versions and long security support for its flagships.</p>
+<h3>Price and service in Nepal</h3>
+<p>One version, Rs 1,99,999. Xiaomi has wide service, though parts for an Ultra may have to be ordered. Check the sticker, the IMEI in MDMS and the bill. With the <a href="/products/xiaomi-18-pro-max">18 series</a> launched abroad, there is room to negotiate.</p>
+<h3>Against its rivals</h3>
+[[models:xiaomi-17-ultra,vivo-x300-pro,oppo-find-x9-pro,samsung-galaxy-s26-ultra,honor-magic-8-pro]]
+<p>The <a href="/products/vivo-x300-pro">vivo X300 Pro</a> at the same price has a longer 85mm 200MP lens that is better for stages and birds. The Xiaomi has the better main camera and more natural colour. The <a href="/products/oppo-find-x9-pro">OPPO Find X9 Pro</a> gives you most of both for Rs 74,000 less. <a href="/reviews/xiaomi-17-ultra-review-nepal">Our review</a> goes through the choice.</p>
+<h3>Who should carry it</h3>
+<p>Street and travel photographers, people who edit RAW files, and anyone who misses a compact camera. If you never move beyond auto mode, a cheaper phone will please you as much.</p>
+
+=== vivo-x300-pro
+<p>Ask people who photograph concerts and birds with a phone which one they would buy in Nepal, and the vivo X300 Pro comes up first. Its 200MP periscope, tuned with Zeiss, is the best long lens you can get near two lakhs. The rest of the phone is strong enough that you can live with it every day.</p>
+<h3>The telephoto</h3>
+<p>At 3.7x, or about 85mm, with a 200MP stabilised sensor, it sits at the classic portrait length. Faces have natural proportions, backgrounds fall away, and cropping to 7x or 10x still leaves detail. It also focuses close, so flowers and jewellery look like macro work. vivo sells a clip-on extender in some markets for those who want more.</p>
+<h3>The other cameras</h3>
+<p>A 50MP main camera at f/1.57 with stabilisation, a 50MP ultra wide with autofocus and a 50MP front camera. Zeiss portrait styles imitate well-known lenses, and once you find the one you like, you stop editing. Video is 4K at up to 120 frames with Log, much improved and still behind the iPhone in consistency.</p>
+<h3>Display and design</h3>
+<p>A flat 6.78-inch AMOLED at 2800 by 1260, adapting from 1 to 120Hz, peaks at 4,500 nits. The phone is 7.99mm thick and 226 grams, with a large camera ring, and is rated IP68 and IP69. An ultrasonic fingerprint reader works with wet fingers. There is an infrared blaster for the television.</p>
+<h3>Performance</h3>
+<p>MediaTek's Dimensity 9500 with 16GB of memory and 512GB of UFS 4.1 storage. It is as quick as the Snapdragon flagships in daily life. Some reviewers measured slowing under very long loads.</p>
+<h3>Battery and charging</h3>
+<p>Outside Europe the battery is 6,510mAh. European units have 5,440, so check any import. It charges at 90W by wire and 40W wirelessly. The charger and a case are in the box here, which is now unusual.</p>
+<h3>Software</h3>
+<p>OriginOS 6 on Android 16 is smooth and attractive, with some extra apps. vivo promises several Android versions for the X series. The seven years of Samsung and Google are longer.</p>
+<h3>Price in Nepal</h3>
+<p>Rs 1,99,999 for 16GB/512GB, up from Rs 1,79,999 before September 2026. vivo's dealers do negotiate on the X series, and an exchange bonus can bring it close to the old price.</p>
+<h3>Compared</h3>
+[[models:vivo-x300-pro,xiaomi-17-ultra,oppo-find-x9-pro,samsung-galaxy-s26-ultra,iphone-18-pro]]
+<p>Choose the <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a> for the main camera, the vivo for the long one. The <a href="/products/samsung-galaxy-s26-ultra">S26 Ultra</a> reaches 5x optically with a smaller sensor and offers a pen and longer support. The <a href="/products/oppo-find-x9-pro">Find X9 Pro</a> has a similar 200MP telephoto at 3x, a bigger battery and a much lower price.</p>
+<h3>Who should buy it</h3>
+<p>Parents of children on stages, wedding guests with taste, travellers, birders and anyone who enjoys portraits. If you rarely zoom, put the money elsewhere. <a href="/reviews/vivo-x300-pro-review-nepal">Read our review</a>.</p>
+
+=== oneplus-15
+<p>The OnePlus 15 is built for speed and stamina. A 7,300mAh battery, a 165Hz screen and the Snapdragon 8 Elite Gen 5 make it the flagship for people who use their phone hard and dislike chargers. Photography is good and not the reason to buy it.</p>
+<h3>Price in Nepal</h3>
+[[variants:oneplus-15]]
+<h3>Battery and charging</h3>
+<p>At 7,300mAh it holds nearly half as much again as a Galaxy S26 Ultra. Light users reach a second evening, and heavy users finish the day without thinking about it. Charging is up to 120W by wire, with the figure depending on the region and charger, and 50W wirelessly. Check which charger, if any, is in the Nepali box.</p>
+<h3>Display</h3>
+<p>The 6.78-inch AMOLED runs from 1 to 120Hz in normal use and up to 165Hz in supported games. Resolution is a sharp 1.5K. It is flat, with thin borders, and comfortable at low brightness in the dark.</p>
+<h3>Performance</h3>
+<p>With 12 or 16GB of memory and a large cooling system, it sustains high frame rates well. Reviewers disagree about the most extreme benchmarks, and nobody complains about daily speed. For competitive mobile players it is one of the best choices that is not a dedicated gaming phone.</p>
+<h3>Cameras</h3>
+<p>Three 50MP cameras: a Sony main sensor with stabilisation, an ultra wide and a 3.5x telephoto. OnePlus now uses its own processing in place of the Hasselblad partnership. Daylight and portraits are very good. In dim light, and at long zoom, vivo, Xiaomi and OPPO are ahead. The 32MP front camera has autofocus.</p>
+<h3>Durability</h3>
+<p>IP68 and IP69K, meaning immersion and hot high-pressure spray in laboratory tests. The body weighs about 211 to 215 grams depending on the finish.</p>
+<h3>OxygenOS</h3>
+<p>OxygenOS 16 on Android 16 is fast, tidy and easy to live with. The Plus Key can be assigned to something useful. OnePlus promises several Android versions and six years or so of patches.</p>
+<h3>In Nepal</h3>
+<p>Buy an official unit. Indian imports are everywhere and carry no local warranty. Service is concentrated in Kathmandu, and a screen is costly. Check MDMS.</p>
+<h3>Compared</h3>
+[[models:oneplus-15,oneplus-15r,oppo-find-x9-pro,realme-gt-8-pro,samsung-galaxy-s26-ultra]]
+<p>The <a href="/products/oneplus-15r">OnePlus 15R</a> at about Rs 98,500 gives you most of the speed and battery for half the money, and for many people that is the end of the argument. The <a href="/products/oppo-find-x9-pro">OPPO Find X9 Pro</a> shares the battery philosophy with far better cameras for Rs 64,000 less. The <a href="/products/realme-gt-8-pro">Realme GT 8 Pro</a> has the same chip for Rs 1,49,999.</p>
+<h3>Who should buy it</h3>
+<p>Fans of OxygenOS who want the best OnePlus, and players who value steady performance. Others should look at the 15R first. A successor, the <a href="/products/oneplus-16">OnePlus 16</a>, has been launched in China, so ask for a discount. <a href="/reviews/oneplus-15-review-nepal">Our review</a> has the detail.</p>
+
+=== oppo-find-x9-pro
+<p>At Rs 1,25,999 the OPPO Find X9 Pro is the strangest price in Nepal's phone market. It is a complete flagship, with a 200MP telephoto, a large main sensor, MediaTek's best chip and a 7,500mAh battery, and it costs little more than some mid-range phones.</p>
+<h3>Why it is our value pick under Rs 1.5 lakh</h3>
+<p>Phones normally make you choose between a camera and a battery. This one does not. Reviewers have called it one of the best Android phones of its generation, and its usual handicap abroad, a high price, hardly applies here. Confirm that the unit you are offered is official, because a figure this low attracts imports.</p>
+<h3>Cameras</h3>
+<ul>
+<li><strong>50MP main,</strong> a 1/1.28-inch sensor at f/1.5 with stabilisation.</li>
+<li><strong>200MP telephoto</strong> at 70mm, 3x, f/2.1 and stabilised, with room to crop to about 6x and beyond.</li>
+<li><strong>50MP ultra wide</strong> with autofocus for close-ups.</li>
+<li><strong>50MP front camera</strong> with autofocus.</li>
+</ul>
+<p>Hasselblad tuning gives calm, natural colour and a lovely XPan mode for wide panoramas. A colour sensor helps keep skin tones right under mixed light. Video reaches 4K at 120 frames.</p>
+<h3>Battery</h3>
+<p>The 7,500mAh silicon-carbon cell makes two days realistic for moderate users. It charges at 80W by wire with OPPO's charger and 50W wirelessly, and accepts PPS chargers at up to 55W, more flexible than most.</p>
+<h3>Display and body</h3>
+<p>A flat 6.78-inch AMOLED at 2772 by 1272, up to 120Hz, with 1,800 nits in sunlight mode and more in HDR. Victus 2 glass, an aluminium frame, 8.25mm, 224 grams and IP68 with IP69. The fingerprint reader is ultrasonic.</p>
+<h3>Performance</h3>
+<p>The Dimensity 9500 is as quick as anything in daily use and cool in long sessions. The global version has 16GB and 512GB. Check which memory the Nepali box states, since listings mention several.</p>
+<h3>Software</h3>
+<p>ColorOS 16 on Android 16 is smooth, with useful privacy tools and good links to Windows and Macs. Remove the bundled apps on the first day. OPPO promises several Android versions, fewer than Samsung's seven years.</p>
+<h3>Price and versions</h3>
+[[variants:oppo-find-x9-pro]]
+<h3>Compared</h3>
+[[models:oppo-find-x9-pro,samsung-galaxy-s26,oneplus-15,vivo-x300-pro,google-pixel-10]]
+<p>The <a href="/products/samsung-galaxy-s26">Galaxy S26</a> is smaller, with longer support and better resale. The <a href="/products/vivo-x300-pro">vivo X300 Pro</a> has a longer lens for Rs 74,000 more. The <a href="/products/oneplus-15">OnePlus 15</a> is a little faster in games and weaker in photos.</p>
+<h3>Who should buy it</h3>
+<p>Nearly anyone with Rs 1.25 to 1.5 lakh who wants photographs and battery in one phone. Those who prefer a small phone, seven years of updates or an iPhone should look elsewhere with a clear conscience.</p>
+
+=== google-pixel-10-pro
+<p>The Pixel 10 Pro is Google's best camera in a pocketable size: 6.3 inches, 207 grams, with a main sensor, ultra wide and 5x telephoto that share one calm, natural look. In Nepal it is an import, which shapes everything about buying it.</p>
+<h3>Cameras</h3>
+<p>A 50MP main camera, a 48MP ultra wide with macro and a 48MP 5x periscope at 113mm, all stabilised where it counts. Pixels succeed through software: skin looks real, skies do not burn, and a single press usually gives the picture you saw. Best Take, Magic Editor and Pro Res Zoom are tools people keep using. The 42MP front camera is wide and sharp. Video Boost improves clips in the cloud and needs a connection.</p>
+<h3>Display and body</h3>
+<p>A 6.3-inch LTPO OLED at up to 120Hz, with 2,200 nits in HDR and 3,300 at peak, is superb outdoors. Polished aluminium and Victus 2 glass make it feel expensive. IP68 is standard.</p>
+<h3>Tensor G5 and 16GB</h3>
+<p>Google's chip is designed for speech, photos and AI. Daily speed is excellent. Games run warmer and slower than on Snapdragon rivals. Sixteen gigabytes of memory keeps on-device AI features ready.</p>
+<h3>Battery</h3>
+<p>4,870mAh with 30W wired and 15W magnetic wireless charging. A day of mixed use is normal. By local standards it is small and slow to fill.</p>
+<h3>Software</h3>
+<p>Clean Android, first in line for updates, and seven years of them. Call screening, recorder transcripts and Now Playing are charming details. Some phone features and tap to pay depend on the country and may not work here. Nepali voice typing and translation work well.</p>
+<h3>Price in Nepal</h3>
+<p>About Rs 1,76,000 for 256GB, through importers. Google has no official sales or service in the country.</p>
+<h3>Four checks before paying</h3>
+<ol>
+<li>The IMEI is registered in MDMS today, not "soon".</li>
+<li>VoLTE works with your SIM, shown to you on the phone.</li>
+<li>It is not carrier-locked, and it has the SIM type you need.</li>
+<li>The shop's warranty is in writing.</li>
+</ol>
+<p>Our <a href="/guides/google-phone-price-in-nepal">guide to Pixels in Nepal</a> explains each.</p>
+<h3>Compared</h3>
+[[models:google-pixel-10-pro,google-pixel-10,google-pixel-10-pro-xl,samsung-galaxy-s26,iphone-17]]
+<p>The <a href="/products/google-pixel-10">Pixel 10</a> has a 5x lens as well and costs about Rs 48,000 less. The Galaxy S26 has local warranty. The Pro is for those who want the better sensors and screen and accept the import.</p>
+<h3>Who it suits</h3>
+<p>Photographers who do not want to edit, Android enthusiasts and frequent travellers. If a repair counter in your city matters, choose a Samsung or an iPhone.</p>
+
+=== google-pixel-10-pro-xl
+<p>The Pixel 10 Pro XL is the 10 Pro with a 6.8-inch screen, a larger 5,200mAh battery and faster charging. The cameras, chip and memory are the same, and so are the conditions of buying an imported phone in Nepal.</p>
+<h3>What the XL adds</h3>
+<p>A bigger and slightly higher-resolution LTPO display that is a pleasure for reading and maps, about seven per cent more battery, 45W wired charging and 25W Qi2 magnetic wireless charging, which the smaller Pro lacks. It weighs 232 grams.</p>
+<h3>Cameras</h3>
+<p>A 50MP main camera, a 48MP ultra wide with macro and a 48MP 5x telephoto, with a 42MP front camera. Google's processing is the least fussy of the flagships. It is strongest with people, pets and night scenes, and weakest in very long zoom, where AI fills in detail that was never there. You can keep the original.</p>
+<h3>Performance and software</h3>
+<p>Tensor G5 with 16GB runs Android beautifully and heavy games moderately. Seven years of updates, the newest Gemini features and the cleanest interface are the attraction. Features tied to certain countries may be missing.</p>
+<h3>Price in Nepal</h3>
+<p>About Rs 2,00,000 through importers, with shop warranty only. At that figure it meets the <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>, <a href="/products/vivo-x300-pro">vivo X300 Pro</a> and <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a>, all of which have local service and stronger zoom hardware.</p>
+<h3>Check before you pay</h3>
+<p>MDMS registration, VoLTE on your own SIM, carrier lock, SIM type and a written warranty. A screen repair will need an ordered part, so ask for the cost and the wait.</p>
+<h3>Compared</h3>
+[[models:google-pixel-10-pro-xl,google-pixel-10-pro,samsung-galaxy-s26-ultra,iphone-18-pro-max,oppo-find-x9-pro]]
+<h3>Who should consider it</h3>
+<p>Someone who has used Pixels before, loves the camera and wants the largest one. For a first flagship in Nepal, a phone with a service counter is the calmer choice.</p>
+
+=== honor-magic-8-pro
+<p>The Honor Magic 8 Pro is a flagship with few weaknesses on paper: a Snapdragon 8 Elite Gen 5, a 200MP telephoto, a 7,100mAh battery, 100W charging and both a fingerprint reader and secure 3D face unlock. In Nepal its rivals at Rs 1,99,999 are better known, and that is most of its problem.</p>
+<h3>Cameras</h3>
+<p>A 50MP main camera with a large sensor, a 200MP stabilised telephoto and a 50MP ultra wide. The telephoto is the highlight, particularly at night, where reviewers have praised how much detail it keeps. Colours are a little cool by default. The 50MP front camera works with a depth sensor for face unlock and portraits.</p>
+<h3>Battery</h3>
+<p>The global model has 7,100mAh and European units 6,270mAh, so check any import. It charges at 100W by wire and up to 80W wirelessly with Honor's stand, which is faster than most phones manage by cable.</p>
+<h3>Display and body</h3>
+<p>A 6.71-inch LTPO OLED with very high peak brightness and strong eye-comfort features. The size is slightly smaller than other Ultras and easier to hold at 219 grams and 8.3mm. It is rated IP68 and IP69K. Colours include a warm gold and a pale cyan.</p>
+<h3>Performance</h3>
+<p>As fast as any Snapdragon flagship, with 12 or 16GB of memory. It stays comfortable in long games.</p>
+<h3>MagicOS 10</h3>
+<p>Smooth and inventive, with a side portal to drag things between apps and an AI button. Honor promises seven years of updates for this model in several markets, equal to Samsung. Ask which promise applies to the unit sold in Nepal.</p>
+<h3>Price and service in Nepal</h3>
+[[variants:honor-magic-8-pro]]
+<p>Honor's service is growing from Kathmandu outwards. Ask about screen cost, waiting time and whether early screen replacement is included.</p>
+<h3>Compared</h3>
+[[models:honor-magic-8-pro,vivo-x300-pro,xiaomi-17-ultra,oppo-find-x9-pro,honor-600-pro]]
+<p>At the same price the vivo has the better-known telephoto and the Xiaomi the larger main sensor. The OPPO Find X9 Pro is far cheaper. Honor's own <a href="/products/honor-600-pro">600 Pro</a> gives you a flagship chip, a telephoto and 7,000mAh in a smaller body for Rs 70,000 less, and is the one we would look at first.</p>
+<h3>Who should buy it</h3>
+<p>People who have held it and prefer its size, those who want face unlock as secure as an iPhone's on Android, and owners of Honor tablets and laptops who use them together.</p>
+
+=== realme-gt-8-pro
+<p>The Realme GT 8 Pro is the cheapest route to a Snapdragon 8 Elite Gen 5 in Nepal, at Rs 1,49,999, and the most playful flagship of its year. Its camera was developed with Ricoh, maker of the GR street cameras, and the shape of the camera housing can be swapped.</p>
+<h3>The Ricoh GR camera</h3>
+<p>A 50MP main camera offers the 28 and 40mm views that GR users love, five film-like tones and a mode that hides every button on the screen so you concentrate on the scene. It starts quickly and snaps at a fixed focus distance, the way street photographers work. A 200MP 3x telephoto with a large sensor covers portraits and crops well. The 50MP ultra wide and 32MP front camera are ordinary.</p>
+<h3>Display</h3>
+<p>A flat 6.79-inch AMOLED at full QHD+ resolution, 3136 by 1440, up to 144Hz. Brightness is 2,000 nits in sunlight mode with a claimed 7,000 in small areas. Few phones at this price are so sharp.</p>
+<h3>Performance</h3>
+<p>The newest Snapdragon with 16GB and a separate chip for graphics smoothing makes it a serious gaming phone. UFS 4.1 storage of 512GB is standard here.</p>
+<h3>Battery and charging</h3>
+<p>7,000mAh, with 120W wired charging from the box and 50W wireless. It accepts PD and PPS chargers as well. Reviewers were divided on endurance because of the sharp screen. Setting the display to FHD+ helps.</p>
+<h3>Body</h3>
+<p>214 grams in Urban Blue and 218 in Diary White, about 8.2mm thick, IP68 and IP69, with an ultrasonic fingerprint reader. Two nano-SIM slots.</p>
+<h3>Software</h3>
+<p>Realme UI 7 on Android 16 is quick and busy. Remove what you do not need. Updates are promised for several years, fewer than Samsung's.</p>
+<h3>Compared</h3>
+[[models:realme-gt-8-pro,oppo-find-x9-pro,oneplus-15,poco-f8-pro,samsung-galaxy-s26]]
+<p>The <a href="/products/oppo-find-x9-pro">Find X9 Pro</a> has better all-round cameras and battery for Rs 24,000 less. The <a href="/products/poco-f8-pro">POCO F8 Pro</a> is nearly as fast for Rs 45,000 less. The GT 8 Pro offers the sharpest screen, the fastest charging and the Ricoh experience, which no other phone has.</p>
+<h3>Who should buy it</h3>
+<p>Players who also enjoy black and white street photography, a small group that will be delighted. Everyone else should ask for a discount first, as value flagships fall in price quickly.</p>
+
+=== nothing-phone-3
+<p>The Nothing Phone (3) is the brand's first attempt at a flagship. It has wireless charging, three 50MP cameras with a periscope, IP68 and a tiny round display on its back called the Glyph Matrix. It is a phone people either want at once or never.</p>
+<h3>Design</h3>
+<p>The transparent back arranges the cameras unevenly on purpose and adds a 25mm dot-matrix screen in the corner. It shows the time, timers, the charging level, who is calling, and small toys such as a spin-the-bottle. It replaces the light strips of earlier models, and some fans miss them.</p>
+<h3>Display and performance</h3>
+<p>A 6.67-inch AMOLED at 120Hz with even borders is bright and pleasant. The Snapdragon 8s Gen 4 with 12 or 16GB of memory is quick, one step below true flagship chips. At Rs 1,09,999 a <a href="/products/poco-f8-pro">POCO F8 Pro</a> or <a href="/products/oneplus-15r">OnePlus 15R</a> is faster.</p>
+<h3>Cameras</h3>
+<p>A 50MP main sensor, a 50MP ultra wide and a 50MP 3x periscope that focuses close, with a 50MP front camera. Processing is natural, sometimes a little dark. For portraits and street pictures it is enjoyable, with good film-like presets. Video is 4K at 60 frames on all lenses.</p>
+<h3>Battery</h3>
+<p>5,150mAh in the global model, with 65W wired and 15W wireless charging. A day is normal and two is not. A good PPS charger works, as Nothing uses open standards.</p>
+<h3>Nothing OS</h3>
+<p>Clean, monochrome and consistent, with five Android versions promised and longer security support. The Essential Key saves screenshots and voice notes and tries to organise them.</p>
+<h3>Price in Nepal</h3>
+[[variants:nothing-phone-3]]
+<h3>Phone 3 or Phone 4a?</h3>
+[[models:nothing-phone-3,nothing-phone-4a,nothing-phone-4a-pro,oneplus-15r]]
+<p>The <a href="/products/nothing-phone-4a">4a</a> at Rs 69,999 has a longer 3.5x periscope and the same software. It gives up wireless charging, speed and materials. The 4a Pro costs the same as the Phone 3 with a weaker chip, so choose the Phone 3 between those two.</p>
+<h3>Who it is for</h3>
+<p>People who are tired of identical slabs and value software that leaves them alone. If you count specifications, others give more. Service is in Kathmandu, so ask about parts before buying.</p>
+
+=== oneplus-16
+<p>The OnePlus 16 was launched in China on 12 October 2026. It has not been announced for Nepal. On paper it is a battery monster: 9,000mAh in the Chinese model, with the fastest Snapdragon, a 185Hz display and a 200MP main camera.</p>
+<h3>What is known from the Chinese launch</h3>
+<ul>
+<li>Snapdragon 8 Elite Extreme Gen 6 on a 2nm process.</li>
+<li>A 185Hz AMOLED display.</li>
+<li>A 200MP main camera, a 50MP 3x telephoto and an ultra wide.</li>
+<li>9,000mAh with 100W wired and 50W wireless charging.</li>
+<li>A starting price of CNY 5,999 for 12GB/256GB.</li>
+</ul>
+<h3>What may change outside China</h3>
+<p>Global versions often carry a smaller battery because of shipping rules for large cells. The OnePlus 15 kept its full 7,300mAh in most markets, which is encouraging. Software will be OxygenOS in place of ColorOS, and memory options may differ. Wait for the global specification before getting attached to 9,000mAh.</p>
+<h3>Expected price in Nepal</h3>
+<p>Our estimate is about Rs 1,99,999, from the Chinese price, the cost of the <a href="/products/oneplus-15">OnePlus 15</a> here and the rise in memory prices. It is not an official figure and will be replaced when one exists.</p>
+<h3>Should you wait?</h3>
+[[models:oneplus-16,oneplus-15,oneplus-15r,xiaomi-18-pro-max]]
+<p>If your phone works and you are a heavy user, waiting a few months makes sense. The 16 should bring better cameras and battery, and the OnePlus 15 should become cheaper. If you need a phone now, the <a href="/products/oneplus-15r">OnePlus 15R</a> at about Rs 98,500 is the best value in the family and will not be embarrassed by a newer number.</p>
+<h3>Importing one early</h3>
+<p>Chinese units run ColorOS with limited Google integration, may miss bands, have no Nepali warranty and need MDMS registration. For a phone at this price we would not. We will update this page with global details and official Nepal pricing.</p>
+
+=== samsung-galaxy-s27-ultra
+<p>Samsung has not announced the Galaxy S27 Ultra. Reports point to a launch in January or February 2027. This page separates what is likely from what is guesswork, and helps you decide whether to wait or buy an S26 Ultra now.</p>
+<h3>Likely</h3>
+<ul>
+<li><strong>A larger battery,</strong> around 5,700mAh, which would be the first increase in an Ultra since 2020.</li>
+<li><strong>A 2nm Snapdragon</strong> of the Elite Gen 6 family.</li>
+<li><strong>The S Pen stays.</strong></li>
+<li><strong>Four models</strong> in the family, including a new Pro without a pen.</li>
+</ul>
+<h3>Possible</h3>
+<ul>
+<li>Three cameras in one horizontal cluster with a smaller bump.</li>
+<li>A 50MP 5x periscope similar to today's.</li>
+<li>Rounder corners.</li>
+</ul>
+<h3>Guesswork</h3>
+<p>Dates to the day, colours and prices. Our estimate for Nepal is about Rs 2,40,000, from the S26 Ultra's Rs 2,24,999 and reports of a rise in the United States. A figure between Rs 2,30,000 and 2,55,000 would not surprise us.</p>
+<h3>S26 Ultra now or S27 Ultra later?</h3>
+[[models:samsung-galaxy-s26-ultra,samsung-galaxy-s25-ultra,samsung-galaxy-s27-ultra,iphone-18-pro-max]]
+<p><strong>Buy now</strong> if your phone is failing, or if a dealer offers the S26 Ultra well below list with an exchange. <strong>Wait</strong> if you own an S22 or Note, because you will get either the bigger battery or a cheaper S26 Ultra. <strong>Skip</strong> if you own an S24 or S25 Ultra.</p>
+<h3>How to prepare</h3>
+<p>Get a quotation for your old phone in January, when its value is highest. Watch the pre-order window, when Samsung gives double storage and its best exchange bonus. Leave a deposit only if it can be refunded.</p>
+<p>The detail behind each rumour is in <a href="/news/galaxy-s27-ultra-leaks-launch-date-nepal-price">our report on the S27 Ultra</a> and <a href="/news/galaxy-s27-pro-s27-ultra-design-leak">the design leak</a>. We will replace estimates with facts as Samsung publishes them.</p>

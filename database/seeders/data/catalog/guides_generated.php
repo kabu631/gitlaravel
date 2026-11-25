@@ -558,7 +558,7 @@ HTML,
 <ul>
 <li><strong>Cheapest sensible Dell:</strong> the <a href="/products/dell-pro-15-pv15255-2025">Dell Pro 15 PV15255</a> (from Rs 85,999) has a Ryzen 5, a 120Hz screen and an SD slot. The 8GB of soldered memory is the main limit.</li>
 <li><strong>Everyday home and study:</strong> the <a href="/products/dell-15-dc15250-2025">Dell 15</a> and <a href="/products/dell-16-dc16251-2025-intel-core-5-120u">Dell 16</a> are straightforward choices with Dell's service network behind them.</li>
-<li><strong>Gaming:</strong> the <a href="/products/dell-alienware-16x-aurora-2025">Alienware 16X Aurora</a> with an RTX 5070 is the top of the range, and an Alienware with an RTX 5060 is also sold through ONIN Infosys.</li>
+<li><strong>Gaming:</strong> the <a href="/products/dell-alienware-16x-aurora-2025">Alienware 16X Aurora</a> with an RTX 5070 is the top of the range, and an Alienware with an RTX 5060 is also sold.</li>
 </ul>
 <p>Skip the Wyse 5470 at the bottom of the list unless you specifically need a thin-client office terminal. It's an older Celeron machine. For business laptops with long warranties, compare the Dell Pro models with ThinkPads in our <a href="/guides/best-laptops-under-150000-nepal">laptops under Rs 1,50,000</a> guide.</p>
 HTML,
@@ -735,7 +735,7 @@ HTML,
 <h2>Which one?</h2>
 <ul>
 <li><strong>For watching and reading:</strong> the <a href="/products/honor-pad-x8b">Pad X8b</a> (from Rs 29,999) has a 10,100mAh battery, so it lasts for days of casual use. Pick the 8GB version if you'll keep many apps open.</li>
-<li><strong>As a work and study tablet:</strong> the Pad V9 has a much faster Dimensity 8350 chip. ONIN and other sellers often bundle the pencil and keyboard, so check what's in the box.</li>
+<li><strong>As a work and study tablet:</strong> the Pad V9 has a much faster Dimensity 8350 chip. Sellers often bundle the pencil and keyboard, so check what's in the box.</li>
 <li><strong>The Pad X7</strong> is the cheapest option. It's fine for a child's videos and games, but noticeably slower.</li>
 </ul>
 <p>At Rs 25,000–30,000, also look at the <a href="/products/redmi-pad-2">Redmi Pad 2</a>. Our <a href="/guides/best-tablets-under-30000-nepal">tablets under Rs 30,000</a> guide compares them.</p>
@@ -1082,7 +1082,7 @@ HTML,
 <h2>Where we'd start</h2>
 <ul>
 <li><strong>Students on a budget:</strong> the <a href="/products/lenovo-ideapad-slim-3-15irh10-2025-intel-core-i5-13420h">IdeaPad Slim 3 15IRH10</a> uses a faster H-series Core i5. Pick a 16GB configuration.</li>
-<li><strong>Business:</strong> ThinkPads come with 3-year warranties through ONIN Infosys. The <a href="/products/lenovo-thinkpad-e14-gen-7-core-ultra-5-225u">ThinkPad E14 Gen 7</a> is a solid start.</li>
+<li><strong>Business:</strong> ThinkPads come with 3-year warranties. The <a href="/products/lenovo-thinkpad-e14-gen-7-core-ultra-5-225u">ThinkPad E14 Gen 7</a> is a solid start.</li>
 <li><strong>Gaming value:</strong> the <a href="/products/lenovo-loq-15-2025">LOQ 15 with RTX 5050</a> at 100W is one of the best-value gaming laptops here.</li>
 <li><strong>High-end gaming:</strong> the <a href="/products/lenovo-legion-pro-7i-2025">Legion Pro 7i</a> with an RTX 5080 has an OLED screen and top-tier cooling.</li>
 </ul>

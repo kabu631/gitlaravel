@@ -1,0 +1,83 @@
+=== sony-playstation-5
+<p>The PlayStation 5 is the console most people in Nepal mean when they ask about playing the newest games. Three versions are sold here, they all run the same library, and the gap between the cheapest and the dearest is Rs 50,000. This page explains what that money changes.</p>
+<h3>The three versions and their prices</h3>
+[[variants:sony-playstation-5]]
+<ul>
+<li><strong>Digital Edition, 825GB.</strong> No disc drive. Every game comes from the PlayStation Store. A detachable drive can be added later.</li>
+<li><strong>Slim Disc Edition, 1TB.</strong> Plays Blu-ray discs, which can be bought second-hand, lent and resold.</li>
+<li><strong>PS5 Pro, 2TB.</strong> A 16.7-teraflop graphics chip against 10.3, plus 2GB of extra memory for system work. It has no disc drive in the box.</li>
+</ul>
+<h3>Why the Disc Edition can be cheaper in the end</h3>
+<p>New releases cost Rs 9,000 to 14,000 in Nepal. A used disc may be half of that and can be sold again when you finish. Somebody who plays six big games a year recovers the price of the drive. Somebody who plays one football game all year does not.</p>
+<h3>Is the Pro worth it?</h3>
+<p>Only with a good 4K television. Games that support it look sharper and hold their frame rate better. The processor is nearly the same, so it does not turn a 30 frame game into a 60 frame one. On a Full HD screen you will struggle to see the difference.</p>
+<h3>Playing GTA VI</h3>
+<p><a href="/products/gta-6">Grand Theft Auto VI</a> runs on every version at a 30 frame target. It needs about 212GB, which is a quarter of the Digital Edition's drive. The boxed game holds a download code and no disc, so the disc drive makes no difference for this title. Our guide to <a href="/guides/how-to-play-gta-6-nepal-consoles">what you need to play GTA VI</a> compares every machine.</p>
+<h3>Storage, power and internet</h3>
+<p>Every model has a slot for an M.2 NVMe drive. Buy one with a heatsink and Sony's recommended speed. Use a surge protector or UPS, because a power cut during a system update is the classic way to lose a weekend. PlayStation Plus is needed for online play in most paid games, while free games such as Fortnite do not require it.</p>
+<h3>Before you pay</h3>
+<p>Ask whether the unit has a local warranty or a shop warranty, which region it was made for, and whether the power cord fits without an adapter. The region of your account, not of the console, decides which store and gift cards you use. Our <a href="/reviews/ps5-digital-slim-pro-review-nepal">PS5 comparison review</a> goes further.</p>
+
+=== sony-dualsense-wireless-controller
+<p>A second DualSense turns a PlayStation 5 into something the whole room can use, and at Rs 9,500 it costs about as much as a new game. It is the same controller that comes in the box with the console.</p>
+<h3>What makes it different</h3>
+<p>The triggers can resist your finger, so a bow tightens as you draw and a brake pedal shudders. The vibration motors are precise enough to suggest rain or gravel. It also has a microphone, a speaker, a touchpad and motion sensing. Games must be written to use these features. Sony's own titles do it well, while many others settle for simple rumble.</p>
+<h3>Battery and charging</h3>
+<p>It charges by USB-C from the console or any phone charger. Strong haptics and the speaker shorten a session, and most people charge it every second day. A charging station for two controllers is listed at Rs 6,500.</p>
+<h3>On a PC or phone</h3>
+<p>It connects to a Windows PC by cable or Bluetooth, and Steam supports it directly. The trigger effects in PC games usually need the cable. It also pairs with iPhones, iPads and Android phones, which is helpful for PS Remote Play.</p>
+<h3>Watch for copies</h3>
+<p>Counterfeits are common and often sell at half price. Signs are loose sticks, triggers with no resistance in Astro's Playroom, rough seams and a box without a serial label. Test it on a console in the shop. Stick drift on a genuine unit within the warranty should be repaired, so keep the bill. See the <a href="/products/sony-playstation-5">PlayStation 5 page</a> for console prices.</p>
+
+=== nintendo-switch-2
+<p>The Switch 2 is a handheld and a home console in one: a 7.9-inch 1080p screen for travelling and up to 4K on a television through its dock. Nintendo does not sell it officially in Nepal. Our figure of about Rs 70,000 is our own estimate, based on the $499 American price since 1 September 2026 and on what imports cost before that rise.</p>
+<h3>What is new</h3>
+<p>The screen refreshes at up to 120Hz with HDR. The Joy-Con 2 controllers attach with magnets and can slide on a table like a mouse. Storage is 256GB, four times the <a href="/products/nintendo-switch-oled">Switch OLED</a>. Most older Switch games work, and some have paid upgrades.</p>
+<h3>Games decide this one</h3>
+<p>People buy a Nintendo for Mario Kart World, Zelda, Pokémon and playing with children on one sofa. Those games stay expensive and rarely go on sale. Big third-party games arrive later and with lower detail. <a href="/products/gta-6">GTA VI</a> is not available on it, and none has been announced.</p>
+<h3>Check these before importing</h3>
+<ul>
+<li>The cheaper Japanese-language model works only in Japanese and with Japanese accounts. Ask for the multi-language version.</li>
+<li>Some physical games are a key card that still needs a full download.</li>
+<li>It uses microSD Express cards. Ordinary microSD cards will not run its games.</li>
+<li>The supplied charger and dock need an adapter for some plugs, and the dock wants its original power supply.</li>
+</ul>
+<h3>Switch 2, Switch OLED or PS5?</h3>
+<p>For young children and travel, either Switch. For cinematic games on a television, the <a href="/products/sony-playstation-5">PS5</a>. The old Switch is still good value used, but new titles are moving on from it.</p>
+
+=== nintendo-switch-oled
+<p>The Switch OLED is the best version of Nintendo's original Switch: a 7-inch OLED panel, a proper kickstand, a dock with a LAN port and 64GB of storage. It came out in October 2021 at $349.99. Shops in Kathmandu bring it in themselves, and prices move with stock and the dollar.</p>
+<h3>Why it still makes sense</h3>
+<p>Its library is one of the largest Nintendo has ever had, and used cartridges are easy to trade. The screen has deep blacks and strong colour, which flatters cartoon-like games. Battery life is about 4.5 to 9 hours depending on the game. For a child, or for somebody who wants Zelda and Mario Kart on a bus to Pokhara, it needs nothing else.</p>
+<h3>What it cannot do</h3>
+<p>It plays at 720p in the hand and up to 1080p on a television. The chip was modest in 2017. New games made for the <a href="/products/nintendo-switch-2">Switch 2</a> do not run on it, and modern open-world titles such as GTA VI are out of the question.</p>
+<h3>Used buying checklist</h3>
+<ul>
+<li>Move both sticks in the calibration screen. Drift is the common fault, and Joy-Con are costly to replace.</li>
+<li>Look for burn-in on a plain white page.</li>
+<li>Try the dock on a television and listen to the fan.</li>
+<li>Make sure that the console has not been banned from online services. Modified units are sold cheaply and cannot use the eShop.</li>
+</ul>
+<p>Add a microSD card of 128GB or more, since 64GB fills after a few downloads.</p>
+
+=== valve-steam-deck-oled
+<p>The Steam Deck OLED is a small computer in the shape of a console. It runs the PC games in your Steam account on a 7.4-inch HDR OLED screen at up to 90Hz. Valve does not sell it in Nepal, so units arrive through importers and friends, and repairs are not supported here.</p>
+<h3>The reason to want one</h3>
+<p>If you already own a Steam library, you pay nothing again for those games. Steam sales are the cheapest legal way to play in Nepal, with regional prices far below console prices. SteamOS hides the PC part well: press the power button and the game sleeps, press again and it continues. Two trackpads make strategy games playable.</p>
+<h3>Where it stops</h3>
+<p>The chip was designed for 800p at modest settings. Games from 2018 to 2022 run nicely. Heavy new releases need low settings and 30 frames, and some online games refuse to start because their anti-cheat does not support Linux. <a href="/products/gta-6">GTA VI</a> has no PC version at present, so it cannot run here except as a screen for streaming from a console you own.</p>
+<h3>Battery, storage and weight</h3>
+<p>The 50Wh battery gives three to twelve hours depending on the game. Storage is 512GB or 1TB and the drive can be replaced. A microSD card works well for smaller titles. At 640 grams it is heavier than it looks, and long sessions are best with elbows on a cushion.</p>
+<h3>Deck or Windows handheld?</h3>
+<p>The <a href="/products/asus-rog-ally-x">ROG Ally X</a> is faster and runs Windows, so every launcher and game works, with more setup. The Deck is simpler and costs less. Ask an importer for the sealed box, the charger type and who handles a fault, because the answer is often nobody.</p>
+
+=== asus-rog-ally-x
+<p>The ROG Ally X is a Windows gaming PC you can hold. It has a 7-inch Full HD screen at 120Hz with variable refresh, a Ryzen Z1 Extreme, 24GB of fast memory and an 80Wh battery, double that of the first Ally. It was released in July 2024 at $799.99 and reaches Nepal as an import.</p>
+<h3>What it does better than others</h3>
+<p>Because it is Windows 11, Steam, Epic, Xbox Game Pass for PC, emulators and even your college software all run. The battery is the practical improvement: lighter games last through a Kathmandu to Chitwan bus ride. Two USB-C ports let you charge while a dock or drive is connected. It takes a standard M.2 2280 drive, which is easy to find here.</p>
+<h3>The price of Windows</h3>
+<p>Windows was not made for a 7-inch touchscreen. Updates interrupt, text is small and you will open a keyboard now and then. Some people enjoy tuning power modes. If you only want to press play, a <a href="/products/valve-steam-deck-oled">Steam Deck OLED</a> or a console is calmer.</p>
+<h3>Realistic performance</h3>
+<p>Expect 1080p at medium in older titles, 720p with upscaling in the heaviest. Plugged in it may draw 30W for a real improvement. It cannot replace a laptop with an RTX 5060, and at import prices it costs nearly as much. A <a href="/guides/best-gaming-laptops-nepal">gaming laptop</a> is the wiser choice if you need one machine for everything. GTA VI is not on PC yet, so it does not play here.</p>
+<h3>Service</h3>
+<p>ASUS has a service presence in Nepal for its laptops. Ask in writing whether an imported handheld is covered before you assume that it is. Newer Xbox-branded Ally models exist too, so check the exact name on the box.</p>

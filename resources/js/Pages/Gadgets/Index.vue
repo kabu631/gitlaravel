@@ -3,7 +3,7 @@
     <!-- ============ Masthead: the site's tinted band, the filter sentence is the headline ============ -->
     <section class="relative border-b border-line bg-surface-2/60">
 
-      <div class="container-page relative pb-10 pt-6 sm:pb-12 sm:pt-8">
+      <div class="container-page relative pb-28 pt-6 sm:pb-32 sm:pt-8">
         <nav aria-label="Breadcrumb">
           <ol class="flex flex-wrap items-center gap-1.5 text-sm text-fg-subtle">
             <li><Link :href="route('home')" class="transition-colors hover:text-fg">Home</Link></li>
@@ -157,33 +157,10 @@
           </div>
         </div>
       </div>
-
-      <!-- Category tabs on the band's bottom edge -->
-      <nav class="container-page" aria-label="Device types">
-        <ScrollRow wrapper-class="band-tabs -mb-px" class="flex gap-7 overflow-x-auto scrollbar-none">
-          <button
-            type="button"
-            class="group inline-flex shrink-0 items-center gap-2 border-b-2 pb-3 text-sm font-medium transition-colors"
-            :class="!localFilters.category ? 'border-fg text-fg' : 'border-transparent text-fg-subtle hover:text-fg'"
-            :aria-current="!localFilters.category ? 'page' : undefined"
-            @click="selectCategory(null)"
-          >
-            All devices
-          </button>
-          <button
-            v-for="cat in visibleCategories"
-            :key="cat.id"
-            type="button"
-            class="group inline-flex shrink-0 items-center gap-2 border-b-2 pb-3 text-sm font-medium transition-colors"
-            :class="localFilters.category === cat.slug ? 'border-fg text-fg' : 'border-transparent text-fg-subtle hover:text-fg'"
-            :aria-current="localFilters.category === cat.slug ? 'page' : undefined"
-            @click="selectCategory(cat.slug)"
-          >
-            {{ cat.name }}
-          </button>
-        </ScrollRow>
-      </nav>
     </section>
+
+    <!-- ============ Glass category rail, straddling the edge of the tinted band ============ -->
+    <CategoryRail class="container-page relative z-10 -mt-[3.25rem]" aria-label="Device types" :items="railItems" @select="selectCategory" />
 
     <div class="container-page pb-4 pt-10">
       <!-- Toolbar -->
@@ -320,7 +297,7 @@
 
 <script setup>
 import DeviceIcon from '@/Components/DeviceIcon.vue'
-import ScrollRow from '@/Components/ScrollRow.vue'
+import CategoryRail from '@/Components/CategoryRail.vue'
 import { computed, reactive, ref, onMounted, onUnmounted } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
 import AppLayout from '@/Layouts/AppLayout.vue'
@@ -446,6 +423,10 @@ const appliedSearch = computed(() => (Array.isArray(props.filters) ? '' : props.
 const activeCategory = computed(() => props.categories.find(c => c.slug === localFilters.category) || null)
 // Types follow the brand/availability filters, so an empty category never leads to a blank page.
 const visibleCategories = computed(() => props.categories.filter(c => c.gadgets_count > 0 || c.slug === localFilters.category))
+const railItems = computed(() => [
+  { key: null, label: 'All devices', icon: LayoutGrid, active: !localFilters.category },
+  ...visibleCategories.value.map(c => ({ key: c.slug, label: c.name, icon: categoryIcon(c.slug), active: localFilters.category === c.slug })),
+])
 const filteredBrands = computed(() => {
   const q = brandQuery.value.trim().toLowerCase()
   return q ? props.brands.filter(b => b.name.toLowerCase().includes(q)) : props.brands
@@ -578,17 +559,6 @@ function resetAllFilters() {
 }
 .q-opt[aria-pressed='true'] .q-check {
   @apply opacity-100;
-}
-
-/* The tabs sit on the tinted band, so the scroll arrows fade into that colour instead of the page white. */
-.band-tabs {
-  --band: color-mix(in srgb, rgb(var(--surface-2)) 60%, rgb(var(--canvas)));
-}
-.band-tabs :deep(.scroll-row-btn.right-0) {
-  background: linear-gradient(to left, var(--band) 45%, transparent);
-}
-.band-tabs :deep(.scroll-row-btn.left-0) {
-  background: linear-gradient(to right, var(--band) 45%, transparent);
 }
 
 .glance-cell {

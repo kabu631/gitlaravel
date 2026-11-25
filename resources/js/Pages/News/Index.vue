@@ -14,21 +14,7 @@
       </form>
     </header>
 
-    <nav class="mt-8 border-b border-line" aria-label="News categories">
-      <ScrollRow class="-mb-px flex gap-6 overflow-x-auto scrollbar-none">
-        <button
-          v-for="cat in categories"
-          :key="cat.val ?? 'all'"
-          type="button"
-          class="shrink-0 border-b-2 pb-3 text-sm font-medium transition-colors"
-          :class="isActive(cat.val) ? 'border-fg text-fg' : 'border-transparent text-fg-subtle hover:text-fg'"
-          :aria-current="isActive(cat.val) ? 'page' : undefined"
-          @click="filterCategory(cat.val)"
-        >
-          {{ cat.label }}
-        </button>
-      </ScrollRow>
-    </nav>
+    <CategoryRail class="mt-8" flat dense aria-label="News categories" :items="railItems" @select="filterCategory" />
 
     <div class="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-12">
       <div class="min-w-0 lg:col-span-8">
@@ -136,15 +122,15 @@
 
 <script setup>
 import DeviceIcon from '@/Components/DeviceIcon.vue'
-import ScrollRow from '@/Components/ScrollRow.vue'
+import CategoryRail from '@/Components/CategoryRail.vue'
 import { ref, computed } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
-import { Newspaper, Search } from 'lucide-vue-next'
+import { LayoutGrid, Newspaper, Search } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Pagination from '@/Components/Pagination.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
-import { newsCategoryLabel } from '@/Composables/useCategories.js'
+import { newsCategoryLabel, topicIcon } from '@/Composables/useCategories.js'
 import { formatDate, formatPrice } from '@/Composables/useFormat.js'
 
 const props = defineProps({
@@ -171,7 +157,9 @@ const categories = [
 
 const ALIASES = { tech: 'technology', ai: 'ai-ml' }
 const current = computed(() => ALIASES[filters.value.category] || filters.value.category || null)
-const isActive = val => current.value === val
+const railItems = computed(() => categories.map(c => ({
+  key: c.val, label: c.label, icon: c.val ? topicIcon(c.val) : LayoutGrid, active: current.value === c.val,
+})))
 const activeLabel = computed(() => (current.value ? categories.find(c => c.val === current.value)?.label || newsCategoryLabel(current.value) : 'News'))
 
 const normalisePrice = v => (v || '').replace(/^Rs\.?\s*/i, 'Rs ')

@@ -1,0 +1,74 @@
+=== gta-6
+<p><strong>Grand Theft Auto VI</strong> was released on 19 November 2026 for PlayStation 5 and Xbox Series X|S, thirteen years after GTA V. It is a single-player, open-world crime story set in the modern-day state of Leonida, Rockstar's satirical version of Florida, with Vice City at its heart. This page covers what the game is, what you need to play it, what it costs in Nepal and what to avoid. There are no story spoilers.</p>
+<h3>The story, without spoilers</h3>
+<p>You play as two people. <strong>Jason Duval</strong> served in the army and drifted into working for drug runners in the Leonida Keys. <strong>Lucia Caminos</strong> has just left prison and wants a life that does not lead back there. They are a couple, and the game is built around whether they can trust each other. When an easy job goes wrong, they are caught in a conspiracy that reaches across the state.</p>
+<p>Lucia is the first woman to lead a main GTA story. The writers have taken the crime-couple idea of Bonnie and Clyde and given it a quieter, more personal tone than earlier games. Your decisions matter: the game follows how violently you behave, how the relationship develops and how much the pair manage to save, and these lead to several different endings.</p>
+<h3>Leonida and Vice City</h3>
+<p>The map has five counties. Vice-Dale County holds neon-lit Vice City and the separate city of Vice Beach. To the south lie the Leonida Keys, a chain of islands. Inland are the swamps of the Grassrivers, the sugar town of Ambrosia, the faded coast of Port Gellhorn and the forests around Mount Kalaga. Weather moves across the state in patches, with tropical storms, flooding and fog, and it changes how you drive.</p>
+<p>What people talk about most is the crowd. Pedestrians have jobs, moods and habits according to their neighbourhood. They film you on phones, notice when you are listening and react to how you dress. Rockstar says that the game has over 600,000 character animations, around eleven times as many as GTA V.</p>
+<h3>What is new in the way it plays</h3>
+<ul>
+<li><strong>Two leads at once.</strong> In free roam they can stay together or split up, and you can plan jobs as a pair.</li>
+<li><strong>Limited weapons.</strong> You carry two long guns and two sidearms. Everything else stays in the car, much like the saddle in Red Dead Redemption 2.</li>
+<li><strong>Bodies that change.</strong> Eating, training and lack of sleep show on both characters, an idea last seen in San Andreas.</li>
+<li><strong>A criminal profile.</strong> The game remembers whether you are careful or reckless, and the police and public respond.</li>
+<li><strong>Plenty to do.</strong> Diving, kayaking, fishing, basketball, wrestling, gym, boats, planes and a working social media app that mocks our own.</li>
+<li><strong>Radio.</strong> Classic stations such as V-Rock and Flash FM return beside new ones hosted by well-known musicians. You can listen to podcasts on foot.</li>
+</ul>
+<p>There was no first-person mode at launch, and missions cannot be replayed apart from the finale.</p>
+<h3>Is there an online mode?</h3>
+<p>Not yet. GTA VI launched as a single-player game, and both stores say so. The present GTA Online, attached to GTA V, continues to receive updates. Rockstar has not given a date for multiplayer in GTA VI, so be careful with anyone who sells you "GTA 6 online money". A PlayStation Plus or Game Pass subscription is not needed for the story.</p>
+<h3>Which devices can play it?</h3>
+<p><strong>GTA VI runs on PlayStation 5 and on Xbox Series X and Series S.</strong> Those are the only machines with their own version of the game. An Xbox One can stream it. Phones, computers and handhelds can act as a screen for a console that you own. Here is every device people ask about.</p>
+<h4>Plays it directly</h4>
+<table><thead><tr><th>Device</th><th>Picture</th><th>How well it runs</th></tr></thead><tbody>
+<tr><td><a href="/products/sony-playstation-5">PlayStation 5</a> (original, Slim, Digital)</td><td>1440p, scaled to 4K</td><td>30 frames target, dips in heavy action</td></tr>
+<tr><td><a href="/products/sony-playstation-5">PlayStation 5 Pro</a></td><td>1440p, rebuilt to 4K with PSSR; ray-traced shadows</td><td>The steadiest 30 frames, the best version</td></tr>
+<tr><td><a href="/products/microsoft-xbox-series-x">Xbox Series X</a> (disc or Digital Edition)</td><td>1440p, scaled to 4K</td><td>30 frames target, close to the standard PS5</td></tr>
+<tr><td><a href="/products/microsoft-xbox-series-s">Xbox Series S</a> (512GB or 1TB)</td><td>720p, scaled to 1080p</td><td>30 frames target, missed most often</td></tr>
+</tbody></table>
+<h4>Plays it from the cloud</h4>
+<p>Xbox Cloud Gaming offers GTA VI on <strong>Xbox One and Xbox Series X and S consoles only</strong>. You must own the game, and streaming uses the cloud hours of a Game Pass plan or hours bought separately. The picture uses the Series S settings. It was not offered on phones, browsers, televisions or PCs at launch. Nepal has not been an officially supported Xbox country, and distance to the data centre adds delay, so test any cloud game before paying for this one.</p>
+<h4>Shows it by Remote Play from your own console</h4>
+<p>Rockstar says the game fully supports Remote Play on both PlayStation and Xbox. The console at home does the work and sends the picture over the network. No Game Pass plan is needed.</p>
+<table><thead><tr><th>Device</th><th>From a PS5</th><th>From an Xbox Series X or S</th></tr></thead><tbody>
+<tr><td>Android phone or tablet</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>iPhone or iPad</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>Windows PC or laptop</td><td>Yes</td><td>Yes</td></tr>
+<tr><td><a href="/products/asus-rog-xbox-ally">ROG Xbox Ally</a>, <a href="/products/asus-rog-xbox-ally-x">Ally X</a> and other Windows handhelds</td><td>Yes, as Windows PCs</td><td>Yes, through the Xbox app</td></tr>
+<tr><td>Mac</td><td>Yes</td><td>Not listed</td></tr>
+<tr><td>PlayStation Portal</td><td>Yes</td><td>No</td></tr>
+<tr><td>Smart TV</td><td>Android TV models</td><td>Only televisions on Microsoft's list</td></tr>
+</tbody></table>
+<p>Use 5GHz Wi-Fi and connect the console by cable. PlayStation asks for at least 5Mbps and recommends 15. Microsoft suggests 10Mbps when you are away from home.</p>
+<h4>Cannot play it</h4>
+<table><thead><tr><th>Device</th><th>Why</th></tr></thead><tbody>
+<tr><td>PlayStation 4 and PS4 Pro</td><td>No version, confirmed by PlayStation</td></tr>
+<tr><td>Windows PC, laptop, Steam Deck, Mac</td><td>No PC version announced as of November 2026; Remote Play only</td></tr>
+<tr><td>Nintendo Switch and <a href="/products/nintendo-switch-2">Switch 2</a></td><td>Not announced</td></tr>
+<tr><td>Xbox 360 and PlayStation 3</td><td>Too old, and no cloud support</td></tr>
+<tr><td>Android and iPhone alone</td><td>No mobile version. Any "GTA 6 APK" is fake</td></tr>
+</tbody></table>
+<p>Every console aims at 30 frames per second, and Rockstar confirmed that there is no 60 frame mode, even on the PS5 Pro. Our separate guide, <a href="/guides/how-to-play-gta-6-nepal-consoles">which console to buy for GTA VI in Nepal</a>, compares prices, storage and televisions in detail.</p>
+<h3>GTA VI on Xbox</h3>
+<p>Xbox owners get the complete game on the same day and at the same dollar price as PlayStation owners. It is sold in the Xbox store, and it is <strong>not part of Game Pass</strong>. On a Series X it is hard to tell from the standard PS5 version. On a Series S choose a smaller television and clear more than half of the drive. The PS5 Pro's PSSR picture and ray-traced shadows do not exist on Xbox. Codes are region-locked, so a code for a PlayStation account is worthless on an Xbox.</p>
+<h3>Storage and internet</h3>
+<p>Clear at least <strong>212GB</strong> before you begin. That is the figure PlayStation and Xbox both give. On the 825GB PS5 Digital Edition it takes about a third of the usable space. With a 100Mbps fibre line, expect five to six hours of downloading in good conditions, and a night on a slower package. Put the console and router on a small UPS, and use an Ethernet cable if you can.</p>
+<h3>Price in Nepal</h3>
+<p>Rockstar does not set a price for Nepal. There are two honest ways to buy:</p>
+<ul>
+<li><strong>From the console's store</strong>, at $79.99 for the Standard Edition or $99.99 for the Ultimate, using a dollar card issued by a Nepali bank. The game belongs to your account.</li>
+<li><strong>From a local game shop</strong>, at about Rs 13,499 for Standard and Rs 16,999 for Ultimate, usually as a code. Ask which store region the code is for.</li>
+</ul>
+<p>One important detail: <strong>the boxed version contains a download code and no disc</strong>. You cannot resell it, lend it or play it without the download, and it makes no difference whether your console has a disc drive. A "used GTA VI disc" does not exist. The collector's items sold by Rockstar do not include the game.</p>
+<h3>Standard or Ultimate Edition?</h3>
+<p>The Standard Edition is the complete story. The Ultimate adds vehicles, weapons, outfits, a garage and a few shops, such as a custom car workshop, a salon and a tattoo studio, that only open with it, along with a special car-collecting job. Rockstar says there are no microtransactions at launch in either version. You can upgrade later for the difference, so start with Standard.</p>
+<h3>How it was received</h3>
+<p>Critics were close to unanimous. The game's score of 99 on Metacritic equals the highest ever recorded, and reviewers praised the world, the characters and the amount of detail. The complaints were about the 30 frame limit, heavy controls and missing features such as first-person view. Scores left by the general public are far lower, partly because of organised review bombing.</p>
+<p>Take-Two says that 32.5 million copies were sold before release and that sales on the first day reached $3.79 billion, the largest launch of any entertainment product.</p>
+<h3>A warning about leaks, mods and cheap accounts</h3>
+<p>Stolen builds and "PC versions" are circulating. Downloading them is illegal, and they are one of the most popular ways to spread malware this month. Shared or "secondary" accounts are cheap because somebody else owns them. They can be taken back at any time, along with your progress. If an offer is half the price of everyone else's, it is bait.</p>
+<h3>Is it suitable for children?</h3>
+<p>No. It is rated Mature 17+ in North America and PEGI 18 in Europe for violence, strong sexual content, nudity, drug use and language. Both consoles let parents block it by age rating. Set that up before the game arrives in the house, and not after.</p>
+<h3>New to the series?</h3>
+<p>You do not need to have played the others. The story stands by itself. If you are curious how a small game from Dundee became the biggest entertainment launch in history, read <a href="/blog/history-of-grand-theft-auto-1997-to-gta-vi">the history of Grand Theft Auto from 1997 to GTA VI</a>.</p>

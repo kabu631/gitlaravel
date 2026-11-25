@@ -1,0 +1,307 @@
+=== iphone-18-pro
+<p>The iPhone 18 Pro is the flagship for people who do not want a giant phone. At 6.3 inches and 211 grams it carries everything Apple puts in the Pro Max, the same chip, cameras and charging, in a body that fits a hand and a pocket. It went on sale in Nepal on 29 September 2026.</p>
+<h3>Price in Nepal</h3>
+[[variants:iphone-18-pro]]
+<p>Storage is where the price climbs. The step from 256GB to 512GB is about Rs 42,000, and an external SSD over USB-C costs a fraction of that. Choose 256GB unless you film for a living.</p>
+<h3>Design and display</h3>
+<p>The body is a single piece of aluminium with a Ceramic Shield back and front, in Black, Silver, Glacier and Burgundy. The 6.3-inch OLED runs at up to 120Hz, drops to 1Hz when still, and reaches 3,000 nits outdoors. The anti-reflective coating is what you notice in real sun. A cheap screen protector cancels it, so buy one with its own coating. It is rated IP68 to six metres for thirty minutes.</p>
+<h3>A20 Pro and memory</h3>
+<p>The A20 Pro is Apple's first 2nm chip, with a six-core processor, a seven-core graphics unit and two Neural Engines, together with 12GB of memory. Everyday use does not need it. Long video recording, big games, editing on the phone and the newer Apple Intelligence features do, and efficiency is the larger gain: the phone stays cooler for longer.</p>
+<h3>Cameras, and what variable aperture really does</h3>
+<p>All three rear cameras use 48MP sensors. The main one has an aperture that physically opens and closes between f/1.48, f/1.8, f/2.8 and f/4.0. In dim light it opens wide. For a group of eight people, a plate of food or a document, you can close it so that the nearest and farthest parts are both sharp, which phone cameras have struggled with for years. It is also a creative control in video.</p>
+<p>The telephoto is 4x, equal to a 100mm lens, and a crop from the middle of its sensor gives 8x at what Apple calls optical quality. The ultra wide covers 120 degrees and doubles as a macro camera. On the front, the 18MP Center Stage camera has a square sensor, so wide group selfies work with the phone upright.</p>
+<p>Video remains the reason many professionals choose iPhone: 4K at up to 120 frames in Dolby Vision, ProRes and ProRes RAW with an external drive, and Log for colour grading.</p>
+<h3>Battery and charging</h3>
+<p>Apple quotes up to 34 hours of video playback for the version with a SIM slot, the one normally sold in our region. The eSIM-only American model is rated at 36. Charging is quick at last: about half in fifteen minutes, provided that you use a 60W or stronger adapter that supports adjustable voltage. It is not in the box. MagSafe and Qi2 wireless charging run at up to 25W.</p>
+<h3>SIM, networks and what to check in Nepal</h3>
+<p>Units made for India and most of Asia take one nano-SIM and one eSIM. American units have no SIM tray at all. Ask which one you are being sold, because it decides whether you can use your present NTC or Ncell card on the first day. Check the IMEI in MDMS, the model region in Settings, and the warranty date on Apple's coverage page. <a href="/guides/how-to-check-phone-is-official-in-nepal">Our guide</a> shows how.</p>
+<h3>Pro or Pro Max?</h3>
+<p>The cameras are identical, so do not pay for the Max expecting a longer zoom. The Max gives you a 6.9-inch screen and about nine more hours of video playback, and weighs 38 grams more. If your phone lives in a pocket, take the Pro. If you watch, read and travel with it, take the <a href="/products/iphone-18-pro-max">Pro Max</a>.</p>
+<h3>Against its rivals</h3>
+[[models:iphone-18-pro,samsung-galaxy-s26,apple-iphone-17-pro,google-pixel-10-pro,xiaomi-18-pro]]
+<p>The <a href="/products/apple-iphone-17-pro">iPhone 17 Pro</a> costs nearly Rs 39,000 less and keeps the 4x telephoto, missing the variable aperture, the newest chip and some charging speed. The <a href="/products/samsung-galaxy-s26">Galaxy S26</a> is lighter and far cheaper, with a weaker battery. The <a href="/products/xiaomi-18-pro">Xiaomi 18 Pro</a> offers a 6,000mAh battery and two 200MP cameras at nearly the same size, when it arrives.</p>
+<h3>Who should buy it</h3>
+<ul>
+<li>People coming from an iPhone 13 Pro, 14 Pro or older who prefer a compact phone.</li>
+<li>Video makers who want Pro controls in a pocket.</li>
+<li>Mac, iPad and Apple Watch owners who keep phones five years or more.</li>
+</ul>
+<p>Owners of a 16 Pro or 17 Pro can wait. And if you do not use a telephoto, the <a href="/products/iphone-17">iPhone 17</a> saves nearly a lakh.</p>
+
+=== iphone-18-pro-max
+<p>The iPhone 18 Pro Max is the biggest, heaviest and longest-lasting iPhone. It shares its chip and all its cameras with the smaller Pro. What you pay Rs 20,000 more for is the screen and the battery, and for many people that is reason enough.</p>
+<h3>Price in Nepal</h3>
+[[variants:iphone-18-pro-max]]
+<p>At these prices the method of payment matters. Compare the cash price with the EMI total, and ask what a bank offer is capped at. The monthly estimate is shown above on this page.</p>
+<h3>A screen made for outdoors</h3>
+<p>The 6.9-inch OLED has a resolution of 2868 by 1320, adapts between 1 and 120Hz and reaches 3,000 nits in sunlight. The anti-reflective coating cuts the mirror effect that makes dark apps hard to read at noon. For maps, football, PDFs and photo editing it is one of the finest displays on any phone. At 249 grams and 78mm wide, it is also a two-handed phone. Hold one for five minutes before deciding.</p>
+<h3>Battery life: the real reason to choose it</h3>
+<p>Apple rates it at up to 43 hours of video playback for the nano-SIM model, and 45 for the eSIM-only one. The smaller Pro is rated at 34 and 36. In mixed use that should mean a long day with plenty left, and for light users close to two. A 60W or stronger adapter with adjustable voltage fills about half in fifteen minutes. Budget for one, as the box contains only a cable.</p>
+<h3>Cameras</h3>
+<p>Three 48MP cameras: a main one with a mechanical aperture from f/1.48 to f/4.0, an ultra wide with macro, and a 4x telephoto at 100mm that also provides an 8x crop. The telephoto is not longer than the one on the smaller Pro, though some shops and older articles say so. The 18MP front camera keeps faces centred in calls and takes wide selfies without turning the phone.</p>
+<p>The variable aperture is the new idea. Opened, it gathers light at a wedding in the evening. Closed, it keeps three rows of relatives in focus. For product photos and documents, f/2.8 or f/4 gives a depth that phone cameras normally cannot.</p>
+<h3>Performance and heat</h3>
+<p>The A20 Pro on a 2nm process, with 12GB of memory, is as fast as phones get. The larger body has more metal to spread heat, so it holds its speed longer in games and 4K recording. If you edit on the phone, this is the model to have.</p>
+<h3>iOS 27 and Apple Intelligence</h3>
+<p>It ships with iOS 27 and the rebuilt Siri. Features depend on language and region. English works in Nepal, and Nepali is not among the supported languages for writing tools. Expect six to seven years of updates. <a href="/news/apple-intelligence-nepal-iphone-users-guide">Our guide to Apple Intelligence</a> explains what is useful here.</p>
+<h3>Buying it in Nepal</h3>
+<p>Authorised resellers sell the version with a nano-SIM slot and eSIM. American imports are eSIM-only and may be locked to a carrier. Confirm MDMS registration and ask for the VAT bill with the serial number. An out-of-warranty screen on this phone is among the most expensive repairs you can buy, so a case and a coated glass are part of the price.</p>
+<h3>Compared with other big flagships</h3>
+[[models:iphone-18-pro-max,samsung-galaxy-s26-ultra,apple-iphone-17-pro-max,vivo-x300-pro,xiaomi-17-ultra]]
+<p>The <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a> has an S Pen, a privacy screen and a 5x lens for about Rs 55,000 less. The <a href="/products/vivo-x300-pro">vivo X300 Pro</a> and <a href="/products/xiaomi-17-ultra">Xiaomi 17 Ultra</a> reach further with bigger telephoto sensors. None of them records video as reliably or resells as well. Last year's <a href="/products/apple-iphone-17-pro-max">17 Pro Max</a> is about Rs 37,000 cheaper and remains superb.</p>
+<h3>Should you buy it?</h3>
+<p>Yes, if you want the largest screen and the longest battery in an iPhone and plan to keep it for years. Take the <a href="/products/iphone-18-pro">18 Pro</a> if weight bothers you, because the photos will be the same. Read <a href="/reviews/iphone-18-pro-max-review-nepal">our full review</a> for the cost of owning one over four years.</p>
+
+=== iphone-duo
+<p>The iPhone Duo is Apple's first folding phone. Closed, it is a small, wide phone with a 5.4-inch screen. Open, it becomes a 7.6-inch tablet a little over five millimetres thick. It reached Nepal on 30 October 2026 and is the most expensive phone sold here by most shops.</p>
+<h3>Price in Nepal</h3>
+[[variants:iphone-duo]]
+<h3>Two screens, one shape</h3>
+<p>Unlike tall book-style foldables, the Duo opens into something close to a square, 1878 by 2670 pixels, which suits documents, photos, sheet music and two apps beside each other. Films show black bars above and below, as they would on an iPad. Both screens refresh at up to 120Hz and reach 3,000 nits. The inner one has a fine matte finish to reduce reflections.</p>
+<p>The frame and hinge are titanium, and the whole phone is rated IP68, which almost no foldable can claim. It weighs 254 grams, roughly the same as an 18 Pro Max. Closed, it is 11.3mm thick.</p>
+<h3>What Apple left out</h3>
+<ul>
+<li><strong>No telephoto camera.</strong> There is a 48MP main camera with a 2x crop, and a 48MP ultra wide. A Rs 70,000 Nothing Phone zooms further.</li>
+<li><strong>No Face ID.</strong> A fingerprint sensor sits in the side button.</li>
+<li><strong>No physical SIM.</strong> Even the version sold in India is eSIM-only.</li>
+</ul>
+<h3>eSIM only: read this before paying</h3>
+<p>In Nepal this point decides more than any camera. You need an operator that will move your number to an eSIM, and you should know how to move it again if the phone is lost or repaired. Both major operators have introduced eSIM with their own procedures. Visit a service office first, ask about your exact number and the fee, and keep a second phone for the days when the Duo is in service. If you change SIM cards often or travel to districts without an office, this is not your phone.</p>
+<h3>Performance and battery</h3>
+<p>It has the A20 Pro with a vapour chamber and 12GB of memory, the same as the Pro models. Two battery cells are rated for up to 44 hours of video on the outer screen and 31 on the inner. A 60W adapter fills about half in twenty minutes. The Apple Pencil with USB-C works on the inner screen, without hover.</p>
+<h3>Using it every day</h3>
+<p>People who read contracts, mark drawings, review spreadsheets or study scores will open it every hour. People who mostly chat will use the outer screen and forget what they paid for. Try typing on the 5.4-inch screen in the shop, because you will do most of your messages there.</p>
+<p>Foldables need care. Keep sand and dust away, do not press the inner screen with a nail, do not apply a third-party protector, and close it before putting it in a pocket with keys. Ask for the price of an inner screen in writing.</p>
+<h3>Rivals</h3>
+[[models:iphone-duo,samsung-galaxy-z-fold8,samsung-galaxy-z-fold-8-ultra,honor-magic-v5,oppo-find-n5]]
+<p>Samsung's <a href="/products/samsung-galaxy-z-fold8">Galaxy Z Fold 8</a> is about Rs 1.55 lakh cheaper and lighter, takes a physical SIM, and is on its eighth generation. The <a href="/products/samsung-galaxy-z-fold-8-ultra">Fold 8 Ultra</a> has a 200MP camera and a telephoto. The Duo answers with IP68, iOS apps made for large screens and resale value.</p>
+<h3>Who it is for</h3>
+<p>Someone who already carries an iPhone and an iPad mini, has sorted out eSIM and is not worried by the repair bill. Everyone else should enjoy it in the shop and wait for the second generation, when the price and the compromises usually soften.</p>
+
+=== iphone-18
+<p>The regular iPhone 18 has not been announced. Apple split its line in 2026, with the Pro models and the folding Duo in autumn, and reports agree that the iPhone 18 and 18e will follow in spring 2027. This page collects what is being said, marks it clearly as unconfirmed, and helps you decide whether to wait.</p>
+<h3>What is reported</h3>
+<ul>
+<li>A 6.3-inch display similar to the iPhone 17, with 120Hz.</li>
+<li>An A20 chip on a 2nm process, one step below the A20 Pro.</li>
+<li>More than the 8GB of memory in the iPhone 17.</li>
+<li>Two 48MP rear cameras, main and ultra wide, and a better front camera.</li>
+<li>A launch around March 2027.</li>
+</ul>
+<p>None of this comes from Apple. Shapes and cameras are usually leaked correctly a few months ahead. Prices and dates are not.</p>
+<h3>Expected price in Nepal</h3>
+<p>Our estimate is about Rs 1,75,000 for the base model. It is based on the iPhone 17 at Rs 1,64,999, a possible rise of $50 to $100 in the United States, and the usual duties. We will replace it with the real figure on the day a reseller publishes one.</p>
+<h3>iPhone 17 now, or iPhone 18 later?</h3>
+[[models:iphone-17,iphone-18,iphone-17e,samsung-galaxy-s26]]
+<p>The <a href="/products/iphone-17">iPhone 17</a> was the year the regular model became complete: a smooth display, 256GB as standard, long battery life and two good cameras. The 18 should add a faster chip, more memory for Apple Intelligence and about one more year of updates. If your present phone is healthy, waiting gives you two good outcomes: a newer phone, or a cheaper 17. If it is failing, four or five months is a long time to be without a camera.</p>
+<h3>Who should wait</h3>
+<p>Owners of an iPhone 13, 14 or 15 in good condition, people who keep phones for six years, and anyone hoping for a discount on the 17. Those with an iPhone 11 or older should not wait, because support is ending.</p>
+<h3>While you wait</h3>
+<p>A new battery restores an older iPhone for far less than a new one. Sell your old phone before spring if you plan to upgrade, as prices dip when new models arrive. For the longer story, see <a href="/news/iphone-18-iphone-18e-spring-2027-what-we-know">what we know about the iPhone 18 and 18e</a>.</p>
+
+=== iphone-17
+<p>If somebody asked us for one iPhone without further conversation, we would hand them the iPhone 17. It is the first regular model with the smooth 120Hz display that used to separate the Pros, it starts at 256GB, and its battery lasts through a busy day.</p>
+<h3>Price in Nepal</h3>
+[[variants:iphone-17]]
+<h3>Display and body</h3>
+<p>The 6.3-inch OLED adapts up to 120Hz and reaches 3,000 nits outdoors, with an anti-reflective front and a tougher Ceramic Shield 2. At 177 grams and 8mm it is light for a modern flagship, and it comes in soft colours as well as black and white. It is rated IP68.</p>
+<h3>Performance</h3>
+<p>The A19 is faster than almost any Android chip in single tasks and efficient in long ones. With 8GB of memory it supports Apple Intelligence. The Pro models have 12GB, and that is the main thing that may separate them in four or five years.</p>
+<h3>Cameras</h3>
+<p>A 48MP main camera with sensor-shift stabilisation also gives a clean 2x crop. The 48MP ultra wide takes close-ups with real detail. There is no telephoto, so stages and wildlife are out of reach. The 18MP Center Stage front camera is the quiet star: hold the phone upright, and it widens for a group by itself. Dual Capture records you and the scene together, useful for reels.</p>
+<h3>Battery and charging</h3>
+<p>Apple quotes up to 30 hours of video playback. A 40W adapter fills about half in twenty minutes, and MagSafe works at up to 25W. Next to Android phones with 6,500mAh it is modest on paper and better than that in practice.</p>
+<h3>SIM and buying in Nepal</h3>
+<p>The version for our region takes a nano-SIM and an eSIM. American ones are eSIM-only. Check MDMS, the model code in Settings, and Apple's coverage date. Because the 17 is popular, copies and refurbished units sold as new are common, so buy with a bill.</p>
+<h3>Compared with the rest of the range</h3>
+[[models:iphone-17,iphone-17e,apple-iphone-16,iphone-air,iphone-18-pro]]
+<p>The <a href="/products/iphone-17e">17e</a> saves about Rs 32,000 and loses the ultra wide and the smooth screen. The <a href="/products/iphone-air">Air</a> is thinner, costs more and has one camera. The <a href="/products/iphone-18-pro">18 Pro</a> adds the telephoto, variable aperture and a faster chip for about Rs 95,000. For most people the 17 is where the sums work.</p>
+<h3>Who should buy it</h3>
+<ul>
+<li>Anyone coming from an iPhone 12, 13 or 14.</li>
+<li>Students and professionals who want one phone for five or six years.</li>
+<li>People who film themselves.</li>
+</ul>
+<h3>Who should not</h3>
+<ul>
+<li>Owners of a 15 Pro or 16 Pro, who would lose the telephoto.</li>
+<li>Those who can wait until spring, when the iPhone 18 is expected and this one should fall.</li>
+</ul>
+<p><a href="/reviews/iphone-17-review-nepal">Our review</a> goes into its few weaknesses.</p>
+
+=== apple-iphone-17-pro-max
+<p>The iPhone 17 Pro Max stopped being the newest in September 2026 and became the most sensible big iPhone instead. It is about Rs 37,000 cheaper than the 18 Pro Max, takes nearly the same pictures and will be supported well into the next decade.</p>
+<h3>Price in Nepal</h3>
+[[variants:apple-iphone-17-pro-max]]
+<h3>What made it special</h3>
+<p>Apple replaced titanium with an aluminium body and a vapour chamber. It looks less precious and works better, because the phone holds its speed in long recordings and games. Owners talk about the battery, rated at 5,088mAh in our listing, more than anything else.</p>
+<h3>Cameras</h3>
+<p>Three 48MP sensors: main, ultra wide and a 4x telephoto at 100mm with an 8x crop. The 18MP front camera has the square sensor that makes group selfies easy. Compared with the 18 Pro Max you lose the variable aperture on the main camera. Everything else in stills is close. In video, both are the benchmark.</p>
+<h3>Display, chip and memory</h3>
+<p>A 6.9-inch OLED at 120Hz with 3,000 nits outdoors, the A19 Pro and 12GB of memory. In daily use you will not tell it from the newer phone. In a forty-minute export you might.</p>
+<h3>17 Pro Max or 18 Pro Max?</h3>
+[[models:apple-iphone-17-pro-max,iphone-18-pro-max,samsung-galaxy-s25-ultra,samsung-galaxy-s26-ultra]]
+<p>Choose the newer one if the price gap where you shop is under Rs 25,000, if you keep phones for six years, or if you shoot a lot of group photos and documents where a smaller aperture helps. Otherwise this one is the better purchase.</p>
+<h3>Buying one in late 2026</h3>
+<p>Look for a sealed, official unit with a warranty that begins on the day you buy. Enter the serial on Apple's coverage page, since some "new" phones were activated months ago. Check the SIM type, the MDMS record and the storage. Used ones are appearing: ask for battery health above 90 per cent, original parts in Settings, and no Activation Lock.</p>
+<h3>Running it for years</h3>
+<p>Plan on a battery in the third or fourth year. Keep the 80 per cent limit on at night. Use a coated screen protector. With that, this is a phone for 2031. Our article on <a href="/news/iphone-17-pro-max-leaks-2nm-a19-pro-nepal-pricing-radar">what the leaks got right about it</a> has more background.</p>
+
+=== iphone-air
+<p>The iPhone Air is a phone you buy with your hands. At 5.6mm and 165 grams it feels like something from a few years ahead, with a 6.5-inch 120Hz display and a Pro-class chip. It is also a phone of clear compromises, and at Rs 1,90,699 they need to be spelled out.</p>
+<h3>What you get</h3>
+<p>A titanium frame with glass on both sides, a bright 6.5-inch OLED with an anti-reflective front, the A19 Pro with 12GB of memory, and the same 18MP Center Stage front camera as the other iPhones of its year. In a shirt pocket you forget it. Without a case, it is the nicest object Apple makes.</p>
+<h3>What you give up</h3>
+<ul>
+<li><strong>Cameras.</strong> One 48MP rear camera with a 2x crop. No ultra wide, no macro, no telephoto.</li>
+<li><strong>Battery.</strong> Less room, less energy. Moderate users reach the night, heavy ones do not.</li>
+<li><strong>Sound.</strong> A single speaker at the earpiece.</li>
+<li><strong>SIM.</strong> eSIM only in every country.</li>
+<li><strong>Ports and repairs.</strong> USB-C is the slower kind, and thin phones are costly to open.</li>
+</ul>
+<h3>eSIM in Nepal</h3>
+<p>There is no slot for a card. Before paying, ask your operator whether your number can move to eSIM, what it costs and how to move it back. If you often swap SIMs, choose another iPhone.</p>
+<h3>Price in Nepal</h3>
+[[variants:iphone-air]]
+<h3>Compared with the others</h3>
+[[models:iphone-air,iphone-17,apple-iphone-17-pro,samsung-galaxy-s26-plus]]
+<p>The iPhone 17 costs about Rs 26,000 less with two cameras, stereo sound, a SIM slot and a longer day. The 17 Pro costs about Rs 31,000 more and has everything. The Air is chosen for how it feels, and that is a legitimate reason as long as you know the bill.</p>
+<h3>Who it suits</h3>
+<p>People who hate heavy phones, do not photograph landscapes or children's stages, work near a charger and already use eSIM. A second-generation model with two cameras is rumoured for 2027, which we discuss in <a href="/news/iphone-air-2-rumours-dual-camera">this article</a>. When it comes, the first Air should become considerably cheaper, and at Rs 1,50,000 or so it would be a tempting indulgence.</p>
+
+=== samsung-galaxy-s26-ultra
+<p>The Galaxy S26 Ultra is the most complete Android phone sold in Nepal. It has four rear cameras, a built-in pen, a screen that can hide itself from neighbours, seven years of updates and a service centre in most cities. Its one stubborn weakness is a battery that has not grown since 2020.</p>
+<h3>Price in Nepal</h3>
+[[variants:samsung-galaxy-s26-ultra]]
+<p>The 256GB model rose from Rs 2,12,999 to Rs 2,24,999 during the year as memory prices climbed. Exchange bonuses and bank offers often bring it lower at the counter.</p>
+<h3>Design</h3>
+<p>Samsung moved from titanium to Armor Aluminum, with Gorilla Armor 2 on the front and Victus 2 on the back. At 214 grams and 7.9mm it is slimmer and lighter than earlier Ultras. Corners are rounder. It is rated IP68. The cameras stand out enough that it rocks on a table, and a case solves that.</p>
+<h3>The Privacy Display</h3>
+<p>The 6.9-inch QHD+ panel is bright, at 2,600 nits, with a coating that tames reflections. Its new trick is hardware that narrows the viewing angle on command, for the whole screen or for particular apps and notifications. On a microbus or in a bank queue, the person beside you sees a dark panel. Reviewers note a slight grey tint and lower brightness while it is on. Used only for messages and banking, that hardly matters.</p>
+<h3>Cameras</h3>
+<ul>
+<li><strong>200MP main, f/1.4.</strong> A wider opening than before, so evening photos are cleaner.</li>
+<li><strong>50MP ultra wide.</strong> Sharp for landscapes and macro.</li>
+<li><strong>10MP 3x telephoto.</strong> Fine for portraits in daylight, and the oldest part of the set.</li>
+<li><strong>50MP 5x periscope.</strong> The travel lens, good to 10x and useful beyond.</li>
+</ul>
+<p>Samsung's processing is dependable and slightly vivid. Chinese rivals with larger telephoto sensors take better zoom pictures indoors. Samsung's strength is that all the lenses, the app and the editing tools work together without surprises. Video reaches 8K, and 4K at 120 frames.</p>
+<h3>S Pen</h3>
+<p>No other flagship has a pen inside. It is for signing PDFs, marking site drawings, sketching, precise photo edits and writing Devanagari by hand. The Bluetooth remote functions of older pens are gone. If you will not use it, a cheaper phone makes more sense.</p>
+<h3>Performance</h3>
+<p>The Snapdragon 8 Elite Gen 5 for Galaxy is as quick as Android gets, with a larger vapour chamber that keeps games steady. Versions with 256GB and 512GB have 12GB of memory, and the 1TB version has 16GB. DeX turns it into a desktop with a monitor, which few people try and many keep.</p>
+<h3>Battery and charging</h3>
+<p>With 5,000mAh, expect a full day. Heavy users will look for a charger in the evening. Rivals carry 6,500 to 7,500mAh. Charging has improved to 60W by wire and 25W wireless, reaching around three quarters in half an hour with the right PPS charger, which is sold separately.</p>
+<h3>Software and support</h3>
+<p>One UI 8.5 on Android 16, with Android and security updates promised for seven years. Galaxy AI includes call translation, photo editing, summaries and search by circling. Processing can be kept on the device in settings. Secure Folder and Knox are worth setting up for banking.</p>
+<h3>In Nepal</h3>
+<p>Official units carry a one-year warranty, visible in Samsung Members, with optional screen care. Check the IMEI in MDMS and the distributor's sticker. Screens are expensive, so take the protection plan if you drop things.</p>
+<h3>Compared with rivals</h3>
+[[models:samsung-galaxy-s26-ultra,samsung-galaxy-s25-ultra,iphone-18-pro-max,vivo-x300-pro,oneplus-15]]
+<p>The <a href="/products/samsung-galaxy-s25-ultra">S25 Ultra</a> at about Rs 40,000 less is the value choice. The <a href="/products/vivo-x300-pro">vivo X300 Pro</a> takes better portraits and zoom shots. The <a href="/products/oneplus-15">OnePlus 15</a> lasts far longer. The iPhone is better for video and resale.</p>
+<h3>Buy now or wait for the S27 Ultra?</h3>
+<p>Samsung's next flagship is expected in the first months of 2027 with a larger battery. If your phone works, waiting will bring either that or a cheaper S26 Ultra. <a href="/reviews/samsung-galaxy-s26-ultra-review-nepal">Our review</a> and <a href="/news/galaxy-s27-ultra-leaks-launch-date-nepal-price">our report on the S27 Ultra</a> help you decide.</p>
+
+=== samsung-galaxy-s26
+<p>The Galaxy S26 is Samsung's compact flagship: 6.3 inches, 167 grams and 7.2mm, with 12GB of memory and seven years of updates. It is the Samsung we would carry ourselves, provided there is a charger on the desk.</p>
+<h3>Price in Nepal</h3>
+[[variants:samsung-galaxy-s26]]
+<h3>Why small is good</h3>
+<p>Most flagships have grown beyond a comfortable grip. The S26 can be used with one hand, vanishes in a pocket and does not tire the wrist in bed. The flat FHD+ AMOLED adapts up to 120Hz and reaches 2,600 nits. It is rated IP68 and made as carefully as phones twice its price.</p>
+<h3>Performance</h3>
+<p>In our region it uses Samsung's Exynos 2600, the first 2nm phone chip from the company, and the United States and China receive a Snapdragon. Everyday speed is identical. In long games the Snapdragon has usually run cooler, and the difference is not a reason to import one without warranty.</p>
+<h3>Cameras</h3>
+<p>A 50MP main camera, a 12MP ultra wide and a 10MP 3x telephoto with stabilisation. The set has changed little in recent years. Photos are reliable, with natural skin after a small adjustment, and the telephoto is good in daylight. Rivals at this price have larger sensors and more reach.</p>
+<h3>Battery</h3>
+<p>At 4,300mAh with 25W charging, this is the weak part. Moderate users reach the evening. Heavy users need a top-up. A 45W charger will not make it faster. Wireless charging is 15W.</p>
+<h3>Software</h3>
+<p>One UI 8.5 with Galaxy AI, Secure Folder, DeX and the longest update promise on Android. A phone bought today should still be receiving patches in 2033.</p>
+<h3>Rivals around Rs 1.4 lakh</h3>
+[[models:samsung-galaxy-s26,oppo-find-x9-pro,oneplus-13s,honor-600-pro,iphone-17e,google-pixel-10]]
+<p>The <a href="/products/oppo-find-x9-pro">OPPO Find X9 Pro</a> is larger, with a vastly better battery and zoom for less. The <a href="/products/oneplus-13s">OnePlus 13s</a> and <a href="/products/honor-600-pro">Honor 600 Pro</a> are small phones with bigger batteries. Samsung wins on service, resale, longevity and polish.</p>
+<h3>S26, S26+ or S25 Ultra?</h3>
+<p>The <a href="/products/samsung-galaxy-s26-plus">S26+</a> costs Rs 20,000 more for a 6.7-inch screen, a 4,900mAh battery and 45W charging, and many people will be happier with it. The <a href="/products/samsung-galaxy-s25-ultra">S25 Ultra</a> at about Rs 1,85,000 adds the pen and real zoom.</p>
+<h3>Who it is for</h3>
+<p>People with small hands, buyers who keep phones for years, and offices that want security and service. Travellers and gamers should choose something with a larger battery.</p>
+
+=== samsung-galaxy-s26-plus
+<p>The Galaxy S26+ is the flagship Samsung people overlook. It has the S26's cameras and chip with a larger 6.7-inch screen, a bigger battery and faster charging, without the Ultra's pen, weight or price. For many buyers it is the most comfortable phone in the range.</p>
+<h3>Price in Nepal</h3>
+[[variants:samsung-galaxy-s26-plus]]
+<h3>Screen and body</h3>
+<p>The Dynamic AMOLED adapts up to 120Hz, reaches 2,600 nits and is sharper than the S26's. At 190 grams and 7.3mm it feels slim for its size. Gorilla Glass Victus 2 covers both sides, the frame is aluminium and the rating IP68.</p>
+<h3>Battery: the reason to step up</h3>
+<p>With 4,900mAh and 45W charging it lasts a full day for nearly everyone and recovers quickly at lunch. Wireless charging runs at 20W. It is still smaller than Chinese rivals' batteries, and far better than the S26's 4,300mAh.</p>
+<h3>Performance and memory</h3>
+<p>The Exynos 2600 with 12GB handles everything, and the larger body sheds heat better than the S26. DeX works well on an external monitor. UFS 4.0 storage is quick, and there is no card slot, so choose 512GB if you record a lot of video.</p>
+<h3>Cameras</h3>
+<p>A 50MP main sensor, 12MP ultra wide and 10MP 3x telephoto, the same as the S26. They are consistent and unadventurous. If zoom or night portraits matter, spend the same money on an <a href="/products/oppo-find-x9-pro">OPPO Find X9 Pro</a> or save for the Ultra.</p>
+<h3>Support</h3>
+<p>Seven years of Android versions and security patches, Samsung's service network and healthy resale are what you pay for. Over five years those count for more than a benchmark.</p>
+<h3>Compared</h3>
+[[models:samsung-galaxy-s26-plus,samsung-galaxy-s26,samsung-galaxy-s25-ultra,samsung-galaxy-s26-fe,oneplus-15]]
+<p>The gap of about Rs 25,000 to an <a href="/products/samsung-galaxy-s25-ultra">S25 Ultra</a> is the hard question. If you want the pen or a 5x lens, stretch. If you want a lighter phone with a newer chip, stay. The <a href="/products/samsung-galaxy-s26-fe">S26 FE</a> saves Rs 35,000 with a slower chip and the same length of support.</p>
+<h3>Who should buy it</h3>
+<p>People who read, watch and work on their phone, dislike very heavy ones, and want to keep it until 2031. Ask for an exchange bonus. The Plus is discounted more readily than the Ultra, because fewer people ask for it.</p>
+
+=== samsung-galaxy-z-fold8
+<p>The Galaxy Z Fold 8 is the lightest large foldable Samsung has made: 201 grams, 9.7mm folded and 4.5mm open. It is shorter and wider than its ancestors, so the outside works as a normal phone and the inside as a small tablet.</p>
+<h3>Price in Nepal</h3>
+[[variants:samsung-galaxy-z-fold8]]
+<h3>The new shape</h3>
+<p>The inner screen is 7.6 inches at 2448 by 1848, and the cover screen 5.5 inches. Both run at 120Hz, and the inner reaches 3,000 nits. The proportions suit documents, two apps side by side and photo editing. Typing on the cover is easier than on the narrow screens of earlier Folds.</p>
+<h3>Performance and battery</h3>
+<p>Every market receives the Snapdragon 8 Elite Gen 5 for Galaxy with 12 or 16GB of memory. The battery has grown to 4,800mAh, with 45W wired and 20W wireless charging, the first real improvement in years. Heavy use of the inner screen still asks for an evening top-up.</p>
+<h3>Cameras</h3>
+<p>A 50MP main camera and a 50MP ultra wide, both good, and no telephoto. If you want a foldable with zoom, the <a href="/products/samsung-galaxy-z-fold-8-ultra">Fold 8 Ultra</a> adds one for about Rs 25,000 more. You can use the cover screen to take selfies with the main camera, which beats any front camera.</p>
+<h3>Durability</h3>
+<p>The rating is IP48: protected from water to a useful degree, and from larger particles, not from fine dust or sand. In Nepal's dust that deserves attention. Keep it out of sandy pockets and bags, do not peel the inner film, and have the hinge checked if it begins to crunch.</p>
+<h3>Software</h3>
+<p>One UI 9 on Android 17 is the most mature foldable software: a taskbar, three apps at once, drag and drop, and app pairs. DeX is there for a monitor. Support runs for seven years.</p>
+<h3>Against other foldables</h3>
+[[models:samsung-galaxy-z-fold8,samsung-galaxy-z-fold-8-ultra,samsung-galaxy-z-fold-7,honor-magic-v5,oppo-find-n5,iphone-duo]]
+<p>Honor and OPPO are thinner with bigger batteries, and have fewer service points. The <a href="/products/samsung-galaxy-z-fold-7">Fold 7</a> is a little cheaper and already excellent. The <a href="/products/iphone-duo">iPhone Duo</a> costs about Rs 1.55 lakh more and is eSIM-only.</p>
+<h3>Is a foldable right for you?</h3>
+<p>If you read documents, trade, teach or edit on your phone, yes. If you mostly chat and scroll, a <a href="/products/samsung-galaxy-s26-plus">Galaxy S26+</a> and a tablet cost less together. Ask about Samsung Care+ and the price of an inner screen before paying.</p>
+
+=== samsung-galaxy-z-flip8
+<p>The Galaxy Z Flip 8 folds a full-size phone into a square that fits a small bag or shirt pocket. Open, it has a 6.9-inch screen. Closed, a 4.1-inch cover screen handles messages, music, payments and selfies. It is the stylish Samsung, and a more practical one than it used to be.</p>
+<h3>Price in Nepal</h3>
+<p>It is sold here at about Rs 1,94,999 in the 12GB/256GB version. The older <a href="/products/samsung-galaxy-z-flip-7">Flip 7</a> at about Rs 1,54,999 and <a href="/products/samsung-galaxy-z-flip7-fe">Flip 7 FE</a> at Rs 1,35,999 are much cheaper ways to own the idea.</p>
+<h3>Two screens</h3>
+<p>The inner AMOLED is tall and smooth at 120Hz, with a crease you feel more than you see. The cover screen also runs at 120Hz now and covers nearly the whole lid. With a few settings it can run full apps, so replies, maps and video calls do not require opening the phone. That habit is also the best way to make the battery last.</p>
+<h3>Performance</h3>
+<p>The Exynos 2600 on a 2nm process with 12GB of memory is fast enough for anything short of marathon gaming, where a thin folding body warms up.</p>
+<h3>Cameras</h3>
+<p>A 50MP main camera and a 12MP ultra wide. There is no zoom. The real advantage is the hinge: the phone stands by itself for group photos, time-lapses and video calls, and you frame selfies with the main camera on the cover screen.</p>
+<h3>Battery and charging</h3>
+<p>4,300mAh with 25W charging is modest. A day of mixed use is possible if you use the cover screen, and heavy users will need a top-up. A power bank belongs in the same bag.</p>
+<h3>Durability and care</h3>
+<p>It weighs about 180 grams and is 13.1mm thick when closed. Hinges have become reliable, while the inner screen remains softer than glass. Dust is the danger here. Close it before pocketing, keep sand away, and ask for a protection plan.</p>
+<h3>Compared</h3>
+[[models:samsung-galaxy-z-flip8,samsung-galaxy-z-flip-7,samsung-galaxy-z-flip7-fe,samsung-galaxy-s26]]
+<p>For Rs 55,000 less the <a href="/products/samsung-galaxy-s26">Galaxy S26</a> has better cameras, sturdier glass and a similar chip. The Flip sells joy and compactness. Those are worth something, and only you can say how much.</p>
+<h3>Who it suits</h3>
+<p>People with small pockets, creators who film themselves, and anyone bored by slabs. Those who work outdoors, travel far from chargers or drop phones should choose a normal one.</p>
+
+=== samsung-galaxy-z-fold-8-ultra
+<p>The Galaxy Z Fold 8 Ultra is what happens when Samsung puts its best camera into a foldable. It has an 8-inch inner display, a 6.5-inch cover screen that feels like a regular phone, a 200MP main camera and a 3x telephoto, in a body 8.9mm thick when folded.</p>
+<h3>Price in Nepal</h3>
+[[variants:samsung-galaxy-z-fold-8-ultra]]
+<h3>Fold 8 or Fold 8 Ultra?</h3>
+<p>The names suggest a better and a best. They are really two shapes. The plain <a href="/products/samsung-galaxy-z-fold8">Fold 8</a> is short and wide, easier to slip into a pocket, and lighter at 201 grams. The Ultra is tall, with a cover screen of normal proportions and more camera, at 215 grams. Choose by how you use the outside screen: if you type and scroll there all day, the Ultra feels more natural.</p>
+<h3>Displays</h3>
+<p>Both adapt up to 120Hz, with up to 3,000 nits inside. An 8-inch canvas shows two apps comfortably, a spreadsheet with usable columns, or a page of a PDF without zooming.</p>
+<h3>Cameras</h3>
+<p>The 200MP main sensor is close to the one in the S26 Ultra and lifts this phone above every other Samsung foldable. The 50MP ultra wide has autofocus for macro. The 10MP 3x telephoto is adequate in light. There is no 5x lens.</p>
+<h3>Battery and charging</h3>
+<p>Samsung has used a silicon-carbon cell of 5,000mAh, with 45W wired and 20W wireless charging. It is a solid day for most people, including an hour or two on the inner screen.</p>
+<h3>Durability</h3>
+<p>IP48 protects against water and larger particles, not dust. The frame is aluminium with Victus 2 on the back and a ceramic-reinforced cover glass. Treat the inner screen gently and read the terms of any protection plan.</p>
+<h3>Software and support</h3>
+<p>One UI 9 on Android 17, seven years of updates, DeX, and the best multitasking on any foldable. It takes a physical SIM as well as eSIM.</p>
+<h3>Compared</h3>
+[[models:samsung-galaxy-z-fold-8-ultra,samsung-galaxy-z-fold8,honor-magic-v5,oppo-find-n5,iphone-duo]]
+<p>Honor's <a href="/products/honor-magic-v5">Magic V5</a> is cheaper with a larger battery. The <a href="/products/iphone-duo">iPhone Duo</a> costs about Rs 1.3 lakh more with no telephoto. In Nepal, Samsung's service is the strongest argument for paying Rs 3 lakh.</p>
+<h3>Who should consider it</h3>
+<p>Executives, traders, editors and designers who work on their phone and also want good photographs. If the camera is not important, the Fold 8 is lighter and cheaper. If the folding is not important, an <a href="/products/samsung-galaxy-s26-ultra">S26 Ultra</a> has more of everything for Rs 75,000 less.</p>

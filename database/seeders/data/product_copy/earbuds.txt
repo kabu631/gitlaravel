@@ -1,0 +1,243 @@
+=== mi-portable-bluetooth-speaker-16w
+<p>Xiaomi's 16W Bluetooth speaker is meant for a bedroom, a picnic or a small shop, not for a wedding hall. Sixteen watts fills an average Kathmandu room comfortably and begins to strain outdoors with more than ten people around it.</p>
+<p>At Rs 6,599 it sits between toy speakers, which distort when turned up, and the JBL Flip class. Before paying, play a song you know at three quarters of full volume and listen for rattling in the bass. Ask which charging port it uses, whether two units can be paired for stereo, and what the box says about water protection, because we have not been able to confirm those details for the version sold here.</p>
+
+=== anker-soundcore-liberty-4-pro
+<p>The Liberty 4 Pro is Soundcore's flagship, and the interesting part is inside: a 10.5mm bass driver and a separate 4.6mm tweeter in each bud. Two drivers let cymbals and vocals stay clean while the bass works hard, something single-driver buds at this price struggle to do. With LDAC on an Android phone you can hear the benefit on well-recorded music.</p>
+<p>Playback is 10 hours in the buds and 40 with the case, and five minutes on the charger gives about four hours. Bluetooth multipoint keeps a laptop and phone connected together. The buds are IPX5, so sweat and rain are fine.</p>
+<p>Rs 16,999 is a fair price against the <a href="/products/nothing-ear-a">Nothing Ear (a)</a> at about Rs 2,000 less. The Nothing is the simpler, lighter pair. The Soundcore is for people who sit and listen. iPhone owners cannot use LDAC, so for them the gap is smaller.</p>
+
+=== anker-soundcore-r50i-nc
+<p>Noise cancelling under Rs 5,000 used to be a sticker on the box. The R50i NC is rated to 42dB, which in practice softens the drone of a bus or a fan and leaves voices mostly audible. That is already useful for a student in a shared room.</p>
+<p>The other half of its appeal is stamina: 10 hours in the ear and 45 with the case. Ten minutes of charging adds two. There is multipoint for a laptop and phone, and IP54 covers dust as well as sweat, better than the splash-only ratings common at this price.</p>
+<p>You get AAC and SBC, no high-resolution codec. The same Rs 4,999 also buys the older <a href="/products/soundcore-r50i">R50i</a>, without noise cancelling. There is no reason to choose that one.</p>
+
+=== soundcore-liberty-buds
+<p>The Liberty Buds arrived in 2026 with an open, stemmed fit and Bluetooth 6.1, newer than the radio in most phones they will be paired with. They use 11mm drivers and support LDAC. Our record lists no noise cancelling, and at Rs 16,499 that should make you stop and think.</p>
+<p>Who would want that? People who dislike silicone tips pushing into the ear, and those who need to hear traffic, a child or a colleague. Seven hours per charge and 30 in total is ordinary. Ten minutes gives four hours, and IP55 protects against dust and rain.</p>
+<p>If silence on a flight or bus is the aim, the <a href="/products/anker-soundcore-liberty-4-pro">Liberty 4 Pro</a> costs only Rs 500 more and is the stronger product. Try the fit of both if the shop allows.</p>
+
+=== soundcore-r50i
+<p>The R50i was one of the best cheap earbuds of 2023. It has strong, warm bass from 10mm drivers, 10 hours of playback and a case that brings the total to 30. Soundcore's app has an equaliser with many presets, unusual for basic buds.</p>
+<p>Time has caught up with it. The newer <a href="/products/anker-soundcore-r50i-nc">R50i NC</a> is listed at the same Rs 4,999 with noise cancelling, multipoint, better dust protection and 15 more hours in the case.</p>
+<p>So treat this as a bargain-bin choice. At Rs 3,000 to 3,500 in a clearance sale it is a solid pair for calls, lectures and the gym, protected to IPX5. At the list price, pass.</p>
+
+=== boat-airdopes-111-v2
+<p>For Rs 2,699 the Airdopes 111 v2 does something surprising. It connects to two devices at once. If you attend classes on a laptop and take calls on a phone, that saves the constant re-pairing that ruins cheap earbuds.</p>
+<p>The 13mm drivers are tuned for bass, as boAt buyers expect. Charging is quick, about 40 minutes for the buds and ten minutes for two hours of music. IPX4 is enough for light rain and sweat.</p>
+<p>There is no noise cancelling, and microphones in this class pick up the street along with your voice. Compared with the <a href="/products/boat-airdopes-131-gen-2">131 Gen 2</a>, slightly cheaper with the same driver size, the multipoint connection is what you are paying Rs 200 for.</p>
+
+=== boat-airdopes-120
+<p>The Airdopes 120 is a 2024 model built for long days: eight hours per charge and 40 with the case, measured at half volume. Expect nearer six at the volume people use on a microbus.</p>
+<p>Its weak point is charging. Five minutes returns an hour, which is fine, but the buds need an hour and the case two to fill completely. The sound is bass-first from 10mm drivers with AAC support, and IPX4 protects against sweat.</p>
+<p>boAt sells several nearly identical buds at Rs 2,999. Of those, the <a href="/products/boat-airdopes-121-pro-plus">121 Pro Plus</a> has a case that holds 100 hours and stronger IPX5 protection for the same money. Choose the 120 only when it is discounted by Rs 500 or more.</p>
+
+=== boat-airdopes-121-pro-plus
+<p>One hundred hours is the number on the box, and it is nearly all in the case. The buds themselves play for eight hours at a time. Read another way, you will look for a charger about once in two weeks, and that is rather pleasant.</p>
+<p>The cost is size. A case holding that much is thicker than a matchbox stack and sits badly in tight jeans. The case has no water rating either, though the buds are IPX5.</p>
+<p>Sound comes from 10mm drivers, tuned for bass and voices and not for detail. There is no noise cancelling. At Rs 2,999 it suits travellers, trekkers and those who forget to charge. For gaming or films, check the delay in the shop first, since our record lists no low-latency mode.</p>
+
+=== boat-airdopes-131-elite
+<p>The 131 Elite is boAt's attempt at cheap noise cancelling, sold here for Rs 3,199. We know that it has Bluetooth 5.3, USB-C, small 45mAh cells in each bud and IPX5 protection. The depth of its noise cancelling is not stated in what we have seen, so assume that it dulls steady sounds and little else.</p>
+<p>For the same money there is a better documented alternative. The <a href="/products/boat-airdopes-161-anc-elite">Airdopes 161 ANC Elite</a> states 32dB, six hours per charge and 44 in total.</p>
+<p>Unless you find the 131 Elite well below Rs 2,800, take the 161. If you do buy it, keep the bill and test both microphones on a call on the first day.</p>
+
+=== boat-airdopes-131-gen-2
+<p>Rs 2,499 and 35 minutes: that is the price, and how long the buds need for a full charge. Ten minutes gives an unusual five hours of playback, the fastest top-up we have listed at this level. If you always notice an empty battery as you leave home, this pair is for you.</p>
+<p>The Gen 2 moved to Bluetooth 5.4 and 13mm drivers. Voices are clear, bass is heavy, and loud tracks lose definition. IPX4 handles sweat. It connects to one device at a time and has no noise cancelling.</p>
+<p>It is a safe first pair for a student. Someone with Rs 700 more and a noisy commute should look at the <a href="/products/boat-airdopes-161-anc-elite">161 ANC Elite</a>.</p>
+
+=== boat-airdopes-161-anc-elite
+<p>The 161 ANC Elite is the one to pick in boAt's crowded shelf around Rs 3,200 if you want noise cancelling. Thirty-two decibels on paper means that fans, generators and bus engines drop to the background, while horns and voices come through.</p>
+<p>It plays for six hours and 44 with the case. Turning noise cancelling on will shorten both. Charging takes 35 minutes for the buds, and ten minutes gives two and a half hours.</p>
+<p>Comfort and fit decide how well any of this works: use the tip size that seals without pushing. The IPX5 rating covers workouts. For a deeper effect you need around Rs 5,000, where the <a href="/products/anker-soundcore-r50i-nc">Soundcore R50i NC</a> claims 42dB.</p>
+
+=== boat-airdopes-212
+<p>Noise cancelling of 32dB for Rs 2,199 makes the Airdopes 212 the cheapest pair in our list with a stated figure. It came out in August 2026, uses Bluetooth 5.4, and charges the buds in 25 minutes.</p>
+<p>What has been given up? One device at a time, no high-quality codec, IPX4 and not IPX5, and microphones that are average outdoors. The 10mm drivers sound lively at moderate volume and thin when pushed.</p>
+<p>Even so, for a hostel room with a loud fan it makes lectures easier to follow without raising the volume, which is kinder to your ears. Compare it with the <a href="/products/boat-airdopes-161-anc-elite">161 ANC Elite</a> if you sweat a lot or want longer battery life.</p>
+
+=== boat-airdopes-411-anc
+<p>The Airdopes 411 ANC dates from April 2022, and that shows in almost every line: Bluetooth 5.2, noise cancelling of 25dB, 90 minutes to charge the buds and IPX4. Yet it is still listed here at Rs 5,299.</p>
+<p>At this price it loses to earbuds that cost half. boAt's own <a href="/products/boat-airdopes-212">Airdopes 212</a> has deeper stated cancelling for Rs 2,199. The <a href="/products/anker-soundcore-r50i-nc">Soundcore R50i NC</a> at Rs 4,999 is better in every way that can be measured.</p>
+<p>We would leave it, and also avoid second-hand units, since tiny batteries of that age will have lost a good part of their life.</p>
+
+=== boat-airdopes-800-hi-def
+<p>The name refers to LDAC, the codec that sends more music data over Bluetooth than AAC or SBC. At Rs 4,299 it is rare. You need an Android phone with LDAC turned on in the Bluetooth settings, and music that deserves it. On an iPhone this feature does nothing.</p>
+<p>The listing states 40 hours and 100 hours. We read those as combined figures in different modes and not what one bud can play in a row, so do not expect 40 hours in your ear. Multipoint is included and the buds carry an IPX5 rating. Charging the case takes two and a half hours.</p>
+<p>There is no noise cancelling. Good for quiet-room listening on a budget. If your day is noisy, a pair with cancelling will sound better in practice than one with a better codec.</p>
+
+=== boat-airdopes-91-prime
+<p>The Airdopes 91 Prime is a plain pair of earbuds for Rs 2,299, with large 13mm drivers and quick charging of 30 minutes for the buds. Ten minutes gives around two hours. Bluetooth 5.3 and IPX4 complete a short specification sheet.</p>
+<p>The large drivers give a warm, full sound that suits Nepali and Hindi pop. Detail is not the point. One device at a time, no cancelling, and a microphone for indoor calls.</p>
+<p>Spend Rs 200 more and the <a href="/products/boat-airdopes-131-gen-2">131 Gen 2</a> has a newer radio and much faster top-ups. Save Rs 100 and the <a href="/products/boat-airdopes-212">212</a> adds noise cancelling. The 91 Prime is caught between them and makes sense mainly in an offer.</p>
+
+=== boat-airdopes-alpha
+<p>The first Airdopes Alpha, from late 2023, is notable for its light 4 gram buds and an 8.5 hour playing time at 60% volume. Light buds stay in place during a run and stop hurting on a long call, two things that matter more than a specification sheet suggests.</p>
+<p>The total with the case is 26 hours, modest now. The 13mm drivers are bassy. IPX5 is better than usual at this level.</p>
+<p>Its own successor has made it hard to recommend. The <a href="/products/boat-airdopes-alpha-gen-2">Alpha Gen 2</a> is listed at Rs 2,299, against Rs 3,099 here. Unless you find the original for less than Rs 2,000, buy the newer one.</p>
+
+=== boat-airdopes-alpha-gen-2
+<p>The Alpha Gen 2 keeps what was good in the <a href="/products/boat-airdopes-alpha">original</a>, large 13mm drivers and IPX5 protection, and updates the radio to Bluetooth 5.4. At Rs 2,299 it undercuts the older pair by Rs 800.</p>
+<p>The buds charge in 40 minutes, the case in 90, and a ten minute charge is worth two and a half hours. A bass-heavy tuning will please most listeners, and boAt's touch controls can be learned in a day.</p>
+<p>Do not expect noise cancelling or two-device pairing. Within boAt's own family at this price, the <a href="/products/boat-airdopes-212">212</a> has cancelling and weaker water resistance. Choose the Alpha for the gym and the 212 for the bus.</p>
+
+=== boat-airdopes-flex-454-anc
+<p>Few boAt earbuds combine noise cancelling and multipoint with a long battery life, and the Flex 454 ANC does. It plays for 10 hours and 50 with the case when cancelling is off, at 60% volume. Cancelling is rated to 32dB. It was released in 2023.</p>
+<p>Charging is excellent: 25 minutes for the buds and an hour for the case. Ten minutes gives about four hours.</p>
+<p>The obstacle is the price. Rs 5,999 is close to the <a href="/products/cmf-buds-2a">CMF Buds 2a</a> at the same amount, with 42dB, a better app and a newer Bluetooth version. We would choose the CMF. If a seller takes Rs 1,500 off the boAt, its battery life starts to look good.</p>
+
+=== boat-airdopes-supreme
+<p>The Airdopes Supreme is for long hours. It has ten hours in the buds and 50 in the case, with a half-hour charge time. A call-centre worker or a driver who keeps one bud in all day can alternate sides and never run out.</p>
+<p>The rest is unremarkable for Rs 3,449. Bluetooth 5.2 is older than in cheaper boAt buds, protection is IPX4, and there is no cancelling or multipoint in our record.</p>
+<p>Because it lasts, it competes with the <a href="/products/boat-airdopes-121-pro-plus">121 Pro Plus</a>, which costs Rs 450 less and has double the total. The Supreme's advantage is ten hours in one sitting against eight. Decide whether those two hours are worth it to you.</p>
+
+=== boat-immortal-131
+<p>Immortal is boAt's gaming line, with lights on the case and a low-delay mode for matches. The 131 plays for about 10 hours and 40 with the case at 60% volume, and weighs only 3.7 grams per bud, so a long evening of PUBG Mobile is comfortable.</p>
+<p>Low-delay modes reduce the gap between a shot and its sound, yet Bluetooth never matches a wire. If you play competitively, a cheap pair of wired earphones is still better, and many phones in this price class have the jack.</p>
+<p>For casual games, music and calls at Rs 2,799 it is a cheerful choice. Check that the gaming mode can be turned on by touch, since some of these buds forget the setting. Protection is IPX4.</p>
+
+=== boat-nirvana-iris
+<p>The Nirvana Iris is a 2026 addition to boAt's better range, at Rs 4,999. It has 32dB noise cancelling, multipoint and 10mm drivers. Charging is slower than in cheaper boAt buds, at an hour for the buds and two and a half for the case, though ten minutes is good for three hours.</p>
+<p>Nirvana models are tuned with more restraint than Airdopes, with clearer vocals and less boom. That is a matter of taste, and worth hearing in a shop.</p>
+<p>The question is value. The <a href="/products/anker-soundcore-r50i-nc">Soundcore R50i NC</a> costs the same and claims deeper cancelling with IP54. Its case is smaller too. The Iris is mainly for buyers who prefer boAt's sound or its local service.</p>
+
+=== boat-nirvana-ivy
+<p>With a stated 50dB, the Nirvana Ivy has the deepest noise cancelling in boAt's range here. It sells for Rs 5,899, uses 11mm drivers, and supports two devices at once. A ten minute charge gives around four hours, and the buds fill in 35 minutes.</p>
+<p>Deep figures need a good seal, so try the three tip sizes. Also note that boAt quotes battery life with cancelling off. With it on, plan for roughly two thirds of that.</p>
+<p>Its strongest rival is the <a href="/products/cmf-buds-2">CMF Buds 2</a> at Rs 7,499: similar cancelling, 13.5 hours per charge and better dust protection. The <a href="/products/cmf-buds-2a">Buds 2a</a> is level on price with a lower figure. The Ivy is the one for noisy commutes on a budget.</p>
+
+=== honor-choice-x7e
+<p>The Honor Choice X7e Active looks like many Rs 4,000 earbuds, with two differences worth noting. It supports two connected devices and carries an IP54 rating, so fine dust is covered along with sweat. Cheap buds usually ignore dust, which is what clogs speaker meshes in a Kathmandu winter.</p>
+<p>Playback is eight hours, or 40 with the case. The 11mm drivers are balanced and not bass-heavy, and each bud weighs 4.8 grams. The case has no protection.</p>
+<p>There is no noise cancelling. For Rs 1,000 more the <a href="/products/anker-soundcore-r50i-nc">Soundcore R50i NC</a> adds that. Choose the Honor if you mainly make calls and switch between a phone and laptop.</p>
+
+=== huawei-freeclips
+<p>The FreeClip does not go into the ear at all. A flexible bridge clips around the edge of it, with a small speaker resting near the opening. You hear your music and the street together, and nothing presses on the canal. People who find ordinary buds painful after half an hour often fall in love with it.</p>
+<p>The trade is obvious. Outside sound gets in, so on a bus you will turn the volume up or give up, and people beside you in a quiet library may hear it. There is no noise cancelling. Bass is better than you expect from something sitting in the open.</p>
+<p>Eight hours of playback, 36 in total, 5.6 grams each. At Rs 29,990 it is a luxury. Cyclists, office workers and parents of small children are the ones who use it daily. The <a href="/products/huawei-freeclips-2">FreeClip 2</a> is the newer version, so compare prices first.</p>
+
+=== jbl-live-flex-3
+<p>The Live Flex 3 is a stick-style pair with an open fit, so there is no silicone tip. JBL adds noise cancelling to that shape, which works less well than in sealed buds because air leaks around it. Expect it to soften engine drone and not to create silence.</p>
+<p>In exchange you get comfort for hours, 12mm drivers with the familiar JBL warmth, multipoint and IP54 protection. Ten hours of playback and 40 with the case, with four hours from a ten minute charge, are strong.</p>
+<p>At Rs 28,999 it faces sealed earbuds with far stronger cancelling. Buy it because silicone tips hurt you, and only then. A lower-cost open pair from JBL is the <a href="/products/jbl-tune-flex-2">Tune Flex 2</a>.</p>
+
+=== jbl-soundgear-clips
+<p>JBL's Soundgear Clips fasten to the outer ear like a cuff, leaving the canal open. They are aimed at runners and people who wear glasses or hijab, for whom ear hooks and stems are a nuisance. Each weighs 6.5 grams.</p>
+<p>An 11mm driver plays for eight hours and 32 in total. Multipoint and IP54 are included. Like every open design, they cannot block noise, and bass fades in traffic. Our listing mentions a figure with cancelling off, but an open clip has no useful noise cancelling, so do not buy them for that.</p>
+<p>At Rs 23,000 they undercut the <a href="/products/huawei-freeclips">Huawei FreeClip</a>. Huawei's is lighter. JBL's sounds fuller to us on paper, with the larger driver, but the grip on your own ear should decide. Insist on trying them.</p>
+
+=== jbl-tune-beam-2
+<p>Twelve hours from one charge, with noise cancelling off, is the highlight of the Tune Beam 2. Forty-eight in total is enough for a week of commuting. JBL pairs this with a stick shape, 10mm drivers, multipoint and IP54.</p>
+<p>It is a sealed design with tips, so cancelling works properly in it. JBL's app offers an equaliser and adjustable ambient sound, both easier to use than most rivals' software.</p>
+<p>The <a href="/products/jbl-tune-buds-2">Tune Buds 2</a> costs the same Rs 13,000 in a rounder shape, without listed multipoint. The choice is fit. Against other brands, the <a href="/products/cmf-buds-2">CMF Buds 2</a> does most of this for Rs 7,499. You pay JBL for tuning and service.</p>
+
+=== jbl-tune-buds-2
+<p>Some ears reject stems. The Tune Buds 2 is JBL's compact bean-shaped alternative to the <a href="/products/jbl-tune-beam-2">Tune Beam 2</a>, at the same Rs 13,000. Nothing hangs below the ear, helmets go on more easily, and sleeping on one side is at least possible.</p>
+<p>Playback is the same 12 hours with cancelling off and 48 with the case. IP54 protection is welcome. The buds total 11 grams.</p>
+<p>The microphone is the usual weakness of this shape, since it sits further from the mouth than on a stem. If you take many calls outdoors, choose the Beam. Multipoint does not appear in our record for the Buds, so check that too if you use a laptop.</p>
+
+=== jbl-tune-flex-2
+<p>The Tune Flex 2 comes with two ways to wear it, open or sealed, depending on the tips you fit. That flexibility is the whole idea: open for walking along a road, sealed for the bus. At 4.4 grams each the buds disappear.</p>
+<p>The 12mm drivers are among the largest in JBL's middle range. Twelve hours of music, 36 in total, multipoint and IP54 are all good. The case is small and has no water protection.</p>
+<p>At Rs 16,500 it costs Rs 3,500 more than the <a href="/products/jbl-tune-beam-2">Tune Beam 2</a>, which lasts longer overall and seals better. Unless you want that open mode, take the Beam and keep the change.</p>
+
+=== jbl-wave-buds-2
+<p>JBL's Wave line is its least expensive, and the Wave Buds 2 are priced at Rs 8,900 here. They are small sealed buds with the brand's bass-forward sound.</p>
+<p>We have not been able to confirm the full specifications of the version sold locally, so do not rely on figures from elsewhere. Ask the shop to show you three things: the battery hours printed on the box, the water rating, and whether noise cancelling can be switched on in the JBL Headphones app.</p>
+<p>If noise cancelling is missing, this is expensive, as <a href="/products/cmf-buds-2">CMF Buds 2</a> cost less and include it. If it is present and you like JBL's tuning, the price is reasonable.</p>
+
+=== kick-phantom-buds-x-elite
+<p>For Rs 1,999 the Phantom Buds X Elite claims 30dB of noise cancelling, Bluetooth 5.4 and IPX5. That would have been remarkable two years ago and is now simply good competition among low-cost brands.</p>
+<p>Take the cancelling figure with caution. In this class it reduces a steady hum and little else. Ten minutes on the cable gives about two hours, handy if you forget.</p>
+<p>The 10mm drivers do best with pop and speech. Ask the shop about warranty and keep the packaging. The <a href="/products/boat-airdopes-212">boAt Airdopes 212</a> at Rs 2,199 is the closest match from a larger brand, with a stated 32dB but IPX4.</p>
+
+=== kick-phantom-buds-x2
+<p>The Phantom Buds X2 is the top of Kick's small family, with 12.4mm drivers, a stated 35dB of noise cancelling and a case that takes the total to 100 hours. Each charge of the buds lasts about eight.</p>
+<p>Bluetooth 5.4 keeps the connection steady, and IPX5 is proper workout protection. A ten minute charge gives a little over an hour and a half, slower than some rivals, though with so much in the case you will rarely need it.</p>
+<p>Compared with the <a href="/products/kick-phantom-buds-x-elite">X Elite</a> you gain larger drivers, deeper cancelling on paper and a far bigger case. For a first pair of noise-cancelling buds it is easy to like. Check the current price with the shop, since offers on this model change often.</p>
+
+=== kick-phantom-buds-x2-neo
+<p>Rs 1,499 is close to the floor for earbuds worth owning, and the X2 Neo is honest about what it is. It has 12.4mm drivers for bass, Bluetooth 5.4 and IPX4. There is no noise cancelling and Kick does not publish battery hours that we could confirm.</p>
+<p>It is fine for YouTube, calls at home and the gym. Do not expect clear calls beside a road.</p>
+<p>Rs 500 more brings noise cancelling and IPX5 in the <a href="/products/kick-phantom-buds-x-elite">X Elite</a>, which is the better buy if you can stretch. If not, this is a sensible spare pair for a teenager who loses things.</p>
+
+=== noise-aura-buds
+<p>Noise made the Aura Buds for people who care how earbuds look: a smooth case, small 4 gram buds, and a soft fit. They launched in late 2025 at Rs 3,999 in Nepal.</p>
+<p>The 12mm drivers are lively and protection is IPX5. The buds charge in 45 minutes and the case in an hour and a half. Our record shows no noise cancelling and one connected device.</p>
+<p>That is thin for the money. The <a href="/products/honor-choice-x7e">Honor Choice X7e Active</a> is the same price with two-device pairing and dust protection. Noise's own <a href="/products/noise-buds-trance-2">Trance 2</a> costs Rs 1,300 less. Buy these if you like the design and the weight.</p>
+
+=== noise-buds-n1
+<p>The Buds N1 covers the basics for Rs 2,799: Bluetooth 5.3, 11mm drivers, IPX5. The codec support is SBC only. On an iPhone that means a small loss in quality compared with buds that offer AAC, and on Android hardly anybody will notice at this level.</p>
+<p>They are light on features, with no cancelling and no multipoint. What they have is a sturdy case and good water resistance, so they survive a gym bag.</p>
+<p>At this price boAt gives more on paper, for example the <a href="/products/boat-airdopes-131-gen-2">131 Gen 2</a> with AAC and very fast charging for Rs 300 less. The N1 needs a discount to make sense.</p>
+
+=== noise-buds-trance-2
+<p>The Trance 2 has the smallest drivers in this group at 6mm, in a compact bud. Small drivers respond fast, so voices and podcasts come across clearly, while deep bass is limited. If you listen to the news and lectures more than to dance music, that is a good bargain at Rs 2,699.</p>
+<p>AAC support and IPX5 are included. Ten minutes gives two hours of use.</p>
+<p>No noise cancelling, and one device at a time. The obvious alternative with more thump is the <a href="/products/boat-airdopes-131-gen-2">boAt 131 Gen 2</a> for Rs 200 less. Listen to both with a voice recording and with a song, and the choice will be easy.</p>
+
+=== noise-mvp-102-gaming
+<p>A gaming label on Rs 3,399 earbuds usually means a low-delay mode and some lights, and so it is here. The MVP 102 uses 11mm drivers and SBC, with ten minutes of charging for two and a half hours of play. It is rated IPX5.</p>
+<p>In a game such as Free Fire the low-delay mode makes footsteps line up better with what you see. Voice chat works but picks up room noise. Wired earphones are still faster and cost Rs 500.</p>
+<p>We would look at the <a href="/products/boat-immortal-131">boAt Immortal 131</a> first, with 10 hours per charge at Rs 600 less. The Noise pair's stronger point is sweat protection.</p>
+
+=== cmf-buds-2
+<p>If somebody asks us for one pair of earbuds under Rs 8,000, the CMF Buds 2 is usually the answer. It gives 48dB of noise cancelling, 13.5 hours per charge and 55 in total, in 4.5 gram buds with IP55. Ten minutes of charging is worth seven and a half hours.</p>
+<p>The Nothing X app is clean, works on iPhone as well as Android, and has a real equaliser. Multipoint keeps a laptop attached. The case has a dial you can use for volume or skipping, which sounds silly until your hands are in gloves.</p>
+<p>It lacks a high-resolution codec, and the bass is slightly heavy out of the box. The <a href="/products/cmf-buds-2a">Buds 2a</a> saves Rs 1,500 and loses several hours. The <a href="/products/nothing-ear-a">Nothing Ear (a)</a> doubles the price for LDAC and a nicer fit.</p>
+
+=== cmf-buds-2a
+<p>The Buds 2a is the entry to CMF's range, with most of what makes the <a href="/products/cmf-buds-2">Buds 2</a> so good. Noise cancelling is rated at 42dB, the drivers are 12.4mm, and the buds support two devices and IP54. They weigh about 4.3 grams.</p>
+<p>Battery life is where you feel the saving: eight hours with cancelling off and a little over 35 in total, against 13.5 and 55. Ten minutes gives two hours.</p>
+<p>For Rs 5,999 there are few rivals as complete. If you commute an hour a day, this is enough. If you work with earbuds in all day, pay Rs 1,500 for the Buds 2.</p>
+
+=== nothing-ear-a
+<p>The Ear (a) is the cheerful member of the Nothing family, with the brand's transparent stem. It offers LDAC, 45dB of noise cancelling and multipoint, with 11mm drivers that deliver more bass than the plain look suggests.</p>
+<p>Playback is nine and a half hours, 42.5 in total, and ten minutes brings ten hours back. Each bud weighs 4.8 grams with IP54, and the case is IPX2. It is comfortable for most ears.</p>
+<p>At Rs 14,999 it has one difficult rival, its cousin the <a href="/products/cmf-buds-2">CMF Buds 2</a>, which is half the price with similar cancelling. The Ear (a) sounds more refined and looks nicer. Whether that is worth Rs 7,500 depends on how much you listen.</p>
+
+=== oppo-enco-buds-3-pro
+<p>Twelve hours per charge and 54 in all for Rs 3,499: the Enco Buds 3 Pro is one of the longest-lasting pairs at this price. Ten minutes gives four hours. They support two devices and have an IP55 rating, better than almost all buds near Rs 3,500.</p>
+<p>The 12.4mm drivers are tuned warm. OPPO and OnePlus phone owners get settings inside the phone menu, while others use the HeyMelody app.</p>
+<p>What is missing is noise cancelling. On that point the <a href="/products/boat-airdopes-161-anc-elite">boAt 161 ANC Elite</a> wins for less. For long calls, cycling and dusty roads, where you want to hear traffic anyway, the OPPO is the better tool.</p>
+
+=== realme-buds-t100
+<p>The Buds T100 came to Nepal in 2023 and still sells for Rs 2,499 because it is simple and dependable. Six hours per charge, 28 in total, 4.1 grams each and IPX5. Our record lists multipoint, which is worth testing in the shop as it is unusual for this model.</p>
+<p>Ten-millimetre drivers are tuned for bass, and realme's Link app has three sound presets and a game mode.</p>
+<p>It has aged in two ways: total playing time is short beside the newest pairs, and there is no noise cancelling. The <a href="/products/boat-airdopes-131-gen-2">boAt 131 Gen 2</a> costs the same and charges faster. The <a href="/products/redmi-buds-6-play">Redmi Buds 6 Play</a> lasts longer for equal money.</p>
+
+=== realme-buds-t500-pro
+<p>The T500 Pro brings flagship-style numbers to Rs 5,500: noise cancelling rated to 50dB, 13.5 hours per charge, 56 in total, Bluetooth 6.1 and LHDC 5.0 for high-resolution sound on supporting phones. Ten minutes of charging gives ten hours.</p>
+<p>LHDC works with realme, OPPO, OnePlus, Xiaomi and some others. Samsung phones and iPhones fall back on AAC. Everything else works with any phone.</p>
+<p>The buds are 4.5 grams with IP55, and multipoint is here. The nearest rival is the <a href="/products/cmf-buds-2a">CMF Buds 2a</a> at Rs 5,999, with a nicer app and less than two thirds of the battery life. On value, the realme is ahead. Listen for how its cancelling handles voices before deciding.</p>
+
+=== remax-cozybuds-w33
+<p>Remax is best known for cables and power banks, and the CozyBuds W33 is its everyday pair of earbuds at Rs 3,590. The details published are few: Bluetooth 5.4 and 13mm drivers. We could not confirm battery life, water protection or supported codecs.</p>
+<p>That makes it hard to recommend over products with a full specification, such as the <a href="/products/oppo-enco-buds-3-pro">OPPO Enco Buds 3 Pro</a> at Rs 3,499 with 12 hours and IP55.</p>
+<p>If you are drawn to the design, ask for the box and read the battery hours and the IP code. Also ask about the replacement period for a dead bud, since that is the most common failure in cheap pairs.</p>
+
+=== remax-gamebuds-g7
+<p>The GameBuds G7 is the gaming version of Remax's earbuds, with 13mm drivers and Bluetooth 5.4 in a 52 gram case. It costs Rs 3,640.</p>
+<p>A game mode lowers audio delay, though we have no measured figure for it, and Remax does not list the codec. The sensible way to judge is simple. Pair it with your own phone, open your game, and tap the screen while listening. If the sound follows your finger closely enough for you, it passes.</p>
+<p>Otherwise the <a href="/products/boat-immortal-131">boAt Immortal 131</a> covers the same ground for Rs 840 less, with published battery life.</p>
+
+=== sony-wfc700n
+<p>The WF-C700N was Sony's affordable noise-cancelling pair in 2023. Its strength is comfort. At 4.6 grams with a rounded shape, it fits small ears that reject larger buds, and the sound has Sony's natural balance even from a 5mm driver.</p>
+<p>The battery is the weak part: seven and a half hours, and the case adds only one more charge, for about ten hours per the listing. Protection is IPX4. It connects to two devices.</p>
+<p>At Rs 28,500 in Nepal it is badly placed. Sony has moved on, and its better <a href="/products/sony-wf-1000xm5">WF-1000XM5</a> is in another class. Newer brands give stronger cancelling for a quarter of the money. Wait for a clearance price near Rs 12,000.</p>
+
+=== ultima-atom-buds-2
+<p>The Ultima Atom Buds 2 at Rs 1,949 has a feature you do not expect at the price: multipoint, so your phone and laptop stay connected together. That is normally absent below Rs 2,500.</p>
+<p>They use Bluetooth 5.4 and 10mm drivers with AAC, and carry an IPX4 rating. An hour fills the buds and two hours the case. No noise cancelling is listed.</p>
+<p>Keep the invoice for the warranty. Compared with <a href="/products/kick-phantom-buds-x-elite">Kick's X Elite</a> at about the same price, choose Ultima for two devices and Kick for noise cancelling.</p>
+
+=== redmi-buds-6-play
+<p>A pair of 3.6 gram buds that plays for seven and a half hours, 36 with the case, and costs Rs 2,499. The Redmi Buds 6 Play is light enough to forget, and ten minutes of charging gives three hours.</p>
+<p>Xiaomi lists Bluetooth 5.4 and IPX4. The sound is soft and bassy, good enough for music while walking. Xiaomi phones show a pop-up to connect; with other phones you pair it the ordinary way.</p>
+<p>There is no noise cancelling and no multipoint. The <a href="/products/boat-airdopes-212">boAt Airdopes 212</a> adds the first for Rs 300 less. For all-day comfort and small ears, the Redmi is still the one we would hand over.</p>
+
+=== redmi-buds-8-active
+<p>The Buds 8 Active is an open-style pair, without silicone tips, around a large 14.2mm driver. Open buds need that size to give any bass at all, and here it works at moderate volume. You keep hearing traffic and announcements.</p>
+<p>It supports two devices, has IP54 and weighs 3.8 grams per bud in a very small 28 gram case. Seven hours and 37 in total is average.</p>
+<p>At Rs 4,499 the question is whether you want an open fit. If you do, it is a good-value example. If you are only looking for the best sound or quiet, a sealed pair such as the <a href="/products/anker-soundcore-r50i-nc">Soundcore R50i NC</a> is the better use of Rs 500 more.</p>

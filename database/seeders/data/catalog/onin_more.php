@@ -26,7 +26,7 @@ return [
         ],
         'description' => <<<'HTML'
 <p>Drop your phone on the Belkin 15W pad and it starts charging, no cable to fumble for at the bedside or on the desk. It is Qi-certified, so it works with most recent iPhones and Android phones that support wireless charging, and it charges through most lightweight cases, so you don't have to strip the phone every night.</p>
-<p>The 15W output is about as fast as wireless charging gets for most phones, and the pad lets the phone sit at two angles. ONIN Infosys sells the model WIB002btBK for Rs 5,800 with Belkin's two-year warranty.</p>
+<p>The 15W output is about as fast as wireless charging gets for most phones, and the pad lets the phone sit at two angles. The model WIB002btBK sells for Rs 5,800 with Belkin's two-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Belkin 15W pad charge iPhones?', <<<'HTML'
@@ -36,8 +36,8 @@ HTML],
         ],
         'seo' => [
             'title' => 'Belkin 15W Wireless Charging Pad Price in Nepal',
-            'description' => 'Belkin 15W Qi wireless charging pad price in Nepal: Rs 5,800 at ONIN Infosys. Works through most cases, charges iPhone and Android, 2-year warranty.',
-            'keywords' => 'belkin 15w wireless charging pad price in nepal, belkin 15w wireless charging pad, belkin nepal, onin infosys',
+            'description' => 'Belkin 15W Qi wireless charging pad price in Nepal: Rs 5,800. Works through most cases, charges iPhone and Android, 2-year warranty.',
+            'keywords' => 'belkin 15w wireless charging pad price in nepal, belkin 15w wireless charging pad, belkin nepal',
         ],
         'image_alt' => 'Belkin 15W Wireless Charging Pad',
         'buy_url' => 'https://onin.com.np/product/belkin-15w-wireless-charging-pad-price-in-nepal',
@@ -88,16 +88,16 @@ HTML],
         ],
         'description' => <<<'HTML'
 <p>A 30W USB-C charger is the sweet spot for modern phones, and Belkin's BoostCharge (WCA005) hits it. With USB-C Power Delivery 3.0 and PPS, it can top up an iPhone 13 from empty to 50% in about 24 minutes and a Galaxy S23 Ultra in about 21, by Belkin's own figures.</p>
-<p>The prongs fold away, so it slips into a laptop bag pocket without scratching anything, and 30W is enough to charge an iPad or a small laptop more slowly too. It costs Rs 4,200 at ONIN Infosys and carries a two-year warranty.</p>
+<p>The prongs fold away, so it slips into a laptop bag pocket without scratching anything, and 30W is enough to charge an iPad or a small laptop more slowly too. It costs Rs 4,200 and carries a two-year warranty.</p>
 HTML,
         'faqs' => [
             ['Is the Belkin 30W charger fast enough for a Samsung phone?', 'Yes. It supports PPS, which Samsung\'s Super Fast Charging uses, and Belkin quotes 0 to 50% on a Galaxy S23 Ultra in about 21 minutes.'],
-            ['Does it come with a cable?', 'Check the box contents with ONIN before buying. The charger has a single USB-C port, so you need a USB-C cable for your device.'],
+            ['Does it come with a cable?', 'Check the box contents with the shop before buying. The charger has a single USB-C port, so you need a USB-C cable for your device.'],
         ],
         'seo' => [
             'title' => 'Belkin BoostCharge 30W USB-C Charger Price in Nepal',
-            'description' => 'Belkin BoostCharge 30W USB-C PD charger price in Nepal: Rs 4,200 at ONIN Infosys. PPS fast charging for iPhone and Samsung, foldable prongs, 2-year warranty.',
-            'keywords' => 'belkin boostcharge 30w usb-c fast charger price in nepal, belkin boostcharge 30w usb-c fast charger, belkin nepal, onin infosys',
+            'description' => 'Belkin BoostCharge 30W USB-C PD charger price in Nepal: Rs 4,200. PPS fast charging for iPhone and Samsung, foldable prongs, 2-year warranty.',
+            'keywords' => 'belkin boostcharge 30w usb-c fast charger price in nepal, belkin boostcharge 30w usb-c fast charger, belkin nepal',
         ],
         'image_alt' => 'Belkin BoostCharge 30W USB-C Fast Charger',
         'buy_url' => 'https://onin.com.np/product/belkin-boostcharge-30w-type-c-fast-charger-price-in-nepal',
@@ -145,7 +145,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Voltage spikes are common in Nepal, and a proper surge protector is cheap insurance for a desktop, monitor and router. This Belkin strip (F9E600zb2M-GRY) gives you six sockets on a 2-metre heavy-duty cord and protects all six with three-line protection, reacting in under a nanosecond.</p>
-<p>It is rated for 1,500W of connected load and 6,500 amps of surge current, which covers a typical home office or study desk. ONIN Infosys sells it for Rs 3,040, down from Rs 3,200, and Belkin backs it with a five-year warranty.</p>
+<p>It is rated for 1,500W of connected load and 6,500 amps of surge current, which covers a typical home office or study desk. It is listed for Rs 3,040, down from Rs 3,200, and Belkin backs it with a five-year warranty.</p>
 HTML,
         'faqs' => [
             ['Is this the same as a voltage stabilizer?', <<<'HTML'
@@ -155,8 +155,8 @@ HTML],
         ],
         'seo' => [
             'title' => 'Belkin 6-Socket Surge Protector Price in Nepal',
-            'description' => 'Belkin Economy 6-socket surge protector with 2m cord: Rs 3,040 at ONIN Infosys. 1500W load, 6500A surge rating, 3-line protection, 5-year warranty.',
-            'keywords' => 'belkin economy series 6-socket surge protector (2m) price in nepal, belkin economy series 6-socket surge protector (2m), belkin nepal, onin infosys',
+            'description' => 'Belkin Economy 6-socket surge protector with 2m cord: Rs 3,040. 1500W load, 6500A surge rating, 3-line protection, 5-year warranty.',
+            'keywords' => 'belkin economy series 6-socket surge protector (2m) price in nepal, belkin economy series 6-socket surge protector (2m), belkin nepal',
         ],
         'image_alt' => 'Belkin Economy Series 6-Socket Surge Protector (2m)',
         'buy_url' => 'https://onin.com.np/product/belkin-6-socket-surge-protector-price',
@@ -206,18 +206,18 @@ HTML],
         ],
         'description' => <<<'HTML'
 <p>If you only need to protect a laptop charger, a monitor and a couple of other plugs, Belkin's 4-outlet strip (F9E400zb1.5MGRY) is the compact choice. It has the same under-a-nanosecond response and three-line protection as the bigger six-socket model, on a 1.5-metre cord.</p>
-<p>It handles up to 1,500W of load, which is plenty for a laptop setup or a small TV corner. At Rs 3,000 from ONIN Infosys with a five-year Belkin warranty, it costs less than most chargers it protects.</p>
+<p>It handles up to 1,500W of load, which is plenty for a laptop setup or a small TV corner. At Rs 3,000 with a five-year Belkin warranty, it costs less than most chargers it protects.</p>
 HTML,
         'faqs' => [
             ['Should I get the 4-socket or 6-socket Belkin?', <<<'HTML'
 The 4-outlet strip suits a laptop desk. If you run a desktop, monitor, speakers and router from one point, the 6-socket model gives you room to spare for Rs 40 more.
 HTML],
-            ['What warranty does it have?', 'Belkin\'s five-year warranty, according to ONIN Infosys.'],
+            ['What warranty does it have?', 'Belkin\'s five-year warranty, according to our partner shop.'],
         ],
         'seo' => [
             'title' => 'Belkin 4-Outlet Surge Protector Price in Nepal',
-            'description' => 'Belkin 4-outlet surge protector with 1.5m cord: Rs 3,000 at ONIN Infosys. Up to 1500W load, fast 3-line surge protection, 5-year warranty.',
-            'keywords' => 'belkin 4-outlet surge protector (1.5m, grey) price in nepal, belkin 4-outlet surge protector (1.5m, grey), belkin nepal, onin infosys',
+            'description' => 'Belkin 4-outlet surge protector with 1.5m cord: Rs 3,000. Up to 1500W load, fast 3-line surge protection, 5-year warranty.',
+            'keywords' => 'belkin 4-outlet surge protector (1.5m, grey) price in nepal, belkin 4-outlet surge protector (1.5m, grey), belkin nepal',
         ],
         'image_alt' => 'Belkin 4-Outlet Surge Protector (1.5m, Grey)',
         'buy_url' => 'https://onin.com.np/product/belkin-surge-protector-4-outlet-1-5m-cord-price',
@@ -270,7 +270,7 @@ HTML],
         ],
         'description' => <<<'HTML'
 <p>This is the dock to buy when one laptop has to run a full desk. Belkin's INC007 connects up to three extended displays at up to 4K through three HDMI and two DisplayPort outputs, and it works with MacBooks, Chromebooks and Windows laptops over a single USB-C cable.</p>
-<p>Behind that one cable you also get four USB-A ports, a USB-C data port, Gigabit Ethernet, audio in and out, and up to 85W of charging for the laptop. Its own 150W power supply is included. ONIN Infosys sells it for Rs 52,000 with a two-year warranty, which is a lot, but it replaces a drawer full of adapters.</p>
+<p>Behind that one cable you also get four USB-A ports, a USB-C data port, Gigabit Ethernet, audio in and out, and up to 85W of charging for the laptop. Its own 150W power supply is included. It is listed for Rs 52,000 with a two-year warranty, which is a lot, but it replaces a drawer full of adapters.</p>
 HTML,
         'faqs' => [
             ['Can a MacBook use three monitors with this dock?', 'It depends on the chip. Base M1, M2 and M3 MacBooks support only one external display natively, so check your model\'s limit before buying.'],
@@ -278,8 +278,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Belkin USB-C Triple 4K Display Dock Price in Nepal',
-            'description' => 'Belkin INC007 USB-C triple display dock price in Nepal: Rs 52,000 at ONIN Infosys. 3x 4K output, HDMI and DisplayPort, 85W charging, Ethernet, 2-year warranty.',
-            'keywords' => 'belkin usb-c 4k triple display docking station (inc007) price in nepal, belkin usb-c 4k triple display docking station (inc007), belkin nepal, onin infosys',
+            'description' => 'Belkin INC007 USB-C triple display dock price in Nepal: Rs 52,000. 3x 4K output, HDMI and DisplayPort, 85W charging, Ethernet, 2-year warranty.',
+            'keywords' => 'belkin usb-c 4k triple display docking station (inc007) price in nepal, belkin usb-c 4k triple display docking station (inc007), belkin nepal',
         ],
         'image_alt' => 'Belkin USB-C 4K Triple Display Docking Station (INC007)',
         'buy_url' => 'https://onin.com.np/product/belkin-universal-adapter-usb-c-4k-triple-display-dock-price-in-nepal',
@@ -332,7 +332,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Reading a script while looking straight into the lens is what separates a polished video from a nervous one, and the Desview T12S makes it possible with a phone or tablet. It takes devices up to 12.9 inches, the size of an iPad Pro, and reflects the text on 70/30 beam-splitter glass so the camera sees through it.</p>
-<p>The large mirror area, about 270 x 202 mm, keeps text readable from a normal speaking distance. It folds into an aluminium body with a travel case, works with mirrorless and DSLR rigs in horizontal or vertical setups, and scrolls from a Bluetooth remote and the iOS or Android app. ONIN Infosys sells it for Rs 29,450.</p>
+<p>The large mirror area, about 270 x 202 mm, keeps text readable from a normal speaking distance. It folds into an aluminium body with a travel case, works with mirrorless and DSLR rigs in horizontal or vertical setups, and scrolls from a Bluetooth remote and the iOS or Android app. It is listed for Rs 29,450.</p>
 HTML,
         'faqs' => [
             ['Does the T12S work with a DSLR?', 'Yes. It supports mirrorless and DSLR cameras as well as phones, in both horizontal and vertical shooting.'],
@@ -340,8 +340,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Desview T12S Teleprompter Price in Nepal',
-            'description' => 'Desview T12S portable teleprompter price in Nepal: Rs 29,450 at ONIN Infosys. Fits tablets up to 12.9", 70/30 glass, Bluetooth remote, DSLR and phone support.',
-            'keywords' => 'desview t12s portable teleprompter (12.9-inch) price in nepal, desview t12s portable teleprompter (12.9-inch), desview nepal, onin infosys',
+            'description' => 'Desview T12S portable teleprompter price in Nepal: Rs 29,450. Fits tablets up to 12.9", 70/30 glass, Bluetooth remote, DSLR and phone support.',
+            'keywords' => 'desview t12s portable teleprompter (12.9-inch) price in nepal, desview t12s portable teleprompter (12.9-inch), desview nepal',
         ],
         'image_alt' => 'Desview T12S Portable Teleprompter (12.9-inch)',
         'buy_url' => 'https://onin.com.np/product/desview-t12s-12-9-teleprompter-nepal',
@@ -402,7 +402,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Desview T3 is a compact teleprompter for vloggers, teachers and anyone who records talking-head videos. It holds phones and tablets up to 11 inches behind HD 70/30 beam-splitter glass, so you can read your lines while looking into the lens.</p>
-<p>At about 440 g it is light enough to carry to a shoot, and it comes with lens adapter rings from 49 to 82 mm, two cold-shoe mounts and a standard 1/4-inch thread for tripods. A Bluetooth remote and the phone app handle scrolling. ONIN Infosys sells it for Rs 17,955.</p>
+<p>At about 440 g it is light enough to carry to a shoot, and it comes with lens adapter rings from 49 to 82 mm, two cold-shoe mounts and a standard 1/4-inch thread for tripods. A Bluetooth remote and the phone app handle scrolling. It is listed for Rs 17,955.</p>
 HTML,
         'faqs' => [
             ['Can I use the Desview T3 with my phone camera?', 'Yes. It works with smartphones as well as DSLR and mirrorless cameras, and supports vertical shooting for Reels and Shorts.'],
@@ -410,8 +410,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Desview T3 Teleprompter Price in Nepal',
-            'description' => 'Desview T3 portable teleprompter price in Nepal: Rs 17,955 at ONIN Infosys. Fits devices up to 11", 70/30 HD glass, Bluetooth remote, lens rings included.',
-            'keywords' => 'desview t3 portable teleprompter price in nepal, desview t3 portable teleprompter, desview nepal, onin infosys',
+            'description' => 'Desview T3 portable teleprompter price in Nepal: Rs 17,955. Fits devices up to 11", 70/30 HD glass, Bluetooth remote, lens rings included.',
+            'keywords' => 'desview t3 portable teleprompter price in nepal, desview t3 portable teleprompter, desview nepal',
         ],
         'image_alt' => 'Desview T3 Portable Teleprompter',
         'buy_url' => 'https://onin.com.np/product/desview-t3-teleprompter-nepal',
@@ -464,7 +464,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Long gaming sessions or work days are hard on the back, and the Fantech Alpha GC-283 is built around that. It has adjustable head and lumbar pillows, a recline from 135 to 180 degrees, multi-function tilt and a class 4 hydraulic piston for smooth height changes.</p>
-<p>The frame sits on a steel base with PU wheels and is upholstered in PU leather. Fantech sizes it for people about 160 to 180 cm tall. ONIN Infosys has it for Rs 39,000, down from Rs 50,000, in black, red, orange and blue.</p>
+<p>The frame sits on a steel base with PU wheels and is upholstered in PU leather. Fantech sizes it for people about 160 to 180 cm tall. It is listed for Rs 39,000, down from Rs 50,000, in black, red, orange and blue.</p>
 HTML,
         'faqs' => [
             ['Is the Fantech GC-283 good for tall people?', 'Fantech recommends it for users about 160 to 180 cm tall. Taller users may find the headrest sits low.'],
@@ -472,8 +472,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Fantech Alpha GC-283 Gaming Chair Price in Nepal',
-            'description' => 'Fantech Alpha GC-283 gaming chair price in Nepal: Rs 39,000 at ONIN Infosys. Lumbar and neck pillows, 180° recline, class 4 piston, PU leather.',
-            'keywords' => 'fantech alpha gc-283 gaming chair price in nepal, fantech alpha gc-283 gaming chair, fantech nepal, onin infosys',
+            'description' => 'Fantech Alpha GC-283 gaming chair price in Nepal: Rs 39,000. Lumbar and neck pillows, 180° recline, class 4 piston, PU leather.',
+            'keywords' => 'fantech alpha gc-283 gaming chair price in nepal, fantech alpha gc-283 gaming chair, fantech nepal',
         ],
         'image_alt' => 'Fantech Alpha GC-283 Gaming Chair',
         'buy_url' => 'https://onin.com.np/product/fantech-gaming-chair-price-in-nepal',
@@ -536,7 +536,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Thin laptops save weight by dropping ports, and a hub like Huntkey's HKDC1500800 puts them back. From one USB-C port you get HDMI out at 4K 30Hz, USB 3.0 and USB 2.0, a USB-C data port, a USB-C Power Delivery port for charging (up to 100W input), Ethernet, and SD and microSD card slots.</p>
-<p>The aluminium body helps it stay cool, and it works across Windows, macOS, Linux, iPadOS and Android. At Rs 6,499 from ONIN Infosys with official Nepal warranty, it is an inexpensive way to turn a MacBook or an iPad into a desk setup.</p>
+<p>The aluminium body helps it stay cool, and it works across Windows, macOS, Linux, iPadOS and Android. At Rs 6,499 with official Nepal warranty, it is an inexpensive way to turn a MacBook or an iPad into a desk setup.</p>
 HTML,
         'faqs' => [
             ['Can I charge my laptop through the Huntkey hub?', 'Yes. Plug your USB-C charger into the PD port and it passes power through to the laptop, up to 100W in.'],
@@ -544,8 +544,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Huntkey 8-in-1 USB-C Hub Price in Nepal',
-            'description' => 'Huntkey HKDC1500800 8-in-1 USB-C docking station: Rs 6,499 at ONIN Infosys. 4K HDMI, USB 3.0, LAN, SD/TF, 100W PD, official warranty.',
-            'keywords' => 'huntkey 8-in-1 usb-c docking station (hkdc1500800) price in nepal, huntkey 8-in-1 usb-c docking station (hkdc1500800), huntkey nepal, onin infosys',
+            'description' => 'Huntkey HKDC1500800 8-in-1 USB-C docking station: Rs 6,499. 4K HDMI, USB 3.0, LAN, SD/TF, 100W PD, official warranty.',
+            'keywords' => 'huntkey 8-in-1 usb-c docking station (hkdc1500800) price in nepal, huntkey 8-in-1 usb-c docking station (hkdc1500800), huntkey nepal',
         ],
         'image_alt' => 'Huntkey 8-in-1 USB-C Docking Station (HKDC1500800)',
         'buy_url' => 'https://onin.com.np/product/huntkey-usb-c-docking-station-hkdc1500800-price-nepal',
@@ -590,7 +590,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Logitech C920 has been the default 'good webcam' for years, and for online classes, interviews and Zoom calls it still is. It records Full HD 1080p at 30fps, with autofocus and a glass lens that look clearly sharper than most laptop cameras, plus stereo microphones.</p>
-<p>The 78-degree field of view fits one person at a desk without showing the whole room, and the clip mounts on laptops and monitors or on a tripod. ONIN Infosys sells it for Rs 19,800 (down from Rs 22,000) with a one-year Logitech warranty.</p>
+<p>The 78-degree field of view fits one person at a desk without showing the whole room, and the clip mounts on laptops and monitors or on a tripod. It is listed for Rs 19,800 (down from Rs 22,000) with a one-year Logitech warranty.</p>
 HTML,
         'faqs' => [
             ['Is the Logitech C920 good for online classes and meetings?', 'Yes. 1080p video with autofocus and stereo mics is more than Zoom, Teams or Google Meet use, so it looks noticeably better than built-in laptop cameras.'],
@@ -598,8 +598,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech C920 Pro HD Webcam Price in Nepal',
-            'description' => 'Logitech C920 Pro HD webcam price in Nepal: Rs 19,800 at ONIN Infosys. 1080p 30fps, autofocus, glass lens, stereo mics, 1-year warranty.',
-            'keywords' => 'logitech c920 pro hd webcam price in nepal, logitech c920 pro hd webcam, logitech nepal, onin infosys',
+            'description' => 'Logitech C920 Pro HD webcam price in Nepal: Rs 19,800. 1080p 30fps, autofocus, glass lens, stereo mics, 1-year warranty.',
+            'keywords' => 'logitech c920 pro hd webcam price in nepal, logitech c920 pro hd webcam, logitech nepal',
         ],
         'image_alt' => 'Logitech C920 Pro HD Webcam',
         'buy_url' => 'https://onin.com.np/product/logitech-c920-pro-hd-webcam',
@@ -656,7 +656,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Logitech built the C922 for streamers, and it shows in the software. You get Full HD 1080p at 30fps, automatic low-light correction and background replacement, all set up through Logitech Capture, plus two omnidirectional mics for voice.</p>
-<p>H.264 compression keeps recordings small and uploads quick, and the adjustable field of view lets you frame a desk shot or a closer face cam. At Rs 21,000 from ONIN Infosys with a one-year warranty, it is a step up from the C920 for anyone going live on YouTube or Twitch.</p>
+<p>H.264 compression keeps recordings small and uploads quick, and the adjustable field of view lets you frame a desk shot or a closer face cam. At Rs 21,000 with a one-year warranty, it is a step up from the C920 for anyone going live on YouTube or Twitch.</p>
 HTML,
         'faqs' => [
             ['Does the C922 work for streaming on OBS?', 'Yes. It works as a standard USB webcam in OBS, Streamlabs, Zoom and Teams.'],
@@ -664,8 +664,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech C922 Pro Stream Webcam Price in Nepal',
-            'description' => 'Logitech C922 Pro Stream webcam price in Nepal: Rs 21,000 at ONIN Infosys. 1080p 30fps, low-light correction, dual mics, background replacement.',
-            'keywords' => 'logitech c922 pro stream webcam price in nepal, logitech c922 pro stream webcam, logitech nepal, onin infosys',
+            'description' => 'Logitech C922 Pro Stream webcam price in Nepal: Rs 21,000. 1080p 30fps, low-light correction, dual mics, background replacement.',
+            'keywords' => 'logitech c922 pro stream webcam price in nepal, logitech c922 pro stream webcam, logitech nepal',
         ],
         'image_alt' => 'Logitech C922 Pro Stream Webcam',
         'buy_url' => 'https://onin.com.np/product/logitech-c922-webcam-price-in-nepal',
@@ -715,7 +715,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Meetion's MT-CHR14 is a racing-style chair for people who sit for hours, whether gaming or studying. It comes with a headrest and a lumbar pillow, adjusts its angle automatically as you lean, and is covered in microfibre leather over a diamond-pattern cushion.</p>
-<p>The base rolls on racing-tested wheels and the gas lift is SGS-certified, the safety test you want on a chair you sit on every day. ONIN Infosys sells it for Rs 26,999, down from Rs 28,999.</p>
+<p>The base rolls on racing-tested wheels and the gas lift is SGS-certified, the safety test you want on a chair you sit on every day. It is listed for Rs 26,999, down from Rs 28,999.</p>
 HTML,
         'faqs' => [
             ['Does the Meetion MT-CHR14 come with pillows?', 'Yes. It includes a neck pillow and a lumbar cushion.'],
@@ -723,8 +723,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion MT-CHR14 Gaming Chair Price in Nepal',
-            'description' => 'Meetion MT-CHR14 ergonomic gaming chair price in Nepal: Rs 26,999 at ONIN Infosys. Headrest and lumbar pillow, reclining, microfibre leather, SGS gas lift.',
-            'keywords' => 'meetion mt-chr14 ergonomic gaming chair price in nepal, meetion mt-chr14 ergonomic gaming chair, meetion nepal, onin infosys',
+            'description' => 'Meetion MT-CHR14 ergonomic gaming chair price in Nepal: Rs 26,999. Headrest and lumbar pillow, reclining, microfibre leather, SGS gas lift.',
+            'keywords' => 'meetion mt-chr14 ergonomic gaming chair price in nepal, meetion mt-chr14 ergonomic gaming chair, meetion nepal',
         ],
         'image_alt' => 'Meetion MT-CHR14 Ergonomic Gaming Chair',
         'buy_url' => 'https://onin.com.np/product/meetion-mt-chr14-gaming-chair-price-nepal',
@@ -781,7 +781,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Rapoo H120 is a no-fuss headset for calls, online classes and everyday listening. It is light, the headband adjusts, the ear cushions are soft, and the omnidirectional microphone picks up your voice without fiddling with a boom.</p>
-<p>It connects with a single 3.5mm jack, so it works with laptops, phones and most PCs. For Rs 1,800 at ONIN Infosys, it is a simple upgrade over a laptop's built-in speakers and mic.</p>
+<p>It connects with a single 3.5mm jack, so it works with laptops, phones and most PCs. For Rs 1,800 it is a simple upgrade over a laptop's built-in speakers and mic.</p>
 HTML,
         'faqs' => [
             ['Will the Rapoo H120 work with my phone?', 'Yes, through its 3.5mm jack. Phones without a headphone jack need a USB-C or Lightning adapter.'],
@@ -789,8 +789,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo H120 Headset Price in Nepal',
-            'description' => 'Rapoo H120 wired headset price in Nepal: Rs 1,800 at ONIN Infosys. Lightweight, adjustable, built-in mic, 3.5mm jack for laptop and phone.',
-            'keywords' => 'rapoo h120 wired headset price in nepal, rapoo h120 wired headset, rapoo nepal, onin infosys',
+            'description' => 'Rapoo H120 wired headset price in Nepal: Rs 1,800. Lightweight, adjustable, built-in mic, 3.5mm jack for laptop and phone.',
+            'keywords' => 'rapoo h120 wired headset price in nepal, rapoo h120 wired headset, rapoo nepal',
         ],
         'image_alt' => 'Rapoo H120 Wired Headset',
         'buy_url' => 'https://onin.com.np/product/rapoo-h120-black',
@@ -840,7 +840,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>If you just need a working camera for a desktop PC, the Rapoo C200 does the job for Rs 3,500. It records at 720p and 30fps, has a built-in microphone and is plug-and-play over USB, so there are no drivers to install.</p>
-<p>The universal clip fits monitors and laptops, and the camera rotates 360 degrees to point wherever you need it. It is a budget pick for classes and video calls rather than streaming, and ONIN Infosys has it in stock.</p>
+<p>The universal clip fits monitors and laptops, and the camera rotates 360 degrees to point wherever you need it. It is a budget pick for classes and video calls rather than streaming, and it is listed in stock.</p>
 HTML,
         'faqs' => [
             ['Is 720p good enough for Zoom classes?', 'For most video calls, yes. Zoom and Meet often send 720p anyway. For recording or streaming, a 1080p camera like the Logitech C920 looks sharper.'],
@@ -848,8 +848,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo C200 Webcam Price in Nepal',
-            'description' => 'Rapoo C200 720p webcam price in Nepal: Rs 3,500 at ONIN Infosys. Built-in mic, plug-and-play USB, 360° rotation, clip mount for PC and laptop.',
-            'keywords' => 'rapoo c200 720p webcam price in nepal, rapoo c200 720p webcam, rapoo nepal, onin infosys',
+            'description' => 'Rapoo C200 720p webcam price in Nepal: Rs 3,500. Built-in mic, plug-and-play USB, 360° rotation, clip mount for PC and laptop.',
+            'keywords' => 'rapoo c200 720p webcam price in nepal, rapoo c200 720p webcam, rapoo nepal',
         ],
         'image_alt' => 'Rapoo C200 720p Webcam',
         'buy_url' => 'https://onin.com.np/product/rapoo-webcam-c200---720p',
@@ -905,7 +905,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Rapoo's XD120 is a pocket-sized USB-C hub for people who move between home and office. It adds HDMI output, two USB 3.0 ports at 5Gbps, SD and microSD card slots, and a USB-C Power Delivery port, so you can charge while everything else is plugged in.</p>
-<p>It even works with a Nintendo Switch for playing on a TV. The metal casing feels sturdy and the hub is small enough to live in a laptop bag. ONIN Infosys sells the silver model for Rs 6,500.</p>
+<p>It even works with a Nintendo Switch for playing on a TV. The metal casing feels sturdy and the hub is small enough to live in a laptop bag. The silver model sells for Rs 6,500.</p>
 HTML,
         'faqs' => [
             ['Can I use the Rapoo XD120 with a Nintendo Switch?', 'Yes, Rapoo lists Switch compatibility for HDMI output to a TV.'],
@@ -913,8 +913,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo XD120 USB-C Hub Price in Nepal',
-            'description' => 'Rapoo XD120 USB-C hub price in Nepal: Rs 6,500 at ONIN Infosys. HDMI, 2x USB 3.0 5Gbps, SD/TF reader, PD charging, Switch compatible.',
-            'keywords' => 'rapoo xd120 usb-c hub price in nepal, rapoo xd120 usb-c hub, rapoo nepal, onin infosys',
+            'description' => 'Rapoo XD120 USB-C hub price in Nepal: Rs 6,500. HDMI, 2x USB 3.0 5Gbps, SD/TF reader, PD charging, Switch compatible.',
+            'keywords' => 'rapoo xd120 usb-c hub price in nepal, rapoo xd120 usb-c hub, rapoo nepal',
         ],
         'image_alt' => 'Rapoo XD120 USB-C Hub',
         'buy_url' => <<<'HTML'
@@ -974,7 +974,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Not everyone needs an Apple Pencil for notes and sketches, and the WiWU Pencil D costs a fraction of one. It works on iPads from 2018 onwards, the 6th to 11th gen iPad, every iPad Pro and recent Air and mini models, as well as many Android and Windows touchscreens.</p>
-<p>On iPad it supports palm rejection and tilt shading, and it snaps magnetically to the side of the tablet. It charges over USB-C, with a 15-minute quick charge for a session, runs about 6 to 10 hours, and turns itself off after five idle minutes. ONIN Infosys sells it for Rs 4,500.</p>
+<p>On iPad it supports palm rejection and tilt shading, and it snaps magnetically to the side of the tablet. It charges over USB-C, with a 15-minute quick charge for a session, runs about 6 to 10 hours, and turns itself off after five idle minutes. It is listed for Rs 4,500.</p>
 HTML,
         'faqs' => [
             ['Does the WiWU Pencil D have palm rejection?', 'Yes, on iPads from 2018 onwards. It also supports tilt for shading.'],
@@ -982,8 +982,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'WiWU Pencil D Stylus Price in Nepal',
-            'description' => 'WiWU Pencil D universal stylus price in Nepal: Rs 4,500 at ONIN Infosys. iPad palm rejection and tilt, USB-C fast charging, magnetic attach.',
-            'keywords' => 'wiwu pencil d universal stylus price in nepal, wiwu pencil d universal stylus, wiwu nepal, onin infosys',
+            'description' => 'WiWU Pencil D universal stylus price in Nepal: Rs 4,500. iPad palm rejection and tilt, USB-C fast charging, magnetic attach.',
+            'keywords' => 'wiwu pencil d universal stylus price in nepal, wiwu pencil d universal stylus, wiwu nepal',
         ],
         'image_alt' => 'WiWU Pencil D Universal Stylus',
         'buy_url' => 'https://onin.com.np/product/wiwu-pencil-d-universal-stylus-price-nepal',
@@ -1054,7 +1054,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The DJI Flip is aimed at people who want great aerial video without learning to fly a big drone. It weighs under 249 g, its propellers sit inside built-in guards, and it folds flat. Yet it shoots 4K at up to 100fps and 48MP stills, with 10-bit D-Log M for colour grading.</p>
-<p>AI subject tracking and automatic flight modes handle the cinematic moves, O4 transmission gives a range of up to 8 miles, and a battery lasts about 31 minutes. This bundle includes the RC 2 controller with its own screen. ONIN Infosys sells it for Rs 1,12,500. Check Nepal's drone flying rules before you take off.</p>
+<p>AI subject tracking and automatic flight modes handle the cinematic moves, O4 transmission gives a range of up to 8 miles, and a battery lasts about 31 minutes. This bundle includes the RC 2 controller with its own screen. It is listed for Rs 1,12,500. Check Nepal's drone flying rules before you take off.</p>
 HTML,
         'faqs' => [
             ['Do I need permission to fly a DJI Flip in Nepal?', <<<'HTML'
@@ -1064,8 +1064,8 @@ HTML],
         ],
         'seo' => [
             'title' => 'DJI Flip Drone Price in Nepal (with RC 2)',
-            'description' => 'DJI Flip drone with RC 2 price in Nepal: Rs 1,12,500 at ONIN Infosys. Under 249g, 4K 100fps, 48MP, propeller guards, 31-min flight, AI tracking.',
-            'keywords' => 'dji flip drone with rc 2 price in nepal, dji flip drone with rc 2, dji nepal, onin infosys',
+            'description' => 'DJI Flip drone with RC 2 price in Nepal: Rs 1,12,500. Under 249g, 4K 100fps, 48MP, propeller guards, 31-min flight, AI tracking.',
+            'keywords' => 'dji flip drone with rc 2 price in nepal, dji flip drone with rc 2, dji nepal',
         ],
         'image_alt' => 'DJI Flip Drone with RC 2',
         'buy_url' => 'https://onin.com.np/product/dji-flip-rc2-drone-price-in-nepal',
@@ -1123,7 +1123,7 @@ HTML],
         ],
         'description' => <<<'HTML'
 <p>Beats Fit Pro is the pair to choose if earbuds keep falling out at the gym or on a run. The flexible wingtips lock into your ear, and you still get active noise cancellation and a full, bass-forward sound that Beats is known for.</p>
-<p>They pair quickly with iPhones and also work with Android over Bluetooth, which makes them a good fit for mixed-phone households. ONIN Infosys sells them for Rs 31,000.</p>
+<p>They pair quickly with iPhones and also work with Android over Bluetooth, which makes them a good fit for mixed-phone households. They are listed for Rs 31,000.</p>
 HTML,
         'faqs' => [
             ['Are Beats Fit Pro good for workouts?', 'Yes. The wingtip design holds them in place during runs and gym sessions, which is their main advantage over regular earbuds.'],
@@ -1131,8 +1131,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Beats Fit Pro Price in Nepal',
-            'description' => 'Beats Fit Pro price in Nepal: Rs 31,000 at ONIN Infosys. True wireless earbuds with ANC and secure wingtip fit, for iPhone and Android.',
-            'keywords' => 'beats fit pro price in nepal, beats fit pro, beats nepal, onin infosys',
+            'description' => 'Beats Fit Pro price in Nepal: Rs 31,000. True wireless earbuds with ANC and secure wingtip fit, for iPhone and Android.',
+            'keywords' => 'beats fit pro price in nepal, beats fit pro, beats nepal',
         ],
         'image_alt' => 'Beats Fit Pro',
         'buy_url' => 'https://onin.com.np/product/beats-fit-pro---true-wireless-noise-cancelling-earbuds',
@@ -1180,7 +1180,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Beats Studio Buds are small, stemless earbuds with active noise cancellation, and they sit flush in the ear. The sound leans warm with strong bass, clear vocals and enough detail up top for everyday music and calls.</p>
-<p>Battery life is up to 8 hours on a charge and 24 hours with the case, and touch controls handle music and calls. They work with both iPhone and Android. ONIN Infosys has them in stock for Rs 21,700, Rs 9,300 less than the sportier Fit Pro.</p>
+<p>Battery life is up to 8 hours on a charge and 24 hours with the case, and touch controls handle music and calls. They work with both iPhone and Android. They are listed in stock for Rs 21,700, Rs 9,300 less than the sportier Fit Pro.</p>
 HTML,
         'faqs' => [
             ['How long does the Beats Studio Buds battery last?', 'Up to 8 hours of listening per charge and up to 24 hours with the charging case.'],
@@ -1188,8 +1188,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Beats Studio Buds Price in Nepal',
-            'description' => 'Beats Studio Buds price in Nepal: Rs 21,700 at ONIN Infosys. Noise-cancelling true wireless earbuds, 8h battery (24h with case), iOS and Android.',
-            'keywords' => 'beats studio buds price in nepal, beats studio buds, beats nepal, onin infosys',
+            'description' => 'Beats Studio Buds price in Nepal: Rs 21,700. Noise-cancelling true wireless earbuds, 8h battery (24h with case), iOS and Android.',
+            'keywords' => 'beats studio buds price in nepal, beats studio buds, beats nepal',
         ],
         'image_alt' => 'Beats Studio Buds',
         'buy_url' => 'https://onin.com.np/product/beats-studio-buds---true-wireless-noise-cancelling-earbuds',
@@ -1230,16 +1230,16 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Fantech HQ53 Flash keeps a gaming headset simple and affordable. Large 50mm drivers give footsteps and explosions some weight, the frame is light enough for long matches, and red accent lighting gives it a gaming look.</p>
-<p>It connects with a 3.5mm stereo plug for audio, plus USB to power the lights. At Rs 2,500 from ONIN Infosys with a one-year warranty, it is an easy first headset for PC gaming.</p>
+<p>It connects with a 3.5mm stereo plug for audio, plus USB to power the lights. At Rs 2,500 with a one-year warranty, it is an easy first headset for PC gaming.</p>
 HTML,
         'faqs' => [
             ['Does the Fantech HQ53 need USB?', 'Only for the lighting. Sound and mic go through the 3.5mm plug, so it also works on phones and consoles with a headphone jack.'],
-            ['What warranty does it have?', 'One year, according to ONIN Infosys.'],
+            ['What warranty does it have?', 'One year, according to our partner shop.'],
         ],
         'seo' => [
             'title' => 'Fantech HQ53 Flash Gaming Headset Price in Nepal',
-            'description' => 'Fantech HQ53 Flash gaming headset price in Nepal: Rs 2,500 at ONIN Infosys. 50mm drivers, lightweight, red lighting, 3.5mm + USB, 1-year warranty.',
-            'keywords' => 'fantech hq53 flash gaming headset price in nepal, fantech hq53 flash gaming headset, fantech nepal, onin infosys',
+            'description' => 'Fantech HQ53 Flash gaming headset price in Nepal: Rs 2,500. 50mm drivers, lightweight, red lighting, 3.5mm + USB, 1-year warranty.',
+            'keywords' => 'fantech hq53 flash gaming headset price in nepal, fantech hq53 flash gaming headset, fantech nepal',
         ],
         'image_alt' => 'Fantech HQ53 Flash Gaming Headset',
         'buy_url' => 'https://onin.com.np/product/fantech-hq53-flash-black-gaming-headphone',
@@ -1293,7 +1293,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>For office calls and online classes, the Logitech H110 does exactly what's needed and nothing more. You get stereo sound, a unidirectional microphone that focuses on your voice, and separate 3.5mm plugs for headphones and mic, which suits desktop PCs with two jacks.</p>
-<p>It works on Windows, macOS and Chrome OS, and the cable is long enough to reach a tower under the desk. ONIN Infosys sells it for Rs 1,450 (down from Rs 1,800) with a one-year Logitech warranty.</p>
+<p>It works on Windows, macOS and Chrome OS, and the cable is long enough to reach a tower under the desk. It is listed for Rs 1,450 (down from Rs 1,800) with a one-year Logitech warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Logitech H110 work with a laptop that has one audio jack?', 'It uses two separate 3.5mm plugs, so laptops with a single combo jack need a splitter. The H111 uses one combined plug instead.'],
@@ -1301,8 +1301,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech H110 Stereo Headset Price in Nepal',
-            'description' => 'Logitech H110 stereo headset price in Nepal: Rs 1,450 at ONIN Infosys. Noise-reducing mic, dual 3.5mm plugs for PC, 1-year warranty.',
-            'keywords' => 'logitech h110 stereo headset price in nepal, logitech h110 stereo headset, logitech nepal, onin infosys',
+            'description' => 'Logitech H110 stereo headset price in Nepal: Rs 1,450. Noise-reducing mic, dual 3.5mm plugs for PC, 1-year warranty.',
+            'keywords' => 'logitech h110 stereo headset price in nepal, logitech h110 stereo headset, logitech nepal',
         ],
         'image_alt' => 'Logitech H110 Stereo Headset',
         'buy_url' => 'https://onin.com.np/product/logitech-h110-pc-stereo-headset',
@@ -1353,7 +1353,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Logitech H111 is the laptop-friendly twin of the H110. It has the same stereo audio and directional microphone, but uses a single 3.5mm combo plug that fits the one jack on most laptops and phones.</p>
-<p>Its 2.5-metre cable gives you room to move, and the lightweight band is comfortable through a full day of meetings. ONIN Infosys sells it for Rs 1,650, down from Rs 1,950, with a one-year Logitech warranty.</p>
+<p>Its 2.5-metre cable gives you room to move, and the lightweight band is comfortable through a full day of meetings. It is listed for Rs 1,650, down from Rs 1,950, with a one-year Logitech warranty.</p>
 HTML,
         'faqs' => [
             ['Will the H111 work with my phone?', 'Yes, with phones that have a 3.5mm jack. Phones without one need an adapter.'],
@@ -1361,8 +1361,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech H111 Headset Price in Nepal',
-            'description' => 'Logitech H111 stereo headset price in Nepal: Rs 1,650 at ONIN Infosys. Single 3.5mm plug for laptops and phones, clear mic, 1-year warranty.',
-            'keywords' => 'logitech h111 stereo headset price in nepal, logitech h111 stereo headset, logitech nepal, onin infosys',
+            'description' => 'Logitech H111 stereo headset price in Nepal: Rs 1,650. Single 3.5mm plug for laptops and phones, clear mic, 1-year warranty.',
+            'keywords' => 'logitech h111 stereo headset price in nepal, logitech h111 stereo headset, logitech nepal',
         ],
         'image_alt' => 'Logitech H111 Stereo Headset',
         'buy_url' => 'https://onin.com.np/product/logitech-h111-stereo-headset',
@@ -1420,7 +1420,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Meetion's HP010 is a budget gaming headset that looks the part. A leather headband, 40mm speakers and backlighting give it a gamer feel, while the omnidirectional mic rotates through 160 degrees, so you can push it out of the way when you are not talking.</p>
-<p>It plugs in with two 3.5mm jacks and weighs about 264 g. For Rs 2,000 at ONIN Infosys (down from Rs 2,800) with a one-year warranty, it is one of the cheapest ways to get a lit-up headset with a mic.</p>
+<p>It plugs in with two 3.5mm jacks and weighs about 264 g. For Rs 2,000 (down from Rs 2,800) with a one-year warranty, it is one of the cheapest ways to get a lit-up headset with a mic.</p>
 HTML,
         'faqs' => [
             ['Does the Meetion HP010 have a microphone?', 'Yes, an omnidirectional noise-cancelling mic that rotates 160 degrees.'],
@@ -1428,8 +1428,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion HP010 Gaming Headset Price in Nepal',
-            'description' => 'Meetion HP010 backlit gaming headset price in Nepal: Rs 2,000 at ONIN Infosys. 40mm drivers, rotating mic, leather headband, 1-year warranty.',
-            'keywords' => 'meetion hp010 backlit gaming headset price in nepal, meetion hp010 backlit gaming headset, meetion nepal, onin infosys',
+            'description' => 'Meetion HP010 backlit gaming headset price in Nepal: Rs 2,000. 40mm drivers, rotating mic, leather headband, 1-year warranty.',
+            'keywords' => 'meetion hp010 backlit gaming headset price in nepal, meetion hp010 backlit gaming headset, meetion nepal',
         ],
         'image_alt' => 'Meetion HP010 Backlit Gaming Headset',
         'buy_url' => 'https://onin.com.np/product/meetion-hp010-backlit-gaming-stereo-headset-with-mic-',
@@ -1491,7 +1491,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The HP020 moves up from Meetion's entry headset with larger 50mm speakers and a steel headband beam that holds its shape over time. The leather band and noise-cancelling mic make it comfortable for long team chats.</p>
-<p>It connects through a 3.5mm stereo jack, with USB for the lighting, and weighs about 290 g. ONIN Infosys sells it for Rs 3,200 with a one-year warranty.</p>
+<p>It connects through a 3.5mm stereo jack, with USB for the lighting, and weighs about 290 g. It is listed for Rs 3,200 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['What\'s different from the HP010?', 'Bigger 50mm drivers, a steel beam in the headband, and a 3.5mm jack plus USB instead of two audio plugs.'],
@@ -1499,8 +1499,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion HP020 Gaming Headset Price in Nepal',
-            'description' => 'Meetion HP020 backlit gaming headset price in Nepal: Rs 3,200 at ONIN Infosys. 50mm drivers, steel band, noise-cancelling mic, 1-year warranty.',
-            'keywords' => 'meetion hp020 backlit gaming headset price in nepal, meetion hp020 backlit gaming headset, meetion nepal, onin infosys',
+            'description' => 'Meetion HP020 backlit gaming headset price in Nepal: Rs 3,200. 50mm drivers, steel band, noise-cancelling mic, 1-year warranty.',
+            'keywords' => 'meetion hp020 backlit gaming headset price in nepal, meetion hp020 backlit gaming headset, meetion nepal',
         ],
         'image_alt' => 'Meetion HP020 Backlit Gaming Headset',
         'buy_url' => 'https://onin.com.np/product/meetion-hp020-gaming-headset-with-mic-price-in-nepal',
@@ -1562,7 +1562,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>With 50mm speaker units, a noise-reduction microphone and a one-key mic mute on the cable, the Meetion HP021 covers the things that matter in team games. The leather headband adjusts, and the inline control means you never have to alt-tab to mute yourself.</p>
-<p>It connects through a 3.5mm stereo jack (with USB for the lights) on a 2.2-metre cable. ONIN Infosys sells it for Rs 2,500 with a one-year warranty, which puts it between Meetion's HP010 and HP020.</p>
+<p>It connects through a 3.5mm stereo jack (with USB for the lights) on a 2.2-metre cable. It is listed for Rs 2,500 with a one-year warranty, which puts it between Meetion's HP010 and HP020.</p>
 HTML,
         'faqs' => [
             ['Can I mute the mic quickly on the HP021?', 'Yes, there is a one-key mic switch on the cable control.'],
@@ -1570,8 +1570,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion HP021 Gaming Headset Price in Nepal',
-            'description' => 'Meetion HP021 gaming headset price in Nepal: Rs 2,500 at ONIN Infosys. 50mm drivers, noise-reduction mic with mute key, 2.2m cable, 1-year warranty.',
-            'keywords' => 'meetion hp021 gaming headset price in nepal, meetion hp021 gaming headset, meetion nepal, onin infosys',
+            'description' => 'Meetion HP021 gaming headset price in Nepal: Rs 2,500. 50mm drivers, noise-reduction mic with mute key, 2.2m cable, 1-year warranty.',
+            'keywords' => 'meetion hp021 gaming headset price in nepal, meetion hp021 gaming headset, meetion nepal',
         ],
         'image_alt' => 'Meetion HP021 Gaming Headset',
         'buy_url' => 'https://onin.com.np/product/meetion-hp021-stereo-gaming-noise-canceling-headset-with-mic',
@@ -1630,16 +1630,16 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The HP030 is Meetion's step into USB headsets with 7.1 virtual surround, which helps you place footsteps and gunfire in shooters. It plugs into a gold-plated USB connector on a braided, anti-pull cable, so there is no fumbling with separate audio and mic jacks.</p>
-<p>The leather headband and backlighting match the rest of the range. Meetion quotes a 10 Hz to 20 kHz frequency response. ONIN Infosys sells it for Rs 4,200 with a one-year warranty.</p>
+<p>The leather headband and backlighting match the rest of the range. Meetion quotes a 10 Hz to 20 kHz frequency response. It is listed for Rs 4,200 with a one-year warranty.</p>
 HTML,
         'faqs' => [
-            ['Does the HP030 work on a PS4 or PS5?', 'It connects over USB, which most consoles accept for headsets, but 7.1 surround is intended for PC. Check compatibility with ONIN before buying for a console.'],
+            ['Does the HP030 work on a PS4 or PS5?', 'It connects over USB, which most consoles accept for headsets, but 7.1 surround is intended for PC. Check compatibility with the shop before buying for a console.'],
             ['Is 7.1 surround useful?', 'In games like Valorant, PUBG or CS2 it can make it easier to hear where sounds come from.'],
         ],
         'seo' => [
             'title' => 'Meetion HP030 7.1 Gaming Headset Price in Nepal',
-            'description' => 'Meetion HP030 HIFI 7.1 USB gaming headset price in Nepal: Rs 4,200 at ONIN Infosys. Virtual surround, braided cable, backlit, 1-year warranty.',
-            'keywords' => 'meetion hp030 7.1 gaming headset price in nepal, meetion hp030 7.1 gaming headset, meetion nepal, onin infosys',
+            'description' => 'Meetion HP030 HIFI 7.1 USB gaming headset price in Nepal: Rs 4,200. Virtual surround, braided cable, backlit, 1-year warranty.',
+            'keywords' => 'meetion hp030 7.1 gaming headset price in nepal, meetion hp030 7.1 gaming headset, meetion nepal',
         ],
         'image_alt' => 'Meetion HP030 7.1 Gaming Headset',
         'buy_url' => 'https://onin.com.np/product/meetion-hp030-gaming-headset-price-in-nepal',
@@ -1694,7 +1694,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Rapoo's VH800 drops the cable without dropping the gaming features. It connects over a 2.4GHz wireless dongle for low-latency play or Bluetooth 5.2 for phones and tablets, so one headset covers both PC sessions and mobile gaming.</p>
-<p>Graphene composite drivers handle detail, the microphone detaches when you just want music, and the metal headband retracts to fit. RGB lighting and on-ear controls finish it off. ONIN Infosys sells it for Rs 8,750.</p>
+<p>Graphene composite drivers handle detail, the microphone detaches when you just want music, and the metal headband retracts to fit. RGB lighting and on-ear controls finish it off. It is listed for Rs 8,750.</p>
 HTML,
         'faqs' => [
             ['Can the Rapoo VH800 connect to my phone?', 'Yes, over Bluetooth 5.2. Use the 2.4GHz dongle on a PC for lower latency.'],
@@ -1702,8 +1702,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo VH800 Wireless Gaming Headset Price in Nepal',
-            'description' => 'Rapoo VH800 dual-mode gaming headset price in Nepal: Rs 8,750 at ONIN Infosys. 2.4GHz + Bluetooth 5.2, detachable mic, graphene drivers, RGB.',
-            'keywords' => 'rapoo vh800 dual-mode gaming headset price in nepal, rapoo vh800 dual-mode gaming headset, rapoo nepal, onin infosys',
+            'description' => 'Rapoo VH800 dual-mode gaming headset price in Nepal: Rs 8,750. 2.4GHz + Bluetooth 5.2, detachable mic, graphene drivers, RGB.',
+            'keywords' => 'rapoo vh800 dual-mode gaming headset price in nepal, rapoo vh800 dual-mode gaming headset, rapoo nepal',
         ],
         'image_alt' => 'Rapoo VH800 Dual-Mode Gaming Headset',
         'buy_url' => 'https://onin.com.np/product/rapoo-vh800-bluetooth-gaming-headset--rgb--dual-mode--usb---bluetooth-',
@@ -1763,7 +1763,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>At 69 g, the Fantech Helios UX3 is the kind of light mouse competitive players like for fast flicks. Inside is a PixArt PMW3389 sensor that goes from 400 up to 16,000 DPI, with 1,000Hz polling and 400 IPS tracking, the same sensor class found in far pricier mice.</p>
-<p>Huano switches are rated for 50 million clicks, there are seven buttons, and a 1.8m paracord cable barely drags. RGB lighting runs across the body. ONIN Infosys sells it for Rs 6,200 with a one-year warranty.</p>
+<p>Huano switches are rated for 50 million clicks, there are seven buttons, and a 1.8m paracord cable barely drags. RGB lighting runs across the body. It is listed for Rs 6,200 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['What sensor does the Fantech UX3 use?', 'The PixArt PMW3389, adjustable from 400 to 16,000 DPI.'],
@@ -1771,8 +1771,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Fantech Helios UX3 Gaming Mouse Price in Nepal',
-            'description' => 'Fantech Helios UX3 gaming mouse price in Nepal: Rs 6,200 at ONIN Infosys. 69g, PixArt 3389 16K DPI, 1000Hz, paracord cable, RGB.',
-            'keywords' => 'fantech helios ux3 gaming mouse price in nepal, fantech helios ux3 gaming mouse, fantech nepal, onin infosys',
+            'description' => 'Fantech Helios UX3 gaming mouse price in Nepal: Rs 6,200. 69g, PixArt 3389 16K DPI, 1000Hz, paracord cable, RGB.',
+            'keywords' => 'fantech helios ux3 gaming mouse price in nepal, fantech helios ux3 gaming mouse, fantech nepal',
         ],
         'image_alt' => 'Fantech Helios UX3 Gaming Mouse',
         'buy_url' => 'https://onin.com.np/product/fantech-rgb-gaming-mouse-price-in-nepal',
@@ -1831,7 +1831,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The G502 HERO is one of the most popular gaming mice ever, mainly for its shape and its eleven programmable buttons. The HERO 25K-class sensor tracks from 100 to 25,600 DPI at over 400 IPS, with a 1,000 Hz report rate.</p>
-<p>At about 121 g it is on the heavy side, which some players prefer for control, and it suits MMO and strategy players who want macros under the thumb. ONIN Infosys has it for Rs 8,000, down from Rs 9,000.</p>
+<p>At about 121 g it is on the heavy side, which some players prefer for control, and it suits MMO and strategy players who want macros under the thumb. It is listed for Rs 8,000, down from Rs 9,000.</p>
 HTML,
         'faqs' => [
             ['How many buttons does the G502 HERO have?', 'Eleven, all programmable in Logitech G HUB.'],
@@ -1839,8 +1839,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech G502 HERO Price in Nepal',
-            'description' => 'Logitech G502 HERO gaming mouse price in Nepal: Rs 8,000 at ONIN Infosys. HERO sensor up to 25,600 DPI, 11 programmable buttons, 1000Hz.',
-            'keywords' => 'logitech g502 hero gaming mouse price in nepal, logitech g502 hero gaming mouse, logitech nepal, onin infosys',
+            'description' => 'Logitech G502 HERO gaming mouse price in Nepal: Rs 8,000. HERO sensor up to 25,600 DPI, 11 programmable buttons, 1000Hz.',
+            'keywords' => 'logitech g502 hero gaming mouse price in nepal, logitech g502 hero gaming mouse, logitech nepal',
         ],
         'image_alt' => 'Logitech G502 HERO Gaming Mouse',
         'buy_url' => 'https://onin.com.np/product/logitech-g502-hero-optical-16000dpi-wired-usb-gaming-mouse',
@@ -1889,7 +1889,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Logitech MK100 is a plain, dependable full-size keyboard and mouse set for office or home desktops. The keyboard has a numeric pad and a spill-resistant design, and it is plug-and-play.</p>
-<p>One detail to check before buying: the keyboard uses a PS/2 connector, which suits older desktops but not most laptops. ONIN Infosys sells the set for Rs 2,700 with a one-year warranty.</p>
+<p>One detail to check before buying: the keyboard uses a PS/2 connector, which suits older desktops but not most laptops. The set sells for Rs 2,700 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Will the MK100 keyboard work with a laptop?', 'The keyboard is PS/2, so it needs a PS/2 port or an adapter. For laptops, the USB Logitech MK120 is simpler.'],
@@ -1897,8 +1897,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech MK100 Combo Price in Nepal',
-            'description' => 'Logitech MK100 classic keyboard and mouse combo price in Nepal: Rs 2,700 at ONIN Infosys. Full-size with numpad, spill-resistant, 1-year warranty.',
-            'keywords' => 'logitech mk100 classic keyboard and mouse combo price in nepal, logitech mk100 classic keyboard and mouse combo, logitech nepal, onin infosys',
+            'description' => 'Logitech MK100 classic keyboard and mouse combo price in Nepal: Rs 2,700. Full-size with numpad, spill-resistant, 1-year warranty.',
+            'keywords' => 'logitech mk100 classic keyboard and mouse combo price in nepal, logitech mk100 classic keyboard and mouse combo, logitech nepal',
         ],
         'image_alt' => 'Logitech MK100 Classic Keyboard and Mouse Combo',
         'buy_url' => 'https://onin.com.np/product/logitech-mk100-classic-keyboard-price-in-nepal',
@@ -1943,7 +1943,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>If a workplace has a hundred desks, there's a good chance many have a Logitech MK120. The full-size USB keyboard is spill resistant and rated for 5 million keystrokes, with adjustable tilt legs and lights for Num, Caps and Scroll Lock.</p>
-<p>Both pieces are plug-and-play over USB, so they work on desktops and laptops alike. ONIN Infosys sells the set for Rs 2,800 with a one-year warranty.</p>
+<p>Both pieces are plug-and-play over USB, so they work on desktops and laptops alike. The set sells for Rs 2,800 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Is the MK120 wired or wireless?', 'Wired, over USB.'],
@@ -1951,8 +1951,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech MK120 Combo Price in Nepal',
-            'description' => 'Logitech MK120 USB keyboard and mouse combo price in Nepal: Rs 2,800 at ONIN Infosys. Spill-resistant, 5M keystrokes, 1-year warranty.',
-            'keywords' => 'logitech mk120 keyboard and mouse combo price in nepal, logitech mk120 keyboard and mouse combo, logitech nepal, onin infosys',
+            'description' => 'Logitech MK120 USB keyboard and mouse combo price in Nepal: Rs 2,800. Spill-resistant, 5M keystrokes, 1-year warranty.',
+            'keywords' => 'logitech mk120 keyboard and mouse combo price in nepal, logitech mk120 keyboard and mouse combo, logitech nepal',
         ],
         'image_alt' => 'Logitech MK120 Keyboard and Mouse Combo',
         'buy_url' => 'https://onin.com.np/product/logitech-mk120-combo-keyboard-and-mouse-price-in-nepal',
@@ -2014,7 +2014,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Logitech's M187 is small enough to disappear into a laptop sleeve, at about 82 x 49 mm and 52 g with its battery. It connects through a 2.4GHz USB receiver with a range of up to 10 metres, and a single AAA battery lasts up to six months depending on use.</p>
-<p>Three buttons and a scroll wheel cover everyday work. At Rs 2,200 at ONIN Infosys (down from Rs 2,500) with a one-year warranty, it is a travel mouse that costs little to lose.</p>
+<p>Three buttons and a scroll wheel cover everyday work. At Rs 2,200 (down from Rs 2,500) with a one-year warranty, it is a travel mouse that costs little to lose.</p>
 HTML,
         'faqs' => [
             ['What battery does the M187 use?', 'A single AAA battery, lasting up to about six months.'],
@@ -2022,8 +2022,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech M187 Wireless Mini Mouse Price in Nepal',
-            'description' => 'Logitech M187 wireless mini mouse price in Nepal: Rs 2,200 at ONIN Infosys. Ultra-portable, 2.4GHz, 10m range, AAA battery, 1-year warranty.',
-            'keywords' => 'logitech m187 wireless mini mouse price in nepal, logitech m187 wireless mini mouse, logitech nepal, onin infosys',
+            'description' => 'Logitech M187 wireless mini mouse price in Nepal: Rs 2,200. Ultra-portable, 2.4GHz, 10m range, AAA battery, 1-year warranty.',
+            'keywords' => 'logitech m187 wireless mini mouse price in nepal, logitech m187 wireless mini mouse, logitech nepal',
         ],
         'image_alt' => 'Logitech M187 Wireless Mini Mouse',
         'buy_url' => 'https://onin.com.np/product/logitech-wireless-mini-mouse-m187',
@@ -2077,7 +2077,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Logitech F310 is a wired controller with a familiar console-style layout, and it is one of the easiest ways to play PC games that were made for a controller. It has a four-switch D-pad, and the cable runs 1.8 metres.</p>
-<p>It works on Windows from Vista to 11 and on Chrome OS. ONIN Infosys sells it for Rs 4,500 (down from Rs 4,800) with a one-year warranty.</p>
+<p>It works on Windows from Vista to 11 and on Chrome OS. It is listed for Rs 4,500 (down from Rs 4,800) with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Logitech F310 work on PC games?', 'Yes. It works with Windows and supports the standard controller mode most PC games use.'],
@@ -2085,8 +2085,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech F310 Gamepad Price in Nepal',
-            'description' => 'Logitech F310 wired gamepad price in Nepal: Rs 4,500 at ONIN Infosys. Console-style layout, 1.8m cable, Windows and Chrome OS, 1-year warranty.',
-            'keywords' => 'logitech f310 gamepad price in nepal, logitech f310 gamepad, logitech nepal, onin infosys',
+            'description' => 'Logitech F310 wired gamepad price in Nepal: Rs 4,500. Console-style layout, 1.8m cable, Windows and Chrome OS, 1-year warranty.',
+            'keywords' => 'logitech f310 gamepad price in nepal, logitech f310 gamepad, logitech nepal',
         ],
         'image_alt' => 'Logitech F310 Gamepad',
         'buy_url' => 'https://onin.com.np/product/logitech-f310-gamepad',
@@ -2141,7 +2141,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>This Cooler Master combo pairs a MasterKeys Lite L RGB keyboard with a matching RGB mouse. The keyboard uses Cooler Master's 'mem-chanical' switches, a membrane design tuned to feel closer to a mechanical key, with full RGB lighting.</p>
-<p>The mouse uses Omron switches rated for 10 million clicks. Both connect by fixed cables. ONIN Infosys sells the set for Rs 9,750, an easy way to get a matching lit-up desk in one purchase.</p>
+<p>The mouse uses Omron switches rated for 10 million clicks. Both connect by fixed cables. The set sells for Rs 9,750, an easy way to get a matching lit-up desk in one purchase.</p>
 HTML,
         'faqs' => [
             ['Is the MasterKeys Lite L keyboard mechanical?', 'It uses \'mem-chanical\' switches, a membrane design built to feel closer to mechanical keys.'],
@@ -2149,9 +2149,9 @@ HTML,
         ],
         'seo' => [
             'title' => 'Cooler Master MasterKeys Lite L Combo Price in Nepal',
-            'description' => 'Cooler Master MasterKeys Lite L RGB keyboard and mouse combo price in Nepal: Rs 9,750 at ONIN Infosys. Mem-chanical keys, Omron mouse switches.',
+            'description' => 'Cooler Master MasterKeys Lite L RGB keyboard and mouse combo price in Nepal: Rs 9,750. Mem-chanical keys, Omron mouse switches.',
             'keywords' => <<<'HTML'
-cooler master masterkeys lite l rgb keyboard and mouse combo price in nepal, cooler master masterkeys lite l rgb keyboard and mouse combo, cooler master nepal, onin infosys
+cooler master masterkeys lite l rgb keyboard and mouse combo price in nepal, cooler master masterkeys lite l rgb keyboard and mouse combo, cooler master nepal
 HTML,
         ],
         'image_alt' => 'Cooler Master MasterKeys Lite L RGB Keyboard and Mouse Combo',
@@ -2202,7 +2202,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Clear the cable clutter off a home or office desk with Meetion's C4120. It's a full-size keyboard with a number pad and an optical mouse, both on one 2.4GHz receiver, with quiet keys that won't bother anyone nearby.</p>
-<p>The mouse runs at 1,600 DPI, the set is plug-and-play on Windows and Mac, and the batteries are built to last. ONIN Infosys sells it for Rs 3,500.</p>
+<p>The mouse runs at 1,600 DPI, the set is plug-and-play on Windows and Mac, and the batteries are built to last. It is listed for Rs 3,500.</p>
 HTML,
         'faqs' => [
             ['Do both the keyboard and mouse use one receiver?', 'Yes, one 2.4GHz USB receiver for both.'],
@@ -2210,8 +2210,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion C4120 Wireless Combo Price in Nepal',
-            'description' => 'Meetion C4120 wireless keyboard and mouse combo price in Nepal: Rs 3,500 at ONIN Infosys. Full-size with numpad, quiet keys, 2.4GHz.',
-            'keywords' => 'meetion c4120 wireless keyboard and mouse combo price in nepal, meetion c4120 wireless keyboard and mouse combo, meetion nepal, onin infosys',
+            'description' => 'Meetion C4120 wireless keyboard and mouse combo price in Nepal: Rs 3,500. Full-size with numpad, quiet keys, 2.4GHz.',
+            'keywords' => 'meetion c4120 wireless keyboard and mouse combo price in nepal, meetion c4120 wireless keyboard and mouse combo, meetion nepal',
         ],
         'image_alt' => 'Meetion C4120 Wireless Keyboard and Mouse Combo',
         'buy_url' => 'https://onin.com.np/product/meetion-c4120-combo-wireless-keyboard-and-mouse',
@@ -2265,7 +2265,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>For Rs 700, the Meetion K100 is the cheapest way to get a reliable keyboard onto a desk. It's a standard 104-key USB layout with a number pad, UV-coated keycaps that resist wear, and a 1.5-metre cable.</p>
-<p>It works on Windows and macOS without drivers, which is why schools and offices buy it by the box. ONIN Infosys includes a one-year warranty.</p>
+<p>It works on Windows and macOS without drivers, which is why schools and offices buy it by the box. The listing shows a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Meetion K100 have a number pad?', 'Yes, it is a full 104/105-key layout.'],
@@ -2273,8 +2273,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion K100 Keyboard Price in Nepal',
-            'description' => 'Meetion K100 wired USB keyboard price in Nepal: Rs 700 at ONIN Infosys. Full-size 104 keys, UV-coated keycaps, plug-and-play, 1-year warranty.',
-            'keywords' => 'meetion k100 wired keyboard price in nepal, meetion k100 wired keyboard, meetion nepal, onin infosys',
+            'description' => 'Meetion K100 wired USB keyboard price in Nepal: Rs 700. Full-size 104 keys, UV-coated keycaps, plug-and-play, 1-year warranty.',
+            'keywords' => 'meetion k100 wired keyboard price in nepal, meetion k100 wired keyboard, meetion nepal',
         ],
         'image_alt' => 'Meetion K100 Wired Keyboard',
         'buy_url' => 'https://onin.com.np/product/meetion-k100-keyboard-price-in-nepal',
@@ -2326,7 +2326,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Meetion K9300 brings rainbow backlighting with adjustable brightness to a budget keyboard. Nineteen keys have anti-ghosting, which covers the WASD cluster and the keys around it in games, and twelve multimedia shortcuts sit on the function row.</p>
-<p>Keys are rated for over 10 million presses, the 1.8-metre cable reaches under-desk towers, and the board weighs about 835 g, so it stays put. ONIN Infosys sells it for Rs 2,500 with a one-year warranty.</p>
+<p>Keys are rated for over 10 million presses, the 1.8-metre cable reaches under-desk towers, and the board weighs about 835 g, so it stays put. It is listed for Rs 2,500 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Is the Meetion K9300 mechanical?', 'No, it is a membrane gaming keyboard with rainbow backlighting.'],
@@ -2334,8 +2334,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion K9300 Rainbow Gaming Keyboard Price in Nepal',
-            'description' => 'Meetion K9300 rainbow backlit gaming keyboard price in Nepal: Rs 2,500 at ONIN Infosys. 19-key anti-ghosting, 12 media keys, 1-year warranty.',
-            'keywords' => 'meetion k9300 rainbow gaming keyboard price in nepal, meetion k9300 rainbow gaming keyboard, meetion nepal, onin infosys',
+            'description' => 'Meetion K9300 rainbow backlit gaming keyboard price in Nepal: Rs 2,500. 19-key anti-ghosting, 12 media keys, 1-year warranty.',
+            'keywords' => 'meetion k9300 rainbow gaming keyboard price in nepal, meetion k9300 rainbow gaming keyboard, meetion nepal',
         ],
         'image_alt' => 'Meetion K9300 Rainbow Gaming Keyboard',
         'buy_url' => 'https://onin.com.np/product/meetion-k9300-rainbow-gaming-keyboard.html',
@@ -2395,7 +2395,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Meetion's M317 is a Rs 1,000 wired mouse with a four-colour breathing backlight and a 1,600 DPI optical sensor. It has three buttons plus a soft rubber scroll wheel, and switches rated for over 3 million clicks.</p>
-<p>It is plug-and-play over USB on a 1.5-metre cable. ONIN Infosys stocks it as an inexpensive lit-up mouse for a new PC.</p>
+<p>It is plug-and-play over USB on a 1.5-metre cable. Our partner shop stocks it as an inexpensive lit-up mouse for a new PC.</p>
 HTML,
         'faqs' => [
             ['What DPI does the Meetion M317 support?', 'Up to 1,600 DPI.'],
@@ -2403,8 +2403,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion M317 Backlit Mouse Price in Nepal',
-            'description' => 'Meetion M317 USB backlit gaming mouse price in Nepal: Rs 1,000 at ONIN Infosys. 1600 DPI, 4-colour breathing light, rubber scroll wheel.',
-            'keywords' => 'meetion m317 backlit gaming mouse price in nepal, meetion m317 backlit gaming mouse, meetion nepal, onin infosys',
+            'description' => 'Meetion M317 USB backlit gaming mouse price in Nepal: Rs 1,000. 1600 DPI, 4-colour breathing light, rubber scroll wheel.',
+            'keywords' => 'meetion m317 backlit gaming mouse price in nepal, meetion m317 backlit gaming mouse, meetion nepal',
         ],
         'image_alt' => 'Meetion M317 Backlit Gaming Mouse',
         'buy_url' => 'https://onin.com.np/product/meetion-m317-usb-wired-backlit-gaming-mouse',
@@ -2453,7 +2453,7 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Meetion M361 is the most basic mouse ONIN Infosys sells, and at Rs 450 it doesn't need to be anything more. It's a compact USB optical mouse with an ergonomic shape for office work, and it plugs in and works straight away.</p>
+<p>The Meetion M361 is the most basic mouse our partner shop sells, and at Rs 450 it doesn't need to be anything more. It's a compact USB optical mouse with an ergonomic shape for office work, and it plugs in and works straight away.</p>
 <p>Keep one in a drawer as a spare, or kit out a computer lab without spending much.</p>
 HTML,
         'faqs' => [
@@ -2462,8 +2462,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion M361 Mouse Price in Nepal',
-            'description' => 'Meetion M361 USB wired office mouse price in Nepal: Rs 450 at ONIN Infosys. Compact, ergonomic, plug-and-play optical mouse.',
-            'keywords' => 'meetion m361 wired office mouse price in nepal, meetion m361 wired office mouse, meetion nepal, onin infosys',
+            'description' => 'Meetion M361 USB wired office mouse price in Nepal: Rs 450. Compact, ergonomic, plug-and-play optical mouse.',
+            'keywords' => 'meetion m361 wired office mouse price in nepal, meetion m361 wired office mouse, meetion nepal',
         ],
         'image_alt' => 'Meetion M361 Wired Office Mouse',
         'buy_url' => 'https://onin.com.np/product/meetion-m361-usb-wired-desktop-mouse-price-in-nepal',
@@ -2521,7 +2521,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>With a 2,400 DPI optical sensor, a 4,000 fps frame rate and six buttons, the Meetion M915 covers basic gaming without spending much. The two side buttons are handy for browsing back and forward too.</p>
-<p>Its matte soft-touch shell resists sweaty palms, and the four-colour backlight can be adjusted. ONIN Infosys sells it for Rs 1,100, down from Rs 1,500.</p>
+<p>Its matte soft-touch shell resists sweaty palms, and the four-colour backlight can be adjusted. It is listed for Rs 1,100, down from Rs 1,500.</p>
 HTML,
         'faqs' => [
             ['What sensor does the Meetion M915 use?', 'An A704 optical sensor up to 2,400 DPI.'],
@@ -2529,8 +2529,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion M915 Gaming Mouse Price in Nepal',
-            'description' => 'Meetion M915 wired gaming mouse price in Nepal: Rs 1,100 at ONIN Infosys. 2400 DPI A704 sensor, 6 buttons, 4-colour backlight.',
-            'keywords' => 'meetion m915 wired gaming mouse price in nepal, meetion m915 wired gaming mouse, meetion nepal, onin infosys',
+            'description' => 'Meetion M915 wired gaming mouse price in Nepal: Rs 1,100. 2400 DPI A704 sensor, 6 buttons, 4-colour backlight.',
+            'keywords' => 'meetion m915 wired gaming mouse price in nepal, meetion m915 wired gaming mouse, meetion nepal',
         ],
         'image_alt' => 'Meetion M915 Wired Gaming Mouse',
         'buy_url' => 'https://onin.com.np/product/meetion-m915-wired-gaming-mouse.html',
@@ -2590,7 +2590,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>If you want a real mechanical keyboard without spending big, the Meetion MK007 is a good start. It uses Outemu Blue switches, the clicky, tactile kind typists love, with full-key anti-ghosting so every press registers in games.</p>
-<p>The top plate is metal and the keycaps are double-shot, so the legends won't wear off. Switches are rated for over 50 million presses, it has 12 multimedia shortcuts, and it weighs about 910 g. ONIN Infosys sells it for Rs 4,500.</p>
+<p>The top plate is metal and the keycaps are double-shot, so the legends won't wear off. Switches are rated for over 50 million presses, it has 12 multimedia shortcuts, and it weighs about 910 g. It is listed for Rs 4,500.</p>
 HTML,
         'faqs' => [
             ['What switches does the Meetion MK007 use?', 'Outemu Blue, which are clicky and tactile.'],
@@ -2598,8 +2598,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion MK007 Mechanical Keyboard Price in Nepal',
-            'description' => 'Meetion MK007 mechanical keyboard price in Nepal: Rs 4,500 at ONIN Infosys. Outemu Blue switches, full anti-ghosting, metal top, double-shot keys.',
-            'keywords' => 'meetion mk007 mechanical keyboard price in nepal, meetion mk007 mechanical keyboard, meetion nepal, onin infosys',
+            'description' => 'Meetion MK007 mechanical keyboard price in Nepal: Rs 4,500. Outemu Blue switches, full anti-ghosting, metal top, double-shot keys.',
+            'keywords' => 'meetion mk007 mechanical keyboard price in nepal, meetion mk007 mechanical keyboard, meetion nepal',
         ],
         'image_alt' => 'Meetion MK007 Mechanical Keyboard',
         'buy_url' => 'https://onin.com.np/product/meetion-mk007-mechanical-keyboard-price-nepal',
@@ -2650,7 +2650,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Meetion's Mini 4000 combo is built for small desks and travel. The 78-key keyboard drops the number pad to save space, the optical mouse has adjustable DPI, and both run off one 2.4GHz nano receiver.</p>
-<p>The whole set weighs about 255 g, so it fits in a laptop bag for working at a café or in a hostel. ONIN Infosys sells it for Rs 2,500 with a one-year warranty.</p>
+<p>The whole set weighs about 255 g, so it fits in a laptop bag for working at a café or in a hostel. It is listed for Rs 2,500 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Mini 4000 keyboard have a number pad?', 'No, it is a compact 78/79-key layout.'],
@@ -2658,8 +2658,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion Mini 4000 Wireless Combo Price in Nepal',
-            'description' => 'Meetion Mini 4000 wireless keyboard and mouse combo price in Nepal: Rs 2,500 at ONIN Infosys. Compact 78-key, 2.4GHz nano receiver.',
-            'keywords' => 'meetion mini 4000 wireless keyboard and mouse combo price in nepal, meetion mini 4000 wireless keyboard and mouse combo, meetion nepal, onin infosys',
+            'description' => 'Meetion Mini 4000 wireless keyboard and mouse combo price in Nepal: Rs 2,500. Compact 78-key, 2.4GHz nano receiver.',
+            'keywords' => 'meetion mini 4000 wireless keyboard and mouse combo price in nepal, meetion mini 4000 wireless keyboard and mouse combo, meetion nepal',
         ],
         'image_alt' => 'Meetion Mini 4000 Wireless Keyboard and Mouse Combo',
         'buy_url' => 'https://onin.com.np/product/meetion-mini-4000-wireless-keyboard-price-in-nepal',
@@ -2712,7 +2712,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Meetion K9320 gives you a mechanical-style feel and rainbow backlighting with adjustable brightness for the price of a regular keyboard. It's a full-size membrane board with anti-ghosting and twelve multimedia function keys.</p>
-<p>A water-resistant design survives the odd spilled tea, and the keycaps resist wear. ONIN Infosys sells it for Rs 2,500 with a one-year warranty.</p>
+<p>A water-resistant design survives the odd spilled tea, and the keycaps resist wear. It is listed for Rs 2,500 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Is the K9320 waterproof?', 'Meetion describes it as water resistant, so it handles small spills but shouldn\'t be submerged.'],
@@ -2720,8 +2720,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion K9320 Gaming Keyboard Price in Nepal',
-            'description' => 'Meetion K9320 RGB backlit gaming keyboard price in Nepal: Rs 2,500 at ONIN Infosys. Anti-ghosting, 12 media keys, water resistant, 1-year warranty.',
-            'keywords' => 'meetion k9320 rgb gaming keyboard price in nepal, meetion k9320 rgb gaming keyboard, meetion nepal, onin infosys',
+            'description' => 'Meetion K9320 RGB backlit gaming keyboard price in Nepal: Rs 2,500. Anti-ghosting, 12 media keys, water resistant, 1-year warranty.',
+            'keywords' => 'meetion k9320 rgb gaming keyboard price in nepal, meetion k9320 rgb gaming keyboard, meetion nepal',
         ],
         'image_alt' => 'Meetion K9320 RGB Gaming Keyboard',
         'buy_url' => 'https://onin.com.np/product/meetion-gaming-keyboard-and-rgb-backlit-k9320',
@@ -2776,7 +2776,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>This black and red version of Meetion's M915 has the same symmetric shape for right- or left-handed users, plus two side navigation buttons and on-the-fly DPI switching between 800, 1,200, 1,600 and 2,400.</p>
-<p>It uses an A704 optical sensor and weighs about 140 g on a 1.5-metre cable. ONIN Infosys sells it for Rs 1,400, down from Rs 1,800.</p>
+<p>It uses an A704 optical sensor and weighs about 140 g on a 1.5-metre cable. It is listed for Rs 1,400, down from Rs 1,800.</p>
 HTML,
         'faqs' => [
             ['Can left-handed people use it?', 'Yes, the shape is symmetric, though the side buttons are on the left.'],
@@ -2784,8 +2784,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion M915 Gaming Mouse Price in Nepal',
-            'description' => 'Meetion M915 black and red gaming mouse price in Nepal: Rs 1,400 at ONIN Infosys. 800-2400 DPI switch, side buttons, A704 sensor.',
-            'keywords' => 'meetion m915 gaming mouse (black and red) price in nepal, meetion m915 gaming mouse (black and red), meetion nepal, onin infosys',
+            'description' => 'Meetion M915 black and red gaming mouse price in Nepal: Rs 1,400. 800-2400 DPI switch, side buttons, A704 sensor.',
+            'keywords' => 'meetion m915 gaming mouse (black and red) price in nepal, meetion m915 gaming mouse (black and red), meetion nepal',
         ],
         'image_alt' => 'Meetion M915 Gaming Mouse (Black and Red)',
         'buy_url' => 'https://onin.com.np/product/mouse-meetion-m915--gaming-mouse-',
@@ -2844,7 +2844,7 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Meetion M371 adds a soft backlight and a DPI switch to a basic wired mouse for Rs 650 at ONIN Infosys (down from Rs 1,000). Three DPI steps, 800, 1,200 and 1,600, let you speed up the cursor on a large screen.</p>
+<p>The Meetion M371 adds a soft backlight and a DPI switch to a basic wired mouse for Rs 650 (down from Rs 1,000). Three DPI steps, 800, 1,200 and 1,600, let you speed up the cursor on a large screen.</p>
 <p>It is symmetric for either hand, with a soft-touch finish and a 1.5-metre cable, and works on Windows and Mac.</p>
 HTML,
         'faqs' => [
@@ -2853,8 +2853,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Meetion M371 Backlit Mouse Price in Nepal',
-            'description' => 'Meetion M371 USB wired backlit mouse price in Nepal: Rs 650 at ONIN Infosys. 800/1200/1600 DPI, symmetric, soft touch.',
-            'keywords' => 'meetion m371 backlit wired mouse price in nepal, meetion m371 backlit wired mouse, meetion nepal, onin infosys',
+            'description' => 'Meetion M371 USB wired backlit mouse price in Nepal: Rs 650. 800/1200/1600 DPI, symmetric, soft touch.',
+            'keywords' => 'meetion m371 backlit wired mouse price in nepal, meetion m371 backlit wired mouse, meetion nepal',
         ],
         'image_alt' => 'Meetion M371 Backlit Wired Mouse',
         'buy_url' => 'https://onin.com.np/product/usb-wired-backlit-mouse-meetion-m371',
@@ -2898,7 +2898,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Rapoo's M10 Plus is a compact 2.4GHz wireless mouse that you can forget about once it's set up. Its 1,000 DPI sensor suits everyday work, and the battery is rated for up to 12 months.</p>
-<p>The small, comfortable shape suits a laptop bag as well as a desk. ONIN Infosys sells it for Rs 1,300.</p>
+<p>The small, comfortable shape suits a laptop bag as well as a desk. It is listed for Rs 1,300.</p>
 HTML,
         'faqs' => [
             ['How long does the battery last?', 'Up to 12 months, by Rapoo\'s figure.'],
@@ -2906,8 +2906,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo M10 Plus Wireless Mouse Price in Nepal',
-            'description' => 'Rapoo M10 Plus wireless mouse price in Nepal: Rs 1,300 at ONIN Infosys. 2.4GHz, 1000 DPI, up to 12-month battery, compact design.',
-            'keywords' => 'rapoo m10 plus wireless mouse price in nepal, rapoo m10 plus wireless mouse, rapoo nepal, onin infosys',
+            'description' => 'Rapoo M10 Plus wireless mouse price in Nepal: Rs 1,300. 2.4GHz, 1000 DPI, up to 12-month battery, compact design.',
+            'keywords' => 'rapoo m10 plus wireless mouse price in nepal, rapoo m10 plus wireless mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo M10 Plus Wireless Mouse',
         'buy_url' => 'https://onin.com.np/product/-rapoo-m10-plus-wireless-mouse',
@@ -2957,7 +2957,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Rapoo M100 solves two common problems: noisy clicks in a quiet office and juggling devices. Its switches are near silent, and it connects by Bluetooth or a 2.4GHz receiver, so it can move between a laptop, a tablet and a desktop.</p>
-<p>It is small and light enough to carry around, and plug-and-play. ONIN Infosys sells it for Rs 1,800.</p>
+<p>It is small and light enough to carry around, and plug-and-play. It is listed for Rs 1,800.</p>
 HTML,
         'faqs' => [
             ['Can the Rapoo M100 connect to an iPad?', 'Yes, over Bluetooth, on iPads that support mouse input.'],
@@ -2965,8 +2965,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo M100 Silent Multi-Mode Mouse Price in Nepal',
-            'description' => 'Rapoo M100 silent multi-mode mouse price in Nepal: Rs 1,800 at ONIN Infosys. Bluetooth + 2.4GHz, quiet clicks, compact.',
-            'keywords' => 'rapoo m100 silent multi-mode mouse price in nepal, rapoo m100 silent multi-mode mouse, rapoo nepal, onin infosys',
+            'description' => 'Rapoo M100 silent multi-mode mouse price in Nepal: Rs 1,800. Bluetooth + 2.4GHz, quiet clicks, compact.',
+            'keywords' => 'rapoo m100 silent multi-mode mouse price in nepal, rapoo m100 silent multi-mode mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo M100 Silent Multi-Mode Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-m100-silent-multimode-bluetooth-mouse-price-in-nepal',
@@ -3014,7 +3014,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Rapoo's MT550W is a multi-mode wireless mouse that charges wirelessly, so you never deal with batteries or cables. Set it on a Qi wireless charging pad and it tops up while you take a break.</p>
-<p>Its ergonomic shape suits long work days, and it connects to several devices. ONIN Infosys sells it for Rs 4,500. Pair it with the Belkin 15W pad if you don't already have one.</p>
+<p>Its ergonomic shape suits long work days, and it connects to several devices. It is listed for Rs 4,500. Pair it with the Belkin 15W pad if you don't already have one.</p>
 HTML,
         'faqs' => [
             ['How do I charge the Rapoo MT550W?', 'Place it on a Qi wireless charging pad.'],
@@ -3022,8 +3022,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo MT550W Wireless Charging Mouse Price in Nepal',
-            'description' => 'Rapoo MT550W multi-mode wireless charging mouse price in Nepal: Rs 4,500 at ONIN Infosys. Qi charging, multi-device, ergonomic.',
-            'keywords' => 'rapoo mt550w multi-mode wireless charging mouse price in nepal, rapoo mt550w multi-mode wireless charging mouse, rapoo nepal, onin infosys',
+            'description' => 'Rapoo MT550W multi-mode wireless charging mouse price in Nepal: Rs 4,500. Qi charging, multi-device, ergonomic.',
+            'keywords' => 'rapoo mt550w multi-mode wireless charging mouse price in nepal, rapoo mt550w multi-mode wireless charging mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo MT550W Multi-Mode Wireless Charging Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-mt550w-multi-mode-wireless-charging-mouse',
@@ -3073,7 +3073,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Turn a tablet or phone into a typing station with the Rapoo XK100. A built-in stand holds the screen up while you type, and the keyboard connects over Bluetooth to tablets, phones and computers.</p>
-<p>It runs on a rechargeable lithium battery, so no AAA cells to buy. ONIN Infosys sells it for Rs 4,500 with a one-year warranty, a good fit for students taking notes on an iPad or Android tablet.</p>
+<p>It runs on a rechargeable lithium battery, so no AAA cells to buy. It is listed for Rs 4,500 with a one-year warranty, a good fit for students taking notes on an iPad or Android tablet.</p>
 HTML,
         'faqs' => [
             ['Does the Rapoo XK100 work with an iPad?', 'Yes, over Bluetooth, and the built-in stand holds the iPad upright.'],
@@ -3081,8 +3081,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo XK100 Bluetooth Keyboard Price in Nepal',
-            'description' => 'Rapoo XK100 Bluetooth keyboard with tablet stand price in Nepal: Rs 4,500 at ONIN Infosys. Rechargeable, works with iPad, Android and PC.',
-            'keywords' => 'rapoo xk100 bluetooth keyboard with tablet stand price in nepal, rapoo xk100 bluetooth keyboard with tablet stand, rapoo nepal, onin infosys',
+            'description' => 'Rapoo XK100 Bluetooth keyboard with tablet stand price in Nepal: Rs 4,500. Rechargeable, works with iPad, Android and PC.',
+            'keywords' => 'rapoo xk100 bluetooth keyboard with tablet stand price in nepal, rapoo xk100 bluetooth keyboard with tablet stand, rapoo nepal',
         ],
         'image_alt' => 'Rapoo XK100 Bluetooth Keyboard with Tablet Stand',
         'buy_url' => 'https://onin.com.np/product/rapoo-bluetooth-keyboard-price-in-nepal',
@@ -3137,7 +3137,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Rapoo 3100P is a colourful 2.4GHz wireless mouse in blue, green and white. Its 1,000 DPI sensor handles everyday tasks, and it is plug-and-play.</p>
-<p>Battery life is long and the body is compact enough for travel. ONIN Infosys sells it for Rs 2,500 with a one-year warranty.</p>
+<p>Battery life is long and the body is compact enough for travel. It is listed for Rs 2,500 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['What colours does the Rapoo 3100P come in?', 'Blue, green and white.'],
@@ -3145,8 +3145,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo 3100P Wireless Mouse Price in Nepal',
-            'description' => 'Rapoo 3100P wireless mouse price in Nepal: Rs 2,500 at ONIN Infosys. Blue, green or white, 1000 DPI, plug-and-play, 1-year warranty.',
-            'keywords' => 'rapoo 3100p wireless mouse price in nepal, rapoo 3100p wireless mouse, rapoo nepal, onin infosys',
+            'description' => 'Rapoo 3100P wireless mouse price in Nepal: Rs 2,500. Blue, green or white, 1000 DPI, plug-and-play, 1-year warranty.',
+            'keywords' => 'rapoo 3100p wireless mouse price in nepal, rapoo 3100p wireless mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo 3100P Wireless Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-3100p-5g-wireless-mouse-price-in-nepal',
@@ -3199,7 +3199,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>For Rs 900, the Rapoo B30 is a lot of mouse: silent clicks, a 3,200 DPI sensor, five buttons, and a nano receiver that tucks into the mouse when you travel. Range is up to 10 metres.</p>
-<p>There's an on/off switch and an auto sleep mode to save battery, it works on Windows, macOS and Linux, and Rapoo backs it with a two-year replacement warranty. ONIN Infosys sells it at Rs 900, down from Rs 1,050.</p>
+<p>There's an on/off switch and an auto sleep mode to save battery, it works on Windows, macOS and Linux, and Rapoo backs it with a two-year replacement warranty. It is listed at Rs 900, down from Rs 1,050.</p>
 HTML,
         'faqs' => [
             ['Where is the receiver stored?', 'In a slot on the mouse, so it doesn\'t get lost in a bag.'],
@@ -3207,8 +3207,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo B30 Silent Wireless Mouse Price in Nepal',
-            'description' => 'Rapoo B30 silent wireless mouse price in Nepal: Rs 900 at ONIN Infosys. 3200 DPI, 5 buttons, auto sleep, 2-year replacement warranty.',
-            'keywords' => 'rapoo b30 silent wireless mouse price in nepal, rapoo b30 silent wireless mouse, rapoo nepal, onin infosys',
+            'description' => 'Rapoo B30 silent wireless mouse price in Nepal: Rs 900. 3200 DPI, 5 buttons, auto sleep, 2-year replacement warranty.',
+            'keywords' => 'rapoo b30 silent wireless mouse price in nepal, rapoo b30 silent wireless mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo B30 Silent Wireless Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-silent-wireless-mouse-price-in-nepal',
@@ -3255,7 +3255,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Rapoo N100 is a simple, dependable USB mouse with a 1,600 DPI sensor and a non-slip 2D scroll wheel. It needs no drivers, so it works the moment you plug it in on Windows or Mac.</p>
-<p>Compact and ergonomic, it is equally at home on an office desk or in a laptop bag. ONIN Infosys sells it for Rs 540.</p>
+<p>Compact and ergonomic, it is equally at home on an office desk or in a laptop bag. It is listed for Rs 540.</p>
 HTML,
         'faqs' => [
             ['What DPI is the Rapoo N100?', '1,600 DPI.'],
@@ -3263,8 +3263,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo N100 Wired Mouse Price in Nepal',
-            'description' => 'Rapoo N100 wired optical mouse price in Nepal: Rs 540 at ONIN Infosys. 1600 DPI, non-slip scroll wheel, plug-and-play.',
-            'keywords' => 'rapoo n100 wired optical mouse price in nepal, rapoo n100 wired optical mouse, rapoo nepal, onin infosys',
+            'description' => 'Rapoo N100 wired optical mouse price in Nepal: Rs 540. 1600 DPI, non-slip scroll wheel, plug-and-play.',
+            'keywords' => 'rapoo n100 wired optical mouse price in nepal, rapoo n100 wired optical mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo N100 Wired Optical Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-n100-wired-optical-mouse-price-in-nepal',
@@ -3318,7 +3318,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Rapoo N1200 is a quiet wired mouse for shared spaces. Its clicks are muted, the anti-slip grille scroll wheel glides smoothly, and its 1,000 DPI sensor gives steady, accurate tracking.</p>
-<p>It's plug-and-play on Windows and Mac. At Rs 580 at ONIN Infosys, it is an easy upgrade from the loud mouse in a busy office.</p>
+<p>It's plug-and-play on Windows and Mac. At Rs 580 it is an easy upgrade from the loud mouse in a busy office.</p>
 HTML,
         'faqs' => [
             ['Is the Rapoo N1200 a silent mouse?', 'Yes, it has a mute click design.'],
@@ -3326,8 +3326,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo N1200 Silent Mouse Price in Nepal',
-            'description' => 'Rapoo N1200 silent wired mouse price in Nepal: Rs 580 at ONIN Infosys. Quiet clicks, 1000 DPI, anti-slip scroll wheel, plug-and-play.',
-            'keywords' => 'rapoo n1200 silent wired mouse price in nepal, rapoo n1200 silent wired mouse, rapoo nepal, onin infosys',
+            'description' => 'Rapoo N1200 silent wired mouse price in Nepal: Rs 580. Quiet clicks, 1000 DPI, anti-slip scroll wheel, plug-and-play.',
+            'keywords' => 'rapoo n1200 silent wired mouse price in nepal, rapoo n1200 silent wired mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo N1200 Silent Wired Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-n1200-wired-mouse',
@@ -3375,7 +3375,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Rapoo's NK1800 is a low-cost wired keyboard and mouse set. The full-size keyboard has a numeric keypad, laser-etched keycaps that won't rub off, and a sealed anti-oxidation membrane that resists spills.</p>
-<p>Both connect over USB and work on almost any computer. ONIN Infosys sells the set for Rs 1,000 with a one-year warranty.</p>
+<p>Both connect over USB and work on almost any computer. The set sells for Rs 1,000 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Is the Rapoo NK1800 spill resistant?', 'Yes, it has a spill-resistant design with a sealed membrane.'],
@@ -3383,8 +3383,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo NK1800 Combo Price in Nepal',
-            'description' => 'Rapoo NK1800 wired keyboard and mouse combo price in Nepal: Rs 1,000 at ONIN Infosys. Full-size, spill-resistant, laser-etched keys.',
-            'keywords' => 'rapoo nk1800 wired keyboard and mouse combo price in nepal, rapoo nk1800 wired keyboard and mouse combo, rapoo nepal, onin infosys',
+            'description' => 'Rapoo NK1800 wired keyboard and mouse combo price in Nepal: Rs 1,000. Full-size, spill-resistant, laser-etched keys.',
+            'keywords' => 'rapoo nk1800 wired keyboard and mouse combo price in nepal, rapoo nk1800 wired keyboard and mouse combo, rapoo nepal',
         ],
         'image_alt' => 'Rapoo NK1800 Wired Keyboard and Mouse Combo',
         'buy_url' => 'https://onin.com.np/product/rapoo-nk1800-combo-keyboad',
@@ -3436,7 +3436,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Rapoo's V16 is an ambidextrous wired gaming mouse with an adjustable sensor up to 12,800 DPI and an RGB light system. It has five buttons, and the switches are rated for 5 million clicks.</p>
-<p>It is shaped to fill the palm, it's plug-and-play, and Rapoo covers it with a two-year warranty. ONIN Infosys sells it for Rs 1,800.</p>
+<p>It is shaped to fill the palm, it's plug-and-play, and Rapoo covers it with a two-year warranty. It is listed for Rs 1,800.</p>
 HTML,
         'faqs' => [
             ['What is the maximum DPI of the Rapoo V16?', '12,800 DPI.'],
@@ -3444,8 +3444,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo V16 Gaming Mouse Price in Nepal',
-            'description' => 'Rapoo V16 RGB wired gaming mouse price in Nepal: Rs 1,800 at ONIN Infosys. 12,800 DPI, ambidextrous, 5 buttons, 2-year warranty.',
-            'keywords' => 'rapoo v16 rgb gaming mouse price in nepal, rapoo v16 rgb gaming mouse, rapoo nepal, onin infosys',
+            'description' => 'Rapoo V16 RGB wired gaming mouse price in Nepal: Rs 1,800. 12,800 DPI, ambidextrous, 5 buttons, 2-year warranty.',
+            'keywords' => 'rapoo v16 rgb gaming mouse price in nepal, rapoo v16 rgb gaming mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo V16 RGB Gaming Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-v16-gaming-mouse-price-in-nepal',
@@ -3497,7 +3497,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Rapoo X120 Pro pairs a spill-resistant full-size keyboard with a 1,600 DPI optical mouse. Laser-carved keycaps and a sealed anti-oxidation membrane help it last through years of daily typing.</p>
-<p>Both plug in over USB and work on Windows and Mac. At Rs 1,650 from ONIN Infosys with a one-year warranty, it's a step up from the NK1800 with a better mouse.</p>
+<p>Both plug in over USB and work on Windows and Mac. At Rs 1,650 with a one-year warranty, it's a step up from the NK1800 with a better mouse.</p>
 HTML,
         'faqs' => [
             ['What DPI is the X120 Pro mouse?', '1,600 DPI.'],
@@ -3505,8 +3505,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Rapoo X120 Pro Combo Price in Nepal',
-            'description' => 'Rapoo X120 Pro wired keyboard and mouse combo price in Nepal: Rs 1,650 at ONIN Infosys. Spill-resistant, 1600 DPI mouse, 1-year warranty.',
-            'keywords' => 'rapoo x120 pro wired keyboard and mouse combo price in nepal, rapoo x120 pro wired keyboard and mouse combo, rapoo nepal, onin infosys',
+            'description' => 'Rapoo X120 Pro wired keyboard and mouse combo price in Nepal: Rs 1,650. Spill-resistant, 1600 DPI mouse, 1-year warranty.',
+            'keywords' => 'rapoo x120 pro wired keyboard and mouse combo price in nepal, rapoo x120 pro wired keyboard and mouse combo, rapoo nepal',
         ],
         'image_alt' => 'Rapoo X120 Pro Wired Keyboard and Mouse Combo',
         'buy_url' => 'https://onin.com.np/product/rapoo-x120-pro-combo-wired-desktop-keyboard-and-mouse-price-in-nepal',
@@ -3573,7 +3573,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Banks, clinics and offices that still print forms just to collect a signature can sign digitally instead with the UGEE CS06. It has a 6 x 4-inch active area and a battery-free P57 pen with 8,192 pressure levels, so signatures look natural rather than jagged.</p>
-<p>With 5,080 LPI resolution and a 250 RPS report rate, strokes follow the pen closely. UGEE's toolkit lets you sign straight into MS Office, PDF and Adobe files on Windows 7 or later and Linux. ONIN Infosys sells it for Rs 7,999 including VAT, with a one-year warranty on the pad (the pen and cable are excluded).</p>
+<p>With 5,080 LPI resolution and a 250 RPS report rate, strokes follow the pen closely. UGEE's toolkit lets you sign straight into MS Office, PDF and Adobe files on Windows 7 or later and Linux. It is listed for Rs 7,999 including VAT, with a one-year warranty on the pad (the pen and cable are excluded).</p>
 HTML,
         'faqs' => [
             ['Can I sign PDF and Word documents with the UGEE CS06?', 'Yes, UGEE\'s software toolkit lets you sign directly in MS Office, PDF and Adobe applications on Windows.'],
@@ -3581,15 +3581,15 @@ HTML,
         ],
         'seo' => [
             'title' => 'UGEE CS06 Signature Pad Price in Nepal',
-            'description' => 'UGEE CS06 electronic signature pad price in Nepal: Rs 7,999 at ONIN Infosys. 6x4" area, battery-free pen, 8192 pressure, signs Office and PDF files.',
-            'keywords' => 'ugee cs06 electronic signature pad price in nepal, ugee cs06 electronic signature pad, ugee nepal, onin infosys',
+            'description' => 'UGEE CS06 electronic signature pad price in Nepal: Rs 7,999. 6x4" area, battery-free pen, 8192 pressure, signs Office and PDF files.',
+            'keywords' => 'ugee cs06 electronic signature pad price in nepal, ugee cs06 electronic signature pad, ugee nepal',
         ],
         'image_alt' => 'UGEE CS06 Electronic Signature Pad',
         'buy_url' => 'https://onin.com.np/product/ugee-cs06-signature-pad-6x4-nepal',
         'image_credit' => 'https://onin.com.np/product/ugee-cs06-signature-pad-6x4-nepal',
         'sources' => [
             [
-                'label' => 'ONIN Infosys – UGEE CS06 Electronic Signature Pad (6x4) - P57 Battery-Free Pen | 8192 Pressure | ONIN Rs.',
+                'label' => 'ONIN Infosys – UGEE CS06 Electronic Signature Pad (6x4) - P57 Battery-Free Pen | 8192 Pressure Rs.',
                 'url' => 'https://onin.com.np/product/ugee-cs06-signature-pad-6x4-nepal',
                 'accessed' => '2026-11-23',
             ],
@@ -3632,7 +3632,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The UGEE UG05 goes a step beyond a plain signature pad: it has a 5-inch colour LCD (800 x 480), so the person signing sees their signature, and any on-screen prompts, right under the pen. That matters at counters where customers sign receipts, consent forms or delivery slips.</p>
-<p>It uses a battery-free PH02 stylus with 1,024 pressure levels and connects to Windows over mini USB. ONIN Infosys sells it for Rs 29,450 including VAT, with a one-year warranty on the pad itself.</p>
+<p>It uses a battery-free PH02 stylus with 1,024 pressure levels and connects to Windows over mini USB. It is listed for Rs 29,450 including VAT, with a one-year warranty on the pad itself.</p>
 HTML,
         'faqs' => [
             ['Does the UGEE UG05 have a screen?', 'Yes, a 5-inch colour LCD at 800 x 480, so signers can see what they write.'],
@@ -3640,8 +3640,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'UGEE UG05 LCD Signature Pad Price in Nepal',
-            'description' => 'UGEE UG05 electronic LCD signature pad price in Nepal: Rs 29,450 at ONIN Infosys. 5" colour screen, battery-free pen, for counters and offices.',
-            'keywords' => 'ugee ug05 lcd signature pad price in nepal, ugee ug05 lcd signature pad, ugee nepal, onin infosys',
+            'description' => 'UGEE UG05 electronic LCD signature pad price in Nepal: Rs 29,450. 5" colour screen, battery-free pen, for counters and offices.',
+            'keywords' => 'ugee ug05 lcd signature pad price in nepal, ugee ug05 lcd signature pad, ugee nepal',
         ],
         'image_alt' => 'UGEE UG05 LCD Signature Pad',
         'buy_url' => 'https://onin.com.np/product/ugee-ug05-signature-pad-nepal',
@@ -3701,7 +3701,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Drawing directly on the screen is far more natural than looking up at a monitor while your hand moves on a tablet, and the XP-PEN Artist 12 (2nd Gen) makes that affordable. Its 11.9-inch Full HD laminated IPS display covers about 127% of sRGB and 94% of Adobe RGB, which is plenty for illustration and photo touch-ups.</p>
-<p>The X3 Elite battery-free stylus offers 8,192 pressure levels and 60-degree tilt, and eight express keys sit on the side for brush, undo and zoom. At 12 mm thin it's easy to tuck into a bag. ONIN Infosys sells it for Rs 48,450 including VAT, with a one-year warranty.</p>
+<p>The X3 Elite battery-free stylus offers 8,192 pressure levels and 60-degree tilt, and eight express keys sit on the side for brush, undo and zoom. At 12 mm thin it's easy to tuck into a bag. It is listed for Rs 48,450 including VAT, with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Do I need a computer to use the XP-PEN Artist 12?', 'Yes. It is a pen display that connects to a computer (and some Android devices) rather than a standalone tablet.'],
@@ -3709,8 +3709,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'XP-PEN Artist 12 (2nd Gen) Price in Nepal',
-            'description' => 'XP-PEN Artist 12 2nd Gen pen display price in Nepal: Rs 48,450 at ONIN Infosys. 11.9" FHD laminated, X3 stylus 8192 levels, 8 shortcut keys.',
-            'keywords' => 'xp-pen artist 12 (2nd gen) pen display price in nepal, xp-pen artist 12 (2nd gen) pen display, xp-pen nepal, onin infosys',
+            'description' => 'XP-PEN Artist 12 2nd Gen pen display price in Nepal: Rs 48,450. 11.9" FHD laminated, X3 stylus 8192 levels, 8 shortcut keys.',
+            'keywords' => 'xp-pen artist 12 (2nd gen) pen display price in nepal, xp-pen artist 12 (2nd gen) pen display, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Artist 12 (2nd Gen) Pen Display',
         'buy_url' => 'https://onin.com.np/product/xp-pen-artist-12-2nd-gen-price-nepal',
@@ -3781,7 +3781,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Artist 15.6 Pro V2 is XP-PEN's pen display for people who draw for a living. Its 15.4-inch Full HD laminated IPS screen covers 99% of sRGB and 96% of both Adobe RGB and Display P3, and the X3 Pro stylus reads 16,384 pressure levels with 60-degree tilt.</p>
-<p>Accuracy is within about 0.4 mm, with a 5,080 LPI resolution and a report rate of at least 200 RPS, so lines land where you expect. It weighs around 1.5 kg and is 12.9 mm thick. ONIN Infosys sells it for Rs 66,500 including VAT, with a one-year warranty.</p>
+<p>Accuracy is within about 0.4 mm, with a 5,080 LPI resolution and a report rate of at least 200 RPS, so lines land where you expect. It weighs around 1.5 kg and is 12.9 mm thick. It is listed for Rs 66,500 including VAT, with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Artist 12 or Artist 15.6 Pro V2?', 'The 15.6 Pro V2 has a larger screen, wider colour coverage and a 16K-level pen. The Artist 12 is smaller and cheaper, and fine for hobbyists and students.'],
@@ -3789,8 +3789,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'XP-PEN Artist 15.6 Pro V2 Price in Nepal',
-            'description' => 'XP-PEN Artist 15.6 Pro V2 pen display price in Nepal: Rs 66,500 at ONIN Infosys. 99% sRGB, 96% P3, X3 Pro pen with 16K pressure.',
-            'keywords' => 'xp-pen artist 15.6 pro v2 pen display price in nepal, xp-pen artist 15.6 pro v2 pen display, xp-pen nepal, onin infosys',
+            'description' => 'XP-PEN Artist 15.6 Pro V2 pen display price in Nepal: Rs 66,500. 99% sRGB, 96% P3, X3 Pro pen with 16K pressure.',
+            'keywords' => 'xp-pen artist 15.6 pro v2 pen display price in nepal, xp-pen artist 15.6 pro v2 pen display, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Artist 15.6 Pro V2 Pen Display',
         'buy_url' => 'https://onin.com.np/product/xp-pen-artist-15-6-pro-v2-price-nepal',
@@ -3858,7 +3858,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Deco 01 V3 gives you a big 10 x 6.25-inch drawing area in a tablet only 8 mm thin. Its battery-free P05 pen reads 16,384 pressure levels with 60-degree tilt, a spec that used to belong to much pricier tablets.</p>
-<p>Eight express keys handle shortcuts, it connects over USB-C, and it works with Windows, macOS, Linux and Android 10 or later. ONIN Infosys sells it for Rs 11,999, down from Rs 12,800, with a one-year warranty.</p>
+<p>Eight express keys handle shortcuts, it connects over USB-C, and it works with Windows, macOS, Linux and Android 10 or later. It is listed for Rs 11,999, down from Rs 12,800, with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the XP-PEN Deco 01 V3 work with Android phones?', 'Yes, it supports Android 10 or later, as well as Windows, macOS and Linux.'],
@@ -3866,8 +3866,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'XP-PEN Deco 01 V3 Price in Nepal',
-            'description' => 'XP-PEN Deco 01 V3 graphics tablet price in Nepal: Rs 11,999 at ONIN Infosys. 10x6.25" area, 16K pressure, tilt, USB-C, 8 express keys.',
-            'keywords' => 'xp-pen deco 01 v3 graphics tablet price in nepal, xp-pen deco 01 v3 graphics tablet, xp-pen nepal, onin infosys',
+            'description' => 'XP-PEN Deco 01 V3 graphics tablet price in Nepal: Rs 11,999. 10x6.25" area, 16K pressure, tilt, USB-C, 8 express keys.',
+            'keywords' => 'xp-pen deco 01 v3 graphics tablet price in nepal, xp-pen deco 01 v3 graphics tablet, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Deco 01 V3 Graphics Tablet',
         'buy_url' => 'https://onin.com.np/product/xp-pen-deco-01-v3-price-nepal',
@@ -3937,7 +3937,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Deco Pro Medium is for digital artists who want quick controls without a keyboard. Next to its 11 x 6-inch drawing area sit eight express keys, a mechanical wheel and a virtual touch wheel for zooming, scrolling and brush sizes.</p>
-<p>The battery-free PA1 pen has 8,192 pressure levels and 60-degree tilt, and the tablet connects over USB-C to Windows or Mac. ONIN Infosys sells it for Rs 25,999 including VAT, with a one-year warranty.</p>
+<p>The battery-free PA1 pen has 8,192 pressure levels and 60-degree tilt, and the tablet connects over USB-C to Windows or Mac. It is listed for Rs 25,999 including VAT, with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['What is the virtual wheel on the Deco Pro?', 'A touch-sensitive ring inside the mechanical wheel, used for zoom, scroll or brush size.'],
@@ -3945,8 +3945,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'XP-PEN Deco Pro Medium Price in Nepal',
-            'description' => 'XP-PEN Deco Pro Medium graphics tablet price in Nepal: Rs 25,999 at ONIN Infosys. 11x6" area, dial and virtual wheel, 8192 pressure, USB-C.',
-            'keywords' => 'xp-pen deco pro medium graphics tablet price in nepal, xp-pen deco pro medium graphics tablet, xp-pen nepal, onin infosys',
+            'description' => 'XP-PEN Deco Pro Medium graphics tablet price in Nepal: Rs 25,999. 11x6" area, dial and virtual wheel, 8192 pressure, USB-C.',
+            'keywords' => 'xp-pen deco pro medium graphics tablet price in nepal, xp-pen deco pro medium graphics tablet, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Deco Pro Medium Graphics Tablet',
         'buy_url' => 'https://onin.com.np/product/xp-pen-deco-pro-medium-price-nepal',
@@ -4007,7 +4007,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The XP-PEN Star 03 V2 gives you a roomy 10.2 x 6.7-inch drawing area for sketching and signing, while staying affordable. Its battery-free P01 pen offers 8,192 pressure levels and an accuracy of about 0.01 inches.</p>
-<p>Eight programmable keys cover brush size, undo and zoom, and the 266 RPS report rate keeps strokes smooth. It works on Windows, macOS, Linux and Android. ONIN Infosys sells it for Rs 10,390 with a one-year warranty.</p>
+<p>Eight programmable keys cover brush size, undo and zoom, and the 266 RPS report rate keeps strokes smooth. It works on Windows, macOS, Linux and Android. It is listed for Rs 10,390 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Is the Star 03 V2 good for beginners?', 'Yes. It has a large drawing area and a battery-free pen at a low price, which suits students and beginners.'],
@@ -4015,8 +4015,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'XP-PEN Star 03 V2 Price in Nepal',
-            'description' => 'XP-PEN Star 03 V2 graphics tablet price in Nepal: Rs 10,390 at ONIN Infosys. 10.2x6.7" area, battery-free pen, 8192 pressure, 8 keys.',
-            'keywords' => 'xp-pen star 03 v2 graphics tablet price in nepal, xp-pen star 03 v2 graphics tablet, xp-pen nepal, onin infosys',
+            'description' => 'XP-PEN Star 03 V2 graphics tablet price in Nepal: Rs 10,390. 10.2x6.7" area, battery-free pen, 8192 pressure, 8 keys.',
+            'keywords' => 'xp-pen star 03 v2 graphics tablet price in nepal, xp-pen star 03 v2 graphics tablet, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Star 03 V2 Graphics Tablet',
         'buy_url' => 'https://onin.com.np/product/xp-pen-star-03-v2-price-nepal',
@@ -4079,7 +4079,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The XP-PEN Star G640 is the classic first tablet for drawing, photo editing and online teaching. Its 6 x 4-inch area is enough for a full hand movement, and the battery-free pen gives 8,192 pressure levels.</p>
-<p>The tablet is very thin, and the pen is accurate to about 0.01 inches with a 10 mm reading height. At Rs 6,739 from ONIN Infosys, with a one-year warranty, it is the cheapest XP-PEN in the range.</p>
+<p>The tablet is very thin, and the pen is accurate to about 0.01 inches with a 10 mm reading height. At Rs 6,739, with a one-year warranty, it is the cheapest XP-PEN in the range.</p>
 HTML,
         'faqs' => [
             ['Is the XP-PEN G640 good for online teaching?', 'Yes. Teachers often use it to write and draw on slides and whiteboard apps during classes.'],
@@ -4087,8 +4087,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'XP-PEN Star G640 Price in Nepal',
-            'description' => 'XP-PEN Star G640 graphics tablet price in Nepal: Rs 6,739 at ONIN Infosys. 6x4" area, battery-free pen, 8192 pressure, for drawing and teaching.',
-            'keywords' => 'xp-pen star g640 graphics tablet price in nepal, xp-pen star g640 graphics tablet, xp-pen nepal, onin infosys',
+            'description' => 'XP-PEN Star G640 graphics tablet price in Nepal: Rs 6,739. 6x4" area, battery-free pen, 8192 pressure, for drawing and teaching.',
+            'keywords' => 'xp-pen star g640 graphics tablet price in nepal, xp-pen star g640 graphics tablet, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Star G640 Graphics Tablet',
         'buy_url' => 'https://onin.com.np/product/xp-pen-star-g640-6x4-tablet-nepal',
@@ -4145,7 +4145,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The XP-PEN Star G960S Plus stretches the drawing area to 9 x 6 inches, adds four express keys, and pairs it with a battery-free PH2 pen that has a digital eraser on the back. The pen reads 8,192 pressure levels and supports 60-degree tilt.</p>
-<p>It connects over USB-C and works with Photoshop, Clip Studio, Illustrator, Krita and even OneNote or PowerPoint on Windows, macOS, Linux and Android. ONIN Infosys sells it for Rs 9,850 with a one-year warranty.</p>
+<p>It connects over USB-C and works with Photoshop, Clip Studio, Illustrator, Krita and even OneNote or PowerPoint on Windows, macOS, Linux and Android. It is listed for Rs 9,850 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the G960S Plus pen have an eraser?', 'Yes, a digital eraser on the back end of the PH2 pen.'],
@@ -4153,8 +4153,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'XP-PEN Star G960S Plus Price in Nepal',
-            'description' => 'XP-PEN Star G960S Plus graphics tablet price in Nepal: Rs 9,850 at ONIN Infosys. 9x6" area, pen with eraser, 8192 pressure, tilt, USB-C.',
-            'keywords' => 'xp-pen star g960s plus graphics tablet price in nepal, xp-pen star g960s plus graphics tablet, xp-pen nepal, onin infosys',
+            'description' => 'XP-PEN Star G960S Plus graphics tablet price in Nepal: Rs 9,850. 9x6" area, pen with eraser, 8192 pressure, tilt, USB-C.',
+            'keywords' => 'xp-pen star g960s plus graphics tablet price in nepal, xp-pen star g960s plus graphics tablet, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Star G960S Plus Graphics Tablet',
         'buy_url' => 'https://onin.com.np/product/xp-pen-star-g960s-plus-9x6-nepal',
@@ -4227,7 +4227,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Deco Pro LW (2nd Gen) is XP-PEN's top non-screen tablet, and the wireless part is the headline. It connects over Bluetooth 5.0, a 2.4GHz dongle or USB-C, and can pair with two devices and switch between them with one click.</p>
-<p>The 11 x 7-inch area is large enough for professional work, the X3 Pro pen reads 16,384 pressure levels with a built-in eraser, and a separate wireless key-dial with ten custom keys can sit wherever your free hand rests. The 3,030 mAh battery lasts at least 10 hours. ONIN Infosys sells it for Rs 34,499.</p>
+<p>The 11 x 7-inch area is large enough for professional work, the X3 Pro pen reads 16,384 pressure levels with a built-in eraser, and a separate wireless key-dial with ten custom keys can sit wherever your free hand rests. The 3,030 mAh battery lasts at least 10 hours. It is listed for Rs 34,499.</p>
 HTML,
         'faqs' => [
             ['Can the Deco Pro LW connect wirelessly?', 'Yes, over Bluetooth 5.0 or a 2.4GHz receiver, and also by USB-C cable.'],
@@ -4235,8 +4235,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'XP-PEN Deco Pro LW (2nd Gen) Price in Nepal',
-            'description' => 'XP-PEN Deco Pro LW 2nd Gen wireless graphics tablet price in Nepal: Rs 34,499 at ONIN Infosys. 11x7" area, 16K pen, Bluetooth, key dial.',
-            'keywords' => 'xp-pen deco pro lw (2nd gen) wireless graphics tablet price in nepal, xp-pen deco pro lw (2nd gen) wireless graphics tablet, xp-pen nepal, onin infosys',
+            'description' => 'XP-PEN Deco Pro LW 2nd Gen wireless graphics tablet price in Nepal: Rs 34,499. 11x7" area, 16K pen, Bluetooth, key dial.',
+            'keywords' => 'xp-pen deco pro lw (2nd gen) wireless graphics tablet price in nepal, xp-pen deco pro lw (2nd gen) wireless graphics tablet, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Deco Pro LW (2nd Gen) Wireless Graphics Tablet',
         'buy_url' => 'https://onin.com.np/product/xppen-deco-pro-lw-2nd-gen-price-nepal',
@@ -4311,7 +4311,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>For homes and small offices that print a lot of homework, invoices or forms, an ink tank keeps running costs low, and the Brother DCP-T230 is one of the most economical. It prints, scans and copies, and its tanks are rated for up to 7,500 black and 5,000 colour pages.</p>
-<p>Speeds reach 16 images per minute in black and 9 in colour, and the closed 150-sheet front tray keeps paper free of dust. It connects by USB only, with no Wi-Fi. ONIN Infosys sells it for Rs 26,499, down from Rs 27,999.</p>
+<p>Speeds reach 16 images per minute in black and 9 in colour, and the closed 150-sheet front tray keeps paper free of dust. It connects by USB only, with no Wi-Fi. It is listed for Rs 26,499, down from Rs 27,999.</p>
 HTML,
         'faqs' => [
             ['Does the Brother DCP-T230 have Wi-Fi?', 'No, it connects over USB. The DCP-T430W adds Wi-Fi for the same price.'],
@@ -4319,8 +4319,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Brother DCP-T230 Printer Price in Nepal',
-            'description' => 'Brother DCP-T230 ink tank printer price in Nepal: Rs 26,499 at ONIN Infosys. Print, scan, copy, 7,500-page black yield, 16 ipm.',
-            'keywords' => 'brother dcp-t230 ink tank printer price in nepal, brother dcp-t230 ink tank printer, brother nepal, onin infosys',
+            'description' => 'Brother DCP-T230 ink tank printer price in Nepal: Rs 26,499. Print, scan, copy, 7,500-page black yield, 16 ipm.',
+            'keywords' => 'brother dcp-t230 ink tank printer price in nepal, brother dcp-t230 ink tank printer, brother nepal',
         ],
         'image_alt' => 'Brother DCP-T230 Ink Tank Printer',
         'buy_url' => 'https://onin.com.np/product/brother-dcp-t230-price-nepal',
@@ -4389,7 +4389,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Brother DCP-T430W prints, scans and copies, and adds what the T230 lacks: Wi-Fi and Wi-Fi Direct. With the Brother Mobile Connect app you can print straight from a phone, even without a router.</p>
-<p>The front ink tanks deliver very high page yields, print speeds are up to 16 ipm in black and 9 in colour (faster in eco mode), and the first page comes out in about 6.2 seconds. ONIN Infosys sells it for Rs 26,499, the same price as the USB-only T230.</p>
+<p>The front ink tanks deliver very high page yields, print speeds are up to 16 ipm in black and 9 in colour (faster in eco mode), and the first page comes out in about 6.2 seconds. It is listed for Rs 26,499, the same price as the USB-only T230.</p>
 HTML,
         'faqs' => [
             ['Can I print from my phone with the DCP-T430W?', 'Yes, using the Brother Mobile Connect app over Wi-Fi or Wi-Fi Direct.'],
@@ -4397,8 +4397,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Brother DCP-T430W Printer Price in Nepal',
-            'description' => 'Brother DCP-T430W wireless ink tank printer price in Nepal: Rs 26,499 at ONIN Infosys. Wi-Fi, mobile printing, print-scan-copy.',
-            'keywords' => 'brother dcp-t430w wireless ink tank printer price in nepal, brother dcp-t430w wireless ink tank printer, brother nepal, onin infosys',
+            'description' => 'Brother DCP-T430W wireless ink tank printer price in Nepal: Rs 26,499. Wi-Fi, mobile printing, print-scan-copy.',
+            'keywords' => 'brother dcp-t430w wireless ink tank printer price in nepal, brother dcp-t430w wireless ink tank printer, brother nepal',
         ],
         'image_alt' => 'Brother DCP-T430W Wireless Ink Tank Printer',
         'buy_url' => 'https://onin.com.np/product/brother-dcp-t430w-ink-tank-printer-price-nepal',
@@ -4447,7 +4447,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Canon's MF3010 is a compact black-and-white laser printer that also scans and copies, a long-time favourite in small offices. It prints up to 18 pages per minute with sharp text, and the flatbed scanner works in colour.</p>
-<p>It uses the easy-to-swap Canon 925 cartridge (included) and connects by USB 2.0, without Wi-Fi. ONIN Infosys sells it for Rs 32,499 with a one-year warranty.</p>
+<p>It uses the easy-to-swap Canon 925 cartridge (included) and connects by USB 2.0, without Wi-Fi. It is listed for Rs 32,499 with a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Canon MF3010 print in colour?', 'No, it prints in black and white only, though its scanner scans in colour.'],
@@ -4455,8 +4455,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Canon MF3010 Laser Printer Price in Nepal',
-            'description' => 'Canon imageCLASS MF3010 laser printer price in Nepal: Rs 32,499 at ONIN Infosys. Print, scan, copy, 18 ppm, Cartridge 925, 1-year warranty.',
-            'keywords' => 'canon imageclass mf3010 laser printer price in nepal, canon imageclass mf3010 laser printer, canon nepal, onin infosys',
+            'description' => 'Canon imageCLASS MF3010 laser printer price in Nepal: Rs 32,499. Print, scan, copy, 18 ppm, Cartridge 925, 1-year warranty.',
+            'keywords' => 'canon imageclass mf3010 laser printer price in nepal, canon imageclass mf3010 laser printer, canon nepal',
         ],
         'image_alt' => 'Canon imageCLASS MF3010 Laser Printer',
         'buy_url' => 'https://onin.com.np/product/canon-mf-3010-digital-multifunctional-laser-printer--black--standard---1-year-warranty',
@@ -4506,7 +4506,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Canon's PIXMA G2010 is an all-in-one ink tank printer for homes and small offices that want colour without expensive cartridges. It prints, scans and copies, and handles up to 7,000 pages a month.</p>
-<p>It prints at about 8.8 pages per minute in black and 5 in colour, and a borderless photo takes around 60 seconds. ONIN Infosys sells it for Rs 20,999, down from Rs 22,499, with a 12-month warranty.</p>
+<p>It prints at about 8.8 pages per minute in black and 5 in colour, and a borderless photo takes around 60 seconds. It is listed for Rs 20,999, down from Rs 22,499, with a 12-month warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Canon G2010 print photos?', 'Yes, including borderless photos, at about 60 seconds each.'],
@@ -4514,8 +4514,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Canon PIXMA G2010 Price in Nepal',
-            'description' => 'Canon PIXMA G2010 ink tank printer price in Nepal: Rs 20,999 at ONIN Infosys. Colour print, scan, copy, 7,000-page monthly duty cycle.',
-            'keywords' => 'canon pixma g2010 ink tank printer price in nepal, canon pixma g2010 ink tank printer, canon nepal, onin infosys',
+            'description' => 'Canon PIXMA G2010 ink tank printer price in Nepal: Rs 20,999. Colour print, scan, copy, 7,000-page monthly duty cycle.',
+            'keywords' => 'canon pixma g2010 ink tank printer price in nepal, canon pixma g2010 ink tank printer, canon nepal',
         ],
         'image_alt' => 'Canon PIXMA G2010 Ink Tank Printer',
         'buy_url' => 'https://onin.com.np/product/canon-g2010-color-printer-price-in-nepal',
@@ -4571,7 +4571,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Canon PIXMA G3010 is the G2010 with wireless printing, which is worth the extra money in a house with several phones and laptops. It prints, scans and copies in colour, and the spill-resistant ink bottles make refilling clean.</p>
-<p>It prints at about 8.8 pages per minute in black and 5 in colour, with borderless photos in around 60 seconds. ONIN Infosys sells it for Rs 25,499, down from Rs 26,499, with a 12-month warranty.</p>
+<p>It prints at about 8.8 pages per minute in black and 5 in colour, with borderless photos in around 60 seconds. It is listed for Rs 25,499, down from Rs 26,499, with a 12-month warranty.</p>
 HTML,
         'faqs' => [
             ['Can I print from my phone with the Canon G3010?', 'Yes, it is a wireless printer, so phones and laptops on the same network can print to it.'],
@@ -4579,8 +4579,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Canon PIXMA G3010 Price in Nepal',
-            'description' => 'Canon PIXMA G3010 wireless ink tank printer price in Nepal: Rs 25,499 at ONIN Infosys. Wi-Fi, colour print, scan, copy, borderless photos.',
-            'keywords' => 'canon pixma g3010 wireless ink tank printer price in nepal, canon pixma g3010 wireless ink tank printer, canon nepal, onin infosys',
+            'description' => 'Canon PIXMA G3010 wireless ink tank printer price in Nepal: Rs 25,499. Wi-Fi, colour print, scan, copy, borderless photos.',
+            'keywords' => 'canon pixma g3010 wireless ink tank printer price in nepal, canon pixma g3010 wireless ink tank printer, canon nepal',
         ],
         'image_alt' => 'Canon PIXMA G3010 Wireless Ink Tank Printer',
         'buy_url' => 'https://onin.com.np/product/canon-pixma-g3010-wireless-printer-price-in-nepal',
@@ -4633,7 +4633,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Epson EcoTank L3210 is one of the most common ink tank printers in Nepali homes and shops, and its integrated tank design is why. The tanks sit inside the body, refills are spill-free, and the printer prints, scans and copies.</p>
-<p>It prints borderless photos up to 4R, holds 30 A4 sheets, and works with Windows 10 and 11 and macOS. ONIN Infosys sells it for Rs 23,000 with a 12-month warranty.</p>
+<p>It prints borderless photos up to 4R, holds 30 A4 sheets, and works with Windows 10 and 11 and macOS. It is listed for Rs 23,000 with a 12-month warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Epson L3210 print in colour?', 'Yes, it is a colour ink tank printer, including borderless photos up to 4R.'],
@@ -4641,8 +4641,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Epson EcoTank L3210 Price in Nepal',
-            'description' => 'Epson EcoTank L3210 all-in-one printer price in Nepal: Rs 23,000 at ONIN Infosys. Print, scan, copy, spill-free refills, borderless 4R.',
-            'keywords' => 'epson ecotank l3210 all-in-one printer price in nepal, epson ecotank l3210 all-in-one printer, epson nepal, onin infosys',
+            'description' => 'Epson EcoTank L3210 all-in-one printer price in Nepal: Rs 23,000. Print, scan, copy, spill-free refills, borderless 4R.',
+            'keywords' => 'epson ecotank l3210 all-in-one printer price in nepal, epson ecotank l3210 all-in-one printer, epson nepal',
         ],
         'image_alt' => 'Epson EcoTank L3210 All-in-One Printer',
         'buy_url' => 'https://onin.com.np/product/epson-ecotank-l3210-printer-price-nepal',
@@ -4709,7 +4709,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>With 4,000 ANSI lumens, the BenQ MX560C stays readable in classrooms and meeting rooms where you can't fully dim the lights. Its native XGA (1024 x 768) resolution and 4:3 shape suit presentations and spreadsheets.</p>
-<p>Contrast is rated at 20,000:1, the lamp lasts up to 15,000 hours in LampSave mode, and auto vertical keystone corrects up to 40 degrees. It projects 30 to 300 inches (about 100 inches from 3.98 m), has a 10W speaker, and takes two HDMI inputs, VGA and RS232. ONIN Infosys sells it for Rs 59,399.</p>
+<p>Contrast is rated at 20,000:1, the lamp lasts up to 15,000 hours in LampSave mode, and auto vertical keystone corrects up to 40 degrees. It projects 30 to 300 inches (about 100 inches from 3.98 m), has a 10W speaker, and takes two HDMI inputs, VGA and RS232. It is listed for Rs 59,399.</p>
 HTML,
         'faqs' => [
             ['Is the BenQ MX560C bright enough for a classroom?', 'Yes. At 4,000 ANSI lumens it is designed for lit rooms.'],
@@ -4717,8 +4717,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'BenQ MX560C Projector Price in Nepal',
-            'description' => 'BenQ MX560C 4000 lumens XGA business projector price in Nepal: Rs 59,399 at ONIN Infosys. 20,000:1 contrast, 15,000h lamp, 2x HDMI.',
-            'keywords' => 'benq mx560c business projector price in nepal, benq mx560c business projector, benq nepal, onin infosys',
+            'description' => 'BenQ MX560C 4000 lumens XGA business projector price in Nepal: Rs 59,399. 20,000:1 contrast, 15,000h lamp, 2x HDMI.',
+            'keywords' => 'benq mx560c business projector price in nepal, benq mx560c business projector, benq nepal',
         ],
         'image_alt' => 'BenQ MX560C Business Projector',
         'buy_url' => 'https://onin.com.np/product/benq-mx560c-4000-lumens-xga-projector-price-nepal',
@@ -4784,16 +4784,16 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Epson's EB-W53 uses 3LCD technology, which means colours are as bright as whites and there is no rainbow effect, a real difference for colourful slides and videos. It puts out 4,000 lumens of both colour and white light.</p>
-<p>Its native WXGA (1280 x 800) resolution and 16:10 shape match modern laptops, so slides fill the screen without black bars, and contrast is rated at 16,000:1. ONIN Infosys sells it for Rs 53,999 with a two-year warranty.</p>
+<p>Its native WXGA (1280 x 800) resolution and 16:10 shape match modern laptops, so slides fill the screen without black bars, and contrast is rated at 16,000:1. It is listed for Rs 53,999 with a two-year warranty.</p>
 HTML,
         'faqs' => [
             ['What does 3LCD mean on the Epson EB-W53?', 'Three separate LCD panels for red, green and blue, which keeps colour brightness equal to white brightness and avoids the rainbow effect some projectors show.'],
-            ['What warranty does it come with?', 'Two years, according to ONIN Infosys.'],
+            ['What warranty does it come with?', 'Two years, according to our partner shop.'],
         ],
         'seo' => [
             'title' => 'Epson EB-W53 Projector Price in Nepal',
-            'description' => 'Epson EB-W53 WXGA 4000 lumens 3LCD projector price in Nepal: Rs 53,999 at ONIN Infosys. 16:10, 16,000:1 contrast, 2-year warranty.',
-            'keywords' => 'epson eb-w53 3lcd projector price in nepal, epson eb-w53 3lcd projector, epson nepal, onin infosys',
+            'description' => 'Epson EB-W53 WXGA 4000 lumens 3LCD projector price in Nepal: Rs 53,999. 16:10, 16,000:1 contrast, 2-year warranty.',
+            'keywords' => 'epson eb-w53 3lcd projector price in nepal, epson eb-w53 3lcd projector, epson nepal',
         ],
         'image_alt' => 'Epson EB-W53 3LCD Projector',
         'buy_url' => 'https://onin.com.np/product/epson-eb-w53-wxga-3lcd-projector-price-nepal',
@@ -4862,7 +4862,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Hikvision DS-D5A65RB/B3 is a 65-inch 4K interactive panel for classrooms and meeting rooms that replaces a whiteboard, a projector and a video-call setup in one. It runs Android 14 with 8 GB of RAM, and this package adds a slot-in Intel Core Windows OPS PC with a 512 GB SSD.</p>
-<p>The zero-lamination display sits behind 9H anti-glare tempered glass and supports 50 touch points, so several students can write at once. Built-in AI video conferencing hardware makes remote classes straightforward. ONIN Infosys sells it for Rs 1,89,999.</p>
+<p>The zero-lamination display sits behind 9H anti-glare tempered glass and supports 50 touch points, so several students can write at once. Built-in AI video conferencing hardware makes remote classes straightforward. It is listed for Rs 1,89,999.</p>
 HTML,
         'faqs' => [
             ['Does the Hikvision 65-inch panel run Windows?', 'This package includes a slot-in Intel Core Windows OPS PC with a 512 GB SSD, alongside the built-in Android 14 system.'],
@@ -4870,8 +4870,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Hikvision 65" Interactive Flat Panel Price in Nepal',
-            'description' => 'Hikvision DS-D5A65RB/B3 65-inch 4K interactive smart board price in Nepal: Rs 1,89,999 at ONIN Infosys. Android 14, Windows OPS, 50-point touch.',
-            'keywords' => 'hikvision ds-d5a65rb/b3 65-inch interactive flat panel price in nepal, hikvision ds-d5a65rb/b3 65-inch interactive flat panel, hikvision nepal, onin infosys',
+            'description' => 'Hikvision DS-D5A65RB/B3 65-inch 4K interactive smart board price in Nepal: Rs 1,89,999. Android 14, Windows OPS, 50-point touch.',
+            'keywords' => 'hikvision ds-d5a65rb/b3 65-inch interactive flat panel price in nepal, hikvision ds-d5a65rb/b3 65-inch interactive flat panel, hikvision nepal',
         ],
         'image_alt' => 'Hikvision DS-D5A65RB/B3 65-inch Interactive Flat Panel',
         'buy_url' => 'https://onin.com.np/product/hikvision-ds-d5a65rb-b3-65-inch-4k-interactive-smart-board-price-nepal',
@@ -4930,7 +4930,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>For larger classrooms and boardrooms, Hikvision's 75-inch DS-D5A75RB/B3 gives the back rows a clear view. It is a 4K UHD panel running Android 14 with official Google EDLA certification, so Google Play and Google apps work properly, plus 8 GB of RAM and 128 GB of storage.</p>
-<p>Fifty-point infrared touch lets a whole group work together, and the built-in 48MP camera, eight-microphone array and two 20W speakers handle video meetings without extra kit. ONIN Infosys sells it for Rs 2,19,999.</p>
+<p>Fifty-point infrared touch lets a whole group work together, and the built-in 48MP camera, eight-microphone array and two 20W speakers handle video meetings without extra kit. It is listed for Rs 2,19,999.</p>
 HTML,
         'faqs' => [
             ['Does it have Google Play?', 'Yes. It runs Android 14 with Google EDLA certification.'],
@@ -4938,8 +4938,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Hikvision 75" Interactive Flat Panel Price in Nepal',
-            'description' => 'Hikvision DS-D5A75RB/B3 75-inch 4K interactive flat panel price in Nepal: Rs 2,19,999 at ONIN Infosys. Android 14 EDLA, 48MP camera, 50-point touch.',
-            'keywords' => 'hikvision ds-d5a75rb/b3 75-inch interactive flat panel price in nepal, hikvision ds-d5a75rb/b3 75-inch interactive flat panel, hikvision nepal, onin infosys',
+            'description' => 'Hikvision DS-D5A75RB/B3 75-inch 4K interactive flat panel price in Nepal: Rs 2,19,999. Android 14 EDLA, 48MP camera, 50-point touch.',
+            'keywords' => 'hikvision ds-d5a75rb/b3 75-inch interactive flat panel price in nepal, hikvision ds-d5a75rb/b3 75-inch interactive flat panel, hikvision nepal',
         ],
         'image_alt' => 'Hikvision DS-D5A75RB/B3 75-inch Interactive Flat Panel',
         'buy_url' => 'https://onin.com.np/product/hikvision-ds-d5a75rb-b3-price-nepal',
@@ -4998,7 +4998,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Hikvision's 86-inch DS-D5A86RB/B3 is the biggest panel in its range, sized for lecture halls and large boardrooms. The 4K anti-glare, zero-lamination glass keeps writing precise at the edges, and the infrared touch layer tracks 50 points with a response of 5 ms or less.</p>
-<p>It runs Android 14 with Google EDLA certification on an eight-core processor, 8 GB of RAM and 128 GB of storage, and has a 48MP camera, an eight-mic array with a 12-metre pickup range, and two 20W speakers. ONIN Infosys sells it for Rs 3,13,999.</p>
+<p>It runs Android 14 with Google EDLA certification on an eight-core processor, 8 GB of RAM and 128 GB of storage, and has a 48MP camera, an eight-mic array with a 12-metre pickup range, and two 20W speakers. It is listed for Rs 3,13,999.</p>
 HTML,
         'faqs' => [
             ['How far does the microphone pick up voices?', 'The eight-microphone array picks up speech up to about 12 metres away.'],
@@ -5006,8 +5006,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Hikvision 86" Interactive Flat Panel Price in Nepal',
-            'description' => 'Hikvision DS-D5A86RB/B3 86-inch 4K interactive panel price in Nepal: Rs 3,13,999 at ONIN Infosys. Android 14, 8-mic array, 48MP camera, 50-point touch.',
-            'keywords' => 'hikvision ds-d5a86rb/b3 86-inch interactive flat panel price in nepal, hikvision ds-d5a86rb/b3 86-inch interactive flat panel, hikvision nepal, onin infosys',
+            'description' => 'Hikvision DS-D5A86RB/B3 86-inch 4K interactive panel price in Nepal: Rs 3,13,999. Android 14, 8-mic array, 48MP camera, 50-point touch.',
+            'keywords' => 'hikvision ds-d5a86rb/b3 86-inch interactive flat panel price in nepal, hikvision ds-d5a86rb/b3 86-inch interactive flat panel, hikvision nepal',
         ],
         'image_alt' => 'Hikvision DS-D5A86RB/B3 86-inch Interactive Flat Panel',
         'buy_url' => 'https://onin.com.np/product/hikvision-ds-d5a86rb-b3-86-inch-4k-interactive-display-price-nepal',
@@ -5066,7 +5066,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The DJI Mic 3 is a two-person wireless mic kit for interviews, podcasts and vlogs. Each transmitter records 32-bit float audio internally on 32 GB of storage, so even a sudden shout won't clip, and you have a backup if the wireless link drops.</p>
-<p>Range reaches up to 400 metres in clear line of sight, each transmitter lasts about 8 hours, and the case brings the total to 28 hours. The receiver connects over USB-C, a 3.5mm TRS cable, or directly by Bluetooth to phones and DJI cameras. ONIN Infosys sells the kit for Rs 54,499.</p>
+<p>Range reaches up to 400 metres in clear line of sight, each transmitter lasts about 8 hours, and the case brings the total to 28 hours. The receiver connects over USB-C, a 3.5mm TRS cable, or directly by Bluetooth to phones and DJI cameras. The kit sells for Rs 54,499.</p>
 HTML,
         'faqs' => [
             ['Can the DJI Mic 3 connect to a phone without the receiver?', 'Yes, it supports direct Bluetooth connection to smartphones and DJI cameras.'],
@@ -5074,8 +5074,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'DJI Mic 3 Price in Nepal',
-            'description' => 'DJI Mic 3 (2TX + 1RX + case) wireless microphone price in Nepal: Rs 54,499 at ONIN Infosys. 32-bit float, 400m range, 28h with case.',
-            'keywords' => 'dji mic 3 (2 tx + 1 rx + charging case) price in nepal, dji mic 3 (2 tx + 1 rx + charging case), dji nepal, onin infosys',
+            'description' => 'DJI Mic 3 (2TX + 1RX + case) wireless microphone price in Nepal: Rs 54,499. 32-bit float, 400m range, 28h with case.',
+            'keywords' => 'dji mic 3 (2 tx + 1 rx + charging case) price in nepal, dji mic 3 (2 tx + 1 rx + charging case), dji nepal',
         ],
         'image_alt' => 'DJI Mic 3 (2 TX + 1 RX + Charging Case)',
         'buy_url' => 'https://onin.com.np/product/dji-mic-price-nepal-onin-infosys',
@@ -5120,7 +5120,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Laptop speakers sound thin, and a 2.1 set like the Logitech Z313 fixes that cheaply. You get two desktop satellite speakers plus a separate subwoofer that sits under the desk and fills in the bass for music, movies and games.</p>
-<p>It plugs into the 3.5mm jack of a PC, laptop or TV. ONIN Infosys sells it for Rs 9,000.</p>
+<p>It plugs into the 3.5mm jack of a PC, laptop or TV. It is listed for Rs 9,000.</p>
 HTML,
         'faqs' => [
             ['Does the Logitech Z313 have Bluetooth?', 'No, it connects through a 3.5mm cable.'],
@@ -5128,8 +5128,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Logitech Z313 Speakers Price in Nepal',
-            'description' => 'Logitech Z313 2.1 speaker system with subwoofer price in Nepal: Rs 9,000 at ONIN Infosys. Desktop speakers with bass for PC, laptop and TV.',
-            'keywords' => 'logitech z313 speaker system with subwoofer price in nepal, logitech z313 speaker system with subwoofer, logitech nepal, onin infosys',
+            'description' => 'Logitech Z313 2.1 speaker system with subwoofer price in Nepal: Rs 9,000. Desktop speakers with bass for PC, laptop and TV.',
+            'keywords' => 'logitech z313 speaker system with subwoofer price in nepal, logitech z313 speaker system with subwoofer, logitech nepal',
         ],
         'image_alt' => 'Logitech Z313 Speaker System with Subwoofer',
         'buy_url' => 'https://onin.com.np/product/logitech-z313-speaker-price-in-nepal',
@@ -5183,7 +5183,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Kingston XS2000 is one of the fastest pocket drives you can buy: up to 2,000 MB/s read and write over USB 3.2 Gen 2x2. Its 4 TB capacity holds a large video library or full backups of several laptops, in a body about the size of a car key and weighing 28.9 g.</p>
-<p>The included rubber sleeve gives it IP55 water and dust resistance, and it works with Windows, macOS, Linux and Chrome OS. ONIN Infosys sells the 4 TB model for Rs 97,000. To reach full speed, your computer needs a USB 3.2 Gen 2x2 port; on others it simply runs slower.</p>
+<p>The included rubber sleeve gives it IP55 water and dust resistance, and it works with Windows, macOS, Linux and Chrome OS. The 4 TB model sells for Rs 97,000. To reach full speed, your computer needs a USB 3.2 Gen 2x2 port; on others it simply runs slower.</p>
 HTML,
         'faqs' => [
             ['Will the Kingston XS2000 run at 2,000 MB/s on my laptop?', 'Only on a USB 3.2 Gen 2x2 port. On regular USB-C or USB 3.2 Gen 2 ports it works, at around 1,000 MB/s.'],
@@ -5191,8 +5191,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Kingston XS2000 4TB Portable SSD Price in Nepal',
-            'description' => 'Kingston XS2000 4TB portable SSD price in Nepal: Rs 97,000 at ONIN Infosys. 2,000 MB/s USB 3.2 Gen 2x2, IP55, pocket-sized.',
-            'keywords' => 'kingston xs2000 4tb portable ssd price in nepal, kingston xs2000 4tb portable ssd, kingston nepal, onin infosys',
+            'description' => 'Kingston XS2000 4TB portable SSD price in Nepal: Rs 97,000. 2,000 MB/s USB 3.2 Gen 2x2, IP55, pocket-sized.',
+            'keywords' => 'kingston xs2000 4tb portable ssd price in nepal, kingston xs2000 4tb portable ssd, kingston nepal',
         ],
         'image_alt' => 'Kingston XS2000 4TB Portable SSD',
         'buy_url' => 'https://onin.com.np/product/kingston-xs2000-4tb-portable-ssd-price-nepal',
@@ -5237,7 +5237,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>If you want SSD speed for backups without paying flagship prices, the Lexar SL200 fits. It reads at up to 550 MB/s and writes at up to 400 MB/s, several times faster than a portable hard drive, and has no moving parts to fail if it gets bumped.</p>
-<p>Lexar adds 256-bit AES encryption, a slim premium shell, and both USB-C to USB-C and USB-C to USB-A cables in the box. ONIN Infosys sells the 1 TB model for Rs 21,999, with three years of Lexar product support.</p>
+<p>Lexar adds 256-bit AES encryption, a slim premium shell, and both USB-C to USB-C and USB-C to USB-A cables in the box. The 1 TB model sells for Rs 21,999, with three years of Lexar product support.</p>
 HTML,
         'faqs' => [
             ['How fast is the Lexar SL200?', 'Up to 550 MB/s read and 400 MB/s write.'],
@@ -5245,8 +5245,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Lexar SL200 1TB Portable SSD Price in Nepal',
-            'description' => 'Lexar SL200 1TB external SSD price in Nepal: Rs 21,999 at ONIN Infosys. 550MB/s read, 256-bit encryption, USB-C, both cables included.',
-            'keywords' => 'lexar sl200 1tb portable ssd price in nepal, lexar sl200 1tb portable ssd, lexar nepal, onin infosys',
+            'description' => 'Lexar SL200 1TB external SSD price in Nepal: Rs 21,999. 550MB/s read, 256-bit encryption, USB-C, both cables included.',
+            'keywords' => 'lexar sl200 1tb portable ssd price in nepal, lexar sl200 1tb portable ssd, lexar nepal',
         ],
         'image_alt' => 'Lexar SL200 1TB Portable SSD',
         'buy_url' => 'https://onin.com.np/product/lexar--1tb-external-ssd-price-in-nepal',
@@ -5299,7 +5299,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Lexar SL500 is barely thicker than a credit card (4.8 mm at its thinnest) and weighs about 43 g, yet reaches up to 2,000 MB/s read and 1,800 MB/s write over USB 3.2 Gen 2x2. It is a favourite for recording ProRes video straight from an iPhone 15 Pro or 16 Pro.</p>
-<p>The aluminium unibody is rated IP54 and survives 2-metre drops, and Lexar's DataShield adds 256-bit encryption. It also works with Mac, Windows, Android, PS5 and Xbox. ONIN Infosys sells it from Rs 42,999, in 1 TB and 2 TB.</p>
+<p>The aluminium unibody is rated IP54 and survives 2-metre drops, and Lexar's DataShield adds 256-bit encryption. It also works with Mac, Windows, Android, PS5 and Xbox. It is listed from Rs 42,999, in 1 TB and 2 TB.</p>
 HTML,
         'faqs' => [
             ['Can I record video from an iPhone to the Lexar SL500?', 'Yes, it works with iPhone 15 Pro and 16 Pro models over USB-C.'],
@@ -5307,8 +5307,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Lexar SL500 Portable SSD Price in Nepal',
-            'description' => 'Lexar SL500 portable SSD price in Nepal: from Rs 42,999 at ONIN Infosys. 2,000MB/s, 4.8mm thin, IP54, iPhone 15/16 Pro ready.',
-            'keywords' => 'lexar sl500 portable ssd price in nepal, lexar sl500 portable ssd, lexar nepal, onin infosys',
+            'description' => 'Lexar SL500 portable SSD price in Nepal: from Rs 42,999. 2,000MB/s, 4.8mm thin, IP54, iPhone 15/16 Pro ready.',
+            'keywords' => 'lexar sl500 portable ssd price in nepal, lexar sl500 portable ssd, lexar nepal',
         ],
         'image_alt' => 'Lexar SL500 Portable SSD',
         'buy_url' => 'https://onin.com.np/product/lexar-sl500-portable-ssd-price-nepal-1tb-2tb',
@@ -5360,7 +5360,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Lexar SL300 sits in the middle of Lexar's range: up to 1,050 MB/s read and 1,000 MB/s write over USB 3.2 Gen 2, which most laptops and phones support at full speed. It is IP54 water and dust resistant and survives 2-metre drops.</p>
-<p>It weighs about 42 g, includes a 2-in-1 USB-C and USB-A cable, and has 256-bit AES encryption via Lexar DataShield. It works with Windows, macOS, Android, iPhone 15 and 16 models and gaming consoles. ONIN Infosys sells it from Rs 27,499, in 1 TB and 2 TB.</p>
+<p>It weighs about 42 g, includes a 2-in-1 USB-C and USB-A cable, and has 256-bit AES encryption via Lexar DataShield. It works with Windows, macOS, Android, iPhone 15 and 16 models and gaming consoles. It is listed from Rs 27,499, in 1 TB and 2 TB.</p>
 HTML,
         'faqs' => [
             ['SL300 or SL500?', 'The SL300 runs at full speed on almost any USB-C port. The SL500 is twice as fast, but only on USB 3.2 Gen 2x2 ports.'],
@@ -5368,8 +5368,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Lexar SL300 Portable SSD Price in Nepal',
-            'description' => 'Lexar SL300 portable SSD price in Nepal: from Rs 27,499 at ONIN Infosys. 1,050MB/s, IP54, 2m drop proof, 1TB and 2TB.',
-            'keywords' => 'lexar sl300 portable ssd price in nepal, lexar sl300 portable ssd, lexar nepal, onin infosys',
+            'description' => 'Lexar SL300 portable SSD price in Nepal: from Rs 27,499. 1,050MB/s, IP54, 2m drop proof, 1TB and 2TB.',
+            'keywords' => 'lexar sl300 portable ssd price in nepal, lexar sl300 portable ssd, lexar nepal',
         ],
         'image_alt' => 'Lexar SL300 Portable SSD',
         'buy_url' => 'https://onin.com.np/product/lexar-sl300-portable-ssd-1tb-2tb-price-nepal',
@@ -5408,7 +5408,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Swapping an old laptop's hard drive for an SSD is the cheapest speed boost there is, and a 256 GB Netac SATA SSD is an easy way to do it. Windows boots in seconds instead of minutes, and apps open noticeably faster.</p>
-<p>It uses the standard 2.5-inch SATA form factor, so it fits most laptops and desktops from the past decade, and even some consoles. ONIN Infosys sells it for Rs 6,000.</p>
+<p>It uses the standard 2.5-inch SATA form factor, so it fits most laptops and desktops from the past decade, and even some consoles. It is listed for Rs 6,000.</p>
 HTML,
         'faqs' => [
             ['Will this Netac SSD fit my laptop?', 'If your laptop has a 2.5-inch SATA drive bay, which most older laptops do, yes. Newer thin laptops often use M.2 slots instead.'],
@@ -5416,8 +5416,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Netac 256GB SATA SSD Price in Nepal',
-            'description' => 'Netac 256GB 2.5" SATA SSD price in Nepal: Rs 6,000 at ONIN Infosys. Speed up an old laptop or desktop, fits standard 2.5" bays.',
-            'keywords' => 'netac 256gb 2.5-inch sata ssd price in nepal, netac 256gb 2.5-inch sata ssd, netac nepal, onin infosys',
+            'description' => 'Netac 256GB 2.5" SATA SSD price in Nepal: Rs 6,000. Speed up an old laptop or desktop, fits standard 2.5" bays.',
+            'keywords' => 'netac 256gb 2.5-inch sata ssd price in nepal, netac 256gb 2.5-inch sata ssd, netac nepal',
         ],
         'image_alt' => 'Netac 256GB 2.5-inch SATA SSD',
         'buy_url' => 'https://onin.com.np/product/netac-256gb-2-5-inch-sata-internal-solid-state-drive-ssd',
@@ -5445,7 +5445,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Transcend's MTS832S is an M.2 2280 SSD on the SATA III (6Gb/s) interface, made for ultrabooks and thin notebooks that have an M.2 slot rather than a 2.5-inch bay. It uses quality flash chips with a DDR3 DRAM cache, which keeps performance steady during long file copies.</p>
-<p>Before buying, check that your laptop's M.2 slot supports SATA, as some only accept NVMe drives. ONIN Infosys sells the 256 GB model for Rs 4,375.</p>
+<p>Before buying, check that your laptop's M.2 slot supports SATA, as some only accept NVMe drives. The 256 GB model sells for Rs 4,375.</p>
 HTML,
         'faqs' => [
             ['Is the Transcend MTS832S NVMe?', 'No, it is an M.2 SATA III SSD. Check that your laptop\'s M.2 slot supports SATA drives.'],
@@ -5453,8 +5453,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Transcend MTS832S 256GB M.2 SSD Price in Nepal',
-            'description' => 'Transcend MTS832S 256GB M.2 SATA SSD price in Nepal: Rs 4,375 at ONIN Infosys. SATA III 6Gb/s, DRAM cache, for ultrabooks.',
-            'keywords' => 'transcend mts832s 256gb m.2 sata ssd price in nepal, transcend mts832s 256gb m.2 sata ssd, transcend nepal, onin infosys',
+            'description' => 'Transcend MTS832S 256GB M.2 SATA SSD price in Nepal: Rs 4,375. SATA III 6Gb/s, DRAM cache, for ultrabooks.',
+            'keywords' => 'transcend mts832s 256gb m.2 sata ssd price in nepal, transcend mts832s 256gb m.2 sata ssd, transcend nepal',
         ],
         'image_alt' => 'Transcend MTS832S 256GB M.2 SATA SSD',
         'buy_url' => 'https://onin.com.np/product/sata-iii---mts-832-m-2---256-gb---6-gbps',
@@ -5496,7 +5496,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The SanDisk Extreme Portable SSD is the drive you see clipped to photographers' bags, thanks to its carabiner loop. It uses NVMe flash to reach up to 1,050 MB/s read and 1,000 MB/s write, and is rated IP65 for water and dust with up to 3-metre drop protection.</p>
-<p>Built-in 256-bit AES hardware encryption adds password protection, and USB-C makes it work with PCs, Macs, Android phones and iPhone 15 and 16 models. ONIN Infosys sells it from Rs 33,499 (down from Rs 35,499), in 1 TB and 2 TB.</p>
+<p>Built-in 256-bit AES hardware encryption adds password protection, and USB-C makes it work with PCs, Macs, Android phones and iPhone 15 and 16 models. It is listed from Rs 33,499 (down from Rs 35,499), in 1 TB and 2 TB.</p>
 HTML,
         'faqs' => [
             ['Is the SanDisk Extreme Portable SSD waterproof?', 'It is rated IP65 for water and dust resistance, so it handles rain and splashes.'],
@@ -5504,8 +5504,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'SanDisk Extreme Portable SSD V2 Price in Nepal',
-            'description' => 'SanDisk Extreme Portable SSD V2 price in Nepal: from Rs 33,499 at ONIN Infosys. 1,050MB/s NVMe, IP65, 3m drop, 256-bit encryption.',
-            'keywords' => 'sandisk extreme portable ssd v2 price in nepal, sandisk extreme portable ssd v2, sandisk nepal, onin infosys',
+            'description' => 'SanDisk Extreme Portable SSD V2 price in Nepal: from Rs 33,499. 1,050MB/s NVMe, IP65, 3m drop, 256-bit encryption.',
+            'keywords' => 'sandisk extreme portable ssd v2 price in nepal, sandisk extreme portable ssd v2, sandisk nepal',
         ],
         'image_alt' => 'SanDisk Extreme Portable SSD V2',
         'buy_url' => 'https://onin.com.np/product/sandisk-extreme-portable-ssd-price-nepal-1tb-2tb',
@@ -5561,7 +5561,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The 4 TB SanDisk Extreme gives video makers enough room for whole projects of 4K footage or RAW photos in a drive that fits in a shirt pocket. Speeds are up to 1,050 MB/s read and 1,000 MB/s write over USB 3.2 Gen 2.</p>
-<p>Like the smaller models it is IP65 dust and water resistant, survives drops of up to 3 metres, and has hardware encryption with password protection. ONIN Infosys sells the black 4 TB model for Rs 75,500.</p>
+<p>Like the smaller models it is IP65 dust and water resistant, survives drops of up to 3 metres, and has hardware encryption with password protection. The black 4 TB model sells for Rs 75,500.</p>
 HTML,
         'faqs' => [
             ['How much 4K video fits on 4 TB?', 'Many hours, depending on bitrate and codec. It is sized for multi-day shoots.'],
@@ -5569,8 +5569,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'SanDisk Extreme Portable SSD 4TB Price in Nepal',
-            'description' => 'SanDisk Extreme Portable SSD 4TB price in Nepal: Rs 75,500 at ONIN Infosys. 1,050MB/s, IP65, 3m drop proof, password protection.',
-            'keywords' => 'sandisk extreme portable ssd 4tb price in nepal, sandisk extreme portable ssd 4tb, sandisk nepal, onin infosys',
+            'description' => 'SanDisk Extreme Portable SSD 4TB price in Nepal: Rs 75,500. 1,050MB/s, IP65, 3m drop proof, password protection.',
+            'keywords' => 'sandisk extreme portable ssd 4tb price in nepal, sandisk extreme portable ssd 4tb, sandisk nepal',
         ],
         'image_alt' => 'SanDisk Extreme Portable SSD 4TB',
         'buy_url' => 'https://onin.com.np/product/sandisk-extreme-portable-ssd-4tb-black-nepal',
@@ -5620,8 +5620,8 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>If you need lots of space for backups and don't mind slower speeds than an SSD, the Seagate Expansion 4 TB is the cheapest way to get it from ONIN. It is a 2.5-inch portable hard drive that runs off its USB 3.0 cable, with no power adapter needed.</p>
-<p>It works with Windows and Mac. ONIN Infosys sells it for Rs 34,999, about Rs 8.75 per gigabyte, far less per GB than a portable SSD.</p>
+<p>If you need lots of space for backups and don't mind slower speeds than an SSD, the Seagate Expansion 4 TB is the cheapest way to get it. It is a 2.5-inch portable hard drive that runs off its USB 3.0 cable, with no power adapter needed.</p>
+<p>It works with Windows and Mac. It is listed for Rs 34,999, about Rs 8.75 per gigabyte, far less per GB than a portable SSD.</p>
 HTML,
         'faqs' => [
             ['Does the Seagate Expansion 4TB need a power adapter?', 'No, it is powered through its USB cable.'],
@@ -5629,8 +5629,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Seagate Expansion 4TB Portable HDD Price in Nepal',
-            'description' => 'Seagate Expansion 4TB portable hard drive price in Nepal: Rs 34,999 at ONIN Infosys. USB 3.0, bus-powered, Windows and Mac.',
-            'keywords' => 'seagate expansion 4tb portable hard drive price in nepal, seagate expansion 4tb portable hard drive, seagate nepal, onin infosys',
+            'description' => 'Seagate Expansion 4TB portable hard drive price in Nepal: Rs 34,999. USB 3.0, bus-powered, Windows and Mac.',
+            'keywords' => 'seagate expansion 4tb portable hard drive price in nepal, seagate expansion 4tb portable hard drive, seagate nepal',
         ],
         'image_alt' => 'Seagate Expansion 4TB Portable Hard Drive',
         'buy_url' => 'https://onin.com.np/product/seagate-expansion-4tb-external-hdd---usb-3-0-for-windows-and-mac-with-3-yr-data-recovery-services--portable-hard-drive',
@@ -5666,7 +5666,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Seagate Expansion Desktop is built to stay on a desk as the home for family photos, project archives or CCTV exports. It comes in 12 TB and 14 TB and connects over USB 3.0, backward compatible with USB 2.0.</p>
-<p>This is a 3.5-inch drive, so it needs its included 18W power adapter rather than running off USB power. It is plug-and-play on Windows 10 or later, macOS 10.12 or later and ChromeOS. ONIN Infosys sells it from Rs 54,999.</p>
+<p>This is a 3.5-inch drive, so it needs its included 18W power adapter rather than running off USB power. It is plug-and-play on Windows 10 or later, macOS 10.12 or later and ChromeOS. It is listed from Rs 54,999.</p>
 HTML,
         'faqs' => [
             ['Is the Seagate Expansion Desktop portable?', 'No, it is a 3.5-inch desktop drive that needs its 18W power adapter.'],
@@ -5674,8 +5674,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Seagate Expansion Desktop 12TB/14TB Price in Nepal',
-            'description' => 'Seagate Expansion Desktop external hard drive price in Nepal: from Rs 54,999 at ONIN Infosys. 12TB or 14TB, USB 3.0, plug-and-play.',
-            'keywords' => 'seagate expansion desktop hard drive (12tb / 14tb) price in nepal, seagate expansion desktop hard drive (12tb / 14tb), seagate nepal, onin infosys',
+            'description' => 'Seagate Expansion Desktop external hard drive price in Nepal: from Rs 54,999. 12TB or 14TB, USB 3.0, plug-and-play.',
+            'keywords' => 'seagate expansion desktop hard drive (12tb / 14tb) price in nepal, seagate expansion desktop hard drive (12tb / 14tb), seagate nepal',
         ],
         'image_alt' => 'Seagate Expansion Desktop Hard Drive (12TB / 14TB)',
         'buy_url' => 'https://onin.com.np/product/seagate-expansion-desktop-external-hard-drive-nepal',
@@ -5720,7 +5720,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Transcend's StoreJet 25M3 is built for people who drop things. A three-stage shock protection system and military-grade drop resistance protect the 2.5-inch drive inside, which matters for a hard drive carried in a bag every day.</p>
-<p>It connects over USB 3.1 Gen 1 for quick backups. ONIN Infosys sells the 1 TB model (TS1TSJ25M3S) for Rs 21,999.</p>
+<p>It connects over USB 3.1 Gen 1 for quick backups. The 1 TB model (TS1TSJ25M3S) sells for Rs 21,999.</p>
 HTML,
         'faqs' => [
             ['Is the Transcend StoreJet 25M3 shockproof?', 'It has a three-stage shock protection system and military-grade drop resistance.'],
@@ -5728,8 +5728,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Transcend StoreJet 25M3 1TB Price in Nepal',
-            'description' => 'Transcend StoreJet 25M3 1TB rugged portable hard drive price in Nepal: Rs 21,999 at ONIN Infosys. Military-grade drop protection, USB 3.1.',
-            'keywords' => 'transcend storejet 25m3 1tb portable hard drive price in nepal, transcend storejet 25m3 1tb portable hard drive, transcend nepal, onin infosys',
+            'description' => 'Transcend StoreJet 25M3 1TB rugged portable hard drive price in Nepal: Rs 21,999. Military-grade drop protection, USB 3.1.',
+            'keywords' => 'transcend storejet 25m3 1tb portable hard drive price in nepal, transcend storejet 25m3 1tb portable hard drive, transcend nepal',
         ],
         'image_alt' => 'Transcend StoreJet 25M3 1TB Portable Hard Drive',
         'buy_url' => 'https://onin.com.np/product/1tb-external-hdd-transcend',
@@ -5770,7 +5770,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The 2 TB StoreJet 25M3 gives you twice the space of the 1 TB model in the same rugged, shock-protected shell. It weighs about 189 g in iron grey and connects over USB 3.1 Gen 1, with both USB-C to USB-A and USB-C to USB-C cables.</p>
-<p>It works with Windows 7 to 10, macOS 10.7 or later and Linux. ONIN Infosys sells it for Rs 28,999, only Rs 7,000 more than the 1 TB version.</p>
+<p>It works with Windows 7 to 10, macOS 10.7 or later and Linux. It is listed for Rs 28,999, only Rs 7,000 more than the 1 TB version.</p>
 HTML,
         'faqs' => [
             ['Which cables come with the 2TB StoreJet 25M3?', 'USB-C to USB-A and USB-C to USB-C.'],
@@ -5778,8 +5778,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Transcend StoreJet 25M3 2TB Price in Nepal',
-            'description' => 'Transcend StoreJet 25M3 2TB rugged portable hard drive price in Nepal: Rs 28,999 at ONIN Infosys. Shock protection, USB 3.1, 2 cables.',
-            'keywords' => 'transcend storejet 25m3 2tb portable hard drive price in nepal, transcend storejet 25m3 2tb portable hard drive, transcend nepal, onin infosys',
+            'description' => 'Transcend StoreJet 25M3 2TB rugged portable hard drive price in Nepal: Rs 28,999. Shock protection, USB 3.1, 2 cables.',
+            'keywords' => 'transcend storejet 25m3 2tb portable hard drive price in nepal, transcend storejet 25m3 2tb portable hard drive, transcend nepal',
         ],
         'image_alt' => 'Transcend StoreJet 25M3 2TB Portable Hard Drive',
         'buy_url' => 'https://onin.com.np/product/transcend-2tb-external-hdd',
@@ -5820,7 +5820,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>WD's My Passport is one of the best-known portable drives, and the 2 TB model is a sensible size for a laptop backup plus a photo archive. It includes WD Backup software for automatic backups and hardware encryption with password protection.</p>
-<p>It connects over USB 3.2 Gen 1, works with Windows 10 and later and Chrome OS, and needs reformatting or a free NTFS driver to write from a Mac. ONIN Infosys sells it for Rs 23,499.</p>
+<p>It connects over USB 3.2 Gen 1, works with Windows 10 and later and Chrome OS, and needs reformatting or a free NTFS driver to write from a Mac. It is listed for Rs 23,499.</p>
 HTML,
         'faqs' => [
             ['Does the WD My Passport work with a Mac?', 'Yes, after reformatting it for macOS or installing WD\'s NTFS driver.'],
@@ -5828,8 +5828,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'WD My Passport 2TB Price in Nepal',
-            'description' => 'WD My Passport 2TB portable hard drive price in Nepal: Rs 23,499 at ONIN Infosys. Auto backup, password protection, USB 3.2 Gen 1.',
-            'keywords' => 'wd my passport 2tb portable hard drive price in nepal, wd my passport 2tb portable hard drive, wd nepal, onin infosys',
+            'description' => 'WD My Passport 2TB portable hard drive price in Nepal: Rs 23,499. Auto backup, password protection, USB 3.2 Gen 1.',
+            'keywords' => 'wd my passport 2tb portable hard drive price in nepal, wd my passport 2tb portable hard drive, wd nepal',
         ],
         'image_alt' => 'WD My Passport 2TB Portable Hard Drive',
         'buy_url' => 'https://onin.com.np/product/my-passport-2tb--portable-external-hard-drive',
@@ -5883,7 +5883,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The iPad with the A16 chip is the iPad most people should buy. Its 11-inch Liquid Retina display (2360 x 1640, 500 nits, True Tone) is sharp enough for reading, video and classes, and the A16's 5-core CPU and 4-core GPU, with 6 GB of LPDDR5 memory, keep it quick for everyday apps and games.</p>
-<p>You get 12MP cameras front and back, with 4K video on the rear, and storage options of 128, 256 or 512 GB. ONIN Infosys sells it from Rs 83,499.</p>
+<p>You get 12MP cameras front and back, with 4K video on the rear, and storage options of 128, 256 or 512 GB. It is listed from Rs 83,499.</p>
 HTML,
         'faqs' => [
             ['How much RAM does the iPad A16 have?', '6 GB of LPDDR5.'],
@@ -5891,8 +5891,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Apple iPad A16 Price in Nepal',
-            'description' => 'Apple iPad (A16) 11-inch price in Nepal: from Rs 83,499 at ONIN Infosys. A16 chip, 6GB RAM, Liquid Retina display, 12MP cameras.',
-            'keywords' => 'apple ipad (a16) price in nepal, apple ipad (a16), apple nepal, onin infosys',
+            'description' => 'Apple iPad (A16) 11-inch price in Nepal: from Rs 83,499. A16 chip, 6GB RAM, Liquid Retina display, 12MP cameras.',
+            'keywords' => 'apple ipad (a16) price in nepal, apple ipad (a16), apple nepal',
         ],
         'image_alt' => 'Apple iPad (A16)',
         'buy_url' => 'https://onin.com.np/product/ipad-a16-price-in-nepal',
@@ -5976,7 +5976,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The M4 iPad Air brings near-Pro power at an Air price. Apple's M4 chip has an 8-core CPU and a 9-core GPU with hardware ray tracing, and 12 GB of unified memory, 50% more than before, keeps several apps, Stage Manager and heavier creative work running smoothly.</p>
-<p>The 11-inch Liquid Retina display covers the P3 wide colour range at 500 nits with True Tone, and the 12MP landscape Center Stage camera keeps you framed on calls. ONIN Infosys sells the Wi-Fi model from Rs 1,39,999, in 128 GB or 256 GB.</p>
+<p>The 11-inch Liquid Retina display covers the P3 wide colour range at 500 nits with True Tone, and the 12MP landscape Center Stage camera keeps you framed on calls. The Wi-Fi model sells from Rs 1,39,999, in 128 GB or 256 GB.</p>
 HTML,
         'faqs' => [
             ['How much memory does the M4 iPad Air have?', '12 GB of unified memory.'],
@@ -5984,8 +5984,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Apple iPad Air 11-inch M4 Price in Nepal',
-            'description' => 'Apple iPad Air 11-inch M4 price in Nepal: from Rs 1,39,999 at ONIN Infosys. M4 chip, 12GB memory, P3 Liquid Retina, landscape camera.',
-            'keywords' => 'apple ipad air 11-inch (m4) price in nepal, apple ipad air 11-inch (m4), apple nepal, onin infosys',
+            'description' => 'Apple iPad Air 11-inch M4 price in Nepal: from Rs 1,39,999. M4 chip, 12GB memory, P3 Liquid Retina, landscape camera.',
+            'keywords' => 'apple ipad air 11-inch (m4) price in nepal, apple ipad air 11-inch (m4), apple nepal',
         ],
         'image_alt' => 'Apple iPad Air 11-inch (M4)',
         'buy_url' => 'https://onin.com.np/product/apple-ipad-air-m4-11-inch-price-nepal',
@@ -6054,7 +6054,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Elista NH32ECA60 E is a simple 32-inch HD TV for a bedroom, hostel or shop counter. It is not a smart TV, so you connect a set-top box, laptop or streaming stick, but it has two HDMI ports, two USB ports for media files (and hard drives up to 2 TB), plus AV and headphone outputs.</p>
-<p>The bezel-less design makes the screen look larger, the A+ grade panel shows 1366 x 768, and 24W side-firing speakers are louder than most budget TVs. It uses about 48W of power. ONIN Infosys sells it for Rs 19,999 with a one-year official warranty.</p>
+<p>The bezel-less design makes the screen look larger, the A+ grade panel shows 1366 x 768, and 24W side-firing speakers are louder than most budget TVs. It uses about 48W of power. It is listed for Rs 19,999 with a one-year official warranty.</p>
 HTML,
         'faqs' => [
             ['Is the Elista NH32ECA60 E a smart TV?', 'No, this is the non-smart version. Add a streaming stick or set-top box for apps.'],
@@ -6062,8 +6062,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Elista 32" HD LED TV NH32ECA60 E Price in Nepal',
-            'description' => 'Elista NH32ECA60 E 32-inch HD LED TV price in Nepal: Rs 19,999 at ONIN Infosys. Bezel-less, 24W speakers, 2x HDMI, 2x USB, 1-year warranty.',
-            'keywords' => 'elista nh32eca60 e 32-inch hd led tv price in nepal, elista nh32eca60 e 32-inch hd led tv, elista nepal, onin infosys',
+            'description' => 'Elista NH32ECA60 E 32-inch HD LED TV price in Nepal: Rs 19,999. Bezel-less, 24W speakers, 2x HDMI, 2x USB, 1-year warranty.',
+            'keywords' => 'elista nh32eca60 e 32-inch hd led tv price in nepal, elista nh32eca60 e 32-inch hd led tv, elista nepal',
         ],
         'image_alt' => 'Elista NH32ECA60 E 32-inch HD LED TV',
         'buy_url' => 'https://onin.com.np/product/elista-nh32eca60-e-non-smart-32-inch-led-tv-price-nepal',
@@ -6120,7 +6120,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Even a short power cut can corrupt files or reset a router, and a small UPS like Dahua's DH-PFM3350-600 bridges the gap. Rated at 600VA / 360W, it keeps a desktop PC and monitor running long enough to save your work and shut down properly, or keeps a router and CCTV recorder online.</p>
-<p>It accepts 170 to 280V input, switches to battery in 4 to 8 ms, and protects against overload and over- or under-voltage. The internal 12V 7Ah battery recharges to 90% in 4 to 6 hours. ONIN Infosys sells it for Rs 4,950.</p>
+<p>It accepts 170 to 280V input, switches to battery in 4 to 8 ms, and protects against overload and over- or under-voltage. The internal 12V 7Ah battery recharges to 90% in 4 to 6 hours. It is listed for Rs 4,950.</p>
 HTML,
         'faqs' => [
             ['How long will the Dahua 600VA UPS run my computer?', 'A few minutes for a typical desktop and monitor, enough to save and shut down. It runs much longer on light loads like a router.'],
@@ -6128,8 +6128,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Dahua 600VA UPS DH-PFM3350-600 Price in Nepal',
-            'description' => 'Dahua DH-PFM3350-600 600VA/360W offline UPS price in Nepal: Rs 4,950 at ONIN Infosys. 4-8ms switching, 12V 7Ah battery, surge protection.',
-            'keywords' => 'dahua dh-pfm3350-600 600va ups price in nepal, dahua dh-pfm3350-600 600va ups, dahua nepal, onin infosys',
+            'description' => 'Dahua DH-PFM3350-600 600VA/360W offline UPS price in Nepal: Rs 4,950. 4-8ms switching, 12V 7Ah battery, surge protection.',
+            'keywords' => 'dahua dh-pfm3350-600 600va ups price in nepal, dahua dh-pfm3350-600 600va ups, dahua nepal',
         ],
         'image_alt' => 'Dahua DH-PFM3350-600 600VA UPS',
         'buy_url' => 'https://onin.com.np/product/dahua-dh-pfm3350-600-ups-nepal',
@@ -6195,8 +6195,8 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dahua's DH-PFM350-720-A is the biggest of its three UPS models at ONIN, rated at 1200VA with 720W on mains and 530W on battery. That is enough for a gaming PC or a workstation with a large monitor, or a CCTV setup with its recorder.</p>
-<p>It accepts a wide 150 to 275V input, switches in under 10 ms, has a power factor of 0.85, and supports cold start, so you can turn it on during a power cut. Protection covers overload, deep discharge and overcharge. ONIN Infosys sells it for Rs 9,999.</p>
+<p>Dahua's DH-PFM350-720-A is the biggest of its three UPS models, rated at 1200VA with 720W on mains and 530W on battery. That is enough for a gaming PC or a workstation with a large monitor, or a CCTV setup with its recorder.</p>
+<p>It accepts a wide 150 to 275V input, switches in under 10 ms, has a power factor of 0.85, and supports cold start, so you can turn it on during a power cut. Protection covers overload, deep discharge and overcharge. It is listed for Rs 9,999.</p>
 HTML,
         'faqs' => [
             ['Can the Dahua 1200VA UPS run a gaming PC?', 'Its 530W battery output suits most mid-range gaming PCs with a monitor, for a short shutdown window.'],
@@ -6204,8 +6204,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Dahua 1200VA UPS DH-PFM350-720-A Price in Nepal',
-            'description' => 'Dahua DH-PFM350-720-A 1200VA/720W UPS price in Nepal: Rs 9,999 at ONIN Infosys. Wide 150-275V input, cold start, overload protection.',
-            'keywords' => 'dahua dh-pfm350-720-a 1200va ups price in nepal, dahua dh-pfm350-720-a 1200va ups, dahua nepal, onin infosys',
+            'description' => 'Dahua DH-PFM350-720-A 1200VA/720W UPS price in Nepal: Rs 9,999. Wide 150-275V input, cold start, overload protection.',
+            'keywords' => 'dahua dh-pfm350-720-a 1200va ups price in nepal, dahua dh-pfm350-720-a 1200va ups, dahua nepal',
         ],
         'image_alt' => 'Dahua DH-PFM350-720-A 1200VA UPS',
         'buy_url' => 'https://onin.com.np/product/dahua-ups-1200va-720w-dh-pfm350-720-a-nepal',
@@ -6266,7 +6266,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>Sitting between Dahua's 600VA and 1200VA models, the DH-PFM3350-1000 is rated at 1000VA / 600W, a good match for an office desktop with a monitor or a small home setup with a router and NVR.</p>
-<p>It accepts 170 to 280V, switches over in 4 to 8 ms, and gives pure sine wave output on mains and a simulated sine wave on battery. The internal battery (about 9 Ah) fast-charges in 4 to 6 hours, with protection against overload, short circuit, overcharge and over-discharge. ONIN Infosys sells it for Rs 7,150.</p>
+<p>It accepts 170 to 280V, switches over in 4 to 8 ms, and gives pure sine wave output on mains and a simulated sine wave on battery. The internal battery (about 9 Ah) fast-charges in 4 to 6 hours, with protection against overload, short circuit, overcharge and over-discharge. It is listed for Rs 7,150.</p>
 HTML,
         'faqs' => [
             ['Which Dahua UPS should I buy?', 'The 600VA suits a router or a basic PC, the 1000VA an office desktop with a monitor, and the 1200VA a gaming PC or heavier load.'],
@@ -6274,8 +6274,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Dahua 1000VA UPS DH-PFM3350-1000 Price in Nepal',
-            'description' => 'Dahua DH-PFM3350-1000 1000VA/600W UPS price in Nepal: Rs 7,150 at ONIN Infosys. 4-8ms switching, short-circuit protection, 4-6h recharge.',
-            'keywords' => 'dahua dh-pfm3350-1000 1000va ups price in nepal, dahua dh-pfm3350-1000 1000va ups, dahua nepal, onin infosys',
+            'description' => 'Dahua DH-PFM3350-1000 1000VA/600W UPS price in Nepal: Rs 7,150. 4-8ms switching, short-circuit protection, 4-6h recharge.',
+            'keywords' => 'dahua dh-pfm3350-1000 1000va ups price in nepal, dahua dh-pfm3350-1000 1000va ups, dahua nepal',
         ],
         'image_alt' => 'Dahua DH-PFM3350-1000 1000VA UPS',
         'buy_url' => 'https://onin.com.np/product/dahua-dh-pfm3350-1000-ups-1000va-600w-nepal',

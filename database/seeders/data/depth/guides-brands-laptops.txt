@@ -164,13 +164,13 @@
 
 === hp-laptop-price-in-nepal
 <h2>From Notebook to Spectre</h2>
-[[models:hp-pavilion-15,hp-15-ryzen-7-7730u-8gb,hp-probook-445-g11-ryzen-5-7535u,hp-elitebook-655-g10-ryzen-5-pro-7530u,hp-victus-15,hp-victus-15-2023-13th-gen-i5-13420h-rtx-4050,hp-omnibook-x-flip-14-14-fm0013dx-2025-intel-core-ultra-5-226v,hp-spectre-x360-14-eu0060ca-2024-intel-core-ultra-5-125h-16gb-16gb-14-3k-oled-touch]]
+[[models:hp-15-ryzen-7-7730u-8gb,hp-probook-445-g11-ryzen-5-7535u,hp-elitebook-655-g10-ryzen-5-pro-7530u,hp-victus-15,hp-victus-15-2023-13th-gen-i5-13420h-rtx-4050,hp-omnibook-x-flip-14-14-fm0013dx-2025-intel-core-ultra-5-226v,hp-spectre-x360-14-eu0060ca-2024-intel-core-ultra-5-125h-16gb-16gb-14-3k-oled-touch]]
 <h2>HP's families, old and new</h2>
 <p>HP is moving to the OmniBook name for consumer laptops, replacing Pavilion, Envy and Spectre. You will see both in shops for some time. <strong>HP 14/15</strong> are basic. <strong>Pavilion</strong> and <strong>OmniBook 5</strong> are the middle. <strong>OmniBook X</strong>, <strong>Envy</strong> and <strong>Spectre</strong> are premium. <strong>ProBook</strong> and <strong>EliteBook</strong> are for business. <strong>Victus</strong> and <strong>OMEN</strong> are for games.</p>
 <h2>The best thing HP sells here: ProBook and EliteBook</h2>
 <p>At Rs 1,14,999 the <a href="/products/hp-probook-445-g11-ryzen-5-7535u">ProBook 445 G11</a> has 32GB, a 16:10 screen, a 56Wh battery and Windows 11 Pro. The <a href="/products/hp-elitebook-655-g10-ryzen-5-pro-7530u">EliteBook 655 G10</a> at Rs 1,29,999 adds a terabyte and a stronger chassis. The Ryzen chips are not the newest, but the rest is superb for office work, coding and study. People walk past them to buy glossy consumer laptops with 8GB. Do not be one of them.</p>
 <h2>Under Rs 80,000</h2>
-<p>The <a href="/products/hp-pavilion-15">Pavilion 15</a> with a Ryzen 5 7530U at about Rs 75,000 is the strongest, with six cores and 8GB of replaceable memory. Add a stick and it lasts. The HP 14 with an Athlon and 4GB at Rs 54,999 belongs in the same drawer as the N100 machines: avoid. The HP 15 with a Ryzen 3 7320U is slow for its price.</p>
+<p>HP has little worth buying new at this level. Leftover <a href="/products/hp-pavilion-15">Pavilion 15</a> units with a Ryzen 5 7530U are the exception if you find one with warranty remaining, because it has six cores and replaceable memory. The HP 14 with an Athlon and 4GB at Rs 54,999 belongs in the same drawer as the N100 machines: avoid. The HP 15 with a Ryzen 3 7320U is slow for its price.</p>
 <h2>Around one lakh</h2>
 <p>The HP 15 with a Ryzen 7 7730U or Core Ultra 5 125H looks tempting, until you see the 8GB. The processor is fine, the battery at 41Wh is small. With another 8GB these are good, so ask whether a slot exists. If it must be perfect out of the box, the Acer Aspire Lite 15 is cheaper with 16GB.</p>
 <h2>Convertibles</h2>
@@ -179,7 +179,7 @@
 <p>Victus 15 is the most popular first gaming laptop in Nepal, and with reason. It looks normal and is sold everywhere. Versions differ a lot: RTX 3050 with 6GB, RTX 4050, different processors, and in some listings DDR4 memory. The <a href="/products/hp-victus-15-2023-13th-gen-i5-13420h-rtx-4050">RTX 4050 version</a> at about Rs 1,66,000 is the one to aim for. <a href="/reviews/hp-victus-15-review-nepal">Our Victus review</a> lists the questions.</p>
 <h2>Who should buy which HP</h2>
 <ul>
-<li><strong>Home:</strong> Pavilion 15 Ryzen 5 with added memory.</li>
+<li><strong>Home:</strong> a leftover Pavilion 15 with warranty and added memory, or a Ryzen 5 HP 15.</li>
 <li><strong>Student in any course except 3D:</strong> ProBook 445 G11.</li>
 <li><strong>Office fleet:</strong> ProBook or EliteBook with a three-year warranty.</li>
 <li><strong>Artist or note-taker:</strong> OmniBook X Flip.</li>

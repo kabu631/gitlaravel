@@ -8,10 +8,11 @@
       ]"
     />
 
-    <!-- Product hero -->
-    <div class="mt-6 grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
+    <!-- Two continuous columns: photo, then specs and everything below it; price panel, then the sidebar.
+         Neither column waits for the other, so there is no gap under the photo. -->
+    <div class="mt-6 grid grid-cols-1 gap-y-8 lg:grid-cols-[minmax(0,1fr)_21rem] lg:grid-rows-[auto_1fr] lg:gap-x-10 xl:grid-cols-[minmax(0,1fr)_25rem] xl:gap-x-12">
       <!-- Gallery -->
-      <div class="lg:col-span-7">
+      <div class="order-1 min-w-0 lg:order-none lg:col-start-1 lg:row-start-1">
         <div class="media-plate relative aspect-[4/3] rounded-2xl">
           <img v-if="activeImage" :src="activeImage" :alt="gadget.name" class="h-full w-full object-cover" fetchpriority="high" @error="markBroken(activeImage)" />
           <div v-else class="flex h-full w-full flex-col items-center justify-center gap-3 text-fg-faint">
@@ -25,7 +26,7 @@
           <span v-else>{{ activeCredit.credit }}</span>
         </p>
 
-        <ScrollRow v-if="allThumbs.length > 1" class="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+        <ScrollRow v-if="allThumbs.length > 1" class="-mx-1 mt-2 flex gap-2 overflow-x-auto p-1 scrollbar-none">
           <button
             v-for="img in allThumbs"
             :key="img.src"
@@ -46,9 +47,10 @@
         </div>
       </div>
 
-      <!-- Buy panel -->
-      <div class="lg:col-span-5">
-        <div class="lg:sticky lg:top-24">
+      <!-- Right column. On phones its two parts split up: price panel after the photo, sidebar at the very end. -->
+      <div class="contents lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:flex lg:flex-col">
+        <!-- Buy panel -->
+        <div class="order-2 min-w-0 lg:order-none">
           <p class="text-sm text-fg-subtle">
             <Link v-if="gadget.brand" :href="route('brands.show', gadget.brand.slug)" class="hover:text-fg">{{ gadget.brand.name }}</Link>
             <template v-if="gadget.category"> · {{ gadget.category.name }}</template>
@@ -163,7 +165,7 @@
               rel="noopener sponsored"
               class="btn btn-primary btn-lg w-full"
             >
-              Check price at retailer
+              {{ buyLabel }}
               <ArrowUpRight class="h-4 w-4" />
             </a>
             <div class="grid grid-cols-2 gap-2.5">
@@ -189,37 +191,117 @@
           </div>
           <p class="mt-3 text-xs leading-5 text-fg-subtle">
             <template v-if="gadget.price_is_estimate">The expected price is our estimate from the global price, taxes and past pricing in Nepal — the official price may differ.</template>
-            <template v-else>Prices are collected from retailers in Nepal and can change without notice. Git Infosys doesn’t sell devices directly.<template v-if="(buyUrl || '').includes('onin.com.np')"> The button opens ONIN Infosys, our business partner.</template></template>
+            <template v-else>Prices are collected from retailers in Nepal and can change without notice. Git Infosys doesn’t sell devices directly.<template v-if="isPartner && isAvailable"> The button opens our business partner’s shop.</template></template>
           </p>
 
-          <dl v-if="keySpecs.length" class="mt-7 divide-y divide-line border-y border-line text-sm">
+          <!-- Phones only: on larger screens the full specifications already start beside this panel. -->
+          <dl v-if="keySpecs.length" class="mt-7 divide-y divide-line border-y border-line text-sm lg:hidden">
             <div v-for="spec in keySpecs" :key="spec.label" class="flex gap-4 py-2.5">
               <dt class="w-24 shrink-0 text-fg-subtle">{{ spec.label }}</dt>
               <dd class="min-w-0 text-fg">{{ spec.value }}</dd>
             </div>
           </dl>
         </div>
+
+        <!-- Sidebar -->
+        <aside class="order-4 mt-6 min-w-0 space-y-10 lg:order-none lg:mt-12">
+          <div v-if="trending.length">
+            <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Popular right now</h2>
+            <ul class="divide-y divide-line">
+              <li v-for="t in trending" :key="t.id">
+                <Link :href="route('gadgets.show', t.slug)" class="group flex items-center gap-3 py-3">
+                  <div class="media-plate h-12 w-12 shrink-0 rounded-md">
+                    <img v-if="t.image" :src="getImageUrl(t.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                    <DeviceIcon v-else :category="t.category?.slug" />
+                  </div>
+                  <div class="min-w-0">
+                    <p class="truncate text-sm font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ t.name }}</p>
+                    <p class="tabular text-xs text-fg-subtle">{{ formatPrice(t.price) }}</p>
+                  </div>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div v-if="latestNews.length">
+            <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Latest news</h2>
+            <ul class="divide-y divide-line">
+              <li v-for="n in latestNews" :key="n.id">
+                <Link :href="route('news.show', n.slug)" class="group block py-3">
+                  <p class="text-xs text-fg-subtle"><span class="text-accent-text">{{ newsCategoryLabel(n.category) }}</span> · {{ formatDate(n.created_at) }}</p>
+                  <p class="mt-0.5 line-clamp-2 text-sm font-medium leading-snug text-fg group-hover:underline group-hover:underline-offset-4">{{ n.title }}</p>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- Stays in view beside the long left column once the sidebar has scrolled past -->
+        <div class="sticky top-24 mt-12 hidden border-t border-line pt-5 lg:block">
+          <div class="flex items-center gap-4">
+            <div class="media-plate h-16 w-20 shrink-0 rounded-lg">
+              <img v-if="activeImage" :src="activeImage" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+              <DeviceIcon v-else :category="gadget.category?.slug" />
+            </div>
+            <div class="min-w-0">
+              <p class="line-clamp-2 text-sm font-medium leading-snug text-fg">{{ gadget.name }}</p>
+              <p class="tabular mt-0.5 text-lg font-semibold tracking-tight text-fg">{{ hasNepalPrice ? formatPrice(displayPrice) : launchPhrase || 'No Nepal price' }}</p>
+            </div>
+          </div>
+          <div class="mt-4 flex gap-2">
+            <a v-if="buyUrl && isAvailable" :href="buyUrl" target="_blank" rel="noopener sponsored" class="btn btn-primary flex-1">{{ buyLabel }} <ArrowUpRight class="h-4 w-4" /></a>
+            <button type="button" class="btn btn-secondary" :class="buyUrl && isAvailable ? '' : 'flex-1'" :aria-pressed="isInCompareTray" @click="toggleCompareTray">
+              <Check v-if="isInCompareTray" class="h-4 w-4" />
+              <Scale v-else class="h-4 w-4" :stroke-width="1.75" />
+              {{ isInCompareTray ? 'Added' : 'Compare' }}
+            </button>
+          </div>
+          <dl v-if="keySpecs.length" class="mt-5 divide-y divide-line border-y border-line text-sm">
+            <div v-for="spec in keySpecs" :key="spec.label" class="flex gap-4 py-2.5">
+              <dt class="w-20 shrink-0 text-fg-subtle">{{ spec.label }}</dt>
+              <dd class="line-clamp-2 min-w-0 text-fg">{{ spec.value }}</dd>
+            </div>
+          </dl>
+          <!-- Only on screens tall enough to show it whole beneath the specs -->
+          <div v-if="related.length" class="mt-8 hidden [@media(min-height:900px)]:block">
+            <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Compare with</h2>
+            <ul class="divide-y divide-line">
+              <li v-for="r in related.slice(0, 3)" :key="r.id">
+                <Link :href="route('compare.index', { g1: gadget.slug, g2: r.slug })" class="group flex items-center gap-3 py-3">
+                  <div class="media-plate h-12 w-12 shrink-0 rounded-md">
+                    <img v-if="r.image" :src="getImageUrl(r.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                    <DeviceIcon v-else :category="r.category?.slug" />
+                  </div>
+                  <div class="min-w-0">
+                    <p class="truncate text-sm font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ r.name }}</p>
+                    <p v-if="Number(r.price) > 0" class="tabular text-xs text-fg-subtle">{{ formatPrice(r.price) }}</p>
+                  </div>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <!-- Section navigation -->
-    <nav class="sticky top-16 z-30 -mx-4 mt-16 border-b border-line bg-canvas/95 px-4 backdrop-blur sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8" aria-label="On this page">
-      <ScrollRow class="-mb-px flex gap-6 overflow-x-auto scrollbar-none">
-        <a
-          v-for="item in tocItems"
-          :key="item.id"
-          :href="'#' + item.id"
-          class="shrink-0 border-b-2 py-3.5 text-sm font-medium transition-colors"
-          :class="activeSection === item.id ? 'border-fg text-fg' : 'border-transparent text-fg-subtle hover:text-fg'"
-          @click.prevent="scrollToSection(item.id)"
-        >
-          {{ item.label }}
-        </a>
-      </ScrollRow>
-    </nav>
+      <!-- Left column, below the photo -->
+      <div class="order-3 min-w-0 lg:order-none lg:col-start-1 lg:row-start-2">
+        <!-- Section navigation -->
+        <nav class="sticky top-16 z-30 -mx-4 mt-4 border-b border-line bg-canvas px-4 sm:-mx-6 sm:px-6 lg:mx-0 lg:mt-0 lg:px-0" aria-label="On this page">
+          <ScrollRow class="-mb-px flex gap-6 overflow-x-auto scrollbar-none">
+            <a
+              v-for="item in tocItems"
+              :key="item.id"
+              :href="'#' + item.id"
+              class="shrink-0 border-b-2 py-3.5 text-sm font-medium transition-colors"
+              :class="activeSection === item.id ? 'border-fg text-fg' : 'border-transparent text-fg-subtle hover:text-fg'"
+              @click.prevent="scrollToSection(item.id)"
+            >
+              {{ item.label }}
+            </a>
+          </ScrollRow>
+        </nav>
 
-    <div class="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-12">
-      <div class="min-w-0 space-y-16 lg:col-span-8">
+        <div class="mt-10 space-y-16">
         <!-- Specifications -->
         <section id="specs" class="scroll-mt-32">
           <h2 class="section-title">Specifications</h2>
@@ -235,14 +317,7 @@
             </div>
             <p v-if="!specGroups.length" class="text-sm text-fg-subtle">Specifications haven’t been published for this device yet.</p>
           </div>
-          <div v-if="sources.length || checkedOn" class="mt-6 text-xs leading-5 text-fg-subtle">
-            <template v-if="sources.length"><span class="font-medium text-fg-muted">Sources:</span>
-            <template v-for="(src, i) in sources" :key="src.url">
-              <a :href="src.url" target="_blank" rel="noopener nofollow" class="underline decoration-line-strong underline-offset-2 hover:text-fg">{{ src.label }}</a><template v-if="i < sources.length - 1">, </template>
-            </template>
-            <template v-if="checkedOn"> · </template></template>
-            <template v-if="checkedOn">Price and specifications checked {{ formatDate(checkedOn) }}</template>
-          </div>
+          <p v-if="checkedOn" class="mt-6 text-xs leading-5 text-fg-subtle">Price and specifications checked {{ formatDate(checkedOn) }}</p>
         </section>
 
         <!-- Prices -->
@@ -255,7 +330,7 @@
                 <tr>
                   <th scope="col" class="px-4 py-3 font-medium">Configuration</th>
                   <th scope="col" class="px-4 py-3 text-right font-medium">Price</th>
-                  <th v-if="buyUrl && isAvailable" scope="col" class="px-4 py-3"><span class="sr-only">Retailer</span></th>
+                  <th v-if="listingUrl && isAvailable" scope="col" class="px-4 py-3"><span class="sr-only">Retailer</span></th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-line">
@@ -266,16 +341,16 @@
                       <span v-if="v.color" class="text-fg-subtle"> · {{ v.color }}</span>
                     </td>
                     <td class="tabular px-4 py-3 text-right font-medium text-fg">{{ formatPrice(v.effective_price) }}</td>
-                    <td v-if="buyUrl && isAvailable" class="px-4 py-3 text-right">
-                      <a :href="buyUrl" target="_blank" rel="noopener sponsored" class="link inline-flex items-center gap-1 text-sm">Retailer <ArrowUpRight class="h-3.5 w-3.5" /></a>
+                    <td v-if="listingUrl && isAvailable" class="px-4 py-3 text-right">
+                      <a :href="listingUrl" target="_blank" rel="noopener sponsored" class="link inline-flex items-center gap-1 text-sm">Retailer <ArrowUpRight class="h-3.5 w-3.5" /></a>
                     </td>
                   </tr>
                 </template>
                 <tr v-else>
                   <td class="px-4 py-3 text-fg">{{ singleConfigLabel }}</td>
                   <td class="tabular px-4 py-3 text-right font-medium text-fg">{{ formatPrice(gadget.price) }}</td>
-                  <td v-if="buyUrl && isAvailable" class="px-4 py-3 text-right">
-                    <a :href="buyUrl" target="_blank" rel="noopener sponsored" class="link inline-flex items-center gap-1 text-sm">Retailer <ArrowUpRight class="h-3.5 w-3.5" /></a>
+                  <td v-if="listingUrl && isAvailable" class="px-4 py-3 text-right">
+                    <a :href="listingUrl" target="_blank" rel="noopener sponsored" class="link inline-flex items-center gap-1 text-sm">Retailer <ArrowUpRight class="h-3.5 w-3.5" /></a>
                   </td>
                 </tr>
               </tbody>
@@ -446,38 +521,7 @@
         </section>
       </div>
 
-      <!-- Rail -->
-      <aside class="space-y-10 lg:col-span-4">
-        <div v-if="trending.length">
-          <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Popular right now</h2>
-          <ul class="divide-y divide-line">
-            <li v-for="t in trending" :key="t.id">
-              <Link :href="route('gadgets.show', t.slug)" class="group flex items-center gap-3 py-3">
-                <div class="media-plate h-12 w-12 shrink-0 rounded-md">
-                  <img v-if="t.image" :src="getImageUrl(t.image)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
-                  <DeviceIcon v-else :category="t.category?.slug" />
-                </div>
-                <div class="min-w-0">
-                  <p class="truncate text-sm font-medium text-fg group-hover:underline group-hover:underline-offset-4">{{ t.name }}</p>
-                  <p class="tabular text-xs text-fg-subtle">{{ formatPrice(t.price) }}</p>
-                </div>
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        <div v-if="latestNews.length">
-          <h2 class="border-b border-line pb-3 text-sm font-semibold text-fg">Latest news</h2>
-          <ul class="divide-y divide-line">
-            <li v-for="n in latestNews" :key="n.id">
-              <Link :href="route('news.show', n.slug)" class="group block py-3">
-                <p class="text-xs text-fg-subtle"><span class="text-accent-text">{{ newsCategoryLabel(n.category) }}</span> · {{ formatDate(n.created_at) }}</p>
-                <p class="mt-0.5 line-clamp-2 text-sm font-medium leading-snug text-fg group-hover:underline group-hover:underline-offset-4">{{ n.title }}</p>
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </aside>
+      </div>
     </div>
   </AppLayout>
 </template>
@@ -504,6 +548,7 @@ import { formatPrice as fmt, formatDate } from '@/Composables/useFormat.js'
 
 const props = defineProps({
   gadget: { type: Object, required: true },
+  checkedOn: { type: String, default: null },
   productVariants: { type: Array, default: () => [] },
   variantsByType: { type: Object, default: () => ({}) },
   priceHistory: { type: Array, default: () => [] },
@@ -558,10 +603,13 @@ const statusNotice = computed(() => {
   return null
 })
 const faqs = computed(() => (props.gadget.faqs || []).filter(f => f?.question && f?.answer))
-const sources = computed(() => (props.gadget.sources || []).filter(src => src?.url && src?.label))
-const checkedOn = computed(() => (props.gadget.sources || []).map(src => src?.accessed).filter(Boolean).sort().pop())
 
-const buyUrl = computed(() => props.gadget.buy_url || props.gadget.referral_buy_url || null)
+// A store page for this exact device, if we have one. Otherwise the button leads to our partner's site to ask
+// about stock, except for games and consoles, which the partner does not sell.
+const listingUrl = computed(() => props.gadget.buy_url || null)
+const buyUrl = computed(() => listingUrl.value || (['games', 'gaming'].includes(props.gadget.category?.slug) ? null : props.gadget.referral_buy_url) || null)
+const isPartner = computed(() => (buyUrl.value || '').includes('onin.com.np'))
+const buyLabel = 'Check Retail Price'
 const releaseLabel = computed(() => {
   if (!props.gadget.release_date) return ''
   const d = new Date(props.gadget.release_date)

@@ -167,10 +167,10 @@
            transition-colors hover:border-line-strong;
   }
 
-  /* Header theme switch: a highlighted round icon (moon in light mode, sun in dark mode). */
+  /* Header theme switch: a neutral round icon matching the search bar (moon in light mode, sun in dark mode). */
   .theme-toggle {
-    @apply inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-accent/40 bg-accent-soft
-           text-accent-text transition-colors hover:border-accent hover:bg-accent/15 focus-visible:outline-none
+    @apply inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-line bg-surface-2
+           text-fg-muted transition-colors hover:border-line-strong hover:text-fg focus-visible:outline-none
            focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas;
   }
   .theme-icon-enter-active,

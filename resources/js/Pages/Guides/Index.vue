@@ -14,13 +14,7 @@
       </form>
     </header>
 
-    <nav class="mt-8 border-b border-line" aria-label="Guide types">
-      <div class="-mb-px flex gap-6">
-      <Link :href="route('guides.index')" class="tab" :aria-current="!activeType ? 'page' : undefined">All</Link>
-      <Link :href="route('guides.index', { type: 'buying-guide' })" class="tab" :aria-current="activeType === 'buying-guide' ? 'page' : undefined">Buying guides</Link>
-      <Link :href="route('guides.index', { type: 'how-to' })" class="tab" :aria-current="activeType === 'how-to' ? 'page' : undefined">How-to</Link>
-      </div>
-    </nav>
+    <CategoryRail class="mt-8" flat dense aria-label="Guide types" :items="railItems" />
 
     <div class="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-12">
       <div class="min-w-0 lg:col-span-8">
@@ -33,7 +27,7 @@
                 <h2 class="mt-1.5 text-lg font-semibold leading-snug text-fg group-hover:underline group-hover:decoration-line-strong group-hover:underline-offset-4 sm:text-xl">{{ guide.title }}</h2>
               </div>
               <div v-if="guide.thumbnail" class="media-plate hidden aspect-[4/3] w-40 shrink-0 rounded-lg sm:block">
-                <img :src="getImageUrl(guide.thumbnail)" :alt="''" loading="lazy" class="h-full w-full object-cover" />
+                <img :src="getImageUrl(guide.thumbnail)" :alt="''" loading="lazy" class="h-full w-full" :class="guide.thumbnail.startsWith('gadgets/') ? 'object-contain' : 'object-cover'" />
               </div>
             </Link>
           </li>
@@ -79,13 +73,15 @@
 
 <script setup>
 import DeviceIcon from '@/Components/DeviceIcon.vue'
+import CategoryRail from '@/Components/CategoryRail.vue'
 import { ref, computed } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
-import { Search, BookOpen, ArrowRight } from 'lucide-vue-next'
+import { LayoutGrid, Search, BookOpen, ArrowRight } from 'lucide-vue-next'
 import AppLayout from '@/Layouts/AppLayout.vue'
 import Pagination from '@/Components/Pagination.vue'
 import Breadcrumbs from '@/Components/Breadcrumbs.vue'
 import { getImageUrl } from '@/Composables/useImageUrl.js'
+import { topicIcon } from '@/Composables/useCategories.js'
 import { formatDate, formatPrice } from '@/Composables/useFormat.js'
 
 const props = defineProps({
@@ -102,6 +98,11 @@ const description = computed(() => ({
   'buying-guide': 'What to look for, and which models to shortlist, at every budget.',
   'how-to': 'Step-by-step help with setup, settings and fixes.',
 }[activeType.value] || 'Buying advice and step-by-step help for phones, laptops and accessories.'))
+const railItems = computed(() => [
+  { key: '', label: 'All', icon: LayoutGrid, href: route('guides.index') },
+  { key: 'buying-guide', label: 'Buying guides', icon: topicIcon('buying-guide'), href: route('guides.index', { type: 'buying-guide' }) },
+  { key: 'how-to', label: 'How-to', icon: topicIcon('how-to'), href: route('guides.index', { type: 'how-to' }) },
+].map(i => ({ ...i, active: activeType.value === i.key })))
 const typeLabel = type => ({ 'buying-guide': 'Buying guide', 'how-to': 'How-to' }[type] || 'Guide')
 
 function doSearch() {

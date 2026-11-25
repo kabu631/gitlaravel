@@ -42,21 +42,8 @@
       </div>
     </section>
 
-    <!-- 2. Categories -->
-    <nav v-if="categories.length" class="container-page mt-12 pb-16" aria-label="Browse by category">
-      <!-- Every category in one scrollable row; ScrollRow shows arrows whenever some are off-screen -->
-      <ScrollRow class="flex gap-7 overflow-x-auto border-b border-line scrollbar-none">
-        <Link
-          v-for="cat in categories"
-          :key="cat.id"
-          :href="route('gadgets.index', { category: cat.slug })"
-          class="group inline-flex shrink-0 items-center gap-2 border-b-2 pb-3 text-sm font-medium transition-colors border-transparent text-fg-muted hover:border-fg hover:text-fg"
-        >
-          <component :is="categoryIcon(cat.slug)" class="h-[18px] w-[18px] shrink-0 text-fg-subtle group-hover:text-fg" :stroke-width="1.75" />
-          {{ categoryLabel(cat.slug, cat.name) }}
-        </Link>
-      </ScrollRow>
-    </nav>
+    <!-- 2. Categories: the glass bar lies across the top edge of the first tinted band -->
+    <CategoryRail v-if="categories.length" class="home-rail container-page" aria-label="Browse by category" :items="railItems" />
 
     <!-- 3. Featured devices -->
     <section v-if="featured.length" class="home-band" aria-labelledby="featured-heading">
@@ -292,14 +279,14 @@
       </div>
     </section>
 
-    <!-- 10. Brands -->
-    <section v-if="brands.length" class="home-band" aria-labelledby="brands-heading">
+    <!-- 10. Brands: a highlighted full-width stripe -->
+    <section v-if="brands.length" class="border-y border-accent/30 bg-accent-soft py-7 sm:py-8" aria-labelledby="brands-heading">
       <div class="container-page">
-      <div class="flex flex-col gap-4 border-t border-line pt-10 sm:flex-row sm:items-baseline sm:gap-10">
-        <h2 id="brands-heading" class="shrink-0 text-sm font-semibold text-fg">Browse by brand</h2>
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-baseline sm:gap-10">
+        <h2 id="brands-heading" class="shrink-0 border-l-2 border-accent pl-3 text-base font-semibold text-fg">Browse by brand</h2>
         <ul class="flex flex-wrap gap-x-6 gap-y-3">
           <li v-for="brand in brands" :key="brand.id">
-            <Link :href="route('brands.show', brand.slug)" class="text-sm text-fg-muted transition-colors hover:text-fg">
+            <Link :href="route('brands.show', brand.slug)" class="text-sm font-medium text-fg transition-colors hover:text-accent-text">
               {{ brand.name }}
             </Link>
           </li>
@@ -314,6 +301,7 @@
 <script setup>
 import DeviceIcon from '@/Components/DeviceIcon.vue'
 import ScrollRow from '@/Components/ScrollRow.vue'
+import CategoryRail from '@/Components/CategoryRail.vue'
 import { ref, computed } from 'vue'
 import { Link, WhenVisible } from '@inertiajs/vue3'
 import AppLayout from '@/Layouts/AppLayout.vue'
@@ -340,6 +328,13 @@ const props = defineProps({
   upcomingLaunches: { type: Array, default: () => [] },
   matchmakerPool: { type: Array, default: () => [] },
 })
+
+const railItems = computed(() => props.categories.map(c => ({
+  key: c.slug,
+  label: categoryLabel(c.slug, c.name),
+  icon: categoryIcon(c.slug),
+  href: route('gadgets.index', { category: c.slug }),
+})))
 
 const activeTab = ref('all')
 const featuredCategories = computed(() => {
@@ -415,6 +410,19 @@ const tools = [
 }
 .home-band:nth-child(odd of .home-band) {
   background: rgb(var(--surface-2) / 0.6);
+}
+/* The category bar overlaps the first band by half its height; that band gets the space back. */
+.home-rail {
+  position: relative;
+  z-index: 10;
+  margin-top: 3rem;
+  margin-bottom: -3.25rem;
+}
+/* Its upper half lies on plain white, so it needs an edge there. */
+.home-rail :deep(.rail-glass) { border-color: rgb(var(--line)); }
+.home-rail + .home-band { padding-top: 6.25rem; }
+@media (min-width: 640px) {
+  .home-rail + .home-band { padding-top: 7.25rem; }
 }
 .home-band:last-child {
   border-bottom: 1px solid rgb(var(--line));

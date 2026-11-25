@@ -1,0 +1,274 @@
+=== acer-aspire-7-a715-59g-76rm-2026-intel-core-7-240h-rtx-3050
+<p>The Aspire 7 hides a gaming card in an ordinary-looking laptop. You get a 10-core Intel Core 7 240H, an RTX 3050, 16GB of memory and a 144Hz Full HD screen for Rs 1,54,999. It passes for an office machine in a lecture hall, which many buyers prefer to glowing keyboards.</p>
+<p>The RTX 3050 plays esports titles very well and big new games at medium settings. It also speeds up Blender, Premiere and beginner machine-learning work. For heavier games the money goes further in the <a href="/products/acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050">Nitro V 15 with an RTX 4050</a>, about Rs 15,000 more.</p>
+<p>Storage is 512GB, so plan for a second drive. The 54Wh battery and 1.99kg weight are fair for the class. Ask for the graphics memory, as the RTX 3050 exists in 4GB and 6GB forms.</p>
+
+=== acer-aspire-go-14-g1471m55l0-2025-intel-core-ultra-5-115u
+<p>A light 14-inch laptop with 16GB of memory for Rs 1,15,999, the Aspire Go 14 is a comfortable student machine. Its Core Ultra 5 115U has eight cores and is designed to run cool and quiet, and Wi-Fi 6E is included.</p>
+<p>At 1.5kg with a 55Wh battery it can be carried all day. The 16:10 WUXGA screen shows more of a document than old Full HD panels.</p>
+<p>It is not for games or heavy video editing. If you type more than you travel, the larger <a href="/products/acer-aspire-lite-16-al16-54p-586n-2024-intel-core-i5-1334u">Aspire Lite 16</a> is Rs 6,000 cheaper and, oddly, weighs about the same.</p>
+
+=== acer-aspire-go-15-ag15-21pt-2024-ryzen-5-7520u
+<p>The Ryzen 5 7520U sounds newer than it is. It has four cores of an older design built on 6nm, made for long battery life in simple laptops. In the Aspire Go 15, with 8GB and 512GB for Rs 76,000, that suits typing, browsing, Zoom and accounting.</p>
+<p>Two details help it: a touchscreen, uncommon at this price, and a 53Wh battery that outlasts most rivals.</p>
+<p>The memory on this processor is usually soldered, so the 8GB may be all you will ever have. For someone studying programming, 16GB is wiser. <a href="/guides/best-laptops-under-100000-nepal">Our list of laptops under Rs 1 lakh</a> has several.</p>
+
+=== acer-aspire-lite-15-al15-52h-2024-intel-core-i7-13620h-16gb-1tb-156-fhd
+<p>Few laptops near Rs 1,20,000 combine a Core i7-13620H, 16GB and a full terabyte. The chip is from Intel's fast H series, with ten cores, so compiling code, editing photos and working with large spreadsheets feel quick.</p>
+<p>Fast chips use power. Expect five or six hours of light work from the 54Wh battery and some fan noise under load. The 15.6-inch Full HD panel is ordinary at 60Hz, and there is no graphics card for games.</p>
+<p>At 1.7kg it is easy to carry. For desk-based developers and analysts this is strong value. If battery life matters more than speed, look at a Core Ultra model such as the <a href="/products/acer-swift-neo-14-sfn14-54h-2025-intel-core-ultra-5-115u">Swift Neo 14</a>.</p>
+
+=== acer-aspire-lite-16-a16-52p-intel-core-i5-1334u
+<p>Acer sells two very similar 16-inch Aspire Lites here. This AL16-52P costs Rs 1,23,500 with a Core i5-1334U, 16GB and 512GB. The <a href="/products/acer-aspire-lite-16-al16-54p-586n-2024-intel-core-i5-1334u">AL16-54P</a> has the same processor, memory, storage, screen and battery size, weighs a little less and is listed at Rs 1,09,999.</p>
+<p>The 52P answers with Wi-Fi 6E. Unless your home router uses the 6GHz band, that is not worth Rs 13,500.</p>
+<p>As a machine it is a good all-rounder: a roomy 16:10 display, number pad, 58Wh battery and enough speed for office work. Use the cheaper listing to negotiate.</p>
+
+=== acer-aspire-lite-16-al16-54p-586n-2024-intel-core-i5-1334u
+<p>At 1.53kg, the Aspire Lite 16 is one of the lightest 16-inch laptops near Rs 1,10,000. The large 16:10 screen and number pad suit accountants, teachers and anybody who keeps two windows open.</p>
+<p>The Core i5-1334U has two fast and eight efficient cores. It is comfortable with Excel, Tally, browsers and meetings, and has 16GB of memory to do it in. Battery capacity is 58Wh. There is no graphics card, so this is not for games.</p>
+<p>A light body means a thinner lid, so do not lift it by a corner of the screen. For raw processing power instead of size, see the <a href="/products/acer-aspire-lite-15-al15-52h-2024-intel-core-i7-13620h-16gb-1tb-156-fhd">Aspire Lite 15 with a Core i7</a>.</p>
+
+=== acer-aspire-spin-14-asp14-51mtn-2024-intel-core-5-120u
+<p>The Aspire Spin 14 folds back into a tablet. At Rs 1,01,999 it has a 14-inch touchscreen, a Core 5 120U and 512GB, weighing 1.5kg. Students who annotate slides and people who sketch or sign documents are the ones who use such a hinge.</p>
+<p>The weak line is 8GB of memory. Windows with a browser and a video call fills it. Ask whether it can be increased before you pay, since many convertibles are soldered.</p>
+<p>The older <a href="/products/acer-spin-5-2023-i5-1335u">Spin 5</a> has 16GB for Rs 13,000 more. If you expect to keep the laptop four years, that is the better plan. Check that a pen is in the box, too.</p>
+
+=== acer-nitro-lite-16-anl16-71g-2025-intel-core-i5-13420h-rtx-3050
+<p>Nitro Lite is Acer's way of putting gaming hardware in a slim, pale laptop. This one has a Core i5-13420H, an RTX 3050 and a 16-inch 165Hz screen, with 16GB and 512GB, for Rs 1,51,999. It weighs 1.95kg.</p>
+<p>Valorant and CS2 will run far above 100 frames, and heavier games at medium. The screen is faster than the card can use in most new titles.</p>
+<p>The <a href="/products/acer-nitro-lite-16-2025-13th-gen-i7-13620h-rtx-4050-16gb-512gb">version with a Core i7 and RTX 4050</a> is the step worth taking if you can. Compared with the <a href="/products/hp-victus-15-2025-ryzen-5-8645hs-rtx-3050">HP Victus 15</a>, the Acer has a larger screen, and the HP has a newer processor and a bigger battery.</p>
+
+=== acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050
+<p>The RTX 4050 is where modern games start to feel comfortable at Full HD, and this Nitro V 15 is one of the cheaper ways to get it, at Rs 1,70,000. A Core 5 210H, 16GB and 512GB go with it, on a 144Hz panel.</p>
+<p>DLSS support lets newer games run smoothly when the card alone would not. Six gigabytes of graphics memory means turning textures down in the heaviest titles.</p>
+<p>It weighs 2.1kg and is loud under load, as every laptop in this class is. The <a href="/products/acer-nitro-v15-anv15-52-7287-2025-intel-core-7-240h-rtx-4050">Core 7 version</a> costs Rs 19,000 more for little gain in games. Put that money into memory and an SSD.</p>
+
+=== acer-nitro-v-16s-2025-core-7-240h-rtx-5060
+<p>The Nitro V 16S AI with an RTX 5060 costs Rs 2,34,999 and represents the current mid-point of gaming laptops: 16-inch 180Hz screen, Core 7 240H, 16GB, a 1TB drive and a 76Wh battery.</p>
+<p>The RTX 5060 runs modern games at high settings and supports DLSS 4, which adds generated frames for smoothness. Eight gigabytes of graphics memory is the sensible minimum now.</p>
+<p>Acer also sells the <a href="/products/acer-nitro-v-16s-ai-anv16s-41-2025-ryzen-7-260">Ryzen 7 260 version</a> for Rs 6,000 less. It is lighter at 2.1kg and more efficient away from the wall. In games they are near equal. We would save the money.</p>
+
+=== acer-nitro-v-16s-ai-anv16s-41-2025-ryzen-7-260
+<p>Of Acer's two RTX 5060 Nitro V 16S machines, this AMD one is the better buy. The eight-core Ryzen 7 260 is made on 4nm, so it draws less and the 76Wh battery gets through a class or two. It is listed at 2.1kg, about 300 grams lighter than its Intel twin.</p>
+<p>You get 16GB, a 1TB drive and a 180Hz 16-inch display for Rs 2,28,999. It is a good gaming machine and a fair one for video editing and 3D modelling.</p>
+<p>Add another memory stick when you can, as two sticks give the processor full bandwidth. If the budget is lower, the <a href="/products/acer-nitro-v15-anv15-52-73m0-2025-intel-core-7-240h-rtx-5050">Nitro V15 with an RTX 5050</a> is Rs 14,000 less.</p>
+
+=== acer-nitro-v15-anv15-52-7287-2025-intel-core-7-240h-rtx-4050
+<p>This Nitro V15 joins a 10-core Core 7 240H to an RTX 4050, with a 165Hz screen, for Rs 1,89,000. It is aimed at people who stream or edit video as well as play, where two extra processor cores are useful.</p>
+<p>For games alone, the same card with a <a href="/products/acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050">Core 5 210H</a> costs Rs 19,000 less and gives nearly the same frame rates. And Rs 26,000 more reaches the <a href="/products/acer-nitro-v15-anv15-52-73m0-2025-intel-core-7-240h-rtx-5050">RTX 5050 model</a> with a much larger 76Wh battery.</p>
+<p>That leaves this one in a narrow place. A good bundle or discount would change our mind. Storage is only 512GB.</p>
+
+=== acer-nitro-v15-anv15-52-73m0-2025-intel-core-7-240h-rtx-5050
+<p>The RTX 5050 is the entry card of NVIDIA's newest laptop family, with 8GB of graphics memory, where the RTX 4050 had six. That extra memory is the reason to prefer it, because recent games fill 6GB quickly.</p>
+<p>In this Nitro V15 it comes with a Core 7 240H, 16GB, 512GB and a 165Hz Full HD screen, at Rs 2,14,999. The battery is 76Wh, large for a budget gaming laptop, and Bluetooth 5.4 is current.</p>
+<p>Rs 14,000 more buys the RTX 5060 in the <a href="/products/acer-nitro-v-16s-ai-anv16s-41-2025-ryzen-7-260">Nitro V 16S</a>, along with a bigger screen and twice the storage. That is usually the wiser stretch.</p>
+
+=== acer-spin-5-2023-i5-1335u
+<p>The Spin 5 from 2023 is a well-built 14-inch convertible with a 360-degree hinge, a Core i5-1335U, 16GB and 512GB. At Rs 1,15,000 it fits people who take notes by hand and present at meetings in tent mode.</p>
+<p>Wi-Fi 6E and a 56Wh battery are good. The processor is two generations old but still quick for office tasks. The display is a 16:10 panel, better for reading than old 16:9.</p>
+<p>Confirm that the unit has the pen, as some imports are sold without it. A <a href="/products/acer-spin-5-2023-i7-1355u-14-inch-touch">Core i7 version</a> costs Rs 18,000 more for a small increase in speed. The i5 is the sensible one.</p>
+
+=== acer-spin-5-2023-i7-1355u-14-inch-touch
+<p>Here is the Core i7-1355U version of Acer's folding Spin 5, at Rs 1,33,000 with 16GB and 512GB. The i7 reaches higher peak speeds than the <a href="/products/acer-spin-5-2023-i5-1335u">i5 model</a>, but both are 15W parts with two fast cores, and over a long task they end up close.</p>
+<p>So the premium of Rs 18,000 is hard to justify. Newer convertibles near this price, such as the <a href="/products/hp-omnibook-x-flip-14-14-fk0033-2025-ryzen-ai-7-350-24gb-1tb-2k-ips-touch">HP OmniBook X Flip 14</a>, have far more memory and a modern chip for about Rs 7,000 extra.</p>
+<p>Take this one only if you find it discounted to around Rs 1,15,000 and like its build, weight and touchscreen.</p>
+
+=== acer-swift-edge-14-ai-sfe14-51t-2025-intel-core-ultra-7-256v
+<p>The Swift Edge 14 AI weighs 990 grams with a 14-inch OLED touchscreen at 2880 by 1800 and 120Hz. Nothing else in our list is this light with a screen this good. People who travel weekly notice every hundred grams.</p>
+<p>A Core Ultra 7 256V keeps it cool and lasts through a workday on 65Wh. It has Wi-Fi 7 and a processor able to run Windows' on-device AI features. Memory is 16GB and built into the chip, so it can never be increased.</p>
+<p>Rs 3,00,000 is the hurdle. The <a href="/products/acer-swift-edge-14-ai-sfe14-51t-960e-2025-intel-core-ultra-9-288v">Core Ultra 9 version</a> doubles the memory for Rs 60,000. A <a href="/products/macbook-air-m5-13">MacBook Air M5</a> costs much less and is a little heavier.</p>
+
+=== acer-swift-edge-14-ai-sfe14-51t-960e-2025-intel-core-ultra-9-288v
+<p>This is the full version of Acer's 990 gram Swift Edge 14 AI, with a Core Ultra 9 288V, 32GB and 1TB for Rs 3,60,000. The memory is the important part. It is fixed inside the processor package, so 32GB today means the laptop stays comfortable for many years.</p>
+<p>The Ultra 9 chip is only slightly faster than the <a href="/products/acer-swift-edge-14-ai-sfe14-51t-2025-intel-core-ultra-7-256v">Ultra 7</a>. It is a laptop for executives, lawyers and consultants, and for developers who carry theirs everywhere.</p>
+<p>The OLED touchscreen at 120Hz is superb. Ask Acer's dealer about accidental damage cover, because a thin, light lid with a panel like this is expensive to replace.</p>
+
+=== acer-swift-go-14-sfg14-74t-2025-intel-core-ultra-5-225h-16gb-512gb-14-wuxga-touch
+<p>A 14-core Core Ultra 5 225H, Wi-Fi 7, a touchscreen and a 65Wh battery in a 1.25kg laptop: the Swift Go 14 is unusually complete for Rs 1,44,999.</p>
+<p>The H in the processor name means it can work hard for longer than thin laptops normally do. Integrated Arc graphics handle photo editing and lighter games. At 16GB and 512GB it is well equipped for a developer or a designer who travels.</p>
+<p>Its screen is an IPS panel at 60Hz. If you prefer OLED at the same price, Acer's <a href="/products/acer-swift-lite-14-ai-sfl14-54m-786p-2025-intel-core-ultra-7-155u-16gb-512gb-14-wuxga-oled-60hz">Swift Lite 14 AI</a> has one, with an older and slower chip. We prefer the Swift Go.</p>
+
+=== acer-swift-lite-14-ai-sfl14-54m-786p-2025-intel-core-ultra-7-155u-16gb-512gb-14-wuxga-oled-60hz
+<p>The Swift Lite 14 AI weighs 1.1kg and has an OLED screen, 16GB and 512GB, for Rs 1,44,999. If you watch films, edit photos, or simply like deep blacks and strong colour, the panel alone makes it attractive.</p>
+<p>The Core Ultra 7 155U is a low-power chip from late 2023. It is fine for office work and slower than the name suggests. The 50Wh battery is small, and OLED with white documents uses more of it.</p>
+<p>At the same price the <a href="/products/acer-swift-go-14-sfg14-74t-2025-intel-core-ultra-5-225h-16gb-512gb-14-wuxga-touch">Swift Go 14</a> is faster with more battery. Choose the Lite for its weight and picture.</p>
+
+=== acer-swift-neo-14-sfn14-54h-2025-intel-core-ultra-5-115u
+<p>OLED screens are normally found above Rs 1,40,000. The Swift Neo 14 has one at Rs 1,26,999, with a Core Ultra 5 115U, 16GB and 512GB in a 1.3kg body. For students of design, film or architecture on a tight budget it is worth seeing in person.</p>
+<p>The chip is modest, with eight cores tuned for efficiency. Documents, browsing, Figma and light Photoshop are within reach. Rendering is not. A 55Wh battery and a 100W charger are included in the listing.</p>
+<p>OLED panels can retain static images over years, so use a dark theme and let the taskbar hide. If you want more speed, the <a href="/products/acer-swift-go-14-sfg14-74t-2025-intel-core-ultra-5-225h-16gb-512gb-14-wuxga-touch">Swift Go 14</a> is Rs 18,000 more.</p>
+
+=== acer-travelmate-p2-14-2024-tmp214-intel-core-5-120u
+<p>The TravelMate P2 is Acer's business laptop, made for offices more than for the living room. This one has a Core 5 120U, 8GB and 512GB for Rs 1,07,000.</p>
+<p>It is sold with DOS, meaning no Windows. Offices with a volume licence prefer that. A private buyer must add the cost of a legitimate Windows licence, so compare prices with that in mind.</p>
+<p>Memory of 8GB is short, and business models usually have a slot, so add a stick at the time of purchase. For roughly the same money with Windows and 32GB, the <a href="/products/hp-probook-445-g11-ryzen-5-7535u">HP ProBook 445 G11</a> is very difficult to beat.</p>
+
+=== acer-travelmate-p6-14-2024-intel-core-ultra-5-125h-16gb-1tb
+<p>The TravelMate P6 14 is a premium business laptop with a 2880 by 1800 OLED screen, a Core Ultra 5 125H, 16GB, 1TB and Windows 11 Pro. We do not have a confirmed Nepal price. The Rs 1,15,000 here is our estimate, and it would be a bargain, so treat it with caution.</p>
+<p>It offers Wi-Fi 7 and a 65Wh battery, and is meant for travel. The screen is rare in business laptops.</p>
+<p>If a dealer quotes near the estimate, check that the unit is new, has the OLED panel and carries an Acer warranty. Until then the <a href="/products/acer-swift-go-14-sfg14-74t-2025-intel-core-ultra-5-225h-16gb-512gb-14-wuxga-touch">Swift Go 14</a> is a real product on a shelf.</p>
+
+=== apple-macbook-pro-16-inch-m5-pro-2026
+<p>The 16-inch MacBook Pro with M5 Pro and 48GB of memory is for people whose laptop earns money: film editors, music producers, software teams and 3D artists. It costs Rs 6,77,000 with 1TB.</p>
+<p>Three qualities justify a Mac like this. The 16.2-inch mini-LED display is bright enough to grade HDR video. The 100Wh battery keeps full speed away from the wall. And the memory is shared with graphics, so large projects and local AI models load that would not fit on an ordinary graphics card.</p>
+<p>It weighs 2.14kg, and memory and storage can never be changed. If your work fits in 24GB, the 14-inch models cost far less. For writing, code and office work a <a href="/products/macbook-air-m5-13">MacBook Air M5</a> is ample. Confirm warranty terms and the power plug before paying this much.</p>
+
+=== asus-gaming-v16-2025-core-7-240h-rtx-3050-16gb-1tb-16-wuxga-144hz
+<p>ASUS calls it simply Gaming V16: a quieter-looking relative of the TUF series with turquoise accents. For Rs 1,57,900 it includes a Core 7 240H, an RTX 3050, 16GB and, unusually at this price, a full 1TB drive.</p>
+<p>The 16-inch 144Hz screen and 63Wh battery in 1.95kg make it a reasonable college laptop that also plays games. An RTX 3050 is fine for esports and older titles.</p>
+<p>The processor is far stronger than the graphics card, so it favours people who code, edit photos or run virtual machines and play sometimes. Those who mainly play should look at an RTX 4050 machine such as the <a href="/products/acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050">Nitro V 15</a>.</p>
+
+=== asus-rog-strix-g16-g614pm-2025-ryzen-9-8940hx-rtx-5060
+<p>The Strix G16 pairs a 16-core Ryzen 9 8940HX with an RTX 5060, on a 2560 by 1600 display at 240Hz. It is a desktop processor in a laptop, and for rendering, compiling and simulation that is the main attraction.</p>
+<p>In games, though, the RTX 5060 decides, and the same card is in laptops at Rs 2,29,000. At Rs 4,19,899 you are paying for the processor, the cooling, the screen and the ROG name. Memory of 16GB is mean for this price, and it should be 32GB.</p>
+<p>It weighs 2.5kg and has a 90Wh battery. A pure gamer should take the <a href="/products/acer-nitro-v-16s-ai-anv16s-41-2025-ryzen-7-260">Nitro V 16S</a>. A 3D artist may have good reasons for the Strix.</p>
+
+=== asus-rog-strix-g18-g814pp-2025-amd-ryzen-9-8940hx-rtx-5070
+<p>With an 18-inch screen the Strix G18 is a portable desktop. A 240Hz panel of that size at 2560 by 1600 is wonderful for strategy and racing games, and gives editors room for a timeline. An RTX 5070 and the 16-core Ryzen 9 8940HX drive it.</p>
+<p>It weighs 3kg before the 280W adapter. Treat it as something you move between rooms or cities, and not as a daily carry.</p>
+<p>The RTX 5070 laptop chip has 8GB of memory, the same as the 5060, which limits it at high texture settings. At Rs 5,37,900 with 16GB of system memory, the <a href="/products/asus-rog-strix-g18-g815lm-2025-core-ultra-9-275hx-rtx-5070">Intel version of the G18</a> with the same card is Rs 78,000 less.</p>
+
+=== asus-rog-strix-g18-g815lm-2025-core-ultra-9-275hx-rtx-5060
+<p>This is the value choice among ASUS's 18-inch machines. The Core Ultra 9 275HX has 24 cores, there are 32GB of memory and 1TB, and the display runs at 240Hz. The graphics card is the RTX 5060, and the price is Rs 3,29,999.</p>
+<p>That balance suits people who compute more than they play: engineers with simulations, editors, developers with many containers. Games run well too, though at the full 2560 by 1600 you will rely on DLSS.</p>
+<p>At 3.2kg and with a 280W adapter it stays on a desk. The <a href="/products/asus-rog-strix-g18-g815lm-2025-core-ultra-9-275hx-rtx-5070">RTX 5070 model</a> costs Rs 1,30,000 more with half the memory, and we cannot recommend that trade.</p>
+
+=== asus-rog-strix-g18-g815lm-2025-core-ultra-9-275hx-rtx-5070
+<p>The G815LP is ASUS's 18-inch Strix with a Core Ultra 9 275HX and RTX 5070, at Rs 4,59,900. The processor is among the fastest in any laptop, Wi-Fi 7 is on board, and the screen is a large 2560 by 1600 panel at 240Hz.</p>
+<p>Sixteen gigabytes of memory is out of step with everything else. Buy a second 16GB stick on the day. The card has 8GB of its own memory, so ray tracing at native resolution in the newest games will need DLSS.</p>
+<p>Compare it with the <a href="/products/asus-rog-strix-g18-g815lm-2025-core-ultra-9-275hx-rtx-5060">RTX 5060 version</a> with 32GB for Rs 3,29,999. For most people that one is enough, and the difference buys a monitor and a desk.</p>
+
+=== asus-rog-zephyrus-g16-gu605cm-2025
+<p>The Zephyrus G16 is a gaming laptop you could bring to a client meeting. It is a slim aluminium body of 1.85kg with a 2.5K OLED panel at 240Hz, one of the finest screens on any laptop.</p>
+<p>This version has a Core Ultra 7 255H, 16GB, 1TB and an RTX 5060, for Rs 5,05,900. The thin chassis limits the power the card may use, so a thicker laptop with the same card will be faster and half the price. What you are buying is the form.</p>
+<p>Memory is soldered on this model, so 16GB is permanent, and that is our main objection. Creators who need both portability and colour accuracy should consider it. Others should look at the <a href="/products/asus-rog-strix-g18-g815lm-2025-core-ultra-9-275hx-rtx-5060">Strix</a> range.</p>
+
+=== asus-rog-zephyrus-g16-gu606aw-tb103x-2026-intel-core-ultra-9-386h-rtx-5080
+<p>The 2026 Zephyrus G16 moves to Intel's Core Ultra 9 386H, made on the new 18A process, with an RTX 5080, 32GB and 2TB in a 1.95kg body. At Rs 7,49,999 it is one of the most expensive laptops in this catalogue.</p>
+<p>The RTX 5080 has 16GB of graphics memory, the point where 4K textures, large 3D scenes and local AI models become practical. The 240Hz OLED is made for colour work as well as games.</p>
+<p>Physics still applies. In a thin chassis the card runs below its full power, and the fans will be heard. Buyers who do not travel get more performance per rupee from a thick machine such as <a href="/products/msi-vector-16-hx-ai-a2xwjg-2025-intel-core-ultra-9-275hx-rtx-5090">MSI's Vector 16</a> with an RTX 5090.</p>
+
+=== asus-tuf-gaming-a16-fa607nug-2024-ryzen-7-7445hs
+<p>The TUF A16 with a Ryzen 7 7445HS and an RTX 4050 costs Rs 1,84,999. The 7445HS has six cores, fewer than the Ryzen 7 name implies, but they are efficient 4nm cores and enough for games.</p>
+<p>A 16-inch 144Hz screen, 16GB, 512GB and a strong 240W adapter complete it. TUF laptops are built for rough use, and their cooling is usually among the better ones at this price.</p>
+<p>At 2.2kg with a 56Wh battery, carry the charger. The <a href="/products/acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050">Nitro V 15</a> has the same card for Rs 15,000 less in a smaller, louder body.</p>
+
+=== asus-tuf-gaming-f16-2024-core-5-rtx-3050-4gb
+<p>This TUF F16 has a Core 5 210H, 8GB of memory and an RTX 3050 with 4GB, for Rs 1,65,600. The last two numbers are the trouble. Four gigabytes of graphics memory is not enough for many games of the past three years, and 8GB of system memory makes Windows itself feel tight.</p>
+<p>The laptop around them is good: a solid 16-inch body with a 144Hz display.</p>
+<p>We advise against it. The <a href="/products/acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050">Nitro V 15 with an RTX 4050</a> and 16GB costs only Rs 4,400 more and is in another class.</p>
+
+=== asus-tuf-gaming-f16-2024-core-5-rtx-4050
+<p>The TUF F16 with a Core 5 210H and RTX 4050 is a dependable Full HD gaming laptop at Rs 1,91,999. It has 16GB of memory and a 1TB drive, so it is ready to use without upgrades, while cheaper rivals come with 512GB.</p>
+<p>The 16-inch 1920 by 1200 screen at 144Hz matches what the card can deliver. ASUS's 240W adapter and large vents let it hold speed during long sessions.</p>
+<p>The battery is 56Wh and the weight 2.2kg. If you can accept 512GB and a smaller 15.6-inch screen, the <a href="/products/acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050">Nitro V 15</a> saves Rs 22,000. That pays for the extra drive several times over.</p>
+
+=== asus-vivobook-14-2025-intel-core-ultra-7-256v
+<p>The Vivobook 14 Flip with a Core Ultra 7 256V is a folding touchscreen laptop with an OLED panel, 16GB and 1TB, for Rs 1,87,000. The chip is the frugal Lunar Lake type, and with a 75Wh battery it can work from morning to evening.</p>
+<p>It is also among the fastest of its kind for Windows' local AI features, if you use those. At 1.57kg it is slightly heavy to hold as a tablet for long.</p>
+<p>The memory cannot be extended. Strangely, the lesser <a href="/products/asus-vivobook-14-flip-tp3407sa-2025">Core Ultra 5 226V version</a> is listed at Rs 2,04,900 with half the storage. This one is plainly the better purchase.</p>
+
+=== asus-vivobook-14-flip-tp3407aa-sg065w-2026-intel-core-ultra-7-355
+<p>The 2026 Vivobook 14 Flip brings Intel's newest Core Ultra 7 355, built on the 18A process, along with Wi-Fi 7 and Bluetooth 6.0. It has a 14-inch OLED touchscreen, 16GB and 512GB, and costs Rs 2,66,949.</p>
+<p>Efficiency is the gain of this generation. You will see it in a cool body and long battery life from 70Wh, more than in speed for daily tasks.</p>
+<p>The price is steep. Last year's <a href="/products/asus-vivobook-14-2025-intel-core-ultra-7-256v">Core Ultra 7 256V Flip</a> is Rs 80,000 less with twice the storage, and few people could tell them apart in use. Wait until the new model settles.</p>
+
+=== asus-vivobook-14-flip-tp3407sa-2025
+<p>ASUS's Vivobook 14 Flip with a Core Ultra 5 226V is a likeable convertible. It has an OLED touchscreen, a 360-degree hinge, a 70Wh battery and a cool-running chip, in 1.57kg.</p>
+<p>The listed price of Rs 2,04,900 does not make sense beside the <a href="/products/asus-vivobook-14-2025-intel-core-ultra-7-256v">Core Ultra 7 256V model</a> at Rs 1,87,000, which has a better chip and 1TB in place of 512GB.</p>
+<p>If you are offered this one, use that price in the conversation. At Rs 1,60,000 it would be excellent for note-taking students. Memory is fixed at 16GB.</p>
+
+=== asus-vivobook-14-m1407ka-2025
+<p>Two processors are sold under the same Vivobook 14 M1407KA name. The Ryzen AI 5 340, a six-core part, is listed at Rs 1,45,999. The Ryzen AI 5 330, a smaller four-core part, is listed at Rs 1,94,599. The weaker one costs more, so read the label carefully and choose the 340.</p>
+<p>The 340 is a capable modern chip with an AI engine for Windows features. The laptop has 16GB and 512GB, a 60Hz WUXGA panel and weighs 1.46kg.</p>
+<p>Its 42Wh battery is small for a 2025 laptop. If you are away from power all day, the <a href="/products/acer-swift-go-14-sfg14-74t-2025-intel-core-ultra-5-225h-16gb-512gb-14-wuxga-touch">Acer Swift Go 14</a> has 65Wh for about the same money.</p>
+
+=== asus-vivobook-14-x1404va-2023
+<p>The Vivobook 14 X1404VA is a neat 1.4kg laptop with a Core i3-1315U and 8GB for Rs 70,999. The processor is better than most at this price, with two fast cores and four small ones.</p>
+<p>The catch is 128GB of storage. Windows and updates occupy about half, and the rest is gone in a term. You will need an SSD upgrade from the first month, so add that to the price.</p>
+<p>It suits people whose work is online. <a href="/reviews/asus-vivobook-14-x1404va-i3-review-nepal">Our full review</a> sets out an upgrade plan with costs, and lists alternatives with 256GB or 512GB for a few thousand rupees more.</p>
+
+=== asus-vivobook-14-x1405va-2023
+<p>A Core i7-13620H gives this 14-inch Vivobook real speed, with ten cores of the H series. Sixteen gigabytes, 512GB and Wi-Fi 6E complete it, at Rs 1,74,900 and 1.6kg.</p>
+<p>That processor is thirsty and the battery only 42Wh, so expect about four hours of mixed work. It is better thought of as a small desktop you can move.</p>
+<p>The same chip is found in the <a href="/products/acer-aspire-lite-15-al15-52h-2024-intel-core-i7-13620h-16gb-1tb-156-fhd">Acer Aspire Lite 15</a> with twice the storage and a larger battery, for Rs 1,19,999. Choose the ASUS only if 14 inches matters a great deal to you.</p>
+
+=== asus-vivobook-14-x1405vap-2024
+<p>The Core 5 120U in this Vivobook 14 is a refreshed version of Intel's 13th generation U chips: two fast cores and eight efficient ones, right for office work and study. It costs Rs 93,000 with 8GB and 512GB.</p>
+<p>The 16:10 screen is pleasant for documents. The body is 1.6kg, and the 42Wh battery gives around five to six hours of light use.</p>
+<p>Eight gigabytes is where you feel the budget. Ask the dealer to add a stick if a slot is free and keep the bill for the warranty. The <a href="/products/lenovo-ideapad-slim-3-2025-13th-gen-i5-13420h-16gb-512gb-14-wuxga">IdeaPad Slim 3i 14</a> costs Rs 9,000 more with a faster chip.</p>
+
+=== asus-vivobook-14-x1407ca-2025
+<p>This Vivobook 14 has a 14-core Core Ultra 5 225H, 16GB and 512GB for Rs 1,70,905, and weighs 1.46kg. The processor is quick and has a good integrated graphics unit for photo editing and casual games.</p>
+<p>The battery, however, is 42Wh. For an H-class chip that means a short day, and a charger in the bag.</p>
+<p>The <a href="/products/acer-swift-go-14-sfg14-74t-2025-intel-core-ultra-5-225h-16gb-512gb-14-wuxga-touch">Acer Swift Go 14</a> has the same processor with 65Wh, a touchscreen, Wi-Fi 7 and 200 grams less, for Rs 26,000 below. It is difficult to make a case for the ASUS beyond local preference or an offer.</p>
+
+=== asus-vivobook-15-2023-intel-core-i5-13420h-8gb-512gb-15-6-fhd
+<p>The Vivobook 15 X1502VA has a Core i5-13420H, with eight cores from the fast H series, and is listed with 16GB and 512GB at Rs 1,27,900. It is a solid everyday 15.6-inch laptop with Wi-Fi 6E and a number pad.</p>
+<p>Confirm the memory, because units with 8GB exist under nearly the same name.</p>
+<p>The 42Wh battery is its weak side. The same processor is sold in the <a href="/products/lenovo-ideapad-slim-3-2025-13th-gen-i5-13420h-16gb-512gb-14-wuxga">IdeaPad Slim 3i</a> with a 50Wh battery from Rs 1,01,999. The difference in price would pay for a memory upgrade and leave change.</p>
+
+=== asus-vivobook-15-x1504vap-2024
+<p>At Rs 1,15,900 the Vivobook 15 X1504VAP gives you a Core 5 120U, 8GB and 512GB, on a 15.6-inch Full HD screen. It is a quiet, light 1.7kg laptop for home and office.</p>
+<p>The smaller <a href="/products/asus-vivobook-14-x1405vap-2024">Vivobook 14 X1405VAP</a> has the same processor, memory and storage, with a better 16:10 screen, for Rs 22,900 less. A bigger display is the only thing you gain here, at 60Hz and the same 42Wh battery.</p>
+<p>At this price you can have 16GB elsewhere. <a href="/products/lenovo-ideapad-slim-5-2025-16irh10r-intel-core-5-210h">Lenovo's IdeaPad Slim 5 16</a> at Rs 1,15,000 comes with 16GB and 1TB. It is not a close decision.</p>
+
+=== asus-vivobook-15x-oled-x1503za-2022
+<p>An OLED screen for Rs 83,900 sounds wrong, but the Vivobook 15X OLED is a 2022 model with a Core i3-1220P. Blacks are truly black and colours are rich, and the 70Wh battery is larger than in most laptops at twice the price.</p>
+<p>The i3-1220P has ten cores, two of them fast, and is perfectly adequate for study and streaming. The limits are 8GB and 256GB.</p>
+<p>If it is new with a warranty, this is a charming laptop for film lovers and photography beginners. If it has been on display for years, inspect the panel for faint marks of the taskbar on a grey background before paying.</p>
+
+=== asus-vivobook-16-m1607ka-mb117w-2025-ryzen-ai-5-340-16gb-512gb-16-wuxga
+<p>The 16-inch Vivobook M1607KA has a six-core Ryzen AI 5 340, 16GB and 512GB for Rs 1,45,999, the same price as its <a href="/products/asus-vivobook-14-m1407ka-2025">14-inch brother</a>. You choose only between a larger screen with a number pad and 400 grams less weight.</p>
+<p>The processor is modern and efficient. Its graphics can run older games and speed up editing a little. The AI engine is fast enough for Windows' own features.</p>
+<p>A 42Wh battery in a 1.88kg machine is disappointing. People who sit near a socket will not mind. Others should look at the 60Wh <a href="/products/lenovo-ideapad-slim-5-2025-16irh10r-intel-core-5-210h">IdeaPad Slim 5 16</a>, Rs 31,000 cheaper.</p>
+
+=== asus-vivobook-go-14-e410ka-2023-intel-celeron-n4500-8gb-256gb-14-fhd
+<p>This is the lowest rung of new laptops, Rs 45,999 with a two-core Celeron N4500 and 4GB. Listings differ about the drive, 64GB or 128GB. Windows 11 will start, updates will run for a long evening, and one browser with a few tabs is the limit.</p>
+<p>It is 1.3kg and has a Full HD screen, so as a typewriter with the internet it functions. For online classes it will struggle when you share a screen.</p>
+<p>For the same money a used business laptop, an eighth-generation ThinkPad or Latitude with 8GB, is many times better. If it must be new, consider a light Linux or ChromeOS Flex on it. We would not buy it for a student.</p>
+
+=== asus-vivobook-go-15-e1504ga-2023
+<p>The Core i3-N305 is an odd chip: eight small cores and no large ones, all efficient. In the Vivobook Go 15 it feels better than a Celeron by a wide distance and a little behind an ordinary Core i3. With 8GB and 256GB it costs Rs 74,999.</p>
+<p>The laptop is light for 15.6 inches at 1.63kg, and Wi-Fi 6E is a surprise. Battery capacity is 42Wh, and the low-power chip makes good use of it.</p>
+<p>The memory is soldered on this series, so 8GB is final. Good for typing, classes and streaming. At nearly the same price the <a href="/products/acer-aspire-go-15-ag15-21pt-2024-ryzen-5-7520u">Aspire Go 15</a> has 512GB, a bigger battery and a touchscreen.</p>
+
+=== asus-vivobook-go-e1504-2025-ryzen-3-30
+<p>The Ryzen 3 30 is AMD's new name for an older low-power chip with four cores and eight threads. In the Vivobook Go it comes with 8GB and 512GB for Rs 93,900.</p>
+<p>It opens browsers and office documents without drama and uses little power. But that is an expensive price for an entry processor. The <a href="/products/asus-vivobook-14-x1405vap-2024">Vivobook 14 with a Core 5 120U</a> is Rs 900 cheaper and much faster.</p>
+<p>Choose this only if you need a 15.6-inch screen from ASUS at a discount of Rs 15,000 or more. Memory on the Go series is normally soldered.</p>
+
+=== asus-vivobook-s-16-oled-s5606ma-2025-core-ultra-9-285h-16gb-1tb-16-32k-oled
+<p>The Vivobook S 16 is a large-screen creator laptop at a fair price. It has a 3200 by 2000 OLED at 120Hz, a 16-core Core Ultra 9 285H, 32GB and 1TB, and weighs only 1.5kg, for Rs 2,14,999.</p>
+<p>For photo work, coding with many windows, and film editing in 4K with proxies, it is a joy. Arc integrated graphics help, though there is no separate card, so heavy 3D and modern games are out of reach.</p>
+<p>The battery is 75Wh and drains faster at full brightness. Compare it with the <a href="/products/asus-vivobook-s15-2025-ryzen-ai-9-hx-370">Vivobook S 15 with Ryzen AI 9</a> at Rs 5,000 more. The 16 has the sharper, larger screen, and the 15 has stronger graphics.</p>
+
+=== asus-vivobook-s14-m3407ga-2026
+<p>The 2026 Vivobook S14 uses AMD's Ryzen AI 7 445, a six-core part, with a 14-inch OLED screen, 16GB, 512GB and a 70Wh battery, in 1.4kg. The price is Rs 2,36,900.</p>
+<p>It is a pleasant, modern laptop for office and study, with long battery life and an excellent screen. The question is the price. Six cores and 512GB for this amount is poor beside ASUS's own <a href="/products/asus-vivobook-s14-s5406sa-2025">S5406SA from 2025</a>, which has 32GB and 1TB for Rs 2,04,999.</p>
+<p>New models arrive at high prices and fall within months. Waiting is the sensible course here.</p>
+
+=== asus-vivobook-s14-s3407ca-2025
+<p>Three versions of the Vivobook S14 S3407CA are sold here, with a Core 5 210H, a Core Ultra 5 225H or a Core Ultra 7 255H, from Rs 2,21,900 to Rs 2,62,900. All have 16GB and a 70Wh battery in a 1.4kg metal body.</p>
+<p>The 210H is an older design without an AI engine, yet it costs more than laptops with better chips. Of the three, only the 225H at Rs 2,48,900 with 1TB has a reasonable balance.</p>
+<p>Even then, the <a href="/products/asus-vivobook-s14-s5406sa-2025">S5406SA</a> has an OLED screen, 32GB and 1TB for Rs 2,04,999. Unless a dealer offers a large cut, that is the S14 to buy.</p>
+
+=== asus-vivobook-s14-s5406sa-2025
+<p>This is the Vivobook S 14 we recommend. A Core Ultra 7 258V with 32GB, a 1TB drive, a 14-inch OLED, a 75Wh battery and Wi-Fi 7, in 1.3kg, costs Rs 2,04,999. The ThinkPad and Yoga laptops with this same chip cost Rs 70,000 to 1,60,000 more.</p>
+<p>The 258V is efficient first. It runs cool, sleeps properly and lasts a full working day, the nearest Windows has come to a MacBook Air. Graphics are good enough for older games.</p>
+<p>Eight cores without hyper-threading are not for long renders. The OLED is 60Hz. For office, writing, travel and coding, it is one of the best buys in our laptop list.</p>
+
+=== asus-vivobook-s15-2025-ryzen-ai-9-hx-370
+<p>The Ryzen AI 9 HX 370 has 12 cores and the strongest integrated graphics AMD offered in this size of laptop. In the Vivobook S 15 it comes with 32GB, 1TB and a 2880 by 1620 OLED at 120Hz for Rs 2,19,999, and weighs 1.5kg.</p>
+<p>It is the choice for people who want some gaming without a gaming laptop. GTA V, Valorant and FIFA run well, and newer games at low settings. Code, photo and video work is quick.</p>
+<p>Under load it gets warm, since thin laptops do. The battery is 75Wh. The <a href="/products/asus-vivobook-s-16-oled-s5606ma-2025-core-ultra-9-285h-16gb-1tb-16-32k-oled">S 16 with Core Ultra 9</a> has a larger screen. For graphics, this is the one.</p>
+
+=== asus-zenbook-14-oled-um3405ga-2026
+<p>The Zenbook 14 OLED for 2026 carries a ten-core Ryzen AI 9 465 in a 1.2kg body, with a touchscreen OLED, 16GB, 512GB and a 75Wh battery. It costs Rs 2,39,999.</p>
+<p>It is a lovely laptop to hold, sturdier than a Vivobook, and the keyboard is among ASUS's best. Ten cores make it capable for development and photo work, and battery life is long.</p>
+<p>Sixteen gigabytes and 512GB are the base numbers of a much cheaper laptop, and memory is soldered. If a 32GB version appears, buy that. Otherwise the <a href="/products/asus-vivobook-s14-s5406sa-2025">Vivobook S 14</a> at Rs 2,04,999 gives you twice both.</p>
+
+=== asus-zenbook-s-16-um5606ga-2026
+<p>The Zenbook S 16 is ASUS's answer to a 15-inch MacBook Air: 16 inches of 120Hz OLED touchscreen, 1.5kg, and an 83Wh battery. The 2026 model uses a six-core Ryzen AI 7 445 with 16GB and 1TB, at Rs 2,75,499.</p>
+<p>The large 120Hz screen makes it superb for films, presentations and photo editing. Battery life is a strength.</p>
+<p>The processor is modest for the price, since earlier Zenbook S 16 models had a 12-core chip. If you need speed, the <a href="/products/asus-vivobook-s15-2025-ryzen-ai-9-hx-370">Vivobook S 15</a> with a Ryzen AI 9 and 32GB is Rs 55,000 less. If you want elegance, size and lightness together, nothing from Windows makers is nicer.</p>

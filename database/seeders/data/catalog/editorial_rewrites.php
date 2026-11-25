@@ -66,7 +66,7 @@ HTML,
 <p>A couple of years ago Rs 1.5 lakh bought a decent RTX 4060 laptop in Nepal. Prices have moved a lot since then, and that budget is now the very bottom of the gaming market. You can still play, but you need to know where the compromises are.</p>
 <h2>What we'd consider</h2>
 <ul>
-<li><a href="/products/hp-victus-15-2023-intel-core-i5-13420h-rtx-3050-8gb-512gb-156-fhd-144hz">HP Victus 15 (i5-13420H, RTX 3050 6GB)</a>: Rs 1,46,499 at ONIN Infosys. A quiet-looking laptop that runs esports titles well on its 144Hz screen.</li>
+<li><a href="/products/hp-victus-15-2023-intel-core-i5-13420h-rtx-3050-8gb-512gb-156-fhd-144hz">HP Victus 15 (i5-13420H, RTX 3050 6GB)</a>: Rs 1,46,499. A quiet-looking laptop that runs esports titles well on its 144Hz screen.</li>
 <li><a href="/products/asus-tuf-f16-fx607-core-5-210h-16gb-512gb-rtx-3050">ASUS TUF F16 (Core 5 210H, RTX 3050)</a>: Rs 1,42,999. A bigger 16-inch screen and the sturdy TUF build.</li>
 <li><a href="/products/acer-nitro-v-16-ai-ryzen-5-240-16gb-512gb-rtx-5050">Acer Nitro V 16 AI (RTX 5050)</a>: listed at Rs 1,39,999. It's the only RTX 50-series laptop near this price, so check that it's actually in stock before you plan around it.</li>
 </ul>
@@ -236,7 +236,7 @@ HTML,
 <h2>Zephyrus G16 (2026)</h2>
 <p>The <a href="/products/asus-rog-zephyrus-g16-gu606aw-tb103x-2026-intel-core-ultra-9-386h-rtx-5080">GU606AW</a> moves to a Core Ultra 9 386H and an <strong>RTX 5080</strong>, for <strong>Rs 7,49,999</strong>. That's the one to choose for 1440p gaming at high settings or serious 3D and video work on the move.</p>
 <h2>Which one?</h2>
-<p>Both are premium laptops, and you pay a lot for thinness. If you don't need to carry it every day, a thicker gaming laptop gets you the same GPU for much less. The <a href="/products/asus-rog-strix-scar-16-2025-intel-core-ultra-9-275hx-rtx-5080">ROG Strix Scar 16 with RTX 5080</a> costs Rs 6,01,499 at ONIN Infosys. If you want the Zephyrus look but also need two screens, there's the <a href="/products/asus-rog-zephyrus-duo-gx651ax-2026">Zephyrus Duo</a>.</p>
+<p>Both are premium laptops, and you pay a lot for thinness. If you don't need to carry it every day, a thicker gaming laptop gets you the same GPU for much less. The <a href="/products/asus-rog-strix-scar-16-2025-intel-core-ultra-9-275hx-rtx-5080">ROG Strix Scar 16 with RTX 5080</a> costs Rs 6,01,499. If you want the Zephyrus look but also need two screens, there's the <a href="/products/asus-rog-zephyrus-duo-gx651ax-2026">Zephyrus Duo</a>.</p>
 HTML,
         ],
         [
@@ -251,7 +251,7 @@ HTML,
 <ul>
 <li><a href="/products/acer-aspire-16-ai-2025-snapdragon-x-x1-26100-16gb-512gb-16-wuxga">Acer Aspire 16 AI</a> (Snapdragon X): Rs 1,19,999. The cheapest way in.</li>
 <li><a href="/products/dell-inspiron-14-5441-2024-snapdragon-x-plus-x1p-42-100">Dell Inspiron 14 5441</a> (X Plus): Rs 1,31,999.</li>
-<li><a href="/products/asus-vivobook-s15-2024-x-elite-x1e-78-100">ASUS Vivobook S15 OLED</a> (X Elite, 1TB): Rs 1,54,999 at ONIN Infosys, with a 3K 120Hz OLED screen.</li>
+<li><a href="/products/asus-vivobook-s15-2024-x-elite-x1e-78-100">ASUS Vivobook S15 OLED</a> (X Elite, 1TB): Rs 1,54,999, with a 3K 120Hz OLED screen.</li>
 <li><a href="/products/dell-xps-13-9345-snapdragon-x-plus-16gb-256gb">Dell XPS 13 9345</a> (X Plus): from Rs 1,69,999.</li>
 <li><a href="/products/hp-elitebook-ultra-g1q-b16xzua-2025-snapdragon-x-elite-x1e-78-100">HP EliteBook Ultra G1q</a> (X Elite): about Rs 1,88,000, a business laptop.</li>
 </ul>

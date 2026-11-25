@@ -13,6 +13,7 @@ use Illuminate\Support\Str;
  *     [[specs:device-slug]]      specification table from the live catalogue
  *     [[rivals:device-slug]]     similar devices around the same Nepal price
  *     [[models:slug, slug, …]]   the named devices side by side, with current prices
+ *     [[variants:device-slug]]   every version of one device with its current price
  *
  * A slug may appear more than once; later blocks are added below earlier ones.
  * The text is added after the article's short version. A marker keeps re-seeding from adding it twice.
@@ -50,11 +51,12 @@ class ArticleDepth
         return $base . self::MARK . "\n" . self::expand($depth['html']);
     }
 
-    private static function expand(string $html): string
+    /** Fill in the [[…]] placeholders; text without any is returned unchanged. */
+    public static function expand(string $html): string
     {
         $html = preg_replace_callback('/\[\[models:([a-z0-9-,\s]+)\]\]/', fn ($m) => self::models(preg_split('/[,\s]+/', trim($m[1]))), $html);
 
-        return preg_replace_callback('/\[\[(specs|rivals):([a-z0-9-]+)\]\]/', function ($m) {
+        return preg_replace_callback('/\[\[(specs|rivals|variants):([a-z0-9-]+)\]\]/', function ($m) {
             $gadget = Gadget::with(['specs', 'category'])->firstWhere('slug', $m[2]);
 
             return $gadget ? self::{$m[1]}($gadget) : '';
@@ -92,6 +94,19 @@ class ArticleDepth
             '<a href="/products/' . e($g->slug) . '">' . e($g->name) . '</a>',
             $g->price > 0 ? 'Rs&nbsp;' . self::money((float) $g->price) : '–',
             ...$columns->keys()->map(fn ($f) => e(Str::limit(self::known($g->specs?->{$f}) ?? '–', 45)))->all(),
+        ])->all());
+    }
+
+    private static function variants(Gadget $g): string
+    {
+        $variants = $g->productVariants()->where('price', '>', 0)->get();
+        if ($variants->count() < 2) {
+            return '';
+        }
+
+        return self::table(['Version', 'Price in Nepal'], $variants->map(fn ($v) => [
+            e(implode(' / ', array_filter([$v->ram, $v->storage, $v->edition, $v->size]))),
+            'Rs&nbsp;' . self::money((float) $v->price),
         ])->all());
     }
 

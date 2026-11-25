@@ -1,0 +1,164 @@
+=== dell-14-dc14255-2025-ryzen-ai-5-330
+<p>Dell dropped the Inspiron name in 2025, and this "Dell 14" is what replaced it. The model here has a Ryzen AI 5 330, 16GB and 512GB at Rs 1,29,999, with a 16:10 screen and Dell's ExpressCharge for quick top-ups.</p>
+<p>The 330 is a four-core chip. It is efficient and has a modern AI engine, but for this price many rivals give six or eight cores. Office work and study are comfortable.</p>
+<p>Dell's service network in Nepal is the reason to pay a little more. At 1.69kg with a 54Wh battery it is average to carry. The <a href="/products/dell-pro-14-plus-pc14250-2025-amd-ryzen-5-pro-230-16gb-512gb-14-fhd">Dell Pro 14 Plus</a> costs Rs 10,000 less with six cores and a better chassis. See that first.</p>
+
+=== dell-14-plus-2-in-1-db04250-2025-intel-core-ultra-7-256v-16gb-1tb-14-fhd
+<p>The Dell 14 Plus 2-in-1 folds into a tablet and uses Intel's Core Ultra 7 256V, a chip admired for battery life. With 16GB and 1TB it is priced at Rs 1,64,999, low for this processor.</p>
+<p>A 64Wh battery and 1.61kg make it a genuine all-day machine, and Wi-Fi 7 will last. Speakers and keyboard are worth trying in the shop.</p>
+<p>Memory is fixed at 16GB. The display is a plain WUXGA panel, not OLED. For an OLED convertible with this chip, see the <a href="/products/asus-vivobook-14-2025-intel-core-ultra-7-256v">Vivobook 14 Flip</a> at Rs 22,000 more. For note-taking and travel, the Dell is the better value.</p>
+
+=== dell-14-plus-db14250-2025-intel-core-ultra-7-258v-32gb-1tb-14-wqxga-oled-90hz
+<p>This Dell 14 Plus comes with the Core Ultra 7 258V, 32GB and 1TB for Rs 2,14,999. It is a classic clamshell of 1.55kg with a 64Wh battery and a sharp 2560 by 1600 screen.</p>
+<p>Listings disagree about that screen. The specification says IPS at 60Hz, while a product name mentions OLED at 90Hz. Look at the panel in a dark corner: if black is truly black, it is OLED.</p>
+<p>As a whole it is a fine work laptop. Its closest rival is the <a href="/products/asus-vivobook-s14-s5406sa-2025">Vivobook S 14</a> with the same chip, memory and storage, 250 grams lighter with a bigger battery and Rs 10,000 cheaper. Dell's service is the counter-argument.</p>
+
+=== dell-14-premium-2025-intel-core-ultra-7-255h
+<p>Dell 14 Premium is the new name for the XPS 14. It keeps the machined aluminium body, the edge-to-edge keyboard and the invisible touchpad, with a 16-core Core Ultra 7 255H inside. The price is Rs 2,80,000 with 16GB and 512GB.</p>
+<p>It is beautiful and divisive. The touch-sensitive function row has no key edges, and the touchpad has no borders. Try both for ten minutes.</p>
+<p>The base 14.5-inch screen is 1920 by 1200 at 120Hz, and the battery is 70Wh. At 1.78kg it is heavy for 14 inches. For performance per rupee the <a href="/products/asus-vivobook-s-16-oled-s5606ma-2025-core-ultra-9-285h-16gb-1tb-16-32k-oled">Vivobook S 16</a> offers far more. You buy the Premium for the object itself.</p>
+
+=== dell-16-dc16251-2025-intel-core-5-120u
+<p>A 16-inch laptop from Dell for Rs 94,999 is attractive to families and shops that want a big screen. It has a Core 5 120U, 8GB and 512GB, a 16:10 panel and a number pad.</p>
+<p>The processor is right for accounts, browsing and school. Add memory, since 8GB is thin and this series normally has slots, and ask the seller to confirm it.</p>
+<p>At 2.14kg it is a home machine. The battery is 54Wh. The AMD-based <a href="/products/dell-16-dc16255-2025-ryzen-7-250-16gb-1tb-16-fhd">Dell 16 DC16255</a> costs Rs 40,000 more but has eight real cores, 16GB and a touchscreen. For Rs 20,000 more than this one, the <a href="/products/lenovo-ideapad-slim-5-2025-16irh10r-intel-core-5-210h">IdeaPad Slim 5 16</a> has 16GB and 1TB.</p>
+
+=== dell-16-dc16255-2025-ryzen-7-250-16gb-1tb-16-fhd
+<p>The Ryzen 7 250 is an eight-core chip with good graphics, and in the Dell 16 it comes with 16GB, 512GB and a 16-inch touchscreen for Rs 1,34,999. Engineers, coders and students of data will like the space and the speed.</p>
+<p>A product name mentions 1TB, while the Nepal price is for 512GB. Check the sticker.</p>
+<p>At 1.98kg with a 54Wh battery it is more for the desk than the bus. It plays older games at low settings. Against the <a href="/products/lenovo-ideapad-slim-5-2025-16irh10r-intel-core-5-210h">IdeaPad Slim 5 16</a>, the Dell has the stronger processor and Lenovo twice the storage for Rs 20,000 less.</p>
+
+=== dell-alienware-15-da15260-2026-intel-core-7-240h-rtx-4050
+<p>An Alienware for Rs 1,89,999 would have been a joke once. The 2026 Alienware 15 is Dell's budget gaming laptop wearing the famous name, with a Core 7 240H, an RTX 4050, 16GB, 512GB and a 15.3-inch 165Hz screen.</p>
+<p>You get a solid chassis and the design. The hardware inside matches an <a href="/products/acer-nitro-v15-anv15-52-7287-2025-intel-core-7-240h-rtx-4050">Acer Nitro V15</a> at the same price. The 130W adapter suggests that the card runs at moderate power.</p>
+<p>It weighs 2.25kg with a 54Wh battery. If you want Dell's service with an entry gaming card, it is a reasonable choice. For frames per rupee, the RTX 5050 and 5060 laptops from Acer are ahead.</p>
+
+=== dell-inspiron-14-5441-2024-snapdragon-x-plus-x1p-42-100
+<p>The Inspiron 14 5441 runs Windows on a Snapdragon X Plus, the kind of chip that comes from phones. It is silent, instantly awake, and lasts longer than any Intel laptop at Rs 1,31,999. It has 16GB and a generous 1TB.</p>
+<p>Before buying, list your software. Browsers, Office, Teams, Photoshop and most common programs work. Older Nepali accounting software, some printer drivers, hardware keys, VPN clients and games with anti-cheat may not.</p>
+<p>If everything you use is on the first list, it is excellent value: 1.53kg, Wi-Fi 7 and a fresh battery each morning. If you are unsure, choose an Intel or AMD model such as the <a href="/products/dell-pro-14-plus-pc14250-2025-amd-ryzen-5-pro-230-16gb-512gb-14-fhd">Dell Pro 14 Plus</a>.</p>
+
+=== dell-pro-13-pb13255-2025-ryzen-ai-7-pro-350
+<p>Dell Pro is the new name for Latitude, the line offices have trusted for years. This 13.3-inch model has a Ryzen AI 7 PRO 350 with eight cores, 32GB of memory, 512GB and a touchscreen, at Rs 2,09,999.</p>
+<p>Thirty-two gigabytes in a small business laptop is ideal for consultants and developers. Security features such as a fingerprint reader and a proper TPM are standard in this class. Wi-Fi 7 is included.</p>
+<p>The battery is only 45Wh and the weight 1.56kg, which is not special for 13 inches. If size is not critical, the <a href="/products/hp-probook-445-g11-ryzen-5-7535u">HP ProBook 445 G11</a> with 32GB costs Rs 95,000 less, with an older chip. That is a lot of money for a better one.</p>
+
+=== dell-pro-14-plus-pc14250-2025-amd-ryzen-5-pro-230-16gb-512gb-14-fhd
+<p>If you want a new business Dell without spending two lakhs, this is it. The Pro 14 Plus with a six-core Ryzen 5 PRO 230, 16GB and 512GB is Rs 1,19,999, and it inherits the Latitude strengths: a keyboard made for typing, a chassis that can be serviced, and proper security.</p>
+<p>Wi-Fi 7 and a 55Wh battery are good. At 1.56kg it travels well. The screen is a plain 1920 by 1200 panel.</p>
+<p>The processor belongs to the 2023 to 2024 design family with a new name, and it is quick enough for everything in an office. The <a href="/products/hp-probook-445-g11-ryzen-5-7535u">HP ProBook 445 G11</a> at Rs 1,14,999 has 32GB but an older chip. Choose between memory and newness.</p>
+
+=== dell-wyse-5470-2022-celeron-n4100
+<p>The Wyse 5470 is not an ordinary laptop. It was made as a mobile thin client, a terminal that connects to a company server, where the real computing happens. Now units are sold as cheap laptops with Windows 11, 8GB and 256GB, here at Rs 58,999.</p>
+<p>The Celeron N4100 is a 2017 chip with four slow cores. For typing and a few web pages it works. Video calls push it to the limit, and Microsoft does not list every chip of that age as supported, so ask which Windows installation it has.</p>
+<p>For less money a refurbished Latitude with a Core i5 is far better. We would not recommend this to a student.</p>
+
+=== dell-xps-13-9345-2024-snapdragon-x-plus-16gb-256gb-134-qhd-touch
+<p>The XPS 13 9345 might be the longest-lasting Windows laptop you can hold. The Snapdragon X Plus and a 55Wh battery manage well over a working day, in a 1.24kg aluminium body with a 2560 by 1600 touchscreen at 120Hz. The price is Rs 1,89,999.</p>
+<p>It has the XPS look, with a flat keyboard and a borderless touchpad that some people dislike. Try it.</p>
+<p>Two warnings. Storage is 256GB, meagre here. And software must run on Arm processors, so check your printer, VPN and any Nepali accounting program first. If you do, and they work, this is a delightful travel computer. If not, the <a href="/products/asus-vivobook-s14-s5406sa-2025">Vivobook S 14</a> runs everything for Rs 15,000 more.</p>
+
+=== hp-15-15-fd0154wm-2024-intel-core-ultra-5-125h-8gb-512gb-156-fhd
+<p>A Core Ultra 5 125H with 14 cores is a lot of processor for Rs 1,01,999. HP puts it in a plain 15.6-inch laptop with a touchscreen and 8GB of memory.</p>
+<p>There lies the imbalance. Fast cores wait while Windows shuffles data out of 8GB. The listing also gives two storage sizes, 512GB for the Nepal price and 1TB on a specification sheet, and a weight of 2.29kg that seems high. Inspect the unit.</p>
+<p>If the memory can be raised to 16GB, it becomes a strong buy for coding and design students. The 41Wh battery will never be one of its good points. Compare the <a href="/products/lenovo-ideapad-slim-5-2025-16irh10r-intel-core-5-210h">IdeaPad Slim 5 16</a>, ready with 16GB, at Rs 13,000 more.</p>
+
+=== hp-elitebook-640-g11-intel-core-ultra-7-165u
+<p>The EliteBook 640 G11 is HP's corporate laptop in its practical form. It offers 32GB of memory, a Core Ultra 7 165U, Windows 11 Pro and a 56Wh battery, in 1.39kg, for Rs 1,54,999.</p>
+<p>The keyboard is one of the best, the hinge opens flat, and parts can be replaced. The 165U is a 15W chip made for quiet, steady office work. Thirty-two gigabytes means that a hundred browser tabs and a virtual machine are fine.</p>
+<p>The screen is adequate and not for colour work. At Rs 40,000 less, the <a href="/products/hp-probook-445-g11-ryzen-5-7535u">ProBook 445 G11</a> also has 32GB with a plainer body and an older AMD chip. Companies buying several should price both.</p>
+
+=== hp-elitebook-ultra-g1q-b16xzua-2025-snapdragon-x-elite-x1e-78-100
+<p>The EliteBook Ultra G1q is HP's showpiece Windows laptop on a Snapdragon X Elite. It has twelve cores, a 14-inch 2240 by 1400 touchscreen, a 59Wh battery and a slim 1.35kg metal body, at Rs 1,88,100 with 16GB and 512GB.</p>
+<p>It stays cool in the lap, wakes at once and lasts all day. The web camera and microphones are made for meetings and are among the best on any laptop.</p>
+<p>The usual advice for Snapdragon machines applies. Check VPN software, printers, banking tokens and specialist programs before you buy. A bank or government office with older systems should look at the <a href="/products/hp-elitebook-640-g11-intel-core-ultra-7-165u">EliteBook 640 G11</a> with twice the memory for Rs 33,000 less.</p>
+
+=== hp-envy-x360-2024-intel-core-5-120u
+<p>The Envy x360 14 folds into a tablet and feels more solid than its Rs 1,05,000 price. It has a Core 5 120U, 8GB, 512GB and a touchscreen, at 1.32kg.</p>
+<p>The weight is good for a convertible. The 43Wh battery is small, so plan for about five hours. With 8GB that cannot be raised on most Envy models, it fits note-taking, browsing and films.</p>
+<p>Rs 25,000 more gets the <a href="/products/hp-envy-x360-2024-intel-core-7-150u">Core 7 150U version</a> with 16GB and a 59Wh battery, and it is worth every rupee. HP's newer OmniBook line is replacing Envy, so look for discounts too.</p>
+
+=== hp-envy-x360-2024-intel-core-7-150u
+<p>This is the right Envy x360 to buy. Sixteen gigabytes and a 59Wh battery solve the two problems of the <a href="/products/hp-envy-x360-2024-intel-core-5-120u">cheaper model</a>, and the Core 7 150U is a small step up in speed. It costs Rs 1,30,000.</p>
+<p>The laptop folds flat or stands like a tent for films, has a good keyboard, and weighs 1.52kg. The pen is sold separately in some packages, so ask.</p>
+<p>For Rs 10,000 more the <a href="/products/hp-omnibook-x-flip-14-14-fk0033-2025-ryzen-ai-7-350-24gb-1tb-2k-ips-touch">OmniBook X Flip 14</a> has a newer eight-core Ryzen AI, 24GB and 1TB. It is the same idea, two years on. Unless the Envy is discounted, go for the OmniBook.</p>
+
+=== hp-notebook-14-em0002wm-2023-amd-athlon-silver-7120u
+<p>Please read the specification before the price. The HP 14-em0002wm has a two-core Athlon Silver 7120U, 4GB of memory and a 1366 by 768 TN display, for Rs 54,999. Storage appears as 64GB in one place and 256GB in another.</p>
+<p>It will open a browser and a document. With Windows 11, 4GB is used up before you begin, and the TN panel looks washed out from any angle but straight ahead.</p>
+<p>A refurbished ThinkPad, EliteBook or Latitude with a Core i5, 8GB and a Full HD screen costs less and is better in all respects. If you need new, save for the <a href="/products/asus-vivobook-go-15-e1504ga-2023">Vivobook Go 15</a> or a <a href="/products/lenovo-v15-g6-2025">Lenovo V15</a>.</p>
+
+=== hp-notebook-14-ep-2024
+<p>HP's 14-ep packs a 14-core Core Ultra 5 125H into a plain 1.4kg laptop, for Rs 1,09,999 with 8GB and 512GB. For short bursts of hard work it is faster than most at the price.</p>
+<p>Its memory is the restriction. Integrated Arc graphics use system memory as well, so in a single 8GB stick they cannot show what they can do. Ask for 16GB at purchase if a slot exists. It transforms the machine.</p>
+<p>The 41Wh battery is small for an H-series chip. If you move around all day, choose the <a href="/products/acer-aspire-go-14-g1471m55l0-2025-intel-core-ultra-5-115u">Aspire Go 14</a> with a gentler chip, 16GB and 55Wh for Rs 6,000 more.</p>
+
+=== hp-notebook-15-fc0124nia-ryzen-3-7320u
+<p>A Ryzen 3 7320U, 8GB and 512GB in a 15.6-inch HP for Rs 78,999. The 7320U has four older cores and is at its best in simple tasks: classes, office documents, streaming and a shop's billing.</p>
+<p>The laptop is fairly light at 1.59kg and has an IPS Full HD screen, which many at this price lack. Memory is soldered with this processor, so 8GB is for life.</p>
+<p>The <a href="/products/acer-aspire-go-15-ag15-21pt-2024-ryzen-5-7520u">Aspire Go 15</a> is Rs 3,000 less with a Ryzen 5 from the same family, a touchscreen and a larger battery. HP needs a discount to compete.</p>
+
+=== hp-omnibook-x-flip-14-14-fk0033-2025-ryzen-ai-7-350-24gb-1tb-2k-ips-touch
+<p>The best convertible near Rs 1,40,000 in our list. The OmniBook X Flip 14 has an eight-core Ryzen AI 7 350, 24GB of memory, a 1TB drive, Wi-Fi 7 and a 59Wh battery, with a 14-inch touchscreen that folds all the way back, at Rs 1,39,999 and 1.41kg.</p>
+<p>That is more memory and storage than many Rs 2,00,000 laptops. The chip is modern, efficient and capable of light games.</p>
+<p>The product name says 2K, but the panel is 1920 by 1200, perfectly good at this size. Memory is soldered, and 24GB is plenty. Confirm that the pen is included and that the warranty is valid in Nepal, since this model code belongs to the American market.</p>
+
+=== hp-pavilion-x360-14-2022-i5-1235u
+<p>The Pavilion x360 of 2022 is still listed at Rs 95,000 with a Core i5-1235U, 8GB and 512GB. It folds, has a touchscreen and weighs 1.61kg. As a design, it has been replaced twice.</p>
+<p>The processor is serviceable. Battery life from 53Wh is fair on a new unit, but old stock batteries may have aged on the shelf, so run the battery report in the shop.</p>
+<p>Two newer choices are close in price. The <a href="/products/hp-envy-x360-2024-intel-core-5-120u">Envy x360</a> is lighter with a newer chip for Rs 10,000 more, and the <a href="/products/acer-aspire-spin-14-asp14-51mtn-2024-intel-core-5-120u">Aspire Spin 14</a> is Rs 7,000 more. Choose one of them unless this falls below Rs 80,000.</p>
+
+=== hp-probook-440-g11
+<p>The ProBook 440 G11 is the laptop a bank or school would order: an aluminium lid, a Core Ultra 5 125U, 16GB, 512GB, a 56Wh battery and a service manual. It costs Rs 1,60,000 at retail and weighs 1.39kg.</p>
+<p>It is quiet, cool and typist-friendly. It is also overpriced beside its own family. The <a href="/products/hp-elitebook-640-g11-intel-core-ultra-7-165u">EliteBook 640 G11</a> has 32GB and a better chip for Rs 5,000 less, and the <a href="/products/hp-probook-445-g11-ryzen-5-7535u">AMD ProBook 445 G11</a> has 32GB for Rs 45,000 less.</p>
+<p>Single buyers should take one of those. Organisations should ask for a quotation, because business models are priced by volume.</p>
+
+=== hp-spectre-x360-14-eu0060ca-2024-intel-core-ultra-5-125h-16gb-16gb-14-3k-oled-touch
+<p>HP's Spectre x360 14 has long been the prettiest Windows convertible. It is cut from metal, with a 2.8K OLED touchscreen at 120Hz, a 68Wh battery, Wi-Fi 7 and one of the finest keyboards on any laptop, at Rs 1,64,999.</p>
+<p>The listing is contradictory. The name says Core Ultra 5 125H while the specification says Core Ultra 7 155H. Both are good. Ask which you are buying and check it in Windows settings, because the price should differ.</p>
+<p>It has 16GB, soldered, and 512GB. For artists, writers and presenters it is more pleasing than the <a href="/products/hp-omnibook-x-flip-14-14-fk0033-2025-ryzen-ai-7-350-24gb-1tb-2k-ips-touch">OmniBook X Flip</a>, which has more memory, a newer chip and an ordinary screen for Rs 25,000 less.</p>
+
+=== hp-victus-15-2025-ryzen-5-8645hs-rtx-3050
+<p>This Victus 15 combines a six-core Ryzen 5 8645HS with an RTX 3050, 16GB, 512GB and a 144Hz Full HD screen at Rs 1,48,999. Its 70Wh battery is large for the class, so it is one of the few entry gaming laptops that gets through lectures.</p>
+<p>The 8645HS is a newer and cooler chip than the Core i5-13420H in rivals. With a 200W adapter it holds its speed. The RTX 3050 suits esports and older games. New titles need low to medium settings.</p>
+<p>For heavier games, find an RTX 4050, such as the <a href="/products/acer-nitro-v-15-2025-intel-core-5-210h-rtx-4050">Nitro V 15</a> for Rs 21,000 more. Our <a href="/reviews/hp-victus-15-review-nepal">Victus 15 review</a> lists what to ask the shop.</p>
+
+=== msi-katana-15-2023-i7-13620h-rtx-4060
+<p>The Katana 15 with a Core i7-13620H and RTX 4060 has aged well. The RTX 4060 is still an excellent Full HD card with 8GB, and this model comes with 16GB and 1TB for Rs 2,09,000.</p>
+<p>The trade-offs are the usual for Katana. The screen is a plain 144Hz panel with limited colour, the body is plastic, the battery is 53.5Wh, and the fans announce themselves.</p>
+<p>It dates from 2023, so check the manufacturing date and the remaining warranty. For Rs 20,000 more the <a href="/products/acer-nitro-v-16s-ai-anv16s-41-2025-ryzen-7-260">Nitro V 16S with an RTX 5060</a> is newer with a better display and a larger battery. If the Katana drops under Rs 1,90,000, it wins.</p>
+
+=== msi-modern-14-2022-i5-1235u
+<p>MSI's Modern 14 is a slim office laptop of 1.4kg with a Core i5-1235U, 8GB and 512GB, listed at Rs 92,000. It launched in 2022.</p>
+<p>It has Iris Xe graphics, Wi-Fi 6 and a comfortable keyboard. The 39Wh battery is the smallest in its class, so four to five hours is realistic when new, and stock this old may manage less.</p>
+<p>There are better uses for the money now. The <a href="/products/asus-vivobook-14-x1405vap-2024">Vivobook 14 with a Core 5 120U</a> is two years newer for Rs 1,000 more. Consider the MSI only at a clearance price near Rs 75,000.</p>
+
+=== msi-modern-15-2023-i5-1335u
+<p>The Modern 15 comes in two versions here: a Core i5-1335U with 8GB for Rs 1,05,000, and a Core i7-1355U with 16GB for Rs 1,27,000. Both have 512GB and a 15.6-inch Full HD screen in a 1.7kg body.</p>
+<p>It is a pleasant, unassuming laptop for an office, with a number pad. Its battery, 39Wh, is below what we would accept at this price.</p>
+<p>The i7 version is the sounder of the two because of memory. But for Rs 1,15,000, the <a href="/products/lenovo-ideapad-slim-5-2025-16irh10r-intel-core-5-210h">IdeaPad Slim 5 16</a> has a faster chip, 16GB, 1TB and 60Wh. That comparison is not kind to MSI.</p>
+
+=== msi-prestige-16-studio-2023-i7-13700h-rtx-4050
+<p>The Prestige 16 Studio is a creator's laptop. It has a 16-inch 2560 by 1600 screen at 165Hz, a 14-core Core i7-13700H, an RTX 4050, 16GB, 1TB and an 82Wh battery, at Rs 2,35,000 and 2.1kg.</p>
+<p>It looks sober, runs quieter than gaming models, and uses NVIDIA's Studio drivers for Adobe and DaVinci software. The RTX 4050 with 6GB is enough for Full HD and light 4K editing.</p>
+<p>As a 2023 machine it should come at a discount. For the same money the <a href="/products/acer-nitro-v-16s-2025-core-7-240h-rtx-5060">Nitro V 16S with an RTX 5060</a> renders faster with a lesser screen. If colour and quiet matter for your clients, the Prestige still has a place.</p>
+
+=== msi-pulse-15-b13v-i7-13700h-rtx-4060-360hz
+<p>Three hundred and sixty frames per second is the screen's limit on this Pulse 15, meant for players of Valorant and CS2 who take it seriously. A Core i7-13700H and RTX 4060 feed it, with 16GB, 1TB and a 90Wh battery, for Rs 2,23,250.</p>
+<p>In esports titles the hardware really can approach that number. In story games you will see 80 to 100, and the panel's speed goes unused.</p>
+<p>It weighs 2.3kg and needs a 240W adapter. Released in 2023, so check the warranty date. Buyers who are not competitive players will be happier with a newer card, such as the RTX 5060 in the <a href="/products/acer-nitro-v-16s-ai-anv16s-41-2025-ryzen-7-260">Nitro V 16S</a> for Rs 6,000 more.</p>
+
+=== msi-summit-e16-flip-evo-2023-i7-1360p-165hz
+<p>A 16-inch convertible is a rare thing. The Summit E16 Flip opens into a very large tablet that takes a pen, and architects and illustrators who like a big surface have few other options. It has a Core i7-1360P, 16GB and 1TB for Rs 1,95,000.</p>
+<p>The screen is sharp at 2560 by 1600. Our listing gives both 120Hz and 165Hz, and the model code appears twice in different forms, so look at the label.</p>
+<p>At 2kg it is heavy to hold and best on a table. The battery is 82Wh. The processor is from 2023, efficient enough, with integrated graphics. For drawing on the go, the <a href="/products/hp-omnibook-x-flip-14-14-fk0033-2025-ryzen-ai-7-350-24gb-1tb-2k-ips-touch">OmniBook X Flip 14</a> is lighter, newer and Rs 55,000 less.</p>
+
+=== msi-vector-16-hx-ai-a2xwjg-2025-intel-core-ultra-9-275hx-rtx-5090
+<p>The Vector 16 HX is MSI's way to the top without the luxury price. It has an RTX 5090 with 24GB of its own memory, a 24-core Core Ultra 9 275HX and a 240Hz 2560 by 1600 screen, at Rs 6,10,000.</p>
+<p>The card is what matters. Twenty-four gigabytes allow large 3D scenes, 8K footage and local language models that no other laptop GPU can hold. For studios and AI students with a budget it can replace a workstation.</p>
+<p>The rest shows where MSI saved. Sixteen gigabytes of system memory is absurd beside such a card, so plan on 64GB straight away, and 1TB will not last either. It weighs 2.7kg with a 330W adapter. Confirm the exact GPU in the sticker and in the NVIDIA panel.</p>
+
+=== msi-vector-gp68-hx-2023-i9-13980hx-rtx-4070
+<p>In 2023 the Vector GP68 HX was a monster, and it remains a strong workstation with a 24-core Core i9-13980HX, RTX 4070, 32GB and 2TB. The price here is Rs 3,47,700.</p>
+<p>The processor is close to the best of today for rendering and compiling. The RTX 4070 laptop chip has only 8GB, so in games it behaves like a fast 4060.</p>
+<p>One caution for this generation: ask whether the BIOS is up to date, as Intel's 13th generation HX laptops received stability updates. At this price the <a href="/products/asus-rog-strix-g18-g815lm-2025-core-ultra-9-275hx-rtx-5060">ROG Strix G18</a> offers a newer processor and card with an 18-inch screen for Rs 18,000 less. The MSI's benefit is 2TB of storage.</p>

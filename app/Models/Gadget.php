@@ -61,6 +61,15 @@ class Gadget extends Model
     }
 
     /**
+     * Where the facts came from is our own record, so it is never sent to a page. The admin form reads
+     * attributesToArray() and still sees it.
+     */
+    public function toArray(): array
+    {
+        return \Illuminate\Support\Arr::except(parent::toArray(), ['sources']);
+    }
+
+    /**
      * Just what a product card renders (GadgetCard.vue), so listing pages don't ship
      * descriptions, FAQs, sources and the full spec sheet for every tile.
      */

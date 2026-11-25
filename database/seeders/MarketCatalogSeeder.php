@@ -48,6 +48,9 @@ class MarketCatalogSeeder extends Seeder
         'qualcomm-oryon-snapdragon-x-elite-laptops-nepal-battery-benchmarks' => 'asus-vivobook-s15-2024-x-elite-x1e-78-100',
         'samsung-ncell-partnership-galaxy-offers-nepal'                    => 'samsung-galaxy-a17-5g',
         'xiaomi-18-pro-snapdragon-8-elite-gen-6-launch'                    => 'xiaomi-18-pro',
+        'from-cyberpunk-to-reality-sci-fi-cinema-tech-exists-today'        => 'iphone-duo',
+        'wifi-7-adoption-nepal-routers-speed-isp-support'                  => 'macbook-air-m5-13',
+        'phone-price-updates-nepal-november-2026'                          => 'samsung-galaxy-s26-ultra',
     ];
 
     private array $imageCredits = [];
@@ -64,12 +67,14 @@ class MarketCatalogSeeder extends Seeder
             require self::DATA_DIR . '/laptops.php',
             require self::DATA_DIR . '/audio_wearables.php',
             require self::DATA_DIR . '/gaming_accessories.php',
+            require self::DATA_DIR . '/xbox.php',
             require self::DATA_DIR . '/upcoming.php',
             require self::DATA_DIR . '/devices.php',
             require self::DATA_DIR . '/bulk_market.php',
             require self::DATA_DIR . '/archive.php',
             require self::DATA_DIR . '/flagships_upcoming.php',
             require self::DATA_DIR . '/flagships_archive.php',
+            require self::DATA_DIR . '/legacy.php',
             // ONIN listings that are out of stock go last, so an existing page always wins on a shared slug.
             is_file(self::DATA_DIR . '/onin_oos.php') ? require self::DATA_DIR . '/onin_oos.php' : [],
         );
@@ -79,14 +84,15 @@ class MarketCatalogSeeder extends Seeder
         $reviews = array_merge($editorial['reviews'] ?? [], require self::DATA_DIR . '/reviews_more.php', require self::DATA_DIR . '/reviews_budget_mid.php');
         // Rewrites of older articles go last, so they replace the out-of-date originals with the same slug.
         $rewrites = is_file(self::DATA_DIR . '/editorial_rewrites.php') ? require self::DATA_DIR . '/editorial_rewrites.php' : [];
+        $gta = require self::DATA_DIR . '/gta.php';
         $news = array_merge($editorial['news'] ?? [], require self::DATA_DIR . '/news_more.php', $rewrites['news'] ?? []);
-        $guides = array_merge($editorial['guides'] ?? [], require self::DATA_DIR . '/guides_more.php', require self::DATA_DIR . '/guides_generated.php', $rewrites['guides'] ?? []);
+        $guides = array_merge($editorial['guides'] ?? [], require self::DATA_DIR . '/guides_more.php', require self::DATA_DIR . '/guides_generated.php', [$gta['guide']], $rewrites['guides'] ?? []);
 
         $this->authorId = User::where('is_admin', true)->value('id') ?? User::value('id');
         $this->imageCredits = is_file(self::DATA_DIR . '/image_credits.php') ? require self::DATA_DIR . '/image_credits.php' : [];
         $this->imageAttributions = is_file(self::DATA_DIR . '/image_attributions.php') ? require self::DATA_DIR . '/image_attributions.php' : [];
 
-        DB::transaction(function () use ($gadgets, $reviews, $news, $guides) {
+        DB::transaction(function () use ($gadgets, $reviews, $news, $guides, $gta) {
             $categories = $this->ensureCategories();
 
             $seeded = [];
@@ -101,9 +107,12 @@ class MarketCatalogSeeder extends Seeder
             $this->seedReviews($reviews);
             $this->seedNews($news);
             $this->seedGuides($guides);
+            $this->seedBlogPosts([$gta['blog']]);
             $this->refreshDemoSlides();
             $this->applyArticleDepth();
+            $this->expandProductCopy();
             $this->applyEditorialImages();
+            $this->applyEditorialSeo();
             $this->fixLegacyProductImages(array_column($gadgets, 'slug'));
             $this->applyBrandLogos();
         });
@@ -126,6 +135,37 @@ class MarketCatalogSeeder extends Seeder
         }
 
         return array_map(fn (array $row) => isset($copy[$row['slug']]) ? ['description' => $copy[$row['slug']]] + $row : $row, $rows);
+    }
+
+    /** Product copy may use the same [[models:…]] and [[variants:…]] tables as articles, filled in once every device exists. */
+    private function expandProductCopy(): void
+    {
+        foreach (Gadget::where('description', 'like', '%[[%')->get() as $gadget) {
+            $gadget->timestamps = false;
+            $gadget->forceFill(['description' => \App\Support\ArticleDepth::expand((string) $gadget->description)])->saveQuietly();
+            $gadget->timestamps = true;
+        }
+    }
+
+    private function seedBlogPosts(array $posts): void
+    {
+        foreach ($posts as $p) {
+            $post = BlogPost::firstOrNew(['slug' => $p['slug']]);
+            $post->forceFill([
+                'user_id'          => $this->authorId,
+                'title'            => $p['title'],
+                'excerpt'          => $p['excerpt'],
+                'content'          => trim($p['content']),
+                'category'         => $p['category'],
+                'tags'             => $p['tags'],
+                'meta_description' => \Illuminate\Support\Str::limit($p['excerpt'], 155, ''),
+                'is_published'     => true,
+                'is_featured'      => $post->is_featured ?? false,
+                'published_at'     => $p['date'],
+            ]);
+            $post->cover_image ??= $p['image'];
+            $post->save();
+        }
     }
 
     /** Add the long-form text from database/seeders/data/depth to reviews, news, guides and blog posts. */
@@ -397,7 +437,7 @@ class MarketCatalogSeeder extends Seeder
         if ($image) {
             $gadget->images()->create([
                 'image'      => $image,
-                'alt_text'   => $row['image_alt'] ?? "{$row['name']} official product image",
+                'alt_text'   => $row['image_alt'] ?? $row['name'] . (isset($this->imageAttributions[$row['slug']]) ? '' : ' official product image'),
                 'source_url' => $row['image_credit'] ?? $this->imageCredits[$row['slug']] ?? null,
                 'credit'     => $this->imageAttributions[$row['slug']] ?? null,
                 'order'      => 0,
@@ -641,6 +681,29 @@ class MarketCatalogSeeder extends Seeder
                 if (Storage::disk('public')->exists($entry['image'])) {
                     $model::where('slug', $slug)->update([$column => $entry['image']]);
                 }
+            }
+        }
+    }
+
+    /** Fill in missing search descriptions and guide covers (data/catalog/editorial_seo.php). Admin edits are kept. */
+    private function applyEditorialSeo(): void
+    {
+        $data = require self::DATA_DIR . '/editorial_seo.php';
+        foreach (['reviews' => Review::class, 'guides' => TechGuide::class] as $kind => $model) {
+            foreach ($model::with('seo')->whereIn('slug', array_keys($data[$kind]))->get() as $article) {
+                if (blank($article->seo?->meta_description)) {
+                    $article->seo()->updateOrCreate([], ['meta_description' => $data[$kind][$article->slug]]);
+                }
+            }
+        }
+        foreach ($data['blog'] as $slug => $description) {
+            BlogPost::where('slug', $slug)->where(fn ($q) => $q->whereNull('meta_description')->orWhere('meta_description', ''))
+                ->toBase()->update(['meta_description' => $description]);
+        }
+        foreach ($data['guide_covers'] as $slug => $device) {
+            if ($image = Gadget::where('slug', $device)->value('image')) {
+                TechGuide::where('slug', $slug)->where(fn ($q) => $q->whereNull('thumbnail')->orWhere('thumbnail', '')->orWhere('thumbnail', 'like', 'gadgets/%'))
+                    ->toBase()->update(['thumbnail' => $image]);
             }
         }
     }

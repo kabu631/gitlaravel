@@ -13,11 +13,8 @@
 
 $method = fn (string $what) => "<p><em>How we rated it:</em> We haven't run our own hands-on test of {$what} yet. This review weighs the official specifications and current Nepal prices against the rivals you can buy here. We'll update it once we've spent time with one.</p>";
 
-$sources = function (array $links): string {
-    $items = array_map(fn ($l) => '<li><a href="' . $l[1] . '" rel="nofollow noopener" target="_blank">' . $l[0] . '</a></li>', $links);
-
-    return "<h3>Sources</h3>\n<ul>" . implode('', $items) . '</ul>';
-};
+// Where each article's facts were checked. Our own record: it is not printed, the site does not refer to other publications.
+$sources = fn (array $links): string => '';
 
 return [
 
@@ -35,10 +32,10 @@ return [
 <p>The iPhone 18 Pro Max went on sale in Nepal on 29 September 2026 at <strong>Rs 2,79,900</strong> for 256GB. That's Rs 20,000 more than the smaller <a href="/products/iphone-18-pro">iPhone 18 Pro</a>, and Rs 54,900 more than a base <a href="/products/samsung-galaxy-s26-ultra">Galaxy S26 Ultra</a>. So the question isn't whether it's a good phone. It's whether it is good enough to justify that gap.</p>
 
 <h2>What the money gets you</h2>
-<p>The A20 Pro is Apple's first 2nm chip, and the 6.9-inch LTPO display reaches 3,000 nits with an anti-reflective coating. That coating is the upgrade you'll notice most outdoors in the Kathmandu sun. All three rear cameras are 48MP: a main camera with a variable aperture, an ultra wide and a 5x periscope telephoto. Charging finally reaches 50W wired, with 25W on MagSafe.</p>
+<p>The A20 Pro is Apple's first 2nm chip, and the 6.9-inch LTPO display reaches 3,000 nits with an anti-reflective coating. That coating is the upgrade you'll notice most outdoors in the Kathmandu sun. All three rear cameras are 48MP: a main camera with a variable aperture, an ultra wide and a 4x telephoto. Charging is much quicker than before, at about half a battery in 15 minutes with a 60W adapter, and 25W on MagSafe.</p>
 
 <h2>Pro Max or Pro?</h2>
-<p>The camera is the main reason to pick the Max. The 18 Pro uses a 4x telephoto, while the Max gets 5x, which helps at concerts, sports and wildlife shots in Chitwan. You also get the bigger screen. The cost is weight: at 249g, this is a heavy phone to hold up for a long video call or to carry in a shirt pocket.</p>
+<p>The screen and the battery are the reasons to pick the Max. Apple quotes up to 43 hours of video against 34 on the 18 Pro, and the 6.9-inch display is far better for maps, films and editing. The cameras are the same on both phones. The cost is weight: at 249g, this is a heavy phone to hold up for a long video call or to carry in a shirt pocket.</p>
 
 <h2>Choosing storage</h2>
 <p>Storage upgrades are where Apple makes its margin. 512GB costs Rs 3,22,900 (Rs 43,000 more), 1TB costs Rs 4,07,900 and 2TB costs Rs 5,34,900. If you shoot a lot of 4K video, 512GB is the sensible step. Otherwise, 256GB plus an iCloud plan costs far less over the phone's life.</p>
@@ -46,12 +43,12 @@ return [
 <h2>The alternatives</h2>
 <p>The Galaxy S26 Ultra gives you a built-in S Pen, a 200MP main camera and seven years of updates for much less money. The <a href="/products/vivo-x300-pro">vivo X300 Pro</a> (Rs 1,99,999) has a 200MP periscope and a 6,510mAh battery. If you're already in the Apple ecosystem with a Mac, AirPods and an Apple Watch, the iPhone is the easier choice. Coming from Android, it's harder to justify on value alone. <a href="/compare?g1=iphone-18-pro-max&g2=samsung-galaxy-s26-ultra">Compare it side by side with the S26 Ultra</a>.</p>
 HTML,
-            'pros' => ['5x periscope telephoto with 48MP sensor', 'Bright 3,000-nit display with anti-reflective coating', 'A20 Pro is Apple\'s first 2nm chip', '50W wired charging is a real step up for iPhone'],
+            'pros' => ['Longest battery life of any iPhone', 'Bright 3,000-nit display with anti-reflective coating', 'A20 Pro is Apple\'s first 2nm chip', 'Half a battery in about 15 minutes'],
             'cons' => ['Heavy at 249g', 'Storage upgrades are very expensive in Nepal', 'Costs Rs 54,900 more than a base Galaxy S26 Ultra'],
-            'verdict' => '<p>The best iPhone you can buy in Nepal, and the zoom camera alone separates it from the 18 Pro. Buy it if you live in Apple\'s ecosystem. Android buyers get more for less with the Galaxy S26 Ultra.</p>',
+            'verdict' => '<p>The best iPhone you can buy in Nepal if you want a large screen and the longest battery life. The 18 Pro takes the same photos in a lighter body. Android buyers get more for less with the Galaxy S26 Ultra.</p>',
             'seo' => [
                 'title' => 'iPhone 18 Pro Max Review (Nepal): Worth Rs 2,79,900?',
-                'description' => 'iPhone 18 Pro Max review for Nepali buyers: 5x zoom, A20 Pro, 50W charging, storage pricing from Rs 2,79,900, and how it compares with the S26 Ultra.',
+                'description' => 'iPhone 18 Pro Max review for Nepali buyers: battery life, A20 Pro, cameras, fast charging, storage pricing from Rs 2,79,900, and how it compares with the S26 Ultra.',
                 'keywords' => 'iphone 18 pro max review, iphone 18 pro max nepal review',
             ],
         ],
@@ -233,18 +230,18 @@ HTML,
 <p>Grand Theft Auto VI finally launched on <strong>19 November 2026</strong> for PlayStation 5 and Xbox Series X|S, after being delayed twice from its original 2025 window. There is still no PC version.</p>
 
 <h2>A record-breaking first day</h2>
-<p>Variety reported that Take-Two counted <strong>$3.79 billion</strong> in sales within the first 24 hours. Sensor Tower's independent estimate was lower, at about 24.6 million copies and $2.36 billion on launch day including pre-orders, with roughly 18.4 million of those copies on PS5. The two figures measure different things, but by either count it's one of the biggest entertainment launches ever.</p>
+<p>Take-Two counted <strong>$3.79 billion</strong> in sales within the first 24 hours. It also counted 32.5 million copies sold before release. An independent market estimate was lower, at about 24.6 million digital copies and $2.36 billion, with roughly three quarters of them on PS5. The two figures measure different things, but by either count it's one of the biggest entertainment launches ever.</p>
 
 <h2>How to buy GTA VI in Nepal</h2>
 <p>Rockstar doesn't sell the game at a Nepal-specific price, so players here have two options:</p>
 <ul>
-<li><strong>The PlayStation Store</strong>, paying $79.99 for the Standard Edition or $99.99 for the Ultimate Edition with a dollar card.</li>
+<li><strong>The PlayStation Store or the Xbox store</strong>, paying $79.99 for the Standard Edition or $99.99 for the Ultimate Edition with a dollar card.</li>
 <li><strong>A local game shop.</strong> Expect about Rs 13,499 for the Standard Edition and Rs 16,999 for the Ultimate.</li>
 </ul>
 <p>Be careful with very cheap "secondary account" offers. You are sharing someone else's account, and access can disappear if they change the password.</p>
 
 <h2>Which console?</h2>
-<p>GTA VI runs on every PS5 model. See our <a href="/reviews/ps5-digital-slim-pro-review-nepal">PS5 buying verdict</a>. The Digital Edition at Rs 95,000 is the cheapest way in, and the PS5 Pro gives the best image on a 4K TV. Full details are on our <a href="/products/gta-6">GTA VI page</a>.</p>
+<p>GTA VI runs on every PS5 model and on the <a href="/products/microsoft-xbox-series-x">Xbox Series X</a> and <a href="/products/microsoft-xbox-series-s">Series S</a>. An Xbox One can stream it from the cloud, and phones, Windows PCs and handhelds can show it by Remote Play from your own console. See our <a href="/reviews/ps5-digital-slim-pro-review-nepal">PS5 buying verdict</a>. The Digital Edition at Rs 95,000 is the cheapest way in, and the PS5 Pro gives the best image on a 4K TV. Full details are on our <a href="/products/gta-6">GTA VI page</a>.</p>
 HTML
             . "\n" . $sources([
                 ['Variety – GTA 6 first-day sales', 'https://variety.com/2026/gaming/news/gta-6-sales-billions-first-day-1236954198/'],
@@ -300,7 +297,7 @@ HTML
 <p>256GB Rs 2,59,900 · 512GB Rs 3,01,900 · 1TB Rs 3,86,900 · 2TB Rs 5,13,900. It has a 6.3-inch display, the A20 Pro chip and a 4x telephoto. <a href="/products/iphone-18-pro">Full specs</a>.</p>
 
 <h2>iPhone 18 Pro Max</h2>
-<p>256GB Rs 2,79,900 · 512GB Rs 3,22,900 · 1TB Rs 4,07,900 · 2TB Rs 5,34,900. It moves up to a 6.9-inch screen and a 5x periscope. Read our <a href="/reviews/iphone-18-pro-max-review-nepal">iPhone 18 Pro Max review</a>.</p>
+<p>256GB Rs 2,79,900 · 512GB Rs 3,22,900 · 1TB Rs 4,07,900 · 2TB Rs 5,34,900. It moves up to a 6.9-inch screen and a bigger battery, with the same cameras. Read our <a href="/reviews/iphone-18-pro-max-review-nepal">iPhone 18 Pro Max review</a>.</p>
 
 <h2>iPhone Duo</h2>
 <p>256GB Rs 4,30,900 · 512GB Rs 4,72,900 · 1TB Rs 5,57,900 · 2TB Rs 6,84,900. The foldable has a 7.6-inch inner screen, a 5.4-inch cover screen and a titanium hinge. It uses Touch ID on the side instead of Face ID. <a href="/products/iphone-duo">Full specs</a>.</p>
@@ -386,7 +383,7 @@ HTML
 <p>For the first time, Apple didn't launch its whole iPhone line-up together. The <a href="/products/iphone-18-pro">iPhone 18 Pro</a>, Pro Max and the foldable iPhone Duo came in autumn 2026. The cheaper models are expected in spring 2027.</p>
 
 <h2>iPhone 18</h2>
-<p>Bloomberg's Mark Gurman has repeatedly reported a spring 2027 launch, and later supply-chain reports point to around March. The rumoured specs are a 2nm A20 chip (a small step below the Pro's A20 Pro), a 6.3-inch display, two 48MP rear cameras, a 24MP front camera and more RAM than the iPhone 17's 8GB.</p>
+<p>Reports have repeatedly pointed to a spring 2027 launch, and later supply-chain reports point to around March. The rumoured specs are a 2nm A20 chip (a small step below the Pro's A20 Pro), a 6.3-inch display, two 48MP rear cameras, a 24MP front camera and more RAM than the iPhone 17's 8GB.</p>
 <p><strong>Our Nepal estimate: about Rs 1,75,000.</strong> The <a href="/products/iphone-17">iPhone 17</a> sells for Rs 1,64,999 at a US price of $799, and reports expect the iPhone 18 at $849–899. <a href="/products/iphone-18">iPhone 18 page</a>.</p>
 
 <h2>iPhone 18e</h2>

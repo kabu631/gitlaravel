@@ -84,9 +84,16 @@ class GadgetController extends Controller
 
         $review   = $gadget->reviews()->where('is_published', true)->first();
         $comments = $gadget->comments()->with('user:id,name')->latest()->get();
+        // Current devices first, closest in price (newest first when this one has no price to compare).
         $related  = Gadget::forCard()
             ->where('category_id', $gadget->category_id)
             ->where('id', '!=', $gadget->id)
+            ->orderByRaw('release_status = ?', [Gadget::STATUS_DISCONTINUED])
+            ->when(
+                $gadget->price > 0,
+                fn ($q) => $q->orderByRaw('price <= 0')->orderByRaw('ABS(price - ?)', [(float) $gadget->price]),
+                fn ($q) => $q->latest(),
+            )
             ->take(6)->get();
 
         $trending = Gadget::query()
@@ -140,8 +147,13 @@ class GadgetController extends Controller
             default                  => 'Price in Nepal, Specs & Review',
         };
 
+        // The page only needs the date the facts were checked, and photo links only where a licence asks for a credit.
+        $checkedOn = collect($gadget->sources)->pluck('accessed')->filter()->max();
+        $gadget->images->each(fn ($image) => $image->credit ? null : $image->makeHidden('source_url'));
+
         return Inertia::render('Gadgets/Show', [
             'gadget'          => $gadget,
+            'checkedOn'       => $checkedOn,
             'productVariants' => $productVariants,
             'variantsByType'  => $gadget->variantsByType(), // legacy fallback
             'priceHistory'    => $gadget->priceHistory->map(fn($p) => ['date' => $p->date->format('Y-m-d'), 'price' => (float) $p->price]),

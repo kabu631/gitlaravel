@@ -51,28 +51,6 @@ $flagship = function (array $p) use ($months, $equivalents): array {
     }
 
     $sources = [];
-    $dxoLine = null;
-    if (! empty($p['dxo'])) {
-        $dx = $p['dxo'];
-        $parts = array_filter([
-            isset($dx['camera']) ? "Camera {$dx['camera']}" : null,
-            isset($dx['selfie']) ? "Selfie {$dx['selfie']}" : null,
-            isset($dx['display']) ? "Display {$dx['display']}" : null,
-            isset($dx['battery']) ? "Battery {$dx['battery']}" : null,
-        ]);
-        $protocol = ! empty($dx['v5']) ? ' (camera protocol v5)' : '';
-        $extra['DXOMARK scores'] = implode(' · ', $parts) . $protocol;
-        $sources[] = ['label' => "DXOMARK – {$p['name']}", 'url' => 'https://www.dxomark.com/smartphones/' . $dx['path'], 'accessed' => '2026-11-23'];
-
-        if (isset($dx['camera'])) {
-            $dxoLine = "<p>DXOMARK gave it a camera score of {$dx['camera']}" . (! empty($dx['v5'])
-                ? ' under its version-5 test protocol, so compare it only with other v5 scores, not with phones tested under the current version 6.'
-                : '.') . (isset($dx['display']) ? " Its display scored {$dx['display']}." : '') . '</p>';
-        } else {
-            $dxoLine = '<p>DXOMARK has not published a main camera score for it; its page lists ' . strtolower(implode(', ', $parts)) . '.</p>';
-        }
-    }
-
     $links = [];
     foreach ($equivalents[$p['family'] ?? $p['brand']] as $slug => [$label, $price]) {
         $links[] = "the <a href=\"/products/{$slug}\">{$label}</a>" . ($price ? " ({$price})" : '');
@@ -87,7 +65,6 @@ $flagship = function (array $p) use ($months, $equivalents): array {
     $description = <<<HTML
 <p>The {$p['name']} launched on {$when} at {$at}. It has since been replaced by newer models, so we list its launch price rather than a current Nepal price. We keep its specs here for reference and for anyone weighing up a second-hand unit.</p>
 {$why}<p>It has a {$p['display']} screen and the {$p['chip']}. Cameras: {$p['camera']}{$selfie}. Battery: {$p['battery']}{$charging}.{$notable}</p>
-{$dxoLine}
 <p>Buying used? Check battery health, make sure the phone is registered on NTA's MDMS system (<a href="/guides/how-to-check-phone-is-official-in-nepal">how to check</a>), and compare the asking price with a new mid-range phone. If you would rather buy new, the current equivalents are {$links[0]} and {$links[1]}.</p>
 HTML;
 
@@ -96,10 +73,6 @@ HTML;
         ["What was the {$p['name']} launch price?", "It launched at {$at}. It has been replaced by newer models, so there is no current official Nepal price."],
         ["Which processor does the {$p['name']} use?", "It uses the {$p['chip']}."],
     ];
-    if (isset($p['dxo']['camera'])) {
-        $faqs[] = ["What is the {$p['name']} DXOMARK camera score?", "DXOMARK scored its camera {$p['dxo']['camera']}" . (! empty($p['dxo']['v5']) ? ' (version-5 protocol).' : '.')];
-    }
-
     return [
         'name' => $p['name'],
         'slug' => $p['slug'],
@@ -126,7 +99,7 @@ HTML;
         'sources' => $sources,
         'seo' => [
             'title' => "{$p['name']}: Launch Price, Specs & Release Date",
-            'description' => "{$p['name']} specs, release date and launch price ({$at})" . (isset($p['dxo']['camera']) ? ", DXOMARK camera score {$p['dxo']['camera']}" : '') . '. Is it still worth buying second-hand in Nepal?',
+            'description' => "{$p['name']} specs, release date and launch price ({$at})" . '. Is it still worth buying second-hand in Nepal?',
             'keywords' => strtolower("{$p['name']} price in nepal, {$p['name']} specs, {$p['name']} second hand price nepal"),
         ],
         'image_alt' => $p['name'],

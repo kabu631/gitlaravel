@@ -285,7 +285,7 @@
 <h2>Festival discounts</h2>
 <p>Before Dashain and Tihar, open the history of what you want and write down the price. When the banners appear, subtract. The method is explained, with the tricks to look out for, in <a href="/blog/dashain-tihar-tech-deals-how-to-spot-a-real-discount">how to spot a real discount</a>.</p>
 <h2>What the site does not do</h2>
-<p>We cannot guarantee that a shop will honour a listed price, and we do not give scores for devices we have not used as though we had tested them. Where an opinion is based on specifications and price, we say so. Business relationships, such as with our partner ONIN Infosys, are named where they matter.</p>
+<p>We cannot guarantee that a shop will honour a listed price, and we do not give scores for devices we have not used as though we had tested them. Where an opinion is based on specifications and price, we say so. Where a button leads to the shop of a business partner, the page says so.</p>
 <h2>On a phone</h2>
 <p>The site works on slow connections. Tables scroll sideways. On a phone the filters open from the bottom. You can add the site to your home screen from the browser menu and use it like an app in the shop, which is where it is most useful: search the model while the seller is talking.</p>
 <h2>Five habits of people who pay less</h2>

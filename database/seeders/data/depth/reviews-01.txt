@@ -34,8 +34,8 @@
 <p>The Galaxy S24 was never the most exciting phone of its year, and that has helped it. It does nearly everything well, it fits in a hand, and it will still be receiving updates when many newer phones have been forgotten. Buy it for the size, the zoom lens and the support. Keep a power bank in your bag and you will get along fine.</p>
 
 === iphone-15-pro-review-titanium-action-button-and-usb-c-finally replace
-<p><em>How we rated it:</em> We have not run our own lab test of the iPhone 15 Pro. This review uses Apple's specifications, what is known about the phone three years after launch, and current prices in Nepal.</p>
-<p>When the iPhone 15 Pro arrived in September 2023 it changed three things that iPhone owners touch every day: the metal around the edge, the switch on the side and the port at the bottom. Three years on, with the iPhone 18 Pro in shops, it has become a popular second-hand choice and still appears in some listings at around Rs 1,49,999. That price deserves a hard look, because newer phones now sit very close to it.</p>
+<p><em>How we rated it:</em> We have not run our own lab test of the iPhone 15 Pro. This review uses Apple's specifications, what is known about the phone three years after launch, and the prices of the phones it competes with in Nepal now.</p>
+<p>When the iPhone 15 Pro arrived in September 2023 it changed three things that iPhone owners touch every day: the metal around the edge, the switch on the side and the port at the bottom. Three years on, with the iPhone 18 Pro in shops, it is a popular second-hand choice, and old stock turns up from time to time. It was last listed in Nepal at Rs 1,68,299. Any price near that deserves a hard look, because newer phones now cost about the same.</p>
 <h2>The changes that still matter</h2>
 <p>Apple replaced the steel frame of the 14 Pro with titanium. The result is a 187 gram phone that feels noticeably lighter than the one before it. The edges are gently rounded, so it is more comfortable to hold for a long call. The brushed finish hides small scratches, although the darker colours show marks from a coin or a key if you carry the phone without a case.</p>
 <p>The mute switch became the Action button. You can leave it as a silent toggle or make it open the camera, the torch, a voice memo or any shortcut you build. It sounds trivial until you set it to something you use ten times a day.</p>
@@ -50,10 +50,10 @@
 <h2>Battery life is average, and age makes it worse</h2>
 <p>The cell holds 3,274mAh. When new, that meant a normal day for moderate use and an evening top-up for heavy use. A phone that has been used since 2023 will have lost some of that. On any used unit, open Settings, then Battery, then Battery Health, and read the maximum capacity figure and the cycle count. The 15 series was the first to show cycles clearly. Below eighty per cent, plan for a replacement, and remember that a cheap unofficial battery will show a warning message that puts off the next buyer too.</p>
 <p>Charging takes roughly half an hour to reach the halfway mark with a 20W or stronger USB-C charger. MagSafe wireless charging works at up to 15W, and a setting lets you stop at eighty per cent to slow the ageing of the battery.</p>
-<h2>Is Rs 1,49,999 fair in late 2026?</h2>
-<p>For a new, sealed unit with a warranty, it is difficult to recommend. At almost the same money you will find phones that are two years younger.</p>
-[[rivals:iphone-15-pro]]
-<p>The <a href="/products/iphone-17">iPhone 17</a> is the comparison that hurts. For a small step up it brings a 120Hz screen to the standard model, a newer chip, a longer period of software updates ahead of it and a battery that starts at full health. You give up the telephoto lens and the titanium. Most buyers should make that trade. On the Android side, the <a href="/products/samsung-galaxy-s26">Galaxy S26</a> offers a similar compact size with seven years of updates from 2026.</p>
+<h2>Is a new one fair value in late 2026?</h2>
+<p>At anything close to its last listed price of Rs 1,68,299, a sealed unit is difficult to recommend. For the same money you will find phones that are two years younger.</p>
+[[models:iphone-17,samsung-galaxy-s26,google-pixel-10,apple-iphone-17-pro]]
+<p>The <a href="/products/iphone-17">iPhone 17</a> is the comparison that hurts. For similar money it brings a 120Hz screen to the standard model, a newer chip, a longer period of software updates ahead of it and a battery that starts at full health. You give up the telephoto lens and the titanium. Most buyers should make that trade. On the Android side, the <a href="/products/samsung-galaxy-s26">Galaxy S26</a> offers a similar compact size with seven years of updates from 2026.</p>
 <p>A used 15 Pro is a different story. Prices in the second-hand market depend on storage, battery health and whether the box is present, so compare several sellers. If one is clearly cheaper than everything else, ask why before you ask how much.</p>
 <h2>Buying one safely in Nepal</h2>
 <p>Match the IMEI on the screen, the SIM tray area and the box. Check MDMS registration. Ask the owner to sign out of iCloud and turn off Find My while you watch, then start the phone from the Hello screen yourself. Test Face ID, all three lenses, both speakers, the microphones by recording a voice memo, and wireless charging. In Settings under General, About, look at Parts and Service History: it tells you whether the battery, screen or camera has been replaced, and whether the part was genuine. American units have no physical SIM tray and use eSIM only, so make sure your Nepali operator can set that up for you before you buy.</p>
@@ -65,7 +65,7 @@
 <li><strong>Poor fit:</strong> heavy users who are away from a charger all day. Look at a Pro Max or a large Android phone.</li>
 </ul>
 <h2>Verdict</h2>
-<p>The iPhone 15 Pro was a turning point and it remains a lovely object: light, quick and good at video. Its problem in 2026 is the price tag, not the phone. Used and healthy, it is one of the better compact iPhones to own. New at Rs 1,49,999, spend a little more on something current.</p>
+<p>The iPhone 15 Pro was a turning point and it remains a lovely object: light, quick and good at video. Its problem in 2026 is the price tag, not the phone. Used and healthy, it is one of the better compact iPhones to own. If a seller wants new-phone money for one, spend it on something current.</p>
 
 === sony-wf-1000xm5-review-still-the-best-noise-cancelling-earbuds replace
 <p><em>How we rated it:</em> We have not run our own sound test of the WF-1000XM5. This review draws on Sony's specifications, what is known about the earbuds after three years on sale, and current prices in Nepal.</p>
@@ -147,12 +147,12 @@
 <p>At 6.9 inches with a resolution of 1320 by 2868 and a variable 120Hz refresh rate, it is a comfortable size for reading PDFs, editing photos and watching football. It is too large for one hand. Try holding the phone in a shop for a full five minutes, not five seconds, because 249 grams only announces itself over time.</p>
 <h2>Cameras: what three 48MP sensors change</h2>
 <p>Earlier Pro models had one excellent camera and two good ones. Giving all three rear cameras a 48MP sensor means the ultra wide and the telephoto can now save detailed images as well, and cropping a photo later does less damage. The main camera has a variable aperture, which physically opens to let in light and closes to bring more of the scene into focus. It is useful for group photos, where a wide aperture often leaves the person at the edge slightly soft, and for documents and food shot from close range.</p>
-<p>The 5x periscope is the lens that justifies the Max. Think of a graduation at Tribhuvan University, where you are standing thirty metres from the stage, or rhinos on the far bank of the Rapti. A 4x lens on the smaller Pro will get you most of the way, and cropping from 48MP closes some of the gap, so be honest about how often you need it.</p>
-<p>The 24MP front camera gives more room to crop selfies and video calls. Creators who film themselves will find that more useful than any rear zoom.</p>
+<p>The telephoto is a 48MP sensor behind a folded lens at 4x, or 100mm. Think of a graduation at Tribhuvan University, where you are standing thirty metres from the stage, or rhinos on the far bank of the Rapti. Because the sensor is large in pixels, the phone can take the middle of it and offer 8x with what Apple calls optical quality. The smaller 18 Pro has exactly the same camera, so zoom is not a reason to choose the Max.</p>
+<p>The 18MP front camera uses a square-shaped sensor, so you can take a wide group selfie while holding the phone upright. It follows faces in video calls and can record together with the rear camera. Creators who film themselves will find that more useful than any rear zoom.</p>
 <h2>Performance and heat</h2>
 <p>A 2nm chip is smaller and more efficient than the 3nm parts before it. For ordinary apps you will not feel a difference from an iPhone 17 Pro. Where it helps is in sustained work: long 4K recording, exporting a project in the field, games with ray-traced lighting, and the on-device parts of Apple Intelligence. The 12GB of memory helps with the last of those. If your heaviest task is Instagram, none of this is a reason to upgrade.</p>
 <h2>Charging at last</h2>
-<p>iPhones have charged slowly for years, and 50W by cable is a real change. You need a USB Power Delivery charger that can supply that power, and Apple does not include one in the box, so add it to your budget. MagSafe at 25W is enough for a desk or a car mount. Reverse charging at 4.5W by cable is meant for earbuds or a watch, not for rescuing a friend's phone.</p>
+<p>iPhones have charged slowly for years, and about half a battery in 15 minutes is a real change. Apple says that this needs a 60W or stronger USB-C adapter with adjustable voltage, and does not include one in the box, so add it to your budget. MagSafe at 25W is enough for a desk or a car mount. Charging other devices by cable is meant for earbuds or a watch, not for rescuing a friend's phone.</p>
 <p>Apple does not publish battery capacity in the way Android brands do, so compare the hours of video playback it quotes and, better, ask someone who has owned the phone for a month. Any claim about an exact mAh figure usually comes from teardown reports.</p>
 <h2>What it costs to own for four years</h2>
 <p>The price on the sticker is only the start. Take the 256GB model at Rs 2,79,900. Add a charger, a case and a protector, roughly Rs 10,000 if you avoid counterfeits. Add AppleCare-style cover or put money aside for a screen, because an out-of-warranty screen on a Pro Max is one of the most expensive repairs in the phone business. Then subtract the resale value. iPhones hold their price better than almost any Android phone in Nepal, which is a large part of why people accept the higher entry cost.</p>
@@ -163,11 +163,11 @@
 <h2>How it compares at around this price</h2>
 [[rivals:iphone-18-pro-max]]
 <p>Foldables now live in the same bracket. The <a href="/products/samsung-galaxy-z-fold-7">Galaxy Z Fold 7</a> and <a href="/products/honor-magic-v5">Honor Magic V5</a> give you a small tablet that folds into a phone, which is a bigger change to daily life than a better zoom. They also have softer inner screens and more fragile hinges. If you hand your phone to children or work on building sites, a slab is the safer choice.</p>
-<p>Last year's <a href="/products/apple-iphone-17-pro-max">iPhone 17 Pro Max</a> at Rs 2,42,499 is the other obvious rival. You lose the coating, the faster charging and the newest chip, and you save over Rs 37,000. For many people that is the smarter iPhone to buy this year.</p>
+<p>Last year's <a href="/products/apple-iphone-17-pro-max">iPhone 17 Pro Max</a> at Rs 2,42,499 is the other obvious rival. You lose the variable aperture, some charging speed and the newest chip, and you save over Rs 37,000. For many people that is the smarter iPhone to buy this year.</p>
 <h2>Who should buy it, and who should not</h2>
 <ul>
-<li><strong>Buy it</strong> if you shoot a lot of distant subjects or video, already own a Mac or Apple Watch, and plan to sell the phone in two or three years.</li>
-<li><strong>Buy the 18 Pro instead</strong> if you like the cameras but not the weight.</li>
+<li><strong>Buy it</strong> if you want the biggest screen and battery for video and travel, already own a Mac or Apple Watch, and plan to sell the phone in two or three years.</li>
+<li><strong>Buy the 18 Pro instead</strong> if you want the same cameras in a lighter phone.</li>
 <li><strong>Buy the 17 Pro Max instead</strong> if the price feels like a stretch.</li>
 <li><strong>Look at Android</strong> if you want a built-in stylus, a bigger battery or more zoom for less.</li>
 </ul>

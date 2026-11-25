@@ -45,18 +45,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>With a thin body and a better-than-average screen, this ASUS Zenbook 14 was listed by ONIN Infosys at Rs 1,91,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>With a thin body and a better-than-average screen, this ASUS Zenbook 14 was listed at Rs 1,91,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 9 185H (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch 3K OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 75Wh battery and weighs about 1.28 kg, light enough to carry every day. Ports include HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook 14 (Core Ultra 9 185H, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,91,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook 14 (Core Ultra 9 185H, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,91,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook 14 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook 14?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook 14?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook 14 (Core Ultra 9 185H, 16GB/1TB) Price in Nepal & Specs',
-            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook 14 was listed by ONIN Infosys at Rs 1,91,499. ONIN listed it as out of stock when we chec',
+            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook 14 was listed at Rs 1,91,499.',
             'keywords' => 'asus zenbook 14 price in nepal, asus zenbook 14, core ultra 9 185h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -106,20 +106,20 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Desview P8 is a compact teleprompter that turns a phone or tablet into a script screen in front of your camera, so you can read lines while looking straight down the lens. ONIN Infosys listed it at Rs 23,710. When we checked on 23 November 2026, it was out of stock, so confirm availability with ONIN before planning a shoot around it.</p>
+<p>The Desview P8 is a compact teleprompter that turns a phone or tablet into a script screen in front of your camera, so you can read lines while looking straight down the lens. It was listed at Rs 23,710. When we checked on 23 November 2026, it was out of stock, so confirm availability with the shop before planning a shoot around it.</p>
 <p>It fits smartphones, DSLR and mirrorless cameras and camcorders. The frame is ABS with aluminium parts, it weighs about 920 g, and it packs down to roughly 200 × 203 × 105 mm, small enough for a camera bag. The box includes a light-shading hood and board, which matter more than they sound: they stop room light from washing out the reflected text.</p>
-<p>It suits YouTubers, teachers recording lessons, news and corporate video teams, and anyone filming talking-head content who is tired of memorising scripts or glancing off-camera. Pair it with a free prompter app on your phone and a Bluetooth remote to control scrolling speed. ONIN lists a one-year official warranty.</p>
+<p>It suits YouTubers, teachers recording lessons, news and corporate video teams, and anyone filming talking-head content who is tired of memorising scripts or glancing off-camera. Pair it with a free prompter app on your phone and a Bluetooth remote to control scrolling speed. The listing shows a one-year official warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Desview P8 work with a DSLR?', <<<'HTML'
-Yes. ONIN lists it as compatible with smartphones, DSLR and mirrorless cameras, and camcorders. The camera sits behind the glass and the phone or tablet shows the script.
+Yes. It is listed as compatible with smartphones, DSLR and mirrorless cameras, and camcorders. The camera sits behind the glass and the phone or tablet shows the script.
 HTML],
             ['What do I need to use it?', 'A phone or small tablet running a teleprompter app to show the mirrored script. A Bluetooth remote makes scrolling easier.'],
         ],
         'seo' => [
             'title' => 'Desview P8 Teleprompter Price in Nepal & Specs',
             'description' => 'The Desview P8 is a compact teleprompter that turns a phone or tablet into a script screen in front of your camera, so you can read lines while looking straig',
-            'keywords' => 'desview p8 teleprompter price in nepal, desview p8 teleprompter, desview nepal, onin infosys',
+            'keywords' => 'desview p8 teleprompter price in nepal, desview p8 teleprompter, desview nepal',
         ],
         'image_alt' => 'Desview P8 Teleprompter',
         'buy_url' => 'https://onin.com.np/product/desview-p8-teleprompter-price-nepal',
@@ -173,18 +173,18 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>The Desview T17 is a full studio teleprompter kit with its own 17-inch self-reversing monitor, built for broadcast and corporate studios rather than phone-based setups. ONIN Infosys listed it at Rs 99,750. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Desview T17 is a full studio teleprompter kit with its own 17-inch self-reversing monitor, built for broadcast and corporate studios rather than phone-based setups. It was listed at Rs 99,750. It was out of stock when we checked on 23 November 2026.</p>
 <p>The monitor runs at 1280 × 1024 and up to 300 nits, and flips the image in hardware, so you can feed it directly from a laptop or switcher without mirroring software. Inputs cover HDMI, SDI (BNC), VGA, composite and USB, which suits both modern and older studio chains. The 70/30 broadcast beamsplitter glass keeps the camera image clean while the presenter reads clearly.</p>
-<p>A height-adjustable mount takes DSLRs and camcorders, and you can control scrolling with the included Bluetooth remote, a foot pedal or an app on Windows, iOS or Android. It suits TV and news studios, colleges with media labs, and production houses filming interviews and corporate videos. It runs on 12V DC, and ONIN lists a one-year warranty.</p>
+<p>A height-adjustable mount takes DSLRs and camcorders, and you can control scrolling with the included Bluetooth remote, a foot pedal or an app on Windows, iOS or Android. It suits TV and news studios, colleges with media labs, and production houses filming interviews and corporate videos. It runs on 12V DC, and the listing shows a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Desview T17 need a separate monitor?', 'No. It includes a 17-inch self-reversing monitor, so you connect your script source directly over HDMI, SDI, VGA or composite.'],
-            ['How is scrolling controlled?', 'With a Bluetooth remote, a foot pedal, or an app on Windows, iOS or Android, according to ONIN\'s listing.'],
+            ['How is scrolling controlled?', 'With a Bluetooth remote, a foot pedal, or an app on Windows, iOS or Android, according to the listing.'],
         ],
         'seo' => [
             'title' => 'Desview T17 17-inch Broadcast Teleprompter Price in Nepal & Specs',
             'description' => 'The Desview T17 is a full studio teleprompter kit with its own 17-inch self-reversing monitor, built for broadcast and corporate studios rather than phone-bas',
-            'keywords' => 'desview t17 17-inch broadcast teleprompter price in nepal, desview t17 17-inch broadcast teleprompter, desview nepal, onin infosys',
+            'keywords' => 'desview t17 17-inch broadcast teleprompter price in nepal, desview t17 17-inch broadcast teleprompter, desview nepal',
         ],
         'image_alt' => 'Desview T17 17-inch Broadcast Teleprompter',
         'buy_url' => 'https://onin.com.np/product/desview-t17-17-teleprompter-nepal',
@@ -229,9 +229,9 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Hitech POE-530P is a small DC UPS that keeps a Wi-Fi router, ONU or CCTV camera running through Nepal's short power cuts. ONIN Infosys listed it at just Rs 2,399. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Hitech POE-530P is a small DC UPS that keeps a Wi-Fi router, ONU or CCTV camera running through Nepal's short power cuts. It was listed at just Rs 2,399. It was out of stock when we checked on 23 November 2026.</p>
 <p>It holds an 8,800mAh battery and sits between the device's adapter and the device itself, so it switches over instantly with no break in your internet connection or recording. A mini DC UPS like this is far cheaper and quieter than a full inverter when all you need is to keep the network alive. How long it lasts depends on your router's power draw. Typical home routers run for a few hours.</p>
-<p>Before you buy, check your router or camera's input voltage and connector (most run on 9V or 12V DC) and make sure the UPS supports it. It suits homes, small offices and shops that lose work, online classes or CCTV footage during outages. ONIN lists a six-month warranty, and it comes in white.</p>
+<p>Before you buy, check your router or camera's input voltage and connector (most run on 9V or 12V DC) and make sure the UPS supports it. It suits homes, small offices and shops that lose work, online classes or CCTV footage during outages. The listing shows a six-month warranty, and it comes in white.</p>
 HTML,
         'faqs' => [
             ['Will the Hitech POE-530P keep my Wi-Fi on during load-shedding?', 'Yes, for most home routers and ONUs. It switches over instantly. Runtime depends on how much power your router draws.'],
@@ -239,8 +239,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Hitech POE-530P Mini DC UPS (8800mAh) Price in Nepal & Specs',
-            'description' => 'The Hitech POE-530P is a small DC UPS that keeps a Wi-Fi router, ONU or CCTV camera running through Nepal\'s short power cuts. ONIN Infosys listed it at just R',
-            'keywords' => 'hitech poe-530p mini dc ups (8800mah) price in nepal, hitech poe-530p mini dc ups (8800mah), hitech nepal, onin infosys',
+            'description' => 'The Hitech POE-530P is a small DC UPS that keeps a Wi-Fi router, ONU or CCTV camera running through Nepal\'s short power cuts.',
+            'keywords' => 'hitech poe-530p mini dc ups (8800mah) price in nepal, hitech poe-530p mini dc ups (8800mah), hitech nepal',
         ],
         'image_alt' => 'Hitech POE-530P Mini DC UPS (8800mAh)',
         'buy_url' => 'https://onin.com.np/product/poe-430p-mini-dc-ups-router-backup-price-nepal',
@@ -307,19 +307,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The ThinkCentre Neo 50a Gen 5 is a 24-inch all-in-one PC for offices, reception desks and homes that want one tidy machine instead of a tower, monitor and cables. ONIN Infosys listed this Core i7 configuration at Rs 1,49,999. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The ThinkCentre Neo 50a Gen 5 is a 24-inch all-in-one PC for offices, reception desks and homes that want one tidy machine instead of a tower, monitor and cables. Our partner shop listed this Core i7 configuration at Rs 1,49,999. It was out of stock when we checked on 23 November 2026.</p>
 <p>It runs Intel's Core i7-13620H, a 10-core chip that handles heavy spreadsheets, accounting software and many browser tabs with ease, with 16GB of DDR5-5200 memory and a 512GB PCIe Gen4 SSD. The 23.8-inch Full HD IPS screen is a touchscreen, covers 99% of sRGB and has an anti-glare finish, which is good news for long office hours. Graphics are integrated, so it's not meant for gaming.</p>
 <p>Video calls get a 5MP camera with an infrared sensor for Windows Hello face login, plus dual microphones and 2 × 3W Harman speakers with Dolby Audio. Ports include an HDMI input (so the screen can double as a monitor), USB-A and Ethernet, with Wi-Fi 6 and Bluetooth 5.3. It weighs about 6 kg and comes with a 90W power supply and a USB keyboard and mouse.</p>
 HTML,
         'faqs' => [
             ['Can the ThinkCentre Neo 50a be used as a monitor?', 'Yes. It has an HDMI input, so you can connect a laptop or another device to its 23.8-inch screen.'],
-            ['Does it have a touchscreen?', 'Yes. ONIN\'s listing describes a 23.8-inch Full HD IPS touch display with 99% sRGB coverage.'],
+            ['Does it have a touchscreen?', 'Yes. The listing describes a 23.8-inch Full HD IPS touch display with 99% sRGB coverage.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkCentre Neo 50a Gen 5 24-inch All-in-One (Core i7-13620H, 1',
             'description' => 'The ThinkCentre Neo 50a Gen 5 is a 24-inch all-in-one PC for offices, reception desks and homes that want one tidy machine instead of a tower, monitor and cab',
             'keywords' => <<<'HTML'
-lenovo thinkcentre neo 50a gen 5 24-inch all-in-one (core i7-13620h, 16gb/512gb) price in nepal, lenovo thinkcentre neo 50a gen 5 24-inch all-in-one (core i7-13620h, 16gb/512gb), lenovo nepal, onin infosys
+lenovo thinkcentre neo 50a gen 5 24-inch all-in-one (core i7-13620h, 16gb/512gb) price in nepal, lenovo thinkcentre neo 50a gen 5 24-inch all-in-one (core i7-13620h, 16gb/512gb), lenovo nepal
 HTML,
         ],
         'image_alt' => 'Lenovo ThinkCentre Neo 50a Gen 5 24-inch All-in-One (Core i7-13620H, 16GB/512GB)',
@@ -373,7 +373,7 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Beats Flex are neckband-style wireless earphones: the two buds hang from a flexible band around your neck, so they're hard to lose and always ready to use. ONIN Infosys listed them at Rs 6,500. They were out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>Beats Flex are neckband-style wireless earphones: the two buds hang from a flexible band around your neck, so they're hard to lose and always ready to use. They were listed at Rs 6,500. They were out of stock when we checked on 23 November 2026.</p>
 <p>They use Apple's W1 chip, so pairing with an iPhone takes one tap, and they switch between your Apple devices automatically. Android phones connect over regular Bluetooth. Battery life is rated at up to 12 hours, and a 10-minute charge gives about 1.5 hours of playback, which is handy before a commute. Magnetic buds snap together when not in use.</p>
 <p>The sound is balanced rather than bass-heavy, with an inline microphone and controls for calls, music and Siri. Several ear-tip sizes are included for a secure fit, and they're light enough for workouts. They suit students and commuters who want reliable wireless audio at a lower price than true wireless earbuds.</p>
 HTML,
@@ -384,7 +384,7 @@ HTML,
         'seo' => [
             'title' => 'Beats Flex Wireless Earphones Price in Nepal & Specs',
             'description' => 'Beats Flex are neckband-style wireless earphones: the two buds hang from a flexible band around your neck, so they\'re hard to lose and always ready to use. ON',
-            'keywords' => 'beats flex wireless earphones price in nepal, beats flex wireless earphones, beats nepal, onin infosys',
+            'keywords' => 'beats flex wireless earphones price in nepal, beats flex wireless earphones, beats nepal',
         ],
         'image_alt' => 'Beats Flex Wireless Earphones',
         'buy_url' => 'https://onin.com.np/product/beats-flex---stay-connected-to-the-world-you-love-with-all-day-wireless-beats-flex-earphones-',
@@ -430,19 +430,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Aspire 7 A715 (Ryzen 5 5500U, 8GB/512GB, GTX 1650) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 80,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Aspire 7 A715 (Ryzen 5 5500U, 8GB/512GB, GTX 1650) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 80,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 5500U is an efficient AMD U-series chip from an older generation. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. The NVIDIA GTX 1650 is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. Ports include USB-C and Ethernet. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1-Year company warranty.</p>
+<p>The listing notes the warranty as: 1-Year company warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire 7 A715 (Ryzen 5 5500U, 8GB/512GB, GTX 1650) in Nepal?', 'ONIN Infosys last listed it at Rs 80,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire 7 A715 (Ryzen 5 5500U, 8GB/512GB, GTX 1650) in Nepal?', 'It was last listed at Rs 80,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Aspire 7 A715 run modern games?', 'Graphics come from the NVIDIA GTX 1650. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this Acer Aspire 7 A715?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire 7 A715?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire 7 A715 (Ryzen 5 5500U, 8GB/512GB, GTX 1650) Price in Nepal',
-            'description' => 'Acer Aspire 7 A715 (Ryzen 5 5500U, 8GB/512GB, GTX 1650) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at',
+            'description' => 'Acer Aspire 7 A715 (Ryzen 5 5500U, 8GB/512GB, GTX 1650) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'acer aspire 7 a715 price in nepal, acer aspire 7 a715, ryzen 5 5500u laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -498,19 +498,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Aspire 14 AI A14-52MT-701K (Core Ultra 7 258V, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,44,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Acer Aspire 14 AI A14-52MT-701K (Core Ultra 7 258V, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,44,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 7 258V (Lunar Lake) is built for efficiency: memory sits on the chip package, standby drain is very low, and its NPU meets Copilot+ requirements. It's not meant for heavy rendering, but it's quick and very frugal for office and study work. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. The battery is rated at 65Wh. Ports include Thunderbolt and HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire 14 AI A14-52MT-701K (Core Ultra 7 258V, 32GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,44,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Acer Aspire 14 AI A14-52MT-701K (Core Ultra 7 258V, 32GB/1TB) in Nepal?', 'It was last listed at Rs 1,44,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Acer Aspire 14 AI A14-52MT-701K good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire 14 AI A14-52MT-701K?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire 14 AI A14-52MT-701K?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire 14 AI A14-52MT-701K (Core Ultra 7 258V, 32GB/1TB) Price in',
-            'description' => 'Acer Aspire 14 AI A14-52MT-701K (Core Ultra 7 258V, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it a',
+            'description' => 'Acer Aspire 14 AI A14-52MT-701K (Core Ultra 7 258V, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'acer aspire 14 ai a14-52mt-701k price in nepal, acer aspire 14 ai a14-52mt-701k, core ultra 7 258v laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -574,19 +574,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Aspire 15 (Core 3 100U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 65,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Acer Aspire 15 (Core 3 100U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 65,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 3 100U is a low-power U-series chip. It's quick enough for Office, browsing, online classes and light photo edits, and it helps the battery last. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 50Wh battery and weighs about 1.77 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire 15 (Core 3 100U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 65,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Acer Aspire 15 (Core 3 100U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 65,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Acer Aspire 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire 15 (Core 3 100U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Acer Aspire 15 (Core 3 100U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 65,000. When',
+            'description' => 'Acer Aspire 15 (Core 3 100U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 65,000.',
             'keywords' => 'acer aspire 15 price in nepal, acer aspire 15, core 3 100u laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -650,19 +650,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Aspire 15 covers the basics students and home users need. ONIN Infosys listed it at Rs 79,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This Acer Aspire 15 covers the basics students and home users need. It was listed at Rs 79,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 5 120U is a low-power U-series chip. It's quick enough for Office, browsing, online classes and light photo edits, and it helps the battery last. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 50Wh battery and weighs about 1.77 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire 15 (Core 5 120U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 79,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Acer Aspire 15 (Core 5 120U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 79,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Acer Aspire 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire 15 (Core 5 120U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'This Acer Aspire 15 covers the basics students and home users need. ONIN Infosys listed it at Rs 79,000. When we checked on 23 November 2026, ONIN listed it a',
+            'description' => 'This Acer Aspire 15 covers the basics students and home users need. It was listed at Rs 79,000.',
             'keywords' => 'acer aspire 15 price in nepal, acer aspire 15, core 5 120u laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -725,19 +725,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Acer Aspire 3 15 configuration was listed by ONIN Infosys at Rs 57,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Acer Aspire 3 15 configuration was listed at Rs 57,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7520U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming. It carries a 40Wh battery and weighs about 1.7 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire 3 15 (Ryzen 5 7520U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 57,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire 3 15 (Ryzen 5 7520U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 57,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Aspire 3 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire 3 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire 3 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire 3 15 (Ryzen 5 7520U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'For school, college and office work, this Acer Aspire 3 15 configuration was listed by ONIN Infosys at Rs 57,000. ONIN listed it as out of stock when we check',
+            'description' => 'For school, college and office work, this Acer Aspire 3 15 configuration was listed at Rs 57,000.',
             'keywords' => 'acer aspire 3 15 price in nepal, acer aspire 3 15, ryzen 5 7520u laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -798,19 +798,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Aspire 3 Slimbook covers the basics students and home users need. ONIN Infosys listed it at Rs 60,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Acer Aspire 3 Slimbook covers the basics students and home users need. It was listed at Rs 60,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7430U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 55Wh battery and weighs about 1.79 kg. Ports include USB-C. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire 3 Slimbook (Ryzen 5 7430U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 60,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire 3 Slimbook (Ryzen 5 7430U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 60,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Aspire 3 Slimbook good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire 3 Slimbook?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire 3 Slimbook?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire 3 Slimbook (Ryzen 5 7430U, 16GB/512GB) Price in Nepal & Sp',
-            'description' => 'This Acer Aspire 3 Slimbook covers the basics students and home users need. ONIN Infosys listed it at Rs 60,999. ONIN listed it as out of stock when we checke',
+            'description' => 'This Acer Aspire 3 Slimbook covers the basics students and home users need. It was listed at Rs 60,999.',
             'keywords' => 'acer aspire 3 slimbook price in nepal, acer aspire 3 slimbook, ryzen 5 7430u laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -873,19 +873,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Acer Aspire 3 configuration was listed by ONIN Infosys at Rs 76,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Acer Aspire 3 configuration was listed at Rs 76,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1135G7 is a 11th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. The NVIDIA MX350 is an entry-level dedicated chip. It helps with light editing and older esports games, but it's no real gaming GPU. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 36.7Wh battery and weighs about 1.7 kg. Ports include HDMI and Ethernet. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire 3 (Core i5-1135G7, 8GB/256GB, MX350) in Nepal?', 'ONIN Infosys last listed it at Rs 76,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire 3 (Core i5-1135G7, 8GB/256GB, MX350) in Nepal?', 'It was last listed at Rs 76,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Aspire 3 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire 3?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire 3?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire 3 (Core i5-1135G7, 8GB/256GB, MX350) Price in Nepal & Spec',
-            'description' => 'For school, college and office work, this Acer Aspire 3 configuration was listed by ONIN Infosys at Rs 76,500. ONIN listed it as out of stock when we checked ',
+            'description' => 'For school, college and office work, this Acer Aspire 3 configuration was listed at Rs 76,500.',
             'keywords' => 'acer aspire 3 price in nepal, acer aspire 3, core i5-1135g7 laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -952,19 +952,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Acer Aspire Lite 15 A15-41M configuration was listed by ONIN Infosys at Rs 1,10,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Acer Aspire Lite 15 A15-41M configuration was listed at Rs 1,10,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 8840HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 53Wh battery and weighs about 1.65 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty+ Lifetime servicing free.</p>
+<p>The listing notes the warranty as: 1 year warranty+ Lifetime servicing free.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire Lite 15 A15-41M (Ryzen 7 8840HS, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,10,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire Lite 15 A15-41M (Ryzen 7 8840HS, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,10,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Aspire Lite 15 A15-41M good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire Lite 15 A15-41M?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire Lite 15 A15-41M?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire Lite 15 A15-41M (Ryzen 7 8840HS, 16GB/512GB) Price in Nepa',
-            'description' => 'For school, college and office work, this Acer Aspire Lite 15 A15-41M configuration was listed by ONIN Infosys at Rs 1,10,999. ONIN listed it as out of stock ',
+            'description' => 'For school, college and office work, this Acer Aspire Lite 15 A15-41M configuration was listed at Rs 1,10,999.',
             'keywords' => 'acer aspire lite 15 a15-41m price in nepal, acer aspire lite 15 a15-41m, ryzen 7 8840hs laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1027,19 +1027,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Acer Aspire Lite 15 configuration was listed by ONIN Infosys at Rs 1,03,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Acer Aspire Lite 15 configuration was listed at Rs 1,03,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 8640HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 53Wh battery and weighs about 1.65 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire Lite 15 (Ryzen 5 8640HS, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,03,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire Lite 15 (Ryzen 5 8640HS, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,03,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Aspire Lite 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire Lite 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire Lite 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire Lite 15 (Ryzen 5 8640HS, 16GB/512GB) Price in Nepal & Spec',
-            'description' => 'For school, college and office work, this Acer Aspire Lite 15 configuration was listed by ONIN Infosys at Rs 1,03,999. ONIN listed it as out of stock when we ',
+            'description' => 'For school, college and office work, this Acer Aspire Lite 15 configuration was listed at Rs 1,03,999.',
             'keywords' => 'acer aspire lite 15 price in nepal, acer aspire lite 15, ryzen 5 8640hs laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1107,19 +1107,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Aspire Lite AL14-52P-34AY (Core i3-1305U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 59,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Aspire Lite AL14-52P-34AY (Core i3-1305U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 59,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i3-1305U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. It carries a 58Wh battery and weighs about 1.7 kg. Ports include USB-C, HDMI and Ethernet. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire Lite AL14-52P-34AY (Core i3-1305U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 59,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire Lite AL14-52P-34AY (Core i3-1305U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 59,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Aspire Lite AL14-52P-34AY good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire Lite AL14-52P-34AY?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire Lite AL14-52P-34AY?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire Lite AL14-52P-34AY (Core i3-1305U, 8GB/512GB) Price in Nep',
-            'description' => 'Acer Aspire Lite AL14-52P-34AY (Core i3-1305U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it ',
+            'description' => 'Acer Aspire Lite AL14-52P-34AY (Core i3-1305U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'acer aspire lite al14-52p-34ay price in nepal, acer aspire lite al14-52p-34ay, core i3-1305u laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1180,19 +1180,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Aspire Lite 15 covers the basics students and home users need. ONIN Infosys listed it at Rs 49,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Acer Aspire Lite 15 covers the basics students and home users need. It was listed at Rs 49,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i3-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 36Wh battery and weighs about 1.59 kg. Ports include HDMI and Ethernet. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 12 months.</p>
+<p>The listing notes the warranty as: 12 months.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire Lite 15 (Core i3-1235U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 49,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire Lite 15 (Core i3-1235U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 49,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Aspire Lite 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire Lite 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire Lite 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire Lite 15 (Core i3-1235U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'This Acer Aspire Lite 15 covers the basics students and home users need. ONIN Infosys listed it at Rs 49,999. ONIN listed it as out of stock when we checked o',
+            'description' => 'This Acer Aspire Lite 15 covers the basics students and home users need. It was listed at Rs 49,999.',
             'keywords' => 'acer aspire lite 15 price in nepal, acer aspire lite 15, core i3-1235u laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1253,19 +1253,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Acer Aspire Lite 15 configuration was listed by ONIN Infosys at Rs 66,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Acer Aspire Lite 15 configuration was listed at Rs 66,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 36Wh battery and weighs about 1.59 kg. Ports include HDMI and Ethernet. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 12 months.</p>
+<p>The listing notes the warranty as: 12 months.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Aspire Lite 15 (Core i5-1235U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 66,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Aspire Lite 15 (Core i5-1235U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 66,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Aspire Lite 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Aspire Lite 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Aspire Lite 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Aspire Lite 15 (Core i5-1235U, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'For school, college and office work, this Acer Aspire Lite 15 configuration was listed by ONIN Infosys at Rs 66,500. ONIN listed it as out of stock when we ch',
+            'description' => 'For school, college and office work, this Acer Aspire Lite 15 configuration was listed at Rs 66,500.',
             'keywords' => 'acer aspire lite 15 price in nepal, acer aspire lite 15, core i5-1235u laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1327,19 +1327,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Extensa 15 (Core i5-1135G7, 8GB/256GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 70,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Extensa 15 (Core i5-1135G7, 8GB/256GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 70,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1135G7 is a 11th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 36.7Wh battery and weighs about 1.7 kg. Ports include HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty.</p>
+<p>The listing notes the warranty as: 1 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Extensa 15 (Core i5-1135G7, 8GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 70,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Extensa 15 (Core i5-1135G7, 8GB/256GB) in Nepal?', 'It was last listed at Rs 70,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Extensa 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Extensa 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Extensa 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Extensa 15 (Core i5-1135G7, 8GB/256GB) Price in Nepal & Specs',
-            'description' => 'Acer Extensa 15 (Core i5-1135G7, 8GB/256GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 70,000. ON',
+            'description' => 'Acer Extensa 15 (Core i5-1135G7, 8GB/256GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 70,000.',
             'keywords' => 'acer extensa 15 price in nepal, acer extensa 15, core i5-1135g7 laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1378,18 +1378,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Acer Extensa 15 was listed by ONIN Infosys at Rs 75,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
-<p>ONIN lists it only as a 12th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
+<p>Built for offices and long workdays, this Acer Extensa 15 was listed at Rs 75,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>It is listed only as a 12th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Extensa 15 (Core i5 (12th Gen), 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Extensa 15 (Core i5 (12th Gen), 8GB/512GB) in Nepal?', 'It was last listed at Rs 75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Extensa 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Extensa 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Extensa 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Extensa 15 (Core i5 (12th Gen), 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Built for offices and long workdays, this Acer Extensa 15 was listed by ONIN Infosys at Rs 75,000. ONIN listed it as out of stock when we checked on 23 Novemb',
+            'description' => 'Built for offices and long workdays, this Acer Extensa 15 was listed at Rs 75,000.',
             'keywords' => 'acer extensa 15 price in nepal, acer extensa 15, core i5 (12th gen) laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1452,19 +1452,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Nitro 16 configuration is built for games first: ONIN Infosys listed it at Rs 1,79,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Acer Nitro 16 configuration is built for games first: it was listed at Rs 1,79,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7735HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 4070 with 8GB of VRAM has the headroom for high settings at the panel's native resolution in most games, plus serious GPU work like 3D rendering. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 165Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 90Wh battery and weighs about 2.7 kg, so it is better suited to a desk than daily commuting. Ports include Thunderbolt, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro 16 (Ryzen 7 7735HS, 16GB/512GB, RTX 4070) in Nepal?', 'ONIN Infosys last listed it at Rs 1,79,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Nitro 16 (Ryzen 7 7735HS, 16GB/512GB, RTX 4070) in Nepal?', 'It was last listed at Rs 1,79,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Nitro 16 run modern games?', 'The NVIDIA RTX 4070 with 8GB of VRAM has the headroom for high settings at the panel\'s native resolution in most games, plus serious GPU work like 3D rendering.'],
-            ['Can I upgrade the RAM on this Acer Nitro 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro 16 (Ryzen 7 7735HS, 16GB/512GB, RTX 4070) Price in Nepal & ',
-            'description' => 'This Acer Nitro 16 configuration is built for games first: ONIN Infosys listed it at Rs 1,79,499. ONIN listed it as out of stock when we checked on 23 Novembe',
+            'description' => 'This Acer Nitro 16 configuration is built for games first: it was listed at Rs 1,79,499.',
             'keywords' => 'acer nitro 16 price in nepal, acer nitro 16, ryzen 7 7735hs laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1524,21 +1524,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Nitro 16 AN16-43-R9VV configuration is built for games first: ONIN Infosys listed it at Rs 1,73,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Acer Nitro 16 AN16-43-R9VV configuration is built for games first: it was listed at Rs 1,73,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 8845HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. With the NVIDIA RTX 4060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 180Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. The battery is rated at 76Wh. Ports include USB-C, HDMI, Ethernet and a card reader. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 3 years warranty + life time software warranty + free servicing for lifetime.</p>
+<p>The listing notes the warranty as: 3 years warranty + life time software warranty + free servicing for lifetime.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro 16 AN16-43-R9VV (Ryzen 7 8845HS, 16GB/512GB, RTX 4060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,73,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Nitro 16 AN16-43-R9VV (Ryzen 7 8845HS, 16GB/512GB, RTX 4060) in Nepal?', 'It was last listed at Rs 1,73,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Nitro 16 AN16-43-R9VV run modern games?', <<<'HTML'
 The NVIDIA RTX 4060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools.
 HTML],
-            ['Can I upgrade the RAM on this Acer Nitro 16 AN16-43-R9VV?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro 16 AN16-43-R9VV?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro 16 AN16-43-R9VV (Ryzen 7 8845HS, 16GB/512GB, RTX 4060) Pric',
-            'description' => 'This Acer Nitro 16 AN16-43-R9VV configuration is built for games first: ONIN Infosys listed it at Rs 1,73,999. ONIN listed it as out of stock when we checked ',
+            'description' => 'This Acer Nitro 16 AN16-43-R9VV configuration is built for games first: it was listed at Rs 1,73,999.',
             'keywords' => 'acer nitro 16 an16-43-r9vv price in nepal, acer nitro 16 an16-43-r9vv, ryzen 7 8845hs laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1601,21 +1601,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Nitro 16 configuration is built for games first: ONIN Infosys listed it at Rs 1,54,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Acer Nitro 16 configuration is built for games first: it was listed at Rs 1,54,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7840HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 165Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 90Wh battery and weighs about 2.8 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 year Warranty.</p>
+<p>The listing notes the warranty as: 2 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro 16 (Ryzen 7 7840HS, 16GB/1TB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,54,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Nitro 16 (Ryzen 7 7840HS, 16GB/1TB, RTX 4050) in Nepal?', 'It was last listed at Rs 1,54,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Nitro 16 run modern games?', <<<'HTML'
 The NVIDIA RTX 4050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Acer Nitro 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro 16 (Ryzen 7 7840HS, 16GB/1TB, RTX 4050) Price in Nepal & Sp',
-            'description' => 'This Acer Nitro 16 configuration is built for games first: ONIN Infosys listed it at Rs 1,54,000. ONIN listed it as out of stock when we checked on 23 Novembe',
+            'description' => 'This Acer Nitro 16 configuration is built for games first: it was listed at Rs 1,54,000.',
             'keywords' => 'acer nitro 16 price in nepal, acer nitro 16, ryzen 7 7840hs laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1678,21 +1678,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Nitro 5 (Ryzen 7 7735HS, 8GB/512GB, RTX 3050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,30,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Nitro 5 (Ryzen 7 7735HS, 8GB/512GB, RTX 3050) is a gaming laptop that sold in Nepal for Rs 1,30,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7735HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 3050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. The battery is rated at 57Wh. Ports include USB-C. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1-Year Global Warranty.</p>
+<p>The listing notes the warranty as: 1-Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro 5 (Ryzen 7 7735HS, 8GB/512GB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,30,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Nitro 5 (Ryzen 7 7735HS, 8GB/512GB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,30,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Nitro 5 run modern games?', <<<'HTML'
 The NVIDIA RTX 3050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Acer Nitro 5?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro 5?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro 5 (Ryzen 7 7735HS, 8GB/512GB, RTX 3050) Price in Nepal & Sp',
-            'description' => 'Acer Nitro 5 (Ryzen 7 7735HS, 8GB/512GB, RTX 3050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,30,500. ONIN listed it as out of stock when we ',
+            'description' => 'Acer Nitro 5 (Ryzen 7 7735HS, 8GB/512GB, RTX 3050) is a gaming laptop that sold in Nepal for Rs 1,30,500.',
             'keywords' => 'acer nitro 5 price in nepal, acer nitro 5, ryzen 7 7735hs laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1756,18 +1756,18 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Nitro 5 (Ryzen 7 5800H, 16GB/1TB, RTX 3060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,02,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Nitro 5 (Ryzen 7 5800H, 16GB/1TB, RTX 3060) is a gaming laptop that sold in Nepal for Rs 1,02,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 5800H is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. With the NVIDIA RTX 3060 with 6GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 57.5Wh battery and weighs about 2.2 kg. Ports include USB-C. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro 5 (Ryzen 7 5800H, 16GB/1TB, RTX 3060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,02,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Nitro 5 (Ryzen 7 5800H, 16GB/1TB, RTX 3060) in Nepal?', 'It was last listed at Rs 1,02,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Nitro 5 run modern games?', 'With the NVIDIA RTX 3060 with 6GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Acer Nitro 5?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro 5?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro 5 (Ryzen 7 5800H, 16GB/1TB, RTX 3060) Price in Nepal & Spec',
-            'description' => 'Acer Nitro 5 (Ryzen 7 5800H, 16GB/1TB, RTX 3060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,02,000. ONIN listed it as out of stock when we ch',
+            'description' => 'Acer Nitro 5 (Ryzen 7 5800H, 16GB/1TB, RTX 3060) is a gaming laptop that sold in Nepal for Rs 1,02,000.',
             'keywords' => 'acer nitro 5 price in nepal, acer nitro 5, ryzen 7 5800h laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1835,21 +1835,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Nitro V 16 AI configuration is built for games first: ONIN Infosys listed it at Rs 1,39,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This Acer Nitro V 16 AI configuration is built for games first: it was listed at Rs 1,39,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen 5 240 is a 2025 rebadge of AMD's Zen 4 HS-class silicon: eight fast cores (six on Ryzen 5) that are comfortable with coding, editing and feeding a gaming GPU. The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 180Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 76Wh battery and weighs about 2.3 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 years warranty.</p>
+<p>The listing notes the warranty as: 1 years warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro V 16 AI (Ryzen 5 240, 16GB/512GB, RTX 5050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,39,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Acer Nitro V 16 AI (Ryzen 5 240, 16GB/512GB, RTX 5050) in Nepal?', 'It was last listed at Rs 1,39,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Acer Nitro V 16 AI run modern games?', <<<'HTML'
 Graphics come from the NVIDIA RTX 5050 with 8GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games, where DLSS 4 adds a lot.
 HTML],
-            ['Can I upgrade the RAM on this Acer Nitro V 16 AI?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro V 16 AI?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro V 16 AI (Ryzen 5 240, 16GB/512GB, RTX 5050) Price in Nepal ',
-            'description' => 'This Acer Nitro V 16 AI configuration is built for games first: ONIN Infosys listed it at Rs 1,39,999. When we checked on 23 November 2026, ONIN listed it as ',
+            'description' => 'This Acer Nitro V 16 AI configuration is built for games first: it was listed at Rs 1,39,999.',
             'keywords' => 'acer nitro v 16 ai price in nepal, acer nitro v 16 ai, ryzen 5 240 laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1920,21 +1920,21 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 16 AI was listed by ONIN Infosys at Rs 1,64,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 16 AI was listed at Rs 1,64,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen 7 260 is a 2025 rebadge of AMD's Zen 4 HS-class silicon: eight fast cores (six on Ryzen 5) that are comfortable with coding, editing and feeding a gaming GPU. Graphics come from the NVIDIA RTX 5050 with 8GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games, where DLSS 4 adds a lot. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 180Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 76Wh battery and weighs about 2.1 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty + Lifetime free service warranty + Servicing free.</p>
+<p>The listing notes the warranty as: 1 year warranty + Lifetime free service warranty + Servicing free.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro V 16 AI (Ryzen 7 260, 16GB/512GB, RTX 5050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,64,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Acer Nitro V 16 AI (Ryzen 7 260, 16GB/512GB, RTX 5050) in Nepal?', 'It was last listed at Rs 1,64,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Acer Nitro V 16 AI run modern games?', <<<'HTML'
 Graphics come from the NVIDIA RTX 5050 with 8GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games, where DLSS 4 adds a lot.
 HTML],
-            ['Can I upgrade the RAM on this Acer Nitro V 16 AI?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro V 16 AI?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro V 16 AI (Ryzen 7 260, 16GB/512GB, RTX 5050) Price in Nepal ',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 16 AI was listed by ONIN Infosys at Rs 1,64,999. When we checked on 23',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 16 AI was listed at Rs 1,64,999.',
             'keywords' => 'acer nitro v 16 ai price in nepal, acer nitro v 16 ai, ryzen 7 260 laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -1999,19 +1999,19 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 16 AI was listed by ONIN Infosys at Rs 2,42,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 16 AI was listed at Rs 2,42,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen AI 7 350 uses AMD's Zen 5 cores with a 50 TOPS NPU (Copilot+ ready) and strong Radeon 800M-series integrated graphics, so it is fast, efficient and capable of light gaming even without a dedicated GPU. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 180Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 76Wh battery and weighs about 2.43 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro V 16 AI (Ryzen AI 7 350, 16GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,42,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Acer Nitro V 16 AI (Ryzen AI 7 350, 16GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,42,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Acer Nitro V 16 AI run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Acer Nitro V 16 AI?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro V 16 AI?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro V 16 AI (Ryzen AI 7 350, 16GB/1TB, RTX 5060) Price in Nepal',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 16 AI was listed by ONIN Infosys at Rs 2,42,999. When we checked on 23',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 16 AI was listed at Rs 2,42,999.',
             'keywords' => 'acer nitro v 16 ai price in nepal, acer nitro v 16 ai, ryzen ai 7 350 laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2077,21 +2077,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Nitro V 16 ANV16-42-R309 configuration is built for games first: ONIN Infosys listed it at Rs 1,78,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This Acer Nitro V 16 ANV16-42-R309 configuration is built for games first: it was listed at Rs 1,78,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen 5 240 is a 2025 rebadge of AMD's Zen 4 HS-class silicon: eight fast cores (six on Ryzen 5) that are comfortable with coding, editing and feeding a gaming GPU. The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 180Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. Ports include HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro V 16 ANV16-42-R309 (Ryzen 5 240, 16GB/512GB, RTX 5050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,78,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Acer Nitro V 16 ANV16-42-R309 (Ryzen 5 240, 16GB/512GB, RTX 5050) in Nepal?', 'It was last listed at Rs 1,78,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Acer Nitro V 16 ANV16-42-R309 run modern games?', <<<'HTML'
 The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games.
 HTML],
-            ['Can I upgrade the RAM on this Acer Nitro V 16 ANV16-42-R309?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro V 16 ANV16-42-R309?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro V 16 ANV16-42-R309 (Ryzen 5 240, 16GB/512GB, RTX 5050) Pric',
-            'description' => 'This Acer Nitro V 16 ANV16-42-R309 configuration is built for games first: ONIN Infosys listed it at Rs 1,78,000. When we checked on 23 November 2026, ONIN li',
+            'description' => 'This Acer Nitro V 16 ANV16-42-R309 configuration is built for games first: it was listed at Rs 1,78,000.',
             'keywords' => 'acer nitro v 16 anv16-42-r309 price in nepal, acer nitro v 16 anv16-42-r309, ryzen 5 240 laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2152,21 +2152,21 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 15 was listed by ONIN Infosys at Rs 89,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 15 was listed at Rs 89,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7000 is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. The NVIDIA RTX 2050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 57.5Wh battery and weighs about 2.1 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro V 15 (Ryzen 5 7000, 8GB/512GB, RTX 2050) in Nepal?', 'ONIN Infosys last listed it at Rs 89,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Nitro V 15 (Ryzen 5 7000, 8GB/512GB, RTX 2050) in Nepal?', 'It was last listed at Rs 89,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Nitro V 15 run modern games?', <<<'HTML'
 The NVIDIA RTX 2050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Acer Nitro V 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro V 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro V 15 (Ryzen 5 7000, 8GB/512GB, RTX 2050) Price in Nepal & S',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 15 was listed by ONIN Infosys at Rs 89,999. ONIN listed it as out of s',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Acer Nitro V 15 was listed at Rs 89,999.',
             'keywords' => 'acer nitro v 15 price in nepal, acer nitro v 15, ryzen 5 7000 laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2236,21 +2236,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Nitro V 16 ANV16-71-58U4 (Core i5-14450HX, 16GB/512GB, RTX 4050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,25,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Nitro V 16 ANV16-71-58U4 (Core i5-14450HX, 16GB/512GB, RTX 4050) is a gaming laptop that sold in Nepal for Rs 1,25,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-14450HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 165Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 57Wh battery and weighs about 2.5 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty.</p>
+<p>The listing notes the warranty as: 1 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro V 16 ANV16-71-58U4 (Core i5-14450HX, 16GB/512GB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,25,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Nitro V 16 ANV16-71-58U4 (Core i5-14450HX, 16GB/512GB, RTX 4050) in Nepal?', 'It was last listed at Rs 1,25,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Nitro V 16 ANV16-71-58U4 run modern games?', <<<'HTML'
 The NVIDIA RTX 4050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Acer Nitro V 16 ANV16-71-58U4?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro V 16 ANV16-71-58U4?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro V 16 ANV16-71-58U4 (Core i5-14450HX, 16GB/512GB, RTX 4050) ',
-            'description' => 'Acer Nitro V 16 ANV16-71-58U4 (Core i5-14450HX, 16GB/512GB, RTX 4050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,25,999. ONIN listed it as ou',
+            'description' => 'Acer Nitro V 16 ANV16-71-58U4 (Core i5-14450HX, 16GB/512GB, RTX 4050) is a gaming laptop that sold in Nepal for Rs 1,25,999.',
             'keywords' => 'acer nitro v 16 anv16-71-58u4 price in nepal, acer nitro v 16 anv16-71-58u4, core i5-14450hx laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2313,19 +2313,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Nitro V 16 (Ryzen 5 8645HS, 8GB/512GB, RTX 4050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,31,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Nitro V 16 (Ryzen 5 8645HS, 8GB/512GB, RTX 4050) is a gaming laptop that sold in Nepal for Rs 1,31,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 8645HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 165Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 57Wh battery and weighs about 2.5 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro V 16 (Ryzen 5 8645HS, 8GB/512GB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,31,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Nitro V 16 (Ryzen 5 8645HS, 8GB/512GB, RTX 4050) in Nepal?', 'It was last listed at Rs 1,31,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Nitro V 16 run modern games?', 'Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this Acer Nitro V 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Nitro V 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro V 16 (Ryzen 5 8645HS, 8GB/512GB, RTX 4050) Price in Nepal &',
-            'description' => 'Acer Nitro V 16 (Ryzen 5 8645HS, 8GB/512GB, RTX 4050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,31,999. ONIN listed it as out of stock when ',
+            'description' => 'Acer Nitro V 16 (Ryzen 5 8645HS, 8GB/512GB, RTX 4050) is a gaming laptop that sold in Nepal for Rs 1,31,999.',
             'keywords' => 'acer nitro v 16 price in nepal, acer nitro v 16, ryzen 5 8645hs laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2385,21 +2385,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Predator Helios 300 configuration is built for games first: ONIN Infosys listed it at Rs 1,64,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Acer Predator Helios 300 configuration is built for games first: it was listed at Rs 1,64,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-11800H is a 11th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. The NVIDIA RTX 3060 with 6GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 15.6-inch QHD 165Hz display makes games and even scrolling look smooth. The battery is rated at 59Wh. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Brand Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Brand Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Predator Helios 300 (Core i7-11800H, 16GB/1TB, RTX 3060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,64,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Predator Helios 300 (Core i7-11800H, 16GB/1TB, RTX 3060) in Nepal?', 'It was last listed at Rs 1,64,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Predator Helios 300 run modern games?', <<<'HTML'
 The NVIDIA RTX 3060 with 6GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools.
 HTML],
-            ['Can I upgrade the RAM on this Acer Predator Helios 300?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Predator Helios 300?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Predator Helios 300 (Core i7-11800H, 16GB/1TB, RTX 3060) Price in',
-            'description' => 'This Acer Predator Helios 300 configuration is built for games first: ONIN Infosys listed it at Rs 1,64,000. ONIN listed it as out of stock when we checked on',
+            'description' => 'This Acer Predator Helios 300 configuration is built for games first: it was listed at Rs 1,64,000.',
             'keywords' => 'acer predator helios 300 price in nepal, acer predator helios 300, core i7-11800h laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2459,21 +2459,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Acer Predator Helios Neo 16 configuration is built for games first: ONIN Infosys listed it at Rs 1,76,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
-<p>ONIN lists it only as a 13th-gen Core i7, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
+<p>This Acer Predator Helios Neo 16 configuration is built for games first: it was listed at Rs 1,76,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>It is listed only as a 13th-gen Core i7, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 165Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 90Wh battery and weighs about 2.6 kg, so it is better suited to a desk than daily commuting. Ports include Thunderbolt. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty.</p>
+<p>The listing notes the warranty as: 1 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Predator Helios Neo 16 (Core i7 (13th Gen), 16GB/1TB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,76,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Predator Helios Neo 16 (Core i7 (13th Gen), 16GB/1TB, RTX 4050) in Nepal?', 'It was last listed at Rs 1,76,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Predator Helios Neo 16 run modern games?', <<<'HTML'
 The NVIDIA RTX 4050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Acer Predator Helios Neo 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Predator Helios Neo 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Predator Helios Neo 16 (Core i7 (13th Gen), 16GB/1TB, RTX 4050) P',
-            'description' => 'This Acer Predator Helios Neo 16 configuration is built for games first: ONIN Infosys listed it at Rs 1,76,000. ONIN listed it as out of stock when we checked',
+            'description' => 'This Acer Predator Helios Neo 16 configuration is built for games first: it was listed at Rs 1,76,000.',
             'keywords' => 'acer predator helios neo 16 price in nepal, acer predator helios neo 16, core i7 (13th gen) laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2530,19 +2530,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Spin 3 (Core i5-1136G7, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 1,18,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Spin 3 (Core i5-1136G7, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 1,18,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1136G7 is a 11th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 13.3-inch WQXGA (2560 × 1600) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. The battery is rated at 48Wh. Ports include Thunderbolt and HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 2-years Global Warranty.</p>
+<p>The listing notes the warranty as: 2-years Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Spin 3 (Core i5-1136G7, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,18,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Spin 3 (Core i5-1136G7, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,18,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Spin 3 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Spin 3?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Spin 3?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Spin 3 (Core i5-1136G7, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Acer Spin 3 (Core i5-1136G7, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys',
+            'description' => 'Acer Spin 3 (Core i5-1136G7, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes.',
             'keywords' => 'acer spin 3 price in nepal, acer spin 3, core i5-1136g7 laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2609,19 +2609,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Swift Go 14 OLED (Core i5-13500H, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 95,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Swift Go 14 OLED (Core i5-13500H, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 95,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13500H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch 2.8K OLED 90Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 50Wh battery and weighs about 1.32 kg, light enough to carry every day. Ports include Thunderbolt, HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Swift Go 14 OLED (Core i5-13500H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 95,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Swift Go 14 OLED (Core i5-13500H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 95,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Acer Swift Go 14 OLED good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Acer Swift Go 14 OLED?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Swift Go 14 OLED?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Swift Go 14 OLED (Core i5-13500H, 16GB/512GB) Price in Nepal & Sp',
-            'description' => 'Acer Swift Go 14 OLED (Core i5-13500H, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 95,000',
+            'description' => 'Acer Swift Go 14 OLED (Core i5-13500H, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'acer swift go 14 oled price in nepal, acer swift go 14 oled, core i5-13500h laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2682,19 +2682,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Swift X14 OLED (Core Ultra 5 125H, 16GB/512GB, RTX 3050) is aimed at creators who want a colour-rich screen and a dedicated GPU in a portable body. ONIN Infosys listed it at Rs 1,27,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Acer Swift X14 OLED (Core Ultra 5 125H, 16GB/512GB, RTX 3050) is aimed at creators who want a colour-rich screen and a dedicated GPU in a portable body. It was listed at Rs 1,27,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 5 125H (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. Graphics come from the NVIDIA RTX 3050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14.5-inch 2.8K OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 76Wh battery and weighs about 1.5 kg. Ports include USB-C and HDMI. It suits photographers, designers and video editors who also need to travel with their machine.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Swift X14 OLED (Core Ultra 5 125H, 16GB/512GB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,27,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Acer Swift X14 OLED (Core Ultra 5 125H, 16GB/512GB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,27,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Acer Swift X14 OLED run modern games?', 'Graphics come from the NVIDIA RTX 3050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this Acer Swift X14 OLED?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Acer Swift X14 OLED?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Acer Swift X14 OLED (Core Ultra 5 125H, 16GB/512GB, RTX 3050) Price in',
-            'description' => 'Acer Swift X14 OLED (Core Ultra 5 125H, 16GB/512GB, RTX 3050) is aimed at creators who want a colour-rich screen and a dedicated GPU in a portable body. ONIN ',
+            'description' => 'Acer Swift X14 OLED (Core Ultra 5 125H, 16GB/512GB, RTX 3050) is aimed at creators who want a colour-rich screen and a dedicated GPU in a portable body.',
             'keywords' => 'acer swift x14 oled price in nepal, acer swift x14 oled, core ultra 5 125h laptop nepal, acer laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2763,21 +2763,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Alienware Aurora 16 (Core 7 240H, 16GB/1TB, RTX 5050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,89,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Dell Alienware Aurora 16 (Core 7 240H, 16GB/1TB, RTX 5050) is a gaming laptop that sold in Nepal for Rs 1,89,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 7 240H is a 2025 H-series chip (a refreshed Raptor Lake design) with plenty of cores for multitasking, coding and gaming. Graphics come from the NVIDIA RTX 5050 with 8GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games, where DLSS 4 adds a lot. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 120Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 96Wh battery and weighs about 2.49 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Alienware Aurora 16 (Core 7 240H, 16GB/1TB, RTX 5050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,89,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Dell Alienware Aurora 16 (Core 7 240H, 16GB/1TB, RTX 5050) in Nepal?', 'It was last listed at Rs 1,89,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Dell Alienware Aurora 16 run modern games?', <<<'HTML'
 The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games.
 HTML],
-            ['Can I upgrade the RAM on this Dell Alienware Aurora 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Alienware Aurora 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Alienware Aurora 16 (Core 7 240H, 16GB/1TB, RTX 5050) Price in Ne',
-            'description' => 'Dell Alienware Aurora 16 (Core 7 240H, 16GB/1TB, RTX 5050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,89,499. When we checked on 23 November ',
+            'description' => 'Dell Alienware Aurora 16 (Core 7 240H, 16GB/1TB, RTX 5050) is a gaming laptop that sold in Nepal for Rs 1,89,499.',
             'keywords' => 'dell alienware aurora 16 price in nepal, dell alienware aurora 16, core 7 240h laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2839,21 +2839,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Dell Alienware 16 Aurora was listed by ONIN Infosys at Rs 2,10,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Dell Alienware 16 Aurora was listed at Rs 2,10,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 7 240H is a 2025 H-series chip (a refreshed Raptor Lake design) with plenty of cores for multitasking, coding and gaming. With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 120Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. The battery is rated at 96Wh. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Alienware 16 Aurora (Core 7 240H, 32GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,10,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Dell Alienware 16 Aurora (Core 7 240H, 32GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,10,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Dell Alienware 16 Aurora run modern games?', <<<'HTML'
 The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools.
 HTML],
-            ['Can I upgrade the RAM on this Dell Alienware 16 Aurora?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Alienware 16 Aurora?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Alienware 16 Aurora (Core 7 240H, 32GB/1TB, RTX 5060) Price in Ne',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Dell Alienware 16 Aurora was listed by ONIN Infosys at Rs 2,10,000. When we checked',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Dell Alienware 16 Aurora was listed at Rs 2,10,000.',
             'keywords' => 'dell alienware 16 aurora price in nepal, dell alienware 16 aurora, core 7 240h laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2929,19 +2929,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this ASUS ROG Strix G16 G615LR was listed by ONIN Infosys at Rs 5,10,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this ASUS ROG Strix G16 G615LR was listed at Rs 5,10,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 9 275HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5070 Ti with 12GB of VRAM is a top-tier laptop GPU, built for high-refresh 1440p gaming at high settings, heavy 3D work and large AI models. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch 2.5K 240Hz display makes games and even scrolling look smooth. Ports include HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Int'l Warranty & 1 Year Asus Perfect Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Int'l Warranty & 1 Year Asus Perfect Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS ROG Strix G16 G615LR (Core Ultra 9 275HX, 16GB/1TB, RTX 5070 Ti) in Nepal?', 'ONIN Infosys last listed it at Rs 5,10,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS ROG Strix G16 G615LR (Core Ultra 9 275HX, 16GB/1TB, RTX 5070 Ti) in Nepal?', 'It was last listed at Rs 5,10,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the ASUS ROG Strix G16 G615LR run modern games?', 'The NVIDIA RTX 5070 Ti with 12GB of VRAM is a top-tier laptop GPU, built for high-refresh 1440p gaming at high settings, heavy 3D work and large AI models.'],
-            ['Can I upgrade the RAM on this ASUS ROG Strix G16 G615LR?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS ROG Strix G16 G615LR?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS ROG Strix G16 G615LR (Core Ultra 9 275HX, 16GB/1TB, RTX 5070 Ti) ',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS ROG Strix G16 G615LR was listed by ONIN Infosys at Rs 5,10,000. When we checke',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS ROG Strix G16 G615LR was listed at Rs 5,10,000.',
             'keywords' => 'asus rog strix g16 g615lr price in nepal, asus rog strix g16 g615lr, core ultra 9 275hx laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -2982,18 +2982,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this ASUS ROG Strix Scar 15 G533QR was listed by ONIN Infosys at Rs 3,61,111. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this ASUS ROG Strix Scar 15 G533QR was listed at Rs 3,61,111. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 9 5900HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 3070 with 8GB of VRAM has the headroom for high settings at the panel's native resolution in most games, plus serious GPU work like 3D rendering. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS ROG Strix Scar 15 G533QR (Ryzen 9 5900HX, 32GB/1TB, RTX 3070) in Nepal?', 'ONIN Infosys last listed it at Rs 3,61,111. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS ROG Strix Scar 15 G533QR (Ryzen 9 5900HX, 32GB/1TB, RTX 3070) in Nepal?', 'It was last listed at Rs 3,61,111. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS ROG Strix Scar 15 G533QR run modern games?', 'The NVIDIA RTX 3070 with 8GB of VRAM has the headroom for high settings at the panel\'s native resolution in most games, plus serious GPU work like 3D rendering.'],
-            ['Can I upgrade the RAM on this ASUS ROG Strix Scar 15 G533QR?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS ROG Strix Scar 15 G533QR?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS ROG Strix Scar 15 G533QR (Ryzen 9 5900HX, 32GB/1TB, RTX 3070) Pri',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS ROG Strix Scar 15 G533QR was listed by ONIN Infosys at Rs 3,61,111. ONIN liste',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS ROG Strix Scar 15 G533QR was listed at Rs 3,61,111.',
             'keywords' => 'asus rog strix scar 15 g533qr price in nepal, asus rog strix scar 15 g533qr, ryzen 9 5900hx laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3070,19 +3070,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS TUF F16 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,30,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>ASUS TUF F16 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) is a gaming laptop that sold in Nepal for Rs 2,30,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 9 275HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel's native resolution in most games, plus serious GPU work like 3D rendering. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch 2.5K 165Hz display makes games and even scrolling look smooth. It carries a 90Wh battery and weighs about 2.2 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 year official warranty.</p>
+<p>The listing notes the warranty as: 2 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS TUF F16 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) in Nepal?', 'ONIN Infosys last listed it at Rs 2,30,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS TUF F16 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) in Nepal?', 'It was last listed at Rs 2,30,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the ASUS TUF F16 run modern games?', 'The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel\'s native resolution in most games, plus serious GPU work like 3D rendering.'],
-            ['Can I upgrade the RAM on this ASUS TUF F16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS TUF F16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS TUF F16 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) Price in Nepal &',
-            'description' => 'ASUS TUF F16 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,30,999. When we checked on 23 November 2026,',
+            'description' => 'ASUS TUF F16 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) is a gaming laptop that sold in Nepal for Rs 2,30,999.',
             'keywords' => 'asus tuf f16 price in nepal, asus tuf f16, core ultra 9 275hx laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3155,21 +3155,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this ASUS TUF F16 FX607 was listed by ONIN Infosys at Rs 1,42,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this ASUS TUF F16 FX607 was listed at Rs 1,42,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 5 210H is a 2025 H-series chip (a refreshed Raptor Lake design) with plenty of cores for multitasking, coding and gaming. Graphics come from the NVIDIA RTX 3050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 144Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 56Wh battery and weighs about 2.2 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS TUF F16 FX607 (Core 5 210H, 16GB/512GB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,42,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS TUF F16 FX607 (Core 5 210H, 16GB/512GB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,42,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the ASUS TUF F16 FX607 run modern games?', <<<'HTML'
 The NVIDIA RTX 3050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this ASUS TUF F16 FX607?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS TUF F16 FX607?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS TUF F16 FX607 (Core 5 210H, 16GB/512GB, RTX 3050) Price in Nepal ',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS TUF F16 FX607 was listed by ONIN Infosys at Rs 1,42,999. When we checked on 23',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS TUF F16 FX607 was listed at Rs 1,42,999.',
             'keywords' => 'asus tuf f16 fx607 price in nepal, asus tuf f16 fx607, core 5 210h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3242,19 +3242,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS TUF F16 FX607VU (Core i7-13620H, 16GB/1TB, RTX 4050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,65,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS TUF F16 FX607VU (Core i7-13620H, 16GB/1TB, RTX 4050) is a gaming laptop that sold in Nepal for Rs 1,65,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-13620H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. Graphics come from the NVIDIA RTX 4050. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 144Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 56Wh battery and weighs about 2.2 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 Years official warranty (1 year ASUS Perfect Warranty) + Lifetime Servicing free.</p>
+<p>The listing notes the warranty as: 2 Years official warranty (1 year ASUS Perfect Warranty) + Lifetime Servicing free.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS TUF F16 FX607VU (Core i7-13620H, 16GB/1TB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,65,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS TUF F16 FX607VU (Core i7-13620H, 16GB/1TB, RTX 4050) in Nepal?', 'It was last listed at Rs 1,65,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS TUF F16 FX607VU run modern games?', 'Graphics come from the NVIDIA RTX 4050. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this ASUS TUF F16 FX607VU?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS TUF F16 FX607VU?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS TUF F16 FX607VU (Core i7-13620H, 16GB/1TB, RTX 4050) Price in Nep',
-            'description' => 'ASUS TUF F16 FX607VU (Core i7-13620H, 16GB/1TB, RTX 4050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,65,499. ONIN listed it as out of stock w',
+            'description' => 'ASUS TUF F16 FX607VU (Core i7-13620H, 16GB/1TB, RTX 4050) is a gaming laptop that sold in Nepal for Rs 1,65,499.',
             'keywords' => 'asus tuf f16 fx607vu price in nepal, asus tuf f16 fx607vu, core i7-13620h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3321,21 +3321,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this ASUS TUF Gaming A16 was listed by ONIN Infosys at Rs 1,44,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this ASUS TUF Gaming A16 was listed at Rs 1,44,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7435HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 144Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 56Wh battery and weighs about 1.7 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty.</p>
+<p>The listing notes the warranty as: 1 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS TUF Gaming A16 (Ryzen 7 7435HS, 16GB/512GB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,44,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS TUF Gaming A16 (Ryzen 7 7435HS, 16GB/512GB, RTX 4050) in Nepal?', 'It was last listed at Rs 1,44,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS TUF Gaming A16 run modern games?', <<<'HTML'
 The NVIDIA RTX 4050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this ASUS TUF Gaming A16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS TUF Gaming A16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS TUF Gaming A16 (Ryzen 7 7435HS, 16GB/512GB, RTX 4050) Price in Ne',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS TUF Gaming A16 was listed by ONIN Infosys at Rs 1,44,999. ONIN listed it as ou',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS TUF Gaming A16 was listed at Rs 1,44,999.',
             'keywords' => 'asus tuf gaming a16 price in nepal, asus tuf gaming a16, ryzen 7 7435hs laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3389,15 +3389,15 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook Pro 14 R7 5800H (Ryzen 7 5800H, 16GB/1TB, RTX 3050) is aimed at creators who want a colour-rich screen and a dedicated GPU in a portable body. ONIN Infosys listed it at Rs 1,84,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Vivobook Pro 14 R7 5800H (Ryzen 7 5800H, 16GB/1TB, RTX 3050) is aimed at creators who want a colour-rich screen and a dedicated GPU in a portable body. It was listed at Rs 1,84,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 5800H is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 3050 is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch 2.8K OLED 90Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. The battery is rated at 63Wh. It suits photographers, designers and video editors who also need to travel with their machine.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Authorized International Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Authorized International Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook Pro 14 R7 5800H (Ryzen 7 5800H, 16GB/1TB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,84,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook Pro 14 R7 5800H (Ryzen 7 5800H, 16GB/1TB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,84,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS Vivobook Pro 14 R7 5800H run modern games?', 'Graphics come from the NVIDIA RTX 3050. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook Pro 14 R7 5800H?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook Pro 14 R7 5800H?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook Pro 14 R7 5800H (Ryzen 7 5800H, 16GB/1TB, RTX 3050) Pric',
@@ -3459,19 +3459,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this ASUS Vivobook 15 K513EQ configuration was listed by ONIN Infosys at Rs 95,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this ASUS Vivobook 15 K513EQ configuration was listed at Rs 95,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1135G7 is a 11th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. The NVIDIA MX350 is an entry-level dedicated chip. It helps with light editing and older esports games, but it's no real gaming GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. The battery is rated at 42Wh. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2-Year Global Warranty.</p>
+<p>The listing notes the warranty as: 2-Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 15 K513EQ (Core i5-1135G7, 16GB/512GB, MX350) in Nepal?', 'ONIN Infosys last listed it at Rs 95,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 15 K513EQ (Core i5-1135G7, 16GB/512GB, MX350) in Nepal?', 'It was last listed at Rs 95,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 15 K513EQ good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 15 K513EQ?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 15 K513EQ?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 15 K513EQ (Core i5-1135G7, 16GB/512GB, MX350) Price in N',
-            'description' => 'For school, college and office work, this ASUS Vivobook 15 K513EQ configuration was listed by ONIN Infosys at Rs 95,000. ONIN listed it as out of stock when w',
+            'description' => 'For school, college and office work, this ASUS Vivobook 15 K513EQ configuration was listed at Rs 95,000.',
             'keywords' => 'asus vivobook 15 k513eq price in nepal, asus vivobook 15 k513eq, core i5-1135g7 laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3536,19 +3536,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This ASUS Vivobook 15 covers the basics students and home users need. ONIN Infosys listed it at Rs 85,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This ASUS Vivobook 15 covers the basics students and home users need. It was listed at Rs 85,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 42Wh battery and weighs about 1.7 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 15 (Core i5-1235U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 85,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 15 (Core i5-1235U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 85,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 15 (Core i5-1235U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'This ASUS Vivobook 15 covers the basics students and home users need. ONIN Infosys listed it at Rs 85,000. ONIN listed it as out of stock when we checked on 2',
+            'description' => 'This ASUS Vivobook 15 covers the basics students and home users need. It was listed at Rs 85,000.',
             'keywords' => 'asus vivobook 15 price in nepal, asus vivobook 15, core i5-1235u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3614,19 +3614,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook 15 A1502VA (Core i5-13420H, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 89,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Vivobook 15 A1502VA (Core i5-13420H, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 89,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13420H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. The battery is rated at 42Wh. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 15 A1502VA (Core i5-13420H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 89,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 15 A1502VA (Core i5-13420H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 89,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 15 A1502VA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 15 A1502VA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 15 A1502VA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 15 A1502VA (Core i5-13420H, 16GB/512GB) Price in Nepal &',
-            'description' => 'ASUS Vivobook 15 A1502VA (Core i5-13420H, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at R',
+            'description' => 'ASUS Vivobook 15 A1502VA (Core i5-13420H, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'asus vivobook 15 a1502va price in nepal, asus vivobook 15 a1502va, core i5-13420h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3701,19 +3701,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook S 14 S5406SA-WH79 (Core Ultra 7 258V, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,94,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>ASUS Vivobook S 14 S5406SA-WH79 (Core Ultra 7 258V, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,94,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 7 258V (Lunar Lake) is built for efficiency: memory sits on the chip package, standby drain is very low, and its NPU meets Copilot+ requirements. It's not meant for heavy rendering, but it's quick and very frugal for office and study work. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch WUXGA (1920 × 1200) OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 75Wh battery and weighs about 1.3 kg, light enough to carry every day. Ports include HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook S 14 S5406SA-WH79 (Core Ultra 7 258V, 32GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,94,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS Vivobook S 14 S5406SA-WH79 (Core Ultra 7 258V, 32GB/1TB) in Nepal?', 'It was last listed at Rs 1,94,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the ASUS Vivobook S 14 S5406SA-WH79 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook S 14 S5406SA-WH79?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook S 14 S5406SA-WH79?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook S 14 S5406SA-WH79 (Core Ultra 7 258V, 32GB/1TB) Price in',
-            'description' => 'ASUS Vivobook S 14 S5406SA-WH79 (Core Ultra 7 258V, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it a',
+            'description' => 'ASUS Vivobook S 14 S5406SA-WH79 (Core Ultra 7 258V, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus vivobook s 14 s5406sa-wh79 price in nepal, asus vivobook s 14 s5406sa-wh79, core ultra 7 258v laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3787,19 +3787,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook S 16 OLED S5606MA (Core Ultra 9 185H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 2,14,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Vivobook S 16 OLED S5606MA (Core Ultra 9 185H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 2,14,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 9 185H (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 16-inch 3.2K OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 75Wh battery and weighs about 1.5 kg. Ports include HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 year warranty + 1 year ASUS perfect warranty.</p>
+<p>The listing notes the warranty as: 2 year warranty + 1 year ASUS perfect warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook S 16 OLED S5606MA (Core Ultra 9 185H, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 2,14,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook S 16 OLED S5606MA (Core Ultra 9 185H, 16GB/1TB) in Nepal?', 'It was last listed at Rs 2,14,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook S 16 OLED S5606MA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook S 16 OLED S5606MA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook S 16 OLED S5606MA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook S 16 OLED S5606MA (Core Ultra 9 185H, 16GB/1TB) Price in',
-            'description' => 'ASUS Vivobook S 16 OLED S5606MA (Core Ultra 9 185H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it a',
+            'description' => 'ASUS Vivobook S 16 OLED S5606MA (Core Ultra 9 185H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus vivobook s 16 oled s5606ma price in nepal, asus vivobook s 16 oled s5606ma, core ultra 9 185h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3870,19 +3870,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>With a thin body and a better-than-average screen, this ASUS Vivobook S14 S3407CA was listed by ONIN Infosys at Rs 1,54,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>With a thin body and a better-than-average screen, this ASUS Vivobook S14 S3407CA was listed at Rs 1,54,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 5 225H (Arrow Lake) is a current-generation performance chip that pairs strong multi-core speed with Intel's newer Arc graphics and an NPU for on-device AI features. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 70Wh battery and weighs about 1.4 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 year official warranty + 1 year Asus perfect warranty + Lifetime free service warranty.</p>
+<p>The listing notes the warranty as: 2 year official warranty + 1 year Asus perfect warranty + Lifetime free service warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook S14 S3407CA (Core Ultra 5 225H, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,54,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS Vivobook S14 S3407CA (Core Ultra 5 225H, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,54,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the ASUS Vivobook S14 S3407CA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook S14 S3407CA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook S14 S3407CA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook S14 S3407CA (Core Ultra 5 225H, 16GB/1TB) Price in Nepal',
-            'description' => 'With a thin body and a better-than-average screen, this ASUS Vivobook S14 S3407CA was listed by ONIN Infosys at Rs 1,54,999. When we checked on 23 November 20',
+            'description' => 'With a thin body and a better-than-average screen, this ASUS Vivobook S14 S3407CA was listed at Rs 1,54,999.',
             'keywords' => 'asus vivobook s14 s3407ca price in nepal, asus vivobook s14 s3407ca, core ultra 5 225h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -3956,19 +3956,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Zenbook 14 OLED UM3406KA (Ryzen AI 7 350, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,92,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>ASUS Zenbook 14 OLED UM3406KA (Ryzen AI 7 350, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,92,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen AI 7 350 uses AMD's Zen 5 cores with a 50 TOPS NPU (Copilot+ ready) and strong Radeon 800M-series integrated graphics, so it is fast, efficient and capable of light gaming even without a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch 3K OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 75Wh battery and weighs about 1.2 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 year Asus warranty we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year Asus warranty we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook 14 OLED UM3406KA (Ryzen AI 7 350, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,92,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS Zenbook 14 OLED UM3406KA (Ryzen AI 7 350, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,92,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the ASUS Zenbook 14 OLED UM3406KA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook 14 OLED UM3406KA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook 14 OLED UM3406KA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook 14 OLED UM3406KA (Ryzen AI 7 350, 16GB/1TB) Price in Nepa',
-            'description' => 'ASUS Zenbook 14 OLED UM3406KA (Ryzen AI 7 350, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs ',
+            'description' => 'ASUS Zenbook 14 OLED UM3406KA (Ryzen AI 7 350, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus zenbook 14 oled um3406ka price in nepal, asus zenbook 14 oled um3406ka, ryzen ai 7 350 laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4037,19 +4037,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Zenbook 17 Fold OLED UX9702 (Core i7-1250U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 3,45,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Zenbook 17 Fold OLED UX9702 (Core i7-1250U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 3,45,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-1250U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 17.3-inch OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 75Wh battery and weighs about 1.5 kg. Ports include USB-C. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 Years Global Warranty.</p>
+<p>The listing notes the warranty as: 2 Years Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook 17 Fold OLED UX9702 (Core i7-1250U, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 3,45,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook 17 Fold OLED UX9702 (Core i7-1250U, 16GB/1TB) in Nepal?', 'It was last listed at Rs 3,45,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook 17 Fold OLED UX9702 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook 17 Fold OLED UX9702?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook 17 Fold OLED UX9702?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook 17 Fold OLED UX9702 (Core i7-1250U, 16GB/1TB) Price in Ne',
-            'description' => 'ASUS Zenbook 17 Fold OLED UX9702 (Core i7-1250U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at R',
+            'description' => 'ASUS Zenbook 17 Fold OLED UX9702 (Core i7-1250U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus zenbook 17 fold oled ux9702 price in nepal, asus zenbook 17 fold oled ux9702, core i7-1250u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4117,19 +4117,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Zenbook S16 OLED (Ryzen AI 9 HX 370, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 2,72,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>ASUS Zenbook S16 OLED (Ryzen AI 9 HX 370, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 2,72,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen AI 9 HX 370 uses AMD's Zen 5 cores with a 50 TOPS NPU (Copilot+ ready) and strong Radeon 800M-series integrated graphics, so it is fast, efficient and capable of light gaming even without a dedicated GPU. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 16-inch 3K OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 78Wh battery and weighs about 1.5 kg. Ports include USB-C, HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty| Authorized product.</p>
+<p>The listing notes the warranty as: 2 Year Warranty| Authorized product.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook S16 OLED (Ryzen AI 9 HX 370, 32GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 2,72,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS Zenbook S16 OLED (Ryzen AI 9 HX 370, 32GB/1TB) in Nepal?', 'It was last listed at Rs 2,72,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the ASUS Zenbook S16 OLED good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook S16 OLED?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook S16 OLED?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook S16 OLED (Ryzen AI 9 HX 370, 32GB/1TB) Price in Nepal & S',
-            'description' => 'ASUS Zenbook S16 OLED (Ryzen AI 9 HX 370, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 2,72,',
+            'description' => 'ASUS Zenbook S16 OLED (Ryzen AI 9 HX 370, 32GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus zenbook s16 oled price in nepal, asus zenbook s16 oled, ryzen ai 9 hx 370 laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4200,19 +4200,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this ASUS E410KA configuration was listed by ONIN Infosys at Rs 44,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this ASUS E410KA configuration was listed at Rs 44,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Celeron N4500 is an entry-level, low-power chip. It's fine for browsing, documents and video calls, but it struggles with heavy multitasking, so keep expectations modest. 4GB of RAM is very tight for Windows 11; keep few tabs open, and look for a model with at least 8GB if you can. The 128GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 40Wh battery and weighs about 1.3 kg, light enough to carry every day. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS E410KA (Celeron N4500, 4GB/128GB) in Nepal?', 'ONIN Infosys last listed it at Rs 44,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS E410KA (Celeron N4500, 4GB/128GB) in Nepal?', 'It was last listed at Rs 44,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS E410KA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS E410KA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS E410KA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS E410KA (Celeron N4500, 4GB/128GB) Price in Nepal & Specs',
-            'description' => 'For school, college and office work, this ASUS E410KA configuration was listed by ONIN Infosys at Rs 44,999. ONIN listed it as out of stock when we checked on',
+            'description' => 'For school, college and office work, this ASUS E410KA configuration was listed at Rs 44,999.',
             'keywords' => 'asus e410ka price in nepal, asus e410ka, celeron n4500 laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4275,19 +4275,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS ROG Strix G15 G513RC (Ryzen 7 6800H, 16GB/512GB, RTX 3050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,57,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS ROG Strix G15 G513RC (Ryzen 7 6800H, 16GB/512GB, RTX 3050) is a gaming laptop that sold in Nepal for Rs 1,57,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 6800H is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 3050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 56Wh battery and weighs about 2.1 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 Year international Warranty.</p>
+<p>The listing notes the warranty as: 2 Year international Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS ROG Strix G15 G513RC (Ryzen 7 6800H, 16GB/512GB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,57,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS ROG Strix G15 G513RC (Ryzen 7 6800H, 16GB/512GB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,57,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS ROG Strix G15 G513RC run modern games?', 'Graphics come from the NVIDIA RTX 3050 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this ASUS ROG Strix G15 G513RC?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS ROG Strix G15 G513RC?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS ROG Strix G15 G513RC (Ryzen 7 6800H, 16GB/512GB, RTX 3050) Price ',
-            'description' => 'ASUS ROG Strix G15 G513RC (Ryzen 7 6800H, 16GB/512GB, RTX 3050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,57,000. ONIN listed it as out of s',
+            'description' => 'ASUS ROG Strix G15 G513RC (Ryzen 7 6800H, 16GB/512GB, RTX 3050) is a gaming laptop that sold in Nepal for Rs 1,57,000.',
             'keywords' => 'asus rog strix g15 g513rc price in nepal, asus rog strix g15 g513rc, ryzen 7 6800h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4362,19 +4362,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS ROG Strix G16 (Core i7-14650HX, 16GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,64,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>ASUS ROG Strix G16 (Core i7-14650HX, 16GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,64,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core i7-14650HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 240Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. The battery is rated at 90Wh. Ports include Thunderbolt, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 years official warranty.</p>
+<p>The listing notes the warranty as: 1 years official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS ROG Strix G16 (Core i7-14650HX, 16GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,64,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS ROG Strix G16 (Core i7-14650HX, 16GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,64,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the ASUS ROG Strix G16 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this ASUS ROG Strix G16?', 'ONIN\'s spec sheet lists support for up to 96GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
+            ['Can I upgrade the RAM on this ASUS ROG Strix G16?', 'The spec sheet lists support for up to 96GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
         ],
         'seo' => [
             'title' => 'ASUS ROG Strix G16 (Core i7-14650HX, 16GB/1TB, RTX 5060) Price in Nepa',
-            'description' => 'ASUS ROG Strix G16 (Core i7-14650HX, 16GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,64,999. When we checked on 23 November 20',
+            'description' => 'ASUS ROG Strix G16 (Core i7-14650HX, 16GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,64,999.',
             'keywords' => 'asus rog strix g16 price in nepal, asus rog strix g16, core i7-14650hx laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4448,19 +4448,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this ASUS ROG Zephyrus G14 was listed by ONIN Infosys at Rs 3,04,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this ASUS ROG Zephyrus G14 was listed at Rs 3,04,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen 9 270 is a 2025 rebadge of AMD's Zen 4 HS-class silicon: eight fast cores (six on Ryzen 5) that are comfortable with coding, editing and feeding a gaming GPU. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch 3K OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 73Wh battery and weighs about 1.5 kg. Ports include USB-C, HDMI and a card reader. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 years.</p>
+<p>The listing notes the warranty as: 1 years.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS ROG Zephyrus G14 (Ryzen 9 270, 16GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 3,04,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS ROG Zephyrus G14 (Ryzen 9 270, 16GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 3,04,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the ASUS ROG Zephyrus G14 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this ASUS ROG Zephyrus G14?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS ROG Zephyrus G14?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS ROG Zephyrus G14 (Ryzen 9 270, 16GB/1TB, RTX 5060) Price in Nepal',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS ROG Zephyrus G14 was listed by ONIN Infosys at Rs 3,04,999. When we checked on',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS ROG Zephyrus G14 was listed at Rs 3,04,999.',
             'keywords' => 'asus rog zephyrus g14 price in nepal, asus rog zephyrus g14, ryzen 9 270 laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4538,19 +4538,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this ASUS ROG Zephyrus G16 GU605CR was listed by ONIN Infosys at Rs 4,44,100. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this ASUS ROG Zephyrus G16 GU605CR was listed at Rs 4,44,100. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 9 285H (Arrow Lake) is a current-generation performance chip that pairs strong multi-core speed with Intel's newer Arc graphics and an NPU for on-device AI features. The NVIDIA RTX 5070 Ti is a top-tier laptop GPU, built for high-refresh 1440p gaming at high settings, heavy 3D work and large AI models. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 16-inch 2.5K OLED 240Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 90Wh battery and weighs about 1.95 kg. Ports include USB-C, HDMI and a card reader. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 Year International Warranty + 1 Year ASUS Perfect Warranty.</p>
+<p>The listing notes the warranty as: 2 Year International Warranty + 1 Year ASUS Perfect Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS ROG Zephyrus G16 GU605CR (Core Ultra 9 285H, 32GB/1TB, RTX 5070 Ti) in Nepal?', 'ONIN Infosys last listed it at Rs 4,44,100. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS ROG Zephyrus G16 GU605CR (Core Ultra 9 285H, 32GB/1TB, RTX 5070 Ti) in Nepal?', 'It was last listed at Rs 4,44,100. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the ASUS ROG Zephyrus G16 GU605CR run modern games?', 'The NVIDIA RTX 5070 Ti is a top-tier laptop GPU, built for high-refresh 1440p gaming at high settings, heavy 3D work and large AI models.'],
-            ['Can I upgrade the RAM on this ASUS ROG Zephyrus G16 GU605CR?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS ROG Zephyrus G16 GU605CR?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS ROG Zephyrus G16 GU605CR (Core Ultra 9 285H, 32GB/1TB, RTX 5070 T',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS ROG Zephyrus G16 GU605CR was listed by ONIN Infosys at Rs 4,44,100. When we ch',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS ROG Zephyrus G16 GU605CR was listed at Rs 4,44,100.',
             'keywords' => 'asus rog zephyrus g16 gu605cr price in nepal, asus rog zephyrus g16 gu605cr, core ultra 9 285h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4616,18 +4616,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS TUF Dash F15 (Core i5-11400H, 16GB/512GB, RTX 3060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,55,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS TUF Dash F15 (Core i5-11400H, 16GB/512GB, RTX 3060) is a gaming laptop that sold in Nepal for Rs 1,55,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-11400H is a 11th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. The NVIDIA RTX 3060 is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 48Wh battery and weighs about 2.3 kg, so it is better suited to a desk than daily commuting. Ports include Thunderbolt, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS TUF Dash F15 (Core i5-11400H, 16GB/512GB, RTX 3060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,55,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS TUF Dash F15 (Core i5-11400H, 16GB/512GB, RTX 3060) in Nepal?', 'It was last listed at Rs 1,55,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS TUF Dash F15 run modern games?', 'With the NVIDIA RTX 3060, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this ASUS TUF Dash F15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS TUF Dash F15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS TUF Dash F15 (Core i5-11400H, 16GB/512GB, RTX 3060) Price in Nepa',
-            'description' => 'ASUS TUF Dash F15 (Core i5-11400H, 16GB/512GB, RTX 3060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,55,000. ONIN listed it as out of stock wh',
+            'description' => 'ASUS TUF Dash F15 (Core i5-11400H, 16GB/512GB, RTX 3060) is a gaming laptop that sold in Nepal for Rs 1,55,000.',
             'keywords' => 'asus tuf dash f15 price in nepal, asus tuf dash f15, core i5-11400h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4691,20 +4691,20 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this ASUS TUF Dash F15 FX506H was listed by ONIN Infosys at Rs 90,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this ASUS TUF Dash F15 FX506H was listed at Rs 90,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-11400H is a 11th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. Graphics come from the NVIDIA RTX 2050 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 48Wh battery and weighs about 2.3 kg, so it is better suited to a desk than daily commuting. Ports include Thunderbolt, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS TUF Dash F15 FX506H (Core i5-11400H, 8GB/512GB, RTX 2050) in Nepal?', 'ONIN Infosys last listed it at Rs 90,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS TUF Dash F15 FX506H (Core i5-11400H, 8GB/512GB, RTX 2050) in Nepal?', 'It was last listed at Rs 90,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS TUF Dash F15 FX506H run modern games?', <<<'HTML'
 The NVIDIA RTX 2050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this ASUS TUF Dash F15 FX506H?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS TUF Dash F15 FX506H?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS TUF Dash F15 FX506H (Core i5-11400H, 8GB/512GB, RTX 2050) Price i',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS TUF Dash F15 FX506H was listed by ONIN Infosys at Rs 90,000. ONIN listed it as',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS TUF Dash F15 FX506H was listed at Rs 90,000.',
             'keywords' => 'asus tuf dash f15 fx506h price in nepal, asus tuf dash f15 fx506h, core i5-11400h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4778,20 +4778,20 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this ASUS TUF Gaming A15 was listed by ONIN Infosys at Rs 70,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this ASUS TUF Gaming A15 was listed at Rs 70,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 4600H is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. Graphics come from the NVIDIA GTX 1650 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 48Wh battery and weighs about 2.3 kg, so it is better suited to a desk than daily commuting. Ports include USB-C. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS TUF Gaming A15 (Ryzen 5 4600H, 8GB/512GB, GTX 1650) in Nepal?', 'ONIN Infosys last listed it at Rs 70,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS TUF Gaming A15 (Ryzen 5 4600H, 8GB/512GB, GTX 1650) in Nepal?', 'It was last listed at Rs 70,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS TUF Gaming A15 run modern games?', <<<'HTML'
 The NVIDIA GTX 1650 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this ASUS TUF Gaming A15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS TUF Gaming A15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS TUF Gaming A15 (Ryzen 5 4600H, 8GB/512GB, GTX 1650) Price in Nepa',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS TUF Gaming A15 was listed by ONIN Infosys at Rs 70,000. ONIN listed it as out ',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this ASUS TUF Gaming A15 was listed at Rs 70,000.',
             'keywords' => 'asus tuf gaming a15 price in nepal, asus tuf gaming a15, ryzen 5 4600h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4856,21 +4856,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS TUF Gaming F16 (Core i7-13650HX, 16GB/1TB, RTX 4060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,12,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS TUF Gaming F16 (Core i7-13650HX, 16GB/1TB, RTX 4060) is a gaming laptop that sold in Nepal for Rs 2,12,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-13650HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 4060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WUXGA (1920 × 1200) 165Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 90Wh battery and weighs about 2.27 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 years Global warranty.</p>
+<p>The listing notes the warranty as: 2 years Global warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS TUF Gaming F16 (Core i7-13650HX, 16GB/1TB, RTX 4060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,12,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS TUF Gaming F16 (Core i7-13650HX, 16GB/1TB, RTX 4060) in Nepal?', 'It was last listed at Rs 2,12,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the ASUS TUF Gaming F16 run modern games?', <<<'HTML'
 The NVIDIA RTX 4060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools.
 HTML],
-            ['Can I upgrade the RAM on this ASUS TUF Gaming F16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS TUF Gaming F16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS TUF Gaming F16 (Core i7-13650HX, 16GB/1TB, RTX 4060) Price in Nep',
-            'description' => 'ASUS TUF Gaming F16 (Core i7-13650HX, 16GB/1TB, RTX 4060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,12,000. ONIN listed it as out of stock w',
+            'description' => 'ASUS TUF Gaming F16 (Core i7-13650HX, 16GB/1TB, RTX 4060) is a gaming laptop that sold in Nepal for Rs 2,12,000.',
             'keywords' => 'asus tuf gaming f16 price in nepal, asus tuf gaming f16, core i7-13650hx laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -4937,19 +4937,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This ASUS Vivobook 14 M1405Y covers the basics students and home users need. ONIN Infosys listed it at Rs 1,02,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This ASUS Vivobook 14 M1405Y covers the basics students and home users need. It was listed at Rs 1,02,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7730U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 42Wh battery and weighs about 1.6 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 14 M1405Y (Ryzen 7 7730U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,02,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 14 M1405Y (Ryzen 7 7730U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,02,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 14 M1405Y good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 14 M1405Y?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 14 M1405Y?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 14 M1405Y (Ryzen 7 7730U, 8GB/512GB) Price in Nepal & Sp',
-            'description' => 'This ASUS Vivobook 14 M1405Y covers the basics students and home users need. ONIN Infosys listed it at Rs 1,02,500. ONIN listed it as out of stock when we che',
+            'description' => 'This ASUS Vivobook 14 M1405Y covers the basics students and home users need. It was listed at Rs 1,02,500.',
             'keywords' => 'asus vivobook 14 m1405y price in nepal, asus vivobook 14 m1405y, ryzen 7 7730u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5008,19 +5008,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this ASUS Vivobook 14 X413EA configuration was listed by ONIN Infosys at Rs 80,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this ASUS Vivobook 14 X413EA configuration was listed at Rs 80,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1135G7 is a 11th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. The battery is rated at 42Wh. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2-Year Global Warranty.</p>
+<p>The listing notes the warranty as: 2-Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 14 X413EA (Core i5-1135G7, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 80,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 14 X413EA (Core i5-1135G7, 8GB/512GB) in Nepal?', 'It was last listed at Rs 80,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 14 X413EA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 14 X413EA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 14 X413EA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 14 X413EA (Core i5-1135G7, 8GB/512GB) Price in Nepal & S',
-            'description' => 'For school, college and office work, this ASUS Vivobook 14 X413EA configuration was listed by ONIN Infosys at Rs 80,000. ONIN listed it as out of stock when w',
+            'description' => 'For school, college and office work, this ASUS Vivobook 14 X413EA configuration was listed at Rs 80,000.',
             'keywords' => 'asus vivobook 14 x413ea price in nepal, asus vivobook 14 x413ea, core i5-1135g7 laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5081,19 +5081,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this ASUS Vivobook 15 configuration was listed by ONIN Infosys at Rs 1,00,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
-<p>ONIN lists it only as a 13th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
+<p>For school, college and office work, this ASUS Vivobook 15 configuration was listed at Rs 1,00,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>It is listed only as a 13th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 42Wh battery and weighs about 1.7 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 15 (Core i5 (13th Gen), 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 15 (Core i5 (13th Gen), 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 15 (Core i5 (13th Gen), 8GB/512GB) Price in Nepal & Spec',
-            'description' => 'For school, college and office work, this ASUS Vivobook 15 configuration was listed by ONIN Infosys at Rs 1,00,000. ONIN listed it as out of stock when we che',
+            'description' => 'For school, college and office work, this ASUS Vivobook 15 configuration was listed at Rs 1,00,000.',
             'keywords' => 'asus vivobook 15 price in nepal, asus vivobook 15, core i5 (13th gen) laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5158,19 +5158,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook 15 Go E1504FA (Ryzen 5 7520U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 70,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Vivobook 15 Go E1504FA (Ryzen 5 7520U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 70,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7520U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 42Wh battery and weighs about 1.63 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 year warranty.</p>
+<p>The listing notes the warranty as: 2 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 15 Go E1504FA (Ryzen 5 7520U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 70,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 15 Go E1504FA (Ryzen 5 7520U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 70,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 15 Go E1504FA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 15 Go E1504FA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 15 Go E1504FA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 15 Go E1504FA (Ryzen 5 7520U, 8GB/512GB) Price in Nepal ',
-            'description' => 'ASUS Vivobook 15 Go E1504FA (Ryzen 5 7520U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at ',
+            'description' => 'ASUS Vivobook 15 Go E1504FA (Ryzen 5 7520U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'asus vivobook 15 go e1504fa price in nepal, asus vivobook 15 go e1504fa, ryzen 5 7520u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5238,15 +5238,15 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook S 14 Flip (Core i9-13900H, 16GB/1TB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 1,59,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Vivobook S 14 Flip (Core i9-13900H, 16GB/1TB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 1,59,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i9-13900H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 50Wh battery and weighs about 1.5 kg. Ports include HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Authorized International Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Authorized International Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook S 14 Flip (Core i9-13900H, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,59,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook S 14 Flip (Core i9-13900H, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,59,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook S 14 Flip good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook S 14 Flip?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook S 14 Flip?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook S 14 Flip (Core i9-13900H, 16GB/1TB) Price in Nepal & Sp',
@@ -5315,19 +5315,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>With a thin body and a better-than-average screen, this ASUS Zenbook S 13 UX5304VA was listed by ONIN Infosys at Rs 2,00,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
-<p>ONIN lists it only as a 13th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
+<p>With a thin body and a better-than-average screen, this ASUS Zenbook S 13 UX5304VA was listed at Rs 2,00,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>It is listed only as a 13th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 13.3-inch 2.8K OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 63Wh battery and weighs about 1 kg, light enough to carry every day. Ports include HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 year global Warranty.</p>
+<p>The listing notes the warranty as: 2 year global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook S 13 UX5304VA (Core i5 (13th Gen), 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 2,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook S 13 UX5304VA (Core i5 (13th Gen), 16GB/1TB) in Nepal?', 'It was last listed at Rs 2,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook S 13 UX5304VA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook S 13 UX5304VA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook S 13 UX5304VA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook S 13 UX5304VA (Core i5 (13th Gen), 16GB/1TB) Price in Nep',
-            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook S 13 UX5304VA was listed by ONIN Infosys at Rs 2,00,000. ONIN listed it as out of stock w',
+            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook S 13 UX5304VA was listed at Rs 2,00,000.',
             'keywords' => 'asus zenbook s 13 ux5304va price in nepal, asus zenbook s 13 ux5304va, core i5 (13th gen) laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5393,19 +5393,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,28,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,28,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 7 155H (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch WUXGA (1920 × 1200) OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 75Wh battery and weighs about 1.28 kg, light enough to carry every day. Ports include HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 years Warranty.</p>
+<p>The listing notes the warranty as: 1 years Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,28,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,28,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook 14 OLED good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook 14 OLED?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook 14 OLED?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/1TB) Price in Nepal & Sp',
-            'description' => 'ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,28,4',
+            'description' => 'ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus zenbook 14 oled price in nepal, asus zenbook 14 oled, core ultra 7 155h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5473,19 +5473,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>With a thin body and a better-than-average screen, this ASUS Zenbook 14 OLED was listed by ONIN Infosys at Rs 1,72,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>With a thin body and a better-than-average screen, this ASUS Zenbook 14 OLED was listed at Rs 1,72,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 7 155H (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 75Wh battery and weighs about 1.2 kg, light enough to carry every day. Ports include HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warrenty.</p>
+<p>The listing notes the warranty as: 1 year Warrenty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,72,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,72,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook 14 OLED good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook 14 OLED?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook 14 OLED?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB/512GB) Price in Nepal & ',
-            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook 14 OLED was listed by ONIN Infosys at Rs 1,72,499. ONIN listed it as out of stock when we',
+            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook 14 OLED was listed at Rs 1,72,499.',
             'keywords' => 'asus zenbook 14 oled price in nepal, asus zenbook 14 oled, core ultra 7 155h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5550,19 +5550,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Zenbook 14 UM3402YA (Ryzen 7 7730U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,26,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Zenbook 14 UM3402YA (Ryzen 7 7730U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,26,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7730U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch 2.5K screen is fine for documents, classes and streaming, and it supports touch. It carries a 75Wh battery and weighs about 1.39 kg, light enough to carry every day. Ports include USB-C, HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Global Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook 14 UM3402YA (Ryzen 7 7730U, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,26,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook 14 UM3402YA (Ryzen 7 7730U, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,26,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook 14 UM3402YA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook 14 UM3402YA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook 14 UM3402YA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook 14 UM3402YA (Ryzen 7 7730U, 16GB/1TB) Price in Nepal & Sp',
-            'description' => 'ASUS Zenbook 14 UM3402YA (Ryzen 7 7730U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,26,5',
+            'description' => 'ASUS Zenbook 14 UM3402YA (Ryzen 7 7730U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus zenbook 14 um3402ya price in nepal, asus zenbook 14 um3402ya, ryzen 7 7730u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5627,19 +5627,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>With a thin body and a better-than-average screen, this ASUS Zenbook 14X OLED was listed by ONIN Infosys at Rs 1,28,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>With a thin body and a better-than-average screen, this ASUS Zenbook 14X OLED was listed at Rs 1,28,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13500H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14.5-inch 2.8K OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 70Wh battery and weighs about 1.56 kg. Ports include HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 year Warranty.</p>
+<p>The listing notes the warranty as: 2 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook 14X OLED (Core i5-13500H, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,28,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook 14X OLED (Core i5-13500H, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,28,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook 14X OLED good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook 14X OLED?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook 14X OLED?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook 14X OLED (Core i5-13500H, 8GB/512GB) Price in Nepal & Spe',
-            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook 14X OLED was listed by ONIN Infosys at Rs 1,28,000. ONIN listed it as out of stock when w',
+            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook 14X OLED was listed at Rs 1,28,000.',
             'keywords' => 'asus zenbook 14x oled price in nepal, asus zenbook 14x oled, core i5-13500h laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5703,18 +5703,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Zenbook S13 UX5304VA-NQ217WS (Core i7-1355U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,90,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Zenbook S13 UX5304VA-NQ217WS (Core i7-1355U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,90,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-1355U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 13.3-inch 2.8K OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 63Wh battery and weighs about 1 kg, light enough to carry every day. Ports include HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook S13 UX5304VA-NQ217WS (Core i7-1355U, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,90,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook S13 UX5304VA-NQ217WS (Core i7-1355U, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,90,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook S13 UX5304VA-NQ217WS good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook S13 UX5304VA-NQ217WS?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook S13 UX5304VA-NQ217WS?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook S13 UX5304VA-NQ217WS (Core i7-1355U, 16GB/1TB) Price in N',
-            'description' => 'ASUS Zenbook S13 UX5304VA-NQ217WS (Core i7-1355U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at ',
+            'description' => 'ASUS Zenbook S13 UX5304VA-NQ217WS (Core i7-1355U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus zenbook s13 ux5304va-nq217ws price in nepal, asus zenbook s13 ux5304va-nq217ws, core i7-1355u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5779,19 +5779,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This ASUS Vivobook 14 covers the basics students and home users need. ONIN Infosys listed it at Rs 1,10,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This ASUS Vivobook 14 covers the basics students and home users need. It was listed at Rs 1,10,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-1355U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 42Wh battery and weighs about 1.4 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year global Warranty.</p>
+<p>The listing notes the warranty as: 2 Year global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 14 (Core i7-1355U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,10,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 14 (Core i7-1355U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,10,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 14 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 14?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 14?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 14 (Core i7-1355U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'This ASUS Vivobook 14 covers the basics students and home users need. ONIN Infosys listed it at Rs 1,10,000. ONIN listed it as out of stock when we checked on',
+            'description' => 'This ASUS Vivobook 14 covers the basics students and home users need. It was listed at Rs 1,10,000.',
             'keywords' => 'asus vivobook 14 price in nepal, asus vivobook 14, core i7-1355u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5858,19 +5858,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook 14 X1404 (Core i5-1235U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 74,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Vivobook 14 X1404 (Core i5-1235U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 74,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 42Wh battery and weighs about 1.4 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year global Warranty.</p>
+<p>The listing notes the warranty as: 2 Year global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 14 X1404 (Core i5-1235U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 74,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 14 X1404 (Core i5-1235U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 74,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 14 X1404 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 14 X1404?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 14 X1404?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 14 X1404 (Core i5-1235U, 8GB/512GB) Price in Nepal & Spe',
-            'description' => 'ASUS Vivobook 14 X1404 (Core i5-1235U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 74',
+            'description' => 'ASUS Vivobook 14 X1404 (Core i5-1235U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'asus vivobook 14 x1404 price in nepal, asus vivobook 14 x1404, core i5-1235u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -5936,19 +5936,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This ASUS Vivobook 14 X1404VA covers the basics students and home users need. ONIN Infosys listed it at Rs 97,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This ASUS Vivobook 14 X1404VA covers the basics students and home users need. It was listed at Rs 97,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 5 120U is a low-power U-series chip. It's quick enough for Office, browsing, online classes and light photo edits, and it helps the battery last. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 42Wh battery and weighs about 1.4 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 14 X1404VA (Core 5 120U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 97,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS Vivobook 14 X1404VA (Core 5 120U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 97,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the ASUS Vivobook 14 X1404VA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 14 X1404VA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 14 X1404VA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 14 X1404VA (Core 5 120U, 8GB/512GB) Price in Nepal & Spe',
-            'description' => 'This ASUS Vivobook 14 X1404VA covers the basics students and home users need. ONIN Infosys listed it at Rs 97,999. When we checked on 23 November 2026, ONIN l',
+            'description' => 'This ASUS Vivobook 14 X1404VA covers the basics students and home users need. It was listed at Rs 97,999.',
             'keywords' => 'asus vivobook 14 x1404va price in nepal, asus vivobook 14 x1404va, core 5 120u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6017,19 +6017,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook 14 X1404VA (Core 7 150U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,31,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>ASUS Vivobook 14 X1404VA (Core 7 150U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,31,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 7 150U is a low-power U-series chip. It's quick enough for Office, browsing, online classes and light photo edits, and it helps the battery last. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 42Wh battery and weighs about 1.4 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 14 X1404VA (Core 7 150U, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,31,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the ASUS Vivobook 14 X1404VA (Core 7 150U, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,31,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the ASUS Vivobook 14 X1404VA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 14 X1404VA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 14 X1404VA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 14 X1404VA (Core 7 150U, 16GB/1TB) Price in Nepal & Spec',
-            'description' => 'ASUS Vivobook 14 X1404VA (Core 7 150U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,31,000',
+            'description' => 'ASUS Vivobook 14 X1404VA (Core 7 150U, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'asus vivobook 14 x1404va price in nepal, asus vivobook 14 x1404va, core 7 150u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6096,19 +6096,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook 14 X1404VA (Core i5-1335U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 86,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Vivobook 14 X1404VA (Core i5-1335U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 86,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1335U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 42Wh battery and weighs about 1.4 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 Year global Warranty.</p>
+<p>The listing notes the warranty as: 2 Year global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook 14 X1404VA (Core i5-1335U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 86,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook 14 X1404VA (Core i5-1335U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 86,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook 14 X1404VA good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook 14 X1404VA?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook 14 X1404VA?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook 14 X1404VA (Core i5-1335U, 8GB/512GB) Price in Nepal & S',
-            'description' => 'ASUS Vivobook 14 X1404VA (Core i5-1335U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs ',
+            'description' => 'ASUS Vivobook 14 X1404VA (Core i5-1335U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'asus vivobook 14 x1404va price in nepal, asus vivobook 14 x1404va, core i5-1335u laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6175,15 +6175,15 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>ASUS Vivobook Flip S14 (Ryzen 7 7730U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 1,24,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>ASUS Vivobook Flip S14 (Ryzen 7 7730U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 1,24,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7730U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 50Wh battery and weighs about 1.5 kg. Ports include USB-C and HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Vivobook Flip S14 (Ryzen 7 7730U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,24,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Vivobook Flip S14 (Ryzen 7 7730U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,24,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Vivobook Flip S14 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Vivobook Flip S14?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Vivobook Flip S14?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Vivobook Flip S14 (Ryzen 7 7730U, 8GB/512GB) Price in Nepal & Spe',
@@ -6248,18 +6248,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>With a thin body and a better-than-average screen, this ASUS Zenbook 14 OLED UX3402Z was listed by ONIN Infosys at Rs 1,64,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>With a thin body and a better-than-average screen, this ASUS Zenbook 14 OLED UX3402Z was listed at Rs 1,64,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-1260P is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch 2.8K OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 75Wh battery and weighs about 1.39 kg, light enough to carry every day. Ports include USB-C, HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS Zenbook 14 OLED UX3402Z (Core i7-1260P, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,64,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the ASUS Zenbook 14 OLED UX3402Z (Core i7-1260P, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,64,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the ASUS Zenbook 14 OLED UX3402Z good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this ASUS Zenbook 14 OLED UX3402Z?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this ASUS Zenbook 14 OLED UX3402Z?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'ASUS Zenbook 14 OLED UX3402Z (Core i7-1260P, 16GB/1TB) Price in Nepal ',
-            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook 14 OLED UX3402Z was listed by ONIN Infosys at Rs 1,64,000. ONIN listed it as out of stock',
+            'description' => 'With a thin body and a better-than-average screen, this ASUS Zenbook 14 OLED UX3402Z was listed at Rs 1,64,000.',
             'keywords' => 'asus zenbook 14 oled ux3402z price in nepal, asus zenbook 14 oled ux3402z, core i7-1260p laptop nepal, asus laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6322,19 +6322,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this AVITA Liber E 14 configuration was listed by ONIN Infosys at Rs 54,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this AVITA Liber E 14 configuration was listed at Rs 54,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 5500U is an efficient AMD U-series chip from an older generation. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 14.1-inch Full HD screen is fine for documents, classes and streaming. It weighs about 1.28 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the AVITA Liber E 14 (Ryzen 5 5500U, 8GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 54,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the AVITA Liber E 14 (Ryzen 5 5500U, 8GB/256GB) in Nepal?', 'It was last listed at Rs 54,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the AVITA Liber E 14 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this AVITA Liber E 14?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this AVITA Liber E 14?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'AVITA Liber E 14 (Ryzen 5 5500U, 8GB/256GB) Price in Nepal & Specs',
-            'description' => 'For school, college and office work, this AVITA Liber E 14 configuration was listed by ONIN Infosys at Rs 54,999. ONIN listed it as out of stock when we check',
+            'description' => 'For school, college and office work, this AVITA Liber E 14 configuration was listed at Rs 54,999.',
             'keywords' => 'avita liber e 14 price in nepal, avita liber e 14, ryzen 5 5500u laptop nepal, avita laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6403,19 +6403,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell 15 DC15250 (Core 3 100U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 59,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Dell 15 DC15250 (Core 3 100U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 59,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 3 100U is a low-power U-series chip. It's quick enough for Office, browsing, online classes and light photo edits, and it helps the battery last. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 120Hz display makes games and even scrolling look smooth. It carries a 41Wh battery and weighs about 1.9 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 18 month (1 year warranty + 6 month extended warranty).</p>
+<p>The listing notes the warranty as: 18 month (1 year warranty + 6 month extended warranty).</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell 15 DC15250 (Core 3 100U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 59,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Dell 15 DC15250 (Core 3 100U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 59,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Dell 15 DC15250 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell 15 DC15250?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell 15 DC15250?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell 15 DC15250 (Core 3 100U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Dell 15 DC15250 (Core 3 100U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 59,999. Whe',
+            'description' => 'Dell 15 DC15250 (Core 3 100U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 59,999.',
             'keywords' => 'dell 15 dc15250 price in nepal, dell 15 dc15250, core 3 100u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6477,19 +6477,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 14 5420 (Core i7-1255U, 16GB/1TB, MX570) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,73,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 14 5420 (Core i7-1255U, 16GB/1TB, MX570) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,73,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-1255U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. The NVIDIA MX570 is an entry-level dedicated chip. It helps with light editing and older esports games, but it's no real gaming GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. The battery is rated at 54Wh. Ports include USB-C, HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1-Year Global Warranty.</p>
+<p>The listing notes the warranty as: 1-Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 14 5420 (Core i7-1255U, 16GB/1TB, MX570) in Nepal?', 'ONIN Infosys last listed it at Rs 1,73,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 14 5420 (Core i7-1255U, 16GB/1TB, MX570) in Nepal?', 'It was last listed at Rs 1,73,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 14 5420 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 14 5420?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 14 5420?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 14 5420 (Core i7-1255U, 16GB/1TB, MX570) Price in Nepal ',
-            'description' => 'Dell Inspiron 14 5420 (Core i7-1255U, 16GB/1TB, MX570) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,',
+            'description' => 'Dell Inspiron 14 5420 (Core i7-1255U, 16GB/1TB, MX570) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'dell inspiron 14 5420 price in nepal, dell inspiron 14 5420, core i7-1255u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6553,19 +6553,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Dell Inspiron 14 5430 configuration was listed by ONIN Infosys at Rs 1,18,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Dell Inspiron 14 5430 configuration was listed at Rs 1,18,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1335U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. Graphics come from the NVIDIA RTX 2050 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It weighs about 1.59 kg. Ports include Thunderbolt, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 years Warrenty.</p>
+<p>The listing notes the warranty as: 2 years Warrenty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 14 5430 (Core i5-1335U, 16GB/512GB, RTX 2050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,18,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 14 5430 (Core i5-1335U, 16GB/512GB, RTX 2050) in Nepal?', 'It was last listed at Rs 1,18,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Dell Inspiron 14 5430 run modern games?', 'Graphics come from the NVIDIA RTX 2050 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 14 5430?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 14 5430?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 14 5430 (Core i5-1335U, 16GB/512GB, RTX 2050) Price in N',
-            'description' => 'For school, college and office work, this Dell Inspiron 14 5430 configuration was listed by ONIN Infosys at Rs 1,18,000. ONIN listed it as out of stock when w',
+            'description' => 'For school, college and office work, this Dell Inspiron 14 5430 configuration was listed at Rs 1,18,000.',
             'keywords' => 'dell inspiron 14 5430 price in nepal, dell inspiron 14 5430, core i5-1335u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6604,18 +6604,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>With a thin body and a better-than-average screen, this Dell Inspiron 14 5430 was listed by ONIN Infosys at Rs 1,44,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
-<p>ONIN lists it only as a 13th-gen Core i7, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
+<p>With a thin body and a better-than-average screen, this Dell Inspiron 14 5430 was listed at Rs 1,44,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>It is listed only as a 13th-gen Core i7, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>It suits professionals and students who value portability, battery life and a nicer screen.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 14 5430 (Core i7 (13th Gen), 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,44,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 14 5430 (Core i7 (13th Gen), 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,44,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 14 5430 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 14 5430?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 14 5430?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 14 5430 (Core i7 (13th Gen), 16GB/512GB) Price in Nepal ',
-            'description' => 'With a thin body and a better-than-average screen, this Dell Inspiron 14 5430 was listed by ONIN Infosys at Rs 1,44,000. ONIN listed it as out of stock when w',
+            'description' => 'With a thin body and a better-than-average screen, this Dell Inspiron 14 5430 was listed at Rs 1,44,000.',
             'keywords' => 'dell inspiron 14 5430 price in nepal, dell inspiron 14 5430, core i7 (13th gen) laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6678,19 +6678,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>With a thin body and a better-than-average screen, this Dell Inspiron 14 5435 was listed by ONIN Infosys at Rs 1,35,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>With a thin body and a better-than-average screen, this Dell Inspiron 14 5435 was listed at Rs 1,35,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7000 is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It weighs about 1.59 kg. Ports include USB-C and HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 years Warrenty.</p>
+<p>The listing notes the warranty as: 2 years Warrenty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 14 5435 (Ryzen 7 7000, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,35,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 14 5435 (Ryzen 7 7000, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,35,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 14 5435 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 14 5435?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 14 5435?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 14 5435 (Ryzen 7 7000, 16GB/512GB) Price in Nepal & Spec',
-            'description' => 'With a thin body and a better-than-average screen, this Dell Inspiron 14 5435 was listed by ONIN Infosys at Rs 1,35,000. ONIN listed it as out of stock when w',
+            'description' => 'With a thin body and a better-than-average screen, this Dell Inspiron 14 5435 was listed at Rs 1,35,000.',
             'keywords' => 'dell inspiron 14 5435 price in nepal, dell inspiron 14 5435, ryzen 7 7000 laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6754,19 +6754,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 14 5440 (Core 5 120U, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 1,04,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Dell Inspiron 14 5440 (Core 5 120U, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 1,04,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 5 120U is a low-power U-series chip. It's quick enough for Office, browsing, online classes and light photo edits, and it helps the battery last. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch FHD+ screen is fine for documents, classes and streaming, and it supports touch. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2 years warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 2 years warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 14 5440 (Core 5 120U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,04,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Dell Inspiron 14 5440 (Core 5 120U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,04,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Dell Inspiron 14 5440 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 14 5440?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 14 5440?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 14 5440 (Core 5 120U, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'Dell Inspiron 14 5440 (Core 5 120U, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 1,04',
+            'description' => 'Dell Inspiron 14 5440 (Core 5 120U, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'dell inspiron 14 5440 price in nepal, dell inspiron 14 5440, core 5 120u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -6833,15 +6833,15 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 14 7435 (Ryzen 5 7530U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 1,00,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 14 7435 (Ryzen 5 7530U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 1,00,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7530U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 54Wh battery and weighs about 1.58 kg. Ports include USB-C and HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 1 years Warranty.</p>
+<p>The listing notes the warranty as: 1 years Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 14 7435 (Ryzen 5 7530U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 14 7435 (Ryzen 5 7530U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 14 7435 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 14 7435?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 14 7435?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 14 7435 (Ryzen 5 7530U, 8GB/512GB) Price in Nepal & Spec',
@@ -6908,15 +6908,15 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 14 7445 2-in-1 (Ryzen 7 8840HS, 16GB/1TB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 1,13,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 14 7445 2-in-1 (Ryzen 7 8840HS, 16GB/1TB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 1,13,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 8840HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 54Wh battery and weighs about 1.71 kg. Ports include USB-C and HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 14 7445 2-in-1 (Ryzen 7 8840HS, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,13,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 14 7445 2-in-1 (Ryzen 7 8840HS, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,13,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 14 7445 2-in-1 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 14 7445 2-in-1?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 14 7445 2-in-1?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 14 7445 2-in-1 (Ryzen 7 8840HS, 16GB/1TB) Price in Nepal',
@@ -6985,19 +6985,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 14 Plus 7440 (Core Ultra 7 155H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,56,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 14 Plus 7440 (Core Ultra 7 155H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,56,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 7 155H (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch 2.2K screen is fine for documents, classes and streaming. The battery is rated at 64Wh. Ports include Thunderbolt, HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 14 Plus 7440 (Core Ultra 7 155H, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,56,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 14 Plus 7440 (Core Ultra 7 155H, 16GB/1TB) in Nepal?', 'It was last listed at Rs 1,56,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 14 Plus 7440 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 14 Plus 7440?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 14 Plus 7440?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 14 Plus 7440 (Core Ultra 7 155H, 16GB/1TB) Price in Nepa',
-            'description' => 'Dell Inspiron 14 Plus 7440 (Core Ultra 7 155H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs ',
+            'description' => 'Dell Inspiron 14 Plus 7440 (Core Ultra 7 155H, 16GB/1TB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'dell inspiron 14 plus 7440 price in nepal, dell inspiron 14 plus 7440, core ultra 7 155h laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7057,19 +7057,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Dell Inspiron 15 3530 covers the basics students and home users need. ONIN Infosys listed it at Rs 79,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Dell Inspiron 15 3530 covers the basics students and home users need. It was listed at Rs 79,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1335U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 120Hz display makes games and even scrolling look smooth. The battery is rated at 41Wh. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 2-year Global Warranty.</p>
+<p>The listing notes the warranty as: 2-year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 15 3530 (Core i5-1335U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 79,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 15 3530 (Core i5-1335U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 79,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 15 3530 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 15 3530?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 15 3530?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 15 3530 (Core i5-1335U, 8GB/512GB) Price in Nepal & Spec',
-            'description' => 'This Dell Inspiron 15 3530 covers the basics students and home users need. ONIN Infosys listed it at Rs 79,500. ONIN listed it as out of stock when we checked',
+            'description' => 'This Dell Inspiron 15 3530 covers the basics students and home users need. It was listed at Rs 79,500.',
             'keywords' => 'dell inspiron 15 3530 price in nepal, dell inspiron 15 3530, core i5-1335u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7130,19 +7130,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Dell Inspiron 15 3535 configuration was listed by ONIN Infosys at Rs 63,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Dell Inspiron 15 3535 configuration was listed at Rs 63,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7520U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 120Hz display makes games and even scrolling look smooth. It carries a 41Wh battery and weighs about 1.68 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 15 3535 (Ryzen 5 7520U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 63,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 15 3535 (Ryzen 5 7520U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 63,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 15 3535 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 15 3535?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 15 3535?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 15 3535 (Ryzen 5 7520U, 8GB/512GB) Price in Nepal & Spec',
-            'description' => 'For school, college and office work, this Dell Inspiron 15 3535 configuration was listed by ONIN Infosys at Rs 63,499. ONIN listed it as out of stock when we ',
+            'description' => 'For school, college and office work, this Dell Inspiron 15 3535 configuration was listed at Rs 63,499.',
             'keywords' => 'dell inspiron 15 3535 price in nepal, dell inspiron 15 3535, ryzen 5 7520u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7204,18 +7204,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 16 5630 (Core i5-1335U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 1,20,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 16 5630 (Core i5-1335U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 1,20,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1335U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 16-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 54Wh battery and weighs about 1.82 kg. Ports include Thunderbolt, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 16 5630 (Core i5-1335U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,20,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 16 5630 (Core i5-1335U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,20,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 16 5630 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 16 5630?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 16 5630?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 16 5630 (Core i5-1335U, 8GB/512GB) Price in Nepal & Spec',
-            'description' => 'Dell Inspiron 16 5630 (Core i5-1335U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 1,2',
+            'description' => 'Dell Inspiron 16 5630 (Core i5-1335U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'dell inspiron 16 5630 price in nepal, dell inspiron 16 5630, core i5-1335u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7278,21 +7278,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 16 5630 (Core i7-1360p, 16GB/512GB, RTX 2050) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,75,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 16 5630 (Core i7-1360p, 16GB/512GB, RTX 2050) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,75,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-1360p is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. Graphics come from the NVIDIA RTX 2050 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 16-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 54Wh battery and weighs about 1.82 kg. Ports include Thunderbolt, HDMI and a card reader. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 2 years Warrenty.</p>
+<p>The listing notes the warranty as: 2 years Warrenty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 16 5630 (Core i7-1360p, 16GB/512GB, RTX 2050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 16 5630 (Core i7-1360p, 16GB/512GB, RTX 2050) in Nepal?', 'It was last listed at Rs 1,75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Dell Inspiron 16 5630 run modern games?', <<<'HTML'
 The NVIDIA RTX 2050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Dell Inspiron 16 5630?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 16 5630?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 16 5630 (Core i7-1360p, 16GB/512GB, RTX 2050) Price in N',
-            'description' => 'Dell Inspiron 16 5630 (Core i7-1360p, 16GB/512GB, RTX 2050) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at ',
+            'description' => 'Dell Inspiron 16 5630 (Core i7-1360p, 16GB/512GB, RTX 2050) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'dell inspiron 16 5630 price in nepal, dell inspiron 16 5630, core i7-1360p laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7331,17 +7331,17 @@ HTML],
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 5510 (Core i5-11300H) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 92,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 5510 (Core i5-11300H) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 92,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-11300H is a 11th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU.</p>
 <p>It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 5510 (Core i5-11300H) in Nepal?', 'ONIN Infosys last listed it at Rs 92,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 5510 (Core i5-11300H) in Nepal?', 'It was last listed at Rs 92,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 5510 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 5510 (Core i5-11300H) Price in Nepal & Specs',
-            'description' => 'Dell Inspiron 5510 (Core i5-11300H) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 92,000. ONIN lis',
+            'description' => 'Dell Inspiron 5510 (Core i5-11300H) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 92,000.',
             'keywords' => 'dell inspiron 5510 price in nepal, dell inspiron 5510, core i5-11300h laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7401,19 +7401,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Dell Latitude 13 3330 was listed by ONIN Infosys at Rs 84,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Dell Latitude 13 3330 was listed at Rs 84,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1155G7 is a 11th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 13.3-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. Ports include USB-C and HDMI. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 YEARS WARRANTY.</p>
+<p>The listing notes the warranty as: 1 YEARS WARRANTY.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Latitude 13 3330 (Core i5-1155G7, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 84,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Latitude 13 3330 (Core i5-1155G7, 8GB/512GB) in Nepal?', 'It was last listed at Rs 84,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Latitude 13 3330 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Latitude 13 3330?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Latitude 13 3330?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Latitude 13 3330 (Core i5-1155G7, 8GB/512GB) Price in Nepal & Spe',
-            'description' => 'Built for offices and long workdays, this Dell Latitude 13 3330 was listed by ONIN Infosys at Rs 84,000. ONIN listed it as out of stock when we checked on 23 ',
+            'description' => 'Built for offices and long workdays, this Dell Latitude 13 3330 was listed at Rs 84,000.',
             'keywords' => 'dell latitude 13 3330 price in nepal, dell latitude 13 3330, core i5-1155g7 laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7471,18 +7471,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Dell Vostro 15 3520 was listed by ONIN Infosys at Rs 97,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Dell Vostro 15 3520 was listed at Rs 97,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-1255U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. The NVIDIA MX550 is an entry-level dedicated chip. It helps with light editing and older esports games, but it's no real gaming GPU. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 120Hz display makes games and even scrolling look smooth. It carries a 41Wh battery and weighs about 1.66 kg. Ports include HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Vostro 15 3520 (Core i7-1255U, 8GB/512GB, MX550) in Nepal?', 'ONIN Infosys last listed it at Rs 97,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Vostro 15 3520 (Core i7-1255U, 8GB/512GB, MX550) in Nepal?', 'It was last listed at Rs 97,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Vostro 15 3520 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Vostro 15 3520?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Vostro 15 3520?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Vostro 15 3520 (Core i7-1255U, 8GB/512GB, MX550) Price in Nepal &',
-            'description' => 'Built for offices and long workdays, this Dell Vostro 15 3520 was listed by ONIN Infosys at Rs 97,000. ONIN listed it as out of stock when we checked on 23 No',
+            'description' => 'Built for offices and long workdays, this Dell Vostro 15 3520 was listed at Rs 97,000.',
             'keywords' => 'dell vostro 15 3520 price in nepal, dell vostro 15 3520, core i7-1255u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7545,19 +7545,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Vostro 3520 (Core i5-1235U, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 64,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Vostro 3520 (Core i5-1235U, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 64,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 41Wh battery and weighs about 1.66 kg. Ports include HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Vostro 3520 (Core i5-1235U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 64,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Vostro 3520 (Core i5-1235U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 64,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Vostro 3520 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Vostro 3520?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Vostro 3520?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Vostro 3520 (Core i5-1235U, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'Dell Vostro 3520 (Core i5-1235U, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 64,000. O',
+            'description' => 'Dell Vostro 3520 (Core i5-1235U, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 64,000.',
             'keywords' => 'dell vostro 3520 price in nepal, dell vostro 3520, core i5-1235u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7620,19 +7620,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Vostro 3520 (Core i5-1235U, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 63,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Vostro 3520 (Core i5-1235U, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 63,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 120Hz display makes games and even scrolling look smooth. It carries a 41Wh battery and weighs about 1.66 kg. Ports include HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Vostro 3520 (Core i5-1235U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 63,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Vostro 3520 (Core i5-1235U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 63,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Vostro 3520 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Vostro 3520?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Vostro 3520?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Vostro 3520 (Core i5-1235U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Dell Vostro 3520 (Core i5-1235U, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 63,500. ON',
+            'description' => 'Dell Vostro 3520 (Core i5-1235U, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 63,500.',
             'keywords' => 'dell vostro 3520 price in nepal, dell vostro 3520, core i5-1235u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7697,19 +7697,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Dell Vostro 3530 was listed by ONIN Infosys at Rs 52,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Dell Vostro 3530 was listed at Rs 52,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i3-1305U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 120Hz display makes games and even scrolling look smooth. Ports include USB-C, HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Vostro 3530 (Core i3-1305U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 52,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Vostro 3530 (Core i3-1305U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 52,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Vostro 3530 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Vostro 3530?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Vostro 3530?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Vostro 3530 (Core i3-1305U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Built for offices and long workdays, this Dell Vostro 3530 was listed by ONIN Infosys at Rs 52,999. ONIN listed it as out of stock when we checked on 23 Novem',
+            'description' => 'Built for offices and long workdays, this Dell Vostro 3530 was listed at Rs 52,999.',
             'keywords' => 'dell vostro 3530 price in nepal, dell vostro 3530, core i3-1305u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7772,19 +7772,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Dell Vostro 3530 was listed by ONIN Infosys at Rs 75,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Dell Vostro 3530 was listed at Rs 75,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1335U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 120Hz display makes games and even scrolling look smooth. It carries a 41Wh battery and weighs about 1.65 kg. Ports include USB-C, HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Vostro 3530 (Core i5-1335U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Vostro 3530 (Core i5-1335U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Vostro 3530 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Vostro 3530?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Vostro 3530?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Vostro 3530 (Core i5-1335U, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'Built for offices and long workdays, this Dell Vostro 3530 was listed by ONIN Infosys at Rs 75,000. ONIN listed it as out of stock when we checked on 23 Novem',
+            'description' => 'Built for offices and long workdays, this Dell Vostro 3530 was listed at Rs 75,000.',
             'keywords' => 'dell vostro 3530 price in nepal, dell vostro 3530, core i5-1335u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7844,19 +7844,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell XPS 13 9345 (Snapdragon X Plus, 16GB/256GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,69,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Dell XPS 13 9345 (Snapdragon X Plus, 16GB/256GB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,69,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Snapdragon X Plus is an Arm chip: excellent battery life and instant wake, but a few older Windows apps, games with anti-cheat and some printer drivers may not run, so check your must-have software first. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>Its 13.4-inch 2K 120Hz display makes games and even scrolling look smooth. It carries a 55Wh battery and weighs about 1.19 kg, light enough to carry every day. Ports include USB-C. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell XPS 13 9345 (Snapdragon X Plus, 16GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,69,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Dell XPS 13 9345 (Snapdragon X Plus, 16GB/256GB) in Nepal?', 'It was last listed at Rs 1,69,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Dell XPS 13 9345 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell XPS 13 9345?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell XPS 13 9345?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell XPS 13 9345 (Snapdragon X Plus, 16GB/256GB) Price in Nepal & Spec',
-            'description' => 'Dell XPS 13 9345 (Snapdragon X Plus, 16GB/256GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,69,999',
+            'description' => 'Dell XPS 13 9345 (Snapdragon X Plus, 16GB/256GB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'dell xps 13 9345 price in nepal, dell xps 13 9345, snapdragon x plus laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7919,21 +7919,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Dell XPS 15 9530 configuration is built for games first: ONIN Infosys listed it at Rs 4,41,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Dell XPS 15 9530 configuration is built for games first: it was listed at Rs 4,41,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i9-13900H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. With the NVIDIA RTX 4060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 15.6-inch 3.5K OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. It carries a 86Wh battery and weighs about 1.92 kg. Ports include USB-C. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 Year Global Warranty.</p>
+<p>The listing notes the warranty as: 2 Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell XPS 15 9530 (Core i9-13900H, 32GB/1TB, RTX 4060) in Nepal?', 'ONIN Infosys last listed it at Rs 4,41,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell XPS 15 9530 (Core i9-13900H, 32GB/1TB, RTX 4060) in Nepal?', 'It was last listed at Rs 4,41,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Dell XPS 15 9530 run modern games?', <<<'HTML'
 The NVIDIA RTX 4060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools.
 HTML],
-            ['Can I upgrade the RAM on this Dell XPS 15 9530?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell XPS 15 9530?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell XPS 15 9530 (Core i9-13900H, 32GB/1TB, RTX 4060) Price in Nepal &',
-            'description' => 'This Dell XPS 15 9530 configuration is built for games first: ONIN Infosys listed it at Rs 4,41,000. ONIN listed it as out of stock when we checked on 23 Nove',
+            'description' => 'This Dell XPS 15 9530 configuration is built for games first: it was listed at Rs 4,41,000.',
             'keywords' => 'dell xps 15 9530 price in nepal, dell xps 15 9530, core i9-13900h laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -7996,18 +7996,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Dell Inspiron 15 3520 covers the basics students and home users need. ONIN Infosys listed it at Rs 62,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Dell Inspiron 15 3520 covers the basics students and home users need. It was listed at Rs 62,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235G7 is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 54Wh battery and weighs about 1.79 kg. Ports include USB-C, HDMI and Ethernet. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 15 3520 (Core i5-1235G7, 8GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 62,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 15 3520 (Core i5-1235G7, 8GB/256GB) in Nepal?', 'It was last listed at Rs 62,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 15 3520 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 15 3520?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 15 3520?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 15 3520 (Core i5-1235G7, 8GB/256GB) Price in Nepal & Spe',
-            'description' => 'This Dell Inspiron 15 3520 covers the basics students and home users need. ONIN Infosys listed it at Rs 62,000. ONIN listed it as out of stock when we checked',
+            'description' => 'This Dell Inspiron 15 3520 covers the basics students and home users need. It was listed at Rs 62,000.',
             'keywords' => 'dell inspiron 15 3520 price in nepal, dell inspiron 15 3520, core i5-1235g7 laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8065,19 +8065,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 15 3530 (Core i3-1305U, 8GB/256GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 65,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 15 3530 (Core i3-1305U, 8GB/256GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 65,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i3-1305U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 41Wh battery and weighs about 1.68 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 15 3530 (Core i3-1305U, 8GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 65,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 15 3530 (Core i3-1305U, 8GB/256GB) in Nepal?', 'It was last listed at Rs 65,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 15 3530 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 15 3530?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 15 3530?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 15 3530 (Core i3-1305U, 8GB/256GB) Price in Nepal & Spec',
-            'description' => 'Dell Inspiron 15 3530 (Core i3-1305U, 8GB/256GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 65,',
+            'description' => 'Dell Inspiron 15 3530 (Core i3-1305U, 8GB/256GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'dell inspiron 15 3530 price in nepal, dell inspiron 15 3530, core i3-1305u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8138,19 +8138,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Inspiron 16 5645 (Ryzen 5 8450U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 1,17,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Inspiron 16 5645 (Ryzen 5 8450U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 1,17,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 8450U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 16-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 54Wh battery and weighs about 1.87 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 16 5645 (Ryzen 5 8450U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,17,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 16 5645 (Ryzen 5 8450U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,17,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 16 5645 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 16 5645?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 16 5645?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 16 5645 (Ryzen 5 8450U, 8GB/512GB) Price in Nepal & Spec',
-            'description' => 'Dell Inspiron 16 5645 (Ryzen 5 8450U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 1,1',
+            'description' => 'Dell Inspiron 16 5645 (Ryzen 5 8450U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'dell inspiron 16 5645 price in nepal, dell inspiron 16 5645, ryzen 5 8450u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8212,19 +8212,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Dell Inspiron 3520 configuration was listed by ONIN Infosys at Rs 55,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Dell Inspiron 3520 configuration was listed at Rs 55,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i3-1215U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 120Hz display makes games and even scrolling look smooth. It carries a 41Wh battery and weighs about 1.68 kg. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year global Warranty.</p>
+<p>The listing notes the warranty as: 1 Year global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron 3520 (Core i3-1215U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 55,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron 3520 (Core i3-1215U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 55,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Inspiron 3520 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Inspiron 3520?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron 3520?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron 3520 (Core i3-1215U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'For school, college and office work, this Dell Inspiron 3520 configuration was listed by ONIN Infosys at Rs 55,000. ONIN listed it as out of stock when we che',
+            'description' => 'For school, college and office work, this Dell Inspiron 3520 configuration was listed at Rs 55,000.',
             'keywords' => 'dell inspiron 3520 price in nepal, dell inspiron 3520, core i3-1215u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8283,19 +8283,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Dell Inspiron G15 5530 was listed by ONIN Infosys at Rs 1,56,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
-<p>ONIN lists it only as a 13th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. Graphics come from the NVIDIA RTX 3050. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Dell Inspiron G15 5530 was listed at Rs 1,56,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>It is listed only as a 13th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. Graphics come from the NVIDIA RTX 3050. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 165Hz display makes games and even scrolling look smooth. It carries a 86Wh battery and weighs about 2.81 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron G15 5530 (Core i5 (13th Gen), 16GB/512GB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,56,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron G15 5530 (Core i5 (13th Gen), 16GB/512GB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,56,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Dell Inspiron G15 5530 run modern games?', 'Graphics come from the NVIDIA RTX 3050. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this Dell Inspiron G15 5530?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron G15 5530?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron G15 5530 (Core i5 (13th Gen), 16GB/512GB, RTX 3050) Pric',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Dell Inspiron G15 5530 was listed by ONIN Infosys at Rs 1,56,000. ONIN listed it as',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Dell Inspiron G15 5530 was listed at Rs 1,56,000.',
             'keywords' => 'dell inspiron g15 5530 price in nepal, dell inspiron g15 5530, core i5 (13th gen) laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8356,21 +8356,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Dell Inspiron G15 5530 was listed by ONIN Infosys at Rs 2,17,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Dell Inspiron G15 5530 was listed at Rs 2,17,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-13650HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 165Hz display makes games and even scrolling look smooth. It carries a 86Wh battery and weighs about 2.81 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron G15 5530 (Core i7-13650HX, 16GB/512GB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 2,17,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron G15 5530 (Core i7-13650HX, 16GB/512GB, RTX 4050) in Nepal?', 'It was last listed at Rs 2,17,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Dell Inspiron G15 5530 run modern games?', <<<'HTML'
 The NVIDIA RTX 4050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Dell Inspiron G15 5530?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron G15 5530?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron G15 5530 (Core i7-13650HX, 16GB/512GB, RTX 4050) Price i',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Dell Inspiron G15 5530 was listed by ONIN Infosys at Rs 2,17,000. ONIN listed it as',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Dell Inspiron G15 5530 was listed at Rs 2,17,000.',
             'keywords' => 'dell inspiron g15 5530 price in nepal, dell inspiron g15 5530, core i7-13650hx laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8431,21 +8431,21 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>This Dell Inspiron G15 5530 configuration is built for games first: ONIN Infosys listed it at Rs 2,37,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Dell Inspiron G15 5530 configuration is built for games first: it was listed at Rs 2,37,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-13650HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. With the NVIDIA RTX 4060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 165Hz display makes games and even scrolling look smooth. It carries a 86Wh battery and weighs about 2.81 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Inspiron G15 5530 (Core i7-13650HX, 16GB/512GB, RTX 4060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,37,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Inspiron G15 5530 (Core i7-13650HX, 16GB/512GB, RTX 4060) in Nepal?', 'It was last listed at Rs 2,37,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Dell Inspiron G15 5530 run modern games?', <<<'HTML'
 The NVIDIA RTX 4060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools.
 HTML],
-            ['Can I upgrade the RAM on this Dell Inspiron G15 5530?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Inspiron G15 5530?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Inspiron G15 5530 (Core i7-13650HX, 16GB/512GB, RTX 4060) Price i',
-            'description' => 'This Dell Inspiron G15 5530 configuration is built for games first: ONIN Infosys listed it at Rs 2,37,000. ONIN listed it as out of stock when we checked on 2',
+            'description' => 'This Dell Inspiron G15 5530 configuration is built for games first: it was listed at Rs 2,37,000.',
             'keywords' => 'dell inspiron g15 5530 price in nepal, dell inspiron g15 5530, core i7-13650hx laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8501,19 +8501,19 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Dell Latitude 3330 was listed by ONIN Infosys at Rs 90,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Dell Latitude 3330 was listed at Rs 90,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 13.3-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 54Wh battery and weighs about 1.25 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Latitude 3330 (Core i5-1235U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 90,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Latitude 3330 (Core i5-1235U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 90,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Latitude 3330 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Latitude 3330?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Latitude 3330?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Latitude 3330 (Core i5-1235U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Built for offices and long workdays, this Dell Latitude 3330 was listed by ONIN Infosys at Rs 90,000. ONIN listed it as out of stock when we checked on 23 Nov',
+            'description' => 'Built for offices and long workdays, this Dell Latitude 3330 was listed at Rs 90,000.',
             'keywords' => 'dell latitude 3330 price in nepal, dell latitude 3330, core i5-1235u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8573,19 +8573,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Dell Latitude 3340 was listed by ONIN Infosys at Rs 57,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Dell Latitude 3340 was listed at Rs 57,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i3-1215U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 54Wh battery and weighs about 1.25 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Latitude 3340 (Core i3-1215U, 8GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 57,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Latitude 3340 (Core i3-1215U, 8GB/256GB) in Nepal?', 'It was last listed at Rs 57,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Latitude 3340 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Latitude 3340?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Latitude 3340?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Latitude 3340 (Core i3-1215U, 8GB/256GB) Price in Nepal & Specs',
-            'description' => 'Built for offices and long workdays, this Dell Latitude 3340 was listed by ONIN Infosys at Rs 57,000. ONIN listed it as out of stock when we checked on 23 Nov',
+            'description' => 'Built for offices and long workdays, this Dell Latitude 3340 was listed at Rs 57,000.',
             'keywords' => 'dell latitude 3340 price in nepal, dell latitude 3340, core i3-1215u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8648,19 +8648,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Dell Latitude 3450 was listed by ONIN Infosys at Rs 1,63,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Dell Latitude 3450 was listed at Rs 1,63,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 7 155U (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 42Wh battery and weighs about 1.5 kg. Ports include HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 3 Year Warranty.</p>
+<p>The listing notes the warranty as: 3 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Latitude 3450 (Core Ultra 7 155U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,63,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Latitude 3450 (Core Ultra 7 155U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,63,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Latitude 3450 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Latitude 3450?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Latitude 3450?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Latitude 3450 (Core Ultra 7 155U, 16GB/512GB) Price in Nepal & Sp',
-            'description' => 'Built for offices and long workdays, this Dell Latitude 3450 was listed by ONIN Infosys at Rs 1,63,000. ONIN listed it as out of stock when we checked on 23 N',
+            'description' => 'Built for offices and long workdays, this Dell Latitude 3450 was listed at Rs 1,63,000.',
             'keywords' => 'dell latitude 3450 price in nepal, dell latitude 3450, core ultra 7 155u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8719,19 +8719,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Latitude 5340 (Core i7 (13th Gen), 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 1,10,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
-<p>ONIN lists it only as a 13th-gen Core i7, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
+<p>Dell Latitude 5340 (Core i7 (13th Gen), 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 1,10,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>It is listed only as a 13th-gen Core i7, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 13.3-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 54Wh battery and weighs about 1.2 kg, light enough to carry every day. Ports include HDMI. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 years Warranty.</p>
+<p>The listing notes the warranty as: 1 years Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Latitude 5340 (Core i7 (13th Gen), 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,10,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Latitude 5340 (Core i7 (13th Gen), 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,10,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Latitude 5340 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Latitude 5340?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Latitude 5340?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Latitude 5340 (Core i7 (13th Gen), 8GB/512GB) Price in Nepal & Sp',
-            'description' => 'Dell Latitude 5340 (Core i7 (13th Gen), 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 1,1',
+            'description' => 'Dell Latitude 5340 (Core i7 (13th Gen), 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build.',
             'keywords' => 'dell latitude 5340 price in nepal, dell latitude 5340, core i7 (13th gen) laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8789,19 +8789,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell Latitude 5340 (Core i5-1335U, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 83,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Dell Latitude 5340 (Core i5-1335U, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 83,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1335U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 13.3-inch Full HD screen is fine for documents, classes and streaming. It weighs about 1.29 kg. Ports include USB-C, HDMI and a card reader. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 years warranty.</p>
+<p>The listing notes the warranty as: 1 years warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell Latitude 5340 (Core i5-1335U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 83,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Dell Latitude 5340 (Core i5-1335U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 83,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Dell Latitude 5340 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Dell Latitude 5340?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Dell Latitude 5340?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Dell Latitude 5340 (Core i5-1335U, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'Dell Latitude 5340 (Core i5-1335U, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 83,499.',
+            'description' => 'Dell Latitude 5340 (Core i5-1335U, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 83,499.',
             'keywords' => 'dell latitude 5340 price in nepal, dell latitude 5340, core i5-1335u laptop nepal, dell laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8859,19 +8859,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP ENVY x360 (Core i5-1335U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 1,09,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>HP ENVY x360 (Core i5-1335U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 1,09,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1335U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. Ports include USB-C and HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty.</p>
+<p>The listing notes the warranty as: 1 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP ENVY x360 (Core i5-1335U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,09,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP ENVY x360 (Core i5-1335U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 1,09,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the HP ENVY x360 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP ENVY x360?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP ENVY x360?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP ENVY x360 (Core i5-1335U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'HP ENVY x360 (Core i5-1335U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys',
+            'description' => 'HP ENVY x360 (Core i5-1335U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes.',
             'keywords' => 'hp envy x360 price in nepal, hp envy x360, core i5-1335u laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -8941,19 +8941,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This HP 14 covers the basics students and home users need. ONIN Infosys listed it at Rs 44,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This HP 14 covers the basics students and home users need. It was listed at Rs 44,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Athlon 7120U is an entry-level, low-power chip. It's fine for browsing, documents and video calls, but it struggles with heavy multitasking, so keep expectations modest. 4GB of RAM is very tight for Windows 11; keep few tabs open, and look for a model with at least 8GB if you can. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 14-inch screen is only HD (1366 × 768), which looks soft next to Full HD, and that is a real compromise at this price. The battery is rated at 41Wh. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP 14 (Athlon 7120U, 4GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 44,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP 14 (Athlon 7120U, 4GB/256GB) in Nepal?', 'It was last listed at Rs 44,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the HP 14 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP 14?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP 14?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP 14 (Athlon 7120U, 4GB/256GB) Price in Nepal & Specs',
-            'description' => 'This HP 14 covers the basics students and home users need. ONIN Infosys listed it at Rs 44,999. ONIN listed it as out of stock when we checked on 23 November ',
+            'description' => 'This HP 14 covers the basics students and home users need. It was listed at Rs 44,999.',
             'keywords' => 'hp 14 price in nepal, hp 14, athlon 7120u laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9013,19 +9013,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this HP 15S configuration was listed by ONIN Infosys at Rs 82,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this HP 15S configuration was listed at Rs 82,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 5700U is an efficient AMD U-series chip from an older generation. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. The battery is rated at 41Wh. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1-Year Global Warranty.</p>
+<p>The listing notes the warranty as: 1-Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP 15S (Ryzen 7 5700U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 82,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP 15S (Ryzen 7 5700U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 82,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the HP 15S good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP 15S?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP 15S?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP 15S (Ryzen 7 5700U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'For school, college and office work, this HP 15S configuration was listed by ONIN Infosys at Rs 82,000. ONIN listed it as out of stock when we checked on 23 N',
+            'description' => 'For school, college and office work, this HP 15S configuration was listed at Rs 82,000.',
             'keywords' => 'hp 15s price in nepal, hp 15s, ryzen 7 5700u laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9093,19 +9093,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this HP 255 G10 Business was listed by ONIN Infosys at Rs 78,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this HP 255 G10 Business was listed at Rs 78,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7535U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 41Wh battery and weighs about 1.66 kg. Ports include USB-C and HDMI. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP 255 G10 Business (Ryzen 5 7535U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 78,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP 255 G10 Business (Ryzen 5 7535U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 78,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the HP 255 G10 Business good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP 255 G10 Business?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP 255 G10 Business?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP 255 G10 Business (Ryzen 5 7535U, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'Built for offices and long workdays, this HP 255 G10 Business was listed by ONIN Infosys at Rs 78,499. ONIN listed it as out of stock when we checked on 23 No',
+            'description' => 'Built for offices and long workdays, this HP 255 G10 Business was listed at Rs 78,499.',
             'keywords' => 'hp 255 g10 business price in nepal, hp 255 g10 business, ryzen 5 7535u laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9172,18 +9172,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP OMEN 16 (Core i7-14650HX, 16GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,12,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>HP OMEN 16 (Core i7-14650HX, 16GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,12,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core i7-14650HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch 2K 240Hz display makes games and even scrolling look smooth. It carries a 83Wh battery and weighs about 2.43 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP OMEN 16 (Core i7-14650HX, 16GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,12,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the HP OMEN 16 (Core i7-14650HX, 16GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,12,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the HP OMEN 16 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this HP OMEN 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP OMEN 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP OMEN 16 (Core i7-14650HX, 16GB/1TB, RTX 5060) Price in Nepal & Spec',
-            'description' => 'HP OMEN 16 (Core i7-14650HX, 16GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,12,999. When we checked on 23 November 2026, ONIN',
+            'description' => 'HP OMEN 16 (Core i7-14650HX, 16GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,12,999.',
             'keywords' => 'hp omen 16 price in nepal, hp omen 16, core i7-14650hx laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9248,18 +9248,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP OMEN 16-XF0033 (Ryzen 9 7940HS, 16GB/512GB, RTX 4070) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,07,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>HP OMEN 16-XF0033 (Ryzen 9 7940HS, 16GB/512GB, RTX 4070) is a gaming laptop that sold in Nepal for Rs 2,07,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 9 7940HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 4070 with 8GB of VRAM has the headroom for high settings at the panel's native resolution in most games, plus serious GPU work like 3D rendering. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16.1-inch Full HD 165Hz display makes games and even scrolling look smooth. It weighs about 2.44 kg. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP OMEN 16-XF0033 (Ryzen 9 7940HS, 16GB/512GB, RTX 4070) in Nepal?', 'ONIN Infosys last listed it at Rs 2,07,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP OMEN 16-XF0033 (Ryzen 9 7940HS, 16GB/512GB, RTX 4070) in Nepal?', 'It was last listed at Rs 2,07,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the HP OMEN 16-XF0033 run modern games?', 'The NVIDIA RTX 4070 with 8GB of VRAM has the headroom for high settings at the panel\'s native resolution in most games, plus serious GPU work like 3D rendering.'],
-            ['Can I upgrade the RAM on this HP OMEN 16-XF0033?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP OMEN 16-XF0033?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP OMEN 16-XF0033 (Ryzen 9 7940HS, 16GB/512GB, RTX 4070) Price in Nepa',
-            'description' => 'HP OMEN 16-XF0033 (Ryzen 9 7940HS, 16GB/512GB, RTX 4070) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,07,999. ONIN listed it as out of stock wh',
+            'description' => 'HP OMEN 16-XF0033 (Ryzen 9 7940HS, 16GB/512GB, RTX 4070) is a gaming laptop that sold in Nepal for Rs 2,07,999.',
             'keywords' => 'hp omen 16-xf0033 price in nepal, hp omen 16-xf0033, ryzen 9 7940hs laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9326,15 +9326,15 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP OmniBook 5 Flip 14-FP0057NR (Core 5 120U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 93,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>HP OmniBook 5 Flip 14-FP0057NR (Core 5 120U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 93,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 5 120U is a low-power U-series chip. It's quick enough for Office, browsing, online classes and light photo edits, and it helps the battery last. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch 2K screen is fine for documents, classes and streaming, and it supports touch. The battery is rated at 68Wh. Ports include USB-C and HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP OmniBook 5 Flip 14-FP0057NR (Core 5 120U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 93,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the HP OmniBook 5 Flip 14-FP0057NR (Core 5 120U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 93,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the HP OmniBook 5 Flip 14-FP0057NR good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP OmniBook 5 Flip 14-FP0057NR?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP OmniBook 5 Flip 14-FP0057NR?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP OmniBook 5 Flip 14-FP0057NR (Core 5 120U, 8GB/512GB) Price in Nepal',
@@ -9406,19 +9406,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP OmniBook 7 Aero 13-BG 1000 (Ryzen AI 5 340, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,05,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>HP OmniBook 7 Aero 13-BG 1000 (Ryzen AI 5 340, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,05,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen AI 5 340 uses AMD's Zen 5 cores with a 50 TOPS NPU (Copilot+ ready) and strong Radeon 800M-series integrated graphics, so it is fast, efficient and capable of light gaming even without a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 13.3-inch 2K screen is fine for documents, classes and streaming. It carries a 43Wh battery and weighs about 1 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 years warranty.</p>
+<p>The listing notes the warranty as: 1 years warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP OmniBook 7 Aero 13-BG 1000 (Ryzen AI 5 340, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,05,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the HP OmniBook 7 Aero 13-BG 1000 (Ryzen AI 5 340, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,05,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the HP OmniBook 7 Aero 13-BG 1000 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP OmniBook 7 Aero 13-BG 1000?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP OmniBook 7 Aero 13-BG 1000?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP OmniBook 7 Aero 13-BG 1000 (Ryzen AI 5 340, 16GB/512GB) Price in Ne',
-            'description' => 'HP OmniBook 7 Aero 13-BG 1000 (Ryzen AI 5 340, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at R',
+            'description' => 'HP OmniBook 7 Aero 13-BG 1000 (Ryzen AI 5 340, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'hp omnibook 7 aero 13-bg 1000 price in nepal, hp omnibook 7 aero 13-bg 1000, ryzen ai 5 340 laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9483,21 +9483,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, RTX 2050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 97,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, RTX 2050) is a gaming laptop that sold in Nepal for Rs 97,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7535HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 2050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 52.5Wh battery and weighs about 2.2 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, RTX 2050) in Nepal?', 'ONIN Infosys last listed it at Rs 97,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, RTX 2050) in Nepal?', 'It was last listed at Rs 97,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the HP Victus 15 run modern games?', <<<'HTML'
 The NVIDIA RTX 2050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this HP Victus 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP Victus 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, RTX 2050) Price in Nepal & Sp',
-            'description' => 'HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, RTX 2050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 97,000. ONIN listed it as out of stock when we ch',
+            'description' => 'HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, RTX 2050) is a gaming laptop that sold in Nepal for Rs 97,000.',
             'keywords' => 'hp victus 15 price in nepal, hp victus 15, ryzen 5 7535hs laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9560,19 +9560,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, Radeon RX 6550M) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 94,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, Radeon RX 6550M) is a gaming laptop that sold in Nepal for Rs 94,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7535HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The AMD Radeon RX 6550M handles 1080p gaming at medium settings in most titles, and esports games at high frame rates. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 52.5Wh battery and weighs about 2.2 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, Radeon RX 6550M) in Nepal?', 'ONIN Infosys last listed it at Rs 94,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, Radeon RX 6550M) in Nepal?', 'It was last listed at Rs 94,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the HP Victus 15 run modern games?', 'The AMD Radeon RX 6550M handles 1080p gaming at medium settings in most titles, and esports games at high frame rates.'],
-            ['Can I upgrade the RAM on this HP Victus 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP Victus 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, Radeon RX 6550M) Price in Nep',
-            'description' => 'HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, Radeon RX 6550M) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 94,000. ONIN listed it as out of stock whe',
+            'description' => 'HP Victus 15 (Ryzen 5 7535HS, 8GB/512GB, Radeon RX 6550M) is a gaming laptop that sold in Nepal for Rs 94,000.',
             'keywords' => 'hp victus 15 price in nepal, hp victus 15, ryzen 5 7535hs laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9641,15 +9641,15 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP OmniBook X Flip 16 (Ryzen AI 5 340, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 99,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>HP OmniBook X Flip 16 (Ryzen AI 5 340, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 99,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen AI 5 340 uses AMD's Zen 5 cores with a 50 TOPS NPU (Copilot+ ready) and strong Radeon 800M-series integrated graphics, so it is fast, efficient and capable of light gaming even without a dedicated GPU. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 16-inch 2K screen is fine for documents, classes and streaming, and it supports touch. It carries a 68Wh battery and weighs about 1.9 kg. Ports include USB-C and HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty + lifetime free servicing.</p>
+<p>The listing notes the warranty as: 1 year warranty + lifetime free servicing.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP OmniBook X Flip 16 (Ryzen AI 5 340, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 99,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the HP OmniBook X Flip 16 (Ryzen AI 5 340, 8GB/512GB) in Nepal?', 'It was last listed at Rs 99,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the HP OmniBook X Flip 16 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP OmniBook X Flip 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP OmniBook X Flip 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP OmniBook X Flip 16 (Ryzen AI 5 340, 8GB/512GB) Price in Nepal & Spe',
@@ -9714,19 +9714,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP Notebook 15 (Core i5-1235U, 8GB/512GB, MX550) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 80,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>HP Notebook 15 (Core i5-1235U, 8GB/512GB, MX550) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 80,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. The NVIDIA MX550 is an entry-level dedicated chip. It helps with light editing and older esports games, but it's no real gaming GPU. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. The battery is rated at 41Wh. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP Notebook 15 (Core i5-1235U, 8GB/512GB, MX550) in Nepal?', 'ONIN Infosys last listed it at Rs 80,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP Notebook 15 (Core i5-1235U, 8GB/512GB, MX550) in Nepal?', 'It was last listed at Rs 80,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the HP Notebook 15 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP Notebook 15?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP Notebook 15?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP Notebook 15 (Core i5-1235U, 8GB/512GB, MX550) Price in Nepal & Spec',
-            'description' => 'HP Notebook 15 (Core i5-1235U, 8GB/512GB, MX550) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 80,',
+            'description' => 'HP Notebook 15 (Core i5-1235U, 8GB/512GB, MX550) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'hp notebook 15 price in nepal, hp notebook 15, core i5-1235u laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9783,19 +9783,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP Pavilion 14 x360 (Core i5-1235U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 94,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>HP Pavilion 14 x360 (Core i5-1235U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 94,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. Ports include USB-C and HDMI. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Global Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP Pavilion 14 x360 (Core i5-1235U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 94,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP Pavilion 14 x360 (Core i5-1235U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 94,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the HP Pavilion 14 x360 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP Pavilion 14 x360?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP Pavilion 14 x360?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP Pavilion 14 x360 (Core i5-1235U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'HP Pavilion 14 x360 (Core i5-1235U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN ',
+            'description' => 'HP Pavilion 14 x360 (Core i5-1235U, 8GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes.',
             'keywords' => 'hp pavilion 14 x360 price in nepal, hp pavilion 14 x360, core i5-1235u laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9856,19 +9856,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP Victus 16 (Ryzen 7 6800H, 8GB/512GB, RTX 3050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,18,100. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>HP Victus 16 (Ryzen 7 6800H, 8GB/512GB, RTX 3050) is a gaming laptop that sold in Nepal for Rs 1,18,100. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 6800H is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 3050 with 4GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 70Wh battery and weighs about 2.31 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, Ethernet and a card reader. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP Victus 16 (Ryzen 7 6800H, 8GB/512GB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,18,100. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP Victus 16 (Ryzen 7 6800H, 8GB/512GB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,18,100. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the HP Victus 16 run modern games?', 'Graphics come from the NVIDIA RTX 3050 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this HP Victus 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP Victus 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP Victus 16 (Ryzen 7 6800H, 8GB/512GB, RTX 3050) Price in Nepal & Spe',
-            'description' => 'HP Victus 16 (Ryzen 7 6800H, 8GB/512GB, RTX 3050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,18,100. ONIN listed it as out of stock when we c',
+            'description' => 'HP Victus 16 (Ryzen 7 6800H, 8GB/512GB, RTX 3050) is a gaming laptop that sold in Nepal for Rs 1,18,100.',
             'keywords' => 'hp victus 16 price in nepal, hp victus 16, ryzen 7 6800h laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -9935,19 +9935,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP OMEN 16 (Core i9-14900HX, 32GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,38,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>HP OMEN 16 (Core i9-14900HX, 32GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,38,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core i9-14900HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 240Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 83Wh battery and weighs about 2.43 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty + lifetime servicing free.</p>
+<p>The listing notes the warranty as: 1 year official warranty + lifetime servicing free.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP OMEN 16 (Core i9-14900HX, 32GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,38,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the HP OMEN 16 (Core i9-14900HX, 32GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,38,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the HP OMEN 16 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this HP OMEN 16?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP OMEN 16?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP OMEN 16 (Core i9-14900HX, 32GB/1TB, RTX 5060) Price in Nepal & Spec',
-            'description' => 'HP OMEN 16 (Core i9-14900HX, 32GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,38,999. When we checked on 23 November 2026, ONIN',
+            'description' => 'HP OMEN 16 (Core i9-14900HX, 32GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,38,999.',
             'keywords' => 'hp omen 16 price in nepal, hp omen 16, core i9-14900hx laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10012,18 +10012,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This HP Pavilion 14 covers the basics students and home users need. ONIN Infosys listed it at Rs 82,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This HP Pavilion 14 covers the basics students and home users need. It was listed at Rs 82,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7450U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. It carries a 51Wh battery and weighs about 1.38 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP Pavilion 14 (Ryzen 5 7450U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 82,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP Pavilion 14 (Ryzen 5 7450U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 82,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the HP Pavilion 14 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP Pavilion 14?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP Pavilion 14?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP Pavilion 14 (Ryzen 5 7450U, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'This HP Pavilion 14 covers the basics students and home users need. ONIN Infosys listed it at Rs 82,000. ONIN listed it as out of stock when we checked on 23 ',
+            'description' => 'This HP Pavilion 14 covers the basics students and home users need. It was listed at Rs 82,000.',
             'keywords' => 'hp pavilion 14 price in nepal, hp pavilion 14, ryzen 5 7450u laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10086,19 +10086,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>HP Pavilion 14 Plus (Core i5-1340p, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,00,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>HP Pavilion 14 Plus (Core i5-1340p, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,00,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1340p is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch 2.2K screen is fine for documents, classes and streaming. It carries a 51Wh battery and weighs about 1.4 kg, light enough to carry every day. Ports include USB-C and HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty.</p>
+<p>The listing notes the warranty as: 1 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP Pavilion 14 Plus (Core i5-1340p, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the HP Pavilion 14 Plus (Core i5-1340p, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the HP Pavilion 14 Plus good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this HP Pavilion 14 Plus?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP Pavilion 14 Plus?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP Pavilion 14 Plus (Core i5-1340p, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'HP Pavilion 14 Plus (Core i5-1340p, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,00,000.',
+            'description' => 'HP Pavilion 14 Plus (Core i5-1340p, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,00,000.',
             'keywords' => 'hp pavilion 14 plus price in nepal, hp pavilion 14 plus, core i5-1340p laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10164,19 +10164,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This HP OMEN 16 Slim configuration is built for games first: ONIN Infosys listed it at Rs 3,24,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This HP OMEN 16 Slim configuration is built for games first: it was listed at Rs 3,24,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 9 285H (Arrow Lake) is a current-generation performance chip that pairs strong multi-core speed with Intel's newer Arc graphics and an NPU for on-device AI features. The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel's native resolution in most games, plus serious GPU work like 3D rendering. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch 2K 144Hz display makes games and even scrolling look smooth. The battery is rated at 70Wh. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the HP OMEN 16 Slim (Core Ultra 9 285H, 32GB/1TB, RTX 5070) in Nepal?', 'ONIN Infosys last listed it at Rs 3,24,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the HP OMEN 16 Slim (Core Ultra 9 285H, 32GB/1TB, RTX 5070) in Nepal?', 'It was last listed at Rs 3,24,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the HP OMEN 16 Slim run modern games?', 'The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel\'s native resolution in most games, plus serious GPU work like 3D rendering.'],
-            ['Can I upgrade the RAM on this HP OMEN 16 Slim?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this HP OMEN 16 Slim?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'HP OMEN 16 Slim (Core Ultra 9 285H, 32GB/1TB, RTX 5070) Price in Nepal',
-            'description' => 'This HP OMEN 16 Slim configuration is built for games first: ONIN Infosys listed it at Rs 3,24,999. When we checked on 23 November 2026, ONIN listed it as out',
+            'description' => 'This HP OMEN 16 Slim configuration is built for games first: it was listed at Rs 3,24,999.',
             'keywords' => 'hp omen 16 slim price in nepal, hp omen 16 slim, core ultra 9 285h laptop nepal, hp laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10249,21 +10249,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo IdeaPad Pro 5 16AKP10 configuration is built for games first: ONIN Infosys listed it at Rs 1,92,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This Lenovo IdeaPad Pro 5 16AKP10 configuration is built for games first: it was listed at Rs 1,92,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen AI 5 340 uses AMD's Zen 5 cores with a 50 TOPS NPU (Copilot+ ready) and strong Radeon 800M-series integrated graphics, so it is fast, efficient and capable of light gaming even without a dedicated GPU. The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 16-inch 2.8K OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 84Wh battery and weighs about 1.74 kg. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Pro 5 16AKP10 (Ryzen AI 5 340, 16GB/512GB, RTX 5050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,92,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo IdeaPad Pro 5 16AKP10 (Ryzen AI 5 340, 16GB/512GB, RTX 5050) in Nepal?', 'It was last listed at Rs 1,92,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo IdeaPad Pro 5 16AKP10 run modern games?', <<<'HTML'
 The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games.
 HTML],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Pro 5 16AKP10?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Pro 5 16AKP10?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Pro 5 16AKP10 (Ryzen AI 5 340, 16GB/512GB, RTX 5050) Pr',
-            'description' => 'This Lenovo IdeaPad Pro 5 16AKP10 configuration is built for games first: ONIN Infosys listed it at Rs 1,92,499. When we checked on 23 November 2026, ONIN lis',
+            'description' => 'This Lenovo IdeaPad Pro 5 16AKP10 configuration is built for games first: it was listed at Rs 1,92,499.',
             'keywords' => 'lenovo ideapad pro 5 16akp10 price in nepal, lenovo ideapad pro 5 16akp10, ryzen ai 5 340 laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10329,19 +10329,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Lenovo IdeaPad Slim 3 configuration was listed by ONIN Infosys at Rs 1,16,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Lenovo IdeaPad Slim 3 configuration was listed at Rs 1,16,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-13620H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.3-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. The battery is rated at 50Wh. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 (Core i7-13620H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,16,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 (Core i7-13620H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,16,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 (Core i7-13620H, 16GB/512GB) Price in Nepal & Sp',
-            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 configuration was listed by ONIN Infosys at Rs 1,16,999. ONIN listed it as out of stock when w',
+            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 configuration was listed at Rs 1,16,999.',
             'keywords' => 'lenovo ideapad slim 3 price in nepal, lenovo ideapad slim 3, core i7-13620h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10411,19 +10411,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo IdeaPad Slim 3 14AMN8 (Ryzen 5 7520U, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 87,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo IdeaPad Slim 3 14AMN8 (Ryzen 5 7520U, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 87,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7520U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming. It carries a 47Wh battery and weighs about 1.37 kg, light enough to carry every day. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 14AMN8 (Ryzen 5 7520U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 87,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 14AMN8 (Ryzen 5 7520U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 87,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3 14AMN8 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 14AMN8?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 14AMN8?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 14AMN8 (Ryzen 5 7520U, 16GB/512GB) Price in Nepa',
-            'description' => 'Lenovo IdeaPad Slim 3 14AMN8 (Ryzen 5 7520U, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it a',
+            'description' => 'Lenovo IdeaPad Slim 3 14AMN8 (Ryzen 5 7520U, 16GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'lenovo ideapad slim 3 14amn8 price in nepal, lenovo ideapad slim 3 14amn8, ryzen 5 7520u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10492,19 +10492,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Lenovo IdeaPad Slim 3 15ARP10 configuration was listed by ONIN Infosys at Rs 1,24,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For school, college and office work, this Lenovo IdeaPad Slim 3 15ARP10 configuration was listed at Rs 1,24,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen 7 170 is a 2025 rebadge of AMD's Zen 4 HS-class silicon: eight fast cores (six on Ryzen 5) that are comfortable with coding, editing and feeding a gaming GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.3-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. It carries a 50Wh battery and weighs about 1.59 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 years official warranty.</p>
+<p>The listing notes the warranty as: 1 years official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 15ARP10 (Ryzen 7 170, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,24,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 15ARP10 (Ryzen 7 170, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,24,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo IdeaPad Slim 3 15ARP10 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15ARP10?', 'ONIN\'s spec sheet lists support for up to 16GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15ARP10?', 'The spec sheet lists support for up to 16GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 15ARP10 (Ryzen 7 170, 16GB/512GB) Price in Nepal',
-            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 15ARP10 configuration was listed by ONIN Infosys at Rs 1,24,999. When we checked on 23 Novembe',
+            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 15ARP10 configuration was listed at Rs 1,24,999.',
             'keywords' => 'lenovo ideapad slim 3 15arp10 price in nepal, lenovo ideapad slim 3 15arp10, ryzen 7 170 laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10567,19 +10567,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Lenovo IdeaPad Slim 3 15IRH8 configuration was listed by ONIN Infosys at Rs 70,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Lenovo IdeaPad Slim 3 15IRH8 configuration was listed at Rs 70,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13420H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 56.6Wh battery and weighs about 1.62 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 15IRH8 (Core i5-13420H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 70,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 15IRH8 (Core i5-13420H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 70,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3 15IRH8 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15IRH8?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15IRH8?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 15IRH8 (Core i5-13420H, 16GB/512GB) Price in Nep',
-            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 15IRH8 configuration was listed by ONIN Infosys at Rs 70,999. ONIN listed it as out of stock w',
+            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 15IRH8 configuration was listed at Rs 70,999.',
             'keywords' => 'lenovo ideapad slim 3 15irh8 price in nepal, lenovo ideapad slim 3 15irh8, core i5-13420h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10640,19 +10640,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Lenovo IdeaPad Slim 3 15IRH8 configuration was listed by ONIN Infosys at Rs 68,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Lenovo IdeaPad Slim 3 15IRH8 configuration was listed at Rs 68,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13420H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 56.6Wh battery and weighs about 1.62 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 15IRH8 (Core i5-13420H, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 68,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 15IRH8 (Core i5-13420H, 8GB/512GB) in Nepal?', 'It was last listed at Rs 68,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3 15IRH8 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15IRH8?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15IRH8?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 15IRH8 (Core i5-13420H, 8GB/512GB) Price in Nepa',
-            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 15IRH8 configuration was listed by ONIN Infosys at Rs 68,999. ONIN listed it as out of stock w',
+            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 15IRH8 configuration was listed at Rs 68,999.',
             'keywords' => 'lenovo ideapad slim 3 15irh8 price in nepal, lenovo ideapad slim 3 15irh8, core i5-13420h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10720,19 +10720,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Lenovo IdeaPad Slim 3 15IRU9 configuration was listed by ONIN Infosys at Rs 76,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For school, college and office work, this Lenovo IdeaPad Slim 3 15IRU9 configuration was listed at Rs 76,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 5 120U is a low-power U-series chip. It's quick enough for Office, browsing, online classes and light photo edits, and it helps the battery last. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 47Wh battery and weighs about 1.62 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 15IRU9 (Core 5 120U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 76,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 15IRU9 (Core 5 120U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 76,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo IdeaPad Slim 3 15IRU9 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15IRU9?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15IRU9?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 15IRU9 (Core 5 120U, 8GB/512GB) Price in Nepal &',
-            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 15IRU9 configuration was listed by ONIN Infosys at Rs 76,999. When we checked on 23 November 2',
+            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3 15IRU9 configuration was listed at Rs 76,999.',
             'keywords' => 'lenovo ideapad slim 3 15iru9 price in nepal, lenovo ideapad slim 3 15iru9, core 5 120u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10803,19 +10803,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo IdeaPad Slim 5i 16IRH10R (Core 5 210H, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 93,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo IdeaPad Slim 5i 16IRH10R (Core 5 210H, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 93,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 5 210H is a 2025 H-series chip (a refreshed Raptor Lake design) with plenty of cores for multitasking, coding and gaming. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 16-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. The battery is rated at 60Wh. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 5i 16IRH10R (Core 5 210H, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 93,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo IdeaPad Slim 5i 16IRH10R (Core 5 210H, 8GB/512GB) in Nepal?', 'It was last listed at Rs 93,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo IdeaPad Slim 5i 16IRH10R good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 5i 16IRH10R?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 5i 16IRH10R?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 5i 16IRH10R (Core 5 210H, 8GB/512GB) Price in Nepa',
-            'description' => 'Lenovo IdeaPad Slim 5i 16IRH10R (Core 5 210H, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it a',
+            'description' => 'Lenovo IdeaPad Slim 5i 16IRH10R (Core 5 210H, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'lenovo ideapad slim 5i 16irh10r price in nepal, lenovo ideapad slim 5i 16irh10r, core 5 210h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10882,19 +10882,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Lenovo IdeaPad Slim 5i 16IRH10R configuration was listed by ONIN Infosys at Rs 1,14,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For school, college and office work, this Lenovo IdeaPad Slim 5i 16IRH10R configuration was listed at Rs 1,14,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 7 240H is a 2025 H-series chip (a refreshed Raptor Lake design) with plenty of cores for multitasking, coding and gaming. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 16-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It weighs about 1.85 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year.</p>
+<p>The listing notes the warranty as: 1 year.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 5i 16IRH10R (Core 7 240H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,14,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo IdeaPad Slim 5i 16IRH10R (Core 7 240H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,14,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo IdeaPad Slim 5i 16IRH10R good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 5i 16IRH10R?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 5i 16IRH10R?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 5i 16IRH10R (Core 7 240H, 16GB/512GB) Price in Nep',
-            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 5i 16IRH10R configuration was listed by ONIN Infosys at Rs 1,14,999. When we checked on 23 Novem',
+            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 5i 16IRH10R configuration was listed at Rs 1,14,999.',
             'keywords' => 'lenovo ideapad slim 5i 16irh10r price in nepal, lenovo ideapad slim 5i 16irh10r, core 7 240h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -10962,19 +10962,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo IdeaPad Slim 3 15AHP10 (Ryzen 5 8540U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 93,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo IdeaPad Slim 3 15AHP10 (Ryzen 5 8540U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 93,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 8540U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.3-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 60Wh battery and weighs about 1.63 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year offical warranty.</p>
+<p>The listing notes the warranty as: 1 year offical warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 15AHP10 (Ryzen 5 8540U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 93,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 15AHP10 (Ryzen 5 8540U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 93,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3 15AHP10 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15AHP10?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15AHP10?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 15AHP10 (Ryzen 5 8540U, 8GB/512GB) Price in Nepa',
-            'description' => 'Lenovo IdeaPad Slim 3 15AHP10 (Ryzen 5 8540U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it a',
+            'description' => 'Lenovo IdeaPad Slim 3 15AHP10 (Ryzen 5 8540U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'lenovo ideapad slim 3 15ahp10 price in nepal, lenovo ideapad slim 3 15ahp10, ryzen 5 8540u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11037,19 +11037,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo IdeaPad Slim 3 covers the basics students and home users need. ONIN Infosys listed it at Rs 66,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Lenovo IdeaPad Slim 3 covers the basics students and home users need. It was listed at Rs 66,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7730U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming. It carries a 47Wh battery and weighs about 1.37 kg, light enough to carry every day. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 (Ryzen 7 7730U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 66,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 (Ryzen 7 7730U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 66,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 (Ryzen 7 7730U, 8GB/512GB) Price in Nepal & Spec',
-            'description' => 'This Lenovo IdeaPad Slim 3 covers the basics students and home users need. ONIN Infosys listed it at Rs 66,500. ONIN listed it as out of stock when we checked',
+            'description' => 'This Lenovo IdeaPad Slim 3 covers the basics students and home users need. It was listed at Rs 66,500.',
             'keywords' => 'lenovo ideapad slim 3 price in nepal, lenovo ideapad slim 3, ryzen 7 7730u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11111,19 +11111,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo IdeaPad Slim 3 15IRH8 covers the basics students and home users need. ONIN Infosys listed it at Rs 89,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Lenovo IdeaPad Slim 3 15IRH8 covers the basics students and home users need. It was listed at Rs 89,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-13620H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 47Wh battery and weighs about 1.37 kg, light enough to carry every day. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty.</p>
+<p>The listing notes the warranty as: 1 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 15IRH8 (Core i7-13620H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 89,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 15IRH8 (Core i7-13620H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 89,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3 15IRH8 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15IRH8?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3 15IRH8?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 15IRH8 (Core i7-13620H, 16GB/512GB) Price in Nep',
-            'description' => 'This Lenovo IdeaPad Slim 3 15IRH8 covers the basics students and home users need. ONIN Infosys listed it at Rs 89,499. ONIN listed it as out of stock when we ',
+            'description' => 'This Lenovo IdeaPad Slim 3 15IRH8 covers the basics students and home users need. It was listed at Rs 89,499.',
             'keywords' => 'lenovo ideapad slim 3 15irh8 price in nepal, lenovo ideapad slim 3 15irh8, core i7-13620h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11184,19 +11184,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo IdeaPad Slim 3 covers the basics students and home users need. ONIN Infosys listed it at Rs 62,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Lenovo IdeaPad Slim 3 covers the basics students and home users need. It was listed at Rs 62,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 5 7520U is an efficient AMD U-series chip. It's good for office work, browsing and study, with reasonable battery life, but not built for sustained heavy loads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming. It carries a 45Wh battery and weighs about 1.63 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3 (Ryzen 5 7520U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 62,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3 (Ryzen 5 7520U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 62,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3 (Ryzen 5 7520U, 8GB/512GB) Price in Nepal & Spec',
-            'description' => 'This Lenovo IdeaPad Slim 3 covers the basics students and home users need. ONIN Infosys listed it at Rs 62,000. ONIN listed it as out of stock when we checked',
+            'description' => 'This Lenovo IdeaPad Slim 3 covers the basics students and home users need. It was listed at Rs 62,000.',
             'keywords' => 'lenovo ideapad slim 3 price in nepal, lenovo ideapad slim 3, ryzen 5 7520u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11258,19 +11258,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo IdeaPad Slim 3i covers the basics students and home users need. ONIN Infosys listed it at Rs 1,15,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Lenovo IdeaPad Slim 3i covers the basics students and home users need. It was listed at Rs 1,15,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-13620H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming. It carries a 47Wh battery and weighs about 1.37 kg, light enough to carry every day. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3i (Core i7-13620H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,15,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3i (Core i7-13620H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,15,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3i good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3i?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3i?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3i (Core i7-13620H, 16GB/512GB) Price in Nepal & S',
-            'description' => 'This Lenovo IdeaPad Slim 3i covers the basics students and home users need. ONIN Infosys listed it at Rs 1,15,999. ONIN listed it as out of stock when we chec',
+            'description' => 'This Lenovo IdeaPad Slim 3i covers the basics students and home users need. It was listed at Rs 1,15,999.',
             'keywords' => 'lenovo ideapad slim 3i price in nepal, lenovo ideapad slim 3i, core i7-13620h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11335,19 +11335,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo LOQ 15 AX9E configuration is built for games first: ONIN Infosys listed it at Rs 2,07,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Lenovo LOQ 15 AX9E configuration is built for games first: it was listed at Rs 2,07,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-12650HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. Ports include USB-C, HDMI, Ethernet and a card reader. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 2 years + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 2 years + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo LOQ 15 AX9E (Core i7-12650HX, 16GB/512GB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 2,07,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo LOQ 15 AX9E (Core i7-12650HX, 16GB/512GB, RTX 4050) in Nepal?', 'It was last listed at Rs 2,07,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo LOQ 15 AX9E run modern games?', 'Graphics come from the NVIDIA RTX 4050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this Lenovo LOQ 15 AX9E?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo LOQ 15 AX9E?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo LOQ 15 AX9E (Core i7-12650HX, 16GB/512GB, RTX 4050) Price in Ne',
-            'description' => 'This Lenovo LOQ 15 AX9E configuration is built for games first: ONIN Infosys listed it at Rs 2,07,499. ONIN listed it as out of stock when we checked on 23 No',
+            'description' => 'This Lenovo LOQ 15 AX9E configuration is built for games first: it was listed at Rs 2,07,499.',
             'keywords' => 'lenovo loq 15 ax9e price in nepal, lenovo loq 15 ax9e, core i7-12650hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11412,21 +11412,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15AHP9 was listed by ONIN Infosys at Rs 1,64,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15AHP9 was listed at Rs 1,64,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 8845HS is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 4060 with 16GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 60Wh battery and weighs about 2.38 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo LOQ 15AHP9 (Ryzen 7 8845HS, 16GB/1TB, RTX 4060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,64,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo LOQ 15AHP9 (Ryzen 7 8845HS, 16GB/1TB, RTX 4060) in Nepal?', 'It was last listed at Rs 1,64,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo LOQ 15AHP9 run modern games?', <<<'HTML'
 The NVIDIA RTX 4060 with 16GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools.
 HTML],
-            ['Can I upgrade the RAM on this Lenovo LOQ 15AHP9?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo LOQ 15AHP9?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo LOQ 15AHP9 (Ryzen 7 8845HS, 16GB/1TB, RTX 4060) Price in Nepal ',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15AHP9 was listed by ONIN Infosys at Rs 1,64,999. ONIN listed it as out ',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15AHP9 was listed at Rs 1,64,999.',
             'keywords' => 'lenovo loq 15ahp9 price in nepal, lenovo loq 15ahp9, ryzen 7 8845hs laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11494,21 +11494,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo LOQ 15IAX9E (Core i5-12450HX, 16GB/512GB, RTX 4050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,44,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo LOQ 15IAX9E (Core i5-12450HX, 16GB/512GB, RTX 4050) is a gaming laptop that sold in Nepal for Rs 1,44,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-12450HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 4050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. The battery is rated at 57Wh. Ports include USB-C, HDMI, Ethernet and a card reader. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo LOQ 15IAX9E (Core i5-12450HX, 16GB/512GB, RTX 4050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,44,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo LOQ 15IAX9E (Core i5-12450HX, 16GB/512GB, RTX 4050) in Nepal?', 'It was last listed at Rs 1,44,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo LOQ 15IAX9E run modern games?', <<<'HTML'
 The NVIDIA RTX 4050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Lenovo LOQ 15IAX9E?', 'ONIN\'s spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
+            ['Can I upgrade the RAM on this Lenovo LOQ 15IAX9E?', 'The spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
         ],
         'seo' => [
             'title' => 'Lenovo LOQ 15IAX9E (Core i5-12450HX, 16GB/512GB, RTX 4050) Price in Ne',
-            'description' => 'Lenovo LOQ 15IAX9E (Core i5-12450HX, 16GB/512GB, RTX 4050) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,44,999. ONIN listed it as out of stock ',
+            'description' => 'Lenovo LOQ 15IAX9E (Core i5-12450HX, 16GB/512GB, RTX 4050) is a gaming laptop that sold in Nepal for Rs 1,44,999.',
             'keywords' => 'lenovo loq 15iax9e price in nepal, lenovo loq 15iax9e, core i5-12450hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11571,19 +11571,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15IRH8 was listed by ONIN Infosys at Rs 95,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15IRH8 was listed at Rs 95,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-12450HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. Graphics come from the NVIDIA RTX 2050 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 12GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 60Wh battery and weighs about 2.4 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty.</p>
+<p>The listing notes the warranty as: 1 year warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo LOQ 15IRH8 (Core i5-12450HX, 12GB/512GB, RTX 2050) in Nepal?', 'ONIN Infosys last listed it at Rs 95,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo LOQ 15IRH8 (Core i5-12450HX, 12GB/512GB, RTX 2050) in Nepal?', 'It was last listed at Rs 95,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo LOQ 15IRH8 run modern games?', 'Graphics come from the NVIDIA RTX 2050 with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this Lenovo LOQ 15IRH8?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo LOQ 15IRH8?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo LOQ 15IRH8 (Core i5-12450HX, 12GB/512GB, RTX 2050) Price in Nep',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15IRH8 was listed by ONIN Infosys at Rs 95,999. ONIN listed it as out of',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15IRH8 was listed at Rs 95,999.',
             'keywords' => 'lenovo loq 15irh8 price in nepal, lenovo loq 15irh8, core i5-12450hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11645,21 +11645,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15IRH8 was listed by ONIN Infosys at Rs 1,11,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15IRH8 was listed at Rs 1,11,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13500H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. Graphics come from the NVIDIA RTX 3050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It weighs about 2.4 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1-Year Global Warranty.</p>
+<p>The listing notes the warranty as: 1-Year Global Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo LOQ 15IRH8 (Core i5-13500H, 8GB/1TB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,11,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo LOQ 15IRH8 (Core i5-13500H, 8GB/1TB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,11,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo LOQ 15IRH8 run modern games?', <<<'HTML'
 The NVIDIA RTX 3050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Lenovo LOQ 15IRH8?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo LOQ 15IRH8?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo LOQ 15IRH8 (Core i5-13500H, 8GB/1TB, RTX 3050) Price in Nepal &',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15IRH8 was listed by ONIN Infosys at Rs 1,11,500. ONIN listed it as out ',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 15IRH8 was listed at Rs 1,11,500.',
             'keywords' => 'lenovo loq 15irh8 price in nepal, lenovo loq 15irh8, core i5-13500h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11727,21 +11727,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo LOQ 15IRX10 configuration is built for games first: ONIN Infosys listed it at Rs 1,77,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This Lenovo LOQ 15IRX10 configuration is built for games first: it was listed at Rs 1,77,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core i5-13450HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. It carries a 60Wh battery and weighs about 2.4 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty. we offer Extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year warranty. we offer Extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo LOQ 15IRX10 (Core i5-13450HX, 16GB/512GB, RTX 5050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,77,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo LOQ 15IRX10 (Core i5-13450HX, 16GB/512GB, RTX 5050) in Nepal?', 'It was last listed at Rs 1,77,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo LOQ 15IRX10 run modern games?', <<<'HTML'
 The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games.
 HTML],
-            ['Can I upgrade the RAM on this Lenovo LOQ 15IRX10?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo LOQ 15IRX10?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo LOQ 15IRX10 (Core i5-13450HX, 16GB/512GB, RTX 5050) Price in Ne',
-            'description' => 'This Lenovo LOQ 15IRX10 configuration is built for games first: ONIN Infosys listed it at Rs 1,77,499. When we checked on 23 November 2026, ONIN listed it as ',
+            'description' => 'This Lenovo LOQ 15IRX10 configuration is built for games first: it was listed at Rs 1,77,499.',
             'keywords' => 'lenovo loq 15irx10 price in nepal, lenovo loq 15irx10, core i5-13450hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11806,19 +11806,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo LOQ 15IRX10 (Core i7-13700HX, 24GB/512GB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,24,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo LOQ 15IRX10 (Core i7-13700HX, 24GB/512GB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,24,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core i7-13700HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 24GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. The battery is rated at 60Wh. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 years warranty.</p>
+<p>The listing notes the warranty as: 1 years warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo LOQ 15IRX10 (Core i7-13700HX, 24GB/512GB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,24,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo LOQ 15IRX10 (Core i7-13700HX, 24GB/512GB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,24,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo LOQ 15IRX10 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo LOQ 15IRX10?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo LOQ 15IRX10?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo LOQ 15IRX10 (Core i7-13700HX, 24GB/512GB, RTX 5060) Price in Ne',
-            'description' => 'Lenovo LOQ 15IRX10 (Core i7-13700HX, 24GB/512GB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,24,999. When we checked on 23 November ',
+            'description' => 'Lenovo LOQ 15IRX10 (Core i7-13700HX, 24GB/512GB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,24,999.',
             'keywords' => 'lenovo loq 15irx10 price in nepal, lenovo loq 15irx10, core i7-13700hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11889,21 +11889,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 3 was listed by ONIN Infosys at Rs 1,06,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 3 was listed at Rs 1,06,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-12450HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 3050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. The battery is rated at 60Wh. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo LOQ 3 (Core i5-12450HX, 8GB/512GB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,06,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo LOQ 3 (Core i5-12450HX, 8GB/512GB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,06,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo LOQ 3 run modern games?', <<<'HTML'
 The NVIDIA RTX 3050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this Lenovo LOQ 3?', 'ONIN\'s spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
+            ['Can I upgrade the RAM on this Lenovo LOQ 3?', 'The spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
         ],
         'seo' => [
             'title' => 'Lenovo LOQ 3 (Core i5-12450HX, 8GB/512GB, RTX 3050) Price in Nepal & S',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 3 was listed by ONIN Infosys at Rs 1,06,000. ONIN listed it as out of st',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo LOQ 3 was listed at Rs 1,06,000.',
             'keywords' => 'lenovo loq 3 price in nepal, lenovo loq 3, core i5-12450hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -11971,19 +11971,19 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Lenovo Legion 5 15IAX10 was listed by ONIN Infosys at Rs 2,87,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Lenovo Legion 5 15IAX10 was listed at Rs 2,87,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 7 255HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 15.1-inch WQXGA (2560 × 1600) OLED 165Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 80Wh battery and weighs about 1.9 kg. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion 5 15IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,87,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Legion 5 15IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,87,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo Legion 5 15IAX10 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo Legion 5 15IAX10?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion 5 15IAX10?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion 5 15IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) Price',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo Legion 5 15IAX10 was listed by ONIN Infosys at Rs 2,87,999. When we checked ',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo Legion 5 15IAX10 was listed at Rs 2,87,999.',
             'keywords' => 'lenovo legion 5 15iax10 price in nepal, lenovo legion 5 15iax10, core ultra 7 255hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12051,18 +12051,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo Legion 5 16IRX9 (Core i9-14900HX, 32GB/1TB, RTX 4060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,17,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo Legion 5 16IRX9 (Core i9-14900HX, 32GB/1TB, RTX 4060) is a gaming laptop that sold in Nepal for Rs 2,17,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i9-14900HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 4060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 165Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 80Wh battery and weighs about 2.3 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI, Ethernet and a card reader. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion 5 16IRX9 (Core i9-14900HX, 32GB/1TB, RTX 4060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,17,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo Legion 5 16IRX9 (Core i9-14900HX, 32GB/1TB, RTX 4060) in Nepal?', 'It was last listed at Rs 2,17,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo Legion 5 16IRX9 run modern games?', 'With the NVIDIA RTX 4060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo Legion 5 16IRX9?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion 5 16IRX9?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion 5 16IRX9 (Core i9-14900HX, 32GB/1TB, RTX 4060) Price in ',
-            'description' => 'Lenovo Legion 5 16IRX9 (Core i9-14900HX, 32GB/1TB, RTX 4060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,17,999. ONIN listed it as out of stoc',
+            'description' => 'Lenovo Legion 5 16IRX9 (Core i9-14900HX, 32GB/1TB, RTX 4060) is a gaming laptop that sold in Nepal for Rs 2,17,999.',
             'keywords' => 'lenovo legion 5 16irx9 price in nepal, lenovo legion 5 16irx9, core i9-14900hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12117,18 +12117,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo Legion 5 IRX10 configuration is built for games first: ONIN Infosys listed it at Rs 1,92,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This Lenovo Legion 5 IRX10 configuration is built for games first: it was listed at Rs 1,92,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core i7-14650HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.3-inch 2.8K 180Hz display makes games and even scrolling look smooth. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion 5 IRX10 (Core i7-14650HX, 16GB/512GB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,92,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Legion 5 IRX10 (Core i7-14650HX, 16GB/512GB, RTX 5060) in Nepal?', 'It was last listed at Rs 1,92,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo Legion 5 IRX10 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo Legion 5 IRX10?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion 5 IRX10?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion 5 IRX10 (Core i7-14650HX, 16GB/512GB, RTX 5060) Price in',
-            'description' => 'This Lenovo Legion 5 IRX10 configuration is built for games first: ONIN Infosys listed it at Rs 1,92,499. When we checked on 23 November 2026, ONIN listed it ',
+            'description' => 'This Lenovo Legion 5 IRX10 configuration is built for games first: it was listed at Rs 1,92,499.',
             'keywords' => 'lenovo legion 5 irx10 price in nepal, lenovo legion 5 irx10, core i7-14650hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12188,19 +12188,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo Legion 5 Pro (Core i7-12700H, 16GB/512GB, RTX 3050 Ti) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,85,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo Legion 5 Pro (Core i7-12700H, 16GB/512GB, RTX 3050 Ti) is a gaming laptop that sold in Nepal for Rs 1,85,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i7-12700H is a 12th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. Graphics come from the NVIDIA RTX 3050 Ti with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 165Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 60Wh battery and weighs about 2.3 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion 5 Pro (Core i7-12700H, 16GB/512GB, RTX 3050 Ti) in Nepal?', 'ONIN Infosys last listed it at Rs 1,85,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo Legion 5 Pro (Core i7-12700H, 16GB/512GB, RTX 3050 Ti) in Nepal?', 'It was last listed at Rs 1,85,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo Legion 5 Pro run modern games?', 'Graphics come from the NVIDIA RTX 3050 Ti with 4GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games.'],
-            ['Can I upgrade the RAM on this Lenovo Legion 5 Pro?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion 5 Pro?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion 5 Pro (Core i7-12700H, 16GB/512GB, RTX 3050 Ti) Price in',
-            'description' => 'Lenovo Legion 5 Pro (Core i7-12700H, 16GB/512GB, RTX 3050 Ti) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,85,000. ONIN listed it as out of sto',
+            'description' => 'Lenovo Legion 5 Pro (Core i7-12700H, 16GB/512GB, RTX 3050 Ti) is a gaming laptop that sold in Nepal for Rs 1,85,000.',
             'keywords' => 'lenovo legion 5 pro price in nepal, lenovo legion 5 pro, core i7-12700h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12272,19 +12272,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo Legion 7i Gen 10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 3,32,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo Legion 7i Gen 10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 3,32,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 7 255HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 16-inch WQXGA (2560 × 1600) OLED 240Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It weighs about 2 kg. Ports include USB-C, HDMI and a card reader. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion 7i Gen 10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 3,32,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Legion 7i Gen 10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 3,32,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo Legion 7i Gen 10 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo Legion 7i Gen 10?', 'ONIN\'s spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
+            ['Can I upgrade the RAM on this Lenovo Legion 7i Gen 10?', 'The spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion 7i Gen 10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) Price',
-            'description' => 'Lenovo Legion 7i Gen 10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 3,32,999. When we checked on 23 Nov',
+            'description' => 'Lenovo Legion 7i Gen 10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 3,32,999.',
             'keywords' => 'lenovo legion 7i gen 10 price in nepal, lenovo legion 7i gen 10, core ultra 7 255hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12356,19 +12356,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Lenovo Legion Pro 5 16IAX10 was listed by ONIN Infosys at Rs 2,70,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Lenovo Legion Pro 5 16IAX10 was listed at Rs 2,70,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 7 255HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel's native resolution in most games, plus serious GPU work like 3D rendering. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 16-inch WQXGA (2560 × 1600) OLED 165Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. The battery is rated at 80Wh. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year warranty + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion Pro 5 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5070) in Nepal?', 'ONIN Infosys last listed it at Rs 2,70,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Legion Pro 5 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5070) in Nepal?', 'It was last listed at Rs 2,70,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo Legion Pro 5 16IAX10 run modern games?', 'The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel\'s native resolution in most games, plus serious GPU work like 3D rendering.'],
-            ['Can I upgrade the RAM on this Lenovo Legion Pro 5 16IAX10?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion Pro 5 16IAX10?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion Pro 5 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5070) P',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo Legion Pro 5 16IAX10 was listed by ONIN Infosys at Rs 2,70,999. When we chec',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo Legion Pro 5 16IAX10 was listed at Rs 2,70,999.',
             'keywords' => 'lenovo legion pro 5 16iax10 price in nepal, lenovo legion pro 5 16iax10, core ultra 7 255hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12434,18 +12434,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo Legion Pro 5 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 3,41,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo Legion Pro 5 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) is a gaming laptop that sold in Nepal for Rs 3,41,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 9 275HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel's native resolution in most games, plus serious GPU work like 3D rendering. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 16-inch WQXGA (2560 × 1600) OLED 165Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. The battery is rated at 80Wh. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion Pro 5 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) in Nepal?', 'ONIN Infosys last listed it at Rs 3,41,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Legion Pro 5 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) in Nepal?', 'It was last listed at Rs 3,41,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo Legion Pro 5 run modern games?', 'The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel\'s native resolution in most games, plus serious GPU work like 3D rendering.'],
-            ['Can I upgrade the RAM on this Lenovo Legion Pro 5?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion Pro 5?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion Pro 5 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) Price in ',
-            'description' => 'Lenovo Legion Pro 5 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 3,41,000. When we checked on 23 Novembe',
+            'description' => 'Lenovo Legion Pro 5 (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) is a gaming laptop that sold in Nepal for Rs 3,41,000.',
             'keywords' => 'lenovo legion pro 5 price in nepal, lenovo legion pro 5, core ultra 9 275hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12522,19 +12522,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo Legion Pro 5i 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,23,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo Legion Pro 5i 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,23,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 7 255HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 16-inch WQXGA (2560 × 1600) OLED 165Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 80Wh battery and weighs about 2.43 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year + Free lifetime service warranty.</p>
+<p>The listing notes the warranty as: 1 year + Free lifetime service warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion Pro 5i 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,23,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Legion Pro 5i 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,23,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo Legion Pro 5i 16IAX10 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo Legion Pro 5i 16IAX10?', 'ONIN\'s spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
+            ['Can I upgrade the RAM on this Lenovo Legion Pro 5i 16IAX10?', 'The spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion Pro 5i 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) ',
-            'description' => 'Lenovo Legion Pro 5i 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,23,499. When we checked on 2',
+            'description' => 'Lenovo Legion Pro 5i 16IAX10 (Core Ultra 7 255HX, 16GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,23,499.',
             'keywords' => 'lenovo legion pro 5i 16iax10 price in nepal, lenovo legion pro 5i 16iax10, core ultra 7 255hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12599,19 +12599,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This Lenovo Legion Pro 7i configuration is built for games first: ONIN Infosys listed it at Rs 5,19,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>This Lenovo Legion Pro 7i configuration is built for games first: it was listed at Rs 5,19,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i9-14900HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 4090 with 16GB of VRAM is a top-tier laptop GPU, built for high-refresh 1440p gaming at high settings, heavy 3D work and large AI models. 32GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch WQXGA (2560 × 1600) 240Hz display makes games and even scrolling look smooth, and the 16:10 shape gives extra vertical room for documents. It carries a 99.9Wh battery and weighs about 2.62 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Years Warranty.</p>
+<p>The listing notes the warranty as: 1 Years Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion Pro 7i (Core i9-14900HX, 32GB/1TB, RTX 4090) in Nepal?', 'ONIN Infosys last listed it at Rs 5,19,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo Legion Pro 7i (Core i9-14900HX, 32GB/1TB, RTX 4090) in Nepal?', 'It was last listed at Rs 5,19,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo Legion Pro 7i run modern games?', 'The NVIDIA RTX 4090 with 16GB of VRAM is a top-tier laptop GPU, built for high-refresh 1440p gaming at high settings, heavy 3D work and large AI models.'],
-            ['Can I upgrade the RAM on this Lenovo Legion Pro 7i?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion Pro 7i?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion Pro 7i (Core i9-14900HX, 32GB/1TB, RTX 4090) Price in Ne',
-            'description' => 'This Lenovo Legion Pro 7i configuration is built for games first: ONIN Infosys listed it at Rs 5,19,000. ONIN listed it as out of stock when we checked on 23 ',
+            'description' => 'This Lenovo Legion Pro 7i configuration is built for games first: it was listed at Rs 5,19,000.',
             'keywords' => 'lenovo legion pro 7i price in nepal, lenovo legion pro 7i, core i9-14900hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12667,19 +12667,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo Legion R7000 (Ryzen 7 7735H, 16GB/512GB, RTX 4060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,57,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo Legion R7000 (Ryzen 7 7735H, 16GB/512GB, RTX 4060) is a gaming laptop that sold in Nepal for Rs 1,57,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Ryzen 7 7735H is a 45W-class AMD performance chip that's comfortable with coding, content work and pairing with a dedicated GPU for games. The NVIDIA RTX 4060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 165Hz display makes games and even scrolling look smooth. It carries a 60Wh battery and weighs about 2.4 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 Years Official Warranty (with VAT bill).</p>
+<p>The listing notes the warranty as: 1 Years Official Warranty (with VAT bill).</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion R7000 (Ryzen 7 7735H, 16GB/512GB, RTX 4060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,57,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo Legion R7000 (Ryzen 7 7735H, 16GB/512GB, RTX 4060) in Nepal?', 'It was last listed at Rs 1,57,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Can the Lenovo Legion R7000 run modern games?', 'With the NVIDIA RTX 4060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo Legion R7000?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion R7000?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion R7000 (Ryzen 7 7735H, 16GB/512GB, RTX 4060) Price in Nep',
-            'description' => 'Lenovo Legion R7000 (Ryzen 7 7735H, 16GB/512GB, RTX 4060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 1,57,499. ONIN listed it as out of stock w',
+            'description' => 'Lenovo Legion R7000 (Ryzen 7 7735H, 16GB/512GB, RTX 4060) is a gaming laptop that sold in Nepal for Rs 1,57,499.',
             'keywords' => 'lenovo legion r7000 price in nepal, lenovo legion r7000, ryzen 7 7735h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12728,18 +12728,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For players who want a dedicated GPU without spending flagship money, this Lenovo Legion Y7000P was listed by ONIN Infosys at Rs 1,90,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>For players who want a dedicated GPU without spending flagship money, this Lenovo Legion Y7000P was listed at Rs 1,90,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core i7-14700HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 16-inch 2.5K 180Hz display makes games and even scrolling look smooth. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion Y7000P (Core i7-14700HX, 16GB/512GB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,90,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Legion Y7000P (Core i7-14700HX, 16GB/512GB, RTX 5060) in Nepal?', 'It was last listed at Rs 1,90,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo Legion Y7000P run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo Legion Y7000P?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Legion Y7000P?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion Y7000P (Core i7-14700HX, 16GB/512GB, RTX 5060) Price in ',
-            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo Legion Y7000P was listed by ONIN Infosys at Rs 1,90,499. When we checked on ',
+            'description' => 'For players who want a dedicated GPU without spending flagship money, this Lenovo Legion Y7000P was listed at Rs 1,90,499.',
             'keywords' => 'lenovo legion y7000p price in nepal, lenovo legion y7000p, core i7-14700hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12810,19 +12810,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo ThinkBook 14 G6 IRL (Core i5-13420H, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 97,499. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo ThinkBook 14 G6 IRL (Core i5-13420H, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 97,499. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13420H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. The battery is rated at 60Wh. Ports include USB-C, HDMI, Ethernet and a card reader. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo ThinkBook 14 G6 IRL (Core i5-13420H, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 97,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo ThinkBook 14 G6 IRL (Core i5-13420H, 8GB/512GB) in Nepal?', 'It was last listed at Rs 97,499. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo ThinkBook 14 G6 IRL good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo ThinkBook 14 G6 IRL?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo ThinkBook 14 G6 IRL?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkBook 14 G6 IRL (Core i5-13420H, 8GB/512GB) Price in Nepal ',
-            'description' => 'Lenovo ThinkBook 14 G6 IRL (Core i5-13420H, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs',
+            'description' => 'Lenovo ThinkBook 14 G6 IRL (Core i5-13420H, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build.',
             'keywords' => 'lenovo thinkbook 14 g6 irl price in nepal, lenovo thinkbook 14 g6 irl, core i5-13420h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12892,19 +12892,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Lenovo ThinkBook 14 G8 IAL was listed by ONIN Infosys at Rs 1,09,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Built for offices and long workdays, this Lenovo ThinkBook 14 G8 IAL was listed at Rs 1,09,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 5 225U handles everyday work comfortably. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. It carries a 45Wh battery and weighs about 1.36 kg, light enough to carry every day. Ports include USB-C, HDMI, Ethernet and a card reader. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1-Year International Warranty.</p>
+<p>The listing notes the warranty as: 1-Year International Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo ThinkBook 14 G8 IAL (Core Ultra 5 225U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,09,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo ThinkBook 14 G8 IAL (Core Ultra 5 225U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,09,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo ThinkBook 14 G8 IAL good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo ThinkBook 14 G8 IAL?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo ThinkBook 14 G8 IAL?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkBook 14 G8 IAL (Core Ultra 5 225U, 16GB/512GB) Price in Ne',
-            'description' => 'Built for offices and long workdays, this Lenovo ThinkBook 14 G8 IAL was listed by ONIN Infosys at Rs 1,09,999. When we checked on 23 November 2026, ONIN list',
+            'description' => 'Built for offices and long workdays, this Lenovo ThinkBook 14 G8 IAL was listed at Rs 1,09,999.',
             'keywords' => 'lenovo thinkbook 14 g8 ial price in nepal, lenovo thinkbook 14 g8 ial, core ultra 5 225u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -12976,19 +12976,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo ThinkBook 14 G8 IAL (Core Ultra 7 255H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 1,59,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo ThinkBook 14 G8 IAL (Core Ultra 7 255H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 1,59,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 7 255H (Arrow Lake) is a current-generation performance chip that pairs strong multi-core speed with Intel's newer Arc graphics and an NPU for on-device AI features. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. It carries a 45Wh battery and weighs about 1.36 kg, light enough to carry every day. Ports include USB-C, HDMI, Ethernet and a card reader. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1-Year International Warranty.</p>
+<p>The listing notes the warranty as: 1-Year International Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo ThinkBook 14 G8 IAL (Core Ultra 7 255H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,59,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo ThinkBook 14 G8 IAL (Core Ultra 7 255H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,59,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo ThinkBook 14 G8 IAL good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo ThinkBook 14 G8 IAL?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo ThinkBook 14 G8 IAL?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkBook 14 G8 IAL (Core Ultra 7 255H, 16GB/512GB) Price in Ne',
-            'description' => 'Lenovo ThinkBook 14 G8 IAL (Core Ultra 7 255H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it a',
+            'description' => 'Lenovo ThinkBook 14 G8 IAL (Core Ultra 7 255H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build.',
             'keywords' => 'lenovo thinkbook 14 g8 ial price in nepal, lenovo thinkbook 14 g8 ial, core ultra 7 255h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13055,18 +13055,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Lenovo ThinkPad E14 Gen 6 was listed by ONIN Infosys at Rs 1,43,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Lenovo ThinkPad E14 Gen 6 was listed at Rs 1,43,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 7 155U (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. Ports include Thunderbolt and HDMI. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo ThinkPad E14 Gen 6 (Core Ultra 7 155U, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,43,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo ThinkPad E14 Gen 6 (Core Ultra 7 155U, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,43,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo ThinkPad E14 Gen 6 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo ThinkPad E14 Gen 6?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo ThinkPad E14 Gen 6?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkPad E14 Gen 6 (Core Ultra 7 155U, 16GB/512GB) Price in Nep',
-            'description' => 'Built for offices and long workdays, this Lenovo ThinkPad E14 Gen 6 was listed by ONIN Infosys at Rs 1,43,999. ONIN listed it as out of stock when we checked ',
+            'description' => 'Built for offices and long workdays, this Lenovo ThinkPad E14 Gen 6 was listed at Rs 1,43,999.',
             'keywords' => 'lenovo thinkpad e14 gen 6 price in nepal, lenovo thinkpad e14 gen 6, core ultra 7 155u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13136,19 +13136,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Lenovo ThinkPad E14 Gen 7 was listed by ONIN Infosys at Rs 1,60,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Built for offices and long workdays, this Lenovo ThinkPad E14 Gen 7 was listed at Rs 1,60,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 5 210H is a 2025 H-series chip (a refreshed Raptor Lake design) with plenty of cores for multitasking, coding and gaming. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. It carries a 48Wh battery and weighs about 1.34 kg, light enough to carry every day. Ports include USB-C, HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 3 year official warranty.</p>
+<p>The listing notes the warranty as: 3 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo ThinkPad E14 Gen 7 (Core 5 210H, 8GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,60,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo ThinkPad E14 Gen 7 (Core 5 210H, 8GB/1TB) in Nepal?', 'It was last listed at Rs 1,60,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo ThinkPad E14 Gen 7 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo ThinkPad E14 Gen 7?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo ThinkPad E14 Gen 7?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkPad E14 Gen 7 (Core 5 210H, 8GB/1TB) Price in Nepal & Spec',
-            'description' => 'Built for offices and long workdays, this Lenovo ThinkPad E14 Gen 7 was listed by ONIN Infosys at Rs 1,60,499. When we checked on 23 November 2026, ONIN liste',
+            'description' => 'Built for offices and long workdays, this Lenovo ThinkPad E14 Gen 7 was listed at Rs 1,60,499.',
             'keywords' => 'lenovo thinkpad e14 gen 7 price in nepal, lenovo thinkpad e14 gen 7, core 5 210h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13219,19 +13219,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo ThinkPad E14 Gen 7 (Core Ultra 7 255H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 2,38,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo ThinkPad E14 Gen 7 (Core Ultra 7 255H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 2,38,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 7 255H (Arrow Lake) is a current-generation performance chip that pairs strong multi-core speed with Intel's newer Arc graphics and an NPU for on-device AI features. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling. It carries a 48Wh battery and weighs about 1.34 kg, light enough to carry every day. Ports include USB-C, HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 3 years official warranty.</p>
+<p>The listing notes the warranty as: 3 years official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo ThinkPad E14 Gen 7 (Core Ultra 7 255H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 2,38,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo ThinkPad E14 Gen 7 (Core Ultra 7 255H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 2,38,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo ThinkPad E14 Gen 7 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo ThinkPad E14 Gen 7?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo ThinkPad E14 Gen 7?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkPad E14 Gen 7 (Core Ultra 7 255H, 16GB/512GB) Price in Nep',
-            'description' => 'Lenovo ThinkPad E14 Gen 7 (Core Ultra 7 255H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at',
+            'description' => 'Lenovo ThinkPad E14 Gen 7 (Core Ultra 7 255H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build.',
             'keywords' => 'lenovo thinkpad e14 gen 7 price in nepal, lenovo thinkpad e14 gen 7, core ultra 7 255h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13294,19 +13294,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Built for offices and long workdays, this Lenovo ThinkPad L13 Yoga was listed by ONIN Infosys at Rs 87,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Built for offices and long workdays, this Lenovo ThinkPad L13 Yoga was listed at Rs 87,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1135G7 is a 11th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 13.3-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. The battery is rated at 46Wh. Ports include USB-C, HDMI and a card reader. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1-Year.</p>
+<p>The listing notes the warranty as: 1-Year.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo ThinkPad L13 Yoga (Core i5-1135G7, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 87,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo ThinkPad L13 Yoga (Core i5-1135G7, 16GB/512GB) in Nepal?', 'It was last listed at Rs 87,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo ThinkPad L13 Yoga good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo ThinkPad L13 Yoga?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo ThinkPad L13 Yoga?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkPad L13 Yoga (Core i5-1135G7, 16GB/512GB) Price in Nepal &',
-            'description' => 'Built for offices and long workdays, this Lenovo ThinkPad L13 Yoga was listed by ONIN Infosys at Rs 87,500. ONIN listed it as out of stock when we checked on ',
+            'description' => 'Built for offices and long workdays, this Lenovo ThinkPad L13 Yoga was listed at Rs 87,500.',
             'keywords' => 'lenovo thinkpad l13 yoga price in nepal, lenovo thinkpad l13 yoga, core i5-1135g7 laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13357,19 +13357,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo ThinkPad Yoga L13 Gen 5 (Core Ultra 7 155U, 16GB/1TB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 2,15,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo ThinkPad Yoga L13 Gen 5 (Core Ultra 7 155U, 16GB/1TB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 2,15,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core Ultra 7 155U (Meteor Lake) was Intel's first chip with a built-in NPU, and its Arc integrated graphics are a clear step up from older Iris Xe for light editing and casual games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 13.3-inch WUXGA (1920 × 1200) panel uses a 16:10 shape, so you see more of each web page or document without scrolling, and it is touch-enabled. The battery is rated at 46Wh. Ports include USB-C and HDMI. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 3 years.</p>
+<p>The listing notes the warranty as: 3 years.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo ThinkPad Yoga L13 Gen 5 (Core Ultra 7 155U, 16GB/1TB) in Nepal?', 'ONIN Infosys last listed it at Rs 2,15,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo ThinkPad Yoga L13 Gen 5 (Core Ultra 7 155U, 16GB/1TB) in Nepal?', 'It was last listed at Rs 2,15,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo ThinkPad Yoga L13 Gen 5 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo ThinkPad Yoga L13 Gen 5?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo ThinkPad Yoga L13 Gen 5?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo ThinkPad Yoga L13 Gen 5 (Core Ultra 7 155U, 16GB/1TB) Price in ',
-            'description' => 'Lenovo ThinkPad Yoga L13 Gen 5 (Core Ultra 7 155U, 16GB/1TB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it',
+            'description' => 'Lenovo ThinkPad Yoga L13 Gen 5 (Core Ultra 7 155U, 16GB/1TB) is a work-first laptop with a sensible spec sheet and business-line build.',
             'keywords' => 'lenovo thinkpad yoga l13 gen 5 price in nepal, lenovo thinkpad yoga l13 gen 5, core ultra 7 155u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13439,19 +13439,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo V14 Gen 5 (Core i5-13420H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 96,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo V14 Gen 5 (Core i5-13420H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 96,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13420H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming. It carries a 47Wh battery and weighs about 1.37 kg, light enough to carry every day. Ports include USB-C, HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo V14 Gen 5 (Core i5-13420H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 96,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo V14 Gen 5 (Core i5-13420H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 96,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo V14 Gen 5 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo V14 Gen 5?', 'ONIN\'s spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
+            ['Can I upgrade the RAM on this Lenovo V14 Gen 5?', 'The spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
         ],
         'seo' => [
             'title' => 'Lenovo V14 Gen 5 (Core i5-13420H, 16GB/512GB) Price in Nepal & Specs',
-            'description' => 'Lenovo V14 Gen 5 (Core i5-13420H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 96,999. ',
+            'description' => 'Lenovo V14 Gen 5 (Core i5-13420H, 16GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 96,999.',
             'keywords' => 'lenovo v14 gen 5 price in nepal, lenovo v14 gen 5, core i5-13420h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13520,19 +13520,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo V14 Gen 4 (Core i3-1315U, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 69,999. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo V14 Gen 4 (Core i3-1315U, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 69,999. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i3-1315U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming. It carries a 38Wh battery and weighs about 1.43 kg, light enough to carry every day. Ports include USB-C, HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty / 1 year Service warranty and we offer Extended warranty Also.</p>
+<p>The listing notes the warranty as: 1 year official warranty / 1 year Service warranty and we offer Extended warranty Also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo V14 Gen 4 (Core i3-1315U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 69,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo V14 Gen 4 (Core i3-1315U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 69,999. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo V14 Gen 4 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo V14 Gen 4?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo V14 Gen 4?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo V14 Gen 4 (Core i3-1315U, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Lenovo V14 Gen 4 (Core i3-1315U, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 69,999. ON',
+            'description' => 'Lenovo V14 Gen 4 (Core i3-1315U, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 69,999.',
             'keywords' => 'lenovo v14 gen 4 price in nepal, lenovo v14 gen 4, core i3-1315u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13595,19 +13595,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo V15 Gen 3 (Core i5 (12th Gen), 8GB/256GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 68,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
-<p>ONIN lists it only as a 12th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
+<p>Lenovo V15 Gen 3 (Core i5 (12th Gen), 8GB/256GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 68,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>It is listed only as a 12th-gen Core i5, so check the exact model number on the box. Chips of that tier and generation handle office work, browsing and study comfortably. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 45Wh battery and weighs about 1.7 kg. Ports include USB-C, HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo V15 Gen 3 (Core i5 (12th Gen), 8GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 68,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo V15 Gen 3 (Core i5 (12th Gen), 8GB/256GB) in Nepal?', 'It was last listed at Rs 68,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo V15 Gen 3 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo V15 Gen 3?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo V15 Gen 3?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo V15 Gen 3 (Core i5 (12th Gen), 8GB/256GB) Price in Nepal & Spec',
-            'description' => 'Lenovo V15 Gen 3 (Core i5 (12th Gen), 8GB/256GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 68,00',
+            'description' => 'Lenovo V15 Gen 3 (Core i5 (12th Gen), 8GB/256GB) is a work-first laptop with a sensible spec sheet and business-line build.',
             'keywords' => 'lenovo v15 gen 3 price in nepal, lenovo v15 gen 3, core i5 (12th gen) laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13679,15 +13679,15 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo Yoga 7 2-in-1 14AKP10 (Ryzen AI 5 340, 16GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. ONIN Infosys listed it at Rs 1,24,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo Yoga 7 2-in-1 14AKP10 (Ryzen AI 5 340, 16GB/512GB) is a 2-in-1: the screen folds back so it works as a laptop, a tent for video calls or a tablet for notes. It was listed at Rs 1,24,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen AI 5 340 uses AMD's Zen 5 cores with a 50 TOPS NPU (Copilot+ ready) and strong Radeon 800M-series integrated graphics, so it is fast, efficient and capable of light gaming even without a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch 2K OLED screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work; it is also a touchscreen. The battery is rated at 70Wh. Ports include USB-C, HDMI and a card reader. It suits students who take handwritten notes or anyone who presents and watches a lot of video.</p>
-<p>ONIN's listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
+<p>The listing notes the warranty as: 1 year year + life time software warranty + free servicing for lifetime +we offer extended warranty also.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Yoga 7 2-in-1 14AKP10 (Ryzen AI 5 340, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,24,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Yoga 7 2-in-1 14AKP10 (Ryzen AI 5 340, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,24,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Is the Lenovo Yoga 7 2-in-1 14AKP10 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo Yoga 7 2-in-1 14AKP10?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo Yoga 7 2-in-1 14AKP10?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo Yoga 7 2-in-1 14AKP10 (Ryzen AI 5 340, 16GB/512GB) Price in Nep',
@@ -13754,19 +13754,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo IdeaPad Slim 3i (Core i3-1305U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 64,500. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo IdeaPad Slim 3i (Core i3-1305U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. It was listed at Rs 64,500. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i3-1305U is a 13th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 47Wh battery and weighs about 1.5 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3i (Core i3-1305U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 64,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3i (Core i3-1305U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 64,500. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3i good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3i?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3i?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3i (Core i3-1305U, 8GB/512GB) Price in Nepal & Spe',
-            'description' => 'Lenovo IdeaPad Slim 3i (Core i3-1305U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming. ONIN Infosys listed it at Rs 64',
+            'description' => 'Lenovo IdeaPad Slim 3i (Core i3-1305U, 8GB/512GB) is an everyday laptop for study, office files, online classes and streaming.',
             'keywords' => 'lenovo ideapad slim 3i price in nepal, lenovo ideapad slim 3i, core i3-1305u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13827,19 +13827,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Lenovo IdeaPad Slim 3i configuration was listed by ONIN Infosys at Rs 68,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Lenovo IdeaPad Slim 3i configuration was listed at Rs 68,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming, and it supports touch. It carries a 45Wh battery and weighs about 1.5 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 year.</p>
+<p>The listing notes the warranty as: 1 year.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad Slim 3i (Core i5-1235U, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 68,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad Slim 3i (Core i5-1235U, 8GB/512GB) in Nepal?', 'It was last listed at Rs 68,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad Slim 3i good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3i?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad Slim 3i?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad Slim 3i (Core i5-1235U, 8GB/512GB) Price in Nepal & Spe',
-            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3i configuration was listed by ONIN Infosys at Rs 68,000. ONIN listed it as out of stock when we',
+            'description' => 'For school, college and office work, this Lenovo IdeaPad Slim 3i configuration was listed at Rs 68,000.',
             'keywords' => 'lenovo ideapad slim 3i price in nepal, lenovo ideapad slim 3i, core i5-1235u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13914,18 +13914,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo Legion Pro 5 (Ryzen 7 8745HX, 24GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,54,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>Lenovo Legion Pro 5 (Ryzen 7 8745HX, 24GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,54,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen 7 8745HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools. 24GB of RAM is generous: large projects, virtual machines and big Photoshop or video timelines are all fine. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>The 16-inch WQXGA (2560 × 1600) OLED 165Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. It carries a 80Wh battery and weighs about 2.3 kg, so it is better suited to a desk than daily commuting. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo Legion Pro 5 (Ryzen 7 8745HX, 24GB/1TB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 2,54,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the Lenovo Legion Pro 5 (Ryzen 7 8745HX, 24GB/1TB, RTX 5060) in Nepal?', 'It was last listed at Rs 2,54,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the Lenovo Legion Pro 5 run modern games?', 'With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly.'],
-            ['Can I upgrade the RAM on this Lenovo Legion Pro 5?', 'ONIN\'s spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
+            ['Can I upgrade the RAM on this Lenovo Legion Pro 5?', 'The spec sheet lists support for up to 32GB. Check whether the existing memory uses one slot or two before buying an upgrade.'],
         ],
         'seo' => [
             'title' => 'Lenovo Legion Pro 5 (Ryzen 7 8745HX, 24GB/1TB, RTX 5060) Price in Nepa',
-            'description' => 'Lenovo Legion Pro 5 (Ryzen 7 8745HX, 24GB/1TB, RTX 5060) is a gaming laptop that ONIN Infosys sold in Nepal for Rs 2,54,999. When we checked on 23 November 20',
+            'description' => 'Lenovo Legion Pro 5 (Ryzen 7 8745HX, 24GB/1TB, RTX 5060) is a gaming laptop that sold in Nepal for Rs 2,54,999.',
             'keywords' => 'lenovo legion pro 5 price in nepal, lenovo legion pro 5, ryzen 7 8745hx laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -13990,19 +13990,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For school, college and office work, this Lenovo IdeaPad 3 configuration was listed by ONIN Infosys at Rs 75,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>For school, college and office work, this Lenovo IdeaPad 3 configuration was listed at Rs 75,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-1235U is a 12th-gen low-power chip suited to office work, browsing and study rather than heavy creative workloads. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 256GB SSD fills up fast once Windows updates, apps and photos pile up, so budget for an external drive or cloud storage.</p>
 <p>The 15.6-inch Full HD screen is fine for documents, classes and streaming. It carries a 38Wh battery and weighs about 1.63 kg. Ports include USB-C, HDMI and a card reader. It suits first-time buyers, students and families who need a dependable machine for daily work.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo IdeaPad 3 (Core i5-1235U, 8GB/256GB) in Nepal?', 'ONIN Infosys last listed it at Rs 75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo IdeaPad 3 (Core i5-1235U, 8GB/256GB) in Nepal?', 'It was last listed at Rs 75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo IdeaPad 3 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo IdeaPad 3?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo IdeaPad 3?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo IdeaPad 3 (Core i5-1235U, 8GB/256GB) Price in Nepal & Specs',
-            'description' => 'For school, college and office work, this Lenovo IdeaPad 3 configuration was listed by ONIN Infosys at Rs 75,000. ONIN listed it as out of stock when we check',
+            'description' => 'For school, college and office work, this Lenovo IdeaPad 3 configuration was listed at Rs 75,000.',
             'keywords' => 'lenovo ideapad 3 price in nepal, lenovo ideapad 3, core i5-1235u laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -14065,19 +14065,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Lenovo V14 (Core i5-13420H, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 75,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Lenovo V14 (Core i5-13420H, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 75,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-13420H is a 13th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 8GB of RAM is enough for study and office work, but it fills up quickly with many browser tabs or creative apps, so check whether a second slot is free before you buy. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch Full HD screen is fine for documents, classes and streaming. It carries a 45Wh battery and weighs about 1.43 kg, light enough to carry every day. Ports include USB-C, HDMI and Ethernet. It suits office staff, accountants and students who care more about a good keyboard and reliability than about looks.</p>
-<p>ONIN's listing notes the warranty as: 1 Year Warranty.</p>
+<p>The listing notes the warranty as: 1 Year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Lenovo V14 (Core i5-13420H, 8GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Lenovo V14 (Core i5-13420H, 8GB/512GB) in Nepal?', 'It was last listed at Rs 75,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Lenovo V14 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Lenovo V14?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Lenovo V14?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Lenovo V14 (Core i5-13420H, 8GB/512GB) Price in Nepal & Specs',
-            'description' => 'Lenovo V14 (Core i5-13420H, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. ONIN Infosys listed it at Rs 75,000. ONIN li',
+            'description' => 'Lenovo V14 (Core i5-13420H, 8GB/512GB) is a work-first laptop with a sensible spec sheet and business-line build. It was listed at Rs 75,000.',
             'keywords' => 'lenovo v14 price in nepal, lenovo v14, core i5-13420h laptop nepal, lenovo laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -14138,19 +14138,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This MSI Crosshair 16 HX AI D2XWGKG configuration is built for games first: ONIN Infosys listed it at Rs 2,80,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This MSI Crosshair 16 HX AI D2XWGKG configuration is built for games first: it was listed at Rs 2,80,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core Ultra 9 275HX is a desktop-class HX chip with a high core count. It shines in long renders, code compiles and CPU-heavy games, at the cost of more heat, fan noise and a big power brick. The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel's native resolution in most games, plus serious GPU work like 3D rendering. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. A 1TB SSD leaves room for a big game library or years of photos and projects.</p>
 <p>Its 16-inch 2K 240Hz display makes games and even scrolling look smooth. The battery is rated at 90Wh. Ports include HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Crosshair 16 HX AI D2XWGKG (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) in Nepal?', 'ONIN Infosys last listed it at Rs 2,80,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the MSI Crosshair 16 HX AI D2XWGKG (Core Ultra 9 275HX, 16GB/1TB, RTX 5070) in Nepal?', 'It was last listed at Rs 2,80,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the MSI Crosshair 16 HX AI D2XWGKG run modern games?', 'The NVIDIA RTX 5070 with 8GB of VRAM has the headroom for high settings at the panel\'s native resolution in most games, plus serious GPU work like 3D rendering.'],
-            ['Can I upgrade the RAM on this MSI Crosshair 16 HX AI D2XWGKG?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this MSI Crosshair 16 HX AI D2XWGKG?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'MSI Crosshair 16 HX AI D2XWGKG (Core Ultra 9 275HX, 16GB/1TB, RTX 5070',
-            'description' => 'This MSI Crosshair 16 HX AI D2XWGKG configuration is built for games first: ONIN Infosys listed it at Rs 2,80,999. When we checked on 23 November 2026, ONIN l',
+            'description' => 'This MSI Crosshair 16 HX AI D2XWGKG configuration is built for games first: it was listed at Rs 2,80,999.',
             'keywords' => 'msi crosshair 16 hx ai d2xwgkg price in nepal, msi crosshair 16 hx ai d2xwgkg, core ultra 9 275hx laptop nepal, msi laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -14217,21 +14217,21 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>This MSI Cyborg 15 A2RUDX configuration is built for games first: ONIN Infosys listed it at Rs 1,42,499. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This MSI Cyborg 15 A2RUDX configuration is built for games first: it was listed at Rs 1,42,499. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 7 240H is a 2025 H-series chip (a refreshed Raptor Lake design) with plenty of cores for multitasking, coding and gaming. Graphics come from the NVIDIA RTX 3050 with 6GB of VRAM. Expect smooth Valorant, CS2 and Fortnite, and 1080p medium settings in heavier AAA games. With 8GB of memory it copes with everyday multitasking. Heavier users should plan an upgrade to 16GB if the board allows it. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Cyborg 15 A2RUDX (Core 7 240H, 8GB/512GB, RTX 3050) in Nepal?', 'ONIN Infosys last listed it at Rs 1,42,499. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the MSI Cyborg 15 A2RUDX (Core 7 240H, 8GB/512GB, RTX 3050) in Nepal?', 'It was last listed at Rs 1,42,499. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the MSI Cyborg 15 A2RUDX run modern games?', <<<'HTML'
 The NVIDIA RTX 3050 with 6GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium with DLSS turned on.
 HTML],
-            ['Can I upgrade the RAM on this MSI Cyborg 15 A2RUDX?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this MSI Cyborg 15 A2RUDX?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'MSI Cyborg 15 A2RUDX (Core 7 240H, 8GB/512GB, RTX 3050) Price in Nepal',
-            'description' => 'This MSI Cyborg 15 A2RUDX configuration is built for games first: ONIN Infosys listed it at Rs 1,42,499. When we checked on 23 November 2026, ONIN listed it a',
+            'description' => 'This MSI Cyborg 15 A2RUDX configuration is built for games first: it was listed at Rs 1,42,499.',
             'keywords' => 'msi cyborg 15 a2rudx price in nepal, msi cyborg 15 a2rudx, core 7 240h laptop nepal, msi laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -14298,21 +14298,21 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>This MSI Cyborg A15 AI B2HWFKG configuration is built for games first: ONIN Infosys listed it at Rs 1,81,000. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This MSI Cyborg A15 AI B2HWFKG configuration is built for games first: it was listed at Rs 1,81,000. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Ryzen 7 260 is a 2025 rebadge of AMD's Zen 4 HS-class silicon: eight fast cores (six on Ryzen 5) that are comfortable with coding, editing and feeding a gaming GPU. With the NVIDIA RTX 5060 with 8GB of VRAM, most current games run at 1080p high, and esports titles can use a high-refresh screen properly. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>Its 15.6-inch Full HD 144Hz display makes games and even scrolling look smooth. The battery is rated at 55.2Wh. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Cyborg A15 AI B2HWFKG (Ryzen 7 260, 16GB/512GB, RTX 5060) in Nepal?', 'ONIN Infosys last listed it at Rs 1,81,000. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the MSI Cyborg A15 AI B2HWFKG (Ryzen 7 260, 16GB/512GB, RTX 5060) in Nepal?', 'It was last listed at Rs 1,81,000. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the MSI Cyborg A15 AI B2HWFKG run modern games?', <<<'HTML'
 The NVIDIA RTX 5060 with 8GB of VRAM is the sweet spot for 1080p gaming: high settings in most new games, and it's also good for Blender, Premiere and local AI tools.
 HTML],
-            ['Can I upgrade the RAM on this MSI Cyborg A15 AI B2HWFKG?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this MSI Cyborg A15 AI B2HWFKG?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'MSI Cyborg A15 AI B2HWFKG (Ryzen 7 260, 16GB/512GB, RTX 5060) Price in',
-            'description' => 'This MSI Cyborg A15 AI B2HWFKG configuration is built for games first: ONIN Infosys listed it at Rs 1,81,000. When we checked on 23 November 2026, ONIN listed',
+            'description' => 'This MSI Cyborg A15 AI B2HWFKG configuration is built for games first: it was listed at Rs 1,81,000.',
             'keywords' => 'msi cyborg a15 ai b2hwfkg price in nepal, msi cyborg a15 ai b2hwfkg, ryzen 7 260 laptop nepal, msi laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -14379,21 +14379,21 @@ HTML],
             ],
         ],
         'description' => <<<'HTML'
-<p>This MSI Venture Pro 16 A2RWEG configuration is built for games first: ONIN Infosys listed it at Rs 2,14,999. When we checked on 23 November 2026, ONIN listed it as out of stock, so the price shown is ONIN's last listed price. Confirm the current price and availability with ONIN before buying.</p>
+<p>This MSI Venture Pro 16 A2RWEG configuration is built for games first: it was listed at Rs 2,14,999. When we checked on 23 November 2026, it was out of stock, so the price shown is the last listed one. Confirm the current price and availability with the shop before buying.</p>
 <p>The Core 7 240H is a 2025 H-series chip (a refreshed Raptor Lake design) with plenty of cores for multitasking, coding and gaming. The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 16-inch 2K OLED 120Hz screen is a highlight: true blacks, rich colour and excellent contrast for films and photo work. The battery is rated at 55.2Wh. Ports include USB-C, HDMI and Ethernet. It suits gamers, engineering students running CAD or simulation software, and anyone editing video on a budget.</p>
-<p>ONIN's listing notes the warranty as: 1 year official warranty.</p>
+<p>The listing notes the warranty as: 1 year official warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Venture Pro 16 A2RWEG (Core 7 240H, 16GB/512GB, RTX 5050) in Nepal?', 'ONIN Infosys last listed it at Rs 2,14,999. It showed as out of stock on 23 November 2026, so check ONIN for the current price and stock.'],
+            ['What is the price of the MSI Venture Pro 16 A2RWEG (Core 7 240H, 16GB/512GB, RTX 5050) in Nepal?', 'It was last listed at Rs 2,14,999. It showed as out of stock on 23 November 2026, so check with the shop for the current price and stock.'],
             ['Can the MSI Venture Pro 16 A2RWEG run modern games?', <<<'HTML'
 The NVIDIA RTX 5050 with 8GB of VRAM is an entry gaming GPU: esports titles run at high frame rates, and most big games are playable at 1080p medium, with DLSS 4 frame generation helping in supported games.
 HTML],
-            ['Can I upgrade the RAM on this MSI Venture Pro 16 A2RWEG?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this MSI Venture Pro 16 A2RWEG?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'MSI Venture Pro 16 A2RWEG (Core 7 240H, 16GB/512GB, RTX 5050) Price in',
-            'description' => 'This MSI Venture Pro 16 A2RWEG configuration is built for games first: ONIN Infosys listed it at Rs 2,14,999. When we checked on 23 November 2026, ONIN listed',
+            'description' => 'This MSI Venture Pro 16 A2RWEG configuration is built for games first: it was listed at Rs 2,14,999.',
             'keywords' => 'msi venture pro 16 a2rweg price in nepal, msi venture pro 16 a2rweg, core 7 240h laptop nepal, msi laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -14458,19 +14458,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Xiaomi Mi Notebook Pro XMA2006 (Core i5-11300H, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at Rs 1,00,000. ONIN listed it as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
+<p>Xiaomi Mi Notebook Pro XMA2006 (Core i5-11300H, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. It was listed at Rs 1,00,000. It was listed as out of stock when we checked on 23 November 2026, and the model has since been replaced by newer versions, so treat that figure as its last listed price in Nepal.</p>
 <p>The Core i5-11300H is a 11th-gen H-series chip with enough cores and clock speed for programming, editing and gaming alongside a dedicated GPU. 16GB of RAM is comfortable for heavy browsing, Office, coding and light editing at the same time. The 512GB SSD is enough for most people, though it fills quickly if you install several modern games.</p>
 <p>The 14-inch 2.5K screen is fine for documents, classes and streaming. It weighs about 1.4 kg. Ports include Thunderbolt and HDMI. It suits professionals and students who value portability, battery life and a nicer screen.</p>
-<p>ONIN's listing notes the warranty as: 1 year Warranty.</p>
+<p>The listing notes the warranty as: 1 year Warranty.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Xiaomi Mi Notebook Pro XMA2006 (Core i5-11300H, 16GB/512GB) in Nepal?', 'ONIN Infosys last listed it at Rs 1,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
+            ['What is the price of the Xiaomi Mi Notebook Pro XMA2006 (Core i5-11300H, 16GB/512GB) in Nepal?', 'It was last listed at Rs 1,00,000. It showed as out of stock on 23 November 2026, and it has been replaced by newer models.'],
             ['Is the Xiaomi Mi Notebook Pro XMA2006 good for gaming?', 'Only for light and older games. It has no dedicated graphics card, so modern AAA titles will need low settings and reduced resolution.'],
-            ['Can I upgrade the RAM on this Xiaomi Mi Notebook Pro XMA2006?', 'It depends on whether the memory is soldered. ONIN\'s listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
+            ['Can I upgrade the RAM on this Xiaomi Mi Notebook Pro XMA2006?', 'It depends on whether the memory is soldered. The listing doesn\'t say, so ask the shop to confirm the free slots before you buy.'],
         ],
         'seo' => [
             'title' => 'Xiaomi Mi Notebook Pro XMA2006 (Core i5-11300H, 16GB/512GB) Price in N',
-            'description' => 'Xiaomi Mi Notebook Pro XMA2006 (Core i5-11300H, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day. ONIN Infosys listed it at ',
+            'description' => 'Xiaomi Mi Notebook Pro XMA2006 (Core i5-11300H, 16GB/512GB) is a slim, premium laptop for people who carry their machine every day.',
             'keywords' => 'xiaomi mi notebook pro xma2006 price in nepal, xiaomi mi notebook pro xma2006, core i5-11300h laptop nepal, xiaomi laptop nepal',
             'robots' => 'noindex, follow',
         ],
@@ -14530,18 +14530,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 24,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 24,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD IPS 180Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. At 180Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully, and the 1ms response time keeps fast motion sharp. Colour coverage is listed at 99% sRGB.</p>
 <p>The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 24,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor in Nepal?', 'It was last listed at Rs 24,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor good for gaming?', 'Yes. Its 180Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor Price in Nepal ',
-            'description' => 'Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 24,999. It wa',
-            'keywords' => 'acer nitro vg240y 24-inch 180hz ips gaming led monitor price in nepal, acer nitro vg240y 24-inch 180hz ips gaming led monitor, acer nepal, onin infosys',
+            'description' => 'Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 24,999.',
+            'keywords' => 'acer nitro vg240y 24-inch 180hz ips gaming led monitor price in nepal, acer nitro vg240y 24-inch 180hz ips gaming led monitor, acer nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'Acer Nitro VG240Y 24-inch 180Hz IPS Gaming LED Monitor',
@@ -14591,18 +14591,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 12,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 12,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 22-inch Full HD 120Hz. A 120Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 12,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor in Nepal?', 'It was last listed at Rs 12,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor good for gaming?', 'For casual games, yes. At 120Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor Price in Nepal & Spec',
-            'description' => 'Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 12,999. It wa',
-            'keywords' => 'armaggeddon pixel pro pf22 22-inch 120hz monitor price in nepal, armaggeddon pixel pro pf22 22-inch 120hz monitor, armaggeddon nepal, onin infosys',
+            'description' => 'Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 12,999.',
+            'keywords' => 'armaggeddon pixel pro pf22 22-inch 120hz monitor price in nepal, armaggeddon pixel pro pf22 22-inch 120hz monitor, armaggeddon nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'Armaggeddon Pixel Pro PF22 22-inch 120Hz Monitor',
@@ -14664,19 +14664,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Armaggeddon Pixxel+ PXP49 Pro 49-inch DQHD Ultrawide Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. ONIN Infosys listed it at Rs 1,54,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Armaggeddon Pixxel+ PXP49 Pro 49-inch DQHD Ultrawide Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. It was listed at Rs 1,54,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 49-inch DQHD (5120 × 1440).</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Armaggeddon Pixxel+ PXP49 Pro 49-inch DQHD Ultrawide Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 1,54,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Armaggeddon Pixxel+ PXP49 Pro 49-inch DQHD Ultrawide Monitor in Nepal?', 'It was last listed at Rs 1,54,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Armaggeddon Pixxel+ PXP49 Pro 49-inch DQHD Ultrawide Monitor good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'Armaggeddon Pixxel+ PXP49 Pro 49-inch DQHD Ultrawide Monitor Price in ',
-            'description' => 'Armaggeddon Pixxel+ PXP49 Pro 49-inch DQHD Ultrawide Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. ONIN Infosys l',
+            'description' => 'Armaggeddon Pixxel+ PXP49 Pro 49-inch DQHD Ultrawide Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel.',
             'keywords' => <<<'HTML'
-armaggeddon pixxel+ pxp49 pro 49-inch dqhd ultrawide monitor price in nepal, armaggeddon pixxel+ pxp49 pro 49-inch dqhd ultrawide monitor, armaggeddon nepal, onin infosys
+armaggeddon pixxel+ pxp49 pro 49-inch dqhd ultrawide monitor price in nepal, armaggeddon pixxel+ pxp49 pro 49-inch dqhd ultrawide monitor, armaggeddon nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -14737,19 +14737,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Armaggeddon XC34UWQHD Super 180 34-inch Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. ONIN Infosys listed it at Rs 48,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Armaggeddon XC34UWQHD Super 180 34-inch Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. It was listed at Rs 48,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 34-inch UWQHD (3440 × 1440) 180Hz. At 180Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Armaggeddon XC34UWQHD Super 180 34-inch Curved Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 48,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Armaggeddon XC34UWQHD Super 180 34-inch Curved Gaming Monitor in Nepal?', 'It was last listed at Rs 48,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Armaggeddon XC34UWQHD Super 180 34-inch Curved Gaming Monitor good for gaming?', 'Yes. Its 180Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'Armaggeddon XC34UWQHD Super 180 34-inch Curved Gaming Monitor Price in',
-            'description' => 'Armaggeddon XC34UWQHD Super 180 34-inch Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. ONIN Infosys ',
+            'description' => 'Armaggeddon XC34UWQHD Super 180 34-inch Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel.',
             'keywords' => <<<'HTML'
-armaggeddon xc34uwqhd super 180 34-inch curved gaming monitor price in nepal, armaggeddon xc34uwqhd super 180 34-inch curved gaming monitor, armaggeddon nepal, onin infosys
+armaggeddon xc34uwqhd super 180 34-inch curved gaming monitor price in nepal, armaggeddon xc34uwqhd super 180 34-inch curved gaming monitor, armaggeddon nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -14806,19 +14806,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Armaggeddon XF24HD Super120 24-Inch Full HD 120Hz Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 17,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Armaggeddon XF24HD Super120 24-Inch Full HD 120Hz Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 17,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD 120Hz. A 120Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Armaggeddon XF24HD Super120 24-Inch Full HD 120Hz Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 17,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Armaggeddon XF24HD Super120 24-Inch Full HD 120Hz Gaming Monitor in Nepal?', 'It was last listed at Rs 17,499. It showed as out of stock on 23 November 2026.'],
             ['Is the Armaggeddon XF24HD Super120 24-Inch Full HD 120Hz Gaming Monitor good for gaming?', 'For casual games, yes. At 120Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'Armaggeddon XF24HD Super120 24-Inch Full HD 120Hz Gaming Monitor Price',
-            'description' => 'Armaggeddon XF24HD Super120 24-Inch Full HD 120Hz Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 17,',
+            'description' => 'Armaggeddon XF24HD Super120 24-Inch Full HD 120Hz Gaming Monitor is a high-refresh monitor for esports and fast action games.',
             'keywords' => <<<'HTML'
-armaggeddon xf24hd super120 24-inch full hd 120hz gaming monitor price in nepal, armaggeddon xf24hd super120 24-inch full hd 120hz gaming monitor, armaggeddon nepal, onin infosys
+armaggeddon xf24hd super120 24-inch full hd 120hz gaming monitor price in nepal, armaggeddon xf24hd super120 24-inch full hd 120hz gaming monitor, armaggeddon nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -14880,19 +14880,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Armaggeddon XF27QHD Super 100 27-inch QHD Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 31,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Armaggeddon XF27QHD Super 100 27-inch QHD Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 31,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) IPS 100Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work. Colour coverage is listed at 99% sRGB.</p>
 <p>Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Armaggeddon XF27QHD Super 100 27-inch QHD Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 31,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Armaggeddon XF27QHD Super 100 27-inch QHD Gaming Monitor in Nepal?', 'It was last listed at Rs 31,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Armaggeddon XF27QHD Super 100 27-inch QHD Gaming Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'Armaggeddon XF27QHD Super 100 27-inch QHD Gaming Monitor Price in Nepa',
-            'description' => 'Armaggeddon XF27QHD Super 100 27-inch QHD Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 31,999. It ',
+            'description' => 'Armaggeddon XF27QHD Super 100 27-inch QHD Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 31,999.',
             'keywords' => <<<'HTML'
-armaggeddon xf27qhd super 100 27-inch qhd gaming monitor price in nepal, armaggeddon xf27qhd super 100 27-inch qhd gaming monitor, armaggeddon nepal, onin infosys
+armaggeddon xf27qhd super 100 27-inch qhd gaming monitor price in nepal, armaggeddon xf27qhd super 100 27-inch qhd gaming monitor, armaggeddon nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -14945,18 +14945,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For gamers who want smoother motion than a standard 60Hz screen, ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor offers 175Hz. ONIN Infosys listed it at Rs 1,72,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>For gamers who want smoother motion than a standard 60Hz screen, ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor offers 175Hz. It was listed at Rs 1,72,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 32-inch QHD (2560 × 1440) Fast IPS 175Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. At 175Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully, and the 1ms response time keeps fast motion sharp. Colour coverage is listed at 160% sRGB.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 1,72,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor in Nepal?', 'It was last listed at Rs 1,72,000. It showed as out of stock on 23 November 2026.'],
             ['Is the ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor good for gaming?', 'Yes. Its 175Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor Price in Nepal ',
-            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor offers 175Hz. ONIN Infosys listed it a',
-            'keywords' => 'asus rog swift pg329q 32-inch qhd 175hz gaming monitor price in nepal, asus rog swift pg329q 32-inch qhd 175hz gaming monitor, asus nepal, onin infosys',
+            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor offers 175Hz.',
+            'keywords' => 'asus rog swift pg329q 32-inch qhd 175hz gaming monitor price in nepal, asus rog swift pg329q 32-inch qhd 175hz gaming monitor, asus nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'ASUS ROG Swift PG329Q 32-inch QHD 175Hz Gaming Monitor',
@@ -15016,18 +15016,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 1,02,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 1,02,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 32-inch 4K UHD 60Hz.</p>
 <p>Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 1,02,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor in Nepal?', 'It was last listed at Rs 1,02,499. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor Price in Nepal & Specs',
-            'description' => 'BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 1,02,499. ',
-            'keywords' => 'benq ew3290u 32-inch 4k usb-c eye-care monitor price in nepal, benq ew3290u 32-inch 4k usb-c eye-care monitor, benq nepal, onin infosys',
+            'description' => 'BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 1,02,499.',
+            'keywords' => 'benq ew3290u 32-inch 4k usb-c eye-care monitor price in nepal, benq ew3290u 32-inch 4k usb-c eye-care monitor, benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ EW3290U 32-inch 4K USB-C Eye-Care Monitor',
@@ -15084,18 +15084,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 18,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 18,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD IPS 60Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 18,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor in Nepal?', 'It was last listed at Rs 18,499. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor Price in Nepal',
-            'description' => 'BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 18,499. It w',
-            'keywords' => 'benq gw2480 24-inch fhd ips panel 60hz business monitor price in nepal, benq gw2480 24-inch fhd ips panel 60hz business monitor, benq nepal, onin infosys',
+            'description' => 'BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 18,499.',
+            'keywords' => 'benq gw2480 24-inch fhd ips panel 60hz business monitor price in nepal, benq gw2480 24-inch fhd ips panel 60hz business monitor, benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ GW2480 24-inch FHD IPS Panel 60Hz Business Monitor',
@@ -15148,19 +15148,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW2480T 24-inch FHD IPS Panel 90° Rotation 60Hz Business Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 35,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW2480T 24-inch FHD IPS Panel 90° Rotation 60Hz Business Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 35,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD IPS 60Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre.</p>
 <p>The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW2480T 24-inch FHD IPS Panel 90° Rotation 60Hz Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 35,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW2480T 24-inch FHD IPS Panel 90° Rotation 60Hz Business Monitor in Nepal?', 'It was last listed at Rs 35,000. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW2480T 24-inch FHD IPS Panel 90° Rotation 60Hz Business Monitor good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'BenQ GW2480T 24-inch FHD IPS Panel 90° Rotation 60Hz Business Monitor ',
-            'description' => 'BenQ GW2480T 24-inch FHD IPS Panel 90° Rotation 60Hz Business Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed i',
+            'description' => 'BenQ GW2480T 24-inch FHD IPS Panel 90° Rotation 60Hz Business Monitor is a practical desk monitor for work-from-home setups and offices.',
             'keywords' => <<<'HTML'
-benq gw2480t 24-inch fhd ips panel 90° rotation 60hz business monitor price in nepal, benq gw2480t 24-inch fhd ips panel 90° rotation 60hz business monitor, benq nepal, onin infosys
+benq gw2480t 24-inch fhd ips panel 90° rotation 60hz business monitor price in nepal, benq gw2480t 24-inch fhd ips panel 90° rotation 60hz business monitor, benq nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -15214,19 +15214,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW2480T 27-inch FHD IPS Panel 90° Rotation Eye-care 60Hz Business Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 38,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW2480T 27-inch FHD IPS Panel 90° Rotation Eye-care 60Hz Business Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 38,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD IPS 60Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size.</p>
 <p>The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW2480T 27-inch FHD IPS Panel 90° Rotation Eye-care 60Hz Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 38,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW2480T 27-inch FHD IPS Panel 90° Rotation Eye-care 60Hz Business Monitor in Nepal?', 'It was last listed at Rs 38,000. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW2480T 27-inch FHD IPS Panel 90° Rotation Eye-care 60Hz Business Monitor good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'BenQ GW2480T 27-inch FHD IPS Panel 90° Rotation Eye-care 60Hz Business',
-            'description' => 'BenQ GW2480T 27-inch FHD IPS Panel 90° Rotation Eye-care 60Hz Business Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys liste',
+            'description' => 'BenQ GW2480T 27-inch FHD IPS Panel 90° Rotation Eye-care 60Hz Business Monitor is an everyday monitor for office work, study and streaming.',
             'keywords' => <<<'HTML'
-benq gw2480t 27-inch fhd ips panel 90° rotation eye-care 60hz business monitor price in nepal, benq gw2480t 27-inch fhd ips panel 90° rotation eye-care 60hz business monitor, benq nepal, onin infosys
+benq gw2480t 27-inch fhd ips panel 90° rotation eye-care 60hz business monitor price in nepal, benq gw2480t 27-inch fhd ips panel 90° rotation eye-care 60hz business monitor, benq nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -15290,20 +15290,20 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW2490TC 24-inch Eye-Care Monitor with Height Adjustable Stand & USB-C is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 32,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW2490TC 24-inch Eye-Care Monitor with Height Adjustable Stand & USB-C is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 32,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD IPS. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Colour coverage is listed at 99% sRGB.</p>
 <p>USB-C input lets a compatible laptop send picture and receive up to 20W of charging over a single cable. The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW2490TC 24-inch Eye-Care Monitor with Height Adjustable Stand & USB-C in Nepal?', 'ONIN Infosys last listed it at Rs 32,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW2490TC 24-inch Eye-Care Monitor with Height Adjustable Stand & USB-C in Nepal?', 'It was last listed at Rs 32,499. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW2490TC 24-inch Eye-Care Monitor with Height Adjustable Stand & USB-C good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
             ['Can I connect a laptop with a single USB-C cable?', 'If your laptop\'s USB-C port supports DisplayPort Alt Mode, yes. Check your laptop\'s specifications for video output over USB-C.'],
         ],
         'seo' => [
             'title' => 'BenQ GW2490TC 24-inch Eye-Care Monitor with Height Adjustable Stand & ',
-            'description' => 'BenQ GW2490TC 24-inch Eye-Care Monitor with Height Adjustable Stand & USB-C is a practical desk monitor for work-from-home setups and offices. ONIN Infosys li',
+            'description' => 'BenQ GW2490TC 24-inch Eye-Care Monitor with Height Adjustable Stand & USB-C is a practical desk monitor for work-from-home setups and offices.',
             'keywords' => <<<'HTML'
-benq gw2490tc 24-inch eye-care monitor with height adjustable stand & usb-c price in nepal, benq gw2490tc 24-inch eye-care monitor with height adjustable stand & usb-c, benq nepal, onin infosys
+benq gw2490tc 24-inch eye-care monitor with height adjustable stand & usb-c price in nepal, benq gw2490tc 24-inch eye-care monitor with height adjustable stand & usb-c, benq nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -15363,18 +15363,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW2790 27-inch 100Hz Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 26,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW2790 27-inch 100Hz Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 26,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD IPS 100Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work. Colour coverage is listed at 99% sRGB.</p>
 <p>Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW2790 27-inch 100Hz Eye-Care Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 26,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW2790 27-inch 100Hz Eye-Care Monitor in Nepal?', 'It was last listed at Rs 26,499. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW2790 27-inch 100Hz Eye-Care Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'BenQ GW2790 27-inch 100Hz Eye-Care Monitor Price in Nepal & Specs',
-            'description' => 'BenQ GW2790 27-inch 100Hz Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 26,499. It was',
-            'keywords' => 'benq gw2790 27-inch 100hz eye-care monitor price in nepal, benq gw2790 27-inch 100hz eye-care monitor, benq nepal, onin infosys',
+            'description' => 'BenQ GW2790 27-inch 100Hz Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 26,499.',
+            'keywords' => 'benq gw2790 27-inch 100hz eye-care monitor price in nepal, benq gw2790 27-inch 100hz eye-care monitor, benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ GW2790 27-inch 100Hz Eye-Care Monitor',
@@ -15433,19 +15433,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 64,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 64,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) IPS 75Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games.</p>
 <p>USB-C input lets a compatible laptop send picture (and often power) over a single cable. Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 64,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor in Nepal?', 'It was last listed at Rs 64,999. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor good for gaming?', 'For casual games, yes. At 75Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
             ['Can I connect a laptop with a single USB-C cable?', 'If your laptop\'s USB-C port supports DisplayPort Alt Mode, yes. Check your laptop\'s specifications for video output over USB-C.'],
         ],
         'seo' => [
             'title' => 'BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor Price in Nepal & Spec',
-            'description' => 'BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 64,999. ',
-            'keywords' => 'benq gw2790qt 27-inch qhd usb-c eye-care monitor price in nepal, benq gw2790qt 27-inch qhd usb-c eye-care monitor, benq nepal, onin infosys',
+            'description' => 'BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 64,999.',
+            'keywords' => 'benq gw2790qt 27-inch qhd usb-c eye-care monitor price in nepal, benq gw2790qt 27-inch qhd usb-c eye-care monitor, benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ GW2790QT 27-inch QHD USB-C Eye-Care Monitor',
@@ -15501,18 +15501,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW2791 27-inch 100Hz Eye-Care Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 24,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW2791 27-inch 100Hz Eye-Care Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 24,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD IPS 100Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work. Colour coverage is listed at 99% sRGB.</p>
 <p>Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW2791 27-inch 100Hz Eye-Care Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 24,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW2791 27-inch 100Hz Eye-Care Monitor in Nepal?', 'It was last listed at Rs 24,499. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW2791 27-inch 100Hz Eye-Care Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'BenQ GW2791 27-inch 100Hz Eye-Care Monitor Price in Nepal & Specs',
-            'description' => 'BenQ GW2791 27-inch 100Hz Eye-Care Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 24,499. It was out of sto',
-            'keywords' => 'benq gw2791 27-inch 100hz eye-care monitor price in nepal, benq gw2791 27-inch 100hz eye-care monitor, benq nepal, onin infosys',
+            'description' => 'BenQ GW2791 27-inch 100Hz Eye-Care Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 24,499.',
+            'keywords' => 'benq gw2791 27-inch 100hz eye-care monitor price in nepal, benq gw2791 27-inch 100hz eye-care monitor, benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ GW2791 27-inch 100Hz Eye-Care Monitor',
@@ -15566,18 +15566,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 87,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 87,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 32-inch QHD (2560 × 1440) IPS 75Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 87,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor in Nepal?', 'It was last listed at Rs 87,999. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor good for gaming?', 'For casual games, yes. At 75Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor Price in Nepal & Spec',
-            'description' => 'BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 87,999. ',
-            'keywords' => 'benq gw3290qt 32-inch qhd usb-c eye-care monitor price in nepal, benq gw3290qt 32-inch qhd usb-c eye-care monitor, benq nepal, onin infosys',
+            'description' => 'BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 87,999.',
+            'keywords' => 'benq gw3290qt 32-inch qhd usb-c eye-care monitor price in nepal, benq gw3290qt 32-inch qhd usb-c eye-care monitor, benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ GW3290QT 32-inch QHD USB-C Eye-Care Monitor',
@@ -15641,20 +15641,20 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ PD2730S 27-inch 5K Designer Monitor (USB-C, 60Hz, Calibrated) is aimed at creative work where accurate colour matters more than speed. ONIN Infosys listed it at Rs 1,95,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ PD2730S 27-inch 5K Designer Monitor (USB-C, 60Hz, Calibrated) is aimed at creative work where accurate colour matters more than speed. It was listed at Rs 1,95,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch 5K 60Hz.</p>
 <p>USB-C input lets a compatible laptop send picture (and often power) over a single cable. It suits photographers, designers and editors who print, publish or grade colour for clients.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ PD2730S 27-inch 5K Designer Monitor (USB-C, 60Hz, Calibrated) in Nepal?', 'ONIN Infosys last listed it at Rs 1,95,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ PD2730S 27-inch 5K Designer Monitor (USB-C, 60Hz, Calibrated) in Nepal?', 'It was last listed at Rs 1,95,000. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ PD2730S 27-inch 5K Designer Monitor (USB-C, 60Hz, Calibrated) good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
             ['Can I connect a laptop with a single USB-C cable?', 'If your laptop\'s USB-C port supports DisplayPort Alt Mode, yes. Check your laptop\'s specifications for video output over USB-C.'],
         ],
         'seo' => [
             'title' => 'BenQ PD2730S 27-inch 5K Designer Monitor (USB-C, 60Hz, Calibrated) Pri',
-            'description' => 'BenQ PD2730S 27-inch 5K Designer Monitor (USB-C, 60Hz, Calibrated) is aimed at creative work where accurate colour matters more than speed. ONIN Infosys liste',
+            'description' => 'BenQ PD2730S 27-inch 5K Designer Monitor (USB-C, 60Hz, Calibrated) is aimed at creative work where accurate colour matters more than speed.',
             'keywords' => <<<'HTML'
-benq pd2730s 27-inch 5k designer monitor (usb-c, 60hz, calibrated) price in nepal, benq pd2730s 27-inch 5k designer monitor (usb-c, 60hz, calibrated), benq nepal, onin infosys
+benq pd2730s 27-inch 5k designer monitor (usb-c, 60hz, calibrated) price in nepal, benq pd2730s 27-inch 5k designer monitor (usb-c, 60hz, calibrated), benq nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -15720,18 +15720,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ SW240 24.1-inch Photographer Monitor is aimed at creative work where accurate colour matters more than speed. ONIN Infosys listed it at Rs 47,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ SW240 24.1-inch Photographer Monitor is aimed at creative work where accurate colour matters more than speed. It was listed at Rs 47,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24.1-inch WUXGA IPS. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Colour coverage is listed at 100% sRGB.</p>
 <p>The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. It suits photographers, designers and editors who print, publish or grade colour for clients.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ SW240 24.1-inch Photographer Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 47,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ SW240 24.1-inch Photographer Monitor in Nepal?', 'It was last listed at Rs 47,499. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ SW240 24.1-inch Photographer Monitor good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'BenQ SW240 24.1-inch Photographer Monitor Price in Nepal & Specs',
-            'description' => 'BenQ SW240 24.1-inch Photographer Monitor is aimed at creative work where accurate colour matters more than speed. ONIN Infosys listed it at Rs 47,499. It was',
-            'keywords' => 'benq sw240 24.1-inch photographer monitor price in nepal, benq sw240 24.1-inch photographer monitor, benq nepal, onin infosys',
+            'description' => 'BenQ SW240 24.1-inch Photographer Monitor is aimed at creative work where accurate colour matters more than speed. It was listed at Rs 47,499.',
+            'keywords' => 'benq sw240 24.1-inch photographer monitor price in nepal, benq sw240 24.1-inch photographer monitor, benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ SW240 24.1-inch Photographer Monitor',
@@ -15794,18 +15794,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 28,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 28,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD TN 144Hz. At 144Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 28,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor in Nepal?', 'It was last listed at Rs 28,999. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor good for gaming?', 'Yes. Its 144Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor Price in Nepal',
-            'description' => 'BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 28,999. It w',
-            'keywords' => 'benq zowie xl2411k 24-inch 144hz esports gaming monitor price in nepal, benq zowie xl2411k 24-inch 144hz esports gaming monitor, benq nepal, onin infosys',
+            'description' => 'BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 28,999.',
+            'keywords' => 'benq zowie xl2411k 24-inch 144hz esports gaming monitor price in nepal, benq zowie xl2411k 24-inch 144hz esports gaming monitor, benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ ZOWIE XL2411K 24-inch 144Hz Esports Gaming Monitor',
@@ -15855,18 +15855,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell S2421H 24-inch Full HD Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 20,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Dell S2421H 24-inch Full HD Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 20,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is Full HD 75Hz.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell S2421H 24-inch Full HD Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 20,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Dell S2421H 24-inch Full HD Monitor in Nepal?', 'It was last listed at Rs 20,000. It showed as out of stock on 23 November 2026.'],
             ['Is the Dell S2421H 24-inch Full HD Monitor good for gaming?', 'For casual games, yes. At 75Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'Dell S2421H 24-inch Full HD Monitor Price in Nepal & Specs',
-            'description' => 'Dell S2421H 24-inch Full HD Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 20,000. It was out of stock at O',
-            'keywords' => 'dell s2421h 24-inch full hd monitor price in nepal, dell s2421h 24-inch full hd monitor, dell nepal, onin infosys',
+            'description' => 'Dell S2421H 24-inch Full HD Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 20,000.',
+            'keywords' => 'dell s2421h 24-inch full hd monitor price in nepal, dell s2421h 24-inch full hd monitor, dell nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'Dell S2421H 24-inch Full HD Monitor',
@@ -15924,19 +15924,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Dell S2425H 24-inch FHD (1920 X 1080) Monitor 100Hz, 99%sRGB Dual Speakers, 2x HDMI is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 22,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Dell S2425H 24-inch FHD (1920 X 1080) Monitor 100Hz, 99%sRGB Dual Speakers, 2x HDMI is an everyday monitor for office work, study and streaming. It was listed at Rs 22,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD 100Hz. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work. Colour coverage is listed at 99% sRGB.</p>
 <p>Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Dell S2425H 24-inch FHD (1920 X 1080) Monitor 100Hz, 99%sRGB Dual Speakers, 2x HDMI in Nepal?', 'ONIN Infosys last listed it at Rs 22,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Dell S2425H 24-inch FHD (1920 X 1080) Monitor 100Hz, 99%sRGB Dual Speakers, 2x HDMI in Nepal?', 'It was last listed at Rs 22,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Dell S2425H 24-inch FHD (1920 X 1080) Monitor 100Hz, 99%sRGB Dual Speakers, 2x HDMI good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'Dell S2425H 24-inch FHD (1920 X 1080) Monitor 100Hz, 99%sRGB Dual Spea',
-            'description' => 'Dell S2425H 24-inch FHD (1920 X 1080) Monitor 100Hz, 99%sRGB Dual Speakers, 2x HDMI is an everyday monitor for office work, study and streaming. ONIN Infosys ',
+            'description' => 'Dell S2425H 24-inch FHD (1920 X 1080) Monitor 100Hz, 99%sRGB Dual Speakers, 2x HDMI is an everyday monitor for office work, study and streaming.',
             'keywords' => <<<'HTML'
-dell s2425h 24-inch fhd (1920 x 1080) monitor 100hz, 99%srgb dual speakers, 2x hdmi price in nepal, dell s2425h 24-inch fhd (1920 x 1080) monitor 100hz, 99%srgb dual speakers, 2x hdmi, dell nepal, onin infosys
+dell s2425h 24-inch fhd (1920 x 1080) monitor 100hz, 99%srgb dual speakers, 2x hdmi price in nepal, dell s2425h 24-inch fhd (1920 x 1080) monitor 100hz, 99%srgb dual speakers, 2x hdmi, dell nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -15999,18 +15999,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP275W E2 is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 22,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP275W E2 is an everyday monitor for office work, study and streaming. It was listed at Rs 22,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD IPS 120Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. A 120Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP275W E2 in Nepal?', 'ONIN Infosys last listed it at Rs 22,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP275W E2 in Nepal?', 'It was last listed at Rs 22,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP275W E2 good for gaming?', 'For casual games, yes. At 120Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP275W E2 Price in Nepal & Specs',
-            'description' => 'MSI PRO MP275W E2 is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 22,499. It was out of stock at ONIN when we checke',
-            'keywords' => 'msi pro mp275w e2 price in nepal, msi pro mp275w e2, msi nepal, onin infosys',
+            'description' => 'MSI PRO MP275W E2 is an everyday monitor for office work, study and streaming. It was listed at Rs 22,499.',
+            'keywords' => 'msi pro mp275w e2 price in nepal, msi pro mp275w e2, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP275W E2',
@@ -16068,19 +16068,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Gigabyte GS32Q 31.5-inch QHD (2560 x 1440) 165Hz SS IPS Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. ONIN Infosys listed it at Rs 52,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Gigabyte GS32Q 31.5-inch QHD (2560 x 1440) 165Hz SS IPS Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. It was listed at Rs 52,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 31.5-inch QHD (2560 × 1440) SS IPS 165Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. At 165Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Gigabyte GS32Q 31.5-inch QHD (2560 x 1440) 165Hz SS IPS Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 52,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Gigabyte GS32Q 31.5-inch QHD (2560 x 1440) 165Hz SS IPS Gaming Monitor in Nepal?', 'It was last listed at Rs 52,000. It showed as out of stock on 23 November 2026.'],
             ['Is the Gigabyte GS32Q 31.5-inch QHD (2560 x 1440) 165Hz SS IPS Gaming Monitor good for gaming?', 'Yes. Its 165Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'Gigabyte GS32Q 31.5-inch QHD (2560 x 1440) 165Hz SS IPS Gaming Monitor',
-            'description' => 'Gigabyte GS32Q 31.5-inch QHD (2560 x 1440) 165Hz SS IPS Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. ONIN Infosys listed it at R',
+            'description' => 'Gigabyte GS32Q 31.5-inch QHD (2560 x 1440) 165Hz SS IPS Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate.',
             'keywords' => <<<'HTML'
-gigabyte gs32q 31.5-inch qhd (2560 x 1440) 165hz ss ips gaming monitor price in nepal, gigabyte gs32q 31.5-inch qhd (2560 x 1440) 165hz ss ips gaming monitor, gigabyte nepal, onin infosys
+gigabyte gs32q 31.5-inch qhd (2560 x 1440) 165hz ss ips gaming monitor price in nepal, gigabyte gs32q 31.5-inch qhd (2560 x 1440) 165hz ss ips gaming monitor, gigabyte nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -16145,19 +16145,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For gamers who want smoother motion than a standard 60Hz screen, Gigabyte M27Q 27-inch QHD (2560 x 1440) 170Hz SS IPS Gaming Monitor offers 170Hz. ONIN Infosys listed it at Rs 45,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>For gamers who want smoother motion than a standard 60Hz screen, Gigabyte M27Q 27-inch QHD (2560 x 1440) 170Hz SS IPS Gaming Monitor offers 170Hz. It was listed at Rs 45,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) SS IPS 170Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. At 170Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Gigabyte M27Q 27-inch QHD (2560 x 1440) 170Hz SS IPS Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 45,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Gigabyte M27Q 27-inch QHD (2560 x 1440) 170Hz SS IPS Gaming Monitor in Nepal?', 'It was last listed at Rs 45,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Gigabyte M27Q 27-inch QHD (2560 x 1440) 170Hz SS IPS Gaming Monitor good for gaming?', 'Yes. Its 170Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'Gigabyte M27Q 27-inch QHD (2560 x 1440) 170Hz SS IPS Gaming Monitor Pr',
-            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, Gigabyte M27Q 27-inch QHD (2560 x 1440) 170Hz SS IPS Gaming Monitor offers 170Hz. ONIN Infosy',
+            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, Gigabyte M27Q 27-inch QHD (2560 x 1440) 170Hz SS IPS Gaming Monitor offers 170Hz.',
             'keywords' => <<<'HTML'
-gigabyte m27q 27-inch qhd (2560 x 1440) 170hz ss ips gaming monitor price in nepal, gigabyte m27q 27-inch qhd (2560 x 1440) 170hz ss ips gaming monitor, gigabyte nepal, onin infosys
+gigabyte m27q 27-inch qhd (2560 x 1440) 170hz ss ips gaming monitor price in nepal, gigabyte m27q 27-inch qhd (2560 x 1440) 170hz ss ips gaming monitor, gigabyte nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -16222,19 +16222,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For gamers who want smoother motion than a standard 60Hz screen, Gigabyte M28U Arm Edition 28-inch UHD 4K SS IPS 144Hz Gaming Monitor offers 144Hz. ONIN Infosys listed it at Rs 1,12,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>For gamers who want smoother motion than a standard 60Hz screen, Gigabyte M28U Arm Edition 28-inch UHD 4K SS IPS 144Hz Gaming Monitor offers 144Hz. It was listed at Rs 1,12,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 28-inch 4K UHD SS IPS 144Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. 4K at this size is very sharp: text looks crisp and you'll want Windows scaling at about 150%. At 144Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Gigabyte M28U Arm Edition 28-inch UHD 4K SS IPS 144Hz Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 1,12,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Gigabyte M28U Arm Edition 28-inch UHD 4K SS IPS 144Hz Gaming Monitor in Nepal?', 'It was last listed at Rs 1,12,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Gigabyte M28U Arm Edition 28-inch UHD 4K SS IPS 144Hz Gaming Monitor good for gaming?', 'Yes. Its 144Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'Gigabyte M28U Arm Edition 28-inch UHD 4K SS IPS 144Hz Gaming Monitor P',
-            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, Gigabyte M28U Arm Edition 28-inch UHD 4K SS IPS 144Hz Gaming Monitor offers 144Hz. ONIN Infos',
+            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, Gigabyte M28U Arm Edition 28-inch UHD 4K SS IPS 144Hz Gaming Monitor offers 144Hz.',
             'keywords' => <<<'HTML'
-gigabyte m28u arm edition 28-inch uhd 4k ss ips 144hz gaming monitor price in nepal, gigabyte m28u arm edition 28-inch uhd 4k ss ips 144hz gaming monitor, gigabyte nepal, onin infosys
+gigabyte m28u arm edition 28-inch uhd 4k ss ips 144hz gaming monitor price in nepal, gigabyte m28u arm edition 28-inch uhd 4k ss ips 144hz gaming monitor, gigabyte nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -16298,18 +16298,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. ONIN Infosys listed it at Rs 33,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. It was listed at Rs 33,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 23.8-inch Full HD 165Hz. At 165Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 33,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor in Nepal?', 'It was last listed at Rs 33,999. It showed as out of stock on 23 November 2026.'],
             ['Is the Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor good for gaming?', 'Yes. Its 165Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor Price in Nepal & Specs',
-            'description' => 'Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. ONIN Infosys listed it at Rs 33,999. It was out of ',
-            'keywords' => 'gigabyte g24f 2 23.8-inch 165hz gaming monitor price in nepal, gigabyte g24f 2 23.8-inch 165hz gaming monitor, gigabyte nepal, onin infosys',
+            'description' => 'Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. It was listed at Rs 33,999.',
+            'keywords' => 'gigabyte g24f 2 23.8-inch 165hz gaming monitor price in nepal, gigabyte g24f 2 23.8-inch 165hz gaming monitor, gigabyte nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'Gigabyte G24F 2 23.8-inch 165Hz Gaming Monitor',
@@ -16372,19 +16372,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Gigabyte GS27Q 27-inch SS IPS QHD (2560 x 1440) 165Hz Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. ONIN Infosys listed it at Rs 42,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Gigabyte GS27Q 27-inch SS IPS QHD (2560 x 1440) 165Hz Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. It was listed at Rs 42,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) SS IPS 165Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. At 165Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Gigabyte GS27Q 27-inch SS IPS QHD (2560 x 1440) 165Hz Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 42,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Gigabyte GS27Q 27-inch SS IPS QHD (2560 x 1440) 165Hz Gaming Monitor in Nepal?', 'It was last listed at Rs 42,499. It showed as out of stock on 23 November 2026.'],
             ['Is the Gigabyte GS27Q 27-inch SS IPS QHD (2560 x 1440) 165Hz Gaming Monitor good for gaming?', 'Yes. Its 165Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'Gigabyte GS27Q 27-inch SS IPS QHD (2560 x 1440) 165Hz Gaming Monitor P',
-            'description' => 'Gigabyte GS27Q 27-inch SS IPS QHD (2560 x 1440) 165Hz Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate. ONIN Infosys listed it at Rs ',
+            'description' => 'Gigabyte GS27Q 27-inch SS IPS QHD (2560 x 1440) 165Hz Gaming Monitor is a gaming monitor built around a fast 165Hz refresh rate.',
             'keywords' => <<<'HTML'
-gigabyte gs27q 27-inch ss ips qhd (2560 x 1440) 165hz gaming monitor price in nepal, gigabyte gs27q 27-inch ss ips qhd (2560 x 1440) 165hz gaming monitor, gigabyte nepal, onin infosys
+gigabyte gs27q 27-inch ss ips qhd (2560 x 1440) 165hz gaming monitor price in nepal, gigabyte gs27q 27-inch ss ips qhd (2560 x 1440) 165hz gaming monitor, gigabyte nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -16448,19 +16448,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Gigabyte GS34WQC 34-inch WQHD 120Hz Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. ONIN Infosys listed it at Rs 56,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Gigabyte GS34WQC 34-inch WQHD 120Hz Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. It was listed at Rs 56,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 34-inch UWQHD (3440 × 1440) 120Hz. A 120Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Gigabyte GS34WQC 34-inch WQHD 120Hz Curved Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 56,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Gigabyte GS34WQC 34-inch WQHD 120Hz Curved Gaming Monitor in Nepal?', 'It was last listed at Rs 56,000. It showed as out of stock on 23 November 2026.'],
             ['Is the Gigabyte GS34WQC 34-inch WQHD 120Hz Curved Gaming Monitor good for gaming?', 'For casual games, yes. At 120Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'Gigabyte GS34WQC 34-inch WQHD 120Hz Curved Gaming Monitor Price in Nep',
-            'description' => 'Gigabyte GS34WQC 34-inch WQHD 120Hz Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. ONIN Infosys list',
+            'description' => 'Gigabyte GS34WQC 34-inch WQHD 120Hz Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel.',
             'keywords' => <<<'HTML'
-gigabyte gs34wqc 34-inch wqhd 120hz curved gaming monitor price in nepal, gigabyte gs34wqc 34-inch wqhd 120hz curved gaming monitor, gigabyte nepal, onin infosys
+gigabyte gs34wqc 34-inch wqhd 120hz curved gaming monitor price in nepal, gigabyte gs34wqc 34-inch wqhd 120hz curved gaming monitor, gigabyte nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -16525,19 +16525,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C) is a gaming monitor built around a fast 144Hz refresh rate. ONIN Infosys listed it at Rs 30,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C) is a gaming monitor built around a fast 144Hz refresh rate. It was listed at Rs 30,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD IPS 144Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. At 144Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully, and the 5ms response time keeps fast motion sharp. Colour coverage is listed at 99% sRGB.</p>
 <p>USB-C input lets a compatible laptop send picture (and often power) over a single cable. Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C) in Nepal?', 'ONIN Infosys last listed it at Rs 30,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C) in Nepal?', 'It was last listed at Rs 30,499. It showed as out of stock on 23 November 2026.'],
             ['Is the BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C) good for gaming?', 'Yes. Its 144Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
             ['Can I connect a laptop with a single USB-C cable?', 'If your laptop\'s USB-C port supports DisplayPort Alt Mode, yes. Check your laptop\'s specifications for video output over USB-C.'],
         ],
         'seo' => [
             'title' => 'BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C) Price in Nepa',
-            'description' => 'BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C) is a gaming monitor built around a fast 144Hz refresh rate. ONIN Infosys listed it at Rs 30,499. It w',
-            'keywords' => 'benq gw2790c 27-inch 144hz eye-care ips monitor (type-c) price in nepal, benq gw2790c 27-inch 144hz eye-care ips monitor (type-c), benq nepal, onin infosys',
+            'description' => 'BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C) is a gaming monitor built around a fast 144Hz refresh rate. It was listed at Rs 30,499.',
+            'keywords' => 'benq gw2790c 27-inch 144hz eye-care ips monitor (type-c) price in nepal, benq gw2790c 27-inch 144hz eye-care ips monitor (type-c), benq nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'BenQ GW2790C 27-inch 144Hz Eye-Care IPS Monitor (Type-C)',
@@ -16599,18 +16599,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 1,12,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 1,12,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) 240Hz. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. At 240Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully, and the 0.03ms response time keeps fast motion sharp.</p>
 <p>It is certified for HDR400. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 1,12,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor in Nepal?', 'It was last listed at Rs 1,12,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor good for gaming?', 'Yes. Its 240Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor Price in Nepal ',
-            'description' => 'MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 1,12,499. It ',
-            'keywords' => 'msi mag 273qp qd-oled x24 27-inch 240hz gaming monitor price in nepal, msi mag 273qp qd-oled x24 27-inch 240hz gaming monitor, msi nepal, onin infosys',
+            'description' => 'MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 1,12,499.',
+            'keywords' => 'msi mag 273qp qd-oled x24 27-inch 240hz gaming monitor price in nepal, msi mag 273qp qd-oled x24 27-inch 240hz gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI MAG 273QP QD-OLED X24 27-inch 240Hz Gaming Monitor',
@@ -16674,19 +16674,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI MAG 274QPF E20 27-inch WQHD 200Hz Rapid IPS Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 41,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI MAG 274QPF E20 27-inch WQHD 200Hz Rapid IPS Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 41,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) Rapid IPS 200Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. At 200Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI MAG 274QPF E20 27-inch WQHD 200Hz Rapid IPS Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 41,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI MAG 274QPF E20 27-inch WQHD 200Hz Rapid IPS Gaming Monitor in Nepal?', 'It was last listed at Rs 41,999. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI MAG 274QPF E20 27-inch WQHD 200Hz Rapid IPS Gaming Monitor good for gaming?', 'Yes. Its 200Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI MAG 274QPF E20 27-inch WQHD 200Hz Rapid IPS Gaming Monitor Price i',
-            'description' => 'MSI MAG 274QPF E20 27-inch WQHD 200Hz Rapid IPS Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 41,99',
+            'description' => 'MSI MAG 274QPF E20 27-inch WQHD 200Hz Rapid IPS Gaming Monitor is a high-refresh monitor for esports and fast action games.',
             'keywords' => <<<'HTML'
-msi mag 274qpf e20 27-inch wqhd 200hz rapid ips gaming monitor price in nepal, msi mag 274qpf e20 27-inch wqhd 200hz rapid ips gaming monitor, msi nepal, onin infosys
+msi mag 274qpf e20 27-inch wqhd 200hz rapid ips gaming monitor price in nepal, msi mag 274qpf e20 27-inch wqhd 200hz rapid ips gaming monitor, msi nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -16752,18 +16752,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor is a gaming monitor built around a fast 240Hz refresh rate. ONIN Infosys listed it at Rs 1,50,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor is a gaming monitor built around a fast 240Hz refresh rate. It was listed at Rs 1,50,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 31.5-inch 4K UHD QD-OLED 240Hz. QD-OLED means every pixel makes its own light, so blacks are perfect, contrast is effectively infinite, and response is near-instant. Use a dark theme and the built-in care features to reduce burn-in risk. At 240Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 1,50,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor in Nepal?', 'It was last listed at Rs 1,50,999. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor good for gaming?', 'Yes. Its 240Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor Price in Nepa',
-            'description' => 'MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor is a gaming monitor built around a fast 240Hz refresh rate. ONIN Infosys listed it at Rs 1,50,999. It',
-            'keywords' => 'msi mag 321upx qd-oled 31.5-inch 4k 240hz gaming monitor price in nepal, msi mag 321upx qd-oled 31.5-inch 4k 240hz gaming monitor, msi nepal, onin infosys',
+            'description' => 'MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor is a gaming monitor built around a fast 240Hz refresh rate. It was listed at Rs 1,50,999.',
+            'keywords' => 'msi mag 321upx qd-oled 31.5-inch 4k 240hz gaming monitor price in nepal, msi mag 321upx qd-oled 31.5-inch 4k 240hz gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI MAG 321UPX QD-OLED 31.5-inch 4K 240Hz Gaming Monitor',
@@ -16826,18 +16826,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. ONIN Infosys listed it at Rs 65,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. It was listed at Rs 65,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 34-inch UWQHD (3440 × 1440) VA 200Hz. VA panels give deeper blacks and higher contrast than IPS, which suits films and dark game scenes, but colours shift a little at wide angles. At 200Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully, and the 0.5ms response time keeps fast motion sharp. The 1500R curve wraps the edges of the screen towards you, which feels more immersive in games and reduces eye travel on wide panels.</p>
 <p>The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 65,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor in Nepal?', 'It was last listed at Rs 65,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor good for gaming?', 'Yes. Its 200Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor Price in Nepal & Spe',
-            'description' => 'MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel. ONIN Infosys listed it at',
-            'keywords' => 'msi mag 342cqrf e20 34-inch curved gaming monitor price in nepal, msi mag 342cqrf e20 34-inch curved gaming monitor, msi nepal, onin infosys',
+            'description' => 'MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor is an ultrawide monitor that replaces a dual-screen setup with one seamless panel.',
+            'keywords' => 'msi mag 342cqrf e20 34-inch curved gaming monitor price in nepal, msi mag 342cqrf e20 34-inch curved gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI MAG 342CQRF E20 34-Inch Curved Gaming Monitor',
@@ -16899,18 +16899,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI MAG 274F is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 27,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI MAG 274F is a high-refresh monitor for esports and fast action games. It was listed at Rs 27,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD IPS 200Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. At 200Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI MAG 274F in Nepal?', 'ONIN Infosys last listed it at Rs 27,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI MAG 274F in Nepal?', 'It was last listed at Rs 27,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI MAG 274F good for gaming?', 'Yes. Its 200Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI MAG 274F Price in Nepal & Specs',
-            'description' => 'MSI MAG 274F is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 27,499. It was out of stock at ONIN when we checked on ',
-            'keywords' => 'msi mag 274f price in nepal, msi mag 274f, msi nepal, onin infosys',
+            'description' => 'MSI MAG 274F is a high-refresh monitor for esports and fast action games. It was listed at Rs 27,499.',
+            'keywords' => 'msi mag 274f price in nepal, msi mag 274f, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI MAG 274F',
@@ -16959,18 +16959,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI Modern MD241P 24-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 27,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI Modern MD241P 24-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 27,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD 100Hz. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Modern MD241P 24-inch Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 27,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Modern MD241P 24-inch Business Monitor in Nepal?', 'It was last listed at Rs 27,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Modern MD241P 24-inch Business Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI Modern MD241P 24-inch Business Monitor Price in Nepal & Specs',
-            'description' => 'MSI Modern MD241P 24-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 27,000. It was',
-            'keywords' => 'msi modern md241p 24-inch business monitor price in nepal, msi modern md241p 24-inch business monitor, msi nepal, onin infosys',
+            'description' => 'MSI Modern MD241P 24-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 27,000.',
+            'keywords' => 'msi modern md241p 24-inch business monitor price in nepal, msi modern md241p 24-inch business monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Modern MD241P 24-inch Business Monitor',
@@ -17025,18 +17025,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI Modern 27-inch Full HD IPS Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 40,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI Modern 27-inch Full HD IPS Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 40,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD IPS 100Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Modern 27-inch Full HD IPS Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 40,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Modern 27-inch Full HD IPS Monitor in Nepal?', 'It was last listed at Rs 40,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Modern 27-inch Full HD IPS Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI Modern 27-inch Full HD IPS Monitor Price in Nepal & Specs',
-            'description' => 'MSI Modern 27-inch Full HD IPS Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 40,000. It was out of s',
-            'keywords' => 'msi modern 27-inch full hd ips monitor price in nepal, msi modern 27-inch full hd ips monitor, msi nepal, onin infosys',
+            'description' => 'MSI Modern 27-inch Full HD IPS Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 40,000.',
+            'keywords' => 'msi modern 27-inch full hd ips monitor price in nepal, msi modern 27-inch full hd ips monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Modern 27-inch Full HD IPS Monitor',
@@ -17100,18 +17100,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 25,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 25,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 23.8-inch Full HD IPS 100Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 25,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor in Nepal?', 'It was last listed at Rs 25,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor Price in Nepal & Spe',
-            'description' => 'MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 25,499. It w',
-            'keywords' => 'msi modern md2412pw 23.8-inch 100hz usb-c monitor price in nepal, msi modern md2412pw 23.8-inch 100hz usb-c monitor, msi nepal, onin infosys',
+            'description' => 'MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 25,499.',
+            'keywords' => 'msi modern md2412pw 23.8-inch 100hz usb-c monitor price in nepal, msi modern md2412pw 23.8-inch 100hz usb-c monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Modern MD2412PW 23.8-inch 100Hz USB-C Monitor',
@@ -17173,19 +17173,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI Modern MD272XP 27-inch USB-C Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 33,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI Modern MD272XP 27-inch USB-C Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 33,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD SS IPS 100Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>USB-C input lets a compatible laptop send picture and receive up to 65W of charging over a single cable. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Modern MD272XP 27-inch USB-C Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 33,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Modern MD272XP 27-inch USB-C Monitor in Nepal?', 'It was last listed at Rs 33,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Modern MD272XP 27-inch USB-C Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
             ['Can I connect a laptop with a single USB-C cable?', 'If your laptop\'s USB-C port supports DisplayPort Alt Mode, yes. Check your laptop\'s specifications for video output over USB-C.'],
         ],
         'seo' => [
             'title' => 'MSI Modern MD272XP 27-inch USB-C Monitor Price in Nepal & Specs',
-            'description' => 'MSI Modern MD272XP 27-inch USB-C Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 33,499. It was out of',
-            'keywords' => 'msi modern md272xp 27-inch usb-c monitor price in nepal, msi modern md272xp 27-inch usb-c monitor, msi nepal, onin infosys',
+            'description' => 'MSI Modern MD272XP 27-inch USB-C Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 33,499.',
+            'keywords' => 'msi modern md272xp 27-inch usb-c monitor price in nepal, msi modern md272xp 27-inch usb-c monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Modern MD272XP 27-inch USB-C Monitor',
@@ -17239,18 +17239,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For gamers who want smoother motion than a standard 60Hz screen, MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor offers 180Hz. ONIN Infosys listed it at Rs 31,000. MSI has since retired its Optix line, so this is now an older model and Rs 31,000 is its last listed price in Nepal.</p>
+<p>For gamers who want smoother motion than a standard 60Hz screen, MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor offers 180Hz. It was listed at Rs 31,000. MSI has since retired its Optix line, so this is now an older model and Rs 31,000 is its last listed price in Nepal.</p>
 <p>The panel is 27-inch Full HD VA 180Hz. VA panels give deeper blacks and higher contrast than IPS, which suits films and dark game scenes, but colours shift a little at wide angles. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. At 180Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 31,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor in Nepal?', 'It was last listed at Rs 31,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor good for gaming?', 'Yes. Its 180Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor Price in Nepal & Spe',
-            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor offers 180Hz. ONIN Infosys listed it at Rs ',
-            'keywords' => 'msi optix 27-inch full hd 180hz va gaming monitor price in nepal, msi optix 27-inch full hd 180hz va gaming monitor, msi nepal, onin infosys',
+            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor offers 180Hz.',
+            'keywords' => 'msi optix 27-inch full hd 180hz va gaming monitor price in nepal, msi optix 27-inch full hd 180hz va gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Optix 27-inch Full HD 180Hz VA Gaming Monitor',
@@ -17299,18 +17299,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For gamers who want smoother motion than a standard 60Hz screen, MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor offers 75Hz. ONIN Infosys listed it at Rs 22,500. MSI has since retired its Optix line, so this is now an older model and Rs 22,500 is its last listed price in Nepal.</p>
+<p>For gamers who want smoother motion than a standard 60Hz screen, MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor offers 75Hz. It was listed at Rs 22,500. MSI has since retired its Optix line, so this is now an older model and Rs 22,500 is its last listed price in Nepal.</p>
 <p>The panel is 24-inch Full HD 75Hz. The 1800R curve wraps the edges of the screen towards you, which feels more immersive in games and reduces eye travel on wide panels.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 22,500. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor in Nepal?', 'It was last listed at Rs 22,500. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor good for gaming?', 'For casual games, yes. At 75Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor Price in Nepal ',
-            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor offers 75Hz. ONIN Infosys listed it at',
-            'keywords' => 'msi optix g241vc 24-inch full hd curved gaming monitor price in nepal, msi optix g241vc 24-inch full hd curved gaming monitor, msi nepal, onin infosys',
+            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor offers 75Hz.',
+            'keywords' => 'msi optix g241vc 24-inch full hd curved gaming monitor price in nepal, msi optix g241vc 24-inch full hd curved gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Optix G241VC 24-inch Full HD Curved Gaming Monitor',
@@ -17359,18 +17359,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor is a gaming monitor built around a fast 180Hz refresh rate. ONIN Infosys listed it at Rs 49,500. MSI has since retired its Optix line, so this is now an older model and Rs 49,500 is its last listed price in Nepal.</p>
+<p>MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor is a gaming monitor built around a fast 180Hz refresh rate. It was listed at Rs 49,500. MSI has since retired its Optix line, so this is now an older model and Rs 49,500 is its last listed price in Nepal.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) IPS 180Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. At 180Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 49,500. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor in Nepal?', 'It was last listed at Rs 49,500. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor good for gaming?', 'Yes. Its 180Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor Price in Nepal & Specs',
-            'description' => 'MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor is a gaming monitor built around a fast 180Hz refresh rate. ONIN Infosys listed it at Rs 49,500. MSI has since',
-            'keywords' => 'msi optix g274qpf-e2 27-inch qhd gaming monitor price in nepal, msi optix g274qpf-e2 27-inch qhd gaming monitor, msi nepal, onin infosys',
+            'description' => 'MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor is a gaming monitor built around a fast 180Hz refresh rate. It was listed at Rs 49,500.',
+            'keywords' => 'msi optix g274qpf-e2 27-inch qhd gaming monitor price in nepal, msi optix g274qpf-e2 27-inch qhd gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Optix G274QPF-E2 27-inch QHD Gaming Monitor',
@@ -17418,18 +17418,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI Optix G281UV 28-inch 4K Monitor is a gaming monitor built around a fast 60Hz refresh rate. ONIN Infosys listed it at Rs 63,000. MSI has since retired its Optix line, so this is now an older model and Rs 63,000 is its last listed price in Nepal.</p>
+<p>MSI Optix G281UV 28-inch 4K Monitor is a gaming monitor built around a fast 60Hz refresh rate. It was listed at Rs 63,000. MSI has since retired its Optix line, so this is now an older model and Rs 63,000 is its last listed price in Nepal.</p>
 <p>The panel is 28-inch 4K UHD IPS 60Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. 4K at this size is very sharp: text looks crisp and you'll want Windows scaling at about 150%.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Optix G281UV 28-inch 4K Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 63,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Optix G281UV 28-inch 4K Monitor in Nepal?', 'It was last listed at Rs 63,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Optix G281UV 28-inch 4K Monitor good for gaming?', 'For casual games, yes. At 60Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI Optix G281UV 28-inch 4K Monitor Price in Nepal & Specs',
-            'description' => 'MSI Optix G281UV 28-inch 4K Monitor is a gaming monitor built around a fast 60Hz refresh rate. ONIN Infosys listed it at Rs 63,000. MSI has since retired its ',
-            'keywords' => 'msi optix g281uv 28-inch 4k monitor price in nepal, msi optix g281uv 28-inch 4k monitor, msi nepal, onin infosys',
+            'description' => 'MSI Optix G281UV 28-inch 4K Monitor is a gaming monitor built around a fast 60Hz refresh rate. It was listed at Rs 63,000.',
+            'keywords' => 'msi optix g281uv 28-inch 4k monitor price in nepal, msi optix g281uv 28-inch 4k monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Optix G281UV 28-inch 4K Monitor',
@@ -17479,18 +17479,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor is a gaming monitor built around a fast 170Hz refresh rate. ONIN Infosys listed it at Rs 52,000. MSI has since retired its Optix line, so this is now an older model and Rs 52,000 is its last listed price in Nepal.</p>
+<p>MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor is a gaming monitor built around a fast 170Hz refresh rate. It was listed at Rs 52,000. MSI has since retired its Optix line, so this is now an older model and Rs 52,000 is its last listed price in Nepal.</p>
 <p>The panel is 32-inch QHD (2560 × 1440) IPS 170Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. At 170Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully. The 1500R curve wraps the edges of the screen towards you, which feels more immersive in games and reduces eye travel on wide panels.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 52,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor in Nepal?', 'It was last listed at Rs 52,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor good for gaming?', 'Yes. Its 170Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor Price in Nep',
-            'description' => 'MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor is a gaming monitor built around a fast 170Hz refresh rate. ONIN Infosys listed it at Rs 52,000. MSI',
-            'keywords' => 'msi optix g32cq5p 32-inch qhd 170hz curved gaming monitor price in nepal, msi optix g32cq5p 32-inch qhd 170hz curved gaming monitor, msi nepal, onin infosys',
+            'description' => 'MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor is a gaming monitor built around a fast 170Hz refresh rate. It was listed at Rs 52,000.',
+            'keywords' => 'msi optix g32cq5p 32-inch qhd 170hz curved gaming monitor price in nepal, msi optix g32cq5p 32-inch qhd 170hz curved gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Optix G32CQ5P 32-inch QHD 170Hz Curved Gaming Monitor',
@@ -17542,18 +17542,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 27,000. MSI has since retired its Optix line, so this is now an older model and Rs 27,000 is its last listed price in Nepal.</p>
+<p>MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 27,000. MSI has since retired its Optix line, so this is now an older model and Rs 27,000 is its last listed price in Nepal.</p>
 <p>The panel is 24-inch Full HD VA 144Hz. VA panels give deeper blacks and higher contrast than IPS, which suits films and dark game scenes, but colours shift a little at wide angles. At 144Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully. The 1500R curve wraps the edges of the screen towards you, which feels more immersive in games and reduces eye travel on wide panels.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 27,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor in Nepal?', 'It was last listed at Rs 27,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor good for gaming?', 'Yes. Its 144Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor Price in Nepal',
-            'description' => 'MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor is a high-refresh monitor for esports and fast action games. ONIN Infosys listed it at Rs 27,000. MSI ',
-            'keywords' => 'msi optix mag241c 24-inch full hd curved gaming monitor price in nepal, msi optix mag241c 24-inch full hd curved gaming monitor, msi nepal, onin infosys',
+            'description' => 'MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor is a high-refresh monitor for esports and fast action games. It was listed at Rs 27,000.',
+            'keywords' => 'msi optix mag241c 24-inch full hd curved gaming monitor price in nepal, msi optix mag241c 24-inch full hd curved gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Optix MAG241C 24-inch Full HD Curved Gaming Monitor',
@@ -17614,19 +17614,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP2412 23.8-inch FHD 100Hz EyesErgo Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 16,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP2412 23.8-inch FHD 100Hz EyesErgo Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 16,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 23.8-inch Full HD 100Hz. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP2412 23.8-inch FHD 100Hz EyesErgo Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 16,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP2412 23.8-inch FHD 100Hz EyesErgo Business Monitor in Nepal?', 'It was last listed at Rs 16,999. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP2412 23.8-inch FHD 100Hz EyesErgo Business Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP2412 23.8-inch FHD 100Hz EyesErgo Business Monitor Price in ',
-            'description' => 'MSI PRO MP2412 23.8-inch FHD 100Hz EyesErgo Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at',
+            'description' => 'MSI PRO MP2412 23.8-inch FHD 100Hz EyesErgo Business Monitor is a straightforward screen for spreadsheets, browsing and video calls.',
             'keywords' => <<<'HTML'
-msi pro mp2412 23.8-inch fhd 100hz eyesergo business monitor price in nepal, msi pro mp2412 23.8-inch fhd 100hz eyesergo business monitor, msi nepal, onin infosys
+msi pro mp2412 23.8-inch fhd 100hz eyesergo business monitor price in nepal, msi pro mp2412 23.8-inch fhd 100hz eyesergo business monitor, msi nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -17689,19 +17689,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For gamers who want smoother motion than a standard 60Hz screen, MSI PRO MP243W E14 23.8-inch Full HD 144Hz White IPS Monitor offers 144Hz. ONIN Infosys listed it at Rs 20,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>For gamers who want smoother motion than a standard 60Hz screen, MSI PRO MP243W E14 23.8-inch Full HD 144Hz White IPS Monitor offers 144Hz. It was listed at Rs 20,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 23.8-inch Full HD IPS 144Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. At 144Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP243W E14 23.8-inch Full HD 144Hz White IPS Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 20,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP243W E14 23.8-inch Full HD 144Hz White IPS Monitor in Nepal?', 'It was last listed at Rs 20,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP243W E14 23.8-inch Full HD 144Hz White IPS Monitor good for gaming?', 'Yes. Its 144Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP243W E14 23.8-inch Full HD 144Hz White IPS Monitor Price in ',
-            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI PRO MP243W E14 23.8-inch Full HD 144Hz White IPS Monitor offers 144Hz. ONIN Infosys liste',
+            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI PRO MP243W E14 23.8-inch Full HD 144Hz White IPS Monitor offers 144Hz.',
             'keywords' => <<<'HTML'
-msi pro mp243w e14 23.8-inch full hd 144hz white ips monitor price in nepal, msi pro mp243w e14 23.8-inch full hd 144hz white ips monitor, msi nepal, onin infosys
+msi pro mp243w e14 23.8-inch full hd 144hz white ips monitor price in nepal, msi pro mp243w e14 23.8-inch full hd 144hz white ips monitor, msi nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -17765,18 +17765,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For gamers who want smoother motion than a standard 60Hz screen, MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor offers 144Hz. ONIN Infosys listed it at Rs 19,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>For gamers who want smoother motion than a standard 60Hz screen, MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor offers 144Hz. It was listed at Rs 19,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24.5-inch Full HD IPS 144Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. At 144Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 19,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor in Nepal?', 'It was last listed at Rs 19,999. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor good for gaming?', 'Yes. Its 144Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor Price in Nepal & Sp',
-            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor offers 144Hz. ONIN Infosys listed it at Rs',
-            'keywords' => 'msi pro mp251 e14a 24.5-inch fhd 144hz ips monitor price in nepal, msi pro mp251 e14a 24.5-inch fhd 144hz ips monitor, msi nepal, onin infosys',
+            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor offers 144Hz.',
+            'keywords' => 'msi pro mp251 e14a 24.5-inch fhd 144hz ips monitor price in nepal, msi pro mp251 e14a 24.5-inch fhd 144hz ips monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP251 E14A 24.5-inch FHD 144Hz IPS Monitor',
@@ -17832,19 +17832,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP251 E2 24.5 inch FHD 120 Hz IPS Eye-Care Monitor with Speakers (99% sRGB) is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 18,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP251 E2 24.5 inch FHD 120 Hz IPS Eye-Care Monitor with Speakers (99% sRGB) is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 18,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24.5-inch Full HD IPS 120Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. A 120Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work. Colour coverage is listed at 99% sRGB.</p>
 <p>Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP251 E2 24.5 inch FHD 120 Hz IPS Eye-Care Monitor with Speakers (99% sRGB) in Nepal?', 'ONIN Infosys last listed it at Rs 18,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP251 E2 24.5 inch FHD 120 Hz IPS Eye-Care Monitor with Speakers (99% sRGB) in Nepal?', 'It was last listed at Rs 18,999. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP251 E2 24.5 inch FHD 120 Hz IPS Eye-Care Monitor with Speakers (99% sRGB) good for gaming?', 'For casual games, yes. At 120Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP251 E2 24.5 inch FHD 120 Hz IPS Eye-Care Monitor with Speake',
-            'description' => 'MSI PRO MP251 E2 24.5 inch FHD 120 Hz IPS Eye-Care Monitor with Speakers (99% sRGB) is a practical desk monitor for work-from-home setups and offices. ONIN In',
+            'description' => 'MSI PRO MP251 E2 24.5 inch FHD 120 Hz IPS Eye-Care Monitor with Speakers (99% sRGB) is a practical desk monitor for work-from-home setups and offices.',
             'keywords' => <<<'HTML'
-msi pro mp251 e2 24.5 inch fhd 120 hz ips eye-care monitor with speakers (99% srgb) price in nepal, msi pro mp251 e2 24.5 inch fhd 120 hz ips eye-care monitor with speakers (99% srgb), msi nepal, onin infosys
+msi pro mp251 e2 24.5 inch fhd 120 hz ips eye-care monitor with speakers (99% srgb) price in nepal, msi pro mp251 e2 24.5 inch fhd 120 hz ips eye-care monitor with speakers (99% srgb), msi nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -17907,18 +17907,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 18,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 18,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24.5-inch Full HD IPS 120Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. A 120Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 18,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor in Nepal?', 'It was last listed at Rs 18,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor good for gaming?', 'For casual games, yes. At 120Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor Price in Nepal & Sp',
-            'description' => 'MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 18,499. It ',
-            'keywords' => 'msi pro mp251l e2 24.5-inch 120hz business monitor price in nepal, msi pro mp251l e2 24.5-inch 120hz business monitor, msi nepal, onin infosys',
+            'description' => 'MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 18,499.',
+            'keywords' => 'msi pro mp251l e2 24.5-inch 120hz business monitor price in nepal, msi pro mp251l e2 24.5-inch 120hz business monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP251L E2 24.5-inch 120Hz Business Monitor',
@@ -17979,19 +17979,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP273A 27-inch FHD IPS Monitor -100Hz, 1ms, Eye-Care, Dual Speakers is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 21,229. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP273A 27-inch FHD IPS Monitor -100Hz, 1ms, Eye-Care, Dual Speakers is an everyday monitor for office work, study and streaming. It was listed at Rs 21,229. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD IPS 100Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. Flicker-free backlighting and a low-blue-light mode make long sessions easier on the eyes. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP273A 27-inch FHD IPS Monitor -100Hz, 1ms, Eye-Care, Dual Speakers in Nepal?', 'ONIN Infosys last listed it at Rs 21,229. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP273A 27-inch FHD IPS Monitor -100Hz, 1ms, Eye-Care, Dual Speakers in Nepal?', 'It was last listed at Rs 21,229. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP273A 27-inch FHD IPS Monitor -100Hz, 1ms, Eye-Care, Dual Speakers good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP273A 27-inch FHD IPS Monitor -100Hz, 1ms, Eye-Care, Dual Spe',
-            'description' => 'MSI PRO MP273A 27-inch FHD IPS Monitor -100Hz, 1ms, Eye-Care, Dual Speakers is an everyday monitor for office work, study and streaming. ONIN Infosys listed i',
+            'description' => 'MSI PRO MP273A 27-inch FHD IPS Monitor -100Hz, 1ms, Eye-Care, Dual Speakers is an everyday monitor for office work, study and streaming.',
             'keywords' => <<<'HTML'
-msi pro mp273a 27-inch fhd ips monitor -100hz, 1ms, eye-care, dual speakers price in nepal, msi pro mp273a 27-inch fhd ips monitor -100hz, 1ms, eye-care, dual speakers, msi nepal, onin infosys
+msi pro mp273a 27-inch fhd ips monitor -100hz, 1ms, eye-care, dual speakers price in nepal, msi pro mp273a 27-inch fhd ips monitor -100hz, 1ms, eye-care, dual speakers, msi nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -18055,18 +18055,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 26,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 26,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) IPS 75Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 26,999. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor in Nepal?', 'It was last listed at Rs 26,999. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor good for gaming?', 'For casual games, yes. At 75Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor Price in Nepal',
-            'description' => 'MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 2',
-            'keywords' => 'msi pro mp273q e7 27-inch wqhd ips professional monitor price in nepal, msi pro mp273q e7 27-inch wqhd ips professional monitor, msi nepal, onin infosys',
+            'description' => 'MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor is a straightforward screen for spreadsheets, browsing and video calls.',
+            'keywords' => 'msi pro mp273q e7 27-inch wqhd ips professional monitor price in nepal, msi pro mp273q e7 27-inch wqhd ips professional monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP273Q E7 27-inch WQHD IPS Professional Monitor',
@@ -18129,18 +18129,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP275QPG 27-inch QHD Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 39,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP275QPG 27-inch QHD Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 39,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch QHD (2560 × 1440) IPS 100Hz. IPS keeps colours consistent from any angle, which helps when two people look at the screen or you sit off-centre. QHD on a 27-inch or larger screen is the sweet spot: noticeably sharper than Full HD, and still easy for a mid-range graphics card to drive in games. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work. Colour coverage is listed at 100% sRGB.</p>
 <p>The stand adjusts in height (and on some models pivots to portrait), which matters more for neck comfort than most specs. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP275QPG 27-inch QHD Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 39,499. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP275QPG 27-inch QHD Monitor in Nepal?', 'It was last listed at Rs 39,499. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP275QPG 27-inch QHD Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP275QPG 27-inch QHD Monitor Price in Nepal & Specs',
-            'description' => 'MSI PRO MP275QPG 27-inch QHD Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 39,499. It was out of stock at ',
-            'keywords' => 'msi pro mp275qpg 27-inch qhd monitor price in nepal, msi pro mp275qpg 27-inch qhd monitor, msi nepal, onin infosys',
+            'description' => 'MSI PRO MP275QPG 27-inch QHD Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 39,499.',
+            'keywords' => 'msi pro mp275qpg 27-inch qhd monitor price in nepal, msi pro mp275qpg 27-inch qhd monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP275QPG 27-inch QHD Monitor',
@@ -18194,18 +18194,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP241X 24-inch Business Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 26,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP241X 24-inch Business Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 26,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD 75Hz.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP241X 24-inch Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 26,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP241X 24-inch Business Monitor in Nepal?', 'It was last listed at Rs 26,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP241X 24-inch Business Monitor good for gaming?', 'For casual games, yes. At 75Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP241X 24-inch Business Monitor Price in Nepal & Specs',
-            'description' => 'MSI PRO MP241X 24-inch Business Monitor is an everyday monitor for office work, study and streaming. ONIN Infosys listed it at Rs 26,000. It was out of stock ',
-            'keywords' => 'msi pro mp241x 24-inch business monitor price in nepal, msi pro mp241x 24-inch business monitor, msi nepal, onin infosys',
+            'description' => 'MSI PRO MP241X 24-inch Business Monitor is an everyday monitor for office work, study and streaming. It was listed at Rs 26,000.',
+            'keywords' => 'msi pro mp241x 24-inch business monitor price in nepal, msi pro mp241x 24-inch business monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP241X 24-inch Business Monitor',
@@ -18259,18 +18259,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP242C 24-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 20,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP242C 24-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 20,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 24-inch Full HD 75Hz.</p>
 <p>Built-in speakers are handy for calls and casual video, but headphones or desktop speakers will sound much better. It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP242C 24-inch Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 20,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP242C 24-inch Business Monitor in Nepal?', 'It was last listed at Rs 20,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP242C 24-inch Business Monitor good for gaming?', 'For casual games, yes. At 75Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP242C 24-inch Business Monitor Price in Nepal & Specs',
-            'description' => 'MSI PRO MP242C 24-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 20,000. It was ou',
-            'keywords' => 'msi pro mp242c 24-inch business monitor price in nepal, msi pro mp242c 24-inch business monitor, msi nepal, onin infosys',
+            'description' => 'MSI PRO MP242C 24-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 20,000.',
+            'keywords' => 'msi pro mp242c 24-inch business monitor price in nepal, msi pro mp242c 24-inch business monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP242C 24-inch Business Monitor',
@@ -18323,18 +18323,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP273AW 27-inch Full HD Monitor (White) is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 21,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP273AW 27-inch Full HD Monitor (White) is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 21,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD 100Hz. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP273AW 27-inch Full HD Monitor (White) in Nepal?', 'ONIN Infosys last listed it at Rs 21,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP273AW 27-inch Full HD Monitor (White) in Nepal?', 'It was last listed at Rs 21,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP273AW 27-inch Full HD Monitor (White) good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP273AW 27-inch Full HD Monitor (White) Price in Nepal & Specs',
-            'description' => 'MSI PRO MP273AW 27-inch Full HD Monitor (White) is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 21,000. I',
-            'keywords' => 'msi pro mp273aw 27-inch full hd monitor (white) price in nepal, msi pro mp273aw 27-inch full hd monitor (white), msi nepal, onin infosys',
+            'description' => 'MSI PRO MP273AW 27-inch Full HD Monitor (White) is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 21,000.',
+            'keywords' => 'msi pro mp273aw 27-inch full hd monitor (white) price in nepal, msi pro mp273aw 27-inch full hd monitor (white), msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP273AW 27-inch Full HD Monitor (White)',
@@ -18388,18 +18388,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>MSI PRO MP223 22-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 15,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>MSI PRO MP223 22-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 15,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 22-inch Full HD 100Hz. A 100Hz refresh rate makes scrolling and cursor movement feel smoother than on 60Hz, even for office work.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI PRO MP223 22-inch Business Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 15,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI PRO MP223 22-inch Business Monitor in Nepal?', 'It was last listed at Rs 15,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI PRO MP223 22-inch Business Monitor good for gaming?', 'For casual games, yes. At 100Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'MSI PRO MP223 22-inch Business Monitor Price in Nepal & Specs',
-            'description' => 'MSI PRO MP223 22-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. ONIN Infosys listed it at Rs 15,000. It was out',
-            'keywords' => 'msi pro mp223 22-inch business monitor price in nepal, msi pro mp223 22-inch business monitor, msi nepal, onin infosys',
+            'description' => 'MSI PRO MP223 22-inch Business Monitor is a straightforward screen for spreadsheets, browsing and video calls. It was listed at Rs 15,000.',
+            'keywords' => 'msi pro mp223 22-inch business monitor price in nepal, msi pro mp223 22-inch business monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI PRO MP223 22-inch Business Monitor',
@@ -18458,18 +18458,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>For gamers who want smoother motion than a standard 60Hz screen, MSI Optix G24C6 24-inch Curved Gaming Monitor offers 144Hz. ONIN Infosys listed it at Rs 28,000. MSI has since retired its Optix line, so this is now an older model and Rs 28,000 is its last listed price in Nepal.</p>
+<p>For gamers who want smoother motion than a standard 60Hz screen, MSI Optix G24C6 24-inch Curved Gaming Monitor offers 144Hz. It was listed at Rs 28,000. MSI has since retired its Optix line, so this is now an older model and Rs 28,000 is its last listed price in Nepal.</p>
 <p>The panel is 23.6-inch Full HD VA 144Hz. VA panels give deeper blacks and higher contrast than IPS, which suits films and dark game scenes, but colours shift a little at wide angles. At 144Hz, motion is far smoother than on a 60Hz screen. You'll need a graphics card that can push high frame rates to benefit fully, and the 1ms response time keeps fast motion sharp. The 1500R curve wraps the edges of the screen towards you, which feels more immersive in games and reduces eye travel on wide panels.</p>
 <p>It suits gamers who want smoother play, and anyone who notices how much nicer high refresh feels for everyday use.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the MSI Optix G24C6 24-inch Curved Gaming Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 28,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the MSI Optix G24C6 24-inch Curved Gaming Monitor in Nepal?', 'It was last listed at Rs 28,000. It showed as out of stock on 23 November 2026.'],
             ['Is the MSI Optix G24C6 24-inch Curved Gaming Monitor good for gaming?', 'Yes. Its 144Hz refresh rate makes fast games look smooth, provided your graphics card can reach high frame rates.'],
         ],
         'seo' => [
             'title' => 'MSI Optix G24C6 24-inch Curved Gaming Monitor Price in Nepal & Specs',
-            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI Optix G24C6 24-inch Curved Gaming Monitor offers 144Hz. ONIN Infosys listed it at Rs 28,0',
-            'keywords' => 'msi optix g24c6 24-inch curved gaming monitor price in nepal, msi optix g24c6 24-inch curved gaming monitor, msi nepal, onin infosys',
+            'description' => 'For gamers who want smoother motion than a standard 60Hz screen, MSI Optix G24C6 24-inch Curved Gaming Monitor offers 144Hz.',
+            'keywords' => 'msi optix g24c6 24-inch curved gaming monitor price in nepal, msi optix g24c6 24-inch curved gaming monitor, msi nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'MSI Optix G24C6 24-inch Curved Gaming Monitor',
@@ -18516,18 +18516,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>Samsung S31C 27-inch Full HD Essential Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 35,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>Samsung S31C 27-inch Full HD Essential Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 35,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>The panel is 27-inch Full HD 75Hz. Full HD stretched to 27 inches looks a little soft for text up close. It's fine for games and video, but QHD is better for office work at this size.</p>
 <p>It suits home offices, students and businesses that want a reliable second screen for a laptop.</p>
 HTML,
         'faqs' => [
-            ['What is the price of the Samsung S31C 27-inch Full HD Essential Monitor in Nepal?', 'ONIN Infosys last listed it at Rs 35,000. It showed as out of stock on 23 November 2026.'],
+            ['What is the price of the Samsung S31C 27-inch Full HD Essential Monitor in Nepal?', 'It was last listed at Rs 35,000. It showed as out of stock on 23 November 2026.'],
             ['Is the Samsung S31C 27-inch Full HD Essential Monitor good for gaming?', 'For casual games, yes. At 75Hz it isn\'t made for competitive esports, where 144Hz or faster is better.'],
         ],
         'seo' => [
             'title' => 'Samsung S31C 27-inch Full HD Essential Monitor Price in Nepal & Specs',
-            'description' => 'Samsung S31C 27-inch Full HD Essential Monitor is a practical desk monitor for work-from-home setups and offices. ONIN Infosys listed it at Rs 35,000. It was ',
-            'keywords' => 'samsung s31c 27-inch full hd essential monitor price in nepal, samsung s31c 27-inch full hd essential monitor, samsung nepal, onin infosys',
+            'description' => 'Samsung S31C 27-inch Full HD Essential Monitor is a practical desk monitor for work-from-home setups and offices. It was listed at Rs 35,000.',
+            'keywords' => 'samsung s31c 27-inch full hd essential monitor price in nepal, samsung s31c 27-inch full hd essential monitor, samsung nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'Samsung S31C 27-inch Full HD Essential Monitor',
@@ -18592,18 +18592,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6 is AMD's high-end RDNA 4 card for 1440p and 4K gaming, with much-improved ray tracing and FSR 4 upscaling. ONIN Infosys listed it at Rs 1,37,500. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6 is AMD's high-end RDNA 4 card for 1440p and 4K gaming, with much-improved ray tracing and FSR 4 upscaling. It was listed at Rs 1,37,500. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This ASUS version of the Radeon RX 9070 XT adds a factory overclock. Plan for a quality power supply of at least 750W (AMD's guidance for the Radeon RX 9070 XT), and check the card's length against your case before buying.</p>
 <p>It suits gamers who want high-end performance without paying for NVIDIA's top cards, and Linux users who value AMD's open-source drivers.</p>
 HTML,
         'faqs' => [
             ['What power supply does the ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6 need?', 'Plan for at least 750W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6 in Nepal?', 'ONIN Infosys last listed it at Rs 1,37,500. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6 in Nepal?', 'It was last listed at Rs 1,37,500. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6 Price in Nepal & Sp',
             'description' => 'The ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6 is AMD\'s high-end RDNA 4 card for 1440p and 4K gaming, with much-improved ray tracing and FSR 4 upscali',
-            'keywords' => 'asus prime radeon rx 9070 xt oc edition 16gb gddr6 price in nepal, asus prime radeon rx 9070 xt oc edition 16gb gddr6, asus nepal, onin infosys',
+            'keywords' => 'asus prime radeon rx 9070 xt oc edition 16gb gddr6 price in nepal, asus prime radeon rx 9070 xt oc edition 16gb gddr6, asus nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6',
@@ -18663,17 +18663,17 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Lexar NM610 PRO 1TB NVMe SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. ONIN Infosys listed it at Rs 22,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The Lexar NM610 PRO 1TB NVMe SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. It was listed at Rs 22,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>Gen3 NVMe is still several times faster than a SATA SSD and far faster than a hard drive, which is plenty for Windows, apps and most games. Sequential reads are rated at up to 3300MB/s. 1TB is the sweet spot for a gaming or work PC's main drive. Check that your laptop or motherboard has a free M.2 slot that supports NVMe (not only SATA) before buying, and clone your old drive with free tools if you're upgrading.</p>
 HTML,
         'faqs' => [
             ['Will the Lexar NM610 PRO 1TB NVMe SSD work in my laptop?', 'If your laptop has an M.2 2280 slot with NVMe support, yes. Check the laptop\'s manual or a teardown first.'],
-            ['What was the price of the Lexar NM610 PRO 1TB NVMe SSD in Nepal?', 'ONIN Infosys last listed it at Rs 22,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the Lexar NM610 PRO 1TB NVMe SSD in Nepal?', 'It was last listed at Rs 22,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'Lexar NM610 PRO 1TB NVMe SSD Price in Nepal & Specs',
-            'description' => 'The Lexar NM610 PRO 1TB NVMe SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. ONIN Infosys listed it at Rs 22,999. It was out of stock at ONIN when we checked on ',
-            'keywords' => 'lexar nm610 pro 1tb nvme ssd price in nepal, lexar nm610 pro 1tb nvme ssd, lexar nepal, onin infosys',
+            'description' => 'The Lexar NM610 PRO 1TB NVMe SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. It was listed at Rs 22,999.',
+            'keywords' => 'lexar nm610 pro 1tb nvme ssd price in nepal, lexar nm610 pro 1tb nvme ssd, lexar nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'Lexar NM610 PRO 1TB NVMe SSD',
@@ -18727,17 +18727,17 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD is an M.2 2280 NVMe SSD on PCIe Gen4 ×4. ONIN Infosys listed it at Rs 27,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD is an M.2 2280 NVMe SSD on PCIe Gen4 ×4. It was listed at Rs 27,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>PCIe Gen4 doubles the bandwidth of Gen3. It runs in Gen3 slots too, just at Gen3 speeds. 1TB is the sweet spot for a gaming or work PC's main drive. Check that your laptop or motherboard has a free M.2 slot that supports NVMe (not only SATA) before buying, and clone your old drive with free tools if you're upgrading.</p>
 HTML,
         'faqs' => [
             ['Will the PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD work in my laptop?', 'If your laptop has an M.2 2280 slot with NVMe support, yes. Check the laptop\'s manual or a teardown first.'],
-            ['What was the price of the PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD in Nepal?', 'ONIN Infosys last listed it at Rs 27,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD in Nepal?', 'It was last listed at Rs 27,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD Price in Nepal & Specs',
-            'description' => 'The PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD is an M.2 2280 NVMe SSD on PCIe Gen4 ×4. ONIN Infosys listed it at Rs 27,999. It was out of stock at ONIN whe',
-            'keywords' => 'pny 1tb cs2241 m.2 nvme gen4 x4 internal ssd price in nepal, pny 1tb cs2241 m.2 nvme gen4 x4 internal ssd, pny nepal, onin infosys',
+            'description' => 'The PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD is an M.2 2280 NVMe SSD on PCIe Gen4 ×4. It was listed at Rs 27,999.',
+            'keywords' => 'pny 1tb cs2241 m.2 nvme gen4 x4 internal ssd price in nepal, pny 1tb cs2241 m.2 nvme gen4 x4 internal ssd, pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY 1TB CS2241 M.2 NVMe Gen4 x4 Internal SSD',
@@ -18778,17 +18778,17 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. ONIN Infosys listed it at Rs 25,099. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. It was listed at Rs 25,099. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>Gen3 NVMe is still several times faster than a SATA SSD and far faster than a hard drive, which is plenty for Windows, apps and most games. Sequential reads are rated at up to 2400MB/s. 1TB is the sweet spot for a gaming or work PC's main drive. Check that your laptop or motherboard has a free M.2 slot that supports NVMe (not only SATA) before buying, and clone your old drive with free tools if you're upgrading.</p>
 HTML,
         'faqs' => [
             ['Will the PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD work in my laptop?', 'If your laptop has an M.2 2280 slot with NVMe support, yes. Check the laptop\'s manual or a teardown first.'],
-            ['What was the price of the PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD in Nepal?', 'ONIN Infosys last listed it at Rs 25,099. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD in Nepal?', 'It was last listed at Rs 25,099. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD Price in Nepal & Spec',
-            'description' => 'The PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. ONIN Infosys listed it at Rs 25,099. It was out of stock at ONIN',
-            'keywords' => 'pny cs1031 1tb m.2 2280 nvme gen3x4 internal ssd price in nepal, pny cs1031 1tb m.2 2280 nvme gen3x4 internal ssd, pny nepal, onin infosys',
+            'description' => 'The PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. It was listed at Rs 25,099.',
+            'keywords' => 'pny cs1031 1tb m.2 2280 nvme gen3x4 internal ssd price in nepal, pny cs1031 1tb m.2 2280 nvme gen3x4 internal ssd, pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY CS1031 1TB M.2 2280 NVMe Gen3x4 Internal SSD',
@@ -18829,17 +18829,17 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. ONIN Infosys listed it at Rs 10,099. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. It was listed at Rs 10,099. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>Gen3 NVMe is still several times faster than a SATA SSD and far faster than a hard drive, which is plenty for Windows, apps and most games. Sequential reads are rated at up to 1700MB/s. 256GB suits a boot drive for a budget PC, but it fills quickly with games. Check that your laptop or motherboard has a free M.2 slot that supports NVMe (not only SATA) before buying, and clone your old drive with free tools if you're upgrading.</p>
 HTML,
         'faqs' => [
             ['Will the PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD work in my laptop?', 'If your laptop has an M.2 2280 slot with NVMe support, yes. Check the laptop\'s manual or a teardown first.'],
-            ['What was the price of the PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD in Nepal?', 'ONIN Infosys last listed it at Rs 10,099. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD in Nepal?', 'It was last listed at Rs 10,099. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD Price in Nepal & Specs',
-            'description' => 'The PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. ONIN Infosys listed it at Rs 10,099. It was out of stock at ONIN w',
-            'keywords' => 'pny cs1031 256gb m.2 2280 nvme pcie gen3x4 ssd price in nepal, pny cs1031 256gb m.2 2280 nvme pcie gen3x4 ssd, pny nepal, onin infosys',
+            'description' => 'The PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. It was listed at Rs 10,099.',
+            'keywords' => 'pny cs1031 256gb m.2 2280 nvme pcie gen3x4 ssd price in nepal, pny cs1031 256gb m.2 2280 nvme pcie gen3x4 ssd, pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY CS1031 256GB M.2 2280 NVMe PCIe Gen3x4 SSD',
@@ -18881,17 +18881,17 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. ONIN Infosys listed it at Rs 13,799. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. It was listed at Rs 13,799. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>Gen3 NVMe is still several times faster than a SATA SSD and far faster than a hard drive, which is plenty for Windows, apps and most games. Sequential reads are rated at up to 2200MB/s. 500GB is a sensible boot drive with room for apps and a few games. Check that your laptop or motherboard has a free M.2 slot that supports NVMe (not only SATA) before buying, and clone your old drive with free tools if you're upgrading.</p>
 HTML,
         'faqs' => [
             ['Will the PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD work in my laptop?', 'If your laptop has an M.2 2280 slot with NVMe support, yes. Check the laptop\'s manual or a teardown first.'],
-            ['What was the price of the PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD in Nepal?', 'ONIN Infosys last listed it at Rs 13,799. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD in Nepal?', 'It was last listed at Rs 13,799. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD Price in Nepal & Specs',
-            'description' => 'The PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. ONIN Infosys listed it at Rs 13,799. It was out of stock at ONIN when ',
-            'keywords' => 'pny cs1031 500gb m.2 nvme pcie gen3 x4 ssd price in nepal, pny cs1031 500gb m.2 nvme pcie gen3 x4 ssd, pny nepal, onin infosys',
+            'description' => 'The PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD is an M.2 2280 NVMe SSD on PCIe Gen3 ×4. It was listed at Rs 13,799.',
+            'keywords' => 'pny cs1031 500gb m.2 nvme pcie gen3 x4 ssd price in nepal, pny cs1031 500gb m.2 nvme pcie gen3 x4 ssd, pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY CS1031 500GB M.2 NVMe PCIe Gen3 x4 SSD',
@@ -18921,18 +18921,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>The PNY CS2241 500GB M.2 NVMe PCIe Gen4 x4 Solid State Drive (SSD) is an M.2 2280 NVMe SSD on PCIe Gen4 ×4. ONIN Infosys listed it at Rs 15,499. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY CS2241 500GB M.2 NVMe PCIe Gen4 x4 Solid State Drive (SSD) is an M.2 2280 NVMe SSD on PCIe Gen4 ×4. It was listed at Rs 15,499. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>PCIe Gen4 doubles the bandwidth of Gen3. It runs in Gen3 slots too, just at Gen3 speeds. 500GB is a sensible boot drive with room for apps and a few games. Check that your laptop or motherboard has a free M.2 slot that supports NVMe (not only SATA) before buying, and clone your old drive with free tools if you're upgrading.</p>
 HTML,
         'faqs' => [
             ['Will the PNY CS2241 500GB M.2 NVMe PCIe Gen4 x4 Solid State Drive (SSD) work in my laptop?', 'If your laptop has an M.2 2280 slot with NVMe support, yes. Check the laptop\'s manual or a teardown first.'],
-            ['What was the price of the PNY CS2241 500GB M.2 NVMe PCIe Gen4 x4 Solid State Drive (SSD) in Nepal?', 'ONIN Infosys last listed it at Rs 15,499. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY CS2241 500GB M.2 NVMe PCIe Gen4 x4 Solid State Drive (SSD) in Nepal?', 'It was last listed at Rs 15,499. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY CS2241 500GB M.2 NVMe PCIe Gen4 x4 Solid State Drive (SSD) Price i',
-            'description' => 'The PNY CS2241 500GB M.2 NVMe PCIe Gen4 x4 Solid State Drive (SSD) is an M.2 2280 NVMe SSD on PCIe Gen4 ×4. ONIN Infosys listed it at Rs 15,499. It was out of',
+            'description' => 'The PNY CS2241 500GB M.2 NVMe PCIe Gen4 x4 Solid State Drive (SSD) is an M.2 2280 NVMe SSD on PCIe Gen4 ×4. It was listed at Rs 15,499.',
             'keywords' => <<<'HTML'
-pny cs2241 500gb m.2 nvme pcie gen4 x4 solid state drive (ssd) price in nepal, pny cs2241 500gb m.2 nvme pcie gen4 x4 solid state drive (ssd), pny nepal, onin infosys
+pny cs2241 500gb m.2 nvme pcie gen4 x4 solid state drive (ssd) price in nepal, pny cs2241 500gb m.2 nvme pcie gen4 x4 solid state drive (ssd), pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -18973,18 +18973,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>PNY GeForce RTX 5050 8GB GDDR6 Dual Fan Graphics Card: an entry-level card for 1080p gaming at medium to high settings, with DLSS 4 Multi Frame Generation for extra frames in supported games. ONIN Infosys listed it at Rs 54,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>PNY GeForce RTX 5050 8GB GDDR6 Dual Fan Graphics Card: an entry-level card for 1080p gaming at medium to high settings, with DLSS 4 Multi Frame Generation for extra frames in supported games. It was listed at Rs 54,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5050 adds a dual-fan cooler. Plan for a quality power supply of at least 550W (NVIDIA's guidance for the GeForce RTX 5050), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY GeForce RTX 5050 8GB GDDR6 Dual Fan Graphics Card need?', 'Plan for at least 550W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY GeForce RTX 5050 8GB GDDR6 Dual Fan Graphics Card in Nepal?', 'ONIN Infosys last listed it at Rs 54,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY GeForce RTX 5050 8GB GDDR6 Dual Fan Graphics Card in Nepal?', 'It was last listed at Rs 54,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY GeForce RTX 5050 8GB GDDR6 Dual Fan Graphics Card Price in Nepal &',
             'description' => 'PNY GeForce RTX 5050 8GB GDDR6 Dual Fan Graphics Card: an entry-level card for 1080p gaming at medium to high settings, with DLSS 4 Multi Frame Generation for',
-            'keywords' => 'pny geforce rtx 5050 8gb gddr6 dual fan graphics card price in nepal, pny geforce rtx 5050 8gb gddr6 dual fan graphics card, pny nepal, onin infosys',
+            'keywords' => 'pny geforce rtx 5050 8gb gddr6 dual fan graphics card price in nepal, pny geforce rtx 5050 8gb gddr6 dual fan graphics card, pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY GeForce RTX 5050 8GB GDDR6 Dual Fan Graphics Card',
@@ -19047,19 +19047,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY GeForce RTX 5060 8GB EPIC-X RGB Overclocked Triple Fan Graphics Card is a mainstream 1080p card that runs current games at high settings, with DLSS 4 Multi Frame Generation helping in demanding titles. ONIN Infosys listed it at Rs 75,000. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY GeForce RTX 5060 8GB EPIC-X RGB Overclocked Triple Fan Graphics Card is a mainstream 1080p card that runs current games at high settings, with DLSS 4 Multi Frame Generation helping in demanding titles. It was listed at Rs 75,000. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5060 adds a triple-fan cooler, a factory overclock and RGB lighting. Plan for a quality power supply of at least 550W (NVIDIA's guidance for the GeForce RTX 5060), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY GeForce RTX 5060 8GB EPIC-X RGB Overclocked Triple Fan Graphics Card need?', 'Plan for at least 550W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY GeForce RTX 5060 8GB EPIC-X RGB Overclocked Triple Fan Graphics Card in Nepal?', 'ONIN Infosys last listed it at Rs 75,000. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY GeForce RTX 5060 8GB EPIC-X RGB Overclocked Triple Fan Graphics Card in Nepal?', 'It was last listed at Rs 75,000. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY GeForce RTX 5060 8GB EPIC-X RGB Overclocked Triple Fan Graphics Ca',
             'description' => 'The PNY GeForce RTX 5060 8GB EPIC-X RGB Overclocked Triple Fan Graphics Card is a mainstream 1080p card that runs current games at high settings, with DLSS 4 ',
             'keywords' => <<<'HTML'
-pny geforce rtx 5060 8gb epic-x rgb overclocked triple fan graphics card price in nepal, pny geforce rtx 5060 8gb epic-x rgb overclocked triple fan graphics card, pny nepal, onin infosys
+pny geforce rtx 5060 8gb epic-x rgb overclocked triple fan graphics card price in nepal, pny geforce rtx 5060 8gb epic-x rgb overclocked triple fan graphics card, pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19123,19 +19123,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>PNY GeForce RTX 5060 Ti 16GB Overclocked Dual Fan Graphics Card: a strong 1080p and capable 1440p card, and its 16GB of memory gives it room for high-resolution textures and AI tools. ONIN Infosys listed it at Rs 1,03,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>PNY GeForce RTX 5060 Ti 16GB Overclocked Dual Fan Graphics Card: a strong 1080p and capable 1440p card, and its 16GB of memory gives it room for high-resolution textures and AI tools. It was listed at Rs 1,03,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5060 Ti adds a dual-fan cooler and a factory overclock. Plan for a quality power supply of at least 600W (NVIDIA's guidance for the GeForce RTX 5060 Ti), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY GeForce RTX 5060 Ti 16GB Overclocked Dual Fan Graphics Card need?', 'Plan for at least 600W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY GeForce RTX 5060 Ti 16GB Overclocked Dual Fan Graphics Card in Nepal?', 'ONIN Infosys last listed it at Rs 1,03,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY GeForce RTX 5060 Ti 16GB Overclocked Dual Fan Graphics Card in Nepal?', 'It was last listed at Rs 1,03,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY GeForce RTX 5060 Ti 16GB Overclocked Dual Fan Graphics Card Price ',
             'description' => 'PNY GeForce RTX 5060 Ti 16GB Overclocked Dual Fan Graphics Card: a strong 1080p and capable 1440p card, and its 16GB of memory gives it room for high-resoluti',
             'keywords' => <<<'HTML'
-pny geforce rtx 5060 ti 16gb overclocked dual fan graphics card price in nepal, pny geforce rtx 5060 ti 16gb overclocked dual fan graphics card, pny nepal, onin infosys
+pny geforce rtx 5060 ti 16gb overclocked dual fan graphics card price in nepal, pny geforce rtx 5060 ti 16gb overclocked dual fan graphics card, pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19199,19 +19199,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>PNY GeForce RTX 5060 Ti 8GB Overclocked Dual Fan Graphics Card: a strong 1080p card. The 8GB version can run short of memory at 1440p with high textures, so the 16GB model is the safer long-term buy. ONIN Infosys listed it at Rs 83,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>PNY GeForce RTX 5060 Ti 8GB Overclocked Dual Fan Graphics Card: a strong 1080p card. The 8GB version can run short of memory at 1440p with high textures, so the 16GB model is the safer long-term buy. It was listed at Rs 83,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5060 Ti adds a dual-fan cooler and a factory overclock. Plan for a quality power supply of at least 600W (NVIDIA's guidance for the GeForce RTX 5060 Ti), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY GeForce RTX 5060 Ti 8GB Overclocked Dual Fan Graphics Card need?', 'Plan for at least 600W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY GeForce RTX 5060 Ti 8GB Overclocked Dual Fan Graphics Card in Nepal?', 'ONIN Infosys last listed it at Rs 83,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY GeForce RTX 5060 Ti 8GB Overclocked Dual Fan Graphics Card in Nepal?', 'It was last listed at Rs 83,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY GeForce RTX 5060 Ti 8GB Overclocked Dual Fan Graphics Card Price i',
             'description' => 'PNY GeForce RTX 5060 Ti 8GB Overclocked Dual Fan Graphics Card: a strong 1080p card. The 8GB version can run short of memory at 1440p with high textures, so t',
             'keywords' => <<<'HTML'
-pny geforce rtx 5060 ti 8gb overclocked dual fan graphics card price in nepal, pny geforce rtx 5060 ti 8gb overclocked dual fan graphics card, pny nepal, onin infosys
+pny geforce rtx 5060 ti 8gb overclocked dual fan graphics card price in nepal, pny geforce rtx 5060 ti 8gb overclocked dual fan graphics card, pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19275,18 +19275,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>PNY GeForce RTX 5070 Ti 16GB ARGB Epic-X RGB OC Triple Fan: a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and large AI models. ONIN Infosys listed it at Rs 1,85,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>PNY GeForce RTX 5070 Ti 16GB ARGB Epic-X RGB OC Triple Fan: a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and large AI models. It was listed at Rs 1,85,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5070 Ti adds a triple-fan cooler, a factory overclock and RGB lighting. Plan for a quality power supply of at least 750W (NVIDIA's guidance for the GeForce RTX 5070 Ti), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY GeForce RTX 5070 Ti 16GB ARGB Epic-X RGB OC Triple Fan need?', 'Plan for at least 750W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY GeForce RTX 5070 Ti 16GB ARGB Epic-X RGB OC Triple Fan in Nepal?', 'ONIN Infosys last listed it at Rs 1,85,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY GeForce RTX 5070 Ti 16GB ARGB Epic-X RGB OC Triple Fan in Nepal?', 'It was last listed at Rs 1,85,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY GeForce RTX 5070 Ti 16GB ARGB Epic-X RGB OC Triple Fan Price in Ne',
             'description' => 'PNY GeForce RTX 5070 Ti 16GB ARGB Epic-X RGB OC Triple Fan: a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and large AI m',
-            'keywords' => 'pny geforce rtx 5070 ti 16gb argb epic-x rgb oc triple fan price in nepal, pny geforce rtx 5070 ti 16gb argb epic-x rgb oc triple fan, pny nepal, onin infosys',
+            'keywords' => 'pny geforce rtx 5070 ti 16gb argb epic-x rgb oc triple fan price in nepal, pny geforce rtx 5070 ti 16gb argb epic-x rgb oc triple fan, pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY GeForce RTX 5070 Ti 16GB ARGB Epic-X RGB OC Triple Fan',
@@ -19349,18 +19349,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fan Graphics Card is a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and large AI models. ONIN Infosys listed it at Rs 1,75,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fan Graphics Card is a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and large AI models. It was listed at Rs 1,75,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5070 Ti adds a triple-fan cooler. Plan for a quality power supply of at least 750W (NVIDIA's guidance for the GeForce RTX 5070 Ti), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fan Graphics Card need?', 'Plan for at least 750W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fan Graphics Card in Nepal?', 'ONIN Infosys last listed it at Rs 1,75,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fan Graphics Card in Nepal?', 'It was last listed at Rs 1,75,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fan Graphics Card Price in N',
             'description' => 'The PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fan Graphics Card is a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and lar',
-            'keywords' => 'pny geforce rtx 5070 ti 16gb gddr7 triple fan graphics card price in nepal, pny geforce rtx 5070 ti 16gb gddr7 triple fan graphics card, pny nepal, onin infosys',
+            'keywords' => 'pny geforce rtx 5070 ti 16gb gddr7 triple fan graphics card price in nepal, pny geforce rtx 5070 ti 16gb gddr7 triple fan graphics card, pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fan Graphics Card',
@@ -19423,19 +19423,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY GeForce RTX 5070 Ti 16GB Over Clocked GDDR7 Graphics Card is a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and large AI models. ONIN Infosys listed it at Rs 1,79,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY GeForce RTX 5070 Ti 16GB Over Clocked GDDR7 Graphics Card is a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and large AI models. It was listed at Rs 1,79,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5070 Ti sticks close to the reference design. Plan for a quality power supply of at least 750W (NVIDIA's guidance for the GeForce RTX 5070 Ti), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY GeForce RTX 5070 Ti 16GB Over Clocked GDDR7 Graphics Card need?', 'Plan for at least 750W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY GeForce RTX 5070 Ti 16GB Over Clocked GDDR7 Graphics Card in Nepal?', 'ONIN Infosys last listed it at Rs 1,79,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY GeForce RTX 5070 Ti 16GB Over Clocked GDDR7 Graphics Card in Nepal?', 'It was last listed at Rs 1,79,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY GeForce RTX 5070 Ti 16GB Over Clocked GDDR7 Graphics Card Price in',
             'description' => 'The PNY GeForce RTX 5070 Ti 16GB Over Clocked GDDR7 Graphics Card is a high-end 1440p and entry 4K card with 16GB of GDDR7, plenty for path-traced games and l',
             'keywords' => <<<'HTML'
-pny geforce rtx 5070 ti 16gb over clocked gddr7 graphics card price in nepal, pny geforce rtx 5070 ti 16gb over clocked gddr7 graphics card, pny nepal, onin infosys
+pny geforce rtx 5070 ti 16gb over clocked gddr7 graphics card price in nepal, pny geforce rtx 5070 ti 16gb over clocked gddr7 graphics card, pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19499,18 +19499,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1) is a 4K-class card for high settings with ray tracing, with DLSS 4 to push high frame rates. ONIN Infosys listed it at Rs 2,53,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1) is a 4K-class card for high settings with ray tracing, with DLSS 4 to push high frame rates. It was listed at Rs 2,53,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5080 adds a triple-fan cooler. Plan for a quality power supply of at least 850W (NVIDIA's guidance for the GeForce RTX 5080), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1) need?', 'Plan for at least 850W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1) in Nepal?', 'ONIN Infosys last listed it at Rs 2,53,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1) in Nepal?', 'It was last listed at Rs 2,53,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1) Price in Nepal ',
-            'description' => 'The PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1) is a 4K-class card for high settings with ray tracing, with DLSS 4 to push high frame rates. ONIN I',
-            'keywords' => 'pny geforce rtx 5080 16gb triple fan (vcg508016tfxpb1) price in nepal, pny geforce rtx 5080 16gb triple fan (vcg508016tfxpb1), pny nepal, onin infosys',
+            'description' => 'The PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1) is a 4K-class card for high settings with ray tracing, with DLSS 4 to push high frame rates.',
+            'keywords' => 'pny geforce rtx 5080 16gb triple fan (vcg508016tfxpb1) price in nepal, pny geforce rtx 5080 16gb triple fan (vcg508016tfxpb1), pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY GeForce RTX 5080 16GB Triple Fan (VCG508016TFXPB1)',
@@ -19573,19 +19573,19 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>PNY NVIDIA GeForce RTX 5090 Overclocked Triple Fan 32GB GDDR7: NVIDIA's flagship: 32GB of GDDR7 for 4K and beyond, heavy 3D rendering and local AI work that won't fit on smaller cards. ONIN Infosys listed it at Rs 5,84,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>PNY NVIDIA GeForce RTX 5090 Overclocked Triple Fan 32GB GDDR7: NVIDIA's flagship: 32GB of GDDR7 for 4K and beyond, heavy 3D rendering and local AI work that won't fit on smaller cards. It was listed at Rs 5,84,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>This PNY version of the GeForce RTX 5090 adds a triple-fan cooler and a factory overclock. Plan for a quality power supply of at least 1000W (NVIDIA's guidance for the GeForce RTX 5090), and check the card's length against your case before buying.</p>
 <p>It suits gamers building or upgrading a desktop, and creators who want hardware-accelerated video encoding (NVENC) and CUDA for Blender, DaVinci Resolve and AI tools.</p>
 HTML,
         'faqs' => [
             ['What power supply does the PNY NVIDIA GeForce RTX 5090 Overclocked Triple Fan 32GB GDDR7 need?', 'Plan for at least 1000W from a reputable brand, and check the connector your card uses.'],
-            ['What was the price of the PNY NVIDIA GeForce RTX 5090 Overclocked Triple Fan 32GB GDDR7 in Nepal?', 'ONIN Infosys last listed it at Rs 5,84,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY NVIDIA GeForce RTX 5090 Overclocked Triple Fan 32GB GDDR7 in Nepal?', 'It was last listed at Rs 5,84,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY NVIDIA GeForce RTX 5090 Overclocked Triple Fan 32GB GDDR7 Price in',
             'description' => 'PNY NVIDIA GeForce RTX 5090 Overclocked Triple Fan 32GB GDDR7: NVIDIA\'s flagship: 32GB of GDDR7 for 4K and beyond, heavy 3D rendering and local AI work that w',
             'keywords' => <<<'HTML'
-pny nvidia geforce rtx 5090 overclocked triple fan 32gb gddr7 price in nepal, pny nvidia geforce rtx 5090 overclocked triple fan 32gb gddr7, pny nepal, onin infosys
+pny nvidia geforce rtx 5090 overclocked triple fan 32gb gddr7 price in nepal, pny nvidia geforce rtx 5090 overclocked triple fan 32gb gddr7, pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19628,18 +19628,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>The PNY Performance 16GB DDR4 3200MHz Desktop RAM (MD16GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 18,099. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY Performance 16GB DDR4 3200MHz Desktop RAM (MD16GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 18,099. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>A single 16GB module. Add a matching second module for dual-channel mode, which gives a real boost to integrated graphics and some games. Make sure your motherboard takes DDR4: DDR4 and DDR5 modules aren't interchangeable.</p>
 HTML,
         'faqs' => [
             ['Will the PNY Performance 16GB DDR4 3200MHz Desktop RAM (MD16GSD43200-TB) fit my PC?', 'Only if it uses DDR4 desktop DIMM slots. Check your motherboard specifications or open the panel to see the existing memory.'],
-            ['What was the price of the PNY Performance 16GB DDR4 3200MHz Desktop RAM (MD16GSD43200-TB) in Nepal?', 'ONIN Infosys last listed it at Rs 18,099. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY Performance 16GB DDR4 3200MHz Desktop RAM (MD16GSD43200-TB) in Nepal?', 'It was last listed at Rs 18,099. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY Performance 16GB DDR4 3200MHz Desktop RAM (MD16GSD43200-TB) Price ',
-            'description' => 'The PNY Performance 16GB DDR4 3200MHz Desktop RAM (MD16GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 18,099. It ',
+            'description' => 'The PNY Performance 16GB DDR4 3200MHz Desktop RAM (MD16GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 18,099.',
             'keywords' => <<<'HTML'
-pny performance 16gb ddr4 3200mhz desktop ram (md16gsd43200-tb) price in nepal, pny performance 16gb ddr4 3200mhz desktop ram (md16gsd43200-tb), pny nepal, onin infosys
+pny performance 16gb ddr4 3200mhz desktop ram (md16gsd43200-tb) price in nepal, pny performance 16gb ddr4 3200mhz desktop ram (md16gsd43200-tb), pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19682,18 +19682,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>The PNY Performance 32GB DDR4 3200MHz Desktop RAM (MD32GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 28,099. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY Performance 32GB DDR4 3200MHz Desktop RAM (MD32GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 28,099. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>A single 32GB module is a big capacity jump for heavy multitasking, virtual machines and video editing. Make sure your motherboard takes DDR4: DDR4 and DDR5 modules aren't interchangeable.</p>
 HTML,
         'faqs' => [
             ['Will the PNY Performance 32GB DDR4 3200MHz Desktop RAM (MD32GSD43200-TB) fit my PC?', 'Only if it uses DDR4 desktop DIMM slots. Check your motherboard specifications or open the panel to see the existing memory.'],
-            ['What was the price of the PNY Performance 32GB DDR4 3200MHz Desktop RAM (MD32GSD43200-TB) in Nepal?', 'ONIN Infosys last listed it at Rs 28,099. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY Performance 32GB DDR4 3200MHz Desktop RAM (MD32GSD43200-TB) in Nepal?', 'It was last listed at Rs 28,099. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY Performance 32GB DDR4 3200MHz Desktop RAM (MD32GSD43200-TB) Price ',
-            'description' => 'The PNY Performance 32GB DDR4 3200MHz Desktop RAM (MD32GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 28,099. It ',
+            'description' => 'The PNY Performance 32GB DDR4 3200MHz Desktop RAM (MD32GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 28,099.',
             'keywords' => <<<'HTML'
-pny performance 32gb ddr4 3200mhz desktop ram (md32gsd43200-tb) price in nepal, pny performance 32gb ddr4 3200mhz desktop ram (md32gsd43200-tb), pny nepal, onin infosys
+pny performance 32gb ddr4 3200mhz desktop ram (md32gsd43200-tb) price in nepal, pny performance 32gb ddr4 3200mhz desktop ram (md32gsd43200-tb), pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19746,18 +19746,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY Performance 8GB DDR4 3200MHz Desktop RAM (MD8GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 10,299. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY Performance 8GB DDR4 3200MHz Desktop RAM (MD8GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 10,299. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>A single 8GB module. Add a matching second module for dual-channel mode, which gives a real boost to integrated graphics and some games. Make sure your motherboard takes DDR4: DDR4 and DDR5 modules aren't interchangeable.</p>
 HTML,
         'faqs' => [
             ['Will the PNY Performance 8GB DDR4 3200MHz Desktop RAM (MD8GSD43200-TB) fit my PC?', 'Only if it uses DDR4 desktop DIMM slots. Check your motherboard specifications or open the panel to see the existing memory.'],
-            ['What was the price of the PNY Performance 8GB DDR4 3200MHz Desktop RAM (MD8GSD43200-TB) in Nepal?', 'ONIN Infosys last listed it at Rs 10,299. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY Performance 8GB DDR4 3200MHz Desktop RAM (MD8GSD43200-TB) in Nepal?', 'It was last listed at Rs 10,299. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY Performance 8GB DDR4 3200MHz Desktop RAM (MD8GSD43200-TB) Price in',
-            'description' => 'The PNY Performance 8GB DDR4 3200MHz Desktop RAM (MD8GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 10,299. It wa',
+            'description' => 'The PNY Performance 8GB DDR4 3200MHz Desktop RAM (MD8GSD43200-TB) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 10,299.',
             'keywords' => <<<'HTML'
-pny performance 8gb ddr4 3200mhz desktop ram (md8gsd43200-tb) price in nepal, pny performance 8gb ddr4 3200mhz desktop ram (md8gsd43200-tb), pny nepal, onin infosys
+pny performance 8gb ddr4 3200mhz desktop ram (md8gsd43200-tb) price in nepal, pny performance 8gb ddr4 3200mhz desktop ram (md8gsd43200-tb), pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19811,18 +19811,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM (MD8GD4320016XR) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 10,599. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM (MD8GD4320016XR) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 10,599. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>A single 8GB module. Add a matching second module for dual-channel mode, which gives a real boost to integrated graphics and some games. It's from PNY's XLR8 gaming line, which adds a heat spreader, with an XMP profile you enable in the BIOS to reach the rated speed. Make sure your motherboard takes DDR4: DDR4 and DDR5 modules aren't interchangeable.</p>
 HTML,
         'faqs' => [
             ['Will the PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM (MD8GD4320016XR) fit my PC?', 'Only if it uses DDR4 desktop DIMM slots. Check your motherboard specifications or open the panel to see the existing memory.'],
-            ['What was the price of the PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM (MD8GD4320016XR) in Nepal?', 'ONIN Infosys last listed it at Rs 10,599. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM (MD8GD4320016XR) in Nepal?', 'It was last listed at Rs 10,599. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM (MD8GD4320016XR) Price in',
-            'description' => 'The PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM (MD8GD4320016XR) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 10,599. It wa',
+            'description' => 'The PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM (MD8GD4320016XR) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 10,599.',
             'keywords' => <<<'HTML'
-pny xlr8 8gb ddr4 3200mhz desktop gaming ram (md8gd4320016xr) price in nepal, pny xlr8 8gb ddr4 3200mhz desktop gaming ram (md8gd4320016xr), pny nepal, onin infosys
+pny xlr8 8gb ddr4 3200mhz desktop gaming ram (md8gd4320016xr) price in nepal, pny xlr8 8gb ddr4 3200mhz desktop gaming ram (md8gd4320016xr), pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19875,18 +19875,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY XLR8 Gaming 16GB DDR4 3200MHz Desktop RAM (MD16GD4320016XR) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 21,099. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY XLR8 Gaming 16GB DDR4 3200MHz Desktop RAM (MD16GD4320016XR) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 21,099. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>A single 16GB module. Add a matching second module for dual-channel mode, which gives a real boost to integrated graphics and some games. It's from PNY's XLR8 gaming line, which adds a heat spreader, with an XMP profile you enable in the BIOS to reach the rated speed. Make sure your motherboard takes DDR4: DDR4 and DDR5 modules aren't interchangeable.</p>
 HTML,
         'faqs' => [
             ['Will the PNY XLR8 Gaming 16GB DDR4 3200MHz Desktop RAM (MD16GD4320016XR) fit my PC?', 'Only if it uses DDR4 desktop DIMM slots. Check your motherboard specifications or open the panel to see the existing memory.'],
-            ['What was the price of the PNY XLR8 Gaming 16GB DDR4 3200MHz Desktop RAM (MD16GD4320016XR) in Nepal?', 'ONIN Infosys last listed it at Rs 21,099. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY XLR8 Gaming 16GB DDR4 3200MHz Desktop RAM (MD16GD4320016XR) in Nepal?', 'It was last listed at Rs 21,099. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY XLR8 Gaming 16GB DDR4 3200MHz Desktop RAM (MD16GD4320016XR) Price ',
-            'description' => 'The PNY XLR8 Gaming 16GB DDR4 3200MHz Desktop RAM (MD16GD4320016XR) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. ONIN Infosys listed it at Rs 21,099. It ',
+            'description' => 'The PNY XLR8 Gaming 16GB DDR4 3200MHz Desktop RAM (MD16GD4320016XR) is DDR4 desktop memory (UDIMM) rated at 3200MT/s. It was listed at Rs 21,099.',
             'keywords' => <<<'HTML'
-pny xlr8 gaming 16gb ddr4 3200mhz desktop ram (md16gd4320016xr) price in nepal, pny xlr8 gaming 16gb ddr4 3200mhz desktop ram (md16gd4320016xr), pny nepal, onin infosys
+pny xlr8 gaming 16gb ddr4 3200mhz desktop ram (md16gd4320016xr) price in nepal, pny xlr8 gaming 16gb ddr4 3200mhz desktop ram (md16gd4320016xr), pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19924,18 +19924,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>The PNY XLR8 Gaming EPIC-X RGB 32GB (2x16GB) DDR5 6400MHz Desktop RAM is DDR5 desktop memory (UDIMM) rated at 6400MT/s. ONIN Infosys listed it at Rs 41,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY XLR8 Gaming EPIC-X RGB 32GB (2x16GB) DDR5 6400MHz Desktop RAM is DDR5 desktop memory (UDIMM) rated at 6400MT/s. It was listed at Rs 41,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>It is a kit of 2 × 16GB modules, so it fills two slots and runs in dual-channel straight away, which matters for integrated graphics and games. It's from PNY's XLR8 gaming line, which adds a heat spreader and RGB lighting, with an Intel XMP/AMD EXPO profile you enable in the BIOS to reach the rated speed. Make sure your motherboard takes DDR5: DDR4 and DDR5 modules aren't interchangeable.</p>
 HTML,
         'faqs' => [
             ['Will the PNY XLR8 Gaming EPIC-X RGB 32GB (2x16GB) DDR5 6400MHz Desktop RAM fit my PC?', 'Only if it uses DDR5 desktop DIMM slots. Check your motherboard specifications or open the panel to see the existing memory.'],
-            ['What was the price of the PNY XLR8 Gaming EPIC-X RGB 32GB (2x16GB) DDR5 6400MHz Desktop RAM in Nepal?', 'ONIN Infosys last listed it at Rs 41,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY XLR8 Gaming EPIC-X RGB 32GB (2x16GB) DDR5 6400MHz Desktop RAM in Nepal?', 'It was last listed at Rs 41,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY XLR8 Gaming EPIC-X RGB 32GB (2x16GB) DDR5 6400MHz Desktop RAM Pric',
-            'description' => 'The PNY XLR8 Gaming EPIC-X RGB 32GB (2x16GB) DDR5 6400MHz Desktop RAM is DDR5 desktop memory (UDIMM) rated at 6400MT/s. ONIN Infosys listed it at Rs 41,999. I',
+            'description' => 'The PNY XLR8 Gaming EPIC-X RGB 32GB (2x16GB) DDR5 6400MHz Desktop RAM is DDR5 desktop memory (UDIMM) rated at 6400MT/s. It was listed at Rs 41,999.',
             'keywords' => <<<'HTML'
-pny xlr8 gaming epic-x rgb 32gb (2x16gb) ddr5 6400mhz desktop ram price in nepal, pny xlr8 gaming epic-x rgb 32gb (2x16gb) ddr5 6400mhz desktop ram, pny nepal, onin infosys
+pny xlr8 gaming epic-x rgb 32gb (2x16gb) ddr5 6400mhz desktop ram price in nepal, pny xlr8 gaming epic-x rgb 32gb (2x16gb) ddr5 6400mhz desktop ram, pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -19973,18 +19973,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>The Rapoo M20 is a simple, budget 2.4GHz wireless mouse for laptops and office desks. ONIN Infosys listed it at only Rs 900. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Rapoo M20 is a simple, budget 2.4GHz wireless mouse for laptops and office desks. It was listed at only Rs 900. It was out of stock when we checked on 23 November 2026.</p>
 <p>Plug the tiny USB receiver in and it works without drivers, with a range of up to 10 metres. The sensor tops out at 1,000 DPI, which is plenty for documents, browsing and spreadsheets, though gamers will want something faster. It runs on a single AA battery at very low power draw, so a battery lasts months with ordinary use, and Rapoo rates the buttons for 3 million clicks.</p>
 <p>It suits students, office staff and anyone who finds a laptop touchpad tiring. If you want quieter clicks, Bluetooth for a tablet, or a higher DPI for a big monitor, look at Rapoo's multi-mode models instead.</p>
 HTML,
         'faqs' => [
             ['Does the Rapoo M20 need drivers?', 'No. It\'s plug-and-play through its 2.4GHz USB receiver.'],
-            ['What is the Rapoo M20\'s DPI?', '1,000 DPI, according to ONIN\'s listing. That\'s fine for office work and browsing.'],
+            ['What is the Rapoo M20\'s DPI?', '1,000 DPI, according to the listing. That\'s fine for office work and browsing.'],
         ],
         'seo' => [
             'title' => 'Rapoo M20 Wireless Mouse Price in Nepal & Specs',
-            'description' => 'The Rapoo M20 is a simple, budget 2.4GHz wireless mouse for laptops and office desks. ONIN Infosys listed it at only Rs 900. It was out of stock at ONIN when ',
-            'keywords' => 'rapoo m20 wireless mouse price in nepal, rapoo m20 wireless mouse, rapoo nepal, onin infosys',
+            'description' => 'The Rapoo M20 is a simple, budget 2.4GHz wireless mouse for laptops and office desks. It was listed at only Rs 900.',
+            'keywords' => 'rapoo m20 wireless mouse price in nepal, rapoo m20 wireless mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo M20 Wireless Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-m20-wireless-mouse',
@@ -20030,18 +20030,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Rapoo N200 is a basic wired USB mouse: no batteries, no pairing, just plug it in and work. ONIN Infosys listed it at Rs 560. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Rapoo N200 is a basic wired USB mouse: no batteries, no pairing, just plug it in and work. It was listed at Rs 560. It was out of stock when we checked on 23 November 2026.</p>
 <p>Its 1,600 DPI optical sensor is a step up from the usual 1,000 DPI office mouse, so the pointer covers a large or second monitor without lifting your hand as often. It has three buttons, including a non-slip scroll wheel, and a symmetrical shape that works for left- and right-handed users.</p>
 <p>It's a good choice for computer labs, cyber cafés, offices and desktop PCs where a mouse should simply keep working. It works with Windows XP through Windows 10 and later without extra software.</p>
 HTML,
         'faqs' => [
-            ['What is the DPI of the Rapoo N200?', '1,600 DPI, according to ONIN\'s listing.'],
+            ['What is the DPI of the Rapoo N200?', '1,600 DPI, according to the listing.'],
             ['Is the Rapoo N200 wireless?', 'No. It is a wired USB mouse, so it never needs batteries.'],
         ],
         'seo' => [
             'title' => 'Rapoo N200 Wired Optical Mouse Price in Nepal & Specs',
-            'description' => 'The Rapoo N200 is a basic wired USB mouse: no batteries, no pairing, just plug it in and work. ONIN Infosys listed it at Rs 560. It was out of stock at ONIN w',
-            'keywords' => 'rapoo n200 wired optical mouse price in nepal, rapoo n200 wired optical mouse, rapoo nepal, onin infosys',
+            'description' => 'The Rapoo N200 is a basic wired USB mouse: no batteries, no pairing, just plug it in and work. It was listed at Rs 560.',
+            'keywords' => 'rapoo n200 wired optical mouse price in nepal, rapoo n200 wired optical mouse, rapoo nepal',
         ],
         'image_alt' => 'Rapoo N200 Wired Optical Mouse',
         'buy_url' => 'https://onin.com.np/product/rapoo-n200-wired-optical-mouse',
@@ -20091,18 +20091,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The UGEE M708 V3 is a large, affordable pen tablet for beginners in digital art, photo retouching and online teaching. ONIN Infosys listed it at Rs 7,500. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The UGEE M708 V3 is a large, affordable pen tablet for beginners in digital art, photo retouching and online teaching. It was listed at Rs 7,500. It was out of stock when we checked on 23 November 2026.</p>
 <p>Its 10 × 6-inch active area is generous for the price, giving you room for full arm strokes instead of cramped wrist movements. The pen senses 16,384 pressure levels and 60° of tilt, and the tablet reads at 5,080 LPI with a 266RPS report rate, so lines follow your hand closely. Eight shortcut keys can be set to undo, brush size or zoom.</p>
 <p>It connects over micro USB and works with Windows 7 or later, macOS 10.10 or later and Chrome OS 88 or later, so it also suits teachers writing on Google Meet or Zoom whiteboards. At about 8 mm thick, it slips into a laptop bag. Keep in mind that it has no screen, so you draw while looking at your monitor, which takes a few days to get used to.</p>
 HTML,
         'faqs' => [
             ['Is the UGEE M708 good for beginners?', 'Yes. It has a large 10 × 6-inch area, 16,384 pressure levels and tilt, at a low price. You draw while looking at your monitor.'],
-            ['Does the UGEE M708 work with Chromebooks?', 'Yes. ONIN lists compatibility with Chrome OS 88 or later, as well as Windows and macOS.'],
+            ['Does the UGEE M708 work with Chromebooks?', 'Yes. Our partner shop lists compatibility with Chrome OS 88 or later, as well as Windows and macOS.'],
         ],
         'seo' => [
             'title' => 'UGEE M708 V3 Drawing Tablet Price in Nepal & Specs',
-            'description' => 'The UGEE M708 V3 is a large, affordable pen tablet for beginners in digital art, photo retouching and online teaching. ONIN Infosys listed it at Rs 7,500. It ',
-            'keywords' => 'ugee m708 v3 drawing tablet price in nepal, ugee m708 v3 drawing tablet, ugee nepal, onin infosys',
+            'description' => 'The UGEE M708 V3 is a large, affordable pen tablet for beginners in digital art, photo retouching and online teaching. It was listed at Rs 7,500.',
+            'keywords' => 'ugee m708 v3 drawing tablet price in nepal, ugee m708 v3 drawing tablet, ugee nepal',
         ],
         'image_alt' => 'UGEE M708 V3 Drawing Tablet',
         'buy_url' => 'https://onin.com.np/product/ugee-m708-drawing-tablet-price-nepal',
@@ -20162,18 +20162,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The XP-PEN Artist 13.3 Pro V2 is a pen display, so you draw directly on a screen instead of on a blank tablet. That makes it far more natural for illustration, comics and design work. ONIN Infosys listed it at Rs 50,999. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The XP-PEN Artist 13.3 Pro V2 is a pen display, so you draw directly on a screen instead of on a blank tablet. That makes it far more natural for illustration, comics and design work. It was listed at Rs 50,999. It was out of stock when we checked on 23 November 2026.</p>
 <p>The 13.3-inch Full HD laminated panel has an anti-glare finish and an active area of about 11.6 × 6.5 inches. Lamination brings the pen tip and the cursor closer together, so lines land where you expect. The battery-free X3 Pro stylus senses 16,384 pressure levels and 60° tilt with ±0.4 mm accuracy, and eight express keys handle your shortcuts.</p>
 <p>Two USB-C ports make the connection simpler on modern laptops, and it works with Windows, macOS, Linux and Android 6.0 or later. At under 13 mm thick, it suits illustrators, animation students and designers who want a portable screen tablet without paying for a large studio display.</p>
 HTML,
         'faqs' => [
             ['Does the XP-PEN Artist 13.3 Pro V2 need to be charged?', 'The stylus doesn\'t. The X3 Pro pen is battery-free. The display is powered over its USB-C connection.'],
-            ['Which operating systems does it support?', 'Windows 7 or later, macOS 10.10 or later, Linux and Android 6.0 or later, according to ONIN\'s listing.'],
+            ['Which operating systems does it support?', 'Windows 7 or later, macOS 10.10 or later, Linux and Android 6.0 or later, according to the listing.'],
         ],
         'seo' => [
             'title' => 'XP-PEN Artist 13.3 Pro V2 Pen Display Price in Nepal & Specs',
             'description' => 'The XP-PEN Artist 13.3 Pro V2 is a pen display, so you draw directly on a screen instead of on a blank tablet. That makes it far more natural for illustration',
-            'keywords' => 'xp-pen artist 13.3 pro v2 pen display price in nepal, xp-pen artist 13.3 pro v2 pen display, xp-pen nepal, onin infosys',
+            'keywords' => 'xp-pen artist 13.3 pro v2 pen display price in nepal, xp-pen artist 13.3 pro v2 pen display, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Artist 13.3 Pro V2 Pen Display',
         'buy_url' => 'https://onin.com.np/product/xp-pen-artist-13-3-pro-v2-price-nepal',
@@ -20232,18 +20232,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The XP-PEN Deco mini7 V2 is a compact pen tablet with a 7 × 4.37-inch active area, small enough for a crowded desk or a backpack. ONIN Infosys listed it at Rs 8,550. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The XP-PEN Deco mini7 V2 is a compact pen tablet with a 7 × 4.37-inch active area, small enough for a crowded desk or a backpack. It was listed at Rs 8,550. It was out of stock when we checked on 23 November 2026.</p>
 <p>It has the same 16,384-level pressure sensitivity and ±60° tilt as XP-PEN's larger tablets, with a battery-free stylus that never needs charging, a 5,080 LPI resolution and around 220RPS report rate. Eight customisable express keys sit along the side. The whole tablet weighs about 307 g and is just over 9 mm thick.</p>
 <p>It plugs in over USB-C and works with Windows, macOS, Linux, Android 10 or later and apps such as Photoshop, Clip Studio, Krita, GIMP and SAI. The box includes the pen, a pen clip and 10 spare nibs. It suits students, note-takers and beginners in digital art who work on a laptop screen, where a smaller area matches the display better.</p>
 HTML,
         'faqs' => [
             ['How big is the XP-PEN Deco mini7 V2\'s drawing area?', '7 × 4.37 inches, which suits laptop screens and small desks.'],
-            ['Does it work with Android phones?', 'Yes. ONIN lists support for Android 10 or later over USB-C, as well as Windows, macOS and Linux.'],
+            ['Does it work with Android phones?', 'Yes. Our partner shop lists support for Android 10 or later over USB-C, as well as Windows, macOS and Linux.'],
         ],
         'seo' => [
             'title' => 'XP-PEN Deco mini7 V2 Drawing Tablet Price in Nepal & Specs',
-            'description' => 'The XP-PEN Deco mini7 V2 is a compact pen tablet with a 7 × 4.37-inch active area, small enough for a crowded desk or a backpack. ONIN Infosys listed it at Rs',
-            'keywords' => 'xp-pen deco mini7 v2 drawing tablet price in nepal, xp-pen deco mini7 v2 drawing tablet, xp-pen nepal, onin infosys',
+            'description' => 'The XP-PEN Deco mini7 V2 is a compact pen tablet with a 7 × 4.37-inch active area, small enough for a crowded desk or a backpack.',
+            'keywords' => 'xp-pen deco mini7 v2 drawing tablet price in nepal, xp-pen deco mini7 v2 drawing tablet, xp-pen nepal',
         ],
         'image_alt' => 'XP-PEN Deco mini7 V2 Drawing Tablet',
         'buy_url' => 'https://onin.com.np/product/xp-pen-deco-mini7-v2-7x4-16384-pressure',
@@ -20290,9 +20290,9 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Canon imageCLASS LBP6030w is a small black-and-white laser printer with Wi-Fi, made for homes and small offices that mainly print documents. ONIN Infosys listed it at Rs 24,999. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Canon imageCLASS LBP6030w is a small black-and-white laser printer with Wi-Fi, made for homes and small offices that mainly print documents. It was listed at Rs 24,999. It was out of stock when we checked on 23 November 2026.</p>
 <p>Laser printing suits text: pages come out crisp and smudge-free, and toner doesn't dry out when you leave the printer idle for weeks, a common problem with inkjets in Nepal's dusty months. It prints at 600 × 600 dpi, and Wi-Fi lets several people print from laptops and phones without passing a USB cable around. A USB 2.0 port is there for a direct connection.</p>
-<p>It only prints, in mono, so you'll need a separate scanner or an all-in-one if you scan and copy often. It suits students printing assignments, lawyers, consultants and shop counters that need a reliable document printer with low running costs per page. ONIN lists a 12-month warranty.</p>
+<p>It only prints, in mono, so you'll need a separate scanner or an all-in-one if you scan and copy often. It suits students printing assignments, lawyers, consultants and shop counters that need a reliable document printer with low running costs per page. The listing shows a 12-month warranty.</p>
 HTML,
         'faqs' => [
             ['Can the Canon LBP6030w print in colour?', 'No. It is a monochrome (black-and-white) laser printer, designed for documents.'],
@@ -20300,8 +20300,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Canon imageCLASS LBP6030w Wireless Laser Printer Price in Nepal & Spec',
-            'description' => 'The Canon imageCLASS LBP6030w is a small black-and-white laser printer with Wi-Fi, made for homes and small offices that mainly print documents. ONIN Infosys ',
-            'keywords' => 'canon imageclass lbp6030w wireless laser printer price in nepal, canon imageclass lbp6030w wireless laser printer, canon nepal, onin infosys',
+            'description' => 'The Canon imageCLASS LBP6030w is a small black-and-white laser printer with Wi-Fi, made for homes and small offices that mainly print documents.',
+            'keywords' => 'canon imageclass lbp6030w wireless laser printer price in nepal, canon imageclass lbp6030w wireless laser printer, canon nepal',
         ],
         'image_alt' => 'Canon imageCLASS LBP6030w Wireless Laser Printer',
         'buy_url' => 'https://onin.com.np/product/canon-lbp6030w-wireless-laserjet-printer-price-in-nepal',
@@ -20349,9 +20349,9 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Canon PIXMA G2020 is a refillable ink-tank all-in-one that prints, scans and copies, built for homes and small offices that print a lot and don't want to keep buying cartridges. ONIN Infosys listed it at Rs 18,000. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Canon PIXMA G2020 is a refillable ink-tank all-in-one that prints, scans and copies, built for homes and small offices that print a lot and don't want to keep buying cartridges. It was listed at Rs 18,000. It was out of stock when we checked on 23 November 2026.</p>
 <p>Ink tanks cost more upfront than cartridge printers, but the bottles print thousands of pages, so the cost per page is very low. That's ideal for school assignments, notes and office copies. The front-facing tanks let you see the ink levels at a glance, and refilling is mess-free with Canon's keyed bottles. It connects over USB and weighs about 6.3 kg.</p>
-<p>It suits families with school-going children, tuition centres and small offices printing mostly text with some colour. If you need wireless printing from phones, an ADF for multi-page scans or automatic duplex, look at the G3000 or G4000 series instead. ONIN lists a one-year warranty.</p>
+<p>It suits families with school-going children, tuition centres and small offices printing mostly text with some colour. If you need wireless printing from phones, an ADF for multi-page scans or automatic duplex, look at the G3000 or G4000 series instead. The listing shows a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Can the Canon G2020 scan and copy?', 'Yes. It is an all-in-one ink-tank printer that prints, scans and copies.'],
@@ -20360,7 +20360,7 @@ HTML,
         'seo' => [
             'title' => 'Canon PIXMA G2020 Ink Tank All-in-One Printer Price in Nepal & Specs',
             'description' => 'The Canon PIXMA G2020 is a refillable ink-tank all-in-one that prints, scans and copies, built for homes and small offices that print a lot and don\'t want to ',
-            'keywords' => 'canon pixma g2020 ink tank all-in-one printer price in nepal, canon pixma g2020 ink tank all-in-one printer, canon nepal, onin infosys',
+            'keywords' => 'canon pixma g2020 ink tank all-in-one printer price in nepal, canon pixma g2020 ink tank all-in-one printer, canon nepal',
         ],
         'image_alt' => 'Canon PIXMA G2020 Ink Tank All-in-One Printer',
         'buy_url' => 'https://onin.com.np/product/canon-g2020-color-printer-price-nepal-2024',
@@ -20408,18 +20408,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Canon PIXMA G2730 is a colour ink-tank all-in-one for homes and offices that print in volume. ONIN Infosys listed it at Rs 21,000. It was out of stock at ONIN when we checked on 23 November 2026.</p>
-<p>Refillable tanks keep running costs very low compared with cartridge printers, which matters when you print notes, assignments or office files every week. ONIN lists colour print speeds of up to 11 ppm and a maximum monthly duty cycle of 3,000 pages, which is more than most homes and small offices will ever need. Besides printing, it scans and copies.</p>
-<p>It suits households with students, small shops and offices that want cheap colour printing without the hassle of cartridges. Keep it covered when not in use and print a page every few days, so the print head doesn't dry out in winter. ONIN lists a one-year warranty.</p>
+<p>The Canon PIXMA G2730 is a colour ink-tank all-in-one for homes and offices that print in volume. It was listed at Rs 21,000. It was out of stock when we checked on 23 November 2026.</p>
+<p>Refillable tanks keep running costs very low compared with cartridge printers, which matters when you print notes, assignments or office files every week. Our partner shop lists colour print speeds of up to 11 ppm and a maximum monthly duty cycle of 3,000 pages, which is more than most homes and small offices will ever need. Besides printing, it scans and copies.</p>
+<p>It suits households with students, small shops and offices that want cheap colour printing without the hassle of cartridges. Keep it covered when not in use and print a page every few days, so the print head doesn't dry out in winter. The listing shows a one-year warranty.</p>
 HTML,
         'faqs' => [
-            ['How many pages a month can the Canon G2730 handle?', 'ONIN lists a maximum monthly duty cycle of 3,000 pages.'],
+            ['How many pages a month can the Canon G2730 handle?', 'The listing shows a maximum monthly duty cycle of 3,000 pages.'],
             ['Is an ink-tank printer cheaper to run?', 'Yes. Refill bottles print thousands of pages, so the cost per page is much lower than with cartridges.'],
         ],
         'seo' => [
             'title' => 'Canon PIXMA G2730 Ink Tank All-in-One Printer Price in Nepal & Specs',
-            'description' => 'The Canon PIXMA G2730 is a colour ink-tank all-in-one for homes and offices that print in volume. ONIN Infosys listed it at Rs 21,000. It was out of stock at ',
-            'keywords' => 'canon pixma g2730 ink tank all-in-one printer price in nepal, canon pixma g2730 ink tank all-in-one printer, canon nepal, onin infosys',
+            'description' => 'The Canon PIXMA G2730 is a colour ink-tank all-in-one for homes and offices that print in volume. It was listed at Rs 21,000.',
+            'keywords' => 'canon pixma g2730 ink tank all-in-one printer price in nepal, canon pixma g2730 ink tank all-in-one printer, canon nepal',
         ],
         'image_alt' => 'Canon PIXMA G2730 Ink Tank All-in-One Printer',
         'buy_url' => 'https://onin.com.np/product/canon-pixma-g2730-color-printer-in-nepal',
@@ -20474,9 +20474,9 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Canon PIXMA G4780 is the office-ready member of Canon's MegaTank family: it prints, scans and copies, adds a 35-sheet automatic document feeder, and prints double-sided automatically. ONIN Infosys listed it at Rs 35,999. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Canon PIXMA G4780 is the office-ready member of Canon's MegaTank family: it prints, scans and copies, adds a 35-sheet automatic document feeder, and prints double-sided automatically. It was listed at Rs 35,999. It was out of stock when we checked on 23 November 2026.</p>
 <p>Canon rates a set of bottles at up to 7,600 mono and 8,100 colour pages in economy mode, so running costs stay very low. It prints at up to 4,800 × 1,200 dpi and approximately 11 ipm mono or 6 ipm colour. The flatbed and ADF scanner handles multi-page contracts and forms without feeding sheets one by one, and a 2.7-inch colour touchscreen makes copying and settings simple.</p>
-<p>Wi-Fi, Wireless Direct, the Canon PRINT app, AirPrint and Mopria let everyone print from phones and laptops, and USB 2.0 is there for a wired connection. It suits small offices, schools, clinics and busy homes that scan and copy as much as they print. ONIN lists a one-year warranty.</p>
+<p>Wi-Fi, Wireless Direct, the Canon PRINT app, AirPrint and Mopria let everyone print from phones and laptops, and USB 2.0 is there for a wired connection. It suits small offices, schools, clinics and busy homes that scan and copy as much as they print. The listing shows a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Does the Canon G4780 print double-sided automatically?', 'Yes. It supports automatic two-sided printing on A4 and Letter paper.'],
@@ -20485,7 +20485,7 @@ HTML,
         'seo' => [
             'title' => 'Canon PIXMA G4780 Wireless MegaTank All-in-One with ADF Price in Nepal',
             'description' => 'The Canon PIXMA G4780 is the office-ready member of Canon\'s MegaTank family: it prints, scans and copies, adds a 35-sheet automatic document feeder, and print',
-            'keywords' => 'canon pixma g4780 wireless megatank all-in-one with adf price in nepal, canon pixma g4780 wireless megatank all-in-one with adf, canon nepal, onin infosys',
+            'keywords' => 'canon pixma g4780 wireless megatank all-in-one with adf price in nepal, canon pixma g4780 wireless megatank all-in-one with adf, canon nepal',
         ],
         'image_alt' => 'Canon PIXMA G4780 Wireless MegaTank All-in-One with ADF',
         'buy_url' => 'https://onin.com.np/product/canon-pixma-g4780-wireless-megatank-printer-nepal',
@@ -20538,18 +20538,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Pantum M6702DW is a black-and-white laser multifunction printer with automatic duplex printing and Wi-Fi, a strong fit for busy small offices. ONIN Infosys listed it at Rs 29,000. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Pantum M6702DW is a black-and-white laser multifunction printer with automatic duplex printing and Wi-Fi, a strong fit for busy small offices. It was listed at Rs 29,000. It was out of stock when we checked on 23 November 2026.</p>
 <p>It prints and copies at 30 pages per minute on A4, quick enough for queues of invoices, reports and exam papers, and it prints both sides of the sheet automatically to save paper. A colour flatbed scanner handles documents and ID cards, with copy features such as ID copy, receipt copy, N-up and clone copy. A 525MHz processor and a metal inner frame point to a printer built for daily office use.</p>
-<p>Laser toner doesn't dry out the way ink does, so it's dependable even if you leave it unused over a holiday. It weighs about 10.3 kg, so give it a solid desk. It suits offices, schools, cooperatives and print counters that mostly handle documents. ONIN lists a one-year warranty.</p>
+<p>Laser toner doesn't dry out the way ink does, so it's dependable even if you leave it unused over a holiday. It weighs about 10.3 kg, so give it a solid desk. It suits offices, schools, cooperatives and print counters that mostly handle documents. The listing shows a one-year warranty.</p>
 HTML,
         'faqs' => [
-            ['How fast is the Pantum M6702DW?', '30 pages per minute on A4 for both printing and copying, according to ONIN\'s listing.'],
+            ['How fast is the Pantum M6702DW?', '30 pages per minute on A4 for both printing and copying, according to the listing.'],
             ['Does it print on both sides automatically?', 'Yes. It supports automatic duplex printing.'],
         ],
         'seo' => [
             'title' => 'Pantum M6702DW Mono Laser Multifunction Printer Price in Nepal & Specs',
-            'description' => 'The Pantum M6702DW is a black-and-white laser multifunction printer with automatic duplex printing and Wi-Fi, a strong fit for busy small offices. ONIN Infosy',
-            'keywords' => 'pantum m6702dw mono laser multifunction printer price in nepal, pantum m6702dw mono laser multifunction printer, pantum nepal, onin infosys',
+            'description' => 'The Pantum M6702DW is a black-and-white laser multifunction printer with automatic duplex printing and Wi-Fi, a strong fit for busy small offices.',
+            'keywords' => 'pantum m6702dw mono laser multifunction printer price in nepal, pantum m6702dw mono laser multifunction printer, pantum nepal',
         ],
         'image_alt' => 'Pantum M6702DW Mono Laser Multifunction Printer',
         'buy_url' => 'https://onin.com.np/product/pantum-m6702dw-mono-laser-duplex-multifunctional-printer-price-nepal-2024',
@@ -20600,9 +20600,9 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Pantum M6505 is an affordable black-and-white laser all-in-one that prints, copies and scans, made for homes and small offices that mainly handle documents. ONIN Infosys listed it at Rs 24,000. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Pantum M6505 is an affordable black-and-white laser all-in-one that prints, copies and scans, made for homes and small offices that mainly handle documents. It was listed at Rs 24,000. It was out of stock when we checked on 23 November 2026.</p>
 <p>It prints and copies at 22 pages per minute, driven by a 600MHz processor, and laser output means sharp text that won't smudge. Duplex printing is manual: you flip the stack yourself to print on both sides. Toner also keeps well between jobs, unlike ink, which can dry in the head during long breaks.</p>
-<p>It suits students, home offices and small shops that need a reliable document printer and the occasional scan or copy without paying for colour. It weighs about 7.5 kg. ONIN lists a 12-month warranty.</p>
+<p>It suits students, home offices and small shops that need a reliable document printer and the occasional scan or copy without paying for colour. It weighs about 7.5 kg. The listing shows a 12-month warranty.</p>
 HTML,
         'faqs' => [
             ['Is the Pantum M6505 colour?', 'No. It is a monochrome laser printer that prints, copies and scans.'],
@@ -20611,7 +20611,7 @@ HTML,
         'seo' => [
             'title' => 'Pantum M6505 Mono Laser Multifunction Printer Price in Nepal & Specs',
             'description' => 'The Pantum M6505 is an affordable black-and-white laser all-in-one that prints, copies and scans, made for homes and small offices that mainly handle document',
-            'keywords' => 'pantum m6505 mono laser multifunction printer price in nepal, pantum m6505 mono laser multifunction printer, pantum nepal, onin infosys',
+            'keywords' => 'pantum m6505 mono laser multifunction printer price in nepal, pantum m6505 mono laser multifunction printer, pantum nepal',
         ],
         'image_alt' => 'Pantum M6505 Mono Laser Multifunction Printer',
         'buy_url' => 'https://onin.com.np/product/pantum-m6505-printer-price-in-nepal',
@@ -20675,7 +20675,7 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The BenQ MS560 is a bright, practical projector for classrooms and meeting rooms. ONIN Infosys listed it at Rs 56,399. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The BenQ MS560 is a bright, practical projector for classrooms and meeting rooms. It was listed at Rs 56,399. It was out of stock when we checked on 23 November 2026.</p>
 <p>Its 4,000 ANSI lumens stand up to rooms that can't be fully darkened, which is the norm in Nepali schools and offices. Native resolution is SVGA (800 × 600) in a 4:3 shape. That's fine for slides and spreadsheets, but it is not sharp enough for detailed films or fine print. It accepts inputs from VGA up to WUXGA and scales them down. Picture modes include Presentation, Infographic, Spreadsheet and sRGB.</p>
 <p>The lamp is rated at 6,000 hours in Normal mode and up to 15,000 hours in LampSave, which keeps running costs down. A 1.1× zoom, a 1.96–2.15 throw ratio and automatic vertical keystone correction of ±40° make setup easier on a table or ceiling mount. It suits schools, training centres and offices on a budget.</p>
 HTML,
@@ -20685,8 +20685,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'BenQ MS560 Business Projector Price in Nepal & Specs',
-            'description' => 'The BenQ MS560 is a bright, practical projector for classrooms and meeting rooms. ONIN Infosys listed it at Rs 56,399. It was out of stock at ONIN when we che',
-            'keywords' => 'benq ms560 business projector price in nepal, benq ms560 business projector, benq nepal, onin infosys',
+            'description' => 'The BenQ MS560 is a bright, practical projector for classrooms and meeting rooms. It was listed at Rs 56,399.',
+            'keywords' => 'benq ms560 business projector price in nepal, benq ms560 business projector, benq nepal',
         ],
         'image_alt' => 'BenQ MS560 Business Projector',
         'buy_url' => 'https://onin.com.np/product/benq-ms560-projector-price-nepal',
@@ -20740,9 +20740,9 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Blackview DCM6 is a 14-inch portable monitor that gives your laptop a second screen anywhere: in a café, a hotel room or at a client's office. ONIN Infosys listed it at Rs 34,949. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Blackview DCM6 is a 14-inch portable monitor that gives your laptop a second screen anywhere: in a café, a hotel room or at a client's office. It was listed at Rs 34,949. It was out of stock when we checked on 23 November 2026.</p>
 <p>The 14-inch IPS panel is Full HD at 60Hz with 300 nits of brightness, so text is sharp and colours hold up at an angle. Two full-featured USB-C ports support DisplayPort Alt Mode and Power Delivery, so with a compatible laptop a single cable carries both picture and power. It has a built-in speaker, an aluminium-alloy and plastic body, and weighs about 1 kg.</p>
-<p>It works with Windows, macOS, Linux, ChromeOS and Android devices that output video over USB-C. It suits programmers, traders, students and anyone who works away from a desk but misses a dual-screen setup. ONIN lists a one-year warranty.</p>
+<p>It works with Windows, macOS, Linux, ChromeOS and Android devices that output video over USB-C. It suits programmers, traders, students and anyone who works away from a desk but misses a dual-screen setup. The listing shows a one-year warranty.</p>
 HTML,
         'faqs' => [
             ['Can the Blackview DCM6 run on one USB-C cable?', 'Yes, if your laptop\'s USB-C port supports DisplayPort Alt Mode and Power Delivery. One cable then carries both video and power.'],
@@ -20750,8 +20750,8 @@ HTML,
         ],
         'seo' => [
             'title' => 'Blackview DCM6 14-inch Portable Monitor Price in Nepal & Specs',
-            'description' => 'The Blackview DCM6 is a 14-inch portable monitor that gives your laptop a second screen anywhere: in a café, a hotel room or at a client\'s office. ONIN Infosy',
-            'keywords' => 'blackview dcm6 14-inch portable monitor price in nepal, blackview dcm6 14-inch portable monitor, blackview nepal, onin infosys',
+            'description' => 'The Blackview DCM6 is a 14-inch portable monitor that gives your laptop a second screen anywhere: in a café, a hotel room or at a client\'s office.',
+            'keywords' => 'blackview dcm6 14-inch portable monitor price in nepal, blackview dcm6 14-inch portable monitor, blackview nepal',
         ],
         'image_alt' => 'Blackview DCM6 14-inch Portable Monitor',
         'buy_url' => 'https://onin.com.np/product/blackview-dcm6-14-inch-portable-monitor-nepal',
@@ -20799,17 +20799,17 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The PNY 16GB XLR8 DDR4 3200MHz Laptop RAM is DDR4 SO-DIMM laptop memory rated at 3200MT/s. ONIN Infosys listed it at Rs 18,999. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY 16GB XLR8 DDR4 3200MHz Laptop RAM is DDR4 SO-DIMM laptop memory rated at 3200MT/s. It was listed at Rs 18,999. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>A single 16GB module. Add a matching second module for dual-channel mode, which gives a real boost to integrated graphics and some games. It's from PNY's XLR8 gaming line, which adds a heat spreader, with an XMP profile you enable in the BIOS to reach the rated speed. Before you buy, check that your laptop uses removable DDR4 SO-DIMM slots: many thin laptops have memory soldered to the board.</p>
 HTML,
         'faqs' => [
             ['Will the PNY 16GB XLR8 DDR4 3200MHz Laptop RAM fit my laptop?', 'Only if it uses DDR4 SO-DIMM slots. Check your laptop model specifications or open the panel to see the existing memory.'],
-            ['What was the price of the PNY 16GB XLR8 DDR4 3200MHz Laptop RAM in Nepal?', 'ONIN Infosys last listed it at Rs 18,999. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY 16GB XLR8 DDR4 3200MHz Laptop RAM in Nepal?', 'It was last listed at Rs 18,999. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY 16GB XLR8 DDR4 3200MHz Laptop RAM Price in Nepal & Specs',
-            'description' => 'The PNY 16GB XLR8 DDR4 3200MHz Laptop RAM is DDR4 SO-DIMM laptop memory rated at 3200MT/s. ONIN Infosys listed it at Rs 18,999. It was out of stock at ONIN wh',
-            'keywords' => 'pny 16gb xlr8 ddr4 3200mhz laptop ram price in nepal, pny 16gb xlr8 ddr4 3200mhz laptop ram, pny nepal, onin infosys',
+            'description' => 'The PNY 16GB XLR8 DDR4 3200MHz Laptop RAM is DDR4 SO-DIMM laptop memory rated at 3200MT/s. It was listed at Rs 18,999.',
+            'keywords' => 'pny 16gb xlr8 ddr4 3200mhz laptop ram price in nepal, pny 16gb xlr8 ddr4 3200mhz laptop ram, pny nepal',
             'robots' => 'noindex, follow',
         ],
         'image_alt' => 'PNY 16GB XLR8 DDR4 3200MHz Laptop RAM',
@@ -20851,18 +20851,18 @@ HTML,
         'specs' => [
         ],
         'description' => <<<'HTML'
-<p>The PNY XLR8 8GB DDR4 3200MHz SODIMM Laptop RAM (MN8GSD43200XR-RB) is DDR4 SO-DIMM laptop memory rated at 3200MT/s. ONIN Infosys listed it at Rs 10,099. It was out of stock at ONIN when we checked on 23 November 2026, so the price shown is ONIN's last listed price. Confirm current stock and price with ONIN before buying.</p>
+<p>The PNY XLR8 8GB DDR4 3200MHz SODIMM Laptop RAM (MN8GSD43200XR-RB) is DDR4 SO-DIMM laptop memory rated at 3200MT/s. It was listed at Rs 10,099. It was out of stock when we checked on 23 November 2026, so the price shown is the last listed one. Confirm current stock and price with the shop before buying.</p>
 <p>A single 8GB module. Add a matching second module for dual-channel mode, which gives a real boost to integrated graphics and some games. It's from PNY's XLR8 gaming line, which adds a heat spreader, with an XMP profile you enable in the BIOS to reach the rated speed. Before you buy, check that your laptop uses removable DDR4 SO-DIMM slots: many thin laptops have memory soldered to the board.</p>
 HTML,
         'faqs' => [
             ['Will the PNY XLR8 8GB DDR4 3200MHz SODIMM Laptop RAM (MN8GSD43200XR-RB) fit my laptop?', 'Only if it uses DDR4 SO-DIMM slots. Check your laptop model specifications or open the panel to see the existing memory.'],
-            ['What was the price of the PNY XLR8 8GB DDR4 3200MHz SODIMM Laptop RAM (MN8GSD43200XR-RB) in Nepal?', 'ONIN Infosys last listed it at Rs 10,099. It showed as out of stock on 23 November 2026.'],
+            ['What was the price of the PNY XLR8 8GB DDR4 3200MHz SODIMM Laptop RAM (MN8GSD43200XR-RB) in Nepal?', 'It was last listed at Rs 10,099. It showed as out of stock on 23 November 2026.'],
         ],
         'seo' => [
             'title' => 'PNY XLR8 8GB DDR4 3200MHz SODIMM Laptop RAM (MN8GSD43200XR-RB) Price i',
-            'description' => 'The PNY XLR8 8GB DDR4 3200MHz SODIMM Laptop RAM (MN8GSD43200XR-RB) is DDR4 SO-DIMM laptop memory rated at 3200MT/s. ONIN Infosys listed it at Rs 10,099. It wa',
+            'description' => 'The PNY XLR8 8GB DDR4 3200MHz SODIMM Laptop RAM (MN8GSD43200XR-RB) is DDR4 SO-DIMM laptop memory rated at 3200MT/s. It was listed at Rs 10,099.',
             'keywords' => <<<'HTML'
-pny xlr8 8gb ddr4 3200mhz sodimm laptop ram (mn8gsd43200xr-rb) price in nepal, pny xlr8 8gb ddr4 3200mhz sodimm laptop ram (mn8gsd43200xr-rb), pny nepal, onin infosys
+pny xlr8 8gb ddr4 3200mhz sodimm laptop ram (mn8gsd43200xr-rb) price in nepal, pny xlr8 8gb ddr4 3200mhz sodimm laptop ram (mn8gsd43200xr-rb), pny nepal
 HTML,
             'robots' => 'noindex, follow',
         ],
@@ -20909,18 +20909,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Seagate Expansion 1TB is a plain, dependable portable hard drive for backing up photos, documents and projects. ONIN Infosys listed it at Rs 13,500. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Seagate Expansion 1TB is a plain, dependable portable hard drive for backing up photos, documents and projects. It was listed at Rs 13,500. It was out of stock when we checked on 23 November 2026.</p>
 <p>It draws power over its USB cable, so there's no adapter to carry, and it works with Windows straight away. On a Mac you can reformat it in a minute. A spinning hard drive is slower than a portable SSD and more fragile if dropped, but it costs far less per terabyte, which makes it the sensible choice for backups that mostly sit in a drawer.</p>
-<p>It suits students backing up assignments, families keeping photo archives, and anyone who wants a copy of important files away from their laptop. Keep it in a padded case and avoid moving it while it's running. ONIN lists a one-year warranty.</p>
+<p>It suits students backing up assignments, families keeping photo archives, and anyone who wants a copy of important files away from their laptop. Keep it in a padded case and avoid moving it while it's running. The listing shows a one-year warranty.</p>
 HTML,
         'faqs' => [
-            ['Does the Seagate Expansion 1TB work with a Mac?', 'Yes. ONIN lists it as compatible with Mac and Windows. For full read-write use on a Mac, reformat it to exFAT or APFS.'],
+            ['Does the Seagate Expansion 1TB work with a Mac?', 'Yes. It is listed as compatible with Mac and Windows. For full read-write use on a Mac, reformat it to exFAT or APFS.'],
             ['Does it need a power adapter?', 'No. It is a portable drive powered by its USB cable.'],
         ],
         'seo' => [
             'title' => 'Seagate Expansion 1TB Portable Hard Drive Price in Nepal & Specs',
-            'description' => 'The Seagate Expansion 1TB is a plain, dependable portable hard drive for backing up photos, documents and projects. ONIN Infosys listed it at Rs 13,500. It wa',
-            'keywords' => 'seagate expansion 1tb portable hard drive price in nepal, seagate expansion 1tb portable hard drive, seagate nepal, onin infosys',
+            'description' => 'The Seagate Expansion 1TB is a plain, dependable portable hard drive for backing up photos, documents and projects. It was listed at Rs 13,500.',
+            'keywords' => 'seagate expansion 1tb portable hard drive price in nepal, seagate expansion 1tb portable hard drive, seagate nepal',
         ],
         'image_alt' => 'Seagate Expansion 1TB Portable Hard Drive',
         'buy_url' => 'https://onin.com.np/product/seagate-1tb-external-hard-drive-price-in-nepal',
@@ -20959,18 +20959,18 @@ HTML,
             ],
         ],
         'description' => <<<'HTML'
-<p>The Seagate Portable 2TB is a pocket-sized external hard drive with room for years of photos, videos and backups. ONIN Infosys listed it at Rs 16,500. It was out of stock at ONIN when we checked on 23 November 2026.</p>
+<p>The Seagate Portable 2TB is a pocket-sized external hard drive with room for years of photos, videos and backups. It was listed at Rs 16,500. It was out of stock when we checked on 23 November 2026.</p>
 <p>For only a little more than a 1TB drive, you get twice the space, which is the better buy for most people. It runs from a single USB cable with no power adapter, and it works with Windows out of the box and with macOS after a quick reformat. Hard drives are slower than SSDs and don't like being dropped while running, but nothing beats them on price per terabyte.</p>
 <p>It's a good fit for photographers clearing memory cards, students saving project files, and anyone who wants a full backup of their laptop with Windows File History or macOS Time Machine.</p>
 HTML,
         'faqs' => [
-            ['Is 2TB worth it over 1TB?', 'For most people, yes. ONIN priced the 2TB at Rs 16,500 against Rs 13,500 for the 1TB, so you double the space for a small extra cost.'],
+            ['Is 2TB worth it over 1TB?', 'For most people, yes. Our partner shop priced the 2TB at Rs 16,500 against Rs 13,500 for the 1TB, so you double the space for a small extra cost.'],
             ['Can I use the Seagate Portable 2TB for Time Machine?', 'Yes, after formatting it for macOS. On Windows, it works with File History straight away.'],
         ],
         'seo' => [
             'title' => 'Seagate Portable 2TB External Hard Drive Price in Nepal & Specs',
-            'description' => 'The Seagate Portable 2TB is a pocket-sized external hard drive with room for years of photos, videos and backups. ONIN Infosys listed it at Rs 16,500. It was ',
-            'keywords' => 'seagate portable 2tb external hard drive price in nepal, seagate portable 2tb external hard drive, seagate nepal, onin infosys',
+            'description' => 'The Seagate Portable 2TB is a pocket-sized external hard drive with room for years of photos, videos and backups. It was listed at Rs 16,500.',
+            'keywords' => 'seagate portable 2tb external hard drive price in nepal, seagate portable 2tb external hard drive, seagate nepal',
         ],
         'image_alt' => 'Seagate Portable 2TB External Hard Drive',
         'buy_url' => 'https://onin.com.np/product/seagate-portable-2tb-external-hard-disk-price-in-nepal',

@@ -1,0 +1,140 @@
+=== redmi-17-4g
+<p>The Redmi 17 4G is a phone for people who hate chargers. Its 7,500mAh silicon-carbon cell is half as large again as what most phones had two years ago, and it can lend power to another phone at 22.5W, as quick as many power banks. On a trek or during long load-shedding that is a genuine reason to choose it.</p>
+<p>The rest is ordinary. The 6.9-inch LCD is smooth at 120Hz and protected by Gorilla Glass 7i. The Helio G19-Ultra is built on an old 12nm process and storage is slow eMMC, so installing apps and opening a heavy Facebook feed take patience. Choose 6GB if the budget allows, although at Rs 37,999 that version runs into better phones.</p>
+<p>The single useful camera is a 50MP unit for daylight. The body weighs 232 grams and is IP64 rated. You keep a headphone jack and a microSD slot. Buy it for endurance. If you care about speed or photos, spend Rs 1,500 more on the <a href="/products/redmi-note-15-4g">Redmi Note 15 4G</a> with its AMOLED display.</p>
+
+=== redmi-note-17-4g
+<p>Nearly seven inches of AMOLED is the first thing you notice on the Redmi Note 17 4G. At 6.99 inches it is closer to a small tablet, bright up to 1,800 nits at its peak, and good for watching films and reading PDFs. One-handed use is not realistic.</p>
+<p>The second thing is the battery: 7,700mAh with 45W charging. Two days between charges is reasonable for moderate use. A Snapdragon 6s 4G Gen 2 runs it, with UFS 2.2 storage, which is comfortable for social apps, maps and casual games. It is not a gaming chip, and there is no 5G.</p>
+<p>Xiaomi has kept the cameras simple, with a 50MP main that has no stabilisation and a 16MP selfie camera. The IP65 rating handles rain and dust. There is no headphone jack, unlike cheaper Redmi phones.</p>
+<p>At Rs 42,999 it costs Rs 5,000 less than the <a href="/products/redmi-note-17-5g">5G version</a>, which has a newer chip and a longer update promise. If you keep phones for four years, the 5G model is better value even where you have no 5G signal.</p>
+
+=== redmi-note-17-5g
+<p>The Redmi Note 17 5G has the big 6.99-inch AMOLED and 7,700mAh battery of its 4G sibling, with a Snapdragon 4 Gen 4 made on a 4nm process. That chip is efficient more than it is fast. In daily use it feels quick, stays cool, and sips power, so this is one of the longest-lasting phones near Rs 50,000.</p>
+<p>Xiaomi lists four years of Android versions and six of security patches. For a Note phone that is a large step, and it affects resale too.</p>
+<p>What you give up is camera variety. There is one 50MP camera without optical stabilisation, plus a 16MP front camera. There is no ultra wide. Night photos and zoom are where an older <a href="/products/redmi-note-15-pro-5g">Redmi Note 15 Pro 5G</a> with a 200MP stabilised sensor is clearly ahead for only a little more.</p>
+<p>Listings give the 8GB model 256GB in shops and 512GB on some specification sheets. Read the label. Buy this one for screen, battery and updates, and the Pro for the camera.</p>
+
+=== redmi-note-15-4g
+<p>At Rs 33,999 the Redmi Note 15 4G is the phone we would show somebody who asks for an AMOLED screen and a slim body without 5G. It is 7.9mm thick and 184 grams, unusually light for a 6,000mAh phone. The 6.77-inch panel runs at 120Hz.</p>
+<p>The 108MP main camera has a larger sensor than phones around it, and daylight photos hold detail when cropped. There is no ultra wide and the 2MP macro adds little. Selfies use a 20MP camera.</p>
+<p>A Helio G100 Ultra handles messaging, YouTube, banking and light games. PUBG Mobile is playable at smooth settings. Because the chip and Android 15 are from last year, count on fewer future updates than the newer <a href="/products/redmi-note-17-4g">Note 17 4G</a> can offer. Against that, the Note 15 is thinner, cheaper and keeps the headphone jack.</p>
+<p>The 8GB and 256GB version at Rs 39,999 makes sense only if you record many videos. Otherwise take the base model and a microSD card.</p>
+
+=== redmi-note-15-pro-5g
+<p>The Note 15 Pro 5G is one of the better balanced phones below Rs 55,000. It has a 200MP main camera with optical stabilisation, IP68 water resistance, Gorilla Glass Victus 2 and a bright 6.83-inch AMOLED. Those four things together are rare at this price.</p>
+<p>The large sensor lets it shoot usable night photos and crop to a short zoom. The 8MP ultra wide is fine outdoors. Video is steady enough for family events. A Dimensity 7400 Ultra sits comfortably in the middle class, and the 6,580mAh battery charges at 45W.</p>
+<p>Two reservations. LPDDR4X memory and UFS 2.2 storage are behind the rest of the phone, and you feel it when copying large files. It also launched on Android 15, so part of its update life has passed.</p>
+<p>The 12GB and 512GB version costs Rs 59,999. For that money, look at the faster <a href="/products/poco-x7-pro">POCO X7 Pro</a> if games matter more than photos. With 256GB, the Note is the one to recommend to parents.</p>
+
+=== redmi-a7-4g
+<p>Let us be plain about the Redmi A7 4G. With 3GB of memory and eMMC storage it can call, message, make eSewa payments and play videos, one thing at a time. It cannot keep several apps open, and a year of WhatsApp media will fill the 64GB.</p>
+<p>In its favour are a very large 6.88-inch screen with big readable text, a 5,200mAh battery that lasts because little is asked of it, a headphone jack and a microSD slot. As a first smartphone for a grandparent it does its job.</p>
+<p>The price is the difficulty. At Rs 20,499 it is only Rs 1,000 below the <a href="/products/redmi-a7-pro-4g">Redmi A7 Pro 4G</a>, which has 4GB, quicker storage, a larger battery and several years of promised updates. We cannot think of a buyer who should not pay that thousand.</p>
+
+=== redmi-a7-pro-4g
+<p>For Rs 21,499, the Redmi A7 Pro has something almost no phone at this level offers: Xiaomi lists four Android updates and six years of security patches. Banking apps drop old Android versions sooner or later, so that promise matters for cheap phones more than for dear ones.</p>
+<p>The 6.9-inch LCD is smooth at 120Hz, and 650 nits is adequate outdoors in shade. A 6,000mAh battery with a frugal Unisoc T7250 runs for two days. Charging at 15W takes most of an evening.</p>
+<p>The 13MP camera is for documents and daylight snaps. The phone is wide and weighs 208 grams.</p>
+<p>The 128GB model at Rs 23,999 is the one to choose if the user receives many videos. People who want a better camera at similar money can look at the <a href="/products/realme-note-80">realme Note 80</a>, with fewer promises about updates.</p>
+
+=== samsung-galaxy-a08
+<p>The Galaxy A08 is Samsung's bet that people will pay more for a cheap phone that lasts. It comes with Android 17 and One UI 9, with six years of updates listed, along with IP64 protection and a 6,000mAh battery. Six years is longer than most people keep a phone of this class.</p>
+<p>You do pay for it. The panel is a 90Hz LCD where rivals have AMOLED. The base version has 4GB and 64GB, which will feel tight long before six years are over. At Rs 40,999 the 128GB version also has 4GB. The 6GB model at Rs 47,499 costs as much as phones with far better screens and cameras.</p>
+<p>The Helio G99 is dependable and was never fast. The 50MP camera is fine in good light.</p>
+<p>Choose the A08 if you want Samsung's service centres and a simple, long-lived phone for a parent. If the screen matters, the <a href="/products/samsung-galaxy-a17-5g">Galaxy A17 5G</a> is worth checking. And wait for festival offers, because Samsung's entry phones are discounted often.</p>
+
+=== samsung-galaxy-a18
+<p>Samsung has announced the Galaxy A18 but we have not seen a Nepal price from the company. The Rs 54,099 on this page is our estimate for the 4GB and 128GB version, and it may well come down at launch.</p>
+<p>Compared with the <a href="/products/samsung-galaxy-a08">A08</a>, it adds a Super AMOLED display, optical stabilisation on the 50MP camera, a 5MP ultra wide and a 13MP selfie camera. The Exynos 1610 is a new chip with little independent testing so far. Six years of Android and security updates are listed.</p>
+<p>The weak points on paper are familiar: 4GB of memory on the base model, 90Hz where others offer 120, and a 5,000mAh battery with 25W charging while competitors have passed 7,000mAh.</p>
+<p>If it arrives near Rs 40,000 it will be an easy recommendation for people who keep phones for a long time. At our estimate, it is not. Waiting costs nothing.</p>
+
+=== vivo-y05e
+<p>The vivo Y05e costs Rs 19,999 and does one thing better than its neighbours: it has a 6,500mAh battery. With a 6.74-inch LCD and a modest Unisoc T7225, that becomes two or even three days of light use.</p>
+<p>Photos are the sacrifice. The back camera is 8MP and the front one 5MP, below what some Rs 16,000 phones include. Video calls will look soft. The 4GB of memory and 64GB of eMMC storage suit a few apps.</p>
+<p>It is IP64 rated, has a side fingerprint reader, a headphone jack and a card slot, and runs Android 16. Before buying, ask where the nearest vivo service centre is, a practical point that does not appear on a specification sheet.</p>
+<p>Good for a delivery rider's second phone or an elder who forgets to charge. For a student who takes pictures of the board, the <a href="/products/realme-note-80">realme Note 80</a> with a 50MP camera is the better buy for Rs 2,000 more.</p>
+
+=== vivo-y11d
+<p>The Y11d is a puzzle. It uses the same entry-level Unisoc T7225 as the <a href="/products/vivo-y05e">Y05e</a>, which costs Rs 14,000 less. What you receive for Rs 33,999 is twice the storage, 44W charging, a brighter 120Hz screen at up to 1,200 nits, IP65 protection and a 50MP camera.</p>
+<p>Those are pleasant improvements. Charging is nearly three times faster, and outdoor visibility is clearly better. But the processor sets how the phone feels, and this one hesitates when you switch apps. It will not handle games beyond the simple ones.</p>
+<p>At this price you can have an AMOLED display and a quicker chip in the <a href="/products/redmi-note-15-4g">Redmi Note 15 4G</a>. The Y11d is worth considering only if you need fast charging, a tough body and a vivo service centre close to home, and preferably at a discount.</p>
+
+=== oppo-a6k-4g
+<p>OPPO's A6k 4G and <a href="/products/oppo-a6x">A6x</a> share a body, a screen, a Snapdragon 685 and a 6,500mAh battery. The A6k's advantage is a 50MP camera in place of 13MP, and UFS storage in both sizes. Its 128GB version costs Rs 38,999, against Rs 32,499 for an A6x with the same memory.</p>
+<p>So you are paying Rs 6,500 mainly for a camera, and it is a camera without stabilisation or an ultra wide. The 15W charging is slow for such a large cell and needs roughly two and a half hours.</p>
+<p>The good parts are a bright 120Hz LCD, a solid build that OPPO is known for, and a 1TB card limit. The chip is an older 6nm design that stays cool.</p>
+<p>We would save the money and take the A6x, or spend a little more on a <a href="/products/redmi-note-17-4g">Redmi Note 17 4G</a> with an AMOLED screen and 45W charging.</p>
+
+=== oppo-a6x
+<p>The A6x starts at Rs 27,999 and is the more sensible of OPPO's two budget phones. It offers a Snapdragon 685, a 6,500mAh battery and a bright LCD at 120Hz. The chip is better than the Unisoc parts used by many phones at this price, and UFS 2.2 storage opens apps faster than eMMC.</p>
+<p>OPPO's economy is in the camera. A single 13MP unit does documents and daylight scenes. The 5MP selfie camera is below average, so this is not the phone for TikTok.</p>
+<p>The variants are confusing: 4GB with 128GB, 6GB with 128GB at Rs 32,499, and 6GB with 256GB at Rs 34,999. The middle one is the best use of money, since 6GB is what keeps it pleasant in the third year. The base model is fine for calls, YouTube and navigation.</p>
+<p>It suits drivers and shopkeepers: readable in the sun, rated IP64, with a headphone jack for hands-free calls.</p>
+
+=== realme-note-80
+<p>Around Rs 22,000 it is hard to find everything, and the realme Note 80 chooses its compromises well. It has a 6,300mAh battery, a 50MP main camera with autofocus and an IP54 rating. The camera alone sets it apart from phones with 8MP and 13MP units at the same price.</p>
+<p>The screen is the weak part, with 450 nits typical brightness. In direct sun you will turn your back to the light to read it. Storage is 64GB with a card slot, and 4GB of memory is the only choice.</p>
+<p>The Unisoc T7250 is the same chip as in the <a href="/products/redmi-a7-pro-4g">Redmi A7 Pro 4G</a>. Between the two: the realme takes better pictures, the Redmi has a larger, brighter screen and years of listed updates. For a student, the camera. For a phone that must last until 2030, the Redmi.</p>
+
+=== realme-note-60x
+<p>At Rs 15,999 the Note 60x belongs to the group of phones bought because something else broke. It is 2025's model with a Unisoc T612 and Android 14, and realme has already replaced it.</p>
+<p>It makes calls, shows videos and runs mobile banking. The 5,000mAh battery lasts a day and a half and takes nearly three hours to fill at 10W. The 8MP camera is for emergencies. A 3GB model will close your apps behind you, so Rs 1,000 more for 4GB is the best money you will spend on it.</p>
+<p>The version with 128GB costs Rs 21,999. Do not buy that one. For the same amount the <a href="/products/realme-note-80">Note 80</a> has a newer chip, a larger battery and a far better camera.</p>
+
+=== realme-c100i
+<p>The C100i is built around a 7,000mAh silicon-carbon battery in an 8.4mm body. For Rs 28,999 that is a lot of capacity, and realme's slim cell keeps the weight to 208 grams. The 6.8-inch screen is smooth and reasonably bright at up to 900 nits.</p>
+<p>Two decisions hold it back. Charging is 15W, so an empty phone needs about three hours. And the camera is 8MP, which is hard to accept at this price. Somebody in product planning decided that buyers of this phone do not take photographs.</p>
+<p>If that is true for you, it works. It would be a fine phone for long bus routes, field surveys and people who listen to the radio all day. If not, the <a href="/products/realme-p4-lite-4g">P4 Lite 4G</a> charges three times as fast, and the <a href="/products/oppo-a6x">OPPO A6x</a> has a quicker chip for less.</p>
+
+=== realme-c100x
+<p>An 8,000mAh battery with 45W charging makes the C100x one of the largest-capacity phones you can buy in Nepal, and unlike cheaper big-battery phones it refills in a sensible time. It also has 256GB of storage on a Rs 35,999 phone, which is generous.</p>
+<p>Where the money did not go is the Unisoc T7250, an entry-level processor usually found at Rs 22,000. Everyday things work, with small pauses. Our listings disagree about memory: the shop variant is 4GB while the specification sheet says 6GB. Check the box, because the difference will be felt every day.</p>
+<p>The 50MP camera is acceptable in daylight. The headphone jack and the card slot remain.</p>
+<p>Think of it as a power bank that makes calls. Trekking guides, riders and people in areas with unreliable electricity will value it. City users get a nicer phone in the <a href="/products/redmi-note-15-4g">Redmi Note 15 4G</a>.</p>
+
+=== realme-p4x-4g
+<p>The P4x 4G combines an 8,000mAh battery, 45W charging and a 50MP camera for Rs 33,999. If those three words describe what you want, only its own cousin the <a href="/products/realme-c100x">C100x</a> comes close, and that phone doubles the storage for Rs 2,000 more.</p>
+<p>So why choose the P4x? The body is narrower and slightly smaller in the hand, at 76mm wide. The listing shows no card slot, and 128GB of eMMC must therefore be enough for the life of the phone. We would want that slot.</p>
+<p>It runs Android 15, a version behind its siblings, with the same T7250 chip. Expect fluent scrolling and slow everything else.</p>
+<p>Unless you find it discounted below Rs 30,000, the C100x is the stronger of the two.</p>
+
+=== realme-p4-lite-4g
+<p>This is the quick-charging member of realme's cheap battery phones. A 6,600mAh cell with 45W support can be topped up over lunch, which many people find more useful than another thousand milliamp-hours. It costs Rs 31,999 with 4GB and 128GB.</p>
+<p>The 8MP camera is the reason to hesitate. It has phase-detection autofocus, so documents and QR codes are quick, but pictures of people lack detail. A Unisoc T7250 and eMMC storage complete an entry-level base that is priced like a middle one.</p>
+<p>The IP64 rating, the card slot up to 1TB and Android 16 are all welcome. For the same price range the <a href="/products/redmi-note-15-4g">Redmi Note 15 4G</a> offers an AMOLED screen and a 108MP camera, with 33W charging. Most buyers should choose that one and accept a slightly slower lunch.</p>
+
+=== realme-p4-4g
+<p>The P4 4G is much better than its Lite and x relatives. It has an AMOLED screen at 120Hz, 8GB of memory, 256GB of faster UFS 3.1 storage, a 7,000mAh battery and an IP66 rating, for Rs 45,999.</p>
+<p>realme quotes 4,500 nits for HDR and 1,600 in bright light. The second number is the one that helps on a sunny street, and it is good. Charging is 45W.</p>
+<p>The mismatch is the Snapdragon 685. It is a 4G chip with an old graphics unit, and all that memory cannot change its gaming. For social media, video and office apps you will not mind. For PUBG at high settings you will, and a <a href="/products/poco-x7-pro">POCO X7 Pro</a> is worth saving for.</p>
+<p>Photos come from a single 50MP camera, and selfies from 8MP. A reader who watches a lot of film and rarely plays games is the right owner.</p>
+
+=== honor-600-lite
+<p>The Honor 600 Lite looks and feels costlier than Rs 54,999. It has an aluminium frame and a glass back at 7.3mm and 180 grams, when most competitors are thick plastic slabs. The 6.6-inch size is close to what a hand can manage.</p>
+<p>The AMOLED panel reaches 2,000 nits in sunlight, with a peak figure of 6,500 for small HDR areas. A 108MP camera with optical stabilisation takes crisp photos, helped by a 5MP ultra wide that is less impressive. Honor lists six years of Android and security updates, among the longest at this price.</p>
+<p>A Dimensity 7100 Elite is for everyday use and light gaming. The 6,520mAh battery is excellent for such a slim phone.</p>
+<p>Its competition is the <a href="/products/redmi-note-15-pro-5g">Redmi Note 15 Pro 5G</a>: better main camera and IP68, against better materials and longer support. Honor has fewer service centres in Nepal, so ask where repairs are done in your city.</p>
+
+=== tecno-spark-go-3
+<p>The Spark Go 3 from Tecno is a plain Rs 21,999 phone with a 120Hz display, 13MP camera and IP64 rating. The refresh rate makes it feel livelier in a shop than it does after three months, once the 64GB of eMMC storage begins to fill.</p>
+<p>Tecno lists two Android updates and three years of patches, more than it used to promise for Spark Go models. A 5,000mAh battery is now small for this class, where 6,000 and more are common, and charging is 15W.</p>
+<p>The 8MP selfie camera is fair for the price. HiOS includes many pre-installed apps and notifications; spend the first ten minutes removing them.</p>
+<p>At the same price the <a href="/products/realme-note-80">realme Note 80</a> has a bigger battery and a 50MP camera. Only choose the Tecno if the faster screen or its light feel wins you over, and avoid the 128GB version at Rs 25,999.</p>
+
+=== tecno-spark-50-pro
+<p>Tecno has given the Spark 50 Pro a waterproof rating, IP68 and IP69, that is normally found on phones at twice the price. If you work near water, in kitchens or in the monsoon, that can decide the matter. It also charges at 60W, so the 6,000mAh battery fills in around an hour.</p>
+<p>Those are expensive features, and at Rs 47,999 you can see where money was taken back. The screen is an LCD. There is one 50MP camera without stabilisation. Memory is 6GB with 128GB. The Helio G100 Ultimate is adequate and 4G only.</p>
+<p>Phones at this price with AMOLED screens and 5G include the <a href="/products/redmi-note-17-5g">Redmi Note 17 5G</a>, with IP65. Unless full submersion protection is what you need, that is the more rounded phone. If your last two phones died from water, the Tecno will look different to you.</p>
+
+=== tecno-spark-50-4g
+<p>For Rs 29,999 the Spark 50 4G offers a 7,000mAh battery and a 50MP camera, and leaves out nearly everything fashionable. That is not a criticism. Plenty of people want a phone for two days of calls, TikTok and Facebook.</p>
+<p>The Helio G81 is the limit. It is an old 12nm part, a class below the Snapdragon 685 in the <a href="/products/oppo-a6x">OPPO A6x</a>, and it makes the big battery work harder than it should. Charging at 18W takes the better part of three hours, so this is a phone to plug in overnight.</p>
+<p>Buy the 6GB version at Rs 32,999 only if you keep many apps open. The screen is a large 6.78-inch LCD at 120Hz, and the body has IP64 protection, a headphone jack and a card slot. Tecno's own apps need some tidying at the start.</p>
+
+=== infinix-hot-60i-4g
+<p>At Rs 16,999 the Infinix Hot 60i gives you 128GB of storage and 45W charging. Those two are normally missing below Rs 25,000, and they are the ones you notice every day: the memory does not fill in six months, and half an hour on the charger is worth something.</p>
+<p>The Helio G81 Ultimate with 4GB runs the usual apps and simple games. Spending Rs 2,000 more on 6GB is advisable. A 50MP camera with phase-detection focus beats the 8MP and 13MP units in this price band.</p>
+<p>It was launched in mid 2025 with Android 15, and Infinix does not promise many updates. The 5,160mAh battery is average now. The LCD is smooth, though not bright at noon.</p>
+<p>Among phones under Rs 20,000 in our list, this is the one we would give to a student. Compare it with the <a href="/products/realme-note-60x">realme Note 60x</a>, which costs almost the same and offers less in every line.</p>

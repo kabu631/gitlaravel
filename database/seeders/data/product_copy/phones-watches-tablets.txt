@@ -1,0 +1,229 @@
+=== ai-plus-plus
+<p>The Ai+ Pulse is a phone from a young brand at the bottom of the market, Rs 14,999 for 4GB and 64GB. On paper it is better than its price: a 50MP camera, a 90Hz screen, a headphone jack and a 5,000mAh battery.</p>
+<p>A Unisoc T615 runs it, and that is a fair chip for calls, video and one app at a time. For Rs 1,500 more you get 6GB and 128GB, the single best upgrade on this page.</p>
+<p>Ask who repairs it before buying. A young brand may have no service point in your district, and a broken display can cost half the phone. There is no water or dust rating.</p>
+
+=== blackview-wave-10c
+<p>The Wave 10C puts Android 16 and a 6.88-inch screen into a Rs 14,499 phone. The base model has only 32GB of storage, though. Android and its first updates take most of that, so treat the 128GB version at Rs 17,999 as the real product.</p>
+<p>The processor is a Unisoc T310, four cores from an older generation. WhatsApp opens after a pause, and games are not its business. Photos come from a 32MP camera that is better than the 8MP sensors around it, in daylight.</p>
+<p>It has an IP52 rating, a headphone jack and a dedicated card slot. Charging is 10W, an overnight affair. At Rs 17,999 the <a href="/products/infinix-hot-60i-4g">Infinix Hot 60i</a> costs less and is much quicker.</p>
+
+=== blackview-wave-7c
+<p>Smaller than the <a href="/products/blackview-wave-10c">Wave 10C</a> at 6.56 inches, the Wave 7C is easier for small hands and shares the same Unisoc T310 chip and cameras. It starts with 64GB at Rs 16,999 and gains IP54 protection.</p>
+<p>Who is it for? Someone who wants a phone that is not huge, for calls, photos of receipts and the occasional video. The 32MP rear and 13MP front cameras are above average for the price.</p>
+<p>The T310 is slow, and 10W charging takes about three hours. For the same money the <a href="/products/infinix-hot-60i-4g">Infinix Hot 60i</a> offers twice the storage and a better processor in a larger body.</p>
+
+=== honor-choice-t10
+<p>The Honor Choice T10 runs Android 15 Go, the trimmed edition Google makes for phones with little memory. The base model has 3GB and 32GB for Rs 16,499. Go editions open lighter versions of apps and manage memory more carefully, so it behaves better than the numbers suggest.</p>
+<p>Even so, 32GB is too little in 2026. The 4GB and 64GB version at Rs 19,499 is the one to consider, and at that price there is competition with stronger hardware.</p>
+<p>It has a 6.75-inch display, a fingerprint reader on the side and IP52. A suitable phone for a relative who makes calls and reads messages. For anybody who takes photos, the 13MP camera will disappoint.</p>
+
+=== honor-play10
+<p>Honor's Play 10 is an entry phone with a recognisable name behind it. It uses a Helio G81, a step above the Unisoc T310 and T615 in this class, with Android 15 Go edition to keep 3GB or 4GB of memory from choking.</p>
+<p>The 4GB and 128GB model at Rs 22,999 is a decent basic phone that will not run out of space. The 3GB model saves Rs 2,000 and is not worth it.</p>
+<p>Cameras are basic, at 13MP and 5MP. Charging at 10W is the slowest you will find. The <a href="/products/realme-note-80">realme Note 80</a> costs Rs 1,000 less than the larger version and has a 50MP camera and a bigger battery, but half the storage.</p>
+
+=== honor-x6c-4g
+<p>The X6C is a compact phone by today's standards, 6.61 inches and 199 grams, with a battery that charges at 35W. At Rs 26,999 with 6GB and 128GB it is one of the more rounded choices below Rs 30,000.</p>
+<p>The screen is bright for an LCD at up to 1,010 nits and refreshes at 120Hz. The 50MP camera with phase-detection focus works well outdoors. IP64, a headphone jack and a card slot all help it last.</p>
+<p>A Helio G81 Ultra is the limit. It is a 12nm chip meant for daily tasks. Rs 2,000 more doubles the storage. Compared with the <a href="/products/oppo-a6x">OPPO A6x</a> at about the same price, the OPPO has the better processor and battery, and the Honor has the better camera and size.</p>
+
+=== tecno-spark-30
+<p>The Spark 30 is a 2024 phone that remains on sale at Rs 29,999, with 8GB and 256GB. That memory and storage are its selling points, as rivals at this price have half as much. The body is slim, and one finish is leather-like.</p>
+<p>Its 64MP camera uses a fairly large sensor and gives pleasing daylight photos. The front camera is 13MP. A Helio G91 is slower than you would hope beside so much memory.</p>
+<p>It launched with Android 14 and Tecno lists two Android updates and three years of patches, so its support ends in 2027. If you keep phones for years, the newer <a href="/products/tecno-spark-50-4g">Spark 50 4G</a> has more life ahead and a larger battery, with less storage.</p>
+
+=== zte-a37e
+<p>The A37e is among the cheapest new phones with Android 16, at Rs 15,999. Its 6.52-inch screen is compact for 2026 and, unusually, refreshes at 120Hz.</p>
+<p>The rest is bare: 3GB of memory, 64GB of storage, an 8MP camera and a 5,000mAh battery. The Unisoc T7250 is better than what most phones at this level carry, so basic use is smoother than 3GB suggests, until several apps are open.</p>
+<p>We found no fingerprint reader or card slot in the listing, so ask. For Rs 1,000 more the <a href="/products/infinix-hot-60i-4g">Infinix Hot 60i</a> gives 4GB, 128GB and fast charging. Pay it.</p>
+
+=== zte-nubia-a36
+<p>With a Unisoc T7200, 4GB and 64GB, the nubia A36 covers the basics for Rs 18,999. It has a 6.75-inch 90Hz display, 13MP camera and 5,000mAh battery that charges at 10W.</p>
+<p>The difficulty is ZTE's own newer phone. The <a href="/products/zte-nubia-a57">nubia A57</a> costs the same, has a newer processor, a brighter 120Hz screen, 22.5W charging and dust and splash resistance.</p>
+<p>Leave the A36 unless a shop offers it at Rs 15,000 or so. It is a reminder that a date of launch matters as much as a price.</p>
+
+=== zte-nubia-a57
+<p>The nubia A57 is a tidy phone at Rs 18,999. It runs Android 16 on a Unisoc T7250, charges at 22.5W when others manage 10W, and has IP64 protection. Its 6.75-inch display is smooth at 120Hz.</p>
+<p>The 64GB model is the one to buy. At Rs 24,499 the 128GB version costs more than a card that does the same job, and it enters the territory of the <a href="/products/zte-nubia-a77">A77</a>, which has a 50MP camera.</p>
+<p>Photos from 13MP are for records more than memories. ZTE has fewer service points in Nepal than Samsung or Xiaomi, so check before buying outside the cities.</p>
+
+=== zte-nubia-a77
+<p>The A77 is the <a href="/products/zte-nubia-a57">A57</a> with a 50MP camera and 128GB of storage, for Rs 25,499. The chip, screen, battery, charging and IP64 rating are the same.</p>
+<p>That camera lifts it from a basic phone to one you can use for social media, in daylight at least. It has no stabilisation, so evening photos blur easily. The 8MP selfie camera is average.</p>
+<p>Four gigabytes of memory is lean for this price. The <a href="/products/honor-x6c-4g">Honor X6C</a> at Rs 26,999 has 6GB, faster charging and a brighter display. Unless the A77 is discounted, spend the extra Rs 1,500.</p>
+
+=== zte-nubia-v80-max
+<p>A 6.9-inch screen, 8GB of memory and a 6,000mAh battery for Rs 29,499 makes the nubia V80 Max one of the roomiest phones in its class, and it is light for the size at 191 grams.</p>
+<p>Memory is what you notice. Apps stay open in the background where 4GB phones reload them. The Unisoc T7250 is still an entry-level chip, so things open slowly and then stay open.</p>
+<p>The front camera is 16MP, better than most here, and the 50MP rear is fine in daylight. Charging is 22.5W. For video and reading on a large screen it is good. The <a href="/products/redmi-note-15-4g">Redmi Note 15 4G</a> costs Rs 4,500 more and has an AMOLED screen, a faster chip and a better camera.</p>
+
+=== boat-enigma-oreon
+<p>The Enigma Orion is a round, metal-look watch for people who want the appearance of a dress watch with calls and notifications. It has a 1.39-inch display, Bluetooth calling, heart-rate and blood-oxygen readings, and an IP67 rating, for Rs 5,699.</p>
+<p>boAt's Crest+ software keeps things simple. There is no GPS and no app store, so distances come from step counts. Readings give trends only and should never guide treatment.</p>
+<p>The newer <a href="/products/boat-enigma-radiant">Enigma Radiant</a> adds an AMOLED panel and IP68 for Rs 1,100 more. An AMOLED screen makes a far bigger difference in sunlight and at a dinner than on paper. We would choose that.</p>
+
+=== boat-enigma-radiant
+<p>Of boAt's dressy watches, the Radiant has the display you want: a round 1.43-inch AMOLED with deep blacks, so that analogue faces look like a real dial. The 390mAh battery lasts up to six days, less with many calls.</p>
+<p>It costs Rs 6,799 and includes a speaker and microphone for calls, heart rate, blood oxygen and step counting, with IP68 protection.</p>
+<p>There is no built-in GPS, so it is a watch for office and functions more than for running. At Rs 11,999 the <a href="/products/cmf-watch-pro-2">CMF Watch Pro 2</a> includes GPS and better software. If you never run, the Radiant is enough.</p>
+
+=== boat-storm-call-3-plus
+<p>The Storm Call 3 Plus has a large 1.96-inch screen for Rs 3,399, so caller names and messages can be read without reading glasses. It is a TFT panel and fades in direct sun.</p>
+<p>The main use is Bluetooth calling, with a microphone and speaker in the watch. Blood oxygen, heart rate and steps are recorded. It lasts up to seven days from a 230mAh battery, and perhaps three if you make calls on it.</p>
+<p>It weighs 45 grams and is IP67. The <a href="/products/boat-wave-call-3">Wave Call 3</a> is Rs 200 cheaper with a longer battery and newer Bluetooth, on a slightly smaller screen. We lean to that one.</p>
+
+=== boat-ultima-ember
+<p>Rs 6,799 buys a 1.96-inch AMOLED on the Ultima Ember, the same size as boAt's cheap square watches with a far nicer panel. Colours are vivid, and it can be read outdoors.</p>
+<p>Battery life is up to seven days from 300mAh, and the watch is IP68. Calls, heart rate, blood oxygen and steps are covered.</p>
+<p>The choice at this price is between a square face and the round <a href="/products/boat-enigma-radiant">Enigma Radiant</a>, which costs the same. Square shows more text, round looks more formal. Neither has GPS. For accurate running data, save for a <a href="/products/redmi-watch-6-active">Redmi Watch</a> or a band from Huawei.</p>
+
+=== boat-wave-astra-3
+<p>The Wave Astra 3 is one of several boAt watches near Rs 3,400 with a 1.83-inch LCD, Bluetooth calling and an IP67 rating. Its 41.5 gram body is comfortable, and the Crest+ software is the better of boAt's two systems, with more watch faces and steadier syncing.</p>
+<p>Expect up to seven days of battery life without calls. Health readings are a rough guide.</p>
+<p>To be honest, the differences between it and the <a href="/products/boat-wave-sigma-3">Wave Sigma 3</a> are the screen size and Rs 100. Choose by which one looks better on your wrist, and test the call speaker in a noisy place before paying.</p>
+
+=== boat-wave-call-3
+<p>If you want a call-ready watch for as little as possible, the Wave Call 3 deserves a look first. It is the newest of boAt's low-cost watches, from 2026, with Bluetooth 5.4 and a 300mAh battery rated for up to 10 days, all for Rs 3,199.</p>
+<p>The 1.83-inch LCD is not bright, and swimming is not covered by IP67. It measures heart rate and blood oxygen in a general way and counts steps.</p>
+<p>There is no GPS or app store. As a gift for a parent who misses calls it does the job. Set it up for them, turn off every notification except calls and messages, and the battery will last a week.</p>
+
+=== boat-wave-fury
+<p>The Wave Fury, from 2023, is the cheapest boAt watch in this group at Rs 2,999, and it shows its age with Bluetooth 5.1 and a five-day battery of 220mAh. It has a rugged look, a 1.83-inch LCD and calling.</p>
+<p>At 37 grams it is light. Children and teenagers like the style. IP67 covers rain and hand washing.</p>
+<p>For Rs 200 more the <a href="/products/boat-wave-call-3">Wave Call 3</a> has a newer radio and twice the rated battery life. We would only choose the Fury for its looks, or at a festival price below Rs 2,500.</p>
+
+=== boat-wave-sigma-3
+<p>At 2.01 inches the Wave Sigma 3 has the largest screen among boAt's affordable watches. On a thin wrist it covers the whole width, so try it on.</p>
+<p>The advantage is text: full message previews, big buttons for the calculator and a dial pad you can use. It is an LCD, and the 230mAh battery works hard to light it. boAt's figures for battery life vary with use, so plan to charge twice a week.</p>
+<p>Calls, heart rate, blood oxygen and steps are included, with an IP67 rating. It costs Rs 3,299. If you like large type, this is it. If you value battery life, see the <a href="/products/boat-wave-call-3">Wave Call 3</a>.</p>
+
+=== huawei-band-11
+<p>Seventeen grams. You stop noticing the Huawei Band 11 after an hour, and that is why it records sleep better than a heavy watch: people leave it on. The 1.62-inch AMOLED is bright, and the battery runs for about eight days, or fourteen in a gentle mode.</p>
+<p>Water resistance of 5 ATM allows swimming. Heart rate, stress, sleep and more than enough sports modes are covered, and Huawei's Health app works on Android and iPhone. On Android it is installed from Huawei's website, not the Play Store, a step that puzzles some buyers.</p>
+<p>No calls and no built-in GPS. The polymer version is Rs 9,990, and the aluminium Rs 11,990. Buy the polymer. A <a href="/products/cmf-watch-pro-2">CMF Watch Pro 2</a> at the price of the aluminium one has GPS and calling.</p>
+
+=== huawei-watch-fit-5-pro
+<p>The Watch Fit 5 Pro is a serious sports watch in a thin square body. It weighs 30 grams, has a 1.92-inch AMOLED, dual-band GPS, barometer, NFC hardware, and water and dust protection good enough for diving into a pool. Battery life is about seven days.</p>
+<p>Dual-band GPS is what runners and trekkers pay for. It holds a track between tall buildings and in narrow valleys where single-band watches wander. The barometer counts climbs, useful on any trail here.</p>
+<p>Its limits are Huawei's: few third-party apps, and payments that do not work with Nepali banks. Rs 43,990 is high. The <a href="/products/cmf-watch-pro-2">CMF Watch Pro 2</a> at Rs 11,999 covers casual exercise. The Huawei is for people who will use its data every week.</p>
+
+=== mwc-callisto-watch-pro-2
+<p>MWC lists the Callisto Watch Pro 2 at Rs 11,999 with a round 1.43-inch AMOLED, built-in GPS, calling and 5 ATM water resistance. That combination is good at this price.</p>
+<p>We could not confirm its battery life or the quality of its GPS. Ask to wear it on a short walk around the block and compare the distance with your phone.</p>
+<p>The <a href="/products/cmf-watch-pro-2">CMF Watch Pro 2</a> costs exactly the same and has a published nine-day battery and five satellite systems. MWC's advantage is the swim rating. Check the app's rating in the Play Store before you decide.</p>
+
+=== cmf-watch-pro-2
+<p>The CMF Watch Pro 2 has an interchangeable bezel, a crown and a design that people ask about. Underneath it is a sensible sports watch: GPS with five satellite systems, calling, heart rate and blood oxygen, up to nine days of battery and IP68, for Rs 11,999.</p>
+<p>The 1.32-inch AMOLED is sharp and bright. Its software is quick, and the app works on iPhone and Android.</p>
+<p>IP68 is not a swim rating, so keep it out of the pool. Blood oxygen and stress readings give trends only. The newer <a href="/products/cmf-watch-3-pro">CMF Watch 3 Pro</a> is Rs 1,000 more and is the one to compare. For swimmers, Huawei and Redmi have better options.</p>
+
+=== oneplus-watch-2
+<p>The OnePlus Watch 2 runs two systems together, Google's Wear OS for apps and a low-power system for everything else. That is how it reaches about four days in smart mode, when most Wear OS watches need charging each night, and up to 12 days in power saver.</p>
+<p>You get Play Store apps, Google Maps on the wrist, dual-band GPS and a barometer. It has a 1.43-inch AMOLED and weighs 49 grams. It works only with Android phones.</p>
+<p>At Rs 23,999 it is cheap for a Wear OS watch. Launched in 2024, it will receive fewer updates than newer models, and it lacks the ECG and fall features of Samsung's watches. For Android users who hate nightly charging, it is still a smart buy.</p>
+
+=== ultima-watch-active
+<p>The Ultima Watch Active is a round 1.43-inch watch with calling, heart-rate and blood-oxygen sensors and automatic sleep tracking. It costs Rs 4,299 and has an IP68 rating.</p>
+<p>We have no published battery figure, so ask for it, and look at the panel in sunlight, as our record does not say which type it is.</p>
+<p>Its newer brother, the <a href="/products/ultima-watch-circle-2-0">Circle 2.0</a>, is Rs 600 cheaper and lists a 3 ATM rating. Ask whether a replacement strap and charger are available, because with inexpensive watches those parts are the first to fail.</p>
+
+=== ultima-watch-circle-2-0
+<p>For Rs 3,699, the Ultima Watch Circle 2.0 has a round 1.43-inch display, Bluetooth 5.3 calling and a 3 ATM rating. Three atmospheres covers rain, washing and a splash in a pool, better than the IP67 of most watches at this price.</p>
+<p>Round watches are easier to wear with formal clothes, and this one is neutral enough for an office. The company does not state battery life or the panel type, so check both in the shop.</p>
+<p>boAt's <a href="/products/boat-wave-call-3">Wave Call 3</a> costs Rs 500 less in a square shape with a clear ten-day claim. Choose by shape and by water.</p>
+
+=== blackview-link-2-wifi
+<p>An 8.68-inch metal tablet with 128GB for Rs 16,999 sounds generous, and for reading PDFs, YouTube lessons and children's apps the Link 2 is fine. It weighs 329 grams, light enough to hold in one hand.</p>
+<p>The Unisoc T310 has four cores and will not be hurried. Split-screen work is not realistic, and 10W charging takes hours. The display is 60Hz with 360 nits, readable indoors.</p>
+<p>It has Wi-Fi only. Android 15 is recent. A slightly quicker small tablet from the same maker is the <a href="/products/blackview-zeno-1">Zeno 1</a>, with a 90Hz screen for Rs 1,000 less, so check that first.</p>
+
+=== blackview-link-5
+<p>Blackview's LINK 5 arrived in October 2026 with Android 17 and an 11-inch 90Hz screen, for Rs 25,999. Eight gigabytes of memory is good for a tablet at this price, and Wi-Fi 6 helps on a crowded home router.</p>
+<p>The processor is an Allwinner A537 on a 22nm process, which tells you about speed: fine for videos, notes and reading, slow for games and large documents. The 8,300mAh battery should manage a day of classes, and charging is 18W.</p>
+<p>It has a plastic back and weighs 567 grams. A student who needs a faster device should see the <a href="/products/infinix-xpad-20-pro">Infinix XPAD 20 Pro</a> for Rs 1,000 more, with a better chip and a 12-inch display.</p>
+
+=== blackview-mega-5
+<p>The MEGA 5 is Blackview's large tablet, 12.2 inches at 120Hz, with a Unisoc T7300, 12GB of memory, 256GB of UFS 3.1 storage and a 10,000mAh battery that charges at 55W. The body is aluminium, and there is a fingerprint reader.</p>
+<p>It suits people who read full-page PDFs, sheet music or drawings and want two apps side by side. At 480 nits it can be used near a window.</p>
+<p>Rs 51,999 is serious money, though. The <a href="/products/xiaomi-pad-7">Xiaomi Pad 7</a> and Samsung's tablets are in reach, with sharper screens, better pens and longer software support. The MEGA 5 wins on size, memory and battery. Ask about pen and keyboard availability before you buy.</p>
+
+=== blackview-tab-13-pro
+<p>The Tab 13 Pro pairs a 10.1-inch screen with a Helio P60, 8GB and 128GB, at Rs 26,999. Memory is generous, but the processor dates from 2018 and the system is Android 13.</p>
+<p>It is light at 435 grams and has a 7,680mAh battery in an aluminium body. For video calls and browsing it works.</p>
+<p>At this price it makes little sense next to the same company's <a href="/products/blackview-zeno-5">Zeno 5</a>, with an 11-inch 90Hz screen, a newer chip and Android 16 for Rs 3,000 more, or the <a href="/products/infinix-xpad-20-pro">Infinix XPAD 20 Pro</a> at the same Rs 26,999. Look at those.</p>
+
+=== blackview-tab-18
+<p>A 12-inch display makes the Tab 18 pleasant for films and split-screen notes. It uses a Helio G99, a capable 6nm chip, with 256GB of storage and 33W charging for the 8,800mAh battery. The listing offers 8GB or 12GB of memory at Rs 37,999.</p>
+<p>The software is its weak side: Android 13, with no word on updates. Wi-Fi 5 and a 60Hz panel also date it.</p>
+<p>Because it has been on sale for a while, discounts are possible. The <a href="/products/infinix-xpad-20-pro">Infinix XPAD 20 Pro</a> has the same screen size at 90Hz, a faster chip and Android 15 for Rs 31,999 with 256GB. That is our pick of the two.</p>
+
+=== blackview-tab-20-kids-wifi
+<p>The Tab 20 Kids is the <a href="/products/blackview-tab-20-wifi">ordinary Tab 20</a> in a protective case with a stand, and child controls on top. It costs Rs 17,499. A 10.1-inch screen is big enough for drawing apps and for two children to watch together.</p>
+<p>Inside are a Unisoc T310, 4GB of memory and 64GB. Cartoons and learning apps run well enough, while 3D games do not. The 6,600mAh battery covers a long journey.</p>
+<p>Set a child account in Google's Family Link, limit the Play Store, and download videos before travelling. The case can be removed later, so the tablet can be handed down as a normal one.</p>
+
+=== blackview-tab-20-wifi
+<p>The Tab 20 WiFi is a basic 10.1-inch tablet with an aluminium back and Android 15, at Rs 16,999. It is meant for reading, video lessons and recipes in the kitchen.</p>
+<p>It runs on the Unisoc T310 with 4GB, so patience is required when opening apps, and the 300-nit screen is for indoor use. Storage is 64GB with a card slot. Charging at 10W is slow for a 6,600mAh battery.</p>
+<p>The <a href="/products/blackview-tab-70-wifi">Tab 70</a> offers the same screen size and Wi-Fi 6 for Rs 3,500 less with an older Android. For a little child the <a href="/products/blackview-tab-20-kids-wifi">Kids version</a> adds a case for Rs 500.</p>
+
+=== blackview-tab-50-kids
+<p>Eight inches is the right size for small hands, and the Tab 50 Kids comes wrapped in a thick bumper. It has a Rockchip RK3562, 3GB of memory and 64GB, with Wi-Fi 6 and Android 13. The price is Rs 16,499.</p>
+<p>Charging is 5W. Not a misprint: a full charge of the 5,580mAh battery takes a night. In use, it manages cartoons, colouring and simple games.</p>
+<p>The adult <a href="/products/blackview-tab-50-wifi">Tab 50 WiFi</a> is the same tablet with more memory and storage for Rs 4,000 less. A separate foam cover costs a few hundred rupees. Buy that one and the cover.</p>
+
+=== blackview-tab-50-wifi
+<p>At Rs 12,499, the Tab 50 WiFi is one of the least expensive tablets here from a brand we know. It has an 8-inch display, 4GB of memory and a surprising 128GB of storage, along with Wi-Fi 6.</p>
+<p>Its RK3562 chip is for light work. A shop can use it as a price display, a driver as a map screen at home, a child for videos. Android 13 will not change much, and 5W charging means overnight.</p>
+<p>We would rather own this than the more costly <a href="/products/blackview-tab-50-kids">Kids edition</a>. If 10 inches suits you better, the <a href="/products/blackview-tab-70-wifi">Tab 70</a> is Rs 1,000 more with half the storage.</p>
+
+=== blackview-tab-60
+<p>The Tab 60 is an 8.68-inch tablet with a Unisoc T606, a proper step above the T310 and RK3562 used in cheaper Blackviews. Pages scroll without stutter and light games are possible. It costs about Rs 20,000 with 128GB.</p>
+<p>Memory is listed as 4GB or 6GB, so check which you are paying for. The 6,050mAh battery charges at 10W. It weighs 338 grams and has a card slot.</p>
+<p>Android 13 is the drawback in 2026. The <a href="/products/blackview-zeno-1">Zeno 1</a> has Android 15, a 90Hz screen and, for Rs 17,999, 6GB and 256GB. Unless you need the slightly larger display, choose the Zeno.</p>
+
+=== blackview-tab-60-wifi
+<p>Despite the name, the Tab 60 WiFi is a different tablet from the <a href="/products/blackview-tab-60">Tab 60</a>. It is larger at 10.1 inches, with an eight-core Allwinner A523, Android 14, Wi-Fi 6 and an aluminium back. The price is Rs 18,999 with 4GB and 128GB.</p>
+<p>It does well as a family tablet: video calls with relatives abroad, school websites, YouTube. The screen is limited to 300 nits and 60Hz.</p>
+<p>The battery is small for the size at 6,050mAh, and charging is 10W. If the tablet is for a desk with a charger, fine. For travel, the <a href="/products/blackview-tab-20-wifi">Tab 20</a> has a slightly larger battery and newer Android but a slower chip.</p>
+
+=== blackview-tab-70-wifi
+<p>Ten inches for Rs 13,499 is the argument for the Tab 70. Text is large, the keyboard is comfortable, and video fills a decent area. For an older person who reads news and video-calls family abroad, size beats speed.</p>
+<p>The RK3562, 4GB and 64GB keep it at basic tasks, with Wi-Fi 6 and Android 13. The plastic body is nearly 10mm thick. A 6,580mAh battery charges at 10W.</p>
+<p>Before gifting it, enlarge the font, remove unneeded apps, and put one button for the family's video call on the home screen. If you want it to stay quick for longer, the <a href="/products/blackview-tab-60-wifi">Tab 60 WiFi</a> is the next step up.</p>
+
+=== blackview-tab-a6-kids
+<p>The Tab A6 Kids is Blackview's better child tablet: 10.1 inches, an Allwinner A523 with eight cores, 4GB, 128GB and Wi-Fi 6, with a protective case, at Rs 19,999.</p>
+<p>Compared with the <a href="/products/blackview-tab-20-kids-wifi">Tab 20 Kids</a>, it opens apps faster and holds twice as much. The battery is smaller at 5,100mAh, so it needs a charge every evening.</p>
+<p>It is worth the Rs 2,500 difference if the child will use it for school in a year or two. Set screen-time limits at the start, because it is far harder later.</p>
+
+=== blackview-zeno-1
+<p>The Zeno 1 is the small tablet we would choose from Blackview's range. Eight inches, a 90Hz screen, a Unisoc T615, Android 15 and an aluminium body, for Rs 15,999. The larger version with 6GB and 256GB is only Rs 17,999.</p>
+<p>That second one is the bargain: storage like this usually costs far more. A 6,000mAh battery in a 336 gram tablet lasts a couple of days of light reading. Charging is 10W.</p>
+<p>It is Wi-Fi only. It fits a jacket pocket or a handbag, and works well as an e-reader and a map. For a larger picture, see the <a href="/products/blackview-zeno-5">Zeno 5</a>.</p>
+
+=== blackview-zeno-10-5g
+<p>The Zeno 10 5G takes a SIM card, which makes it different from most tablets at Rs 31,999. A teacher in the hills or a sales officer can be online wherever the phone works, without tethering. It uses a 6nm Unisoc T8200 and supports 5G for the day networks reach you.</p>
+<p>The 11-inch screen runs at 90Hz with 400 nits, the battery is 8,800mAh, and the body is aluminium at 517 grams. Memory is 6GB with 128GB.</p>
+<p>If you always have Wi-Fi, the <a href="/products/blackview-zeno-5">Zeno 5</a> saves Rs 2,000 with more memory. A data plan is an extra monthly cost, so count that in.</p>
+
+=== blackview-zeno-2
+<p>The Zeno 2 launched in October 2026 with Android 16 and an IP54 rating, unusual for a tablet. It is a good detail for kitchens, workshops and small children with juice. It costs Rs 19,999.</p>
+<p>The processor is, unfortunately, the same slow Unisoc T310 found in tablets Rs 3,000 cheaper, and the 8.68-inch screen is 60Hz. You get 4GB and 128GB of slow eMMC storage.</p>
+<p>We prefer the older <a href="/products/blackview-zeno-1">Zeno 1</a> with a better chip, a 90Hz display and more storage for Rs 17,999. Buy the Zeno 2 only if splash protection or the newest Android is important to you.</p>
+
+=== blackview-zeno-5
+<p>For Rs 29,999 the Zeno 5 gives you an 11-inch 90Hz display, 8GB and 128GB, Android 16 and IP54 protection. The Unisoc T7250 is an entry chip, adequate for study apps, video and documents.</p>
+<p>Its battery is 8,300mAh with 18W charging. It weighs 573 grams.</p>
+<p>The comparison to make is the <a href="/products/infinix-xpad-20-pro">Infinix XPAD 20 Pro</a>. For Rs 2,000 more you get a 12-inch screen, a faster Helio G100, 256GB and 45W charging, in a thinner aluminium body. The Zeno counters with newer Android and splash resistance. Most students should choose the Infinix.</p>
+
+=== infinix-xpad-20-pro
+<p>The XPAD 20 Pro is the affordable large tablet we suggest most often. It has a 12-inch 90Hz screen, aluminium body only 6.6mm thick, a Helio G100 Ultimate, and 45W charging. With 4GB and 128GB it is Rs 26,999. With 8GB and 256GB, Rs 31,999.</p>
+<p>Pay for the 8GB version if you will use two apps together, for example a video lecture and notes, because that is what a 12-inch tablet is for. At 450 nits the panel is usable beside a window.</p>
+<p>Wi-Fi is the older version 5, and Infinix does not promise many Android updates. Gaming is modest. Against the <a href="/products/redmi-pad-2">Redmi Pad 2</a>, the Infinix is larger and charges faster, while Xiaomi supports its tablets for longer.</p>
+
+=== oneplus-pad-go
+<p>The OnePlus Pad Go from late 2023 stands out for its shape. An 11.35-inch screen in 7:5 proportions shows more of a page than a wide tablet, so PDFs and web pages need less scrolling. It runs at 90Hz.</p>
+<p>A Helio G99 with 8GB handles study and films with ease. The 8,000mAh battery charges at 33W. It began on Android 13, so its update life is mostly over.</p>
+<p>At Rs 39,999 it is too expensive now. The <a href="/products/oneplus-pad-go-2">OnePlus Pad Go 2</a> is the newer model, and the <a href="/products/xiaomi-pad-7">Xiaomi Pad 7</a> has a far stronger chip. Consider it only used, or at a heavy discount.</p>

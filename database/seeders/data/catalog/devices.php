@@ -16708,7 +16708,7 @@ HTML,
             'dimensions' => '171.1 x 82.1 x 8.6 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Aluminium; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 6 years of security updates',
+                'Software updates' => '2 years of OS updates; 6 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes',
@@ -16739,7 +16739,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Redmi 15 4G costs <strong>Rs 27,999</strong> in Nepal for the 6GB/128GB model. The 8GB/256GB version costs Rs 29,999. It launched in Nepal on 1 September 2025. It sits in the busiest part of the market, where battery life and a smooth screen matter more than benchmark scores.</p>
-<p>It has a 6.9 inches IPS LCD, 144Hz, 700 nits (typ) screen and runs on the Qualcomm Snapdragon 685 (6nm). The Si-Ca 7000 mAh, non-removable battery is a real strength; most people will get a day and a half or more. Charging: 33W Fast Charging. Cameras: Primary: 50MP, f/1.8, PDAF + Auxiliary lens. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 6 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.9 inches IPS LCD, 144Hz, 700 nits (typ) screen and runs on the Qualcomm Snapdragon 685 (6nm). The Si-Ca 7000 mAh, non-removable battery is a real strength; most people will get a day and a half or more. Charging: 33W Fast Charging. Cameras: Primary: 50MP, f/1.8, PDAF + Auxiliary lens. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 6 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Around the same budget, also look at the <a href="/products/oppo-a6x">OPPO A6x</a> (Rs 27,999) and the <a href="/products/realme-c100i">Realme C100i</a> (Rs 28,999). You can <a href="/compare?category=mobile&g1=redmi-15-4g&g2=oppo-a6x">compare the Redmi 15 4G with the OPPO A6x</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -16858,7 +16858,7 @@ HTML,
             'dimensions' => '163.7 x 75.8 x 8 mm',
             'extra' => [
                 'Build' => 'Back: Glass; Front: Gorilla Glass 7i; Frame: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
             ],
         ],
@@ -16887,7 +16887,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Infinix GT 30 Pro costs <strong>Rs 65,999</strong> in Nepal for the 8GB/256GB model. The 12GB/256GB version costs Rs 69,999. It launched in Nepal on 24 June 2025. At this price you should expect a bright AMOLED panel, a dependable main camera and long software support.</p>
-<p>It has a 6.78 Inches AMOLED, 144Hz, 700 nits (typ), 1600 nits (HBM), 4500 nits (HDR) screen and runs on the Mediatek Dimensity 8350 Ultimate (4nm). The 45W Fast Charging battery may need a top-up on heavy days. Charging: 30W Wireless Charging, 4.5W Reverse Wireless Charging. Cameras: Primary: 108MP, f/1.9, PDAF, 1/1.33” ISOCELL sensor + Ultrawide: 8MP, f/2.2, 111° FOV, 1/4.0" sensor. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.78 Inches AMOLED, 144Hz, 700 nits (typ), 1600 nits (HBM), 4500 nits (HDR) screen and runs on the Mediatek Dimensity 8350 Ultimate (4nm). The 45W Fast Charging battery may need a top-up on heavy days. Charging: 30W Wireless Charging, 4.5W Reverse Wireless Charging. Cameras: Primary: 108MP, f/1.9, PDAF, 1/1.33” ISOCELL sensor + Ultrawide: 8MP, f/2.2, 111° FOV, 1/4.0" sensor. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Around the same budget, also look at the <a href="/products/tecno-camon-slim">Tecno Camon Slim</a> (Rs 65,999) and the <a href="/products/realme-p3-ultra">Realme P3 Ultra</a> (Rs 65,999). You can <a href="/compare?category=mobile&g1=infinixgt-30-pro&g2=tecno-camon-slim">compare the Infinix GT 30 Pro with the Tecno Camon Slim</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -17933,7 +17933,7 @@ HTML,
             'connectivity' => 'GSM / HSPA / LTE / 5G, Wi-Fi 5, Dual-band, Bluetooth 5.1, A2DP, LE',
             'weight' => '217 gm',
             'extra' => [
-                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistancec',
+                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistance',
                 'Software updates' => '4 years of OS updates; 6 years of security updates',
                 'Fingerprint' => 'Fingerprint (side-mounted)',
             ],
@@ -18373,7 +18373,7 @@ HTML,
             'dimensions' => '161.9 x 73.1 x 7.6 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Gorilla Glass 5; Frame: Plastic; IP rating: IP52 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 4 years of security updates',
+                'Software updates' => '2 years of OS updates; 4 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
                 'microSD' => 'Yes (microSD)',
             ],
@@ -18386,7 +18386,7 @@ HTML,
         'launch_price_note' => 'Rs 34,499 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Motorola Moto G85 5G is no longer stocked in Nepal. Its last listed price was <strong>Rs 34,499</strong>. It launched in Nepal on 10 July 2024. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.67 inches P-OLED, 120Hz, 1600 nits (HDR) screen and runs on the Qualcomm Snapdragon 6s Gen 3 (6nm). Its Li-ion 5000 mAh, non-removable battery should last a full day for most people. Charging: 30W Fast Charging. Cameras: Primary: 50MP, f/1.8, OIS, PDAF 1/1.95” LYT-600 sensor + Ultrawide: 8MP, f/2.2, 118° FOV. It is rated IP52 for dust and water. Software support: 2 years of OS udpates; 4 years of security updates.</p>
+<p>It has a 6.67 inches P-OLED, 120Hz, 1600 nits (HDR) screen and runs on the Qualcomm Snapdragon 6s Gen 3 (6nm). Its Li-ion 5000 mAh, non-removable battery should last a full day for most people. Charging: 30W Fast Charging. Cameras: Primary: 50MP, f/1.8, OIS, PDAF 1/1.95” LYT-600 sensor + Ultrawide: 8MP, f/2.2, 118° FOV. It is rated IP52 for dust and water. Software support: 2 years of OS updates; 4 years of security updates.</p>
 <p>Buying new instead? A current Motorola alternative is the <a href="/products/moto-g06-power">Motorola Moto G06 Power</a> (Rs 31,999).</p>
 HTML,
         'faqs' => [
@@ -20563,7 +20563,7 @@ HTML,
             'dimensions' => '163.7 x 75.8 x 8 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Gorilla Glass 7i; Frame: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
             ],
         ],
@@ -20587,7 +20587,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Infinix GT 30 costs <strong>Rs 46,999</strong> in Nepal for the 8GB/256GB model. It launched in Nepal on 1 September 2025. This is the sweet spot: enough for an AMOLED screen and fast charging without paying for flagship cameras.</p>
-<p>It has a 6.78 Inches AMOLED, 144Hz, 700 nits (typ), 1600 nits (HBM), 4500 nits (HDR) screen and runs on the Mediatek Dimensity 7400 (4nm). The 45W Fast Charging battery may need a top-up on heavy days. Cameras: Primary: 64MP, f/1.8, 23 mm, PDAF, 1/1.73” CMOS BSI+ sensor + Ultrawide: 8MP, f/2.2, 111° FOV, AF. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.78 Inches AMOLED, 144Hz, 700 nits (typ), 1600 nits (HBM), 4500 nits (HDR) screen and runs on the Mediatek Dimensity 7400 (4nm). The 45W Fast Charging battery may need a top-up on heavy days. Cameras: Primary: 64MP, f/1.8, 23 mm, PDAF, 1/1.73” CMOS BSI+ sensor + Ultrawide: 8MP, f/2.2, 111° FOV, AF. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Around the same budget, also look at the <a href="/products/motorola-edge-50-fusion">Motorola Edge 50 Fusion</a> (Rs 46,499) and the <a href="/products/realme-p4-4g">Realme P4 4G</a> (Rs 45,999). You can <a href="/compare?category=mobile&g1=infinix-gt-30&g2=motorola-edge-50-fusion">compare the Infinix GT 30 with the Motorola Edge 50 Fusion</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -20850,7 +20850,7 @@ HTML,
             'weight' => '210 gm',
             'dimensions' => '166.6 x 78.51 x 8.61 mm',
             'extra' => [
-                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistancec',
+                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistance',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (Up to 1TB)',
@@ -21007,7 +21007,7 @@ HTML,
             'dimensions' => '167.7 x 77.8 x 8.1 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -21038,7 +21038,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Tecno Spark Go 3 costs <strong>Rs 21,999</strong> in Nepal for the 4GB/64GB model. The 4GB/128GB version costs Rs 25,999. It launched in Nepal on 18 January 2026. It sits in the busiest part of the market, where battery life and a smooth screen matter more than benchmark scores.</p>
-<p>It has a 6.75 inches IPS LCD, 120Hz screen and runs on the Unisoc T7250 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 15W Charging. Cameras: 13 MP, f/1.8, 27mm, PDAF. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.75 inches IPS LCD, 120Hz screen and runs on the Unisoc T7250 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 15W Charging. Cameras: 13 MP, f/1.8, 27mm, PDAF. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Around the same budget, also look at the <a href="/products/realme-note-80">Realme Note 80</a> (Rs 21,999) and the <a href="/products/infinix-smart-20">Infinix Smart 20</a> (Rs 21,999). You can <a href="/compare?category=mobile&g1=tecno-spark-go-3&g2=realme-note-80">compare the Tecno Spark Go 3 with the Realme Note 80</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -21253,7 +21253,7 @@ HTML,
             'weight' => '208 gm',
             'dimensions' => '166.5 x 78.2 x 8.4 mm',
             'extra' => [
-                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistancec',
+                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistance',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'microSDXC',
@@ -21326,7 +21326,7 @@ HTML,
             'weight' => '219 gm',
             'dimensions' => '166.5 x 78.2 x 8.6 mm',
             'extra' => [
-                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistancec',
+                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistance',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'microSDXC',
@@ -22871,7 +22871,7 @@ HTML,
             'weight' => '205 gm',
             'dimensions' => '159 x 75.81 x 8.80 mm',
             'extra' => [
-                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP68 / IP69K dust and water resistancec',
+                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP68 / IP69K dust and water resistance',
                 'Fingerprint' => 'In-display (Optical)',
                 'microSD' => 'Yes (Up to 1TB)',
             ],
@@ -23632,7 +23632,7 @@ HTML,
             'dimensions' => '162.4 x 77.2 x 8.2 mm',
             'extra' => [
                 'Build' => 'Back: Glass; Front: Gorilla Glass 7i; Frame: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '3 years of OS udpates; 3 years of security updates',
+                'Software updates' => '3 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Under-display (Optical)',
             ],
         ],
@@ -23656,7 +23656,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Infinix GT 50 Pro costs <strong>Rs 84,999</strong> in Nepal for the 12GB/256GB model. It launched in Nepal on 24 September 2026. At this price you should expect a bright AMOLED panel, a dependable main camera and long software support.</p>
-<p>It has a 6.78 Inches AMOLED, 144Hz, 700 nits (typ), 1600 nits (HBM), 4500 nits (HDR) screen and runs on the Mediatek Dimensity 8400 Ultimate (4nm). The 45W Fast Charging battery may need a top-up on heavy days. Charging: 30W Wireless Charging, 4.5W Reverse Wireless Charging. Cameras: Primary: 50MP, f/1.8, PDAF, 1/1.33” ISOCELL sensor + Ultrawide: 8MP, f/2.2, 111° FOV, 1/4.0" sensor. It is rated IP64 for dust and water. Software support: 3 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.78 Inches AMOLED, 144Hz, 700 nits (typ), 1600 nits (HBM), 4500 nits (HDR) screen and runs on the Mediatek Dimensity 8400 Ultimate (4nm). The 45W Fast Charging battery may need a top-up on heavy days. Charging: 30W Wireless Charging, 4.5W Reverse Wireless Charging. Cameras: Primary: 50MP, f/1.8, PDAF, 1/1.33” ISOCELL sensor + Ultrawide: 8MP, f/2.2, 111° FOV, 1/4.0" sensor. It is rated IP64 for dust and water. Software support: 3 years of OS updates; 3 years of security updates.</p>
 <p>Around the same budget, also look at the <a href="/products/honor-600">Honor 600</a> (Rs 84,999) and the <a href="/products/vivo-v70">Vivo V70</a> (Rs 84,999). You can <a href="/compare?category=mobile&g1=infinix-gt-50-pro&g2=honor-600">compare the Infinix GT 50 Pro with the Honor 600</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -25743,7 +25743,7 @@ HTML,
         'release_date' => '2026-08-16',
         'listed_at' => '2026-08-16',
         'specs' => [
-            'display' => '6.78 inches IPS LCD, 120 Hz, Unspecifeid',
+            'display' => '6.78 inches IPS LCD, 120 Hz',
             'processor' => 'Mediatek Helio G100 Ultimate (6nm)',
             'ram' => '6GB',
             'storage' => '128GB',
@@ -25778,7 +25778,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Tecno Spark 50 Pro costs <strong>Rs 47,999</strong> in Nepal for the 6GB/128GB model. It launched in Nepal on 16 August 2026. This is the sweet spot: enough for an AMOLED screen and fast charging without paying for flagship cameras.</p>
-<p>It has a 6.78 inches IPS LCD, 120 Hz, Unspecifeid screen and runs on the Mediatek Helio G100 Ultimate (6nm). Its 6000mAh Li-Po, non-removable battery should last a full day for most people. Charging: 60W. Cameras: 50 MP, PDAF. It is rated IP68 for dust and water. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.78 inches IPS LCD, 120 Hz screen and runs on the Mediatek Helio G100 Ultimate (6nm). Its 6000mAh Li-Po, non-removable battery should last a full day for most people. Charging: 60W. Cameras: 50 MP, PDAF. It is rated IP68 for dust and water. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Around the same budget, also look at the <a href="/products/redmi-note-17-5g">Redmi Note 17 5G</a> (Rs 47,999) and the <a href="/products/infinix-gt-30">Infinix GT 30</a> (Rs 46,999). You can <a href="/compare?category=mobile&g1=tecno-spark-50-pro&g2=redmi-note-17-5g">compare the Tecno Spark 50 Pro with the Redmi Note 17 5G</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -25814,7 +25814,7 @@ HTML,
         'release_date' => '2026-08-16',
         'listed_at' => '2026-08-16',
         'specs' => [
-            'display' => '6.76 inches IPS LCD, 144 Hz, Unspecifeid',
+            'display' => '6.76 inches IPS LCD, 144 Hz',
             'processor' => 'Mediatek Helio G99 Ultimate (6nm)',
             'ram' => '8GB',
             'storage' => '128GB',
@@ -25849,7 +25849,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Tecno Pova 8 costs <strong>Rs 59,999</strong> in Nepal for the 8GB/128GB model. It launched in Nepal on 16 August 2026. This is the sweet spot: enough for an AMOLED screen and fast charging without paying for flagship cameras.</p>
-<p>It has a 6.76 inches IPS LCD, 144 Hz, Unspecifeid screen and runs on the Mediatek Helio G99 Ultimate (6nm). The 8000 mAh, non-removable battery is a real strength; most people will get a day and a half or more. Charging: 45W. Cameras: 50MP, f/1.8, PDAF. It is rated IP64 for dust and water.</p>
+<p>It has a 6.76 inches IPS LCD, 144 Hz screen and runs on the Mediatek Helio G99 Ultimate (6nm). The 8000 mAh, non-removable battery is a real strength; most people will get a day and a half or more. Charging: 45W. Cameras: 50MP, f/1.8, PDAF. It is rated IP64 for dust and water.</p>
 <p>Around the same budget, also look at the <a href="/products/poco-x7-pro">Poco X7 Pro</a> (Rs 59,999) and the <a href="/products/oneplus-nord-ce-5">OnePlus Nord CE5</a> (Rs 59,999). You can <a href="/compare?category=mobile&g1=tecno-pova-8&g2=poco-x7-pro">compare the Tecno Pova 8 with the Poco X7 Pro</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -26258,7 +26258,7 @@ HTML,
             'dimensions' => '162.7 x 77.2 x 7.4 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Corning Gorilla Glass 7i; Frame: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
             ],
         ],
@@ -26282,7 +26282,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Tecno Pova Curve 2 costs <strong>Rs 52,999</strong> in Nepal for the 8GB/256GB model. It launched in Nepal on 22 April 2026. This is the sweet spot: enough for an AMOLED screen and fast charging without paying for flagship cameras.</p>
-<p>It has a 6.78 inches AMOLED, 144Hz, 1600 nits (HBM), 4500 nits (HDR) screen and runs on the Mediatek Dimensity 7100 (6nm). The Li-Po 8000 mAh, non-removable battery is a real strength; most people will get a day and a half or more. Charging: 45W Fast Charging. Cameras: Primary: 50MP, f/1.8, PDAF + Macro: 2MP. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.78 inches AMOLED, 144Hz, 1600 nits (HBM), 4500 nits (HDR) screen and runs on the Mediatek Dimensity 7100 (6nm). The Li-Po 8000 mAh, non-removable battery is a real strength; most people will get a day and a half or more. Charging: 45W Fast Charging. Cameras: Primary: 50MP, f/1.8, PDAF + Macro: 2MP. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Around the same budget, also look at the <a href="/products/infinix-hot-70-pro">Infinix Hot 70 Pro</a> (Rs 52,999) and the <a href="/products/oppo-a6-pro-4g">OPPO A6 Pro 4G</a> (Rs 51,999). You can <a href="/compare?category=mobile&g1=tecno-pova-curve-2&g2=infinix-hot-70-pro">compare the Tecno Pova Curve 2 with the Infinix Hot 70 Pro</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -26330,7 +26330,7 @@ HTML,
             'dimensions' => '165.6 x 77 x 8.3 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -26366,7 +26366,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Tecno Spark Go 2 costs <strong>Rs 11,499</strong> in Nepal for the 3GB/64GB model. The 4GB/128GB version costs Rs 14,999. It launched in Nepal on 3 October 2025. At this price the job is simple: calls, messaging, social apps and a battery that lasts the day.</p>
-<p>It has a 6.67 inches IPS LCD, 120Hz screen and runs on the Unisoc T7250 (12nm). Its Li-Ion 5000 mAh, non-removable battery should last a full day for most people. Charging: 15W Charging. Cameras: 13 MP, f/1.8, 27mm, PDAF. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.67 inches IPS LCD, 120Hz screen and runs on the Unisoc T7250 (12nm). Its Li-Ion 5000 mAh, non-removable battery should last a full day for most people. Charging: 15W Charging. Cameras: 13 MP, f/1.8, 27mm, PDAF. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Around the same budget, also look at the <a href="/products/blackview-wave-2c">Blackview Wave 2C</a> (Rs 10,999) and the <a href="/products/blackview-wave-10c">Blackview Wave 10C</a> (Rs 14,499). You can <a href="/compare?category=mobile&g1=tecno-spark-go-2&g2=blackview-wave-2c">compare the Tecno Spark Go 2 with the Blackview Wave 2C</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -30454,7 +30454,7 @@ HTML,
             'dimensions' => '168 x 76.4 x 7.7 - 7.9 mm',
             'extra' => [
                 'Build' => 'Back: Glass / Eco-leather; Front: Glass; Frame: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -30480,7 +30480,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Tecno Spark 30 costs <strong>Rs 29,999</strong> in Nepal for the 8GB/256GB model. It launched in Nepal on 25 October 2024. It sits in the busiest part of the market, where battery life and a smooth screen matter more than benchmark scores.</p>
-<p>It has a 6.78 inches IPS LCD, 90Hz, 800 nits (HBM) screen and runs on the Mediatek Helio G91 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 18W Charging. Cameras: Primary: 64MP, PDAF, 1/1.73” CMOS sensor + Auxiliary lens. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.78 inches IPS LCD, 90Hz, 800 nits (HBM) screen and runs on the Mediatek Helio G91 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 18W Charging. Cameras: Primary: 64MP, PDAF, 1/1.73” CMOS sensor + Auxiliary lens. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Around the same budget, also look at the <a href="/products/honor-x6d">Honor X6d</a> (Rs 29,999) and the <a href="/products/tecno-spark-50-4g">Tecno Spark 50 4G</a> (Rs 29,999). You can <a href="/compare?category=mobile&g1=tecno-spark-30&g2=honor-x6d">compare the Tecno Spark 30 with the Honor X6d</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -35319,7 +35319,7 @@ HTML,
             'dimensions' => '163.7 x 75.6 x 8.5 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP54 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -35333,7 +35333,7 @@ HTML,
         'launch_price_note' => 'Rs 16,490 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Tecno Spark 30C is no longer stocked in Nepal. Its last listed price was <strong>Rs 16,490</strong>. It was announced on 7 December 2023. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.67 inches IPS LCD, 120Hz, 450 nits (typ), 600 nits (HBM) screen and runs on the Mediatek Helio G81 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 18W charging. Cameras: Primary: 50MP, PDAF, 1/2.8" CMOS sensor + Auxiliary lens. It is rated IP54 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.67 inches IPS LCD, 120Hz, 450 nits (typ), 600 nits (HBM) screen and runs on the Mediatek Helio G81 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 18W charging. Cameras: Primary: 50MP, PDAF, 1/2.8" CMOS sensor + Auxiliary lens. It is rated IP54 for dust and water. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Buying new instead? A current Tecno alternative is the <a href="/products/tecno-spark-go-2">Tecno Spark Go 2</a> (Rs 11,499).</p>
 HTML,
         'faqs' => [
@@ -39476,7 +39476,7 @@ HTML,
             'dimensions' => '163.77 x 76.28 x 7.59 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP65 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 4 years of security updates',
+                'Software updates' => '2 years of OS updates; 4 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
             ],
         ],
@@ -39500,7 +39500,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Vivo V60 Lite 5G costs <strong>Rs 51,999</strong> in Nepal for the 12GB/256GB model. It was announced on 24 September 2025. This is the sweet spot: enough for an AMOLED screen and fast charging without paying for flagship cameras.</p>
-<p>It has a 6.77 inches AMOLED, 120Hz, 3000 nits (HDR) screen and runs on the Mediatek Dimensity 7360 Turbo (4nm). Its Si-Ca 6500 mAh, non-removable battery should last a full day for most people. Charging: 90W FlashCharge. Cameras: Primary: 50MP, f/1.8, 27 mm, OIS, PDAF, 1/1.95” CMOS BSI sensor + Ultrawide: 8MP, f/2.2, 120° FOV. It is rated IP65 for dust and water. Software support: 2 years of OS udpates; 4 years of security updates.</p>
+<p>It has a 6.77 inches AMOLED, 120Hz, 3000 nits (HDR) screen and runs on the Mediatek Dimensity 7360 Turbo (4nm). Its Si-Ca 6500 mAh, non-removable battery should last a full day for most people. Charging: 90W FlashCharge. Cameras: Primary: 50MP, f/1.8, 27 mm, OIS, PDAF, 1/1.95” CMOS BSI sensor + Ultrawide: 8MP, f/2.2, 120° FOV. It is rated IP65 for dust and water. Software support: 2 years of OS updates; 4 years of security updates.</p>
 <p>Around the same budget, also look at the <a href="/products/oppo-a6-pro-4g">OPPO A6 Pro 4G</a> (Rs 51,999) and the <a href="/products/infinix-hot-70-pro">Infinix Hot 70 Pro</a> (Rs 52,999). You can <a href="/compare?category=mobile&g1=vivo-v60-lite-5g&g2=oppo-a6-pro-4g">compare the Vivo V60 Lite 5G with the OPPO A6 Pro 4G</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -42951,7 +42951,7 @@ HTML,
         'release_date' => '2026-01-01',
         'listed_at' => '2026-01-01',
         'specs' => [
-            'display' => '16 inches, IPS LCD, WQXGA (2560 x 1600 pixels), 240Hz',
+            'display' => '18 inches, IPS LCD, WQXGA (2560 x 1600 pixels), 240Hz',
             'processor' => 'Intel Core Ultra 9 275HX (TSMC N3B), 24 cores / 24 threads',
             'ram' => '32GB',
             'storage' => '1TB PCIe 4.0 NVMe M.2 SSD',
@@ -49286,7 +49286,7 @@ HTML,
             'dimensions' => '164.3 x 74.5 x 7.6 mm',
             'extra' => [
                 'Build' => 'Back: Faux Leather; Front: Glass; Frame: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
             ],
         ],
@@ -49310,7 +49310,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Infinix Note 50s costs <strong>Rs 35,999</strong> in Nepal for the 8GB/256GB model. It launched in Nepal on 15 August 2025. This is the sweet spot: enough for an AMOLED screen and fast charging without paying for flagship cameras.</p>
-<p>It has a 6.78 inches AMOLED, 144Hz, 1300 nits (HDR) screen and runs on the Mediatek Dimensity 7300 Ultimate (4nm). Its Li-Po 5200 mAh, non-removable battery should last a full day for most people. Charging: 45W Fast Charging. Cameras: Primary: 64MP, f/1.8, OIS, PDAF, 1/1.73” IMX682 Exmor RS sensor + Depth: 2MP, f/2.4. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.78 inches AMOLED, 144Hz, 1300 nits (HDR) screen and runs on the Mediatek Dimensity 7300 Ultimate (4nm). Its Li-Po 5200 mAh, non-removable battery should last a full day for most people. Charging: 45W Fast Charging. Cameras: Primary: 64MP, f/1.8, OIS, PDAF, 1/1.73” IMX682 Exmor RS sensor + Depth: 2MP, f/2.4. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Around the same budget, also look at the <a href="/products/realme-c100x">Realme C100x</a> (Rs 35,999) and the <a href="/products/redmi-note-15-pro-4g">Redmi Note 15 Pro 4G</a> (Rs 35,999). You can <a href="/compare?category=mobile&g1=infinix-note-50s&g2=realme-c100x">compare the Infinix Note 50s with the Realme C100x</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -49416,7 +49416,7 @@ HTML,
             'dimensions' => '164 x 77 x 8.2 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP52 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
                 'microSD' => 'Yes (microSD)',
             ],
@@ -49429,7 +49429,7 @@ HTML,
         'launch_price_note' => 'Rs 31,699 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The CMF Phone 1 is no longer stocked in Nepal. Its last listed price was <strong>Rs 31,699</strong>. It launched in Nepal on 8 July 2024. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.67 inches Super AMOLED, 120Hz, 500 nits (typ), 2000 nits (HDR) screen and runs on the Mediatek Dimensity 7300 (4nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 33W Fast Charging. Cameras: Primary: 50MP, f/1.8, 26 mm, OIS, PDAF, 1/1.9” IMX882 sensor + Depth: 2MP, f/2.4. It is rated IP52 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.67 inches Super AMOLED, 120Hz, 500 nits (typ), 2000 nits (HDR) screen and runs on the Mediatek Dimensity 7300 (4nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 33W Fast Charging. Cameras: Primary: 50MP, f/1.8, 26 mm, OIS, PDAF, 1/1.9” IMX882 sensor + Depth: 2MP, f/2.4. It is rated IP52 for dust and water. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Buying new instead? A current Nothing alternative is the <a href="/products/nothing-phone-3a-lite">Nothing Phone 3a Lite</a> (Rs 54,999).</p>
 HTML,
         'faqs' => [
@@ -51574,7 +51574,7 @@ HTML,
         'release_date' => '2022-02-17',
         'listed_at' => '2022-02-17',
         'specs' => [
-            'display' => '6.43 inches AMOLED, 90Hz, Unspecifeid',
+            'display' => '6.43 inches AMOLED, 90Hz',
             'processor' => 'MediaTek Dimensity 900 (6nm)',
             'ram' => '6/8GB LPDDR4X',
             'storage' => '128GB UFS 2.2',
@@ -51599,7 +51599,7 @@ HTML,
         'launch_price_note' => 'Rs 48,999 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The OnePlus Nord CE 2 5G is no longer stocked in Nepal. Its last listed price was <strong>Rs 48,999</strong>. It was announced on 17 February 2022. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.43 inches AMOLED, 90Hz, Unspecifeid screen and runs on the MediaTek Dimensity 900 (6nm). Its Li-Po 5000 mAh, dual-cell, non-removable battery should last a full day for most people. Charging: 65W SuperVOOC, Not Supported. Software support: 3 Years (Security Updates); 2 Years (Android Upgrades).</p>
+<p>It has a 6.43 inches AMOLED, 90Hz screen and runs on the MediaTek Dimensity 900 (6nm). Its Li-Po 5000 mAh, dual-cell, non-removable battery should last a full day for most people. Charging: 65W SuperVOOC, Not Supported. Software support: 3 Years (Security Updates); 2 Years (Android Upgrades).</p>
 <p>Buying new instead? A current OnePlus alternative is the <a href="/products/oneplus-nord-ce-5">OnePlus Nord CE5</a> (Rs 59,999).</p>
 HTML,
         'faqs' => [
@@ -52214,7 +52214,7 @@ HTML,
             'dimensions' => '164.3 x 75.4 x 8.2 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Aluminium; IP rating: IP54 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
                 'microSD' => 'Yes (microSD)',
             ],
@@ -52227,7 +52227,7 @@ HTML,
         'launch_price_note' => 'Rs 47,999 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Infinix GT 20 Pro is no longer stocked in Nepal. Its last listed price was <strong>Rs 47,999</strong>. It launched in Nepal on 24 June 2024. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.78 Inches AMOLED, 144Hz, 1300 nits (HDR) screen and runs on the Mediatek Dimensity 8200 Ultimate (4nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 45W Fast charging. Cameras: Primary: 108MP, f/1.8, 24 mm, OIS, AF, 1/1.67” S5KHM6 sensor + Macro: 2MP, f/2.4, 1/5" sensor + Depth: 2MP, f/2.4. It is rated IP54 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.78 Inches AMOLED, 144Hz, 1300 nits (HDR) screen and runs on the Mediatek Dimensity 8200 Ultimate (4nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 45W Fast charging. Cameras: Primary: 108MP, f/1.8, 24 mm, OIS, AF, 1/1.67” S5KHM6 sensor + Macro: 2MP, f/2.4, 1/5" sensor + Depth: 2MP, f/2.4. It is rated IP54 for dust and water. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Buying new instead? A current Infinix alternative is the <a href="/products/infinix-gt-30">Infinix GT 30</a> (Rs 46,999).</p>
 HTML,
         'faqs' => [
@@ -52622,7 +52622,7 @@ HTML,
             'dimensions' => '167.4 x 77.1 x 8.4 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP65 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 4 years of security updates',
+                'Software updates' => '2 years of OS updates; 4 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -52648,7 +52648,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Vivo Y21 5G costs <strong>Rs 40,999</strong> in Nepal for the 6GB/128GB model. It launched in Nepal on 8 May 2026. This is the sweet spot: enough for an AMOLED screen and fast charging without paying for flagship cameras.</p>
-<p>It has a 6.74 inches IPS LCD, 120Hz, 1200 nits (HBM) screen and runs on the Mediatek Dimensity 6300 (6nm). Its Li-Ion 6500 mAh, non-removable battery should last a full day for most people. Charging: 44W FlashCharge. Cameras: Primary: 50MP, f/1.8 + Depth : 0.08MP, f/3.0. It is rated IP65 for dust and water. Software support: 2 years of OS udpates; 4 years of security updates.</p>
+<p>It has a 6.74 inches IPS LCD, 120Hz, 1200 nits (HBM) screen and runs on the Mediatek Dimensity 6300 (6nm). Its Li-Ion 6500 mAh, non-removable battery should last a full day for most people. Charging: 44W FlashCharge. Cameras: Primary: 50MP, f/1.8 + Depth : 0.08MP, f/3.0. It is rated IP65 for dust and water. Software support: 2 years of OS updates; 4 years of security updates.</p>
 <p>Around the same budget, also look at the <a href="/products/zte-nubia-neo-3-5g">ZTE Nubia Neo 3 5G</a> (Rs 40,999) and the <a href="/products/oppo-a6">OPPO A6</a> (Rs 40,999). You can <a href="/compare?category=mobile&g1=vivo-y21-5g&g2=zte-nubia-neo-3-5g">compare the Vivo Y21 5G with the ZTE Nubia Neo 3 5G</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -53701,7 +53701,7 @@ HTML,
             'dimensions' => '162.4 x 77.2 x 7.5 mm',
             'extra' => [
                 'Build' => 'Back: Aluminium; Front: Corning Gorilla Glass 7i; Frame: Aluminium; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '3 years of OS udpates; 5 years of security updates',
+                'Software updates' => '3 years of OS updates; 5 years of security updates',
                 'Fingerprint' => 'Under-display (Optical)',
             ],
         ],
@@ -53730,7 +53730,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Infinix Note 60 costs <strong>Rs 54,999</strong> in Nepal for the 8GB/128GB model. The 8GB/256GB version costs Rs 59,999. It launched in Nepal on 26 March 2026. This is the sweet spot: enough for an AMOLED screen and fast charging without paying for flagship cameras.</p>
-<p>It has a 6.78 inches AMOLED, 144Hz, 700 nits (typ), 1, 600 nits (HBM), 4, 500 nits (HDR) screen and runs on the Mediatek Dimensity 7400 Ultimate (4nm). Its Si/C Li-Ion 6500 mAh battery should last a full day for most people. Charging: 45W Fast Charging, 30W wireless. Cameras: Primary: 50 MP, f/1.6, 25 mm, OIS, EIS, 1/1.57" Sony IMX890 sensor + Ultrwide: 8 MP, f/2.2, 16 mm, 112° FOV, EIS, 1/4.0" OmniVision OV08D10 sensor. It is rated IP64 for dust and water. Software support: 3 years of OS udpates; 5 years of security updates.</p>
+<p>It has a 6.78 inches AMOLED, 144Hz, 700 nits (typ), 1, 600 nits (HBM), 4, 500 nits (HDR) screen and runs on the Mediatek Dimensity 7400 Ultimate (4nm). Its Si/C Li-Ion 6500 mAh battery should last a full day for most people. Charging: 45W Fast Charging, 30W wireless. Cameras: Primary: 50 MP, f/1.6, 25 mm, OIS, EIS, 1/1.57" Sony IMX890 sensor + Ultrwide: 8 MP, f/2.2, 16 mm, 112° FOV, EIS, 1/4.0" OmniVision OV08D10 sensor. It is rated IP64 for dust and water. Software support: 3 years of OS updates; 5 years of security updates.</p>
 <p>Around the same budget, also look at the <a href="/products/honor-x9d">Honor X9d</a> (Rs 54,999) and the <a href="/products/nothing-phone-3a-lite">Nothing Phone 3a Lite</a> (Rs 54,999). You can <a href="/compare?category=mobile&g1=infinix-note-60&g2=honor-x9d">compare the Infinix Note 60 with the Honor X9d</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -53930,7 +53930,7 @@ HTML,
             'weight' => '191 gm',
             'dimensions' => '166 x 79 x 7.7 mm',
             'extra' => [
-                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistancec',
+                'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP64 dust and water resistance',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
             ],
@@ -56298,7 +56298,7 @@ HTML,
             'dimensions' => '162.9 x 75.6 x 8.1 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP54 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -56312,7 +56312,7 @@ HTML,
         'launch_price_note' => 'Rs 30,999 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The OnePlus Nord CE 4 Lite is no longer stocked in Nepal. Its last listed price was <strong>Rs 30,999</strong>. It launched in Nepal on 22 September 2024. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.67 inches AMOLED, 120Hz, 600 nits (typ), 1200 nits (HBM), 2100 nits (HDR) screen and runs on the Qualcomm Snapdragon 695 5G (6nm). Its Li-Po 5110 mAh, non-removable battery should last a full day for most people. Charging: 80W SUPERVOOC Fast Charging. Cameras: Primary: 50MP, f/1.8, 25 mm, OIS, PDAF, 1/1.95” LYT-600 sensor + Depth: 2MP. It is rated IP54 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.67 inches AMOLED, 120Hz, 600 nits (typ), 1200 nits (HBM), 2100 nits (HDR) screen and runs on the Qualcomm Snapdragon 695 5G (6nm). Its Li-Po 5110 mAh, non-removable battery should last a full day for most people. Charging: 80W SUPERVOOC Fast Charging. Cameras: Primary: 50MP, f/1.8, 25 mm, OIS, PDAF, 1/1.95” LYT-600 sensor + Depth: 2MP. It is rated IP54 for dust and water. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Buying new instead? A current OnePlus alternative is the <a href="/products/oneplus-nord-ce-5">OnePlus Nord CE5</a> (Rs 59,999).</p>
 HTML,
         'faqs' => [
@@ -59645,7 +59645,7 @@ HTML,
             'dimensions' => '163.7 x 75 x 8.2 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP54 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -59659,7 +59659,7 @@ HTML,
         'launch_price_note' => 'Rs 14,499 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The OPPO A18 is no longer stocked in Nepal. Its last listed price was <strong>Rs 14,499</strong>. It was announced on 23 May 2025. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.56 inches IPS LCD, 90Hz, 720 nits (typ) screen and runs on the Mediatek Helio G85 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 10W Charging. Cameras: Primary: 8MP, f/1.8, PDAF + Depth: 2MP, f/2.4. It is rated IP54 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.56 inches IPS LCD, 90Hz, 720 nits (typ) screen and runs on the Mediatek Helio G85 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 10W Charging. Cameras: Primary: 8MP, f/1.8, PDAF + Depth: 2MP, f/2.4. It is rated IP54 for dust and water. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Buying new instead? A current OPPO alternative is the <a href="/products/oppo-a5">OPPO A5</a> (Rs 22,999).</p>
 HTML,
         'faqs' => [
@@ -66186,7 +66186,7 @@ HTML,
             'dimensions' => '163.7 x 75.6 x 8.6 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -66200,7 +66200,7 @@ HTML,
         'launch_price_note' => 'Rs 11,990 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Tecno Spark GO 2024 is no longer stocked in Nepal. Its last listed price was <strong>Rs 11,990</strong>. It was announced on 7 December 2023. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.6 inches IPS LCD, 90Hz screen and runs on the Unisoc T606 (12nm). Its Li‑Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 10W Charging. Cameras: Primary: 13MP, f/1.9, PDAF + Auxiliary lens. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.6 inches IPS LCD, 90Hz screen and runs on the Unisoc T606 (12nm). Its Li‑Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 10W Charging. Cameras: Primary: 13MP, f/1.9, PDAF + Auxiliary lens. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Buying new instead? A current Tecno alternative is the <a href="/products/tecno-spark-go-2">Tecno Spark Go 2</a> (Rs 11,499).</p>
 HTML,
         'faqs' => [
@@ -66244,7 +66244,7 @@ HTML,
             'dimensions' => '163.7 x 75.6 x 8.6 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -66258,7 +66258,7 @@ HTML,
         'launch_price_note' => 'Rs 15,990 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Tecno Spark 20C is no longer stocked in Nepal. Its last listed price was <strong>Rs 15,990</strong>. It was announced in 2023. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.6 inches IPS LCD, 90Hz, 450 nits (typ) screen and runs on the MediaTek Helio G36 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 18W Charging. Cameras: Primary: 50MP, PDAF, 1/2.8" CMOS sensor + Auxiliary lens. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.6 inches IPS LCD, 90Hz, 450 nits (typ) screen and runs on the MediaTek Helio G36 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 18W Charging. Cameras: Primary: 50MP, PDAF, 1/2.8" CMOS sensor + Auxiliary lens. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Buying new instead? A current Tecno alternative is the <a href="/products/tecno-spark-go-2">Tecno Spark Go 2</a> (Rs 11,499).</p>
 HTML,
         'faqs' => [
@@ -66357,7 +66357,7 @@ HTML,
             'dimensions' => '163.7 x 75.6 x 8.5 mm',
             'extra' => [
                 'Build' => 'Front: Glass; Back: Plastic; Frame: Plastic; IP rating: IP53 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -66371,7 +66371,7 @@ HTML,
         'launch_price_note' => 'Rs 17,990 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Tecno Spark 20 is no longer stocked in Nepal. Its last listed price was <strong>Rs 17,990</strong>. It was announced on 7 December 2023. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.6 inches IPS LCD, 90Hz screen and runs on the Mediatek Helio G85 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 18W Charging. Cameras: Primary: 50MP, f/1.6, PDAF + Auxiliary lens. It is rated IP53 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.6 inches IPS LCD, 90Hz screen and runs on the Mediatek Helio G85 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 18W Charging. Cameras: Primary: 50MP, f/1.6, PDAF + Auxiliary lens. It is rated IP53 for dust and water. Software support: 2 years of OS updates; 3 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Buying new instead? A current Tecno alternative is the <a href="/products/tecno-spark-go-3">Tecno Spark Go 3</a> (Rs 21,999).</p>
 HTML,
         'faqs' => [
@@ -66581,7 +66581,7 @@ HTML,
             'dimensions' => 'Unfolded: 159 x 140.4 x 6.1 mm, Folded: 159 x 72.2 x 11.8 - 12 mm',
             'extra' => [
                 'Build' => 'Back: Glass / Eco-leather; Front: Gorilla Glass Victus; IP rating: IP54 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
             ],
         ],
@@ -66593,7 +66593,7 @@ HTML,
         'launch_price_note' => 'Rs 1,60,000 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Tecno Phantom V Fold 2 is no longer stocked in Nepal. Its last listed price was <strong>Rs 1,60,000</strong>. It was announced on 23 September 2024. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a Inner: 7.85 inches (Foldable), Cover: 6.42 inches LTPO AMOLED, 120Hz, 1100 nits (HDR) screen and runs on the Mediatek Dimensity 9000+ (4nm). Its Li-Po 5750 mAh, non-removable battery should last a full day for most people. Charging: 70W SuperCharge, 15W Wireless Charging. Cameras: Primary: 50MP, f/1.9, 23 mm, OIS, PDAF, 1/1.3” PureCel sensor + Ultrawide: 50MP, f/2.2, 115° FOV + Telephoto: 50MP, f/2.0, 50 mm, 2x optical zoom, PDAF. It is rated IP54 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a Inner: 7.85 inches (Foldable), Cover: 6.42 inches LTPO AMOLED, 120Hz, 1100 nits (HDR) screen and runs on the Mediatek Dimensity 9000+ (4nm). Its Li-Po 5750 mAh, non-removable battery should last a full day for most people. Charging: 70W SuperCharge, 15W Wireless Charging. Cameras: Primary: 50MP, f/1.9, 23 mm, OIS, PDAF, 1/1.3” PureCel sensor + Ultrawide: 50MP, f/2.2, 115° FOV + Telephoto: 50MP, f/2.0, 50 mm, 2x optical zoom, PDAF. It is rated IP54 for dust and water. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Buying new instead? A current Tecno alternative is the <a href="/products/tecno-camon-slim">Tecno Camon Slim</a> (Rs 65,999).</p>
 HTML,
         'faqs' => [
@@ -66637,7 +66637,7 @@ HTML,
             'dimensions' => '167.3 x 77.3 x 8 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: No',
-                'Software updates' => '2 years of OS udpates; 4 years of security updates',
+                'Software updates' => '2 years of OS updates; 4 years of security updates',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
             ],
@@ -66650,7 +66650,7 @@ HTML,
         'launch_price_note' => 'Rs 15,499 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Samsung Galaxy A06 is no longer stocked in Nepal. Its last listed price was <strong>Rs 15,499</strong>. It launched in Nepal on 8 September 2024. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.7 inches PLS LCD, 90Hz screen and runs on the Mediatek Helio G85 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 25W Charging. Cameras: Primary: 50MP, f/1.8, 1/2.76” sensor + Depth: 2MP, f/2.4. Software support: 2 years of OS udpates; 4 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.7 inches PLS LCD, 90Hz screen and runs on the Mediatek Helio G85 (12nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 25W Charging. Cameras: Primary: 50MP, f/1.8, 1/2.76” sensor + Depth: 2MP, f/2.4. Software support: 2 years of OS updates; 4 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Buying new instead? A current Samsung alternative is the <a href="/products/samsung-galaxy-a07">Samsung Galaxy A07</a> (Rs 25,499).</p>
 HTML,
         'faqs' => [
@@ -70831,7 +70831,7 @@ HTML,
             'dimensions' => '165.7 x 76 x 7.9 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: IP54 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -70845,7 +70845,7 @@ HTML,
         'launch_price_note' => 'Rs 21,999 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Realme Narzo C67 5G is no longer stocked in Nepal. Its last listed price was <strong>Rs 21,999</strong>. It launched in Nepal on 8 September 2024. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.72 inches IPS LCD, 120Hz, 550 nits (typ), 680 nits (HBM) screen and runs on the MediaTek Dimensity 6100+ (6nm). Its Li-Ion 5000 mAh, non-removable battery should last a full day for most people. Charging: 33W Fast Charging. Cameras: Primary: 50MP, f/1.8, 27 mm, PDAF, 1/2.76” ISOCELL sensor + Depth: 2MP, f/2.4, 1/5" sensor. It is rated IP54 for dust and water. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.72 inches IPS LCD, 120Hz, 550 nits (typ), 680 nits (HBM) screen and runs on the MediaTek Dimensity 6100+ (6nm). Its Li-Ion 5000 mAh, non-removable battery should last a full day for most people. Charging: 33W Fast Charging. Cameras: Primary: 50MP, f/1.8, 27 mm, PDAF, 1/2.76” ISOCELL sensor + Depth: 2MP, f/2.4, 1/5" sensor. It is rated IP54 for dust and water. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Buying new instead? A current Realme alternative is the <a href="/products/realme-note-80">Realme Note 80</a> (Rs 21,999).</p>
 HTML,
         'faqs' => [
@@ -73819,7 +73819,7 @@ HTML,
             'dimensions' => '165.5 x 76 x 8.3 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frame: Plastic; IP rating: No',
-                'Software updates' => '2 years of OS udpates; 3 years of security updates',
+                'Software updates' => '2 years of OS updates; 3 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (microSD)',
@@ -73833,7 +73833,7 @@ HTML,
         'launch_price_note' => 'Rs 34,599 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The OnePlus Nord CE 3 Lite is no longer stocked in Nepal. Its last listed price was <strong>Rs 34,599</strong>. It launched in Nepal on 11 April 2023. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.72 inches IPS LCD, 120Hz, 550 nits (typ), 680 nits (HBM) screen and runs on the Qualcomm Snapdragon 695 5G (6nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 67W SUPERVOOC Fast Charging. Cameras: Primary: 108MP, f/1.8, PDAF, 1/1.67” ISOCELL sensor + Macro: 2MP, f/2.4. Software support: 2 years of OS udpates; 3 years of security updates.</p>
+<p>It has a 6.72 inches IPS LCD, 120Hz, 550 nits (typ), 680 nits (HBM) screen and runs on the Qualcomm Snapdragon 695 5G (6nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 67W SUPERVOOC Fast Charging. Cameras: Primary: 108MP, f/1.8, PDAF, 1/1.67” ISOCELL sensor + Macro: 2MP, f/2.4. Software support: 2 years of OS updates; 3 years of security updates.</p>
 <p>Buying new instead? A current OnePlus alternative is the <a href="/products/oneplus-nord-ce-5">OnePlus Nord CE5</a> (Rs 59,999).</p>
 HTML,
         'faqs' => [
@@ -75461,7 +75461,7 @@ HTML,
             'dimensions' => '165.4 x 76.4 x 8.0 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Glass; Frames: Plastic; IP rating: IP64 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 2 years of security updates',
+                'Software updates' => '2 years of OS updates; 2 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 'microSD' => 'Yes (microSD)',
             ],
@@ -75486,7 +75486,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Infinix Note 50x costs <strong>Rs 21,999</strong> in Nepal for the 6GB/128GB model. It launched in Nepal on 4 June 2025. It sits in the busiest part of the market, where battery life and a smooth screen matter more than benchmark scores.</p>
-<p>It has a 6.67 inches IPS LCD, 120Hz, 560 nits (typ) screen and runs on the Mediatek Dimensity 7300 Ultimate (4nm). Its Li-Po 5200 mAh, non-removable battery should last a full day for most people. Charging: 45W Fast Charging. Cameras: 50MP, f/1.6, PDAF, 1/2.76” S5KJN1 sensor. It is rated IP64 for dust and water. Software support: 2 years of OS udpates; 2 years of security updates.</p>
+<p>It has a 6.67 inches IPS LCD, 120Hz, 560 nits (typ) screen and runs on the Mediatek Dimensity 7300 Ultimate (4nm). Its Li-Po 5200 mAh, non-removable battery should last a full day for most people. Charging: 45W Fast Charging. Cameras: 50MP, f/1.6, PDAF, 1/2.76” S5KJN1 sensor. It is rated IP64 for dust and water. Software support: 2 years of OS updates; 2 years of security updates.</p>
 <p>Around the same budget, also look at the <a href="/products/tecno-spark-go-3">Tecno Spark Go 3</a> (Rs 21,999) and the <a href="/products/realme-note-80">Realme Note 80</a> (Rs 21,999). You can <a href="/compare?category=mobile&g1=infinix-note-50x&g2=tecno-spark-go-3">compare the Infinix Note 50x with the Tecno Spark Go 3</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -75589,7 +75589,7 @@ HTML,
             'dimensions' => '164.1 x 74.4 x 6.8 mm',
             'extra' => [
                 'Build' => 'Back: Plastic; Front: Corning Gorilla Glass; Frame: Plastic; IP rating: IP54 dust and splash resistance',
-                'Software updates' => '2 years of OS udpates; 2 years of security updates',
+                'Software updates' => '2 years of OS updates; 2 years of security updates',
                 'Fingerprint' => 'In-display (Optical)',
                 'microSD' => 'Yes (microSD)',
             ],
@@ -75614,7 +75614,7 @@ HTML,
         ],
         'description' => <<<'HTML'
 <p>The Infinix Hot 50 Pro Plus costs <strong>Rs 25,999</strong> in Nepal for the 8GB/256GB model. It launched in Nepal on 6 June 2025. It sits in the busiest part of the market, where battery life and a smooth screen matter more than benchmark scores.</p>
-<p>It has a 6.78 inches AMOLED, 120Hz, 550 nits (typ), 1300 nits (HDR) screen and runs on the Mediatek Helio G100 (6nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 33W Fast Charging. It is rated IP54 for dust and water. Software support: 2 years of OS udpates; 2 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
+<p>It has a 6.78 inches AMOLED, 120Hz, 550 nits (typ), 1300 nits (HDR) screen and runs on the Mediatek Helio G100 (6nm). Its Li-Po 5000 mAh, non-removable battery should last a full day for most people. Charging: 33W Fast Charging. It is rated IP54 for dust and water. Software support: 2 years of OS updates; 2 years of security updates. It is a 4G phone, which works fine on NTC and Ncell today but will not use 5G.</p>
 <p>Around the same budget, also look at the <a href="/products/blackview-fort-100">Blackview Fort 100</a> (Rs 25,999) and the <a href="/products/realme-c71">Realme C71</a> (Rs 25,999). You can <a href="/compare?category=mobile&g1=infinix-hot-50-pro-plus&g2=blackview-fort-100">compare the Infinix Hot 50 Pro Plus with the Blackview Fort 100</a> side by side.</p>
 HTML,
         'faqs' => [
@@ -80264,7 +80264,7 @@ HTML,
             'dimensions' => '165.4 x 76.9 x 8.4 mm',
             'extra' => [
                 'Build' => 'Back: Polycarbonate; Front: Corning Gorilla Glass 5; Frames: Plastic; No IP rating',
-                'Software updates' => '2 years of OS udpates; 4 years of security updates',
+                'Software updates' => '2 years of OS updates; 4 years of security updates',
                 'Fingerprint' => 'Side-mounted',
                 '3.5mm jack' => 'Yes',
                 'microSD' => 'Yes (Dedicated)',
@@ -80278,7 +80278,7 @@ HTML,
         'launch_price_note' => 'Rs 25,999 last listed price in Nepal',
         'description' => <<<'HTML'
 <p>The Samsung Galaxy A23 is no longer stocked in Nepal. Its last listed price was <strong>Rs 25,999</strong>. It was announced on 4 March 2022. We keep the full specs here for reference and for anyone checking a second-hand unit.</p>
-<p>It has a 6.4 inches PLS TFT LCD, 90Hz screen and runs on the Qualcomm Snapdragon 680 4G (6nm). Its Li-Ion 5000 mAh, non-removable battery should last a full day for most people. Charging: 25W Fast Charging. Software support: 2 years of OS udpates; 4 years of security updates.</p>
+<p>It has a 6.4 inches PLS TFT LCD, 90Hz screen and runs on the Qualcomm Snapdragon 680 4G (6nm). Its Li-Ion 5000 mAh, non-removable battery should last a full day for most people. Charging: 25W Fast Charging. Software support: 2 years of OS updates; 4 years of security updates.</p>
 <p>Buying new instead? A current Samsung alternative is the <a href="/products/samsung-galaxy-a07">Samsung Galaxy A07</a> (Rs 25,499).</p>
 HTML,
         'faqs' => [
